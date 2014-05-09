@@ -1,0 +1,904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleName" lastModified="2014-04-07T14:32:44">
+    <value>Lists</value>
+    <comment>Name of the lists module</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Lists module for Sitefinity</value>
+    <comment>Description of the lists module</comment>
+  </data>
+  <data name="ListsNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Lists</value>
+    <comment>Title of the lists node</comment>
+  </data>
+  <data name="ListsNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Group page that contains all the pages used by the lists module.</value>
+    <comment>Description of the lists node</comment>
+  </data>
+  <data name="ListsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Lists</value>
+    <comment>Title of the lists page</comment>
+  </data>
+  <data name="ListsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page that provides the homepage for the lists module.</value>
+    <comment>Description of the lists landing page.</comment>
+  </data>
+  <data name="Lists" lastModified="2014-04-07T14:32:44">
+    <value>Lists</value>
+    <comment>word: Lists</comment>
+  </data>
+  <data name="ListsPluralTypeName" lastModified="2014-04-07T14:32:44">
+    <value>Lists</value>
+    <comment>Lists type name</comment>
+  </data>
+  <data name="ListsSingleTypeName" lastModified="2014-04-07T14:32:44">
+    <value>List</value>
+    <comment>Lists type name</comment>
+  </data>
+  <data name="ListItemsPluralTypeName" lastModified="2014-04-07T14:32:44">
+    <value>List Items</value>
+    <comment>ListItem type name</comment>
+  </data>
+  <data name="ListItemsSingleTypeName" lastModified="2014-04-07T14:32:44">
+    <value>List Item</value>
+    <comment>Lists type name</comment>
+  </data>
+  <data name="CreateAList" lastModified="2014-04-07T14:32:44">
+    <value>Create a list</value>
+    <comment>phrase: Create a list</comment>
+  </data>
+  <data name="CreateThisList" lastModified="2014-04-07T14:32:44">
+    <value>Create this list</value>
+    <comment>phrase: Create this list</comment>
+  </data>
+  <data name="CreateAListItem" lastModified="2014-04-07T14:32:44">
+    <value>Create a list item</value>
+    <comment>phrase: Create a list item</comment>
+  </data>
+  <data name="EditList" lastModified="2014-04-07T14:32:44">
+    <value>Edit list</value>
+    <comment>Text that displays next to each List in the grid view of all Lists.</comment>
+  </data>
+  <data name="EditListItems" lastModified="2014-04-07T14:32:44">
+    <value>Edit list</value>
+    <comment>Text that displays next to each List in the grid view of all Lists.</comment>
+  </data>
+  <data name="EditListItem" lastModified="2014-04-07T14:32:44">
+    <value>Edit list item</value>
+    <comment>Text that displays at the top of the screen for editing a list item.</comment>
+  </data>
+  <data name="Title" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="TitleColumn" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="TitleExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;Frequently asked questions&lt;/em&gt;</value>
+    <comment>Example for the Title field of the lists</comment>
+  </data>
+  <data name="BackToAllListItems" lastModified="2014-04-07T14:32:44">
+    <value>Back to all list items</value>
+    <comment>phrase: Back to all list items</comment>
+  </data>
+  <data name="BackToFrontend" lastModified="2014-04-07T14:32:44">
+    <value>Back to frontend</value>
+    <comment>phrase: Back to frontend</comment>
+  </data>
+  <data name="SetPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Set permissions</value>
+    <comment>phrase: Set permissions</comment>
+  </data>
+  <data name="NoLists" lastModified="2014-04-07T14:32:44">
+    <value>No lists have been created yet</value>
+    <comment>phrase: No lists have been created yet</comment>
+  </data>
+  <data name="NoListItems" lastModified="2014-04-07T14:32:44">
+    <value>No list items have been created yet</value>
+    <comment>phrase: No list items have been created yet</comment>
+  </data>
+  <data name="CreateListItem" lastModified="2014-04-07T14:32:44">
+    <value>Create a list item</value>
+    <comment>Text of the button that creates a new list item</comment>
+  </data>
+  <data name="CreateList" lastModified="2014-04-07T14:32:44">
+    <value>Create a list</value>
+    <comment>Text of the button that creates a new list</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Title cannot be empty</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="ListUrlName" lastModified="2014-04-07T14:32:44">
+    <value>List URL</value>
+    <comment>phrase: List URL</comment>
+  </data>
+  <data name="MoreActions" lastModified="2014-04-07T14:32:44">
+    <value>More actions</value>
+    <comment>phrase: More actions</comment>
+  </data>
+  <data name="ListItems" lastModified="2014-04-07T14:32:44">
+    <value>ListItems</value>
+    <comment>word: ListItems</comment>
+  </data>
+  <data name="ListItemsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Items</value>
+    <comment>Message: Items</comment>
+  </data>
+  <data name="ListItemsUrlTitle" lastModified="2014-04-07T14:32:44">
+    <value>ListItems</value>
+    <comment>Message: ListItems</comment>
+  </data>
+  <data name="ListItemsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>List Items</value>
+    <comment>Message: List Items</comment>
+  </data>
+  <data name="ListItemsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page that provides a collection of items for a given list in the list module.</value>
+    <comment>Description of the list items page</comment>
+  </data>
+  <data name="ViewAllLists" lastModified="2014-04-07T14:32:44">
+    <value>All lists</value>
+    <comment>Text of the link that will show the view that lists all list.</comment>
+  </data>
+  <data name="ListItemTitleFormat" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;{0}&lt;/em&gt;</value>
+    <comment>Title format for the list items view</comment>
+  </data>
+  <data name="ItemsLiteral" lastModified="2014-04-07T14:32:44">
+    <value>items</value>
+    <comment>Word: items</comment>
+  </data>
+  <data name="AddNewListItem" lastModified="2014-04-07T14:32:44">
+    <value>Add new list item</value>
+    <comment>Phrase: Add new list item</comment>
+  </data>
+  <data name="ChangeOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change owner</value>
+    <comment>Phrase: Change owner</comment>
+  </data>
+  <data name="ListsDataFields" lastModified="2014-04-07T14:32:44">
+    <value>Lists data fields</value>
+    <comment>phrase: Lists data fields</comment>
+  </data>
+  <data name="ListPluralItemName" lastModified="2014-04-07T14:32:44">
+    <value>lists</value>
+    <comment>Word: lists</comment>
+  </data>
+  <data name="ListItemDataFields" lastModified="2014-04-07T14:32:44">
+    <value>List item data fields</value>
+    <comment>phrase: List item data fields</comment>
+  </data>
+  <data name="ListItemPluralItemName" lastModified="2014-04-07T14:32:44">
+    <value>list items</value>
+    <comment>Word: list items</comment>
+  </data>
+  <data name="PermissionsForListItems" lastModified="2014-04-07T14:32:44">
+    <value>Permissions for list items</value>
+    <comment>phrase: Permissions for list items</comment>
+  </data>
+  <data name="ListProperties" lastModified="2014-04-07T14:32:44">
+    <value>Title &amp; Properties</value>
+    <comment>Phrase: Title &amp; properties</comment>
+  </data>
+  <data name="ListItemLiteral" lastModified="2014-04-07T14:32:44">
+    <value>items</value>
+    <comment>A literal for 'list item'</comment>
+  </data>
+  <data name="LastListItemLiteral" lastModified="2014-04-07T14:32:44">
+    <value>Last list item:</value>
+    <comment>A literal for 'Last list item'</comment>
+  </data>
+  <data name="ForAllListsLabel" lastModified="2014-04-07T14:32:44">
+    <value>Filter lists</value>
+    <comment>Title: For all lists ...</comment>
+  </data>
+  <data name="DeleteList" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Label for the 'delete list' command</comment>
+  </data>
+  <data name="ListsWithoutListItems" lastModified="2014-04-07T14:32:44">
+    <value>Lists without items</value>
+    <comment>Label: Lists without items</comment>
+  </data>
+  <data name="CustomFieldsForListItems" lastModified="2014-04-07T14:32:44">
+    <value>Custom fields for list items</value>
+    <comment>phrase: Custom fields for list items</comment>
+  </data>
+  <data name="BackToLists" lastModified="2014-04-07T14:32:44">
+    <value>Back to lists</value>
+    <comment>phrase: Back to lists</comment>
+  </data>
+  <data name="ManageListItems" lastModified="2014-04-07T14:32:44">
+    <value>Manage list items</value>
+    <comment>phrase: Manage list items</comment>
+  </data>
+  <data name="ListItemsByCategory" lastModified="2014-04-07T14:32:44">
+    <value>List items by category</value>
+    <comment>Phrase: List items by category</comment>
+  </data>
+  <data name="ListItemsByTag" lastModified="2014-04-07T14:32:44">
+    <value>List items by tag</value>
+    <comment>Phrase: List items by tag</comment>
+  </data>
+  <data name="DisplayLastUpdatedListItems" lastModified="2014-04-07T14:32:44">
+    <value>Display list items last updated in...</value>
+    <comment>The text of last updated list items sidebar button</comment>
+  </data>
+  <data name="Filter" lastModified="2014-04-07T14:32:44">
+    <value>Filter</value>
+    <comment>word: Filter</comment>
+  </data>
+  <data name="AllListItems" lastModified="2014-04-07T14:32:44">
+    <value>All list items</value>
+    <comment>Phrase: All list items</comment>
+  </data>
+  <data name="MyListItems" lastModified="2014-04-07T14:32:44">
+    <value>My list items</value>
+    <comment>The text of my list items sidebar button</comment>
+  </data>
+  <data name="DraftListItems" lastModified="2014-04-07T14:32:44">
+    <value>Draft list items</value>
+    <comment>The text of draft list items sidebar button</comment>
+  </data>
+  <data name="PublishedListItems" lastModified="2014-04-07T14:32:44">
+    <value>Published list items</value>
+    <comment>The text of published list items sidebar button</comment>
+  </data>
+  <data name="ManageAlso" lastModified="2014-04-07T14:32:44">
+    <value>Manage also</value>
+    <comment>phrase: Manage also</comment>
+  </data>
+  <data name="GroupDeleteListItems" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Text of the button that performs a group delete for list items</comment>
+  </data>
+  <data name="Publish" lastModified="2014-04-07T14:32:44">
+    <value>Publish</value>
+    <comment>word: Publish</comment>
+  </data>
+  <data name="Unpublish" lastModified="2014-04-07T14:32:44">
+    <value>Unpublish</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="CloseDateFilter" lastModified="2014-04-07T14:32:44">
+    <value>Close dates</value>
+    <comment>The link for closing the date filter widget in the sidebar</comment>
+  </data>
+  <data name="ByDateModified" lastModified="2014-04-07T14:32:44">
+    <value>by Date modified...</value>
+    <comment>The text of the date filter sidebar button</comment>
+  </data>
+  <data name="CommentsForListItems" lastModified="2014-04-07T14:32:44">
+    <value>Comments</value>
+    <comment>phrase: Comments</comment>
+  </data>
+  <data name="ClickToAddSummary" lastModified="2014-04-07T14:32:44">
+    <value>Click to add summary</value>
+    <comment>Click to add summary</comment>
+  </data>
+  <data name="CategoriesAndTags" lastModified="2014-04-07T14:32:44">
+    <value>Categories and tags</value>
+    <comment>phrase: Categories and tags</comment>
+  </data>
+  <data name="MoreOptionsURL" lastModified="2014-04-07T14:32:44">
+    <value>More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>URL cannot be empty</value>
+    <comment>URL cannot be empty</comment>
+  </data>
+  <data name="UrlNameInvalidSymbols" lastModified="2014-04-07T14:32:44">
+    <value>The URL contains invalid symbols.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>Phrase: Save changes</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="ListsMasterAnchorViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>List items - Anchor list</value>
+    <comment>Phrase: List items - Anchor list</comment>
+  </data>
+  <data name="ListsMasterExpandableViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>List items - Expandable list</value>
+    <comment>Phrase: List items - Expandable list</comment>
+  </data>
+  <data name="ListsMasterExpandedViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>List items - Expanded list</value>
+    <comment>Phrase: List items - Expanded list</comment>
+  </data>
+  <data name="ListsMasterPageViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>List items - Page list</value>
+    <comment>Phrase: List items - Page list</comment>
+  </data>
+  <data name="ListsMasterSimpleViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>List items - Simple list</value>
+    <comment>Phrase: List items - Simple list</comment>
+  </data>
+  <data name="ListsDetailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>List items - single</value>
+    <comment>Phrase: List items - single</comment>
+  </data>
+  <data name="ListItemViewPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Lists</value>
+    <comment>word: Lists</comment>
+  </data>
+  <data name="EditListItemsSettings" lastModified="2014-04-07T14:32:44">
+    <value>Edit List items settings</value>
+    <comment>Phrase: Edit List items settings</comment>
+  </data>
+  <data name="SelectedListWasDeletedSelectAnotherList" lastModified="2014-04-07T14:32:44">
+    <value>The selected list was deleted. Please select another list.</value>
+    <comment>phrase: The selected list was deleted. Please select another list.</comment>
+  </data>
+  <data name="SelectedListWasDeleted" lastModified="2014-04-07T14:32:44">
+    <value>The selected list was deleted</value>
+    <comment>phrase: The selected list was deleted</comment>
+  </data>
+  <data name="NonexistentList" lastModified="2014-04-07T14:32:44">
+    <value>nonexistent list</value>
+    <comment>phrase: nonexistent list</comment>
+  </data>
+  <data name="ListItemsViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>List</value>
+    <comment>Messsage: List items</comment>
+  </data>
+  <data name="ListItemsViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>Displaying items of already created list</value>
+    <comment>Describes the ListItemsView title in the toolbox</comment>
+  </data>
+  <data name="CreateThisListItem" lastModified="2014-04-07T14:32:44">
+    <value>Create this list item</value>
+    <comment>phrase: Create this list item</comment>
+  </data>
+  <data name="Order" lastModified="2014-04-07T14:32:44">
+    <value>Order</value>
+    <comment>word: Order</comment>
+  </data>
+  <data name="Ordinal" lastModified="2014-04-07T14:32:44">
+    <value>Ordinal</value>
+    <comment>word: Ordinal</comment>
+  </data>
+  <data name="Manually" lastModified="2014-04-07T14:32:44">
+    <value>Manually</value>
+    <comment>word: Manually</comment>
+  </data>
+  <data name="AlphabeticallyAZ" lastModified="2014-04-07T14:32:44">
+    <value>Alphabetically (A-Z)</value>
+    <comment>word: Alphabetically (A-Z)</comment>
+  </data>
+  <data name="AlphabeticallyZA" lastModified="2014-04-07T14:32:44">
+    <value>Alphabetically (Z-A)</value>
+    <comment>word: Alphabetically (Z-A)</comment>
+  </data>
+  <data name="LastModifiedTop" lastModified="2014-04-07T14:32:44">
+    <value>Last modified on top</value>
+    <comment>phrase: Last modified on top</comment>
+  </data>
+  <data name="LastModifiedBottom" lastModified="2014-04-07T14:32:44">
+    <value>Last modified on bottom</value>
+    <comment>phrase: Last modified on bottom</comment>
+  </data>
+  <data name="ItemUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Item URL</value>
+    <comment>phrase: Item URL</comment>
+  </data>
+  <data name="Tags" lastModified="2014-04-07T14:32:44">
+    <value>Tags</value>
+    <comment>word: Tags</comment>
+  </data>
+  <data name="Category" lastModified="2014-04-07T14:32:44">
+    <value>Category</value>
+    <comment>word: Category</comment>
+  </data>
+  <data name="Language" lastModified="2014-04-07T14:32:44">
+    <value>Language</value>
+    <comment>word: Language</comment>
+  </data>
+  <data name="ChooseLists" lastModified="2014-04-07T14:32:44">
+    <value>Choose Lists</value>
+    <comment>phrase: Choose Lists</comment>
+  </data>
+  <data name="NarrowListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Narrow by typing list title</value>
+    <comment>phrase: Narrow by typing list title</comment>
+  </data>
+  <data name="ChooseListItem" lastModified="2014-04-07T14:32:44">
+    <value>Choose a List Item</value>
+    <comment>phrase: Choose a List Item</comment>
+  </data>
+  <data name="NarrowListItemTitle" lastModified="2014-04-07T14:32:44">
+    <value>Narrow by typing list item title</value>
+    <comment>phrase: Narrow by typing list item title</comment>
+  </data>
+  <data name="WhichListItemsToDisplay" lastModified="2014-04-07T14:32:44">
+    <value>Which list items to display?</value>
+    <comment>phrase: Which list items to display?</comment>
+  </data>
+  <data name="FilterListItems" lastModified="2014-04-07T14:32:44">
+    <value>Filter list items...</value>
+    <comment>phrase: Filter list items...</comment>
+  </data>
+  <data name="FromAllLists" lastModified="2014-04-07T14:32:44">
+    <value>From all lists</value>
+    <comment>phrase: From all lists</comment>
+  </data>
+  <data name="FromSelectedListsOnly" lastModified="2014-04-07T14:32:44">
+    <value>From selected lists only...</value>
+    <comment>phrase: From selected lists only...</comment>
+  </data>
+  <data name="ListNotSelected" lastModified="2014-04-07T14:32:44">
+    <value>List is not selected</value>
+    <comment>phrase: List is not selected</comment>
+  </data>
+  <data name="SelectList" lastModified="2014-04-07T14:32:44">
+    <value>Select a list</value>
+    <comment>phrase: Select a list</comment>
+  </data>
+  <data name="SelectLists" lastModified="2014-04-07T14:32:44">
+    <value>Select lists</value>
+    <comment>phrase: Select lists</comment>
+  </data>
+  <data name="SetWhichListToDisplay" lastModified="2014-04-07T14:32:44">
+    <value>Set which list to display</value>
+    <comment>phrase: Set which list to display</comment>
+  </data>
+  <data name="NarrowSelectionComplementoryText" lastModified="2014-04-07T14:32:44">
+    <value>Narrow selection &lt;span class='sfNote'&gt;(by category, tag, date)&lt;/span&gt;</value>
+    <comment>Narrow selection complementory text</comment>
+  </data>
+  <data name="AllPublishedListItemsFromSelectedLists" lastModified="2014-04-07T14:32:44">
+    <value>All published list items from selected lists</value>
+    <comment>phrase: All published list items from selected lists</comment>
+  </data>
+  <data name="OneParticularListItemOnly" lastModified="2014-04-07T14:32:44">
+    <value>One particular list item only...</value>
+    <comment>phrase: One particular list item only...</comment>
+  </data>
+  <data name="NoSelectedListItem" lastModified="2014-04-07T14:32:44">
+    <value>No selected list item</value>
+    <comment>phrase: No selected list item</comment>
+  </data>
+  <data name="SelectListItem" lastModified="2014-04-07T14:32:44">
+    <value>Select a list item</value>
+    <comment>phrase: Select a list item</comment>
+  </data>
+  <data name="SelectionOfListItems" lastModified="2014-04-07T14:32:44">
+    <value>Selection of list items:</value>
+    <comment>phrase: Selection of list items:</comment>
+  </data>
+  <data name="DisplayListItemsPublishedIn" lastModified="2014-04-07T14:32:44">
+    <value>Display list items published in...</value>
+    <comment>phrase: Display list items published in...</comment>
+  </data>
+  <data name="ListPermissions" lastModified="2014-04-07T14:32:44">
+    <value>List Permissions</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ListPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Description for list permissions.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ViewList" lastModified="2014-04-07T14:32:44">
+    <value>View a list</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ViewListDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing a particular list.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="CreateListDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of a new list.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="DeleteListPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Delete list and its items</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="DeleteListDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a particular list.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ChangeListOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change a list's owner</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ChangeListOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of a list.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ChangeListPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change a list's permissions</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ChangeListPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of a list.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ListItemPermissions" lastModified="2014-04-07T14:32:44">
+    <value>List item permissions</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ListItemPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Description for list item permissions.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ViewListItem" lastModified="2014-04-07T14:32:44">
+    <value>View list items</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ViewListItemDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing list items.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ManageListItem" lastModified="2014-04-07T14:32:44">
+    <value>Manage list items</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ManageList" lastModified="2014-04-07T14:32:44">
+    <value>Manage lists</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ManageListItemDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies managing list items.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ChangeListItemOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change list item owner</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ChangeListItemOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing a list item owner.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ChangeListItemPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change list item permissions</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="ChangeListItemPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing  list item permissions.</value>
+    <comment>Used in the permissions dialog</comment>
+  </data>
+  <data name="PagesWhereListItemsArePublished" lastModified="2014-04-07T14:32:44">
+    <value>Pages where list items are published.</value>
+    <comment>Pages where list items are published.</comment>
+  </data>
+  <data name="FilterLists" lastModified="2014-04-07T14:32:44">
+    <value>Filter lists</value>
+    <comment>phrase: Filter lists</comment>
+  </data>
+  <data name="ManageLists" lastModified="2014-04-07T14:32:44">
+    <value>Manage Lists</value>
+    <comment>word: Manage Lists</comment>
+  </data>
+  <data name="AllLists" lastModified="2014-04-07T14:32:44">
+    <value>All lists</value>
+    <comment>Phrase: All lists</comment>
+  </data>
+  <data name="MyLists" lastModified="2014-04-07T14:32:44">
+    <value>My lists</value>
+    <comment>phrase: The text of my lists sidebar button</comment>
+  </data>
+  <data name="SettingsForLists" lastModified="2014-04-07T14:32:44">
+    <value>Settings for lists</value>
+    <comment>phrase: Settings for lists</comment>
+  </data>
+  <data name="PagesWhereListsArePublished" lastModified="2014-04-07T14:32:44">
+    <value>Pages where Lists are published</value>
+    <comment>Pages where Lists are published</comment>
+  </data>
+  <data name="ReadMore" lastModified="2014-04-07T14:32:44">
+    <value>Read more...</value>
+    <comment>phrase: Read more...</comment>
+  </data>
+  <data name="Collapse" lastModified="2014-04-07T14:32:44">
+    <value>Collapse</value>
+    <comment>word: Collapse</comment>
+  </data>
+  <data name="SortListItems" lastModified="2014-04-07T14:32:44">
+    <value>Sort items</value>
+    <comment>phrase: Sort items </comment>
+  </data>
+  <data name="More" lastModified="2014-04-07T14:32:44">
+    <value>More</value>
+    <comment>word: More</comment>
+  </data>
+  <data name="ByHierarchy" lastModified="2014-04-07T14:32:44">
+    <value>By hierarchy</value>
+    <comment>phrase: By hierarchy</comment>
+  </data>
+  <data name="NewCreatedFirst" lastModified="2014-04-07T14:32:44">
+    <value>Last created on top</value>
+    <comment>phrase: Last created on top</comment>
+  </data>
+  <data name="NewModifiedFirst" lastModified="2014-04-07T14:32:44">
+    <value>Last modified on top</value>
+    <comment>phrase: Last modified on top</comment>
+  </data>
+  <data name="AlphabeticallyAsc" lastModified="2014-04-07T14:32:44">
+    <value>Alphabetically (A-Z)</value>
+    <comment>phrase: Alphabetically (A-Z)</comment>
+  </data>
+  <data name="AlphabeticallyDesc" lastModified="2014-04-07T14:32:44">
+    <value>Alphabetically (Z-A)</value>
+    <comment>phrase: Alphabetically (Z-A)</comment>
+  </data>
+  <data name="Actions" lastModified="2014-04-07T14:32:44">
+    <value>Actions</value>
+    <comment>word: Actions</comment>
+  </data>
+  <data name="View" lastModified="2014-04-07T14:32:44">
+    <value>View</value>
+    <comment>word: View</comment>
+  </data>
+  <data name="ViewProperties" lastModified="2014-04-07T14:32:44">
+    <value>Properties</value>
+    <comment>word: Properties</comment>
+  </data>
+  <data name="Content" lastModified="2014-04-07T14:32:44">
+    <value>Content</value>
+    <comment>word: Content</comment>
+  </data>
+  <data name="Edit" lastModified="2014-04-07T14:32:44">
+    <value>Edit</value>
+    <comment>word: Edit</comment>
+  </data>
+  <data name="TitleAndProperties" lastModified="2014-04-07T14:32:44">
+    <value>Title &amp; Properties</value>
+    <comment>word: Title &amp; Properties</comment>
+  </data>
+  <data name="EditSeparator" lastModified="2014-04-07T14:32:44">
+    <value>Edit...</value>
+    <comment>word: Edit...</comment>
+  </data>
+  <data name="Delete" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>word: Delete</comment>
+  </data>
+  <data name="Permissions" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>word: Permissions</comment>
+  </data>
+  <data name="PermissionsForLists" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>phrase: Permissions for lists</comment>
+  </data>
+  <data name="Settings" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>word: Settings</comment>
+  </data>
+  <data name="CustomFields" lastModified="2014-04-07T14:32:44">
+    <value>Custom Fields for lists</value>
+    <comment>phrase: Custom Fields for lists</comment>
+  </data>
+  <data name="WhoCanPostComments" lastModified="2014-04-07T14:32:44">
+    <value>Who can post comments</value>
+    <comment>WhoCanPostComments</comment>
+  </data>
+  <data name="OnlyRegisteredUsers" lastModified="2014-04-07T14:32:44">
+    <value>Only registered users</value>
+    <comment>Phrase: Only registered user</comment>
+  </data>
+  <data name="Anyone" lastModified="2014-04-07T14:32:44">
+    <value>Anyone</value>
+    <comment>Phrase: Anyone</comment>
+  </data>
+  <data name="CommentsApproved" lastModified="2014-04-07T14:32:44">
+    <value>Comments have to be approved before appearing on the site</value>
+    <comment>Phrase: Comments have to be approved before appearing on the site</comment>
+  </data>
+  <data name="EmailAuthor" lastModified="2014-04-07T14:32:44">
+    <value>Email the post author whenever a new comment is submitted</value>
+    <comment>Phrase: Email the post author whenever a new comment is submitted</comment>
+  </data>
+  <data name="AllowTrackBacks" lastModified="2014-04-07T14:32:44">
+    <value>Allow trackbacks</value>
+    <comment>Phrase: Allow trackbacks</comment>
+  </data>
+  <data name="AllowComments" lastModified="2014-04-07T14:32:44">
+    <value>Allow comments</value>
+    <comment>phrase: Allow comments</comment>
+  </data>
+  <data name="WhichListsToDisplay" lastModified="2014-04-07T14:32:44">
+    <value>Which lists to display?</value>
+    <comment>phrase: Which lists to display?</comment>
+  </data>
+  <data name="SimpleList" lastModified="2014-04-07T14:32:44">
+    <value>Simple list</value>
+    <comment>phrase: Simple list</comment>
+  </data>
+  <data name="ExpandedList" lastModified="2014-04-07T14:32:44">
+    <value>Expanded list</value>
+    <comment>phrase: Expanded list</comment>
+  </data>
+  <data name="ExpandableList" lastModified="2014-04-07T14:32:44">
+    <value>Expandable list</value>
+    <comment>phrase: Expandable list</comment>
+  </data>
+  <data name="AnchorList" lastModified="2014-04-07T14:32:44">
+    <value>Anchor list</value>
+    <comment>phrase: Anchor list</comment>
+  </data>
+  <data name="PageList" lastModified="2014-04-07T14:32:44">
+    <value>Page list (open each item in separate page)</value>
+    <comment>phrase: Page list (open each item in separate page)</comment>
+  </data>
+  <data name="CreateNewTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create New Template</value>
+    <comment>phrase: Create New Template</comment>
+  </data>
+  <data name="EditTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Edit Selected Template...</value>
+    <comment>phrase: Edit Selected Template...</comment>
+  </data>
+  <data name="TitlesDisplayName" lastModified="2014-04-07T14:32:44">
+    <value>Titles</value>
+    <comment>phrase: Titles</comment>
+  </data>
+  <data name="DetailsDisplayName" lastModified="2014-04-07T14:32:44">
+    <value>Details</value>
+    <comment>phrase: Details</comment>
+  </data>
+  <data name="TitlesAndContentsDisplayName" lastModified="2014-04-07T14:32:44">
+    <value>Titles and full content</value>
+    <comment>phrase: Titles and full content</comment>
+  </data>
+  <data name="NoListsSelectedYet" lastModified="2014-04-07T14:32:44">
+    <value>No lists selected yet</value>
+    <comment>Phrase: No lists selected yet</comment>
+  </data>
+  <data name="Sort" lastModified="2014-04-07T14:32:44">
+    <value>Sort</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ByTitleAsc" lastModified="2014-04-07T14:32:44">
+    <value>By Title (A-Z)</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ByTitleDesc" lastModified="2014-04-07T14:32:44">
+    <value>By Title (Z-A)</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="MostUsedOnTop" lastModified="2014-04-07T14:32:44">
+    <value>Most used on top</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="CustomSorting" lastModified="2014-04-07T14:32:44">
+    <value>Custom sorting...</value>
+    <comment>Phrase: Custom sorting...</comment>
+  </data>
+  <data name="SettingsForListItems" lastModified="2014-04-07T14:32:44">
+    <value>Settings for list items.</value>
+    <comment>Phrase: Settings for list items.</comment>
+  </data>
+  <data name="CommentsForLists" lastModified="2014-04-07T14:32:44">
+    <value>Comments for lists</value>
+    <comment>phrase: Comments for lists</comment>
+  </data>
+</root>

@@ -1,0 +1,1700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContentTypesModuleTitle" lastModified="2014-04-07T14:32:44">
+    <value>Module builder</value>
+    <comment>Title of the module for creating custom modules</comment>
+  </data>
+  <data name="ContentTypesModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>The module that allows users to create custom modules</value>
+    <comment>Description of the module for creating custom modules</comment>
+  </data>
+  <data name="ContentTypesModuleUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Module-builder</value>
+    <comment>Url name of the module for creating custom modules</comment>
+  </data>
+  <data name="ContentTypesDashboardUrlName" lastModified="2014-04-07T14:32:44">
+    <value>dashboard</value>
+    <comment>Url name of the dashboard page of the custom modules</comment>
+  </data>
+  <data name="NoModulesHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+    <value>No modules have been created yet</value>
+    <comment>Message shown to users when no dynamic modules exist</comment>
+  </data>
+  <data name="CreateAModule" lastModified="2014-04-07T14:32:44">
+    <value>Create a module</value>
+    <comment>phrase: Create a module</comment>
+  </data>
+  <data name="DeactivateAction" lastModified="2014-04-07T14:32:44">
+    <value>Deactivate</value>
+    <comment>Actions menu: Deactivate</comment>
+  </data>
+  <data name="ActivateAction" lastModified="2014-04-07T14:32:44">
+    <value>Activate</value>
+    <comment>Actions menu: Activate</comment>
+  </data>
+  <data name="ExportStructureAction" lastModified="2014-04-07T14:32:44">
+    <value>Export structure</value>
+    <comment>Actions menu: Export structure</comment>
+  </data>
+  <data name="ImportStructureAction" lastModified="2014-04-07T14:32:44">
+    <value>Import new structure and settings</value>
+    <comment>Actions menu: Import new structure and settings</comment>
+  </data>
+  <data name="ExportContentAction" lastModified="2014-04-07T14:32:44">
+    <value>Export content</value>
+    <comment>Actions menu: Export content</comment>
+  </data>
+  <data name="DeleteAction" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Actions menu: Delete</comment>
+  </data>
+  <data name="ContentTypes" lastModified="2014-04-07T14:32:44">
+    <value>Modules</value>
+    <comment>phrase: Modules</comment>
+  </data>
+  <data name="CreateAContentType" lastModified="2014-04-07T14:32:44">
+    <value>Create a module</value>
+    <comment>phrase: Create a module</comment>
+  </data>
+  <data name="ContentTypeNameHeader" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>Title of the grid column header which displays module name</comment>
+  </data>
+  <data name="ContentTypeDescriptionHeader" lastModified="2014-04-07T14:32:44">
+    <value>Description</value>
+    <comment>Title of the grid column header which displays module description</comment>
+  </data>
+  <data name="ContentTypeActionsHeader" lastModified="2014-04-07T14:32:44">
+    <value>Actions</value>
+    <comment>Title of the grid column header which displays module actions</comment>
+  </data>
+  <data name="ContentTypeLastModifiedOwnerHeader" lastModified="2014-04-07T14:32:44">
+    <value>Last modified / owner</value>
+    <comment>Title of the grid column header which displays module last modified and owner info</comment>
+  </data>
+  <data name="BackToContentTypes" lastModified="2014-04-07T14:32:44">
+    <value>Back to Modules</value>
+    <comment>phrase: Back to modules</comment>
+  </data>
+  <data name="BackTo" lastModified="2014-04-07T14:32:44">
+    <value>Back to</value>
+    <comment>word: Back to</comment>
+  </data>
+  <data name="ContentTypeNameTitle" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>Title of the module name field</comment>
+  </data>
+  <data name="ContentTypeNameExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;Press releases&lt;/em&gt;</value>
+    <comment>Example of the module name field</comment>
+  </data>
+  <data name="ContentTypeDescriptionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Description</value>
+    <comment>Title of the module description field</comment>
+  </data>
+  <data name="Continue" lastModified="2014-04-07T14:32:44">
+    <value>Continue</value>
+    <comment>word: Continue</comment>
+  </data>
+  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>word: Cancel</comment>
+  </data>
+  <data name="ItemTitleTitle" lastModified="2014-04-07T14:32:44">
+    <value>Content type (singular)</value>
+    <comment>phrase: Content type of this module (singular)</comment>
+  </data>
+  <data name="ContentType" lastModified="2014-04-07T14:32:44">
+    <value>Content type</value>
+    <comment>phrase: Content type of this module</comment>
+  </data>
+  <data name="ItemTitleExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;Press release&lt;/em&gt;</value>
+    <comment>phrase: Example: Press release</comment>
+  </data>
+  <data name="ItemNameTitle" lastModified="2014-04-07T14:32:44">
+    <value>Developer name of this content type</value>
+    <comment>phrase: Developer name of the type</comment>
+  </data>
+  <data name="ItemNameDescription" lastModified="2014-04-07T14:32:44">
+    <value>The name used in code. Spaces are not allowed</value>
+    <comment>phrase: The name used in code. Spaces are not allowed</comment>
+  </data>
+  <data name="ItemNameExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example&lt;/strong&gt;: PressRelease</value>
+    <comment>phrase: Example : PressRelease</comment>
+  </data>
+  <data name="Finish" lastModified="2014-04-07T14:32:44">
+    <value>Finish</value>
+    <comment>word: Finish</comment>
+  </data>
+  <data name="UpdateWTemplatesFinish" lastModified="2014-04-07T14:32:44">
+    <value>Update widget templates and finish</value>
+    <comment>phrase: Update widget templates and finish</comment>
+  </data>
+  <data name="ConfirmWidgetTemplateUpdate" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want templates for public widgets to be regenerated?</value>
+    <comment>phrase: Are you sure you want templates for public widgets to be regenerated?</comment>
+  </data>
+  <data name="NoUndoWidgetTemplateUpdate" lastModified="2014-04-07T14:32:44">
+    <value>If you have made changes in the widget templates, they will be discarded. There is no undo.</value>
+    <comment>phrase: If you have made changes in the widget templates, they will be discarded. There is no undo.</comment>
+  </data>
+  <data name="ConfirmDynamicTypeUpdate" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to save the changes to this content type?</value>
+    <comment>phrase: Are you sure you want to save the changes to this content type?</comment>
+  </data>
+  <data name="UpdateWidgetTemplatesCheckboxLabel" lastModified="2014-04-07T14:32:44">
+    <value>Update widget templates as well</value>
+    <comment>phrase: Update widget templates as well</comment>
+  </data>
+  <data name="UpdateWidgetTemplatesWarning" lastModified="2014-04-07T14:32:44">
+    <value>If you have made modifications in widget templates they will be lost</value>
+    <comment>phrase: If you have made modifications in widget templates they will be lost</comment>
+  </data>
+  <data name="YesSaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Yes, save changes</value>
+    <comment>phrase: Yes, save changes</comment>
+  </data>
+  <data name="ChangesWillAffect" lastModified="2014-04-07T14:32:44">
+    <value>Changing parent of this content type will affect:</value>
+    <comment>phrase: Changing parent of this content type will affect:</comment>
+  </data>
+  <data name="AffectedItemsLine1" lastModified="2014-04-07T14:32:44">
+    <value>Widgets in Page toolbox</value>
+    <comment>phrase: Widgets in Page toolbox</comment>
+  </data>
+  <data name="AffectedItemsLine2" lastModified="2014-04-07T14:32:44">
+    <value>URLs of existing content items</value>
+    <comment>phrase: URLs of existing content items</comment>
+  </data>
+  <data name="AffectedItemsLine3" lastModified="2014-04-07T14:32:44">
+    <value>Backend navigation</value>
+    <comment>phrase: Backend navigation</comment>
+  </data>
+  <data name="KeepWidgetsCheckboxLabel" lastModified="2014-04-07T14:32:44">
+    <value>Keep #= ContentTypeItemTitle # widget in the toolbox</value>
+    <comment>phrase: Keep #= ContentTypeItemTitle # widget in the toolbox</comment>
+  </data>
+  <data name="KeepWidgetsWarningLine1" lastModified="2014-04-07T14:32:44">
+    <value>All settings for Images will be moved in the Albums widget.</value>
+    <comment>phrase: All settings for Images will be moved in the Albums widget.</comment>
+  </data>
+  <data name="KeepWidgetsWarningLine2" lastModified="2014-04-07T14:32:44">
+    <value>You can keep the old Images widget in the toolbox, as well.</value>
+    <comment>phrase: You can keep the old Images widget in the toolbox, as well.</comment>
+  </data>
+  <data name="YesUpdateWidgetTemplates" lastModified="2014-04-07T14:32:44">
+    <value>Yes, Save and update widget templates</value>
+    <comment>phrase: Yes, Save and update widget templates</comment>
+  </data>
+  <data name="FieldsOfThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Fields of this item</value>
+    <comment>phrase: Fields of this item</comment>
+  </data>
+  <data name="AddAField" lastModified="2014-04-07T14:32:44">
+    <value>Add a field...</value>
+    <comment>phrase: Add a field...</comment>
+  </data>
+  <data name="FieldNameTitle" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>Title of the field name field</comment>
+  </data>
+  <data name="Or" lastModified="2014-04-07T14:32:44">
+    <value>Or</value>
+    <comment>word: Or</comment>
+  </data>
+  <data name="MainShortFieldSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Which field is the identifier of the content?</value>
+    <comment>phrase: Which field is the identifier of the content?</comment>
+  </data>
+  <data name="MainShortFieldSectionDescription" lastModified="2014-04-07T14:32:44">
+    <value>It will be displayed in lists of content items and will be used for URL-generating</value>
+    <comment>phrase: It will be displayed in lists of content items and will be used for URL-generating</comment>
+  </data>
+  <data name="MainShortFieldSectionExamples" lastModified="2014-04-07T14:32:44">
+    <value>The identificator must be a Required Short text field</value>
+    <comment>phrase: The identificator must be a Required Short text field</comment>
+  </data>
+  <data name="MainShortFieldSectionExamplesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Example</value>
+    <comment>phrase: Title for main short field section</comment>
+  </data>
+  <data name="DefineAContentTypeOf" lastModified="2014-04-07T14:32:44">
+    <value>Define a content type of</value>
+    <comment>phrase: Define a content type of</comment>
+  </data>
+  <data name="BackToModule" lastModified="2014-04-07T14:32:44">
+    <value>Back to Module</value>
+    <comment>Text of the back to module link.</comment>
+  </data>
+  <data name="PublicationDate" lastModified="2014-04-07T14:32:44">
+    <value>Publication date</value>
+    <comment>Text of the publication date header</comment>
+  </data>
+  <data name="AddAFieldTitle" lastModified="2014-04-07T14:32:44">
+    <value>Add a field</value>
+    <comment>Title of the type field editor when adding a new field.</comment>
+  </data>
+  <data name="Type" lastModified="2014-04-07T14:32:44">
+    <value>Type</value>
+    <comment>Header title of the column that displays the type of the item field.</comment>
+  </data>
+  <data name="UrlNameExample" lastModified="2014-04-07T14:32:44">
+    <value>Url example: my-first-blog-post</value>
+    <comment>Example url</comment>
+  </data>
+  <data name="ShortText" lastModified="2014-04-07T14:32:44">
+    <value>Short text</value>
+    <comment>phrase: Short text</comment>
+  </data>
+  <data name="LongText" lastModified="2014-04-07T14:32:44">
+    <value>Long text</value>
+    <comment>phrase: Long text</comment>
+  </data>
+  <data name="MultipleChoice" lastModified="2014-04-07T14:32:44">
+    <value>Choices</value>
+    <comment>phrase: Choices</comment>
+  </data>
+  <data name="YesNo" lastModified="2014-04-07T14:32:44">
+    <value>Yes / No</value>
+    <comment>phrase: Yes / No</comment>
+  </data>
+  <data name="Currency" lastModified="2014-04-07T14:32:44">
+    <value>Currency</value>
+    <comment>word: Currency</comment>
+  </data>
+  <data name="DateAndTime" lastModified="2014-04-07T14:32:44">
+    <value>Date and Time</value>
+    <comment>phrase: Date and time</comment>
+  </data>
+  <data name="Number" lastModified="2014-04-07T14:32:44">
+    <value>Number</value>
+    <comment>word: Number</comment>
+  </data>
+  <data name="Classification" lastModified="2014-04-07T14:32:44">
+    <value>Classification</value>
+    <comment>word: Classification</comment>
+  </data>
+  <data name="Unknown" lastModified="2014-04-07T14:32:44">
+    <value>Unknown</value>
+    <comment>word: Unknown</comment>
+  </data>
+  <data name="Guid" lastModified="2014-04-07T14:32:44">
+    <value>GUID (Globally unique identifier)</value>
+    <comment>word: GUID</comment>
+  </data>
+  <data name="GuidArray" lastModified="2014-04-07T14:32:44">
+    <value>Array of GUIDs</value>
+    <comment>phrase: Array of GUIDs</comment>
+  </data>
+  <data name="FieldAccessibleThroughAPI" lastModified="2014-04-07T14:32:44">
+    <value>This field has no user interface and is accessible only throuh API.</value>
+    <comment>phrase: This field has no user interface and is accessible only throuh API.</comment>
+  </data>
+  <data name="NoNeedOfContentGuid" lastModified="2014-04-07T14:32:44">
+    <value>You don't need to add a GUID as identifier of this content, as this is done automatically.</value>
+    <comment>phrase: You don't need to add a GUID as identifier of this content, as this is done automatically.</comment>
+  </data>
+  <data name="UseFieldForOneToOneRelation" lastModified="2014-04-07T14:32:44">
+    <value>Use this field to store information related to this content type, e.g. to relate an item from another type using API.</value>
+    <comment>phrase: Use this field to store information related to this content type, e.g. to an item from another type using API.</comment>
+  </data>
+  <data name="UseFieldForOneToManyRelation" lastModified="2014-04-07T14:32:44">
+    <value>Use this field to store information related to this content type, e.g. to relate multiple items from another type using API.</value>
+    <comment>phrase: Use this field to store information related to this content type, e.g. to relate multiple items from another type using API.</comment>
+  </data>
+  <data name="Media" lastModified="2014-04-07T14:32:44">
+    <value>Media (images, videos, files)</value>
+    <comment>word: Media fields</comment>
+  </data>
+  <data name="MediaTypes" lastModified="2014-04-07T14:32:44">
+    <value>What kind of media this field will manage?</value>
+    <comment>word: MediaTypes</comment>
+  </data>
+  <data name="ImageMediaField" lastModified="2014-04-07T14:32:44">
+    <value>Images</value>
+    <comment>Image media field type radio button</comment>
+  </data>
+  <data name="VideoMediaField" lastModified="2014-04-07T14:32:44">
+    <value>Video</value>
+    <comment>Video media field type radio button</comment>
+  </data>
+  <data name="FileMediaField" lastModified="2014-04-07T14:32:44">
+    <value>Documents or other files</value>
+    <comment>File media field type radio button</comment>
+  </data>
+  <data name="Name" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>Header title of the column that displays the name of the item field.</comment>
+  </data>
+  <data name="General" lastModified="2014-04-07T14:32:44">
+    <value>General</value>
+    <comment>Title of the tab for general settings of the dynamic field</comment>
+  </data>
+  <data name="Limitations" lastModified="2014-04-07T14:32:44">
+    <value>Limitations</value>
+    <comment>Title of the tab for limitation settings of the dynamic field</comment>
+  </data>
+  <data name="Label" lastModified="2014-04-07T14:32:44">
+    <value>Label</value>
+    <comment>Title of the label for the dynamic field.</comment>
+  </data>
+  <data name="LabelQuestion" lastModified="2014-04-07T14:32:44">
+    <value>Label (Question)</value>
+    <comment>Title of the label for the dynamic field when type of field is multiple choice.</comment>
+  </data>
+  <data name="Range" lastModified="2014-04-07T14:32:44">
+    <value>Range</value>
+    <comment>Title of the range label for dynamic field.</comment>
+  </data>
+  <data name="Done" lastModified="2014-04-07T14:32:44">
+    <value>Done</value>
+    <comment>word: Done</comment>
+  </data>
+  <data name="Back" lastModified="2014-04-07T14:32:44">
+    <value>Back</value>
+    <comment>word: Back</comment>
+  </data>
+  <data name="ThisIsAHiddenField" lastModified="2014-04-07T14:32:44">
+    <value>This is a hidden field</value>
+    <comment>Label for the checkbox that determines if the field is hidden.</comment>
+  </data>
+  <data name="InterfaceWidgetForEnteringData" lastModified="2014-04-07T14:32:44">
+    <value>Interface widget for entering data</value>
+    <comment>phrase: Interface widget for entering data</comment>
+  </data>
+  <data name="Textbox" lastModified="2014-04-07T14:32:44">
+    <value>Textbox</value>
+    <comment>Name of the textbox widget for short text</comment>
+  </data>
+  <data name="Textarea" lastModified="2014-04-07T14:32:44">
+    <value>Text area</value>
+    <comment>Name of the textarea widget for long text</comment>
+  </data>
+  <data name="WidgetBoxSeparator" lastModified="2014-04-07T14:32:44">
+    <value>------------------------</value>
+    <comment>The separator of widgets in the box for selecting widgets.</comment>
+  </data>
+  <data name="CustomWidget" lastModified="2014-04-07T14:32:44">
+    <value>Custom...</value>
+    <comment>Title of the option for selecting custom widget.</comment>
+  </data>
+  <data name="RichTextEditor" lastModified="2014-04-07T14:32:44">
+    <value>Rich text editor</value>
+    <comment>The name of the rich text editor widget.</comment>
+  </data>
+  <data name="YesNoCheckboxes" lastModified="2014-04-07T14:32:44">
+    <value>Checkbox</value>
+    <comment>phrase: Checkbox</comment>
+  </data>
+  <data name="RadioButtons" lastModified="2014-04-07T14:32:44">
+    <value>Radio buttons</value>
+    <comment>Using radio buttons for selection</comment>
+  </data>
+  <data name="DropDownList" lastModified="2014-04-07T14:32:44">
+    <value>Dropdown list</value>
+    <comment>Using dropdownlist for selection</comment>
+  </data>
+  <data name="Checkboxes" lastModified="2014-04-07T14:32:44">
+    <value>Checkboxes</value>
+    <comment>Using dropdownlist for selection</comment>
+  </data>
+  <data name="ddlMakeRequired" lastModified="2014-04-07T14:32:44">
+    <value>Make required</value>
+    <comment>Make required</comment>
+  </data>
+  <data name="InstructionalChoice" lastModified="2014-04-07T14:32:44">
+    <value>Instructional choice (its value is not submitted)</value>
+    <comment>phrase: Instructional choice (its value is not submitted)</comment>
+  </data>
+  <data name="RequiredCheckBox" lastModified="2014-04-07T14:32:44">
+    <value>It's required at least one checkbox to be checked</value>
+    <comment>It's required at least one checkbox to be checked</comment>
+  </data>
+  <data name="MultipleClassificationItems" lastModified="2014-04-07T14:32:44">
+    <value>Multiple classification items can be selected</value>
+    <comment>Multiple classification items can be selected</comment>
+  </data>
+  <data name="NumberOfImagesText" lastModified="2014-04-07T14:32:44">
+    <value>How many images can be uploaded or selected?</value>
+    <comment>How many images can be uploaded or selected?</comment>
+  </data>
+  <data name="NumberOfVideosText" lastModified="2014-04-07T14:32:44">
+    <value>How many videos can be uploaded or selected?</value>
+    <comment>How many videos can be uploaded or selected?</comment>
+  </data>
+  <data name="NumberOfFilesText" lastModified="2014-04-07T14:32:44">
+    <value>How many files can be uploaded or selected?</value>
+    <comment>How many files can be uploaded or selected?</comment>
+  </data>
+  <data name="SingleImageSelectionText" lastModified="2014-04-07T14:32:44">
+    <value>Only 1 image can be uploaded or selected</value>
+    <comment>Only 1 image can be uploaded or selected</comment>
+  </data>
+  <data name="MultipleImageSelectionText" lastModified="2014-04-07T14:32:44">
+    <value>Multiple images can be uploaded or selected</value>
+    <comment>Multiple images can be uploaded or selected</comment>
+  </data>
+  <data name="SingleVideoSelectionText" lastModified="2014-04-07T14:32:44">
+    <value>Only 1 video can be uploaded or selected</value>
+    <comment>Only 1 video can be uploaded or selected</comment>
+  </data>
+  <data name="MultipleVideoSelectionText" lastModified="2014-04-07T14:32:44">
+    <value>Multiple videos can be uploaded or selected</value>
+    <comment>Multiple videos can be uploaded or selected</comment>
+  </data>
+  <data name="SingleFileSelectionText" lastModified="2014-04-07T14:32:44">
+    <value>Only 1 file can be uploaded or selected</value>
+    <comment>Only 1 file can be uploaded or selected</comment>
+  </data>
+  <data name="MultipleFileSelectionText" lastModified="2014-04-07T14:32:44">
+    <value>Multiple files can be uploaded or selected</value>
+    <comment>Multiple files can be uploaded or selected</comment>
+  </data>
+  <data name="AttachLibraryText" lastModified="2014-04-07T14:32:44">
+    <value>A library can be attached</value>
+    <comment>A library can be attached</comment>
+  </data>
+  <data name="MaxFileSize" lastModified="2014-04-07T14:32:44">
+    <value>Max file size can be uploaded</value>
+    <comment>Max file size can be uploaded</comment>
+  </data>
+  <data name="MB" lastModified="2014-04-07T14:32:44">
+    <value>MB</value>
+    <comment>word: MB for the file size</comment>
+  </data>
+  <data name="AllowedExtensions" lastModified="2014-04-07T14:32:44">
+    <value>File extension allowed (comma separated)</value>
+    <comment>File extension allowed (comma separated)</comment>
+  </data>
+  <data name="SingleClassificationItems" lastModified="2014-04-07T14:32:44">
+    <value>Only one classification item can be selected</value>
+    <comment>Only one classification item can be selected</comment>
+  </data>
+  <data name="CreateItemsWhileSelecting" lastModified="2014-04-07T14:32:44">
+    <value>Allow creating classification items while selecting</value>
+    <comment>Allow creating classification items while selecting</comment>
+  </data>
+  <data name="TextboxSelector" lastModified="2014-04-07T14:32:44">
+    <value>Textbox selector (select as you type)</value>
+    <comment>The name of the textbox selector widget.</comment>
+  </data>
+  <data name="ImageSelector" lastModified="2014-04-07T14:32:44">
+    <value>Image selector</value>
+    <comment>The name of the image selector.</comment>
+  </data>
+  <data name="VideoSelector" lastModified="2014-04-07T14:32:44">
+    <value>Video selector</value>
+    <comment>The name of the video selector.</comment>
+  </data>
+  <data name="FileSelector" lastModified="2014-04-07T14:32:44">
+    <value>File selector</value>
+    <comment>The name of the file selector.</comment>
+  </data>
+  <data name="TreelikeSelector" lastModified="2014-04-07T14:32:44">
+    <value>Tree-like selector (select from a tree)</value>
+    <comment>The name of the tree-like selector widget.</comment>
+  </data>
+  <data name="CustomWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Type or Virtual path of the custom widget</value>
+    <comment>Title of the field for entering the type of custom widget.</comment>
+  </data>
+  <data name="CustomWidgetExample" lastModified="2014-04-07T14:32:44">
+    <value>Type example: CustomControls.MyCustomControlVirtual path&lt;br /&gt; &lt;strong&gt;Example:&lt;/strong&gt; ~/UserControls/MyUserControl.ascx</value>
+    <comment>Example for the possible values of custom widget type.</comment>
+  </data>
+  <data name="DecimalPlaces" lastModified="2014-04-07T14:32:44">
+    <value>Decimal places</value>
+    <comment>phrase: Decimal places</comment>
+  </data>
+  <data name="NoneWholeNumber" lastModified="2014-04-07T14:32:44">
+    <value>None (whole number)</value>
+    <comment>phrase: None (whole number)</comment>
+  </data>
+  <data name="DBType" lastModified="2014-04-07T14:32:44">
+    <value>DB Type</value>
+    <comment>Title of the DBType field property</comment>
+  </data>
+  <data name="DBLength" lastModified="2014-04-07T14:32:44">
+    <value>DB Length</value>
+    <comment>Title of the DBLength field property</comment>
+  </data>
+  <data name="AllowEmptyValues" lastModified="2014-04-07T14:32:44">
+    <value>Allow empty values</value>
+    <comment>Title of the field property which determines weather null values can be inserted.</comment>
+  </data>
+  <data name="IncludeInIndexes" lastModified="2014-04-07T14:32:44">
+    <value>Include in indexes</value>
+    <comment>Title of the field property which determines weather field will be indexed.</comment>
+  </data>
+  <data name="ColumnName" lastModified="2014-04-07T14:32:44">
+    <value>Column name</value>
+    <comment>Title of the field property that determines the name of the column for the field.</comment>
+  </data>
+  <data name="DBPrecision" lastModified="2014-04-07T14:32:44">
+    <value>DB Precision</value>
+    <comment>Title of the field property for database precision</comment>
+  </data>
+  <data name="DBScale" lastModified="2014-04-07T14:32:44">
+    <value>DB Scale</value>
+    <comment>Title of the field property for database scale</comment>
+  </data>
+  <data name="AdvancedDBType" lastModified="2014-04-07T14:32:44">
+    <value>Advanced (DB Type)</value>
+    <comment>Title of the expand advanced section of type editor link.</comment>
+  </data>
+  <data name="Advanced" lastModified="2014-04-07T14:32:44">
+    <value>Advanced</value>
+    <comment>Title of the collapse advanced section of type editor link.</comment>
+  </data>
+  <data name="AdvancedDBTypeExample" lastModified="2014-04-07T14:32:44">
+    <value>(DB Type, SQL DB Type)</value>
+    <comment>Example advanced section of type editor link.</comment>
+  </data>
+  <data name="FieldTitleDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the label of the interface widget for entering data in the field</value>
+    <comment>Description of the field title textbox</comment>
+  </data>
+  <data name="YesNoFieldTitleDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the label of the checkbox</value>
+    <comment>Description of the label textbox for YesNo field</comment>
+  </data>
+  <data name="DateFieldTitleDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the label of the interface widget for selecting date</value>
+    <comment>Description of the label textbox for datetime field</comment>
+  </data>
+  <data name="ClassificationTitleDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the label of the interface widget for selecting classification items</value>
+    <comment>Description of the label textbox for classification field</comment>
+  </data>
+  <data name="ImageTitleDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the label of the interface widget for selecting images</value>
+    <comment>Description of the label textbox for image field</comment>
+  </data>
+  <data name="VideoTitleDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the label of the interface widget for selecting videos</value>
+    <comment>Description of the label textbox for video field</comment>
+  </data>
+  <data name="FileTitleDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the label of the interface widget for selecting files</value>
+    <comment>Description of the label textbox for file field</comment>
+  </data>
+  <data name="InstructionalText" lastModified="2014-04-07T14:32:44">
+    <value>Instructional text</value>
+    <comment>phrase: Instructional text</comment>
+  </data>
+  <data name="InstructionalTextDescription" lastModified="2014-04-07T14:32:44">
+    <value>Displayed bellow the widget. Suitable for giving examples</value>
+    <comment>Description of the input for instructional text of the field</comment>
+  </data>
+  <data name="YesNoInstructionalTextDescription" lastModified="2014-04-07T14:32:44">
+    <value>Displayed bellow the checkbox</value>
+    <comment>Description of the input for instructional text of the YesNo field</comment>
+  </data>
+  <data name="DateTimeInstructionalTextDescription" lastModified="2014-04-07T14:32:44">
+    <value>Displayed bellow the date picker</value>
+    <comment>Description of the input for instructional text of the DateTime field</comment>
+  </data>
+  <data name="MediaInstructionalTextDescription" lastModified="2014-04-07T14:32:44">
+    <value>Displayed bellow the label</value>
+    <comment>Description of the input for instructional text of the media fields</comment>
+  </data>
+  <data name="PredefinedValue" lastModified="2014-04-07T14:32:44">
+    <value>Predefined value</value>
+    <comment>phrase: Predefined value</comment>
+  </data>
+  <data name="PredefinedDateValue" lastModified="2014-04-07T14:32:44">
+    <value>Predefined date</value>
+    <comment>phrase: Predefined date value</comment>
+  </data>
+  <data name="NumberUnit" lastModified="2014-04-07T14:32:44">
+    <value>Unit</value>
+    <comment>word: Unit</comment>
+  </data>
+  <data name="MakeRequired" lastModified="2014-04-07T14:32:44">
+    <value>This is  a required field</value>
+    <comment>phrase: Make required</comment>
+  </data>
+  <data name="TimeRange" lastModified="2014-04-07T14:32:44">
+    <value>Time range allowed</value>
+    <comment>phrase: Time range allowed</comment>
+  </data>
+  <data name="Length" lastModified="2014-04-07T14:32:44">
+    <value>Number of characters allowed</value>
+    <comment>Number of characters allowed</comment>
+  </data>
+  <data name="NumberRange" lastModified="2014-04-07T14:32:44">
+    <value>Range of the entered values</value>
+    <comment>Range of a number field</comment>
+  </data>
+  <data name="CheckedByDefault" lastModified="2014-04-07T14:32:44">
+    <value>Checked by default</value>
+    <comment>phrase: Checked by default</comment>
+  </data>
+  <data name="CanSelectMultiple" lastModified="2014-04-07T14:32:44">
+    <value>Multiple choices can be selected</value>
+    <comment>Multiple choices can be selected</comment>
+  </data>
+  <data name="StartDate" lastModified="2014-04-07T14:32:44">
+    <value>Start date</value>
+    <comment>phrase: Start date</comment>
+  </data>
+  <data name="EndDate" lastModified="2014-04-07T14:32:44">
+    <value>End date</value>
+    <comment>phrase: End date</comment>
+  </data>
+  <data name="Min" lastModified="2014-04-07T14:32:44">
+    <value>Min</value>
+    <comment>word: Min</comment>
+  </data>
+  <data name="Max" lastModified="2014-04-07T14:32:44">
+    <value>Max</value>
+    <comment>word: Max</comment>
+  </data>
+  <data name="Characters" lastModified="2014-04-07T14:32:44">
+    <value>characters</value>
+    <comment>word: Characters</comment>
+  </data>
+  <data name="LengthValidationMessage" lastModified="2014-04-07T14:32:44">
+    <value>Advanced: Regular expression for validation.</value>
+    <comment>Regular expression for validation.</comment>
+  </data>
+  <data name="Choices" lastModified="2014-04-07T14:32:44">
+    <value>Choices</value>
+    <comment>word: Choices</comment>
+  </data>
+  <data name="Choice1" lastModified="2014-04-07T14:32:44">
+    <value>Choice 1</value>
+    <comment>word: Choice 1</comment>
+  </data>
+  <data name="Choice2" lastModified="2014-04-07T14:32:44">
+    <value>Choice 2</value>
+    <comment>word: Choice 2</comment>
+  </data>
+  <data name="Choice3" lastModified="2014-04-07T14:32:44">
+    <value>Choice 3</value>
+    <comment>word: Choice 3</comment>
+  </data>
+  <data name="DateField" lastModified="2014-04-07T14:32:44">
+    <value>Date picker</value>
+    <comment>phrase: Date field</comment>
+  </data>
+  <data name="Choice" lastModified="2014-04-07T14:32:44">
+    <value>Choices</value>
+    <comment>word: Choices</comment>
+  </data>
+  <data name="Value" lastModified="2014-04-07T14:32:44">
+    <value>Value</value>
+    <comment>word: Value</comment>
+  </data>
+  <data name="ChoiceLabelDetails" lastModified="2014-04-07T14:32:44">
+    <value>Label is the text users see in the interface</value>
+    <comment>Description of the label textbox for multiple choice option</comment>
+  </data>
+  <data name="ChoiceValueDetailsLine1" lastModified="2014-04-07T14:32:44">
+    <value>Value is the unique name of each choice. It is not visible by users in the interface.</value>
+    <comment>phrase: Value is the unique name of each choice. It is not visible by users in the interface.</comment>
+  </data>
+  <data name="ChoiceValueDetailsLine2" lastModified="2014-04-07T14:32:44">
+    <value>While labels can be changed or translated, values should stay the same.</value>
+    <comment>phrase: While labels can be changed or translated, values should stay the same.</comment>
+  </data>
+  <data name="ChoiceValueDetailsLine3" lastModified="2014-04-07T14:32:44">
+    <value>Keep values as short as possible.</value>
+    <comment>phrase: Keep values as short as possible.</comment>
+  </data>
+  <data name="ChoiceValueDetailsLine4" lastModified="2014-04-07T14:32:44">
+    <value>Allowed characters are letters, numbers and "_"</value>
+    <comment>phrase: Allowed characters are letters, numbers and "_"</comment>
+  </data>
+  <data name="HowToTranslateLinkText" lastModified="2014-04-07T14:32:44">
+    <value>How to translate?</value>
+    <comment>phrase: How to translate?</comment>
+  </data>
+  <data name="HowToTranslateDetailsLine1" lastModified="2014-04-07T14:32:44">
+    <value>If you want to have labels on several languages, you need web resoruces.</value>
+    <comment>phrase: If you want to have labels on several languages, you need web resoruces.</comment>
+  </data>
+  <data name="HowToTranslateResourceFormulaDescription" lastModified="2014-04-07T14:32:44">
+    <value>where &amp;lt;ClassKey&amp;gt; is the name of the resource class and &amp;lt;ResourceKey&amp;gt; identifies which key/value pair to be retrieved from the resource file.</value>
+    <comment>Resource formula description</comment>
+  </data>
+  <data name="HowToTranslateDetailsLine2" lastModified="2014-04-07T14:32:44">
+    <value>Instead of typing the actual content, paste this</value>
+    <comment>phrase: Instead of typing the actual content, paste this</comment>
+  </data>
+  <data name="ConfirmFieldDeleteMessage" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete {0} field and all its data?</value>
+    <comment>phrase: Are you sure you want to delete {0} field and all its data?</comment>
+  </data>
+  <data name="DeleteFieldLabel" lastModified="2014-04-07T14:32:44">
+    <value>Delete this field and all its data</value>
+    <comment>phrase: Delete this field and all its data</comment>
+  </data>
+  <data name="ConfirmTypeDeleteMessage" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete {0} content type and all its data?</value>
+    <comment>phrase: Are you sure you want to delete {0} content type and all its data?</comment>
+  </data>
+  <data name="DeleteContentTypeLabel" lastModified="2014-04-07T14:32:44">
+    <value>Delete this content type and all its data</value>
+    <comment>phrase: Delete this content type and all its data</comment>
+  </data>
+  <data name="DataType" lastModified="2014-04-07T14:32:44">
+    <value>Data type</value>
+    <comment>phrase: Data type</comment>
+  </data>
+  <data name="NoSpacesAllowed" lastModified="2014-04-07T14:32:44">
+    <value>No spaces allowed. This is the name used in code and database</value>
+    <comment>phrase: No spaces allowed. This is the name used in code and database</comment>
+  </data>
+  <data name="BackendScreensTweaks" lastModified="2014-04-07T14:32:44">
+    <value>Backend screens tweaks</value>
+    <comment>phrase: Backend screens tweaks</comment>
+  </data>
+  <data name="BackendScreensTweaksDescription" lastModified="2014-04-07T14:32:44">
+    <value>Add or remove columns to the table (grid) where items are listed; reorder or regroup fields in the form for creating/editing content items</value>
+    <comment>Description of the purpose of the backend screens tweaks</comment>
+  </data>
+  <data name="TypeItemFields" lastModified="2014-04-07T14:32:44">
+    <value>{0} item fields</value>
+    <comment>phrase: {0} item fields</comment>
+  </data>
+  <data name="TypeItemFieldsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Title, Content, Tags, Categories...</value>
+    <comment>The description of the functionality for editing fields of the dynamic module type.</comment>
+  </data>
+  <data name="AddContentType" lastModified="2014-04-07T14:32:44">
+    <value>Add a content type</value>
+    <comment>phrase: Add a content type.</comment>
+  </data>
+  <data name="PagesHaveChildPages" lastModified="2014-04-07T14:32:44">
+    <value>Like &lt;em&gt;Pages&lt;/em&gt; can have &lt;em&gt;child-Pages&lt;/em&gt; and &lt;em&gt;Categories&lt;/em&gt; can have &lt;em&gt;child-Categories&lt;/em&gt;</value>
+    <comment>phrase: Like Pages can have child-Pages and Categories can have child-Categories</comment>
+  </data>
+  <data name="TypeHaveSameChildType" lastModified="2014-04-07T14:32:44">
+    <value>Items can have child items from the same type</value>
+    <comment>phrase: Items can have child items from the same type</comment>
+  </data>
+  <data name="CreateChildItem" lastModified="2014-04-07T14:32:44">
+    <value>Create a child item</value>
+    <comment>phrase: Create a child item</comment>
+  </data>
+  <data name="BackendScreensTweaksTitle" lastModified="2014-04-07T14:32:44">
+    <value>Backend screens tweaks</value>
+    <comment>Title of the page for tweaking the backend screens</comment>
+  </data>
+  <data name="BackendScreensTweaksPageDescription" lastModified="2014-04-07T14:32:44">
+    <value>The page for tweaking the backend screens of the dynamic modules</value>
+    <comment>Description of the page for tweaking the backend screens</comment>
+  </data>
+  <data name="BackendScreensTweaksUrlName" lastModified="2014-04-07T14:32:44">
+    <value>backend-screens-tweaks</value>
+    <comment>Url name of the page for tweaking the backend screens of the dynamic modules</comment>
+  </data>
+  <data name="BackendScreensTweaksPageTitle" lastModified="2014-04-07T14:32:44">
+    <value>Tweak backend screens used for...</value>
+    <comment>Title of the backend screens tweaks page</comment>
+  </data>
+  <data name="ListingItems" lastModified="2014-04-07T14:32:44">
+    <value>Listing {0}</value>
+    <comment>phrase: Listing {0}</comment>
+  </data>
+  <data name="GridTweakingButtonText" lastModified="2014-04-07T14:32:44">
+    <value>Add / remove columns in the table (grid)</value>
+    <comment>Text of the button for tweaking the backend grid screen</comment>
+  </data>
+  <data name="CreatingEditingItems" lastModified="2014-04-07T14:32:44">
+    <value>Creating / Editing {0}</value>
+    <comment>phrase: Creating / Editing {0}</comment>
+  </data>
+  <data name="FormsTweakingButtonText" lastModified="2014-04-07T14:32:44">
+    <value>Reorder fields</value>
+    <comment>Text of the button for tweaking the backend form screens</comment>
+  </data>
+  <data name="BackToBackendScreensTweaks" lastModified="2014-04-07T14:32:44">
+    <value>Back to Backend screens tweaks</value>
+    <comment>Text of the link to go back to backend screens tweaks</comment>
+  </data>
+  <data name="GridEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Edit the table (grid) used for listing {0}</value>
+    <comment>Title of the grid editor on the backend screens tweaks</comment>
+  </data>
+  <data name="FormEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Reorder fields for creating / editing {0}</value>
+    <comment>Title of the form editor on the backend screens tweaks</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>phrase: Save changes</comment>
+  </data>
+  <data name="Preview" lastModified="2014-04-07T14:32:44">
+    <value>Preview</value>
+    <comment>word: Preview</comment>
+  </data>
+  <data name="ExistingColumns" lastModified="2014-04-07T14:32:44">
+    <value>Existing columns</value>
+    <comment>phrase: Existing columns</comment>
+  </data>
+  <data name="DragColumns" lastModified="2014-04-07T14:32:44">
+    <value>Drag columns</value>
+    <comment>phrase: Drag columns</comment>
+  </data>
+  <data name="DragBetweenFields" lastModified="2014-04-07T14:32:44">
+    <value>Drag between fields...</value>
+    <comment>phrase: Drag between fields...</comment>
+  </data>
+  <data name="SectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Section title</value>
+    <comment>phrase: Section title</comment>
+  </data>
+  <data name="Added" lastModified="2014-04-07T14:32:44">
+    <value>Added</value>
+    <comment>word: Added</comment>
+  </data>
+  <data name="CollapsedByDefault" lastModified="2014-04-07T14:32:44">
+    <value>Collapsed by default</value>
+    <comment>phrase: Collapsed by default</comment>
+  </data>
+  <data name="DisplayTitle" lastModified="2014-04-07T14:32:44">
+    <value>Display title and options for expanding / collapsing</value>
+    <comment>phrase: Display title and options for expanding / collapsing</comment>
+  </data>
+  <data name="Save" lastModified="2014-04-07T14:32:44">
+    <value>Save</value>
+    <comment>word: Save</comment>
+  </data>
+  <data name="Title" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="AllAboutThisModule" lastModified="2014-04-07T14:32:44">
+    <value>All about this module</value>
+    <comment>phrase: All about this module</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+    <value>Module Builder</value>
+    <comment>Title of the module builder module.</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Module which allows creation of new dynamic modules through user interface.</value>
+    <comment>Description of the module builder module.</comment>
+  </data>
+  <data name="ModuleUrlName" lastModified="2014-04-07T14:32:44">
+    <value>module-builder</value>
+    <comment>Url name of the module builder module.</comment>
+  </data>
+  <data name="ModuleBuilderDashboardUrlName" lastModified="2014-04-07T14:32:44">
+    <value>dashboard</value>
+    <comment>Url name of the module builder dashboard page.</comment>
+  </data>
+  <data name="ContentTypePageGroupTitle" lastModified="2014-04-07T14:32:44">
+    <value>Module</value>
+    <comment>The title of the module page group</comment>
+  </data>
+  <data name="ContentTypePageGroupDescription" lastModified="2014-04-07T14:32:44">
+    <value>The page group which holds all the pages for working with single module</value>
+    <comment>The description of the module page group</comment>
+  </data>
+  <data name="ContentTypePageGroupUrlName" lastModified="2014-04-07T14:32:44">
+    <value>module</value>
+    <comment>The url name of the module page group</comment>
+  </data>
+  <data name="ContentTypeDashboardTitle" lastModified="2014-04-07T14:32:44">
+    <value>Module dashboard</value>
+    <comment>Title of the page that hosts module dashboard.</comment>
+  </data>
+  <data name="ContentTypeDashboardDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page that allows you to work with a single module.</value>
+    <comment>Description of the page that hosts module dashboard.</comment>
+  </data>
+  <data name="ContentTypeDashboardUrlName" lastModified="2014-04-07T14:32:44">
+    <value>type</value>
+    <comment>Url name of the page that hosts module dashboard.</comment>
+  </data>
+  <data name="CodeReferenceTitle" lastModified="2014-04-07T14:32:44">
+    <value>Code reference</value>
+    <comment>The title of the code reference page</comment>
+  </data>
+  <data name="CodeReferenceDescription" lastModified="2014-04-07T14:32:44">
+    <value>The page that displays code reference for the modules.</value>
+    <comment>The description of the code reference page</comment>
+  </data>
+  <data name="CodeReferenceUrlName" lastModified="2014-04-07T14:32:44">
+    <value>code-reference</value>
+    <comment>The url name of the code reference page</comment>
+  </data>
+  <data name="Delete" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>word: Delete</comment>
+  </data>
+  <data name="NoFieldsDefined" lastModified="2014-04-07T14:32:44">
+    <value>No fields have been defined. In order to create a custom type you need to define at least one required short text field.</value>
+    <comment>Message shown when user tries to create a custom type without any custom fields.</comment>
+  </data>
+  <data name="ModuleWithThisNameExistsError" lastModified="2014-04-07T14:32:44">
+    <value>Module with this name already exists.</value>
+    <comment>Message shown when user tries to create a module with name already exists.</comment>
+  </data>
+  <data name="EnterValidModuleName" lastModified="2014-04-07T14:32:44">
+    <value>Please enter valid module name. It should not be empty and can contain spaces and any word character: a-z, A-Z, _, 0-9</value>
+    <comment>Message shown if user tries to continue to step 2 without entering valid module name.</comment>
+  </data>
+  <data name="NoShortTextFieldsDefined" lastModified="2014-04-07T14:32:44">
+    <value>No required short text fields have been defined. In order to create a custom type you need to define at least one required short text field.</value>
+    <comment>Message shown when user tries to create a custom type without any short text fields.</comment>
+  </data>
+  <data name="TwoFieldsWithTheSameNameErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>Cannot add two fields with the same name. Please enter different names for fields.</value>
+    <comment>Message shown when user tries to create field with a name that already exists.</comment>
+  </data>
+  <data name="AllContentTypes" lastModified="2014-04-07T14:32:44">
+    <value>All modules</value>
+    <comment>Text of the link to go back to all modules</comment>
+  </data>
+  <data name="Active" lastModified="2014-04-07T14:32:44">
+    <value>Active</value>
+    <comment>Status of the active module.</comment>
+  </data>
+  <data name="Inactive" lastModified="2014-04-07T14:32:44">
+    <value>Inactive</value>
+    <comment>Status of the installed, but inactive module.</comment>
+  </data>
+  <data name="NotInstalled" lastModified="2014-04-07T14:32:44">
+    <value>Not installed</value>
+    <comment>Status of the not installed module.</comment>
+  </data>
+  <data name="InstallThisContentType" lastModified="2014-04-07T14:32:44">
+    <value>&lt;span class="sfLinkBtnIn"&gt;Install this module&lt;/span&gt;</value>
+    <comment>Text of the button that installs a module.</comment>
+  </data>
+  <data name="ActivateThisContentType" lastModified="2014-04-07T14:32:44">
+    <value>&lt;span class="sfLinkBtnIn"&gt;Activate this module&lt;/span&gt;</value>
+    <comment>Text of the button that activates a module.</comment>
+  </data>
+  <data name="InactivateThisContentType" lastModified="2014-04-07T14:32:44">
+    <value>Deactivate this module</value>
+    <comment>Text of the button that deactivaes a module.</comment>
+  </data>
+  <data name="InstallationInProgressPleaseWait" lastModified="2014-04-07T14:32:44">
+    <value>Installation in progress... Please wait.</value>
+    <comment>The text displayed during the installation of the dynamic module.</comment>
+  </data>
+  <data name="ActivationInProgressPleaseWait" lastModified="2014-04-07T14:32:44">
+    <value>Activation in progress... Please wait.</value>
+    <comment>The text displayed during the activation of the dynamic module.</comment>
+  </data>
+  <data name="DeactivationInProgressPleaseWait" lastModified="2014-04-07T14:32:44">
+    <value>Deactivation in progress... Please wait.</value>
+    <comment>The text displayed during the deactivation of the dynamic module.</comment>
+  </data>
+  <data name="UrlNameTitle" lastModified="2014-04-07T14:32:44">
+    <value>URL</value>
+    <comment>Title of the URL name field.</comment>
+  </data>
+  <data name="UrlNameTooLong" lastModified="2014-04-07T14:32:44">
+    <value>Url name value is too long. Maximum allowed is 255 characters.</value>
+    <comment>Error message displayed to the user if the url name property is too long.</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Url name cannot be empty.</value>
+    <comment>Error message displayed to the user if the url name is empty string.</comment>
+  </data>
+  <data name="UrlNameInvalidSymbols" lastModified="2014-04-07T14:32:44">
+    <value>The URL contains invalid symbols.</value>
+    <comment>Error message displayed to the user if the url contains invalid symbols.</comment>
+  </data>
+  <data name="CodeReferenceForContentType" lastModified="2014-04-07T14:32:44">
+    <value>Code reference for {0}</value>
+    <comment>Title of the link that leads to code reference for the custom modules.</comment>
+  </data>
+  <data name="CodeReferenceForContentTypeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Ready to use code-snippets for this module.</value>
+    <comment>Description of the 'Code reference' link</comment>
+  </data>
+  <data name="NoDynamicModuleItemsHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+    <value>No {0} have been created yet</value>
+    <comment>The message shown when no items have yet been created.</comment>
+  </data>
+  <data name="CreateItem" lastModified="2014-04-07T14:32:44">
+    <value>Create {0} {1}</value>
+    <comment>Label of the dialog that creates a news item.</comment>
+  </data>
+  <data name="BackToParent" lastModified="2014-04-07T14:32:44">
+    <value>Back to {0}</value>
+    <comment>Text of the link that will show the view that lists all parent items of content type.</comment>
+  </data>
+  <data name="ManageAlso" lastModified="2014-04-07T14:32:44">
+    <value>Manage also</value>
+    <comment>phrase: Manage also</comment>
+  </data>
+  <data name="NavigatetoContentTypes" lastModified="2014-04-07T14:32:44">
+    <value>Content types</value>
+    <comment>phrase: Navigates to content types</comment>
+  </data>
+  <data name="Actions" lastModified="2014-04-07T14:32:44">
+    <value>Actions</value>
+    <comment>word: Actions</comment>
+  </data>
+  <data name="Settings" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>word: Settings</comment>
+  </data>
+  <data name="PagesWhereTheseItemsArePublished" lastModified="2014-04-07T14:32:44">
+    <value>Pages where items like this are published</value>
+    <comment>Pages where items like this are published</comment>
+  </data>
+  <data name="Permissions" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>word: Permissions</comment>
+  </data>
+  <data name="PermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Who can create, edit, delete the items of this module</value>
+    <comment>Permissions description showed in the content type dashboard</comment>
+  </data>
+  <data name="PreviewDetailViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Preview</value>
+    <comment>Used to format the title of the preview detail view</comment>
+  </data>
+  <data name="InsertDetailViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Create</value>
+    <comment>Used to format the title of the insert detail view</comment>
+  </data>
+  <data name="EditDetailViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Edit</value>
+    <comment>Used to format the title of the edit detail view</comment>
+  </data>
+  <data name="ManageDynamicModuleSideBarTitle" lastModified="2014-04-07T14:32:44">
+    <value>Manage</value>
+    <comment>Used to format the title of the sidebar of specific dynamic module</comment>
+  </data>
+  <data name="NameAndDescriptionOfModule" lastModified="2014-04-07T14:32:44">
+    <value>Name and description</value>
+    <comment>Displays the title when trying to change module name and description</comment>
+  </data>
+  <data name="NameAndDescriptionOfModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Edit the name and description of this module</value>
+    <comment>Description of the edit module name and description link</comment>
+  </data>
+  <data name="AllItems" lastModified="2014-04-07T14:32:44">
+    <value>All items</value>
+    <comment>phrase: All items</comment>
+  </data>
+  <data name="AllItemsFormatted" lastModified="2014-04-07T14:32:44">
+    <value>All {0}</value>
+    <comment>phrase: All {0}</comment>
+  </data>
+  <data name="MyItemsFormatted" lastModified="2014-04-07T14:32:44">
+    <value>My {0}</value>
+    <comment>phrase: My {0}</comment>
+  </data>
+  <data name="Loading" lastModified="2014-04-07T14:32:44">
+    <value>Loading...</value>
+    <comment>phrase: Loading</comment>
+  </data>
+  <data name="FilterSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Filter {0}</value>
+    <comment>phrase: Filter {0}</comment>
+  </data>
+  <data name="ErrorCheckingModuleNameRequest" lastModified="2014-04-07T14:32:44">
+    <value>There has been an error checking module name. Please try again.</value>
+    <comment>Dysplayed when there is an error sending request to server to check module name</comment>
+  </data>
+  <data name="CannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>cannot be empty</value>
+    <comment>phrase: {0} cannot be empty</comment>
+  </data>
+  <data name="RegularExpressionErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>is invalid. Only these characters are allowed: letters, numbers, spaces and _. Don't start with a number.</value>
+    <comment>phrase:  is invalid. Only these characters are allowed: letters, numbers, spaces and _ . Don't start with a number.</comment>
+  </data>
+  <data name="RegularExpressionDevNameErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>is invalid. Only these characters are allowed: letters, numbers and _. Don't start with a number.</value>
+    <comment>phrase:  is invalid. Only these characters are allowed: letters, numbers and _. Don't start with a number.</comment>
+  </data>
+  <data name="ErrorCreatingNewModule" lastModified="2014-04-07T14:32:44">
+    <value>An error has occurred while trying to create a new module.</value>
+    <comment>phrase: An error has occurred while trying to create a new module.</comment>
+  </data>
+  <data name="ErrorDeletingModule" lastModified="2014-04-07T14:32:44">
+    <value>An error has occurred while trying to delete the module.</value>
+    <comment>phrase: An error has occurred while trying to delete the module.</comment>
+  </data>
+  <data name="ConfirmModuleDeleteMessage" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete the {0} module and all its data?</value>
+    <comment>phrase: Are you sure you want to delete the {0} module and all its data?</comment>
+  </data>
+  <data name="SecondConfirmDeleteModuleMessage" lastModified="2014-04-07T14:32:44">
+    <value>Are you really sure you want to delete the {0} module and all its data?</value>
+    <comment>phrase: Are you really sure you want to delete the {0} module and all its data?</comment>
+  </data>
+  <data name="DataWillNotRecover" lastModified="2014-04-07T14:32:44">
+    <value>It will be gone forever, and cannot be recovered.</value>
+    <comment>phrase: It will be gone forever, and cannot be recovered.</comment>
+  </data>
+  <data name="YesDeleteIt" lastModified="2014-04-07T14:32:44">
+    <value>Yes, Delete it</value>
+    <comment>phrase: Yes, Delete it</comment>
+  </data>
+  <data name="ErrorDeletingModuleData" lastModified="2014-04-07T14:32:44">
+    <value>You cannot delete data tables from database.</value>
+    <comment>phrase: You cannot delete data tables from database.</comment>
+  </data>
+  <data name="DeleteModuleNotification" lastModified="2014-04-07T14:32:44">
+    <value>Delete Module Notification.</value>
+    <comment>phrase: Delete Module Notification.</comment>
+  </data>
+  <data name="YouCanDeleteModuleMessage" lastModified="2014-04-07T14:32:44">
+    <value>So, you can delete the module but its data will stay in the database.</value>
+    <comment>phrase: So, you can delete the module but its data will stay in the database.</comment>
+  </data>
+  <data name="ContactAdminMessage" lastModified="2014-04-07T14:32:44">
+    <value>If you want to delete data tables from the database, contact your administrator.</value>
+    <comment>phrase: If you want to delete data tables from the database, contact your administrator.</comment>
+  </data>
+  <data name="DeleteModuleWithoutData" lastModified="2014-04-07T14:32:44">
+    <value>Anyway, Delete the module but not its data</value>
+    <comment>phrase: Anyway, Delete the module but not its data</comment>
+  </data>
+  <data name="DeleteModule" lastModified="2014-04-07T14:32:44">
+    <value>Delete this module and all its data</value>
+    <comment>phrase: Delete this module and all its data</comment>
+  </data>
+  <data name="ErrorProcessingRequest" lastModified="2014-04-07T14:32:44">
+    <value>There has been an error processing the request. Dynamic module with the requested id doesn't exist!</value>
+    <comment>phrase: There has been an error processing the request. Dynamic module with the requested id doesn't exist!</comment>
+  </data>
+  <data name="ErrorUpdatingModuleFields" lastModified="2014-04-07T14:32:44">
+    <value>There has been an error updating module fields!</value>
+    <comment>phrase: Error updating module fields message</comment>
+  </data>
+  <data name="ErrorActivatingModule" lastModified="2014-04-07T14:32:44">
+    <value>There has been an error activating module!</value>
+    <comment>phrase: Error activating module</comment>
+  </data>
+  <data name="ErrorDeactivatingModule" lastModified="2014-04-07T14:32:44">
+    <value>There has been an error activating module!</value>
+    <comment>phrase: Error deactivating module</comment>
+  </data>
+  <data name="ErrorUpdatingModuleNameAndDescription" lastModified="2014-04-07T14:32:44">
+    <value>There has been an error updating module name and description!</value>
+    <comment>phrase: Error updating module name and description</comment>
+  </data>
+  <data name="ErrorDeletingContentType" lastModified="2014-04-07T14:32:44">
+    <value>There has been an error deleting content type!</value>
+    <comment>phrase: Error deleting content type</comment>
+  </data>
+  <data name="GotoManageContentTypeContentDescription" lastModified="2014-04-07T14:32:44">
+    <value>Create, modify, delete content items</value>
+    <comment>phrase: Create, modify, delete content items in content type dashboard</comment>
+  </data>
+  <data name="ParentContentType" lastModified="2014-04-07T14:32:44">
+    <value>Parent content type</value>
+    <comment>phrase: Parent content type</comment>
+  </data>
+  <data name="ParentContentTypeExample" lastModified="2014-04-07T14:32:44">
+    <value>Blogs are parent content type of Blog posts; Forums are parent content type of Threads.</value>
+    <comment>phrase: Blogs are parent content type of Blog posts; Forums are parent content type of Threads. </comment>
+  </data>
+  <data name="Example" lastModified="2014-04-07T14:32:44">
+    <value>Example</value>
+    <comment>word: Example</comment>
+  </data>
+  <data name="GotoManageContentTypeContentLinkText" lastModified="2014-04-07T14:32:44">
+    <value>Go to manage &lt;em&gt;{0}&lt;/em&gt; content</value>
+    <comment>phrase: Used to format the go to manage content page link text</comment>
+  </data>
+  <data name="ThisModuleContains" lastModified="2014-04-07T14:32:44">
+    <value>This module contains...</value>
+    <comment>phrase: This module contains...</comment>
+  </data>
+  <data name="TypeEditorDefaultTitlePrefix" lastModified="2014-04-07T14:32:44">
+    <value>Content type:</value>
+    <comment>phrase: Content type:</comment>
+  </data>
+  <data name="DuplicateUrlException" lastModified="2014-04-07T14:32:44">
+    <value>An item with the URL '{0}' already exists.</value>
+    <comment>Error message.</comment>
+  </data>
+  <data name="EmptyUrlException" lastModified="2014-04-07T14:32:44">
+    <value>Empty Url is not allowed.</value>
+    <comment>Empty Url is not allowed.</comment>
+  </data>
+  <data name="NotValidUrlException" lastModified="2014-04-07T14:32:44">
+    <value>The URL: '{0}' is not valid.</value>
+    <comment>The URL: '{0}' is not valid.</comment>
+  </data>
+  <data name="ConfirmModuleUpdateMessage" lastModified="2014-04-07T14:32:44">
+    <value>&lt;p class='sfMBottom10'&gt;Module with the same name already exists. Its structure and settings will be updated.&lt;/p&gt;&lt;p class='sfMBottom10'&gt;The initial module fields which do not exist in the new module structure will be deleted and their data will be lost.&lt;/p&gt;&lt;p class='sfMBottom10'&gt;Before import, we recommend that you back up your initial module and database&lt;/p&gt;&lt;p&gt;What do you want to do?&lt;/p&gt;</value>
+    <comment>Update module confirmation message.</comment>
+  </data>
+  <data name="ConfirmModuleUpdateButtonText" lastModified="2014-04-07T14:32:44">
+    <value>Update</value>
+    <comment>phrase: Update</comment>
+  </data>
+  <data name="ErrorUpdatingTitle" lastModified="2014-04-07T14:32:44">
+    <value>You cannot update this module</value>
+    <comment>Update module error title.</comment>
+  </data>
+  <data name="ErrorUpdatingNamesDontMatch" lastModified="2014-04-07T14:32:44">
+    <value>The name of this module is not the same as the name of the initial module</value>
+    <comment>phrase: The name of this module is not the same as the name of the initial module</comment>
+  </data>
+  <data name="ErrorUpdatingIdsDontMatch" lastModified="2014-04-07T14:32:44">
+    <value>The Id of this module is not the same as the Id of the initial module</value>
+    <comment>phrase: The Id of this module is not the same as the Id of the initial module</comment>
+  </data>
+  <data name="CloseUpdateErrorButton" lastModified="2014-04-07T14:32:44">
+    <value>OK</value>
+    <comment>phrase: OK</comment>
+  </data>
+  <data name="Draft" lastModified="2014-04-07T14:32:44">
+    <value>Drafts</value>
+    <comment>The text of draft dynamic module sidebar button.</comment>
+  </data>
+  <data name="Published" lastModified="2014-04-07T14:32:44">
+    <value>Published</value>
+    <comment>The text of published dynamic module sidebar button.</comment>
+  </data>
+  <data name="Scheduled" lastModified="2014-04-07T14:32:44">
+    <value>Scheduled</value>
+    <comment>The text of scheduled dynamic module sidebar button.</comment>
+  </data>
+  <data name="ExportModule" lastModified="2014-04-07T14:32:44">
+    <value>Export module</value>
+    <comment>phrase: Export module</comment>
+  </data>
+  <data name="ExportFunctionalityDescription" lastModified="2014-04-07T14:32:44">
+    <value>A .zip file containing the whole structure and settings of this module will be downloaded to your computer.</value>
+    <comment>Description of the export module functionality.</comment>
+  </data>
+  <data name="ExportFunctionalityNote" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Note&lt;/strong&gt;: No data will be exported (e.g. news items, articles, blog posts), only structure and settings.</value>
+    <comment>The note about how export module functionality works</comment>
+  </data>
+  <data name="ExportModuleNameExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example&lt;/strong&gt;: &lt;em&gt;News&lt;/em&gt;</value>
+    <comment>The example of what could be the name of the exported module.</comment>
+  </data>
+  <data name="ExportModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Description &lt;span class="sfNote"&gt;(optional)&lt;/span&gt;</value>
+    <comment>Label for the description of the exported module.</comment>
+  </data>
+  <data name="Version" lastModified="2014-04-07T14:32:44">
+    <value>Version &lt;span class="sfNote"&gt;(optional)&lt;/span&gt;</value>
+    <comment>Label for the version of the exported module.</comment>
+  </data>
+  <data name="Author" lastModified="2014-04-07T14:32:44">
+    <value>Author &lt;span class="sfNote"&gt;(optional)&lt;/span&gt;</value>
+    <comment>Label for the author of the exported module.</comment>
+  </data>
+  <data name="Export" lastModified="2014-04-07T14:32:44">
+    <value>Export</value>
+    <comment>Text of the export button.</comment>
+  </data>
+  <data name="ImportAModule" lastModified="2014-04-07T14:32:44">
+    <value>Import a module</value>
+    <comment>Text of the import module button.</comment>
+  </data>
+  <data name="Upload" lastModified="2014-04-07T14:32:44">
+    <value>Upload</value>
+    <comment>Text of the upload button for importing modules.</comment>
+  </data>
+  <data name="ImportModuleFileTitle" lastModified="2014-04-07T14:32:44">
+    <value>Upload a .zip file containing an exported module</value>
+    <comment>Title of the field for selecting the file of dynamic module</comment>
+  </data>
+  <data name="ExportModuleContent" lastModified="2014-04-07T14:32:44">
+    <value>Export module content</value>
+    <comment>Title of the export module content dialog.</comment>
+  </data>
+  <data name="ExportModuleSelectSource" lastModified="2014-04-07T14:32:44">
+    <value>To export module content you should select a source</value>
+    <comment>Phrase: To export module content you should select a source</comment>
+  </data>
+  <data name="UpdateAModule" lastModified="2014-04-07T14:32:44">
+    <value>Import new structure and settings to</value>
+    <comment>Title for the update module dialog</comment>
+  </data>
+  <data name="UpdateAModuleInformationTitle" lastModified="2014-04-07T14:32:44">
+    <value>Import new structure and settings</value>
+    <comment>Title for the information section in update module</comment>
+  </data>
+  <data name="UpdateAModuleInformationText" lastModified="2014-04-07T14:32:44">
+    <value>The initial module fields which do not exist in the new module structure will be deleted and their data will be lost.</value>
+    <comment>Information section text in update module</comment>
+  </data>
+  <data name="UpdateAModuleInformationTextRecommendation" lastModified="2014-04-07T14:32:44">
+    <value>Before import, we recommend that you back up your initial module and database.</value>
+    <comment>Information section recommendation text in update module</comment>
+  </data>
+  <data name="WhichItemsToDisplay" lastModified="2014-04-07T14:32:44">
+    <value>Which {0} to display?</value>
+    <comment>phrase: Which {0} to display?</comment>
+  </data>
+  <data name="AllPublishedItems" lastModified="2014-04-07T14:32:44">
+    <value>All published {0}</value>
+    <comment>phrase: All published {0}</comment>
+  </data>
+  <data name="OneParticularItemOnly" lastModified="2014-04-07T14:32:44">
+    <value>One particular {0} only...</value>
+    <comment>phrase: One particular {0} item only...</comment>
+  </data>
+  <data name="SelectionOfItems" lastModified="2014-04-07T14:32:44">
+    <value>Selection of {0}:</value>
+    <comment>phrase: Selection of {0}:</comment>
+  </data>
+  <data name="NoItemsHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+    <value>No {0} have been created yet</value>
+    <comment>phrase: No {0} have been created yet</comment>
+  </data>
+  <data name="NoItemsHaveBeenSelectedYet" lastModified="2014-04-07T14:32:44">
+    <value>No {0} have been selected yet</value>
+    <comment>phrase: No {0} have been selected yet</comment>
+  </data>
+  <data name="SelectItems" lastModified="2014-04-07T14:32:44">
+    <value>Select {0}</value>
+    <comment>phrase: Select {0}</comment>
+  </data>
+  <data name="SortItems" lastModified="2014-04-07T14:32:44">
+    <value>Sort {0}</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ChooseItems" lastModified="2014-04-07T14:32:44">
+    <value>Choose {0}</value>
+    <comment>phrase: Choose {0}</comment>
+  </data>
+  <data name="ByMainShortTextFieldAsc" lastModified="2014-04-07T14:32:44">
+    <value>By {0} (A-Z)</value>
+    <comment>phrase: By {0} (A-Z)</comment>
+  </data>
+  <data name="ByMainShortTextFieldDesc" lastModified="2014-04-07T14:32:44">
+    <value>By {0} (Z-A)</value>
+    <comment>phrase: By {0} (Z-A)</comment>
+  </data>
+  <data name="TypePermissions" lastModified="2014-04-07T14:32:44">
+    <value>Dynamic field permissions</value>
+    <comment>Permission title.</comment>
+  </data>
+  <data name="TypePermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents the permissions for dynamic fields.</value>
+    <comment>Permission description.</comment>
+  </data>
+  <data name="ViewItemAction" lastModified="2014-04-07T14:32:44">
+    <value>View {0}</value>
+    <comment>The title of ViewItem security action.</comment>
+  </data>
+  <data name="CreateItemAction" lastModified="2014-04-07T14:32:44">
+    <value>Create {0}</value>
+    <comment>The title of CreateItem security action.</comment>
+  </data>
+  <data name="ModifyItemAction" lastModified="2014-04-07T14:32:44">
+    <value>Modify {0}</value>
+    <comment>The title of ModifyItem security action.</comment>
+  </data>
+  <data name="DeleteItemAction" lastModified="2014-04-07T14:32:44">
+    <value>Delete {0}</value>
+    <comment>The title of DeleteItem security action.</comment>
+  </data>
+  <data name="CreateItemDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of new {0}.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyItemDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to existing dynamic field.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ViewItemDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing a dynamic field.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteItemDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a dynamic field.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeItemPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change a {0} permissions</value>
+    <comment>The title of Change Permissions security action.</comment>
+  </data>
+  <data name="ChangeItemPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of a dynamic field.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="AllowPermissionsPerField" lastModified="2014-04-07T14:32:44">
+    <value>Allow permissions per field</value>
+    <comment>label: Allow permissions per field</comment>
+  </data>
+  <data name="AllowPermissionsPerFieldAdditionalNote" lastModified="2014-04-07T14:32:44">
+    <value>Apart from permissions like "Who can create/delete/modify items" you will have permissions like "Who can change item title" or "Who can change item tags".</value>
+    <comment>label: Allow permissions per field note</comment>
+  </data>
+  <data name="SiteSyncValidation_IncompatibleTypeStructure" lastModified="2014-04-07T14:32:44">
+    <value>Incompatible module/meta type structure for type {0} ({1}). Data-only sync will not be performed</value>
+    <comment>The validation error when the module/meta type structure is different from the one on the target site</comment>
+  </data>
+  <data name="NewModifiedFirst" lastModified="2014-04-07T14:32:44">
+    <value>Last modified on top</value>
+    <comment></comment>
+  </data>
+  <data name="NewCreatedFirst" lastModified="2014-04-07T14:32:44">
+    <value>Last created on top</value>
+    <comment></comment>
+  </data>
+  <data name="ByTitleAsc" lastModified="2014-04-07T14:32:44">
+    <value>By Title (A-Z)</value>
+    <comment></comment>
+  </data>
+  <data name="ByTitleDesc" lastModified="2014-04-07T14:32:44">
+    <value>By Title (Z-A)</value>
+    <comment></comment>
+  </data>
+  <data name="CustomSorting" lastModified="2014-04-07T14:32:44">
+    <value>Custom sorting...</value>
+    <comment></comment>
+  </data>
+  <data name="Sort" lastModified="2014-04-07T14:32:44">
+    <value>Sort</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ModuleWithNameAlreadyExists" lastModified="2014-04-07T14:32:44">
+    <value>Module with name "{0}" and different Id already exists!</value>
+    <comment>phrase: Module with name "{0}" and different Id already exists!</comment>
+  </data>
+  <data name="ModuleWithIdAlreadyExists" lastModified="2014-04-07T14:32:44">
+    <value>Module with Id "{0}" and different name already exists!</value>
+    <comment>phrase: Module with Id "{0}" and different name already exists!</comment>
+  </data>
+  <data name="TaxonomyWithIdDoesntExists" lastModified="2014-04-07T14:32:44">
+    <value>Taxonomy with Id "{0}" doesn't exists!</value>
+    <comment>phrase: Taxonomy with Id "{0}" doesn't exists!</comment>
+  </data>
+  <data name="ModuleAlreadyExists" lastModified="2014-04-07T14:32:44">
+    <value>Module already exists!</value>
+    <comment>phrase: Module already exists!</comment>
+  </data>
+  <data name="NoDatabasePermissions" lastModified="2014-04-07T14:32:44">
+    <value>You do not have permissions to change the database</value>
+    <comment>phrase: You do not have permissions to change the database</comment>
+  </data>
+  <data name="MoreOptions" lastModified="2014-04-07T14:32:44">
+    <value>More Options</value>
+    <comment></comment>
+  </data>
+  <data name="MoreOptionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>(Localization settings)</value>
+    <comment></comment>
+  </data>
+  <data name="DisableLinkParser" lastModified="2014-04-07T14:32:44">
+    <value>Disable Link Parser</value>
+    <comment></comment>
+  </data>
+  <data name="Address" lastModified="2014-04-07T14:32:44">
+    <value>Address</value>
+    <comment></comment>
+  </data>
+  <data name="AddressField" lastModified="2014-04-07T14:32:44">
+    <value>Address and map</value>
+    <comment></comment>
+  </data>
+  <data name="AddressFormOnly" lastModified="2014-04-07T14:32:44">
+    <value>Address form only</value>
+    <comment>label: Address form only</comment>
+  </data>
+  <data name="MapOnly" lastModified="2014-04-07T14:32:44">
+    <value>Map only (point manually or auto-locate on mobile apps)</value>
+    <comment>label: Map only (point manually or auto-locate on mobile apps)</comment>
+  </data>
+  <data name="FormMap" lastModified="2014-04-07T14:32:44">
+    <value>Address form and map</value>
+    <comment>label: Address form and map</comment>
+  </data>
+  <data name="AddressModeTitle" lastModified="2014-04-07T14:32:44">
+    <value>For entering address, use...</value>
+    <comment>For entering address, use...</comment>
+  </data>
+  <data name="MobileAppBuilderLink" lastModified="2014-04-07T14:32:44">
+    <value>How to create a mobile app for  {0}</value>
+    <comment></comment>
+  </data>
+  <data name="HowToSyncContentWithCloudServices" lastModified="2014-04-07T14:32:44">
+    <value>How to sync content with Backend Services</value>
+    <comment></comment>
+  </data>
+  <data name="HowToUseMobileApps" lastModified="2014-04-07T14:32:44">
+    <value>How to use mobile apps?</value>
+    <comment></comment>
+  </data>
+  <data name="HowToUseMobileAppsAndModules" lastModified="2014-04-07T14:32:44">
+    <value>How to use mobile apps and modules</value>
+    <comment></comment>
+  </data>
+  <data name="GoMobileLabel" lastModified="2014-04-07T14:32:44">
+    <value>Go mobile</value>
+    <comment></comment>
+  </data>
+  <data name="GoToTheCloud" lastModified="2014-04-07T14:32:44">
+    <value>Go to the cloud</value>
+    <comment></comment>
+  </data>
+  <data name="MobileAppBuilderDescription" lastModified="2014-04-07T14:32:44">
+    <value>Your content writers could contribute through their mobile phones</value>
+    <comment></comment>
+  </data>
+  <data name="CloudServicesDescription" lastModified="2014-04-07T14:32:44">
+    <value>This module syncs its content with</value>
+    <comment></comment>
+  </data>
+  <data name="CloudServicesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Connector for Backend Services</value>
+    <comment></comment>
+  </data>
+  <data name="doYouKnowTitle" lastModified="2014-04-07T14:32:44">
+    <value>Do you know you can...</value>
+    <comment></comment>
+  </data>
+  <data name="CreateMobileAppTitle" lastModified="2014-04-07T14:32:44">
+    <value>Create a mobile app for this module</value>
+    <comment></comment>
+  </data>
+  <data name="CreateMobileAppDescription" lastModified="2014-04-07T14:32:44">
+    <value>So your content writers could contribute through their mobile phones</value>
+    <comment></comment>
+  </data>
+  <data name="SyncingIsSuitableFor" lastModified="2014-04-07T14:32:44">
+    <value>Syncing is suitable for:</value>
+    <comment></comment>
+  </data>
+  <data name="SyncContentDescription" lastModified="2014-04-07T14:32:44">
+    <value>Syncing is suitable for:</value>
+    <comment></comment>
+  </data>
+  <data name="SyncContentLine1" lastModified="2014-04-07T14:32:44">
+    <value>Backing up content of this module</value>
+    <comment></comment>
+  </data>
+  <data name="SyncContentLine2" lastModified="2014-04-07T14:32:44">
+    <value>Having faster mobile apps based on this module</value>
+    <comment></comment>
+  </data>
+  <data name="MobileApps" lastModified="2014-04-07T14:32:44">
+    <value>mobile apps</value>
+    <comment></comment>
+  </data>
+</root>

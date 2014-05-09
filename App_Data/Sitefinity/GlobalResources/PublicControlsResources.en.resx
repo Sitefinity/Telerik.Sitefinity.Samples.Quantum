@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ShowEditingTools" lastModified="2013-07-17T08:38:42">
+    <value>Show editing tools</value>
+    <comment>phrase: Show editing tools</comment>
+  </data>
+  <data name="PublicControlsResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Public Controls Resources</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="PublicControlsResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>Public Controls Resources</value>
+    <comment>The title of this class in plural.</comment>
+  </data>
+  <data name="PublicControlsResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for the public controls</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="FeedDesignerTitle" lastModified="2014-04-07T14:32:44">
+    <value>RSS Feed</value>
+    <comment>Label: Feed designer title</comment>
+  </data>
+  <data name="NoFeedSelected" lastModified="2014-04-07T14:32:44">
+    <value>No feed is selected</value>
+    <comment>Label: No feed is selected</comment>
+  </data>
+  <data name="SelectAFeed" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong class="sfLinkBtnIn"&gt;Select a feed&lt;/strong&gt;</value>
+    <comment>Button: Select a feed</comment>
+  </data>
+  <data name="InsertAfeed" lastModified="2014-04-07T14:32:44">
+    <value>Insert</value>
+    <comment>Label: Insert (feed)</comment>
+  </data>
+  <data name="LinksBothInThePageAndInTheBrowserAddressBar" lastModified="2014-04-07T14:32:44">
+    <value>Links both in the page and in the browser address-bar</value>
+    <comment>Radio button: Links both in the page and in the browser address-bar</comment>
+  </data>
+  <data name="LinkInTheBrowserAddressBarOnly" lastModified="2014-04-07T14:32:44">
+    <value>Link in the browser address-bar only</value>
+    <comment>Radio button: Link in the browser address-bar only</comment>
+  </data>
+  <data name="LinkInThePageOnly" lastModified="2014-04-07T14:32:44">
+    <value>Link in the page only</value>
+    <comment>Radio button: Link in the page only</comment>
+  </data>
+  <data name="FeedTextToDisplay" lastModified="2014-04-07T14:32:44">
+    <value>Text to display</value>
+    <comment>Label: Feed text to display</comment>
+  </data>
+  <data name="Icon" lastModified="2014-04-07T14:32:44">
+    <value>Icon</value>
+    <comment>Label: Icon</comment>
+  </data>
+  <data name="BigIcon" lastModified="2014-04-07T14:32:44">
+    <value>Big icon</value>
+    <comment>Radio button: Big icon</comment>
+  </data>
+  <data name="SmallIcon" lastModified="2014-04-07T14:32:44">
+    <value>Small icon</value>
+    <comment>Radio button: Small icon</comment>
+  </data>
+  <data name="NoIcon" lastModified="2014-04-07T14:32:44">
+    <value>No icon</value>
+    <comment>Radio button: Big icon</comment>
+  </data>
+  <data name="MoreOptions" lastModified="2014-04-07T14:32:44">
+    <value>More options</value>
+    <comment>Label: More options</comment>
+  </data>
+  <data name="Tooltip" lastModified="2014-04-07T14:32:44">
+    <value>Tooltip</value>
+    <comment>Label: Tooltip</comment>
+  </data>
+  <data name="AppearsWhenCursorIsPointedToTheLink" lastModified="2014-04-07T14:32:44">
+    <value>(appears when the cursor is pointed to the link)</value>
+    <comment>Label: (appears when the cursor is pointed to the link)</comment>
+  </data>
+  <data name="CssClass" lastModified="2014-04-07T14:32:44">
+    <value>CSS Class</value>
+    <comment>Label: CSS Class</comment>
+  </data>
+  <data name="OpenInNewWindow" lastModified="2014-04-07T14:32:44">
+    <value>Open this link in a new window</value>
+    <comment>Label: Open this link in a new window</comment>
+  </data>
+  <data name="CautionOpeningANewWindowIsInConflictWithWebStandards" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Caution:&lt;/strong&gt; Opening a new window is in conflict with web standards</value>
+    <comment>Label: Caution: Opening a new window is in conflict with web standards</comment>
+  </data>
+  <data name="InsertTheLink" lastModified="2014-04-07T14:32:44">
+    <value>Insert the link</value>
+    <comment>Button: Insert the link</comment>
+  </data>
+  <data name="ControLCategory_Templates" lastModified="2014-04-07T14:32:44">
+    <value>Templates</value>
+    <comment>Control cagegory: Templates</comment>
+  </data>
+  <data name="DisplayName_LoggedOutLayoutTemplatePath" lastModified="2014-04-07T14:32:44">
+    <value>Logged out layout template path</value>
+    <comment>Control cagegory: Logged out layout template path</comment>
+  </data>
+  <data name="DisplayName_LoggedInLayoutTemplatePath" lastModified="2014-04-07T14:32:44">
+    <value>Logged in layout template path</value>
+    <comment>Control cagegory: Logged in layout template path</comment>
+  </data>
+  <data name="LogInText" lastModified="2014-04-07T14:32:44">
+    <value>Log in</value>
+    <comment>LoginStatus: text of the login button</comment>
+  </data>
+  <data name="LogOutText" lastModified="2014-04-07T14:32:44">
+    <value>Log out</value>
+    <comment>LoginStatus: text of the login button</comment>
+  </data>
+  <data name="LoginControlsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Login</value>
+    <comment>phrase: Login</comment>
+  </data>
+  <data name="LoginControlsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Widgets that manipulate the login status of the current user</value>
+    <comment>phrase: Widgets that manipulate the login status of the current user</comment>
+  </data>
+  <data name="LoginControlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Login &lt;span class="sfNote"&gt;(backward compatibility)&lt;/span&gt;</value>
+    <comment>phrase: Login</comment>
+  </data>
+  <data name="LoginControlDescription" lastModified="2014-04-07T14:32:44">
+    <value>Form that lets users to login</value>
+    <comment>phrase: Allows users to login to Sitefinity</comment>
+  </data>
+  <data name="ChangePasswordWidgetDescription" lastModified="2014-04-07T14:32:44">
+    <value>Form that allows users to change their passwords</value>
+    <comment>phrase: Allows users to change their passwords</comment>
+  </data>
+  <data name="LoginNameControlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Login name</value>
+    <comment>phrase: Login name</comment>
+  </data>
+  <data name="LoginNameControlDescription" lastModified="2014-04-07T14:32:44">
+    <value>The name of the currently logged user</value>
+    <comment>phrase: Displays the currently logged in user's name in a custom format or nothing to an anonymous user</comment>
+  </data>
+  <data name="LoginStatusControlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Login/log out button</value>
+    <comment>phrase: Login status</comment>
+  </data>
+  <data name="LoginStatusControlDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows the user to log in or log out, depending on their status</value>
+    <comment>phrase: Allows the user to log-in or log-out, depending on their status</comment>
+  </data>
+  <data name="LoginWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Login</value>
+    <comment>phrase: Login</comment>
+  </data>
+  <data name="UserChangePasswordWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Change password</value>
+    <comment>phrase: Change password</comment>
+  </data>
+  <data name="UserChangePasswordWidgetDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows users to change their password in the password recovery process</value>
+    <comment>phrase: Allows users to change their password in the password recovery process</comment>
+  </data>
+  <data name="ChangePasswordWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Change password</value>
+    <comment>phrase: Change password</comment>
+  </data>
+  <data name="SharedContentBlockWarning" lastModified="2014-04-07T14:32:44">
+    <value>This content is shared across pages. Any changes will be reflected where it is shared</value>
+    <comment>phrase: This content is shared across pages. Any changes will be reflected where it is shared</comment>
+  </data>
+  <data name="InlineEditing" lastModified="2014-04-07T14:32:44">
+    <value>Inline Editing</value>
+    <comment>phrase: Inline Editing</comment>
+  </data>
+  <data name="WebAddress" lastModified="2014-04-07T14:32:44">
+    <value>Web address</value>
+    <comment>phrase: Web address</comment>
+  </data>
+  <data name="PageFromThisSite" lastModified="2014-04-07T14:32:44">
+    <value>Page from this site</value>
+    <comment>phrase: Page from this site</comment>
+  </data>
+  <data name="Email" lastModified="2014-04-07T14:32:44">
+    <value>Email</value>
+    <comment>word: Email</comment>
+  </data>
+  <data name="InsertALink" lastModified="2014-04-07T14:32:44">
+    <value>Insert a link</value>
+    <comment>word: Insert a link</comment>
+  </data>
+  <data name="WebAddressLinkExample" lastModified="2014-04-07T14:32:44">
+    <value>Example: http://weather.com</value>
+    <comment>phrase: Example: http://weather.com</comment>
+  </data>
+  <data name="EmailAddressLinkExample" lastModified="2014-04-07T14:32:44">
+    <value>Example: johnsmith@gmail.com</value>
+    <comment>phrase: Example: johnsmith@gmail.com</comment>
+  </data>
+  <data name="TooltipExample" lastModified="2014-04-07T14:32:44">
+    <value>Tooltip (appears when the cursor is pointed to the link)</value>
+    <comment>phrase: Tooltip (appears when the cursor is pointed to the link)</comment>
+  </data>
+  <data name="EditValueLabel" lastModified="2014-04-07T14:32:44">
+    <value>Edit value</value>
+    <comment>phrase: The field edit value label text</comment>
+  </data>
+  <data name="EditDateLabel" lastModified="2014-04-07T14:32:44">
+    <value>Edit date</value>
+    <comment>phrase: The datetime field edit value label text</comment>
+  </data>
+  <data name="EditSelectionLabel" lastModified="2014-04-07T14:32:44">
+    <value>Edit selection</value>
+    <comment>phrase: Edit selection label text</comment>
+  </data>
+  <data name="DoneButtonText" lastModified="2014-04-07T14:32:44">
+    <value>Done</value>
+    <comment>phrase: The field done button text</comment>
+  </data>
+  <data name="CancelButtonText" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>phrase: The field cancel button text</comment>
+  </data>
+  <data name="EditContent" lastModified="2014-04-07T14:32:44">
+    <value>Edit content</value>
+    <comment>phrase: Edit content</comment>
+  </data>
+  <data name="ExitEditing" lastModified="2014-04-07T14:32:44">
+    <value>Exit editing</value>
+    <comment>phrase: Exit editing</comment>
+  </data>
+  <data name="ShowDraftContent" lastModified="2014-04-07T14:32:44">
+    <value>Show not published content</value>
+    <comment>phrase: Show not published content</comment>
+  </data>
+  <data name="SaveAsDraft" lastModified="2014-04-07T14:32:44">
+    <value>Save as Draft</value>
+    <comment>phrase: Save as Draft</comment>
+  </data>
+  <data name="PublishAll" lastModified="2014-04-07T14:32:44">
+    <value>Publish all</value>
+    <comment>phrase: Publish all</comment>
+  </data>
+  <data name="Publish" lastModified="2014-04-07T14:32:44">
+    <value>Publish</value>
+    <comment>word: Publish</comment>
+  </data>
+  <data name="UseSelected" lastModified="2014-04-07T14:32:44">
+    <value>Use selected</value>
+    <comment>phrase: Use selected</comment>
+  </data>
+  <data name="ClearFilter" lastModified="2014-04-07T14:32:44">
+    <value>Clear</value>
+    <comment>phrase: Clear filter</comment>
+  </data>
+  <data name="EditImage" lastModified="2014-04-07T14:32:44">
+    <value>Edit image</value>
+    <comment>phrase: Edit image</comment>
+  </data>
+  <data name="WorkflowResultsWindowSubTitle" lastModified="2014-04-07T14:32:44">
+    <value>Possible reasons: Specific workflow statuses or not permissions for editing granted</value>
+    <comment>phrase: Possible reasons: Specific workflow statuses or not permissions for editing granted</comment>
+  </data>
+  <data name="SingleWorkflowResultWindowTitle" lastModified="2014-04-07T14:32:44">
+    <value>piece of content has not been published</value>
+    <comment>phrase: piece of content has not been published</comment>
+  </data>
+  <data name="MultipleWorkflowResultsWindowTitle" lastModified="2014-04-07T14:32:44">
+    <value>pieces of content have not been published</value>
+    <comment>phrase: pieces of content have not been published</comment>
+  </data>
+  <data name="Close" lastModified="2014-04-07T14:32:44">
+    <value>Close</value>
+    <comment>word: Close</comment>
+  </data>
+  <data name="OpenItemInBackendLabel" lastModified="2014-04-07T14:32:44">
+    <value>Open this item in the backend</value>
+    <comment>phrase: Open this item in the backend</comment>
+  </data>
+  <data name="EditContentOnLabel" lastModified="2014-04-07T14:32:44">
+    <value>Edit content on</value>
+    <comment>phrase: Edit content on</comment>
+  </data>
+  <data name="EditingLabel" lastModified="2014-04-07T14:32:44">
+    <value>Editing</value>
+    <comment>word: Editing</comment>
+  </data>
+  <data name="Actions" lastModified="2014-04-07T14:32:44">
+    <value>Actions</value>
+    <comment>word: Actions</comment>
+  </data>
+  <data name="SelectImage" lastModified="2014-04-07T14:32:44">
+    <value>Select image</value>
+    <comment>phrase: Select image</comment>
+  </data>
+  <data name="UploadImage" lastModified="2014-04-07T14:32:44">
+    <value>Upload image</value>
+    <comment>phrase: Upload image</comment>
+  </data>
+  <data name="SomeContentNotPublished" lastModified="2014-04-07T14:32:44">
+    <value>Some content on this page is not published.</value>
+    <comment>phrase: Some content on this page is not published.</comment>
+  </data>
+  <data name="MarkNotPublishedContent" lastModified="2014-04-07T14:32:44">
+    <value>Mark not published content</value>
+    <comment>phrase: Mark not published content</comment>
+  </data>
+  <data name="EditAllProperties" lastModified="2014-04-07T14:32:44">
+    <value>Edit all properties</value>
+    <comment>phrase: Edit all properties</comment>
+  </data>
+  <data name="RequiredViolationMessage" lastModified="2014-04-07T14:32:44">
+    <value>This field is required!</value>
+    <comment>phrase: This field is required! </comment>
+  </data>
+  <data name="MinLengthViolationMessage" lastModified="2014-04-07T14:32:44">
+    <value>The input is too short</value>
+    <comment>phrase: The input is too short</comment>
+  </data>
+  <data name="MaxLengthViolationMessage" lastModified="2014-04-07T14:32:44">
+    <value>The input is too long</value>
+    <comment>phrase: The input is too long</comment>
+  </data>
+  <data name="ExitEditingWithoutSavingAlertMessage" lastModified="2014-04-07T14:32:44">
+    <value>You have unsaved changes. Are you sure you want to exit editing?</value>
+    <comment>phrase: You have unsaved changes. Are you sure you want to exit editing?</comment>
+  </data>
+  <data name="NavigatingAwayFromEditingWithoutSavingAlertMessage" lastModified="2014-04-07T14:32:44">
+    <value>By navigating away from the editor your changes will not be canceled and the items will remain locked. You can use "Exit editing" link to leave and unlock.</value>
+    <comment>phrase: By navigating away from the editor your changes will not be canceled and the items will remain locked. You can use "Exit editing" link to leave and unlock.</comment>
+  </data>
+  <data name="EditPageInBackend" lastModified="2014-04-07T14:32:44">
+    <value>Edit widgets and layout</value>
+    <comment>phrase: Edit widgets and layout</comment>
+  </data>
+  <data name="SelectMediaTypes" lastModified="2014-04-07T14:32:44">
+    <value>Select media types...</value>
+    <comment>phrase: Select media types...</comment>
+  </data>
+  <data name="WhereToIncludeInHtml" lastModified="2014-04-07T14:32:44">
+    <value>Where to include in HTML?</value>
+    <comment>phrase: Where to include in HTML?</comment>
+  </data>
+  <data name="WhereTheWidgetIsDropped" lastModified="2014-04-07T14:32:44">
+    <value>Where the widget is dropped</value>
+    <comment>phrase: Where the widget is dropped</comment>
+  </data>
+  <data name="InTheHeadTag" lastModified="2014-04-07T14:32:44">
+    <value>In the head tag</value>
+    <comment>phrase: In the head tag</comment>
+  </data>
+  <data name="BeforeBodyEndTag" lastModified="2014-04-07T14:32:44">
+    <value>Before the closing body tag</value>
+    <comment>phrase: Before the closing body tag</comment>
+  </data>
+  <data name="LinkToJavaScriptFile" lastModified="2014-04-07T14:32:44">
+    <value>Link to a JavaScript file (.js)</value>
+    <comment>phrase: Link to a JavaScript file (.js)</comment>
+  </data>
+  <data name="WriteJavaScript" lastModified="2014-04-07T14:32:44">
+    <value>Write JavaScript</value>
+    <comment>phrase: Write JavaScript</comment>
+  </data>
+  <data name="LinkToCSSFile" lastModified="2014-04-07T14:32:44">
+    <value>Link to a CSS file</value>
+    <comment>phrase: Link to a CSS file</comment>
+  </data>
+  <data name="WriteCss" lastModified="2014-04-07T14:32:44">
+    <value>Write CSS &lt;span class='sfSelExtra'&gt;(to be included in the page head)&lt;/span&gt;</value>
+    <comment>phrase: Write CSS (to be included in the page head)</comment>
+  </data>
+  <data name="WriteCssExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;h2&gt;Tips&lt;/h2&gt;&lt;p&gt;CSS written here will be included in the HTML &amp;lt;head&amp;gt; tag.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Do not add &amp;lt;style&amp;gt;&lt;/strong&gt; tag, it will be added automatically. Start writing CSS rules directly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;br /&gt;&lt;code&gt;body {&lt;br/&gt;background: #fff;&lt;br/&gt;font-size: 12px;&lt;br/&gt;}&lt;/code&gt;&lt;/p&gt;</value>
+    <comment>example: Write CSS</comment>
+  </data>
+  <data name="WriteJSExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;h2&gt;Tips&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Do not add &amp;lt;script&amp;gt;&lt;/strong&gt; tag, it will be added automatically. Start writing your JavaScript directly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;br /&gt;&lt;code&gt; var str = "Hello World!";&lt;/code&gt;</value>
+    <comment>JavaScript tips and example. Phrase: Tips Do not add &lt;script&gt; tag, it will be added automatically. Start writing your JavaScript directly. Example: var str = "Hello World!"; </comment>
+  </data>
+  <data name="PasteGoogleAnalyticsCode" lastModified="2014-04-07T14:32:44">
+    <value>Paste Google Analytics code</value>
+    <comment>phrase: Paste Google Analytics code</comment>
+  </data>
+  <data name="PasteTwitterWidgetCode" lastModified="2014-04-07T14:32:44">
+    <value>Paste Twitter Widget code</value>
+    <comment>phrase: Paste Twitter Widget code</comment>
+  </data>
+  <data name="SelectFeed" lastModified="2014-04-07T14:32:44">
+    <value>Select a feed</value>
+    <comment>phrase: Select a feed</comment>
+  </data>
+  <data name="SetArchive" lastModified="2014-04-07T14:32:44">
+    <value>Set Archive</value>
+    <comment>phrase: Set Archive</comment>
+  </data>
+  <data name="SetCss" lastModified="2014-04-07T14:32:44">
+    <value>Set CSS</value>
+    <comment>phrase: Set CSS</comment>
+  </data>
+  <data name="SetJavaScript" lastModified="2014-04-07T14:32:44">
+    <value>Set Java Script</value>
+    <comment>phrase: Set Java Script</comment>
+  </data>
+  <data name="SetGoogleAnalytics" lastModified="2014-04-07T14:32:44">
+    <value>Set Google Analytics</value>
+    <comment>phrase: Set Google Analytics</comment>
+  </data>
+  <data name="SetTwitterWidget" lastModified="2014-04-07T14:32:44">
+    <value>Set Twitter Widget</value>
+    <comment>phrase: Set Twitter Widget</comment>
+  </data>
+  <data name="SetXMLDataSource" lastModified="2014-04-07T14:32:44">
+    <value>Set XML data source</value>
+    <comment>phrase: Set XML data source</comment>
+  </data>
+  <data name="SetSiteMapDataSource" lastModified="2014-04-07T14:32:44">
+    <value>Set Site map data source</value>
+    <comment>phrase: Set Site map data source</comment>
+  </data>
+  <data name="SetOpenAccessData" lastModified="2014-04-07T14:32:44">
+    <value>Set OpenAccess data</value>
+    <comment>phrase: Set OpenAccess data</comment>
+  </data>
+  <data name="DownloadList" lastModified="2014-04-07T14:32:44">
+    <value>Download list</value>
+    <comment>phrase: Download list</comment>
+  </data>
+  <data name="ThePasswordRecoveryFunctionalityWillNotWork" lastModified="2014-04-07T14:32:44">
+    <value>The password recovery functionality will not work if the 'ChangePasswordPageUrl' property is not set</value>
+    <comment>phrase: The password recovery functionality will not work if the 'ChangePasswordPageUrl' property is not set</comment>
+  </data>
+  <data name="ControlCannotBeRenderedInDesignMode" lastModified="2014-04-07T14:32:44">
+    <value>{0} cannot be properly displayed in Design Mode</value>
+    <comment>phrase: {0} cannot be properly displayed in Design Mode</comment>
+  </data>
+  <data name="LoginControlAvailability" lastModified="2014-04-07T14:32:44">
+    <value>Login (backward compatibility) widget is not compatible with Claims Authentication mode, use Login instead. Learn more in &lt;a href='http://www.sitefinity.com/documentation/documentationarticles/authentication-models-overview'&gt;our documentation &lt;/a&gt;</value>
+    <comment>Login (backward compatibility) widget is not compatible with Claims Authentication mode, use Login instead. Learn more in our documentation.</comment>
+  </data>
+  <data name="LoginWidgetAvailability" lastModified="2014-04-07T14:32:44">
+    <value>Login is not compatible with Forms Authentication mode, use Login (backward compatibility) instead. Learn more in &lt;a href='http://www.sitefinity.com/documentation/documentationarticles/authentication-models-overview'&gt;our documentation &lt;/a&gt;</value>
+    <comment>Login is not compatible with Forms Authentication mode, use Login (backward compatibility) instead. Learn more in our documentation.</comment>
+  </data>
+  <data name="BrowseAndEditPageMenuTools" lastModified="2014-04-07T14:32:44">
+    <value>Tools</value>
+    <comment>phrase: Tools</comment>
+  </data>
+  <data name="EditThisPage" lastModified="2014-04-07T14:32:44">
+    <value>Edit this page</value>
+    <comment>phrase: Show editing tools</comment>
+  </data>
+  <data name="HideEditingTools" lastModified="2014-04-07T14:32:44">
+    <value>Hide editing tools</value>
+    <comment>phrase: Hide editing tools</comment>
+  </data>
+  <data name="BrowseAndEditPageMenuShowToolsSubTitle" lastModified="2014-04-07T14:32:44">
+    <value>To edit content while browsing the site</value>
+    <comment>phrase: To edit content while browsing the site</comment>
+  </data>
+  <data name="BrowseAndEditPageMenuEditInBackend" lastModified="2014-04-07T14:32:44">
+    <value>Edit this page in the Backend</value>
+    <comment>phrase: Edit this page in the Backend</comment>
+  </data>
+  <data name="BrowseAndEditPageMenuEditInBackendSubTitle" lastModified="2014-04-07T14:32:44">
+    <value>To add widgets or to change the template</value>
+    <comment>phrase: To add widgets or to change the template</comment>
+  </data>
+  <data name="YouAreLoggedAs" lastModified="2014-04-07T14:32:44">
+    <value>You are logged as</value>
+    <comment>phrase: You are logged as</comment>
+  </data>
+  <data name="EditPageInBackendDescription" lastModified="2014-04-07T14:32:44">
+    <value>To add widgets or to change the template</value>
+    <comment>phrase: To add widgets or to change the template</comment>
+  </data>
+  <data name="DeleteItemWithBrowseAndEditConfirmPhrase" lastModified="2014-04-07T14:32:44">
+    <value>Yes. Delete this item</value>
+    <comment>phrase: Yes. Delete this item</comment>
+  </data>
+  <data name="UnpublishItemWithBrowseAndEditConfirmPhrase" lastModified="2014-04-07T14:32:44">
+    <value>Yes. Unpublish this item</value>
+    <comment>phrase: Yes. Unpublish this item</comment>
+  </data>
+  <data name="DeleteItemWithBrowseAndEditMessageFormat" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete &lt;em&gt;{0}&lt;/em&gt;?</value>
+    <comment>phrase: Are you sure you want to delete {0}?</comment>
+  </data>
+  <data name="UnpublishItemWithBrowseAndEditMessageFormat" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to unpublish &lt;em&gt;{0}&lt;/em&gt;?</value>
+    <comment>phrase: Are you sure you want to unpublish {0}?</comment>
+  </data>
+  <data name="CommentsSubmitForm" lastModified="2014-04-07T14:32:44">
+    <value>Comments submit form</value>
+    <comment>phrase: Comments submit form</comment>
+  </data>
+  <data name="ContentNotEditable" lastModified="2014-04-07T14:32:44">
+    <value>Selected content can't be edited</value>
+    <comment>phrase: Selected content can't be edited</comment>
+  </data>
+  <data name="UnmarkNotPublishedContent" lastModified="2014-04-07T14:32:44">
+    <value>Unmark not published content</value>
+    <comment>phrase: Unmark not published content</comment>
+  </data>
+</root>

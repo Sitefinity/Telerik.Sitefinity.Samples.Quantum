@@ -1,0 +1,1848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CacheNotReady" lastModified="2013-03-07T06:00:35">
+    <value>Cache option</value>
+    <comment>Phrase: Cache option.</comment>
+  </data>
+  <data name="CustomResizeInfo" lastModified="2013-12-20T07:46:30">
+    <value>Resizes the original image by applying styles</value>
+    <comment>phrase:  Resizes the original image by applying styles</comment>
+  </data>
+  <data name="LibrariesResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Library</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="LibrariesResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>Libraries</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="LibrariesResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for Libraries user interface.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="Database" lastModified="2014-04-07T14:32:44">
+    <value>Database</value>
+    <comment>word: Database</comment>
+  </data>
+  <data name="FileSystem" lastModified="2014-04-07T14:32:44">
+    <value>File System</value>
+    <comment>phrase: File System</comment>
+  </data>
+  <data name="ProviderName" lastModified="2014-04-07T14:32:44">
+    <value>Provider name</value>
+    <comment>phrase: Provider name</comment>
+  </data>
+  <data name="ProviderNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Provider name cannot be empty.</value>
+    <comment>phrase: Provider name cannot be empty.</comment>
+  </data>
+  <data name="ProviderNameAlreadyUsed" lastModified="2014-04-07T14:32:44">
+    <value>Provider name '{0}' already used.</value>
+    <comment>phrase: Provider name '{0}' already used.</comment>
+  </data>
+  <data name="ProviderType" lastModified="2014-04-07T14:32:44">
+    <value>Provider type</value>
+    <comment>phrase: Provider type</comment>
+  </data>
+  <data name="NotAuthorizedToViewMediaItem" lastModified="2014-04-07T14:32:44">
+    <value>You are not authorized to view this media item</value>
+    <comment>Error message displayed when returning 403 if an image cannot be displayed</comment>
+  </data>
+  <data name="Publish" lastModified="2014-04-07T14:32:44">
+    <value>Publish</value>
+    <comment>Label of the publish action.</comment>
+  </data>
+  <data name="Unpublish" lastModified="2014-04-07T14:32:44">
+    <value>Unpublish</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+    <value>Libraries</value>
+    <comment>The title of the Libraries module.</comment>
+  </data>
+  <data name="WhichItemsToUpload" lastModified="2014-04-07T14:32:44">
+    <value>Which {0} to upload?</value>
+    <comment>phrase: Which {0} to upload?</comment>
+  </data>
+  <data name="SelectItems" lastModified="2014-04-07T14:32:44">
+    <value>Select {0}</value>
+    <comment>phrase: Select {0}</comment>
+  </data>
+  <data name="MultipleItemsCanBeSelectedAtOnce" lastModified="2014-04-07T14:32:44">
+    <value>Multiple {0} can be selected at once.</value>
+    <comment>phrase: Multiple {0} can be selected at once.</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Provides user interface for managing images, documents and videos.</value>
+    <comment>The description of the Libraries module</comment>
+  </data>
+  <data name="ImagesPageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Images</value>
+    <comment>Title of the images page group.</comment>
+  </data>
+  <data name="ImagesPageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the page group that contains all pages for the Images module.</value>
+    <comment>Images Page Group Description</comment>
+  </data>
+  <data name="DocumentsPageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Documents &amp; Files</value>
+    <comment>Title of the documents page group.</comment>
+  </data>
+  <data name="DocumentsPageGroupNodeUrl" lastModified="2014-04-07T14:32:44">
+    <value>Documents</value>
+    <comment>Url of the documents page group.</comment>
+  </data>
+  <data name="DocumentsPageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the page group that contains all pages for the Documents &amp; Files module.</value>
+    <comment>Documents &amp; Files Page Group Description</comment>
+  </data>
+  <data name="VideosPageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Videos</value>
+    <comment>Title of the videos page group.</comment>
+  </data>
+  <data name="VideosPageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the page group that contains all pages for the Videos module.</value>
+    <comment>Videos Page Group Description</comment>
+  </data>
+  <data name="ImagesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Images</value>
+    <comment>Title of the Images page.</comment>
+  </data>
+  <data name="ImagesHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Images</value>
+    <comment>Html Title of the Images page.</comment>
+  </data>
+  <data name="ImagesUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Images</value>
+    <comment>Images page URL.</comment>
+  </data>
+  <data name="ImageFiles" lastModified="2014-04-07T14:32:44">
+    <value>Image Files</value>
+    <comment>ImageFiles.</comment>
+  </data>
+  <data name="VideoFiles" lastModified="2014-04-07T14:32:44">
+    <value>Video Files</value>
+    <comment>VideoFiles.</comment>
+  </data>
+  <data name="ImagesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Images Description</value>
+    <comment>Description of the Images page</comment>
+  </data>
+  <data name="ImagesViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Image gallery</value>
+    <comment>The title of the ImagesView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="ImagesViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>Images from a library, displayed in various ways</value>
+    <comment>The description of the ImagesView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="VideosViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Video gallery</value>
+    <comment>The title of the VideosView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="VideosViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>Videos from a library</value>
+    <comment>The description of the ImagesView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="DocumentsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Documents &amp; Files</value>
+    <comment>Title of the Documents &amp; Files page.</comment>
+  </data>
+  <data name="DocumentsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Documents</value>
+    <comment>Html Title of the Documents &amp; Files page.</comment>
+  </data>
+  <data name="DocumentsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Documents</value>
+    <comment>Documents page URL.</comment>
+  </data>
+  <data name="DocumentsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Manage Documents</value>
+    <comment>Description of the Documents page</comment>
+  </data>
+  <data name="VideosTitle" lastModified="2014-04-07T14:32:44">
+    <value>Videos</value>
+    <comment>Title of the Videos page.</comment>
+  </data>
+  <data name="VideosHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Videos</value>
+    <comment>Html Title of the Videos page.</comment>
+  </data>
+  <data name="VideosDescription" lastModified="2014-04-07T14:32:44">
+    <value>Videos Description</value>
+    <comment>Description of the Videos page</comment>
+  </data>
+  <data name="VideosUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Videos</value>
+    <comment>Videos page URL.</comment>
+  </data>
+  <data name="LibraryVideosTitle" lastModified="2014-04-07T14:32:44">
+    <value>Library Videos</value>
+    <comment>Title of the Libraries at Videos page.</comment>
+  </data>
+  <data name="LibraryVideosHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Library Videos</value>
+    <comment>Html Title of the LibraryVideos page.</comment>
+  </data>
+  <data name="LibraryVideosUrlName" lastModified="2014-04-07T14:32:44">
+    <value>LibraryVideos</value>
+    <comment>Videos page for selected library.</comment>
+  </data>
+  <data name="LibraryVideosDescription" lastModified="2014-04-07T14:32:44">
+    <value>Library Videos Description</value>
+    <comment>Description of the LibraryVideos page</comment>
+  </data>
+  <data name="LibrariesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Libraries</value>
+    <comment>Title of the Libraries page.</comment>
+  </data>
+  <data name="LibrariesHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Libraries</value>
+    <comment>Html Title of the Libraries page.</comment>
+  </data>
+  <data name="LibrariesUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Libraries</value>
+    <comment>Libraries page URL.</comment>
+  </data>
+  <data name="LibrariesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Libraries description</value>
+    <comment>Description of the Libraries page</comment>
+  </data>
+  <data name="LibraryDocumentsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Library Documents</value>
+    <comment>Title of the Libraries at Documents page.</comment>
+  </data>
+  <data name="LibraryDocumentsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Library Documents</value>
+    <comment>Html Title of the LibraryDocuments page.</comment>
+  </data>
+  <data name="LibraryDocumentsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>LibraryDocuments</value>
+    <comment>Documents page for selected library.</comment>
+  </data>
+  <data name="LibraryDocumentsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Library Documents Description</value>
+    <comment>Description of the LibraryDocuments page</comment>
+  </data>
+  <data name="LibraryImagesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Library Images</value>
+    <comment>Title of the LibraryImages page.</comment>
+  </data>
+  <data name="LibraryImagesHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Library Images</value>
+    <comment>Html Title of the LibraryImages page.</comment>
+  </data>
+  <data name="LibraryImagesUrlName" lastModified="2014-04-07T14:32:44">
+    <value>LibraryImages</value>
+    <comment>LibraryImages page URL.</comment>
+  </data>
+  <data name="LibraryImagesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Manage Images</value>
+    <comment>Description of the LibraryImages page</comment>
+  </data>
+  <data name="AlbumsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Libraries</value>
+    <comment>Title of the Image Libraries page.</comment>
+  </data>
+  <data name="AlbumsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Libraries</value>
+    <comment>Html Title of the Image Libraries page.</comment>
+  </data>
+  <data name="AlbumsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Albums</value>
+    <comment>Albums page URL.</comment>
+  </data>
+  <data name="AlbumsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Manage Image Libraries</value>
+    <comment>Description of the Image Libraries page</comment>
+  </data>
+  <data name="WhereToStoreUploadedItems" lastModified="2014-04-07T14:32:44">
+    <value>Where to store the uploaded {0}?</value>
+    <comment>phrase: Where to store the uploaded {0}?</comment>
+  </data>
+  <data name="CantUploadFiles" lastModified="2014-04-07T14:32:44">
+    <value>You can't upload {0} files. Only {1} can be uploaded</value>
+    <comment>phrase: You can't upload {0} files. Only {1} can be uploaded</comment>
+  </data>
+  <data name="InvalidFileSizeAlertMessage" lastModified="2014-04-07T14:32:44">
+    <value>The selected file is larger than maximum allowed size ({0} kB)</value>
+    <comment> Message displayed on attempt to insert a file with size larger than allowed.</comment>
+  </data>
+  <data name="LibraryNotSelected" lastModified="2014-04-07T14:32:44">
+    <value>You must select the library in which the files ought to be uploaded.</value>
+    <comment>phrase: You must select the library in which the files ought to be uploaded.</comment>
+  </data>
+  <data name="ImagesMasterThumbnailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Images - list</value>
+    <comment>phrase: Images - list</comment>
+  </data>
+  <data name="ImagesMasterThumbnailStripViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Images - strip</value>
+    <comment>phrase: Images - strip</comment>
+  </data>
+  <data name="ImagesMasterThumbnailSimpleViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Images - simple list</value>
+    <comment>phrase: Images - simple list</comment>
+  </data>
+  <data name="ImagesMasterThumbnailLightboxViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Images - lightbox</value>
+    <comment>phrase: Images - lightbox</comment>
+  </data>
+  <data name="ImagesDetailSimpleViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Images - single</value>
+    <comment>phrase: Images - single</comment>
+  </data>
+  <data name="VideosMasterThumbnailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Videos - list</value>
+    <comment>phrase: Videos - list</comment>
+  </data>
+  <data name="VideosMasterThumbnailLightboxViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Videos - lightbox</value>
+    <comment>phrase: Videos - lightbox</comment>
+  </data>
+  <data name="VideosDetailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Videos - single</value>
+    <comment>phrase: Videos - single</comment>
+  </data>
+  <data name="DocumentsMasterListViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Documents - list</value>
+    <comment>phrase: Documents - list</comment>
+  </data>
+  <data name="DocumentsMasterTableViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Documents - table</value>
+    <comment>phrase: Documents - table</comment>
+  </data>
+  <data name="DocumentsListDetailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Documents - list details</value>
+    <comment>phrase: Documents - list details</comment>
+  </data>
+  <data name="DocumentsTableDetailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Documents - table details</value>
+    <comment>phrase: Documents - table details</comment>
+  </data>
+  <data name="DocumentsDetailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Documents - single</value>
+    <comment>phrase: Documents - single</comment>
+  </data>
+  <data name="ParentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Parent library</value>
+    <comment>phrase: Parent library</comment>
+  </data>
+  <data name="NoParentLib" lastModified="2014-04-07T14:32:44">
+    <value>No parent (this library is on top level)</value>
+    <comment>phrase: No parent (this library is on top level)</comment>
+  </data>
+  <data name="SelectedParentLib" lastModified="2014-04-07T14:32:44">
+    <value>Selected parent library...</value>
+    <comment>phrase: Selected parent library...</comment>
+  </data>
+  <data name="AspectRatio" lastModified="2014-04-07T14:32:44">
+    <value>Aspect ratio</value>
+    <comment>Phrase: Aspect ratio</comment>
+  </data>
+  <data name="Html5MediaPlayerControlFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Media Player Control</value>
+    <comment>Phrase: Media Player Control</comment>
+  </data>
+  <data name="AutoLabel" lastModified="2014-04-07T14:32:44">
+    <value>Auto</value>
+    <comment>Word: Auto</comment>
+  </data>
+  <data name="CustomLabel" lastModified="2014-04-07T14:32:44">
+    <value>Custom</value>
+    <comment>Word: Custom</comment>
+  </data>
+  <data name="Upload" lastModified="2014-04-07T14:32:44">
+    <value>Upload</value>
+    <comment>The text of the upload button in grid toolbar.</comment>
+  </data>
+  <data name="Uploadvideo" lastModified="2014-04-07T14:32:44">
+    <value>Upload Video</value>
+    <comment>UploadVideo</comment>
+  </data>
+  <data name="UploadImage" lastModified="2014-04-07T14:32:44">
+    <value>Upload image</value>
+    <comment>UploadImage</comment>
+  </data>
+  <data name="UploadDocument" lastModified="2014-04-07T14:32:44">
+    <value>Upload document</value>
+    <comment>UploadDocument</comment>
+  </data>
+  <data name="Delete" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>The text of the delete button.</comment>
+  </data>
+  <data name="DeleteThisLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Delete this library</value>
+    <comment>The text of the delete button.</comment>
+  </data>
+  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>The text of the cancel button.</comment>
+  </data>
+  <data name="MoreActions" lastModified="2014-04-07T14:32:44">
+    <value>More actions</value>
+    <comment>The text of the more action menu in grid toolbar.</comment>
+  </data>
+  <data name="BulkEdit" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Bulk edit&lt;/strong&gt; titles, categories, tags</value>
+    <comment>The text of the bulk edit button in the action menu.</comment>
+  </data>
+  <data name="OtherFilterOptions" lastModified="2014-04-07T14:32:44">
+    <value>Other filter options</value>
+    <comment>The 'Other filter options' label in the sidebar.</comment>
+  </data>
+  <data name="ByDate" lastModified="2014-04-07T14:32:44">
+    <value>by Date...</value>
+    <comment>The link for filtering by date in the sidebar.</comment>
+  </data>
+  <data name="ByAuthor" lastModified="2014-04-07T14:32:44">
+    <value>by Author...</value>
+    <comment>The link for filtering by author in the sidebar.</comment>
+  </data>
+  <data name="Permissions" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>The link that navigates to permissions dialog in the sidebar.</comment>
+  </data>
+  <data name="CustomFields" lastModified="2014-04-07T14:32:44">
+    <value>Custom Fields</value>
+    <comment>The link that navigates to the dialog for managing custom fields in the sidebar.</comment>
+  </data>
+  <data name="Actions" lastModified="2014-04-07T14:32:44">
+    <value>Actions</value>
+    <comment>The link representing the actions menu in the grid.</comment>
+  </data>
+  <data name="FileDimSize" lastModified="2014-04-07T14:32:44">
+    <value>File / Dim. / Size</value>
+    <comment>The header of 'File / Dim. / Size' column in the grid.</comment>
+  </data>
+  <data name="FileSize" lastModified="2014-04-07T14:32:44">
+    <value>File / Size</value>
+    <comment>The header of 'File / Size' column in the grid.</comment>
+  </data>
+  <data name="UploadedOwner" lastModified="2014-04-07T14:32:44">
+    <value>Uploaded / Owner</value>
+    <comment>The header of 'Uploaded / Owner' column in the grid.</comment>
+  </data>
+  <data name="Categories" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;Categories:&lt;/em&gt;</value>
+    <comment>The 'Categories' label in the grid column.</comment>
+  </data>
+  <data name="Tags" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;Tags:&lt;/em&gt;</value>
+    <comment>The 'Tags' label in the grid column.</comment>
+  </data>
+  <data name="UploadedOn" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;Uploaded on&lt;/em&gt;</value>
+    <comment>The 'Uploaded on' label in the grid column.</comment>
+  </data>
+  <data name="By" lastModified="2014-04-07T14:32:44">
+    <value>by</value>
+    <comment>The 'by' label in the grid column.</comment>
+  </data>
+  <data name="ViewOriginal" lastModified="2014-04-07T14:32:44">
+    <value>View original</value>
+    <comment>The text of the 'View original' link in the action menu.</comment>
+  </data>
+  <data name="ViewOriginalSize" lastModified="2014-04-07T14:32:44">
+    <value>View original size</value>
+    <comment>The text of the 'View original size' link in the action menu.</comment>
+  </data>
+  <data name="SetAsPrimaryImage" lastModified="2014-04-07T14:32:44">
+    <value>Set as primary image</value>
+    <comment>phrase: Set as primary image</comment>
+  </data>
+  <data name="Download" lastModified="2014-04-07T14:32:44">
+    <value>Download</value>
+    <comment>The text of the 'Download' button.</comment>
+  </data>
+  <data name="EditProperties" lastModified="2014-04-07T14:32:44">
+    <value>Edit Properties</value>
+    <comment>The text of the 'Edit Properties' link in the action menu.</comment>
+  </data>
+  <data name="SetPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Set Permissions</value>
+    <comment>The text of the 'Set permissions' link in the action menu.</comment>
+  </data>
+  <data name="Edit" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Edit...&lt;/strong&gt;</value>
+    <comment>word</comment>
+  </data>
+  <data name="EditImage" lastModified="2014-04-07T14:32:44">
+    <value>Edit image</value>
+    <comment>Edit image</comment>
+  </data>
+  <data name="EditAllProperties" lastModified="2014-04-07T14:32:44">
+    <value>Edit all properties</value>
+    <comment>Edit all properties</comment>
+  </data>
+  <data name="ChangeImage" lastModified="2014-04-07T14:32:44">
+    <value>Change image</value>
+    <comment>Label: Change image</comment>
+  </data>
+  <data name="ChangeDocument" lastModified="2014-04-07T14:32:44">
+    <value>Change document</value>
+    <comment>Label: Change document</comment>
+  </data>
+  <data name="ChangeVideo" lastModified="2014-04-07T14:32:44">
+    <value>Change video</value>
+    <comment>Label: Change video</comment>
+  </data>
+  <data name="AdvancedSection" lastModified="2014-04-07T14:32:44">
+    <value>Advanced &lt;em class='sfNote'&gt;(Cache, Restrictions, URL, Storage provider)&lt;/em&gt;</value>
+    <comment>The title of the 'Advanced' section in the Backend Detail View form.</comment>
+  </data>
+  <data name="ImageAdvancedSection" lastModified="2014-04-07T14:32:44">
+    <value>Advanced &lt;em class='sfNote'&gt;(URL, Comments, Storage provider)&lt;/em&gt;</value>
+    <comment>The title of the 'Advanced' section in the Backend Detail View form.</comment>
+  </data>
+  <data name="CategoriesAndTags" lastModified="2014-04-07T14:32:44">
+    <value>Categories and tags</value>
+    <comment>The title of the 'Categories and Tags' section.</comment>
+  </data>
+  <data name="Details" lastModified="2014-04-07T14:32:44">
+    <value>Details &lt;em class='sfNote'&gt;(Author, Description)&lt;/em&gt;</value>
+    <comment>The title of the 'Details' section.</comment>
+  </data>
+  <data name="Title" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>The 'Title' label.</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Title cannot be empty</value>
+    <comment>phrase: Title cannot be empty</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>Saves the edited item changes</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="ReviewHistory" lastModified="2014-04-07T14:32:44">
+    <value>Revision History</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="Status" lastModified="2014-04-07T14:32:44">
+    <value>Status</value>
+    <comment>The 'Status' label.</comment>
+  </data>
+  <data name="PublishOn" lastModified="2014-04-07T14:32:44">
+    <value>Publish on:</value>
+    <comment>Phrase: Publish on:</comment>
+  </data>
+  <data name="ExpiresOn" lastModified="2014-04-07T14:32:44">
+    <value>Expires on:</value>
+    <comment>Phrase: Expires on:</comment>
+  </data>
+  <data name="PublicationDateCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Publication Date cannot be empty</value>
+    <comment>Publication Date cannot be empty.</comment>
+  </data>
+  <data name="Author" lastModified="2014-04-07T14:32:44">
+    <value>Author</value>
+    <comment>The 'Author' label.</comment>
+  </data>
+  <data name="Size" lastModified="2014-04-07T14:32:44">
+    <value>Size:</value>
+    <comment>The 'Size:' label.</comment>
+  </data>
+  <data name="Dimensions" lastModified="2014-04-07T14:32:44">
+    <value>Dimensions:</value>
+    <comment>The 'Dimensions:' label.</comment>
+  </data>
+  <data name="bytes" lastModified="2014-04-07T14:32:44">
+    <value>bytes</value>
+    <comment>The 'bytes' unit.</comment>
+  </data>
+  <data name="OriginalFile" lastModified="2014-04-07T14:32:44">
+    <value>Original file:</value>
+    <comment>The 'Original file:' label.</comment>
+  </data>
+  <data name="AsOrderedInAlbum" lastModified="2014-04-07T14:32:44">
+    <value>As they are ordered in image library</value>
+    <comment>Phrase: As they are ordered in image library</comment>
+  </data>
+  <data name="AsOrderedInLibrary" lastModified="2014-04-07T14:32:44">
+    <value>As they are ordered in library</value>
+    <comment>Phrase: As they are ordered in library</comment>
+  </data>
+  <data name="RandomEachTime" lastModified="2014-04-07T14:32:44">
+    <value>Random (different each time)</value>
+    <comment>Phrase: Random (different each time)</comment>
+  </data>
+  <data name="GalleryDesignerPagingDesc" lastModified="2014-04-07T14:32:44">
+    <value>Divide the thumbnail list on pages up to</value>
+    <comment>Phrase: Divide the thumbnail list on pages up to</comment>
+  </data>
+  <data name="UsePaging" lastModified="2014-04-07T14:32:44">
+    <value>Use paging</value>
+    <comment>Phrase: Use Paging</comment>
+  </data>
+  <data name="UseLimit" lastModified="2014-04-07T14:32:44">
+    <value>Use limit</value>
+    <comment>Phrase: Use limit</comment>
+  </data>
+  <data name="GalleryDesignerLimitDesc" lastModified="2014-04-07T14:32:44">
+    <value>Show only limited number of items:</value>
+    <comment>Phrase: Show only limited number of items:</comment>
+  </data>
+  <data name="GalleryDesignerNoLimitAndPagingDesc" lastModified="2014-04-07T14:32:44">
+    <value>Show all published items at once</value>
+    <comment>Phrase: Show all published items at once</comment>
+  </data>
+  <data name="NoLimitAndPaging" lastModified="2014-04-07T14:32:44">
+    <value>No limit and paging</value>
+    <comment>Phrase: No limit and paging</comment>
+  </data>
+  <data name="ThumbnailSize" lastModified="2014-04-07T14:32:44">
+    <value>Size of thumbnails &lt;i class='sfNote'&gt;(optional)&lt;/i&gt;</value>
+    <comment>Phrase: Size of thumbnails (optional)</comment>
+  </data>
+  <data name="ImagesSize" lastModified="2014-04-07T14:32:44">
+    <value>Size of images</value>
+    <comment>Phrase: Size of images</comment>
+  </data>
+  <data name="BigImageSize" lastModified="2014-04-07T14:32:44">
+    <value>Size of the image</value>
+    <comment>Phrase: Size of the image</comment>
+  </data>
+  <data name="VideoSize" lastModified="2014-04-07T14:32:44">
+    <value>Size of the video</value>
+    <comment>Phrase: Size of the video</comment>
+  </data>
+  <data name="Medium500px" lastModified="2014-04-07T14:32:44">
+    <value>Medium: 500 px width</value>
+    <comment>Phrase: Medium: 500 px width</comment>
+  </data>
+  <data name="Big800px" lastModified="2014-04-07T14:32:44">
+    <value>Big: 800 px width</value>
+    <comment>Phrase: Big: 800 px width</comment>
+  </data>
+  <data name="ThumbnailsPlusDetailPage" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnails + Detail page</value>
+    <comment>Phrase: Thumbnails + Detail page</comment>
+  </data>
+  <data name="ThumbnailsPlusOverlay" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnails + Overlay (lightbox)</value>
+    <comment>Phrase: Thumbnails + Overlay (lightbox)</comment>
+  </data>
+  <data name="AnImagePerPage" lastModified="2014-04-07T14:32:44">
+    <value>An image per page</value>
+    <comment>Phrase: An image per page</comment>
+  </data>
+  <data name="ThumbnailStripPlusImage" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnail strip + Image on the same page</value>
+    <comment>Phrase: Thumbnail strip + Image on the same page</comment>
+  </data>
+  <data name="SimpleList" lastModified="2014-04-07T14:32:44">
+    <value>Simple list</value>
+    <comment>Phrase: Simple list</comment>
+  </data>
+  <data name="SelectImageSize" lastModified="2014-04-07T14:32:44">
+    <value>- Select image size -</value>
+    <comment>Phrase: - Select image size -</comment>
+  </data>
+  <data name="OriginalSize" lastModified="2014-04-07T14:32:44">
+    <value>Original size</value>
+    <comment>Phrase: Original size</comment>
+  </data>
+  <data name="Thumbnail120px" lastModified="2014-04-07T14:32:44">
+    <value>120 px width</value>
+    <comment>Phrase: 120 px width</comment>
+  </data>
+  <data name="Small240px" lastModified="2014-04-07T14:32:44">
+    <value>240 px width</value>
+    <comment>Phrase: 240 px width</comment>
+  </data>
+  <data name="ShowPrevAndNextLinks" lastModified="2014-04-07T14:32:44">
+    <value>Show links to the previous and the next image</value>
+    <comment>Phrase: Show links to the previous and the next image</comment>
+  </data>
+  <data name="ShowPrevAndNextLinksAs" lastModified="2014-04-07T14:32:44">
+    <value>Show links to the previous and the next image as...</value>
+    <comment>Phrase: Show links to the previous and the next image as...</comment>
+  </data>
+  <data name="TextLinks" lastModified="2014-04-07T14:32:44">
+    <value>Text Links</value>
+    <comment>Phrase: Text Links</comment>
+  </data>
+  <data name="ThumbnailsOfPrevAndNextImage" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnails of previous and next image</value>
+    <comment>Phrase: Thumbnails of previous and next image</comment>
+  </data>
+  <data name="EditThumbnailListTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Edit Thumbnail list template</value>
+    <comment>Phrase: Edit Thumbnail list template</comment>
+  </data>
+  <data name="EditDetailPageTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Edit Detail page template</value>
+    <comment>Phrase: Edit Detail page template</comment>
+  </data>
+  <data name="FineTuneTheSelectedType" lastModified="2014-04-07T14:32:44">
+    <value>Fine tune the selected type</value>
+    <comment>Phrase: Fine tune the selected type</comment>
+  </data>
+  <data name="Choose" lastModified="2014-04-07T14:32:44">
+    <value>Choose</value>
+    <comment>Word: Choose</comment>
+  </data>
+  <data name="ImageGalleryPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Image Gallery</value>
+    <comment>Word: Image Gallery</comment>
+  </data>
+  <data name="VideoGalleryPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Video Gallery</value>
+    <comment>Word: Video Gallery</comment>
+  </data>
+  <data name="NoAlbumSelected" lastModified="2014-04-07T14:32:44">
+    <value>No image library selected</value>
+    <comment>Word: No image library selected</comment>
+  </data>
+  <data name="NoLibrarySelected" lastModified="2014-04-07T14:32:44">
+    <value>No library selected</value>
+    <comment>Word: No library selected</comment>
+  </data>
+  <data name="ImageControlPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Select an image</value>
+    <comment>Phrase: Select an image</comment>
+  </data>
+  <data name="EmbedImage" lastModified="2014-04-07T14:32:44">
+    <value>Embed</value>
+    <comment>The text of the command for generating embed image html.</comment>
+  </data>
+  <data name="Move" lastModified="2014-04-07T14:32:44">
+    <value>Move</value>
+    <comment>The text of the Move button.</comment>
+  </data>
+  <data name="LibrarySelectorSearchBoxTitle" lastModified="2014-04-07T14:32:44">
+    <value>Start typing {0} name...</value>
+    <comment>The title of the search box in library selector.</comment>
+  </data>
+  <data name="LibrarySelectorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Select {0} where to move {1} {2}</value>
+    <comment>The title of the library selector.</comment>
+  </data>
+  <data name="ThisOperationCanTakeConsiderableAmountOfTime" lastModified="2014-04-07T14:32:44">
+    <value>Moving items may take a while. You will not be able to continue with your work until the process finishes</value>
+    <comment>warning message: Moving items may take a while. You will not be able to continue with your work until the process finishes</comment>
+  </data>
+  <data name="CreateLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Create a library</value>
+    <comment>The text of 'Create a library' button.</comment>
+  </data>
+  <data name="CreateNewLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Create a new {0}</value>
+    <comment>label</comment>
+  </data>
+  <data name="CreateANewLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Create a new library</value>
+    <comment>label</comment>
+  </data>
+  <data name="CreateThisLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Create this {0}</value>
+    <comment>The text of 'Create this library', specific to each library type</comment>
+  </data>
+  <data name="EditLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Edit a library</value>
+    <comment>The text of 'Edit a library' button.</comment>
+  </data>
+  <data name="MoveToAnotherLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Move to another library</value>
+    <comment>The text of 'Move to another library' menu item.</comment>
+  </data>
+  <data name="Library" lastModified="2014-04-07T14:32:44">
+    <value>Library</value>
+    <comment>The 'Library' string.</comment>
+  </data>
+  <data name="ShowMoreLibraries" lastModified="2014-04-07T14:32:44">
+    <value>Show 10 more libraries</value>
+    <comment>The 'Show 10 more libraries' link.</comment>
+  </data>
+  <data name="ManageLibraries" lastModified="2014-04-07T14:32:44">
+    <value>Manage libraries</value>
+    <comment>The 'Manage libraries' link in the grid sidebar.</comment>
+  </data>
+  <data name="ClickToAddDescription" lastModified="2014-04-07T14:32:44">
+    <value>Click to add a description</value>
+    <comment>The expand text for the description field.</comment>
+  </data>
+  <data name="UrlName" lastModified="2014-04-07T14:32:44">
+    <value>URL</value>
+    <comment>The title of the url field.</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>URL cannot be empty</value>
+    <comment>The message shown when the url is empty.</comment>
+  </data>
+  <data name="StatusControlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Status of uploaded {0}</value>
+    <comment>The title of the status control in upload dialog.</comment>
+  </data>
+  <data name="LibraryLabel" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;Library:&lt;/em&gt;</value>
+    <comment>The 'Library:' string.</comment>
+  </data>
+  <data name="SelectLibrary" lastModified="2014-04-07T14:32:44">
+    <value>-- Select a library --</value>
+    <comment>phrase: -- Select a library --</comment>
+  </data>
+  <data name="SelectALibrary" lastModified="2014-04-07T14:32:44">
+    <value>Select a library</value>
+    <comment>phrase: Select a library</comment>
+  </data>
+  <data name="SelectImageLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Select image library</value>
+    <comment>phrase: Select image library</comment>
+  </data>
+  <data name="SelectImage" lastModified="2014-04-07T14:32:44">
+    <value>Select image</value>
+    <comment>phrase: Select image</comment>
+  </data>
+  <data name="SelectDocument" lastModified="2014-04-07T14:32:44">
+    <value>Select document</value>
+    <comment>phrase: Select document</comment>
+  </data>
+  <data name="SelectVideo" lastModified="2014-04-07T14:32:44">
+    <value>Select video</value>
+    <comment>phrase: Select video</comment>
+  </data>
+  <data name="ViewAll" lastModified="2014-04-07T14:32:44">
+    <value>View all {0}</value>
+    <comment>phrase: View all {0}</comment>
+  </data>
+  <data name="ViewAllItems" lastModified="2014-04-07T14:32:44">
+    <value>View all items</value>
+    <comment>phrase: View all items</comment>
+  </data>
+  <data name="UploadThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Upload this {0}</value>
+    <comment>phrase: Upload this {0}</comment>
+  </data>
+  <data name="AddDetails" lastModified="2014-04-07T14:32:44">
+    <value>Add details to the uploaded {0}</value>
+    <comment>phrase: Add details to the uploaded {0}</comment>
+  </data>
+  <data name="UploadOther" lastModified="2014-04-07T14:32:44">
+    <value>Upload more {0}</value>
+    <comment>phrase: Upload more {0}</comment>
+  </data>
+  <data name="ReorderItemsInLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Reorder {0} in &lt;em&gt;{{0}}&lt;/em&gt; {1}</value>
+    <comment>phrase: Reorder {0} in &lt;em&gt;{{0}}&lt;/em&gt; {1}</comment>
+  </data>
+  <data name="Settings" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>Word: Settings</comment>
+  </data>
+  <data name="DocumentsAndFiles" lastModified="2014-04-07T14:32:44">
+    <value>Documents &amp; Files</value>
+    <comment>Phrase: Documents &amp; Files</comment>
+  </data>
+  <data name="LibraryActions" lastModified="2014-04-07T14:32:44">
+    <value>Library actions</value>
+    <comment>Phrase: Library actions</comment>
+  </data>
+  <data name="EditLibraryProperties" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;Edit properties&lt;/em&gt; of this {0}</value>
+    <comment>Phrase: Edit Properties of this {0}</comment>
+  </data>
+  <data name="SetLibraryPermissions" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;Set permissions&lt;/em&gt; of this {0}</value>
+    <comment>Phrase: Set permissions of this {0}</comment>
+  </data>
+  <data name="DeleteLibrary" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;Delete&lt;/em&gt; this {0}</value>
+    <comment>Phrase: Delete this {0}</comment>
+  </data>
+  <data name="ReorderItems" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;Reorder&lt;/em&gt;</value>
+    <comment>phrase: Reorder {0}</comment>
+  </data>
+  <data name="NarrowByTypingTitle" lastModified="2014-04-07T14:32:44">
+    <value>Narrow by typing title</value>
+    <comment>Phrase: Narrow by typing title</comment>
+  </data>
+  <data name="BulkEditDialogTitle" lastModified="2014-04-07T14:32:44">
+    <value>Bulk edit</value>
+    <comment>Phrase: Bulk edit</comment>
+  </data>
+  <data name="History" lastModified="2014-04-07T14:32:44">
+    <value>History</value>
+    <comment>word: History</comment>
+  </data>
+  <data name="SelectedLibraryWasDeleted" lastModified="2014-04-07T14:32:44">
+    <value>Selected {0} was deleted</value>
+    <comment>phrase: Selected {0} was deleted</comment>
+  </data>
+  <data name="NoLibrariesWereCreated" lastModified="2014-04-07T14:32:44">
+    <value>No {0} were created</value>
+    <comment>phrase: No {0} were created</comment>
+  </data>
+  <data name="SelectAnotherLibrary" lastModified="2014-04-07T14:32:44">
+    <value>The selected {0} was moved or deleted. Please select another {1}.</value>
+    <comment>phrase: The selected {0} was moved or deleted. Please select another {1}.</comment>
+  </data>
+  <data name="DragToChangeOrder" lastModified="2014-04-07T14:32:44">
+    <value>Drag {0} to change its order</value>
+    <comment>phrase: Drag {0} to change its order</comment>
+  </data>
+  <data name="FromYourComputer" lastModified="2014-04-07T14:32:44">
+    <value>From your computer</value>
+    <comment>phrase: From your computer</comment>
+  </data>
+  <data name="AllItems" lastModified="2014-04-07T14:32:44">
+    <value>All {0}</value>
+    <comment>All {0}</comment>
+  </data>
+  <data name="AllItems1" lastModified="2014-04-07T14:32:44">
+    <value>All items</value>
+    <comment>All items</comment>
+  </data>
+  <data name="AllVideos" lastModified="2014-04-07T14:32:44">
+    <value>All videos</value>
+    <comment>All videos</comment>
+  </data>
+  <data name="AllDocuments" lastModified="2014-04-07T14:32:44">
+    <value>All documents</value>
+    <comment>All documents</comment>
+  </data>
+  <data name="InsertItem" lastModified="2014-04-07T14:32:44">
+    <value>Insert the {0}</value>
+    <comment>Insert the {0}</comment>
+  </data>
+  <data name="InsertAItem" lastModified="2014-04-07T14:32:44">
+    <value>Insert {0}</value>
+    <comment>phrase: Insert {0}</comment>
+  </data>
+  <data name="FromAlreadyUploadedItems" lastModified="2014-04-07T14:32:44">
+    <value>From already uploaded</value>
+    <comment>phrase: From already uploaded {0}</comment>
+  </data>
+  <data name="WhichItemToUpload" lastModified="2014-04-07T14:32:44">
+    <value>Which {0} to upload?</value>
+    <comment>label</comment>
+  </data>
+  <data name="WhereToStoreTheUploadedItem" lastModified="2014-04-07T14:32:44">
+    <value>Where to store the uploaded {0}?</value>
+    <comment>label</comment>
+  </data>
+  <data name="ClickingTheResizedItemOpensTheOriginal" lastModified="2014-04-07T14:32:44">
+    <value>Clicking the resized {0} opens the {1} in its original size</value>
+    <comment>phrase:  Clicking the resized {0} opens the {1} in its original size</comment>
+  </data>
+  <data name="OneItemHasBeenSuccessfullyUploaded" lastModified="2014-04-07T14:32:44">
+    <value>{0} {1} has been successfully uploaded</value>
+    <comment>phrase:  {0} {1} has been successfully uploaded</comment>
+  </data>
+  <data name="MultipleItemsHaveBeenSuccessfullyUploaded" lastModified="2014-04-07T14:32:44">
+    <value>{0} {1}s have been successfully uploaded</value>
+    <comment>phrase:  {0} {1}s have been successfully uploaded</comment>
+  </data>
+  <data name="MultipleItemsCanBeUploadedAtATime" lastModified="2014-04-07T14:32:44">
+    <value>Multiple {0} can be uploaded at a time</value>
+    <comment>phrase:  Multiple {0} can be uploaded at a time</comment>
+  </data>
+  <data name="OnlyOneItemCanBeUploadedAtATime" lastModified="2014-04-07T14:32:44">
+    <value>Only one {0} can be uploaded at a time</value>
+    <comment>phrase:  Multiple {0} can be uploaded at a time</comment>
+  </data>
+  <data name="SelectItem" lastModified="2014-04-07T14:32:44">
+    <value>Select {0}</value>
+    <comment>phrase:  Select {0}</comment>
+  </data>
+  <data name="YouMustSelectLibraryNameInWhichToUploadItemName" lastModified="2014-04-07T14:32:44">
+    <value>You must select the {0} in which the {1} ought to be uploaded.</value>
+    <comment>phrase:  You must select the {0} in which the {1} ought to be uploaded.</comment>
+  </data>
+  <data name="WhichItemNameToUpload" lastModified="2014-04-07T14:32:44">
+    <value>Which {0} to upload?</value>
+    <comment>phrase:  Which {0} to upload?</comment>
+  </data>
+  <data name="Uploading" lastModified="2014-04-07T14:32:44">
+    <value>Uploading</value>
+    <comment>phrase:  Uploading</comment>
+  </data>
+  <data name="UploadDone" lastModified="2014-04-07T14:32:44">
+    <value>Upload done</value>
+    <comment>phrase:  Upload done</comment>
+  </data>
+  <data name="YouHaveUnsavedChangesWantToLeavePage" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to navigate away from this page?
+
+You have unsaved changes.
+
+Press OK to continue, or Cancel to stay on the current page.</value>
+    <comment>phrase: You have unsaved changes! Do you want to leave this page?</comment>
+  </data>
+  <data name="YouHaveUnuploadedItemsWantToInterruptUploading" lastModified="2014-04-07T14:32:44">
+    <value>By leaving this page you will abandon the upload and some items may appear corrupted.</value>
+    <comment>phrase: By leaving this page you will abandon the upload and some items may appear corrupted.</comment>
+  </data>
+  <data name="AddMore" lastModified="2014-04-07T14:32:44">
+    <value>Add more</value>
+    <comment>phrase: Add more</comment>
+  </data>
+  <data name="SelectType" lastModified="2014-04-07T14:32:44">
+    <value>Select type</value>
+    <comment>phrase: Select type</comment>
+  </data>
+  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+    <value>Back to Libraries</value>
+    <comment>The back to all libraries button</comment>
+  </data>
+  <data name="Language" lastModified="2014-04-07T14:32:44">
+    <value>Language</value>
+    <comment>word: Language</comment>
+  </data>
+  <data name="WaitingForApproval" lastModified="2014-04-07T14:32:44">
+    <value>Awaiting approval</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+  </data>
+  <data name="LibraryNameText" lastModified="2014-04-07T14:32:44">
+    <value>{0} name</value>
+    <comment>Label for the field control where a name for the new library needs to be given.</comment>
+  </data>
+  <data name="LibraryNameExample" lastModified="2014-04-07T14:32:44">
+    <value>Example: Summer vacation</value>
+    <comment>An example for the field control where a name for the new library has to be given.</comment>
+  </data>
+  <data name="Mb" lastModified="2014-04-07T14:32:44">
+    <value>MB</value>
+    <comment>label: MB</comment>
+  </data>
+  <data name="Kb" lastModified="2014-04-07T14:32:44">
+    <value>KB</value>
+    <comment>label: KB</comment>
+  </data>
+  <data name="YouAreNotAllowedToViewThisLibraryItem" lastModified="2014-04-07T14:32:44">
+    <value>You are not allowed to view this library item</value>
+    <comment>Phrase: You are not allowed to view this library item</comment>
+  </data>
+  <data name="StorageProviders" lastModified="2014-04-07T14:32:44">
+    <value>Storage providers</value>
+    <comment>phrase: Storage providers</comment>
+  </data>
+  <data name="StorageProvidersForLibraries" lastModified="2014-04-07T14:32:44">
+    <value>Storage providers</value>
+    <comment>phrase: Storage providers</comment>
+  </data>
+  <data name="AddStorageProvider" lastModified="2014-04-07T14:32:44">
+    <value>Add storage provider</value>
+    <comment>phrase: Add storage provider</comment>
+  </data>
+  <data name="AddAProvider" lastModified="2014-04-07T14:32:44">
+    <value>Add a provider</value>
+    <comment>phrase: Add a provider</comment>
+  </data>
+  <data name="StorageProvider" lastModified="2014-04-07T14:32:44">
+    <value>Storage provider</value>
+    <comment>phrase: Storage provider</comment>
+  </data>
+  <data name="DefaultStorageProvider" lastModified="2014-04-07T14:32:44">
+    <value>{0} (default)</value>
+    <comment>phrase: {0} (default)</comment>
+  </data>
+  <data name="BlobStorageDatabaseTypeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Stores the blob data of library items in a database, using OpenAccess ORM.</value>
+    <comment>phrase: Stores the blob data of library items in a database, using OpenAccess ORM.</comment>
+  </data>
+  <data name="BlobStorageFileSystemTypeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Stores the blob data of library items in the file system.</value>
+    <comment>phrase: Stores the blob data of library items in the file system.</comment>
+  </data>
+  <data name="WindowsAzure" lastModified="2014-04-07T14:32:44">
+    <value>Windows Azure</value>
+    <comment>phrase: Windows Azure</comment>
+  </data>
+  <data name="BlobStorageAzureTypeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Stores the blob data of library items in Windows Azure Blob storage.</value>
+    <comment>phrase: Stores the blob data of library items in Windows Azure Blob storage.</comment>
+  </data>
+  <data name="BlobStorageDatabaseDefaultProviderTitle" lastModified="2014-04-07T14:32:44">
+    <value>Database</value>
+    <comment>phrase: Database</comment>
+  </data>
+  <data name="BlobStorageDatabaseDefaultProviderDescription" lastModified="2014-04-07T14:32:44">
+    <value>Stores the blob data of library items in the default database.</value>
+    <comment>phrase: Stores the blob data of library items in the default database.</comment>
+  </data>
+  <data name="BlobStorageFileSystemDefaultProviderTitle" lastModified="2014-04-07T14:32:44">
+    <value>File System</value>
+    <comment>phrase: File System</comment>
+  </data>
+  <data name="BlobStorageFileSystemDefaultProviderDescription" lastModified="2014-04-07T14:32:44">
+    <value>Stores the blob data of library items in the App_Data folder.</value>
+    <comment>phrase: Stores the blob data of library items in the App_Data folder.</comment>
+  </data>
+  <data name="BlobStorageProviderIsUsedMessage" lastModified="2014-04-07T14:32:44">
+    <value>The provider {0} is already used in a media library and cannot be deleted.</value>
+    <comment>Warning for users that  blob storage provider is used so it cannot be deleted/disabled</comment>
+  </data>
+  <data name="BlobStorageProviderLimitationMessage" lastModified="2014-04-07T14:32:44">
+    <value>External storage providers can be configured only for content libraries: Images, Videos and Documents &amp;amp; Files</value>
+    <comment>phrase: External storage providers can be configured only for content libraries: Images, Videos and Documents &amp;amp; Files</comment>
+  </data>
+  <data name="StoredIn" lastModified="2014-04-07T14:32:44">
+    <value>Stored in</value>
+    <comment>Label preceding the blob storage location of a library</comment>
+  </data>
+  <data name="MaxDocumentSize" lastModified="2014-04-07T14:32:44">
+    <value>Max document/file size</value>
+    <comment>The title of the field for setting max document size.</comment>
+  </data>
+  <data name="MaxImageSize" lastModified="2014-04-07T14:32:44">
+    <value>Max image size</value>
+    <comment>The title of the field for setting max image size.</comment>
+  </data>
+  <data name="CustomSize" lastModified="2014-04-07T14:32:44">
+    <value>Custom size...</value>
+    <comment>The custom size option in the dropdown for selecting size.</comment>
+  </data>
+  <data name="MaxAlbumSize" lastModified="2014-04-07T14:32:44">
+    <value>Max album size</value>
+    <comment>The title of the field for setting max album size.</comment>
+  </data>
+  <data name="MaxLibrarySize" lastModified="2014-04-07T14:32:44">
+    <value>Max library size</value>
+    <comment>The title of the field for setting max library size.</comment>
+  </data>
+  <data name="MaxVideoSize" lastModified="2014-04-07T14:32:44">
+    <value>Max video size</value>
+    <comment>The title of the field for setting max video size.</comment>
+  </data>
+  <data name="Folder" lastModified="2014-04-07T14:32:44">
+    <value>Folder</value>
+    <comment>phrase: Folder</comment>
+  </data>
+  <data name="FolderIsRequired" lastModified="2014-04-07T14:32:44">
+    <value>Folder is a required field</value>
+    <comment>phrase: Folder is a required field</comment>
+  </data>
+  <data name="TypeDestinationFolderPath" lastModified="2014-04-07T14:32:44">
+    <value>Type the destination folder path, something as:&lt;ul&gt;&lt;li&gt;\\fileserver\share&lt;/li&gt;&lt;li&gt;D:\filedirectory&lt;/li&gt;&lt;li&gt;~/App_Data/MyStorage&lt;/li&gt;&lt;/ul&gt;</value>
+    <comment>phrase: Type the destination folder path, something as:&lt;ul&gt;&lt;li&gt;\\fileserver\share&lt;/li&gt;&lt;li&gt;D:\filedirectory&lt;/li&gt;&lt;li&gt;~/App_Data/MyStorage&lt;/li&gt;&lt;/ul&gt;</comment>
+  </data>
+  <data name="SelectDatabaseStoreItemsTo" lastModified="2014-04-07T14:32:44">
+    <value>Select a database you want to store items to</value>
+    <comment>phrase: Select a database you want to store items to</comment>
+  </data>
+  <data name="SettingsFor" lastModified="2014-04-07T14:32:44">
+    <value>Settings for {0}</value>
+    <comment>phrase: Settings for {0}</comment>
+  </data>
+  <data name="TestSettings" lastModified="2014-04-07T14:32:44">
+    <value>Test settings</value>
+    <comment>phrase: Test settings</comment>
+  </data>
+  <data name="SettingsAreValid" lastModified="2014-04-07T14:32:44">
+    <value>Settings are valid.</value>
+    <comment>phrase: Settings are valid.</comment>
+  </data>
+  <data name="ThereIsProblemWithTheSettings" lastModified="2014-04-07T14:32:44">
+    <value>There is a problem with the settings: {0}</value>
+    <comment>phrase: There is a problem with the settings: {0}</comment>
+  </data>
+  <data name="EmbeddedLinkOnlyForPublieshedContent" lastModified="2014-04-07T14:32:44">
+    <value>Embedding will work only for published items</value>
+    <comment>phrase: Embedding will work only for published items</comment>
+  </data>
+  <data name="AccountName" lastModified="2014-04-07T14:32:44">
+    <value>Account name</value>
+    <comment>phrase: Account name. Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="AccountNameIsRequired" lastModified="2014-04-07T14:32:44">
+    <value>Account name is required</value>
+    <comment>phrase: Account name is required. Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="AccountKeyOrSAS" lastModified="2014-04-07T14:32:44">
+    <value>Account key or shared access signature (SAS)</value>
+    <comment>phrase: 'Account key or shared access signature (SAS)'; Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="AccountKeyOrSASExample" lastModified="2014-04-07T14:32:44">
+    <value>For shared access signature (SAS) use a token. &lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;?sr=c&amp;si=myPolicyName&amp;sig=[signature]&lt;/em&gt;</value>
+    <comment>phrase: For shared access signature (SAS) use a token. &lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;?sr=c&amp;si=myPolicyName&amp;sig=[signature]&lt;/em&gt;</comment>
+  </data>
+  <data name="AccountKeyOrSASIsRequired" lastModified="2014-04-07T14:32:44">
+    <value>Either an account key or a shared access signature (SAS) is required.</value>
+    <comment>phrase: 'Either an account key or a shared access signature (SAS) is required.'; Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="ContainerName" lastModified="2014-04-07T14:32:44">
+    <value>Name of your Azure container</value>
+    <comment>phrase: Name of your Azure container. Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="ContainerNameExample" lastModified="2014-04-07T14:32:44">
+    <value>If you do not have created a container in Azure it will be automatically created with the name you entered here. &lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;Images-container&lt;/em&gt;</value>
+    <comment>phrase: If you do not have created a container in Azure it will be automatically created with the name you entered here. &lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;Images-container&lt;/em&gt;. Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="ContainerNameIsRequired" lastModified="2014-04-07T14:32:44">
+    <value>Valid container name is required</value>
+    <comment>phrase: Valid container name is required. Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="PublicHost" lastModified="2014-04-07T14:32:44">
+    <value>Public host</value>
+    <comment>Title of the 'Public host' field in the Windows Azure blob storage provider basic settings.</comment>
+  </data>
+  <data name="PublicHostExample" lastModified="2014-04-07T14:32:44">
+    <value>Your CDN host or your custom domain host. &lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;www.myhost.com (custom DNS name), az12345.vo.msecnd.net (CDN URL), https://mystorageaccount.blob.core.windows.net (use HTTPS)&lt;/em&gt;</value>
+    <comment>Example for the 'Public host' field in the Windows Azure blob storage provider basic settings.</comment>
+  </data>
+  <data name="PublicHostIsInvalid" lastModified="2014-04-07T14:32:44">
+    <value>Invalid public host.</value>
+    <comment>Validation error message for the 'Public host' field in the Windows Azure blob storage provider basic settings.</comment>
+  </data>
+  <data name="ContainerNameExplaination" lastModified="2014-04-07T14:32:44">
+    <value>A container name must be a valid DNS name, conforming to the following naming rules: &lt;ol&gt;&lt;li&gt;Container names must start with a letter or number, and can contain only letters, numbers, and the dash (-) character&lt;/li&gt;&lt;li&gt;Every dash (-) character must be immediately preceded and followed by a letter or number; consecutive dashes are not permitted in container names&lt;/li&gt;&lt;li&gt;All letters in a container name must be lowercase&lt;/li&gt;&lt;li&gt;Container names must be from 3 through 63 characters long.&lt;/li&gt;&lt;/ol&gt;</value>
+    <comment>Exaplainatino message for the 'Container name' field in the Windows Azure blob storage provider basic settings.</comment>
+  </data>
+  <data name="AccountNameIsInvalid" lastModified="2014-04-07T14:32:44">
+    <value>Invalid account name. The storage name must be between 3 and 24 characters in length  and use lower-case letters and numbers only.</value>
+    <comment>Validation error message for the 'Account name' field in the Windows Azure blob storage provider basic settings.</comment>
+  </data>
+  <data name="UseHttps" lastModified="2014-04-07T14:32:44">
+    <value>Use SSL for storage management</value>
+    <comment>phrase: Use SSL for storage management. Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="UseLocalDevelopmentStorage" lastModified="2014-04-07T14:32:44">
+    <value>Use local development storage</value>
+    <comment>phrase: Use local development storage. Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="SampleBlobUrl" lastModified="2014-04-07T14:32:44">
+    <value>Sample blob url:</value>
+    <comment>phrase: Sample blob url:. Used in Blob storage provider basic settings Azure storage</comment>
+  </data>
+  <data name="RelocateLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Change library URL</value>
+    <comment>Change library Url context menu item in backend library grid action menu</comment>
+  </data>
+  <data name="MoveTo" lastModified="2014-04-07T14:32:44">
+    <value>Move to...</value>
+    <comment>Redirects to the 'Move To Library' dialog</comment>
+  </data>
+  <data name="TransferLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Move to another storage</value>
+    <comment>Transfer library context menu item in backend library grid action menu</comment>
+  </data>
+  <data name="RelocationWarning" lastModified="2014-04-07T14:32:44">
+    <value>Please note that this operation may take some time (up to few hours).&lt;br /&gt;Transferring of the items in the library will not affect the public pages which are using them, but during this process you will not be able to edit or delete these items</value>
+    <comment>Relocation warning label in move to another storage and change url screen</comment>
+  </data>
+  <data name="ChangeLibraryUrlWarning" lastModified="2014-04-07T14:32:44">
+    <value>Changing the URL will break all links that point to this library and its items. This action might take significant time and extra cost for cloud storages.</value>
+    <comment>Relocation warning label in move to another storage and change url screen</comment>
+  </data>
+  <data name="UnableToEditItemBecauseOfLibraryStorageChangeTask" lastModified="2014-04-07T14:32:44">
+    <value>You are not allowed to edit this item, because the library it belongs to is in process of moving to another storage. Try again in a while.</value>
+    <comment>Message displayed on the client on attempt to edit media content, while the library is in process of moving to another storage.</comment>
+  </data>
+  <data name="UnableToEditItemBecauseOfLibraryUrlChangeTask" lastModified="2014-04-07T14:32:44">
+    <value>You are not allowed to edit this item, because the library it belongs to is in process of changing URL. Try again in a while.</value>
+    <comment>Message displayed on the client on attempt to edit media content, while the library is in process of changing URL.</comment>
+  </data>
+  <data name="NoImageLibrariesWarningMessage" lastModified="2014-04-07T14:32:44">
+    <value>Image cannot be inserted because there are no libraries. Please contact your administrator for more details.</value>
+    <comment>Message displayed on the client on attempt to insert an image, while there are no library providers configured for the current site.</comment>
+  </data>
+  <data name="NoVideoLibrariesWarningMessage" lastModified="2014-04-07T14:32:44">
+    <value>Video cannot be inserted because there are no libraries. Please contact your administrator for more details.</value>
+    <comment>Message displayed on the client on attempt to insert a video, while there are no library providers configured for the current site.</comment>
+  </data>
+  <data name="NoDocumentLibrariesWarningMessage" lastModified="2014-04-07T14:32:44">
+    <value>Document cannot be inserted because there are no libraries. Please contact your administrator for more details.</value>
+    <comment>Message displayed on the client on attempt to insert a document, while there are no library providers configured for the current site.</comment>
+  </data>
+  <data name="NoLibrariesWarningMessage" lastModified="2014-04-07T14:32:44">
+    <value>Item cannot be inserted because there are no libraries. Please contact your administrator for more details.</value>
+    <comment>Message displayed on the client on attempt to insert media content, while there are no library providers configured for the current site.</comment>
+  </data>
+  <data name="ImagesCountFormat" lastModified="2014-04-07T14:32:44">
+    <value>&lt;b&gt;{0}&lt;/b&gt; images</value>
+    <comment>A phrase representing a count of images. Should be formatted with one argument.</comment>
+  </data>
+  <data name="VideosCountFormat" lastModified="2014-04-07T14:32:44">
+    <value>&lt;b&gt;{0}&lt;/b&gt; videos</value>
+    <comment>A phrase representing a count of videos. Should be formatted with one argument.</comment>
+  </data>
+  <data name="DocumentsCountFormat" lastModified="2014-04-07T14:32:44">
+    <value>&lt;b&gt;{0}&lt;/b&gt; documents</value>
+    <comment>A phrase representing a count of documents. Should be formatted with one argument.</comment>
+  </data>
+  <data name="LibrariesCountFormat" lastModified="2014-04-07T14:32:44">
+    <value>{0} libraries</value>
+    <comment>A phrase representing a count of libraries. Should be formatted with one argument.</comment>
+  </data>
+  <data name="FilterByStorage" lastModified="2014-04-07T14:32:44">
+    <value>by Storage...</value>
+    <comment>The 'by Storage...' label in the sidebar.</comment>
+  </data>
+  <data name="FilterByDate" lastModified="2014-04-07T14:32:44">
+    <value>by Date...</value>
+    <comment>The 'by Date...' label in the sidebar.</comment>
+  </data>
+  <data name="CloseStorageFilter" lastModified="2014-04-07T14:32:44">
+    <value>Close storages</value>
+    <comment>The link for closing the storage filter widget in the sidebar.</comment>
+  </data>
+  <data name="LibrariesByStorage" lastModified="2014-04-07T14:32:44">
+    <value>Libraries by storage</value>
+    <comment>phrase: Libraries by storage</comment>
+  </data>
+  <data name="FilterLibraries" lastModified="2014-04-07T14:32:44">
+    <value>Filter libraries</value>
+    <comment>phrase: Filter libraries</comment>
+  </data>
+  <data name="AllLibraries" lastModified="2014-04-07T14:32:44">
+    <value>All libraries</value>
+    <comment>phrase: All libraries</comment>
+  </data>
+  <data name="MyLibraries" lastModified="2014-04-07T14:32:44">
+    <value>My libraries</value>
+    <comment>phrase: My libraries</comment>
+  </data>
+  <data name="MoreLibraries" lastModified="2014-04-07T14:32:44">
+    <value>More Libraries</value>
+    <comment>phrase: More Libraries</comment>
+  </data>
+  <data name="LessLibraries" lastModified="2014-04-07T14:32:44">
+    <value>Less Libraries</value>
+    <comment>phrase: Less Libraries</comment>
+  </data>
+  <data name="LibrariesByDate" lastModified="2014-04-07T14:32:44">
+    <value>Display libraries modified in...</value>
+    <comment>phrase: Display libraries modified in...</comment>
+  </data>
+  <data name="MoveDialogStorageSelectorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Select a storage where this library is to be moved</value>
+    <comment>Libraries Move to another storage dialog storage selector title</comment>
+  </data>
+  <data name="SitefinityDefaultConnection" lastModified="2014-04-07T14:32:44">
+    <value>(default)</value>
+    <comment>phrase: '(default)' in edit/add blob storage provider database connection's dropdown</comment>
+  </data>
+  <data name="MoveLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Move library</value>
+    <comment>The title of the done button in the move library dialog</comment>
+  </data>
+  <data name="MoveLibraryDialogTitle" lastModified="2014-04-07T14:32:44">
+    <value>Move a library to another storage</value>
+    <comment>The title of the move to another storage dialog</comment>
+  </data>
+  <data name="SelectLibraryCommon" lastModified="2014-04-07T14:32:44">
+    <value>Select {0} library</value>
+    <comment>phrase: Select {0} library</comment>
+  </data>
+  <data name="BlobStorageStreamingProviderName" lastModified="2014-04-07T14:32:44">
+    <value>Streaming provider</value>
+    <comment>phrase: Streaming provider</comment>
+  </data>
+  <data name="BlobStorageStreamingProviderTitle" lastModified="2014-04-07T14:32:44">
+    <value>Streaming provider</value>
+    <comment>phrase: Streaming provider</comment>
+  </data>
+  <data name="BlobStorageStreamingProviderDescription" lastModified="2014-04-07T14:32:44">
+    <value>Uses the Open Access Streaming API to upload blobs to the database.</value>
+    <comment>phrase: Uses the Open Access Streaming API to upload blobs to the database.</comment>
+  </data>
+  <data name="UrlNameInvalidSymbols" lastModified="2014-04-07T14:32:44">
+    <value>The URL contains invalid symbols.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+  </data>
+  <data name="ShowMy" lastModified="2014-04-07T14:32:44">
+    <value>My {0}</value>
+    <comment>phrase: My {0}</comment>
+  </data>
+  <data name="ShowAll" lastModified="2014-04-07T14:32:44">
+    <value>All {0}</value>
+    <comment>phrase: All {0}</comment>
+  </data>
+  <data name="ShowRecent" lastModified="2014-04-07T14:32:44">
+    <value>Recent {0}</value>
+    <comment>phrase: Recent {0}</comment>
+  </data>
+  <data name="SelectFromAlreadyUploaded" lastModified="2014-04-07T14:32:44">
+    <value>Select {0} from already uploaded</value>
+    <comment>phrase: Select {0} from already uploaded</comment>
+  </data>
+  <data name="Libraries" lastModified="2014-04-07T14:32:44">
+    <value>Libraries</value>
+    <comment>phrase: Libraries</comment>
+  </data>
+  <data name="RootLibrarySettings" lastModified="2014-04-07T14:32:44">
+    <value>Root library settings</value>
+    <comment>The title of the Root library settings section in the library details dialog.</comment>
+  </data>
+  <data name="ImageItemName" lastModified="2014-04-07T14:32:44">
+    <value>Image</value>
+    <comment>The title of the image item name.</comment>
+  </data>
+  <data name="DocumentItemName" lastModified="2014-04-07T14:32:44">
+    <value>Document</value>
+    <comment>The title of the document item name.</comment>
+  </data>
+  <data name="VideoItemName" lastModified="2014-04-07T14:32:44">
+    <value>Video</value>
+    <comment>The title of the video item name.</comment>
+  </data>
+  <data name="ChangeParentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Change parent library</value>
+    <comment>Change parent library</comment>
+  </data>
+  <data name="DragAndDropWhileDragging" lastModified="2014-04-07T14:32:44">
+    <value>Drag {0} here to upload</value>
+    <comment>Text shown in the Html5 Upload prompt</comment>
+  </data>
+  <data name="DragAndDropBeforeDragging" lastModified="2014-04-07T14:32:44">
+    <value>&lt;span class='sfNoFilesLbl'&gt;&lt;b&gt;Select {0} from your computer&lt;/b&gt; &lt;br/&gt;or simply drag &amp;amp; drop it here&lt;/span&gt;&lt;span class='sfFilesSelectedLbl'&gt;Add more {0}&lt;/span&gt;</value>
+    <comment>Text shown in the Html5 Upload prompt before dragging files</comment>
+  </data>
+  <data name="DragAndDropBeforeDraggingEscaped" lastModified="2014-04-07T14:32:44">
+    <value>&amp;lt;span class=&amp;#39;sfNoFilesLbl&amp;#39;&amp;gt;&amp;lt;b&amp;gt;Select {0} from your computer&amp;lt;/b&amp;gt; &amp;lt;br/&amp;gt;or simply drag &amp;amp; drop it here&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#39;sfFilesSelectedLbl&amp;#39;&amp;gt;Add more {0}&amp;lt;/span&amp;gt;</value>
+    <comment>Text shown in the Html5 Upload prompt before dragging files</comment>
+  </data>
+  <data name="UploadFileLimitReachedPlural" lastModified="2014-04-07T14:32:44">
+    <value>Please select {0} files or less</value>
+    <comment>Text shown when the user is trying to upload more files than the maximum limit</comment>
+  </data>
+  <data name="UploadFileLimitReachedSingular" lastModified="2014-04-07T14:32:44">
+    <value>Please select only 1 file.</value>
+    <comment>Text shown when the user is trying to upload more than one file (when replacing)</comment>
+  </data>
+  <data name="AllowedExtensionsErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>Please select only files with the following extensions: {0}</value>
+    <comment>Error message shown in the HTML5 Upload dialog when the user selects a file with a not allowed extension</comment>
+  </data>
+  <data name="AppliedTo" lastModified="2014-04-07T14:32:44">
+    <value>Applied to</value>
+    <comment>phrase: Applied to</comment>
+  </data>
+  <data name="ThumbnailProfiles" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnails</value>
+    <comment>phrase: Thumbnails</comment>
+  </data>
+  <data name="ImageThumbnails" lastModified="2014-04-07T14:32:44">
+    <value>Image thumbnails</value>
+    <comment>phrase: Image Thumbnails</comment>
+  </data>
+  <data name="ThumbnailsInfo" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnails are copies of the original image generated according to predefined settings. They can be applied to Image libraries.</value>
+    <comment>Information for what the thumbnails are.</comment>
+  </data>
+  <data name="AddImageThumbnailProfile" lastModified="2014-04-07T14:32:44">
+    <value>Add an image thumbnail size</value>
+    <comment>phrase: Add an image thumbnail size.</comment>
+  </data>
+  <data name="ThumbnailProfileTitleExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example: &lt;/strong&gt;Thumbnail 120x120</value>
+    <comment>phrase: Thumbnail 120x120</comment>
+  </data>
+  <data name="ThumbnailProfileNameTitle" lastModified="2014-04-07T14:32:44">
+    <value>For developers: name used in code</value>
+    <comment>phrase: For developers: name used in code</comment>
+  </data>
+  <data name="Example" lastModified="2014-04-07T14:32:44">
+    <value>Example:</value>
+    <comment>phrase: Example</comment>
+  </data>
+  <data name="ThumbnailProfileExists" lastModified="2014-04-07T14:32:44">
+    <value>A thumbnail size with the same name already exists.</value>
+    <comment>phrase: A profile with the same name already exists.</comment>
+  </data>
+  <data name="GeneratorHasNoMethods" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnail generator has no methods.</value>
+    <comment>phrase: Thumbnail generator has no methods.</comment>
+  </data>
+  <data name="InvalidMethodName" lastModified="2014-04-07T14:32:44">
+    <value>The selected method for the {0} profile does not exist.</value>
+    <comment>phrase: The selected method {0} does not exist.</comment>
+  </data>
+  <data name="SetProfileAsDefault" lastModified="2014-04-07T14:32:44">
+    <value>When creating an image library select this size by default.</value>
+    <comment>phrase: When creating an image library select this size by default.</comment>
+  </data>
+  <data name="ValueMustBeInteger" lastModified="2014-04-07T14:32:44">
+    <value>Value must be an integer between 1 and 9999 inclusive.</value>
+    <comment>prase: Field must have an integer value.</comment>
+  </data>
+  <data name="SelectedByDefault" lastModified="2014-04-07T14:32:44">
+    <value>Selected by default</value>
+    <comment>phrase: Selected by default.</comment>
+  </data>
+  <data name="InvalidProfileName" lastModified="2014-04-07T14:32:44">
+    <value>Invalid format for developer name.</value>
+    <comment>phrase: Invalid format for developer name.</comment>
+  </data>
+  <data name="RegenerateThumbnails" lastModified="2014-04-07T14:32:44">
+    <value>Regenerate thumbnails</value>
+    <comment>phrase: Regenerate thumbnails.</comment>
+  </data>
+  <data name="Regenerate" lastModified="2014-04-07T14:32:44">
+    <value>Regenerate</value>
+    <comment>word: Regenerate.</comment>
+  </data>
+  <data name="RegenerateThumbnailsInLibraryTitle" lastModified="2014-04-07T14:32:44">
+    <value>Regenerate thumbnails</value>
+    <comment>Regenerate thumbnails</comment>
+  </data>
+  <data name="RegenerateThumbnailsInLibraryMessage" lastModified="2014-04-07T14:32:44">
+    <value>The thumbnails in the library will be regenerated.</value>
+    <comment>phrase: The thumbnails in the library will be regenerated.</comment>
+  </data>
+  <data name="ThumbnailsNeedRegeneration" lastModified="2014-04-07T14:32:44">
+    <value>The thumbnails for this library need to be regenerated.</value>
+    <comment>phrase: The thumbnails for this library need to be regenerated.</comment>
+  </data>
+  <data name="ThumbnailsForMultipleLibrariesNeedRegen" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnail {0} in {1} libraries will be regenerated to reflect the changes.</value>
+    <comment>phrase: Thumbnail images in {0} libraries will be regenerated to reflect the changes.</comment>
+  </data>
+  <data name="RegeneratingThumbnails" lastModified="2014-04-07T14:32:44">
+    <value>Regenerating thumbnails</value>
+    <comment>phrase: Regenerating thumbnails</comment>
+  </data>
+  <data name="RegeneratingThumbnailsFailed" lastModified="2014-04-07T14:32:44">
+    <value>Regenerating thumbnails failed</value>
+    <comment>phrase: Regenerating thumbnails failed</comment>
+  </data>
+  <data name="ThumbnailSettings" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnails settings</value>
+    <comment>phrase: Thumbnail settings</comment>
+  </data>
+  <data name="ViewAllThumbnailSizes" lastModified="2014-04-07T14:32:44">
+    <value>View all sizes</value>
+    <comment>phrase: View all sizes</comment>
+  </data>
+  <data name="CannotDeleteSettings" lastModified="2014-04-07T14:32:44">
+    <value>You cannot delete these settings.</value>
+    <comment>phrase: You cannot delete these settings.</comment>
+  </data>
+  <data name="CannotDeleteSettingsInfo" lastModified="2014-04-07T14:32:44">
+    <value>You cannot delete this set because it is applied to {0} libraries. You need to remove it from these libraries first.</value>
+    <comment>phrase: You cannot delete this set because it is applied to {0} libraries. You need to remove it from these libraries first.</comment>
+  </data>
+  <data name="MaxHeight" lastModified="2014-04-07T14:32:44">
+    <value>Max height</value>
+    <comment>phrase: Max Height</comment>
+  </data>
+  <data name="MaxWidth" lastModified="2014-04-07T14:32:44">
+    <value>Max width</value>
+    <comment>phrase: Max Width</comment>
+  </data>
+  <data name="ThumbnailsOfImages" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnails of original images</value>
+    <comment>phrase: Thumbnails of original images</comment>
+  </data>
+  <data name="GenerateThumbnails" lastModified="2014-04-07T14:32:44">
+    <value>Generate thumbnails with selected sizes...</value>
+    <comment>phrase: Generate thumbnails with selected sizes...</comment>
+  </data>
+  <data name="DoNotGenerateThumbnails" lastModified="2014-04-07T14:32:44">
+    <value>Do not generate thumbnails</value>
+    <comment>phrase: Do not generate thumbnails</comment>
+  </data>
+  <data name="ThumbnailSizes" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnail sizes</value>
+    <comment>phrase: Thumbnail sizes</comment>
+  </data>
+  <data name="Pixels" lastModified="2014-04-07T14:32:44">
+    <value>px</value>
+    <comment>word: px</comment>
+  </data>
+  <data name="ResizeImageCaption" lastModified="2014-04-07T14:32:44">
+    <value>Resize image</value>
+    <comment>phrase: Resize image</comment>
+  </data>
+  <data name="Thumbnail" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnail</value>
+    <comment>word: Thumbnail</comment>
+  </data>
+  <data name="SizeLabel" lastModified="2014-04-07T14:32:44">
+    <value>Size</value>
+    <comment>word: Size</comment>
+  </data>
+  <data name="CropToAreaSizeFormat" lastModified="2014-04-07T14:32:44">
+    <value>Crop to {Width}x{Height}</value>
+    <comment>Crop to {Width}x{Height}</comment>
+  </data>
+  <data name="ResizeWithFitToSideSizeFormat" lastModified="2014-04-07T14:32:44">
+    <value>Resize to {Size}</value>
+    <comment>Fit to side {Size}x{Size}</comment>
+  </data>
+  <data name="ResizeWithFitToAreaSizeFormat" lastModified="2014-04-07T14:32:44">
+    <value>Fit to area {MaxWidth}x{MaxHeight}</value>
+    <comment>Fit to area {MaxWidth}x{MaxHeight}</comment>
+  </data>
+  <data name="ThumbnailProfilesWarning" lastModified="2014-04-07T14:32:44">
+    <value>Please note that this operation may take some time (up to few hours). Deleting of the thumbnails may affect the public pages which are using them.</value>
+    <comment>phrase: Please note that this operation may take some time (up to few hours). Deleting of the thumbnails may affect the public pages which are using them.</comment>
+  </data>
+  <data name="ThumbnailRegenerationWarning" lastModified="2014-04-07T14:32:44">
+    <value>Please note that this operation may take some time (up to few hours). Regenerating of the thumbnails in the library will not affect the public pages which are using them, but during this process you will not be able to edit or delete these thumbnails.</value>
+    <comment>Phrase: Please note that this operation may take some time (up to few hours). Regenerating of the thumbnails in the library will not affect the public pages which are using them, but during this process you will not be able to edit or delete these thumbnails.</comment>
+  </data>
+  <data name="RegenereateThumbnailsConfirm" lastModified="2014-04-07T14:32:44">
+    <value>Yes, regenerate all thumbnails</value>
+    <comment>phrase: Yes, regenerate all thumbnails</comment>
+  </data>
+  <data name="SingleThumbnailAddedWarning" lastModified="2014-04-07T14:32:44">
+    <value>{0} is added and the existing thumbnails will be regenerated to reflect the changes.</value>
+    <comment>phrase: {0} is added and the existing thumbnails will be regenerated to reflect the cnanges.</comment>
+  </data>
+  <data name="MultpleThumbnailsAddedWarning" lastModified="2014-04-07T14:32:44">
+    <value>{0} and {1} are added and the existing thumbnails will be regenerated to reflect the changes.</value>
+    <comment>phrase: {0} and {1} are added and the existing thumbnails will be regenerated to reflect the cnanges.</comment>
+  </data>
+  <data name="SingleThumbnailDeletedWarning" lastModified="2014-04-07T14:32:44">
+    <value>{0} is no longer selected and these thumbnails will be deleted from this library.</value>
+    <comment>phrase: {0} is no longer selected and these thumbnails will be deleted from this library.</comment>
+  </data>
+  <data name="MultipleThumbnailsDeletedWarning" lastModified="2014-04-07T14:32:44">
+    <value>{0} and {1} are no longer selected and these thumbnails will be deleted from this library.</value>
+    <comment>phrase: {0} and {1} are no longer selected and these thumbnails will be deleted from this library.</comment>
+  </data>
+  <data name="YesDeleteThumbnails" lastModified="2014-04-07T14:32:44">
+    <value>Yes, delete these thumbnails</value>
+    <comment>phrase: Yes, delete these thumbnails</comment>
+  </data>
+  <data name="DeleteAndRegenerate" lastModified="2014-04-07T14:32:44">
+    <value>Delete &amp; Regenerate</value>
+    <comment>phrase: Delete &amp; Regenerate</comment>
+  </data>
+  <data name="YesRegenerate" lastModified="2014-04-07T14:32:44">
+    <value>Yes, Regenerate</value>
+    <comment>phrase: Yes, Regenerate</comment>
+  </data>
+  <data name="EditImageThumbnailProfile" lastModified="2014-04-07T14:32:44">
+    <value>Edit an image thumbnail size ({0})</value>
+    <comment>phrase: Edit an image thumbnail size ({0})</comment>
+  </data>
+  <data name="EditVideoThumbnailProfile" lastModified="2014-04-07T14:32:44">
+    <value>Edit a video thumbnail size ({0})</value>
+    <comment>phrase: Edit a video thumbnail size ({0})</comment>
+  </data>
+  <data name="FitToAreaErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>You should define at least one image side (width or height)</value>
+    <comment>phrase: You should define at least one image side (width or height)</comment>
+  </data>
+  <data name="MethodParameterErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>{0} must be a value between 1 and 9999 inclusive.</value>
+    <comment>phrase: {0} must be a value between 1 and 9999 inclusive.</comment>
+  </data>
+  <data name="Width" lastModified="2014-04-07T14:32:44">
+    <value>Width</value>
+    <comment>word: Width</comment>
+  </data>
+  <data name="Height" lastModified="2014-04-07T14:32:44">
+    <value>Height</value>
+    <comment>word: Height</comment>
+  </data>
+  <data name="ThumbnailMediaContentSupport" lastModified="2014-04-07T14:32:44">
+    <value>Thumbnail regeneration is supported only for Images and Videos.</value>
+    <comment>phrase: Thumbnail regeneration is supported only for Images and Videos.</comment>
+  </data>
+  <data name="GetCurrentFrame" lastModified="2014-04-07T14:32:44">
+    <value>Get the currently displayed frame</value>
+    <comment>Phrase: Get the currently displayed frame</comment>
+  </data>
+  <data name="IsRequired" lastModified="2014-04-07T14:32:44">
+    <value>{0} is a required field.</value>
+    <comment>phrase: {0} is a reqiured field.</comment>
+  </data>
+  <data name="ThumbnailProfileNameExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; Thumbnail</value>
+    <comment>phrase: Thumbnail</comment>
+  </data>
+  <data name="ResizeWithFitToSideImageProcessorMethod" lastModified="2014-04-07T14:32:44">
+    <value>Resize to side</value>
+    <comment>The title of the ImageProcessor.Resize method with FitToSideArguments</comment>
+  </data>
+  <data name="ResizeWithFitToAreaImageProcessorMethod" lastModified="2014-04-07T14:32:44">
+    <value>Resize to area</value>
+    <comment>The title of the ImageProcessor.Resize method with FitToAreaArguments</comment>
+  </data>
+  <data name="CropToAreaImageProcessorMethod" lastModified="2014-04-07T14:32:44">
+    <value>Crop to area</value>
+    <comment>The title of the ImageProcessor.Crop method with FitToAreaArguments</comment>
+  </data>
+  <data name="ScaleUp" lastModified="2014-04-07T14:32:44">
+    <value>Resize smaller images to bigger dimensions</value>
+    <comment>The title of the ScaleUp property of the ImageProcessor.Resize method</comment>
+  </data>
+  <data name="ResizeBiggerSide" lastModified="2014-04-07T14:32:44">
+    <value>Resize bigger dimension to side</value>
+    <comment>The title of the ResizeBiggerSide property of the ImageProcessor.Resize method with FitToSideArguments</comment>
+  </data>
+  <data name="AllSizesOf" lastModified="2014-04-07T14:32:44">
+    <value>All sizes of {0}</value>
+    <comment>All sizes of {0}</comment>
+  </data>
+  <data name="LinkOrEmbed" lastModified="2014-04-07T14:32:44">
+    <value>Link or embed</value>
+    <comment>Link or embed</comment>
+  </data>
+  <data name="ReplaceThumbnail" lastModified="2014-04-07T14:32:44">
+    <value>Replace thumbnail</value>
+    <comment>Replace thumbnail</comment>
+  </data>
+  <data name="ThmbnailUploadedWarning" lastModified="2014-04-07T14:32:44">
+    <value>This thumbnail was uploaded by user and not generated automatically.</value>
+    <comment>Regenerate thumbnail warning message.</comment>
+  </data>
+  <data name="RegenerateThumbnail" lastModified="2014-04-07T14:32:44">
+    <value>Regenerate this thumbnail</value>
+    <comment>Regenerate this thumbnail</comment>
+  </data>
+  <data name="ChangeThumbnailSizesHint" lastModified="2014-04-07T14:32:44">
+    <value>To change thumbnail sizes go to Library &gt;Actions &gt;Thumbnails settings</value>
+    <comment>phrase: To change thumbnail sizes go to Library &gt;Actions &gt;Thumbnails settings</comment>
+  </data>
+  <data name="Preview" lastModified="2014-04-07T14:32:44">
+    <value>Preview</value>
+    <comment>word: Preview</comment>
+  </data>
+  <data name="AnotherTaskRunning" lastModified="2014-04-07T14:32:44">
+    <value>There is another task running for this library.</value>
+    <comment>phrase: There is another task running for this library.</comment>
+  </data>
+  <data name="MoveLibraryWarning" lastModified="2014-04-07T14:32:44">
+    <value>&lt;p&gt;&lt;strong&gt;You are about to move this library to library &lt;i&gt;{0}&lt;/i&gt;.&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;This may take a lot of time and all URLs will be changed.&lt;br/&gt;&lt;br/&gt;Are you sure you want to proceed?&lt;/p&gt;</value>
+    <comment>phrase: &lt;p&gt;&lt;strong&gt;You are about to move this library to library {0}.&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;This may take a lot of time and all URLs will be changed.&lt;br/&gt;&lt;br/&gt;Are you sure you want to proceed?&lt;/p&gt;</comment>
+  </data>
+  <data name="MoveToRootLibraryWarning" lastModified="2014-04-07T14:32:44">
+    <value>&lt;p&gt;&lt;strong&gt;You are about to move this library on top level.&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;This may take a lot of time and all URLs will be changed.&lt;br/&gt;&lt;br/&gt;Are you sure you want to proceed?&lt;/p&gt;</value>
+    <comment>phrase: &lt;p&gt;&lt;strong&gt;You are about to move this library on top level.&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;This may take a lot of time and all URLs will be changed.&lt;br/&gt;&lt;br/&gt;Are you sure you want to proceed?&lt;/p&gt;</comment>
+  </data>
+  <data name="IncludesItemsFromChildLibraries" lastModified="2014-04-07T14:32:44">
+    <value>(includes items from child libraries)</value>
+    <comment>Label that indicates that a selected library will also include its child library items.</comment>
+  </data>
+  <data name="WhatIsThis" lastModified="2014-04-07T14:32:44">
+    <value>What is this?</value>
+    <comment>phrase: What is this?</comment>
+  </data>
+  <data name="InvalidMethodParametersString" lastModified="2014-04-07T14:32:44">
+    <value>Invalid method parameters string.</value>
+    <comment>phrase: Invalid method parameters string.</comment>
+  </data>
+  <data name="LibrariesLowerCase" lastModified="2014-04-07T14:32:44">
+    <value>libraries</value>
+    <comment>libraries</comment>
+  </data>
+</root>

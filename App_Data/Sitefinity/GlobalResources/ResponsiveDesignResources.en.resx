@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResponsiveDesignResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Responsive Design resources</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="ResponsiveDesignResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>Responsive Design resources</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="ResponsiveDesignResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for Responsive Design module.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="AccessResponsiveDesign" lastModified="2014-04-07T14:32:44">
+    <value>Access responsive design</value>
+    <comment>phrase: Access responsive design</comment>
+  </data>
+  <data name="AccessResponsiveDesignDescription" lastModified="2014-04-07T14:32:44">
+    <value>Action which either grants or denies users to access responsive design module.</value>
+    <comment>phrase: Action which either grants or denies users to access responsive design module.</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+    <value>Responsive Design</value>
+    <comment>Title of the Responsive Design module</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>The module which let's define responsive design of the pages based on the client capabilities.</value>
+    <comment>Description of the Responsive Design module</comment>
+  </data>
+  <data name="ResponsiveDesignConfigCaption" lastModified="2014-04-07T14:32:44">
+    <value>Responsive Design configuration</value>
+    <comment>Title of the Responsive Design configuration section.</comment>
+  </data>
+  <data name="ResponsiveDesignConfigDescription" lastModified="2014-04-07T14:32:44">
+    <value>Configuration section for the Responsive Design module.</value>
+    <comment>Description of the Responsive Design configuration section.</comment>
+  </data>
+  <data name="ResponsiveAndMobileDesignNodeUrlName" lastModified="2014-04-07T14:32:44">
+    <value>responsive-and-mobile-design</value>
+    <comment>Url name of the responsive and mobile design page node.</comment>
+  </data>
+  <data name="ResponsiveAndMobileDesignNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Responsive &amp; Mobile design</value>
+    <comment>Title of the responsive and mobile design page node.</comment>
+  </data>
+  <data name="ResponsiveAndMobileDesignNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>The page which let's use manage settings for responsive and mobile design.</value>
+    <comment>phrase: The page which let's use manage settings for responsive and mobile design.</comment>
+  </data>
+  <data name="RuleGroupsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>rule-groups</value>
+    <comment>Url name of the responsive design module rule groups page</comment>
+  </data>
+  <data name="ResponsiveAndMobileDesign" lastModified="2014-04-07T14:32:44">
+    <value>Responsive &amp; Mobile Design</value>
+    <comment>phrase: Responsive &amp; Mobile Design</comment>
+  </data>
+  <data name="CreateAGroupOfRules" lastModified="2014-04-07T14:32:44">
+    <value>Create a group of rules</value>
+    <comment>Title of the screen for creating a new group of rules.</comment>
+  </data>
+  <data name="ModifyAGroupOfRules" lastModified="2014-04-07T14:32:44">
+    <value>Modify a group of rules</value>
+    <comment>phrase: ModifyAGroupOfRules</comment>
+  </data>
+  <data name="MediaQueryNameFieldTitle" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>The title of the media query name field in the form for creating and editing media queries.</comment>
+  </data>
+  <data name="MediaQueryNameFieldDescription" lastModified="2014-04-07T14:32:44">
+    <value>Will be used only in the backend user interface.</value>
+    <comment>The description of the media query name field in the form for creating and editing media queries.</comment>
+  </data>
+  <data name="MediaQueryNameFieldExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;Tablets&lt;/em&gt;. This name is for your convenience only</value>
+    <comment>The example of the media query name field in the form for creating and editing media queries.</comment>
+  </data>
+  <data name="MediaQueryNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>The name of the media query is a required field.</value>
+    <comment>Validation message displayed when the media query name field is not entered.</comment>
+  </data>
+  <data name="CreateMediaQuery" lastModified="2014-04-07T14:32:44">
+    <value>Create media query</value>
+    <comment>phrase: Create media query</comment>
+  </data>
+  <data name="BackToMediaQueries" lastModified="2014-04-07T14:32:44">
+    <value>Back to media queries</value>
+    <comment>phrase: Back to media queries</comment>
+  </data>
+  <data name="ThisGroupOfRulesIsActive" lastModified="2014-04-07T14:32:44">
+    <value>This group of rules is active</value>
+    <comment>phrase: This group of rules is active</comment>
+  </data>
+  <data name="ApplyBehaviorTo" lastModified="2014-04-07T14:32:44">
+    <value>Apply behavior to...</value>
+    <comment>phrase: Apply behavior to...</comment>
+  </data>
+  <data name="TransformTheLayout" lastModified="2014-04-07T14:32:44">
+    <value>Transform the layout</value>
+    <comment>phrase: Transform the layout</comment>
+  </data>
+  <data name="OpenSpeciallyPreparedSite" lastModified="2014-04-07T14:32:44">
+    <value>Open a specially prepared site (e.g. mobile version of your site)...</value>
+    <comment>phrase: Open a specially prepared site (e.g. mobile version of your site)...</comment>
+  </data>
+  <data name="LayoutTransformationSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>System settings: Fine tune default layout elements</value>
+    <comment>phrase: System settings: Fine tune default layout elements</comment>
+  </data>
+  <data name="SiteSelectorFieldTitle" lastModified="2014-04-07T14:32:44">
+    <value>Root page of the specially prepared site</value>
+    <comment>phrase: Root page of the specially prepared site</comment>
+  </data>
+  <data name="SiteSelectorFieldDescription" lastModified="2014-04-07T14:32:44">
+    <value>When detected, a device with characteristics like those set above, always redirect to this page</value>
+    <comment>phrase: When detected, a device with characteristics like those set above, always redirect to this page</comment>
+  </data>
+  <data name="CssSelectorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Specific CSS file for transforming layout and design</value>
+    <comment>phrase: Specific CSS file for transforming layout and design</comment>
+  </data>
+  <data name="CssSelectorDescription" lastModified="2014-04-07T14:32:44">
+    <value>When detect a device with characteristics like those set above, always load this CSS file</value>
+    <comment>phrase:When detect a device with characteristics like those set above, always load this CSS file</comment>
+  </data>
+  <data name="SelectACssFile" lastModified="2014-04-07T14:32:44">
+    <value>Select a CSS file</value>
+    <comment>phrase: Select a CSS file</comment>
+  </data>
+  <data name="MediaQueryNameGrid" lastModified="2014-04-07T14:32:44">
+    <value>Group of rules</value>
+    <comment>phrase: Group of rules</comment>
+  </data>
+  <data name="Active" lastModified="2014-04-07T14:32:44">
+    <value>Active</value>
+    <comment>word: Active</comment>
+  </data>
+  <data name="Inactive" lastModified="2014-04-07T14:32:44">
+    <value>Inactive</value>
+    <comment>word: Inactive</comment>
+  </data>
+  <data name="TransformLayout" lastModified="2014-04-07T14:32:44">
+    <value>Transform layout</value>
+    <comment>phrase: Transform layout</comment>
+  </data>
+  <data name="OpenASpeciallyPreparedSite" lastModified="2014-04-07T14:32:44">
+    <value>Open a specially prepared site</value>
+    <comment>phrase: Open a specially prepared site</comment>
+  </data>
+  <data name="Behavior" lastModified="2014-04-07T14:32:44">
+    <value>Behavior</value>
+    <comment>word: Behavior</comment>
+  </data>
+  <data name="ContentBlocksAppliedToColumnHeaderText" lastModified="2014-04-07T14:32:44">
+    <value>Applied To</value>
+    <comment>table header: Applied To</comment>
+  </data>
+  <data name="MediaQueryDialogDescription" lastModified="2014-04-07T14:32:44">
+    <value>Any changes in this media query will be reflected on all pages and templates where it is used</value>
+    <comment>label</comment>
+  </data>
+  <data name="SuccessfullyUpdatedMediaQuery" lastModified="2014-04-07T14:32:44">
+    <value>Media Query successfully updated in {0}.</value>
+    <comment>label: Media Query successfully updated in {0}.</comment>
+  </data>
+  <data name="ForDevicesWithTheseCharacteristics" lastModified="2014-04-07T14:32:44">
+    <value>For devices with these characteristics...</value>
+    <comment>phrase:ForDevicesWithTheseCharacteristics</comment>
+  </data>
+  <data name="DeviceType" lastModified="2014-04-07T14:32:44">
+    <value>Type</value>
+    <comment>word: Type</comment>
+  </data>
+  <data name="AddCustom" lastModified="2014-04-07T14:32:44">
+    <value>Add custom...</value>
+    <comment>phrase: Add custom...</comment>
+  </data>
+  <data name="AddACustomRule" lastModified="2014-04-07T14:32:44">
+    <value>Add a custom rule (media query)</value>
+    <comment>phrase: Add a custom rule (media query)</comment>
+  </data>
+  <data name="TabletsAndSmallScreens" lastModified="2014-04-07T14:32:44">
+    <value>Tablets and small screens</value>
+    <comment>phrase: Tablets and small screens</comment>
+  </data>
+  <data name="Smartphones" lastModified="2014-04-07T14:32:44">
+    <value>Smartphones</value>
+    <comment>phrase: Smartphones</comment>
+  </data>
+  <data name="LargeScreens" lastModified="2014-04-07T14:32:44">
+    <value>Large screens</value>
+    <comment>phrase: Large screens</comment>
+  </data>
+  <data name="Description" lastModified="2014-04-07T14:32:44">
+    <value>Description</value>
+    <comment>word: Description</comment>
+  </data>
+  <data name="DescriptionExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;1024x768 (e.g. iPad, iPad2)&lt;/em&gt;</value>
+    <comment>Example: 1024x768 (e.g. iPad, iPad2)</comment>
+  </data>
+  <data name="Size" lastModified="2014-04-07T14:32:44">
+    <value>Size</value>
+    <comment>word: Size</comment>
+  </data>
+  <data name="Width" lastModified="2014-04-07T14:32:44">
+    <value>Width</value>
+    <comment>word: Width</comment>
+  </data>
+  <data name="RangeWidth" lastModified="2014-04-07T14:32:44">
+    <value>Range (min, max-width)</value>
+    <comment>phrase: Range(min, max-width)</comment>
+  </data>
+  <data name="DeviceWidth" lastModified="2014-04-07T14:32:44">
+    <value>Device width</value>
+    <comment>phrase: Device width</comment>
+  </data>
+  <data name="RangeDeviceWidth" lastModified="2014-04-07T14:32:44">
+    <value>Range of device width (min, max)</value>
+    <comment>phrase: Range of device width (min, max)</comment>
+  </data>
+  <data name="Height" lastModified="2014-04-07T14:32:44">
+    <value>Height</value>
+    <comment>word: Height</comment>
+  </data>
+  <data name="RangeHeight" lastModified="2014-04-07T14:32:44">
+    <value>Range (min, max-height)</value>
+    <comment>phrase: Range (min, max-height)</comment>
+  </data>
+  <data name="DeviceHeight" lastModified="2014-04-07T14:32:44">
+    <value>Device height</value>
+    <comment>phrase: Device height</comment>
+  </data>
+  <data name="RangeDeviceHeight" lastModified="2014-04-07T14:32:44">
+    <value>Range of device height (min, max)</value>
+    <comment>phrase: Range of device height (min, max)</comment>
+  </data>
+  <data name="MinWidth" lastModified="2014-04-07T14:32:44">
+    <value>Min-width</value>
+    <comment>word: Min-width</comment>
+  </data>
+  <data name="MaxWidth" lastModified="2014-04-07T14:32:44">
+    <value>Max-width</value>
+    <comment>word: Max-width</comment>
+  </data>
+  <data name="MinHeight" lastModified="2014-04-07T14:32:44">
+    <value>Min-height</value>
+    <comment>phrase: Min-height</comment>
+  </data>
+  <data name="MaxHeight" lastModified="2014-04-07T14:32:44">
+    <value>Max-height</value>
+    <comment>word: Max-height</comment>
+  </data>
+  <data name="Orientation" lastModified="2014-04-07T14:32:44">
+    <value>Orientation</value>
+    <comment>word: Orientation</comment>
+  </data>
+  <data name="Portrait" lastModified="2014-04-07T14:32:44">
+    <value>Portrait</value>
+    <comment>word: Portrait</comment>
+  </data>
+  <data name="Landscape" lastModified="2014-04-07T14:32:44">
+    <value>Landscape</value>
+    <comment>word: Landscape</comment>
+  </data>
+  <data name="Both" lastModified="2014-04-07T14:32:44">
+    <value>Both</value>
+    <comment>word: Both</comment>
+  </data>
+  <data name="AspectRatio" lastModified="2014-04-07T14:32:44">
+    <value>Aspect ratio</value>
+    <comment>phrase: Aspect ratio</comment>
+  </data>
+  <data name="Resolution" lastModified="2014-04-07T14:32:44">
+    <value>Resolution</value>
+    <comment>word: Resolution</comment>
+  </data>
+  <data name="Monochrome" lastModified="2014-04-07T14:32:44">
+    <value>Monochrome</value>
+    <comment>word: Monochrome</comment>
+  </data>
+  <data name="Grid" lastModified="2014-04-07T14:32:44">
+    <value>Grid</value>
+    <comment>word: Grid</comment>
+  </data>
+  <data name="ResultMediaQueryCss" lastModified="2014-04-07T14:32:44">
+    <value>Result: media query css</value>
+    <comment>phrase: Result: media query css</comment>
+  </data>
+  <data name="Edit" lastModified="2014-04-07T14:32:44">
+    <value>Edit</value>
+    <comment>word: Edit</comment>
+  </data>
+  <data name="Reset" lastModified="2014-04-07T14:32:44">
+    <value>Reset</value>
+    <comment>word: Reset</comment>
+  </data>
+  <data name="RuleDescriptionRequired" lastModified="2014-04-07T14:32:44">
+    <value>Description cannot be empty</value>
+    <comment>Message displayed when user does not enter the description of the media query rule</comment>
+  </data>
+  <data name="ValueMustBeAWholeNumber" lastModified="2014-04-07T14:32:44">
+    <value>Value must be a whole number</value>
+    <comment>Message displayed when user does not enter the whole number in a field that expects it</comment>
+  </data>
+  <data name="MobilePreviewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Preview for&lt;br /&gt;Smartphones &amp;amp; Tablets</value>
+    <comment>phrase: Preview for Smartphones &amp; Tablets</comment>
+  </data>
+  <data name="PreviewDeviceNameConfig" lastModified="2014-04-07T14:32:44">
+    <value>Name of the preview device</value>
+    <comment>phrase: Name of the preview device</comment>
+  </data>
+  <data name="PreviewDeviceTitleConfig" lastModified="2014-04-07T14:32:44">
+    <value>Title of the preview device</value>
+    <comment>phrase: Title of the preview device</comment>
+  </data>
+  <data name="PreviewDevicesConfig" lastModified="2014-04-07T14:32:44">
+    <value>Preview devices</value>
+    <comment>phrase: Preview devices</comment>
+  </data>
+  <data name="PreviewDeviceCssClassConfig" lastModified="2014-04-07T14:32:44">
+    <value>Css class associated with the preview device</value>
+    <comment>phrase: Css class associated with the preview device</comment>
+  </data>
+  <data name="PreviewDeviceWidthConfig" lastModified="2014-04-07T14:32:44">
+    <value>The width of the preview device in pixels</value>
+    <comment>phrase: The width of the preview device in pixels</comment>
+  </data>
+  <data name="PreviewDeviceHeightConfig" lastModified="2014-04-07T14:32:44">
+    <value>The height of the preview device in pixels</value>
+    <comment>phrase: The height of the preview device in pixels</comment>
+  </data>
+  <data name="PreviewDeviceViewportWidthConfig" lastModified="2014-04-07T14:32:44">
+    <value>The width of the preview device's viewport</value>
+    <comment>phrase: The width of the preview device's viewport</comment>
+  </data>
+  <data name="PreviewDeviceViewportHeightConfig" lastModified="2014-04-07T14:32:44">
+    <value>The height of the preview device's viewport</value>
+    <comment>phrase: The height of the preview device's viewport</comment>
+  </data>
+  <data name="PreviewDeviceOffsetXConfig" lastModified="2014-04-07T14:32:44">
+    <value>Offset on the X axis of the viewport in the portrait mode.</value>
+    <comment>phrase: Offset on the X axis of the viewport in the portrait mode.</comment>
+  </data>
+  <data name="PreviewDeviceOffsetYConfig" lastModified="2014-04-07T14:32:44">
+    <value>Offset on the Y axis of the viewport in the portrait mode.</value>
+    <comment>phrase: Offset on the Y axis of the viewport in the portrait mode.</comment>
+  </data>
+  <data name="PreviewDeviceOffsetXLandscapeConfig" lastModified="2014-04-07T14:32:44">
+    <value>Offset on the X asix of the viewport in the landscape mode.</value>
+    <comment>phrase: Offset on the X asix of the viewport in the landscape mode.</comment>
+  </data>
+  <data name="PreviewDeviceOffsetYLandscapeConfig" lastModified="2014-04-07T14:32:44">
+    <value>Offset on the Y axis of the viewport in the ladscape mode.</value>
+    <comment>phrase: Offset on the Y axis of the viewport in the ladscape mode.</comment>
+  </data>
+  <data name="AllGroupsAreApplied" lastModified="2014-04-07T14:32:44">
+    <value>All groups of rules are applied</value>
+    <comment>phrase: All groups of rules are applied</comment>
+  </data>
+  <data name="NoGroupsAreApplied" lastModified="2014-04-07T14:32:44">
+    <value>No groups of rules are applied</value>
+    <comment>phrase: No groups of rules are applied</comment>
+  </data>
+  <data name="SelectedRulesAreApplied" lastModified="2014-04-07T14:32:44">
+    <value>Only selected groups of rules are applied</value>
+    <comment>phrase: Only selected groups of rules are applied</comment>
+  </data>
+  <data name="InheritFromParent" lastModified="2014-04-07T14:32:44">
+    <value>Rules are inherited from the parent</value>
+    <comment>phrase: Rules are inherited from the parent</comment>
+  </data>
+  <data name="AsSetInTemplate" lastModified="2014-04-07T14:32:44">
+    <value>As set in template</value>
+    <comment>phrase: As set in template</comment>
+  </data>
+  <data name="AsSetInBaseTemplate" lastModified="2014-04-07T14:32:44">
+    <value>As set in base template</value>
+    <comment>phrase: As set in base template</comment>
+  </data>
+  <data name="NavigationTransformationsSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Navigation transformations</value>
+    <comment>phrase: Navigation transformations</comment>
+  </data>
+  <data name="ToToggleMenu" lastModified="2014-04-07T14:32:44">
+    <value>Toggle vertical menu</value>
+    <comment>phrase: Toggle vertical menu</comment>
+  </data>
+  <data name="ToDropDown" lastModified="2014-04-07T14:32:44">
+    <value>Dropdown list</value>
+    <comment>phrase: Dropdown list</comment>
+  </data>
+  <data name="HideNavigation" lastModified="2014-04-07T14:32:44">
+    <value>Hide navigation</value>
+    <comment>phrase: Hide navigation</comment>
+  </data>
+  <data name="TransformTo" lastModified="2014-04-07T14:32:44">
+    <value>transform to</value>
+    <comment>phrase: transform to</comment>
+  </data>
+  <data name="AddTransformation" lastModified="2014-04-07T14:32:44">
+    <value>Add a transformation</value>
+    <comment>phrase: Add a transformation</comment>
+  </data>
+  <data name="AllNavigationWidgets" lastModified="2014-04-07T14:32:44">
+    <value>All navigation widgets</value>
+    <comment>phrase: All navigation widgets</comment>
+  </data>
+  <data name="NavigationWidgetsWithClass" lastModified="2014-04-07T14:32:44">
+    <value>Navigation widgets with class</value>
+    <comment>phrase: Navigation widgets with class</comment>
+  </data>
+  <data name="EnabledConfig" lastModified="2014-04-07T14:32:44">
+    <value>Enabled</value>
+    <comment>word: Enabled</comment>
+  </data>
+  <data name="DeviceTypesConfig" lastModified="2014-04-07T14:32:44">
+    <value>Device types</value>
+    <comment>phrase: Device types</comment>
+  </data>
+  <data name="DeviceTypeNameConfig" lastModified="2014-04-07T14:32:44">
+    <value>Device type name</value>
+    <comment>phrase: Device type name</comment>
+  </data>
+  <data name="DeviceTypeTitleConfig" lastModified="2014-04-07T14:32:44">
+    <value>Device type title</value>
+    <comment>phrase: Device type title</comment>
+  </data>
+  <data name="DefaultRulesConfig" lastModified="2014-04-07T14:32:44">
+    <value>Default media query rules</value>
+    <comment>phrase: Default media query rules</comment>
+  </data>
+  <data name="RuleDescriptionConfig" lastModified="2014-04-07T14:32:44">
+    <value>Description of the rule</value>
+    <comment>phrase: Description of the rule</comment>
+  </data>
+  <data name="WidthTypeConfig" lastModified="2014-04-07T14:32:44">
+    <value>The type of width being defined</value>
+    <comment>phrase: The type of width being defined</comment>
+  </data>
+  <data name="ExactWidthConfig" lastModified="2014-04-07T14:32:44">
+    <value>Exact width</value>
+    <comment>phrase: Exact width</comment>
+  </data>
+  <data name="MinWidthConfig" lastModified="2014-04-07T14:32:44">
+    <value>Minimum width</value>
+    <comment>phrase: Minimum width</comment>
+  </data>
+  <data name="MaxWidthConfig" lastModified="2014-04-07T14:32:44">
+    <value>Maximum width</value>
+    <comment>phrase: Maximum width</comment>
+  </data>
+  <data name="HeightTypeConfig" lastModified="2014-04-07T14:32:44">
+    <value>Gets or sets the type of the height rule</value>
+    <comment>phrase: Gets or sets the type of the height rule</comment>
+  </data>
+  <data name="ExactHeightConfig" lastModified="2014-04-07T14:32:44">
+    <value>Exact height</value>
+    <comment>phrase: Exact height</comment>
+  </data>
+  <data name="MinHeightConfig" lastModified="2014-04-07T14:32:44">
+    <value>Minimum height</value>
+    <comment>phrase: Minimum height</comment>
+  </data>
+  <data name="MaxHeightConfig" lastModified="2014-04-07T14:32:44">
+    <value>Maximum height</value>
+    <comment>phrase: Maximum height</comment>
+  </data>
+  <data name="OrientationConfig" lastModified="2014-04-07T14:32:44">
+    <value>Orientation</value>
+    <comment>word: Orientation</comment>
+  </data>
+  <data name="AspectRatioConfig" lastModified="2014-04-07T14:32:44">
+    <value>Aspect ratio</value>
+    <comment>phrase: Aspect ratio</comment>
+  </data>
+  <data name="IsMonochromeConfig" lastModified="2014-04-07T14:32:44">
+    <value>Monochrome?</value>
+    <comment>word: Monochrome?</comment>
+  </data>
+  <data name="IsGridConfig" lastModified="2014-04-07T14:32:44">
+    <value>Grid?</value>
+    <comment>word: Grid?</comment>
+  </data>
+  <data name="ResolutionConfig" lastModified="2014-04-07T14:32:44">
+    <value>Resolution</value>
+    <comment>word: Resolution</comment>
+  </data>
+  <data name="ResultingRuleConfig" lastModified="2014-04-07T14:32:44">
+    <value>Resulting media query rule</value>
+    <comment>phrase: Resulting media query rule</comment>
+  </data>
+  <data name="CreateRulesGroup" lastModified="2014-04-07T14:32:44">
+    <value>Done</value>
+    <comment>word: Done</comment>
+  </data>
+  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>word: Cancel</comment>
+  </data>
+  <data name="ResourceClassNameConfig" lastModified="2014-04-07T14:32:44">
+    <value>The name of the resource class to be used to localize the labels</value>
+    <comment>phrase: The name of the resource class to be used to localize the labels</comment>
+  </data>
+  <data name="LayoutElementNameConfig" lastModified="2014-04-07T14:32:44">
+    <value>Name of the layout element</value>
+    <comment>phrase: Name of the layout element</comment>
+  </data>
+  <data name="LayoutElementGroupNameConfig" lastModified="2014-04-07T14:32:44">
+    <value>Name of the group to which the layout element belongs to</value>
+    <comment>phrase: LayoutElementGroupNameConfig</comment>
+  </data>
+  <data name="LayoutElementTitleConfig" lastModified="2014-04-07T14:32:44">
+    <value>Title of the layout element</value>
+    <comment>phrase: Title of the layout element</comment>
+  </data>
+  <data name="AlternateLayoutsConfig" lastModified="2014-04-07T14:32:44">
+    <value>Alternate layouts</value>
+    <comment>phrase: Alternate layouts</comment>
+  </data>
+  <data name="LayoutElementsConfig" lastModified="2014-04-07T14:32:44">
+    <value>Layout elements</value>
+    <comment>phrase: Layout elements</comment>
+  </data>
+  <data name="LayoutCssConfig" lastModified="2014-04-07T14:32:44">
+    <value>CSS for the layout element.</value>
+    <comment>phrase: CSS for the layout element.</comment>
+  </data>
+  <data name="HiddenLayoutCss" lastModified="2014-04-07T14:32:44">
+    <value>Hidden layouts CSS</value>
+    <comment>phrase: Hidden layouts CSS</comment>
+  </data>
+  <data name="ControlTransformationsConfig" lastModified="2014-04-07T14:32:44">
+    <value>Control transformations</value>
+    <comment>phrase: Control transformations</comment>
+  </data>
+  <data name="NavigationTransformationNameConfig" lastModified="2014-04-07T14:32:44">
+    <value>Name of the navigation transformation</value>
+    <comment>phrase: Name of the navigation transformation</comment>
+  </data>
+  <data name="TransformationCssConfig" lastModified="2014-04-07T14:32:44">
+    <value>CSS of the control transformation</value>
+    <comment>phrase: CSS of the control transformation</comment>
+  </data>
+  <data name="NavigationTransformationTitleConfig" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>phrase: Title</comment>
+  </data>
+  <data name="NavigationTransformationResourceClassIdConfig" lastModified="2014-04-07T14:32:44">
+    <value>ResouceClassId for localization</value>
+    <comment>phrase: ResouceClassId for localization</comment>
+  </data>
+  <data name="NavigationTransformationIsActiveConfig" lastModified="2014-04-07T14:32:44">
+    <value>Is Active</value>
+    <comment>phrase: Is Active</comment>
+  </data>
+  <data name="ResponsiveDesignBasicSettingsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Responsive design settings for Navigation widget</value>
+    <comment>phrase: Responsive design settings for Navigation widget</comment>
+  </data>
+  <data name="ResponsiveDesignBasicSettingsInfo" lastModified="2014-04-07T14:32:44">
+    <value>Predefine transformation settings for the Navigation widget. You can associate these settings with responsive design rules.</value>
+    <comment>phrase: Predefine transformation settings for the Navigation widget. You can associate these settings with responsive design rules.</comment>
+  </data>
+  <data name="BasicSettingsGridFirstCol" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>phrase: Name</comment>
+  </data>
+  <data name="BasicSettingsGridSecondCol" lastModified="2014-04-07T14:32:44">
+    <value>Used in</value>
+    <comment>phrase: Used in</comment>
+  </data>
+  <data name="AddNew" lastModified="2014-04-07T14:32:44">
+    <value>Add new...</value>
+    <comment>phrase: Add new...</comment>
+  </data>
+</root>

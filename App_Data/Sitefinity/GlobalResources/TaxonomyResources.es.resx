@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllClassifications" lastModified="2012-08-10T22:20:16">
+    <value>Todas las clasificaciones</value>
+    <comment>phrase: All classifications</comment>
+  </data>
+  <data name="EditItem" lastModified="2012-08-10T22:20:16">
+    <value>Editar</value>
+    <comment>The title of the edit taxon dialog</comment>
+  </data>
+  <data name="CreateThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Crear esta etiqueta</value>
+    <comment>phrase: Create this tag</comment>
+  </data>
+  <data name="TaxonomyResourcesTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>Taxonomías</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="TaxonomyResourcesTitle" lastModified="2012-08-10T22:20:16">
+    <value>Taxonomías</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="TaxonomyResourcesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables para el módulo de taxonomía.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="BackToItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a Etiquetas</value>
+    <comment>The text of the back to tags link</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2012-08-10T22:20:16">
+    <value>Clasificación de Contenido</value>
+    <comment>The title of Taxonomy module.</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2012-08-10T22:20:16">
+    <value>Define las relaciones que existen entre los elementos de contenido individuales dentro de un todo coherente.</value>
+    <comment>The description of Taxonomy module.</comment>
+  </data>
+  <data name="CloseSearchClassifications" lastModified="2012-08-10T22:20:16">
+    <value>Cerrar búsqueda de clasificaciones</value>
+    <comment>phrase: Close search classifications</comment>
+  </data>
+  <data name="Classification" lastModified="2012-08-10T22:20:16">
+    <value>Clasificación</value>
+    <comment>word: Classification</comment>
+  </data>
+  <data name="Classifications" lastModified="2012-08-10T22:20:16">
+    <value>Clasificaciones</value>
+    <comment>word: Classifications</comment>
+  </data>
+  <data name="CreateNewClassification" lastModified="2012-08-10T22:20:16">
+    <value>Crear nueva clasificación</value>
+    <comment>phrase: Create new classification</comment>
+  </data>
+  <data name="CategoriesAndTags" lastModified="2012-08-10T22:20:16">
+    <value>Categorías y etiquetas</value>
+    <comment>phrase: Categories and tags</comment>
+  </data>
+  <data name="SearchClassifications" lastModified="2012-08-10T22:20:16">
+    <value>Buscar clasificaciones…</value>
+    <comment>phrase: Search classifications</comment>
+  </data>
+  <data name="SearchInsideClassifications" lastModified="2012-08-10T22:20:16">
+    <value>Buscar en de las clasificaciones ...</value>
+    <comment>phrase: Search inside classifications</comment>
+  </data>
+  <data name="FilterClassifications" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar clasificaciones</value>
+    <comment>phrase: Filter classifications</comment>
+  </data>
+  <data name="TypeCannotBeChanged" lastModified="2012-08-10T22:20:16">
+    <value>&lt;em class="sfNote"&gt;(No se puede cambiar el tipo)&lt;/em&gt;</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="EmptyClassifications" lastModified="2012-08-10T22:20:16">
+    <value>Clasificaciones vacías</value>
+    <comment>phrase: Empty classifications</comment>
+  </data>
+  <data name="Faceted" lastModified="2012-08-10T22:20:16">
+    <value>En facetas</value>
+    <comment>word: Faceted</comment>
+  </data>
+  <data name="ClassificationTitleExample" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: &lt;em&gt;Regiones geográficas&lt;/em&gt;</value>
+    <comment>phrase: Geographic regions</comment>
+  </data>
+  <data name="ClickToAddDescription" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir una descripción</value>
+    <comment>phrase: Click to add a description</comment>
+  </data>
+  <data name="ClassificationSlashType" lastModified="2012-08-10T22:20:16">
+    <value>Clasificación / Tipo</value>
+    <comment>phrase: Classification / Type</comment>
+  </data>
+  <data name="FlatTaxonomyUserFriendly" lastModified="2012-08-10T22:20:16">
+    <value>Lista simple</value>
+    <comment>phrase: Flat list</comment>
+  </data>
+  <data name="PermissionsForAllClassifications" lastModified="2012-08-10T22:20:16">
+    <value>Permisos para todas las clasificaciones</value>
+    <comment>phrase: Permissions for all classifications</comment>
+  </data>
+  <data name="lDescription" lastModified="2012-08-10T22:20:16">
+    <value>Descripción</value>
+    <comment>phrase: Description</comment>
+  </data>
+  <data name="HierarchicalTaxonomyUserFriendlyWithExample" lastModified="2012-08-10T22:20:16">
+    <value>Lista jerárquica&lt;span class="sfExample"&gt;Para artículos, sub-items, sub-sub-items, etc. (árbol).&lt;br /&gt; &lt;strong&gt;Ejemplo:&lt;/strong&gt; Lista  de continentes, países y ciudades.&lt;/span&gt;</value>
+    <comment>phrase: Hierarchical list</comment>
+  </data>
+  <data name="Flat" lastModified="2012-08-10T22:20:16">
+    <value>Plano</value>
+    <comment>word: Flat</comment>
+  </data>
+  <data name="PermissionsForFlatTaxonomies" lastModified="2012-08-10T22:20:16">
+    <value>Permisos para las etiquetas</value>
+    <comment>Phrase: Permissions for tags</comment>
+  </data>
+  <data name="FlatTaxonomyMenuName" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas</value>
+    <comment>word: Tags</comment>
+  </data>
+  <data name="FlatTaxonomyUserFriendlyWithExample" lastModified="2012-08-10T22:20:16">
+    <value>Lista simple &lt;span class="sfExample"&gt;Conveniente para etiquetas, claves, list de un nivel de cosas.&lt;/span&gt;</value>
+    <comment>phrase: Flat list</comment>
+  </data>
+  <data name="PermissionsForHierarchicalTaxonomies" lastModified="2012-08-10T22:20:16">
+    <value>Permisos para las categorías</value>
+    <comment>Phrase: Permissions for categories</comment>
+  </data>
+  <data name="HierarchicalTaxonomyMenuName" lastModified="2012-08-10T22:20:16">
+    <value>Categorías</value>
+    <comment>word: Categories</comment>
+  </data>
+  <data name="HierarchicalTaxonomyUserFriendly" lastModified="2012-08-10T22:20:16">
+    <value>Lista jerárquica</value>
+    <comment>phrase: Hierarchical list</comment>
+  </data>
+  <data name="FacetTaxonomyUserFriendly" lastModified="2012-08-10T22:20:16">
+    <value>Lista de facetas</value>
+    <comment>phrase: Facet list</comment>
+  </data>
+  <data name="NetworkTaxonomyUserFriendly" lastModified="2012-08-10T22:20:16">
+    <value>Lista de redes</value>
+    <comment>phrase: Network list</comment>
+  </data>
+  <data name="CreateATagName" lastModified="2012-08-10T22:20:16">
+    <value>Crear una Etiqueta</value>
+    <comment>phrase: Create a Tag</comment>
+  </data>
+  <data name="Hierarchical" lastModified="2012-08-10T22:20:16">
+    <value>Jerárquica</value>
+    <comment>word: Hierarchical</comment>
+  </data>
+  <data name="Network" lastModified="2012-08-10T22:20:16">
+    <value>Red</value>
+    <comment>word: Network</comment>
+  </data>
+  <data name="CreateAndAddAnotherTaxonName" lastModified="2012-08-10T22:20:16">
+    <value>Crear y agregar otro</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="DeleteClassification" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar la clasificación</value>
+    <comment>phrase: Delete classification</comment>
+  </data>
+  <data name="Type" lastModified="2012-08-10T22:20:16">
+    <value>Tipo</value>
+    <comment>word: Type</comment>
+  </data>
+  <data name="NameForProgramCode" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de código del programa</value>
+    <comment>phrase: Name for program code</comment>
+  </data>
+  <data name="CreateATaxonName" lastModified="2012-08-10T22:20:16">
+    <value>Crear un {0}</value>
+    <comment>phrase: Create a {0}</comment>
+  </data>
+  <data name="FlatTaxonTitleExample" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: &lt;em&gt;América del Norte &lt;/em&gt;</value>
+    <comment>phrase: Example of the input for a flat taxon title</comment>
+  </data>
+  <data name="EditATaxonName" lastModified="2012-08-10T22:20:16">
+    <value>Editar un {0}</value>
+    <comment>phrase: Edit a {0}</comment>
+  </data>
+  <data name="CreateThisTaxonName" lastModified="2012-08-10T22:20:16">
+    <value>Crear</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Hierarchicals" lastModified="2012-08-10T22:20:16">
+    <value>Jerarquicas</value>
+    <comment>word: Hierarchicals</comment>
+  </data>
+  <data name="EditSynonyms" lastModified="2012-08-10T22:20:16">
+    <value>Editar sinónimos</value>
+    <comment>phrase: Edit synonyms</comment>
+  </data>
+  <data name="EditAClassificationName" lastModified="2012-08-10T22:20:16">
+    <value>Editar una clasificación</value>
+    <comment>phrase: Edit a Classification</comment>
+  </data>
+  <data name="Facet" lastModified="2012-08-10T22:20:16">
+    <value>Faceta</value>
+    <comment>word: Facet</comment>
+  </data>
+  <data name="SynonymsExample" lastModified="2012-08-10T22:20:16">
+    <value>Sinónimos &lt;span class='sfNote'&gt;(separadas por un espacio, por ejemplo, bello bonito) &lt;/span&gt;</value>
+    <comment>phrase: Synonyms (separated by space, e.g. flat apartment)</comment>
+  </data>
+  <data name="Synonyms" lastModified="2012-08-10T22:20:16">
+    <value>Sinónimos</value>
+    <comment>word: Synonyms</comment>
+  </data>
+  <data name="SingleItem" lastModified="2012-08-10T22:20:16">
+    <value>elemento individual</value>
+    <comment>phrase: Single item</comment>
+  </data>
+  <data name="EditUrlNames" lastModified="2012-08-10T22:20:16">
+    <value>Editar las URL</value>
+    <comment>phrase: Edit URLs</comment>
+  </data>
+  <data name="CreateThisClassificationName" lastModified="2012-08-10T22:20:16">
+    <value>Crear esta clasificación</value>
+    <comment>phrase: Create this Classification</comment>
+  </data>
+  <data name="CreateAClassificationName" lastModified="2012-08-10T22:20:16">
+    <value>Crear una clasificación</value>
+    <comment>phrase: Create a classification</comment>
+  </data>
+  <data name="BackToClassificationsName" lastModified="2012-08-10T22:20:16">
+    <value>Volver a las clasificaciones</value>
+    <comment>phrase: Back to classifications</comment>
+  </data>
+  <data name="SimpleLists" lastModified="2012-08-10T22:20:16">
+    <value>Listas sencillas</value>
+    <comment>phrase: Simple lists</comment>
+  </data>
+  <data name="TaxonTitleExample" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: &lt;em&gt;América del Norte &lt;/em&gt;</value>
+    <comment>phrase: TaxonTitleExample</comment>
+  </data>
+  <data name="ChangeParent" lastModified="2012-08-10T22:20:16">
+    <value>Cambiar padre {0}</value>
+    <comment>phrase: Change parent {0}</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>La URL no puede estar vacía</value>
+    <comment>phrase: URL cannot be empty</comment>
+  </data>
+  <data name="UrlName" lastModified="2012-08-10T22:20:16">
+    <value>URL</value>
+    <comment>phrase: URL</comment>
+  </data>
+  <data name="CreateNewItem" lastModified="2012-08-10T22:20:16">
+    <value>Crear nuevo elemento</value>
+    <comment>phrase: Create new item</comment>
+  </data>
+  <data name="Category" lastModified="2012-08-10T22:20:16">
+    <value>Categoría</value>
+    <comment>word</comment>
+  </data>
+  <data name="ClassificationSingleItemExample" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: &lt;em&gt;Regiones geográficas&lt;/em&gt;</value>
+    <comment>phrase: Geographic region</comment>
+  </data>
+  <data name="ClassificationType" lastModified="2012-08-10T22:20:16">
+    <value>Tipo</value>
+    <comment>phrase: Type</comment>
+  </data>
+  <data name="UrlNameInvalidSymbols" lastModified="2012-08-10T22:20:16">
+    <value>La dirección URL contiene símbolos no válidos.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+  </data>
+  <data name="Categories" lastModified="2012-08-10T22:20:16">
+    <value>Categorías</value>
+    <comment>word</comment>
+  </data>
+  <data name="CommonCategories" lastModified="2012-08-10T22:20:16">
+    <value>Categorías comunes</value>
+    <comment>phrase: Common categories</comment>
+  </data>
+  <data name="TaxonomyPermissionsUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Permisos</value>
+    <comment>Taxonomy Permissions URL.</comment>
+  </data>
+  <data name="Taxon" lastModified="2012-08-10T22:20:16">
+    <value>Taxón</value>
+    <comment>word</comment>
+  </data>
+  <data name="CommonTags" lastModified="2012-08-10T22:20:16">
+    <value>etiquetas comunes</value>
+    <comment>phrase: Common tags</comment>
+  </data>
+  <data name="Tags" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas</value>
+    <comment>word</comment>
+  </data>
+  <data name="SimpleList" lastModified="2012-08-10T22:20:16">
+    <value>Lista simple</value>
+    <comment>phrase: Simple List</comment>
+  </data>
+  <data name="Hierarchy" lastModified="2012-08-10T22:20:16">
+    <value>Jerarquía</value>
+    <comment>word: Hierarchy</comment>
+  </data>
+  <data name="ClassificationDescription" lastModified="2012-08-10T22:20:16">
+    <value>Descripción</value>
+    <comment>phrase: Description</comment>
+  </data>
+  <data name="TaxonomyPermissionsTitle" lastModified="2012-08-10T22:20:16">
+    <value>Permisos de Taxonomía</value>
+    <comment>Title for the Taxonomy Permissions module.</comment>
+  </data>
+  <data name="Facets" lastModified="2012-08-10T22:20:16">
+    <value>Facetas</value>
+    <comment>word: Facets</comment>
+  </data>
+  <data name="SingleItemName" lastModified="2012-08-10T22:20:16">
+    <value>nombre de un elemento individual</value>
+    <comment>phrase: Single Item Name</comment>
+  </data>
+  <data name="TaxonomyPermissionsDescription" lastModified="2012-08-10T22:20:16">
+    <value>Permisos de Taxonomía</value>
+    <comment>Defines permissions for the Taxonomy module.</comment>
+  </data>
+  <data name="MarkedItemTitle" lastModified="2012-08-10T22:20:16">
+    <value>Elemento</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="BulkEditFormTitle" lastModified="2012-08-10T22:20:16">
+    <value>Editar en lotes URL y Sinónimos</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ChildCategory" lastModified="2012-08-10T22:20:16">
+    <value>Crear una categoría secundaria</value>
+    <comment>phrase: Create a child category</comment>
+  </data>
+  <data name="TaxonProperties" lastModified="2012-08-10T22:20:16">
+    <value>{0} propiedades</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ItemsInTotal" lastModified="2012-08-10T22:20:16">
+    <value>Total de elementos</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="SiblingCategoryBefore" lastModified="2012-08-10T22:20:16">
+    <value>Categoría relacionada antes</value>
+    <comment>phrase: Sibling category before</comment>
+  </data>
+  <data name="NoParentTaxonNameDescription" lastModified="2012-08-10T22:20:16">
+    <value>Sin padre (este {0} estará en el nivel superior)</value>
+    <comment>No parent (this {0} will be at the top level)</comment>
+  </data>
+  <data name="SiblingCategoryAfter" lastModified="2012-08-10T22:20:16">
+    <value>Categoría relacionada después</value>
+    <comment>phrase: Sibling category after</comment>
+  </data>
+  <data name="DeleteClassificationMessage" lastModified="2012-08-10T22:20:16">
+    <value>¿Está seguro de que desea eliminar esta clasificación?</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="lAdvanced" lastModified="2012-08-10T22:20:16">
+    <value>Avanzado</value>
+    <comment>phrase: Advanced</comment>
+  </data>
+  <data name="SelectedAParent" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione uno de los padres …</value>
+    <comment>Select a parent...</comment>
+  </data>
+  <data name="SaveThisTaxonName" lastModified="2012-08-10T22:20:16">
+    <value>Guardar</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="UnmarkItems" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar {0} de los elementos seleccionados</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="NoItemsHaveBeenCreated" lastModified="2012-08-10T22:20:16">
+    <value>Todavía no se han creado elementos</value>
+    <comment>No items have been created yet</comment>
+  </data>
+  <data name="SelectATaxonName" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione un {0}</value>
+    <comment>Select a {0}</comment>
+  </data>
+  <data name="MarkedItemsTitle" lastModified="2012-08-10T22:20:16">
+    <value>Elementos bajo {0}</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="NoTaxaExistsYet" lastModified="2012-08-10T22:20:16">
+    <value>Ningún {0} se ha creado todavía</value>
+    <comment>phrase: No {0} have been created yet. - argument is the title of the taxonomy</comment>
+  </data>
+  <data name="SaveAndAddAnotherTaxonName" lastModified="2012-08-10T22:20:16">
+    <value>Guardar y añadir otro</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="SaveATaxonName" lastModified="2012-08-10T22:20:16">
+    <value>Guardar un {0}</value>
+    <comment>phrase: Save a {0}</comment>
+  </data>
+  <data name="NoParentSelected" lastModified="2012-08-10T22:20:16">
+    <value>Ningún padre {0} ha sido seleccionado.</value>
+    <comment>No parent {0} have been selected.</comment>
+  </data>
+  <data name="BackToTaxonomyName" lastModified="2012-08-10T22:20:16">
+    <value>Volver a {0}</value>
+    <comment>phrase: Back to {0}</comment>
+  </data>
+  <data name="TaxonomyTreeMalformed" lastModified="2012-08-10T22:20:16">
+    <value>La taxonomía jerárquica del árbol está mal formada!</value>
+    <comment>message</comment>
+  </data>
+  <data name="CreateYourFirstClassification" lastModified="2012-08-10T22:20:16">
+    <value>Crea tu primera clasificación.</value>
+    <comment>phrase: Create your first classification.</comment>
+  </data>
+  <data name="NoClassificationsCreatedYet" lastModified="2012-08-10T22:20:16">
+    <value>Todavía no se han creado clasificaciones</value>
+    <comment>phrase: No classifications have been created yet.</comment>
+  </data>
+  <data name="ParentTaxonName" lastModified="2012-08-10T22:20:16">
+    <value>Padre {0}</value>
+    <comment>phrase: Parent {0}</comment>
+  </data>
+  <data name="SelectAParent" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione uno de los padres ...</value>
+    <comment>phrase: Select a parent&amp;hellip;</comment>
+  </data>
+  <data name="ClassificationHasBeenSuccessfullyCreated" lastModified="2012-08-10T22:20:16">
+    <value>&lt;em&gt;{0} &lt;/em&gt; clasificación ha sido creada con éxito.</value>
+    <comment>phrase: '{0}' classification has been successfully created.</comment>
+  </data>
+  <data name="CannotBeParentToItself" lastModified="2012-08-10T22:20:16">
+    <value>Operación no válida: no se puede ser padre a sí mismo.</value>
+    <comment>phrase: Invalid operation: cannot be parent to itself.</comment>
+  </data>
+  <data name="SetPermissionsForClassifications" lastModified="2012-08-10T22:20:16">
+    <value>Establecer permisos para las clasificaciones.</value>
+    <comment>phrase: Set permissions for classifications.</comment>
+  </data>
+  <data name="Parent" lastModified="2012-08-10T22:20:16">
+    <value>Padre</value>
+    <comment>word: Parent</comment>
+  </data>
+  <data name="NoTaxaHaveBeenCreatedYet" lastModified="2012-08-10T22:20:16">
+    <value>Ningún {0} se han creado todavía.</value>
+    <comment>phrase: No {0} have been created yet.</comment>
+  </data>
+  <data name="CannotMoveFirstTaxonUp" lastModified="2012-08-10T22:20:16">
+    <value>No se puede mover el taxón hacia arriba</value>
+    <comment>Error messages.</comment>
+  </data>
+  <data name="CreateNewTaxon" lastModified="2012-08-10T22:20:16">
+    <value>Crear nuevo {0}</value>
+    <comment>Title of the TaxaMasterGridView decisions screen action that creates a new taxon when the list is empty</comment>
+  </data>
+  <data name="NoTagsHaveBeenCreatedYet" lastModified="2012-08-10T22:20:16">
+    <value>Aún no se ha creado ninguna etiqueta.</value>
+    <comment>phrase: No tags have been created yet.</comment>
+  </data>
+  <data name="ExampleNorthAmerica" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: &lt;em&gt;América del Norte &lt;/em&gt;</value>
+    <comment>phrase: Example : North America</comment>
+  </data>
+  <data name="DuplicateUrlException" lastModified="2012-08-10T22:20:16">
+    <value>{0} con la URL '{1}' ya existe en {2}.</value>
+    <comment>Error message.</comment>
+  </data>
+  <data name="TagsFieldInstructions" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Separado por comas&lt;/strong&gt;, introduzca etiquetas &lt;strong&gt;nuevas&lt;/strong&gt;o &lt;strong&gt;existentes&lt;/strong&gt;</value>
+    <comment>Comma seperated, type new or existing tags</comment>
+  </data>
+  <data name="NoClassificationsMatchTheSearchQuery" lastModified="2012-08-10T22:20:16">
+    <value>No hay clasificaciones que coincida con la consulta de búsqueda.</value>
+    <comment>phrase: No classifications match the search query.</comment>
+  </data>
+  <data name="CannotMoveTaxon" lastModified="2012-08-10T22:20:16">
+    <value>El Taxón no se puede mover</value>
+    <comment>Error messages.</comment>
+  </data>
+  <data name="EmptyCollectionOfTaxonsIsNotAllowed" lastModified="2012-08-10T22:20:16">
+    <value>Una colección vacía de taxones se pasó al método y no está permitido.</value>
+    <comment>Error messages.</comment>
+  </data>
+  <data name="HierarchicalTaxonParentRootLabel" lastModified="2012-08-10T22:20:16">
+    <value>Sin padre (este {0} estará en el nivel superior)</value>
+    <comment>No parent (this {0} will be at the top level)</comment>
+  </data>
+  <data name="CannotMoveLastTaxonDown" lastModified="2012-08-10T22:20:16">
+    <value>No se puede mover el taxón hacia abajo</value>
+    <comment>Error messages.</comment>
+  </data>
+  <data name="NewsItemDisplay" lastModified="2012-08-10T22:20:16">
+    <value>Noticias</value>
+    <comment>Type name display</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El título no puede estar vacío.</value>
+    <comment>phrase: Title cannot be empty.</comment>
+  </data>
+  <data name="ClickToAddCommonCategories" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir categorías comunes</value>
+    <comment>phrase: Click to add common categories</comment>
+  </data>
+  <data name="ClickToAddCategories" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir categorías</value>
+    <comment>phrase: Click to add categories</comment>
+  </data>
+  <data name="ClickToAddTags" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir etiquetas</value>
+    <comment>phrase: Click to add tags</comment>
+  </data>
+  <data name="ClickToAddCommonTags" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir etiquetas comunes</value>
+    <comment>phrase: Click to add common tags</comment>
+  </data>
+  <data name="DescriptionCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>La descripción no puede estar vacía.</value>
+    <comment>phrase: Description cannot be empty.</comment>
+  </data>
+  <data name="ClickToAddSynonyms" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir sinónimos.</value>
+    <comment>phrase: Click to add synonyms.</comment>
+  </data>
+  <data name="ForDevelopersNameUsedInCode" lastModified="2012-08-10T22:20:16">
+    <value>Para los desarrolladores: nombre que se utiliza en el código.</value>
+    <comment>phrase: For developers: name used in code.</comment>
+  </data>
+  <data name="SingleItemNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>nombre del elemento individual no puede estar vacío.</value>
+    <comment>phrase: Single item name cannot be empty.</comment>
+  </data>
+  <data name="ClassificationSimpleListExample" lastModified="2012-08-10T22:20:16">
+    <value>Conveniente para las etiquetas, palabras clave, listas de un nivel de elementos.</value>
+    <comment>phrase: Convenient for tags, keywords, one-level list of things. &lt;a href='#' class='sfMoreDetails'&gt;More details&lt;/a&gt;</comment>
+  </data>
+  <data name="ChooseParent" lastModified="2012-08-10T22:20:16">
+    <value>Elija padre</value>
+    <comment>phrase: Choose parent</comment>
+  </data>
+  <data name="ClassificationCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>La clasificación no puede estar vacío</value>
+    <comment>phrase: Classification cannot be empty</comment>
+  </data>
+  <data name="NameUsedInCodeCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>Nombre utilizado en el código no puede estar vacío.</value>
+    <comment>phrase: Name used in code cannot be empty.</comment>
+  </data>
+  <data name="TagsFieldDescription" lastModified="2012-08-10T22:20:16">
+    <value>Teclee &lt;strong&gt;nuevo &lt;/strong&gt;o {0}, &lt;strong&gt;existente &lt;/strong&gt;&lt;strong&gt;separados por comas &lt;/strong&gt;</value>
+    <comment>phrase: Description which explains how to use FlatTaxonField. The argument is the title of the taxonomy.</comment>
+  </data>
+  <data name="ItemNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>Nombre del elemento no puede estar vacío</value>
+    <comment>phrase: Item name cannot be empty</comment>
+  </data>
+  <data name="ClassificationHierarchyListExample" lastModified="2012-08-10T22:20:16">
+    <value>Para los elementos, los subtemas, sub-sub-elementos, etc (árbol)&lt;br /&gt;&lt;strong&gt;. Ejemplo: &lt;/strong&gt;Lista de continentes, países y ciudades.</value>
+    <comment>phrase: For Items, sub-items, sub-sub-items, etc. (tree).&lt;br /&gt; &lt;strong&gt;Example:&lt;/strong&gt; List of continents, countries and cities. &lt;a href='#' class='sfMoreDetails'&gt;More details&lt;/a&gt;</comment>
+  </data>
+  <data name="ClickToAddNameUsedInCode" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir el nombre usado en el código</value>
+    <comment>phrase: Click to add name used in code</comment>
+  </data>
+  <data name="NameUsedInCode" lastModified="2012-08-10T22:20:16">
+    <value>Para los desarrolladores: nombre que se utiliza en el código</value>
+    <comment>phrase: For developers: name used in code</comment>
+  </data>
+  <data name="ClickToAddTaxon" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir taxón.</value>
+    <comment>phrase: Click to add taxon.</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2012-08-10T22:20:16">
+    <value>Guardar cambios</value>
+    <comment>Phrase</comment>
+  </data>
+  <data name="DevNameInvalidSymbols" lastModified="2012-08-10T22:20:16">
+    <value>El nombre contiene símbolos no válidos.</value>
+    <comment>The message shown when the dev name contains invalid symbols.</comment>
+  </data>
+  <data name="TaxonNameTaxonTitleMarkup" lastModified="2012-08-10T22:20:16">
+    <value>{0} &lt;em&gt;{1}&lt;/em&gt;</value>
+    <comment>Markup that is shown in MarkedItems that displays statistics about taxon usage. Something like 'Tax Cats'</comment>
+  </data>
+  <data name="LearnMoreWithVideoTutorials" lastModified="2012-08-10T22:20:16">
+    <value>Más información con tutoriales en video</value>
+    <comment>Label for the external links used in Taxonomies</comment>
+  </data>
+  <data name="SelectDepartments" lastModified="2012-08-10T22:20:16">
+    <value>Seleccionar departamentos...</value>
+    <comment>phrase: Select departments...</comment>
+  </data>
+  <data name="TaxaPluralTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Impuestos</value>
+    <comment>word: Taxa</comment>
+  </data>
+  <data name="Departments" lastModified="2012-08-10T22:20:16">
+    <value>Departamentos</value>
+    <comment>word: Departments</comment>
+  </data>
+  <data name="HowToSetupAndUseTags" lastModified="2012-08-10T22:20:16">
+    <value>¿Cómo  &lt;strong&gt;configurar y utilizar etiquetas?&lt;/strong&gt; &lt;span class="sfDuration"&gt; (3:52 min)</value>
+    <comment>Label: How to &lt;strong&gt;setup and use tags&lt;/strong&gt; &lt;span class="sfDuration"&gt;(3:52 min)</comment>
+  </data>
+  <data name="ApplyTaxonomyHelp" lastModified="2012-08-10T22:20:16">
+    <value>Aprenda &lt;strong&gt;cómo aplicar &lt;/strong&gt;esta clasificación a algunos tipos de contenido, por ejemplo, Blogs, noticias, etc</value>
+    <comment>Link text for taxonomy help</comment>
+  </data>
+  <data name="TaxonNotFound" lastModified="2012-08-10T22:20:16">
+    <value>El taxón solicitada no fue encontrado.</value>
+    <comment>message</comment>
+  </data>
+</root>

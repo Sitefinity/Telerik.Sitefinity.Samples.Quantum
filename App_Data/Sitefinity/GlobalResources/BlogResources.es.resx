@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BlogsPostsPluralTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Entradas del Blog</value>
+    <comment>Blog Posts type name</comment>
+  </data>
+  <data name="BlogResourcesTitle" lastModified="2012-08-10T22:20:16">
+    <value>Blog</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="BlogResourcesTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="BlogResourcesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables para la interfaz de usuario de Blogs.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="BlogsUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>Blogs URL</comment>
+  </data>
+  <data name="CategoriesMetafieldDescription" lastModified="2012-08-10T22:20:16">
+    <value>Define la categoría de este elemento de contenido.</value>
+    <comment>Description of the metafield containing the categories taxonomy for blog posts.</comment>
+  </data>
+  <data name="CategoriesMetafieldTitle" lastModified="2012-08-10T22:20:16">
+    <value>Categoría</value>
+    <comment>Name of the metafield containing the categories taxonomy for blog posts.</comment>
+  </data>
+  <data name="TagsMetafieldTitle" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas</value>
+    <comment>Name of the metafield containing the tags taxonomy for blog posts.</comment>
+  </data>
+  <data name="TagsMetafieldDescription" lastModified="2012-08-10T22:20:16">
+    <value>Establece Etiquetas para este elemento de contenido.</value>
+    <comment>Description of the metafield containing the tags taxonomy for blog posts.</comment>
+  </data>
+  <data name="BlogsHtmlTitle" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>Html Title for the Blogs module..</comment>
+  </data>
+  <data name="BlogsTitle" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>Title for the Blogs module.</comment>
+  </data>
+  <data name="EditPosts" lastModified="2012-08-10T22:20:16">
+    <value>Editar entradas</value>
+    <comment>Edit posts</comment>
+  </data>
+  <data name="BlogsPostsSingleTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Entrada del Blog</value>
+    <comment>Blog Posts type name</comment>
+  </data>
+  <data name="BlogsSingleTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Blog</value>
+    <comment>Blog Posts type name</comment>
+  </data>
+  <data name="BlogPostsTitle" lastModified="2012-08-10T22:20:16">
+    <value>Entradas</value>
+    <comment>Title for the Blog Posts.</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>Title of the blogs page group</comment>
+  </data>
+  <data name="BlogPostsHtmlTitle" lastModified="2012-08-10T22:20:16">
+    <value>Entradas del Blog</value>
+    <comment>Title for the Blog Posts.</comment>
+  </data>
+  <data name="BlogPostsUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Entradas del Blog</value>
+    <comment>Blog Posts URL</comment>
+  </data>
+  <data name="CommentsHtmlTitle" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios de las entradas del Blog</value>
+    <comment>Html Title for the comments page module.</comment>
+  </data>
+  <data name="CommentsUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Comments URL.</comment>
+  </data>
+  <data name="CommentsTitle" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Title for the comments page module.</comment>
+  </data>
+  <data name="BlogsPluralTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>Blog Posts type name</comment>
+  </data>
+  <data name="PageGroupNodeDescription" lastModified="2012-08-10T22:20:16">
+    <value>Página de grupo raíz para todas las páginas en el módulo de blogs.</value>
+    <comment>Description of the blogs page group</comment>
+  </data>
+  <data name="BlogsToolboxSectionDescription" lastModified="2012-08-10T22:20:16">
+    <value>Título en la caja de herramientas del módulo de Blogs</value>
+    <comment>Description of the blogs module toolbox title</comment>
+  </data>
+  <data name="BlogPostsViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Entradas del Blog</value>
+    <comment>BlogPostsView title in the toolbox</comment>
+  </data>
+  <data name="BlogsToolboxSectionTitle" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>Blogs module toolbox title</comment>
+  </data>
+  <data name="BlogsCommandPanelTitle" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>Title of the blogs command panel (the panel shown when viewing all blogs).</comment>
+  </data>
+  <data name="BlogPostsCommandPanelTitle" lastModified="2012-08-10T22:20:16">
+    <value>Entradas</value>
+    <comment>Title of the blog posts command panel (the panel shown when viewing a blog's posts).</comment>
+  </data>
+  <data name="BlogPostsTitleFormat" lastModified="2012-08-10T22:20:16">
+    <value>&lt;em&gt;{0} &lt;/em&gt;entradas</value>
+    <comment>Title format for the blog posts view.</comment>
+  </data>
+  <data name="CommentsDescription" lastModified="2012-08-10T22:20:16">
+    <value>Gestionar comentarios</value>
+    <comment>Provides description for the comments view of blogs module.</comment>
+  </data>
+  <data name="Blog_General" lastModified="2012-08-10T22:20:16">
+    <value>General</value>
+    <comment>"General" section name for Blog</comment>
+  </data>
+  <data name="Create" lastModified="2012-08-10T22:20:16">
+    <value>Crear</value>
+    <comment>Label for the buttons that create a new blog post and a new blog.</comment>
+  </data>
+  <data name="Blog_Behaviour" lastModified="2012-08-10T22:20:16">
+    <value>Comportamiento</value>
+    <comment>"Behaviour" section name for Blog</comment>
+  </data>
+  <data name="Blog_AdditionalInfo" lastModified="2012-08-10T22:20:16">
+    <value>InformacionAdicional</value>
+    <comment>"AdditionalInfo" section name for Blog</comment>
+  </data>
+  <data name="Post_General" lastModified="2012-08-10T22:20:16">
+    <value>General</value>
+    <comment>"General" section name for BlogPost</comment>
+  </data>
+  <data name="BackToAllBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Volver a todos los blogs.</value>
+    <comment>Go back to all blogs.</comment>
+  </data>
+  <data name="Post_AdditionalInfo" lastModified="2012-08-10T22:20:16">
+    <value>InformacionAdicional</value>
+    <comment>"AdditionalInfo" section name for BlogPost</comment>
+  </data>
+  <data name="AlternativePublishing" lastModified="2012-08-10T22:20:16">
+    <value>Publicación alternativa (RSS)</value>
+    <comment>Alternative publishing (RSS)</comment>
+  </data>
+  <data name="BackToBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Volver a Blogs</value>
+    <comment>The text of the back to blogs</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisBlogPost" lastModified="2012-08-10T22:20:16">
+    <value>¿Está seguro de que desea eliminar esta entrada del blog?</value>
+    <comment>Confirmation message sent to the he user prior to deleting an item.</comment>
+  </data>
+  <data name="GroupDeleteBlogPosts" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Text of the button that performs a group delete for blog posts.</comment>
+  </data>
+  <data name="BackToPosts" lastModified="2012-08-10T22:20:16">
+    <value>Volver a Entradas</value>
+    <comment>The text of the back to posts</comment>
+  </data>
+  <data name="BackToItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a Entradas</value>
+    <comment>The text of the back to posts</comment>
+  </data>
+  <data name="CreateBlogPost" lastModified="2012-08-10T22:20:16">
+    <value>Crear una entrada</value>
+    <comment>Text of the button that creates a new blog post.</comment>
+  </data>
+  <data name="BlogPostDateCreated" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Label for the blog post creation date.</comment>
+  </data>
+  <data name="BlogPostActions" lastModified="2012-08-10T22:20:16">
+    <value>Acciones</value>
+    <comment>Header text of the items grid column that shows the list of actions you can perform on a blog post.</comment>
+  </data>
+  <data name="BlogPostTitle" lastModified="2012-08-10T22:20:16">
+    <value>Título</value>
+    <comment>Text of the items grid header showing a blog post's title.</comment>
+  </data>
+  <data name="Post_Behaviour" lastModified="2012-08-10T22:20:16">
+    <value>Comportamiento</value>
+    <comment>"Behaviour" section name for BlogPost</comment>
+  </data>
+  <data name="ViewBlogPost" lastModified="2012-08-10T22:20:16">
+    <value>Ver</value>
+    <comment>Text of the link that will preview a blog post</comment>
+  </data>
+  <data name="DeleteBlogPost" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Text of the action that will delete a blog post.</comment>
+  </data>
+  <data name="ViewAllBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Todos los blogs</value>
+    <comment>Text of the link that will show the view that lists all blog posts.</comment>
+  </data>
+  <data name="BlogPostAuthor" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Label for blog post author</comment>
+  </data>
+  <data name="BlogPostComments" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Label for blog post comments</comment>
+  </data>
+  <data name="ViewBlog" lastModified="2012-08-10T22:20:16">
+    <value>Ver blog</value>
+    <comment>Label for 'view blog' command.</comment>
+  </data>
+  <data name="DeleteBlog" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Label for the 'delete blog' command.</comment>
+  </data>
+  <data name="Owner" lastModified="2012-08-10T22:20:16">
+    <value>Propietario</value>
+    <comment>word: Owner</comment>
+  </data>
+  <data name="GroupDeleteBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Label for the 'group delete blog' command.</comment>
+  </data>
+  <data name="CreateBlog" lastModified="2012-08-10T22:20:16">
+    <value>Crear un blog</value>
+    <comment>Label of the dialog that creates a new blog.</comment>
+  </data>
+  <data name="FilterPosts" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar entradas</value>
+    <comment>phrase: Filter posts</comment>
+  </data>
+  <data name="TodayLiteral" lastModified="2012-08-10T22:20:16">
+    <value>Hoy</value>
+    <comment>A literal for 'Today'.</comment>
+  </data>
+  <data name="CommentsForAllPostsInABlog" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Text for the label for all post comments in a blog</comment>
+  </data>
+  <data name="BlogsMoreActions" lastModified="2012-08-10T22:20:16">
+    <value>Más acciones</value>
+    <comment>Label for the 'more actions' header for blogs</comment>
+  </data>
+  <data name="BlogHeaderTitle" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Header text for the items grid view column showing a blog's title.</comment>
+  </data>
+  <data name="LastCommentLiteral" lastModified="2012-08-10T22:20:16">
+    <value>Último comentario</value>
+    <comment>A literal for 'Last comment'.</comment>
+  </data>
+  <data name="ForAllBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Para todos los blogs...</value>
+    <comment>phrase: For all blogs...</comment>
+  </data>
+  <data name="Properties" lastModified="2012-08-10T22:20:16">
+    <value>Título y Propiedades</value>
+    <comment>phrase: Title &amp; Properties</comment>
+  </data>
+  <data name="BlogsDataFields" lastModified="2012-08-10T22:20:16">
+    <value>Campos de datos de los blogs</value>
+    <comment>phrase: Blogs data fields</comment>
+  </data>
+  <data name="PermissionsForBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Permisos</value>
+    <comment>phrase: Permissions</comment>
+  </data>
+  <data name="ByLiteral" lastModified="2012-08-10T22:20:16">
+    <value>Por</value>
+    <comment>A literal for 'By'.</comment>
+  </data>
+  <data name="BlogPostsDataFields" lastModified="2012-08-10T22:20:16">
+    <value>Campos de datos de las entradas de los blogs</value>
+    <comment>phrase: Blogs posts data fields</comment>
+  </data>
+  <data name="SettingsForBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Opciones</value>
+    <comment>phrase: Settings for blogs</comment>
+  </data>
+  <data name="PostsLiteral" lastModified="2012-08-10T22:20:16">
+    <value>Entradas</value>
+    <comment>A literal for 'posts'.</comment>
+  </data>
+  <data name="Permissions" lastModified="2012-08-10T22:20:16">
+    <value>Permisos</value>
+    <comment>word: Permissions</comment>
+  </data>
+  <data name="PermissionsForPosts" lastModified="2012-08-10T22:20:16">
+    <value>Permisos para entradas</value>
+    <comment>phrase: Permissions for posts</comment>
+  </data>
+  <data name="LastPostLiteral" lastModified="2012-08-10T22:20:16">
+    <value>Última entrada:</value>
+    <comment>A literal for 'Last post'</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>phrase: What do you want to do now?</comment>
+  </data>
+  <data name="NoBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Todavía no hay blogs creados</value>
+    <comment>phrase: No blogs have been created yet</comment>
+  </data>
+  <data name="EditPost" lastModified="2012-08-10T22:20:16">
+    <value>Editar una entrada</value>
+    <comment>The title of the edit post dialog</comment>
+  </data>
+  <data name="BackToAllItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a todas las entradas del blog</value>
+    <comment>phrase: Back to all blog posts</comment>
+  </data>
+  <data name="BlogsWithoutPosts" lastModified="2012-08-10T22:20:16">
+    <value>Blogs sin entradas</value>
+    <comment>Label: Blogs without posts</comment>
+  </data>
+  <data name="Blog_BackToAllItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a todos los blogs</value>
+    <comment>phrase: Back to all blogs</comment>
+  </data>
+  <data name="BackToComments" lastModified="2012-08-10T22:20:16">
+    <value>Volver a los comentarios</value>
+    <comment>phrase: Back to Comments</comment>
+  </data>
+  <data name="CreateThisBlog" lastModified="2012-08-10T22:20:16">
+    <value>Crear este blog</value>
+    <comment>phrase: Create this blog</comment>
+  </data>
+  <data name="CreateNewBlog" lastModified="2012-08-10T22:20:16">
+    <value>Crear un blog</value>
+    <comment>The title of the create new blog dialog</comment>
+  </data>
+  <data name="CreateNewPost" lastModified="2012-08-10T22:20:16">
+    <value>Crear una entrada</value>
+    <comment>The title of the create new post dialog</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisBlog" lastModified="2012-08-10T22:20:16">
+    <value>¿Está seguro de que desea eliminar este blog?</value>
+    <comment>Confirmation message when a blog is deleted.</comment>
+  </data>
+  <data name="CreateThisPost" lastModified="2012-08-10T22:20:16">
+    <value>Crear esta entrada</value>
+    <comment>phrase: Create this post</comment>
+  </data>
+  <data name="MoreActionsWithPosts" lastModified="2012-08-10T22:20:16">
+    <value>Más acciones con las entradas</value>
+    <comment>phrase: More actions with posts</comment>
+  </data>
+  <data name="NoPosts" lastModified="2012-08-10T22:20:16">
+    <value>Todavía no hay entradas creadas</value>
+    <comment>phrase: No posts have been created yet</comment>
+  </data>
+  <data name="BlogPost_EditItem" lastModified="2012-08-10T22:20:16">
+    <value>Editar una entrada</value>
+    <comment>phrase: Edit a post</comment>
+  </data>
+  <data name="Blog_EditItem" lastModified="2012-08-10T22:20:16">
+    <value>Editar un blog</value>
+    <comment>phrase: Edit a blog</comment>
+  </data>
+  <data name="ForAllBlogsLabel" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar blogs</value>
+    <comment>Title: For all blogs ...</comment>
+  </data>
+  <data name="Edit" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+  </data>
+  <data name="SearchPosts" lastModified="2012-08-10T22:20:16">
+    <value>Buscar entradas ...</value>
+    <comment>phrase: Search posts...</comment>
+  </data>
+  <data name="Unpublish" lastModified="2012-08-10T22:20:16">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="Publish" lastModified="2012-08-10T22:20:16">
+    <value>Publicar</value>
+    <comment>word: Publish</comment>
+  </data>
+  <data name="BlogPostsViewDescription" lastModified="2012-08-10T22:20:16">
+    <value>Lista de entradas del blog</value>
+    <comment>Describes the BlogPostsView title in the toolbox</comment>
+  </data>
+  <data name="ManageAlso" lastModified="2012-08-10T22:20:16">
+    <value>Gestionar también</value>
+    <comment>phrase: Manage also</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>La URL no puede estar vacía</value>
+    <comment>URL cannot be empty</comment>
+  </data>
+  <data name="Title" lastModified="2012-08-10T22:20:16">
+    <value>Título</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="CustomFields" lastModified="2012-08-10T22:20:16">
+    <value>Campos personalizados para entradas del blog</value>
+    <comment>phrase: Custom Fields for posts</comment>
+  </data>
+  <data name="CommentsForPosts" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>phrase: Comments</comment>
+  </data>
+  <data name="Author" lastModified="2012-08-10T22:20:16">
+    <value>Autor</value>
+    <comment>word: Author</comment>
+  </data>
+  <data name="BlogUrlName" lastModified="2012-08-10T22:20:16">
+    <value>URL del blog</value>
+    <comment>phrase: Blog URL</comment>
+  </data>
+  <data name="Actions" lastModified="2012-08-10T22:20:16">
+    <value>Acciones</value>
+    <comment>word: Actions</comment>
+  </data>
+  <data name="PostUrlName" lastModified="2012-08-10T22:20:16">
+    <value>URL</value>
+    <comment>phrase: URL</comment>
+  </data>
+  <data name="Date" lastModified="2012-08-10T22:20:16">
+    <value>Fecha</value>
+    <comment>word: Date</comment>
+  </data>
+  <data name="Delete" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>word: Delete</comment>
+  </data>
+  <data name="MoreOptions" lastModified="2012-08-10T22:20:16">
+    <value>Más opciones</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Content" lastModified="2012-08-10T22:20:16">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+  </data>
+  <data name="Duplicate" lastModified="2012-08-10T22:20:16">
+    <value>Duplicar</value>
+    <comment>word: Duplicate</comment>
+  </data>
+  <data name="View" lastModified="2012-08-10T22:20:16">
+    <value>Ver</value>
+    <comment>word: View</comment>
+  </data>
+  <data name="History" lastModified="2012-08-10T22:20:16">
+    <value>Historial</value>
+    <comment>word: History</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2012-08-10T22:20:16">
+    <value>Guardar cambios</value>
+    <comment>phrase: Save changes</comment>
+  </data>
+  <data name="Categories" lastModified="2012-08-10T22:20:16">
+    <value>Categorías</value>
+    <comment>word: Categories</comment>
+  </data>
+  <data name="Summary" lastModified="2012-08-10T22:20:16">
+    <value>Resumen</value>
+    <comment>word: Summary</comment>
+  </data>
+  <data name="Cancel" lastModified="2012-08-10T22:20:16">
+    <value>Cancelar</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+  </data>
+  <data name="Tags" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas</value>
+    <comment>word: Tags</comment>
+  </data>
+  <data name="MoreOptionsURL" lastModified="2012-08-10T22:20:16">
+    <value>Más opciones &lt;em class='sfNote'&gt;(URL, comentarios) &lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+  </data>
+  <data name="PublicationDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de publicación</value>
+    <comment>phrase: Publication Date</comment>
+  </data>
+  <data name="Status" lastModified="2012-08-10T22:20:16">
+    <value>Estado</value>
+    <comment>Status</comment>
+  </data>
+  <data name="ReviewHistory" lastModified="2012-08-10T22:20:16">
+    <value>Historial de revisiones</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="SetPermissions" lastModified="2012-08-10T22:20:16">
+    <value>Establecer permisos</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El título no puede estar vacío</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="PublishOn" lastModified="2012-08-10T22:20:16">
+    <value>Publicado el:</value>
+    <comment>Phrase: Publish on:</comment>
+  </data>
+  <data name="ContentCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El contenido no puede estar vacío</value>
+    <comment>Content cannot be empty</comment>
+  </data>
+  <data name="ClickToAddSummary" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir resumen</value>
+    <comment>Click to add summary</comment>
+  </data>
+  <data name="Settings" lastModified="2012-08-10T22:20:16">
+    <value>Opciones de blogs</value>
+    <comment>phrase: Posts Settings</comment>
+  </data>
+  <data name="ExpiresOn" lastModified="2012-08-10T22:20:16">
+    <value>Expira el:</value>
+    <comment>Phrase: Expires on:</comment>
+  </data>
+  <data name="ManagePosts" lastModified="2012-08-10T22:20:16">
+    <value>Gestionar entradas</value>
+    <comment>word: ManagePosts</comment>
+  </data>
+  <data name="PublicationDateCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>FechaDePublicacion no puede estar vacía.</value>
+    <comment>Publication date cannot be empty.</comment>
+  </data>
+  <data name="BlogProperties" lastModified="2012-08-10T22:20:16">
+    <value>Título y Propiedades</value>
+    <comment>Phrase: Blog properties</comment>
+  </data>
+  <data name="Language" lastModified="2012-08-10T22:20:16">
+    <value>Idioma</value>
+    <comment>word: Language</comment>
+  </data>
+  <data name="ExpirationDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de expiración</value>
+    <comment>phrase: Expiration Date</comment>
+  </data>
+  <data name="BlogPostViewPropertyEditorTitle" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>word: Blogs</comment>
+  </data>
+  <data name="CategoriesAndTags" lastModified="2012-08-10T22:20:16">
+    <value>Categorías y etiquetas</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ManageBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Gestionar Blogs</value>
+    <comment>word: ManageBlogs</comment>
+  </data>
+  <data name="Category" lastModified="2012-08-10T22:20:16">
+    <value>Categoría</value>
+    <comment>word: Category</comment>
+  </data>
+  <data name="PostsByCategory" lastModified="2012-08-10T22:20:16">
+    <value>Entradas por categoría</value>
+    <comment>Phrase: Posts by category</comment>
+  </data>
+  <data name="AllPosts" lastModified="2012-08-10T22:20:16">
+    <value>Todas las entradas</value>
+    <comment>Phrase: All posts</comment>
+  </data>
+  <data name="MyPosts" lastModified="2012-08-10T22:20:16">
+    <value>Mis entradas</value>
+    <comment>The text of my posts sidebar button</comment>
+  </data>
+  <data name="DisplayLastUpdatedPosts" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar entradas actualizadas por última vez el...</value>
+    <comment>The text of last updated posts sidebar button</comment>
+  </data>
+  <data name="PublishedPosts" lastModified="2012-08-10T22:20:16">
+    <value>Publicado</value>
+    <comment>The text of published posts sidebar button.</comment>
+  </data>
+  <data name="DraftPosts" lastModified="2012-08-10T22:20:16">
+    <value>Borradores</value>
+    <comment>The text of draft posts sidebar button.</comment>
+  </data>
+  <data name="ScheduledPosts" lastModified="2012-08-10T22:20:16">
+    <value>Programado</value>
+    <comment>The text of scheduled posts sidebar button.</comment>
+  </data>
+  <data name="ByDateModified" lastModified="2012-08-10T22:20:16">
+    <value>por fecha de modificación ...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+  </data>
+  <data name="WaitingForApproval" lastModified="2012-08-10T22:20:16">
+    <value>En espera de aprobación</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+  </data>
+  <data name="AllBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Todos los blogs</value>
+    <comment>Phrase: All blogs</comment>
+  </data>
+  <data name="MyBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Mis blogs</value>
+    <comment>The text of my blogs sidebar button</comment>
+  </data>
+  <data name="Generate" lastModified="2012-08-10T22:20:16">
+    <value>Generar ...</value>
+    <comment>The text of my blogs sidebar button</comment>
+  </data>
+  <data name="EditBlogPostsSettings" lastModified="2012-08-10T22:20:16">
+    <value>Modificar las opciones de entradas de blog</value>
+    <comment>Phrase: Edit Blog posts settings</comment>
+  </data>
+  <data name="BlogsListDescription" lastModified="2012-08-10T22:20:16">
+    <value>Lista de blogs - muestra una lista de blogs</value>
+    <comment>Description of the blogs list widget</comment>
+  </data>
+  <data name="WhoCanPostComments" lastModified="2012-08-10T22:20:16">
+    <value>Quién puede enviar comentarios</value>
+    <comment>WhoCanPostComments</comment>
+  </data>
+  <data name="OnlyRegisteredUsers" lastModified="2012-08-10T22:20:16">
+    <value>Sólo usuarios registrados</value>
+    <comment>Phrase: Only registered user</comment>
+  </data>
+  <data name="CloseDateFilter" lastModified="2012-08-10T22:20:16">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+  </data>
+  <data name="CommentsApproved" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios deben ser aprobados antes de publicarse</value>
+    <comment>Phrase: CommentsApproved</comment>
+  </data>
+  <data name="Anyone" lastModified="2012-08-10T22:20:16">
+    <value>Cualquiera</value>
+    <comment>Phrase: Anyone</comment>
+  </data>
+  <data name="EmailAuthor" lastModified="2012-08-10T22:20:16">
+    <value>Enviar un correo electrónico al autor de la entrada cuando se hace un nuevo comentario</value>
+    <comment>Phrase: Email the post author when a new comment is submitted</comment>
+  </data>
+  <data name="AllowTrackBacks" lastModified="2012-08-10T22:20:16">
+    <value>Permitir vínculos de referencia (trackbacks)</value>
+    <comment>Phrase: AllowTrackBacks</comment>
+  </data>
+  <data name="AllowComments" lastModified="2012-08-10T22:20:16">
+    <value>Permitir comentarios</value>
+    <comment>Phrase: AllowComments</comment>
+  </data>
+  <data name="BlogPluralItemName" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>Word: blogs</comment>
+  </data>
+  <data name="DefaultPage" lastModified="2012-08-10T22:20:16">
+    <value>Página predeterminada</value>
+    <comment>Phrase: Default page</comment>
+  </data>
+  <data name="BlogSingularItemName" lastModified="2012-08-10T22:20:16">
+    <value>Blog</value>
+    <comment>Word: blog</comment>
+  </data>
+  <data name="BlogPostPluralItemName" lastModified="2012-08-10T22:20:16">
+    <value>Entradas del Blog</value>
+    <comment>Word: blog posts</comment>
+  </data>
+  <data name="CustomFieldsForBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Campos personalizados para blogs</value>
+    <comment>phrase: Custom fields for blogs</comment>
+  </data>
+  <data name="UrlNameInvalidSymbols" lastModified="2012-08-10T22:20:16">
+    <value>La dirección URL contiene símbolos no válidos.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+  </data>
+  <data name="BlogsDetailViewFriendlyName" lastModified="2012-08-10T22:20:16">
+    <value>Entradas del Blog - uno a uno</value>
+    <comment>Phrase: Blog posts - single</comment>
+  </data>
+  <data name="BlogsMasterViewFriendlyName" lastModified="2012-08-10T22:20:16">
+    <value>Entradas del Blog - lista</value>
+    <comment>Phrase: Blog posts - list</comment>
+  </data>
+  <data name="BlogsList" lastModified="2012-08-10T22:20:16">
+    <value>Lista de blogs</value>
+    <comment>Title of the blogs list widget</comment>
+  </data>
+  <data name="DefaultPageNotSet" lastModified="2012-08-10T22:20:16">
+    <value>No se ha establecido la página predeterminada de este blog.</value>
+    <comment>The message shown when the blog has no default pages set.</comment>
+  </data>
+  <data name="Posts" lastModified="2012-08-10T22:20:16">
+    <value>entradas</value>
+    <comment>word: posts</comment>
+  </data>
+  <data name="Months" lastModified="2012-08-10T22:20:16">
+    <value>meses</value>
+    <comment>word: months</comment>
+  </data>
+  <data name="BlogsOlderThan" lastModified="2012-08-10T22:20:16">
+    <value>Sólo los blogs con entradas con una antigüedad no mayor a</value>
+    <comment>phrase: Only blogs that have posts not older than</comment>
+  </data>
+  <data name="SortBlogPosts" lastModified="2012-08-10T22:20:16">
+    <value>Ordenar entradas del blog</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="BlogsMoreThan" lastModified="2012-08-10T22:20:16">
+    <value>Blogs con más de</value>
+    <comment>phrase: Blogs with more than</comment>
+  </data>
+  <data name="WhichBlog" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué blogs se deben mostrar?</value>
+    <comment>phrase: Which blogs to display?</comment>
+  </data>
+  <data name="BlogsListControlFriendlyName" lastModified="2012-08-10T22:20:16">
+    <value>Lista de blogs.</value>
+    <comment>Title of the blogs list template.</comment>
+  </data>
+  <data name="BlogSettingsProblem" lastModified="2012-08-10T22:20:16">
+    <value>Hay un problema con esta configuración del blog</value>
+    <comment>phrase: There is a problem with this blog settings</comment>
+  </data>
+  <data name="SortByLastPostDate" lastModified="2012-08-10T22:20:16">
+    <value>Por fecha de la última entrada (la más reciente arriba)</value>
+    <comment>phrase: By date of the last post (newest on top)</comment>
+  </data>
+  <data name="EditBlog" lastModified="2012-08-10T22:20:16">
+    <value>Editar un blog</value>
+    <comment>The title of the edit blog dialog</comment>
+  </data>
+  <data name="PostsByTag" lastModified="2012-08-10T22:20:16">
+    <value>Entradas por etiqueta</value>
+    <comment>Phrase: Posts by tag</comment>
+  </data>
+</root>

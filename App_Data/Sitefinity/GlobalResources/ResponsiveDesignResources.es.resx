@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OpenASpeciallyPreparedSite" lastModified="2012-08-10T22:20:16">
+    <value>Abrir un sitio especialmente preparado</value>
+    <comment>phrase: Open a specially prepared site</comment>
+  </data>
+  <data name="CreateMediaQuery" lastModified="2012-08-10T22:20:16">
+    <value>Crear una consulta de medios</value>
+    <comment>phrase: Create media query</comment>
+  </data>
+  <data name="ResponsiveDesignResourcesTitle" lastModified="2012-08-10T22:20:16">
+    <value>Recursos de Diseño Adaptable</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="ResponsiveDesignResourcesTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>Recursos de Diseño Adaptable</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2012-08-10T22:20:16">
+    <value>Diseño Adaptable</value>
+    <comment>Title of the Responsive Design module</comment>
+  </data>
+  <data name="AccessResponsiveDesign" lastModified="2012-08-10T22:20:16">
+    <value>Acceder a diseño adaptable</value>
+    <comment>phrase: Access responsive design</comment>
+  </data>
+  <data name="AccessResponsiveDesignDescription" lastModified="2012-08-10T22:20:16">
+    <value>Acción que otorga o rechaza el acceso de los usuarios al módulo de diseño adaptable.</value>
+    <comment>phrase: Action which either grants or denies users to access responsive design module.</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2012-08-10T22:20:16">
+    <value>El módulo que vamos a definir para el diseño adaptable de las páginas basadas en las capacidades del cliente.</value>
+    <comment>Description of the Responsive Design module</comment>
+  </data>
+  <data name="ResponsiveAndMobileDesignNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>responsive-and-mobile-design</value>
+    <comment>Url name of the responsive and mobile design page node.</comment>
+  </data>
+  <data name="ResponsiveAndMobileDesignNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Diseño Móvil y Adaptable</value>
+    <comment>Title of the responsive and mobile design page node.</comment>
+  </data>
+  <data name="ResponsiveDesignConfigDescription" lastModified="2012-08-10T22:20:16">
+    <value>Sección de configuración para el módulo de Diseño Adaptable.</value>
+    <comment>Description of the Responsive Design configuration section.</comment>
+  </data>
+  <data name="ResponsiveDesignConfigCaption" lastModified="2012-08-10T22:20:16">
+    <value>Configuración de Diseño Adaptable</value>
+    <comment>Title of the Responsive Design configuration section.</comment>
+  </data>
+  <data name="ResponsiveAndMobileDesignNodeDescription" lastModified="2012-08-10T22:20:16">
+    <value>La página que vamos a usar para administrar la configuración de diseño adaptable y móvil.</value>
+    <comment>phrase: The page which let's use manage settings for responsive and mobile design.</comment>
+  </data>
+  <data name="MediaQueryNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El nombre de la consulta de medios es un campo obligatorio.</value>
+    <comment>Validation message displayed when the media query name field is not entered.</comment>
+  </data>
+  <data name="CreateAGroupOfRules" lastModified="2012-08-10T22:20:16">
+    <value>Crear un grupo de reglas</value>
+    <comment>Title of the screen for creating a new group of rules.</comment>
+  </data>
+  <data name="ResponsiveAndMobileDesign" lastModified="2012-08-10T22:20:16">
+    <value>Diseño Móvil y Adaptable</value>
+    <comment>phrase: Responsive &amp; Mobile Design</comment>
+  </data>
+  <data name="ResponsiveDesignResourcesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables para el módulo de Diseño Adaptable.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ModifyAGroupOfRules" lastModified="2012-08-10T22:20:16">
+    <value>Modificar un grupo de normas</value>
+    <comment>phrase: ModifyAGroupOfRules</comment>
+  </data>
+  <data name="MediaQueryNameFieldTitle" lastModified="2012-08-10T22:20:16">
+    <value>Nombre</value>
+    <comment>The title of the media query name field in the form for creating and editing media queries.</comment>
+  </data>
+  <data name="RuleGroupsUrlName" lastModified="2012-08-10T22:20:16">
+    <value>rule-groups</value>
+    <comment>Url name of the responsive design module rule groups page</comment>
+  </data>
+  <data name="MediaQueryNameFieldExample" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;Tabletas&lt;/em&gt;. Este nombre solo es para su comodidad.</value>
+    <comment>The example of the media query name field in the form for creating and editing media queries.</comment>
+  </data>
+  <data name="MediaQueryNameFieldDescription" lastModified="2012-08-10T22:20:16">
+    <value>Se utilizará solo en la interfaz de usuario del backend.</value>
+    <comment>The description of the media query name field in the form for creating and editing media queries.</comment>
+  </data>
+  <data name="ApplyBehaviorTo" lastModified="2012-08-10T22:20:16">
+    <value>Aplicar comportamiento a...</value>
+    <comment>phrase: Apply behavior to...</comment>
+  </data>
+  <data name="TransformTheLayout" lastModified="2012-08-10T22:20:16">
+    <value>Transformar el diseño</value>
+    <comment>phrase: Transform the layout</comment>
+  </data>
+  <data name="SelectACssFile" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione un archivo CSS</value>
+    <comment>phrase: Select a CSS file</comment>
+  </data>
+  <data name="OpenSpeciallyPreparedSite" lastModified="2012-08-10T22:20:16">
+    <value>Abrir un sitio especialmente preparado (por ejemplo, la versión móvil de su sitio)...</value>
+    <comment>phrase: Open a specially prepared site (e.g. mobile version of your site)...</comment>
+  </data>
+  <data name="LayoutTransformationSectionTitle" lastModified="2012-08-10T22:20:16">
+    <value>Configuración del sistema: Ajustar los elementos predeterminados de distribución</value>
+    <comment>phrase: System settings: Fine tune default layout elements</comment>
+  </data>
+  <data name="SiteSelectorFieldDescription" lastModified="2012-08-10T22:20:16">
+    <value>Cuando se detecta, un dispositivo con características similares a las indicadas anteriormente, siempre se redirige a esta página</value>
+    <comment>phrase: When detected, a device with charateristics like those set above, always redirect to this page</comment>
+  </data>
+  <data name="CssSelectorTitle" lastModified="2012-08-10T22:20:16">
+    <value>Archivo CSS específico para transformar distribución y diseño</value>
+    <comment>phrase: Specific CSS file for transforming layout and design</comment>
+  </data>
+  <data name="SiteSelectorFieldTitle" lastModified="2012-08-10T22:20:16">
+    <value>Página raíz del sitio especialmente preparado</value>
+    <comment>phrase: Root page of the specially prepared site</comment>
+  </data>
+  <data name="ThisGroupOfRulesIsActive" lastModified="2012-08-10T22:20:16">
+    <value>Este conjunto de reglas está activo</value>
+    <comment>phrase: This group of rules is active</comment>
+  </data>
+  <data name="MediaQueryNameGrid" lastModified="2012-08-10T22:20:16">
+    <value>Grupo de reglas</value>
+    <comment>phrase: Group of rules</comment>
+  </data>
+  <data name="Inactive" lastModified="2012-08-10T22:20:16">
+    <value>Inactivo</value>
+    <comment>word: Inactive</comment>
+  </data>
+  <data name="TransformLayout" lastModified="2012-08-10T22:20:16">
+    <value>Transformar la distribución</value>
+    <comment>phrase: Transform layout</comment>
+  </data>
+  <data name="Active" lastModified="2012-08-10T22:20:16">
+    <value>Activo</value>
+    <comment>word: Active</comment>
+  </data>
+  <data name="Behavior" lastModified="2012-08-10T22:20:16">
+    <value>Comportamiento</value>
+    <comment>word: Behavior</comment>
+  </data>
+  <data name="ForDevicesWithTheseCharacteristics" lastModified="2012-08-10T22:20:16">
+    <value>Para dispositivos con estas características...</value>
+    <comment>phrase:ForDevicesWithTheseCharacteristics</comment>
+  </data>
+  <data name="DeviceType" lastModified="2012-08-10T22:20:16">
+    <value>Tipo</value>
+    <comment>word: Type</comment>
+  </data>
+  <data name="CssSelectorDescription" lastModified="2012-08-10T22:20:16">
+    <value>Cuando se detecta un dispositivo con características similares a las indicadas anteriormente, siempre cargar este archivo CSS</value>
+    <comment>phrase:When detect a device with charateristics like those set above, always load this CSS file</comment>
+  </data>
+  <data name="AddACustomRule" lastModified="2012-08-10T22:20:16">
+    <value>Agregar una regla personalizada (consulta de los medios de comunicación)</value>
+    <comment>phrase: Add a custom rule (media query)</comment>
+  </data>
+  <data name="AddCustom" lastModified="2012-08-10T22:20:16">
+    <value>Añadir personalizado...</value>
+    <comment>phrase: Add custom...</comment>
+  </data>
+  <data name="TabletsAndSmallScreens" lastModified="2012-08-10T22:20:16">
+    <value>Tabletas y pantallas pequeñas</value>
+    <comment>phrase: Tablets and small screens</comment>
+  </data>
+  <data name="Smartphones" lastModified="2012-08-10T22:20:16">
+    <value>Smartphones</value>
+    <comment>phrase: Smartphones</comment>
+  </data>
+  <data name="LargeScreens" lastModified="2012-08-10T22:20:16">
+    <value>Pantallas grandes</value>
+    <comment>phrase: Large screens</comment>
+  </data>
+  <data name="Width" lastModified="2012-08-10T22:20:16">
+    <value>Ancho</value>
+    <comment>word: Width</comment>
+  </data>
+  <data name="DescriptionExample" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;1024x768 (p. ej. iPad, iPad2)&lt;/em&gt;</value>
+    <comment>Example: 1024x768 (e.g. iPad, iPad2)</comment>
+  </data>
+  <data name="Size" lastModified="2012-08-10T22:20:16">
+    <value>Tamaño</value>
+    <comment>word: Size</comment>
+  </data>
+  <data name="RangeWidth" lastModified="2012-08-10T22:20:16">
+    <value>Rango (anchura mín, máx)</value>
+    <comment>phrase: Range(min, max-width)</comment>
+  </data>
+  <data name="Height" lastModified="2012-08-10T22:20:16">
+    <value>altura</value>
+    <comment>word: Height</comment>
+  </data>
+  <data name="RangeHeight" lastModified="2012-08-10T22:20:16">
+    <value>Rango (altura mín, máx)</value>
+    <comment>phrase: Range (min, max-height)</comment>
+  </data>
+  <data name="RangeDeviceWidth" lastModified="2012-08-10T22:20:16">
+    <value>Rango de anchura del dispositivo (mín, máx)</value>
+    <comment>phrase: Range of device width (min, max)</comment>
+  </data>
+  <data name="DeviceWidth" lastModified="2012-08-10T22:20:16">
+    <value>Ancho del dispositivo</value>
+    <comment>phrase: Device width</comment>
+  </data>
+  <data name="BackToMediaQueries" lastModified="2012-08-10T22:20:16">
+    <value>Volver a las preguntas de los medios de comunicación</value>
+    <comment>phrase: Back to media queries</comment>
+  </data>
+  <data name="DeviceHeight" lastModified="2012-08-10T22:20:16">
+    <value>Altura del dispositivo</value>
+    <comment>phrase: Device height</comment>
+  </data>
+  <data name="Landscape" lastModified="2012-08-10T22:20:16">
+    <value>Paisaje</value>
+    <comment>word: Landscape</comment>
+  </data>
+  <data name="MaxWidth" lastModified="2012-08-10T22:20:16">
+    <value>Anchura máx.</value>
+    <comment>word: Max-width</comment>
+  </data>
+  <data name="MinWidth" lastModified="2012-08-10T22:20:16">
+    <value>Anchura mín.</value>
+    <comment>word: Min-width</comment>
+  </data>
+  <data name="Description" lastModified="2012-08-10T22:20:16">
+    <value>Descripción</value>
+    <comment>word: Description</comment>
+  </data>
+  <data name="MinHeight" lastModified="2012-08-10T22:20:16">
+    <value>Alt. mín.</value>
+    <comment>phrase: Min-height</comment>
+  </data>
+  <data name="MaxHeight" lastModified="2012-08-10T22:20:16">
+    <value>Altura máx.</value>
+    <comment>word: Max-height</comment>
+  </data>
+  <data name="RangeDeviceHeight" lastModified="2012-08-10T22:20:16">
+    <value>Rango de altura del dispositivo (mín, máx)</value>
+    <comment>phrase: Range of device height (min, max)</comment>
+  </data>
+  <data name="Portrait" lastModified="2012-08-10T22:20:16">
+    <value>Retrato</value>
+    <comment>word: Portrait</comment>
+  </data>
+  <data name="Orientation" lastModified="2012-08-10T22:20:16">
+    <value>Orientación</value>
+    <comment>word: Orientation</comment>
+  </data>
+  <data name="Both" lastModified="2012-08-10T22:20:16">
+    <value>Ambos</value>
+    <comment>word: Both</comment>
+  </data>
+  <data name="AspectRatio" lastModified="2012-08-10T22:20:16">
+    <value>Relación de aspecto</value>
+    <comment>phrase: Aspect ratio</comment>
+  </data>
+  <data name="Resolution" lastModified="2012-08-10T22:20:16">
+    <value>Resolución</value>
+    <comment>word: Resolution</comment>
+  </data>
+  <data name="ResultMediaQueryCss" lastModified="2012-08-10T22:20:16">
+    <value>Resultado: css de consulta de medios</value>
+    <comment>phrase: Result: media query css</comment>
+  </data>
+  <data name="Grid" lastModified="2012-08-10T22:20:16">
+    <value>Grid</value>
+    <comment>word: Grid</comment>
+  </data>
+  <data name="CreateRulesGroup" lastModified="2012-08-10T22:20:16">
+    <value>Hecho</value>
+    <comment>word: Done</comment>
+  </data>
+  <data name="PreviewDeviceNameConfig" lastModified="2012-08-10T22:20:16">
+    <value>Nombre del dispositivo de vista previa</value>
+    <comment>phrase: Name of the preview device</comment>
+  </data>
+  <data name="Reset" lastModified="2012-08-10T22:20:16">
+    <value>Restablecer</value>
+    <comment>word: Reset</comment>
+  </data>
+  <data name="RuleDescriptionRequired" lastModified="2012-08-10T22:20:16">
+    <value>La descripción no puede estar vacía</value>
+    <comment>Message displayed when user does not enter the description of the media query rule</comment>
+  </data>
+  <data name="Edit" lastModified="2012-08-10T22:20:16">
+    <value>Editar</value>
+    <comment>word: Edit</comment>
+  </data>
+  <data name="PreviewDeviceTitleConfig" lastModified="2012-08-10T22:20:16">
+    <value>Título del dispositivo de vista previa</value>
+    <comment>phrase: Title of the preview device</comment>
+  </data>
+  <data name="PreviewDeviceCssClassConfig" lastModified="2012-08-10T22:20:16">
+    <value>Tipo CSS asociado con el dispositivo de vista previa</value>
+    <comment>phrase: Css class associated with the preview device</comment>
+  </data>
+  <data name="PreviewDeviceOffsetXLandscapeConfig" lastModified="2012-08-10T22:20:16">
+    <value>Desplazamiento en el eje X de la ventana gráfica en el modo paisaje.</value>
+    <comment>phrase: Offset on the X asix of the viewport in the landscape mode.</comment>
+  </data>
+  <data name="PreviewDeviceHeightConfig" lastModified="2012-08-10T22:20:16">
+    <value>La altura del dispositivo de vista previa en píxeles</value>
+    <comment>phrase: The height of the preview device in pixels</comment>
+  </data>
+  <data name="PreviewDeviceWidthConfig" lastModified="2012-08-10T22:20:16">
+    <value>La anchura del dispositivo de vista previa en píxeles</value>
+    <comment>phrase: The width of the preview device in pixels</comment>
+  </data>
+  <data name="PreviewDevicesConfig" lastModified="2012-08-10T22:20:16">
+    <value>Previsualizar dispositivos</value>
+    <comment>phrase: Preview devices</comment>
+  </data>
+  <data name="PreviewDeviceViewportWidthConfig" lastModified="2012-08-10T22:20:16">
+    <value>La anchura de la ventana del dispositivo de vista previa</value>
+    <comment>phrase: The width of the preview device's viewport</comment>
+  </data>
+  <data name="PreviewDeviceViewportHeightConfig" lastModified="2012-08-10T22:20:16">
+    <value>La altura de la ventana del dispositivo de vista previa</value>
+    <comment>phrase: The height of the preview device's viewport</comment>
+  </data>
+  <data name="ValueMustBeAWholeNumber" lastModified="2012-08-10T22:20:16">
+    <value>El valor debe ser un número entero</value>
+    <comment>Message displayed when user does not enter the whole number in a field that expects it</comment>
+  </data>
+  <data name="PreviewDeviceOffsetYConfig" lastModified="2012-08-10T22:20:16">
+    <value>Desplazamiento en el eje Y de la ventana gráfica en el modo retrato.</value>
+    <comment>phrase: Offset on the Y axis of the viewport in the portrait mode.</comment>
+  </data>
+  <data name="PreviewDeviceOffsetXConfig" lastModified="2012-08-10T22:20:16">
+    <value>Desplazamiento en el eje X de la ventana gráfica en el modo retrato.</value>
+    <comment>phrase: Offset on the X axis of the viewport in the portrait mode.</comment>
+  </data>
+  <data name="MobilePreviewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Vista previa para &lt;br /&gt;Smartphones y Tabletas</value>
+    <comment>phrase: Preview for Smartphones &amp; Tablets</comment>
+  </data>
+  <data name="PreviewDeviceOffsetYLandscapeConfig" lastModified="2012-08-10T22:20:16">
+    <value>Desplazamiento en el eje Y de la ventana gráfica en el modo paisaje.</value>
+    <comment>phrase: Offset on the Y axis of the viewport in the ladscape mode.</comment>
+  </data>
+  <data name="EnabledConfig" lastModified="2012-08-10T22:20:16">
+    <value>Habilitado</value>
+    <comment>word: Enabled</comment>
+  </data>
+  <data name="HeightTypeConfig" lastModified="2012-08-10T22:20:16">
+    <value>Obtiene o establece el tipo de la regla de la altura</value>
+    <comment>phrase: Gets or sets the type of the height rule</comment>
+  </data>
+  <data name="RuleDescriptionConfig" lastModified="2012-08-10T22:20:16">
+    <value>Descripción de la regla</value>
+    <comment>phrase: Description of the rule</comment>
+  </data>
+  <data name="DeviceTypeTitleConfig" lastModified="2012-08-10T22:20:16">
+    <value>Título de tipo de dispositivo</value>
+    <comment>phrase: Device type title</comment>
+  </data>
+  <data name="DefaultRulesConfig" lastModified="2012-08-10T22:20:16">
+    <value>Reglas de consulta predeterminadas de los medios</value>
+    <comment>phrase: Default media query rules</comment>
+  </data>
+  <data name="WidthTypeConfig" lastModified="2012-08-10T22:20:16">
+    <value>El tipo de anchura que se define</value>
+    <comment>phrase: The type of width being defined</comment>
+  </data>
+  <data name="ExactHeightConfig" lastModified="2012-08-10T22:20:16">
+    <value>Altura exacta</value>
+    <comment>phrase: Exact height</comment>
+  </data>
+  <data name="ExactWidthConfig" lastModified="2012-08-10T22:20:16">
+    <value>Anchura exacta</value>
+    <comment>phrase: Exact width</comment>
+  </data>
+  <data name="MaxWidthConfig" lastModified="2012-08-10T22:20:16">
+    <value>Anchura máxima</value>
+    <comment>phrase: Maximum width</comment>
+  </data>
+  <data name="MinHeightConfig" lastModified="2012-08-10T22:20:16">
+    <value>Altura mínima</value>
+    <comment>phrase: Minimum height</comment>
+  </data>
+  <data name="ResolutionConfig" lastModified="2012-08-10T22:20:16">
+    <value>Resolución</value>
+    <comment>word: Resolution</comment>
+  </data>
+  <data name="DeviceTypesConfig" lastModified="2012-08-10T22:20:16">
+    <value>Tipos de dispositivos</value>
+    <comment>phrase: Device types</comment>
+  </data>
+  <data name="OrientationConfig" lastModified="2012-08-10T22:20:16">
+    <value>Orientación</value>
+    <comment>word: Orientation</comment>
+  </data>
+  <data name="MaxHeightConfig" lastModified="2012-08-10T22:20:16">
+    <value>Altura máxima</value>
+    <comment>phrase: Maximum height</comment>
+  </data>
+  <data name="DeviceTypeNameConfig" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de tipo de dispositivo</value>
+    <comment>phrase: Device type name</comment>
+  </data>
+  <data name="AspectRatioConfig" lastModified="2012-08-10T22:20:16">
+    <value>Relación de aspecto</value>
+    <comment>phrase: Aspect ratio</comment>
+  </data>
+  <data name="ResultingRuleConfig" lastModified="2012-08-10T22:20:16">
+    <value>Regla de consulta de medios resultante</value>
+    <comment>phrase: Resulting media query rule</comment>
+  </data>
+  <data name="IsGridConfig" lastModified="2012-08-10T22:20:16">
+    <value>Cuadrícula</value>
+    <comment>word: Grid?</comment>
+  </data>
+  <data name="IsMonochromeConfig" lastModified="2012-08-10T22:20:16">
+    <value>¿Monocromático?</value>
+    <comment>word: Monochrome?</comment>
+  </data>
+  <data name="MinWidthConfig" lastModified="2012-08-10T22:20:16">
+    <value>Anchura mínima</value>
+    <comment>phrase: Minimum width</comment>
+  </data>
+  <data name="Cancel" lastModified="2012-08-10T22:20:16">
+    <value>Cancelar</value>
+    <comment>word: Cancel</comment>
+  </data>
+  <data name="LayoutElementTitleConfig" lastModified="2012-08-10T22:20:16">
+    <value>Título del elemento de distribución</value>
+    <comment>phrase: Title of the layout element</comment>
+  </data>
+  <data name="LayoutElementGroupNameConfig" lastModified="2012-08-10T22:20:16">
+    <value>Nombre del grupo al que pertenece el elemento de diseño</value>
+    <comment>phrase: LayoutElementGroupNameConfig</comment>
+  </data>
+  <data name="ResourceClassNameConfig" lastModified="2012-08-10T22:20:16">
+    <value>El nombre de la clase de recursos que se utilizarán para localizar las etiquetas</value>
+    <comment>phrase: The name of the resource class to be used to localize the labels</comment>
+  </data>
+  <data name="LayoutElementsConfig" lastModified="2012-08-10T22:20:16">
+    <value>Elementos de diseño</value>
+    <comment>phrase: Layout elements</comment>
+  </data>
+  <data name="LayoutCssConfig" lastModified="2012-08-10T22:20:16">
+    <value>CSS para el elemento de diseño.</value>
+    <comment>phrase: CSS for the layout element.</comment>
+  </data>
+  <data name="AlternateLayoutsConfig" lastModified="2012-08-10T22:20:16">
+    <value>Diseños alternativos</value>
+    <comment>phrase: Alternate layouts</comment>
+  </data>
+  <data name="LayoutElementNameConfig" lastModified="2012-08-10T22:20:16">
+    <value>Nombre del elemento de diseño</value>
+    <comment>phrase: Name of the layout element</comment>
+  </data>
+  <data name="Monochrome" lastModified="2012-08-10T22:20:16">
+    <value>Monocromático</value>
+    <comment>word: Monochrome</comment>
+  </data>
+</root>

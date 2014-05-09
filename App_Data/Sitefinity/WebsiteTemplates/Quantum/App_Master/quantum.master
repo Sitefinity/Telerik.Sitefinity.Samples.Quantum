@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" %>
+<%@ Register Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI" TagPrefix="sf" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link rel="shortcut icon" href="/favicon.ico?v=3" />
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700' rel='stylesheet' type='text/css' />
+</head>
+
+<body class="main-body">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <sf:ResourceLinks ID="resourcesLinks" runat="server">
+            <sf:ResourceFile JavaScriptLibrary="JQuery"></sf:ResourceFile>
+            <sf:ResourceFile Name="~/Sitefinity/WebsiteTemplates/Quantum/App_Themes/QuantumNew/Scripts/masonry.js" Static="true"></sf:ResourceFile>
+        </sf:ResourceLinks>
+        <div id="wrapper">
+            <div id="header">
+                <div id="toggle"></div>
+                <asp:ContentPlaceHolder ID="header" runat="server" />
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="content" runat="server" />
+            </div>
+            <div id="footer">
+                <asp:ContentPlaceHolder ID="footer" runat="server" />
+            </div>
+        </div>
+
+    </form>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#toggle").on("click", function () {
+                $('body').toggleClass("navigation");
+            })
+
+            $(".browse-products").on("click", function () {
+                $('body').toggleClass("products");
+            })
+
+            $(".sffilterTitle").on("click", function () {
+                $('body').toggleClass("filters");
+            })
+        })
+    </script>
+
+</body>
+</html>

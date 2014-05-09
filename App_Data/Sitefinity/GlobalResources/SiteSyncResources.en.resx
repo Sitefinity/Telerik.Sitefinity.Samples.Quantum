@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WhichContentWillBeSent" lastModified="2013-03-07T06:00:35">
+    <value>Which content will be sent?</value>
+    <comment>phrase: Which content will be sent to</comment>
+  </data>
+  <data name="SiteSyncResourcesTitle" lastModified="2013-12-20T07:46:30">
+    <value>Synchronization module labels</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="SiteSyncResourcesDescription" lastModified="2013-12-20T07:46:30">
+    <value>Contains localizable resources for synchronization module interface.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="SyncTitle" lastModified="2013-12-20T07:46:30">
+    <value>Syncing of published data</value>
+    <comment>Title for the Synchronization module page.</comment>
+  </data>
+  <data name="SyncUrlName" lastModified="2013-12-20T07:46:30">
+    <value>Synchronization</value>
+    <comment>Urlname of the Synchronization module page.</comment>
+  </data>
+  <data name="SyncDescription" lastModified="2013-12-20T07:46:30">
+    <value>This is the page of the Synchronization module.</value>
+    <comment>Description of the synchronization module page</comment>
+  </data>
+  <data name="SyncingCenterHeading" lastModified="2013-12-20T07:46:30">
+    <value>Published data from this server will be sent to the</value>
+    <comment>The beginning of the heading in the syncing center screen</comment>
+  </data>
+  <data name="ThisServer" lastModified="2013-12-20T07:46:30">
+    <value>This server will send data to:</value>
+    <comment>phrase: This server</comment>
+  </data>
+  <data name="NoServersAvailableForSync" lastModified="2013-12-20T07:46:30">
+    <value>No other servers/sites are set to synchronize data with.</value>
+    <comment>phrase: No other servers/sites are set to synchronize data with.</comment>
+  </data>
+  <data name="SynchronizationSettings" lastModified="2013-12-20T07:46:30">
+    <value>Synchronization Settings</value>
+    <comment>phrase: Synchronization Settings</comment>
+  </data>
+  <data name="WhenDoYouNeedSynchronization" lastModified="2013-12-20T07:46:30">
+    <value>&lt;strong&gt;When do you need synchronization?&lt;/strong&gt;&lt;br/&gt;You need synchronization if you want to have several stages (servers/sites)  for your data &lt;br /&gt;e.g. &lt;em&gt;1 Work; 2 Test; 3 Production (live)&lt;/em&gt;</value>
+    <comment>phrase: When do you need synchronization...</comment>
+  </data>
+  <data name="AddressWhereContentWillBeSent" lastModified="2013-12-20T07:46:30">
+    <value>URL / IP address where content will be sent</value>
+    <comment>phrase: URL / IP address where content will be sent</comment>
+  </data>
+  <data name="UsernameForServerWhereContentWillBeSent" lastModified="2013-12-20T07:46:30">
+    <value>Username</value>
+    <comment>phrase: Username</comment>
+  </data>
+  <data name="PasswordForServerWhereContentWillBeSent" lastModified="2013-12-20T07:46:30">
+    <value>Password</value>
+    <comment>phrase: Password (created on the server where content will be sent)</comment>
+  </data>
+  <data name="StartSync" lastModified="2013-12-20T07:46:30">
+    <value>Sync now</value>
+    <comment>phrase: Sync now</comment>
+  </data>
+  <data name="ScheduleSync" lastModified="2013-12-20T07:46:30">
+    <value>Schedule sync</value>
+    <comment>phrase: Schedule sync</comment>
+  </data>
+  <data name="ScheduleSummaryFormat_Full" lastModified="2013-12-20T07:46:30">
+    <value>Sync for the entire site is scheduled for &lt;strong&gt;{0}&lt;/strong&gt;</value>
+    <comment>{0} stands for the text describing the schedule, e.g. Every Friday, 22:00 PM</comment>
+  </data>
+  <data name="ScheduleSummaryFormat_Types" lastModified="2013-12-20T07:46:30">
+    <value>&lt;span class='sfscheduled'&gt;Sync is scheduled for the following content types:&lt;/span&gt; &lt;div class='sfScheduledTypes'&gt;{0} &lt;strong&gt;{1}&lt;/strong&gt;&lt;/div&gt;</value>
+    <comment>{0} stands for a comma separated list of content types; {1} stands for the text describing the schedule, e.g. Every Friday, 22:00 PM</comment>
+  </data>
+  <data name="ServersWhreToSendData" lastModified="2013-12-20T07:46:30">
+    <value>Server(s) where to send data</value>
+    <comment>phrase: Server(s) where to send data</comment>
+  </data>
+  <data name="GoToSync" lastModified="2013-12-20T07:46:30">
+    <value>Go to sync</value>
+    <comment>phrase: Go to sync</comment>
+  </data>
+  <data name="AddServer" lastModified="2013-12-20T07:46:30">
+    <value>Add a server</value>
+    <comment>phrase: Add a server</comment>
+  </data>
+  <data name="ServersWhereToSendData" lastModified="2013-12-20T07:46:30">
+    <value>Server(s) where to &lt;strong class="sfGreen"&gt;send&lt;/strong&gt; data</value>
+    <comment>phrase: Server(s) where to &lt;strong class="sfGreen"&gt;send&lt;/strong&gt; data</comment>
+  </data>
+  <data name="SelectForSync" lastModified="2013-12-20T07:46:30">
+    <value>Select for sync</value>
+    <comment>phrase: Select for sync</comment>
+  </data>
+  <data name="LastSyncSection" lastModified="2013-12-20T07:46:30">
+    <value>Last sync:</value>
+    <comment>phrase: Last sync:</comment>
+  </data>
+  <data name="SyncDetails" lastModified="2013-12-20T07:46:30">
+    <value>Details</value>
+    <comment>word: Details</comment>
+  </data>
+  <data name="SynchronizationDetails" lastModified="2013-12-20T07:46:30">
+    <value>Synchronization to {0}</value>
+    <comment>phrase: Synchronization to a specified server</comment>
+  </data>
+  <data name="BackToItems" lastModified="2013-12-20T07:46:30">
+    <value>Back to Sync</value>
+    <comment>phrase: Back to Sync</comment>
+  </data>
+  <data name="TestConnection" lastModified="2013-12-20T07:46:30">
+    <value>Test connection (s)</value>
+    <comment>phrase: Test connection (s)</comment>
+  </data>
+  <data name="LastSyncBy" lastModified="2013-12-20T07:46:30">
+    <value>by {0}</value>
+    <comment>format: by {0}</comment>
+  </data>
+  <data name="LastSyncTo" lastModified="2013-12-20T07:46:30">
+    <value>to {0}</value>
+    <comment>format: to {0}</comment>
+  </data>
+  <data name="LastSyncSuccessfullySyncedItems" lastModified="2013-12-20T07:46:30">
+    <value>{0} items successfully synced</value>
+    <comment>format: {0} items successfully synced</comment>
+  </data>
+  <data name="LastSyncFailedItems" lastModified="2013-12-20T07:46:30">
+    <value>{0} items failed to be synced</value>
+    <comment>format: {0} items failed to be synced</comment>
+  </data>
+  <data name="LastSync" lastModified="2013-12-20T07:46:30">
+    <value>Last sync</value>
+    <comment>phrase: Last sync</comment>
+  </data>
+  <data name="AllServersAreAvailable" lastModified="2013-12-20T07:46:30">
+    <value>The selected server is available</value>
+    <comment>phrase: The selected server is available</comment>
+  </data>
+  <data name="Details" lastModified="2013-12-20T07:46:30">
+    <value>Details</value>
+    <comment>word: Details</comment>
+  </data>
+  <data name="SynchronizationIsCompleted" lastModified="2013-12-20T07:46:30">
+    <value>Synchronization is completed</value>
+    <comment>phrase: Synchronization is completed</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2013-12-20T07:46:30">
+    <value>Staging &amp; Syncing</value>
+    <comment>The title of the site synchronization module.</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2013-12-20T07:46:30">
+    <value>Provides functionality for synchronization of Sitefinity instances</value>
+    <comment>The description of the site synchronization module</comment>
+  </data>
+  <data name="ContentTypes" lastModified="2013-12-20T07:46:30">
+    <value>Content types</value>
+    <comment>Content type</comment>
+  </data>
+  <data name="NoContentTypeSelectedError" lastModified="2013-12-20T07:46:30">
+    <value>Please select some content types</value>
+    <comment>phrase: Please select some content types</comment>
+  </data>
+  <data name="SynchronizationIsInProgress" lastModified="2013-12-20T07:46:30">
+    <value>Synchronization to {0} in progress</value>
+    <comment>phrase: The synchronization to a specific server is in progress</comment>
+  </data>
+  <data name="SitefinitySynchronization" lastModified="2013-12-20T07:46:30">
+    <value>Staging &amp; Syncing</value>
+    <comment></comment>
+  </data>
+  <data name="EnableAsTarget" lastModified="2013-12-20T07:46:30">
+    <value>Allow content from other sites to be published to this site</value>
+    <comment>phrase: Allow content from other sites to be published to this site </comment>
+  </data>
+  <data name="StatusFailed" lastModified="2013-12-20T07:46:30">
+    <value>failed</value>
+    <comment>word: failed</comment>
+  </data>
+  <data name="StatusSynced" lastModified="2013-12-20T07:46:30">
+    <value>synced</value>
+    <comment>word: synced</comment>
+  </data>
+  <data name="NoItems" lastModified="2013-12-20T07:46:30">
+    <value>no items</value>
+    <comment>phrase: No items (failed)</comment>
+  </data>
+  <data name="ServerNotAccessible" lastModified="2013-12-20T07:46:30">
+    <value>Server {0} is not accessible.</value>
+    <comment>phrase: Server {0} is not accessible.</comment>
+  </data>
+  <data name="ServerNotConfigured" lastModified="2013-12-20T07:46:30">
+    <value>Server {0} is not configured correctly.</value>
+    <comment>phrase: Server {0} is not configured correctly.</comment>
+  </data>
+  <data name="ServerAddressNotValid" lastModified="2013-12-20T07:46:30">
+    <value>{0} is not a valid URL.</value>
+    <comment>phrase: {0} is not a valid URL.</comment>
+  </data>
+  <data name="SettingsForThisSite" lastModified="2013-12-20T07:46:30">
+    <value>Synchronization settings for this site</value>
+    <comment>phrase: Synchronization settings for this site</comment>
+  </data>
+  <data name="SyncDetailsNote" lastModified="2013-12-20T07:46:30">
+    <value>Note that the number of synchronized items might be larger than expected because parent items and/or related items (if any) are also synced</value>
+    <comment>phrase: Note that the number of synchronized items might be larger than expected because language versions and parent items (if any) are also synced together with the modified items.</comment>
+  </data>
+  <data name="ServerKey" lastModified="2013-12-20T07:46:30">
+    <value>Site key</value>
+    <comment>phrase: Site key</comment>
+  </data>
+  <data name="OutOfRange" lastModified="2013-12-20T07:46:30">
+    <value>Out of range</value>
+    <comment>phrase: Out of range</comment>
+  </data>
+  <data name="NumberRangeHint" lastModified="2013-12-20T07:46:30">
+    <value>Enter a number from {0} to {1}</value>
+    <comment>phrase: Enter a number from {0} to {1}</comment>
+  </data>
+  <data name="WhatIsThis" lastModified="2013-12-20T07:46:30">
+    <value>What is this?</value>
+    <comment>phrase: What is this?</comment>
+  </data>
+  <data name="ServerKeyRangeHint" lastModified="2013-12-20T07:46:30">
+    <value>Enter a number from 0 to 100</value>
+    <comment>phrase: Enter a number from 0 to 100</comment>
+  </data>
+  <data name="WhatToSync" lastModified="2013-12-20T07:46:30">
+    <value>What do you want to sync ?</value>
+    <comment>phrase: What do you want to sync ?</comment>
+  </data>
+  <data name="SyncStructureAndDataOption" lastModified="2013-12-20T07:46:30">
+    <value>Structure and data</value>
+    <comment>phrase: Structure and data</comment>
+  </data>
+  <data name="StructureOnlyOption" lastModified="2013-12-20T07:46:30">
+    <value>Structure only</value>
+    <comment>phrase: Structure only</comment>
+  </data>
+  <data name="SiteSyncUnknownErrorMessage" lastModified="2013-12-20T07:46:30">
+    <value>Error unknown! Please, check logs for further information about error details!</value>
+    <comment>phrase: An error message when unknown error occurs.</comment>
+  </data>
+  <data name="SiteSyncNotAllowed" lastModified="2013-12-20T07:46:30">
+    <value>You are not authorized because the same user is logged in on the target server.</value>
+    <comment>phrase: An error message when there is a logged user on the target server with the same username.</comment>
+  </data>
+  <data name="SiteSyncChangeButtonLabel" lastModified="2013-12-20T07:46:30">
+    <value>&lt;span class='sfLinkBtnIn'&gt;Change&lt;/span&gt;</value>
+    <comment>word: change</comment>
+  </data>
+  <data name="SiteSyncSyncedWord" lastModified="2013-12-20T07:46:30">
+    <value>Synced</value>
+    <comment>word: synced</comment>
+  </data>
+  <data name="WaitingForSync" lastModified="2013-12-20T07:46:30">
+    <value>{0} waiting for sync</value>
+    <comment>phrase: waiting for sync - e.g. Items waiting for sync</comment>
+  </data>
+  <data name="AllNewOrUpdatedItems" lastModified="2013-12-20T07:46:30">
+    <value>All new or updated</value>
+    <comment>phrase: All new or updated.</comment>
+  </data>
+  <data name="SelectedItemsOnly" lastModified="2013-12-20T07:46:30">
+    <value>Selected items only</value>
+    <comment>phrase: Selected items only</comment>
+  </data>
+  <data name="WhatItemsToSync" lastModified="2013-12-20T07:46:30">
+    <value>What to sync?</value>
+    <comment>phrase: What to sync?</comment>
+  </data>
+  <data name="SelectedItemsToSync" lastModified="2013-12-20T07:46:30">
+    <value>Selected &lt;i&gt;({0} of {1})&lt;/i&gt;</value>
+    <comment>phrase: Selected &lt;i&gt;({0} of {1})&lt;/i&gt;</comment>
+  </data>
+  <data name="NewOrUpdatedItems" lastModified="2013-12-20T07:46:30">
+    <value>All new or updated &lt;i&gt;({0})&lt;/i&gt;</value>
+    <comment>phrase: All new or updated &lt;i&gt;({0})&lt;/i&gt;</comment>
+  </data>
+  <data name="PendingItemsDialogCloseMessage" lastModified="2013-12-20T07:46:30">
+    <value>There are selected items. Would you like to close this dialog?</value>
+    <comment>phrase: There are pending changes. Would you like to close this dialog?</comment>
+  </data>
+  <data name="SiteSyncOnNavigateMessage" lastModified="2013-12-20T07:46:30">
+    <value>You have selected content for synchronization. Are you sure that you want to leave this page?</value>
+    <comment>phrase: You have selected content for synchronization. Are you sure that you want to leave this page?</comment>
+  </data>
+  <data name="PendingItemsNewAdded" lastModified="2013-12-20T07:46:30">
+    <value>{0} new items just have been added.</value>
+    <comment>phrase: Some (number) new items just have been added.</comment>
+  </data>
+  <data name="SiteSyncInProgress" lastModified="2013-12-20T07:46:30">
+    <value>A synchronization is in progress</value>
+    <comment>phrase: A synchronization is in progress</comment>
+  </data>
+  <data name="PendingItemsDialogDoneMessage" lastModified="2013-12-20T07:46:30">
+    <value>No items are selected for sync.</value>
+    <comment>phrase: No items are selected for sync.</comment>
+  </data>
+  <data name="NarrowItemsByTyping" lastModified="2013-12-20T07:46:30">
+    <value>Narrow by typing...</value>
+    <comment>phrase: Narrow (filter) items by typing</comment>
+  </data>
+  <data name="DuplicateServerUrlExists" lastModified="2013-12-20T07:46:30">
+    <value>Server with the same address exists! Please, choose another one for the current record.</value>
+    <comment>phrase: Server with the same address exists! Please, choose another one for the current record.</comment>
+  </data>
+  <data name="AllLanguagesOption" lastModified="2013-12-20T07:46:30">
+    <value>All Languages</value>
+    <comment>phrase: All Languages</comment>
+  </data>
+  <data name="AllFieldsRequired" lastModified="2013-12-20T07:46:30">
+    <value>All fields are required</value>
+    <comment>phrase: All fields are required</comment>
+  </data>
+  <data name="SyncingRelatedItemsConfirmation" lastModified="2013-12-20T07:46:30">
+    <value>Some of the items you have selected to sync might have related items that will be also synced. Are you sure you want to continue?</value>
+    <comment>phrase: Some of the items you have selected to sync might have related items that will be also synced. Are you sure you want to continue?</comment>
+  </data>
+  <data name="SyncDetailsBackLinkText" lastModified="2013-12-20T07:46:30">
+    <value>Back to Staging &amp; Syncing</value>
+    <comment>phrase: back to the Staging &amp; Syncing screen</comment>
+  </data>
+  <data name="SyncDetailsBackLinkServerText" lastModified="2013-12-20T07:46:30">
+    <value>Back to {0}</value>
+    <comment>phrase: back to server name</comment>
+  </data>
+  <data name="SummaryLabelDataType" lastModified="2013-12-20T07:46:30">
+    <value>Data type</value>
+    <comment>word: DATA TYPE</comment>
+  </data>
+  <data name="SummaryLabelSynced" lastModified="2013-12-20T07:46:30">
+    <value>SYNCED</value>
+    <comment>word: SYNCED</comment>
+  </data>
+  <data name="SummaryLabelFailed" lastModified="2013-12-20T07:46:30">
+    <value>FAILED</value>
+    <comment>word: FAILED</comment>
+  </data>
+  <data name="ItemStatusModified" lastModified="2013-12-20T07:46:30">
+    <value>Modified</value>
+    <comment>word: Modified</comment>
+  </data>
+  <data name="NewOrUpdatedItemsPerLanguage" lastModified="2013-12-20T07:46:30">
+    <value>All new or updated &lt;i&gt;({0})&lt;/i&gt;&lt;span class='sfCultureLbl'&gt;{1}&lt;/span&gt;</value>
+    <comment>phrase: All new or updated - items count and selected language code</comment>
+  </data>
+  <data name="PageTemplatesToolTip" lastModified="2013-12-20T07:46:30">
+    <value>It is recommended to also sync Widget templates as they are related to Page templates</value>
+    <comment>phrase: It is recommended to also sync Widget templates as they are related to Page templates</comment>
+  </data>
+  <data name="PagesToolTip" lastModified="2013-12-20T07:46:30">
+    <value>It is recommended to also sync Widget templates as they are related to Pages</value>
+    <comment>phrase: It is recommended to also sync Widget templates as they are related to Pages</comment>
+  </data>
+  <data name="SelectItemsForSync" lastModified="2013-12-20T07:46:30">
+    <value>Select these items for sync</value>
+    <comment>phrase: Select these items for sync</comment>
+  </data>
+  <data name="SiteSyncAllPendingItems" lastModified="2013-12-20T07:46:30">
+    <value>All</value>
+    <comment>word: all</comment>
+  </data>
+  <data name="SiteSyncSelectedFromTotal" lastModified="2013-12-20T07:46:30">
+    <value>{0} of {1}</value>
+    <comment>word: of - Example: 5 of 10</comment>
+  </data>
+  <data name="ScheduleSummaryFormat_Server" lastModified="2013-12-20T07:46:30">
+    <value>&lt;span class='sfscheduled'&gt;Sync to {0} is scheduled for &lt;/span&gt;&lt;br/&gt;&lt;strong&gt;{1}&lt;/strong&gt;&lt;br/&gt;&lt;strong&gt;Content to sync&lt;/strong&gt;&lt;div class='sfScheduledTypes'&gt;{2}&lt;/div&gt;</value>
+    <comment>{0} stands for the current server for the scheduled sync; {1} stands for the text describing the schedule, e.g. Every Friday, 08:00 PM, {2} stands for a comma separated list of content types;</comment>
+  </data>
+  <data name="IncorrectServerAddress" lastModified="2013-12-20T07:46:30">
+    <value>The server address is not valid. Please note that only 'http://' prefix is allowed.</value>
+    <comment>phrase: The server address is not valid. Please note that only 'http://' prefix is allowed.</comment>
+  </data>
+  <data name="StopSyncingButton" lastModified="2013-12-20T07:46:30">
+    <value>Yes, stop syncing</value>
+    <comment>phrase: Yes, stop syncing</comment>
+  </data>
+  <data name="StoppingSyncingPromptTitle" lastModified="2013-12-20T07:46:30">
+    <value>Are you sure you want to stop syncing?</value>
+    <comment>phrase: Are you sure you want to stop syncing?</comment>
+  </data>
+  <data name="StoppingSiteSync" lastModified="2013-12-20T07:46:30">
+    <value>Stopping sync... Please wait</value>
+    <comment>phrase: Stopping sync... Please wait</comment>
+  </data>
+  <data name="ForceStop" lastModified="2013-12-20T07:46:30">
+    <value>Force stop</value>
+    <comment>phrase: Force stop</comment>
+  </data>
+  <data name="StopSyncing" lastModified="2013-12-20T07:46:30">
+    <value>Stop syncing</value>
+    <comment>phrase: Stop syncing</comment>
+  </data>
+  <data name="StopSync" lastModified="2013-12-20T07:46:30">
+    <value>Stop sync</value>
+    <comment>phrase: Stop sync</comment>
+  </data>
+  <data name="ParentTitleFormat" lastModified="2013-12-20T07:46:30">
+    <value>Parent {0}</value>
+    <comment>The format of the title for the ParentTitle column.</comment>
+  </data>
+  <data name="FilterItemsByTaxonomy" lastModified="2013-12-20T07:46:30">
+    <value>Filter items &lt;em class='sfNote'&gt;(by category, tag...)&lt;/em&gt;</value>
+    <comment>label: Filter items (by category, tag...)</comment>
+  </data>
+  <data name="DataOnlyOption" lastModified="2013-12-20T07:46:30">
+    <value>Data only</value>
+    <comment>phrase: Data only</comment>
+  </data>
+  <data name="SyncNothingOption" lastModified="2013-12-20T07:46:30">
+    <value>Nothing</value>
+    <comment>word: Nothing</comment>
+  </data>
+  <data name="Validation_NoSnapInFound" lastModified="2013-12-20T07:46:30">
+    <value>No target snap-in found for type {0}. One possible reason may be that a corresponding dynamic type does not exist on the target</value>
+    <comment>The validation error when no corresponding snap-in is found on the target</comment>
+  </data>
+</root>

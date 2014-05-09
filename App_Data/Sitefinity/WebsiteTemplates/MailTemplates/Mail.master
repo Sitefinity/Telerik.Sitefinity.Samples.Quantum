@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <style>
+             h2{display: block; margin: 0px; padding: 0px; font-size: 18px; font-weight: 400; color: #000000;}
+            p{margin: 4px 0px 0px; padding: 0px; font-size: 12px; line-height: 18px; color: #a8a8a8;}
+            
+        </style>
+</head>
+<body class="main-body">
+    <form id="form1" runat="server">
+     <div class="wrapper" style="margin: 0px; padding: 0px; background-color: #e3e3e3; font-family: arial, helvetica, verdana, sans-serif; line-height: 1;">
+        <!-- table wrapper -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width: 100%; margin: 20px auto; padding: 0px; background-color: #e3e3e3; font-family: arial, helvetica, verdana, sans-serif; line-height: 1;">
+            <tbody>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td style="background-color: #ffffff; width: 700px;">
+                    <!-- inner table -->
+                    <table width="700" cellspacing="0" cellpadding="0" border="0" style="margin: 0px; padding: 0px; font-family: arial, helvetica, verdana, sans-serif; line-height: 1;">
+                        <!-- header -->
+                        <tbody>
+                            <tr>
+                                <td>
+                                <!-- logo -->
+                                <table cellspacing="0" cellpadding="0" border="0" style="margin: 0px; padding: 0px; font-family: arial, helvetica, verdana, sans-serif; line-height: 1;">
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 338px;text-align:right">
+                                            <asp:ContentPlaceHolder runat="server" ID="logoPlaceholder" />
+                                            </td>
+                                            <!-- top heading -->
+                                            <td valign="middle" style="background-color: #0e66a5; width: 362px;">
+                                            <h1 style="display: block; font-weight: 400; font-size: 17px; color: #feffff; font-style: italic; margin-right: 25px; font-family: 'segoe ui', arial, sans-serif; text-align: right;">Quantum Green Newsletter</h1>
+                                            </td>
+                                            <!-- //top heading -->
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- //logo -->
+                                </td>
+                            </tr>
+                            <!-- //header -->
+                            <!-- top content -->
+                            <tr>
+                                <td>
+                                <table cellspacing="0" cellpadding="0" border="0" style="margin: 0px; padding: 0px;">
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 660px;">
+                                            <p style="margin: 0px; padding: 0px; height: 30px;">&nbsp;</p>
+                                            <table width="100%" cellspacing="0" cellpadding="0" border="0" style="margin: 0px 16px; padding: 0px; border-right-width: 1px; border-right-style: solid; border-right-color: #e5e5e5; font-family: arial, helvetica, verdana, sans-serif;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                        <asp:contentplaceholder runat="server" ID="Heading"></asp:contentplaceholder>
+                                                       
+                                                      
+                                                        <!-- upgrade now -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            </td>
+                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                            </tr>
+                            <!-- //top content -->
+                            <tr>
+                                <td>
+                                <img alt="" width="700" height="33" src="http://www.telerik.com/documents/media/newsletter/2011-12/sitefinity/bottom-shadow.jpg" style="display: block;" />
+                                </td>
+                            </tr>
+                            <!-- //footer shadow -->
+                            <!-- bottom contet -->
+                            <tr>
+                                <td>
+                                <asp:contentplaceholder runat="server" id="maincontent"></asp:contentplaceholder>
+                                </td>
+                            </tr>
+                            <!-- //bottom content -->
+                            <!-- footer -->
+                            <tr>
+                                <td>
+                                <!-- three cols -->
+                                <table cellspacing="0" cellpadding="0" border="0" style="width: 100%; margin: 0px auto 20px; padding: 0px; font-family: arial, helvetica, verdana, sans-serif; line-height: 1;">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <asp:contentplaceholder runat="server" id="FooterContent"></asp:contentplaceholder>
+                                
+                                            </td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                                <!-- //three cols-->
+                                </td>
+                            </tr>
+                            <!-- //footer -->
+                            <!-- footer shadow -->
+                            <tr>
+                                <td>
+                                <img alt="" width="700" height="46" src="http://www.telerik.com/documents/media/newsletter/2011-12/sitefinity/bottom-shadow.jpg" style="display: block;" />
+                                </td>
+                            </tr>
+                            <!-- //footer shadow -->
+                        </tbody>
+                    </table>
+                    <!-- //inner table -->
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- //table wrapper -->
+        </div>
+    </form>
+</body>
+</html>

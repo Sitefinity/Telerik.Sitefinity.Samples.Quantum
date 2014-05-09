@@ -1,0 +1,221 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Segoe UI",Segoe,"Roboto","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #FFF;
+    margin: 0;
+    background: url("background.png") no-repeat 0 0 #21242c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: "Segoe UI Light","Segoe UI",Tahoma,Arial,Verdana,sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 44px;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+footer {
+    bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    background: #38812d;
+    width: 100%;
+    color: #FFF;
+}
+
+    footer a {
+        color: #FFF;
+    }
+
+    footer .ticks {
+        position: absolute;
+        right: 34px;
+        text-align: right;
+    }
+
+#wrapper {
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+#timer-details ul, .example ul {
+    margin: 0;
+    padding: 0;
+}
+
+    #timer-details ul li, .example ul li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+#timer-details #timer-options {
+    display: none;
+}
+
+    #timer-details #timer-options .example {
+        color: #FFF;
+    }
+
+    #timer-details #timer-options .k-numerictextbox {
+        padding-left: 10px;
+    }
+
+#timer-details li {
+    margin-bottom: 5px!important;
+}
+
+#timer-details h4 {
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+
+#timer-details #save-button {
+    margin-top: 10px;
+}
+
+.subheader {
+    font-size: 20px;
+}
+
+#timer-details.open .link {
+    background-position: 0 -14px;
+}
+
+#timer-details.open #timer-options {
+    background: none repeat scroll 0 0 #38812d;
+    display: block;
+    padding: 10px;
+}
+
+#primer-stats {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 200px;
+    width: 200px;
+    text-align: right;
+}
+
+.expandable {
+    cursor: pointer;
+}
+
+    .expandable .link {
+        background-image: url("http://cdn.kendostatic.com/2013.3.1324/styles/Flat/sprite.png");
+        background-position: 0 -29px;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+    }
+
+.example {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #989898;
+}
+
+#sitemap .inner-wrapper #pages {
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.section-item {
+    font-size: 11px;
+    line-height: 1.4em;
+    margin: 15px;
+    min-width: 227px;
+}
+
+    .section-item h3 {
+        color: #FFF;
+        font-size: 25px;
+        margin: 0 0 15px;
+    }
+
+    .section-item .inner-wrapper {
+        background: none repeat scroll 0 0 #38812d;
+        padding: 13px;
+    }
+
+        .section-item .inner-wrapper ul {
+            background-color: #38812d;
+            padding: 0;
+            margin: 0 0 10px;
+        }
+
+            .section-item .inner-wrapper ul li {
+                list-style-type: none;
+                padding: 1px 4px;
+            }
+
+                .section-item .inner-wrapper ul li.done {
+                    background-image: url("done.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center right;
+                    color: #FFF;
+                }
+
+                .section-item .inner-wrapper ul li.working {
+                    background-image: url("ajax-loader.gif");
+                    background-repeat: no-repeat;
+                    background-position: center right;
+                }
+
+        .section-item .inner-wrapper .checkbox {
+            color: #FFF;
+            display: none;
+        }
+
+        .section-item .inner-wrapper .status {
+            color: #FFF;
+        }
+
+.prime-button {
+    cursor: pointer;
+    height: 18px;
+    padding-right: 28px;
+    background: url("Sprite.png") no-repeat -57px -200px #38812d;
+    color: #FFF;
+    font-size: 14px;
+    display: inline-block;
+}
+
+    .prime-button.big {
+        padding-right: 28px;
+        background: 0;
+        color: #FFF;
+        font-size: 25px;
+        display: inline-block;
+    }
+
+        .prime-button.big .icon {
+            background: url("Sprite.png") no-repeat -93px -187px transparent;
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+        }
+
+    .prime-button.save {
+        text-decoration: none;
+        background: url("Sprite1.png") no-repeat scroll -60px -196px #38812d;
+        font-size: 16px;
+        height: 18px;
+        padding-bottom: 10px;
+    }
+
+    .prime-button.disabled {
+        background: 0;
+    }

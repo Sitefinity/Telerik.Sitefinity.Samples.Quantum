@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RadEditorModulesTitle" lastModified="2013-05-09T12:12:31">
+    <value>RadEditor Modules</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="RadEditorModulesTitlePlural" lastModified="2013-05-09T12:12:31">
+    <value>RadEditor Modules</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="RadEditorModulesDescription" lastModified="2013-05-09T12:12:31">
+    <value>Resource strings for RadEditor Modules</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ReservedResource" lastModified="2013-05-09T12:12:31">
+    <value>Please, do not delete this string. RadEditor needs it to determine if an external resource file is present in App_GlobalResources.</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="blank" lastModified="2013-05-09T12:12:31">
+    <value>New Window</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="media" lastModified="2013-05-09T12:12:31">
+    <value>Media Pane</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="parent" lastModified="2013-05-09T12:12:31">
+    <value>Parent Window</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="search" lastModified="2013-05-09T12:12:31">
+    <value>Search Pane</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="self" lastModified="2013-05-09T12:12:31">
+    <value>Same Window</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="top" lastModified="2013-05-09T12:12:31">
+    <value>Browser Window</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="action" lastModified="2013-05-09T12:12:31">
+    <value>Action</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="align" lastModified="2013-05-09T12:12:31">
+    <value>Alignment</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="alt" lastModified="2013-05-09T12:12:31">
+    <value>ToolTip</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="bgColor" lastModified="2013-05-09T12:12:31">
+    <value>Background</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="border" lastModified="2013-05-09T12:12:31">
+    <value>Border Width</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="borderColor" lastModified="2013-05-09T12:12:31">
+    <value>Border color</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="cellPadding" lastModified="2013-05-09T12:12:31">
+    <value>CellPadding</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="cellSpacing" lastModified="2013-05-09T12:12:31">
+    <value>CellSpacing</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="className" lastModified="2013-05-09T12:12:31">
+    <value>Classname</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="cols" lastModified="2013-05-09T12:12:31">
+    <value>Columns</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="Doctype" lastModified="2013-05-09T12:12:31">
+    <value>Select Doctype</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="DomInspectorRemoveElement" lastModified="2013-05-09T12:12:31">
+    <value>RemoveElement</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="ExpandValidator" lastModified="2013-05-09T12:12:31">
+    <value>Expand Report Pane</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="height" lastModified="2013-05-09T12:12:31">
+    <value>Height</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="href" lastModified="2013-05-09T12:12:31">
+    <value>URL</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="id" lastModified="2013-05-09T12:12:31">
+    <value>Id</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="name" lastModified="2013-05-09T12:12:31">
+    <value>Name</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="NodeInspectorInvalidValue" lastModified="2013-05-09T12:12:31">
+    <value>Invalid value. Please enter a number.</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="NodeInspectorSelectedElement" lastModified="2013-05-09T12:12:31">
+    <value>The selected element is</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="noWrap" lastModified="2013-05-09T12:12:31">
+    <value>Nowrap</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="RadEditorDomInspector" lastModified="2013-05-09T12:12:31">
+    <value>Tag Inspector</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="RadEditorHtmlInspector" lastModified="2013-05-09T12:12:31">
+    <value>Real-Time HTML View</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="RadEditorNodeInspector" lastModified="2013-05-09T12:12:31">
+    <value>Properties Inspector</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="RadEditorStatistics" lastModified="2013-05-09T12:12:31">
+    <value>Statistics</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="RadEditorXhtmlValidator" lastModified="2013-05-09T12:12:31">
+    <value>XHTML Validator</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="rows" lastModified="2013-05-09T12:12:31">
+    <value>Rows</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="StatisticsCharacters" lastModified="2013-05-09T12:12:31">
+    <value>Characters:</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="StatisticsWords" lastModified="2013-05-09T12:12:31">
+    <value>Words:</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="target" lastModified="2013-05-09T12:12:31">
+    <value>Target</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="title" lastModified="2013-05-09T12:12:31">
+    <value>ToolTip</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="ValidateXHTML" lastModified="2013-05-09T12:12:31">
+    <value>Validate XHTML</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="vAlign" lastModified="2013-05-09T12:12:31">
+    <value>Vertical Alignment</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="value" lastModified="2013-05-09T12:12:31">
+    <value>Value</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+  <data name="width" lastModified="2013-05-09T12:12:31">
+    <value>Width</value>
+    <comment>RadEditorModules resource strings.</comment>
+  </data>
+</root>

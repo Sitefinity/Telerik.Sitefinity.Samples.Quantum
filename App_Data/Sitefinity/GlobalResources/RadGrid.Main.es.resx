@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GroupByFieldsSeparator" lastModified="2012-08-10T22:20:16">
+    <value>;</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ColumnResizeTooltipFormatString" lastModified="2012-08-10T22:20:16">
+    <value>Ancho: &lt;strong&gt;{0} &lt;/strong&gt;&lt;em&gt;píxeles &lt;/em&gt;</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="CollapseTooltip" lastModified="2012-08-10T22:20:16">
+    <value>Contraer grupo</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="RadGridMainTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>RadGrid principal</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="RadGridMainTitle" lastModified="2012-08-10T22:20:16">
+    <value>RadGrid principal</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="RadGridMainDescription" lastModified="2012-08-10T22:20:16">
+    <value>Cadenas de recursos para RadGrid.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="AddNewRecordImageUrl" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="Caption" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="AddNewRecordText" lastModified="2012-08-10T22:20:16">
+    <value>Añadir nuevo registro</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="SortedAscToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Ordenado asc</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="SortedDescToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Ordenado desc</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="DropHereToReorder" lastModified="2012-08-10T22:20:16">
+    <value>Colocar aquí para reordenar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ExpandTooltip" lastModified="2012-08-10T22:20:16">
+    <value>Ampliar grupo</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ExportToWordImageUrl" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ExportToCsvImageUrl" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ExportToCsvText" lastModified="2012-08-10T22:20:16">
+    <value>Exportar a CSV</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ExportToExcelText" lastModified="2012-08-10T22:20:16">
+    <value>Exportar a Excel</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ExportToPdfText" lastModified="2012-08-10T22:20:16">
+    <value>Exportar a PDF</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ExportToExcelImageUrl" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="DragToResize" lastModified="2012-08-10T22:20:16">
+    <value>Arrastrar para cambiar de tamaño</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ExportToWordText" lastModified="2012-08-10T22:20:16">
+    <value>Exportar a Word</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="FirstPageText" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="FirstPageToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Primera Página</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="FilterExpression" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="GroupContinuedFormatString" lastModified="2012-08-10T22:20:16">
+    <value>... grupo viene de la página anterior.</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="GroupContinuesFormatString" lastModified="2012-08-10T22:20:16">
+    <value>El grupo continúa en la página siguiente.</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="GroupPanelText" lastModified="2012-08-10T22:20:16">
+    <value>Arrastrar un encabezado de columna y soltarlo aquí para agrupar al lado de esa columna</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ExportToPdfImageUrl" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="GroupSplitFormat" lastModified="2012-08-10T22:20:16">
+    <value>({0})</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="GroupSplitDisplayFormat" lastModified="2012-08-10T22:20:16">
+    <value>Mostrando {0} de {1} artículos.</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HierarchyCollapseTooltip" lastModified="2012-08-10T22:20:16">
+    <value>Contraer</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HierarchyExpandTooltip" lastModified="2012-08-10T22:20:16">
+    <value>Expandir</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HierarchySelfCollapseTooltip" lastModified="2012-08-10T22:20:16">
+    <value>Contraer autorreferencia</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="LoadingText" lastModified="2012-08-10T22:20:16">
+    <value>Cargando...</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="LastPageText" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="LastPageToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Última Página</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NextPagesToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Páginas Siguientes</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NoDetailRecordsText" lastModified="2012-08-10T22:20:16">
+    <value>No hay registros hijos para mostrar.</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NoMasterRecordsText" lastModified="2012-08-10T22:20:16">
+    <value>No hay registros que mostrar.</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NextPageToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Página Siguiente</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NextPageText" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="DragToGroupOrReorder" lastModified="2012-08-10T22:20:16">
+    <value>Arrastrar para agrupar o reordenar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="PagerTextFormat" lastModified="2012-08-10T22:20:16">
+    <value>Cambiar página: {4} &amp;nbsp;Página &lt;strong&gt;{0}&lt;/strong&gt; de &lt;strong&gt;{1}&lt;/strong&gt;, artículos &lt;strong&gt;{2}&lt;/strong&gt; a &lt;strong&gt;{3}&lt;/strong&gt; de &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ReservedResource" lastModified="2012-08-10T22:20:16">
+    <value>Por favor, no eliminar esta clave.</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="PrevPagesToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Páginas Anteriores</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="PageSizeLabelText" lastModified="2012-08-10T22:20:16">
+    <value>Tamaño de la página:</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HierarchySelfExpandTooltip" lastModified="2012-08-10T22:20:16">
+    <value>Expandir autorreferencia</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="PrevPageText" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="PrevPageToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Página Anterior</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="PagerTooltipFormatString" lastModified="2012-08-10T22:20:16">
+    <value>Página &lt;strong&gt;{0}&lt;/strong&gt; de &lt;strong&gt;{1}&lt;/strong&gt;</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="RefreshImageUrl" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="Refresh" lastModified="2012-08-10T22:20:16">
+    <value>Actualizar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="SortToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic aquí para ordenar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="DeleteText" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="Summary" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="EndsWithText" lastModified="2012-08-10T22:20:16">
+    <value>AcabaCon</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="UnGroupButtonTooltip" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic aquí para desagrupar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="UnGroupTooltip" lastModified="2012-08-10T22:20:16">
+    <value>Arrastrar fuera de la barra para desagrupar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ContainsText" lastModified="2012-08-10T22:20:16">
+    <value>Contiene</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="CustomText" lastModified="2012-08-10T22:20:16">
+    <value>personalizado</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="BetweenText" lastModified="2012-08-10T22:20:16">
+    <value>Entre</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuBestFitText" lastModified="2012-08-10T22:20:16">
+    <value>Ajuste perfecto</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="EqualToText" lastModified="2012-08-10T22:20:16">
+    <value>IgualA</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="GreaterThanText" lastModified="2012-08-10T22:20:16">
+    <value>MayorQue</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="IsEmptyText" lastModified="2012-08-10T22:20:16">
+    <value>IsEmpty</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="GreaterThanOrEqualToText" lastModified="2012-08-10T22:20:16">
+    <value>MayorOIgualQue</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="LessThanOrEqualToText" lastModified="2012-08-10T22:20:16">
+    <value>LessThanOrEqualTo</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="LessThanText" lastModified="2012-08-10T22:20:16">
+    <value>LessThan</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NoFilterText" lastModified="2012-08-10T22:20:16">
+    <value>NoFilter</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="DoesNotContainText" lastModified="2012-08-10T22:20:16">
+    <value>DoesNotContain</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NotEqualToText" lastModified="2012-08-10T22:20:16">
+    <value>NotEqualTo</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NotBetweenText" lastModified="2012-08-10T22:20:16">
+    <value>NotBetween</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NotIsEmptyText" lastModified="2012-08-10T22:20:16">
+    <value>NotIsEmpty</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="NotIsNullText" lastModified="2012-08-10T22:20:16">
+    <value>NotIsNull</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="StartsWithText" lastModified="2012-08-10T22:20:16">
+    <value>StartsWith</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="GoToPageLinkButtonText" lastModified="2012-08-10T22:20:16">
+    <value>Ir</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ChangePageSizeLinkButtonText" lastModified="2012-08-10T22:20:16">
+    <value>Cambiar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="GoToPageLabelText" lastModified="2012-08-10T22:20:16">
+    <value>Página:</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuAndLabel" lastModified="2012-08-10T22:20:16">
+    <value>Y</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuFilterButton" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuFilterItemText" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuColumns" lastModified="2012-08-10T22:20:16">
+    <value>Columnas</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuClearButton" lastModified="2012-08-10T22:20:16">
+    <value>Borrar Filtro</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="IsNullText" lastModified="2012-08-10T22:20:16">
+    <value>IsNull</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuGroupBy" lastModified="2012-08-10T22:20:16">
+    <value>Agrupar Por</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="CloseText" lastModified="2012-08-10T22:20:16">
+    <value>Cerrar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuSortClear" lastModified="2012-08-10T22:20:16">
+    <value>Borrar Clasificación</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuSortAsc" lastModified="2012-08-10T22:20:16">
+    <value>Orden Ascendente</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="ChangePageSizeLabelText" lastModified="2012-08-10T22:20:16">
+    <value>Tamaño de la página:</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuSortDesc" lastModified="2012-08-10T22:20:16">
+    <value>Ordenar en Forma Ascendente</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuUnGroupBy" lastModified="2012-08-10T22:20:16">
+    <value>Desagrupar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuRowsLabel" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar filas con el valor que</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="FilterImageToolTip" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="PageOfLabelText" lastModified="2012-08-10T22:20:16">
+    <value>de {0}</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="StatusReadyText" lastModified="2012-08-10T22:20:16">
+    <value>Listo</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuCountAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>Recuento</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuCountDistinctAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>CountDistinct</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuSumAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>Sum</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuCustomAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>personalizado</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuFirstAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>Primero</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuMaxAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>Máx</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuMinAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>Mín</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuLastAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>Pasado</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuAvgAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>Avg</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="CancelText" lastModified="2012-08-10T22:20:16">
+    <value>Cancelar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="InsertText" lastModified="2012-08-10T22:20:16">
+    <value>Insertar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="UpdateText" lastModified="2012-08-10T22:20:16">
+    <value>Actualizar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="EditText" lastModified="2012-08-10T22:20:16">
+    <value>Editar</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuNoneAggregateText" lastModified="2012-08-10T22:20:16">
+    <value>Ninguno</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+  <data name="HeaderContextMenuAggregates" lastModified="2012-08-10T22:20:16">
+    <value>Agregados</value>
+    <comment>RadGridMain resource strings.</comment>
+  </data>
+</root>

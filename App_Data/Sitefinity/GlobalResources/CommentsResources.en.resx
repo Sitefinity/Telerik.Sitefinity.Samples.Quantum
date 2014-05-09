@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommentsResourcesTitle" lastModified="2014-04-07T14:32:43">
+    <value>Comments module labels</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="CommentsResourcesDescription" lastModified="2014-04-07T14:32:43">
+    <value>Contains localizable resources for security user interface.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="CommentsPluralTypeName" lastModified="2014-04-07T14:32:43">
+    <value>Comments</value>
+    <comment>Comments class plural</comment>
+  </data>
+  <data name="CommentsSingleTypeName" lastModified="2014-04-07T14:32:43">
+    <value>Comment</value>
+    <comment>Comments class singular</comment>
+  </data>
+  <data name="Comments" lastModified="2014-04-07T14:32:43">
+    <value>Comment</value>
+    <comment>Word: Comments</comment>
+  </data>
+  <data name="CommentsGridCommentCol" lastModified="2014-04-07T14:32:43">
+    <value>Date / Status /  Comment</value>
+    <comment>Phrase: Date / Status /  Comment</comment>
+  </data>
+  <data name="CommentsGridAuthorCol" lastModified="2014-04-07T14:32:43">
+    <value>Author / Email / IP</value>
+    <comment>Phrase: Author / Email / IP</comment>
+  </data>
+  <data name="CommentsGridItemCol" lastModified="2014-04-07T14:32:43">
+    <value>Commented item</value>
+    <comment>Phrase: Commented item</comment>
+  </data>
+  <data name="Spam" lastModified="2014-04-07T14:32:43">
+    <value>Spam</value>
+    <comment>Phrase: Spam</comment>
+  </data>
+  <data name="WaitingApproval" lastModified="2014-04-07T14:32:43">
+    <value>Waiting for approval</value>
+    <comment>Phrase: Waiting for approval</comment>
+  </data>
+  <data name="Published" lastModified="2014-04-07T14:32:43">
+    <value>Published</value>
+    <comment>Phrase: Published</comment>
+  </data>
+  <data name="Hidden" lastModified="2014-04-07T14:32:43">
+    <value>Hidden</value>
+    <comment>Phrase: Hidden</comment>
+  </data>
+  <data name="Hide" lastModified="2014-04-07T14:32:43">
+    <value>Hide</value>
+    <comment>Phrase: Hide</comment>
+  </data>
+  <data name="UnblockIp" lastModified="2014-04-07T14:32:43">
+    <value>Unblock IP</value>
+    <comment>Phrase: Unblock IP</comment>
+  </data>
+  <data name="UnmarkSpam" lastModified="2014-04-07T14:32:43">
+    <value>Unmark as Spam</value>
+    <comment>Phrase: Unmark as Spam</comment>
+  </data>
+  <data name="ReplyComment" lastModified="2014-04-07T14:32:43">
+    <value>Reply to comment</value>
+    <comment>Phrase: Reply to comment</comment>
+  </data>
+  <data name="MarkSpam" lastModified="2014-04-07T14:32:43">
+    <value>Mark as spam</value>
+    <comment>Phrase: Mark as spam</comment>
+  </data>
+  <data name="ManageComments" lastModified="2014-04-07T14:32:43">
+    <value>Manage comments</value>
+    <comment>Phrase: Manage comments</comment>
+  </data>
+  <data name="FilterComments" lastModified="2014-04-07T14:32:43">
+    <value>Filter comments</value>
+    <comment>Phrase:Filter comments</comment>
+  </data>
+  <data name="AllComments" lastModified="2014-04-07T14:32:43">
+    <value>All comments</value>
+    <comment>Phrase:All comments</comment>
+  </data>
+  <data name="MyComments" lastModified="2014-04-07T14:32:43">
+    <value>Comments on my items</value>
+    <comment>Phrase:Comments on my items</comment>
+  </data>
+  <data name="OtherFilterOptions" lastModified="2014-04-07T14:32:43">
+    <value>Other filter options</value>
+    <comment>Phrase:Other filter options</comment>
+  </data>
+  <data name="DisplayCommentsIn" lastModified="2014-04-07T14:32:43">
+    <value>Display comments in...</value>
+    <comment>Phrase:Display comments in...</comment>
+  </data>
+  <data name="CloseDateFilter" lastModified="2014-04-07T14:32:43">
+    <value>Close dates</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+  </data>
+  <data name="ByDateModified" lastModified="2014-04-07T14:32:43">
+    <value>by Date modified...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+  </data>
+  <data name="Settings" lastModified="2014-04-07T14:32:43">
+    <value>Settings for comments</value>
+    <comment>phrase: Settings for comments</comment>
+  </data>
+  <data name="CustomFields" lastModified="2014-04-07T14:32:43">
+    <value>Custom Fields for comments</value>
+    <comment>phrase: Custom Fields for comments</comment>
+  </data>
+  <data name="CommentsTitle" lastModified="2014-04-07T14:32:43">
+    <value>Comments</value>
+    <comment>Control title: Comments</comment>
+  </data>
+  <data name="CommentsDescription" lastModified="2014-04-07T14:32:43">
+    <value>A widget that shows the comments in the particular thread.</value>
+    <comment>Control description: A widget that shows the comments in the particular thread.</comment>
+  </data>
+  <data name="AccessCommentsTitle" lastModified="2014-04-07T14:32:43">
+    <value>Access Comments</value>
+    <comment>Title of the 'AccessCommentsTitle' security action</comment>
+  </data>
+  <data name="AccessCommentsDescription" lastModified="2014-04-07T14:32:43">
+    <value>Security action that allows access to the backend pages of the Comments module</value>
+    <comment>Description of the 'AccessCommentsDescription' security action</comment>
+  </data>
+  <data name="ByContentType" lastModified="2014-04-07T14:32:43">
+    <value>by Content type...</value>
+    <comment>The text of the content filter sidebar button.</comment>
+  </data>
+  <data name="CloseContentFilter" lastModified="2014-04-07T14:32:43">
+    <value>Close content types</value>
+    <comment>The link for closing the content types filter widget in the sidebar.</comment>
+  </data>
+  <data name="ByContentTypeHeader" lastModified="2014-04-07T14:32:43">
+    <value>Comments by content type</value>
+    <comment>The title of the comments filter widget.</comment>
+  </data>
+  <data name="Inappropriate" lastModified="2014-04-07T14:32:43">
+    <value>Inappropriate</value>
+    <comment>Phrase: Inappropriate</comment>
+  </data>
+  <data name="BackToComments" lastModified="2014-04-07T14:32:43">
+    <value>Back to all Comments</value>
+    <comment>Phrase: Back to all Comments</comment>
+  </data>
+  <data name="AllowComments" lastModified="2014-04-07T14:32:43">
+    <value>Allow comments for this item</value>
+    <comment>Phrase: Allow comments for this item</comment>
+  </data>
+  <data name="CloseComments" lastModified="2014-04-07T14:32:43">
+    <value>Close comments for this item</value>
+    <comment>Phrase:  Close comments for this item</comment>
+  </data>
+  <data name="DoNotRequireApproval" lastModified="2014-04-07T14:32:43">
+    <value>Do not require approval</value>
+    <comment>Phrase: Do not require approval</comment>
+  </data>
+  <data name="RequireApproval" lastModified="2014-04-07T14:32:43">
+    <value>Require approval</value>
+    <comment>Phrase: Require approval</comment>
+  </data>
+  <data name="DoNotRequireAuthorizationCaption" lastModified="2014-04-07T14:32:43">
+    <value>Do not require authorization</value>
+    <comment>Phrase: Back to all Comments</comment>
+  </data>
+  <data name="RequireAuthorizationCaption" lastModified="2014-04-07T14:32:43">
+    <value>Require authorization</value>
+    <comment>Phrase: Require authorization</comment>
+  </data>
+  <data name="CommentsOptions" lastModified="2014-04-07T14:32:43">
+    <value>Comments options</value>
+    <comment>Phrase: Comments options</comment>
+  </data>
+  <data name="EditComment" lastModified="2014-04-07T14:32:43">
+    <value>Edit comment</value>
+    <comment>Edit comment dialog title</comment>
+  </data>
+  <data name="Name" lastModified="2014-04-07T14:32:43">
+    <value>Name</value>
+    <comment>word: Name</comment>
+  </data>
+  <data name="Email" lastModified="2014-04-07T14:32:43">
+    <value>Email</value>
+    <comment>word: Email</comment>
+  </data>
+  <data name="PostedOn" lastModified="2014-04-07T14:32:43">
+    <value>Posted on</value>
+    <comment>phrase: Posted on</comment>
+  </data>
+  <data name="IP" lastModified="2014-04-07T14:32:43">
+    <value>IP</value>
+    <comment>phrase: IP address</comment>
+  </data>
+  <data name="MarkAsInappropriate" lastModified="2014-04-07T14:32:43">
+    <value>Mark as inappropriate</value>
+    <comment>phrase: Mark as inappropriate</comment>
+  </data>
+  <data name="UnmarkAsInappropriate" lastModified="2014-04-07T14:32:43">
+    <value>Unmark as inappropriate</value>
+    <comment>phrase: Unmark as inappropriate</comment>
+  </data>
+  <data name="PostedDaysAgo" lastModified="2014-04-07T14:32:43">
+    <value>Posted {0} days ago</value>
+    <comment>phrase: Posted {0} days ago</comment>
+  </data>
+  <data name="PostedHoursAgo" lastModified="2014-04-07T14:32:43">
+    <value>Posted {0} hours ago</value>
+    <comment>phrase: Posted {0} hours ago</comment>
+  </data>
+  <data name="PostedMinutesAgo" lastModified="2014-04-07T14:32:43">
+    <value>Posted {0} minutes ago</value>
+    <comment>phrase: Posted {0} minutes ago</comment>
+  </data>
+  <data name="CommentsCountBackend" lastModified="2014-04-07T14:32:43">
+    <value>All {0} comments</value>
+    <comment>phrase: All {0} comments</comment>
+  </data>
+  <data name="ViewItem" lastModified="2014-04-07T14:32:43">
+    <value>View item</value>
+    <comment>phrase: View item</comment>
+  </data>
+  <data name="NoComments" lastModified="2014-04-07T14:32:43">
+    <value>No comments have been submitted yet</value>
+    <comment>phrase: No comments have been submitted yet</comment>
+  </data>
+  <data name="SettingForComments" lastModified="2014-04-07T14:32:43">
+    <value>Comment settings</value>
+    <comment>phrase: Comment settings</comment>
+  </data>
+  <data name="AnonymousUser" lastModified="2014-04-07T14:32:43">
+    <value>Anonymous user</value>
+    <comment>phrase: Anonymous user</comment>
+  </data>
+  <data name="PageComments" lastModified="2014-04-07T14:32:43">
+    <value>Page Comments</value>
+    <comment>phrase: Page Comments</comment>
+  </data>
+  <data name="Reply" lastModified="2014-04-07T14:32:43">
+    <value>Reply</value>
+    <comment>Word: Reply</comment>
+  </data>
+  <data name="CancelReply" lastModified="2014-04-07T14:32:43">
+    <value>Cancel reply</value>
+    <comment>Phrase: Cancel reply</comment>
+  </data>
+  <data name="LeaveComment" lastModified="2014-04-07T14:32:43">
+    <value>Leave a comment</value>
+    <comment>Phrase: Leave a comment</comment>
+  </data>
+  <data name="ShowOldestOnTop" lastModified="2014-04-07T14:32:43">
+    <value>Show oldest on top</value>
+    <comment>Phrase: Show oldest on top</comment>
+  </data>
+  <data name="ShowNewestOnTop" lastModified="2014-04-07T14:32:43">
+    <value>Show newest on top</value>
+    <comment>Phrase: Show newest on top</comment>
+  </data>
+  <data name="LoadMoreComments" lastModified="2014-04-07T14:32:43">
+    <value>Load more comments</value>
+    <comment>Phrase: Load more comments</comment>
+  </data>
+  <data name="CommentsCount" lastModified="2014-04-07T14:32:43">
+    <value>{0} comments</value>
+    <comment>Shows label with comments count</comment>
+  </data>
+  <data name="CommentCount" lastModified="2014-04-07T14:32:43">
+    <value>{0} comment</value>
+    <comment>phrase: Shows label with comment count, single</comment>
+  </data>
+  <data name="NinetyNinePlus" lastModified="2014-04-07T14:32:43">
+    <value>99+</value>
+    <comment>phrase: 99+</comment>
+  </data>
+  <data name="NewCommentsCount" lastModified="2014-04-07T14:32:43">
+    <value>Show {0} new comments</value>
+    <comment>Shows label with new comments count</comment>
+  </data>
+  <data name="NameWatermark" lastModified="2014-04-07T14:32:43">
+    <value>Your name</value>
+    <comment>phrase: Your name</comment>
+  </data>
+  <data name="EmailWatermark" lastModified="2014-04-07T14:32:43">
+    <value>Email (optional)</value>
+    <comment>phrase: Email (optional)</comment>
+  </data>
+  <data name="ReplyToComment" lastModified="2014-04-07T14:32:43">
+    <value>Reply to {0}'s &lt;a class= 'a-comment'&gt;comment&lt;/a&gt;</value>
+    <comment>Shows text when replying to existing comment</comment>
+  </data>
+  <data name="ThreadKeyText" lastModified="2014-04-07T14:32:43">
+    <value>Custom content type or ID associated to comments</value>
+    <comment>phrase: Custom content type or ID associated to comments</comment>
+  </data>
+  <data name="ThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>Title (used in Comments Backend)</value>
+    <comment>phrase: Title (used in Comments Backend)</comment>
+  </data>
+  <data name="ClosedThreadText" lastModified="2014-04-07T14:32:43">
+    <value>Comments are not allowed anymore</value>
+    <comment>The text that will be displayed when the thread is closed</comment>
+  </data>
+  <data name="RequiredApprovalMessage" lastModified="2014-04-07T14:32:43">
+    <value>Thank you for the comment! Your comment must be approved first</value>
+    <comment>The text that will be displayed when requires approval is set for this thread</comment>
+  </data>
+  <data name="RestrictToAuthenticatedText" lastModified="2014-04-07T14:32:43">
+    <value>&lt;a href='{0}'&gt;Login&lt;/a&gt; to be able to comment</value>
+    <comment>The text that will be displayed when the thread is restricted to authenticated users</comment>
+  </data>
+  <data name="CommentsForm" lastModified="2014-04-07T14:32:43">
+    <value>Comments form</value>
+    <comment>phrase:Comments form</comment>
+  </data>
+  <data name="CommentsListViewTemplateName" lastModified="2014-04-07T14:32:43">
+    <value>Comments list</value>
+    <comment>phrase: Comments list</comment>
+  </data>
+  <data name="CommentsTemplate" lastModified="2014-04-07T14:32:43">
+    <value>Comments template</value>
+    <comment>Comments template label in designer</comment>
+  </data>
+  <data name="SubmitCommentTemplate" lastModified="2014-04-07T14:32:43">
+    <value>Submit comment view template</value>
+    <comment>Submit comment view template label in designer</comment>
+  </data>
+  <data name="SubmitCommentUnauthenticatedTemplate" lastModified="2014-04-07T14:32:43">
+    <value>Submit comment view template for unauthenticated user</value>
+    <comment>Submit comment view template label for unauthenticated user in designer</comment>
+  </data>
+  <data name="CommentsListViewTemplate" lastModified="2014-04-07T14:32:43">
+    <value>Comments list view template</value>
+    <comment>Comments List View template label in designer</comment>
+  </data>
+  <data name="CaptchavalidationError" lastModified="2014-04-07T14:32:43">
+    <value>You typed the code incorrectly. Please try again</value>
+    <comment>You typed the code incorrectly. Please try again</comment>
+  </data>
+  <data name="CannotSubmitInvalidCommentArgs" lastModified="2014-04-07T14:32:43">
+    <value>Comment cannot be submitted at the moment. The comment data arguments are not valid.</value>
+    <comment>Comment cannot be submitted at the moment. The comment data arguments are not valid.</comment>
+  </data>
+  <data name="CannotSubmitInvalidThreadArgs" lastModified="2014-04-07T14:32:43">
+    <value>Comment cannot be submitted at the moment. The thread data arguments are not valid.</value>
+    <comment>Comment cannot be submitted at the moment. The thread data arguments are not valid.</comment>
+  </data>
+  <data name="CannotSubmitInvalidGroupArgs" lastModified="2014-04-07T14:32:43">
+    <value>Comment cannot be submitted at the moment. The group data arguments are not valid.</value>
+    <comment>Comment cannot be submitted at the moment. The group data arguments are not valid.</comment>
+  </data>
+  <data name="CannotSubmitCommentMessage" lastModified="2014-04-07T14:32:43">
+    <value>Comment cannot be submitted at the moment. Please refresh the page and try again.</value>
+    <comment>Comment cannot be submitted at the moment. Please refresh the page and try again.</comment>
+  </data>
+  <data name="NewCode" lastModified="2014-04-07T14:32:43">
+    <value>New code</value>
+    <comment>phrase: New code</comment>
+  </data>
+  <data name="TypeCodeAbove" lastModified="2014-04-07T14:32:43">
+    <value>Please type the code above</value>
+    <comment>phrase: Please type the code above</comment>
+  </data>
+  <data name="CommentsUrlName" lastModified="2014-04-07T14:32:43">
+    <value>Comments</value>
+    <comment>phrase: Comments Url Name</comment>
+  </data>
+  <data name="EmptyCommentErrorMessage" lastModified="2014-04-07T14:32:43">
+    <value>Comment cannot be empty</value>
+    <comment>phrase: Comment cannot be empty</comment>
+  </data>
+  <data name="SubscribeToComments" lastModified="2014-04-07T14:32:43">
+    <value>Subscribe to new comments</value>
+    <comment>The text that will appear when the user could subscribe to comments</comment>
+  </data>
+  <data name="CurrentlySubscribed" lastModified="2014-04-07T14:32:43">
+    <value>You are subscribed to new comments</value>
+    <comment>The text that will appear when the user could unsubscribe to comments</comment>
+  </data>
+  <data name="SuccessfullySubscribed" lastModified="2014-04-07T14:32:43">
+    <value>You are successfully subscribed to new comments</value>
+    <comment>Text that will appear once you subscribe to comments</comment>
+  </data>
+  <data name="SuccessfullyUnsubscribed" lastModified="2014-04-07T14:32:43">
+    <value>You are successfully unsubscribed to new comments</value>
+    <comment>Text that will appear once you unsubscribe to comments</comment>
+  </data>
+  <data name="SubmitFormRatingLabel" lastModified="2014-04-07T14:32:43">
+    <value>Rating:</value>
+    <comment>The label displayed before the rating control in the Comments Submit Form</comment>
+  </data>
+  <data name="AverageRating" lastModified="2014-04-07T14:32:43">
+    <value>Average rating:</value>
+    <comment>phrase: Average Rating</comment>
+  </data>
+  <data name="Rating" lastModified="2014-04-07T14:32:43">
+    <value>Rating</value>
+    <comment>phrase : Rating</comment>
+  </data>
+  <data name="Reviews" lastModified="2014-04-07T14:32:43">
+    <value>reviews</value>
+    <comment>phrase: reviews</comment>
+  </data>
+  <data name="AverageRatingBasedOnPublishedItems" lastModified="2014-04-07T14:32:43">
+    <value>Based on published items</value>
+    <comment>phrase: Based on published items</comment>
+  </data>
+  <data name="WriteAReview" lastModified="2014-04-07T14:32:43">
+    <value>Write a review</value>
+    <comment>phrase: Write a review</comment>
+  </data>
+  <data name="NoRatingErrorMessage" lastModified="2014-04-07T14:32:43">
+    <value>Rating is required</value>
+    <comment>phrase: Rating is required</comment>
+  </data>
+  <data name="RatingIsRequiredMessage" lastModified="2014-04-07T14:32:43">
+    <value>Comment cannot be submitted without rating.</value>
+    <comment>A message displayed when ratings are allowed and a comment is submitted without rating.</comment>
+  </data>
+  <data name="OnlyOneCommentWithRatingAllowedMessage" lastModified="2014-04-07T14:32:43">
+    <value>Only one comment with rating is allowed per user.</value>
+    <comment>An error message displayed when multiple comments with rating per user are submitted.</comment>
+  </data>
+  <data name="All" lastModified="2014-04-07T14:32:43">
+    <value>All</value>
+    <comment>Phrase: All</comment>
+  </data>
+  <data name="WithRating" lastModified="2014-04-07T14:32:43">
+    <value>With Rating</value>
+    <comment>Phrase:With Rating</comment>
+  </data>
+  <data name="CommentsFor" lastModified="2014-04-07T14:32:43">
+    <value>Comments for</value>
+    <comment>phrase: Comments for</comment>
+  </data>
+  <data name="ProductsThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>Products</value>
+    <comment>phrase: Products</comment>
+  </data>
+  <data name="FormsThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>Forms</value>
+    <comment>phrase: Forms</comment>
+  </data>
+  <data name="DocumentsThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>Documents</value>
+    <comment>phrase: Documents</comment>
+  </data>
+  <data name="ImagesThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>Images</value>
+    <comment>phrase: Images</comment>
+  </data>
+  <data name="VideosThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>Videos</value>
+    <comment>phrase: Videos</comment>
+  </data>
+  <data name="BlogPostsThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>Blog posts</value>
+    <comment>phrase: Blog posts</comment>
+  </data>
+  <data name="EventsThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>Events</value>
+    <comment>phrase: Events</comment>
+  </data>
+  <data name="ListItemsThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>List items</value>
+    <comment>phrase: List items</comment>
+  </data>
+  <data name="NewsItemsThreadTitle" lastModified="2014-04-07T14:32:43">
+    <value>News</value>
+    <comment>phrase: News</comment>
+  </data>
+  <data name="ReviewCount" lastModified="2014-04-07T14:32:43">
+    <value>{0} review</value>
+    <comment>phrase: Shows label with review count, single</comment>
+  </data>
+  <data name="ReviewsCount" lastModified="2014-04-07T14:32:43">
+    <value>{0} reviews</value>
+    <comment>phrase: Shows label with reviews count</comment>
+  </data>
+  <data name="RequiredApprovalMessageReviews" lastModified="2014-04-07T14:32:43">
+    <value>Thank you for the review! Your review must be approved first</value>
+    <comment>The text that will be displayed when requires approval is set for this thread and ratings are enabled</comment>
+  </data>
+  <data name="WithoutRating" lastModified="2014-04-07T14:32:43">
+    <value>Without Rating</value>
+    <comment>Phrase:Without Rating</comment>
+  </data>
+  <data name="Review" lastModified="2014-04-07T14:32:43">
+    <value>review</value>
+    <comment>phrase: review</comment>
+  </data>
+  <data name="AlreadySubmittedReviewMessage" lastModified="2014-04-07T14:32:43">
+    <value>You've already submitted a review for this item</value>
+    <comment>The text that will be displayed when the user has already submitted a review</comment>
+  </data>
+  <data name="ReviewSubmittedSuccessfullyMessage" lastModified="2014-04-07T14:32:43">
+    <value>Thank you! Your review has been submitted successfully</value>
+    <comment>The text that is displayed when a review is submitted successfully</comment>
+  </data>
+  <data name="ReviewsTitle" lastModified="2014-04-07T14:32:43">
+    <value>Reviews</value>
+    <comment>Control title: Reviews</comment>
+  </data>
+  <data name="SubscribeToReviews" lastModified="2014-04-07T14:32:43">
+    <value>Subscribe to new reviews</value>
+    <comment>The text that will appear when the user could subscribe to reviews</comment>
+  </data>
+  <data name="CurrentlySubscribedToReviews" lastModified="2014-04-07T14:32:43">
+    <value>You are subscribed to new reviews</value>
+    <comment>The text that will appear when the user could unsubscribe to reviews</comment>
+  </data>
+  <data name="SuccessfullySubscribedToReviews" lastModified="2014-04-07T14:32:43">
+    <value>You are successfully subscribed to new reviews</value>
+    <comment>Text that will appear once you subscribe to reviews</comment>
+  </data>
+  <data name="SuccessfullyUnsubscribedFromReviews" lastModified="2014-04-07T14:32:43">
+    <value>You are successfully unsubscribed to new reviews</value>
+    <comment>Text that will appear once you unsubscribe to new reviews</comment>
+  </data>
+  <data name="RestrictToAuthenticatedReviewText" lastModified="2014-04-07T14:32:43">
+    <value>&lt;a href='{0}'&gt;Login&lt;/a&gt; to be able to write a review</value>
+    <comment>The text that will be displayed when the thread is restricted to authenticated users</comment>
+  </data>
+  <data name="EmptyReviewErrorMessage" lastModified="2014-04-07T14:32:43">
+    <value>Review cannot be empty</value>
+    <comment>phrase: Review cannot be empty</comment>
+  </data>
+</root>

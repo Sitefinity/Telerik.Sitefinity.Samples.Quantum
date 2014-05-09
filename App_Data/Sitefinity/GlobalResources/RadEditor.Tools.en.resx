@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RadEditorToolsTitle" lastModified="2014-04-07T14:32:44">
+    <value>RadEditor Tools</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="RadEditorToolsTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>RadEditor Tools</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="RadEditorToolsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Resource strings for RadEditor Tools</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+    <value>Please, do not delete this string. RadEditor needs it to determine if an external resource file is present in App_GlobalResources.</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="AboutDialog" lastModified="2014-04-07T14:32:44">
+    <value>About RadEditor</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="AbsolutePosition" lastModified="2014-04-07T14:32:44">
+    <value>Set Absolute Position</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="AjaxSpellCheck" lastModified="2014-04-07T14:32:44">
+    <value>AJAX Spellchecker</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ApplyClass" lastModified="2014-04-07T14:32:44">
+    <value>Apply CSS Class</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="BackColor" lastModified="2014-04-07T14:32:44">
+    <value>Background Color</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Bold" lastModified="2014-04-07T14:32:44">
+    <value>Bold</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ConvertToLower" lastModified="2014-04-07T14:32:44">
+    <value>Convert to lower case</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ConvertToUpper" lastModified="2014-04-07T14:32:44">
+    <value>Convert to upper case</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Copy" lastModified="2014-04-07T14:32:44">
+    <value>Copy</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Cut" lastModified="2014-04-07T14:32:44">
+    <value>Cut</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="DecreaseSize" lastModified="2014-04-07T14:32:44">
+    <value>Decrease Size</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="DeleteCell" lastModified="2014-04-07T14:32:44">
+    <value>Delete Cell</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="DeleteColumn" lastModified="2014-04-07T14:32:44">
+    <value>Delete Column</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="DeleteRow" lastModified="2014-04-07T14:32:44">
+    <value>Delete Row</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="DeleteTable" lastModified="2014-04-07T14:32:44">
+    <value>Delete Table</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="DocumentManager" lastModified="2014-04-07T14:32:44">
+    <value>Document Manager</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FindAndReplace" lastModified="2014-04-07T14:32:44">
+    <value>Find And Replace</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FlashManager" lastModified="2014-04-07T14:32:44">
+    <value>Flash Manager</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FontName" lastModified="2014-04-07T14:32:44">
+    <value>Font Name</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FontSize" lastModified="2014-04-07T14:32:44">
+    <value>Size</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ForeColor" lastModified="2014-04-07T14:32:44">
+    <value>Foreground Color</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FormatBlock" lastModified="2014-04-07T14:32:44">
+    <value>Paragraph Style</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FormatCodeBlock" lastModified="2014-04-07T14:32:44">
+    <value>Format Code Block</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FormatStripper" lastModified="2014-04-07T14:32:44">
+    <value>Format Stripper</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Help" lastModified="2014-04-07T14:32:44">
+    <value>Help</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ImageManager" lastModified="2014-04-07T14:32:44">
+    <value>Image Manager</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ImageMapDialog" lastModified="2014-04-07T14:32:44">
+    <value>Image Map Editor</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="IncreaseSize" lastModified="2014-04-07T14:32:44">
+    <value>Increase Size</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Indent" lastModified="2014-04-07T14:32:44">
+    <value>Indent</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertAnchor" lastModified="2014-04-07T14:32:44">
+    <value>Insert Anchor</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertColumnLeft" lastModified="2014-04-07T14:32:44">
+    <value>Insert Column to the Left</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertColumnRight" lastModified="2014-04-07T14:32:44">
+    <value>Insert Column to the Right</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertCustomLink" lastModified="2014-04-07T14:32:44">
+    <value>Custom Links</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertDate" lastModified="2014-04-07T14:32:44">
+    <value>Insert Date</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertEmailLink" lastModified="2014-04-07T14:32:44">
+    <value>Insert Email Link</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormButton" lastModified="2014-04-07T14:32:44">
+    <value>Insert Button</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormCheckbox" lastModified="2014-04-07T14:32:44">
+    <value>Insert Checkbox</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormElement" lastModified="2014-04-07T14:32:44">
+    <value>Insert Form Element</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormForm" lastModified="2014-04-07T14:32:44">
+    <value>Insert Form</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormHidden" lastModified="2014-04-07T14:32:44">
+    <value>Insert Hidden</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormPassword" lastModified="2014-04-07T14:32:44">
+    <value>Insert Password</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormRadio" lastModified="2014-04-07T14:32:44">
+    <value>Insert Radio</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormReset" lastModified="2014-04-07T14:32:44">
+    <value>Insert Reset</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormSelect" lastModified="2014-04-07T14:32:44">
+    <value>Insert Select</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormSubmit" lastModified="2014-04-07T14:32:44">
+    <value>Insert Submit</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormText" lastModified="2014-04-07T14:32:44">
+    <value>Insert Textbox</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertFormTextarea" lastModified="2014-04-07T14:32:44">
+    <value>Insert Textarea</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertGroupbox" lastModified="2014-04-07T14:32:44">
+    <value>Insert Groupbox</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertHorizontalRule" lastModified="2014-04-07T14:32:44">
+    <value>Horizontal Rule</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertOrderedList" lastModified="2014-04-07T14:32:44">
+    <value>Numbered List</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertParagraph" lastModified="2014-04-07T14:32:44">
+    <value>New Paragraph</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertRowAbove" lastModified="2014-04-07T14:32:44">
+    <value>Insert Row Above</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertRowBelow" lastModified="2014-04-07T14:32:44">
+    <value>Insert Row Below</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertSnippet" lastModified="2014-04-07T14:32:44">
+    <value>Insert Code Snippet</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertSymbol" lastModified="2014-04-07T14:32:44">
+    <value>Insert Symbol</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertTable" lastModified="2014-04-07T14:32:44">
+    <value>Insert Table</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertTime" lastModified="2014-04-07T14:32:44">
+    <value>Insert Time</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertUnorderedList" lastModified="2014-04-07T14:32:44">
+    <value>Bullet List</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Italic" lastModified="2014-04-07T14:32:44">
+    <value>Italic</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="JustifyCenter" lastModified="2014-04-07T14:32:44">
+    <value>Align Center</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="JustifyFull" lastModified="2014-04-07T14:32:44">
+    <value>Justify</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="JustifyLeft" lastModified="2014-04-07T14:32:44">
+    <value>Align Left</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="JustifyNone" lastModified="2014-04-07T14:32:44">
+    <value>Remove alignment</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="JustifyRight" lastModified="2014-04-07T14:32:44">
+    <value>Align Right</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="LinkManager" lastModified="2014-04-07T14:32:44">
+    <value>Hyperlink Manager</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="MediaManager" lastModified="2014-04-07T14:32:44">
+    <value>Media Manager</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="MergeColumns" lastModified="2014-04-07T14:32:44">
+    <value>Merge Cells Horizontally</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="MergeRows" lastModified="2014-04-07T14:32:44">
+    <value>Merge Cells Vertically</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ModuleManager" lastModified="2014-04-07T14:32:44">
+    <value>Module Manager</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Outdent" lastModified="2014-04-07T14:32:44">
+    <value>Outdent</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="PageProperties" lastModified="2014-04-07T14:32:44">
+    <value>Page Properties</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Paste" lastModified="2014-04-07T14:32:44">
+    <value>Paste</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="PasteAsHtml" lastModified="2014-04-07T14:32:44">
+    <value>Paste As Html</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="PasteFromWord" lastModified="2014-04-07T14:32:44">
+    <value>Paste from Word</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="PasteFromWordNoFontsNoSizes" lastModified="2014-04-07T14:32:44">
+    <value>Paste from Word, strip font</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="PastePlainText" lastModified="2014-04-07T14:32:44">
+    <value>Paste Plain Text</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="PasteStrip" lastModified="2014-04-07T14:32:44">
+    <value>Paste Options</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Print" lastModified="2014-04-07T14:32:44">
+    <value>Print</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="RealFontSize" lastModified="2014-04-07T14:32:44">
+    <value>Real font size</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Redo" lastModified="2014-04-07T14:32:44">
+    <value>Redo</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="RepeatLastCommand" lastModified="2014-04-07T14:32:44">
+    <value>Repeat Last Command</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="SelectAll" lastModified="2014-04-07T14:32:44">
+    <value>Select All</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="SetCellProperties" lastModified="2014-04-07T14:32:44">
+    <value>Cell Properties</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="SetImageProperties" lastModified="2014-04-07T14:32:44">
+    <value>Properties...</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="SetLinkProperties" lastModified="2014-04-07T14:32:44">
+    <value>Properties...</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="SetTableProperties" lastModified="2014-04-07T14:32:44">
+    <value>Table Properties</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="SpellCheck" lastModified="2014-04-07T14:32:44">
+    <value>Spellchecker</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="SplitCell" lastModified="2014-04-07T14:32:44">
+    <value>Split Cell Vertically</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="StrikeThrough" lastModified="2014-04-07T14:32:44">
+    <value>Strikethrough</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="StripAll" lastModified="2014-04-07T14:32:44">
+    <value>Strip All Formatting</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="StripCss" lastModified="2014-04-07T14:32:44">
+    <value>Strip Css Formatting</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="StripFont" lastModified="2014-04-07T14:32:44">
+    <value>Strip Font Elements</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="StripSpan" lastModified="2014-04-07T14:32:44">
+    <value>Strip Span Elements</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="StripWord" lastModified="2014-04-07T14:32:44">
+    <value>Strip Word Formatting</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="StyleBuilder" lastModified="2014-04-07T14:32:44">
+    <value>Style Builder</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Subscript" lastModified="2014-04-07T14:32:44">
+    <value>Subscript</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Superscript" lastModified="2014-04-07T14:32:44">
+    <value>SuperScript</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="TableWizard" lastModified="2014-04-07T14:32:44">
+    <value>Table Wizard</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="TemplateManager" lastModified="2014-04-07T14:32:44">
+    <value>Template Manager</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ToggleDocking" lastModified="2014-04-07T14:32:44">
+    <value>Dock all Floating Toolbars/Modules</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ToggleScreenMode" lastModified="2014-04-07T14:32:44">
+    <value>Toggle Full Screen Mode</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ToggleTableBorder" lastModified="2014-04-07T14:32:44">
+    <value>Show/Hide Border</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Underline" lastModified="2014-04-07T14:32:44">
+    <value>Underline</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Undo" lastModified="2014-04-07T14:32:44">
+    <value>Undo</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Unlink" lastModified="2014-04-07T14:32:44">
+    <value>Remove Link</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Zoom" lastModified="2014-04-07T14:32:44">
+    <value>Zoom</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ImageEditor" lastModified="2014-04-07T14:32:44">
+    <value>Image Editor</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="SilverlightManager" lastModified="2014-04-07T14:32:44">
+    <value>Silverlight Manager</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="TrackChangesDialog" lastModified="2014-04-07T14:32:44">
+    <value>[Obsolete] Track Changes</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="XhtmlValidator" lastModified="2014-04-07T14:32:44">
+    <value>XHTML Validator</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="SplitCellHorizontal" lastModified="2014-04-07T14:32:44">
+    <value>Split Cell Horizontally</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertImage" lastModified="2014-04-07T14:32:44">
+    <value>Insert Image</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertLink" lastModified="2014-04-07T14:32:44">
+    <value>Insert Link</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="PasteHtml" lastModified="2014-04-07T14:32:44">
+    <value>Paste Html</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertTableLight" lastModified="2014-04-07T14:32:44">
+    <value>Insert Table</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ToggleFloatingToolbar" lastModified="2014-04-07T14:32:44">
+    <value>Toggle Floating Toolbar</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="CSDialog" lastModified="2014-04-07T14:32:44">
+    <value>Compliance Check</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Enter" lastModified="2014-04-07T14:32:44">
+    <value>Enter Pressed</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Clipboard" lastModified="2014-04-07T14:32:44">
+    <value>Clipboard</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Home" lastModified="2014-04-07T14:32:44">
+    <value>Home</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Content" lastModified="2014-04-07T14:32:44">
+    <value>Content</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Editing" lastModified="2014-04-07T14:32:44">
+    <value>Editing</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Font" lastModified="2014-04-07T14:32:44">
+    <value>Font</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Insert" lastModified="2014-04-07T14:32:44">
+    <value>Insert</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Links" lastModified="2014-04-07T14:32:44">
+    <value>Links</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Media" lastModified="2014-04-07T14:32:44">
+    <value>Media</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Paragraph" lastModified="2014-04-07T14:32:44">
+    <value>Paragraph</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Preferences" lastModified="2014-04-07T14:32:44">
+    <value>Preferences</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Proofing" lastModified="2014-04-07T14:32:44">
+    <value>Proofing</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Review" lastModified="2014-04-07T14:32:44">
+    <value>Review</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Styles" lastModified="2014-04-07T14:32:44">
+    <value>Styles</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="Tables" lastModified="2014-04-07T14:32:44">
+    <value>Tables</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="View" lastModified="2014-04-07T14:32:44">
+    <value>View</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="InsertExternalVideo" lastModified="2014-04-07T14:32:44">
+    <value>Insert External Video</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ColorPicker" lastModified="2014-04-07T14:32:44">
+    <value>ColorPicker</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="AlignmentSelector" lastModified="2014-04-07T14:32:44">
+    <value>Alignment selector</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FormatSets" lastModified="2014-04-07T14:32:44">
+    <value>Format Sets</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="ToggleAdvancedToolbars" lastModified="2014-04-07T14:32:44">
+    <value>Toggle advanced toolbars</value>
+    <comment>RadEditor resource strings.</comment>
+  </data>
+  <data name="PasteMarkdown" lastModified="2014-04-07T14:32:44">
+    <value>Paste Markdown</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FormatPainter" lastModified="2014-04-07T14:32:44">
+    <value>Format Painter</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FormatPainterApply" lastModified="2014-04-07T14:32:44">
+    <value>Apply Format</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FormatPainterClear" lastModified="2014-04-07T14:32:44">
+    <value>Clear Format</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+  <data name="FormatPainterCopy" lastModified="2014-04-07T14:32:44">
+    <value>Copy Format</value>
+    <comment>RadEditorTools resource strings.</comment>
+  </data>
+</root>

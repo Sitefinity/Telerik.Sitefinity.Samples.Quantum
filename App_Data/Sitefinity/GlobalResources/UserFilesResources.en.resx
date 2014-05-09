@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UserFilesResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>User files module labels</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="UserFilesResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>User files module labels</value>
+    <comment>Contains localizable resources for user files.</comment>
+  </data>
+  <data name="UserFiles" lastModified="2014-04-07T14:32:44">
+    <value>User files</value>
+    <comment>Phrase: User Files</comment>
+  </data>
+  <data name="FolderResourceTitle" lastModified="2014-04-07T14:32:44">
+    <value>Folder</value>
+    <comment>Word: Folder</comment>
+  </data>
+  <data name="UserFilesNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>User files</value>
+    <comment>User files</comment>
+  </data>
+  <data name="UserFilesModuleTitle" lastModified="2014-04-07T14:32:44">
+    <value>User files</value>
+    <comment>User files</comment>
+  </data>
+  <data name="UserFilesModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>User files</value>
+    <comment>User files</comment>
+  </data>
+  <data name="UserFileModuleUrlName" lastModified="2014-04-07T14:32:44">
+    <value>User-files</value>
+    <comment>User files</comment>
+  </data>
+  <data name="Items" lastModified="2014-04-07T14:32:44">
+    <value>items</value>
+    <comment>items</comment>
+  </data>
+  <data name="EditUserFile" lastModified="2014-04-07T14:32:44">
+    <value>Edit a User file</value>
+    <comment>Edit a System folder</comment>
+  </data>
+  <data name="UserFileName" lastModified="2014-04-07T14:32:44">
+    <value>User file name</value>
+    <comment>The 'User file name' label.</comment>
+  </data>
+  <data name="UserFileNameExample" lastModified="2014-04-07T14:32:44">
+    <value>Example: Downloadable goods</value>
+    <comment>The example on how to fill user file name field</comment>
+  </data>
+  <data name="UserFileNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>System folder name cannot be empty</value>
+    <comment>The message shown when the user file name is empty.</comment>
+  </data>
+  <data name="Description" lastModified="2014-04-07T14:32:44">
+    <value>Description</value>
+    <comment>The 'Description' label.</comment>
+  </data>
+  <data name="UserFileDescription" lastModified="2014-04-07T14:32:44">
+    <value>The description of this user file.</value>
+    <comment>The description of the Description field in the user file form.</comment>
+  </data>
+  <data name="BackToAllUserFiles" lastModified="2014-04-07T14:32:44">
+    <value>Back to all User files</value>
+    <comment>The label for link to return to all user files.</comment>
+  </data>
+  <data name="UploadFilesButton" lastModified="2014-04-07T14:32:44">
+    <value>Upload files</value>
+    <comment>Upload files</comment>
+  </data>
+  <data name="UploadFiles" lastModified="2014-04-07T14:32:44">
+    <value>Upload files</value>
+    <comment>Upload files</comment>
+  </data>
+  <data name="ManageUserFileLibraries" lastModified="2014-04-07T14:32:44">
+    <value>Manage User files</value>
+    <comment>The text of 'Manage User files' link.</comment>
+  </data>
+  <data name="FilterUserFiles" lastModified="2014-04-07T14:32:44">
+    <value>Filter User files</value>
+    <comment>phrase: Filter User files</comment>
+  </data>
+  <data name="AllLibraries" lastModified="2014-04-07T14:32:44">
+    <value>All libraries</value>
+    <comment>phrase: All libraries</comment>
+  </data>
+  <data name="MyLibraries" lastModified="2014-04-07T14:32:44">
+    <value>My libraries</value>
+    <comment>phrase: My libraries</comment>
+  </data>
+  <data name="BackToAllLibraries" lastModified="2014-04-07T14:32:44">
+    <value>Back to user files</value>
+    <comment>phrase: Back to user files</comment>
+  </data>
+  <data name="PermissionsForUserFiles" lastModified="2014-04-07T14:32:44">
+    <value>Permissions for User files</value>
+    <comment>The 'Permissions for User files' label in the permissions dialog.</comment>
+  </data>
+  <data name="UserFilesDocumentsTitle" lastModified="2014-04-07T14:32:44">
+    <value>User files Documents</value>
+    <comment>Title of the user files at Documents page.</comment>
+  </data>
+  <data name="UserFilesDocumentsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>User files Documents</value>
+    <comment>Html Title of the UserFilesDocuments page.</comment>
+  </data>
+  <data name="UserFilesDocumentsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>UserFilesDocuments</value>
+    <comment>Documents page for selected user file library.</comment>
+  </data>
+  <data name="UserFilesDocumentsDescription" lastModified="2014-04-07T14:32:44">
+    <value>User files Documents Description</value>
+    <comment>Description of the UserFileDocuments page</comment>
+  </data>
+  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+    <value>Back to User files</value>
+    <comment>The back to all user files button</comment>
+  </data>
+  <data name="UserFileDocumentsTitleFormat" lastModified="2014-04-07T14:32:44">
+    <value>{0}</value>
+    <comment>UserFile Documents Title Format</comment>
+  </data>
+  <data name="ManageUserFiles" lastModified="2014-04-07T14:32:44">
+    <value>Manage User files</value>
+    <comment>Manage User files</comment>
+  </data>
+  <data name="FilterDocumentsInThisFolder" lastModified="2014-04-07T14:32:44">
+    <value>Filter items in this folder</value>
+    <comment>Filter items in this folder</comment>
+  </data>
+  <data name="SettingsForUserFiles" lastModified="2014-04-07T14:32:44">
+    <value>Settings for User files</value>
+    <comment>Settings for User files</comment>
+  </data>
+  <data name="CreateThisLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Create this library</value>
+    <comment>The text of 'Create this library', for user files</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>Saves the edited item changes</comment>
+  </data>
+  <data name="CannotDeleteDefaultUserFileLibraries" lastModified="2014-04-07T14:32:44">
+    <value>You cannot delete this user file library as it is a default library</value>
+    <comment>You cannot delete this user file library as it is a default library</comment>
+  </data>
+</root>

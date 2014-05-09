@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RadImageEditorDialogsTitle" lastModified="2014-04-07T14:32:44">
+    <value>RadImageEditor Dialogs</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="RadImageEditorDialogsTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>RadImageEditor Dialogs</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="RadImageEditorDialogsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Resource strings for RadImageEditor Dialogs.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="AddText_Color" lastModified="2014-04-07T14:32:44">
+    <value>Color</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="AddText_ColorToolTip" lastModified="2014-04-07T14:32:44">
+    <value>The color of the text to add</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="AddText_CurrentColorText" lastModified="2014-04-07T14:32:44">
+    <value>(Current Color is {0})</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="AddText_FontFamily" lastModified="2014-04-07T14:32:44">
+    <value>Font Family</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="AddText_FontFamilyToolTip" lastModified="2014-04-07T14:32:44">
+    <value>The font family of the text to add</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="AddText_FontSize" lastModified="2014-04-07T14:32:44">
+    <value>Font Size</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="AddText_FontSizeToolTip" lastModified="2014-04-07T14:32:44">
+    <value>The size of the text to add</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="AddText_PickColorToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Pick Color</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="AddText_SampleText" lastModified="2014-04-07T14:32:44">
+    <value>Your text here...</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="AddText_Title" lastModified="2014-04-07T14:32:44">
+    <value>Insert Text</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="BrightnessContrast_ApplyBtn_Text" lastModified="2014-04-07T14:32:44">
+    <value>Apply</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="BrightnessContrast_ApplyBtn_ToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Apply the selected brightness/contrast levels to the image</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="BrightnessContrast_ResetBtn_Text" lastModified="2014-04-07T14:32:44">
+    <value>Reset</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="BrightnessContrast_ResetBtn_ToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Reset the changes so far</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="BrightnessContrast_Title" lastModified="2014-04-07T14:32:44">
+    <value>Brightness/Contrast</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Brightness_TxtBoxToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Enter a value between -100 and 100</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_ActualSize" lastModified="2014-04-07T14:32:44">
+    <value>Actual Size</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Apply" lastModified="2014-04-07T14:32:44">
+    <value>Apply</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_AppyDrawToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Merge the drawn figure with the main canvas</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_BestFit" lastModified="2014-04-07T14:32:44">
+    <value>Best Fit</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_ConstrainProportions" lastModified="2014-04-07T14:32:44">
+    <value>Constrain Proportions?</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Decrease" lastModified="2014-04-07T14:32:44">
+    <value>Decrease</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_FileExists" lastModified="2014-04-07T14:32:44">
+    <value>A file with a name same as the target already exists!</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Height" lastModified="2014-04-07T14:32:44">
+    <value>Height</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Increase" lastModified="2014-04-07T14:32:44">
+    <value>Increase</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Insert" lastModified="2014-04-07T14:32:44">
+    <value>Insert</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Left" lastModified="2014-04-07T14:32:44">
+    <value>Left</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_MessageCannotWriteToFolder" lastModified="2014-04-07T14:32:44">
+    <value>Cannot write to the target folder!</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_NoPermissionsToDeleteFile" lastModified="2014-04-07T14:32:44">
+    <value>The selected file could not be deleted because the application did not have enough permissions. Please, contact the administrator.</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_OK" lastModified="2014-04-07T14:32:44">
+    <value>OK</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_OverwriteExisting" lastModified="2014-04-07T14:32:44">
+    <value>Overwrite if file exists?</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Position" lastModified="2014-04-07T14:32:44">
+    <value>Position</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Set" lastModified="2014-04-07T14:32:44">
+    <value>Set</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_SliderDrag" lastModified="2014-04-07T14:32:44">
+    <value>Drag to change the value</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_SwapWidthHeight" lastModified="2014-04-07T14:32:44">
+    <value>Swap Width and Height</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Top" lastModified="2014-04-07T14:32:44">
+    <value>Top</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Transform" lastModified="2014-04-07T14:32:44">
+    <value>Transform</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Url" lastModified="2014-04-07T14:32:44">
+    <value>URL</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Width" lastModified="2014-04-07T14:32:44">
+    <value>Width</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_X" lastModified="2014-04-07T14:32:44">
+    <value>X</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Common_Y" lastModified="2014-04-07T14:32:44">
+    <value>Y</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Contrast_TxtBoxToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Enter a value between -127 and 127</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Crop_AspectRatio" lastModified="2014-04-07T14:32:44">
+    <value>Aspect Ratio</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Crop_AspectRatioToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Select Aspect Ratio</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Crop_Button" lastModified="2014-04-07T14:32:44">
+    <value>Crop</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Crop_Title" lastModified="2014-04-07T14:32:44">
+    <value>Crop Image</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawCircle_Color" lastModified="2014-04-07T14:32:44">
+    <value>Color:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawCircle_CurrentColorText" lastModified="2014-04-07T14:32:44">
+    <value>(Current color is {0})</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawCircle_FillColor" lastModified="2014-04-07T14:32:44">
+    <value>Fill Color:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawCircle_LineSize" lastModified="2014-04-07T14:32:44">
+    <value>Line size:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawCircle_LineSizeToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Set line size</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawCircle_PickColor" lastModified="2014-04-07T14:32:44">
+    <value>PickColor</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawCircle_PickFillColor" lastModified="2014-04-07T14:32:44">
+    <value>Pick Fill Color</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawCircle_Title" lastModified="2014-04-07T14:32:44">
+    <value>Draw Circle</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawRectangle_Color" lastModified="2014-04-07T14:32:44">
+    <value>Color:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawRectangle_CurrentColorText" lastModified="2014-04-07T14:32:44">
+    <value>(Current color is {0})</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawRectangle_FillColor" lastModified="2014-04-07T14:32:44">
+    <value>Fill Color:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawRectangle_LineSize" lastModified="2014-04-07T14:32:44">
+    <value>Line size:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawRectangle_LineSizeToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Set line size</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawRectangle_PickColor" lastModified="2014-04-07T14:32:44">
+    <value>PickColor</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawRectangle_PickFillColor" lastModified="2014-04-07T14:32:44">
+    <value>Pick Fill Color</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="DrawRectangle_Title" lastModified="2014-04-07T14:32:44">
+    <value>Draw Rectangle</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Export_ChooseExtension" lastModified="2014-04-07T14:32:44">
+    <value>Choose image extension</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Export_ClientRadioText" lastModified="2014-04-07T14:32:44">
+    <value>Download Image</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Export_FileNameLabel" lastModified="2014-04-07T14:32:44">
+    <value>File Name</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Export_FileNameToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Enter File Name</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Export_ServerRadioText" lastModified="2014-04-07T14:32:44">
+    <value>Save Image on Server</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Export_Title" lastModified="2014-04-07T14:32:44">
+    <value>Export Image</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Flip_None" lastModified="2014-04-07T14:32:44">
+    <value>Flip None</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Flip_Title" lastModified="2014-04-07T14:32:44">
+    <value>Flip</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="HueSaturation_ApplyBtn_Text" lastModified="2014-04-07T14:32:44">
+    <value>Apply</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="HueSaturation_ApplyBtn_ToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Apply the selected hue/saturation levels to the image</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="HueSaturation_ResetBtn_Text" lastModified="2014-04-07T14:32:44">
+    <value>Reset</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="HueSaturation_ResetBtn_ToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Reset the changes so far</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="HueSaturation_Title" lastModified="2014-04-07T14:32:44">
+    <value>Hue/Saturation</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Hue_TxtBoxToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Enter a value between 0 and 360</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="InsertImage_Title" lastModified="2014-04-07T14:32:44">
+    <value>Insert Image</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="InsertImage_UrlTxtToolTip" lastModified="2014-04-07T14:32:44">
+    <value>URL of an Image to Insert (example http://domain.com/img.png)</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Line_Color" lastModified="2014-04-07T14:32:44">
+    <value>Color:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Line_CurrentColorText" lastModified="2014-04-07T14:32:44">
+    <value>(Current color is {0})</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Line_LineSize" lastModified="2014-04-07T14:32:44">
+    <value>Line size:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Line_LineSizeToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Set line size</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Line_PickColor" lastModified="2014-04-07T14:32:44">
+    <value>PickColor</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Line_Title" lastModified="2014-04-07T14:32:44">
+    <value>Draw Line</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Opacity_TextboxToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Enter a value between 0 and 100%</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Opacity_Title" lastModified="2014-04-07T14:32:44">
+    <value>Opacity</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Pencil_Color" lastModified="2014-04-07T14:32:44">
+    <value>Color:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Pencil_CurrentColorText" lastModified="2014-04-07T14:32:44">
+    <value>(Current color is {0})</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Pencil_LineSize" lastModified="2014-04-07T14:32:44">
+    <value>Line size:</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Pencil_LineSizeToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Set line size</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Pencil_PickColor" lastModified="2014-04-07T14:32:44">
+    <value>PickColor</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Pencil_Title" lastModified="2014-04-07T14:32:44">
+    <value>Pencil</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Print_Button" lastModified="2014-04-07T14:32:44">
+    <value>Print</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Print_Title" lastModified="2014-04-07T14:32:44">
+    <value>Print Image</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+    <value>Please do not delete this string.</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Resize_Button" lastModified="2014-04-07T14:32:44">
+    <value>Resize</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Resize_Percentage" lastModified="2014-04-07T14:32:44">
+    <value>Percentage</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Resize_PercentageToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Percentage of original Width x Height [0,100%]</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Resize_PresetSizes" lastModified="2014-04-07T14:32:44">
+    <value>Preset Sizes</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Resize_PresetSizesToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Select Preset Width x Height</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Resize_Title" lastModified="2014-04-07T14:32:44">
+    <value>Resize</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Rotate_DropDownToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Select a rotation angle</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Rotate_Title" lastModified="2014-04-07T14:32:44">
+    <value>Rotate</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Saturation_TxtBoxToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Enter a value between -100 and 100</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Save_ClientRadioText" lastModified="2014-04-07T14:32:44">
+    <value>Download Image</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Save_FileNameLabel" lastModified="2014-04-07T14:32:44">
+    <value>File Name</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Save_FileNameToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Enter File Name</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Save_ServerRadioText" lastModified="2014-04-07T14:32:44">
+    <value>Save Image on Server</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Save_Title" lastModified="2014-04-07T14:32:44">
+    <value>Save Image</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Zoom_ActualSizeToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Zoom to 100%</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Zoom_BestFitToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Fit image in editable area</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Zoom_TextboxToolTip" lastModified="2014-04-07T14:32:44">
+    <value>Enter a value between 0 and 100%</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="Zoom_Title" lastModified="2014-04-07T14:32:44">
+    <value>Zoom</value>
+    <comment>RadImageEditorDialogs resource strings.</comment>
+  </data>
+  <data name="BrightnessContrast" lastModified="2014-04-07T14:32:44">
+    <value>Brightness/Contrast</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+</root>

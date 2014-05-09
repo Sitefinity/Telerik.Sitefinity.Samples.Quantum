@@ -1,0 +1,2332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SecurityResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Security</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="SecurityResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>Security</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="SecurityResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for security user interface.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ConfirmInheritPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to inherit permissions and lose all your custom changes?</value>
+    <comment>Content Permissions Title</comment>
+  </data>
+  <data name="ContentActionPermissionsListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Content Permissions</value>
+    <comment>Content Permissions Title</comment>
+  </data>
+  <data name="GlobalActionPermissionsListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Global Permissions</value>
+    <comment>Global Permissions Title</comment>
+  </data>
+  <data name="AllowedUsersPermissionsListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Allowed Users:</value>
+    <comment>Text for the allowed users label in a list of permissions</comment>
+  </data>
+  <data name="DeniedUsersPermissionsListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Denied Users:</value>
+    <comment>Text for the denied users label in a list of permissions</comment>
+  </data>
+  <data name="ChangePermissionsLinkButtonText" lastModified="2014-04-07T14:32:44">
+    <value>Change</value>
+    <comment>Text for the Change link in a list of permissions (for setting permissions)</comment>
+  </data>
+  <data name="AllowedUsersTitle" lastModified="2014-04-07T14:32:44">
+    <value>Who can do this?</value>
+    <comment>Text for the 'Allowed users' title in a users selection dialog, for a specific action</comment>
+  </data>
+  <data name="SpecificSelectedUsersInactive" lastModified="2014-04-07T14:32:44">
+    <value>Selected roles or users &lt;span class='sfNote'&gt;(plus administrator)&lt;/span&gt;...</value>
+    <comment>Text for the 'Specific selected users' radio button in a users selection dialog, for a specific action. When not selected</comment>
+  </data>
+  <data name="SpecificSelectedUsersActive" lastModified="2014-04-07T14:32:44">
+    <value>Selected roles or users &lt;span class='sfNote'&gt;(plus administrator)&lt;/span&gt;:</value>
+    <comment>Text for the 'Specific selected users' radio button in a users selection dialog, for a specific action. When selected</comment>
+  </data>
+  <data name="SpecificDeniedUsersActive" lastModified="2014-04-07T14:32:44">
+    <value>Explicitly deny this to selected roles and users:</value>
+    <comment>Text for the 'Specific denied users' option in the users selection dialog, for a specific action, when active</comment>
+  </data>
+  <data name="WordAdvanced" lastModified="2014-04-07T14:32:44">
+    <value>Advanced</value>
+    <comment>Word: Advancd</comment>
+  </data>
+  <data name="SpecificDeniedUsersInactive" lastModified="2014-04-07T14:32:44">
+    <value>Explicitly deny this to selected  roles and users...</value>
+    <comment>Text for the 'Specific denied users' option in the users selection dialog, for a specific action, when inactive</comment>
+  </data>
+  <data name="SelectSpecificDeniedUsers" lastModified="2014-04-07T14:32:44">
+    <value>Select</value>
+    <comment>Text for the 'Select specific denied users' link-button in the users selection dialog, for a specific action</comment>
+  </data>
+  <data name="CloseUsersSelectionBox" lastModified="2014-04-07T14:32:44">
+    <value>Close</value>
+    <comment>Text for the 'Close' link, which hides the users/roles selection box in the users selection dialog, for a specific action</comment>
+  </data>
+  <data name="SaveAndCloseUsersSelectionBox" lastModified="2014-04-07T14:32:44">
+    <value>Save</value>
+    <comment>Text for the 'Close' link, which saves data and hides the users/roles selection box in the users selection dialog, for a specific action</comment>
+  </data>
+  <data name="OpenUsersSelectionBox" lastModified="2014-04-07T14:32:44">
+    <value>Select users or roles</value>
+    <comment>Text for the 'Open' link, which hides the users/roles selection box in the users selection dialog, for a specific action</comment>
+  </data>
+  <data name="UsersSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Users</value>
+    <comment>Represents 'users' selection option in the users selection dialog, for a specific action</comment>
+  </data>
+  <data name="RolesSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Roles</value>
+    <comment>Represents 'roles' selection option in the users selection dialog, for a specific action</comment>
+  </data>
+  <data name="ActionUserSelectionCancelBtn" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>Close (or Cancel) button for  the users selection dialog, for a specific action</comment>
+  </data>
+  <data name="SelectUsersOrRolesText" lastModified="2014-04-07T14:32:44">
+    <value>Select</value>
+    <comment>Text for label for selection specific users or roles for a specific action permission</comment>
+  </data>
+  <data name="AllProvidersText" lastModified="2014-04-07T14:32:44">
+    <value>All Providers</value>
+    <comment>All Providers text (users and roles) for a specific action permission</comment>
+  </data>
+  <data name="AllowUserPermissionsList" lastModified="2014-04-07T14:32:44">
+    <value>Allow</value>
+    <comment>Allow title text for the UserPermissionsList control</comment>
+  </data>
+  <data name="DenyUserPermissionsList" lastModified="2014-04-07T14:32:44">
+    <value>Deny</value>
+    <comment>Deny title text for the UserPermissionsList control</comment>
+  </data>
+  <data name="ChangeUserPermissionsLinkButtonText" lastModified="2014-04-07T14:32:44">
+    <value>Change</value>
+    <comment>Text for the Change link in a list of permissions on UserPermissionsList</comment>
+  </data>
+  <data name="UsrPermissionListUsersSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Users</value>
+    <comment>Text for the 'Show users' link/label in a list of permissions on UserPermissionsList (for specific user/role selection)</comment>
+  </data>
+  <data name="UsrPermissionListRolesSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Roles</value>
+    <comment>Text for the 'Show roles' link/label in a list of permissions on UserPermissionsList (for specific user/role selection)</comment>
+  </data>
+  <data name="UserPermissionsEditorShowAdvancedOptions" lastModified="2014-04-07T14:32:44">
+    <value>Show Advanced Options</value>
+    <comment>Text for the 'Show advanced options' link in a User Permissions Editor control</comment>
+  </data>
+  <data name="UserPermissionsEditorHideAdvancedOptions" lastModified="2014-04-07T14:32:44">
+    <value>Hide Advanced Options</value>
+    <comment>Text for the 'Hide advanced options' link in a User Permissions Editor control</comment>
+  </data>
+  <data name="UserPermissionsEditorCancelBtn" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>Close (or Cancel) button for  the users selection dialog, for a User Permissions Editor control</comment>
+  </data>
+  <data name="UserPermissionsEditorSaveBtn" lastModified="2014-04-07T14:32:44">
+    <value>Save</value>
+    <comment>Close (or Cancel) button for  the users selection dialog, for a User Permissions Editor control</comment>
+  </data>
+  <data name="UserPermissionsEditorPerUserTitle" lastModified="2014-04-07T14:32:44">
+    <value>Set permissions per user</value>
+    <comment>Window Title for editing permission actions per user (UserPermissionsEditor dialog)</comment>
+  </data>
+  <data name="UserPermissionsEditorPerRoleTitle" lastModified="2014-04-07T14:32:44">
+    <value>Set permissions per role</value>
+    <comment>Window Title for editing permission actions per role (UserPermissionsEditor dialog)</comment>
+  </data>
+  <data name="ActionUsersSelectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Set Permitted Users Per Action</value>
+    <comment>Window Title for editing permitted users per action (ActionUsersSelection dialog)</comment>
+  </data>
+  <data name="AdministratorsOnly" lastModified="2014-04-07T14:32:44">
+    <value>Administrators only</value>
+    <comment>Administrators Only - for permissions GUI</comment>
+  </data>
+  <data name="PermissionsBySection" lastModified="2014-04-07T14:32:44">
+    <value>by Section</value>
+    <comment>Permissions Global Tab Selector: By Section Title</comment>
+  </data>
+  <data name="PermissionsByPrincipal" lastModified="2014-04-07T14:32:44">
+    <value>by Role or User</value>
+    <comment>Permissions Global Tab Selector: By Principal Title</comment>
+  </data>
+  <data name="ModuleProviderLabel" lastModified="2014-04-07T14:32:44">
+    <value>Module provider:</value>
+    <comment>Module provider label text</comment>
+  </data>
+  <data name="NoUsersOrGroupsAreSelected" lastModified="2014-04-07T14:32:44">
+    <value>No users or groups selected.</value>
+    <comment>Phrase: No users or groups selected.</comment>
+  </data>
+  <data name="SoOnlyTheAdministratorWillHavePermissions" lastModified="2014-04-07T14:32:44">
+    <value>So only the Administrator will have permissions</value>
+    <comment>Phrase: So only the Administrator will have permissions.</comment>
+  </data>
+  <data name="doneEditingPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Done</value>
+    <comment>Word: Done. used in the module permissions page</comment>
+  </data>
+  <data name="ThisObjectsPermissionsAreInherited" lastModified="2014-04-07T14:32:44">
+    <value>This object's permissions are inherited from its parent.</value>
+    <comment>Label: This object's permissions are inherited from its parent.</comment>
+  </data>
+  <data name="OverrideTheInheritedPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Override the inherited permissions</value>
+    <comment>Phrase: Override the inherited permissions</comment>
+  </data>
+  <data name="ThisObjectsPermissionsOverride" lastModified="2014-04-07T14:32:44">
+    <value>This object's permissions override its parent's.</value>
+    <comment>Sentence: This object's permissions override its parent's.</comment>
+  </data>
+  <data name="InheritPermissionsFromParentObject" lastModified="2014-04-07T14:32:44">
+    <value>Inherit permissions from parent object</value>
+    <comment>Phrase: Inherit permissions from parent object</comment>
+  </data>
+  <data name="ThisItemInheritsPermissionsFromItsParent" lastModified="2014-04-07T14:32:44">
+    <value>This item inherits permissions from its parent.</value>
+    <comment>Phrase: This item inherits permissions from its parent.</comment>
+  </data>
+  <data name="BreakInheritance" lastModified="2014-04-07T14:32:44">
+    <value>Break inheritance</value>
+    <comment>Button: Break inheritance</comment>
+  </data>
+  <data name="InOrderToSetDiferentPermissionsThanParentOnes" lastModified="2014-04-07T14:32:44">
+    <value>in order to set permissions different from those of the parent.</value>
+    <comment>End of phrase: in order to set permissions different from those of the parent.</comment>
+  </data>
+  <data name="ThisItemHasPermissionsDifferentFromItsParent" lastModified="2014-04-07T14:32:44">
+    <value>This item has permissions different from its parent.</value>
+    <comment>Phrase: This item has permissions different from its parent.</comment>
+  </data>
+  <data name="InheritPermissionsFromItsParent" lastModified="2014-04-07T14:32:44">
+    <value>Inherit permissions from parent</value>
+    <comment>Button: Inherit permissions from parent</comment>
+  </data>
+  <data name="GeneralPermissionsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Permissions for {0}</value>
+    <comment>Phrase: Permissions for {0}</comment>
+  </data>
+  <data name="Everyone" lastModified="2014-04-07T14:32:44">
+    <value>Everyone</value>
+    <comment>Application predefined role name: Everyone</comment>
+  </data>
+  <data name="EveryoneDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a predefined role that is automatically assigned to every request including anonymous ones.</value>
+    <comment>Application predefined role name: Everyone</comment>
+  </data>
+  <data name="Anonymous" lastModified="2014-04-07T14:32:44">
+    <value>Anonymous</value>
+    <comment>Application predefined role name: Anonymous</comment>
+  </data>
+  <data name="AnonymousDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a predefined role that is automatically assigned to all unauthenticated requests.</value>
+    <comment>Application predefined role name: Anonymous</comment>
+  </data>
+  <data name="Authenticated" lastModified="2014-04-07T14:32:44">
+    <value>Authenticated</value>
+    <comment>Application predefined role name: Authenticated</comment>
+  </data>
+  <data name="AuthenticatedDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a predefined role that is automatically assigned to all authenticated requests.</value>
+    <comment>Application predefined role name: Authenticated</comment>
+  </data>
+  <data name="Owner" lastModified="2014-04-07T14:32:44">
+    <value>Owner</value>
+    <comment>Application predefined role name: Owner</comment>
+  </data>
+  <data name="OwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a predefined role that is automatically assigned to a user when permissions are checked against an item that the user owns.</value>
+    <comment>Application predefined role name: Owner</comment>
+  </data>
+  <data name="Administrators" lastModified="2014-04-07T14:32:44">
+    <value>Administrators</value>
+    <comment>Application predefined role name: Administrators</comment>
+  </data>
+  <data name="AdministratorsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Members of this role have full rights over the entire system. All rights are automatically granted to members of this role.</value>
+    <comment>Application predefined role name: Administrators</comment>
+  </data>
+  <data name="Permissions" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>Permissions</comment>
+  </data>
+  <data name="Users" lastModified="2014-04-07T14:32:44">
+    <value>Users</value>
+    <comment>Users</comment>
+  </data>
+  <data name="Role" lastModified="2014-04-07T14:32:44">
+    <value>Role</value>
+    <comment>word: Role</comment>
+  </data>
+  <data name="Roles" lastModified="2014-04-07T14:32:44">
+    <value>Roles</value>
+    <comment>word: Roles</comment>
+  </data>
+  <data name="Username" lastModified="2014-04-07T14:32:44">
+    <value>Username</value>
+    <comment>word: Username</comment>
+  </data>
+  <data name="Allowed" lastModified="2014-04-07T14:32:44">
+    <value>Allowed</value>
+    <comment>word: Allowed</comment>
+  </data>
+  <data name="Provider" lastModified="2014-04-07T14:32:44">
+    <value>Provider</value>
+    <comment>word: provider</comment>
+  </data>
+  <data name="UsernameRole" lastModified="2014-04-07T14:32:44">
+    <value>Username / Role</value>
+    <comment>word: username / role</comment>
+  </data>
+  <data name="NameEmail" lastModified="2014-04-07T14:32:44">
+    <value>Name / Email</value>
+    <comment>word: name / email</comment>
+  </data>
+  <data name="Registration" lastModified="2014-04-07T14:32:44">
+    <value>Registration</value>
+    <comment>word: Registration</comment>
+  </data>
+  <data name="ManageUsers" lastModified="2014-04-07T14:32:44">
+    <value>Manage Users</value>
+    <comment>The title of ManageUsers security action.</comment>
+  </data>
+  <data name="ManageUsersDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies user account management.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ManageRoles" lastModified="2014-04-07T14:32:44">
+    <value>Manage Roles</value>
+    <comment>The title of ManageRoles security action.</comment>
+  </data>
+  <data name="ManageRolesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies role management.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ViewPermissions" lastModified="2014-04-07T14:32:44">
+    <value>View Permissions</value>
+    <comment>The title of ViewPermissions security action.</comment>
+  </data>
+  <data name="ViewPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing permissions.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CommentsPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Comments Permissions</value>
+    <comment>Permissions title.</comment>
+  </data>
+  <data name="ChangePermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change {0} permissions</value>
+    <comment>The title of Change Permissions security action.</comment>
+  </data>
+  <data name="ChangePermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of a data item.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ViewConfigurations" lastModified="2014-04-07T14:32:44">
+    <value>View Configurations</value>
+    <comment>The title of ViewConfigurations security action.</comment>
+  </data>
+  <data name="ViewConfigurationsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing system configurations.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeConfigurations" lastModified="2014-04-07T14:32:44">
+    <value>Change Configurations</value>
+    <comment>The title of ChangeConfigurations security action.</comment>
+  </data>
+  <data name="ChangeConfigurationsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing all system configurations.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ManageLabels" lastModified="2014-04-07T14:32:44">
+    <value>Manage Labels</value>
+    <comment>The title of ManageLabels security action.</comment>
+  </data>
+  <data name="ManageLabelsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies labels and messages management.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ManageFiles" lastModified="2014-04-07T14:32:44">
+    <value>Manage Files</value>
+    <comment>The title of ManageFiles security action.</comment>
+  </data>
+  <data name="ManageFilesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the permission to manage files.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ManageLicenses" lastModified="2014-04-07T14:32:44">
+    <value>Manage Licenses</value>
+    <comment>The title of ManageLicenses security action.</comment>
+  </data>
+  <data name="ManageLicensesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the permission to manage licenses.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="FrontendUsersDescription" lastModified="2014-04-07T14:32:44">
+    <value>The default membership provider for frontend (public) users.</value>
+    <comment>Description of the default backend role provider.</comment>
+  </data>
+  <data name="AccessBackend" lastModified="2014-04-07T14:32:44">
+    <value>Access Backend</value>
+    <comment>The title of AccessBackend security action.</comment>
+  </data>
+  <data name="BackendPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Backend Permissions</value>
+    <comment>Permission title.</comment>
+  </data>
+  <data name="AccessBackendDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the access to the backend area of the site.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="BackendPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents general permissions for backend access.</value>
+    <comment>Permission description.</comment>
+  </data>
+  <data name="UseBrowseAndEdit" lastModified="2014-04-07T14:32:44">
+    <value>Use in-line editing</value>
+    <comment>Permission title.</comment>
+  </data>
+  <data name="UseBrowseAndEditDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents general permissions for using the in-line editing functionality.</value>
+    <comment>Permission description.</comment>
+  </data>
+  <data name="ManageUserProfiles" lastModified="2014-04-07T14:32:44">
+    <value>Manage user profiles</value>
+    <comment>Permission title.</comment>
+  </data>
+  <data name="ManageUserProfilesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents general permissions for managing user profiles and profile types.</value>
+    <comment>Permission description.</comment>
+  </data>
+  <data name="ManageBackendPages" lastModified="2014-04-07T14:32:44">
+    <value>Manage backend pages</value>
+    <comment>Title of the 'ManageBackendPages' security action</comment>
+  </data>
+  <data name="ManageBackendPagesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action required to edit backend pages via the UI</value>
+    <comment>Description of the 'ManageBackendPages' security action</comment>
+  </data>
+  <data name="ManagePublishingSystem" lastModified="2014-04-07T14:32:44">
+    <value>Access publishing system backend pages</value>
+    <comment>Title of the 'ManagePublishingSystem' security action</comment>
+  </data>
+  <data name="ManagePublishingSystemDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action required to access publishing system-related pages via the Backend UI</value>
+    <comment>Description of the 'ManagePublishingSystem' security action</comment>
+  </data>
+  <data name="ManageSearchIndices" lastModified="2014-04-07T14:32:44">
+    <value>Access search &amp; indexing backend pages</value>
+    <comment>Title of the 'ManagePublishingSystem' security action</comment>
+  </data>
+  <data name="ManageSearchIndicesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action required to access the Backend UI for managing search indices</value>
+    <comment>Description of the 'ManageSearchIndices' security action</comment>
+  </data>
+  <data name="ManageWidgets" lastModified="2014-04-07T14:32:44">
+    <value>Access widgets editor</value>
+    <comment>Title of the 'ManageWidgets' security action</comment>
+  </data>
+  <data name="ManageWidgetsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action required to access the Backend UI for editing/designing widgets</value>
+    <comment>Description of the 'ManageSearchIndices' security action</comment>
+  </data>
+  <data name="ManageNewsletters" lastModified="2014-04-07T14:32:44">
+    <value>Access Email campaigns module</value>
+    <comment>Title of the 'ManageNewsletters' security action</comment>
+  </data>
+  <data name="ManageNewslettersDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action that allows access to the backend pages of the newsletters module</value>
+    <comment>Description of the 'ManageNewsletters' security action</comment>
+  </data>
+  <data name="ManageEcommerce" lastModified="2014-04-07T14:32:44">
+    <value>Access ecommerce module</value>
+    <comment>Title of the 'ManageEcommerce' security action</comment>
+  </data>
+  <data name="ManageEcommerceDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action that allows access to the backend pages of the ecommerce module</value>
+    <comment>Description of the 'ManageEcommerce' security action</comment>
+  </data>
+  <data name="SiteSynchronization" lastModified="2014-04-07T14:32:44">
+    <value>Access staging &amp; syncing module</value>
+    <comment>Title of the 'SiteSynchronization' security action</comment>
+  </data>
+  <data name="SiteSynchronizationDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action that allows access to the backend pages of the staging &amp; syncing module</value>
+    <comment>Description of the 'SiteSynchronization' security action</comment>
+  </data>
+  <data name="ManageUserFiles" lastModified="2014-04-07T14:32:44">
+    <value>Access User files</value>
+    <comment>Title of the 'ManageUserFiles' security action</comment>
+  </data>
+  <data name="ManageUserFilesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action that allows access to the backend pages of the User files library</value>
+    <comment>Description of the 'ManageUserFiles' security action</comment>
+  </data>
+  <data name="ManageMultisiteManagement" lastModified="2014-04-07T14:32:44">
+    <value>Access multisite management</value>
+    <comment>Title of the 'ManageMultisiteManagement' security action</comment>
+  </data>
+  <data name="ManageMultisiteManagementDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action that allows access to the backend pages of the Multisite management</value>
+    <comment>Description of the 'ManageMultisiteManagement' security action</comment>
+  </data>
+  <data name="ControlsPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Controls Permissions</value>
+    <comment>Permissions title.</comment>
+  </data>
+  <data name="ControlsPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for controls.</value>
+    <comment>Permissions description.</comment>
+  </data>
+  <data name="MoveControlActionName" lastModified="2014-04-07T14:32:44">
+    <value>Move a widget</value>
+    <comment>The title of MoveControl security action.</comment>
+  </data>
+  <data name="EditControlPropertiesActionName" lastModified="2014-04-07T14:32:44">
+    <value>Edit widget properties</value>
+    <comment>The title of EditControlProperties security action.</comment>
+  </data>
+  <data name="ViewControlActionName" lastModified="2014-04-07T14:32:44">
+    <value>View a widget</value>
+    <comment>The title of ViewControl security action.</comment>
+  </data>
+  <data name="DeleteControlActionName" lastModified="2014-04-07T14:32:44">
+    <value>Delete a widget</value>
+    <comment>The title of DeleteControl security action.</comment>
+  </data>
+  <data name="ChangeControlOwnerActionName" lastModified="2014-04-07T14:32:44">
+    <value>Change widget owner</value>
+    <comment>The title of ChangeControlOwner security action.</comment>
+  </data>
+  <data name="MoveControlActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the user to move widgets up or down in a zone (Page Editor).</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="EditControlPropertiesActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to a widget's properties.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ViewControlActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing (rendering) a widget on a page</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteControlActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a widget from a page.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeControlOwnerActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of a widget.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeControlPermissionsActionName" lastModified="2014-04-07T14:32:44">
+    <value>Change widget permissions</value>
+    <comment>The title of ChangeControlPermissions security action</comment>
+  </data>
+  <data name="ChangeControlPermissionsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of a widget.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="LayoutElementPermissionSetName" lastModified="2014-04-07T14:32:44">
+    <value>Layout Element Permissions</value>
+    <comment>Permissions title.</comment>
+  </data>
+  <data name="LayoutElementPermissionSetDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for layout elements.</value>
+    <comment>Permissions description.</comment>
+  </data>
+  <data name="MoveLayoutActionName" lastModified="2014-04-07T14:32:44">
+    <value>Move a layout element</value>
+    <comment>The title of move layout element security action.</comment>
+  </data>
+  <data name="MoveLayoutActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the user to move layout elements up or down in a zone (Page Editor).</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="EditLayoutPropertiesActionName" lastModified="2014-04-07T14:32:44">
+    <value>Edit layout element properties</value>
+    <comment>The title of EditControlProperties security action.</comment>
+  </data>
+  <data name="ViewLayoutActionName" lastModified="2014-04-07T14:32:44">
+    <value>View a layout element</value>
+    <comment>The title of view security action.</comment>
+  </data>
+  <data name="ViewLayoutActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing (rendering) a layout element on a page</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="EditLayoutPropertiesActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to a layout element's properties.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteLayoutActionName" lastModified="2014-04-07T14:32:44">
+    <value>Delete a layout element.</value>
+    <comment>The title of delete security action.</comment>
+  </data>
+  <data name="DeleteLayoutActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a layout element from a page.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeLayoutOwnerActionName" lastModified="2014-04-07T14:32:44">
+    <value>Change layout element owner</value>
+    <comment>The title of change owner security action.</comment>
+  </data>
+  <data name="ChangeLayoutOwnerActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of a layout element.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeLayoutPermissionsActionName" lastModified="2014-04-07T14:32:44">
+    <value>Change layout element permissions.</value>
+    <comment>The title of ChangeControlPermissions security action</comment>
+  </data>
+  <data name="ChangeLayoutPermissionsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of a widget.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DropOnLayoutActionName" lastModified="2014-04-07T14:32:44">
+    <value>Drop widgets or layout elements.</value>
+    <comment>The title of drop on layout security action</comment>
+  </data>
+  <data name="DropOnLayoutActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies dropping on a layout element.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="GeneralPermissions" lastModified="2014-04-07T14:32:44">
+    <value>General Permissions</value>
+    <comment>Permission title.</comment>
+  </data>
+  <data name="GeneralPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents the most common application security permissions.</value>
+    <comment>Permission description.</comment>
+  </data>
+  <data name="Create" lastModified="2014-04-07T14:32:44">
+    <value>Create {0}</value>
+    <comment>The title of Create security action.</comment>
+  </data>
+  <data name="Modify" lastModified="2014-04-07T14:32:44">
+    <value>Modify {0}</value>
+    <comment>The title of Modify security action.</comment>
+  </data>
+  <data name="View" lastModified="2014-04-07T14:32:44">
+    <value>View {0}</value>
+    <comment>The title of View security action.</comment>
+  </data>
+  <data name="Delete" lastModified="2014-04-07T14:32:44">
+    <value>Delete {0}</value>
+    <comment>The title of Delete security action.</comment>
+  </data>
+  <data name="ChangeOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change {0} owner</value>
+    <comment>The title of Change Owner security action.</comment>
+  </data>
+  <data name="CreateDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of new data items.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to an existing data item.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="EditDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to an existing data item.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing a particular data item.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a particular data item.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of a data item.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="PageTemplatesPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Page Templates Permissions</value>
+    <comment>Permissions title.</comment>
+  </data>
+  <data name="PageTemplatesPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for page templates.</value>
+    <comment>Permissions description.</comment>
+  </data>
+  <data name="BlogPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Blog Permissions</value>
+    <comment>Permission title.</comment>
+  </data>
+  <data name="BlogPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents the most common application security permissions.</value>
+    <comment>Permission description.</comment>
+  </data>
+  <data name="CreateBlog" lastModified="2014-04-07T14:32:44">
+    <value>Create a blog</value>
+    <comment>The title of CreateBlog security action.</comment>
+  </data>
+  <data name="ViewBlog" lastModified="2014-04-07T14:32:44">
+    <value>View a blog</value>
+    <comment>The title of ViewBlog security action.</comment>
+  </data>
+  <data name="DeleteBlog" lastModified="2014-04-07T14:32:44">
+    <value>Delete blog and posts</value>
+    <comment>The title of DeleteBlog security action.</comment>
+  </data>
+  <data name="ChangeBlogOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change a blog's owner</value>
+    <comment>The title of ChangeBlogOwner security action.</comment>
+  </data>
+  <data name="CreateBlogDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of a new blog.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyBlogDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to an existing blog.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ViewBlogDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing a particular blog.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteBlogDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a particular blog.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeBlogOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of a blog.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeBlogPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change a blog's permissions</value>
+    <comment>The title of Change Permissions security action.</comment>
+  </data>
+  <data name="ChangeBlogPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of a blog.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="BlogPostPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Blog Post Permissions</value>
+    <comment>Blog post permissions title.</comment>
+  </data>
+  <data name="ViewBlogPost" lastModified="2014-04-07T14:32:44">
+    <value>View blog post</value>
+    <comment>Action text of the view action for a blog post.</comment>
+  </data>
+  <data name="ManageBlogPost" lastModified="2014-04-07T14:32:44">
+    <value>Modify blog and manage posts</value>
+    <comment>Action text of the manage action for a blog post.</comment>
+  </data>
+  <data name="ManageBlogPostDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies updating a blog and managing its posts.</value>
+    <comment>Blog post editing description.</comment>
+  </data>
+  <data name="ChangeBlogPostOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change blog post's owner</value>
+    <comment>Action text of the change owner action for a blog post.</comment>
+  </data>
+  <data name="ChangeBlogPostPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change blog post's permissions</value>
+    <comment>Action text of the change permissions action for a blog post.</comment>
+  </data>
+  <data name="BlogPostPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for blog posts.</value>
+    <comment>Blog post permissions description.</comment>
+  </data>
+  <data name="ViewBlogPostDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing a specific blog post.</value>
+    <comment>Blog post viewing description.</comment>
+  </data>
+  <data name="ChangeBlogPostOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing specific blog post's owner.</value>
+    <comment>Blog post change owner description.</comment>
+  </data>
+  <data name="ChangeBlogPostPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing a specific blog post's permissions.</value>
+    <comment>Blog post change permissions description.</comment>
+  </data>
+  <data name="ImagePermissions" lastModified="2014-04-07T14:32:44">
+    <value>Image Permissions</value>
+    <comment>Image permissions title.</comment>
+  </data>
+  <data name="ImagePermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for images.</value>
+    <comment>Image permissions description</comment>
+  </data>
+  <data name="ViewImage" lastModified="2014-04-07T14:32:44">
+    <value>View images</value>
+    <comment>Action title for viewing an image</comment>
+  </data>
+  <data name="ViewImageDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot view images</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateImage" lastModified="2014-04-07T14:32:44">
+    <value>Upload image</value>
+    <comment>'Upload Image' security action title</comment>
+  </data>
+  <data name="CreateImageDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot create images.</value>
+    <comment>'Upload image' security action description.</comment>
+  </data>
+  <data name="ModifyImage" lastModified="2014-04-07T14:32:44">
+    <value>Modify image</value>
+    <comment>'Modify image' security action title</comment>
+  </data>
+  <data name="ModifyImageDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify an image.</value>
+    <comment>'Modify image' security action description</comment>
+  </data>
+  <data name="DeleteImage" lastModified="2014-04-07T14:32:44">
+    <value>Delete image</value>
+    <comment>'Delete image' security action title</comment>
+  </data>
+  <data name="DeleteImageDescription" lastModified="2014-04-07T14:32:44">
+    <value>'Delete image' security action description</value>
+    <comment>'Delete image' security action description</comment>
+  </data>
+  <data name="ChangeImageOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change image owner</value>
+    <comment></comment>
+  </data>
+  <data name="ChangeImageOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of an image.</value>
+    <comment>Translated message, similar to 'Allows or denies changing the ownership of an image'</comment>
+  </data>
+  <data name="ChangeImagePermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change image permissions</value>
+    <comment></comment>
+  </data>
+  <data name="ChangeImagePermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of an image.</value>
+    <comment>Translated message, similar to 'Allows or denies changing the permissions of an image'</comment>
+  </data>
+  <data name="ManageImage" lastModified="2014-04-07T14:32:44">
+    <value>Modify library and manage images</value>
+    <comment>Action text of the manage action for an image.</comment>
+  </data>
+  <data name="ManageImageDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies updating a library and managing its images.</value>
+    <comment>Image editing description.</comment>
+  </data>
+  <data name="AlbumPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Image Library Permissions</value>
+    <comment>Image Library permissions title.</comment>
+  </data>
+  <data name="AlbumPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for image libraries.</value>
+    <comment>Represents security permissions for image libraries.</comment>
+  </data>
+  <data name="ViewAlbum" lastModified="2014-04-07T14:32:44">
+    <value>View image library</value>
+    <comment>Action title for viewing an image library</comment>
+  </data>
+  <data name="ViewAlbumDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot view image libraries</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateAlbum" lastModified="2014-04-07T14:32:44">
+    <value>Create image library</value>
+    <comment>'Create image library' security action title</comment>
+  </data>
+  <data name="CreateAlbumDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot create image libraries.</value>
+    <comment>'Create image library' security action description.</comment>
+  </data>
+  <data name="ModifyAlbum" lastModified="2014-04-07T14:32:44">
+    <value>Modify image library</value>
+    <comment>'Modify image library' security action title</comment>
+  </data>
+  <data name="ModifyAlbumDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify an image library.</value>
+    <comment>'Modify image library' security action description</comment>
+  </data>
+  <data name="DeleteAlbum" lastModified="2014-04-07T14:32:44">
+    <value>Delete image library</value>
+    <comment>'Delete image library' security action title</comment>
+  </data>
+  <data name="DeleteAlbumDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot delete an image library</value>
+    <comment>'Delete image library' security action description</comment>
+  </data>
+  <data name="ChangeAlbumOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change image library owner</value>
+    <comment>'Change image library owner' security action title</comment>
+  </data>
+  <data name="ChangeAlbumOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of an image library.</value>
+    <comment>Translated message, similar to 'Allows or denies changing the ownership of an image library'</comment>
+  </data>
+  <data name="ChangeAlbumPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change image library permissions</value>
+    <comment>'Change image library permissions' security action name</comment>
+  </data>
+  <data name="ChangeAlbumPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of an image library.</value>
+    <comment>Translated message, similar to 'Allows or denies changing the permissions of an image library'</comment>
+  </data>
+  <data name="ManageThisAlbum" lastModified="2014-04-07T14:32:44">
+    <value>Update this library and manage its images</value>
+    <comment>Action text of the modify action for this image library.</comment>
+  </data>
+  <data name="DocumentPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Document Permissions</value>
+    <comment>Document permissions title.</comment>
+  </data>
+  <data name="DocumentPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for Documents.</value>
+    <comment>Document permissions description</comment>
+  </data>
+  <data name="ViewDocument" lastModified="2014-04-07T14:32:44">
+    <value>View document</value>
+    <comment>Action title for viewing a Document</comment>
+  </data>
+  <data name="ViewDocumentDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot View documents</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateDocument" lastModified="2014-04-07T14:32:44">
+    <value>Upload document</value>
+    <comment>'Create Document' security action title</comment>
+  </data>
+  <data name="CreateDocumentDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot create Documents.</value>
+    <comment>'Create Document' security action description.</comment>
+  </data>
+  <data name="ModifyDocument" lastModified="2014-04-07T14:32:44">
+    <value>Modify document</value>
+    <comment>'Modify document' security action title</comment>
+  </data>
+  <data name="ModifyDocumentDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a Document.</value>
+    <comment>'Modify document' security action description</comment>
+  </data>
+  <data name="DeleteDocument" lastModified="2014-04-07T14:32:44">
+    <value>Delete document</value>
+    <comment>'Delete document' security action title</comment>
+  </data>
+  <data name="DeleteDocumentDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a Document.</value>
+    <comment>'Delete document' security action description</comment>
+  </data>
+  <data name="ChangeDocumentOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change document owner</value>
+    <comment></comment>
+  </data>
+  <data name="ChangeDocumentOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot Change document owner</value>
+    <comment></comment>
+  </data>
+  <data name="ChangeDocumentPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change document permissions</value>
+    <comment></comment>
+  </data>
+  <data name="ChangeDocumentPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot Change document permissions</value>
+    <comment></comment>
+  </data>
+  <data name="ManageDocument" lastModified="2014-04-07T14:32:44">
+    <value>Modify library and manage documents</value>
+    <comment>'Manage document' security action title</comment>
+  </data>
+  <data name="ManageDocumentDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a library and manage documents.</value>
+    <comment>'Manage document' security action description</comment>
+  </data>
+  <data name="documentGeneralPermissionSetTitleResource" lastModified="2014-04-07T14:32:44">
+    <value>document</value>
+    <comment>document - text to be displayed for permissions related to documents (i.e. the text in the General permission set of the libraries root).</comment>
+  </data>
+  <data name="DocumentLibraryPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Document library Permissions</value>
+    <comment>Document library permissions title.</comment>
+  </data>
+  <data name="DocumentLibraryPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for Document libraries.</value>
+    <comment>Document library permissions description</comment>
+  </data>
+  <data name="ViewDocumentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>View document library</value>
+    <comment>Action title for viewing a Document library</comment>
+  </data>
+  <data name="ViewDocumentLibraryDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot View document libraries</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateDocumentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Create document library</value>
+    <comment>'Create Document library' security action title</comment>
+  </data>
+  <data name="CreateDocumentLibraryDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot create Document libraries.</value>
+    <comment>'Create Document library' security action description.</comment>
+  </data>
+  <data name="ModifyDocumentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Modify document library</value>
+    <comment>'Modify document library' security action title</comment>
+  </data>
+  <data name="ModifyDocumentLibraryDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a Document library.</value>
+    <comment>'Modify document library' security action description</comment>
+  </data>
+  <data name="DeleteDocumentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Delete document library</value>
+    <comment>'Delete document library' security action title</comment>
+  </data>
+  <data name="DeleteDocumentLibraryDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a Document library.</value>
+    <comment>'Delete document library' security action description</comment>
+  </data>
+  <data name="ChangeDocumentLibraryOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change document library owner</value>
+    <comment>'Change document library owner' security action title</comment>
+  </data>
+  <data name="ChangeDocumentLibraryOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot Change document library owner</value>
+    <comment>'Change document library owner' security action description</comment>
+  </data>
+  <data name="ChangeDocumentLibraryPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change document library permissions</value>
+    <comment>'Change document library permissions' security action title</comment>
+  </data>
+  <data name="ChangeDocumentLibraryPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot Change document library permissions</value>
+    <comment>'Change document library permissions' security action description</comment>
+  </data>
+  <data name="ManageThisDocumentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Manage this document library</value>
+    <comment>'Manage document library' security action title</comment>
+  </data>
+  <data name="UserFilePermissions" lastModified="2014-04-07T14:32:44">
+    <value>User file Permissions</value>
+    <comment>User file permissions title.</comment>
+  </data>
+  <data name="UserFilePermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for Document libraries.</value>
+    <comment>User file permissions description</comment>
+  </data>
+  <data name="ViewUserFile" lastModified="2014-04-07T14:32:44">
+    <value>View user file</value>
+    <comment>Action title for viewing a User file</comment>
+  </data>
+  <data name="ViewUserFileDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot View document libraries</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateUserFile" lastModified="2014-04-07T14:32:44">
+    <value>Create user file</value>
+    <comment>'Create User file' security action title</comment>
+  </data>
+  <data name="CreateUserFileDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot create Document libraries.</value>
+    <comment>'Create User file' security action description.</comment>
+  </data>
+  <data name="ModifyUserFile" lastModified="2014-04-07T14:32:44">
+    <value>Modify user file</value>
+    <comment>'Modify user file' security action title</comment>
+  </data>
+  <data name="ModifyUserFileDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a User file.</value>
+    <comment>'Modify user file' security action description</comment>
+  </data>
+  <data name="DeleteUserFile" lastModified="2014-04-07T14:32:44">
+    <value>Delete user file</value>
+    <comment>'Delete user file' security action title</comment>
+  </data>
+  <data name="DeleteUserFileDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a User file.</value>
+    <comment>'Delete user file' security action description</comment>
+  </data>
+  <data name="ChangeUserFileOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change user file owner</value>
+    <comment>'Change user file owner' security action title</comment>
+  </data>
+  <data name="ChangeUserFileOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot Change user file owner</value>
+    <comment>'Change user file owner' security action description</comment>
+  </data>
+  <data name="ChangeUserFilePermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change user file permissions</value>
+    <comment>'Change user file permissions' security action title</comment>
+  </data>
+  <data name="ChangeUserFilePermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot Change user file permissions</value>
+    <comment>'Change user file permissions' security action description</comment>
+  </data>
+  <data name="ManageThisUserFile" lastModified="2014-04-07T14:32:44">
+    <value>Manage this user file</value>
+    <comment>'Manage user file' security action title</comment>
+  </data>
+  <data name="UserFileDocumentPermissions" lastModified="2014-04-07T14:32:44">
+    <value>UserFileDocument Permissions</value>
+    <comment>UserFileDocument permissions title.</comment>
+  </data>
+  <data name="UserFileDocumentPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for UserFileDocuments.</value>
+    <comment>UserFileDocument permissions description</comment>
+  </data>
+  <data name="ViewUserFileDocument" lastModified="2014-04-07T14:32:44">
+    <value>View this item</value>
+    <comment>Action title for viewing a UserFileDocument</comment>
+  </data>
+  <data name="ViewUserFileDocumentDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot View documents</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ManageUserFileDocument" lastModified="2014-04-07T14:32:44">
+    <value>Modify folder and manage its items</value>
+    <comment>'Manage document' security action title</comment>
+  </data>
+  <data name="ManageUserFileDocumentDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a library and manage documents.</value>
+    <comment>'Manage document' security action description</comment>
+  </data>
+  <data name="ChangeuserFileDocumentPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change item's permissions</value>
+    <comment></comment>
+  </data>
+  <data name="ChangeUserFileDocumentPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot Change items permissions</value>
+    <comment></comment>
+  </data>
+  <data name="VideoPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Video Permissions</value>
+    <comment>Video permissions title.</comment>
+  </data>
+  <data name="VideoPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for videos.</value>
+    <comment>Video permissions description</comment>
+  </data>
+  <data name="ViewVideo" lastModified="2014-04-07T14:32:44">
+    <value>View video</value>
+    <comment>Action title for viewing a video</comment>
+  </data>
+  <data name="ViewVideoDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot view videos</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateVideo" lastModified="2014-04-07T14:32:44">
+    <value>Upload video</value>
+    <comment>'Create video' security action title</comment>
+  </data>
+  <data name="CreateVideoDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot create videos.</value>
+    <comment>'Create video' security action description.</comment>
+  </data>
+  <data name="ModifyVideo" lastModified="2014-04-07T14:32:44">
+    <value>Modify video</value>
+    <comment>'Modify video' security action title</comment>
+  </data>
+  <data name="ModifyVideoDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a video.</value>
+    <comment>'Modify video' security action description</comment>
+  </data>
+  <data name="ManageVideo" lastModified="2014-04-07T14:32:44">
+    <value>Modify library and manage videos</value>
+    <comment>'Manage video' security action title</comment>
+  </data>
+  <data name="ManageVideoDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a library and manage videos.</value>
+    <comment>'Manage video' security action description</comment>
+  </data>
+  <data name="DeleteVideo" lastModified="2014-04-07T14:32:44">
+    <value>Delete video</value>
+    <comment>'Delete video' security action title</comment>
+  </data>
+  <data name="DeleteVideoDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a video.</value>
+    <comment>'Delete video' security action description</comment>
+  </data>
+  <data name="ChangeVideoOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change video owner</value>
+    <comment></comment>
+  </data>
+  <data name="ChangeVideoOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot change video owner</value>
+    <comment></comment>
+  </data>
+  <data name="ChangeVideoPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change video permissions</value>
+    <comment></comment>
+  </data>
+  <data name="ChangeVideoPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot change video permissions</value>
+    <comment></comment>
+  </data>
+  <data name="VideoLibraryPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Video Library Permissions</value>
+    <comment>Video library permissions title.</comment>
+  </data>
+  <data name="VideoLibraryPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for video libraries.</value>
+    <comment>Video library permissions description</comment>
+  </data>
+  <data name="ViewVideoLibrary" lastModified="2014-04-07T14:32:44">
+    <value>View video library</value>
+    <comment>Action title for viewing a video library</comment>
+  </data>
+  <data name="ViewVideoLibraryDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot view video libraries</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateVideoLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Create video library</value>
+    <comment>'Create video library' security action title</comment>
+  </data>
+  <data name="CreateVideoLibraryDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot create video libraries.</value>
+    <comment>'Create video library' security action description.</comment>
+  </data>
+  <data name="ModifyVideoLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Modify video library</value>
+    <comment>'Modify video library' security action title</comment>
+  </data>
+  <data name="ModifyVideoLibraryDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a video library.</value>
+    <comment>'Modify video library' security action description</comment>
+  </data>
+  <data name="DeleteVideoLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Delete video library</value>
+    <comment>'Delete video library' security action title</comment>
+  </data>
+  <data name="DeleteVideoLibraryDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot modify a video library.</value>
+    <comment>'Delete video library' security action description</comment>
+  </data>
+  <data name="ChangeVideoLibraryOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change video library owner</value>
+    <comment>'Change video library owner' security action title</comment>
+  </data>
+  <data name="ChangeVideoLibraryOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot change video library owner</value>
+    <comment>'Change video library owner' security action description</comment>
+  </data>
+  <data name="ChangeVideoLibraryPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change video library permissions</value>
+    <comment>'Change video library permissions' security action title</comment>
+  </data>
+  <data name="ChangeVideoLibraryPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot change video permissions</value>
+    <comment>'Change video library permissions' security action description</comment>
+  </data>
+  <data name="ManageThisVideoLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Manage this video library</value>
+    <comment>'Manage video library' security action title</comment>
+  </data>
+  <data name="GenericContentPermissionsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>Generic Content  Permissions Title</comment>
+  </data>
+  <data name="CreateComments" lastModified="2014-04-07T14:32:44">
+    <value>Create comments</value>
+    <comment>The title of Create comments security action.</comment>
+  </data>
+  <data name="ModifyComments" lastModified="2014-04-07T14:32:44">
+    <value>Modify comments</value>
+    <comment>The title of Modify comments security action.</comment>
+  </data>
+  <data name="EditComments" lastModified="2014-04-07T14:32:44">
+    <value>Edit comments</value>
+    <comment>The title of Edit comments security action.</comment>
+  </data>
+  <data name="ViewComments" lastModified="2014-04-07T14:32:44">
+    <value>View comments</value>
+    <comment>The title of View comments security action.</comment>
+  </data>
+  <data name="DeleteComments" lastModified="2014-04-07T14:32:44">
+    <value>Delete comments</value>
+    <comment>The title of Delete comments security action.</comment>
+  </data>
+  <data name="ChangeCommentsOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change comments owner</value>
+    <comment>The title of Change Comments Owner security action.</comment>
+  </data>
+  <data name="CreateCommentsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of comments.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyCommentsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to comments.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="EditCommentsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to comments.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ViewCommentsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing comments</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteCommentsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting comments.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeCommentsOwnerDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of comments.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CommentsPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for comments.</value>
+    <comment>Permissions description.</comment>
+  </data>
+  <data name="ViewCommentActionTitle" lastModified="2014-04-07T14:32:44">
+    <value>View comments</value>
+    <comment>The title of ViewComments security action.</comment>
+  </data>
+  <data name="ViewCommentsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing comments</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateCommentActionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Write comments</value>
+    <comment>The title of CreateComments security action.</comment>
+  </data>
+  <data name="CreateCommentsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies writing new comments</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyCommentActionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Modify comments</value>
+    <comment>The title of ModifyComments security action.</comment>
+  </data>
+  <data name="ModifyCommentsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies modifying existing comments.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteCommentActionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Delete comments</value>
+    <comment>The title of DeleteComments security action.</comment>
+  </data>
+  <data name="DeleteCommentsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting comments.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeCommentOwnerActionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Change comment ownership</value>
+    <comment>The title of ChangeCommentOwner security action.</comment>
+  </data>
+  <data name="ChangeCommentOwnerActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the owner of a comment.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeCommentPermissionsActionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Change comment permissions</value>
+    <comment>The title of ChangeCommentPermissions security action.</comment>
+  </data>
+  <data name="ChangeCommentPermissionsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing security permissions for a comment.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeCommentsPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change comments permissions</value>
+    <comment>The title of Change comments Permissions security action.</comment>
+  </data>
+  <data name="ChangeCommentsPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of comments</value>
+    <comment>The description of Change Permissions security action.</comment>
+  </data>
+  <data name="PagePermissions" lastModified="2014-04-07T14:32:44">
+    <value>Page Permissions</value>
+    <comment>Page permissions title.</comment>
+  </data>
+  <data name="PagePermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for page actions.</value>
+    <comment>Blog post permissions description.</comment>
+  </data>
+  <data name="CreateChildControlsActionName" lastModified="2014-04-07T14:32:44">
+    <value>Add widgets and layout elements to the page and its child pages</value>
+    <comment>Create widgets and layout elements action title.</comment>
+  </data>
+  <data name="CreateChildControlsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies creating widgets and layout elements on a page.</value>
+    <comment>Create widgets and layout elements action description.</comment>
+  </data>
+  <data name="EditContentActionName" lastModified="2014-04-07T14:32:44">
+    <value>Edit content of this page and its child pages</value>
+    <comment>Edit content action title</comment>
+  </data>
+  <data name="EditContentActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies opening a page in edit mode</value>
+    <comment>Description of action EditContent</comment>
+  </data>
+  <data name="CreatePageActionName" lastModified="2014-04-07T14:32:44">
+    <value>Create child pages of this page</value>
+    <comment>Create a page action description.</comment>
+  </data>
+  <data name="CreatePageActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of new pages.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyPageActionName" lastModified="2014-04-07T14:32:44">
+    <value>Modify properties of this page and its child pages</value>
+    <comment>The title of Modify security action.</comment>
+  </data>
+  <data name="ModifyPageActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to an existing page, such as reordering or changing properties.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ViewPageActionName" lastModified="2014-04-07T14:32:44">
+    <value>View this page and its child pages</value>
+    <comment>The title of View Page security action.</comment>
+  </data>
+  <data name="ViewPageActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing (browsing) a particular page.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeletePageActionName" lastModified="2014-04-07T14:32:44">
+    <value>Delete this page and its child pages</value>
+    <comment>The title of Delete Page security action.</comment>
+  </data>
+  <data name="DeletePageActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the deletion of a page.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangePageOwnerActionName" lastModified="2014-04-07T14:32:44">
+    <value>Change owner of this page and its child pages</value>
+    <comment>The title of Change Page Owner security action.</comment>
+  </data>
+  <data name="ChangePageOwnerActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of a page.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangePagePermissionsActionName" lastModified="2014-04-07T14:32:44">
+    <value>Change permissions of this page and its child pages</value>
+    <comment>The title of ChangePermissions security action.</comment>
+  </data>
+  <data name="ChangePagePermissionsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing permissions for a page.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="TaxonomyPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Classification Permissions</value>
+    <comment>Taxonomy permissions title.</comment>
+  </data>
+  <data name="TaxonomyPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for classification actions.</value>
+    <comment>Taxonomy permissions description.</comment>
+  </data>
+  <data name="ViewTaxonomyActionName" lastModified="2014-04-07T14:32:44">
+    <value>View classification</value>
+    <comment>View taxonomy action title.</comment>
+  </data>
+  <data name="ViewTaxonomyActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing a classification.</value>
+    <comment>View taxonomy action description.</comment>
+  </data>
+  <data name="CreateTaxonomyActionName" lastModified="2014-04-07T14:32:44">
+    <value>Create classification</value>
+    <comment>Create taxonomy action title.</comment>
+  </data>
+  <data name="CreateTaxonomyActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies creating a classification.</value>
+    <comment>Create taxonomy action description.</comment>
+  </data>
+  <data name="ModifyTaxonomyActionName" lastModified="2014-04-07T14:32:44">
+    <value>Modify classification and manage classification items</value>
+    <comment>Modify taxonomy action title.</comment>
+  </data>
+  <data name="ModifyTaxonomyActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies modifying a classification.</value>
+    <comment>Modify taxonomy action description.</comment>
+  </data>
+  <data name="DeleteTaxonomyActionName" lastModified="2014-04-07T14:32:44">
+    <value>Delete classification</value>
+    <comment>Delete taxonomy action title.</comment>
+  </data>
+  <data name="DeleteTaxonomyActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a classification.</value>
+    <comment>Delete taxonomy action description.</comment>
+  </data>
+  <data name="ChangeTaxonomyOwnerActionName" lastModified="2014-04-07T14:32:44">
+    <value>Change classification owner</value>
+    <comment>Change owner of taxonomy action title.</comment>
+  </data>
+  <data name="ChangeTaxonomyOwnerActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the ownership of a classification.</value>
+    <comment>Change owner of a taxonomy action description.</comment>
+  </data>
+  <data name="ChangeTaxonomyPermissionsActionName" lastModified="2014-04-07T14:32:44">
+    <value>Change classification permissions</value>
+    <comment>Change taxonomy permissions action title.</comment>
+  </data>
+  <data name="ChangeTaxonomyPermissionsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of a classification.</value>
+    <comment>Change permissions of a taxonomy action description.</comment>
+  </data>
+  <data name="FormsPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Forms Permissions</value>
+    <comment>Forms permissions title.</comment>
+  </data>
+  <data name="FormsPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for forms.</value>
+    <comment>Permissions description.</comment>
+  </data>
+  <data name="WorkflowDefinitionPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Workflow Permissions</value>
+    <comment>Workflow permissions title.</comment>
+  </data>
+  <data name="WorkflowDefinitionPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for Workflow.</value>
+    <comment>Permissions description.</comment>
+  </data>
+  <data name="MultisiteManagementPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Multisite management Permissions</value>
+    <comment>Multisite management permissions title.</comment>
+  </data>
+  <data name="MultisiteManagementPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents security permissions for Multisite management.</value>
+    <comment>Multisite management permissions description</comment>
+  </data>
+  <data name="AccessSite" lastModified="2014-04-07T14:32:44">
+    <value>Access the site</value>
+    <comment>'Access the site' security action title</comment>
+  </data>
+  <data name="AccessSiteDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot access sites</value>
+    <comment>'Access the site' security action description.</comment>
+  </data>
+  <data name="CreateEditSite" lastModified="2014-04-07T14:32:44">
+    <value>Create and Edit a site</value>
+    <comment>'Create and Edit a site' security action title</comment>
+  </data>
+  <data name="CreateEditSiteDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot create and edit sites.</value>
+    <comment>'Create and Edit a site' security action description.</comment>
+  </data>
+  <data name="DeleteSite" lastModified="2014-04-07T14:32:44">
+    <value>Delete a site</value>
+    <comment>'Delete a site' security action title</comment>
+  </data>
+  <data name="DeleteSiteDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot delete sites.</value>
+    <comment>'Delete a site' security action description</comment>
+  </data>
+  <data name="ConfigureModules" lastModified="2014-04-07T14:32:44">
+    <value>Configure modules</value>
+    <comment>'Configure modules' security action title</comment>
+  </data>
+  <data name="ConfigureModulesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot configure modules.</value>
+    <comment>'Configure modules' security action description</comment>
+  </data>
+  <data name="StartStopSite" lastModified="2014-04-07T14:32:44">
+    <value>Start/stop a site</value>
+    <comment>'Start/stop a site' security action title</comment>
+  </data>
+  <data name="StartStopSiteDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot start/stop sites.</value>
+    <comment>'Start/stop a site' security action description</comment>
+  </data>
+  <data name="ChangeSitePermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change permissions</value>
+    <comment>'Change permissions' security action title</comment>
+  </data>
+  <data name="ChangeSitePermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specify who can/cannot change site permissions</value>
+    <comment>'Change permissions' security action description</comment>
+  </data>
+  <data name="ModifyThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Modify this {0}</value>
+    <comment>Customized title of Modify security action.</comment>
+  </data>
+  <data name="ViewThisItem" lastModified="2014-04-07T14:32:44">
+    <value>View this {0}</value>
+    <comment>Customized title of View security action.</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Delete this {0}</value>
+    <comment>Customized title of the Delete security action.</comment>
+  </data>
+  <data name="ChangeOwnerOfThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Change owner of this {0}</value>
+    <comment>Customized title of the Change Owner security action.</comment>
+  </data>
+  <data name="ChangePermissionsOfThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Change permissions of this {0}</value>
+    <comment>Customized title of the Change Permssions security action.</comment>
+  </data>
+  <data name="ViewThisBlog" lastModified="2014-04-07T14:32:44">
+    <value>View this blog</value>
+    <comment>Action text of the view action for this blog.</comment>
+  </data>
+  <data name="ManageThisBlog" lastModified="2014-04-07T14:32:44">
+    <value>Update this blog and manage its blog posts</value>
+    <comment>Action text of the modify action for this blog post.</comment>
+  </data>
+  <data name="DeleteThisBlog" lastModified="2014-04-07T14:32:44">
+    <value>Delete this blog and its posts</value>
+    <comment>Action text of the delete action for this blog.</comment>
+  </data>
+  <data name="ChangeThisBlogPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change this blog's permissions</value>
+    <comment>Action text of the change permissions action for this blog.</comment>
+  </data>
+  <data name="ChangeThisBlogOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change this blog's owner</value>
+    <comment>Action text of the change owner action for this blog.</comment>
+  </data>
+  <data name="ViewThisBlogPost" lastModified="2014-04-07T14:32:44">
+    <value>View this blog post</value>
+    <comment>Action text of the view action for this blog post.</comment>
+  </data>
+  <data name="ManageThisBlogPost" lastModified="2014-04-07T14:32:44">
+    <value>Manage this blog post</value>
+    <comment>Action text of the modify action for this blog post.</comment>
+  </data>
+  <data name="DeleteThisBlogPost" lastModified="2014-04-07T14:32:44">
+    <value>Delete this blog post</value>
+    <comment>Action text of the delete action for this blog post.</comment>
+  </data>
+  <data name="ChangeThisBlogPostPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change this blog post's permissions</value>
+    <comment>Action text of the change permissions action for this blog post.</comment>
+  </data>
+  <data name="ChangeThisBlogPostOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change this blog post's owner</value>
+    <comment>Action text of the change owner action for this blog post.</comment>
+  </data>
+  <data name="ViewThisImage" lastModified="2014-04-07T14:32:44">
+    <value>View this image</value>
+    <comment>Action text of the view action for this image.</comment>
+  </data>
+  <data name="ModifyThisImage" lastModified="2014-04-07T14:32:44">
+    <value>Modify this image</value>
+    <comment>Action text of the modify action for this image.</comment>
+  </data>
+  <data name="DeleteThisImage" lastModified="2014-04-07T14:32:44">
+    <value>Delete this image</value>
+    <comment>Action text of the delete action for this image.</comment>
+  </data>
+  <data name="ChangeThisImagePermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change this image's permissions</value>
+    <comment>Action text of the change permissions action for this image.</comment>
+  </data>
+  <data name="ChangeThisImageOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change this image's owner</value>
+    <comment>Action text of the change owner action for this image.</comment>
+  </data>
+  <data name="ViewThisAlbum" lastModified="2014-04-07T14:32:44">
+    <value>View this image library</value>
+    <comment>Action text of the view action for this image library.</comment>
+  </data>
+  <data name="ModifyThisAlbum" lastModified="2014-04-07T14:32:44">
+    <value>Modify this image library</value>
+    <comment>Action text of the modify action for this image library.</comment>
+  </data>
+  <data name="DeleteThisAlbum" lastModified="2014-04-07T14:32:44">
+    <value>Delete this image library</value>
+    <comment>Action text of the delete action for this image library.</comment>
+  </data>
+  <data name="ChangeThisAlbumPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change this image library's permissions</value>
+    <comment>Action text of the change permissions action for this image library.</comment>
+  </data>
+  <data name="ChangeThisAlbumOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change this image library's owner</value>
+    <comment>Action text of the change owner action for this image library.</comment>
+  </data>
+  <data name="ViewThisVideo" lastModified="2014-04-07T14:32:44">
+    <value>View this video</value>
+    <comment>Action text of the view action for this video.</comment>
+  </data>
+  <data name="ModifyThisVideo" lastModified="2014-04-07T14:32:44">
+    <value>Modify this video</value>
+    <comment>Action text of the modify action for this video.</comment>
+  </data>
+  <data name="DeleteThisVideo" lastModified="2014-04-07T14:32:44">
+    <value>Delete this video</value>
+    <comment>Action text of the delete action for this video.</comment>
+  </data>
+  <data name="ChangeThisVideoPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change this video's permissions</value>
+    <comment>Action text of the change permissions action for this video.</comment>
+  </data>
+  <data name="ChangeThisVideoOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change this video's owner</value>
+    <comment>Action text of the change owner action for this video.</comment>
+  </data>
+  <data name="ViewThisVideoLibrary" lastModified="2014-04-07T14:32:44">
+    <value>View this video library</value>
+    <comment>Action text of the view action for this video library.</comment>
+  </data>
+  <data name="ModifyThisVideoLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Modify this video library</value>
+    <comment>Action text of the modify action for this video library.</comment>
+  </data>
+  <data name="DeleteThisVideoLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Delete this video library</value>
+    <comment>Action text of the delete action for this video library.</comment>
+  </data>
+  <data name="ChangeThisVideoLibraryPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change this video library's permissions</value>
+    <comment>Action text of the change permissions action for this video library.</comment>
+  </data>
+  <data name="ChangeThisVideoLibraryOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change this video library's owner</value>
+    <comment>Action text of the change owner action for this video library.</comment>
+  </data>
+  <data name="ViewThisDocument" lastModified="2014-04-07T14:32:44">
+    <value>View this document</value>
+    <comment>Action text of the view action for this document.</comment>
+  </data>
+  <data name="ModifyThisDocument" lastModified="2014-04-07T14:32:44">
+    <value>Modify this document</value>
+    <comment>Action text of the modify action for this document.</comment>
+  </data>
+  <data name="DeleteThisDocument" lastModified="2014-04-07T14:32:44">
+    <value>Delete this document</value>
+    <comment>Action text of the delete action for this document.</comment>
+  </data>
+  <data name="ChangeThisDocumentPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change this document's permissions</value>
+    <comment>Action text of the change permissions action for this document.</comment>
+  </data>
+  <data name="ChangeThisDocumentOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change this document's owner</value>
+    <comment>Action text of the change owner action for this document.</comment>
+  </data>
+  <data name="ViewThisDocumentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>View this document library</value>
+    <comment>Action text of the view action for this document library.</comment>
+  </data>
+  <data name="ModifyThisDocumentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Modify this document library</value>
+    <comment>Action text of the modify action for this document library.</comment>
+  </data>
+  <data name="DeleteThisDocumentLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Delete this document library</value>
+    <comment>Action text of the delete action for this document library.</comment>
+  </data>
+  <data name="ChangeThisDocumentLibraryPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change this document library's permissions</value>
+    <comment>Action text of the change permissions action for this document library.</comment>
+  </data>
+  <data name="ChangeThisDocumentLibraryOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change this document library's owner</value>
+    <comment>Action text of the change owner action for this document library.</comment>
+  </data>
+  <data name="ViewThisUserFileLibrary" lastModified="2014-04-07T14:32:44">
+    <value>View this folder</value>
+    <comment>Action text of the view action for this user file library.</comment>
+  </data>
+  <data name="ModifyThisUserFileLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Update folder and manage its items</value>
+    <comment>Action text of the modify action for this user file library.</comment>
+  </data>
+  <data name="DeleteThisUserFileLibrary" lastModified="2014-04-07T14:32:44">
+    <value>Delete this folder</value>
+    <comment>Action text of the delete action for this user file library.</comment>
+  </data>
+  <data name="ChangeThisUserFileLibraryPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change this folder's permissions</value>
+    <comment>Action text of the change permissions action for this user file library.</comment>
+  </data>
+  <data name="ChangeThisUserFileLibraryOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change this folder's owner</value>
+    <comment>Action text of the change owner action for this user file library.</comment>
+  </data>
+  <data name="ModifyATaxonomy" lastModified="2014-04-07T14:32:44">
+    <value>Modify classification and manage {0} items</value>
+    <comment>Action text of the modify action for a taxonomy.</comment>
+  </data>
+  <data name="ViewPages" lastModified="2014-04-07T14:32:44">
+    <value>View pages</value>
+    <comment>Action text of the View action for the root node of pages.</comment>
+  </data>
+  <data name="CreatePages" lastModified="2014-04-07T14:32:44">
+    <value>Create pages</value>
+    <comment>Action text of the Create action for the root node of pages.</comment>
+  </data>
+  <data name="ModifyPages" lastModified="2014-04-07T14:32:44">
+    <value>Modify page properties</value>
+    <comment>Action text of the Modify action for the root node of pages.</comment>
+  </data>
+  <data name="DeletePages" lastModified="2014-04-07T14:32:44">
+    <value>Delete pages</value>
+    <comment>Action text of the Create action for the root node of pages.</comment>
+  </data>
+  <data name="EditPagesContent" lastModified="2014-04-07T14:32:44">
+    <value>Edit page content</value>
+    <comment>Action text of the Edit action for the root node of pages.</comment>
+  </data>
+  <data name="CreatePagesChildControls" lastModified="2014-04-07T14:32:44">
+    <value>Add widgets and layout elements to the page</value>
+    <comment>Action text of the Add Widgets action for the root node of pages.</comment>
+  </data>
+  <data name="ChangePagesPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Change permissions</value>
+    <comment>Action text of the Change Permissions action for the root node of pages.</comment>
+  </data>
+  <data name="ChangePagesOwner" lastModified="2014-04-07T14:32:44">
+    <value>Change page owner</value>
+    <comment>Action text of the Change Owner action for the root node of pages.</comment>
+  </data>
+  <data name="DeleteThisSite" lastModified="2014-04-07T14:32:44">
+    <value>Delete this site</value>
+    <comment>Text of the delete action for a site.</comment>
+  </data>
+  <data name="ConfigureThisSiteModules" lastModified="2014-04-07T14:32:44">
+    <value>Configure this site modules</value>
+    <comment>Text of the configure modules action for a site.</comment>
+  </data>
+  <data name="StartStopThisSite" lastModified="2014-04-07T14:32:44">
+    <value>Set online/offline this site</value>
+    <comment>Text of the start/stop action for a site.</comment>
+  </data>
+  <data name="ChangePermissionsForThisSite" lastModified="2014-04-07T14:32:44">
+    <value>Change permissions for this site</value>
+    <comment>Text of the change permissions action for a site.</comment>
+  </data>
+  <data name="BlogGeneralActionTitle" lastModified="2014-04-07T14:32:44">
+    <value>blog</value>
+    <comment>Module titles for the General permission set: Blog.</comment>
+  </data>
+  <data name="EventGeneralActionTitle" lastModified="2014-04-07T14:32:44">
+    <value>event</value>
+    <comment>Module titles for the General permission set: Event.</comment>
+  </data>
+  <data name="ContentGeneralActionTitle" lastModified="2014-04-07T14:32:44">
+    <value>content block</value>
+    <comment>Module titles for the General permission set: Content block.</comment>
+  </data>
+  <data name="NewsActionPermissionsListTitle" lastModified="2014-04-07T14:32:44">
+    <value>news</value>
+    <comment>Module titles for the General permission set: News.</comment>
+  </data>
+  <data name="WorkflowActionPermissionsListTitle" lastModified="2014-04-07T14:32:44">
+    <value>workflow</value>
+    <comment>Module titles for the General permission set: Workflow.</comment>
+  </data>
+  <data name="ChangeOwnerForThisSite" lastModified="2014-04-07T14:32:44">
+    <value>Change the owner of this site</value>
+    <comment>Security action: Change the owner of this site</comment>
+  </data>
+  <data name="GranularPermissionsAreDisabled" lastModified="2014-04-07T14:32:44">
+    <value>Granular permissions are disabled for your license.</value>
+    <comment>Error message: Granular permissions are disabled for your license.</comment>
+  </data>
+  <data name="GranularPermissionsForPagesAreDisabled" lastModified="2014-04-07T14:32:44">
+    <value>Granular permissions for pages are disabled for your license.</value>
+    <comment>Error message: Granular permissions for pages are disabled for your license.</comment>
+  </data>
+  <data name="PermissionSettingForThisObjectIsDisabledOnYourLicense" lastModified="2014-04-07T14:32:44">
+    <value>The license will not be updated because</value>
+    <comment>Error message: Permission setting for this object is disabled on your license.</comment>
+  </data>
+  <data name="LoadBalancingIsDisabled" lastModified="2014-04-07T14:32:44">
+    <value>Load balancing is disabled for your license.</value>
+    <comment>Error message: Load balancing is disabled for your license.</comment>
+  </data>
+  <data name="BackendRoles" lastModified="2014-04-07T14:32:44">
+    <value>Backend Roles</value>
+    <comment>The title of the default backend role provider.</comment>
+  </data>
+  <data name="BackendRolesDescription" lastModified="2014-04-07T14:32:44">
+    <value>The default role provider for backend users (site administrators).</value>
+    <comment>Description of the default backend role provider.</comment>
+  </data>
+  <data name="FrontendRoles" lastModified="2014-04-07T14:32:44">
+    <value>Public Roles</value>
+    <comment>The title of the default frontend role provider.</comment>
+  </data>
+  <data name="FrontendRolesDescription" lastModified="2014-04-07T14:32:44">
+    <value>The default role provider for frontend (public) users.</value>
+    <comment>Description of the default backend role provider.</comment>
+  </data>
+  <data name="AppRoles" lastModified="2014-04-07T14:32:44">
+    <value>Application Roles</value>
+    <comment>The title of the application role provider.</comment>
+  </data>
+  <data name="AppRolesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Stores information about application roles. Application roles are special roles that are assigned to users automatically based on predefined conditions.</value>
+    <comment>Description of the application role provider.</comment>
+  </data>
+  <data name="Default" lastModified="2014-04-07T14:32:44">
+    <value>Default</value>
+    <comment>The title of the default backend membership provider.</comment>
+  </data>
+  <data name="BackendUsers" lastModified="2014-04-07T14:32:44">
+    <value>all Backend users</value>
+    <comment>Name of the backend users role name.</comment>
+  </data>
+  <data name="BackendUsersDescription" lastModified="2014-04-07T14:32:44">
+    <value>The default membership provider for backend users (site administrators).</value>
+    <comment>Description of the default backend role provider.</comment>
+  </data>
+  <data name="BackendUsersRole" lastModified="2014-04-07T14:32:44">
+    <value>Backend users</value>
+    <comment>The title of application role for backend users.</comment>
+  </data>
+  <data name="BackendUsersRoleDescription" lastModified="2014-04-07T14:32:44">
+    <value>The description of application role for backend users.</value>
+    <comment>Application role for users which are allowed to access the backend.</comment>
+  </data>
+  <data name="Authors" lastModified="2014-04-07T14:32:44">
+    <value>Authors</value>
+    <comment>Authors role title.</comment>
+  </data>
+  <data name="Designers" lastModified="2014-04-07T14:32:44">
+    <value>Designers</value>
+    <comment>Designers role title.</comment>
+  </data>
+  <data name="Editors" lastModified="2014-04-07T14:32:44">
+    <value>Editors</value>
+    <comment>Editors role title.</comment>
+  </data>
+  <data name="AuthorsRoleDescription" lastModified="2014-04-07T14:32:44">
+    <value>The description of application role for authors.</value>
+    <comment>Application role for users which are allowed to author content.</comment>
+  </data>
+  <data name="DesignersRoleDescription" lastModified="2014-04-07T14:32:44">
+    <value>The description of application role for backend users.</value>
+    <comment>Application role for users which are allowed to design.</comment>
+  </data>
+  <data name="FrontendUsersRoleDescription" lastModified="2014-04-07T14:32:44">
+    <value>The description of application role for fronend users.</value>
+    <comment>Application role for users which are allowed to design.</comment>
+  </data>
+  <data name="EditorsRoleDescription" lastModified="2014-04-07T14:32:44">
+    <value>The description of application role for backend users.</value>
+    <comment>Application role for users which are allowed to edit.</comment>
+  </data>
+  <data name="FrontendUsers" lastModified="2014-04-07T14:32:44">
+    <value>Public Users</value>
+    <comment>The title of the default frontend membership provider.</comment>
+  </data>
+  <data name="PermissionsForFrontendPages" lastModified="2014-04-07T14:32:44">
+    <value>Permissions for frontend pages</value>
+    <comment>Title: Permissions for frotend pages.</comment>
+  </data>
+  <data name="SelectSection" lastModified="2014-04-07T14:32:44">
+    <value>Select a section</value>
+    <comment>Label in Global Permissions view</comment>
+  </data>
+  <data name="CreateARole" lastModified="2014-04-07T14:32:44">
+    <value>Create a role</value>
+    <comment>Text for the create a role button</comment>
+  </data>
+  <data name="RegisteredOn" lastModified="2014-04-07T14:32:44">
+    <value>Registered on</value>
+    <comment>Displays the registration date in grids that list users.</comment>
+  </data>
+  <data name="AssignOrUnassignUsers" lastModified="2014-04-07T14:32:44">
+    <value>Assign or Unassign Users</value>
+    <comment>Phrase: assign or unassign users</comment>
+  </data>
+  <data name="AssignOrUnassignUsersToRoleName" lastModified="2014-04-07T14:32:44">
+    <value>Assign or Unassign Users &lt;strong&gt;to &lt;em&gt;{0}&lt;/em&gt; role&lt;/strong&gt;</value>
+    <comment>Phrase: Assign or Unassign Users to Role '{0}'</comment>
+  </data>
+  <data name="ListOfAvailableRoles" lastModified="2014-04-07T14:32:44">
+    <value>List of available roles</value>
+    <comment>phrase: List of available roles</comment>
+  </data>
+  <data name="CreateThisUser" lastModified="2014-04-07T14:32:44">
+    <value>Create this user</value>
+    <comment>phrase: Create this user</comment>
+  </data>
+  <data name="MembershipProviders" lastModified="2014-04-07T14:32:44">
+    <value>Membership Providers</value>
+    <comment>phrase: Membership Providers</comment>
+  </data>
+  <data name="CreateAUser" lastModified="2014-04-07T14:32:44">
+    <value>Create a user</value>
+    <comment>phrase: Create a user</comment>
+  </data>
+  <data name="CreateOrModifyUsers" lastModified="2014-04-07T14:32:44">
+    <value>create or modify users</value>
+    <comment>create or modify users</comment>
+  </data>
+  <data name="ChangeUsersPassword" lastModified="2014-04-07T14:32:44">
+    <value>change user's password</value>
+    <comment>phrase: change user's password</comment>
+  </data>
+  <data name="CreateOrModifyRoles" lastModified="2014-04-07T14:32:44">
+    <value>create or modify roles</value>
+    <comment>create or modify roles</comment>
+  </data>
+  <data name="InvalidPassword" lastModified="2014-04-07T14:32:44">
+    <value>The password you have entered is not valid.</value>
+    <comment>phrase: The password you have entered is not valid.</comment>
+  </data>
+  <data name="NewUserCreated" lastModified="2014-04-07T14:32:44">
+    <value>New user has been successfully created.</value>
+    <comment>phrase: New user has been successfully created.</comment>
+  </data>
+  <data name="EditUser" lastModified="2014-04-07T14:32:44">
+    <value>Edit user</value>
+    <comment>phrase: Edit user</comment>
+  </data>
+  <data name="UsernameCannotBeChanged" lastModified="2014-04-07T14:32:44">
+    <value>The username cannot be changed</value>
+    <comment>phrase: The username cannot be changed</comment>
+  </data>
+  <data name="OnceCreatedUsernameCannotBeChanged" lastModified="2014-04-07T14:32:44">
+    <value>Once created the username cannot be changed</value>
+    <comment>phrase: The username cannot be changed</comment>
+  </data>
+  <data name="ResetPassword" lastModified="2014-04-07T14:32:44">
+    <value>Reset password</value>
+    <comment>phrase: Reset password</comment>
+  </data>
+  <data name="ResetPasswordDescription" lastModified="2014-04-07T14:32:44">
+    <value>Click to automatically create a new password for this user.</value>
+    <comment>phrase: Click to automatically create a new password for this user.</comment>
+  </data>
+  <data name="ChangePassword" lastModified="2014-04-07T14:32:44">
+    <value>Change password</value>
+    <comment>phrase: Change password</comment>
+  </data>
+  <data name="WhoCan" lastModified="2014-04-07T14:32:44">
+    <value>Who can</value>
+    <comment>phrase: Who can</comment>
+  </data>
+  <data name="WhoCanDots" lastModified="2014-04-07T14:32:44">
+    <value>Who can...</value>
+    <comment>phrase: Who can...</comment>
+  </data>
+  <data name="AddRolesOrUsers" lastModified="2014-04-07T14:32:44">
+    <value>Add roles or users</value>
+    <comment>phrase: Add roles or users</comment>
+  </data>
+  <data name="ClickOnUserToSelectIt" lastModified="2014-04-07T14:32:44">
+    <value>Click on a user to select it</value>
+    <comment>phrase: Click on a user to select it</comment>
+  </data>
+  <data name="ClickOnRoleToSelectIt" lastModified="2014-04-07T14:32:44">
+    <value>Click on a role to select it</value>
+    <comment>phrase: Click on a role to select it</comment>
+  </data>
+  <data name="ExplicitlyDenied" lastModified="2014-04-07T14:32:44">
+    <value>Explicitly denied</value>
+    <comment>phrase: Explicitly denied:</comment>
+  </data>
+  <data name="AllUsers" lastModified="2014-04-07T14:32:44">
+    <value>All users</value>
+    <comment>phrase: All users</comment>
+  </data>
+  <data name="AllUsersCount" lastModified="2014-04-07T14:32:44">
+    <value>All Users {0}</value>
+    <comment>phrase: All Users {0}</comment>
+  </data>
+  <data name="UsersInRoleNameCount" lastModified="2014-04-07T14:32:44">
+    <value>Assigned {0} {1}</value>
+    <comment>phrase: Users in role {0} {1}</comment>
+  </data>
+  <data name="UserWithThisUsernameExists" lastModified="2014-04-07T14:32:44">
+    <value>User with this username already exists</value>
+    <comment>phrase: User with this username already exists</comment>
+  </data>
+  <data name="AdministratorsRoleCannotBeDeleted" lastModified="2014-04-07T14:32:44">
+    <value>The selected role is a role used by the system and cannot be deleted.</value>
+    <comment>phrase: System role cannot be deleted</comment>
+  </data>
+  <data name="RoleNameIsReservedByTheSystem" lastModified="2014-04-07T14:32:44">
+    <value>The role name '{0}' is reserved for use by the system.</value>
+    <comment>phrase: The role name '{0}' is reserved for use by the system.</comment>
+  </data>
+  <data name="UserIsLastAdministrator" lastModified="2014-04-07T14:32:44">
+    <value>User is last administrator and cannot be deleted.</value>
+    <comment>phrase: User is last administrator and cannot be deleted.</comment>
+  </data>
+  <data name="CreationDate" lastModified="2014-04-07T14:32:44">
+    <value>Creation date</value>
+    <comment>phrase: Creation date</comment>
+  </data>
+  <data name="SelectedUsers" lastModified="2014-04-07T14:32:44">
+    <value>Selected users</value>
+    <comment>phrase: Selected users</comment>
+  </data>
+  <data name="Assigned" lastModified="2014-04-07T14:32:44">
+    <value>Assigned</value>
+    <comment>word: Assigned</comment>
+  </data>
+  <data name="GlobalPermissionsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>Global Permissions Title</comment>
+  </data>
+  <data name="ThisUserCanAccessSiteBackend" lastModified="2014-04-07T14:32:44">
+    <value>This user can &lt;strong&gt;access site backend&lt;/strong&gt;</value>
+    <comment>This user can access site backend</comment>
+  </data>
+  <data name="InOrderToManageContentOrSettings" lastModified="2014-04-07T14:32:44">
+    <value>in order to manage content or settings</value>
+    <comment>in order to manage content or settings</comment>
+  </data>
+  <data name="UserIsCurrentlyLogged" lastModified="2014-04-07T14:32:44">
+    <value>This is the currently logged user and cannot be deleted.</value>
+    <comment>phrase: This is the currently logged user and cannot be deleted.</comment>
+  </data>
+  <data name="MissingCurrentPrincipal" lastModified="2014-04-07T14:32:44">
+    <value>Missing current principal.</value>
+    <comment>Error message shown when checking for permissions and the current user couldn't be retrieved.</comment>
+  </data>
+  <data name="SecuredObjectWithIdDoesNotSupportPermissionSet" lastModified="2014-04-07T14:32:44">
+    <value>{0} with ID {1} does not support permission set {2}. It supports {3}.</value>
+    <comment>Error message shown when we check whether a secured object is granted some action of a permission set that is not supported.</comment>
+  </data>
+  <data name="NotAuthorizedToDoSetAction" lastModified="2014-04-07T14:32:44">
+    <value>You are not authorized to '{0}' ('{1}').</value>
+    <comment>More detailed error message displayed when a permission is not granted.</comment>
+  </data>
+  <data name="CantUnassignAllAdministrators" lastModified="2014-04-07T14:32:44">
+    <value>You cannot unassign all administrators.</value>
+    <comment>Message: You cannot unassign all administrators.</comment>
+  </data>
+  <data name="NoSecurityRoot" lastModified="2014-04-07T14:32:44">
+    <value>Could not retrieve a security root for {0}.</value>
+    <comment>Message: Could not retrieve a security root for {0}.</comment>
+  </data>
+  <data name="NoEditPermissionsViewDialogTitle" lastModified="2014-04-07T14:32:44">
+    <value>Edit {0}</value>
+    <comment>Title: Edit</comment>
+  </data>
+  <data name="NoPermissionsToSetAsHomepage" lastModified="2014-04-07T14:32:44">
+    <value>You do not have enough permissions to set this page as a homepage</value>
+    <comment>Title: No permissions</comment>
+  </data>
+  <data name="NoEditPermissionsPreviewOnlyConfirmation" lastModified="2014-04-07T14:32:44">
+    <value>&lt;p&gt;You do not have the permissions to perform this action.&lt;br /&gt;Contact your system administrator for assistance.&lt;br /&gt;&lt;br /&gt;Click &lt;em&gt;View&lt;/em&gt; to open the item in read-only mode. Press &lt;em&gt;Cancel&lt;/em&gt; to exit.&lt;/p&gt;</value>
+    <comment>Message: You do not have the permissions to perform this action. Contact your system administrator for assistance. Click View to open the item in read-only mode. Press Cancel to exit.</comment>
+  </data>
+  <data name="NoEditPermissionsPreviewOnlyConfirmationNoViewOption" lastModified="2014-04-07T14:32:44">
+    <value>&lt;p&gt;You do not have the permissions to perform this action.&lt;br /&gt;Contact your system administrator for assistance.&lt;/p&gt;</value>
+    <comment>Message: You do not have the permissions to perform this action. Contact your system administrator for assistance.</comment>
+  </data>
+  <data name="NoEditPermissionsViewObject" lastModified="2014-04-07T14:32:44">
+    <value>View</value>
+    <comment>Button: View object</comment>
+  </data>
+  <data name="NotAuthorizedToManageControlsOnThisPage" lastModified="2014-04-07T14:32:44">
+    <value>You are not authorized to create widgets and layout elements on this page</value>
+    <comment>Message: You are not authorized to create widgets and layout elements on this page</comment>
+  </data>
+  <data name="NotAuthorizedToManageControlsOnThisTemplate" lastModified="2014-04-07T14:32:44">
+    <value>You are not authorized to create widgets and layout elements on this template</value>
+    <comment>Message: You are not authorized to create widgets and layout elements on this template</comment>
+  </data>
+  <data name="NotAuthorizedToManageControlsOnThisForm" lastModified="2014-04-07T14:32:44">
+    <value>You are not authorized to create widgets and layout elements on this form</value>
+    <comment>Message: You are not authorized to create widgets and layout elements on this form</comment>
+  </data>
+  <data name="UserNameHasBeenLoggedOut" lastModified="2014-04-07T14:32:44">
+    <value>{0} has been logged out.</value>
+    <comment>Message: '{0} has been logged out.', where {0} is placeholder for user name</comment>
+  </data>
+  <data name="ApplicationRoleAlreadyExistsWithThisName" lastModified="2014-04-07T14:32:44">
+    <value>An application role with the name {0} already exists in the system.</value>
+    <comment>Error message: An application role with the name {0} already exists in the system.</comment>
+  </data>
+  <data name="DatabaseFAQ" lastModified="2014-04-07T14:32:44">
+    <value>&lt;h4&gt;Do I need to create the database beforehand?&lt;/h4&gt;&lt;p&gt;No. If you select &lt;em&gt;Microsoft SQL Server Express&lt;/em&gt;, the database will be added automatically. If you select &lt;em&gt;Microsoft SQL Server&lt;/em&gt;, the database user should have permissions to create a database or  you would need to create the database manually.&lt;/p&gt;&lt;h4&gt;What if I check &lt;em&gt;Windows Authentication for SQL Server connection&lt;/em&gt;?&lt;/h4&gt;&lt;p&gt;You need to make sure that the account that runs the ASPNET process has the appropriate permissions to the database.&lt;/p&gt;</value>
+    <comment>DatabaseFAQ</comment>
+  </data>
+  <data name="InvalidUserName" lastModified="2014-04-07T14:32:44">
+    <value>The username you have entered is not valid.</value>
+    <comment>phrase: The username you have entered is not valid.</comment>
+  </data>
+  <data name="PasswordTooShort" lastModified="2014-04-07T14:32:44">
+    <value>The password is too short. It should be at least {0} character(s) long.</value>
+    <comment>phrase: The password is too short. It should be at least {0} character(s) long.</comment>
+  </data>
+  <data name="PasswordNeedsMoreAlphaNumericCharacters" lastModified="2014-04-07T14:32:44">
+    <value>Invalid password. It should contain at least {0} alpha-numeric character(s).</value>
+    <comment>phrase: Invalid password. It should contain at least {0} alpha-numeric character(s).</comment>
+  </data>
+  <data name="PasswordTooWeek" lastModified="2014-04-07T14:32:44">
+    <value>Password too week. It does not match the strength regular expression.</value>
+    <comment>phrase: Password too week. It does not match the strength regular expression.</comment>
+  </data>
+  <data name="InvalidQuestion" lastModified="2014-04-07T14:32:44">
+    <value>The question you have entered is not valid.</value>
+    <comment>phrase: The question you have entered is not valid.</comment>
+  </data>
+  <data name="InvalidAnswer" lastModified="2014-04-07T14:32:44">
+    <value>The answer you have entered is not valid.</value>
+    <comment>phrase: The answer you have entered is not valid.</comment>
+  </data>
+  <data name="InvalidEmail" lastModified="2014-04-07T14:32:44">
+    <value>The email you have entered is not valid.</value>
+    <comment>phrase: The email you have entered is not valid.</comment>
+  </data>
+  <data name="DuplicateEmail" lastModified="2014-04-07T14:32:44">
+    <value>User with this email already exists.</value>
+    <comment>phrase: User with this email already exists.</comment>
+  </data>
+  <data name="UserRejected" lastModified="2014-04-07T14:32:44">
+    <value>The user was rejected.</value>
+    <comment>prhase: The user was rejected.</comment>
+  </data>
+  <data name="InvalidProviderUserKey" lastModified="2014-04-07T14:32:44">
+    <value>Invalid provider user key.</value>
+    <comment>phrase: Invalid provider user key.</comment>
+  </data>
+  <data name="DuplicateProviderUserKey" lastModified="2014-04-07T14:32:44">
+    <value>Duplicate Provider UserKey</value>
+    <comment>phrase: Duplicate provider user key.</comment>
+  </data>
+  <data name="ProviderError" lastModified="2014-04-07T14:32:44">
+    <value>The membership provider has encountered an internal error.</value>
+    <comment>phrase: The membership provider has encountered an internal error.</comment>
+  </data>
+  <data name="RoleExistsOnProvider" lastModified="2014-04-07T14:32:44">
+    <value>The role with the name '{0}' already exists on the '{1}' role provider. Please choose a different role name.</value>
+    <comment>Message: Role with such name already exists on the role provider</comment>
+  </data>
+  <data name="DeleteCurrentUserWarning" lastModified="2014-04-07T14:32:44">
+    <value>You are about to delete your own user account. This change is irreversible and you will be logged out.</value>
+    <comment>Warning that is show to the user to confirm that they want to delete their own account.</comment>
+  </data>
+  <data name="RoleWasSuccesfullySaved" lastModified="2014-04-07T14:32:44">
+    <value>Role was successfully saved.</value>
+    <comment>Message that notifies that the new role was succesfully saved.</comment>
+  </data>
+  <data name="RoleWasSuccesfullyDeleted" lastModified="2014-04-07T14:32:44">
+    <value>Role was successfully deleted.</value>
+    <comment>Message that notifies that a role was succesfully deleted.</comment>
+  </data>
+  <data name="RoleDeletionConfirmation" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete this role (users will be removed from the role automatically)?</value>
+    <comment>Asks the user for confirmation before deleting a role.</comment>
+  </data>
+  <data name="CannotCreateRoleWithoutName" lastModified="2014-04-07T14:32:44">
+    <value>You can not create a role with no name.</value>
+    <comment>Notifies the user when they try to create a role with no name.</comment>
+  </data>
+  <data name="ThereCanBeOnlyOneAdministratorsRole" lastModified="2014-04-07T14:32:44">
+    <value>There can be only one 'Administrators' role.</value>
+    <comment>Warns the user whey they try to create a new role named 'Administrators'</comment>
+  </data>
+  <data name="SmtpTimeoutMustBeNonNegative" lastModified="2014-04-07T14:32:44">
+    <value>SMTP timeout must be non-negative.</value>
+    <comment>Error message displayed when the user tries to enter a value for SMTP timeout that is less than zero.</comment>
+  </data>
+  <data name="SmtpPortMustBeNonNegative" lastModified="2014-04-07T14:32:44">
+    <value>SMTP port must be non-negative.</value>
+    <comment>Error message displayed when the user tries to enter a value for SMTP port that is less than zero.</comment>
+  </data>
+  <data name="YouCantDeleteTheCurrentUser" lastModified="2014-04-07T14:32:44">
+    <value>You can't delete the current user.</value>
+    <comment>Error message when trying to delete the current user.</comment>
+  </data>
+</root>

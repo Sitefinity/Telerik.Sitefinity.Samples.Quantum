@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DashboardResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard module labels</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="DashboardResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for dashboard module interface.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="DashboardTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard module</value>
+    <comment>Title for the Dashboard module page.</comment>
+  </data>
+  <data name="DashboardViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Recent Items</value>
+    <comment>The title of the Dashboard view control in pages toolbox.</comment>
+  </data>
+  <data name="DashboardViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard View control</value>
+    <comment>The description of the Dashboard View control in pages toolbox.</comment>
+  </data>
+  <data name="DashboardViewPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard</value>
+    <comment>word: Dashboard</comment>
+  </data>
+  <data name="EditDashboardSettings" lastModified="2014-04-07T14:32:44">
+    <value>Set which widgets to display</value>
+    <comment>Phrase: Edit Dashboard settings</comment>
+  </data>
+  <data name="WhichContentItemsToDisplay" lastModified="2014-04-07T14:32:44">
+    <value>Which content items to display</value>
+    <comment>Phrase: Which content items to display</comment>
+  </data>
+  <data name="ContentTypes" lastModified="2014-04-07T14:32:44">
+    <value>Content types</value>
+    <comment>Phrase: Content types</comment>
+  </data>
+  <data name="AllContentTypes" lastModified="2014-04-07T14:32:44">
+    <value>All content types</value>
+    <comment>Phrase: All content types</comment>
+  </data>
+  <data name="NotSelectedContentTypes" lastModified="2014-04-07T14:32:44">
+    <value>No content types are selected</value>
+    <comment>Phrase: No content types are selected</comment>
+  </data>
+  <data name="SelectContentType" lastModified="2014-04-07T14:32:44">
+    <value>Select a content type</value>
+    <comment>Phrase: Select a content type</comment>
+  </data>
+  <data name="OnlySelectedTypes" lastModified="2014-04-07T14:32:44">
+    <value>Selected content types only...</value>
+    <comment>Phrase: Selected content types only</comment>
+  </data>
+  <data name="ModifiedBy" lastModified="2014-04-07T14:32:44">
+    <value>Modified by</value>
+    <comment>Phrase: Modified by</comment>
+  </data>
+  <data name="ModifiedByMe" lastModified="2014-04-07T14:32:44">
+    <value>Me (logged user)</value>
+    <comment>Phrase: Me (logged user)</comment>
+  </data>
+  <data name="ModifiedByEveryone" lastModified="2014-04-07T14:32:44">
+    <value>All users</value>
+    <comment>Phrase: All users</comment>
+  </data>
+  <data name="Statuses" lastModified="2014-04-07T14:32:44">
+    <value>Statuses</value>
+    <comment>word: Statuses</comment>
+  </data>
+  <data name="AllStatuses" lastModified="2014-04-07T14:32:44">
+    <value>All statuses</value>
+    <comment>Phrase: All statuses</comment>
+  </data>
+  <data name="StatusesNotSelected" lastModified="2014-04-07T14:32:44">
+    <value>No statuses are selected</value>
+    <comment>Phrase: No statuses are selected</comment>
+  </data>
+  <data name="SelectStatus" lastModified="2014-04-07T14:32:44">
+    <value>Select a status</value>
+    <comment>Phrase: Select a status</comment>
+  </data>
+  <data name="DesignerWidgetSettingsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="DesignerWidgetSettingsPagination" lastModified="2014-04-07T14:32:44">
+    <value>Pagination</value>
+    <comment>word: Pagination</comment>
+  </data>
+  <data name="DesignerWidgetSettingsItemsPerPage" lastModified="2014-04-07T14:32:44">
+    <value>items per page</value>
+    <comment>phrase: items per page</comment>
+  </data>
+  <data name="DesignerWidgetSettingsFilter" lastModified="2014-04-07T14:32:44">
+    <value>Display filter by</value>
+    <comment>phrase: Display filter by</comment>
+  </data>
+  <data name="DesignerWidgetSettingsFilterNone" lastModified="2014-04-07T14:32:44">
+    <value>- Don't display filter -</value>
+    <comment>phrase: - Don't display filter -</comment>
+  </data>
+  <data name="DesignerWidgetSettingsFilterStatus" lastModified="2014-04-07T14:32:44">
+    <value>Status (Draft, Scheduled, etc.)</value>
+    <comment>phrase: Status (Draft, Scheduled, etc.)</comment>
+  </data>
+  <data name="DesignerWidgetSettingsFilterUser" lastModified="2014-04-07T14:32:44">
+    <value>User (All, My items)</value>
+    <comment>phrase: User (All, My items)</comment>
+  </data>
+  <data name="DesignerWidgetMyRecentItems" lastModified="2014-04-07T14:32:44">
+    <value>My recent items</value>
+    <comment>phrase: My recent items</comment>
+  </data>
+  <data name="SettingsDesignerToolTipTitle" lastModified="2014-04-07T14:32:44">
+    <value>Why filter is not displayed sometimes?</value>
+    <comment>phrase: Why filter is not displayed sometimes?</comment>
+  </data>
+  <data name="SettingsDesignerToolTip" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Filter by Status&lt;/strong&gt; is not displayed if items from only one status are selected to be displayed here or if all items have the same status&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Filter by User&lt;/strong&gt; is not displayed if only items modified by Me are selected to be displayed here</value>
+    <comment>phrase: Filter by Status is not displayed if items from only one status are selected to be displayed here or if all items have the same status. Filter by User is not displayed if only items modified by Me are selected to be displayed here</comment>
+  </data>
+  <data name="DashboardConfigCaption" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard settings</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="DashboardConfigDescription" lastModified="2014-04-07T14:32:44">
+    <value>Resource strings for Dashboard settings.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="UsedWorkflowStatusesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Used workflow statuses</value>
+    <comment>The title of UsedWorkflowStatuses.</comment>
+  </data>
+  <data name="UsedWorkflowStatusesDescription" lastModified="2014-04-07T14:32:44">
+    <value>The workflow statuses used in the system</value>
+    <comment>The description of UsedWorkflowStatuses.</comment>
+  </data>
+  <data name="PermissionsCacheSlidingExpirationTimeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Permissions cache sliding expiration time</value>
+    <comment>The title for PermissionsCacheSlidingExpirationTime</comment>
+  </data>
+  <data name="PermissionsCacheSlidingExpirationTimeDescription" lastModified="2014-04-07T14:32:44">
+    <value>This value (in minutes) indicates the sliding expiration time for the permissions cache</value>
+    <comment>The description for PermissionsCacheSlidingExpirationTime</comment>
+  </data>
+  <data name="DashboardWidgetsRefreshIntervalTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard widgets refresh interval</value>
+    <comment>The title of this property.</comment>
+  </data>
+  <data name="DashboardWidgetsRefreshIntervalDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specifies the refresh interval for all dashboard widgets in minutes</value>
+    <comment>The description for DashboardWidgetsRefreshInterval</comment>
+  </data>
+  <data name="DashboardStorageExpirationTimeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard log entries expiration time</value>
+    <comment>The title for DashboardStorageExpirationTime</comment>
+  </data>
+  <data name="DashboardStorageExpirationTimeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard entries older than this value (in days) will be removed</value>
+    <comment>The description for DashboardStorageExpirationTimeDescription</comment>
+  </data>
+  <data name="DashboardStorageMaxSizeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard storage capacity</value>
+    <comment>The title for DashboardStorageMaxSize</comment>
+  </data>
+  <data name="DashboardStorageMaxSizeDescription" lastModified="2014-04-07T14:32:44">
+    <value>If there are more entries than this value, the oldest ones will be removed</value>
+    <comment>The description for DashboardStorageMaxSize</comment>
+  </data>
+  <data name="NumberNewItemsThatInvokeCleanupTitle" lastModified="2014-04-07T14:32:44">
+    <value>Number of new items that invoke cleanup</value>
+    <comment>The title for NumberNewItemsThatInvokeCleanup</comment>
+  </data>
+  <data name="NumberNewItemsThatInvokeCleanupDescription" lastModified="2014-04-07T14:32:44">
+    <value>Indicates how often the cleanup should be performed. 1 means every time an item is added.</value>
+    <comment>The description for NumberNewItemsThatInvokeCleanup</comment>
+  </data>
+  <data name="LastModified" lastModified="2014-04-07T14:32:44">
+    <value>Last Modified</value>
+    <comment>phrase: Last Modified</comment>
+  </data>
+  <data name="NoData" lastModified="2014-04-07T14:32:44">
+    <value>Nothing interesting in the last 365 days</value>
+    <comment>phrase: Nothing interesting in the last 365 day(s)</comment>
+  </data>
+  <data name="DashboardPageTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard</value>
+    <comment>The title of the dashboard page</comment>
+  </data>
+  <data name="DashboardPageUrlname" lastModified="2014-04-07T14:32:44">
+    <value>dashboard</value>
+    <comment>The url name of the dashboard page</comment>
+  </data>
+  <data name="DashboardPageDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the default Sitefinity dashboard page</value>
+    <comment>A description of the dashboard page</comment>
+  </data>
+  <data name="DashboardPageHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard</value>
+    <comment>The html title of the dashboard page</comment>
+  </data>
+  <data name="MyContentWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>My content</value>
+    <comment>The title of the my content widget.</comment>
+  </data>
+  <data name="EveryoneContentWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Everyone's content</value>
+    <comment>The title of the everyone's content widget.</comment>
+  </data>
+  <data name="RecentBlogPostsWidget" lastModified="2014-04-07T14:32:44">
+    <value>Recent blog posts</value>
+    <comment>The title of the recent blog posts widget</comment>
+  </data>
+  <data name="HideThisFromMyItems" lastModified="2014-04-07T14:32:44">
+    <value>Hide this from my items</value>
+    <comment>phrase: Hide this from my items</comment>
+  </data>
+  <data name="MyItems" lastModified="2014-04-07T14:32:44">
+    <value>My items</value>
+    <comment>phrase: My items</comment>
+  </data>
+  <data name="Older" lastModified="2014-04-07T14:32:44">
+    <value>Older</value>
+    <comment>word: Older</comment>
+  </data>
+  <data name="Newer" lastModified="2014-04-07T14:32:44">
+    <value>Newer</value>
+    <comment>word: Newer</comment>
+  </data>
+  <data name="OnlySelectedStatuses" lastModified="2014-04-07T14:32:44">
+    <value>Selected statuses only...</value>
+    <comment>Phrase: Selected statuses only</comment>
+  </data>
+  <data name="DashboardContentPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Recent items</value>
+    <comment>Phrase: Recent items</comment>
+  </data>
+  <data name="SelectStatuses" lastModified="2014-04-07T14:32:44">
+    <value>Select statuses</value>
+    <comment>phrase: Select statuses</comment>
+  </data>
+  <data name="RejectedForPublishing" lastModified="2014-04-07T14:32:44">
+    <value>Rejected for publishing</value>
+    <comment>phrase: Rejected for publishing</comment>
+  </data>
+  <data name="DashboardWelcomeWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Welcome to Sitefinity</value>
+    <comment>The title of the Welcome dashboard widget</comment>
+  </data>
+  <data name="DashboardWelcomeWidgetDescription" lastModified="2014-04-07T14:32:44">
+    <value>A default welcome widget for the Sitefinity dashboard</value>
+    <comment>The description of the Welcome dashboard widget</comment>
+  </data>
+  <data name="DashboardWelcomeGettingStartedText" lastModified="2014-04-07T14:32:44">
+    <value>&lt;p&gt;The new release delivers a next generation web content management system that empowers you to create compelling websites.&lt;/p&gt;&lt;p&gt;For general presentation of Sitefinity and its features, click on the video to the left.&lt;/p&gt;</value>
+    <comment>The text in the 'Getting started' area of the Welcome  dashboard widget</comment>
+  </data>
+  <data name="DashboardConfigureWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Configure Dashboard Link</value>
+    <comment>The title of the DashboardConfigureWidget</comment>
+  </data>
+  <data name="DashboardConfigureWidgetDescription" lastModified="2014-04-07T14:32:44">
+    <value>A link to the dashboard backend page edit screen (visible only to administrators).</value>
+    <comment>The description of the DashboardConfigureWidget</comment>
+  </data>
+  <data name="DahsboardTryToCaption" lastModified="2014-04-07T14:32:44">
+    <value>First, start with...</value>
+    <comment>Phrase: 'First, try to...' in the Welcome dashboard widget</comment>
+  </data>
+  <data name="DashboardUploadPhotosCaption" lastModified="2014-04-07T14:32:44">
+    <value>Uploading photos</value>
+    <comment>The 'Upload photos' caption in the Welcome dashboard widget</comment>
+  </data>
+  <data name="DashboardConsiderToCaption" lastModified="2014-04-07T14:32:44">
+    <value>Then, try to...</value>
+    <comment>Phrase: 'Then, consider to...' in the Welcome dashboard widget</comment>
+  </data>
+  <data name="DashboardRegisterAUserCaption" lastModified="2014-04-07T14:32:44">
+    <value>Manage users</value>
+    <comment>Phrase: Manage users</comment>
+  </data>
+  <data name="DashboardManageTemplatesCaption" lastModified="2014-04-07T14:32:44">
+    <value>Manage page templates</value>
+    <comment>Phrase: Manage page templates</comment>
+  </data>
+  <data name="RecentItemsInDesignMode" lastModified="2014-04-07T14:32:44">
+    <value>The content of this widget is not visible in design mode.</value>
+    <comment>Phrase: Not visible in design mode.</comment>
+  </data>
+  <data name="NoDataDay" lastModified="2014-04-07T14:32:44">
+    <value>Nothing interesting in the last 1 day</value>
+    <comment>phrase: Nothing interesting in the last 1 day</comment>
+  </data>
+  <data name="NoDataMonths" lastModified="2014-04-07T14:32:44">
+    <value>Nothing interesting in the last 12 months</value>
+    <comment>phrase: Nothing interesting in the last 12 months</comment>
+  </data>
+  <data name="EmptyTitle" lastModified="2014-04-07T14:32:44">
+    <value>Empty</value>
+    <comment>word: empty</comment>
+  </data>
+  <data name="NoRecentData" lastModified="2014-04-07T14:32:44">
+    <value>No recent updates</value>
+    <comment>phrase: No recent updates</comment>
+  </data>
+  <data name="ConfigureDashboardLinkText" lastModified="2014-04-07T14:32:44">
+    <value>Configure Dashboard widgets</value>
+    <comment>Text: Configure Dashboard widgets</comment>
+  </data>
+  <data name="CreateBlog" lastModified="2014-04-07T14:32:44">
+    <value>Create a blog</value>
+    <comment>Label of the dialog that creates a new blog.</comment>
+  </data>
+  <data name="DashboardNotificationsWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard Notifications</value>
+    <comment>Dashboard Notifications</comment>
+  </data>
+</root>

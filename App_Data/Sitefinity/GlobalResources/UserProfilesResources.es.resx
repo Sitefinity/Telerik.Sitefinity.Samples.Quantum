@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UseSpecificUserProviders" lastModified="2012-08-10T22:20:16">
+    <value>Proveedores de usuarios específicos</value>
+    <comment>Label: Specific user providers</comment>
+  </data>
+  <data name="NoUserProfileTypes" lastModified="2012-08-10T22:20:16">
+    <value>No hay tipos de perfil.</value>
+    <comment>phrase: No profile types.</comment>
+  </data>
+  <data name="FineTuneTheSelectedType" lastModified="2012-08-10T22:20:16">
+    <value>Ajuste detallado del tipo seleccionado</value>
+    <comment>phrase:Fine tune the selected type</comment>
+  </data>
+  <data name="UserProfilesResourcesTitle" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas de perfiles de usuario</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="UserProfilesResourcesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables para la interfaz de usuario de los perfiles de usuario.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="UserProfileTypesDescription" lastModified="2012-08-10T22:20:16">
+    <value>ProfileTypes</value>
+    <comment>News</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El título no puede estar vacío</value>
+    <comment>phrase: Title cannot be empty</comment>
+  </data>
+  <data name="PluralItemName" lastModified="2012-08-10T22:20:16">
+    <value>perfiles de usuario</value>
+    <comment>Phrase: news</comment>
+  </data>
+  <data name="UserProfileTypesUrlName" lastModified="2012-08-10T22:20:16">
+    <value>ProfileTypes</value>
+    <comment>The UrlName of the Sitefinity/Admin/ProfileTypes page.</comment>
+  </data>
+  <data name="BackToItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a los Tipos de Perfil</value>
+    <comment>The text of the back to profile types link</comment>
+  </data>
+  <data name="EditProfilesWidgetSettings" lastModified="2012-08-10T22:20:16">
+    <value>Editar la configuración de widget de Perfiles</value>
+    <comment>Phrase: Edit Profiles widget settings</comment>
+  </data>
+  <data name="ProfileNameNotValid" lastModified="2012-08-10T22:20:16">
+    <value>Lo sentimos, el nombre debe empezar con una letra y continuar con las letras (a-z), números (0-9) o guiones bajos (_).</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="ShowMyEmailToOthers" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar mi correo electrónico a los demás</value>
+    <comment>Phrase: Show my email to others</comment>
+  </data>
+  <data name="NameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El nombre no puede estar vacío.</value>
+    <comment>phrase: Name cannot be empty.</comment>
+  </data>
+  <data name="YouAreNotLoggedIn" lastModified="2012-08-10T22:20:16">
+    <value>Usted no está conectado.</value>
+    <comment>Phrase: You are not logged in.</comment>
+  </data>
+  <data name="EditModeOnly" lastModified="2012-08-10T22:20:16">
+    <value>Modo de sólo edición</value>
+    <comment>phrase:Edit mode only</comment>
+  </data>
+  <data name="UserProfileTypesHtmlTitle" lastModified="2012-08-10T22:20:16">
+    <value>ProfileTypes</value>
+    <comment>Html Title for the user profiles types page.</comment>
+  </data>
+  <data name="PageForEditingProfile" lastModified="2012-08-10T22:20:16">
+    <value>Página para editar perfil</value>
+    <comment>phrase: Page for editing profile</comment>
+  </data>
+  <data name="OpenViewsInExternalPages" lastModified="2012-08-10T22:20:16">
+    <value>Abrir &lt;em&gt;Editar&lt;/em&gt; y &lt;em&gt;Cambiar contraseña&lt;/em&gt; en las páginas seleccionadas existentes…</value>
+    <comment>phrase: Open &lt;em&gt;Edit&lt;/em&gt; and &lt;em&gt;Change password &lt;/em&gt; in selected existing pages...</comment>
+  </data>
+  <data name="UserProfileTypes" lastModified="2012-08-10T22:20:16">
+    <value>ProfileTypes</value>
+    <comment>The name of the Sitefinity/Admin/ProfileTypes section.</comment>
+  </data>
+  <data name="PageForChangingPassword" lastModified="2012-08-10T22:20:16">
+    <value>Página para cambiar contraseña</value>
+    <comment>phrase: Page for changing password</comment>
+  </data>
+  <data name="BothModes" lastModified="2012-08-10T22:20:16">
+    <value>Ambos: Modo de lectura que se puede editar</value>
+    <comment>phrase:Both: Read mode that can be edited</comment>
+  </data>
+  <data name="ReadModeOnly" lastModified="2012-08-10T22:20:16">
+    <value>Modo de sólo lectura</value>
+    <comment>phrase: Read mode only</comment>
+  </data>
+  <data name="ThisProfileIsIn" lastModified="2012-08-10T22:20:16">
+    <value>Este perfil está en...</value>
+    <comment>phrase: This profile is in...</comment>
+  </data>
+  <data name="DisplayTheProfileOf" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar el perfil de...</value>
+    <comment>phrase: Display the profile of...</comment>
+  </data>
+  <data name="CreateItem" lastModified="2012-08-10T22:20:16">
+    <value>Crear tipo de perfil</value>
+    <comment>Label of the dialog that creates a profile type.</comment>
+  </data>
+  <data name="SelectAUser" lastModified="2012-08-10T22:20:16">
+    <value>Seleccionar un usuario</value>
+    <comment>phrase:Select a user</comment>
+  </data>
+  <data name="NoUserSelected" lastModified="2012-08-10T22:20:16">
+    <value>No se ha seleccionado ningún usuario</value>
+    <comment>phrase:No user selected</comment>
+  </data>
+  <data name="UserLoggedToHisHerAccount" lastModified="2012-08-10T22:20:16">
+    <value>Usuario conectado a su cuenta</value>
+    <comment>phrase: User logged to his/her account</comment>
+  </data>
+  <data name="CreateNewTemplate" lastModified="2012-08-10T22:20:16">
+    <value>Crear nueva plantilla</value>
+    <comment>phrase:Create New Template</comment>
+  </data>
+  <data name="WhichUsersToDisplay" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué usuarios se deben mostrar?</value>
+    <comment>phrase:Which users to display?</comment>
+  </data>
+  <data name="ProfileType" lastModified="2012-08-10T22:20:16">
+    <value>Tipo de perfil</value>
+    <comment>phrase:Profile type</comment>
+  </data>
+  <data name="SelectARole" lastModified="2012-08-10T22:20:16">
+    <value>Seleccionar una función</value>
+    <comment>phrase:Select a role</comment>
+  </data>
+  <data name="EditModeTemplate" lastModified="2012-08-10T22:20:16">
+    <value>Plantilla de 'modo de edición'</value>
+    <comment>phrase:'Edit mode' template</comment>
+  </data>
+  <data name="ChangePasswordTemplate" lastModified="2012-08-10T22:20:16">
+    <value>Plantilla 'cambiar contraseña'</value>
+    <comment>phrase: 'Change password' template</comment>
+  </data>
+  <data name="UserViewPropertyEditorTitle" lastModified="2012-08-10T22:20:16">
+    <value>Perfil</value>
+    <comment>word: Profile</comment>
+  </data>
+  <data name="SwitchToReadMode" lastModified="2012-08-10T22:20:16">
+    <value>Cambiar a "modo de lectura"</value>
+    <comment>phrase: Switch to 'Read mode'</comment>
+  </data>
+  <data name="WhenTheChangesAreSaved" lastModified="2012-08-10T22:20:16">
+    <value>Cuando los cambios se guardan...</value>
+    <comment>phrase: When the changes are saved...</comment>
+  </data>
+  <data name="TemplateForNotLoggedUsers" lastModified="2012-08-10T22:20:16">
+    <value>Plantilla para usuarios no conectados</value>
+    <comment>phrase:Template for not logged users</comment>
+  </data>
+  <data name="ShowMessageAboveTheForm" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar mensaje encima del formulario</value>
+    <comment>phrase: Show message above the form</comment>
+  </data>
+  <data name="OpenASpeciallyPreparedPage" lastModified="2012-08-10T22:20:16">
+    <value>Abrir una página especialmente preparada...</value>
+    <comment>phrase: Open a specially prepared page...</comment>
+  </data>
+  <data name="Template" lastModified="2012-08-10T22:20:16">
+    <value>Plantilla</value>
+    <comment>Word:Template</comment>
+  </data>
+  <data name="ChangePage" lastModified="2012-08-10T22:20:16">
+    <value>Cambiar página</value>
+    <comment>phrase: Change page</comment>
+  </data>
+  <data name="CssClass" lastModified="2012-08-10T22:20:16">
+    <value>Clase CSS</value>
+    <comment>phrase: Css class</comment>
+  </data>
+  <data name="ReadModeTemplate" lastModified="2012-08-10T22:20:16">
+    <value>Plantilla de 'modo de lectura'</value>
+    <comment>phrase:'Read mode' template</comment>
+  </data>
+  <data name="StayInTheSameScreenDisplayMessage" lastModified="2012-08-10T22:20:16">
+    <value>Permanecer en la misma pantalla pero mostrar un mensaje encima del formulario ...</value>
+    <comment>phrase: Stay in the same screen but display a message above the form...</comment>
+  </data>
+  <data name="ChangesAreSuccessfullySaved" lastModified="2012-08-10T22:20:16">
+    <value>Los cambios se guardan correctamente.</value>
+    <comment>phrase: Changes are successfully saved.</comment>
+  </data>
+  <data name="EditFields" lastModified="2012-08-10T22:20:16">
+    <value>Agregar/Editar campos</value>
+    <comment>Label: Edit fields</comment>
+  </data>
+  <data name="Title" lastModified="2012-08-10T22:20:16">
+    <value>Título</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ManageUserProfiles" lastModified="2012-08-10T22:20:16">
+    <value>Administrar perfiles de usuario</value>
+    <comment>word: Manage User Profiles</comment>
+  </data>
+  <data name="ManageUserProfileTypes" lastModified="2012-08-10T22:20:16">
+    <value>Administrar Tipos de Perfil</value>
+    <comment>word: Manage Profile Types</comment>
+  </data>
+  <data name="ExampleTitle" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; Perfil del foro</value>
+    <comment>Label: Example for title field</comment>
+  </data>
+  <data name="CreateNewItem" lastModified="2012-08-10T22:20:16">
+    <value>Crear un tipo de perfil</value>
+    <comment>phrase: Create a profile type</comment>
+  </data>
+  <data name="Settings" lastModified="2012-08-10T22:20:16">
+    <value>Configuración para perfiles de usuario</value>
+    <comment>phrase: Settings for user profiles</comment>
+  </data>
+  <data name="EditItem" lastModified="2012-08-10T22:20:16">
+    <value>Editar un elemento de contenido</value>
+    <comment>The title of the edit item dialog</comment>
+  </data>
+  <data name="SelectedUser" lastModified="2012-08-10T22:20:16">
+    <value>Usuario seleccionado:</value>
+    <comment>phrase:Selected user:</comment>
+  </data>
+  <data name="CreateThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Crear esta noticia</value>
+    <comment>phrase: Create this news</comment>
+  </data>
+  <data name="UserProvidersFieldTitle" lastModified="2012-08-10T22:20:16">
+    <value>Proveedores de usuarios que utilizan este conjunto de perfiles:</value>
+    <comment>Title of user providers field in detail form.</comment>
+  </data>
+  <data name="About" lastModified="2012-08-10T22:20:16">
+    <value>Acerca de</value>
+    <comment>word: About</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2012-08-10T22:20:16">
+    <value>Guardar cambios</value>
+    <comment>Phrase</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="Photo" lastModified="2012-08-10T22:20:16">
+    <value>Foto</value>
+    <comment>word: Photo</comment>
+  </data>
+  <data name="EditProfile" lastModified="2012-08-10T22:20:16">
+    <value>Editar Perfil</value>
+    <comment>Phrase: EditProfile</comment>
+  </data>
+  <data name="AppliedTo" lastModified="2012-08-10T22:20:16">
+    <value>Aplicado a</value>
+    <comment>Label: Applied to</comment>
+  </data>
+  <data name="ProfileProvider" lastModified="2012-08-10T22:20:16">
+    <value>Proveedor de perfiles</value>
+    <comment>Label: Profile provider</comment>
+  </data>
+  <data name="Cancel" lastModified="2012-08-10T22:20:16">
+    <value>Cancelar</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+  </data>
+  <data name="AllUserProviders" lastModified="2012-08-10T22:20:16">
+    <value>Todos los proveedores de usuarios</value>
+    <comment>Label: All user providers</comment>
+  </data>
+  <data name="ViewItemViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Ver perfil</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="EditItemViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Editar un perfil</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="ConfirmationEmailTemplate" lastModified="2012-08-10T22:20:16">
+    <value>Plantilla de correo electrónico de confirmación</value>
+    <comment>phrase: Confirmation email template</comment>
+  </data>
+  <data name="ErrorProfileTypeAlreadyExists" lastModified="2012-08-10T22:20:16">
+    <value>Ya existe un tipo de perfil con el nombre especificado. Por favor, elija otro nombre.</value>
+    <comment>Message displayed when user tries to create a profile type that already exists.</comment>
+  </data>
+  <data name="EditItemBackendViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Editar un perfil</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="ViewItemBackendViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Ver perfil propio</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="CreateNewItemBackendViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Crear un usuario</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="ErrorProfileTypeTitleAlreadyExists" lastModified="2012-08-10T22:20:16">
+    <value>Ya existe un tipo de perfil con el título especificado. Por favor, elija otro título.</value>
+    <comment>Message displayed when user tries to update a profile type with a title that already exists.</comment>
+  </data>
+  <data name="NicknameDescription" lastModified="2012-08-10T22:20:16">
+    <value>Si lo deja en blanco, el nombre de usuario se utilizará como apodo.</value>
+    <comment>Phrase: If left blank, the username will be used as a nickname</comment>
+  </data>
+  <data name="SelectRoles" lastModified="2012-08-10T22:20:16">
+    <value>Seleccionar papeles...</value>
+    <comment>phrase: Select roles...</comment>
+  </data>
+  <data name="OpenSingleUserProfileInDotDotDot" lastModified="2012-08-10T22:20:16">
+    <value>Abrir perfil de un solo usuario en...</value>
+    <comment>phrase: Open single user profile in...</comment>
+  </data>
+  <data name="SortUsersBy" lastModified="2012-08-10T22:20:16">
+    <value>Ordenar usuarios por</value>
+    <comment>phrase: Sort users by</comment>
+  </data>
+  <data name="Nickname" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de usuario</value>
+    <comment>Word: Nickname</comment>
+  </data>
+  <data name="AllRegisteredUsers" lastModified="2012-08-10T22:20:16">
+    <value>Todos los usuarios registrados</value>
+    <comment>phrase: All registered users</comment>
+  </data>
+  <data name="OneUserOnly" lastModified="2012-08-10T22:20:16">
+    <value>Sólo un usuario:</value>
+    <comment>phrase: One user only:</comment>
+  </data>
+  <data name="EditOwnItemBackendViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Editar perfil propio</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="SelectAyUser" lastModified="2012-08-10T22:20:16">
+    <value>Seleccionar un usuario...</value>
+    <comment>phrase: Select a user...</comment>
+  </data>
+  <data name="UsersByRoles" lastModified="2012-08-10T22:20:16">
+    <value>Usuarios por funciones...</value>
+    <comment>phrase: Users by roles...</comment>
+  </data>
+  <data name="ErrorDeleteBuiltInProfileType" lastModified="2012-08-10T22:20:16">
+    <value>¡No se puede eliminar el tipo "Perfil básico" incorporado!</value>
+    <comment>Message displayed when user tries to delete the built-in profile type.</comment>
+  </data>
+  <data name="UserList" lastModified="2012-08-10T22:20:16">
+    <value>Lista de usuarios</value>
+    <comment>phrase: User list</comment>
+  </data>
+  <data name="AscendingSuffix" lastModified="2012-08-10T22:20:16">
+    <value>(A-Z)</value>
+    <comment>phrase: (A-Z)</comment>
+  </data>
+  <data name="RegisterFormTemplate" lastModified="2012-08-10T22:20:16">
+    <value>Plantilla de formulario de registro</value>
+    <comment>phrase: Register form template</comment>
+  </data>
+  <data name="DescendingDateTimeSuffix" lastModified="2012-08-10T22:20:16">
+    <value>en la parte inferior</value>
+    <comment>phrase: on bottom</comment>
+  </data>
+  <data name="ReTypePassword" lastModified="2012-08-10T22:20:16">
+    <value>Volver a escribir contraseña</value>
+    <comment>Label: Re-type password</comment>
+  </data>
+  <data name="AscendingDateTimeSuffix" lastModified="2012-08-10T22:20:16">
+    <value>en la parte superior</value>
+    <comment>phrase: on top</comment>
+  </data>
+  <data name="RegistrationFormGeneralViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>General</value>
+    <comment>phrase: General</comment>
+  </data>
+  <data name="WhenTheFormIsSuccessfully" lastModified="2012-08-10T22:20:16">
+    <value>Cuando el formulario es enviada correctamente...</value>
+    <comment>phrase: When the form is successfully submitted...</comment>
+  </data>
+  <data name="RegistrationFormAccountActivationViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Activación de cuenta</value>
+    <comment>phrase: Account activation</comment>
+  </data>
+  <data name="RolesRegisteredUsersWillBeAssignedTo" lastModified="2012-08-10T22:20:16">
+    <value>Funciones que se asignarán al usuario...</value>
+    <comment>phrase: Roles registered users will be assigned to...</comment>
+  </data>
+  <data name="ShowAMessage" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar un mensaje:</value>
+    <comment>phrase: Show a message:</comment>
+  </data>
+  <data name="SendAnEmailForSuccessfulRegistration" lastModified="2012-08-10T22:20:16">
+    <value>Enviar un correo electrónico para el registro exitosos</value>
+    <comment>phrase: Send an email for successful registration</comment>
+  </data>
+  <data name="DescendingSuffix" lastModified="2012-08-10T22:20:16">
+    <value>(Z-A)</value>
+    <comment>phrase: (Z-A)</comment>
+  </data>
+  <data name="ActivateAccounts" lastModified="2012-08-10T22:20:16">
+    <value>Activar cuentas...</value>
+    <comment>phrase: Activate accounts...</comment>
+  </data>
+  <data name="OpenSpeciallyPreparedPage" lastModified="2012-08-10T22:20:16">
+    <value>Abrir una página especialmente preparada...</value>
+    <comment>phrase: Show a message:</comment>
+  </data>
+  <data name="Register" lastModified="2012-08-10T22:20:16">
+    <value>Registrarse</value>
+    <comment>Label: All user providers</comment>
+  </data>
+  <data name="Immediately" lastModified="2012-08-10T22:20:16">
+    <value>Inmediatamente</value>
+    <comment>phrase: Immediately</comment>
+  </data>
+  <data name="AfterTheConfirmation" lastModified="2012-08-10T22:20:16">
+    <value>después de la confirmación</value>
+    <comment>phrase: after the confirmation</comment>
+  </data>
+  <data name="AnEmailProvidingLinkWillBeSent" lastModified="2012-08-10T22:20:16">
+    <value>Se enviará un correo electrónico que contenga un enlace de confirmación.</value>
+    <comment>phrase: An email providing a link for confirmation will be sent</comment>
+  </data>
+  <data name="AfterConfirmation" lastModified="2012-08-10T22:20:16">
+    <value>Después de la confirmación</value>
+    <comment>phrase: After a confirmation</comment>
+  </data>
+  <data name="ProviderUsersWillBeRegisteredIn" lastModified="2012-08-10T22:20:16">
+    <value>Proveedor, donde estará registrado el usuario...</value>
+    <comment>phrase: Provider users will be registered in...</comment>
+  </data>
+  <data name="SuccessEmailTemplate" lastModified="2012-08-10T22:20:16">
+    <value>Plantilla de correo electrónico de 'envío exitoso'</value>
+    <comment>phrase: 'Success' email template</comment>
+  </data>
+  <data name="SuccessEmailDefaultSubject" lastModified="2012-08-10T22:20:16">
+    <value>Bienvenidos</value>
+    <comment>The default subject of the success email</comment>
+  </data>
+  <data name="PreferredLanguage" lastModified="2012-08-10T22:20:16">
+    <value>Idioma de su preferencia:</value>
+    <comment>phrase: Preferred language:</comment>
+  </data>
+  <data name="UserProfiles" lastModified="2012-08-10T22:20:16">
+    <value>Perfiles de Usuario:</value>
+    <comment>phrase: User Profiles:</comment>
+  </data>
+  <data name="ConfirmationPage" lastModified="2012-08-10T22:20:16">
+    <value>Página de confirmation</value>
+    <comment>phrase: Confirmation page</comment>
+  </data>
+  <data name="UserSectionTitle" lastModified="2012-08-10T22:20:16">
+    <value>Usuarios</value>
+    <comment>Control description: Title of the users toolbox section</comment>
+  </data>
+  <data name="SuccessEmailSubject" lastModified="2012-08-10T22:20:16">
+    <value>Asunto del correo electrónico 'éxito'</value>
+    <comment>phrase: 'Success' email subject</comment>
+  </data>
+  <data name="UserAuthenticationAndSingleSignOnTitle" lastModified="2012-08-10T22:20:16">
+    <value>Autenticación de usuario e inicio de sesión único</value>
+    <comment>phrase: User authentication &amp; Single sign on</comment>
+  </data>
+  <data name="ConfirmationEmailSubject" lastModified="2012-08-10T22:20:16">
+    <value>Asunto del correo electrónico de confirmación</value>
+    <comment>phrase: Confirmation email subject</comment>
+  </data>
+  <data name="UserSectionDescription" lastModified="2012-08-10T22:20:16">
+    <value>Sección de cuadro de herramientas con widgets relacionados con usuarios y perfiles.</value>
+    <comment>Control description: Toolbox section with the widgets related to users and profiles.</comment>
+  </data>
+  <data name="UserProfileViewDescription" lastModified="2012-08-10T22:20:16">
+    <value>Un control para mostrar los perfiles de los usuarios.</value>
+    <comment>Control description: A control for displaying user profiles.</comment>
+  </data>
+  <data name="AccountActivationWidgetDescription" lastModified="2012-08-10T22:20:16">
+    <value>Coloque este widget en la página cuyo enlace aparece en el correo electrónico con el fin de activar la cuenta de usuario</value>
+    <comment>Control description: A widget that should be placed on the page that will be used to activate user accounts.</comment>
+  </data>
+  <data name="UserProfilesViewDescription" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar o editar el perfil del usuario actualmente conectado</value>
+    <comment>Control description: A control for displaying user profiles.</comment>
+  </data>
+  <data name="UserProfilesViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Lista de usuarios</value>
+    <comment>Control title: Users list</comment>
+  </data>
+  <data name="UserProfileViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Perfil</value>
+    <comment>Control title: User profile</comment>
+  </data>
+  <data name="UsersListViewDescription" lastModified="2012-08-10T22:20:16">
+    <value>Lista de usuarios y sus perfiles</value>
+    <comment>Control description: A control for displaying user profiles.</comment>
+  </data>
+  <data name="RegistrationWidgetTitle" lastModified="2012-08-10T22:20:16">
+    <value>Registro</value>
+    <comment>Control title: Registration</comment>
+  </data>
+  <data name="TypeOfAuthenticationLiteral" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué tipo de autenticación desea utilizar para su sitio web?</value>
+    <comment>phrase: What is the type of authentication you want to use for your website</comment>
+  </data>
+  <data name="AccountActivationWidgetTitle" lastModified="2012-08-10T22:20:16">
+    <value>Activación de cuenta</value>
+    <comment>Control title: Account Activation</comment>
+  </data>
+  <data name="RegistrationWidgetDescription" lastModified="2012-08-10T22:20:16">
+    <value>Formulario utilizado para registrar a los usuarios</value>
+    <comment>Control description: A form used to register users.</comment>
+  </data>
+  <data name="LoginWithLiteral" lastModified="2012-08-10T22:20:16">
+    <value>Permitir a los usuarios iniciar sesión con</value>
+    <comment>phrase: Allow users to login with</comment>
+  </data>
+  <data name="SuccessThanksForFillingOutOurForm" lastModified="2012-08-10T22:20:16">
+    <value>Finalizado! Gracias por rellenar nuestro formulario!</value>
+    <comment>phrase: Success! Thanks for filling out our form!</comment>
+  </data>
+  <data name="FacebookActivityFeedTitle" lastModified="2012-08-10T22:20:16">
+    <value>Fuente Facebook</value>
+    <comment>Control title: Facebook feed</comment>
+  </data>
+  <data name="Users" lastModified="2012-08-10T22:20:16">
+    <value>Usuarios</value>
+    <comment>word: Users</comment>
+  </data>
+  <data name="TwitterFeedDescription" lastModified="2012-08-10T22:20:16">
+    <value>Un widget que muestra las actividades más recientes de Twitter en una página después de conectarse a una cuenta de Twitter.</value>
+    <comment>Control description: A widget that shows lates twitter activities on a page after entering a twitter account.</comment>
+  </data>
+  <data name="FacebookLikeDescription" lastModified="2012-08-10T22:20:16">
+    <value>Descripción del control: Widget que permite agregar y configurar el botón "Me gusta" de Facebook.</value>
+    <comment>Control description: A widget that allows to add and configure facebook Like button.</comment>
+  </data>
+  <data name="TwitterFeedTitle" lastModified="2012-08-10T22:20:16">
+    <value>Fuente Twitter</value>
+    <comment>Control title: Twitter feed</comment>
+  </data>
+  <data name="PageSharingTitle" lastModified="2012-08-10T22:20:16">
+    <value>Página para compartir</value>
+    <comment>Control title: Page sharing</comment>
+  </data>
+  <data name="ProfileReadMode" lastModified="2012-08-10T22:20:16">
+    <value>Perfil - modo de lectura</value>
+    <comment>phrase: Profile – read mode</comment>
+  </data>
+  <data name="PageSharingDescription" lastModified="2012-08-10T22:20:16">
+    <value>Descripción de control: Widget que permite compartir la página en diferentes redes sociales.</value>
+    <comment>Control description: A widget that allows to share page on different social networks.</comment>
+  </data>
+  <data name="ConfirmationEmailDefaultSubject" lastModified="2012-08-10T22:20:16">
+    <value>Registro con éxito</value>
+    <comment>The default subject of the confirmation email</comment>
+  </data>
+  <data name="ConfirmationPageDescription" lastModified="2012-08-10T22:20:16">
+    <value>Cuando se haga clic en el enlace de confirmación del correo electrónico, abrir una página seleccionada</value>
+    <comment>phrase: When the confirmation link in the email is clicked open a selected page</comment>
+  </data>
+  <data name="ProfileEditMode" lastModified="2012-08-10T22:20:16">
+    <value>Perfil - modo de edición</value>
+    <comment>phrase: Profile – edit mode</comment>
+  </data>
+  <data name="FacebookActivityFeedDescription" lastModified="2012-08-10T22:20:16">
+    <value>Widget que muestra las últimas actividades de Facebook en una página después de entrar en una cuenta de Facebook.</value>
+    <comment>Control description: A widget that shows latest facebook activities on a page after entering a facebook account.</comment>
+  </data>
+  <data name="ProfilePasswordEditor" lastModified="2012-08-10T22:20:16">
+    <value>Perfil - editor de contraseña</value>
+    <comment>phrase: Profile – password editor</comment>
+  </data>
+  <data name="ProfileNotLoggedUser" lastModified="2012-08-10T22:20:16">
+    <value>Perfil - usuario no conectado</value>
+    <comment>phrase: Profile – not logged user</comment>
+  </data>
+  <data name="FacebookLikeTitle" lastModified="2012-08-10T22:20:16">
+    <value>"Me gusta" de Facebook</value>
+    <comment>Control title: Facebook like</comment>
+  </data>
+  <data name="TheSelectedTemplateCannotBeUsed" lastModified="2012-08-10T22:20:16">
+    <value>La plantilla seleccionada no se puede utilizar con este tipo de perfil. Seleccionar otra plantilla o editar esta plantilla.</value>
+    <comment>phrase: The selected template cannot be used with this profile type. Select another template or edit this template.</comment>
+  </data>
+  <data name="ConfirmNewPassword" lastModified="2012-08-10T22:20:16">
+    <value>Confirmar nueva contraseña</value>
+    <comment>phrase: Confirm new password</comment>
+  </data>
+  <data name="CurrentPassword" lastModified="2012-08-10T22:20:16">
+    <value>Contraseña actual</value>
+    <comment>phrase: Current password</comment>
+  </data>
+  <data name="CreateNewItemViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Registrar usuario</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="UseAllUserProviders" lastModified="2012-08-10T22:20:16">
+    <value>Todos los proveedores de usuarios</value>
+    <comment>Label: All user providers</comment>
+  </data>
+</root>

@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FormsResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forms</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="FormsResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for Forms user interface.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="FormControlsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Fields</value>
+    <comment>The title of the toolbox for designing forms.</comment>
+  </data>
+  <data name="FormControlsDescription" lastModified="2014-04-07T14:32:44">
+    <value>A collection of reusable form fields.</value>
+    <comment>The description of the toolbox for designing forms.</comment>
+  </data>
+  <data name="LearnMoreWithVideoTutorials" lastModified="2014-04-07T14:32:44">
+    <value>Learn more with video tutorials</value>
+    <comment>Label for the external links used in Pages</comment>
+  </data>
+  <data name="FormsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forms</value>
+    <comment>Title for the Forms module.</comment>
+  </data>
+  <data name="FormsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forms</value>
+    <comment>Html Title for the Forms module.</comment>
+  </data>
+  <data name="ManageForms" lastModified="2014-04-07T14:32:44">
+    <value>Manage Forms</value>
+    <comment>Manage Forms</comment>
+  </data>
+  <data name="FormsResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>Forms</value>
+    <comment>Title plural for the Forms module.</comment>
+  </data>
+  <data name="FormsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Forms</value>
+    <comment>Forms URL name.</comment>
+  </data>
+  <data name="FormsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a landing page for Sitefinity Forms module.</value>
+    <comment>The description of the Forms module landing page.</comment>
+  </data>
+  <data name="FormDataCommandPanelTitle" lastModified="2014-04-07T14:32:44">
+    <value>Form Data</value>
+    <comment>Title of the form data command panel (the panel shown when viewing a form's data).</comment>
+  </data>
+  <data name="FormsCommandPanelTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forms</value>
+    <comment>Title of the Forms command panel (the panel shown when viewing all forms).</comment>
+  </data>
+  <data name="ErrorMessageDisplayedIfTheParagraphTextBoxIsEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Error message displayed if the text box is empty</value>
+    <comment>Error message displayed if the text box is empty</comment>
+  </data>
+  <data name="ThisInformationIsRequired" lastModified="2014-04-07T14:32:44">
+    <value>This information is required</value>
+    <comment>This information is required</comment>
+  </data>
+  <data name="MakeRequired" lastModified="2014-04-07T14:32:44">
+    <value>Make required</value>
+    <comment>Make required</comment>
+  </data>
+  <data name="PredefinedValue" lastModified="2014-04-07T14:32:44">
+    <value>Predefined value</value>
+    <comment>Predefined value</comment>
+  </data>
+  <data name="DisplayedBellowTheTextboxSuitableForGivingExamples" lastModified="2014-04-07T14:32:44">
+    <value>Displayed below the textbox. Suitable for giving examples and instructions how the entered value will be used</value>
+    <comment>Displayed below the textbox. Suitable for giving examples and instructions how the entered value will be used</comment>
+  </data>
+  <data name="InstructionalText" lastModified="2014-04-07T14:32:44">
+    <value>Instructional text</value>
+    <comment>Instructional text</comment>
+  </data>
+  <data name="ExampleFirstName" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;First name&lt;/em&gt;</value>
+    <comment>Example: First name</comment>
+  </data>
+  <data name="LabelAndTexts" lastModified="2014-04-07T14:32:44">
+    <value>Label and texts</value>
+    <comment>Label and texts</comment>
+  </data>
+  <data name="PermissionsForForms" lastModified="2014-04-07T14:32:44">
+    <value>Permissions for forms</value>
+    <comment>Permissions for forms</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forms</value>
+    <comment>Title of the forms page group.</comment>
+  </data>
+  <data name="PageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the page group that contains all pages for the forms module.</value>
+    <comment>Forms Page Group Description</comment>
+  </data>
+  <data name="View" lastModified="2014-04-07T14:32:44">
+    <value>View</value>
+    <comment>View</comment>
+  </data>
+  <data name="ViewProperties" lastModified="2014-04-07T14:32:44">
+    <value>Properties</value>
+    <comment>word: Properties</comment>
+  </data>
+  <data name="Delete" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="Publish" lastModified="2014-04-07T14:32:44">
+    <value>Publish</value>
+    <comment>Publish</comment>
+  </data>
+  <data name="Duplicate" lastModified="2014-04-07T14:32:44">
+    <value>Duplicate</value>
+    <comment>Duplicate</comment>
+  </data>
+  <data name="EditDotDotDot" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Edit...&lt;/strong&gt;</value>
+    <comment>word</comment>
+  </data>
+  <data name="Edit" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Edit&lt;/strong&gt;</value>
+    <comment>word: Edit</comment>
+  </data>
+  <data name="EditNoTags" lastModified="2014-04-07T14:32:44">
+    <value>Edit</value>
+    <comment>word: Edit</comment>
+  </data>
+  <data name="Content" lastModified="2014-04-07T14:32:44">
+    <value>Content</value>
+    <comment>Content</comment>
+  </data>
+  <data name="History" lastModified="2014-04-07T14:32:44">
+    <value>History</value>
+    <comment>History</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" lastModified="2014-04-07T14:32:44">
+    <value>What do you want to do now?</value>
+    <comment>What do you want to do now?</comment>
+  </data>
+  <data name="Permissions" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>Permissions</comment>
+  </data>
+  <data name="Author" lastModified="2014-04-07T14:32:44">
+    <value>Author</value>
+    <comment>Author</comment>
+  </data>
+  <data name="Categories" lastModified="2014-04-07T14:32:44">
+    <value>Categories</value>
+    <comment>Categories</comment>
+  </data>
+  <data name="Tags" lastModified="2014-04-07T14:32:44">
+    <value>Tags</value>
+    <comment>Tags</comment>
+  </data>
+  <data name="CreateItem" lastModified="2014-04-07T14:32:44">
+    <value>Create a form</value>
+    <comment>Label of the dialog that creates forms item.</comment>
+  </data>
+  <data name="Create" lastModified="2014-04-07T14:32:44">
+    <value>Create</value>
+    <comment>Label for the buttons that create a forms item.</comment>
+  </data>
+  <data name="NoFormsItems" lastModified="2014-04-07T14:32:44">
+    <value>No forms have been created yet</value>
+    <comment>No forms items have been created yet</comment>
+  </data>
+  <data name="NoResponsesHaveBeenSubmittedYet" lastModified="2014-04-07T14:32:44">
+    <value>No responses have been submitted yet</value>
+    <comment>phrase: No responses have been submitted yet</comment>
+  </data>
+  <data name="FilterForms" lastModified="2014-04-07T14:32:44">
+    <value>Filter forms</value>
+    <comment>Filter forms</comment>
+  </data>
+  <data name="Settings" lastModified="2014-04-07T14:32:44">
+    <value>Forms Settings</value>
+    <comment>Forms Settings</comment>
+  </data>
+  <data name="AllForms" lastModified="2014-04-07T14:32:44">
+    <value>All forms</value>
+    <comment>All forms</comment>
+  </data>
+  <data name="BackToForms" lastModified="2014-04-07T14:32:44">
+    <value>Back to Forms</value>
+    <comment>The text of the back to forms link in form editor</comment>
+  </data>
+  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+    <value>Back to Forms</value>
+    <comment>The text of the back to forms</comment>
+  </data>
+  <data name="BackToFormEntries" lastModified="2014-04-07T14:32:44">
+    <value>Back to Responses</value>
+    <comment>The text of the back to responses link in form entry create/edit dialog</comment>
+  </data>
+  <data name="MyForms" lastModified="2014-04-07T14:32:44">
+    <value>My Forms</value>
+    <comment>My Forms</comment>
+  </data>
+  <data name="CustomFields" lastModified="2014-04-07T14:32:44">
+    <value>Custom Fields for forms</value>
+    <comment>Custom Fields for forms</comment>
+  </data>
+  <data name="TextBox" lastModified="2014-04-07T14:32:44">
+    <value>Textbox</value>
+    <comment>Text box</comment>
+  </data>
+  <data name="TextBoxTitle" lastModified="2014-04-07T14:32:44">
+    <value>Textbox</value>
+    <comment>Specifies the title of the Textbox form control.</comment>
+  </data>
+  <data name="TextBoxDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a single line input text field in a form.</value>
+    <comment>Describes the Textbox form control.</comment>
+  </data>
+  <data name="CommonSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Common Controls</value>
+    <comment>Specifies the title of the Common Controls toolbox section.</comment>
+  </data>
+  <data name="CommonSectionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Toolbox section containing common form controls.</value>
+    <comment>Describes the Common Controls toolbox section.</comment>
+  </data>
+  <data name="Limitations" lastModified="2014-04-07T14:32:44">
+    <value>Limitations</value>
+    <comment>Limitations</comment>
+  </data>
+  <data name="Appearance" lastModified="2014-04-07T14:32:44">
+    <value>Appearance</value>
+    <comment>Appearance</comment>
+  </data>
+  <data name="Small" lastModified="2014-04-07T14:32:44">
+    <value>Small</value>
+    <comment>Small</comment>
+  </data>
+  <data name="Medium" lastModified="2014-04-07T14:32:44">
+    <value>Medium</value>
+    <comment>Medium</comment>
+  </data>
+  <data name="Large" lastModified="2014-04-07T14:32:44">
+    <value>Large</value>
+    <comment>Large</comment>
+  </data>
+  <data name="DontApplySize" lastModified="2014-04-07T14:32:44">
+    <value>Don't apply size</value>
+    <comment>Don't apply size</comment>
+  </data>
+  <data name="CssClass" lastModified="2014-04-07T14:32:44">
+    <value>CSS class</value>
+    <comment>CSS class</comment>
+  </data>
+  <data name="TextBoxSize" lastModified="2014-04-07T14:32:44">
+    <value>Text box size</value>
+    <comment>Text box size</comment>
+  </data>
+  <data name="ParagraphTextBox" lastModified="2014-04-07T14:32:44">
+    <value>Paragraph text box</value>
+    <comment>Paragraph text box</comment>
+  </data>
+  <data name="ParagraphTextBoxTitle" lastModified="2014-04-07T14:32:44">
+    <value>Paragraph text box</value>
+    <comment>Specifies the title of the ParagraphBox form field.</comment>
+  </data>
+  <data name="ParagraphTextBoxDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a multi-line input text field in a form.</value>
+    <comment>Describes the ParagraphBox form field.</comment>
+  </data>
+  <data name="ParagraphTextBoxSize" lastModified="2014-04-07T14:32:44">
+    <value>Paragraph Text box size</value>
+    <comment>Paragraph Text box size</comment>
+  </data>
+  <data name="ExampleComment" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;Comment&lt;/em&gt;</value>
+    <comment>Example: Comment</comment>
+  </data>
+  <data name="ExampleTypeYourComment" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; Type your &lt;em&gt;comment...&lt;/em&gt;</value>
+    <comment>Example: Type your comment...</comment>
+  </data>
+  <data name="TitleFontSize" lastModified="2014-04-07T14:32:44">
+    <value>Title font size</value>
+    <comment>Title font size</comment>
+  </data>
+  <data name="ExamplePersonalInformation" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;Personal Information&lt;/em&gt;</value>
+    <comment>Example: Personal Information</comment>
+  </data>
+  <data name="WrappingHtmlTag" lastModified="2014-04-07T14:32:44">
+    <value>Wrapping HTML tag</value>
+    <comment>Wrapping HTML tag</comment>
+  </data>
+  <data name="SectionHeader" lastModified="2014-04-07T14:32:44">
+    <value>Section header</value>
+    <comment>Section header</comment>
+  </data>
+  <data name="SectionHeaderTitle" lastModified="2014-04-07T14:32:44">
+    <value>Section header</value>
+    <comment>Section header</comment>
+  </data>
+  <data name="SectionHeaderDescription" lastModified="2014-04-07T14:32:44">
+    <value>Section header</value>
+    <comment>Section header</comment>
+  </data>
+  <data name="CreateNewItem" lastModified="2014-04-07T14:32:44">
+    <value>Create a form</value>
+    <comment>The title of the create new item dialog</comment>
+  </data>
+  <data name="CreateThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Create this form</value>
+    <comment>Create this form</comment>
+  </data>
+  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+  </data>
+  <data name="NameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Name cannot be empty</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="FormNameNotValid" lastModified="2014-04-07T14:32:44">
+    <value>Sorry, the name should start with a letter and continue with letters (a-z), numbers (0-9), or underscores (_).</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Title cannot be empty</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="Name" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>word</comment>
+  </data>
+  <data name="NameForDevs" lastModified="2014-04-07T14:32:44">
+    <value>Name used in code (for developers)</value>
+    <comment>word</comment>
+  </data>
+  <data name="Title" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>word</comment>
+  </data>
+  <data name="NameExample" lastModified="2014-04-07T14:32:44">
+    <value>Example: &lt;em&gt;Register&lt;/em&gt;</value>
+    <comment>The name field example string at the form dialog.</comment>
+  </data>
+  <data name="CategoriesAndTags" lastModified="2014-04-07T14:32:44">
+    <value>Categories and tags</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="MoreOptions" lastModified="2014-04-07T14:32:44">
+    <value>More options</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="MoreOptionsURL" lastModified="2014-04-07T14:32:44">
+    <value>More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</value>
+    <comment>More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+  </data>
+  <data name="UrlName" lastModified="2014-04-07T14:32:44">
+    <value>URL</value>
+    <comment>The title of the url field.</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>URL cannot be empty</value>
+    <comment>The message shown when the url is empty.</comment>
+  </data>
+  <data name="CreateAndReturnToForms" lastModified="2014-04-07T14:32:44">
+    <value>Create and return to Forms</value>
+    <comment>The text of the button for creating a page and returning to forms.</comment>
+  </data>
+  <data name="CreateAndAddContent" lastModified="2014-04-07T14:32:44">
+    <value>Create and go to add content</value>
+    <comment>Phrase: Create and go to add content</comment>
+  </data>
+  <data name="CreateForm" lastModified="2014-04-07T14:32:44">
+    <value>Create a form</value>
+    <comment>Phrase: Create Form</comment>
+  </data>
+  <data name="CreateResponse" lastModified="2014-04-07T14:32:44">
+    <value>Create a Response</value>
+    <comment>Phrase: Create a Response</comment>
+  </data>
+  <data name="ExportAsCsv" lastModified="2014-04-07T14:32:44">
+    <value>Export as CSV</value>
+    <comment>phrase: Export as CSV</comment>
+  </data>
+  <data name="ExportAsXLSX" lastModified="2014-04-07T14:32:44">
+    <value>Export as Excel</value>
+    <comment>phrase: Export as Excel</comment>
+  </data>
+  <data name="InstructionalTextTitle" lastModified="2014-04-07T14:32:44">
+    <value>Instructional text</value>
+    <comment>Instructional text</comment>
+  </data>
+  <data name="InstructionalTextDescription" lastModified="2014-04-07T14:32:44">
+    <value>Instructional text</value>
+    <comment>Instructional text</comment>
+  </data>
+  <data name="Properties" lastModified="2014-04-07T14:32:44">
+    <value>Properties</value>
+    <comment>Properties.</comment>
+  </data>
+  <data name="ActionsLinkText" lastModified="2014-04-07T14:32:44">
+    <value>Actions</value>
+    <comment>The text of the Actions link in the page browser grid.</comment>
+  </data>
+  <data name="EditForm" lastModified="2014-04-07T14:32:44">
+    <value>Edit a form</value>
+    <comment>Edit a form</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>Save changes</comment>
+  </data>
+  <data name="Owner" lastModified="2014-04-07T14:32:44">
+    <value>Owner</value>
+    <comment>word: Owner</comment>
+  </data>
+  <data name="ButtonSize" lastModified="2014-04-07T14:32:44">
+    <value>Button size</value>
+    <comment>phrase: Button size</comment>
+  </data>
+  <data name="UseImageInsteadOfButton" lastModified="2014-04-07T14:32:44">
+    <value>Use image instead of button</value>
+    <comment>phrase: Use image instead of button</comment>
+  </data>
+  <data name="Tooltip" lastModified="2014-04-07T14:32:44">
+    <value>Tooltip</value>
+    <comment>word: Tooltip</comment>
+  </data>
+  <data name="UseButtonInsteadOfImage" lastModified="2014-04-07T14:32:44">
+    <value>Use button instead of image</value>
+    <comment>phrase: Use button instead of image</comment>
+  </data>
+  <data name="SubmitButton" lastModified="2014-04-07T14:32:44">
+    <value>Submit button</value>
+    <comment>phrase: Submit button</comment>
+  </data>
+  <data name="SubmitButtonTitle" lastModified="2014-04-07T14:32:44">
+    <value>Submit button</value>
+    <comment>phrase: Submit button</comment>
+  </data>
+  <data name="Submit" lastModified="2014-04-07T14:32:44">
+    <value>Submit</value>
+    <comment>word: Submit</comment>
+  </data>
+  <data name="SubmitButtonDescription" lastModified="2014-04-07T14:32:44">
+    <value>Submit button</value>
+    <comment>phrase: Submit button</comment>
+  </data>
+  <data name="MultipleChoiceTitle" lastModified="2014-04-07T14:32:44">
+    <value>Multiple choice</value>
+    <comment>Descrives the multiple choice field in a form</comment>
+  </data>
+  <data name="MultipleChoiceDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a multiple choice/radio buttons list field in a form.</value>
+    <comment>Describes the multiple choice field in a form</comment>
+  </data>
+  <data name="Choices" lastModified="2014-04-07T14:32:44">
+    <value>Choices</value>
+    <comment>word: Choices</comment>
+  </data>
+  <data name="LabelQuestion" lastModified="2014-04-07T14:32:44">
+    <value>Label (Question)</value>
+    <comment>phrase: Label (Question)</comment>
+  </data>
+  <data name="SelectAChoice" lastModified="2014-04-07T14:32:44">
+    <value>Select a choice</value>
+    <comment>phrase: Select a choice</comment>
+  </data>
+  <data name="TheFirstOne" lastModified="2014-04-07T14:32:44">
+    <value>The first one</value>
+    <comment>phrase: The first one</comment>
+  </data>
+  <data name="None" lastModified="2014-04-07T14:32:44">
+    <value>None</value>
+    <comment>word: None</comment>
+  </data>
+  <data name="DefaultSelectedChoice" lastModified="2014-04-07T14:32:44">
+    <value>Default selected choice</value>
+    <comment>phrase: Default selected choice</comment>
+  </data>
+  <data name="AddOtherAsALastChoiceExpandingATextBox" lastModified="2014-04-07T14:32:44">
+    <value>Add "Other" as a last choice (expanding a text box)</value>
+    <comment>phrase: Add "Other" as a last choice (expanding a text box)</comment>
+  </data>
+  <data name="Other" lastModified="2014-04-07T14:32:44">
+    <value>Other</value>
+    <comment>word: Other</comment>
+  </data>
+  <data name="FirstChoice" lastModified="2014-04-07T14:32:44">
+    <value>First Choice</value>
+    <comment>phrase: First Choice</comment>
+  </data>
+  <data name="SecondChoice" lastModified="2014-04-07T14:32:44">
+    <value>Second Choice</value>
+    <comment>phrase: Second Choice</comment>
+  </data>
+  <data name="ThirdChoice" lastModified="2014-04-07T14:32:44">
+    <value>Third Choice</value>
+    <comment>phrase: Third Choice</comment>
+  </data>
+  <data name="SortChoicesAlphabetically" lastModified="2014-04-07T14:32:44">
+    <value>Sort choices alphabetically</value>
+    <comment>phrase: Sort choices alphabetically</comment>
+  </data>
+  <data name="ThisIsARequiredField" lastModified="2014-04-07T14:32:44">
+    <value>This is a required field</value>
+    <comment>phrase: This is a required field</comment>
+  </data>
+  <data name="OneColumn" lastModified="2014-04-07T14:32:44">
+    <value>One column</value>
+    <comment>phrase: One column</comment>
+  </data>
+  <data name="TwoColumns" lastModified="2014-04-07T14:32:44">
+    <value>Two columns</value>
+    <comment>phrase: Two columns</comment>
+  </data>
+  <data name="ThreeColumns" lastModified="2014-04-07T14:32:44">
+    <value>Three columns</value>
+    <comment>phrase: Three columns</comment>
+  </data>
+  <data name="InlineSideBySide" lastModified="2014-04-07T14:32:44">
+    <value>Inline(side by side)</value>
+    <comment>phrase: Inline(side by side)</comment>
+  </data>
+  <data name="DropDownListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dropdown list</value>
+    <comment>Describes the dropdown list field title.</comment>
+  </data>
+  <data name="DropDownListDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a dropdown list menu in a form.</value>
+    <comment>Describes the dropdown list field in a form</comment>
+  </data>
+  <data name="CheckboxesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Checkboxes</value>
+    <comment>Specifies the title of the  Checkboxes field in a form</comment>
+  </data>
+  <data name="CheckboxesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents a control with checkbox options.</value>
+    <comment>Descripbes the Checkboxes field in a form.</comment>
+  </data>
+  <data name="MoreActions" lastModified="2014-04-07T14:32:44">
+    <value>More actions</value>
+    <comment>phrase: More actions</comment>
+  </data>
+  <data name="FormsControlPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Select a form</value>
+    <comment>Phrase: Select a form</comment>
+  </data>
+  <data name="AdvancedForDevelopers" lastModified="2014-04-07T14:32:44">
+    <value>Advanced: Name for developers</value>
+    <comment>phrase: Advanced (for developers)</comment>
+  </data>
+  <data name="DatabaseColumnName" lastModified="2014-04-07T14:32:44">
+    <value>Database column name</value>
+    <comment>phrase: Database column name</comment>
+  </data>
+  <data name="FormsControlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Form</value>
+    <comment>The title of the FormsControl widget at content toolbox.</comment>
+  </data>
+  <data name="FormsControlDescription" lastModified="2014-04-07T14:32:44">
+    <value>Displaying of already created form</value>
+    <comment>Control description: A control for displaying a selected form.</comment>
+  </data>
+  <data name="Restrictions" lastModified="2014-04-07T14:32:44">
+    <value>Restrictions</value>
+    <comment>word: Restrictions</comment>
+  </data>
+  <data name="OneEntryPerIp" lastModified="2014-04-07T14:32:44">
+    <value>One entry per IP</value>
+    <comment>phrase: One entry per IP</comment>
+  </data>
+  <data name="OneEntryPerUsername" lastModified="2014-04-07T14:32:44">
+    <value>One entry per username&lt;br /&gt;&lt;em class="sfNote"&gt;(if there is user registration)&lt;/em&gt;</value>
+    <comment>phrase: One entry per username</comment>
+  </data>
+  <data name="NoRestrictions" lastModified="2014-04-07T14:32:44">
+    <value>No restrictions: Everyone can submit unlimited number of entries</value>
+    <comment>phrase: No restrictions: Everyone can submit as many entries as wants</comment>
+  </data>
+  <data name="ConfirmationOptions" lastModified="2014-04-07T14:32:44">
+    <value>Confirmation options</value>
+    <comment>phrase: Confirmation options</comment>
+  </data>
+  <data name="ShowMessageForSuccess" lastModified="2014-04-07T14:32:44">
+    <value>Show message for success</value>
+    <comment>phrase: Show message for success</comment>
+  </data>
+  <data name="SuccessThanksForFillingOutOurForm" lastModified="2014-04-07T14:32:44">
+    <value>Success! Thanks for filling out our form!</value>
+    <comment>phrase: Success! Thanks for filling out our form!</comment>
+  </data>
+  <data name="RedirectToAPage" lastModified="2014-04-07T14:32:44">
+    <value>Redirect to a page...</value>
+    <comment>phrase: Redirect to a page...</comment>
+  </data>
+  <data name="RedirectToAPageExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;http://mydomain.com/page&lt;/em&gt;</value>
+    <comment>phrase: Example: http://mydomain.com/page</comment>
+  </data>
+  <data name="LabelPlacement" lastModified="2014-04-07T14:32:44">
+    <value>Label placement</value>
+    <comment>phrase: Label placement</comment>
+  </data>
+  <data name="TopAligned" lastModified="2014-04-07T14:32:44">
+    <value>Top aligned</value>
+    <comment>phrase: Top aligned</comment>
+  </data>
+  <data name="LeftAligned" lastModified="2014-04-07T14:32:44">
+    <value>Left aligned</value>
+    <comment>phrase: Left aligned</comment>
+  </data>
+  <data name="RightAligned" lastModified="2014-04-07T14:32:44">
+    <value>Right aligned</value>
+    <comment>phrase: Right aligned</comment>
+  </data>
+  <data name="ResponsesCount" lastModified="2014-04-07T14:32:44">
+    <value>{0} responses</value>
+    <comment>phrase: {0} responses</comment>
+  </data>
+  <data name="ResponsesFor" lastModified="2014-04-07T14:32:44">
+    <value>Responses for</value>
+    <comment>phrase: Responses for</comment>
+  </data>
+  <data name="FormsResponses" lastModified="2014-04-07T14:32:44">
+    <value>FormsResponses</value>
+    <comment>FormsResponses URL name.</comment>
+  </data>
+  <data name="ResponsesHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Responses</value>
+    <comment>Html Title for Responses.</comment>
+  </data>
+  <data name="Response" lastModified="2014-04-07T14:32:44">
+    <value>Response</value>
+    <comment>word: Response</comment>
+  </data>
+  <data name="Responses" lastModified="2014-04-07T14:32:44">
+    <value>responses</value>
+    <comment>word: responses</comment>
+  </data>
+  <data name="Form" lastModified="2014-04-07T14:32:44">
+    <value>Form</value>
+    <comment>word: Form</comment>
+  </data>
+  <data name="DuplicateTitleException" lastModified="2014-04-07T14:32:44">
+    <value>An item with the Title '{0}' already exists.</value>
+    <comment>Error message.</comment>
+  </data>
+  <data name="Untitled" lastModified="2014-04-07T14:32:44">
+    <value>Untitled</value>
+    <comment>word: Untitled</comment>
+  </data>
+  <data name="SelectChoices" lastModified="2014-04-07T14:32:44">
+    <value>Select choices</value>
+    <comment>phrase: Select choices</comment>
+  </data>
+  <data name="SectionHeaderGoesHere" lastModified="2014-04-07T14:32:44">
+    <value>Section header goes here...</value>
+    <comment>phrase: Section header goes here...</comment>
+  </data>
+  <data name="InstructionalTextGoesHere" lastModified="2014-04-07T14:32:44">
+    <value>Instructional text goes here</value>
+    <comment>phrase: Instructional text goes here</comment>
+  </data>
+  <data name="YouHaveAlreadySubmittedThisForm" lastModified="2014-04-07T14:32:44">
+    <value>You have already submitted this form.</value>
+    <comment>phrase: You have already submitted this form.</comment>
+  </data>
+  <data name="SubmittedOn" lastModified="2014-04-07T14:32:44">
+    <value>Submitted on</value>
+    <comment>Label in response view.</comment>
+  </data>
+  <data name="FirstSubmittedOnTop" lastModified="2014-04-07T14:32:44">
+    <value>First submitted on top</value>
+    <comment>phrase: option in form entries sort widget</comment>
+  </data>
+  <data name="LastSubmittedOnTop" lastModified="2014-04-07T14:32:44">
+    <value>Last Submitted on top</value>
+    <comment>phrase: option in form entries sort widget</comment>
+  </data>
+  <data name="TheSpecifiedFormNoLongerExists" lastModified="2014-04-07T14:32:44">
+    <value>The specified form no longer exists or is currently unpublished.</value>
+    <comment>phrase: The specified form no longer exists or is currently unpublished.</comment>
+  </data>
+  <data name="Min" lastModified="2014-04-07T14:32:44">
+    <value>Min</value>
+    <comment>word: Min</comment>
+  </data>
+  <data name="Max" lastModified="2014-04-07T14:32:44">
+    <value>Max</value>
+    <comment>word: Max</comment>
+  </data>
+  <data name="Range" lastModified="2014-04-07T14:32:44">
+    <value>Range</value>
+    <comment>word: Range</comment>
+  </data>
+  <data name="OutOfRangeLabelText" lastModified="2014-04-07T14:32:44">
+    <value>Error message displayed when the entry is out of range</value>
+    <comment>phrase: Error message displayed when the entry is out of range</comment>
+  </data>
+  <data name="Characters" lastModified="2014-04-07T14:32:44">
+    <value>characters</value>
+    <comment>word: characters</comment>
+  </data>
+  <data name="PleaseSpecifyValuesForAllOfTheChoices" lastModified="2014-04-07T14:32:44">
+    <value>Please, specify values for all of the choices.</value>
+    <comment>phrase: Please, specify values for all of the choices.</comment>
+  </data>
+  <data name="SelectForm" lastModified="2014-04-07T14:32:44">
+    <value>Select a form</value>
+    <comment>phrase: Select a form</comment>
+  </data>
+  <data name="FormSingularItemName" lastModified="2014-04-07T14:32:44">
+    <value>form</value>
+    <comment>word: form</comment>
+  </data>
+  <data name="FormPluralItemName" lastModified="2014-04-07T14:32:44">
+    <value>forms</value>
+    <comment>word: forms</comment>
+  </data>
+  <data name="Language" lastModified="2014-04-07T14:32:44">
+    <value>Language</value>
+    <comment>word: Language</comment>
+  </data>
+  <data name="ModuleNotLicensed" lastModified="2014-04-07T14:32:44">
+    <value>Forms functionality is disabled since the forms module is not licensed.</value>
+    <comment>Module Not Licensed message</comment>
+  </data>
+  <data name="AddAfter" lastModified="2014-04-07T14:32:44">
+    <value>Add after</value>
+    <comment>phrase: Add after</comment>
+  </data>
+  <data name="CreateNewGenericContent" lastModified="2014-04-07T14:32:44">
+    <value>Create new generic content</value>
+    <comment>phrase: Create new generic content</comment>
+  </data>
+  <data name="FormSuccessfullyUnpublished" lastModified="2014-04-07T14:32:44">
+    <value>The form was successfully unpublished.</value>
+    <comment>positive message after unpublishing a form.</comment>
+  </data>
+  <data name="ReferralCode" lastModified="2014-04-07T14:32:44">
+    <value>ReferralCode</value>
+    <comment>phrase: Referral Code</comment>
+  </data>
+  <data name="PredefinedImage" lastModified="2014-04-07T14:32:44">
+    <value>Predefined image</value>
+    <comment>phrase: Predefined image used in image custom field designer</comment>
+  </data>
+  <data name="MaxDimensionsForUploadingImages" lastModified="2014-04-07T14:32:44">
+    <value>Max size for uploading images</value>
+    <comment>phrase: Max size for uploading images</comment>
+  </data>
+  <data name="ChangeImage" lastModified="2014-04-07T14:32:44">
+    <value>Change image</value>
+    <comment>phrase: Change image</comment>
+  </data>
+  <data name="General" lastModified="2014-04-07T14:32:44">
+    <value>General</value>
+    <comment>phrase: General</comment>
+  </data>
+  <data name="LabelForEnteringDataDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the label of the interface widget for entering data in the field</value>
+    <comment>phrase: This is the label of the interface widget for entering data in the field</comment>
+  </data>
+  <data name="DisplayedBelowTheWidget" lastModified="2014-04-07T14:32:44">
+    <value>Displayed below the widget. Suitable for giving examples</value>
+    <comment>phrase: Displayed below the widget. Suitable for giving examples</comment>
+  </data>
+  <data name="SortEntries" lastModified="2014-04-07T14:32:44">
+    <value>Sort Entries</value>
+    <comment>phrase: SortEntries</comment>
+  </data>
+  <data name="DefaultValueExceedsMaxRange" lastModified="2014-04-07T14:32:44">
+    <value>The number of symbols entered for default value should not exceed the symbols maximum range.</value>
+    <comment>phrase: The number of symbols entered for default value should not exceed the symbols maximum range.</comment>
+  </data>
+  <data name="FormEntries" lastModified="2014-04-07T14:32:44">
+    <value>Form Entries</value>
+    <comment>phrase: Form Entries</comment>
+  </data>
+  <data name="FileUpload" lastModified="2014-04-07T14:32:44">
+    <value>File upload</value>
+    <comment>phrase: File upload</comment>
+  </data>
+  <data name="FileUploadTitle" lastModified="2014-04-07T14:32:44">
+    <value>File upload</value>
+    <comment>phrase: File upload</comment>
+  </data>
+  <data name="FileUploadDescription" lastModified="2014-04-07T14:32:44">
+    <value>File upload</value>
+    <comment>phrase: File upload</comment>
+  </data>
+  <data name="AllowMultipleFileAttachments" lastModified="2014-04-07T14:32:44">
+    <value>Allow multiple file attachments</value>
+    <comment>phrase: Allow multiple file attachments</comment>
+  </data>
+  <data name="AllowedFileTypes" lastModified="2014-04-07T14:32:44">
+    <value>Allowed file types</value>
+    <comment>phrase: Allowed file types</comment>
+  </data>
+  <data name="AllFileTypes" lastModified="2014-04-07T14:32:44">
+    <value>All file types</value>
+    <comment>phrase: All file types</comment>
+  </data>
+  <data name="SelectedFileTypes" lastModified="2014-04-07T14:32:44">
+    <value>Selected file types...</value>
+    <comment>phrase: Selected file types...</comment>
+  </data>
+  <data name="ImagesExtensions" lastModified="2014-04-07T14:32:44">
+    <value>Images (jpg, jpeg, png, gif, bmp)</value>
+    <comment>phrase: Images (jpg, jpeg, png, gif, bmp)</comment>
+  </data>
+  <data name="DocumentsExtensions" lastModified="2014-04-07T14:32:44">
+    <value>Documents (pdf, doc, docx, ppt, pptx, ppsx, xls, xlsx)</value>
+    <comment>phrase: Documents (pdf, doc, docx, ppt, pptx, ppsx, xls, xlsx)</comment>
+  </data>
+  <data name="AudioExtensions" lastModified="2014-04-07T14:32:44">
+    <value>Audio (mp3, ogg, wav, wma)</value>
+    <comment>phrase: Audio (mp3, ogg, wav, wma)</comment>
+  </data>
+  <data name="VideoExtensions" lastModified="2014-04-07T14:32:44">
+    <value>Video (avi, mpg, mpeg, mov, mp4, wmv)</value>
+    <comment>phrase: Video (avi, mpg, mpeg, mov, mp4, wmv)</comment>
+  </data>
+  <data name="OtherExtensions" lastModified="2014-04-07T14:32:44">
+    <value>Other...</value>
+    <comment>phrase: Other...</comment>
+  </data>
+  <data name="FileTypesDescription" lastModified="2014-04-07T14:32:44">
+    <value>File types are comma separated.</value>
+    <comment>File types are comma separated.</comment>
+  </data>
+  <data name="OtherExtensionsExample" lastModified="2014-04-07T14:32:44">
+    <value>File types are comma separated.&lt;br /&gt;&lt;strong&gt;Example:&lt;/strong&gt; zip, rar</value>
+    <comment>Example: zip, rar</comment>
+  </data>
+  <data name="AttachedFiles" lastModified="2014-04-07T14:32:44">
+    <value>attached files</value>
+    <comment>phrase: attached files</comment>
+  </data>
+  <data name="AttachedFile" lastModified="2014-04-07T14:32:44">
+    <value>attached file</value>
+    <comment>phrase: attached file</comment>
+  </data>
+  <data name="FormFiles" lastModified="2014-04-07T14:32:44">
+    <value>Form files</value>
+    <comment>phrase: Form files</comment>
+  </data>
+  <data name="Sort" lastModified="2014-04-07T14:32:44">
+    <value>Sort</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ByTitleAsc" lastModified="2014-04-07T14:32:44">
+    <value>By Title (A-Z)</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ByTitleDesc" lastModified="2014-04-07T14:32:44">
+    <value>By Title (Z-A)</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="NewModifiedFirst" lastModified="2014-04-07T14:32:44">
+    <value>Last modified on top</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="NewCreatedFirst" lastModified="2014-04-07T14:32:44">
+    <value>Last created on top</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="CustomSorting" lastModified="2014-04-07T14:32:44">
+    <value>Custom sorting...</value>
+    <comment>Phrase: Custom sorting...</comment>
+  </data>
+  <data name="AttachFiles" lastModified="2014-04-07T14:32:44">
+    <value>Attach files</value>
+    <comment>Phrase: Attach files</comment>
+  </data>
+  <data name="AddAnotherFile" lastModified="2014-04-07T14:32:44">
+    <value>Add another</value>
+    <comment>Phrase: Add another</comment>
+  </data>
+  <data name="FormsAreAboutToBeDeleted" lastModified="2014-04-07T14:32:44">
+    <value>{0} forms and all their responses and attached files are about to be permanently deleted.&lt;p class='sfMTop15'&gt;Do you want to continue?&lt;/p&gt;</value>
+    <comment>phrase: {0} forms and all their responses and attached files are about to be permanently deleted.&lt;p&gt;Do you want to continue?&lt;/p&gt;</comment>
+  </data>
+  <data name="FormIsAboutToBeDeleted" lastModified="2014-04-07T14:32:44">
+    <value>1 form and all its responses and attached files are about to be permanently deleted.&lt;p class='sfMTop15'&gt;Do you want to continue?&lt;/p&gt;</value>
+    <comment>phrase: 1 form and all its responses and attached files are about to be permanently deleted.&lt;p&gt;Do you want to continue?&lt;/p&gt;</comment>
+  </data>
+  <data name="RadCaptchaTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forms Captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaDisplayOnlyForUnauthenticatedUsers" lastModified="2014-04-07T14:32:44">
+    <value>Request unauthenticated users only</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="RadCaptchaDescription" lastModified="2014-04-07T14:32:44">
+    <value>Forms Captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaImageTextLength" lastModified="2014-04-07T14:32:44">
+    <value>Captcha Image Text Length</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaFontFamiliy" lastModified="2014-04-07T14:32:44">
+    <value>Captcha Font Familiy</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaColor" lastModified="2014-04-07T14:32:44">
+    <value>Captcha color</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaBackgroundColor" lastModified="2014-04-07T14:32:44">
+    <value>Captcha background color</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaLineNoise" lastModified="2014-04-07T14:32:44">
+    <value>Captcha Line Noise</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaFontWrap" lastModified="2014-04-07T14:32:44">
+    <value>Captcha Font Wrap</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaBackgroundNoiseLevel" lastModified="2014-04-07T14:32:44">
+    <value>Captcha background noise level</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>Incorrect value for the captcha image</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="CaptchaDesignerViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Captcha Designer</value>
+    <comment>The title for Forms Captcha widget.</comment>
+  </data>
+  <data name="Username" lastModified="2014-04-07T14:32:44">
+    <value>Username</value>
+    <comment>Label in response view: Username.</comment>
+  </data>
+  <data name="AnonymousUsername" lastModified="2014-04-07T14:32:44">
+    <value>Anonymous</value>
+    <comment>Anonymous</comment>
+  </data>
+  <data name="ManageAlso" lastModified="2014-04-07T14:32:44">
+    <value>Manage also</value>
+    <comment>phrase: Manage also</comment>
+  </data>
+  <data name="CommentsForForms" lastModified="2014-04-07T14:32:44">
+    <value>Comments for forms</value>
+    <comment>phrase: Comments for forms</comment>
+  </data>
+  <data name="ThePageOutputCacheWillBeDisabled" lastModified="2014-04-07T14:32:44">
+    <value>The page that is containing this control will not be cached!</value>
+    <comment>phrase: The page that is containing this control will not be cached!</comment>
+  </data>
+  <data name="FormNotificationsEmailListError" lastModified="2014-04-07T14:32:44">
+    <value>The following entries are not valid email addresses: {0}</value>
+    <comment>phrase: The following entries are not valid email addresses: &lt;br /&gt;{0}</comment>
+  </data>
+  <data name="SendEmailNotifications" lastModified="2014-04-07T14:32:44">
+    <value>Send email notification for responses to...</value>
+    <comment>phrase: Send email notification for responses to...</comment>
+  </data>
+  <data name="MyEmailAddress" lastModified="2014-04-07T14:32:44">
+    <value>My email address</value>
+    <comment>phrase: My email address</comment>
+  </data>
+  <data name="ListOfEmailAddresses" lastModified="2014-04-07T14:32:44">
+    <value>List of email addresses...</value>
+    <comment>phrase: List of email addresses...</comment>
+  </data>
+  <data name="ExampleEmailAddress" lastModified="2014-04-07T14:32:44">
+    <value>Enter email addresses one per line</value>
+    <comment>phrase: Enter email addresses one per line</comment>
+  </data>
+  <data name="FormNotificationsEmailListSuccess" lastModified="2014-04-07T14:32:44">
+    <value>All entries are valid email addresses</value>
+    <comment>phrase: All entries are valid email addresses</comment>
+  </data>
+  <data name="ValidateEmails" lastModified="2014-04-07T14:32:44">
+    <value>Validate emails</value>
+    <comment>phrase: Validate emails</comment>
+  </data>
+  <data name="DuplicateForm" lastModified="2014-04-07T14:32:44">
+    <value>Duplicate form</value>
+    <comment>phrase: Duplicate form</comment>
+  </data>
+  <data name="UseCustomConfirmation" lastModified="2014-04-07T14:32:44">
+    <value>Use custom confirmation</value>
+    <comment>phrase: Use custom confirmation</comment>
+  </data>
+  <data name="SiteIsDeleted" lastModified="2014-04-07T14:32:44">
+    <value>Site is deleted</value>
+    <comment>phrase: Site is deleted. Used in form responses screen.</comment>
+  </data>
+</root>

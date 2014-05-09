@@ -1,0 +1,1672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ForumsResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forums</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="ForumsResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for Forums module.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ForumsConfigCaption" lastModified="2014-04-07T14:32:44">
+    <value>Forums</value>
+    <comment>Global configuration file for the Forums module</comment>
+  </data>
+  <data name="ForumssConfigDescription" lastModified="2014-04-07T14:32:44">
+    <value>Global configuration file for the Forums module</value>
+    <comment>Description of the ForumsConfig configuration class</comment>
+  </data>
+  <data name="ForumsViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forums</value>
+    <comment>The title of the ForumsView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="ForumsViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>List of Forums items</value>
+    <comment>The description of the ForumsView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="AccessForums" lastModified="2014-04-07T14:32:44">
+    <value>Access forums module</value>
+    <comment>Title of the 'AccessForums' security action</comment>
+  </data>
+  <data name="AccessForumsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Security action that allows access to the backend pages of the forums module</value>
+    <comment>Description of the 'AccessForumsDescription' security action</comment>
+  </data>
+  <data name="ForumGroupPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Forum category Permissions</value>
+    <comment>Permission title.</comment>
+  </data>
+  <data name="ForumGroupPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents the most common application security permissions.</value>
+    <comment>Permission description.</comment>
+  </data>
+  <data name="CreateForumGroupAction" lastModified="2014-04-07T14:32:44">
+    <value>Create a group</value>
+    <comment>The title of CreateForum security action.</comment>
+  </data>
+  <data name="CreateForumGroupActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of a new forum group.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyForumGroupAction" lastModified="2014-04-07T14:32:44">
+    <value>Modify a group</value>
+    <comment>The title of ModifyForum security action.</comment>
+  </data>
+  <data name="ModifyForumGroupActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to an existing forum group.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteForumGroupAction" lastModified="2014-04-07T14:32:44">
+    <value>Delete a group</value>
+    <comment>The title of DeleteForumGroup security action.</comment>
+  </data>
+  <data name="DeleteForumGroupActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a particular forum group.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeGroupPermissionsAction" lastModified="2014-04-07T14:32:44">
+    <value>Change a group's permissions</value>
+    <comment>The title of Change Permissions security action.</comment>
+  </data>
+  <data name="ChangeGroupPermissionsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of a forum group.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ForumPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Forum permissions</value>
+    <comment>Permission title.</comment>
+  </data>
+  <data name="ForumPermissionsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Represents the most common application security permissions.</value>
+    <comment>Permission description.</comment>
+  </data>
+  <data name="ViewForumAction" lastModified="2014-04-07T14:32:44">
+    <value>View a forum</value>
+    <comment>The title of ViewForum security action.</comment>
+  </data>
+  <data name="ViewForumActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies viewing a particular forum.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateForumAction" lastModified="2014-04-07T14:32:44">
+    <value>Create a forum</value>
+    <comment>The title of CreateForum security action.</comment>
+  </data>
+  <data name="CreateForumActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of a new forum.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyForumAction" lastModified="2014-04-07T14:32:44">
+    <value>Modify a forum</value>
+    <comment>The title of ModifyForum security action.</comment>
+  </data>
+  <data name="ModifyForumActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to an existing forum.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteForumAction" lastModified="2014-04-07T14:32:44">
+    <value>Delete a forum</value>
+    <comment>The title of DeleteForum security action.</comment>
+  </data>
+  <data name="DeleteForumActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a particular Forum.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreateThreadAction" lastModified="2014-04-07T14:32:44">
+    <value>Create a thread</value>
+    <comment>The title of CreateThread security action.</comment>
+  </data>
+  <data name="CreateThreadActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of a new thread.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyThreadAction" lastModified="2014-04-07T14:32:44">
+    <value>Modify a thread</value>
+    <comment>The title of ModifyThread security action.</comment>
+  </data>
+  <data name="ModifyThreadActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to an existing thread.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ManageThreadAction" lastModified="2014-04-07T14:32:44">
+    <value>Move, mark as sticky and lock a thread</value>
+    <comment>The title of ManageThread security action.</comment>
+  </data>
+  <data name="ManageThreadActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies move, mark as sticky and lock an existing thread.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeleteThreadAction" lastModified="2014-04-07T14:32:44">
+    <value>Delete a thread</value>
+    <comment>The title of DeleteThread security action.</comment>
+  </data>
+  <data name="DeleteThreadActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a particular thread.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="CreatePostAction" lastModified="2014-04-07T14:32:44">
+    <value>Create a post</value>
+    <comment>The title of CreatePost security action.</comment>
+  </data>
+  <data name="CreatePostActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies the creation of a new post.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ModifyPostAction" lastModified="2014-04-07T14:32:44">
+    <value>Modify a post</value>
+    <comment>The title of ModifyPost security action.</comment>
+  </data>
+  <data name="ModifyPostActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changes to an existing post.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="DeletePostAction" lastModified="2014-04-07T14:32:44">
+    <value>Delete a post</value>
+    <comment>The title of DeleteThread security action.</comment>
+  </data>
+  <data name="DeletePostActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies deleting a particular thread.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ChangeForumPermissionsAction" lastModified="2014-04-07T14:32:44">
+    <value>Change a forum's permissions</value>
+    <comment>The title of Change Permissions security action.</comment>
+  </data>
+  <data name="ChangeForumPermissionsActionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Allows or denies changing the permissions of a forum.</value>
+    <comment>Security action description.</comment>
+  </data>
+  <data name="ViewThisForumAction" lastModified="2014-04-07T14:32:44">
+    <value>View this forum</value>
+    <comment>Action text of the view action for this forum.</comment>
+  </data>
+  <data name="ModifyThisForumAction" lastModified="2014-04-07T14:32:44">
+    <value>Modify this forum</value>
+    <comment>Action text of the modify action for this forum.</comment>
+  </data>
+  <data name="DeleteThisForumAction" lastModified="2014-04-07T14:32:44">
+    <value>Delete this forum and its threads and posts</value>
+    <comment>Action text of the delete action for this forum.</comment>
+  </data>
+  <data name="ModifyThisGroupAction" lastModified="2014-04-07T14:32:44">
+    <value>Modify this group</value>
+    <comment>Action text of the modify action for this group.</comment>
+  </data>
+  <data name="DeleteThisGroupAction" lastModified="2014-04-07T14:32:44">
+    <value>Delete this group</value>
+    <comment>Action text of the delete action for this group.</comment>
+  </data>
+  <data name="ChangeThisGroupPermissionsAction" lastModified="2014-04-07T14:32:44">
+    <value>Change this group's permissions</value>
+    <comment>The title of Change Permissions security action.</comment>
+  </data>
+  <data name="ChangeThisForumPermissionsAction" lastModified="2014-04-07T14:32:44">
+    <value>Change this forum's permissions</value>
+    <comment>The title of Change Permissions security action.</comment>
+  </data>
+  <data name="AlternativePublishing" lastModified="2014-04-07T14:32:44">
+    <value>Alternative publishing (RSS)</value>
+    <comment>Alternative publishing (RSS)</comment>
+  </data>
+  <data name="WhoCanSeeFileAttachments" lastModified="2014-04-07T14:32:44">
+    <value>Who can see file attachments uploaded in a post</value>
+    <comment>Who can see file attachments uploaded in a post</comment>
+  </data>
+  <data name="Everyone" lastModified="2014-04-07T14:32:44">
+    <value>Everyone</value>
+    <comment>Everyone</comment>
+  </data>
+  <data name="ForumGroup" lastModified="2014-04-07T14:32:44">
+    <value>Forum group</value>
+    <comment>ForumGroup</comment>
+  </data>
+  <data name="AuthenticatedUsersOnly" lastModified="2014-04-07T14:32:44">
+    <value>Authenticated users only</value>
+    <comment>AuthenticatedUsersOnly</comment>
+  </data>
+  <data name="Description" lastModified="2014-04-07T14:32:44">
+    <value>Description</value>
+    <comment>Description</comment>
+  </data>
+  <data name="Attachments" lastModified="2014-04-07T14:32:44">
+    <value>File attachments</value>
+    <comment>Attachments</comment>
+  </data>
+  <data name="AllowUploadCheckboxText" lastModified="2014-04-07T14:32:44">
+    <value>Allow users to upload file attachments in posts</value>
+    <comment>AllowUploadCheckboxText</comment>
+  </data>
+  <data name="ClickToAddDescription" lastModified="2014-04-07T14:32:44">
+    <value>Click to add description</value>
+    <comment>phrase: Click to add description</comment>
+  </data>
+  <data name="Generate" lastModified="2014-04-07T14:32:44">
+    <value>Generate...</value>
+    <comment>The text of my forum sidebar button</comment>
+  </data>
+  <data name="SelectedFileTypes" lastModified="2014-04-07T14:32:44">
+    <value>Selected file types...</value>
+    <comment>Selected file types ...</comment>
+  </data>
+  <data name="AllowedFileTypes" lastModified="2014-04-07T14:32:44">
+    <value>Allowed file types</value>
+    <comment>Allowed file types</comment>
+  </data>
+  <data name="DefaultFileTypes" lastModified="2014-04-07T14:32:44">
+    <value>Default types</value>
+    <comment>phrase: Default types</comment>
+  </data>
+  <data name="ManuallyDefinedFileTypes" lastModified="2014-04-07T14:32:44">
+    <value>Define manually...</value>
+    <comment>phrase: Define manually...</comment>
+  </data>
+  <data name="WhereToStoreUploadedFiles" lastModified="2014-04-07T14:32:44">
+    <value>Where to store uploaded files &lt;br /&gt; &lt;strong&gt;Select library&lt;/strong&gt;</value>
+    <comment>Where to store uploaded files</comment>
+  </data>
+  <data name="Select library" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Select library&lt;/strong&gt;</value>
+    <comment>Select library</comment>
+  </data>
+  <data name="AllFileTypes" lastModified="2014-04-07T14:32:44">
+    <value>All file types</value>
+    <comment>All file types</comment>
+  </data>
+  <data name="Images" lastModified="2014-04-07T14:32:44">
+    <value>Images (jpg, jpeg, png, gif, bmp)</value>
+    <comment>Images (jpg, jpeg, png, gif, bmp)</comment>
+  </data>
+  <data name="Documents" lastModified="2014-04-07T14:32:44">
+    <value>Documents (pdf, doc, docx, ppt, pptx, pps, ppsx, xls, xlsx)</value>
+    <comment>Documents (pdf, doc, docx, ppt, pptx, pps, ppsx, xls, xlsx)</comment>
+  </data>
+  <data name="Audio" lastModified="2014-04-07T14:32:44">
+    <value>Audio (mp3, ogg, wav, wma )</value>
+    <comment>Audio (mp3, ogg, wav, wma )</comment>
+  </data>
+  <data name="Video" lastModified="2014-04-07T14:32:44">
+    <value>Video (avi, mpg, mpeg, mov, mp4, wmv)</value>
+    <comment>Video (avi, mpg, mpeg, mov, mp4, wmv)</comment>
+  </data>
+  <data name="Other" lastModified="2014-04-07T14:32:44">
+    <value>Other...</value>
+    <comment>Other...</comment>
+  </data>
+  <data name="UrlName" lastModified="2014-04-07T14:32:44">
+    <value>Forum URL</value>
+    <comment>phrase: Forum URL</comment>
+  </data>
+  <data name="GroupUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Group URL</value>
+    <comment>phrase: Group URL</comment>
+  </data>
+  <data name="DefaultPage" lastModified="2014-04-07T14:32:44">
+    <value>Default page</value>
+    <comment>Phrase: Default page</comment>
+  </data>
+  <data name="Parent" lastModified="2014-04-07T14:32:44">
+    <value>Parent</value>
+    <comment>word: Parent</comment>
+  </data>
+  <data name="Summary" lastModified="2014-04-07T14:32:44">
+    <value>Summary</value>
+    <comment>Summary</comment>
+  </data>
+  <data name="ClickToAddSummary" lastModified="2014-04-07T14:32:44">
+    <value>Click to add summary</value>
+    <comment>ClickToAddSummary</comment>
+  </data>
+  <data name="MoreOptions" lastModified="2014-04-07T14:32:44">
+    <value>More options</value>
+    <comment>MoreOptions</comment>
+  </data>
+  <data name="StickThisThreadToTopOfTheList" lastModified="2014-04-07T14:32:44">
+    <value>Stick this thread to top of a list</value>
+    <comment>StickThisThreadToTopOfTheList</comment>
+  </data>
+  <data name="CloseThisThreadToDisablePosting" lastModified="2014-04-07T14:32:44">
+    <value>Close this thread to disable posting</value>
+    <comment>CloseThisThreadToDisablePosting</comment>
+  </data>
+  <data name="BlockCrawlersFromIndexingThreadPostsPage" lastModified="2014-04-07T14:32:44">
+    <value>Block &lt;strong&gt;search engine crawlers from indexing&lt;/strong&gt; pages that contain this thread's posts</value>
+    <comment>Phrase: Block search engine crawlers from indexing pages that contain this thread's posts</comment>
+  </data>
+  <data name="EmailSubscriptionInfo" lastModified="2014-04-07T14:32:44">
+    <value>Email Subscription</value>
+    <comment>text: Email Subscription</comment>
+  </data>
+  <data name="EmailSubscriptionThreadsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe to new threads via email</value>
+    <comment>text: Subscribe to new threads via email</comment>
+  </data>
+  <data name="EmailNotificationSubscribe" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe</value>
+    <comment>text: Subscribe</comment>
+  </data>
+  <data name="EmailNotificationUnsubscribe" lastModified="2014-04-07T14:32:44">
+    <value>Unsubscribe</value>
+    <comment>text: Unsubscribe</comment>
+  </data>
+  <data name="EmailNotificationSuccessfulSubscribeThreadsMessage" lastModified="2014-04-07T14:32:44">
+    <value>You have successfully subscribed to new threads via email</value>
+    <comment>text: You have successfully subscribed to new threads via email</comment>
+  </data>
+  <data name="EmailNotificationSuccessfulUnsubscribeMessage" lastModified="2014-04-07T14:32:44">
+    <value>You have successfully unsubscribed</value>
+    <comment>text: You have successfully unsubscribed</comment>
+  </data>
+  <data name="EmailNotificationAlreadySubscribedThreadsMessage" lastModified="2014-04-07T14:32:44">
+    <value>You have already subscribed to new threads via email</value>
+    <comment>text: You have already subscribed to new threads via email</comment>
+  </data>
+  <data name="EmailSubscriptionPostsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe to new posts via email</value>
+    <comment>text: Subscribe to new posts via email</comment>
+  </data>
+  <data name="EmailNotificationSuccessfulSubscribePostsMessage" lastModified="2014-04-07T14:32:44">
+    <value>You have successfully subscribed to new posts via email</value>
+    <comment>text: You have successfully subscribed to new posts via email</comment>
+  </data>
+  <data name="SubscribeForNewThreads" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe for new threads</value>
+    <comment>text: Subscribe for new threads</comment>
+  </data>
+  <data name="SubscribeForPosts" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe for posts</value>
+    <comment>text: Subscribe for posts</comment>
+  </data>
+  <data name="TheSystemHasNotBeenConfiguredToSendEmails" lastModified="2014-04-07T14:32:44">
+    <value>The system has not been configured to send emails. {0} or ask your administrator to set them.</value>
+    <comment>text: The system has not been configured to send emails. {0} or ask your administrator to set them.  {0} is a place holder for 'Go to SMTP settings' label which must be rendered as a link</comment>
+  </data>
+  <data name="TheSystemHasNotBeenConfiguredToSendNotifications" lastModified="2014-04-07T14:32:44">
+    <value>The system has not been configured to send notifications. {0} or ask your administrator to set them.</value>
+    <comment>text: The system has not been configured to send notifications. {0} or ask your administrator to set them.  {0} is a place holder for 'Go to Notifications settings' label which must be rendered as a link</comment>
+  </data>
+  <data name="EnableForumsNotificationSubscription" lastModified="2014-04-07T14:32:44">
+    <value>Enable user subscription for new threads and posts</value>
+    <comment>text: Enable user subscription for new threads and posts</comment>
+  </data>
+  <data name="GoToSmtpSettings" lastModified="2014-04-07T14:32:44">
+    <value>Go to SMTP settings</value>
+    <comment>text: Go to SMTP settings</comment>
+  </data>
+  <data name="GoToNotificationSettings" lastModified="2014-04-07T14:32:44">
+    <value>Go to Notification settings</value>
+    <comment>text: Go to Notification settings</comment>
+  </data>
+  <data name="SendNotificationsTo" lastModified="2014-04-07T14:32:44">
+    <value>Send notifications to</value>
+    <comment>text: Send notifications to</comment>
+  </data>
+  <data name="EmailNotificationAlreadySubscribedPostsMessage" lastModified="2014-04-07T14:32:44">
+    <value>You have already subscribed to new posts via email</value>
+    <comment>text: You have already subscribed to new posts via email</comment>
+  </data>
+  <data name="ForumsViewPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forums</value>
+    <comment>word: Forums</comment>
+  </data>
+  <data name="ForumsDescription" lastModified="2014-04-07T14:32:44">
+    <value>ForumsDescription</value>
+    <comment>Forums</comment>
+  </data>
+  <data name="ForumsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forums</value>
+    <comment>Title for the Forums module.</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forums</value>
+    <comment>Title for the Forums module.</comment>
+  </data>
+  <data name="ExampleDialogHeader" lastModified="2014-04-07T14:32:44">
+    <value>Forums are organized by forum groups</value>
+    <comment>Forums are organized by forum groups.</comment>
+  </data>
+  <data name="ForumsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forums</value>
+    <comment>Html Title for the Forums module..</comment>
+  </data>
+  <data name="ForumsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Forums</value>
+    <comment>Forums URL</comment>
+  </data>
+  <data name="ForumThreadsTitle" lastModified="2014-04-07T14:32:44">
+    <value>{0} threads</value>
+    <comment>Title for forum threads in the Forums module.</comment>
+  </data>
+  <data name="ForumThreadsPageTitle" lastModified="2014-04-07T14:32:44">
+    <value>Threads</value>
+    <comment>Title for forum threads page in the Forums module.</comment>
+  </data>
+  <data name="Forum" lastModified="2014-04-07T14:32:44">
+    <value>Forum</value>
+    <comment>Title of the Main Forum</comment>
+  </data>
+  <data name="ForumThreadsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forum Threads</value>
+    <comment>Html Title for Forum Threads in the Forums module..</comment>
+  </data>
+  <data name="ForumThreadsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Threads</value>
+    <comment>ForumThreads URL</comment>
+  </data>
+  <data name="WhatForumFunctionalityToUse" lastModified="2014-04-07T14:32:44">
+    <value>What forum functionality to use?</value>
+    <comment>phrase: What forum functionality to use?</comment>
+  </data>
+  <data name="FullForumFunctionality" lastModified="2014-04-07T14:32:44">
+    <value>Full forum functionality</value>
+    <comment>phrase: Full forum functionality</comment>
+  </data>
+  <data name="ForumListOnly" lastModified="2014-04-07T14:32:44">
+    <value>Forum list only</value>
+    <comment>phrase: Forum list only</comment>
+  </data>
+  <data name="ThreadsOnly" lastModified="2014-04-07T14:32:44">
+    <value>Threads only</value>
+    <comment>phrase: Threads only</comment>
+  </data>
+  <data name="PostsOfOneThreadOnly" lastModified="2014-04-07T14:32:44">
+    <value>Posts of one thread only</value>
+    <comment>phrase: Posts of one thread only</comment>
+  </data>
+  <data name="Settings" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>word: Settings</comment>
+  </data>
+  <data name="Display" lastModified="2014-04-07T14:32:44">
+    <value>Display...</value>
+    <comment>word: Display...</comment>
+  </data>
+  <data name="AllForums" lastModified="2014-04-07T14:32:44">
+    <value>All forums</value>
+    <comment>phrase: All forums</comment>
+  </data>
+  <data name="ForumsFromSelectedGroups" lastModified="2014-04-07T14:32:44">
+    <value>Forums from selected groups:</value>
+    <comment>phrase: Forums from selected groups:</comment>
+  </data>
+  <data name="FromAllForums" lastModified="2014-04-07T14:32:44">
+    <value>From all forums</value>
+    <comment>phrase: From all forums</comment>
+  </data>
+  <data name="FromSelectedForums" lastModified="2014-04-07T14:32:44">
+    <value>From selected forums</value>
+    <comment>phrase: From selected forums</comment>
+  </data>
+  <data name="FromSelectedThreads" lastModified="2014-04-07T14:32:44">
+    <value>From selected threads</value>
+    <comment>phrase: From selected threads</comment>
+  </data>
+  <data name="NoGroupsSelected" lastModified="2014-04-07T14:32:44">
+    <value>No groups selected</value>
+    <comment>phrase: No groups selected</comment>
+  </data>
+  <data name="SelectGroups" lastModified="2014-04-07T14:32:44">
+    <value>Select groups</value>
+    <comment>phrase: Select groups</comment>
+  </data>
+  <data name="SelectedForums" lastModified="2014-04-07T14:32:44">
+    <value>Selected forums...</value>
+    <comment>phrase: Selected forums...</comment>
+  </data>
+  <data name="SelectForums" lastModified="2014-04-07T14:32:44">
+    <value>Select forums</value>
+    <comment>phrase: Select forums</comment>
+  </data>
+  <data name="ThreadsFromTheCurrentlyOpenForum" lastModified="2014-04-07T14:32:44">
+    <value>Auto: threads from the currently open forum</value>
+    <comment>phrase: Auto: threads from the currently open forum</comment>
+  </data>
+  <data name="ThreadsFromSelectedForumsOnly" lastModified="2014-04-07T14:32:44">
+    <value>Threads from selected forums only</value>
+    <comment>phrase: Threads from selected forums only</comment>
+  </data>
+  <data name="AllThreadsFromAllForums" lastModified="2014-04-07T14:32:44">
+    <value>All threads from all forums</value>
+    <comment>phrase: All threads from all forums</comment>
+  </data>
+  <data name="ThreadsFromCurrentlyOpenUser" lastModified="2014-04-07T14:32:44">
+    <value>Auto: threads from currently open user</value>
+    <comment>phrase: Auto: threads from currently open user</comment>
+  </data>
+  <data name="PostsFromTheCurrentlyOpenThread" lastModified="2014-04-07T14:32:44">
+    <value>Auto: posts from the currently open thread</value>
+    <comment>phrase: Auto: posts from the currently open thread</comment>
+  </data>
+  <data name="PostsFromSelectedThread" lastModified="2014-04-07T14:32:44">
+    <value>Posts from selected thread...</value>
+    <comment>phrase: Auto: posts from the currently open thread</comment>
+  </data>
+  <data name="SelectThread" lastModified="2014-04-07T14:32:44">
+    <value>Select thread</value>
+    <comment>phrase: Select thread</comment>
+  </data>
+  <data name="ThreadUpperCase" lastModified="2014-04-07T14:32:44">
+    <value>THREAD</value>
+    <comment>Word: THREAD</comment>
+  </data>
+  <data name="Threads" lastModified="2014-04-07T14:32:44">
+    <value>threads</value>
+    <comment>Word: threads</comment>
+  </data>
+  <data name="Forums" lastModified="2014-04-07T14:32:44">
+    <value>forums</value>
+    <comment>Word: forums</comment>
+  </data>
+  <data name="Post" lastModified="2014-04-07T14:32:44">
+    <value>post</value>
+    <comment>word: post</comment>
+  </data>
+  <data name="AllowComments" lastModified="2014-04-07T14:32:44">
+    <value>Allow comments</value>
+    <comment>Phrase: Allow comments</comment>
+  </data>
+  <data name="Posts" lastModified="2014-04-07T14:32:44">
+    <value>posts</value>
+    <comment>Word: posts</comment>
+  </data>
+  <data name="PostsTitleCase" lastModified="2014-04-07T14:32:44">
+    <value>Posts</value>
+    <comment>word: Posts</comment>
+  </data>
+  <data name="PostsUpperCase" lastModified="2014-04-07T14:32:44">
+    <value>POSTS</value>
+    <comment>Word: POSTS</comment>
+  </data>
+  <data name="ViewsUpperCase" lastModified="2014-04-07T14:32:44">
+    <value>VIEWS</value>
+    <comment>Word: VIEWS</comment>
+  </data>
+  <data name="LastPostUpperCase" lastModified="2014-04-07T14:32:44">
+    <value>LAST POST</value>
+    <comment>phrase: LAST POST</comment>
+  </data>
+  <data name="RegisteredTitleCase" lastModified="2014-04-07T14:32:44">
+    <value>Registered</value>
+    <comment>phrase: Registered</comment>
+  </data>
+  <data name="ForumsEvaluatorDescription" lastModified="2014-04-07T14:32:44">
+    <value>Extracts the forum form the URL string. Assumed that it starts after marked segment at url till the end.</value>
+    <comment>The description of the Forums URL Evaluator.</comment>
+  </data>
+  <data name="ThreadsMasterViewModeCaption" lastModified="2014-04-07T14:32:44">
+    <value>Threads master view mode</value>
+    <comment>The title of the ViewMode configuration property</comment>
+  </data>
+  <data name="ThreadsMasterViewModeDescription" lastModified="2014-04-07T14:32:44">
+    <value>The mode of the master view for forum threads.</value>
+    <comment>Description of the ViewMode configuration property</comment>
+  </data>
+  <data name="ForumsMasterViewModeCaption" lastModified="2014-04-07T14:32:44">
+    <value>Forums master view mode</value>
+    <comment>The title of the ViewMode configuration property</comment>
+  </data>
+  <data name="ForumsMasterViewModeDescription" lastModified="2014-04-07T14:32:44">
+    <value>The mode of the master view for forums.</value>
+    <comment>Description of the ViewMode configuration property</comment>
+  </data>
+  <data name="PostsPageIdCaption" lastModified="2014-04-07T14:32:44">
+    <value>Posts Page ID</value>
+    <comment>The caption displayed for PostsPageId property in ForumsViewMasterElement.</comment>
+  </data>
+  <data name="PostsPageIdDescription" lastModified="2014-04-07T14:32:44">
+    <value>Specifies the ID of the page that should display the forum posts. If this ID is not set the current page is assumed.</value>
+    <comment>The description of PostsPageId configuration.</comment>
+  </data>
+  <data name="ShowBreadcrumbExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;b&gt;Example:&lt;/b&gt; &lt;em&gt;Forums &gt; Support forum &gt; I have a problem with...&lt;/em&gt;</value>
+    <comment>Show breadcrumb example</comment>
+  </data>
+  <data name="IncludeFullBreadcrumbPathExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;b&gt;Example:&lt;/b&gt; &lt;em&gt;Home / Community / Forums / Support forum / I have a problem with...&lt;/em&gt;</value>
+    <comment>Include full breadcrumb path example</comment>
+  </data>
+  <data name="NoForumsHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+    <value>No forums have been created yet</value>
+    <comment>Phrase: No forums have been created yet</comment>
+  </data>
+  <data name="CreateForum" lastModified="2014-04-07T14:32:44">
+    <value>Create a forum</value>
+    <comment>Phrase: Create a forum</comment>
+  </data>
+  <data name="EditForum" lastModified="2014-04-07T14:32:44">
+    <value>Edit a forum</value>
+    <comment>Phrase: Edit a forum</comment>
+  </data>
+  <data name="CreateForumThread" lastModified="2014-04-07T14:32:44">
+    <value>Create a thread</value>
+    <comment>Phrase: Create a thread</comment>
+  </data>
+  <data name="EditForumThread" lastModified="2014-04-07T14:32:44">
+    <value>Edit a thread</value>
+    <comment>Phrase: Edit a thread</comment>
+  </data>
+  <data name="CreateForumGroup" lastModified="2014-04-07T14:32:44">
+    <value>Create a forum group</value>
+    <comment>Phrase: Create a forum group</comment>
+  </data>
+  <data name="EditForumGroup" lastModified="2014-04-07T14:32:44">
+    <value>Edit a forum group</value>
+    <comment>Phrase: Edit a forum group</comment>
+  </data>
+  <data name="FilterForums" lastModified="2014-04-07T14:32:44">
+    <value>Filter forums</value>
+    <comment>Phrase: Filter forums</comment>
+  </data>
+  <data name="MyForums" lastModified="2014-04-07T14:32:44">
+    <value>My forums</value>
+    <comment>Phrase: My forums</comment>
+  </data>
+  <data name="ForumsWithoutThreads" lastModified="2014-04-07T14:32:44">
+    <value>Forums without threads</value>
+    <comment>Phrase: Forums without threads</comment>
+  </data>
+  <data name="SettingsForForums" lastModified="2014-04-07T14:32:44">
+    <value>Settings for forums</value>
+    <comment>Phrase: Settings for forums</comment>
+  </data>
+  <data name="PagesWhereForumPostsArePublished" lastModified="2014-04-07T14:32:44">
+    <value>Pages where Forum Posts are published</value>
+    <comment>Pages where Forum Posts are published</comment>
+  </data>
+  <data name="PagesWhereForumThreadsArePublished" lastModified="2014-04-07T14:32:44">
+    <value>Pages where Forum Threads are published</value>
+    <comment>Pages where Forum Threads are published</comment>
+  </data>
+  <data name="PagesWhereForumsArePublished" lastModified="2014-04-07T14:32:44">
+    <value>Pages where Forums are published</value>
+    <comment>Pages where Forums are published</comment>
+  </data>
+  <data name="CustomFieldsForForums" lastModified="2014-04-07T14:32:44">
+    <value>Custom fields for forums</value>
+    <comment>Phrase: Custom fields for forums</comment>
+  </data>
+  <data name="GroupsListTemplateTitle" lastModified="2014-04-07T14:32:44">
+    <value>'List of forum groups' template</value>
+    <comment>Phrase: 'List of forum groups' template</comment>
+  </data>
+  <data name="ForumsListTemplateTitle" lastModified="2014-04-07T14:32:44">
+    <value>'List of forums' template</value>
+    <comment>Phrase: 'List of forums' template</comment>
+  </data>
+  <data name="ThreadsListTemplateTitle" lastModified="2014-04-07T14:32:44">
+    <value>'List of threads' template</value>
+    <comment>Phrase: 'List of threads' template</comment>
+  </data>
+  <data name="PostsListTemplateTitle" lastModified="2014-04-07T14:32:44">
+    <value>'List of posts' template</value>
+    <comment>Phrase: 'List of posts' template</comment>
+  </data>
+  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+    <value>Back to threads</value>
+    <comment>Phrase: Back to threads</comment>
+  </data>
+  <data name="ForumThreadsDataFields" lastModified="2014-04-07T14:32:44">
+    <value>Forum threads data fields</value>
+    <comment>phrase: Forum threads data fields</comment>
+  </data>
+  <data name="ForumThreadPluralItemName" lastModified="2014-04-07T14:32:44">
+    <value>forum threads</value>
+    <comment>Word: forum threads</comment>
+  </data>
+  <data name="ForumThreadSingleItemName" lastModified="2014-04-07T14:32:44">
+    <value>Forum Thread</value>
+    <comment>Word: Forum Thread</comment>
+  </data>
+  <data name="ForumThreadPluralItemNameCapitalLetters" lastModified="2014-04-07T14:32:44">
+    <value>Forum Threads</value>
+    <comment>Word: Forum Threads</comment>
+  </data>
+  <data name="ManageThreads" lastModified="2014-04-07T14:32:44">
+    <value>Manage Threads</value>
+    <comment>Phrase: Manage Threads</comment>
+  </data>
+  <data name="DisplayLastUpdatedThreads" lastModified="2014-04-07T14:32:44">
+    <value>Display threads last updated in...</value>
+    <comment>Phrase: Display threads last updated in...</comment>
+  </data>
+  <data name="GroupDeleteForumThreads" lastModified="2014-04-07T14:32:44">
+    <value>Delete threads</value>
+    <comment>Phrase: Delete threads</comment>
+  </data>
+  <data name="DeleteThread" lastModified="2014-04-07T14:32:44">
+    <value>Delete thread</value>
+    <comment>Phrase: Delete thread</comment>
+  </data>
+  <data name="FilterThreads" lastModified="2014-04-07T14:32:44">
+    <value>Filter threads</value>
+    <comment>Phrase: Filter threads</comment>
+  </data>
+  <data name="AllThreads" lastModified="2014-04-07T14:32:44">
+    <value>All threads</value>
+    <comment>Phrase: All threads</comment>
+  </data>
+  <data name="MyThreads" lastModified="2014-04-07T14:32:44">
+    <value>My threads</value>
+    <comment>Phrase: My threads</comment>
+  </data>
+  <data name="MyThreadsLower" lastModified="2014-04-07T14:32:44">
+    <value>threads I have created or replied</value>
+    <comment>Phrase: threads I have created or replied</comment>
+  </data>
+  <data name="Unpublished" lastModified="2014-04-07T14:32:44">
+    <value>Unpublished</value>
+    <comment>Phrase: Unpublished</comment>
+  </data>
+  <data name="WaitingForApproval" lastModified="2014-04-07T14:32:44">
+    <value>Waiting for approval</value>
+    <comment>Phrase: Waiting for approval</comment>
+  </data>
+  <data name="CloseDateFilter" lastModified="2014-04-07T14:32:44">
+    <value>Close dates</value>
+    <comment>Phrase: Close dates</comment>
+  </data>
+  <data name="ByDateModified" lastModified="2014-04-07T14:32:44">
+    <value>by Date modified...</value>
+    <comment>Phrase: by Date modified...</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" lastModified="2014-04-07T14:32:44">
+    <value>What do you want to do now</value>
+    <comment>Phrase: What do you want to do now</comment>
+  </data>
+  <data name="ShowThreadsThatAre" lastModified="2014-04-07T14:32:44">
+    <value>Show threads that are:</value>
+    <comment>Phrase: Show threads that are: </comment>
+  </data>
+  <data name="ShowThreadsFromAllForums" lastModified="2014-04-07T14:32:44">
+    <value>Show threads from all forums that are:</value>
+    <comment>Phrase: Show threads from all forums that are:</comment>
+  </data>
+  <data name="InLabel" lastModified="2014-04-07T14:32:44">
+    <value>in</value>
+    <comment>Phrase: in</comment>
+  </data>
+  <data name="RecentlyReplied" lastModified="2014-04-07T14:32:44">
+    <value>Recently Replied</value>
+    <comment>Phrase: Recently Replied</comment>
+  </data>
+  <data name="RecentlyRepliedLower" lastModified="2014-04-07T14:32:44">
+    <value>threads that have new replies</value>
+    <comment>Phrase: threads that have new replies</comment>
+  </data>
+  <data name="RecentlyRepliedThreads" lastModified="2014-04-07T14:32:44">
+    <value>Recently Replied Threads</value>
+    <comment>Phrase: Recently Replied Threads</comment>
+  </data>
+  <data name="Newest" lastModified="2014-04-07T14:32:44">
+    <value>Newest</value>
+    <comment>Phrase: Newest</comment>
+  </data>
+  <data name="NewestLower" lastModified="2014-04-07T14:32:44">
+    <value>newest threads</value>
+    <comment>Phrase: newest threads</comment>
+  </data>
+  <data name="NewestThreads" lastModified="2014-04-07T14:32:44">
+    <value>Newest Threads</value>
+    <comment>Phrase: Newest Threads</comment>
+  </data>
+  <data name="FeaturedFilter" lastModified="2014-04-07T14:32:44">
+    <value>Answered</value>
+    <comment>Phrase: Answered</comment>
+  </data>
+  <data name="FeaturedLower" lastModified="2014-04-07T14:32:44">
+    <value>threads with answered posts</value>
+    <comment>Phrase: threads with answered posts</comment>
+  </data>
+  <data name="FeaturedThreads" lastModified="2014-04-07T14:32:44">
+    <value>Answered Threads</value>
+    <comment>Phrase: Answered Threads</comment>
+  </data>
+  <data name="BackendAnsweredThreads" lastModified="2014-04-07T14:32:44">
+    <value>(Answered)</value>
+    <comment>Label: (Answered)</comment>
+  </data>
+  <data name="MostViewed" lastModified="2014-04-07T14:32:44">
+    <value>Most Viewed</value>
+    <comment>Phrase: Most Viewed</comment>
+  </data>
+  <data name="MostViewedLower" lastModified="2014-04-07T14:32:44">
+    <value>most viewed threads</value>
+    <comment>Phrase: most viewed threads</comment>
+  </data>
+  <data name="MostViewedThreads" lastModified="2014-04-07T14:32:44">
+    <value>Most Viewed Threads</value>
+    <comment>Phrase: Most Viewed Threads</comment>
+  </data>
+  <data name="ViewAllForums" lastModified="2014-04-07T14:32:44">
+    <value>View all forums</value>
+    <comment>Phrase: View all forums</comment>
+  </data>
+  <data name="NoThreads" lastModified="2014-04-07T14:32:44">
+    <value>No threads have been created yet</value>
+    <comment>Phrase: No threads have been created yet</comment>
+  </data>
+  <data name="GroupListViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Group - list</value>
+    <comment>Phrase: Group - list</comment>
+  </data>
+  <data name="ForumListViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Forums - list</value>
+    <comment>Phrase: Forums - list</comment>
+  </data>
+  <data name="ThreadsListViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Threads - list</value>
+    <comment>Phrase: Threads - list</comment>
+  </data>
+  <data name="NewThreadViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>New thread view</value>
+    <comment>Phrase: New thread view</comment>
+  </data>
+  <data name="PostsListViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Posts - list</value>
+    <comment>Phrase: Posts - list</comment>
+  </data>
+  <data name="Title" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="CreateThisForum" lastModified="2014-04-07T14:32:44">
+    <value>Create this forum</value>
+    <comment>phrase: Create this forum</comment>
+  </data>
+  <data name="Save" lastModified="2014-04-07T14:32:44">
+    <value>Save</value>
+    <comment>phrase: Save</comment>
+  </data>
+  <data name="or" lastModified="2014-04-07T14:32:44">
+    <value>or</value>
+    <comment>or</comment>
+  </data>
+  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Title cannot be empty</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="UrlNameInvalidSymbols" lastModified="2014-04-07T14:32:44">
+    <value>The URL contains invalid symbols.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>URL cannot be empty</value>
+    <comment>URL cannot be empty</comment>
+  </data>
+  <data name="ShowBreadcrumb" lastModified="2014-04-07T14:32:44">
+    <value>Show breadcrumb</value>
+    <comment>Phrase: Show breadcrumb</comment>
+  </data>
+  <data name="IncludeFullPathStartingFromHomePage" lastModified="2014-04-07T14:32:44">
+    <value>Include full path starting from Home page</value>
+    <comment>Phrase: Include full path starting from Home page</comment>
+  </data>
+  <data name="EnableSocialShareButtons" lastModified="2014-04-07T14:32:44">
+    <value>Enable social share buttons</value>
+    <comment>Phrase: Enable social share buttons</comment>
+  </data>
+  <data name="TemplatesForForumParts" lastModified="2014-04-07T14:32:44">
+    <value>Templates for forum parts</value>
+    <comment>Phrase: Templates for forum parts</comment>
+  </data>
+  <data name="PageForUserProfiles" lastModified="2014-04-07T14:32:44">
+    <value>Page for user profiles</value>
+    <comment>Phrase: Page for user profiles</comment>
+  </data>
+  <data name="PageForUserProfilesDetailedDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the page which is opened clicking the name of the author of each post. There must be a &lt;strong&gt;Profile widget&lt;/strong&gt; on this page.</value>
+    <comment>Phrase: This is the page which is opened clicking the name of the author of each post. There must be a &lt;strong&gt;Profile widget&lt;/strong&gt; on this page.</comment>
+  </data>
+  <data name="PageForThreads" lastModified="2014-04-07T14:32:44">
+    <value>Page for Threads</value>
+    <comment>Phrase: Page for Threads</comment>
+  </data>
+  <data name="PageForThreadsDetailedDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the page which is opened clicking the name of a forum. There must be a &lt;strong&gt;Forum widget&lt;/strong&gt; on this page set to display &lt;strong&gt;Threads&lt;/strong&gt; or &lt;strong&gt;Threads and Posts &lt;strong&gt;or &lt;strong&gt;Full forum funcionality&lt;/strong&gt;.</value>
+    <comment>Phrase: This is the page which is opened clicking the name of a forum. There must be a &lt;strong&gt;Forum widget&lt;/strong&gt; on this page set to display &lt;strong&gt;Threads&lt;/strong&gt; or &lt;strong&gt;Threads and Posts &lt;strong&gt;or &lt;strong&gt;Full forum funcionality&lt;/strong&gt;.</comment>
+  </data>
+  <data name="PageForPostsOfEachThread" lastModified="2014-04-07T14:32:44">
+    <value>Page for Posts of each thread</value>
+    <comment>Phrase: Page for Posts of each thread</comment>
+  </data>
+  <data name="PageForPostsOfEachThreadDetailedDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the page which is opened clicking the name of a thread. There must be a &lt;strong&gt;Forum widget&lt;/strong&gt; on this page set to display &lt;strong&gt;Post of one thread only&lt;/strong&gt; or &lt;strong&gt;Threads and Posts&lt;/strong&gt; or &lt;strong&gt;Full forum functionallity&lt;/strong&gt;.</value>
+    <comment>Phrase: This is the page which is opened clicking the name of a thread. There must be a &lt;strong&gt;Forum widget&lt;/strong&gt; on this page set to display &lt;strong&gt;Post of one thread only&lt;/strong&gt; or &lt;strong&gt;Threads and Posts&lt;/strong&gt; or &lt;strong&gt;Full forum functionallity&lt;/strong&gt;.</comment>
+  </data>
+  <data name="Subscription" lastModified="2014-04-07T14:32:44">
+    <value>Subscription</value>
+    <comment>Word: Subscription</comment>
+  </data>
+  <data name="Content" lastModified="2014-04-07T14:32:44">
+    <value>Content</value>
+    <comment>word: Content</comment>
+  </data>
+  <data name="TitleAndProperties" lastModified="2014-04-07T14:32:44">
+    <value>Title &amp; Properties</value>
+    <comment>Phrase: Title &amp; Properties</comment>
+  </data>
+  <data name="LastPost" lastModified="2014-04-07T14:32:44">
+    <value>Last Post</value>
+    <comment>Phrase: Last Post</comment>
+  </data>
+  <data name="CountOfFilteredThreadsInForum" lastModified="2014-04-07T14:32:44">
+    <value>&lt;em&gt;{0} {1}&lt;/em&gt; in {2}</value>
+    <comment>Phrase: {0} {1}(threads) in {2} (forum)</comment>
+  </data>
+  <data name="CountOfFilteredThreads" lastModified="2014-04-07T14:32:44">
+    <value>{0} {1} from all forums</value>
+    <comment>Phrase: {0} {1} from all forums</comment>
+  </data>
+  <data name="LastPostByUser" lastModified="2014-04-07T14:32:44">
+    <value>Last post by {0}</value>
+    <comment>phrase: Last post by {0}</comment>
+  </data>
+  <data name="LastModifiedOnDateByUser" lastModified="2014-04-07T14:32:44">
+    <value>Last modified on {0} by {1}</value>
+    <comment>phrase: Last modified on {0} by {1}</comment>
+  </data>
+  <data name="Reply" lastModified="2014-04-07T14:32:44">
+    <value>Reply</value>
+    <comment>Reply</comment>
+  </data>
+  <data name="InReplyTo" lastModified="2014-04-07T14:32:44">
+    <value>in reply to</value>
+    <comment>phrase: in reply to</comment>
+  </data>
+  <data name="PostThisReply" lastModified="2014-04-07T14:32:44">
+    <value>Post this reply</value>
+    <comment>PostThisReply</comment>
+  </data>
+  <data name="ForumGroupTitleExample" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; General discussions</value>
+    <comment>Phrase: Example: General discussions</comment>
+  </data>
+  <data name="FileAttachmentsTitleExample" lastModified="2014-04-07T14:32:44">
+    <value>File types are comma separated.&lt;br/&gt;&lt;strong&gt;Example&lt;/strong&gt;: zip, rar</value>
+    <comment>Phrase:  File types are comma separated. Example: zip, rar</comment>
+  </data>
+  <data name="NewThread" lastModified="2014-04-07T14:32:44">
+    <value>New thread</value>
+    <comment>Phrase: New thread</comment>
+  </data>
+  <data name="PostThisThread" lastModified="2014-04-07T14:32:44">
+    <value>Post this thread</value>
+    <comment>Phrase: Post this thread</comment>
+  </data>
+  <data name="CreateThisForumGroup" lastModified="2014-04-07T14:32:44">
+    <value>Create this forum group</value>
+    <comment>Phrase: Create this forum group</comment>
+  </data>
+  <data name="MoveTo" lastModified="2014-04-07T14:32:44">
+    <value>Move to...</value>
+    <comment>Move to..</comment>
+  </data>
+  <data name="Move" lastModified="2014-04-07T14:32:44">
+    <value>Move</value>
+    <comment>The text of the Move button.</comment>
+  </data>
+  <data name="Closed" lastModified="2014-04-07T14:32:44">
+    <value>Closed</value>
+    <comment>Closed</comment>
+  </data>
+  <data name="UnmarkAsSpam" lastModified="2014-04-07T14:32:44">
+    <value>Unmark as spam</value>
+    <comment>Unmark as spam</comment>
+  </data>
+  <data name="OpenThread" lastModified="2014-04-07T14:32:44">
+    <value>Open thread</value>
+    <comment>Open thread</comment>
+  </data>
+  <data name="CloseThread" lastModified="2014-04-07T14:32:44">
+    <value>Close thread</value>
+    <comment>Close thread</comment>
+  </data>
+  <data name="StickToTop" lastModified="2014-04-07T14:32:44">
+    <value>Stick to top</value>
+    <comment>Stick to top</comment>
+  </data>
+  <data name="Unstick" lastModified="2014-04-07T14:32:44">
+    <value>Unstick</value>
+    <comment>Unstick</comment>
+  </data>
+  <data name="ForumPostsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Posts</value>
+    <comment>Title for Forum Posts in the Forums module.</comment>
+  </data>
+  <data name="ForumPostsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forum Posts</value>
+    <comment>HTML Title for Forum Posts in the Forums module.</comment>
+  </data>
+  <data name="ForumsSettingsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>Title for Forum Posts in the Forums module.</comment>
+  </data>
+  <data name="ForumsSettingsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Forums Settings</value>
+    <comment>HTML Title for Forums Settings in the Forums module.</comment>
+  </data>
+  <data name="ForumsSettingsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>URL name for Forums Settings in the Forums module.</comment>
+  </data>
+  <data name="EmailNotifications" lastModified="2014-04-07T14:32:44">
+    <value>Email notifications</value>
+    <comment>Email notifications text</comment>
+  </data>
+  <data name="NewThreadsEmailTemplate" lastModified="2014-04-07T14:32:44">
+    <value>New threads email template</value>
+    <comment>New threads email template text</comment>
+  </data>
+  <data name="NewPostsEmailTemplate" lastModified="2014-04-07T14:32:44">
+    <value>New posts email template</value>
+    <comment>New posts email template text</comment>
+  </data>
+  <data name="ManageTextMessage" lastModified="2014-04-07T14:32:44">
+    <value>Manage text message</value>
+    <comment>Manage text message text</comment>
+  </data>
+  <data name="Back" lastModified="2014-04-07T14:32:44">
+    <value>Back</value>
+    <comment>text: Back</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>Save changes text</comment>
+  </data>
+  <data name="CancelTemplateChanges" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>Cancel text</comment>
+  </data>
+  <data name="OrTemplateChanges" lastModified="2014-04-07T14:32:44">
+    <value>or</value>
+    <comment>or</comment>
+  </data>
+  <data name="ResetTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Restore template to default</value>
+    <comment>Restore template to default text</comment>
+  </data>
+  <data name="TemplateSubject" lastModified="2014-04-07T14:32:44">
+    <value>Subject</value>
+    <comment>Subject text</comment>
+  </data>
+  <data name="TemplateText" lastModified="2014-04-07T14:32:44">
+    <value>Message text</value>
+    <comment>Message text text</comment>
+  </data>
+  <data name="EditEmailThreadsTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Edit email template: New threads</value>
+    <comment>Edit email template: New threads text</comment>
+  </data>
+  <data name="EditEmailPostsTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Edit email template: New posts</value>
+    <comment>Edit email template: New posts text</comment>
+  </data>
+  <data name="ForumPostsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Posts</value>
+    <comment>URL name for Forum Posts in the Forums module.</comment>
+  </data>
+  <data name="ForumPostsAuthorInfoColumnHeaderText" lastModified="2014-04-07T14:32:44">
+    <value>Author</value>
+    <comment>Phrase: Author</comment>
+  </data>
+  <data name="ForumPostsContentColumnHeaderText" lastModified="2014-04-07T14:32:44">
+    <value>Status / Date / Content</value>
+    <comment>Status / Date / Content</comment>
+  </data>
+  <data name="PostsInThreads" lastModified="2014-04-07T14:32:44">
+    <value>{0} posts in {1} threads</value>
+    <comment>PostsInThreads</comment>
+  </data>
+  <data name="ByAuthor" lastModified="2014-04-07T14:32:44">
+    <value>by {0}</value>
+    <comment>ByAuthor</comment>
+  </data>
+  <data name="EditPost" lastModified="2014-04-07T14:32:44">
+    <value>Edit post</value>
+    <comment>Phrase: Edit post</comment>
+  </data>
+  <data name="MarkAsFeatured" lastModified="2014-04-07T14:32:44">
+    <value>Mark as answered</value>
+    <comment>phrase: Mark as answered</comment>
+  </data>
+  <data name="Unmark" lastModified="2014-04-07T14:32:44">
+    <value>Unmark</value>
+    <comment>Word: Unmark</comment>
+  </data>
+  <data name="PostOwnerNameTermination" lastModified="2014-04-07T14:32:44">
+    <value>'s post</value>
+    <comment>Phrase termination: 's post</comment>
+  </data>
+  <data name="LastModifiedOn" lastModified="2014-04-07T14:32:44">
+    <value>Last modified on</value>
+    <comment>Phrase: Last modified on</comment>
+  </data>
+  <data name="Featured" lastModified="2014-04-07T14:32:44">
+    <value>answered</value>
+    <comment>word: answered</comment>
+  </data>
+  <data name="FeaturedTitle" lastModified="2014-04-07T14:32:44">
+    <value>Answered</value>
+    <comment>word: Answered</comment>
+  </data>
+  <data name="CreateForumInSelectedGroup" lastModified="2014-04-07T14:32:44">
+    <value>Create a forum in selected group</value>
+    <comment>phrase: Create a forum in selected group</comment>
+  </data>
+  <data name="BackToThreads" lastModified="2014-04-07T14:32:44">
+    <value>Back to Threads</value>
+    <comment>phrase: Back to Threads</comment>
+  </data>
+  <data name="FilterPosts" lastModified="2014-04-07T14:32:44">
+    <value>Filter posts</value>
+    <comment>phrase: Filter posts</comment>
+  </data>
+  <data name="AllPosts" lastModified="2014-04-07T14:32:44">
+    <value>All posts</value>
+    <comment>phrase: All posts</comment>
+  </data>
+  <data name="Last24Hours" lastModified="2014-04-07T14:32:44">
+    <value>Last 24 hours</value>
+    <comment>phrase: Last 24 hours</comment>
+  </data>
+  <data name="QuoteAPost" lastModified="2014-04-07T14:32:44">
+    <value>Quote a post</value>
+    <comment>Phrase: Quote a post</comment>
+  </data>
+  <data name="PostReply" lastModified="2014-04-07T14:32:44">
+    <value>Post a reply</value>
+    <comment>Phrase: Post a reply</comment>
+  </data>
+  <data name="CreateForumPost" lastModified="2014-04-07T14:32:44">
+    <value>Create a post</value>
+    <comment>Phrase: Create a post</comment>
+  </data>
+  <data name="EditForumPost" lastModified="2014-04-07T14:32:44">
+    <value>Edit a post</value>
+    <comment>Phrase: Edit a post</comment>
+  </data>
+  <data name="BackToPosts" lastModified="2014-04-07T14:32:44">
+    <value>Back to Posts</value>
+    <comment>Phrase: Back to Posts</comment>
+  </data>
+  <data name="ThreadSelectorDetailsFormatString" lastModified="2014-04-07T14:32:44">
+    <value>{{Thread.Title}}&lt;br&gt;&lt;small&gt;{{ForumTitle}} | {{Thread.DateCreated.sitefinityLocaleFormat('dd MMM yyyy')}} by {{OwnerDisplayName}}&lt;/small&gt;</value>
+    <comment>Format string: {{Thread.Title}}&lt;br&gt;&lt;small&gt;{{ForumTitle}} | {{Thread.DateCreated.sitefinityLocaleFormat('dd MMM yyyy')}} by {{OwnerDisplayName}}&lt;/small&gt;</comment>
+  </data>
+  <data name="BackToForums" lastModified="2014-04-07T14:32:44">
+    <value>Back to forums</value>
+    <comment>Phrase: Back to forums</comment>
+  </data>
+  <data name="PermissionsForAllForums" lastModified="2014-04-07T14:32:44">
+    <value>Permissions for all forums</value>
+    <comment>Phrase: Permissions for all forums</comment>
+  </data>
+  <data name="TheTitleFieldIsRequired" lastModified="2014-04-07T14:32:44">
+    <value>The title field is required!</value>
+    <comment>Phrase: The title field is required!</comment>
+  </data>
+  <data name="TheContentFieldIsRequired" lastModified="2014-04-07T14:32:44">
+    <value>The content field is required!</value>
+    <comment>Phrase: The content field is required!</comment>
+  </data>
+  <data name="PostAReply" lastModified="2014-04-07T14:32:44">
+    <value>Post a reply</value>
+    <comment>PostAReply</comment>
+  </data>
+  <data name="UnmarkAsFeatured" lastModified="2014-04-07T14:32:44">
+    <value>Unmark as answered</value>
+    <comment>Unmark as answered</comment>
+  </data>
+  <data name="PostCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Post cannot be empty</value>
+    <comment>Post cannot be empty</comment>
+  </data>
+  <data name="ForumsInboundPipe" lastModified="2014-04-07T14:32:44">
+    <value>Forums</value>
+    <comment>Forums inbound pipe UI name</comment>
+  </data>
+  <data name="CreateNewForumGroup" lastModified="2014-04-07T14:32:44">
+    <value>Create a new forum group</value>
+    <comment>Create a new forum group</comment>
+  </data>
+  <data name="Example" lastModified="2014-04-07T14:32:44">
+    <value>Example</value>
+    <comment>Example</comment>
+  </data>
+  <data name="ForumPostsSingleTypeName" lastModified="2014-04-07T14:32:44">
+    <value>Forum post</value>
+    <comment>Forum post single type name</comment>
+  </data>
+  <data name="ForumPostsPluralTypeName" lastModified="2014-04-07T14:32:44">
+    <value>Forum posts</value>
+    <comment>Forum posts plural type name</comment>
+  </data>
+  <data name="CannotDeleteForumGroupDialogTitle" lastModified="2014-04-07T14:32:44">
+    <value>You cannot delete a forum group that has forums</value>
+    <comment>Phrase: You cannot delete a forum group that has forums</comment>
+  </data>
+  <data name="CannotDeleteTheDefaultForumGroupDialog" lastModified="2014-04-07T14:32:44">
+    <value>You cannot delete this forum group</value>
+    <comment>Phrase: You cannot delete this forum group</comment>
+  </data>
+  <data name="CannotDeleteForumGroupDialogMessage" lastModified="2014-04-07T14:32:44">
+    <value>To delete this group you should move or delete its forums first</value>
+    <comment>Phrase: To delete this group you should move or delete its forums first</comment>
+  </data>
+  <data name="CannotDeleteTheDefaultForumGroupDialogMessage" lastModified="2014-04-07T14:32:44">
+    <value>You cannot delete the default forum group</value>
+    <comment>Phrase: You cannot delete the default forum group.</comment>
+  </data>
+  <data name="OK" lastModified="2014-04-07T14:32:44">
+    <value>OK</value>
+    <comment>Word: OK</comment>
+  </data>
+  <data name="ContentToInclude" lastModified="2014-04-07T14:32:44">
+    <value>Content to include</value>
+    <comment>Phrase: Content to include</comment>
+  </data>
+  <data name="ViewThread" lastModified="2014-04-07T14:32:44">
+    <value>View thread</value>
+    <comment>Phrase: View thread</comment>
+  </data>
+  <data name="MarkedAsFeatured" lastModified="2014-04-07T14:32:44">
+    <value>Marked as answered</value>
+    <comment>Phrase: Marked as answered</comment>
+  </data>
+  <data name="Url" lastModified="2014-04-07T14:32:44">
+    <value>URL</value>
+    <comment>Word: URL</comment>
+  </data>
+  <data name="Permalink" lastModified="2014-04-07T14:32:44">
+    <value>link to this post</value>
+    <comment>phrase: link to this post</comment>
+  </data>
+  <data name="LinkToThisPost" lastModified="2014-04-07T14:32:44">
+    <value>Link to this post</value>
+    <comment>Phrase: Link to this post</comment>
+  </data>
+  <data name="ForumGroupCannotBeAChildOfAnotherGroup" lastModified="2014-04-07T14:32:44">
+    <value>A forum group cannot be a child of another forum group</value>
+    <comment>Error message: A forum group cannot be a child of another forum group</comment>
+  </data>
+  <data name="ForumGroupCannotBeAChildOfAForum" lastModified="2014-04-07T14:32:44">
+    <value>A forum group cannot be a child of a forum</value>
+    <comment>Error message: A forum group cannot be a child of a forum</comment>
+  </data>
+  <data name="ForumMustBePlacedInAGroup" lastModified="2014-04-07T14:32:44">
+    <value>A forum must be placed in a group.</value>
+    <comment>Error message: A forum must be placed in a group</comment>
+  </data>
+  <data name="ForumCannotBeAChildOfAnotherForum" lastModified="2014-04-07T14:32:44">
+    <value>A forum cannot be a child of another forum</value>
+    <comment>Error message: A forum cannot be a child of another forum</comment>
+  </data>
+  <data name="PostsCount" lastModified="2014-04-07T14:32:44">
+    <value>Posts Count</value>
+    <comment>phrase: Posts Count</comment>
+  </data>
+  <data name="IsProfilePublic" lastModified="2014-04-07T14:32:44">
+    <value>Is a public profile</value>
+    <comment>phrase: Is a public profile</comment>
+  </data>
+  <data name="Sticked" lastModified="2014-04-07T14:32:44">
+    <value>Sticked</value>
+    <comment>Word: Sticked</comment>
+  </data>
+  <data name="ThreadTypeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Thread type</value>
+    <comment>phrase: Thread type</comment>
+  </data>
+  <data name="StandardThreadType" lastModified="2014-04-07T14:32:44">
+    <value>Standard</value>
+    <comment>phrase: Standard thread type</comment>
+  </data>
+  <data name="FeedForThisForum" lastModified="2014-04-07T14:32:44">
+    <value>Feed for this forum</value>
+    <comment>phrase: Feed for this forum</comment>
+  </data>
+  <data name="FeedForThisThread" lastModified="2014-04-07T14:32:44">
+    <value>Feed for this thread</value>
+    <comment>phrase: Feed for this thread</comment>
+  </data>
+  <data name="PostsFromAllForums" lastModified="2014-04-07T14:32:44">
+    <value>Posts from all Forums</value>
+    <comment>phrase: Posts from all Forums</comment>
+  </data>
+  <data name="PostsFromForums" lastModified="2014-04-07T14:32:44">
+    <value>Posts from Forums :</value>
+    <comment>phrase: Posts from Forums :</comment>
+  </data>
+  <data name="PostsFromThreads" lastModified="2014-04-07T14:32:44">
+    <value>Posts from Threads :</value>
+    <comment>phrase: Posts from Threads :</comment>
+  </data>
+  <data name="AGroupWithThisTitleAlreadyExists" lastModified="2014-04-07T14:32:44">
+    <value>A group with this "{0}" already exists</value>
+    <comment>phrase: A group with title "{0}" already exists</comment>
+  </data>
+  <data name="ChangePage" lastModified="2014-04-07T14:32:44">
+    <value>Change page</value>
+    <comment>phrase: Change page</comment>
+  </data>
+  <data name="SaveAsDraft" lastModified="2014-04-07T14:32:44">
+    <value>Save as Draft</value>
+    <comment>phrase: Save as Draft</comment>
+  </data>
+  <data name="Unpublish" lastModified="2014-04-07T14:32:44">
+    <value>Unpublish</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="NoThreadsHaveBeenPostedYet" lastModified="2014-04-07T14:32:44">
+    <value>No threads have been posted yet</value>
+    <comment>phrase: No threads have been posted yet</comment>
+  </data>
+  <data name="NoThreadsForumLocked" lastModified="2014-04-07T14:32:44">
+    <value>You cannot create new threads because this forum is locked</value>
+    <comment>phrase: You cannot create new threads because this forum is locked</comment>
+  </data>
+  <data name="PostAThread" lastModified="2014-04-07T14:32:44">
+    <value>Post a thread</value>
+    <comment>phrase: Post a thread</comment>
+  </data>
+  <data name="AllPublishedPosts" lastModified="2014-04-07T14:32:44">
+    <value>All published posts</value>
+    <comment>phrase: All published posts</comment>
+  </data>
+  <data name="SelectionOfPosts" lastModified="2014-04-07T14:32:44">
+    <value>Selection of posts:</value>
+    <comment>phrase: Selection of posts:</comment>
+  </data>
+  <data name="NarrowSelectionComplementoryText" lastModified="2014-04-07T14:32:44">
+    <value>Narrow selection &lt;span class='sfNote'&gt;(date)&lt;/span&gt;</value>
+    <comment>Narrow selection complementory text</comment>
+  </data>
+  <data name="DisplayPostsModifiedIn" lastModified="2014-04-07T14:32:44">
+    <value>Display posts modified in...</value>
+    <comment>phrase: Display posts modified in...</comment>
+  </data>
+  <data name="SortPosts" lastModified="2014-04-07T14:32:44">
+    <value>Sort posts</value>
+    <comment>phrase: Sort posts</comment>
+  </data>
+  <data name="LastPostedOnTop" lastModified="2014-04-07T14:32:44">
+    <value>Last posted on top</value>
+    <comment>phrase: Last posted on top</comment>
+  </data>
+  <data name="StickedThreadsOnTop" lastModified="2014-04-07T14:32:44">
+    <value>Sticked threads on top</value>
+    <comment>phrase: Sticked threads on top</comment>
+  </data>
+  <data name="FirstPostedOnTop" lastModified="2014-04-07T14:32:44">
+    <value>First posted on top</value>
+    <comment>phrase: First posted on top</comment>
+  </data>
+  <data name="CustomSorting" lastModified="2014-04-07T14:32:44">
+    <value>Custom sorting...</value>
+    <comment>phrase: Custom sorting...</comment>
+  </data>
+  <data name="SortThreads" lastModified="2014-04-07T14:32:44">
+    <value>Sort threads</value>
+    <comment>phrase: Sort threads</comment>
+  </data>
+  <data name="MoveThreadTo" lastModified="2014-04-07T14:32:44">
+    <value>Move thread to ...</value>
+    <comment>phrase: Move thread to ...</comment>
+  </data>
+  <data name="PostsViewNotAvailableInEditMode" lastModified="2014-04-07T14:32:44">
+    <value>Posts from the currently opened thread will appear here</value>
+    <comment>phrase: Posts from the currently opened thread will appear here</comment>
+  </data>
+  <data name="ThreadsViewNotAvailableInEditMode" lastModified="2014-04-07T14:32:44">
+    <value>Threads from the currently opened forum will appear here</value>
+    <comment>phrase: Threads from the currently opened forum will appear here</comment>
+  </data>
+  <data name="AdministratorTitleCase" lastModified="2014-04-07T14:32:44">
+    <value>Administrator</value>
+    <comment>word: Administrator</comment>
+  </data>
+  <data name="ModeratorTitleCase" lastModified="2014-04-07T14:32:44">
+    <value>Moderator</value>
+    <comment>word: Moderator</comment>
+  </data>
+  <data name="Announcement" lastModified="2014-04-07T14:32:44">
+    <value>Announcement (above sticky)</value>
+    <comment>word: Announcement</comment>
+  </data>
+  <data name="StickyThread" lastModified="2014-04-07T14:32:44">
+    <value>Sticky (always on top)</value>
+    <comment>phrase: Sticky thread</comment>
+  </data>
+  <data name="ForumGroupFieldDescription" lastModified="2014-04-07T14:32:44">
+    <value>Group names can be changed and forums can be moved from one group to another.</value>
+    <comment>phrase: Group names can be changed and forums can be moved from one group to another.</comment>
+  </data>
+  <data name="Edit" lastModified="2014-04-07T14:32:44">
+    <value>Edit</value>
+    <comment>Word: Edit</comment>
+  </data>
+  <data name="ReplyToPost" lastModified="2014-04-07T14:32:44">
+    <value>Reply to {0}'s post</value>
+    <comment>phrase:Reply to {0}'s post</comment>
+  </data>
+  <data name="UserQuote" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong class="sfUserQuote"&gt;{0} said:&lt;/strong&gt;</value>
+    <comment>phrase: {0} said:</comment>
+  </data>
+  <data name="DeleteForumGroupWithForumsExceptionMessage" lastModified="2014-04-07T14:32:44">
+    <value>Attempt to delete a group with associated forums</value>
+    <comment>exception message when one tries to delete a forum group with forums</comment>
+  </data>
+  <data name="DeleteDefaultForumGroupException" lastModified="2014-04-07T14:32:44">
+    <value>Attempt to delete the default forum group.</value>
+    <comment>exception message when one tries to delete the default forum group</comment>
+  </data>
+  <data name="ForumsLicenseLimitExceededException" lastModified="2014-04-07T14:32:44">
+    <value>The licensed number of  forums ({0}) is exceeded.</value>
+    <comment>exception message when one tries to create more forums than the license key allows</comment>
+  </data>
+  <data name="AllowedExtensionSettingsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Allowed file types</value>
+    <comment>phrase: Allowed file types</comment>
+  </data>
+  <data name="AllowedExtensionSettingsDescription" lastModified="2014-04-07T14:32:44">
+    <value>A comma separated list of the allowed attachment file extensions (leading dots included).</value>
+    <comment>Describes a configuration element</comment>
+  </data>
+  <data name="AllowedExtensionSettingsExample" lastModified="2014-04-07T14:32:44">
+    <value>.doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf</value>
+    <comment>Example: .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf</comment>
+  </data>
+  <data name="Insert" lastModified="2014-04-07T14:32:44">
+    <value>Insert</value>
+    <comment>Label: Insert</comment>
+  </data>
+  <data name="YourQuoteGoesHere" lastModified="2014-04-07T14:32:44">
+    <value>Your quote goes here</value>
+    <comment>Phrase: Your quote goes here</comment>
+  </data>
+  <data name="AttachedFileInvalidMessageFormat" lastModified="2014-04-07T14:32:44">
+    <value>The selected file(s) cannot be attached because it may exceed the maximum attachment size ({0}) or is from not allowed type (allowed: {1}).</value>
+    <comment>Phrase: The selected file(s) cannot be attached because it may exceed the maximum attachment size ({0}) or is from not allowed type (allowed: {1}).</comment>
+  </data>
+  <data name="StartWithForumGroups" lastModified="2014-04-07T14:32:44">
+    <value>Start with forum groups on first level</value>
+    <comment>Phrase: Start with forum groups on first level</comment>
+  </data>
+  <data name="Icon" lastModified="2014-04-07T14:32:44">
+    <value>Icon</value>
+    <comment>phrase: Icon</comment>
+  </data>
+  <data name="ForumGroupURL" lastModified="2014-04-07T14:32:44">
+    <value>Forum Group URL</value>
+    <comment>phrase: Forum Group URL</comment>
+  </data>
+  <data name="SubscribeMeForThisThread" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe me for this thread</value>
+    <comment>Phrase: Subscribe me for this thread</comment>
+  </data>
+  <data name="CloseForumGroup" lastModified="2014-04-07T14:32:44">
+    <value>Close forum group</value>
+    <comment>Close forum group</comment>
+  </data>
+  <data name="OpenForumGroup" lastModified="2014-04-07T14:32:44">
+    <value>Open forum group</value>
+    <comment>Open forum group</comment>
+  </data>
+  <data name="CloseForum" lastModified="2014-04-07T14:32:44">
+    <value>Close forum</value>
+    <comment>Close forum</comment>
+  </data>
+  <data name="OpenForum" lastModified="2014-04-07T14:32:44">
+    <value>Open forum</value>
+    <comment>Open forum</comment>
+  </data>
+  <data name="IsForumLockedCheckboxText" lastModified="2014-04-07T14:32:44">
+    <value>Close this forum to disable posting</value>
+    <comment>Close this forum to disable posting</comment>
+  </data>
+  <data name="IsForumGroupLockedCheckboxText" lastModified="2014-04-07T14:32:44">
+    <value>Close this forum group to disable posting</value>
+    <comment>Close this forum group to disable posting</comment>
+  </data>
+  <data name="ThreadClosed" lastModified="2014-04-07T14:32:44">
+    <value>Thread is closed for posting</value>
+    <comment>Thread is closed for posting</comment>
+  </data>
+  <data name="ForumClosed" lastModified="2014-04-07T14:32:44">
+    <value>Forum is closed for posting</value>
+    <comment>Forum is closed for posting</comment>
+  </data>
+  <data name="ForumGroupClosed" lastModified="2014-04-07T14:32:44">
+    <value>Forum group is closed for posting</value>
+    <comment>Forum group is closed for posting</comment>
+  </data>
+  <data name="AttachmentsFieldInvalidSymbols" lastModified="2014-04-07T14:32:44">
+    <value>Invalid Format! Example of valid format: .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf</value>
+    <comment>The message shown when the attachments field contains invalid symbols.</comment>
+  </data>
+  <data name="MaxNumberFileAttachments" lastModified="2014-04-07T14:32:44">
+    <value>File attachment extensions cannot be added due to configuration restriction.</value>
+    <comment>The message shown when the attachments field cannot accept new extensions.</comment>
+  </data>
+</root>

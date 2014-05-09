@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RadSchedulerRecurrenceEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>RadSchedulerRecurrenceEditor</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="RadSchedulerRecurrenceEditorTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>RadSchedulerRecurrenceEditor</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="RadSchedulerRecurrenceEditorDescription" lastModified="2014-04-07T14:32:44">
+    <value>Resource strings for RadSchedulerRecurrenceEditor.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+    <value>Please do not remove this key.</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Recurrence" lastModified="2014-04-07T14:32:44">
+    <value>Recurrence</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Hourly" lastModified="2014-04-07T14:32:44">
+    <value>Hourly</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Daily" lastModified="2014-04-07T14:32:44">
+    <value>Daily</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Weekly" lastModified="2014-04-07T14:32:44">
+    <value>Weekly</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Monthly" lastModified="2014-04-07T14:32:44">
+    <value>Monthly</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Yearly" lastModified="2014-04-07T14:32:44">
+    <value>Yearly</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Every" lastModified="2014-04-07T14:32:44">
+    <value>Every</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Hours" lastModified="2014-04-07T14:32:44">
+    <value>hour(s)</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Days" lastModified="2014-04-07T14:32:44">
+    <value>day(s)</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Weeks" lastModified="2014-04-07T14:32:44">
+    <value>week(s) on</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Months" lastModified="2014-04-07T14:32:44">
+    <value>month(s)</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="EveryWeekday" lastModified="2014-04-07T14:32:44">
+    <value>Every weekday</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="RecurEvery" lastModified="2014-04-07T14:32:44">
+    <value>Recur every</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Day" lastModified="2014-04-07T14:32:44">
+    <value>Day</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="OfEvery" lastModified="2014-04-07T14:32:44">
+    <value>of every</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="First" lastModified="2014-04-07T14:32:44">
+    <value>first</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Second" lastModified="2014-04-07T14:32:44">
+    <value>second</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Third" lastModified="2014-04-07T14:32:44">
+    <value>third</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Fourth" lastModified="2014-04-07T14:32:44">
+    <value>fourth</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Last" lastModified="2014-04-07T14:32:44">
+    <value>last</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="MaskDay" lastModified="2014-04-07T14:32:44">
+    <value>day</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="MaskWeekday" lastModified="2014-04-07T14:32:44">
+    <value>weekday</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="MaskWeekendDay" lastModified="2014-04-07T14:32:44">
+    <value>weekend day</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="The" lastModified="2014-04-07T14:32:44">
+    <value>The</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Of" lastModified="2014-04-07T14:32:44">
+    <value>of</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="NoEndDate" lastModified="2014-04-07T14:32:44">
+    <value>No end date</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="EndAfter" lastModified="2014-04-07T14:32:44">
+    <value>End after</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="EndByThisDate" lastModified="2014-04-07T14:32:44">
+    <value>End by</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Occurrences" lastModified="2014-04-07T14:32:44">
+    <value>occurrences</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="CalendarOK" lastModified="2014-04-07T14:32:44">
+    <value>OK</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="CalendarCancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="CalendarToday" lastModified="2014-04-07T14:32:44">
+    <value>Today</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Never" lastModified="2014-04-07T14:32:44">
+    <value>Never</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="After" lastModified="2014-04-07T14:32:44">
+    <value>After</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="DayOfMonth" lastModified="2014-04-07T14:32:44">
+    <value>Day of the month</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="DayOfWeek" lastModified="2014-04-07T14:32:44">
+    <value>Day of the week</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="On" lastModified="2014-04-07T14:32:44">
+    <value>On</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="Repeat" lastModified="2014-04-07T14:32:44">
+    <value>Repeat:</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="RepeatAppointment" lastModified="2014-04-07T14:32:44">
+    <value>Repeat Appointment</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="RepeatEnd" lastModified="2014-04-07T14:32:44">
+    <value>Repeat End:</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="RepeatOn" lastModified="2014-04-07T14:32:44">
+    <value>Repeat On:</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+  <data name="EveryWorkingDay" lastModified="2014-04-07T14:32:44">
+    <value>Every working day</value>
+    <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
+  </data>
+</root>

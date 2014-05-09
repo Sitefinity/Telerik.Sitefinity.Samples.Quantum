@@ -1,0 +1,2784 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SentIssuesFromThisCampaign" lastModified="2013-03-07T06:00:35">
+    <value>Sent issues from this campaign</value>
+    <comment>phrase: Sent issues from this campaign</comment>
+  </data>
+  <data name="Newsletters" lastModified="2014-04-07T14:32:44">
+    <value>Email Campaigns</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="NewslettersResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Email Campaigns</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="NewslettersResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for Email Campaigns user interface.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Email Campaigns</value>
+    <comment>The title of the page group node in the navigation</comment>
+  </data>
+  <data name="PageGroupNodeUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Email Campaigns</value>
+    <comment>The url name of the page group node</comment>
+  </data>
+  <data name="PageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Newsletters module</value>
+    <comment>The description of the page group node in the navigation</comment>
+  </data>
+  <data name="CreateNewCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Create a new campaign</value>
+    <comment>phrase: Create new campaign</comment>
+  </data>
+  <data name="Dashboard" lastModified="2014-04-07T14:32:44">
+    <value>Dashboard</value>
+    <comment>word: Dashboard</comment>
+  </data>
+  <data name="Campaigns" lastModified="2014-04-07T14:32:44">
+    <value>Campaigns</value>
+    <comment>word: Campaigns</comment>
+  </data>
+  <data name="MailingLists" lastModified="2014-04-07T14:32:44">
+    <value>Mailing lists</value>
+    <comment>phrase: Mailing lists</comment>
+  </data>
+  <data name="Reports" lastModified="2014-04-07T14:32:44">
+    <value>Reports</value>
+    <comment>word: Reports</comment>
+  </data>
+  <data name="Report" lastModified="2014-04-07T14:32:44">
+    <value>Report</value>
+    <comment>word: Report</comment>
+  </data>
+  <data name="Settings" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>word: Settings</comment>
+  </data>
+  <data name="DashboardTitle" lastModified="2014-04-07T14:32:44">
+    <value>Overview</value>
+    <comment>Title of the dasboard page</comment>
+  </data>
+  <data name="DashboardUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Overview</value>
+    <comment>Url name of the dashboard page</comment>
+  </data>
+  <data name="DashboardDescription" lastModified="2014-04-07T14:32:44">
+    <value>Overview page of the newsletters module</value>
+    <comment>Description of the dashboard page</comment>
+  </data>
+  <data name="DashboardHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Overview</value>
+    <comment>Html title of the dashboard page</comment>
+  </data>
+  <data name="CampaignsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Campaigns</value>
+    <comment>Title of the campaigns page</comment>
+  </data>
+  <data name="CampaignsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Campaigns</value>
+    <comment>Url name of the campaigns page</comment>
+  </data>
+  <data name="KendoCampaignsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>KendoCampaigns</value>
+    <comment>Url name of the kendo campaigns page</comment>
+  </data>
+  <data name="CampaignsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Campaigns page</value>
+    <comment>Description of the campaigns page</comment>
+  </data>
+  <data name="CampaignsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Campaigns</value>
+    <comment>Html title of the campaigns page</comment>
+  </data>
+  <data name="ABCampaignsTitle" lastModified="2014-04-07T14:32:44">
+    <value>A/B tests</value>
+    <comment>Title of the A/B tests page</comment>
+  </data>
+  <data name="ABTest" lastModified="2014-04-07T14:32:44">
+    <value>A/B test</value>
+    <comment>A/B test</comment>
+  </data>
+  <data name="ABCampaignsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>ab-tests</value>
+    <comment>Url name of the A/B tests</comment>
+  </data>
+  <data name="ABCampaignsDescription" lastModified="2014-04-07T14:32:44">
+    <value>A/B tests page</value>
+    <comment>Description of the A/B tests page</comment>
+  </data>
+  <data name="ABCampaignsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>A/B tests</value>
+    <comment>Html title of the A/B tests page</comment>
+  </data>
+  <data name="ABCampaignReportPage" lastModified="2014-04-07T14:32:44">
+    <value>A/B test report</value>
+    <comment>Title of the A/B test report page</comment>
+  </data>
+  <data name="AbCampaignReportTitle" lastModified="2014-04-07T14:32:44">
+    <value>A/B test report title</value>
+    <comment>Title of the A/B test report</comment>
+  </data>
+  <data name="ABCampaignReportUrlName" lastModified="2014-04-07T14:32:44">
+    <value>report</value>
+    <comment>Url name of the A/B test report page</comment>
+  </data>
+  <data name="AVCampaignReportDescription" lastModified="2014-04-07T14:32:44">
+    <value>A/B test report</value>
+    <comment>Descriptin of the A/B test report page</comment>
+  </data>
+  <data name="ABCampaignReportHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>A/B test report</value>
+    <comment>Html title of the A/B test report page</comment>
+  </data>
+  <data name="ABTestReport" lastModified="2014-04-07T14:32:44">
+    <value>A/B test {0} report</value>
+    <comment>Phrase: A/B test {0} report</comment>
+  </data>
+  <data name="MailingListsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Mailing lists</value>
+    <comment>Title of the mailing lists page</comment>
+  </data>
+  <data name="MailingListsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>MailingLists</value>
+    <comment>Url name of the mailing lists page</comment>
+  </data>
+  <data name="MailingListsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Mailing lists page of the newsletters module</value>
+    <comment>Description of the mailing lists page of the newsletter module</comment>
+  </data>
+  <data name="MailingListsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Mailing lists</value>
+    <comment>Html title of the mailing lists page of the newsletters module</comment>
+  </data>
+  <data name="TemplatesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Message templates</value>
+    <comment>Title of the templates page of the newsletters module.</comment>
+  </data>
+  <data name="TemplatesUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Templates</value>
+    <comment>Url name of the templates page of the newsletters module.</comment>
+  </data>
+  <data name="TemplatesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Templates page</value>
+    <comment>Description of the templates page of the newsletters module.</comment>
+  </data>
+  <data name="ReportsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Reports</value>
+    <comment>Title of the reports page of the newsletters module</comment>
+  </data>
+  <data name="ReportsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Reports</value>
+    <comment>Url name of the reports page of the newsletters module</comment>
+  </data>
+  <data name="ReportsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Reports page</value>
+    <comment>Description of the reports page of the newsletters module</comment>
+  </data>
+  <data name="ReportsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Reports</value>
+    <comment>Html title of the reports page of the newsletters module</comment>
+  </data>
+  <data name="CampaignReportTitle" lastModified="2014-04-07T14:32:44">
+    <value>Campaign report</value>
+    <comment>Title of the campaign report page of the newsletters module.</comment>
+  </data>
+  <data name="CampaignReportUrlName" lastModified="2014-04-07T14:32:44">
+    <value>campaign-report</value>
+    <comment>Url name of the campaign report page of the newsletters module.</comment>
+  </data>
+  <data name="CampaignReportDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page that displays the report for a single campaign</value>
+    <comment>Description of the campaign report page of the newsletters module.</comment>
+  </data>
+  <data name="CampaignReportHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Campaign report</value>
+    <comment>Html title of the campaign report page of the newsletters module</comment>
+  </data>
+  <data name="CampaignOverviewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Campaign overview</value>
+    <comment>Title of the campaign overview page of the Email Campaigns module.</comment>
+  </data>
+  <data name="CampaignOverviewUrlName" lastModified="2014-04-07T14:32:44">
+    <value>campaign-overview</value>
+    <comment>Url name of the campaign overview page of the Email Campaigns module.</comment>
+  </data>
+  <data name="CampaignOverviewDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page that displays the report for a single campaign.</value>
+    <comment>Description of the campaign overview page of the Email Campaigns module.</comment>
+  </data>
+  <data name="CampaignOverviewHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Campaign report</value>
+    <comment>Html title of the campaign overview page of the Email Campaigns module.</comment>
+  </data>
+  <data name="IssueReportTitle" lastModified="2014-04-07T14:32:44">
+    <value>Issue report</value>
+    <comment>Title of the issue report page of the Email Campaigns module.</comment>
+  </data>
+  <data name="IssueReportUrlName" lastModified="2014-04-07T14:32:44">
+    <value>issue-report</value>
+    <comment>Url name of the issue report page of the Email Campaigns module.</comment>
+  </data>
+  <data name="IssueReportDescription" lastModified="2014-04-07T14:32:44">
+    <value>Issue Report Description</value>
+    <comment>Description of the issue report page of the Email Campaigns module.</comment>
+  </data>
+  <data name="IssueReportHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Issue report</value>
+    <comment>Html title of the issue report page of the Email Campaigns module.</comment>
+  </data>
+  <data name="SubscriberReportTitle" lastModified="2014-04-07T14:32:44">
+    <value>Subscriber report</value>
+    <comment>Title of the subscriber report page of the newsletters module</comment>
+  </data>
+  <data name="SubscriberReportUrlName" lastModified="2014-04-07T14:32:44">
+    <value>subscriber-report</value>
+    <comment>Url name of the subscriber report page of the newsletters module</comment>
+  </data>
+  <data name="SubscriberReportDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page that displays the report for a single subscriber</value>
+    <comment>Page that displays the report for a single subscriber</comment>
+  </data>
+  <data name="SubscriberReportHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Subscriber report</value>
+    <comment>Html title of the subscriber report page of the newsletters module.</comment>
+  </data>
+  <data name="SettingsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>Title of the settings page of the newsletters module</comment>
+  </data>
+  <data name="SettingsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>Url name of the settings page of the newsletters module</comment>
+  </data>
+  <data name="SettingsDescription" lastModified="2014-04-07T14:32:44">
+    <value>Settings page of the newsletters module</value>
+    <comment>Description of the settings page of the newsletters module</comment>
+  </data>
+  <data name="SettingsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>Html title of the settings page of the newsletters module</comment>
+  </data>
+  <data name="BackToMailingLists" lastModified="2014-04-07T14:32:44">
+    <value>Back to mailing lists</value>
+    <comment>phrase: Back to mailing lists</comment>
+  </data>
+  <data name="CreateAMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Create a mailing list</value>
+    <comment>phrase: Create a mailing list</comment>
+  </data>
+  <data name="CreateThisMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Create this mailing list</value>
+    <comment>phrase: Create this mailing list</comment>
+  </data>
+  <data name="MailingListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Mailing list title</value>
+    <comment>phrase: Mailing list title</comment>
+  </data>
+  <data name="DefaultFromName" lastModified="2014-04-07T14:32:44">
+    <value>From name</value>
+    <comment>phrase: From name</comment>
+  </data>
+  <data name="DefaultReplyToEmail" lastModified="2014-04-07T14:32:44">
+    <value>Reply-to email</value>
+    <comment>phrase: Reply-to email</comment>
+  </data>
+  <data name="DefaultSubject" lastModified="2014-04-07T14:32:44">
+    <value>Subject</value>
+    <comment>phrase: Subject</comment>
+  </data>
+  <data name="SubscriptionReminder" lastModified="2014-04-07T14:32:44">
+    <value>Text to remind your subscribers how they got on your list</value>
+    <comment>phrase: Text to remind your subscribers how they got on your list</comment>
+  </data>
+  <data name="Title" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="AreYouSureDeleteMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete this mailing list?</value>
+    <comment>phrase: Are you sure you want to delete this mailing list?</comment>
+  </data>
+  <data name="AreYouSureDeleteMailingLists" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete this mailing list(s)?</value>
+    <comment>phrase: Are you sure you want to delete this mailing list(s)?</comment>
+  </data>
+  <data name="SubscribersCount" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers</value>
+    <comment>word: Subscribers</comment>
+  </data>
+  <data name="AddSubscriber" lastModified="2014-04-07T14:32:44">
+    <value>Add subscriber</value>
+    <comment>phrase: Add subscriber</comment>
+  </data>
+  <data name="ImportSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Import subscribers</value>
+    <comment>phrase: Import subscribers</comment>
+  </data>
+  <data name="ManageSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Manage subscribers</value>
+    <comment>phrase: Manage subscribers</comment>
+  </data>
+  <data name="ShowSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Show subscribers</value>
+    <comment>phrase: Show subscribers</comment>
+  </data>
+  <data name="CreateASubscriber" lastModified="2014-04-07T14:32:44">
+    <value>Create a subscriber</value>
+    <comment>phrase: Create a subscriber</comment>
+  </data>
+  <data name="FirstName" lastModified="2014-04-07T14:32:44">
+    <value>First name</value>
+    <comment>word: First name</comment>
+  </data>
+  <data name="FirstNamePublicForm" lastModified="2014-04-07T14:32:44">
+    <value>First name &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
+    <comment>word: First name</comment>
+  </data>
+  <data name="LastName" lastModified="2014-04-07T14:32:44">
+    <value>Last name</value>
+    <comment>word: Last name</comment>
+  </data>
+  <data name="LastNamePublicForm" lastModified="2014-04-07T14:32:44">
+    <value>Last name &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
+    <comment>word: Last name</comment>
+  </data>
+  <data name="Email" lastModified="2014-04-07T14:32:44">
+    <value>Email</value>
+    <comment>word: Email</comment>
+  </data>
+  <data name="CreateThisSubscriber" lastModified="2014-04-07T14:32:44">
+    <value>Create this subscriber</value>
+    <comment>phrase: Create this subscriber</comment>
+  </data>
+  <data name="Subscribers" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers</value>
+    <comment>word: Subscribers</comment>
+  </data>
+  <data name="SubscribersTitle" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers</value>
+    <comment>Title of the subscribers page of the newsletters module</comment>
+  </data>
+  <data name="SubscribersUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers</value>
+    <comment>Url name of the subscribers page of the newsletters module</comment>
+  </data>
+  <data name="SubscribersDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page for managing newsletter subscribers</value>
+    <comment>Description of the subscribers page of the newsletters module</comment>
+  </data>
+  <data name="SubscribersHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers</value>
+    <comment>Html title of the subscribers page of the newsletters module</comment>
+  </data>
+  <data name="BackToSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Back to subscribers</value>
+    <comment>phrase: Back to subscribers</comment>
+  </data>
+  <data name="AreYouSureDeleteSubscriber" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete this subscriber?</value>
+    <comment>phrase: Are you sure you want to delete this subscriber?</comment>
+  </data>
+  <data name="AreYouSureDeleteSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>{0} users will be deleted. Are you sure you want to delete {0} users?</value>
+    <comment>phrase: {0} users will be deleted. Are you sure you want to delete {0} users?</comment>
+  </data>
+  <data name="CreateACampaign" lastModified="2014-04-07T14:32:44">
+    <value>Create a campaign</value>
+    <comment>phrase: Create a campaign</comment>
+  </data>
+  <data name="StandardCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Standard campaign</value>
+    <comment>phrase: Standard campaign</comment>
+  </data>
+  <data name="HtmlCampaign" lastModified="2014-04-07T14:32:44">
+    <value>HTML Campaign</value>
+    <comment>phrase: HTML campaign</comment>
+  </data>
+  <data name="PlainTextCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Plain text campaign</value>
+    <comment>phrase: Plain text campaign</comment>
+  </data>
+  <data name="ABCampaign" lastModified="2014-04-07T14:32:44">
+    <value>A/B Test</value>
+    <comment>phrase: A/B Test</comment>
+  </data>
+  <data name="BackToDashboard" lastModified="2014-04-07T14:32:44">
+    <value>Back to dashboard</value>
+    <comment>phrase: Back to dashboard</comment>
+  </data>
+  <data name="BackToCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>Back to campaigns</value>
+    <comment>phrase: Back to campaigns</comment>
+  </data>
+  <data name="Next" lastModified="2014-04-07T14:32:44">
+    <value>Next</value>
+    <comment>word: Next</comment>
+  </data>
+  <data name="GoAddContent" lastModified="2014-04-07T14:32:44">
+    <value>Go to add content</value>
+    <comment>phrase: Go to add content</comment>
+  </data>
+  <data name="CreateAndGoEmailCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>Create and go to Campaigns</value>
+    <comment>phrase: Create and go to Campaigns</comment>
+  </data>
+  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>word: Cancel</comment>
+  </data>
+  <data name="Previous" lastModified="2014-04-07T14:32:44">
+    <value>Previous</value>
+    <comment>word: Previous</comment>
+  </data>
+  <data name="CampaignInfo" lastModified="2014-04-07T14:32:44">
+    <value>Campaign info</value>
+    <comment>phrase: Campaign info</comment>
+  </data>
+  <data name="CampaignName" lastModified="2014-04-07T14:32:44">
+    <value>Campaign name</value>
+    <comment>phrase: Campaign name</comment>
+  </data>
+  <data name="MessageSubject" lastModified="2014-04-07T14:32:44">
+    <value>Message subject</value>
+    <comment>phrase: Message subject</comment>
+  </data>
+  <data name="FromName" lastModified="2014-04-07T14:32:44">
+    <value>From name</value>
+    <comment>phrase: From name</comment>
+  </data>
+  <data name="ReplyToEmail" lastModified="2014-04-07T14:32:44">
+    <value>Reply to email</value>
+    <comment>phrase: Reply to email</comment>
+  </data>
+  <data name="SelectMailingListStepTitle" lastModified="2014-04-07T14:32:44">
+    <value>Select the mailing list</value>
+    <comment>phrase: Select the mailing list</comment>
+  </data>
+  <data name="ComposeMessage" lastModified="2014-04-07T14:32:44">
+    <value>Compose message</value>
+    <comment>phrase: Compose message</comment>
+  </data>
+  <data name="ConfirmCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Confirm campaign</value>
+    <comment>phrase: Confirm campaign</comment>
+  </data>
+  <data name="SaveCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Save as draft</value>
+    <comment>phrase: Save campaign and exit</comment>
+  </data>
+  <data name="SendThisIssue" lastModified="2014-04-07T14:32:44">
+    <value>Send this issue</value>
+    <comment>phrase: Send this issue</comment>
+  </data>
+  <data name="SendThisCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Send this campaign</value>
+    <comment>phrase: Send this campaign</comment>
+  </data>
+  <data name="PreviewCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Preview</value>
+    <comment>word: Preview</comment>
+  </data>
+  <data name="IssuePreview" lastModified="2014-04-07T14:32:44">
+    <value>Issue preview</value>
+    <comment>phrase: Issue preview</comment>
+  </data>
+  <data name="PreviewMessage" lastModified="2014-04-07T14:32:44">
+    <value>Preview message</value>
+    <comment>phrase: Preview message</comment>
+  </data>
+  <data name="SendTest" lastModified="2014-04-07T14:32:44">
+    <value>Send check</value>
+    <comment>phrase: Send check</comment>
+  </data>
+  <data name="Send" lastModified="2014-04-07T14:32:44">
+    <value>Send</value>
+    <comment>word: Send</comment>
+  </data>
+  <data name="ScheduleDelivery" lastModified="2014-04-07T14:32:44">
+    <value>Schedule delivery</value>
+    <comment>phrase: Schedule delivery</comment>
+  </data>
+  <data name="CampaignType" lastModified="2014-04-07T14:32:44">
+    <value>Campaign type</value>
+    <comment>phrase: Campaign type</comment>
+  </data>
+  <data name="StandardCampaignType" lastModified="2014-04-07T14:32:44">
+    <value>Template with widgets</value>
+    <comment>User friendly name for the standard campaign type</comment>
+  </data>
+  <data name="HtmlCampaignType" lastModified="2014-04-07T14:32:44">
+    <value>Rich text (HTML)</value>
+    <comment>User friendly name for the html campaign type</comment>
+  </data>
+  <data name="PlainTextCampaignType" lastModified="2014-04-07T14:32:44">
+    <value>Plain text</value>
+    <comment>User friendly name for the plain text campaign type</comment>
+  </data>
+  <data name="ABCampaignType" lastModified="2014-04-07T14:32:44">
+    <value>A/B Test</value>
+    <comment>User friendly name for the A/B test type</comment>
+  </data>
+  <data name="DeliveryOptions" lastModified="2014-04-07T14:32:44">
+    <value>Delivery options</value>
+    <comment>phrase : Delivery options</comment>
+  </data>
+  <data name="AreYouSureDeleteCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete this campaign?</value>
+    <comment>phrase: Are you sure you want to delete this campaign?</comment>
+  </data>
+  <data name="AreYouSureDeleteIssue" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete this issue?</value>
+    <comment>phrase: Are you sure you want to delete this issue?</comment>
+  </data>
+  <data name="AreYouSureDeleteCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete these campaigns?</value>
+    <comment>phrase: Are you sure you want to delete these campaigns?</comment>
+  </data>
+  <data name="SendTestMessage" lastModified="2014-04-07T14:32:44">
+    <value>Send check message</value>
+    <comment>phrase: Send check message</comment>
+  </data>
+  <data name="EnterTestEmailAddresses" lastModified="2014-04-07T14:32:44">
+    <value>Enter email address to which you'd like send test campaign. If using more than one, separate with comma (,).</value>
+    <comment>phrase: Email addresses</comment>
+  </data>
+  <data name="SmtpNotificationsInfo" lastModified="2014-04-07T14:32:44">
+    <value>SMTP server settings are configured under Advanced Settings, on the Notifications profile which matches the name specified here.</value>
+    <comment>phrase: SMTP server settings are configured under Advanced Settings, on the Notifications profile which matches the name specified here.</comment>
+  </data>
+  <data name="SmtpSettings" lastModified="2014-04-07T14:32:44">
+    <value>SMTP settings</value>
+    <comment>phrase: SMTP Settings</comment>
+  </data>
+  <data name="Host" lastModified="2014-04-07T14:32:44">
+    <value>Host</value>
+    <comment>word: Host</comment>
+  </data>
+  <data name="Port" lastModified="2014-04-07T14:32:44">
+    <value>Port</value>
+    <comment>word: Port</comment>
+  </data>
+  <data name="Username" lastModified="2014-04-07T14:32:44">
+    <value>Username</value>
+    <comment>word: Username</comment>
+  </data>
+  <data name="Password" lastModified="2014-04-07T14:32:44">
+    <value>Password</value>
+    <comment>word: Password</comment>
+  </data>
+  <data name="Domain" lastModified="2014-04-07T14:32:44">
+    <value>Domain</value>
+    <comment>word: Domain</comment>
+  </data>
+  <data name="EnableSSL" lastModified="2014-04-07T14:32:44">
+    <value>Enable SSL?</value>
+    <comment>word: Enable SSL</comment>
+  </data>
+  <data name="SaveThisSettings" lastModified="2014-04-07T14:32:44">
+    <value>Save this settings</value>
+    <comment>phrase: Save this settings</comment>
+  </data>
+  <data name="DefineTheContentOfTheMessage" lastModified="2014-04-07T14:32:44">
+    <value>Define the content of the message</value>
+    <comment>phrase: Define the content of the message</comment>
+  </data>
+  <data name="ComposeMessageInEditor" lastModified="2014-04-07T14:32:44">
+    <value>Compose message in editor</value>
+    <comment>phrase: Compose message in editor</comment>
+  </data>
+  <data name="LaunchEditor" lastModified="2014-04-07T14:32:44">
+    <value>Launch editor</value>
+    <comment>phrase: Launch editor</comment>
+  </data>
+  <data name="OrElipsis" lastModified="2014-04-07T14:32:44">
+    <value>Or...</value>
+    <comment>Or with an elipsis</comment>
+  </data>
+  <data name="SelectAPage" lastModified="2014-04-07T14:32:44">
+    <value>Select a page</value>
+    <comment>phrase: Select a page</comment>
+  </data>
+  <data name="SelectAPageLink" lastModified="2014-04-07T14:32:44">
+    <value>Select</value>
+    <comment>Text of the link for selecting a page</comment>
+  </data>
+  <data name="MailingList" lastModified="2014-04-07T14:32:44">
+    <value>Mailing list</value>
+    <comment>phrase: Mailing list</comment>
+  </data>
+  <data name="CurrentCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>Current campaigns</value>
+    <comment>phrase: Current campaigns</comment>
+  </data>
+  <data name="Today" lastModified="2014-04-07T14:32:44">
+    <value>Today</value>
+    <comment>word: Today</comment>
+  </data>
+  <data name="ThisWeek" lastModified="2014-04-07T14:32:44">
+    <value>This week</value>
+    <comment>phrase: This week</comment>
+  </data>
+  <data name="ThisMonth" lastModified="2014-04-07T14:32:44">
+    <value>This month</value>
+    <comment>phrase: This month</comment>
+  </data>
+  <data name="ScheduledCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>Scheduled campaigns</value>
+    <comment>phrase: Scheduled campaigns</comment>
+  </data>
+  <data name="TotalNumberOfSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Total number of subscribers</value>
+    <comment>phrase: Total number of subscribers</comment>
+  </data>
+  <data name="NewSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>New subscribers</value>
+    <comment>phrase: New subscribers</comment>
+  </data>
+  <data name="Unsubscribed" lastModified="2014-04-07T14:32:44">
+    <value>Unsubscribed</value>
+    <comment>word: Unsubscribed</comment>
+  </data>
+  <data name="SubscribersActivity" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers activity</value>
+    <comment>phrase: Subscribers activity</comment>
+  </data>
+  <data name="DetailedReport" lastModified="2014-04-07T14:32:44">
+    <value>Detailed report</value>
+    <comment>phrase: Detailed report</comment>
+  </data>
+  <data name="Delivered" lastModified="2014-04-07T14:32:44">
+    <value>Delivered</value>
+    <comment>word: Delivered</comment>
+  </data>
+  <data name="Queued" lastModified="2014-04-07T14:32:44">
+    <value>Queued</value>
+    <comment>word: Queued</comment>
+  </data>
+  <data name="Bounced" lastModified="2014-04-07T14:32:44">
+    <value>Bounced</value>
+    <comment>word: Bounced</comment>
+  </data>
+  <data name="DeliveryDate" lastModified="2014-04-07T14:32:44">
+    <value>Delivery date</value>
+    <comment>phrase: Delivery date</comment>
+  </data>
+  <data name="NoCurrentCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>Currently, there are no campaigns that are ready for sending or in the processes of delivery.</value>
+    <comment>phrase: Currently, there are no campaigns that are ready for sending or in the processes of delivery.</comment>
+  </data>
+  <data name="NoScheduledCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>Currently, there are no campaigns that have been scheduled for delivery.</value>
+    <comment>phrase: Currently, there are no campaigns that have been scheduled for delivery.</comment>
+  </data>
+  <data name="SelectMailingLists" lastModified="2014-04-07T14:32:44">
+    <value>Select mailing lists</value>
+    <comment>phrase: Select mailing lists</comment>
+  </data>
+  <data name="SelectMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Select a mailing list</value>
+    <comment>phrase: Select a mailing list</comment>
+  </data>
+  <data name="SelectMailingListErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>You need to select a mailing list.</value>
+    <comment>phrase: Select a mailing list</comment>
+  </data>
+  <data name="Import" lastModified="2014-04-07T14:32:44">
+    <value>Import</value>
+    <comment>word: Import</comment>
+  </data>
+  <data name="SelectSourceLabel" lastModified="2014-04-07T14:32:44">
+    <value>What is the format of the file?</value>
+    <comment>phrase: What is the format of the file?</comment>
+  </data>
+  <data name="CommaSeparatedList" lastModified="2014-04-07T14:32:44">
+    <value>Comma separated</value>
+    <comment>phrase: Comma separated</comment>
+  </data>
+  <data name="TabSeparatedList" lastModified="2014-04-07T14:32:44">
+    <value>Tab separated</value>
+    <comment>phrase: Tab separated</comment>
+  </data>
+  <data name="SubscribersWillBeImportedInFollowingMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers will be imported in the following mailing list:</value>
+    <comment>phrase: Subscribers will be imported in the following mailing list:</comment>
+  </data>
+  <data name="MappingInstruction" lastModified="2014-04-07T14:32:44">
+    <value>Map the source columns to the subscriber's properties</value>
+    <comment>phrase: Map the source columns to the subscriber's properties</comment>
+  </data>
+  <data name="FirstColumn" lastModified="2014-04-07T14:32:44">
+    <value>First column</value>
+    <comment>phrase: First column</comment>
+  </data>
+  <data name="SecondColumn" lastModified="2014-04-07T14:32:44">
+    <value>Second column</value>
+    <comment>phrase: Second column</comment>
+  </data>
+  <data name="ThirdColumn" lastModified="2014-04-07T14:32:44">
+    <value>Third column</value>
+    <comment>phrase: Third column</comment>
+  </data>
+  <data name="OverwriteExistingSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Replace existing subscribers which have the same emails as imported subscribers</value>
+    <comment>phrase: Replace existing subscribers which have the same emails as imported subscribers</comment>
+  </data>
+  <data name="DoNotOverwriteExistingSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Do not import subscribers with emails that already exist</value>
+    <comment>phrase: Do not import subscribers with emails that already exist</comment>
+  </data>
+  <data name="SelectSubscribersFile" lastModified="2014-04-07T14:32:44">
+    <value>Select the file you want to import</value>
+    <comment>phrase: Select the file you want to import</comment>
+  </data>
+  <data name="DefineTheContentOfTheMessageA" lastModified="2014-04-07T14:32:44">
+    <value>Define the content of the message A</value>
+    <comment>phrase: Define the content of the message A</comment>
+  </data>
+  <data name="DefineTheContentOfTheMessageB" lastModified="2014-04-07T14:32:44">
+    <value>Define the content of the message B</value>
+    <comment>phrase: Define the content of the message B</comment>
+  </data>
+  <data name="HowToSplitTheCampaign" lastModified="2014-04-07T14:32:44">
+    <value>How to split the campaign?</value>
+    <comment>phrase: How to split the campaign?</comment>
+  </data>
+  <data name="DetermineTheSizeOfTheTestingSample" lastModified="2014-04-07T14:32:44">
+    <value>Determine the size of the testing sample.</value>
+    <comment>phrase: Determine the size of the testing sample.</comment>
+  </data>
+  <data name="HowToPickTheWinningCampaign" lastModified="2014-04-07T14:32:44">
+    <value>How to pick the winning campaign?</value>
+    <comment>phrase: How to pick the winning campaign?</comment>
+  </data>
+  <data name="OpenRate" lastModified="2014-04-07T14:32:44">
+    <value>Open rate</value>
+    <comment>phrase: Open rate</comment>
+  </data>
+  <data name="ClickRate" lastModified="2014-04-07T14:32:44">
+    <value>Click rate</value>
+    <comment>phrase: Click rate</comment>
+  </data>
+  <data name="Manually" lastModified="2014-04-07T14:32:44">
+    <value>Manually</value>
+    <comment>word: Manually</comment>
+  </data>
+  <data name="OpenRateDescription" lastModified="2014-04-07T14:32:44">
+    <value>The campaign that is opened the most is the winner.</value>
+    <comment>phrase: The campaign that is opened the most is the winner.</comment>
+  </data>
+  <data name="ClickRateDescription" lastModified="2014-04-07T14:32:44">
+    <value>The campaign that receives the most clicks is the winner.</value>
+    <comment>phrase: The campaign that receives the most clicks is the winner.</comment>
+  </data>
+  <data name="ManuallyDescription" lastModified="2014-04-07T14:32:44">
+    <value>You choose the winner in the campaign report, then we'll send the winning campaign.</value>
+    <comment>phrase: You choose the winner in the campaign report, then we'll send the winning campaign.</comment>
+  </data>
+  <data name="DetermineTheWinnerAfterTheFirst" lastModified="2014-04-07T14:32:44">
+    <value>Determine the winner after the first:</value>
+    <comment>phrase: Determine the winner after the first:</comment>
+  </data>
+  <data name="Days" lastModified="2014-04-07T14:32:44">
+    <value>days</value>
+    <comment>word: Days</comment>
+  </data>
+  <data name="Hours" lastModified="2014-04-07T14:32:44">
+    <value>hours</value>
+    <comment>word: hours</comment>
+  </data>
+  <data name="CampaignNameDescription" lastModified="2014-04-07T14:32:44">
+    <value>Example: &lt;em class='sfNote'&gt;Company Monthly Newsletter&lt;/em&gt;</value>
+    <comment>phrase: Example: Company Monthly Newsletter</comment>
+  </data>
+  <data name="MessageSubjectDescription" lastModified="2014-04-07T14:32:44">
+    <value>Keep it relevant and non-spammy to avoid spam filters.</value>
+    <comment>phrase: Keep it relevant and non-spammy to avoid spam filters.</comment>
+  </data>
+  <data name="FromNameDescription" lastModified="2014-04-07T14:32:44">
+    <value>Use something they'll instantly recognize, like your company name.</value>
+    <comment>phrase: Use something they'll instantly recognize, like your company name.</comment>
+  </data>
+  <data name="ReplyToEmailDescription" lastModified="2014-04-07T14:32:44">
+    <value>Their replies will go to this email address.</value>
+    <comment>phrase: Their replies will go to this email address.</comment>
+  </data>
+  <data name="MailingListTitleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Good example: "Acme Company Email Campaigns" &lt;br /&gt;Bad example: "Cust_11_01_2007"</value>
+    <comment>phrase: Good example: "Acme Company Email Campaigns" - Bad example: "Cust_11_01_2007"</comment>
+  </data>
+  <data name="DefaultFromNameDescription" lastModified="2014-04-07T14:32:44">
+    <value>Use something recognizable (like your company name)</value>
+    <comment>phrase: Use something recognizable (like your company name)</comment>
+  </data>
+  <data name="DefaultReplyToEmailDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the address people will reply to.</value>
+    <comment>phrase: This is the address people will reply to.</comment>
+  </data>
+  <data name="DefaultSubjectDescription" lastModified="2014-04-07T14:32:44">
+    <value>Keep it relevant and non-spammy. You can set different subject line when you create campaigns.</value>
+    <comment>phrase: Keep it relevant and non-spammy. You can set different subject line when you create campaigns.</comment>
+  </data>
+  <data name="SubscriptionReminderDescription" lastModified="2014-04-07T14:32:44">
+    <value>Example: "You are receiving this email because you opted in at our website..." or "We send special offers to customers who opted in at..."</value>
+    <comment>phrase: Example: "You are receiving this email because you opted in at our website..." or "We send special offers to customers who opted in at..."</comment>
+  </data>
+  <data name="SelectMailingListInstruction" lastModified="2014-04-07T14:32:44">
+    <value>Which mailing list would you like to send this campaign to?</value>
+    <comment>phrase: Which mailing list would you like to send this campaign to?</comment>
+  </data>
+  <data name="SubscribeFormTitle" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe form</value>
+    <comment>Title of the subscribe form control</comment>
+  </data>
+  <data name="SubscribeFormDescription" lastModified="2014-04-07T14:32:44">
+    <value>Form that lets users subscribe to the newsletter</value>
+    <comment>The description of the subscribe form</comment>
+  </data>
+  <data name="UnsubscribeFormTitle" lastModified="2014-04-07T14:32:44">
+    <value>Unsubscribe</value>
+    <comment>Title of the unsubscribe form control</comment>
+  </data>
+  <data name="UnsubscribeFormDescription" lastModified="2014-04-07T14:32:44">
+    <value>Form that lets users subscribe to the newsletter</value>
+    <comment>The description of the unsubscribe form</comment>
+  </data>
+  <data name="EmailAddress" lastModified="2014-04-07T14:32:44">
+    <value>Email</value>
+    <comment>phrase: Email Address</comment>
+  </data>
+  <data name="SubscribeToMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe to mailing list</value>
+    <comment>phrase: Subscribe to mailing list</comment>
+  </data>
+  <data name="RequiredFieldsAreBold" lastModified="2014-04-07T14:32:44">
+    <value>Required fields are bold</value>
+    <comment>phrase: Required fields are bold.</comment>
+  </data>
+  <data name="ClickEditAndSelectMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Click edit and select the mailing list</value>
+    <comment>phrase: Click Edit and select the mailing list</comment>
+  </data>
+  <data name="SuccessfulSubscription" lastModified="2014-04-07T14:32:44">
+    <value>You have successfully subscribed to this mailing list. Thank you.</value>
+    <comment>phrase: You have successfully subscribed to this mailing list. Thank you.</comment>
+  </data>
+  <data name="EmailExistsInTheMailingList" lastModified="2014-04-07T14:32:44">
+    <value>A subscriber with the given email is already subscribed to this mailing list.</value>
+    <comment>phrase: A subscriber with given email is already subscribed to this mailing list.</comment>
+  </data>
+  <data name="Unsubscribe" lastModified="2014-04-07T14:32:44">
+    <value>Unsubscribe</value>
+    <comment>word: Unsubscribe</comment>
+  </data>
+  <data name="NewslettersControlsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Newsletter controls</value>
+    <comment>Title of the newsletter controls toolbox</comment>
+  </data>
+  <data name="NewslettersControlsDescription" lastModified="2014-04-07T14:32:44">
+    <value>The toolbox for the newsletter campaign design</value>
+    <comment>The description of the newsletters control toolbox</comment>
+  </data>
+  <data name="UseSmtpAuthentication" lastModified="2014-04-07T14:32:44">
+    <value>Use SMTP authentication</value>
+    <comment>phrase: Use SMTP authentication.</comment>
+  </data>
+  <data name="NoMailingListsCreatedYet" lastModified="2014-04-07T14:32:44">
+    <value>No mailing lists have been created yet.</value>
+    <comment>Message shown to user when no mailing lists have been yet created.</comment>
+  </data>
+  <data name="NoSubscribersCreatedYet" lastModified="2014-04-07T14:32:44">
+    <value>No subscribers have been created yet.</value>
+    <comment>Message shown to user when no subscribers have been yet created.</comment>
+  </data>
+  <data name="NoCampaignsCreatedYet" lastModified="2014-04-07T14:32:44">
+    <value>No campaigns have been created yet.</value>
+    <comment>Messages shown to user when no campaigns have been yet created.</comment>
+  </data>
+  <data name="EditASubscriber" lastModified="2014-04-07T14:32:44">
+    <value>Edit a subscriber</value>
+    <comment>Title of the form for editing subscriber information</comment>
+  </data>
+  <data name="EmailIsRequired" lastModified="2014-04-07T14:32:44">
+    <value>Email address is required</value>
+    <comment>Validation message for the missing email address.</comment>
+  </data>
+  <data name="SubscribeDesignerSelectMailingListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Let users subscribe to:</value>
+    <comment>The title of the mailing list selector in the subscribe form designer.</comment>
+  </data>
+  <data name="SubscribeDesignerSelectMailingListDescription" lastModified="2014-04-07T14:32:44">
+    <value>Here are listed all the mailing lists defined in the Newsletters module.</value>
+    <comment>The description of the mailing list selector in the subscribe form designer.</comment>
+  </data>
+  <data name="UnsubscribeDesignerSelectMailingListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Let users unsubscribe from:</value>
+    <comment>The title of the mailing list selector in the unsubscribe form designer.</comment>
+  </data>
+  <data name="UnsubscribeDesignerSelectMailingListDescription" lastModified="2014-04-07T14:32:44">
+    <value>Here are listed all the mailing lists defined in the Newsletters module.</value>
+    <comment>The description of the mailing list selector in the unsubscribe form designer.</comment>
+  </data>
+  <data name="SubscribeFormWidgetTitleExample" lastModified="2014-04-07T14:32:44">
+    <value>e.g. Want to know more about our latest products?</value>
+    <comment>Example of the title for the subscribe form widget.</comment>
+  </data>
+  <data name="SubscribeFormWidgetDescriptionExample" lastModified="2014-04-07T14:32:44">
+    <value>e.g. Keep up with the latest products, upgrades and financing options...</value>
+    <comment>Example of the description for the subscribe form widget.</comment>
+  </data>
+  <data name="UnsubscribeFormWidgetTitleExample" lastModified="2014-04-07T14:32:44">
+    <value>e.g. Had enough of us?</value>
+    <comment>Example of the title for the unsubscribe form widget.</comment>
+  </data>
+  <data name="UnsubscribeFormWidgetDescriptionExample" lastModified="2014-04-07T14:32:44">
+    <value>e.g. If you don't want to receive emails for this mailing list anymore, supply your email and will send you a link to unsubscribe.</value>
+    <comment>Example of the description for the unsubscribe form widget.</comment>
+  </data>
+  <data name="Templates" lastModified="2014-04-07T14:32:44">
+    <value>Message templates</value>
+    <comment>Title of the message templates functionality in newsletters module.</comment>
+  </data>
+  <data name="CreateATemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create a message template</value>
+    <comment>phrase: Create a message template</comment>
+  </data>
+  <data name="StandardTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Template with widgets</value>
+    <comment>phrase: Template with widgets</comment>
+  </data>
+  <data name="HtmlTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Rich text (HTML)</value>
+    <comment>phrase: Rich text (HTML)</comment>
+  </data>
+  <data name="PlainTextTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Plain text</value>
+    <comment>phrase: Plain text</comment>
+  </data>
+  <data name="TemplateName" lastModified="2014-04-07T14:32:44">
+    <value>Template name</value>
+    <comment>phrase: Template name</comment>
+  </data>
+  <data name="CreateThisTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create this template</value>
+    <comment>phrase: Create this template</comment>
+  </data>
+  <data name="CreateNewStandardTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create a new standard template</value>
+    <comment>phrase: Create a new standard template</comment>
+  </data>
+  <data name="CreateNewHtmlTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create new html template</value>
+    <comment>phrase: Create new html template</comment>
+  </data>
+  <data name="CreateNewPlainTextTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create new plain text template</value>
+    <comment>phrase: Create new plain text template</comment>
+  </data>
+  <data name="BackToMessageTemplates" lastModified="2014-04-07T14:32:44">
+    <value>Back to Message templates</value>
+    <comment>phrase: Back to Message templates</comment>
+  </data>
+  <data name="NoTemplatesCreatedYet" lastModified="2014-04-07T14:32:44">
+    <value>No templates have been created yet.</value>
+    <comment>Message shown to user if no templates have been created yet.</comment>
+  </data>
+  <data name="AreYouSureDeleteTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete this template(s)?</value>
+    <comment>Confirmation message for deleting templates</comment>
+  </data>
+  <data name="CreateAMessageTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create a message template</value>
+    <comment>phrase: Create a message template</comment>
+  </data>
+  <data name="SendAConfirmationEmailToNewSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Send a confirmation email to new subscribers?</value>
+    <comment>phrase: Send a confirmation email to new subscribers?</comment>
+  </data>
+  <data name="Opened" lastModified="2014-04-07T14:32:44">
+    <value>Opened</value>
+    <comment>word: Opened</comment>
+  </data>
+  <data name="Unopened" lastModified="2014-04-07T14:32:44">
+    <value>Unopened</value>
+    <comment>word: Unopened</comment>
+  </data>
+  <data name="TotalRecipients" lastModified="2014-04-07T14:32:44">
+    <value>Total recipients</value>
+    <comment>phrase: Total recipients</comment>
+  </data>
+  <data name="SuccessfulDeliveries" lastModified="2014-04-07T14:32:44">
+    <value>Successful deliveries</value>
+    <comment>phrase: Successful deliveries</comment>
+  </data>
+  <data name="TimesForwarded" lastModified="2014-04-07T14:32:44">
+    <value>Times forwarded</value>
+    <comment>phrase: Times forwarded</comment>
+  </data>
+  <data name="ForwardedOpens" lastModified="2014-04-07T14:32:44">
+    <value>Forwarded opens</value>
+    <comment>phrase: Forwarded opens</comment>
+  </data>
+  <data name="RecipientsWhoOpened" lastModified="2014-04-07T14:32:44">
+    <value>Recipients who opened</value>
+    <comment>phrase: Recipients who opened</comment>
+  </data>
+  <data name="TotalTimesOpened" lastModified="2014-04-07T14:32:44">
+    <value>Total times opened</value>
+    <comment>phrase: Total times opened</comment>
+  </data>
+  <data name="LastOpenDate" lastModified="2014-04-07T14:32:44">
+    <value>Last open date</value>
+    <comment>phrase: Last open date</comment>
+  </data>
+  <data name="RecipientsWhoClicked" lastModified="2014-04-07T14:32:44">
+    <value>Recipients who clicked</value>
+    <comment>phrase: Recipients who clicked</comment>
+  </data>
+  <data name="TotalClicks" lastModified="2014-04-07T14:32:44">
+    <value>Total clicks</value>
+    <comment>phrase: Total clicks</comment>
+  </data>
+  <data name="LastClick" lastModified="2014-04-07T14:32:44">
+    <value>Last click</value>
+    <comment>phrase: Last click</comment>
+  </data>
+  <data name="TotalUnsubscriptions" lastModified="2014-04-07T14:32:44">
+    <value>Total unsubscriptions</value>
+    <comment>phrase: Total unsubscriptions</comment>
+  </data>
+  <data name="EditCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Edit campaign</value>
+    <comment>phrase: Edit campaign</comment>
+  </data>
+  <data name="NewSubscriberCreatedSuccessfully" lastModified="2014-04-07T14:32:44">
+    <value>Subscriber successfully created</value>
+    <comment>phrase: Subscriber successfully created</comment>
+  </data>
+  <data name="SubscriberInformationSavedSuccessfully" lastModified="2014-04-07T14:32:44">
+    <value>Subscriber information has been successfully saved</value>
+    <comment>phrase: Subscriber information has been successfully saved</comment>
+  </data>
+  <data name="NewMailingListSuccessfullyCreated" lastModified="2014-04-07T14:32:44">
+    <value>Mailing list successfully created</value>
+    <comment>phrase: Mailing list successfully created</comment>
+  </data>
+  <data name="MailingListInformationSuccessfullySaved" lastModified="2014-04-07T14:32:44">
+    <value>Mailing list information has been successfully saved.</value>
+    <comment>phrase: Mailing list information has been successfully saved.</comment>
+  </data>
+  <data name="EditMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Edit mailing list</value>
+    <comment>phrase: Edit mailing list</comment>
+  </data>
+  <data name="TemplateType" lastModified="2014-04-07T14:32:44">
+    <value>Type</value>
+    <comment>phrase: Type</comment>
+  </data>
+  <data name="NewTemplateCreatedSuccessfully" lastModified="2014-04-07T14:32:44">
+    <value>New template has been successfully created.</value>
+    <comment>phrase: New template has been successfully created.</comment>
+  </data>
+  <data name="TemplateSavedSuccessfully" lastModified="2014-04-07T14:32:44">
+    <value>Template has been successfully saved.</value>
+    <comment>phrase: Template has been successfully saved.</comment>
+  </data>
+  <data name="RichTextHtml" lastModified="2014-04-07T14:32:44">
+    <value>Rich text (HTML)</value>
+    <comment>User friendly name of the html campaign type.</comment>
+  </data>
+  <data name="RichTextHtmlDescription" lastModified="2014-04-07T14:32:44">
+    <value>Text with rich formatting (bold, italic, bullets, etc.). Images can be inserted, too. Some email clients may not interpret it correctly.</value>
+    <comment>Description of the html campaign type</comment>
+  </data>
+  <data name="PlainText" lastModified="2014-04-07T14:32:44">
+    <value>Plain text</value>
+    <comment>User friendly name of the plain text campaign.</comment>
+  </data>
+  <data name="PlainTextDescription" lastModified="2014-04-07T14:32:44">
+    <value>Text with no options to be formatted. Accessible with all email clients.</value>
+    <comment>Description of the plain text campaign type.</comment>
+  </data>
+  <data name="LikeAWebPage" lastModified="2014-04-07T14:32:44">
+    <value>Like a web page</value>
+    <comment>User friendly name of the standard campaign.</comment>
+  </data>
+  <data name="LikeAWebPageDescription" lastModified="2014-04-07T14:32:44">
+    <value>For multi column layouts and rich design. The content is added by widgets. Some email clients may not interpret it correctly.</value>
+    <comment>Description of the standard campaign type.</comment>
+  </data>
+  <data name="ChooseTheTypeOfCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Choose the type of campaign</value>
+    <comment>phrase: Choose the type of campaign.</comment>
+  </data>
+  <data name="StartFromScratch" lastModified="2014-04-07T14:32:44">
+    <value>Start from scratch</value>
+    <comment>phrase: Start from scratch</comment>
+  </data>
+  <data name="UseAlreadyCreatedPage" lastModified="2014-04-07T14:32:44">
+    <value>Use already created page</value>
+    <comment>phrase: Use already created page</comment>
+  </data>
+  <data name="Overview" lastModified="2014-04-07T14:32:44">
+    <value>Overview</value>
+    <comment>word: Overview</comment>
+  </data>
+  <data name="CampaignSentSuccessfully" lastModified="2014-04-07T14:32:44">
+    <value>Campaign has been sent successfully.</value>
+    <comment>phrase: Campaign has been sent successfully.</comment>
+  </data>
+  <data name="Done" lastModified="2014-04-07T14:32:44">
+    <value>Done</value>
+    <comment>word: Done</comment>
+  </data>
+  <data name="CampaignMessageComposedAsAWebPage" lastModified="2014-04-07T14:32:44">
+    <value>The campaign's message is composed like a web page</value>
+    <comment>phrase: The campaign's message is composed like a web page</comment>
+  </data>
+  <data name="EditCampaignMessage" lastModified="2014-04-07T14:32:44">
+    <value>Edit campaign message</value>
+    <comment>phrase: Edit campaign message</comment>
+  </data>
+  <data name="EditTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Edit a message template</value>
+    <comment>phrase: Edit a message template</comment>
+  </data>
+  <data name="SelectTemplateType" lastModified="2014-04-07T14:32:44">
+    <value>What type of template would you like to create?</value>
+    <comment>phrase: What type of template would you like to create?</comment>
+  </data>
+  <data name="DiscardCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Discard this campaign</value>
+    <comment>phrase: Discard this campaign</comment>
+  </data>
+  <data name="CampaignMessage" lastModified="2014-04-07T14:32:44">
+    <value>Campaign message</value>
+    <comment>phrase: Campaign message</comment>
+  </data>
+  <data name="NewCampaignSuccessfullyCreated" lastModified="2014-04-07T14:32:44">
+    <value>New campaign has been successfully created.</value>
+    <comment>phrase: New campaign has been successfully created.</comment>
+  </data>
+  <data name="CampaignSuccessfullySaved" lastModified="2014-04-07T14:32:44">
+    <value>Campaign has been successfully saved.</value>
+    <comment>phrase: Campaign has been successfully saved.</comment>
+  </data>
+  <data name="SelectAMergeTag" lastModified="2014-04-07T14:32:44">
+    <value>-- select a merge tag --</value>
+    <comment>phrase: -- select a merge tag --</comment>
+  </data>
+  <data name="Insert" lastModified="2014-04-07T14:32:44">
+    <value>Insert</value>
+    <comment>word: Insert</comment>
+  </data>
+  <data name="MustChooseMergeTagBeforeInserting" lastModified="2014-04-07T14:32:44">
+    <value>Please select the merge tag you'd like to insert.</value>
+    <comment>phrase: Please select the merge tag you'd like to insert.</comment>
+  </data>
+  <data name="SubscriberDesignerSelectMailingListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe form</value>
+    <comment>phrase: Subscribe form</comment>
+  </data>
+  <data name="SendWelcomeEmail" lastModified="2014-04-07T14:32:44">
+    <value>I'd like to welcome new subscribers with an email message</value>
+    <comment>phrase: I'd like to welcome new subscribers with an email message</comment>
+  </data>
+  <data name="WelcomeEmailSubjectDescription" lastModified="2014-04-07T14:32:44">
+    <value>e.g. Thank you for subscribing to product Z newsletter</value>
+    <comment>phrase: e.g. Thank you for subscribing to product Z newsletter</comment>
+  </data>
+  <data name="SendGoodByeEmail" lastModified="2014-04-07T14:32:44">
+    <value>I'd like to follow up with people that unsubscribe</value>
+    <comment>phrase: I'd like to follow up with people that unsubscribe</comment>
+  </data>
+  <data name="GoodByeSubjectDescription" lastModified="2014-04-07T14:32:44">
+    <value>e.g. We are sorry to see you go, hope to see you back soon</value>
+    <comment>phrase: e.g. We are sorry to see you go, hope to see you back soon</comment>
+  </data>
+  <data name="WelcomeGoodbyeEmailAddressDescription" lastModified="2014-04-07T14:32:44">
+    <value>e.g. no-reply@our-company.com</value>
+    <comment>phrase: e.g. no-reply@our-company.com</comment>
+  </data>
+  <data name="Subject" lastModified="2014-04-07T14:32:44">
+    <value>Subject</value>
+    <comment>word: Subject</comment>
+  </data>
+  <data name="ChooseTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Choose template</value>
+    <comment>phrase: Choose template</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+    <value>Email Campaigns</value>
+    <comment>The title of the newsletters module.</comment>
+  </data>
+  <data name="SendTestCampaignTitle" lastModified="2014-04-07T14:32:44">
+    <value>Test your campaign before sending it.</value>
+    <comment>phrase: Test your campaign before sending it.</comment>
+  </data>
+  <data name="SendTestIssueTitle" lastModified="2014-04-07T14:32:44">
+    <value>Send test</value>
+    <comment>phrase: Send test</comment>
+  </data>
+  <data name="EnterIssueTestEmailAddresses" lastModified="2014-04-07T14:32:44">
+    <value>&lt;div&gt;Test your issue before sending it to the users&lt;/div&gt;&lt;label class="sfMTop15 sfTxtLbl"&gt;Enter email address&lt;/label&gt;&lt;p class='sfExample'&gt;Separate with comma if you want to send it to more than one email address&lt;/p&gt;</value>
+    <comment>phrase: Enter email address (separate with comma if you want to send it to more than one)</comment>
+  </data>
+  <data name="TestIssueBeforeSending" lastModified="2014-04-07T14:32:44">
+    <value>Test your issue before sending it to the users</value>
+    <comment>phrase: Test your issue before sending it to the users</comment>
+  </data>
+  <data name="SendTestButton" lastModified="2014-04-07T14:32:44">
+    <value>Send test</value>
+    <comment>phrase: Send test</comment>
+  </data>
+  <data name="ScheduleIssueDelivery" lastModified="2014-04-07T14:32:44">
+    <value>Schedule issue delivery</value>
+    <comment>phrase: Schedule issue delivery</comment>
+  </data>
+  <data name="DeliverIssueOn" lastModified="2014-04-07T14:32:44">
+    <value>Deliver this issue on</value>
+    <comment>phrase: Deliver this issue on</comment>
+  </data>
+  <data name="DeliverIssueOnDescription" lastModified="2014-04-07T14:32:44">
+    <value>Select exact date and time when an issue of this campaign to be delivered to subscribers</value>
+    <comment>phrase: Select exact date and time when an issue of this campaign to be delivered to subscribers</comment>
+  </data>
+  <data name="ScheduleIssue" lastModified="2014-04-07T14:32:44">
+    <value>Schedule this issue</value>
+    <comment>phrase: Schedule this issue</comment>
+  </data>
+  <data name="SendIssuePromptText" lastModified="2014-04-07T14:32:44">
+    <value>This issue will be sent to {0} users</value>
+    <comment>phrase: This issue will be sent to {0} users</comment>
+  </data>
+  <data name="SendIssueFor" lastModified="2014-04-07T14:32:44">
+    <value>Send issue for</value>
+    <comment>Send issue for</comment>
+  </data>
+  <data name="TestMessageSentSuccessfully" lastModified="2014-04-07T14:32:44">
+    <value>Test message has been sent successfully.</value>
+    <comment>phrase: Test message has been sent successfully.</comment>
+  </data>
+  <data name="CampaignState" lastModified="2014-04-07T14:32:44">
+    <value>State</value>
+    <comment>The title of the campaign state</comment>
+  </data>
+  <data name="CampaignStateDraft" lastModified="2014-04-07T14:32:44">
+    <value>Draft</value>
+    <comment>Status of the campaign when it is saved, but not ready for sending</comment>
+  </data>
+  <data name="CampaignStatePendingSending" lastModified="2014-04-07T14:32:44">
+    <value>Ready for sending</value>
+    <comment>Status of the campaign when it is ready to be sent</comment>
+  </data>
+  <data name="CampaignStateScheduled" lastModified="2014-04-07T14:32:44">
+    <value>Scheduled for sending</value>
+    <comment>Status of the campaign when it is scheduled to be sent.</comment>
+  </data>
+  <data name="CampaignStateSending" lastModified="2014-04-07T14:32:44">
+    <value>Sending...</value>
+    <comment>Status of the campaign when it is being sent.</comment>
+  </data>
+  <data name="CampaignStateCompleted" lastModified="2014-04-07T14:32:44">
+    <value>Sent</value>
+    <comment>Status of the campaign when the sending has been completed.</comment>
+  </data>
+  <data name="ImportedSubscribersSuccessfully" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers have been successfully imported to the mailing list.</value>
+    <comment>phrase: Subscribers have been successfully imported to the mailing list.</comment>
+  </data>
+  <data name="NoFileSelectedForImport" lastModified="2014-04-07T14:32:44">
+    <value>There is no file selected for import</value>
+    <comment>phrase: There is no file selected for import</comment>
+  </data>
+  <data name="FileCannotBeImported" lastModified="2014-04-07T14:32:44">
+    <value>The selected file cannot be imported. Check whether it is in the correct format</value>
+    <comment>phrase:The selected file cannot be imported. Check whether it is in the correct format</comment>
+  </data>
+  <data name="NoSubscribersImported" lastModified="2014-04-07T14:32:44">
+    <value>No subscribers have been imported to the mailing list</value>
+    <comment>phrase: No subscribers have been imported to the mailing list</comment>
+  </data>
+  <data name="Pop3Server" lastModified="2014-04-07T14:32:44">
+    <value>POP3 Server</value>
+    <comment>phrase: POP3 Server</comment>
+  </data>
+  <data name="Pop3Username" lastModified="2014-04-07T14:32:44">
+    <value>POP3 Username</value>
+    <comment>phrase: POP3 Username</comment>
+  </data>
+  <data name="Pop3Password" lastModified="2014-04-07T14:32:44">
+    <value>POP3 Password</value>
+    <comment>phrase: POP3 Password</comment>
+  </data>
+  <data name="Pop3ServerTitle" lastModified="2014-04-07T14:32:44">
+    <value>POP3 Server</value>
+    <comment>phrase: POP3 Server</comment>
+  </data>
+  <data name="Pop3ServerDescription" lastModified="2014-04-07T14:32:44">
+    <value>The host address of the POP3 server</value>
+    <comment>phrase: The host address of the POP3 server</comment>
+  </data>
+  <data name="Pop3UsernameTitle" lastModified="2014-04-07T14:32:44">
+    <value>POP3 Username</value>
+    <comment>phrase: POP3 Username</comment>
+  </data>
+  <data name="Pop3UsernameDescription" lastModified="2014-04-07T14:32:44">
+    <value>The username used to log into the POP3 account</value>
+    <comment>phrase: The username used to log into the POP3 account</comment>
+  </data>
+  <data name="Pop3PasswordTitle" lastModified="2014-04-07T14:32:44">
+    <value>POP3 Password</value>
+    <comment>phrase: POP3 Password</comment>
+  </data>
+  <data name="Pop3PasswordDescription" lastModified="2014-04-07T14:32:44">
+    <value>The password used to log into the POP3 account.</value>
+    <comment>phrase: The password used to log into the POP3 account</comment>
+  </data>
+  <data name="Pop3Port" lastModified="2014-04-07T14:32:44">
+    <value>POP3 port</value>
+    <comment>phrase: POP3 port</comment>
+  </data>
+  <data name="POP3PortTitle" lastModified="2014-04-07T14:32:44">
+    <value>POP3 port number</value>
+    <comment>phrase: POP3 port number</comment>
+  </data>
+  <data name="Pop3PortDescription" lastModified="2014-04-07T14:32:44">
+    <value>The number of the port to be used by the POP3 client</value>
+    <comment>phrase: The number of the port to be used by the POP3 client</comment>
+  </data>
+  <data name="Pop3UsesSSL" lastModified="2014-04-07T14:32:44">
+    <value>Use SSL for connection to POP3 server</value>
+    <comment>phrase: POP3 uses SSL</comment>
+  </data>
+  <data name="Pop3UsesSSLTitle" lastModified="2014-04-07T14:32:44">
+    <value>Pop3 uses SSL?</value>
+    <comment>phrase: Pop3 Uses SSL</comment>
+  </data>
+  <data name="Pop3UsesSSLDescription" lastModified="2014-04-07T14:32:44">
+    <value>Determines whether POP3 client should connect with SSL</value>
+    <comment>phrase: Determines whether POP3 client should connect with SSL</comment>
+  </data>
+  <data name="Pop3Settings" lastModified="2014-04-07T14:32:44">
+    <value>POP3 Settings</value>
+    <comment>phrase: POP3 Settings</comment>
+  </data>
+  <data name="UseSmtpSSL" lastModified="2014-04-07T14:32:44">
+    <value>Use SMTP SSL</value>
+    <comment>phrase: Use SMTP SSL</comment>
+  </data>
+  <data name="Pop3PortOutOfRange" lastModified="2014-04-07T14:32:44">
+    <value>POP3 port number must be a value between 0 and 1023</value>
+    <comment>phrase: POP3 port number must be a value between 0 and 1023</comment>
+  </data>
+  <data name="SMTPPortOutOfRange" lastModified="2014-04-07T14:32:44">
+    <value>SMTP port number must be a value between 0 and 65535</value>
+    <comment>phrase: SMTP port number must be a value between 0 and 65535</comment>
+  </data>
+  <data name="TrackBouncedMessages" lastModified="2014-04-07T14:32:44">
+    <value>Track bounced messages</value>
+    <comment>phrase: Track bounced messages</comment>
+  </data>
+  <data name="BounceActions" lastModified="2014-04-07T14:32:44">
+    <value>Bounce actions</value>
+    <comment>phrase: Bounce actions</comment>
+  </data>
+  <data name="NoUserBounceAction" lastModified="2014-04-07T14:32:44">
+    <value>No such email address exist</value>
+    <comment>phrase: No such email address exists</comment>
+  </data>
+  <data name="MailboxFullBounceAction" lastModified="2014-04-07T14:32:44">
+    <value>Users mailbox is full</value>
+    <comment>phrase: Mailbox full bounce action</comment>
+  </data>
+  <data name="OtherBounceReasons" lastModified="2014-04-07T14:32:44">
+    <value>Other bounce reasons</value>
+    <comment>phrase: Other bounce reasons</comment>
+  </data>
+  <data name="DeleteSubscriber" lastModified="2014-04-07T14:32:44">
+    <value>Delete subscriber</value>
+    <comment>phrase: Delete subscriber</comment>
+  </data>
+  <data name="SuspendSubscriber" lastModified="2014-04-07T14:32:44">
+    <value>Suspend subscriber</value>
+    <comment>phrase: Suspend subscriber</comment>
+  </data>
+  <data name="DoNothing" lastModified="2014-04-07T14:32:44">
+    <value>Do nothing</value>
+    <comment>phrase: Do nothing</comment>
+  </data>
+  <data name="ConnectThisList" lastModified="2014-04-07T14:32:44">
+    <value>Connect this list</value>
+    <comment>phrase: Connect this list</comment>
+  </data>
+  <data name="DynamicListDescription" lastModified="2014-04-07T14:32:44">
+    <value>This setting allows you to pull subscribers dynamically from an outside data source.</value>
+    <comment>phrase: This setting allows you to pull subscribers dynamically from an outside data source.</comment>
+  </data>
+  <data name="ConnectThisListTo" lastModified="2014-04-07T14:32:44">
+    <value>Connect this list to:</value>
+    <comment>phrase: Connect this list to</comment>
+  </data>
+  <data name="NotConnected" lastModified="2014-04-07T14:32:44">
+    <value>Not connected</value>
+    <comment>phrase: Not connected</comment>
+  </data>
+  <data name="DynamicListProviders" lastModified="2014-04-07T14:32:44">
+    <value>Dynamic list providers</value>
+    <comment>phrase: Dynamic list providers</comment>
+  </data>
+  <data name="ConnectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Connection title</value>
+    <comment>Title of the dynamic list connection</comment>
+  </data>
+  <data name="ConnectionTitleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Title of the connection; e.g. 'Sitefinity small business edition customers'</value>
+    <comment>Description of the connection title field</comment>
+  </data>
+  <data name="DynamicListsFieldDescription" lastModified="2014-04-07T14:32:44">
+    <value>Choose the dynamic list to which you wish to connect; dynamic lists are external data sources of your subscribers.</value>
+    <comment>Description of the field with all the available dynamic lists</comment>
+  </data>
+  <data name="MapRequiredFields" lastModified="2014-04-07T14:32:44">
+    <value>Map required fields</value>
+    <comment>phrase: Map required fields</comment>
+  </data>
+  <data name="SmtpTestTitle" lastModified="2014-04-07T14:32:44">
+    <value>Test SMTP settings</value>
+    <comment>phrase: Test SMTP settings</comment>
+  </data>
+  <data name="SmtpTestNote" lastModified="2014-04-07T14:32:44">
+    <value>Test your SMTP settings by sending a test email message</value>
+    <comment>phrase: Test your SMTP settings by sending a test email message</comment>
+  </data>
+  <data name="TestPop3Settings" lastModified="2014-04-07T14:32:44">
+    <value>Test POP3 settings</value>
+    <comment>phrase: Test POP3 settings</comment>
+  </data>
+  <data name="PerformATest" lastModified="2014-04-07T14:32:44">
+    <value>Perform a test</value>
+    <comment>phrase: Perform a test</comment>
+  </data>
+  <data name="BaseTemplateTitle" lastModified="2014-04-07T14:32:44">
+    <value>Base template (you can change it later)</value>
+    <comment>phrase: Base template (you can change it later)</comment>
+  </data>
+  <data name="ComposeTheTemplateInPageEditor" lastModified="2014-04-07T14:32:44">
+    <value>Compose the template in page editor</value>
+    <comment>phrase: Compose the template in page editor</comment>
+  </data>
+  <data name="CreateCampaignFromTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Use a template</value>
+    <comment>phrase: Use a template</comment>
+  </data>
+  <data name="CreateCampaignFromScratch" lastModified="2014-04-07T14:32:44">
+    <value>Start from scratch</value>
+    <comment>phrase: Start from scratch</comment>
+  </data>
+  <data name="PlainTextVersion" lastModified="2014-04-07T14:32:44">
+    <value>Plain text version</value>
+    <comment>phrase: Plain text version</comment>
+  </data>
+  <data name="PlainTextVersionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Every email message should have plain text version; otherwise your message may be treated as spam</value>
+    <comment>phrase: Every email message should have plain text version; otherwise your message may be treated as spam</comment>
+  </data>
+  <data name="AutomaticallyGeneratePlainTextVersion" lastModified="2014-04-07T14:32:44">
+    <value>Automatically generate plain text version</value>
+    <comment>phrase: Automatically generate plain text version</comment>
+  </data>
+  <data name="ManuallyEnterPlainTextVersion" lastModified="2014-04-07T14:32:44">
+    <value>Manually enter plain text version</value>
+    <comment>phrase: Manually enter plain text version</comment>
+  </data>
+  <data name="EnableGoogleAnalyticsTrackingForThisCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Enable Google tracking</value>
+    <comment>phrase: Enable Google tracking </comment>
+  </data>
+  <data name="ClickedLinks" lastModified="2014-04-07T14:32:44">
+    <value>Clicked links</value>
+    <comment>phrase: Clicked links</comment>
+  </data>
+  <data name="LinkUrl" lastModified="2014-04-07T14:32:44">
+    <value>Link url</value>
+    <comment>phrase: Link url</comment>
+  </data>
+  <data name="ClickedOn" lastModified="2014-04-07T14:32:44">
+    <value>Clicked on</value>
+    <comment>phrase: Clicked on</comment>
+  </data>
+  <data name="BelongsToMailingLists" lastModified="2014-04-07T14:32:44">
+    <value>Belongs to mailing lists</value>
+    <comment>phrase: Belongs to mailing lists</comment>
+  </data>
+  <data name="Joined" lastModified="2014-04-07T14:32:44">
+    <value>Joined</value>
+    <comment>word: Joined</comment>
+  </data>
+  <data name="CreateABCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Create an A/B test</value>
+    <comment>phrase: Create an A/B test</comment>
+  </data>
+  <data name="EditABCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Edit A/B test</value>
+    <comment>phrase: Edit A/B test</comment>
+  </data>
+  <data name="CreateNewABCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Create new A/B test</value>
+    <comment>phrase: Create new A/B test</comment>
+  </data>
+  <data name="SelectCampaignA" lastModified="2014-04-07T14:32:44">
+    <value>Select campaign A</value>
+    <comment>phrase: Select campaign A</comment>
+  </data>
+  <data name="SelectCampaignB" lastModified="2014-04-07T14:32:44">
+    <value>Select campaign B</value>
+    <comment>phrase: Select campaign B</comment>
+  </data>
+  <data name="SelectCampaignBDescription" lastModified="2014-04-07T14:32:44">
+    <value>Campaign B must share the same mailing list as the selected campaign A</value>
+    <comment>phrase: Campaign B must share the same mailing list as the selected campaign A</comment>
+  </data>
+  <data name="WinningFactorTitle" lastModified="2014-04-07T14:32:44">
+    <value>After the testing period is over, send the campaign with...</value>
+    <comment>phrase: After the testing period is over, send the campaign with...</comment>
+  </data>
+  <data name="MoreOpenedEmails" lastModified="2014-04-07T14:32:44">
+    <value>More opened emails</value>
+    <comment>phrase: More opened emails</comment>
+  </data>
+  <data name="MoreLinkClicks" lastModified="2014-04-07T14:32:44">
+    <value>More link clicks</value>
+    <comment>phrase: More link clicks</comment>
+  </data>
+  <data name="LessBounces" lastModified="2014-04-07T14:32:44">
+    <value>Less bounces</value>
+    <comment>phrase: Less bounces</comment>
+  </data>
+  <data name="TestSampleTitle" lastModified="2014-04-07T14:32:44">
+    <value>As a testing sample, use following percentage of the subscribers:</value>
+    <comment>phrase: As a testing sample, use following percentage of the subscribers</comment>
+  </data>
+  <data name="TestingPeriodEnd" lastModified="2014-04-07T14:32:44">
+    <value>Decide the winning campaign on</value>
+    <comment>phrase: Decide the winning campaign on</comment>
+  </data>
+  <data name="ABCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>A/B tests</value>
+    <comment>phrase: A/B tests</comment>
+  </data>
+  <data name="ABTestName" lastModified="2014-04-07T14:32:44">
+    <value>A/B Test title</value>
+    <comment>phrase: A/B Test title</comment>
+  </data>
+  <data name="CampaignAName" lastModified="2014-04-07T14:32:44">
+    <value>Campaign A name</value>
+    <comment>phrase: Campaign A name</comment>
+  </data>
+  <data name="CampaignBName" lastModified="2014-04-07T14:32:44">
+    <value>Campaign B name</value>
+    <comment>phrase: Campaign B name</comment>
+  </data>
+  <data name="WinningCondition" lastModified="2014-04-07T14:32:44">
+    <value>Winning condition</value>
+    <comment>phrase: Winning condition</comment>
+  </data>
+  <data name="TestSample" lastModified="2014-04-07T14:32:44">
+    <value>Test sample</value>
+    <comment>phrase: Test sample</comment>
+  </data>
+  <data name="TestingEnds" lastModified="2014-04-07T14:32:44">
+    <value>Testing ends</value>
+    <comment>phrase: Testing ends</comment>
+  </data>
+  <data name="NoABCampaignsCreatedYet" lastModified="2014-04-07T14:32:44">
+    <value>No A/B tests have been created yet</value>
+    <comment>phrase: No A/B tests have been created yet</comment>
+  </data>
+  <data name="StartTesting" lastModified="2014-04-07T14:32:44">
+    <value>Start testing</value>
+    <comment>phrase: Start testing</comment>
+  </data>
+  <data name="EndTesting" lastModified="2014-04-07T14:32:44">
+    <value>End testing</value>
+    <comment>phrase: End testing</comment>
+  </data>
+  <data name="AreYouSureDeleteABCampaign" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure that you want to delete this A/B test?</value>
+    <comment>phrase: Are you sure that you want to delete this A/B test?</comment>
+  </data>
+  <data name="AreYouSureDeleteABCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure that you want to delete this A/B test(s)?</value>
+    <comment>phrase: Are you sure that you want to delete this A/B test(s)?</comment>
+  </data>
+  <data name="ABCampaignSentSuccessfully" lastModified="2014-04-07T14:32:44">
+    <value>A/B test has been sent successfully</value>
+    <comment>phrase: A/B test has been sent successfully</comment>
+  </data>
+  <data name="NewABCampaignSuccessfullyCreated" lastModified="2014-04-07T14:32:44">
+    <value>New A/B test has been successfully created</value>
+    <comment>phrase: New A/B test has been successfully created</comment>
+  </data>
+  <data name="ABCampaignSuccessfullySaved" lastModified="2014-04-07T14:32:44">
+    <value>A/B test has been successfully saved</value>
+    <comment>phrase: A/B test has been successfully saved</comment>
+  </data>
+  <data name="ABTestSuccessfullySent" lastModified="2014-04-07T14:32:44">
+    <value>AB test successfully sent.</value>
+    <comment>phrase: AB test successfully started</comment>
+  </data>
+  <data name="ABTestEndManualDecision" lastModified="2014-04-07T14:32:44">
+    <value>AB test has been ended. You should manually decide which is the winning campaign</value>
+    <comment>phrase: AB test has been ended. You should manually decide which is the winning campaign</comment>
+  </data>
+  <data name="ABTestEnded" lastModified="2014-04-07T14:32:44">
+    <value>AB test has ended. Winning campaign {0} is sent</value>
+    <comment>phrase: AB test has ended. Winning campaign {0} is sent</comment>
+  </data>
+  <data name="ABTestEndConfirmation" lastModified="2014-04-07T14:32:44">
+    <value>If this test is ended the winning campaign will be sent. Are you sure you want to continue?</value>
+    <comment>phrase: If this test is ended the winning campaign will be sent. Are you sure you want to continue?</comment>
+  </data>
+  <data name="ABTestDecisionConfirmation" lastModified="2014-04-07T14:32:44">
+    <value>Campaign {0} is marked as a winner and will be sent to the subscribers. Are you sure you want to continue?</value>
+    <comment>phrase: Campaign {0} is marked as a winner and will be sent to the subscribers. Are you sure you want to continue?</comment>
+  </data>
+  <data name="BackToAllABCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>Back to all A/B tests</value>
+    <comment>phrase: Back to all A/B tests</comment>
+  </data>
+  <data name="BackToABCampaignReport" lastModified="2014-04-07T14:32:44">
+    <value>Back to A/B test report</value>
+    <comment>phrase: Back to A/B test report.</comment>
+  </data>
+  <data name="ManualWinningDecision" lastModified="2014-04-07T14:32:44">
+    <value>I will manually decide the winning campaign</value>
+    <comment>phrase: I will manually decide the winning campaign</comment>
+  </data>
+  <data name="AddConnection" lastModified="2014-04-07T14:32:44">
+    <value>Add connection</value>
+    <comment>phrase: Add connection</comment>
+  </data>
+  <data name="ConnectionSource" lastModified="2014-04-07T14:32:44">
+    <value>Connection source</value>
+    <comment>phrase: Connection source</comment>
+  </data>
+  <data name="ConnectionSourceDescription" lastModified="2014-04-07T14:32:44">
+    <value>The source of the connection. For example 'Forms module' will provide all Forms as possible connections.</value>
+    <comment>phrase: The source of the connection. For example 'Forms module' will provide all Forms as possible connections.</comment>
+  </data>
+  <data name="UsersDynamicListProviderTitle" lastModified="2014-04-07T14:32:44">
+    <value>Sitefinity users</value>
+    <comment>phrase: Sitefinity users</comment>
+  </data>
+  <data name="FormsDynamicListProviderTitle" lastModified="2014-04-07T14:32:44">
+    <value>Sitefinity Forms module</value>
+    <comment>phrase: Sitefinity Forms module</comment>
+  </data>
+  <data name="SelectConnectionSource" lastModified="2014-04-07T14:32:44">
+    <value>-- Select connection source --</value>
+    <comment>phrase: -- Select connection source --</comment>
+  </data>
+  <data name="DynamicListFilterTitle" lastModified="2014-04-07T14:32:44">
+    <value>Dynamic list filter expression</value>
+    <comment>phrase: Dynamic list filter expression</comment>
+  </data>
+  <data name="DynamicListFilterDescription" lastModified="2014-04-07T14:32:44">
+    <value>Use dynamic LINQ syntax with the merge tags. For example, if merge tag is {|CustomerForm.State|}, you can write a filter like: State &lt;&gt; 'California'</value>
+    <comment>phrase: Use dynamic LINQ syntax with the merge tags. For example, if merge tag is {|CustomerForm.State|}, you can write a filter like: State &lt;&gt; 'California'</comment>
+  </data>
+  <data name="SubscriberDesignerSelectListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Select mailing list</value>
+    <comment>phrase: Select mailing list</comment>
+  </data>
+  <data name="SubscribeDesignerSelectListDescription" lastModified="2014-04-07T14:32:44">
+    <value>Select the mailing list to which you wish the users to subscribe to</value>
+    <comment>Select the mailing list to which you wish the users to subscribe to</comment>
+  </data>
+  <data name="SubscribeToList" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe to the mailing list</value>
+    <comment>phrase: Subscribe to list</comment>
+  </data>
+  <data name="ClickEditAndSelectList" lastModified="2014-04-07T14:32:44">
+    <value>Click edit and select mailing list</value>
+    <comment>phrase: Click edit and select mailing list</comment>
+  </data>
+  <data name="UnsubscribeMessageOnSuccess" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Unsubscribe successful&lt;/strong&gt; &lt;br/&gt; You have been successfully unsubscribed from our newsletter ({|Subscriber.Email|}) &lt;br /&gt; If you change your mind you can {|MergeContextItems.SubscribeLink|} to our newsletter again. &lt;br /&gt; Thank you.</value>
+    <comment>phrase: Click edit and select mailing list</comment>
+  </data>
+  <data name="UnsubscribeDesignerSelectListTitle" lastModified="2014-04-07T14:32:44">
+    <value>Select mailing list</value>
+    <comment>phrase: Select mailing list</comment>
+  </data>
+  <data name="UnsubscribeDesignerSelectListDescription" lastModified="2014-04-07T14:32:44">
+    <value>Select the mailing list from which the user should unsubscribe.</value>
+    <comment>phrase: Select the mailing list from which the user should unsubscribe.</comment>
+  </data>
+  <data name="CampaignStateMissingMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Missing mailing list</value>
+    <comment>phrase: Missing mailing list</comment>
+  </data>
+  <data name="GeneralInformation" lastModified="2014-04-07T14:32:44">
+    <value>General information</value>
+    <comment>phrase: General information</comment>
+  </data>
+  <data name="TestingStatus" lastModified="2014-04-07T14:32:44">
+    <value>Testing status</value>
+    <comment>phrase: Testing status</comment>
+  </data>
+  <data name="TestStatus" lastModified="2014-04-07T14:32:44">
+    <value>Test status</value>
+    <comment>phrase: Test status</comment>
+  </data>
+  <data name="SoFarSentMessages" lastModified="2014-04-07T14:32:44">
+    <value>So far sent messages</value>
+    <comment>phrase: So far sent messages</comment>
+  </data>
+  <data name="TestResults" lastModified="2014-04-07T14:32:44">
+    <value>Test results</value>
+    <comment>phrase: Test results</comment>
+  </data>
+  <data name="CampaignA" lastModified="2014-04-07T14:32:44">
+    <value>Campaign A</value>
+    <comment>phrase: Campaign A</comment>
+  </data>
+  <data name="CampaignB" lastModified="2014-04-07T14:32:44">
+    <value>Campaign B</value>
+    <comment>phrase: Campaign B</comment>
+  </data>
+  <data name="FullReport" lastModified="2014-04-07T14:32:44">
+    <value>Full report</value>
+    <comment>phrase: Full report</comment>
+  </data>
+  <data name="NumberOfOpenedMessages" lastModified="2014-04-07T14:32:44">
+    <value>Number of opened messages</value>
+    <comment>phrase: Number of opened messages</comment>
+  </data>
+  <data name="NumberOfClickedLinks" lastModified="2014-04-07T14:32:44">
+    <value>Number of clicked links</value>
+    <comment>phrase: Number of clicked links</comment>
+  </data>
+  <data name="SeeWhichLinksWereClicked" lastModified="2014-04-07T14:32:44">
+    <value>See which links were clicked</value>
+    <comment>phrase: See which links were clicked</comment>
+  </data>
+  <data name="NumberOfBouncedMessages" lastModified="2014-04-07T14:32:44">
+    <value>Number of bounced messages</value>
+    <comment>phrase: Number of bounced messages</comment>
+  </data>
+  <data name="EndTestingAnd" lastModified="2014-04-07T14:32:44">
+    <value>End testing and...</value>
+    <comment>phrase: End testing and...</comment>
+  </data>
+  <data name="MakeCampaignAWinner" lastModified="2014-04-07T14:32:44">
+    <value>Make Campaign A winner</value>
+    <comment>phrase: Make Campaign A winner</comment>
+  </data>
+  <data name="MakeCampaignBWinner" lastModified="2014-04-07T14:32:44">
+    <value>Make Campaign B winner</value>
+    <comment>phrase: Make Campaign B winner</comment>
+  </data>
+  <data name="MessageInHtml" lastModified="2014-04-07T14:32:44">
+    <value>Message in HTML</value>
+    <comment>phrase: Message in HTML</comment>
+  </data>
+  <data name="MessageInPlainText" lastModified="2014-04-07T14:32:44">
+    <value>Message in plain text</value>
+    <comment>phrase: Message in plain text</comment>
+  </data>
+  <data name="GoBack" lastModified="2014-04-07T14:32:44">
+    <value>Go back</value>
+    <comment>phrase: Go back</comment>
+  </data>
+  <data name="ScheduleCampaignDelivery" lastModified="2014-04-07T14:32:44">
+    <value>Schedule campaign delivery</value>
+    <comment>phrase: Schedule campaign delivery</comment>
+  </data>
+  <data name="DeliverCampaignOn" lastModified="2014-04-07T14:32:44">
+    <value>Deliver campaign on</value>
+    <comment>phrase: Deliver campaign on</comment>
+  </data>
+  <data name="DeliverCampaignOnDescription" lastModified="2014-04-07T14:32:44">
+    <value>Select the date and time when you wish the campaign to be delivered to the subscribers.</value>
+    <comment>phrase: Select the date and time when you wish the campaign to be delivered to the subscribers.</comment>
+  </data>
+  <data name="Schedule" lastModified="2014-04-07T14:32:44">
+    <value>Schedule</value>
+    <comment>phrase: Schedule</comment>
+  </data>
+  <data name="InProgress" lastModified="2014-04-07T14:32:44">
+    <value>In progress</value>
+    <comment>phrase: In progress</comment>
+  </data>
+  <data name="Scheduled" lastModified="2014-04-07T14:32:44">
+    <value>Scheduled</value>
+    <comment>word: Scheduled</comment>
+  </data>
+  <data name="Stopped" lastModified="2014-04-07T14:32:44">
+    <value>Stopped</value>
+    <comment>word: Stopped</comment>
+  </data>
+  <data name="ClicksCount" lastModified="2014-04-07T14:32:44">
+    <value>Clicks count</value>
+    <comment>phrase: Clicks count</comment>
+  </data>
+  <data name="OfTheTestSample" lastModified="2014-04-07T14:32:44">
+    <value>of the test sample</value>
+    <comment>phrase: of the test sample</comment>
+  </data>
+  <data name="SettingsForNewsletters" lastModified="2014-04-07T14:32:44">
+    <value>Settings for email campaigns</value>
+    <comment>phrase: Settings for newsletters</comment>
+  </data>
+  <data name="MailingListNoTemplatesMessage" lastModified="2014-04-07T14:32:44">
+    <value>In order to be able to send welcome and follow up messages, you need to have at least one message template. &lt;a href="{0}" target="_top" class="sfMoreDetails"&gt;Create your first message template&lt;/a&gt;</value>
+    <comment>Message displayed to users when creating a new mailing list and no message templates that could be used for welcome or goodbye message are present.</comment>
+  </data>
+  <data name="SkipFirstRowHeaders" lastModified="2014-04-07T14:32:44">
+    <value>Skip the first row (check when first row represents the headers)</value>
+    <comment>phrase: Skip the first row (check when first row represents the headers)</comment>
+  </data>
+  <data name="NoMailingListsFound" lastModified="2014-04-07T14:32:44">
+    <value>No mailing lists were found.</value>
+    <comment>Message shown to user when searching for a mailing list and no mailing lists are found.</comment>
+  </data>
+  <data name="UnsubscribedSuccessMessage" lastModified="2014-04-07T14:32:44">
+    <value>You have successfully unsubscribed from the mailing list. You will no longer receive the newsletters sent to this mailing list.</value>
+    <comment>Message displayed to the user when he or she unsubscribes from the mailing list.</comment>
+  </data>
+  <data name="YouDontBelongToTheMailingList" lastModified="2014-04-07T14:32:44">
+    <value>You don't belong to the mailing list and cannot unsubscribe.</value>
+    <comment>Message displayed to user who tries to unsubscribe from the campaign he or she does not belong to.</comment>
+  </data>
+  <data name="YouCannotUnsubscribe" lastModified="2014-04-07T14:32:44">
+    <value>Error: You cannot unsubscribe.</value>
+    <comment>Message displayed to user who tries to unsubscribe and some error prevents the action.</comment>
+  </data>
+  <data name="LicenseWarning" lastModified="2014-04-07T14:32:44">
+    <value>You have {0} subscribers in your system, which is more than permitted by your license. Please either remove some of the subscribers or upgrade your edition of Sitefinity. Until resolved, you will not be able to send campaigns.</value>
+    <comment>The message displayed to users when they have more subscribers in the newsletters module than allowed.</comment>
+  </data>
+  <data name="NewslettersResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>Email Campaigns</value>
+    <comment>Title plural for the newsletters module.</comment>
+  </data>
+  <data name="CampaignText" lastModified="2014-04-07T14:32:44">
+    <value>Campaign text</value>
+    <comment>Phrase: Campaign text</comment>
+  </data>
+  <data name="InsertDynamicData" lastModified="2014-04-07T14:32:44">
+    <value>Insert dynamic data in the text</value>
+    <comment>Phrase: Insert dynamic data in the text</comment>
+  </data>
+  <data name="IssueText" lastModified="2014-04-07T14:32:44">
+    <value>Issue text</value>
+    <comment>Phrase: Campaign text</comment>
+  </data>
+  <data name="CampaignsManagement" lastModified="2014-04-07T14:32:44">
+    <value>Campaigns management</value>
+    <comment>Menu title: Campaigns management</comment>
+  </data>
+  <data name="CampaignsManagementUrlName" lastModified="2014-04-07T14:32:44">
+    <value>campaigns-management</value>
+    <comment>Menu Url name: Campaigns management</comment>
+  </data>
+  <data name="SubscribersGroupTitle" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers and lists</value>
+    <comment>Menu title: Subscribers</comment>
+  </data>
+  <data name="SubscribersGroupTitleUrlName" lastModified="2014-04-07T14:32:44">
+    <value>subscribers-group</value>
+    <comment>Localized group url: Subscribers</comment>
+  </data>
+  <data name="EditTitle" lastModified="2014-04-07T14:32:44">
+    <value>Edit title</value>
+    <comment>Phrase: Edit title</comment>
+  </data>
+  <data name="Name" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>word: Name</comment>
+  </data>
+  <data name="Browse" lastModified="2014-04-07T14:32:44">
+    <value>Browse</value>
+    <comment>word: Browse</comment>
+  </data>
+  <data name="InWichMailingListsToImportSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>In which mailing lists you want the subscribers to be imported?</value>
+    <comment>phrase: In which mailing lists you want the subscribers to be imported?</comment>
+  </data>
+  <data name="ImportSubscribersTo" lastModified="2014-04-07T14:32:44">
+    <value>Import subscribers to {0}</value>
+    <comment>phrase: Import subscribers to {0}</comment>
+  </data>
+  <data name="UsedFor" lastModified="2014-04-07T14:32:44">
+    <value>Used For</value>
+    <comment>phrase: Used For</comment>
+  </data>
+  <data name="OneCampaign" lastModified="2014-04-07T14:32:44">
+    <value>1 issue</value>
+    <comment>phrase: 1 issue</comment>
+  </data>
+  <data name="NumberOfCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>{0} issues</value>
+    <comment>phrase: {0} issues</comment>
+  </data>
+  <data name="MailSettings" lastModified="2014-04-07T14:32:44">
+    <value>Mail settings</value>
+    <comment>phrase: Mail settings</comment>
+  </data>
+  <data name="WhereTheSubscribersWillBeImported" lastModified="2014-04-07T14:32:44">
+    <value>(where the subscribers will be imported)</value>
+    <comment>phrase: (where the subscribers will be imported)</comment>
+  </data>
+  <data name="NoFirstName" lastModified="2014-04-07T14:32:44">
+    <value>No first name</value>
+    <comment>phrase: No first name</comment>
+  </data>
+  <data name="NoLastName" lastModified="2014-04-07T14:32:44">
+    <value>No last name</value>
+    <comment>phrase: No last name</comment>
+  </data>
+  <data name="OneSubscriber" lastModified="2014-04-07T14:32:44">
+    <value>1 subscriber</value>
+    <comment>phrase: 1 subscriber</comment>
+  </data>
+  <data name="NumberOfSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>{0} subscribers</value>
+    <comment>phrase: {0} subscribers</comment>
+  </data>
+  <data name="OneUsingCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>1 issue uses this mailing list</value>
+    <comment>phrase: 1 issue uses this mailing list</comment>
+  </data>
+  <data name="NumberOfUsingCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>{0} issues use this mailing list</value>
+    <comment>phrase: {0} issues use this mailing list</comment>
+  </data>
+  <data name="NumberOfSubscribersFor" lastModified="2014-04-07T14:32:44">
+    <value>{0} Subscribers for {1}</value>
+    <comment>phrase: {0} Subscribers for {1}</comment>
+  </data>
+  <data name="ManageMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Manage mailing list</value>
+    <comment>phrase: Manage mailing list</comment>
+  </data>
+  <data name="AddFromExisting" lastModified="2014-04-07T14:32:44">
+    <value>Add from existing</value>
+    <comment>phrase: Add from existing</comment>
+  </data>
+  <data name="AddExistingSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Add existing subscribers to {0} mailing list</value>
+    <comment>phrase: Add existing subscribers to {0} mailing list</comment>
+  </data>
+  <data name="ViewReport" lastModified="2014-04-07T14:32:44">
+    <value>View report</value>
+    <comment>phrase: View report</comment>
+  </data>
+  <data name="RemoveFromThisList" lastModified="2014-04-07T14:32:44">
+    <value>Remove from this list</value>
+    <comment>phrase: Remove from this list</comment>
+  </data>
+  <data name="AreYouSureRemoveSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to remove {0} subscribers from this mailing list?</value>
+    <comment>phrase: Are you sure you want to remove {0} subscribers from this mailing list?</comment>
+  </data>
+  <data name="AreYouSureRemoveSubscriber" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to remove this subscriber from this mailing list?</value>
+    <comment>phrase: Are you sure you want to remove this subscriber from this mailing list?</comment>
+  </data>
+  <data name="AreYouSureDeleteSubscribersPerMailingList" lastModified="2014-04-07T14:32:44">
+    <value>{0} users will be deleted and will be removed from all mailing lists in which they are added. Are you sure you want to delete {0} users?</value>
+    <comment>phrase: {0} users will be deleted and will be removed from all mailing lists in which they are added. Are you sure you want to delete {0} users?</comment>
+  </data>
+  <data name="AreYouSureDeleteSubscriberPerMailingList" lastModified="2014-04-07T14:32:44">
+    <value>This user will be deleted and will be removed from all mailing lists in which he is added. Are you sure you want to delete this user?</value>
+    <comment>phrase: This user will be deleted and will be removed from all mailing lists in which he is added. Are you sure you want to delete this user?</comment>
+  </data>
+  <data name="Remove" lastModified="2014-04-07T14:32:44">
+    <value>Remove</value>
+    <comment>word: Remove</comment>
+  </data>
+  <data name="SubscribersForMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers for {0} mailing list</value>
+    <comment>phrase: Subscribers for {0} mailing list</comment>
+  </data>
+  <data name="ModuleNotLicensed" lastModified="2014-04-07T14:32:44">
+    <value>Email Campaigns functionality is disabled since the Email Campaigns module is not licensed.</value>
+    <comment>Module Not Licensed message</comment>
+  </data>
+  <data name="EnterAtLeastOneTestEmailAddress" lastModified="2014-04-07T14:32:44">
+    <value>You must enter at least one test email address.</value>
+    <comment>phrase: You must enter at least one test email address.</comment>
+  </data>
+  <data name="NotificationsSmtpProfileNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Notifications SMTP profile name cannot be an empty string.</value>
+    <comment>phrase: Notifications SMTP profile name cannot be an empty string.</comment>
+  </data>
+  <data name="NotificationsSmtpProfileNotFound" lastModified="2014-04-07T14:32:44">
+    <value>Notifications SMTP profile "{0}" set for newsletters cannot be found.</value>
+    <comment>phrase: Notifications SMTP profile "{0}" set for newsletters cannot be found.</comment>
+  </data>
+  <data name="NotificationsSmtpProfileIsNotSmtp" lastModified="2014-04-07T14:32:44">
+    <value>Notifications SMTP profile "{0}" is not an SMTP profile.</value>
+    <comment>phrase: Notifications SMTP profile "{0}" is not an SMTP profile.</comment>
+  </data>
+  <data name="SmtpHostCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>SmtpHost property set through configuration of Email Campaigns module cannot be an empty string.</value>
+    <comment>phrase: SmtpHost property set through configuration of Email Campaigns module cannot be an empty string.</comment>
+  </data>
+  <data name="SmtpPortMustBeInRange" lastModified="2014-04-07T14:32:44">
+    <value>SmtpPort property set through configuration of Email Campaigns module must be an integer between 0 and 65535.</value>
+    <comment>phrase: SmtpPort property set through configuration of Email Campaigns module must be an integer between 0 and 65535.</comment>
+  </data>
+  <data name="ProvideSmtpUserName" lastModified="2014-04-07T14:32:44">
+    <value>When SMTP authentication is turned on, you must provide value for the SmtpUserName property.</value>
+    <comment>phrase: When SMTP authentication is turned on, you must provide value for the SmtpUserName property.</comment>
+  </data>
+  <data name="ProvideSmtpPassword" lastModified="2014-04-07T14:32:44">
+    <value>When SMTP authentication is turned on, you must provide value for the ProvidSmtpPassword property.</value>
+    <comment>phrase: When SMTP authentication is turned on, you must provide value for the ProvidSmtpPassword property.</comment>
+  </data>
+  <data name="MissingMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Missing mailing list.</value>
+    <comment>phrase: Missing mailing list.</comment>
+  </data>
+  <data name="EditTitleAndProperties" lastModified="2014-04-07T14:32:44">
+    <value>Title &amp; Properties</value>
+    <comment>phrase: Title &amp; Properties</comment>
+  </data>
+  <data name="MailingListSettings" lastModified="2014-04-07T14:32:44">
+    <value>Mail settings</value>
+    <comment>phrase: Mail settings</comment>
+  </data>
+  <data name="BackToContent" lastModified="2014-04-07T14:32:44">
+    <value>Back to content</value>
+    <comment>phrase: Back to content</comment>
+  </data>
+  <data name="SubscriberIsAlreadyMemberInList" lastModified="2014-04-07T14:32:44">
+    <value>Subscriber "{0}" is already a member of "{1}".</value>
+    <comment>phrase: Subscriber {0} is already a member of {1}.</comment>
+  </data>
+  <data name="Loading" lastModified="2014-04-07T14:32:44">
+    <value>Loading...</value>
+    <comment>phrase: Loading</comment>
+  </data>
+  <data name="SelectConnectionSourceErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>You should select a connection source to be able to continue</value>
+    <comment>phrase: You should select a connection source to be able to continue</comment>
+  </data>
+  <data name="DefaultMailSettings" lastModified="2014-04-07T14:32:44">
+    <value>Default mail settings</value>
+    <comment>phrase: Default mail settings</comment>
+  </data>
+  <data name="Tracking" lastModified="2014-04-07T14:32:44">
+    <value>Tracking</value>
+    <comment>word: Tracking</comment>
+  </data>
+  <data name="CreateAndGoAddFirstIssue" lastModified="2014-04-07T14:32:44">
+    <value>Create and go to add the first issue</value>
+    <comment>phrase: Create and go to add the first issue</comment>
+  </data>
+  <data name="CampaignIssueStateOneDraft" lastModified="2014-04-07T14:32:44">
+    <value>1 issue draft</value>
+    <comment>Status of the campaign when it has 1 draft issue.</comment>
+  </data>
+  <data name="CampaignIssueOneSent" lastModified="2014-04-07T14:32:44">
+    <value>1 issue sent</value>
+    <comment>Status of the campaign when it has 1 draft issue and 1 sent issue</comment>
+  </data>
+  <data name="CampaignIssueMultipleSent" lastModified="2014-04-07T14:32:44">
+    <value>{0} issues sent</value>
+    <comment>Status of the campaign when it has 1 draft issue and multiple sent issues</comment>
+  </data>
+  <data name="CampaignIssueStateOneScheduled" lastModified="2014-04-07T14:32:44">
+    <value>1 issue scheduled</value>
+    <comment>Status of the campaign when it has 1 scheduled issue.</comment>
+  </data>
+  <data name="OneScheduledAbTest" lastModified="2014-04-07T14:32:44">
+    <value>1 A/B test scheduled</value>
+    <comment>Status of the campaign when it has 1 scheduled A/B test.</comment>
+  </data>
+  <data name="OneDraftAbTest" lastModified="2014-04-07T14:32:44">
+    <value>1 draft A/B test</value>
+    <comment>Status of the campaign when it has 1 draft A/B test.</comment>
+  </data>
+  <data name="CreateIssueFor" lastModified="2014-04-07T14:32:44">
+    <value>Create an issue for {0}</value>
+    <comment>phrase: Create an issue for {0}</comment>
+  </data>
+  <data name="IssueName" lastModified="2014-04-07T14:32:44">
+    <value>Issue name</value>
+    <comment>phrase: Issue name</comment>
+  </data>
+  <data name="IssueNameDescription" lastModified="2014-04-07T14:32:44">
+    <value>Example: &lt;em class='sfNote'&gt;December issue&lt;/em&gt;</value>
+    <comment>phrase: Example: December issue</comment>
+  </data>
+  <data name="CreateNewIssue" lastModified="2014-04-07T14:32:44">
+    <value>Create new issue</value>
+    <comment>phrase: Create new issue</comment>
+  </data>
+  <data name="EditIssue" lastModified="2014-04-07T14:32:44">
+    <value>Edit issue</value>
+    <comment>phrase: Edit issue</comment>
+  </data>
+  <data name="CampaignOverviewReportTitle" lastModified="2014-04-07T14:32:44">
+    <value>Campaign Overview Report</value>
+    <comment>phrase: Campaign Overview Report</comment>
+  </data>
+  <data name="Clicked" lastModified="2014-04-07T14:32:44">
+    <value>Clicked</value>
+    <comment>phrase: Clicked</comment>
+  </data>
+  <data name="SentTo" lastModified="2014-04-07T14:32:44">
+    <value>Sent to</value>
+    <comment>phrase: Sent to</comment>
+  </data>
+  <data name="DateSent" lastModified="2014-04-07T14:32:44">
+    <value>Date sent</value>
+    <comment>phrase: Date sent</comment>
+  </data>
+  <data name="DateEnded" lastModified="2014-04-07T14:32:44">
+    <value>Date ended</value>
+    <comment>phrase: Date ended</comment>
+  </data>
+  <data name="CreateNewIssueDescription" lastModified="2014-04-07T14:32:44">
+    <value>Edit content and properties to send a new issue of this campaign</value>
+    <comment>phrase: Edit content and properties to send a new issue of this campaign.</comment>
+  </data>
+  <data name="EditAndSend" lastModified="2014-04-07T14:32:44">
+    <value>Edit and send...</value>
+    <comment>phrase: Edit and send...</comment>
+  </data>
+  <data name="AllCampaigns" lastModified="2014-04-07T14:32:44">
+    <value>All Campaigns</value>
+    <comment>phrase: All Campaigns</comment>
+  </data>
+  <data name="BackToFormat" lastModified="2014-04-07T14:32:44">
+    <value>Back to {0}</value>
+    <comment>phrase: Back to {0}</comment>
+  </data>
+  <data name="CreateAndGoToFormat" lastModified="2014-04-07T14:32:44">
+    <value>Create and go to {0}</value>
+    <comment>phrase: Create and go to {0}</comment>
+  </data>
+  <data name="StatisticsFor" lastModified="2014-04-07T14:32:44">
+    <value>Statistics for {0}</value>
+    <comment>phrase: Statistics for {0}</comment>
+  </data>
+  <data name="MailingListStatistics" lastModified="2014-04-07T14:32:44">
+    <value>&lt;b&gt;{0}&lt;/b&gt; emails sent to subscribers in &lt;i&gt;{1}&lt;/i&gt; mailing list.</value>
+    <comment>text: {0} emails sent to subscribers in {1} mailing list.</comment>
+  </data>
+  <data name="BounceStatistics" lastModified="2014-04-07T14:32:44">
+    <value>&lt;b&gt;{0}&lt;/b&gt; ({1}%) of them are not delivered (bounced) due to invalid email addresses and &lt;b&gt;{2}&lt;/b&gt; ({3}%) are not delivered (bounced) due to various reasons.</value>
+    <comment>text: {0} ({1}%) of them are not delivered (bounced) due to invalid email addresses and {2} ({3}%) are not delivered (bounced) due to various reasons.</comment>
+  </data>
+  <data name="BouncedEmailSettings" lastModified="2014-04-07T14:32:44">
+    <value>Bounced email settings</value>
+    <comment>phrase: Bounced email settings</comment>
+  </data>
+  <data name="HowToImproveDelivered" lastModified="2014-04-07T14:32:44">
+    <value>To improve this metric consider keeping your mailing list up to date.</value>
+    <comment>text: To improve this metric consider keeping your mailing list up to date.</comment>
+  </data>
+  <data name="HowToImproveUniqueOpenings" lastModified="2014-04-07T14:32:44">
+    <value>To improve this metric consider creating an A/B test that tests separately the timing of your campaign, its subject or sending email.</value>
+    <comment>text: To improve this metric consider creating an A/B test that tests separately the timing of your campaign, its subject or sending email.</comment>
+  </data>
+  <data name="HowToImproveUniqueClicks" lastModified="2014-04-07T14:32:44">
+    <value>To improve this metric consider creating an A/B test that tests the relevance of your information. Make sure there are enough actionable links for your audience.</value>
+    <comment>text: To improve this metric consider creating an A/B test that tests the relevance of your information. Make sure there are enough actionable links for your audience.</comment>
+  </data>
+  <data name="HowToImproveUnsubscribed" lastModified="2014-04-07T14:32:44">
+    <value>To minimize this metric consider segmenting your customers and sending more relevant information to your audience.</value>
+    <comment>text: To minimize this metric consider segmenting your customers and sending more relevant information to your audience.</comment>
+  </data>
+  <data name="HowToImproveOpenedInFirstHours" lastModified="2014-04-07T14:32:44">
+    <value>To improve this metric consider creating an A/B test that tests separately the timing of your campaign, its subject or sender email.</value>
+    <comment>text: To improve this metric consider creating an A/B test that tests separately the timing of your campaign, its subject or sender email.</comment>
+  </data>
+  <data name="HowToImprove" lastModified="2014-04-07T14:32:44">
+    <value>How to improve?</value>
+    <comment>phrase: How to improve?</comment>
+  </data>
+  <data name="DeliveryStatisticsComparison" lastModified="2014-04-07T14:32:44">
+    <value>{0}% delivery rate in comparison to {1}% previous issue</value>
+    <comment>phrase: {0}% delivery rate in comparison to {1}% previous issue</comment>
+  </data>
+  <data name="DeliveryStatistics" lastModified="2014-04-07T14:32:44">
+    <value>{0}% delivery rate</value>
+    <comment>phrase: {0}% delivery rate</comment>
+  </data>
+  <data name="UniqueOpenings" lastModified="2014-04-07T14:32:44">
+    <value>Unique openings</value>
+    <comment>phrase: Unique openings</comment>
+  </data>
+  <data name="UniqueOpeningsStatisticsComparison" lastModified="2014-04-07T14:32:44">
+    <value>{0}% opening rate in comparison to {1}% previous issue</value>
+    <comment>phrase: {0}% opening rate in comparison to {1}% previous issue</comment>
+  </data>
+  <data name="UniqueOpeningsStatistics" lastModified="2014-04-07T14:32:44">
+    <value>{0}% opening rate</value>
+    <comment>phrase: {0}% opening rate</comment>
+  </data>
+  <data name="UniqueClicks" lastModified="2014-04-07T14:32:44">
+    <value>Unique clicks</value>
+    <comment>phrase: Unique clicks</comment>
+  </data>
+  <data name="UniqueClicksStatisticsComparison" lastModified="2014-04-07T14:32:44">
+    <value>{0}% click through rate in comparison to {1}% previous issue</value>
+    <comment>phrase: {0}% click through rate in comparison to {1}% previous issue</comment>
+  </data>
+  <data name="UniqueClicksStatistics" lastModified="2014-04-07T14:32:44">
+    <value>{0}% click through rate</value>
+    <comment>phrase: {0}% click through rate</comment>
+  </data>
+  <data name="UnsubscribeStatisticsComparison" lastModified="2014-04-07T14:32:44">
+    <value>{0}% unsubscribe in comparison to {1}% previous issue</value>
+    <comment>phrase: {0}% unsubscribe in comparison to {1}% previous issue</comment>
+  </data>
+  <data name="UnsubscribeStatistics" lastModified="2014-04-07T14:32:44">
+    <value>{0}% unsubscribe</value>
+    <comment>phrase: {0}% unsubscribe</comment>
+  </data>
+  <data name="OpenedInFirstHours" lastModified="2014-04-07T14:32:44">
+    <value>Opened in the first &lt;b&gt;48&lt;/b&gt; hrs</value>
+    <comment>phrase: Opened in the first 48 hrs</comment>
+  </data>
+  <data name="OpenedInFirstHoursStatisticsComparison" lastModified="2014-04-07T14:32:44">
+    <value>{0}% open rate in comparison to {1}% previous issue</value>
+    <comment>phrase: {0}% open rate in comparison to {1}% previous issue</comment>
+  </data>
+  <data name="OpenedInFirstHoursStatistics" lastModified="2014-04-07T14:32:44">
+    <value>{0}% open rate</value>
+    <comment>phrase: {0}% open rate</comment>
+  </data>
+  <data name="SubscribersReportTitle" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers report</value>
+    <comment>Title of the subscribers report page of the Email Campaigns module</comment>
+  </data>
+  <data name="SubscribersReportUrlName" lastModified="2014-04-07T14:32:44">
+    <value>subscribers-report</value>
+    <comment>Url name of the subscribers report page of the Email Campaigns module</comment>
+  </data>
+  <data name="SubscribersReportDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page that displays the report for all subscribers per issue</value>
+    <comment>Page that displays the report for all subscribers per issue</comment>
+  </data>
+  <data name="SubscribersReportHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers report</value>
+    <comment>Html title of the subscribers report page of the Email Campaigns module.</comment>
+  </data>
+  <data name="SubscribersActivityFor" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers activity for {0}</value>
+    <comment>phrase: Subscribers activity for {0}</comment>
+  </data>
+  <data name="DeliveryState" lastModified="2014-04-07T14:32:44">
+    <value>Delivery state</value>
+    <comment>phrase: Delivery state</comment>
+  </data>
+  <data name="DateOpened" lastModified="2014-04-07T14:32:44">
+    <value>Date opened</value>
+    <comment>phrase: Date opened</comment>
+  </data>
+  <data name="ClickedBy" lastModified="2014-04-07T14:32:44">
+    <value>Clicked by</value>
+    <comment>phrase: Clicked by</comment>
+  </data>
+  <data name="ViewSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>View subscribers</value>
+    <comment>phrase: View subscribers</comment>
+  </data>
+  <data name="LastSubscribersWhoClickedTitle" lastModified="2014-04-07T14:32:44">
+    <value>Last 10 subscribers who clicked</value>
+    <comment>phrase: Last 10 subscribers who clicked</comment>
+  </data>
+  <data name="ClickedUrl" lastModified="2014-04-07T14:32:44">
+    <value>Clicked Url</value>
+    <comment>phrase: Clicked Url</comment>
+  </data>
+  <data name="DateClicked" lastModified="2014-04-07T14:32:44">
+    <value>Date clicked</value>
+    <comment>phrase: Date clicked</comment>
+  </data>
+  <data name="ViewAllSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>View all subscribers</value>
+    <comment>phrase: View all subscribers</comment>
+  </data>
+  <data name="ClicksByHour" lastModified="2014-04-07T14:32:44">
+    <value>Clicks by hour</value>
+    <comment>phrase: Clicks by hour</comment>
+  </data>
+  <data name="Clicks" lastModified="2014-04-07T14:32:44">
+    <value>clicks</value>
+    <comment>word: clicks</comment>
+  </data>
+  <data name="NotDelivered" lastModified="2014-04-07T14:32:44">
+    <value>Not delivered</value>
+    <comment>phrase: Not delivered</comment>
+  </data>
+  <data name="EmailAddressDoesNotExist" lastModified="2014-04-07T14:32:44">
+    <value>Invalid email (not delivered)</value>
+    <comment>phrase: Invalid email (not delivered)</comment>
+  </data>
+  <data name="MailboxIsFull" lastModified="2014-04-07T14:32:44">
+    <value>Full mailbox (not delivered)</value>
+    <comment>phrase: Full mailbox (not delivered)</comment>
+  </data>
+  <data name="UnsubscribePage" lastModified="2014-04-07T14:32:44">
+    <value>Unsubscribe page</value>
+    <comment>phrase: Unsubscribe page</comment>
+  </data>
+  <data name="UnsubscribePageDescription" lastModified="2014-04-07T14:32:44">
+    <value>There must be an Unsubscribe widget on this page</value>
+    <comment>phrase: There must be an Unsubscribe widget on this page</comment>
+  </data>
+  <data name="FilterSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Filter subscribers</value>
+    <comment>phrase: Filter subscribers</comment>
+  </data>
+  <data name="AllSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>All subscribers</value>
+    <comment>phrase: All subscribers</comment>
+  </data>
+  <data name="ByClickedLinks" lastModified="2014-04-07T14:32:44">
+    <value>by Clicked links...</value>
+    <comment>phrase: by Clicked links</comment>
+  </data>
+  <data name="UnsubscribeLink" lastModified="2014-04-07T14:32:44">
+    <value>unsubscribe</value>
+    <comment>Label of the unsubscribe link.</comment>
+  </data>
+  <data name="SubscribeLink" lastModified="2014-04-07T14:32:44">
+    <value>subscribe</value>
+    <comment>subscribe</comment>
+  </data>
+  <data name="UnsubscribeMessage" lastModified="2014-04-07T14:32:44">
+    <value>Unsubscribe message</value>
+    <comment>Unsubscribe message</comment>
+  </data>
+  <data name="SubscribersByClickedLink" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers by Clicked link</value>
+    <comment>phrase: Subscribers by Clicked link</comment>
+  </data>
+  <data name="AbTestExplanation" lastModified="2014-04-07T14:32:44">
+    <value>&lt;p&gt;Performing an A/B test will help you find out which of the versions of an email is more effective.&lt;/p&gt;&lt;p&gt;The main idea is that you prepare two versions of one email &amp;mdash; version A is sent to a small portion of the subscribers in one mailing list and version B is sent to another small group of them.&lt;/p&gt;&lt;p&gt;After the email is sent the results of both emails are measured and based on them the winning email is chosen and sent to the rest of the subscribers.&lt;/p&gt;</value>
+    <comment>Explanation text for the A/B tests.</comment>
+  </data>
+  <data name="SubscribeSuccessful" lastModified="2014-04-07T14:32:44">
+    <value>Subscribe Successful</value>
+    <comment>phrase: Subscribe Successful</comment>
+  </data>
+  <data name="WhatsThis" lastModified="2014-04-07T14:32:44">
+    <value>What's this?</value>
+    <comment>phrase: What's this?</comment>
+  </data>
+  <data name="WhatsVariousBouncesHint" lastModified="2014-04-07T14:32:44">
+    <value>The reasons for an email to bounce might be (but not limited to): &lt;br /&gt;&lt;ul&gt;&lt;li&gt;Full user mailbox&lt;/li&gt;&lt;li&gt;Too large message&lt;/li&gt;&lt;li&gt;Message is considered as a SPAM&lt;/li&gt;&lt;li&gt;Invalid email address&lt;/li&gt;&lt;/ul&gt;</value>
+    <comment>text: The reasons for an email to bounce might be (but not limited to): &lt;br /&gt;&lt;ul&gt;&lt;li&gt;Full user mailbox&lt;/li&gt;&lt;li&gt;Too large message&lt;/li&gt;&lt;li&gt;Message is considered as a SPAM&lt;/li&gt;&lt;li&gt;Invalid email address&lt;/li&gt;&lt;/ul&gt;</comment>
+  </data>
+  <data name="CopyContentFromFormat" lastModified="2014-04-07T14:32:44">
+    <value>Copy content from {0}</value>
+    <comment>phrase: Copy content from {0}</comment>
+  </data>
+  <data name="WhatsAbTest" lastModified="2014-04-07T14:32:44">
+    <value>What is an A/B test?</value>
+    <comment>phrase: What is an A/B test?</comment>
+  </data>
+  <data name="ABTestNameColumn" lastModified="2014-04-07T14:32:44">
+    <value>A/B Test Name</value>
+    <comment>phrase: A/B Test Name</comment>
+  </data>
+  <data name="SampleUsers" lastModified="2014-04-07T14:32:44">
+    <value>Sample users</value>
+    <comment>phrase: sample users</comment>
+  </data>
+  <data name="Winner" lastModified="2014-04-07T14:32:44">
+    <value>Winner</value>
+    <comment>phrase: Winner</comment>
+  </data>
+  <data name="WinnerIssue" lastModified="2014-04-07T14:32:44">
+    <value>Winner issue</value>
+    <comment>phrase: Winner issue</comment>
+  </data>
+  <data name="SendABTest" lastModified="2014-04-07T14:32:44">
+    <value>Send an A/B test</value>
+    <comment>phrase: Send an A/B test</comment>
+  </data>
+  <data name="IssuesThatWillBeSentForABTest" lastModified="2014-04-07T14:32:44">
+    <value>Issues that will be sent for an A/B test</value>
+    <comment>phrase: Issues that will be sent for an A/B test</comment>
+  </data>
+  <data name="ABTestSettings" lastModified="2014-04-07T14:32:44">
+    <value>A/B Test settings</value>
+    <comment>phrase: A/B Test settings</comment>
+  </data>
+  <data name="EditThisIssue" lastModified="2014-04-07T14:32:44">
+    <value>Edit this issue</value>
+    <comment>phrase: Edit this issue</comment>
+  </data>
+  <data name="TestName" lastModified="2014-04-07T14:32:44">
+    <value>Test name</value>
+    <comment>phrase: Test name</comment>
+  </data>
+  <data name="TestNameDescription" lastModified="2014-04-07T14:32:44">
+    <value>For your convenience only. Used to help you easily find and recognize a particular test</value>
+    <comment>phrase: For your convenience only. Used to help you easily find and recognize a particular test </comment>
+  </data>
+  <data name="TestingNoteTitle" lastModified="2014-04-07T14:32:44">
+    <value>What are you testing?</value>
+    <comment>phrase: What are you testing?</comment>
+  </data>
+  <data name="TestingNoteDescription" lastModified="2014-04-07T14:32:44">
+    <value>Add a note what exactly you want to test and what you expect to learn from this test. This note will be added to this A/B test detailed info</value>
+    <comment>phrase: Add a note what exactly you want to test and what you expect to learn from this test. This note will be added to this A/B test detailed info</comment>
+  </data>
+  <data name="TestingSample" lastModified="2014-04-07T14:32:44">
+    <value>Testing sample</value>
+    <comment>phrase: Testing sample</comment>
+  </data>
+  <data name="TestingSampleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Use the slider to define what part of the users in {0} mailing list will participate in the A/B test. After the test is finished the winning issue will be sent to the rest of the users in the mailing list</value>
+    <comment>phrase: Use the slider to define what part of the users in All_Clients mailing list will participate in the A/B test. After the test is finished the winning issue will be sent to the rest of the users in the mailing list</comment>
+  </data>
+  <data name="WinningIssue" lastModified="2014-04-07T14:32:44">
+    <value>Winning issue</value>
+    <comment>phrase: Winning issue</comment>
+  </data>
+  <data name="WinningIssueDescription" lastModified="2014-04-07T14:32:44">
+    <value>Select the criteria by which the winning issue to be selected. The issue that meets selected criteria will be sent to the rest of the users.</value>
+    <comment>phrase: Select the criteria by which the winning issue to be selected. The issue that meets selected criteria will be sent to the rest of the users.</comment>
+  </data>
+  <data name="ABTestEnd" lastModified="2014-04-07T14:32:44">
+    <value>A/B test end</value>
+    <comment>phrase: A/B test end</comment>
+  </data>
+  <data name="ABTestEndDescription" lastModified="2014-04-07T14:32:44">
+    <value>Select when the A/B test should end and the winning issue to be sent to the rest of the users</value>
+    <comment>phrase: Select when the A/B test should end and the winning issue to be sent to the rest of the users</comment>
+  </data>
+  <data name="SendThisABTestDotDotDot" lastModified="2014-04-07T14:32:44">
+    <value>Send this A/B test...</value>
+    <comment>phrase: Send this A/B test...</comment>
+  </data>
+  <data name="SendThisABTest" lastModified="2014-04-07T14:32:44">
+    <value>Send this A/B test</value>
+    <comment>phrase: Send this A/B test</comment>
+  </data>
+  <data name="Immediately" lastModified="2014-04-07T14:32:44">
+    <value>Immediately</value>
+    <comment>phrase: Immediately</comment>
+  </data>
+  <data name="ScheduleTheTestToBeSentOn" lastModified="2014-04-07T14:32:44">
+    <value>Schedule the test to be sent on...</value>
+    <comment>phrase: Schedule the test to be sent on...</comment>
+  </data>
+  <data name="IssueATitle" lastModified="2014-04-07T14:32:44">
+    <value>{0} (A)</value>
+    <comment>phrase: {0} (A)</comment>
+  </data>
+  <data name="IssueBTitle" lastModified="2014-04-07T14:32:44">
+    <value>{0} (B)</value>
+    <comment>phrase: {0} (B)</comment>
+  </data>
+  <data name="TestingSamplePercentage" lastModified="2014-04-07T14:32:44">
+    <value>{0} ({1}% of all users)</value>
+    <comment>phrase: {0} ({1}% of all users)</comment>
+  </data>
+  <data name="WhatWasTested" lastModified="2014-04-07T14:32:44">
+    <value>What was tested</value>
+    <comment>phrase: What was tested</comment>
+  </data>
+  <data name="WhatWasTestedTitle" lastModified="2014-04-07T14:32:44">
+    <value>What was tested?</value>
+    <comment>phrase: What was tested?</comment>
+  </data>
+  <data name="Conclusion" lastModified="2014-04-07T14:32:44">
+    <value>Conclusion</value>
+    <comment>word: Conclusion</comment>
+  </data>
+  <data name="ScheduleThisABTest" lastModified="2014-04-07T14:32:44">
+    <value>Schedule this A/B test</value>
+    <comment>phrase: Schedule this A/B test</comment>
+  </data>
+  <data name="ABTestNote" lastModified="2014-04-07T14:32:44">
+    <value>(AB test)</value>
+    <comment>phrase: (AB test)</comment>
+  </data>
+  <data name="UnsupportedFileFormat" lastModified="2014-04-07T14:32:44">
+    <value>The selected file cannot be imported because of its file format. Only files in .csv or .txt format can be imported</value>
+    <comment>phrase: The selected file cannot be imported because of its file format. Only files in .csv or .txt format can be imported</comment>
+  </data>
+  <data name="SupportedFileTypes" lastModified="2014-04-07T14:32:44">
+    <value>Supported files: .csv, .txt</value>
+    <comment>phrase: Supported files: .csv, .txt</comment>
+  </data>
+  <data name="AbTestReportTitle" lastModified="2014-04-07T14:32:44">
+    <value>A/B test report</value>
+    <comment>Title of the A/B test report page of the Email Campaigns module.</comment>
+  </data>
+  <data name="AbTestReportUrlName" lastModified="2014-04-07T14:32:44">
+    <value>ab-test-report</value>
+    <comment>Url name of the A/B test report page of the Email Campaigns module.</comment>
+  </data>
+  <data name="AbTestReportDescription" lastModified="2014-04-07T14:32:44">
+    <value>This page displays statistics comparing two issues in an A/B Test.</value>
+    <comment>Description of the A/B test report page of the Email Campaigns module.</comment>
+  </data>
+  <data name="AbTestReportHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>A/B test report</value>
+    <comment>Html title of the A/B test report page of the Email Campaigns module.</comment>
+  </data>
+  <data name="IssueA" lastModified="2014-04-07T14:32:44">
+    <value>issue A</value>
+    <comment>phrase: issue A</comment>
+  </data>
+  <data name="IssueB" lastModified="2014-04-07T14:32:44">
+    <value>issue B</value>
+    <comment>phrase: issue B</comment>
+  </data>
+  <data name="TestSentToSampleOfUsers" lastModified="2014-04-07T14:32:44">
+    <value>Test sent to &lt;strong&gt;{0}&lt;/strong&gt; ({1}%) sample of the users</value>
+    <comment>phrase: Test sent to {0} ({1}%) sample of the users</comment>
+  </data>
+  <data name="WinningCriteria" lastModified="2014-04-07T14:32:44">
+    <value>Winning criteria</value>
+    <comment>phrase: Winning criteria</comment>
+  </data>
+  <data name="Analysis" lastModified="2014-04-07T14:32:44">
+    <value>Analysis</value>
+    <comment>word: Analysis</comment>
+  </data>
+  <data name="WhatWasTestedDescription" lastModified="2014-04-07T14:32:44">
+    <value>Here you may describe the purpose of the performed A/B test</value>
+    <comment>text: Here you may describe the purpose of the performed A/B test</comment>
+  </data>
+  <data name="ConclusionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Here you may put your findings from the performed A/B test.</value>
+    <comment>text: Here you may put your findings from the performed A/B test.</comment>
+  </data>
+  <data name="SendAbTestPromptText" lastModified="2014-04-07T14:32:44">
+    <value>This test will be sent to {0} users</value>
+    <comment>phrase: This test will be sent to {0} users</comment>
+  </data>
+  <data name="IssueAlreadySent" lastModified="2014-04-07T14:32:44">
+    <value>This issue is already sent and cannot be edited. Please, refresh the page.</value>
+    <comment>phrase: This issue is already sent and cannot be edited. Please, refresh the page.</comment>
+  </data>
+  <data name="TestAlreadyStarted" lastModified="2014-04-07T14:32:44">
+    <value>This test is already started and cannot be edited. Please, refresh the page.</value>
+    <comment>phrase: This test is already started and cannot be edited. Please, refresh the page.</comment>
+  </data>
+  <data name="Optional" lastModified="2014-04-07T14:32:44">
+    <value>Optional</value>
+    <comment>word: Optional</comment>
+  </data>
+  <data name="ExportSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Export subscribers</value>
+    <comment>word: Export subscribers</comment>
+  </data>
+  <data name="FileFormat" lastModified="2014-04-07T14:32:44">
+    <value>File format</value>
+    <comment>word: File format</comment>
+  </data>
+  <data name="CsvFile" lastModified="2014-04-07T14:32:44">
+    <value>.csv file</value>
+    <comment>word: Csv file</comment>
+  </data>
+  <data name="TxtFile" lastModified="2014-04-07T14:32:44">
+    <value>.txt file</value>
+    <comment>word: Txt file</comment>
+  </data>
+  <data name="DoNotExportExistingSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>Do not export subscribers with same emails</value>
+    <comment>phrase: Do not export subscribers with same emails</comment>
+  </data>
+  <data name="Export" lastModified="2014-04-07T14:32:44">
+    <value>Export</value>
+    <comment>phrase: Export</comment>
+  </data>
+  <data name="SubsFromSelectedLists" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers from selected mailing lists...</value>
+    <comment>phrase: Subscribers from selected mailing lists...</comment>
+  </data>
+  <data name="SubsNoMailingList" lastModified="2014-04-07T14:32:44">
+    <value>Subscribers who do not belong to any list</value>
+    <comment>phrase: Subscribers who do not belong to any list</comment>
+  </data>
+  <data name="FileCannotBeExported" lastModified="2014-04-07T14:32:44">
+    <value>File cannot be exported.</value>
+    <comment>phrase:File cannot be exported.</comment>
+  </data>
+  <data name="ExportSubscribersFrom" lastModified="2014-04-07T14:32:44">
+    <value>Export subscribers from {0}</value>
+    <comment>phrase: Export subscribers from {0}</comment>
+  </data>
+  <data name="NoSubscribers" lastModified="2014-04-07T14:32:44">
+    <value>There are no subscribers.</value>
+    <comment>phrase: No subscribers</comment>
+  </data>
+  <data name="NoMailingListSelected" lastModified="2014-04-07T14:32:44">
+    <value>No mailing list has been selected.</value>
+    <comment>phrase: No mailing list has been selected.</comment>
+  </data>
+  <data name="TestMessageSubject" lastModified="2014-04-07T14:32:44">
+    <value>Sitefinity newsletter test message</value>
+    <comment>phrase: the message subject when sending a test message</comment>
+  </data>
+  <data name="TestMessageBody" lastModified="2014-04-07T14:32:44">
+    <value>This is a test message sent from Sitefinity newsletter module to verify your SMTP settings. Your SMTP settings are working properly.</value>
+    <comment>phrase: the message body when sending a test message</comment>
+  </data>
+  <data name="Issues" lastModified="2014-04-07T14:32:44">
+    <value>Issues</value>
+    <comment>word: Issues</comment>
+  </data>
+  <data name="SendingOn" lastModified="2014-04-07T14:32:44">
+    <value>Sending on</value>
+    <comment>phrase: Sending on</comment>
+  </data>
+  <data name="LastModified" lastModified="2014-04-07T14:32:44">
+    <value>Last modified</value>
+    <comment>phrase: Last modified</comment>
+  </data>
+  <data name="Drafts" lastModified="2014-04-07T14:32:44">
+    <value>Drafts</value>
+    <comment>word: Drafts</comment>
+  </data>
+  <data name="CampaignIssueStateMultipleScheduled" lastModified="2014-04-07T14:32:44">
+    <value>{0} issues scheduled</value>
+    <comment>Status of the campaign when it has multiple scheduled issues.</comment>
+  </data>
+  <data name="CampaignIssueStateMultipleDraft" lastModified="2014-04-07T14:32:44">
+    <value>{0} issues draft</value>
+    <comment>Status of the campaign when it has multiple draft issues.</comment>
+  </data>
+  <data name="MultipleScheduledAbTests" lastModified="2014-04-07T14:32:44">
+    <value>{0} A/B tests scheduled</value>
+    <comment>Status of the campaign when it has multiple scheduled A/B tests.</comment>
+  </data>
+  <data name="MultipleDraftAbTests" lastModified="2014-04-07T14:32:44">
+    <value>{0} draft A/B tests</value>
+    <comment>Status of the campaign when it has multiple draft A/B tests.</comment>
+  </data>
+</root>

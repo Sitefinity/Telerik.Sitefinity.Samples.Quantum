@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTemplatesResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>ControlTemplatesResources</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="ControlTemplatesResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for the Control Templates module</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+    <value>Widget templates</value>
+    <comment>The title of the Control Templates module.</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Provides user interface for managing Control Templates.</value>
+    <comment>The description of the Control Templates module</comment>
+  </data>
+  <data name="ControlTemplatesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Control Templates</value>
+    <comment>Title of the Control Templates module landing page.</comment>
+  </data>
+  <data name="ControlTemplatesHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Control Templates</value>
+    <comment>HTML title of the Control Templates module landing page.</comment>
+  </data>
+  <data name="ControlTemplatesUrlName" lastModified="2014-04-07T14:32:44">
+    <value>ControlTemplates</value>
+    <comment>Control Templates URL.</comment>
+  </data>
+  <data name="ControlTemplatesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Landing Page for the Control Templates module</value>
+    <comment>Control Templates URL.</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Widget Templates</value>
+    <comment>Page group for the Control Templates module.</comment>
+  </data>
+  <data name="PageGroupNodeUrlName" lastModified="2014-04-07T14:32:44">
+    <value>ControlTemplates</value>
+    <comment>Page group URL for the Control Templates module.</comment>
+  </data>
+  <data name="PageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page group for the Control Templates module.</value>
+    <comment>Description for the Control Templates page group.</comment>
+  </data>
+  <data name="BrowseAndEditAdd" lastModified="2014-04-07T14:32:44">
+    <value>Add</value>
+    <comment>Browse and edit 'Add' button label</comment>
+  </data>
+  <data name="BrowseAndEditEdit" lastModified="2014-04-07T14:32:44">
+    <value>Edit</value>
+    <comment>Browse and edit 'Edit' button label</comment>
+  </data>
+  <data name="BrowseAndEditDelete" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Browse and edit 'Delete' button label</comment>
+  </data>
+  <data name="BrowseAndEditUnpublish" lastModified="2014-04-07T14:32:44">
+    <value>Unpublish</value>
+    <comment>Browse and edit 'Unpublish' button label</comment>
+  </data>
+  <data name="of" lastModified="2014-04-07T14:32:44">
+    <value>of</value>
+    <comment>word: of</comment>
+  </data>
+  <data name="Data" lastModified="2014-04-07T14:32:44">
+    <value>Data</value>
+    <comment>word: Data</comment>
+  </data>
+  <data name="Name" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>word: Name</comment>
+  </data>
+  <data name="AreaName" lastModified="2014-04-07T14:32:44">
+    <value>AreaName</value>
+    <comment>word: AreaName</comment>
+  </data>
+  <data name="Version" lastModified="2014-04-07T14:32:44">
+    <value>Version</value>
+    <comment>word: Version</comment>
+  </data>
+  <data name="CopyAsNewestWidgetElement" lastModified="2014-04-07T14:32:44">
+    <value>Revert to this version</value>
+    <comment>Pharse: Revert to this version</comment>
+  </data>
+  <data name="DeleteVersionWidgetElement" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Pharse: Delete</comment>
+  </data>
+  <data name="CreateATemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create a template</value>
+    <comment>Phrase: Create a template</comment>
+  </data>
+  <data name="Delete" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Label for the buttons that delete a template.</comment>
+  </data>
+  <data name="FilterWidgetTemplates" lastModified="2014-04-07T14:32:44">
+    <value>Filter widget templates</value>
+    <comment>Phrase: Filter widget templates</comment>
+  </data>
+  <data name="AllTemplates" lastModified="2014-04-07T14:32:44">
+    <value>All templates</value>
+    <comment>Phrase: All templates {0}</comment>
+  </data>
+  <data name="MyTemplates" lastModified="2014-04-07T14:32:44">
+    <value>My templates</value>
+    <comment>Phrase: My templates {0}</comment>
+  </data>
+  <data name="WidgetTemplatesSettings" lastModified="2014-04-07T14:32:44">
+    <value>Widget templates Settings</value>
+    <comment>Phrase: Widget templates Settings</comment>
+  </data>
+  <data name="PermissionsForWidgetTemplates" lastModified="2014-04-07T14:32:44">
+    <value>Permissions for widget templates</value>
+    <comment>Phrase: Permissions for widget templates</comment>
+  </data>
+  <data name="Owner" lastModified="2014-04-07T14:32:44">
+    <value>Owner</value>
+    <comment>Word: Owner</comment>
+  </data>
+  <data name="Date" lastModified="2014-04-07T14:32:44">
+    <value>Date</value>
+    <comment>Word: Date</comment>
+  </data>
+  <data name="AppliedTo" lastModified="2014-04-07T14:32:44">
+    <value>Applied to</value>
+    <comment>Phrase: Applied to</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" lastModified="2014-04-07T14:32:44">
+    <value>What do you want to do now?</value>
+    <comment>Phrase: What do you want to do now?</comment>
+  </data>
+  <data name="NoControlTemplates" lastModified="2014-04-07T14:32:44">
+    <value>No templates have been created yet</value>
+    <comment>Phrase: No templates have been created yet</comment>
+  </data>
+  <data name="Preview" lastModified="2014-04-07T14:32:44">
+    <value>Preview</value>
+    <comment>Word: Preview</comment>
+  </data>
+  <data name="TemplateName" lastModified="2014-04-07T14:32:44">
+    <value>Template name</value>
+    <comment>Phrase: Template name</comment>
+  </data>
+  <data name="TemplateNameDescription" lastModified="2014-04-07T14:32:44">
+    <value>This name is not publicly visible. It is only to distinguish templates</value>
+    <comment>Phrase: This name is not publicly visible. It is only to distinguish templates</comment>
+  </data>
+  <data name="TemplateNameEmpty" lastModified="2014-04-07T14:32:44">
+    <value>The name of the template cannot be empty!</value>
+    <comment>Validation message when the template name is empty.</comment>
+  </data>
+  <data name="TemplateDataEmpty" lastModified="2014-04-07T14:32:44">
+    <value>The data cannot be empty!</value>
+    <comment>Validation message when the template data is empty.</comment>
+  </data>
+  <data name="BackToTemplates" lastModified="2014-04-07T14:32:44">
+    <value>Back to Templates</value>
+    <comment>Phrase: Back to Templates</comment>
+  </data>
+  <data name="CreateTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create template</value>
+    <comment>Phrase: Create template</comment>
+  </data>
+  <data name="CreateNewTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create New Template</value>
+    <comment>Phrase: Create New Template</comment>
+  </data>
+  <data name="EditTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Edit template</value>
+    <comment>Phrase: Edit template</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>Phrase: Save changes</comment>
+  </data>
+  <data name="CreateThisTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create this template</value>
+    <comment>Phrase: Create this template</comment>
+  </data>
+  <data name="ThisTemplateIsAppliedTo" lastModified="2014-04-07T14:32:44">
+    <value>This template is applied to...</value>
+    <comment>Phrase: This template is applied to...</comment>
+  </data>
+  <data name="SortTemplates" lastModified="2014-04-07T14:32:44">
+    <value>Sort templates</value>
+    <comment>Phrase: This template is applied to...</comment>
+  </data>
+  <data name="CustomSorting" lastModified="2014-04-07T14:32:44">
+    <value>Custom sorting...</value>
+    <comment>Phrase: Custom sorting...</comment>
+  </data>
+  <data name="NewCreatedOnTop" lastModified="2014-04-07T14:32:44">
+    <value>New created on top</value>
+    <comment>Phrase: New created on top</comment>
+  </data>
+  <data name="NewModifiedOnTop" lastModified="2014-04-07T14:32:44">
+    <value>New modified on top</value>
+    <comment>Phrase: New modified on top</comment>
+  </data>
+  <data name="ByWidgets" lastModified="2014-04-07T14:32:44">
+    <value>by Widgets they are applied to</value>
+    <comment>Phrase: by Widgets they are applied to</comment>
+  </data>
+  <data name="InsertTagsFor" lastModified="2014-04-07T14:32:44">
+    <value>Insert...</value>
+    <comment>Phrase: Insert tags for...</comment>
+  </data>
+  <data name="InsertFieldsOf" lastModified="2014-04-07T14:32:44">
+    <value>Insert fields of</value>
+    <comment>Phrase: Insert fields of</comment>
+  </data>
+  <data name="HowToInsert" lastModified="2014-04-07T14:32:44">
+    <value>How to insert...</value>
+    <comment>Phrase: How to insert...</comment>
+  </data>
+  <data name="Insert" lastModified="2014-04-07T14:32:44">
+    <value>Insert</value>
+    <comment>Word: Insert</comment>
+  </data>
+  <data name="CopyToClipboard" lastModified="2014-04-07T14:32:44">
+    <value>Copy to the clipboard</value>
+    <comment>Phrase: Copy to the clipboard</comment>
+  </data>
+  <data name="CommonProperties" lastModified="2014-04-07T14:32:44">
+    <value>Common properties</value>
+    <comment>Phrase: Common properties</comment>
+  </data>
+  <data name="OtherProperties" lastModified="2014-04-07T14:32:44">
+    <value>Other properties</value>
+    <comment>Phrase: Other properties</comment>
+  </data>
+  <data name="CommonData" lastModified="2014-04-07T14:32:44">
+    <value>Common data</value>
+    <comment>Phrase: Common data</comment>
+  </data>
+  <data name="OtherData" lastModified="2014-04-07T14:32:44">
+    <value>Other data</value>
+    <comment>Phrase: Other data</comment>
+  </data>
+  <data name="RestoreTemplateToDefault" lastModified="2014-04-07T14:32:44">
+    <value>Restore template to default</value>
+    <comment>Phrase: Restore template to default</comment>
+  </data>
+  <data name="ConfirmRestore" lastModified="2014-04-07T14:32:44">
+    <value>Yes, restore the default version of this template</value>
+    <comment>Phrase: Yes, restore the default version of this template</comment>
+  </data>
+  <data name="ConfirmRestoreDescription" lastModified="2014-04-07T14:32:44">
+    <value>This will discard all changes made to the template and the default version will be restored. Are you sure you want to continue?</value>
+    <comment>Phrase: This will discard all changes made to the template and the default version will be restored. Are you sure you want to continue?</comment>
+  </data>
+  <data name="RestoreSuccessMessage" lastModified="2014-04-07T14:32:44">
+    <value>The default version of this template has been restored successfully.</value>
+    <comment>Phrase: The default version of this template has been restored successfully.</comment>
+  </data>
+  <data name="RestoreErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>Could not restore the default version for this template.</value>
+    <comment>Phrase: Could not restore the default version for this template.</comment>
+  </data>
+  <data name="NameForDevelopers" lastModified="2014-04-07T14:32:44">
+    <value>Name for developers</value>
+    <comment>Phrase: Name for developers</comment>
+  </data>
+  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+    <value>Back to Control Templates</value>
+    <comment>The text of the back to Control Templates link</comment>
+  </data>
+  <data name="VersionHistory" lastModified="2014-04-07T14:32:44">
+    <value>Revision History</value>
+    <comment>The text of the back to Control Templates link</comment>
+  </data>
+</root>

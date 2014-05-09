@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IncludeAllItems" lastModified="2012-08-10T22:20:16">
+    <value>Incluir todos los elementos</value>
+    <comment>word: Include all items</comment>
+  </data>
+  <data name="ContentTitle" lastModified="2012-08-10T22:20:16">
+    <value>Título</value>
+    <comment>Title of the Content Title field</comment>
+  </data>
+  <data name="ContentContent" lastModified="2012-08-10T22:20:16">
+    <value>Contenido</value>
+    <comment>Title of the Content Content field</comment>
+  </data>
+  <data name="PublishingMessagesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables para el Sistema de Publicación de Sitefinity.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="PublishingMessagesTitle" lastModified="2012-08-10T22:20:16">
+    <value>Publicando mensajes</value>
+    <comment>The title of this resource class.</comment>
+  </data>
+  <data name="PipeId" lastModified="2012-08-10T22:20:16">
+    <value>Id de Tubería</value>
+    <comment>Pipe Id</comment>
+  </data>
+  <data name="ItemHash" lastModified="2012-08-10T22:20:16">
+    <value>Hash de artículos</value>
+    <comment>Item Hash</comment>
+  </data>
+  <data name="PublishingMessagesTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>Título plurarl para los mensajes de publicación</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="OriginalItemId" lastModified="2012-08-10T22:20:16">
+    <value>Id del Artículo Original</value>
+    <comment>Original Item Id</comment>
+  </data>
+  <data name="ContentSummary" lastModified="2012-08-10T22:20:16">
+    <value>Resumen</value>
+    <comment>Title of the Content Summary field</comment>
+  </data>
+  <data name="Date" lastModified="2012-08-10T22:20:16">
+    <value>Fecha</value>
+    <comment>word: Date</comment>
+  </data>
+  <data name="ContentPublicationDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de publicación</value>
+    <comment>Title of the Content PublicationDate field</comment>
+  </data>
+  <data name="ContentOwnerLastName" lastModified="2012-08-10T22:20:16">
+    <value>Apellido del propietario</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldOwnerLastName field</comment>
+  </data>
+  <data name="ContentExpirationDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de expiración</value>
+    <comment>Title of the Content ExpirationDate field</comment>
+  </data>
+  <data name="ContentOwner" lastModified="2012-08-10T22:20:16">
+    <value>ID propio</value>
+    <comment>Title of the Content ExpirationDate field</comment>
+  </data>
+  <data name="ContentTags" lastModified="2012-08-10T22:20:16">
+    <value>Categorías</value>
+    <comment>Title of the Content Tags field</comment>
+  </data>
+  <data name="ContentId" lastModified="2012-08-10T22:20:16">
+    <value>ID</value>
+    <comment>Title of the Content id field</comment>
+  </data>
+  <data name="ContentCategories" lastModified="2012-08-10T22:20:16">
+    <value>Categorías</value>
+    <comment>Title of the Content Categories field</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2012-08-10T22:20:16">
+    <value>Proporciona funcionalidades de sindicación y publicación de contenidos desde y hacia sistemas externos</value>
+    <comment>The description of the Publishing module</comment>
+  </data>
+  <data name="ContentOwnerEmail" lastModified="2012-08-10T22:20:16">
+    <value>Correo electrónico del propietario</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldOwnerEmail field</comment>
+  </data>
+  <data name="ContentParentItemId" lastModified="2012-08-10T22:20:16">
+    <value>ID del elemento primario</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldParentItemId field</comment>
+  </data>
+  <data name="ContentLink" lastModified="2012-08-10T22:20:16">
+    <value>Enlace</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldLink field</comment>
+  </data>
+  <data name="ContentOwnerUsername" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de usuario del ropietario</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldUsername field</comment>
+  </data>
+  <data name="ContentStatus" lastModified="2012-08-10T22:20:16">
+    <value>Estado</value>
+    <comment>Title of the Content pipe PublishingConstants.ContentStatus field</comment>
+  </data>
+  <data name="RssTitle" lastModified="2012-08-10T22:20:16">
+    <value>Título</value>
+    <comment>Title of the RSS Title field</comment>
+  </data>
+  <data name="RssContent" lastModified="2012-08-10T22:20:16">
+    <value>Contenido</value>
+    <comment>Title of the RSS Content field</comment>
+  </data>
+  <data name="ContentOwnerFirstName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre del propietario.</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldOwnerFirstName field</comment>
+  </data>
+  <data name="RssOwnerFirstName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre del propietario.</value>
+    <comment>Title of the RSS OwnerFirstName field</comment>
+  </data>
+  <data name="RssLink" lastModified="2012-08-10T22:20:16">
+    <value>Enlace</value>
+    <comment>Title of the RSS Link field</comment>
+  </data>
+  <data name="RssOwnerLastName" lastModified="2012-08-10T22:20:16">
+    <value>Apellido del propietario</value>
+    <comment>Title of the RSS OwnerLastName field</comment>
+  </data>
+  <data name="RssOwnerEmail" lastModified="2012-08-10T22:20:16">
+    <value>Correo electrónico del propietario</value>
+    <comment>Title of the RSS OwnerEmail field</comment>
+  </data>
+  <data name="RssPublicationDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de publicación</value>
+    <comment>Title of the RSS PubDate field</comment>
+  </data>
+  <data name="RssHash" lastModified="2012-08-10T22:20:16">
+    <value>Identificador Hash único</value>
+    <comment>A generated uniqe hash identifier of a RSS item</comment>
+  </data>
+  <data name="RssCategories" lastModified="2012-08-10T22:20:16">
+    <value>Categorías</value>
+    <comment>Title of the RSS Categories field</comment>
+  </data>
+  <data name="RssSummary" lastModified="2012-08-10T22:20:16">
+    <value>Resumen</value>
+    <comment>Title of the RSS Summary field</comment>
+  </data>
+  <data name="NoPublishingPoint" lastModified="2012-08-10T22:20:16">
+    <value>Tiene que especificar un punto de publicación.</value>
+    <comment>Sitefinity was expecting a publishing point and didn't find one.</comment>
+  </data>
+  <data name="ProviderNameQueryKey" lastModified="2012-08-10T22:20:16">
+    <value>Formato de Nombre de usuario</value>
+    <comment>Gets or sets the query string key used to look up provider name from query string</comment>
+  </data>
+  <data name="UserNameFormat" lastModified="2012-08-10T22:20:16">
+    <value>Formato de Nombre de usuario</value>
+    <comment>Gets or sets the username template. {FirstName} is a placeholder for the first name and {LastName} is a placeholder for the last name.</comment>
+  </data>
+  <data name="DuplicateFeedTitle" lastModified="2012-08-10T22:20:16">
+    <value>Una fuente con este título ya existe.</value>
+    <comment>Error message: Duplicate feed title.</comment>
+  </data>
+  <data name="BlogNotSelected" lastModified="2012-08-10T22:20:16">
+    <value>Por favor, seleccione un blog al que importar los datos</value>
+    <comment>Not selected blog into content pipe outbound mode</comment>
+  </data>
+  <data name="ContentDateCreated" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de creación</value>
+    <comment>Title of the Content pipe PublishingConstants.ContentDateCreated field</comment>
+  </data>
+  <data name="PublishingConfig" lastModified="2012-08-10T22:20:16">
+    <value>Configuración de Publicación</value>
+    <comment>Configuration section description.</comment>
+  </data>
+  <data name="BackToItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a todos los elementos</value>
+    <comment>The text of the back to Publishing Items</comment>
+  </data>
+  <data name="dataItemsProviderSettings" lastModified="2012-08-10T22:20:16">
+    <value>Opciones de elementos de datos de Proveedor</value>
+    <comment>Dictionary of settings for the initialization of publishing data items providers.</comment>
+  </data>
+  <data name="ProviderSettings" lastModified="2012-08-10T22:20:16">
+    <value>Opciones de Proveedor</value>
+    <comment>Dictionary of settings for the initialization of publishing providers.</comment>
+  </data>
+  <data name="RssItemId" lastModified="2012-08-10T22:20:16">
+    <value>Id del elemento</value>
+    <comment>Title of the RSS ItemId field</comment>
+  </data>
+  <data name="ItemsCount" lastModified="2012-08-10T22:20:16">
+    <value>elementos</value>
+    <comment>Used for items count limitation</comment>
+  </data>
+  <data name="RssFeedUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de la Url</value>
+    <comment>Rss Feed url name</comment>
+  </data>
+  <data name="DefaultProvider" lastModified="2012-08-10T22:20:16">
+    <value>Proveedor predeterminado.</value>
+    <comment>Name of the default provider for the publishing system.</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2012-08-10T22:20:16">
+    <value>Fuentes y notificaciones</value>
+    <comment>The title of the Publishing module.</comment>
+  </data>
+  <data name="FeedsBaseUrl" lastModified="2012-08-10T22:20:16">
+    <value>Url Base de enrutamiento</value>
+    <comment>Configurable url part which identifies the publishing endpoint.</comment>
+  </data>
+  <data name="PublishedAsHeader" lastModified="2012-08-10T22:20:16">
+    <value>Publicado como</value>
+    <comment>phrase: Published As</comment>
+  </data>
+  <data name="PageKeywords" lastModified="2012-08-10T22:20:16">
+    <value>Palabras clave de la página</value>
+    <comment>Title of the Content Keywords field</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Fuentes y notificaciones</value>
+    <comment>Page group for the Publishing module.</comment>
+  </data>
+  <data name="PageGroupNodeDescription" lastModified="2012-08-10T22:20:16">
+    <value>Grupo de páginas del módulo de publicación.</value>
+    <comment>Publishing Page Group Description</comment>
+  </data>
+  <data name="Permissions" lastModified="2012-08-10T22:20:16">
+    <value>Permisos</value>
+    <comment>Label for the buttons that switch to the permissions dialog.</comment>
+  </data>
+  <data name="View" lastModified="2012-08-10T22:20:16">
+    <value>Ver</value>
+    <comment>word: View</comment>
+  </data>
+  <data name="Delete" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Label for the buttons that delete an event.</comment>
+  </data>
+  <data name="Duplicate" lastModified="2012-08-10T22:20:16">
+    <value>Duplicar</value>
+    <comment>word: Duplicate</comment>
+  </data>
+  <data name="Edit" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+  </data>
+  <data name="Publish" lastModified="2012-08-10T22:20:16">
+    <value>Publicar</value>
+    <comment>word: Publish</comment>
+  </data>
+  <data name="PublishingUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Fuentes</value>
+    <comment>Publishing URL name.</comment>
+  </data>
+  <data name="Author" lastModified="2012-08-10T22:20:16">
+    <value>Autor</value>
+    <comment>word: Author</comment>
+  </data>
+  <data name="Tags" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas</value>
+    <comment>word: Tags</comment>
+  </data>
+  <data name="Comments" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>word: Comments</comment>
+  </data>
+  <data name="Categories" lastModified="2012-08-10T22:20:16">
+    <value>Categorías</value>
+    <comment>word: Categories</comment>
+  </data>
+  <data name="NoFeeds" lastModified="2012-08-10T22:20:16">
+    <value>No se han creado fuentes todavía</value>
+    <comment>word: Date</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>phrase: What do you want to do now?</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2012-08-10T22:20:16">
+    <value>Guardar cambios</value>
+    <comment>phrase: Save changes</comment>
+  </data>
+  <data name="Content" lastModified="2012-08-10T22:20:16">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+  </data>
+  <data name="EditItem" lastModified="2012-08-10T22:20:16">
+    <value>Editar una fuente</value>
+    <comment>The title of the edit feed dialog</comment>
+  </data>
+  <data name="CreateNewItem" lastModified="2012-08-10T22:20:16">
+    <value>Crear una fuente</value>
+    <comment>The title of the create new feed dialog</comment>
+  </data>
+  <data name="Title" lastModified="2012-08-10T22:20:16">
+    <value>Título</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="Description" lastModified="2012-08-10T22:20:16">
+    <value>Descripción</value>
+    <comment>word: Description</comment>
+  </data>
+  <data name="FilterFeeds" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar fuentes</value>
+    <comment>The title of feeds filter sidebar section</comment>
+  </data>
+  <data name="InactiveFeeds" lastModified="2012-08-10T22:20:16">
+    <value>Fuentes inactivas</value>
+    <comment>The text of inactive feeds sidebar button</comment>
+  </data>
+  <data name="MyFeeds" lastModified="2012-08-10T22:20:16">
+    <value>Mis fuentes</value>
+    <comment>The text of my feeds sidebar button</comment>
+  </data>
+  <data name="ActiveFeeds" lastModified="2012-08-10T22:20:16">
+    <value>Activa fuentes</value>
+    <comment>The text of active feeds sidebar button</comment>
+  </data>
+  <data name="DisplayLastUpdatedFeeds" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar fuentes actualizadas por última vez el ..</value>
+    <comment>The text of last updated feeds sidebar button</comment>
+  </data>
+  <data name="StopUpdatingFeed" lastModified="2012-08-10T22:20:16">
+    <value>Parar la actualización</value>
+    <comment>Command text for the 'Stop updating' command of the feed</comment>
+  </data>
+  <data name="StartUpdatingFeed" lastModified="2012-08-10T22:20:16">
+    <value>Iniciar la actualización</value>
+    <comment>Command text for the 'Start updating' command of the feed</comment>
+  </data>
+  <data name="ByLastPublication" lastModified="2012-08-10T22:20:16">
+    <value>por última publicación</value>
+    <comment>The title of the feeds by last publication sidebar section</comment>
+  </data>
+  <data name="CloseDateFilter" lastModified="2012-08-10T22:20:16">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+  </data>
+  <data name="PublishingHtmlTitle" lastModified="2012-08-10T22:20:16">
+    <value>Fuentes y notificaciones</value>
+    <comment>HTML title of the Publishing module landing page.</comment>
+  </data>
+  <data name="FeedsByContentType" lastModified="2012-08-10T22:20:16">
+    <value>Fuentes por tipo de contenido</value>
+    <comment>The title of feeds filter by content type sidebar section</comment>
+  </data>
+  <data name="Feed" lastModified="2012-08-10T22:20:16">
+    <value>Fuente</value>
+    <comment>word: Feed</comment>
+  </data>
+  <data name="Lists" lastModified="2012-08-10T22:20:16">
+    <value>Listas</value>
+    <comment>word: Lists</comment>
+  </data>
+  <data name="BlogPosts" lastModified="2012-08-10T22:20:16">
+    <value>Entradas del Blog</value>
+    <comment>word: Blog Posts</comment>
+  </data>
+  <data name="AllFeeds" lastModified="2012-08-10T22:20:16">
+    <value>Todas las fuentes</value>
+    <comment>The text of all feeds sidebar button</comment>
+  </data>
+  <data name="ListItems" lastModified="2012-08-10T22:20:16">
+    <value>Elementos de lista</value>
+    <comment>word: List Items</comment>
+  </data>
+  <data name="News" lastModified="2012-08-10T22:20:16">
+    <value>Noticias</value>
+    <comment>word: News</comment>
+  </data>
+  <data name="Blogs" lastModified="2012-08-10T22:20:16">
+    <value>Blogs</value>
+    <comment>word: Blogs</comment>
+  </data>
+  <data name="CreateNew" lastModified="2012-08-10T22:20:16">
+    <value>Crear una fuente</value>
+    <comment>label</comment>
+  </data>
+  <data name="Events" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>word: Events</comment>
+  </data>
+  <data name="Active" lastModified="2012-08-10T22:20:16">
+    <value>Activo</value>
+    <comment>word: Active</comment>
+  </data>
+  <data name="ThisFeedIsActive" lastModified="2012-08-10T22:20:16">
+    <value>Este contenido está Activo</value>
+    <comment>phrase: This feed is Active</comment>
+  </data>
+  <data name="PostsAllBlogs" lastModified="2012-08-10T22:20:16">
+    <value>Entradas de todos los blogs</value>
+    <comment>phrase: Posts from all blogs</comment>
+  </data>
+  <data name="Stopped" lastModified="2012-08-10T22:20:16">
+    <value>Detenido</value>
+    <comment>word: Stopped</comment>
+  </data>
+  <data name="DateCreatedColon" lastModified="2012-08-10T22:20:16">
+    <value>Creado el:</value>
+    <comment>phrase: Created:</comment>
+  </data>
+  <data name="ContentType" lastModified="2012-08-10T22:20:16">
+    <value>Tipo de contenido</value>
+    <comment>phrase: Content type</comment>
+  </data>
+  <data name="SelectContent" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione contenido</value>
+    <comment>phrase: Select content</comment>
+  </data>
+  <data name="CreatedByColon" lastModified="2012-08-10T22:20:16">
+    <value>por:</value>
+    <comment>phrase: by:</comment>
+  </data>
+  <data name="ChoiceRssAndAtomSeparated" lastModified="2012-08-10T22:20:16">
+    <value>RSS y Atom separados</value>
+    <comment>word: RSS and Atom separated</comment>
+  </data>
+  <data name="ItemsAllLists" lastModified="2012-08-10T22:20:16">
+    <value>Artículos de todas las listas</value>
+    <comment>phrase: Items from all lists</comment>
+  </data>
+  <data name="NonexistentBlog" lastModified="2012-08-10T22:20:16">
+    <value>blog inexistente</value>
+    <comment>phrase: nonexistent blog</comment>
+  </data>
+  <data name="NonexistentList" lastModified="2012-08-10T22:20:16">
+    <value>lista inexistente</value>
+    <comment>phrase: nonexistent list</comment>
+  </data>
+  <data name="AllItems" lastModified="2012-08-10T22:20:16">
+    <value>Todos los elementos</value>
+    <comment>phrase: All items</comment>
+  </data>
+  <data name="PipeSettingsUrlNameNotSet" lastModified="2012-08-10T22:20:16">
+    <value>La URL de la fuente RSS se generarán de forma automática</value>
+    <comment>phrase: RSS feed url will be generated automatically</comment>
+  </data>
+  <data name="PipeSettingsShortDescriptionBase" lastModified="2012-08-10T22:20:16">
+    <value>Fuente RSS está disponible en: &lt;br/&gt;</value>
+    <comment>phrase: RSS feed is available on:&lt;br /&gt;</comment>
+  </data>
+  <data name="TwitterPipeSettingsUrlNameNotSet" lastModified="2012-08-10T22:20:16">
+    <value>La Url de contenido de Twitter se generará automáticamente</value>
+    <comment>phrase: Twitter feed url will be generated automatically</comment>
+  </data>
+  <data name="FeedsBaseUrlPattern" lastModified="2012-08-10T22:20:16">
+    <value>URL base de las fuentes: {0}</value>
+    <comment>phrase: Feeds base url: {0}</comment>
+  </data>
+  <data name="PipeSettingsImporShortDescriptionBase" lastModified="2012-08-10T22:20:16">
+    <value>Importar desde: &lt;br/&gt;</value>
+    <comment>phrase: Importing from:&lt;br /&gt;</comment>
+  </data>
+  <data name="TwitterPipeSettingsShortDescription" lastModified="2012-08-10T22:20:16">
+    <value>Fuente Twitter está disponible en: &lt;br/&gt;</value>
+    <comment>phrase: Twitter feed is available on:&lt;br /&gt;</comment>
+  </data>
+  <data name="RunPipes" lastModified="2012-08-10T22:20:16">
+    <value>Ejecutar</value>
+    <comment>Label used for the Execute pipes action</comment>
+  </data>
+  <data name="Mapping" lastModified="2012-08-10T22:20:16">
+    <value>Asociación</value>
+    <comment>Label</comment>
+  </data>
+  <data name="MappingSettings" lastModified="2012-08-10T22:20:16">
+    <value>Opciones de Mapeo</value>
+    <comment>Label</comment>
+  </data>
+  <data name="DefaultDisplayPageLeft" lastModified="2012-08-10T22:20:16">
+    <value>Página predeterminada donde</value>
+    <comment>Label in the content inbound pipe designer</comment>
+  </data>
+  <data name="MappingTranslators" lastModified="2012-08-10T22:20:16">
+    <value>Configurar traductores</value>
+    <comment>Label</comment>
+  </data>
+  <data name="BackLinksPages" lastModified="2012-08-10T22:20:16">
+    <value>Página donde se publica este contenido</value>
+    <comment>Label in the content inbound pipe designer</comment>
+  </data>
+  <data name="DefaultDisplayPageRight" lastModified="2012-08-10T22:20:16">
+    <value>se publican:</value>
+    <comment>Label in the content inbound pipe designer</comment>
+  </data>
+  <data name="RssInboundName" lastModified="2012-08-10T22:20:16">
+    <value>Fuentes RSS/Atom externas</value>
+    <comment>Rss inbound pipe name</comment>
+  </data>
+  <data name="ContentPipeName" lastModified="2012-08-10T22:20:16">
+    <value>Contenido Sitefinity</value>
+    <comment>Content inbound pipe name</comment>
+  </data>
+  <data name="RssOutboundName" lastModified="2012-08-10T22:20:16">
+    <value>Fuente RSS</value>
+    <comment>Rss outblound pipe name</comment>
+  </data>
+  <data name="NewPublishingPointDefaultTitle" lastModified="2012-08-10T22:20:16">
+    <value>Nuevo punto de publicación</value>
+    <comment>label</comment>
+  </data>
+  <data name="NonexistentProduct" lastModified="2012-08-10T22:20:16">
+    <value>producto inexistente</value>
+    <comment>phrase: nonexistent product</comment>
+  </data>
+  <data name="TwitterPipeName" lastModified="2012-08-10T22:20:16">
+    <value>Fuente Twitter</value>
+    <comment>Twitter pipe name</comment>
+  </data>
+  <data name="ValidationMessageUrlCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de la URL no puede estar vacío</value>
+    <comment>word: Url name cannot be empty</comment>
+  </data>
+  <data name="FacebookPipeName" lastModified="2012-08-10T22:20:16">
+    <value>Fuente Facebook</value>
+    <comment>Facebook pipe name</comment>
+  </data>
+  <data name="TwitterAssociationFail" lastModified="2012-08-10T22:20:16">
+    <value>El usuario no pudo asociarse.</value>
+    <comment>Unsuccessful Twitter association message</comment>
+  </data>
+  <data name="AddMapping" lastModified="2012-08-10T22:20:16">
+    <value>Agrear un mapeo</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SelectFeed" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione una fuente</value>
+    <comment>Select a feed</comment>
+  </data>
+  <data name="TwitterPipeUIName" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione una fuente</value>
+    <comment>Select a feed</comment>
+  </data>
+  <data name="TwitterAssociationSuccess" lastModified="2012-08-10T22:20:16">
+    <value>El usuario {0} se asoció con éxito.</value>
+    <comment>Successful Twitter association message</comment>
+  </data>
+  <data name="RssOrAtomToGenerateTitle" lastModified="2012-08-10T22:20:16">
+    <value>RSS o Atom para generar?</value>
+    <comment>word: RSS or Atom to generate?</comment>
+  </data>
+  <data name="DuplicateUrlException" lastModified="2012-08-10T22:20:16">
+    <value>Un elemento con la dirección '{0}' ya existe.</value>
+    <comment>Error message.</comment>
+  </data>
+  <data name="ValidationMessagePop3Account" lastModified="2012-08-10T22:20:16">
+    <value>La cuenta POP3 se debe configurar</value>
+    <comment>phrase: POP3 account must be set</comment>
+  </data>
+  <data name="WarningMessagePop3DeleteOnRetrieve" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Advertencia: &lt;/strong&gt;Todos los mensajes de correo recuperados con éxito será eliminado del servidor POP3.</value>
+    <comment>phrase: Warning: All successfully retrieved mail messages will be deleted from the server.</comment>
+  </data>
+  <data name="ChoiceSmartFeed" lastModified="2012-08-10T22:20:16">
+    <value>Inteligentes compatibles con cualquier aplicación de lector de feeds de alimentación</value>
+    <comment>word: Smart feed compatible with any feed reader application</comment>
+  </data>
+  <data name="LiteralLimitTheItems" lastModified="2012-08-10T22:20:16">
+    <value>Limitar los elementos en la fuente</value>
+    <comment>word: Limit the items in the feed</comment>
+  </data>
+  <data name="ButtonTitleAndContent" lastModified="2012-08-10T22:20:16">
+    <value>Título y contenido</value>
+    <comment>word: Title and content</comment>
+  </data>
+  <data name="RadioIncludeTheNewest" lastModified="2012-08-10T22:20:16">
+    <value>Incluir el más nuevo</value>
+    <comment>word: Include the newest</comment>
+  </data>
+  <data name="ValidationWholeNumber" lastModified="2012-08-10T22:20:16">
+    <value>Debería ser un número completo</value>
+    <comment>word: Should be a whole number</comment>
+  </data>
+  <data name="ValidationNumberGreaterThanZero" lastModified="2012-08-10T22:20:16">
+    <value>El número debe ser mayor que cero</value>
+    <comment>word: The number should be greater than zero</comment>
+  </data>
+  <data name="RadioIncludeAllPublishedItems" lastModified="2012-08-10T22:20:16">
+    <value>Incluir todos los elementos publicados</value>
+    <comment>word: Include all published items</comment>
+  </data>
+  <data name="ValidationEnterWholeNumber" lastModified="2012-08-10T22:20:16">
+    <value>Introduzca un número completo</value>
+    <comment>word: Enter a whole number</comment>
+  </data>
+  <data name="ChoiceRssOnly" lastModified="2012-08-10T22:20:16">
+    <value>Sólo RSS</value>
+    <comment>word: RSS only</comment>
+  </data>
+  <data name="ButtonTitleAndFirst" lastModified="2012-08-10T22:20:16">
+    <value>Título y primero</value>
+    <comment>word: Title and first</comment>
+  </data>
+  <data name="ButtonTitleOnly" lastModified="2012-08-10T22:20:16">
+    <value>Sólo título</value>
+    <comment>word: Title only</comment>
+  </data>
+  <data name="WhichItemsToInclude" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué elementos se deben incluir?</value>
+    <comment>word: Which items to include?</comment>
+  </data>
+  <data name="LiteralCharactersOfTheContent" lastModified="2012-08-10T22:20:16">
+    <value>caracteres del contenido</value>
+    <comment>word: characters of the content</comment>
+  </data>
+  <data name="ExampleUnderTitle" lastModified="2012-08-10T22:20:16">
+    <value>¡Importante! Este título será visible para las personas y los motores de búsqueda. Por ejemplo si crea una fuente RSS, el título será el título de la fuente completa en el lector de RSS (por ejemplo, Google Reader)</value>
+    <comment>word: Important! This title will be visible for people and search engines. E.g. if you create a RSS feed, the title will be the title of the whole feed in the RSS reader (e.g. Google Reader)</comment>
+  </data>
+  <data name="TitleFieldTitle" lastModified="2012-08-10T22:20:16">
+    <value>Título</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="UncheckToStopUpdatingTheFeed" lastModified="2012-08-10T22:20:16">
+    <value>Desactive la opción para detener la actualización de la fuente</value>
+    <comment>word: Uncheck to stop updating the feed</comment>
+  </data>
+  <data name="LiterakAllItemsInTheFeedContains" lastModified="2012-08-10T22:20:16">
+    <value>Un elemento en la fuente contiene</value>
+    <comment>word: An item in the feed contains</comment>
+  </data>
+  <data name="AddAnotherContentType" lastModified="2012-08-10T22:20:16">
+    <value>Añadir otro tipo de contenido</value>
+    <comment>word: Add another content type</comment>
+  </data>
+  <data name="PublishAs" lastModified="2012-08-10T22:20:16">
+    <value>Publicar como ...</value>
+    <comment>word: Publish as...</comment>
+  </data>
+  <data name="ContentToInclude" lastModified="2012-08-10T22:20:16">
+    <value>Contenido a incluir</value>
+    <comment>word: Content to include</comment>
+  </data>
+  <data name="SettingsPipeLabel" lastModified="2012-08-10T22:20:16">
+    <value>Opciones…</value>
+    <comment>word: Settings...</comment>
+  </data>
+  <data name="LastPublicationOn" lastModified="2012-08-10T22:20:16">
+    <value>Última publicación el:</value>
+    <comment>word: Last publication on:</comment>
+  </data>
+  <data name="SelectInboundPipes" lastModified="2012-08-10T22:20:16">
+    <value>Contenido a incluir</value>
+    <comment>Label for the inbound pipes selector</comment>
+  </data>
+  <data name="ExportToContentType" lastModified="2012-08-10T22:20:16">
+    <value>Importar datos como</value>
+    <comment>Title of content picker in Content outbound pipe</comment>
+  </data>
+  <data name="PublishDataQuestion" lastModified="2012-08-10T22:20:16">
+    <value>Publicar automáticamente los datos importados</value>
+    <comment>Asing weather data should be publsihed after being imported</comment>
+  </data>
+  <data name="SelectOutboundPipes" lastModified="2012-08-10T22:20:16">
+    <value>Contenido a incluir</value>
+    <comment>Label for the outbound pipes selector</comment>
+  </data>
+  <data name="FeedType" lastModified="2012-08-10T22:20:16">
+    <value>Tipo de feed</value>
+    <comment>Label: Feed type</comment>
+  </data>
+  <data name="PassThrough" lastModified="2012-08-10T22:20:16">
+    <value>Atravesar</value>
+    <comment>Label: Pass through</comment>
+  </data>
+  <data name="AdvancedOptionsSection" lastModified="2012-08-10T22:20:16">
+    <value>Opciones avanzadas &lt;em class='sfNote'&gt; (Estructura de datos, Tipo de feed) &lt;/em&gt;</value>
+    <comment>Phrase: Advanced options (Caching, Multiple URLs, Head tags)</comment>
+  </data>
+  <data name="Advanced" lastModified="2012-08-10T22:20:16">
+    <value>Avanzado</value>
+    <comment>Label: Advanced</comment>
+  </data>
+  <data name="ChoiceAtomOnly" lastModified="2012-08-10T22:20:16">
+    <value>Sólo Atom</value>
+    <comment>word: Atom only</comment>
+  </data>
+  <data name="Persistent" lastModified="2012-08-10T22:20:16">
+    <value>Persistente</value>
+    <comment>Label: Persistent</comment>
+  </data>
+  <data name="ValidationMessagePop3ServerPortValidation" lastModified="2012-08-10T22:20:16">
+    <value>El puerto debe ser un número positivo</value>
+    <comment>phrase: The port must be a positive natural number</comment>
+  </data>
+  <data name="Pop3PipeName" lastModified="2012-08-10T22:20:16">
+    <value>Contenido del correo</value>
+    <comment>POP3 mail inbound pipe name</comment>
+  </data>
+  <data name="PagePipe" lastModified="2012-08-10T22:20:16">
+    <value>HTML estático en páginas</value>
+    <comment>Page pipe</comment>
+  </data>
+  <data name="AddAnotherExportPipe" lastModified="2012-08-10T22:20:16">
+    <value>Añadir más ...</value>
+    <comment>word: Add another export pipe</comment>
+  </data>
+  <data name="Pop3PipeSettingsImportShortDescription" lastModified="2012-08-10T22:20:16">
+    <value>Importando desde servidor POP3 : {0}, cuenta:{1}</value>
+    <comment>phrase: Importing from POP3 server: {0}, account:{1}</comment>
+  </data>
+  <data name="Pop3ServerName" lastModified="2012-08-10T22:20:16">
+    <value>servidor POP3</value>
+    <comment>phrase: POP3 server</comment>
+  </data>
+  <data name="PagePipeSettingsImportShortDescription" lastModified="2012-08-10T22:20:16">
+    <value>Importación de la página: {0}</value>
+    <comment>phrase: Importing from Page: {0}</comment>
+  </data>
+  <data name="Pop3Account" lastModified="2012-08-10T22:20:16">
+    <value>Cuenta</value>
+    <comment>phrase: Account:</comment>
+  </data>
+  <data name="Pop3ServerPort" lastModified="2012-08-10T22:20:16">
+    <value>Puerto</value>
+    <comment>phrase: Port:</comment>
+  </data>
+  <data name="PublicationDateHeader" lastModified="2012-08-10T22:20:16">
+    <value>Última publicación el</value>
+    <comment>phrase: Last publication on</comment>
+  </data>
+  <data name="SslOption" lastModified="2012-08-10T22:20:16">
+    <value>Usar conexión SSL</value>
+    <comment>phrase: Use SSL Connection</comment>
+  </data>
+  <data name="Pop3SenderFirstName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre del remitente</value>
+    <comment>phrase: Sender first name</comment>
+  </data>
+  <data name="TwitterUrlShorteningServiceAccountLogin" lastModified="2012-08-10T22:20:16">
+    <value>Acceso a la Cuenta</value>
+    <comment>Phrase: Account Login. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="Pop3SenderLastName" lastModified="2012-08-10T22:20:16">
+    <value>Apellidos del Remitente</value>
+    <comment>phrase: Sender last name</comment>
+  </data>
+  <data name="Pop3SenderEmail" lastModified="2012-08-10T22:20:16">
+    <value>Remitente del correo electrónico</value>
+    <comment>phrase: Sender e-mail</comment>
+  </data>
+  <data name="TwitterUrlShorteningServiceLoginNotEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El acceso a la cuenta no puede estar vacío</value>
+    <comment>Phrase: Account Login cannot be empty. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterUrlShorteningServiceApiKeyNotEmpty" lastModified="2012-08-10T22:20:16">
+    <value>La clave de API no puede estar vacía</value>
+    <comment>Phrase: API Key cannot be empty. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="Pop3ReceivedOn" lastModified="2012-08-10T22:20:16">
+    <value>Recibido el</value>
+    <comment>phrase: Received on</comment>
+  </data>
+  <data name="TwitterUrlShorteningServiceName" lastModified="2012-08-10T22:20:16">
+    <value>Servicio de acortamiento</value>
+    <comment>Phrase: Shortening service. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterRegisterBitly" lastModified="2012-08-10T22:20:16">
+    <value>Registre su propia cuenta bit.ly</value>
+    <comment>Phrase: Register an account with bitly. Appears in Administration-&gt;Settings-&gt;Twitter. Link to bitly site</comment>
+  </data>
+  <data name="TwitterStartUsingBitlyApiKey" lastModified="2012-08-10T22:20:16">
+    <value>y obtener una clave API para empezar a usarla en Sitefinity</value>
+    <comment>Phrase: ' and get an API key to start using it in Sitefinity'. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterUrlShortening" lastModified="2012-08-10T22:20:16">
+    <value>Acortado de la URL</value>
+    <comment>Phrase: URL Shortening. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="ShorteningService" lastModified="2012-08-10T22:20:16">
+    <value>Servicio de Acortamiento</value>
+    <comment>Phrase: Shortening Service. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterApplicationName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de la Aplicación</value>
+    <comment>phrase: Application Name</comment>
+  </data>
+  <data name="TwitterAssociatedUsers" lastModified="2012-08-10T22:20:16">
+    <value>Usuarios asociados</value>
+    <comment>phrase: Associated users. Appears in Administration-&gt;Settings-&gt;Twitter as column header</comment>
+  </data>
+  <data name="TwitterUrlShorteningServiceApiKey" lastModified="2012-08-10T22:20:16">
+    <value>Clave de API</value>
+    <comment>Phrase: API Key. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterAssociateTwitterUser" lastModified="2012-08-10T22:20:16">
+    <value>Usuario asociado de Twitter</value>
+    <comment>Phrase: Associate Twitter User. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterNoTwitterApplicationsAdded" lastModified="2012-08-10T22:20:16">
+    <value>No se han agregado aplicaciones de Twitter</value>
+    <comment>phrase: No Twitter applications added. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterDelete" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>phrase: Delete. Appears in Administration-&gt;Settings-&gt;Twitter in grid menu Actions</comment>
+  </data>
+  <data name="TwitterAddedTwitterApplications" lastModified="2012-08-10T22:20:16">
+    <value>Aplicaciones de Twitter agregadas</value>
+    <comment>Phrase: Added Twitter applications. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterAddARegisteredTwitterApplication" lastModified="2012-08-10T22:20:16">
+    <value>Agregar una aplicación de Twitter registrada</value>
+    <comment>phrase: Add a registered Twitter application. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterStartUsingTwitterAPI" lastModified="2012-08-10T22:20:16">
+    <value>para empezar a usar la API de Twitter</value>
+    <comment>Phrase: ' to start using the Twitter API'. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterDontHaveAnApplicationRegisteredInTwitter" lastModified="2012-08-10T22:20:16">
+    <value>¿No tiene una aplicación registrada en Twitter?</value>
+    <comment>Phrase: Don't have an application registered in Twitter?. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterRegisterTwitterApp" lastModified="2012-08-10T22:20:16">
+    <value>Registrar una aplicación en Twitter</value>
+    <comment>Phrase: Register an application in Twitter. Appears in Administration-&gt;Settings-&gt;Twitter. Link to Twitter site</comment>
+  </data>
+  <data name="TwitterWhichTwitterApplicationToUse" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué aplicación de Twitter se debe usar?</value>
+    <comment>Phrase: Which Twitter application to use?. Appears in Administration-&gt;Feeds &amp; Notifications-&gt;Edit feed-&gt;Publish as-&gt;Add more...-&gt;Twitter feed</comment>
+  </data>
+  <data name="TwitterSelectTwitterUserForPublishing" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué aplicación de Twitter se debe usar?</value>
+    <comment>Phrase: Select Twitter user for publishing. Appears in Administration-&gt;Feeds &amp; Notifications-&gt;Edit feed-&gt;Publish as-&gt;Add more...-&gt;Twitter feed</comment>
+  </data>
+  <data name="AccountName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de la Cuenta</value>
+    <comment>Phrase: Account Name. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="TwitterWantToRegisterAnApplicationInTwitter" lastModified="2012-08-10T22:20:16">
+    <value>¿Desea registrar una aplicación en Twitter?</value>
+    <comment>phrase: Want to register an application in Twitter?. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+  </data>
+  <data name="DateOwnerHeader" lastModified="2012-08-10T22:20:16">
+    <value>Creado el/Propietario</value>
+    <comment>phrase: Created on/Owner</comment>
+  </data>
+  <data name="Pop3Password" lastModified="2012-08-10T22:20:16">
+    <value>Contraseña</value>
+    <comment>phrase: Password</comment>
+  </data>
+</root>

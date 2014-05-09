@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SearchResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>Search and Indexes</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="SearchResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>Search and Indexes</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="SearchResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for Search and Indexing service module.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+    <value>Search indexes</value>
+    <comment>The title of the search module.</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+    <value>Provides user interface for creating and managing indexes and controlling search behaviors.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="SearchHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Search and Indexes</value>
+    <comment>The html title of the search module.</comment>
+  </data>
+  <data name="SearchIndexes" lastModified="2014-04-07T14:32:44">
+    <value>Search indexes</value>
+    <comment>phrase: Search indexes</comment>
+  </data>
+  <data name="CreateSearchIndex" lastModified="2014-04-07T14:32:44">
+    <value>Create a search index</value>
+    <comment>phrase: Create a search index</comment>
+  </data>
+  <data name="EditSearchIndex" lastModified="2014-04-07T14:32:44">
+    <value>Edit a search index</value>
+    <comment>phrase: Edit a search index</comment>
+  </data>
+  <data name="Reindex" lastModified="2014-04-07T14:32:44">
+    <value>Reindex</value>
+    <comment>phrase: Start indexing now</comment>
+  </data>
+  <data name="LastIndexing" lastModified="2014-04-07T14:32:44">
+    <value>Last indexing</value>
+    <comment>phrase: Last indexing</comment>
+  </data>
+  <data name="Name" lastModified="2014-04-07T14:32:44">
+    <value>Name</value>
+    <comment>word: Name</comment>
+  </data>
+  <data name="Index" lastModified="2014-04-07T14:32:44">
+    <value>Index</value>
+    <comment>word: Index</comment>
+  </data>
+  <data name="AutoIndex" lastModified="2014-04-07T14:32:44">
+    <value>Auto-index</value>
+    <comment>phrase: Auto-index</comment>
+  </data>
+  <data name="NotAutoIndex" lastModified="2014-04-07T14:32:44">
+    <value>Not auto-index</value>
+    <comment>phrase: Not auto-index</comment>
+  </data>
+  <data name="CreateThisSearchIndex" lastModified="2014-04-07T14:32:44">
+    <value>Create this search index</value>
+    <comment>phrase: Create this search index</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>phrase: Save changes</comment>
+  </data>
+  <data name="NameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Name cannot be empty</value>
+    <comment>phrase: Name cannot be empty</comment>
+  </data>
+  <data name="NoSearchIndexes" lastModified="2014-04-07T14:32:44">
+    <value>No search indexes have been created yet</value>
+    <comment>phrase: No search indexes have been created yet</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" lastModified="2014-04-07T14:32:44">
+    <value>What do you want to do now?</value>
+    <comment>phrase: What do you want to do now?</comment>
+  </data>
+  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+    <value>Go back</value>
+    <comment>phrase: Go back</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Search indexes</value>
+    <comment>Page group for the Search module.</comment>
+  </data>
+  <data name="SearchUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Search</value>
+    <comment>Search URL name.</comment>
+  </data>
+  <data name="PageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Page group for the Publishing module.</value>
+    <comment>Search Page Group Description</comment>
+  </data>
+  <data name="Search" lastModified="2014-04-07T14:32:44">
+    <value>Search</value>
+    <comment>Word: Search</comment>
+  </data>
+  <data name="SearchBoxTitle" lastModified="2014-04-07T14:32:44">
+    <value>Search</value>
+    <comment>Control title: Search</comment>
+  </data>
+  <data name="SearchBoxDescription" lastModified="2014-04-07T14:32:44">
+    <value>Search box</value>
+    <comment>Control description: A search box control for entering search criteria.</comment>
+  </data>
+  <data name="SearchResultsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Search results</value>
+    <comment>Control title: Search results</comment>
+  </data>
+  <data name="SearchResultsDescription" lastModified="2014-04-07T14:32:44">
+    <value>List of search results</value>
+    <comment>Control description: A control for displaying search results.</comment>
+  </data>
+  <data name="InvalidIndex" lastModified="2014-04-07T14:32:44">
+    <value>Invalid index: {0}</value>
+    <comment>Phrase: Invalid index: {0}</comment>
+  </data>
+  <data name="SearchResultsViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>Search results - list</value>
+    <comment>Phrase: Search results - list</comment>
+  </data>
+  <data name="Scope" lastModified="2014-04-07T14:32:44">
+    <value>Scope</value>
+    <comment>Word: Scope</comment>
+  </data>
+  <data name="DefineWhatTypeOfContentWillBeIndexed" lastModified="2014-04-07T14:32:44">
+    <value>Define what type of content will be indexed</value>
+    <comment>Word: Define what type of content will be indexed</comment>
+  </data>
+  <data name="SearchResultsStatusMessage" lastModified="2014-04-07T14:32:44">
+    <value>{0} search results for &lt;strong&gt;{1}&lt;/strong&gt;</value>
+    <comment>Phrase: {0} search results for &lt;strong&gt;{1}&lt;/strong&gt;</comment>
+  </data>
+  <data name="SearchBoxEmptyLinkText" lastModified="2014-04-07T14:32:44">
+    <value>Set where to search</value>
+    <comment>phrase: Set where to search</comment>
+  </data>
+  <data name="SearchBoxDesignerIndexTitle" lastModified="2014-04-07T14:32:44">
+    <value>Which feed to display?</value>
+    <comment>phrase: Which feed to display?</comment>
+  </data>
+  <data name="SearchBoxDesignerRequiredIndexMessage" lastModified="2014-04-07T14:32:44">
+    <value>Please select where to search.</value>
+    <comment>phrase: Please select where to search.</comment>
+  </data>
+  <data name="SearchBoxDesignerIndexDescription" lastModified="2014-04-07T14:32:44">
+    <value>Here are listed search indexes created in&lt;br /&gt;&lt;em&gt;Administration &amp;gt; Search indexes&lt;/em&gt;</value>
+    <comment>phrase: Here are listed search indexes created in&lt;br /&gt;&lt;em&gt;Administration &amp;gt; Search indexes&lt;/em&gt;</comment>
+  </data>
+  <data name="SearchBoxDesignerPageTitle" lastModified="2014-04-07T14:32:44">
+    <value>Where to display search results?</value>
+    <comment>phrase: Where to display search results?</comment>
+  </data>
+  <data name="SearchBoxDesignerRequiredPageMessage" lastModified="2014-04-07T14:32:44">
+    <value>Please select where to display search results.</value>
+    <comment>phrase: Please select where to display search results.</comment>
+  </data>
+  <data name="SearchBoxDesignerPageDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the page where you have &lt;strong&gt;dropped &lt;em&gt;Search results&lt;/em&gt; widget&lt;/strong&gt;</value>
+    <comment>phrase: This is the page where you have &lt;strong&gt;dropped &lt;em&gt;Search results&lt;/em&gt; widget&lt;/strong&gt;</comment>
+  </data>
+  <data name="SearchBoxDesignerNoSearchIndexesCreated" lastModified="2014-04-07T14:32:44">
+    <value>No search indexes created</value>
+    <comment>phrase: No search indexes created</comment>
+  </data>
+  <data name="ShowSearchBoxAbove" lastModified="2014-04-07T14:32:44">
+    <value>Show search box above the results</value>
+    <comment>phrase: Show search box above the results</comment>
+  </data>
+  <data name="ShowSearchBoxBelow" lastModified="2014-04-07T14:32:44">
+    <value>Show search box below the results</value>
+    <comment>phrase: Show search box below the results</comment>
+  </data>
+  <data name="DuplicateSearchIndexTitle" lastModified="2014-04-07T14:32:44">
+    <value>A search index with this name already exists.</value>
+    <comment>Error message: Duplicate search index title.</comment>
+  </data>
+  <data name="SelectIndex" lastModified="2014-04-07T14:32:44">
+    <value>Select index</value>
+    <comment>phrase: Select index</comment>
+  </data>
+  <data name="SearchConfig" lastModified="2014-04-07T14:32:44">
+    <value>Search settings</value>
+    <comment>phrase: Search settings</comment>
+  </data>
+  <data name="IndexingInProgress" lastModified="2014-04-07T14:32:44">
+    <value>Indexing in progress...</value>
+    <comment>phrase: Indexing in progress...</comment>
+  </data>
+  <data name="AdvancedSection" lastModified="2014-04-07T14:32:44">
+    <value>Advanced &lt;em class='sfNote'&gt;(for developers)&lt;/em&gt;</value>
+    <comment>The title of the 'Advanced' section in the Backend Detail View form.</comment>
+  </data>
+  <data name="AdditionalFieldsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Additional fields for indexing</value>
+    <comment>The title of the 'Additional fields' field in the Backend Detail View form.</comment>
+  </data>
+  <data name="AdditionalFieldsDescription" lastModified="2014-04-07T14:32:44">
+    <value>You can manually include different fields (static or dynamic) in the search index. Note that these fields should be of type short or long text. Separate with comma.</value>
+    <comment>The description of the 'Advanced settings' field in the Backend Detail View form.</comment>
+  </data>
+  <data name="AdditionalFieldsExample" lastModified="2014-04-07T14:32:44">
+    <value>Example: Author, SourceName</value>
+    <comment>The example of the 'Advanced settings' field in the Backend Detail View form.</comment>
+  </data>
+  <data name="AdditionalFieldsErrorMessage" lastModified="2014-04-07T14:32:44">
+    <value>You have entered invalid symbols. Use letters, numbers and "_" symbol.</value>
+    <comment>The error message of the 'Advanced settings' field in the Backend Detail View form.</comment>
+  </data>
+</root>

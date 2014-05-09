@@ -1,0 +1,782 @@
+
+/*===================================================================================
+===================================================================================*/
+
+
+@media all and (max-width: 1200px) {
+
+	/*--------- GENERIC --------------*/
+	#wrapper {
+		width: 100%;
+		left: 0;
+		margin: 0;
+		box-shadow: none;
+	}
+
+	.topbox {
+		.sf_colsOut  {
+			width: 100% !important;
+			margin-bottom: 10px;
+		}
+	}
+
+
+	.featured,
+	.products {
+		img {
+			width: 100%;
+		}
+	}
+
+	/*--------- NEWS --------------*/
+	.sfnewsDetails{
+		img {
+			width: 100%;
+		}
+	}
+
+	/*--------- CAREERS --------------*/
+
+	.careers-header {
+		margin: 0 !important;
+		width: 100%;
+		background-size: 100%;
+		height: auto;
+		padding-top: 150px;
+
+		h1 {
+			position: relative;
+			width: 90%;
+			bottom: 0;
+			top: auto;
+			padding: 30px 5% !important;
+		}
+	}
+
+	.office-header {
+		width: 100%;
+		margin: 0;
+		left: 0;
+		overflow: hidden;
+		h1 {
+			font-size: 45px !important;
+		}
+	}
+
+
+}
+
+/*===================================================================================
+===================================================================================*/
+
+@media all and (max-width: 1024px) {
+
+
+	/*--------- GENERIC --------------*/
+	#content .banner {
+		padding: 40px 30px;
+		text-align: center;
+
+		img {
+			position: relative;
+		}
+
+
+		a {
+			display: block;
+			max-width: 260px;
+			left: 50%;
+			margin-left: -130px;
+			position: relative;
+		}
+	}
+
+	#logo {
+		position: relative;
+		float: left;
+		left: 50%;
+		margin-left: -110px;
+	}
+
+	#wrapper {
+		padding-bottom: 200px;
+	}
+
+	.headerright {
+		margin-top: 20px !important;
+	}
+
+	.headerright,
+	.headerleft {
+		width: 100% !important;
+
+
+		#langsWrapper,
+		.login,
+		.sfsearchBox {
+			float: left;
+		}
+
+		#langsWrapper {
+			margin-right: 20px;
+		}
+		.login {
+			border: 0;
+		}
+
+		.topnav {
+			float: left;
+		}
+	}
+
+	.topbox {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		left: 0;
+		border-top: 1px solid #eee;
+		padding: 20px 0 0 0;
+	}
+
+	#top-sellers {
+		ul {
+			li {
+				width: 33%;
+				padding: 0;
+				margin: 0;
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	body.navigation {
+		.topnav {
+			display: block;
+		}
+	}
+
+	.topnav {
+		display: none;
+		position: absolute;
+		right: 0;
+		top: -15px;
+		height: 100%;
+		width: 230px;
+		padding: 70px 0 0 20px;
+		background: #fff;
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+		z-index: 2;
+		
+
+
+		.k-menu {
+			.k-item {
+				width: 100%;
+				min-height: 0;
+
+				.k-link {
+					padding: 8px;
+					font-size: 11px;
+				}
+
+				.k-group {
+					box-shadow: none;
+					border: 0;
+					border-bottom: 1px solid #ddd;
+					position: relative;
+					display: block;
+					padding: 0;
+					margin: 0;
+
+					.k-item {
+						border: 0;
+						padding: 0;
+						margin: 0;
+					}
+				}
+
+				&:first-child {
+					.k-group {
+						width: auto;
+						min-height: 0;
+						padding: 0;
+						background: none;
+					}
+				}
+			}
+		}
+	}
+
+	#toggle {
+		display: block;
+	}
+
+	.sidebar,
+	.main {
+		border: 0;
+		width: 100% !important;
+	}
+
+	.browse-products {
+		display: block;
+		padding-top: 20px;
+	}
+
+
+
+	#content {
+		.sidebar {
+
+			.sf_colsIn.sf_2cols_1in_25  {
+				margin: 0 !important;
+			}
+
+			.RadSiteMap_leftnav {
+				display: none;
+				margin: 10px 0 0 0;
+
+				.rsmList  {
+					width: 100%;
+					float: left;
+
+					.rsmItem {
+						width: 23%;
+						margin: 0 2% 0 0;
+						float: left;
+						clear: none;
+
+						.rsmItem {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	body.products {
+		#content .sidebar .RadSiteMap_leftnav {display: block}
+	}
+
+
+	/*--------- BLOGS --------------*/
+	.sfpostsList  {
+		width: 100%;
+
+		li.sfpostListItem {
+			height: auto;
+			width: 45% !important;
+			margin: 0;
+			padding: 0 3% 0 0 !important;
+			border: 0;
+		}
+	}
+
+
+	/*--------- ECOMMERCE --------------*/
+	#content {
+		.sfShopByFilterGroupList  {
+			display: none;
+			border-bottom: 1px solid #eee;
+			float: left;
+			width: 100%;
+			padding: 0 0 30px 0;
+
+			.sfShopByFilterGroupListItem {
+				width: 33%;
+				float: left;
+			}
+		}
+
+		.sffilterClearLnk {
+			display: none;
+		}
+
+		.sffilterTitle {
+			text-align: center;
+			font-size: 13px;
+			font-weight: 600;
+			cursor: pointer;
+		}
+	}
+
+	body.filters {
+		#content {
+			.sfShopByFilterGroupList,
+			.sffilterClearLnk {
+				display: block;
+			}
+		}
+	}
+
+	.selectedStep () {
+		background-color: @accent;
+		color: #fff;
+
+		.sfStep {
+			color: @accent;
+		}
+	}
+
+
+
+
+	.sfcheckoutTabstrip {
+		.rtsLink {
+			padding: 10px;
+			background-image: none;
+		}
+
+		&.sfCStep0 {.sfStep1{.selectedStep}}
+		&.sfCStep1 {.sfStep1,.sfStep2{.selectedStep}}
+		&.sfCStep2 {.sfStep1,.sfStep2,.sfStep3{.selectedStep}}
+		&.sfCStep3 {.sfStep1,.sfStep2,.sfStep3,.sfStep4{.selectedStep}}
+		&.sfCStep4 {.sfStep5{.selectedStep}}
+		&.sfCStep5 {.sfStep6{.selectedStep}}
+	}
+}
+
+
+/*===================================================================================
+===================================================================================*/
+
+@media all and (max-width: 800px) {
+
+	/*--------- CAREERS --------------*/
+	.office-header {
+		img {
+			display: none;
+		}
+
+		h1 {
+			color: black;
+			text-shadow: none;
+		}
+	}
+
+	.office-contacts {
+		color: black;
+	}
+
+	.office-contacts,
+	.office-header {
+		float: left;
+		position: relative;
+		height: auto;
+		text-align: left;
+		top: auto;
+		right: auto;
+
+		h1 {
+			position: relative;
+			left: 0; 
+			margin-bottom: 30px;
+		}
+	} 
+
+	/*--------- GENERIC --------------*/
+	.main {
+		.sf_colsIn.sf_2cols_2in_75 {
+			margin: 0 !important;
+		}		
+	}
+
+	#top-sellers {
+		ul {
+			li {
+				width: 45%;
+				margin: 0 5% 0 0;
+			}
+		}
+	}
+
+	#content {
+
+
+	}
+
+	#content {
+		.banner {img { width: 100%;}}
+
+		.sidebar {
+			.RadSiteMap_leftnav {
+				.rsmList  {
+					.rsmItem {
+						width: 48%;
+						margin: 0 2% 10px 0;
+
+						.rsmItem {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+
+		.specifications  {
+			border: 0;
+		}
+	}
+
+	.product-list {
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		a {
+			margin-top: 20px;
+		}
+	}
+	
+	/*--------- ECOMMERCE --------------*/
+	.sfproductsList {
+		li.sfproductListItem {
+			width: 50%;
+		}
+	}
+
+	.sfproductDetails  {
+		.sfproductImgsWrp, 
+		.sfproductInfoWrp	{
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+	}
+
+	.sfcheckoutTabstrip {
+		.rtsLI  {
+			text-transform: uppercase;
+			width: 100%;
+		}
+	}
+
+	.sfCheckoutPreviewShippingAndPayment {
+		width: 100%;
+
+		.CheckoutPreviewShipping,
+		.sfCheckoutPreviewPayment {
+			width: 100%;
+
+			.sfcheckoutPreviewAddressBlock {
+				width: 50%;
+				margin: 15px 0;
+			}
+		}
+	}
+
+	.sfcheckoutPreviewProduct, 
+	.sfordersListDetailView {
+		width: 100%;
+		padding: 0;
+		margin: 20px 0 0 0;
+		border: 0;
+	}
+
+	.sforderBriefInfoWrp {
+		width: 100%;
+		border: 0;
+	}
+
+	/*--------- WHISHLIST --------------*/
+	.sfwishListWrp {
+		.rgMasterTable {
+			.sfTxt {
+				width: 30px;
+			}
+		}
+	}
+
+
+	/*--------- GALLERIA --------------*/
+	.galleria-container {
+		height: auto;
+
+		.galleria-stage{
+			.galleria-images { 
+				.galleria-image {
+					width: 100% !important;
+					height: auto !important;
+
+					img {
+						left: 0 !important;
+						width: 100% !important;
+						height: auto !important;
+					}
+				}
+			}
+		}
+
+
+		.galleria-thumbnails-container {
+			display: none;
+		}
+	}
+
+	/*--------- FORUMS --------------*/
+	.sfforumThreadPostList{
+		.sfforumThreadPost {
+			.sfforumThreadPostUser {
+				width: 30%;
+			}
+
+			.sfforumThreadPostContentWrp {
+				width: 68%;
+			}
+		}
+	}
+}
+
+
+/*===================================================================================
+===================================================================================*/
+
+@media all and (max-width: 640px) {
+
+	/*--------- GENERIC --------------*/
+	#content {
+		padding: 20px;
+	}
+
+	#logo {
+		left: 0;
+		margin-left: 0;
+	}
+
+	#top-sellers {
+		ul {
+			li {
+				width: 100%;
+				margin: 0;
+			}
+		}
+	}
+
+	#content {
+		.banner {		
+			padding: 20px 0;
+			background: none;
+			text-align: left;
+
+			h1 {
+				font-size: 30px;
+				line-height: 40px;
+				font-weight: 400;
+			}
+
+			a {
+				max-width: 0px;
+				min-width: 180px;
+				left: auto;
+				margin: 20px 0;
+			}
+		}
+
+		.sidebar {
+			.sfShopByFilterGroupList  {
+				.sfShopByFilterGroupListItem {
+					width: 50%;
+				}
+			}
+		}
+	}
+
+	.sfcalendarWrp  {
+		display: none;
+	}
+
+	/*--------- CAREERS --------------*/
+	#content .careers-header {
+		padding-top: 100px;
+
+		h1 {
+			letter-spacing: 0;
+			font-size: 24px !important;
+			line-height: 30px !important;
+		}
+	}
+
+
+	/*--------- BLOGS --------------*/
+	.sfpostsList  {
+		li.sfpostListItem {
+			width: 100% !important;
+			padding: 0;
+		}
+	}
+
+	/*--------- FORUMS --------------*/
+	.sfforumsList {
+		tr {
+			td.sfforumLastPostWrp,
+			td.sfforumThreadsCountWrp {
+				display: none;
+			}
+		}
+	}
+
+	.sfforumThreadsList {
+		tr {
+			.sfforumThreadPostsWrp,
+			.sfforumThreadViewsWrp {
+				display: none;
+			}
+		}
+	}
+
+	/*--------- ECOMMERCE --------------*/
+	.sfCheckoutPreviewShippingAndPayment {
+		.CheckoutPreviewShipping,
+		.sfCheckoutPreviewPayment {
+			.sfcheckoutPreviewAddressBlock {
+				width: 100%;
+			}
+		}
+	}
+
+	.sfcheckoutPreviewProduct,
+	.sfordersListDetailView {
+		.rgMasterTable {
+			.sfSingleItmPriceCol,
+			.sfItmQuantityCol,
+			.sfItmOptionsCol {
+				display: none;
+			}
+		}
+	}
+
+	/*--------- WHISHLIST --------------*/
+	.sfwishListWrp {
+		.rgMasterTable {
+			.sfItmTmbCol,
+			.sfItmOptionsCol,
+			.sfSingleItmPriceCol {
+				display: none;
+			}
+		}
+	}
+
+
+	/*--------- DOWNLOADS --------------*/
+	.sfdownloadTable  {
+		.rgMasterTable {
+			td,th {
+				display: block;
+				width: 100%;
+
+				&.sfdownloadType,
+				&.sfdownloadSize,
+				&.sfdownloadDate {
+					display: none !important; 
+				}
+			}
+		}
+	}
+}
+
+
+/*===================================================================================
+===================================================================================*/
+
+
+@media all and (max-width: 480px) {
+	/*--------- GENERIC --------------*/
+	#content {
+		.banner {
+
+			img{
+				display: none;
+			}
+		}
+
+		.sidebar {
+			.RadSiteMap_leftnav {
+				.rsmList  {
+
+					.rsmItem {
+						width: 100%;
+						margin: 0 0 10px 0;
+
+						.rsmItem {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+
+			.sfShopByFilterGroupList  {
+				.sfShopByFilterGroupListItem {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	/*--------- FORUMS --------------*/
+	.sfforumsList {
+		tr {
+			td.sfforumPostsCountWrp {
+				display: none;
+			}
+		}
+	}
+
+	.sfforumThreadPostList{
+		.sfforumThreadPost {
+			.sfforumThreadPostUser {
+				width: 100%;
+			}
+
+			.sfforumThreadPostContentWrp {
+				width: 100%;
+				border: 0;
+			}
+		}
+	}
+
+	/*--------- ECOMMERCE --------------*/
+	.sfproductsList {
+		li.sfproductListItem {
+			width: 100%;
+			height: auto !important;
+
+			.sfproductTmbWrp  {
+				width: 100%;
+				position: relative;
+				height: auto;
+
+				a {
+					width: 100% !important;
+					height: auto;
+
+					img {
+						position: relative;
+						width: 100%;
+						height: auto;
+					}
+
+					&:hover {
+						width: 100%;
+						height: auto;
+
+						img {
+							width: 100%;
+							height: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.sfcartSummaryExpandableWrp {
+		 .sfcartSummaryDetailsWrp {
+		 	width: 220px;
+		 }
+	}
+}

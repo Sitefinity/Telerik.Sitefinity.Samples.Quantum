@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MigrationResourcesTitle" lastModified="2012-08-10T22:20:16">
+    <value>Migración de Sitefinity 3.7</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="MigrationTitle" lastModified="2012-08-10T22:20:16">
+    <value>Migración de Sitefinity 3.7</value>
+    <comment>Title for the Migration module.</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Migración</value>
+    <comment>Title of the migration page group.</comment>
+  </data>
+  <data name="MigrationResourcesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables para la interfaz de usuario de migración.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="MigrationUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Migración</value>
+    <comment>Migration URL name.</comment>
+  </data>
+  <data name="MigrationDescription" lastModified="2012-08-10T22:20:16">
+    <value>Representa una página de destino para el módulo Migración de Sitefinity.</value>
+    <comment>The description of the Migration module landing page.</comment>
+  </data>
+  <data name="MigrationHtmlTitle" lastModified="2012-08-10T22:20:16">
+    <value>Migración</value>
+    <comment>Html Title for the Migration module.</comment>
+  </data>
+  <data name="MigrationToolBetaMessage" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Este módulo está en proceso de implementación y algunas operaciones pueden ser inestables.&lt;/strong&gt;&lt;br /&gt; Le recomendamos utilizar este módulo solo para migrar los datos antiguos de Sitefinity 3.7, sin tener ningún dato creados en el nuevo sitio.&lt;br /&gt;Lea las &lt;a href="http://www.sitefinity.com/devnet/forums/sitefinity-4-x/migrating-from-3-to-4/migration-module-changelog.aspx" target="_blank"&gt;notas de lanzamiento en nuestro sitio web&lt;/a&gt; para informarse sobre las recientes implementaciones, mejoras y correcciones de errores.</value>
+    <comment>&lt;strong&gt;This module is in process of implementation and some operations might be unstable.&lt;/strong&gt;&lt;br /&gt;We recommend using this module only to migrate old data from Sitefinity 3.7, without having any data created in the new site.&lt;br /&gt;Read the &lt;a href="h</comment>
+  </data>
+  <data name="ModuleIsNotLicensed" lastModified="2012-08-10T22:20:16">
+    <value>La funcionalidad de migración no está disponible para su tipo de licencia. &lt;a href="http://www.sitefinity.com/purchase/license-comparison.aspx" target="_blank"&gt;Actualizar&lt;/a&gt;</value>
+    <comment>Migration functionality is not available for your type of license.</comment>
+  </data>
+  <data name="PageGroupNodeDescription" lastModified="2012-08-10T22:20:16">
+    <value>Éste es el grupo de páginas que contiene todas las páginas para el módulo de migración.</value>
+    <comment>migration Page Group Description</comment>
+  </data>
+  <data name="MigrationResourcesTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>Migración</value>
+    <comment>Title plural for the Migration module.</comment>
+  </data>
+  <data name="UserControlLoadProblemMessage" lastModified="2012-08-10T22:20:16">
+    <value>Este control no puede visualizarse correctamente debido a lo siguiente: {0}</value>
+    <comment>The message is displayed when migrated user control fails to load.</comment>
+  </data>
+  <data name="MigrationBuilderTypeDescription" lastModified="2012-08-10T22:20:16">
+    <value>Tipo de constructor utilizado para migrar un widget de Sitefinity 3.7 a Sitefinity 4. El tipo debe implementar la interfaz "Telerik.Sitefinity.Modules.Migration.Strategies.WidgetBuilders.IWidgetBuilder" o heredar de la clase WidgetBuilderBase.</value>
+    <comment>phrase: The description for the MigrationBuilderType property in the MigrationWidgetBuilderElement</comment>
+  </data>
+  <data name="ControlTypeNameDescription" lastModified="2012-08-10T22:20:16">
+    <value>Nombre completo del widget 3.7 a migrar, sin la información de montaje. Ejemplo: Telerik.Listas.WebControls.ListDisplay o ASP.sitefinity_usercontrols_login_logincontrol_ascx.</value>
+    <comment>phrase: The description for the ControlTypeName property in the MigrationWidgetBuilderElement</comment>
+  </data>
+  <data name="MigrationBuilderTypeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Tipo de constructor de widgets (en Sitefinity 4.x)</value>
+    <comment>phrase: The title for the MigrationBuilderType property in the MigrationWidgetBuilderElement</comment>
+  </data>
+  <data name="WidgetBuildersMapDescription" lastModified="2012-08-10T22:20:16">
+    <value>Los constructores de widgets se utilizan para migrar los widgets Sitefinity 3.7 a 4.x</value>
+    <comment>phrase: The description for the WidgetBuildersMap property in the MigrationWidgetBuilderElement</comment>
+  </data>
+  <data name="WidgetBuildersMapTitle" lastModified="2012-08-10T22:20:16">
+    <value>Constructores de widget</value>
+    <comment>phrase: The title for the WidgetBuildersMap property in the MigrationWidgetBuilderElement</comment>
+  </data>
+  <data name="ControlTypeNameTitle" lastModified="2012-08-10T22:20:16">
+    <value>Tipo de control (en Sitefinity 3.7)</value>
+    <comment>phrase: The title for the ControlTypeName property in the MigrationWidgetBuilderElement</comment>
+  </data>
+  <data name="OpenAccessMembership37Provider" lastModified="2012-08-10T22:20:16">
+    <value>OpenAccessMembership37Provider</value>
+    <comment>The title of the default backend membership 3.7 provider.</comment>
+  </data>
+</root>

@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddText" lastModified="2012-08-10T22:20:16">
+    <value>Añadir Texto</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="RadImageEditorMainDescription" lastModified="2012-08-10T22:20:16">
+    <value>Cadenas de recursos para RadImageEditor.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="RadImageEditorMainTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>Principal de RadImageEditor</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="RadImageEditorMainTitle" lastModified="2012-08-10T22:20:16">
+    <value>Principal de RadImageEditor</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="Common_ZoomOut" lastModified="2012-08-10T22:20:16">
+    <value>Alejar</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Crop" lastModified="2012-08-10T22:20:16">
+    <value>Cortar</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Print" lastModified="2012-08-10T22:20:16">
+    <value>Imprimir Imagen</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Flip" lastModified="2012-08-10T22:20:16">
+    <value>Rotar</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="FlipBoth" lastModified="2012-08-10T22:20:16">
+    <value>Voltear ambos</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="FlipVertical" lastModified="2012-08-10T22:20:16">
+    <value>Voltear Verticalmente</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="InsertImage" lastModified="2012-08-10T22:20:16">
+    <value>Insertar Imagen</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="FlipHorizontal" lastModified="2012-08-10T22:20:16">
+    <value>Voltear Horizontalmente</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Common_ZoomIn" lastModified="2012-08-10T22:20:16">
+    <value>Acercar</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Redo" lastModified="2012-08-10T22:20:16">
+    <value>Rehacer</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Reset" lastModified="2012-08-10T22:20:16">
+    <value>Restablecer Cambios</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Resize" lastModified="2012-08-10T22:20:16">
+    <value>Cambiar tamaño</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="ReservedResource" lastModified="2012-08-10T22:20:16">
+    <value>Por favor, no elimine esta cadena.</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="RotateLeft" lastModified="2012-08-10T22:20:16">
+    <value>Gire 90 grados a la izquierda</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="RotateRight" lastModified="2012-08-10T22:20:16">
+    <value>Gire 90 grados a la derecha</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Save" lastModified="2012-08-10T22:20:16">
+    <value>Guardar Imagen</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Opacity" lastModified="2012-08-10T22:20:16">
+    <value>Opacidad</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="StatusBar_Position" lastModified="2012-08-10T22:20:16">
+    <value>Pos.</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="StatusBar_LastAction" lastModified="2012-08-10T22:20:16">
+    <value>Última Acción</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="StatusBar_Size" lastModified="2012-08-10T22:20:16">
+    <value>Tamaño</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="StatusBar_Zoom" lastModified="2012-08-10T22:20:16">
+    <value>Zoom</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Undo" lastModified="2012-08-10T22:20:16">
+    <value>Deshacer</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Common_Close" lastModified="2012-08-10T22:20:16">
+    <value>Cerrar</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Zoom" lastModified="2012-08-10T22:20:16">
+    <value>Zoom</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+  <data name="Rotate" lastModified="2012-08-10T22:20:16">
+    <value>Girar</value>
+    <comment>RadImageEditorMain resource strings.</comment>
+  </data>
+</root>

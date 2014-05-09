@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RadSchedulerMainTitle" lastModified="2014-04-07T14:32:44">
+    <value>RadScheduler Main</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="RadSchedulerMainTitlePlural" lastModified="2014-04-07T14:32:44">
+    <value>RadScheduler Main</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="RadSchedulerMainDescription" lastModified="2014-04-07T14:32:44">
+    <value>Resource strings for RadScheduler.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+    <value>Please do not remove this key.</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedAllDayEvent" lastModified="2014-04-07T14:32:44">
+    <value>All day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedDaily" lastModified="2014-04-07T14:32:44">
+    <value>Daily</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedDay" lastModified="2014-04-07T14:32:44">
+    <value>Day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedDays" lastModified="2014-04-07T14:32:44">
+    <value>day(s)</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedSubject" lastModified="2014-04-07T14:32:44">
+    <value>Subject</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedDescription" lastModified="2014-04-07T14:32:44">
+    <value>Description</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedEndAfter" lastModified="2014-04-07T14:32:44">
+    <value>End after</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedEndByThisDate" lastModified="2014-04-07T14:32:44">
+    <value>End by</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedEvery" lastModified="2014-04-07T14:32:44">
+    <value>Every</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedEveryWeekday" lastModified="2014-04-07T14:32:44">
+    <value>Every weekday</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedFirst" lastModified="2014-04-07T14:32:44">
+    <value>first</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedFourth" lastModified="2014-04-07T14:32:44">
+    <value>fourth</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedFrom" lastModified="2014-04-07T14:32:44">
+    <value>Start time</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedHourly" lastModified="2014-04-07T14:32:44">
+    <value>Hourly</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedHours" lastModified="2014-04-07T14:32:44">
+    <value>hour(s)</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedLast" lastModified="2014-04-07T14:32:44">
+    <value>last</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedMaskDay" lastModified="2014-04-07T14:32:44">
+    <value>day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedMaskWeekday" lastModified="2014-04-07T14:32:44">
+    <value>weekday</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedMaskWeekendDay" lastModified="2014-04-07T14:32:44">
+    <value>weekend day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedMonthly" lastModified="2014-04-07T14:32:44">
+    <value>Monthly</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedMonths" lastModified="2014-04-07T14:32:44">
+    <value>month(s)</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedMoreDetails" lastModified="2014-04-07T14:32:44">
+    <value>More details</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedNoEndDate" lastModified="2014-04-07T14:32:44">
+    <value>No end date</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedOccurrences" lastModified="2014-04-07T14:32:44">
+    <value>occurrences</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedOf" lastModified="2014-04-07T14:32:44">
+    <value>of</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedOfEvery" lastModified="2014-04-07T14:32:44">
+    <value>of every</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedRange" lastModified="2014-04-07T14:32:44">
+    <value>Range of recurrence:</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedRecurEvery" lastModified="2014-04-07T14:32:44">
+    <value>Recur every</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedRecurrence" lastModified="2014-04-07T14:32:44">
+    <value>Recurrence</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedRecurringAppointment" lastModified="2014-04-07T14:32:44">
+    <value>Recurring task</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedReset" lastModified="2014-04-07T14:32:44">
+    <value>reset exceptions</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedSecond" lastModified="2014-04-07T14:32:44">
+    <value>second</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedThe" lastModified="2014-04-07T14:32:44">
+    <value>The</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedThird" lastModified="2014-04-07T14:32:44">
+    <value>third</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedTo" lastModified="2014-04-07T14:32:44">
+    <value>End time</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedWeekly" lastModified="2014-04-07T14:32:44">
+    <value>Weekly</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedWeeks" lastModified="2014-04-07T14:32:44">
+    <value>week(s) on</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedYearly" lastModified="2014-04-07T14:32:44">
+    <value>Yearly</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AllDay" lastModified="2014-04-07T14:32:44">
+    <value>all day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmCancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmDeleteText" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete this appointment?</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmDeleteTitle" lastModified="2014-04-07T14:32:44">
+    <value>Confirm delete</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmOK" lastModified="2014-04-07T14:32:44">
+    <value>OK</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceDeleteOccurrence" lastModified="2014-04-07T14:32:44">
+    <value>Delete only this occurrence.</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceDeleteSeries" lastModified="2014-04-07T14:32:44">
+    <value>Delete the series.</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceDeleteTitle" lastModified="2014-04-07T14:32:44">
+    <value>Deleting a recurring appointment</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceEditOccurrence" lastModified="2014-04-07T14:32:44">
+    <value>Edit only this occurrence.</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceEditSeries" lastModified="2014-04-07T14:32:44">
+    <value>Edit the series.</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceEditTitle" lastModified="2014-04-07T14:32:44">
+    <value>Editing a recurring appointment</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceResizeOccurrence" lastModified="2014-04-07T14:32:44">
+    <value>Resize only this occurrence.</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceResizeSeries" lastModified="2014-04-07T14:32:44">
+    <value>Resize the series.</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceResizeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Resizing a recurring appointment</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceMoveOccurrence" lastModified="2014-04-07T14:32:44">
+    <value>Move only this occurrence.</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceMoveSeries" lastModified="2014-04-07T14:32:44">
+    <value>Move the series.</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmRecurrenceMoveTitle" lastModified="2014-04-07T14:32:44">
+    <value>Moving a recurring appointment</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="HeaderDay" lastModified="2014-04-07T14:32:44">
+    <value>Day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="HeaderMonth" lastModified="2014-04-07T14:32:44">
+    <value>Month</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="HeaderTimeline" lastModified="2014-04-07T14:32:44">
+    <value>Timeline</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="HeaderMultiDay" lastModified="2014-04-07T14:32:44">
+    <value>Multi-day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="HeaderNextDay" lastModified="2014-04-07T14:32:44">
+    <value>next day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="HeaderPrevDay" lastModified="2014-04-07T14:32:44">
+    <value>previous day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="HeaderToday" lastModified="2014-04-07T14:32:44">
+    <value>today</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="HeaderWeek" lastModified="2014-04-07T14:32:44">
+    <value>Week</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="Show24Hours" lastModified="2014-04-07T14:32:44">
+    <value>Show 24 hours...</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ShowAdvancedForm" lastModified="2014-04-07T14:32:44">
+    <value>Options</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ShowBusinessHours" lastModified="2014-04-07T14:32:44">
+    <value>Show business hours...</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ShowMore" lastModified="2014-04-07T14:32:44">
+    <value>more...</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedCalendarOK" lastModified="2014-04-07T14:32:44">
+    <value>OK</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedCalendarCancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedCalendarToday" lastModified="2014-04-07T14:32:44">
+    <value>Today</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedSubjectRequired" lastModified="2014-04-07T14:32:44">
+    <value>Please provide appointment subject</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedStartTimeBeforeEndTime" lastModified="2014-04-07T14:32:44">
+    <value>Start time must be before end time</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedStartTimeRequired" lastModified="2014-04-07T14:32:44">
+    <value>Start time is required</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedStartDateRequired" lastModified="2014-04-07T14:32:44">
+    <value>Start date is required</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedEndTimeRequired" lastModified="2014-04-07T14:32:44">
+    <value>End time is required</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedEndDateRequired" lastModified="2014-04-07T14:32:44">
+    <value>End date is required</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedInvalidNumber" lastModified="2014-04-07T14:32:44">
+    <value>Invalid number</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedWorking" lastModified="2014-04-07T14:32:44">
+    <value>Working...</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedDone" lastModified="2014-04-07T14:32:44">
+    <value>Done</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedNewAppointment" lastModified="2014-04-07T14:32:44">
+    <value>New Appointment</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedEditAppointment" lastModified="2014-04-07T14:32:44">
+    <value>Edit Appointment</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedClose" lastModified="2014-04-07T14:32:44">
+    <value>Close</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmResetExceptionsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Confirm reset exceptions</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ConfirmResetExceptionsText" lastModified="2014-04-07T14:32:44">
+    <value>Do you want to delete all existing recurrence exceptions?</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="Save" lastModified="2014-04-07T14:32:44">
+    <value>Save</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ContextMenuAddAppointment" lastModified="2014-04-07T14:32:44">
+    <value>New Appointment</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ContextMenuAddRecurringAppointment" lastModified="2014-04-07T14:32:44">
+    <value>New Recurring Appointment</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ContextMenuDelete" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ContextMenuEdit" lastModified="2014-04-07T14:32:44">
+    <value>Edit</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ContextMenuGoToToday" lastModified="2014-04-07T14:32:44">
+    <value>Go to today</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="Reminder" lastModified="2014-04-07T14:32:44">
+    <value>Reminder</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="Reminders" lastModified="2014-04-07T14:32:44">
+    <value>Reminders</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderDueIn" lastModified="2014-04-07T14:32:44">
+    <value>due in</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderOverdue" lastModified="2014-04-07T14:32:44">
+    <value>overdue</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderMinute" lastModified="2014-04-07T14:32:44">
+    <value>minute</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderMinutes" lastModified="2014-04-07T14:32:44">
+    <value>minutes</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderHour" lastModified="2014-04-07T14:32:44">
+    <value>hour</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderHours" lastModified="2014-04-07T14:32:44">
+    <value>hours</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderDay" lastModified="2014-04-07T14:32:44">
+    <value>day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderDays" lastModified="2014-04-07T14:32:44">
+    <value>days</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderWeek" lastModified="2014-04-07T14:32:44">
+    <value>week</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderWeeks" lastModified="2014-04-07T14:32:44">
+    <value>weeks</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderNone" lastModified="2014-04-07T14:32:44">
+    <value>None</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderSnooze" lastModified="2014-04-07T14:32:44">
+    <value>Snooze</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderDismiss" lastModified="2014-04-07T14:32:44">
+    <value>Dismiss</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderDismissAll" lastModified="2014-04-07T14:32:44">
+    <value>Dismiss All</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderOpenItem" lastModified="2014-04-07T14:32:44">
+    <value>Open Item</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderSnoozeHint" lastModified="2014-04-07T14:32:44">
+    <value>Click Snooze to be reminded again in:</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="ReminderBeforeStart" lastModified="2014-04-07T14:32:44">
+    <value>before start</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedTimeZone" lastModified="2014-04-07T14:32:44">
+    <value>Time zone</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedNever" lastModified="2014-04-07T14:32:44">
+    <value>Never</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedAfter" lastModified="2014-04-07T14:32:44">
+    <value>After</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedDayOfMonth" lastModified="2014-04-07T14:32:44">
+    <value>Day of the month</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedDayOfWeek" lastModified="2014-04-07T14:32:44">
+    <value>Day of the week</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedOn" lastModified="2014-04-07T14:32:44">
+    <value>On</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedRepeat" lastModified="2014-04-07T14:32:44">
+    <value>Repeat</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedRepeatAppointment" lastModified="2014-04-07T14:32:44">
+    <value>Repeat Appointment</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedRepeatEnd" lastModified="2014-04-07T14:32:44">
+    <value>Repeat End</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedRepeatOn" lastModified="2014-04-07T14:32:44">
+    <value>Repeat On</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+  <data name="AdvancedEveryWorkingDay" lastModified="2014-04-07T14:32:44">
+    <value>Every working day</value>
+    <comment>RadSchedulerMain resource strings.</comment>
+  </data>
+</root>

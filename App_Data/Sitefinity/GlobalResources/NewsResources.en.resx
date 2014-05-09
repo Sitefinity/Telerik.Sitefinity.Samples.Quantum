@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NewsResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>News module labels</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="NewsResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for security user interface.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="CategoriesMetafieldTitle" lastModified="2014-04-07T14:32:44">
+    <value>Category</value>
+    <comment>Name of the metafield containing the categories taxonomy for news item.</comment>
+  </data>
+  <data name="CategoriesMetafieldDescription" lastModified="2014-04-07T14:32:44">
+    <value>Defines the category of this content item.</value>
+    <comment>Description of the metafield containing the categories taxonomy for news items.</comment>
+  </data>
+  <data name="TagsMetafieldTitle" lastModified="2014-04-07T14:32:44">
+    <value>Tags</value>
+    <comment>Name of the metafield containing the tags taxonomy for news items.</comment>
+  </data>
+  <data name="TagsMetafieldDescription" lastModified="2014-04-07T14:32:44">
+    <value>Set Tags for this content item.</value>
+    <comment>Description of the metafield containing the tags taxonomy for news items.</comment>
+  </data>
+  <data name="NewsTitle" lastModified="2014-04-07T14:32:44">
+    <value>News</value>
+    <comment>Title for the News module.</comment>
+  </data>
+  <data name="NewsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>News</value>
+    <comment>Html Title for the News module.</comment>
+  </data>
+  <data name="NewsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>News</value>
+    <comment>News URL.</comment>
+  </data>
+  <data name="NewsDescription" lastModified="2014-04-07T14:32:44">
+    <value>NewsDescription</value>
+    <comment>News</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+    <value>News</value>
+    <comment>Title of the news page group.</comment>
+  </data>
+  <data name="PageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is the page group that contains all pages for the news module.</value>
+    <comment>News Page Group Description</comment>
+  </data>
+  <data name="CommentsTitle" lastModified="2014-04-07T14:32:44">
+    <value>Comments</value>
+    <comment>Title of the comments page.</comment>
+  </data>
+  <data name="CommentsHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Comments</value>
+    <comment>Html Title of the comments page.</comment>
+  </data>
+  <data name="CommentsUrlName" lastModified="2014-04-07T14:32:44">
+    <value>Comments</value>
+    <comment>Comments page url</comment>
+  </data>
+  <data name="CommentsDescription" lastModified="2014-04-07T14:32:44">
+    <value>This is a page for moderating comments for the news module.</value>
+    <comment>Comments page description.</comment>
+  </data>
+  <data name="BackToAllNewsItems" lastModified="2014-04-07T14:32:44">
+    <value>Go back to all news articles.</value>
+    <comment>Go back to all news.</comment>
+  </data>
+  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+    <value>Back to News</value>
+    <comment>The text of the back to news link</comment>
+  </data>
+  <data name="NewsCommandPanelTitle" lastModified="2014-04-07T14:32:44">
+    <value>News</value>
+    <comment>Title of the news command panel (the panel shown when viewing all news items).</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisNewsItem" lastModified="2014-04-07T14:32:44">
+    <value>Are you sure you want to delete this news?</value>
+    <comment>Confirmation message when a news is deleted.</comment>
+  </data>
+  <data name="CreateItem" lastModified="2014-04-07T14:32:44">
+    <value>Create a news item</value>
+    <comment>Label of the dialog that creates a news item.</comment>
+  </data>
+  <data name="Create" lastModified="2014-04-07T14:32:44">
+    <value>Create</value>
+    <comment>Label for the buttons that create a news item.</comment>
+  </data>
+  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+  </data>
+  <data name="CreateAndContinue" lastModified="2014-04-07T14:32:44">
+    <value>Create and add another</value>
+    <comment>Label of the dialog that creates a news item without closing the form.</comment>
+  </data>
+  <data name="NewsItem_Data" lastModified="2014-04-07T14:32:44">
+    <value>Data</value>
+    <comment>"Data" section name for News</comment>
+  </data>
+  <data name="NewsItem_Advanced" lastModified="2014-04-07T14:32:44">
+    <value>Advanced</value>
+    <comment>"Advanced" section name for News</comment>
+  </data>
+  <data name="NewsItem_AuthorSourceThumbnail" lastModified="2014-04-07T14:32:44">
+    <value>Author, Source, Thumbnail</value>
+    <comment>"Author, Source, Thumbnail" section name for News</comment>
+  </data>
+  <data name="BackToAllItems" lastModified="2014-04-07T14:32:44">
+    <value>Back to all news</value>
+    <comment>phrase: Back to all news</comment>
+  </data>
+  <data name="CreateNewItem" lastModified="2014-04-07T14:32:44">
+    <value>Create a news item</value>
+    <comment>The title of the create new item dialog</comment>
+  </data>
+  <data name="EditItem" lastModified="2014-04-07T14:32:44">
+    <value>Edit a news</value>
+    <comment>The title of the edit item dialog</comment>
+  </data>
+  <data name="CreateThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Create this news item</value>
+    <comment>phrase: Create this news</comment>
+  </data>
+  <data name="NewsItem_EditItem" lastModified="2014-04-07T14:32:44">
+    <value>Edit a news</value>
+    <comment>phrase: Edit a news</comment>
+  </data>
+  <data name="lTitle" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="lContent" lastModified="2014-04-07T14:32:44">
+    <value>Content</value>
+    <comment>word: Content</comment>
+  </data>
+  <data name="lSummary" lastModified="2014-04-07T14:32:44">
+    <value>Summary</value>
+    <comment>word: Summary</comment>
+  </data>
+  <data name="lCategory" lastModified="2014-04-07T14:32:44">
+    <value>Category</value>
+    <comment>word: Category</comment>
+  </data>
+  <data name="lTags" lastModified="2014-04-07T14:32:44">
+    <value>Tags</value>
+    <comment>word: Tags</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Title cannot be empty</value>
+    <comment>phrase: Title cannot be empty</comment>
+  </data>
+  <data name="ContentCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Content cannot be empty</value>
+    <comment>phrase: Content cannot be empty</comment>
+  </data>
+  <data name="ClickToAddSummary" lastModified="2014-04-07T14:32:44">
+    <value>Click to add summary</value>
+    <comment>phrase: Click to add summary</comment>
+  </data>
+  <data name="AuthorExample" lastModified="2014-04-07T14:32:44">
+    <value>This name will appear as the author of this article on the site.</value>
+    <comment>phrase: This name will appear as the author of this article on the site.</comment>
+  </data>
+  <data name="AuthorSourceThumbnail" lastModified="2014-04-07T14:32:44">
+    <value>Additional info &lt;em class='sfNote'&gt;(Author, Source)&lt;/em&gt;</value>
+    <comment>phrase: Additional info &lt;em class='sfNote'&gt;(Author, Source)&lt;/em&gt;</comment>
+  </data>
+  <data name="SourceName" lastModified="2014-04-07T14:32:44">
+    <value>Source name</value>
+    <comment>phrase: Source name</comment>
+  </data>
+  <data name="SourceSite" lastModified="2014-04-07T14:32:44">
+    <value>Source site</value>
+    <comment>phrase: Source site</comment>
+  </data>
+  <data name="SourceNameExample" lastModified="2014-04-07T14:32:44">
+    <value>Where the news comes from (newspaper, website, magazine).&lt;br /&gt; Example: &lt;em&gt;New York Times&lt;/em&gt;</value>
+    <comment>phrase: Where the news comes from (newspaper, website, magazine).&lt;br /&gt; Example: &lt;em&gt;New York Times&lt;/em&gt;</comment>
+  </data>
+  <data name="SourceURL" lastModified="2014-04-07T14:32:44">
+    <value>Source URL</value>
+    <comment>phrase: Source URL</comment>
+  </data>
+  <data name="SourceURLExample" lastModified="2014-04-07T14:32:44">
+    <value>The URL of the source you have entered &lt;br /&gt;Example: &lt;em&gt;http://www.nytimes.com/&lt;/em&gt;</value>
+    <comment>phrase: The URL of the source you have entered &lt;br /&gt;Example: &lt;em&gt;http://www.nytimes.com/&lt;/em&gt;</comment>
+  </data>
+  <data name="UrlName" lastModified="2014-04-07T14:32:44">
+    <value>URL</value>
+    <comment>phrase: URL</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>URL cannot be empty</value>
+    <comment>phrase: URL cannot be empty</comment>
+  </data>
+  <data name="Status" lastModified="2014-04-07T14:32:44">
+    <value>Status</value>
+    <comment>Word: Status</comment>
+  </data>
+  <data name="PublishOn" lastModified="2014-04-07T14:32:44">
+    <value>Publish on:</value>
+    <comment>Phrase: Publish on:</comment>
+  </data>
+  <data name="ExpiresOn" lastModified="2014-04-07T14:32:44">
+    <value>Expires on:</value>
+    <comment>Phrase: Expires on:</comment>
+  </data>
+  <data name="Language" lastModified="2014-04-07T14:32:44">
+    <value>Language</value>
+    <comment>word: Language</comment>
+  </data>
+  <data name="NewsViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>News</value>
+    <comment>The title of the NewsView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="NewsViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>List of news items</value>
+    <comment>The description of the NewsView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="NewsToolboxSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>News</value>
+    <comment>The title of the toolbox section containing the News module widgets.</comment>
+  </data>
+  <data name="NewsToolboxSectionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains News module widgets.</value>
+    <comment>The description of the toolbox section containing the News module widgets.</comment>
+  </data>
+  <data name="NewsItemsPluralTypeName" lastModified="2014-04-07T14:32:44">
+    <value>News items</value>
+    <comment>News items type name</comment>
+  </data>
+  <data name="NewsItemsSingleTypeName" lastModified="2014-04-07T14:32:44">
+    <value>News item</value>
+    <comment>News items type name</comment>
+  </data>
+  <data name="Title" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="ManageNews" lastModified="2014-04-07T14:32:44">
+    <value>Manage News</value>
+    <comment>word: Manage News</comment>
+  </data>
+  <data name="Categories" lastModified="2014-04-07T14:32:44">
+    <value>Categories</value>
+    <comment>word: Categories</comment>
+  </data>
+  <data name="Tags" lastModified="2014-04-07T14:32:44">
+    <value>Tags</value>
+    <comment>word: Tags</comment>
+  </data>
+  <data name="Comments" lastModified="2014-04-07T14:32:44">
+    <value>Comments</value>
+    <comment>word: Comments</comment>
+  </data>
+  <data name="Author" lastModified="2014-04-07T14:32:44">
+    <value>Author</value>
+    <comment>word: Author</comment>
+  </data>
+  <data name="Date" lastModified="2014-04-07T14:32:44">
+    <value>Date</value>
+    <comment>word: Date</comment>
+  </data>
+  <data name="Publish" lastModified="2014-04-07T14:32:44">
+    <value>Publish</value>
+    <comment>word: Publish</comment>
+  </data>
+  <data name="Unpublish" lastModified="2014-04-07T14:32:44">
+    <value>Unpublish</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="Delete" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>word: Delete</comment>
+  </data>
+  <data name="Search" lastModified="2014-04-07T14:32:44">
+    <value>Search news items...</value>
+    <comment>phrase: Search news items...</comment>
+  </data>
+  <data name="FilterNews" lastModified="2014-04-07T14:32:44">
+    <value>Filter news</value>
+    <comment>phrase: Filter news</comment>
+  </data>
+  <data name="ManageAlso" lastModified="2014-04-07T14:32:44">
+    <value>Manage also</value>
+    <comment>phrase: Manage also</comment>
+  </data>
+  <data name="CommentsForNews" lastModified="2014-04-07T14:32:44">
+    <value>Comments for news</value>
+    <comment>phrase: Comments for news</comment>
+  </data>
+  <data name="Settings" lastModified="2014-04-07T14:32:44">
+    <value>Settings for news</value>
+    <comment>phrase: News Settings</comment>
+  </data>
+  <data name="Permissions" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>word: Permissions</comment>
+  </data>
+  <data name="PermissionsForNews" lastModified="2014-04-07T14:32:44">
+    <value>Permissions</value>
+    <comment>phrase: Permissions for news</comment>
+  </data>
+  <data name="SettingsForNews" lastModified="2014-04-07T14:32:44">
+    <value>Settings</value>
+    <comment>phrase: Settings for news</comment>
+  </data>
+  <data name="PagesWhereNewsArePublished" lastModified="2014-04-07T14:32:44">
+    <value>Pages where News are published</value>
+    <comment>Pages where News are published</comment>
+  </data>
+  <data name="CustomFields" lastModified="2014-04-07T14:32:44">
+    <value>Custom Fields for news</value>
+    <comment>phrase: Custom Fields for news</comment>
+  </data>
+  <data name="MoreActions" lastModified="2014-04-07T14:32:44">
+    <value>More actions</value>
+    <comment>phrase: More actions</comment>
+  </data>
+  <data name="Actions" lastModified="2014-04-07T14:32:44">
+    <value>Actions</value>
+    <comment>word: Actions</comment>
+  </data>
+  <data name="View" lastModified="2014-04-07T14:32:44">
+    <value>View</value>
+    <comment>word: View</comment>
+  </data>
+  <data name="ViewProperties" lastModified="2014-04-07T14:32:44">
+    <value>Properties</value>
+    <comment>word: Properties</comment>
+  </data>
+  <data name="Duplicate" lastModified="2014-04-07T14:32:44">
+    <value>Duplicate</value>
+    <comment>word: Duplicate</comment>
+  </data>
+  <data name="Content" lastModified="2014-04-07T14:32:44">
+    <value>Content</value>
+    <comment>word: Content</comment>
+  </data>
+  <data name="History" lastModified="2014-04-07T14:32:44">
+    <value>History</value>
+    <comment>word: History</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" lastModified="2014-04-07T14:32:44">
+    <value>What do you want to do now?</value>
+    <comment>phrase: What do you want to do now?</comment>
+  </data>
+  <data name="NoNewsItems" lastModified="2014-04-07T14:32:44">
+    <value>No news items have been created yet</value>
+    <comment>phrase: No news items have been created yet</comment>
+  </data>
+  <data name="Edit" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Edit...&lt;/strong&gt;</value>
+    <comment>word</comment>
+  </data>
+  <data name="MoreOptions" lastModified="2014-04-07T14:32:44">
+    <value>More options</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="MoreOptionsURL" lastModified="2014-04-07T14:32:44">
+    <value>More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+  </data>
+  <data name="PublicationDate" lastModified="2014-04-07T14:32:44">
+    <value>Publication Date</value>
+    <comment>phrase: Publication Date</comment>
+  </data>
+  <data name="PublicationDateCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Publication Date cannot be empty.</value>
+    <comment>Publication Date cannot be empty.</comment>
+  </data>
+  <data name="ExpirationDate" lastModified="2014-04-07T14:32:44">
+    <value>Expiration Date</value>
+    <comment>phrase: Expiration Date</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="SetPermissions" lastModified="2014-04-07T14:32:44">
+    <value>Set Permissions</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="ReviewHistory" lastModified="2014-04-07T14:32:44">
+    <value>Revision History</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>Saves the edited news item changes</comment>
+  </data>
+  <data name="NewsViewPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>News</value>
+    <comment>word: News</comment>
+  </data>
+  <data name="VersionComparison" lastModified="2014-04-07T14:32:44">
+    <value>version comparison</value>
+    <comment>word: News</comment>
+  </data>
+  <data name="CategoriesAndTags" lastModified="2014-04-07T14:32:44">
+    <value>Categories and tags</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Owner" lastModified="2014-04-07T14:32:44">
+    <value>Owner</value>
+    <comment>word: Owner</comment>
+  </data>
+  <data name="NewsItemsByCategory" lastModified="2014-04-07T14:32:44">
+    <value>News items by category</value>
+    <comment>Phrase: News items by category</comment>
+  </data>
+  <data name="NewsItemsByTag" lastModified="2014-04-07T14:32:44">
+    <value>News items by tag</value>
+    <comment>Phrase: News items by tag</comment>
+  </data>
+  <data name="AllNews" lastModified="2014-04-07T14:32:44">
+    <value>All news</value>
+    <comment>Phrase: All news</comment>
+  </data>
+  <data name="MyNews" lastModified="2014-04-07T14:32:44">
+    <value>My news</value>
+    <comment>The text of my news sidebar button</comment>
+  </data>
+  <data name="PublishedNews" lastModified="2014-04-07T14:32:44">
+    <value>Published</value>
+    <comment>The text of published news sidebar button.</comment>
+  </data>
+  <data name="DraftNews" lastModified="2014-04-07T14:32:44">
+    <value>Drafts</value>
+    <comment>The text of draft news sidebar button.</comment>
+  </data>
+  <data name="WaitingForApproval" lastModified="2014-04-07T14:32:44">
+    <value>Awaiting approval</value>
+    <comment>The text of the 'Awaiting approval' button in the news sidebar.</comment>
+  </data>
+  <data name="ScheduledNews" lastModified="2014-04-07T14:32:44">
+    <value>Scheduled</value>
+    <comment>The text of scheduled news sidebar button.</comment>
+  </data>
+  <data name="ByDateModified" lastModified="2014-04-07T14:32:44">
+    <value>by Date modified...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+  </data>
+  <data name="CloseDateFilter" lastModified="2014-04-07T14:32:44">
+    <value>Close dates</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+  </data>
+  <data name="DisplayLastUpdatedNews" lastModified="2014-04-07T14:32:44">
+    <value>Display news items last updated in...</value>
+    <comment>The text of last updated news sidebar button</comment>
+  </data>
+  <data name="SortNews" lastModified="2014-04-07T14:32:44">
+    <value>Sort news</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="Sort" lastModified="2014-04-07T14:32:44">
+    <value>Sort</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="DefaultPage" lastModified="2014-04-07T14:32:44">
+    <value>Default page</value>
+    <comment>Phrase: Default page</comment>
+  </data>
+  <data name="AllowComments" lastModified="2014-04-07T14:32:44">
+    <value>Allow comments</value>
+    <comment>Phrase: Allow comments</comment>
+  </data>
+  <data name="NewsSingularItemName" lastModified="2014-04-07T14:32:44">
+    <value>news item</value>
+    <comment>Phrase: news item</comment>
+  </data>
+  <data name="EditNewsSettings" lastModified="2014-04-07T14:32:44">
+    <value>Set which news to display</value>
+    <comment>Phrase: Edit News settings</comment>
+  </data>
+  <data name="NewsPluralItemName" lastModified="2014-04-07T14:32:44">
+    <value>news</value>
+    <comment>Phrase: news</comment>
+  </data>
+  <data name="NewsMasterViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>News - list</value>
+    <comment>Phrase: News - list</comment>
+  </data>
+  <data name="NewsDetailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+    <value>News - single</value>
+    <comment>Phrase: News - single</comment>
+  </data>
+  <data name="NewsDataFields" lastModified="2014-04-07T14:32:44">
+    <value>News data fields</value>
+    <comment>Phrase: News data fields</comment>
+  </data>
+  <data name="UrlNameInvalidSymbols" lastModified="2014-04-07T14:32:44">
+    <value>The URL contains invalid symbols.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+  </data>
+  <data name="LearnMoreWithVideoTutorials" lastModified="2014-04-07T14:32:44">
+    <value>Learn more with video tutorials</value>
+    <comment>Label for the external links used in Pages</comment>
+  </data>
+  <data name="NoNewsSelectedYet" lastModified="2014-04-07T14:32:44">
+    <value>No news selected yet</value>
+    <comment>Phrase: No news selected yet</comment>
+  </data>
+  <data name="FullStory" lastModified="2014-04-07T14:32:44">
+    <value>Full story</value>
+    <comment>Phrase: Full story</comment>
+  </data>
+  <data name="ByTitleAsc" lastModified="2014-04-07T14:32:44">
+    <value>By Title (A-Z)</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ByTitleDesc" lastModified="2014-04-07T14:32:44">
+    <value>By Title (Z-A)</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="NewModifiedFirst" lastModified="2014-04-07T14:32:44">
+    <value>Last modified on top</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="NewCreatedFirst" lastModified="2014-04-07T14:32:44">
+    <value>Last created on top</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="CustomSorting" lastModified="2014-04-07T14:32:44">
+    <value>Custom sorting...</value>
+    <comment>Phrase: Custom sorting...</comment>
+  </data>
+</root>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SyncContentItems" lastModified="2011-12-01T08:56:28">
+    <value>Sincronizar artículos de contenido</value>
+    <comment>phrase: Sync content items</comment>
+  </data>
+  <data name="PasswordForServerWhereContentWillBeSent" lastModified="2012-08-10T22:20:16">
+    <value>Contraseña</value>
+    <comment>phrase: Password (created on the server where content will be sent)</comment>
+  </data>
+  <data name="SyncTitle" lastModified="2012-08-10T22:20:16">
+    <value>Sincronización de datos publicados</value>
+    <comment>Title for the Synchronization module page.</comment>
+  </data>
+  <data name="SyncUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Sincronización</value>
+    <comment>Urlname of the Synchronization module page.</comment>
+  </data>
+  <data name="SiteSyncResourcesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables para la interfaz del módulo de sincronización.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="SyncDescription" lastModified="2012-08-10T22:20:16">
+    <value>Esta es la página del módulo de Sincronización.</value>
+    <comment>Description of the synchronization module page</comment>
+  </data>
+  <data name="AddressWhereContentWillBeSent" lastModified="2012-08-10T22:20:16">
+    <value>La URL/dirección de IP donde se enviará el contenido</value>
+    <comment>phrase: URL / IP address where content will be sent</comment>
+  </data>
+  <data name="ThisServer" lastModified="2012-08-10T22:20:16">
+    <value>Este servidor</value>
+    <comment>phrase: This server</comment>
+  </data>
+  <data name="SyncingCenterHeading" lastModified="2012-08-10T22:20:16">
+    <value>Los datos publicados desde este servidor serán enviados al</value>
+    <comment>The beginning of the heading in the syncing center screen</comment>
+  </data>
+  <data name="NoServersAvailableForSync" lastModified="2012-08-10T22:20:16">
+    <value>No hay otros servidores/sitios configurados con los cuales sincronizar datos.</value>
+    <comment>phrase: No other servers/sites are set to synchronize data with.</comment>
+  </data>
+  <data name="UsernameForServerWhereContentWillBeSent" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de usuario</value>
+    <comment>phrase: Username</comment>
+  </data>
+  <data name="WhenDoYouNeedSynchronization" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;¿Cuándo se necesita la sincronización?&lt;/strong&gt;&lt;br/&gt;Usted necesita sincronización si desea tener varias etapas (servidores/sitios) para sus datos  &lt;br /&gt;p. ej.&lt;em&gt;1 Trabajo; 2 Prueba; 3 Producción (vivo)&lt;/em&gt;</value>
+    <comment>phrase: When do you need synchronization...</comment>
+  </data>
+  <data name="SynchronizationSettings" lastModified="2012-08-10T22:20:16">
+    <value>Configuración de Sincronización</value>
+    <comment>phrase: Synchronization Settings</comment>
+  </data>
+  <data name="SiteSyncResourcesTitle" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas del módulo de sincronización</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="StartSync" lastModified="2012-08-10T22:20:16">
+    <value>Iniciar sincronización</value>
+    <comment>phrase: Start sync</comment>
+  </data>
+  <data name="ServersWhereToSendData" lastModified="2012-08-10T22:20:16">
+    <value>Servidor(es) al cual/a los cuales &lt;strong class="sfGreen"&gt;enviar&lt;/strong&gt; datos</value>
+    <comment>phrase: Server(s) where to &lt;strong class="sfGreen"&gt;send&lt;/strong&gt; data</comment>
+  </data>
+  <data name="AddServer" lastModified="2012-08-10T22:20:16">
+    <value>Agregar un servidor</value>
+    <comment>phrase: Add a server</comment>
+  </data>
+  <data name="ServersWhreToSendData" lastModified="2012-08-10T22:20:16">
+    <value>Servidor(es) donde se puede enviar datos</value>
+    <comment>phrase: Server(s) where to send data</comment>
+  </data>
+  <data name="BackToItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a Sync</value>
+    <comment>phrase: Back to Sync</comment>
+  </data>
+  <data name="WhichContentWillBeSent" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué contenido se enviará?</value>
+    <comment>phrase: Which content will be sent to</comment>
+  </data>
+  <data name="LastSyncSection" lastModified="2012-08-10T22:20:16">
+    <value>Última sincronización:</value>
+    <comment>phrase: Last sync:</comment>
+  </data>
+  <data name="SelectForSync" lastModified="2012-08-10T22:20:16">
+    <value>Seleccionar para sincronización</value>
+    <comment>phrase: Select for sync</comment>
+  </data>
+  <data name="TestConnection" lastModified="2012-08-10T22:20:16">
+    <value>Probar conexión(es)</value>
+    <comment>phrase: Test connection (s)</comment>
+  </data>
+  <data name="LastSyncTo" lastModified="2012-08-10T22:20:16">
+    <value>hasta {0}</value>
+    <comment>format: to {0}</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2012-08-10T22:20:16">
+    <value>Secuenciación y Sincronización</value>
+    <comment>The title of the site synchronization module.</comment>
+  </data>
+  <data name="LastSyncFailedItems" lastModified="2012-08-10T22:20:16">
+    <value>{0} artículos que no se pudieron sincronizar</value>
+    <comment>format: {0} items failed to be synced</comment>
+  </data>
+  <data name="LastSyncSuccessfullySyncedItems" lastModified="2012-08-10T22:20:16">
+    <value>{0} artículos sincronizados con éxito</value>
+    <comment>format: {0} items successfully synced</comment>
+  </data>
+  <data name="LastSyncBy" lastModified="2012-08-10T22:20:16">
+    <value>para {0}</value>
+    <comment>format: by {0}</comment>
+  </data>
+  <data name="LastSync" lastModified="2012-08-10T22:20:16">
+    <value>Última sincronización</value>
+    <comment>phrase: Last sync</comment>
+  </data>
+  <data name="AllServersAreAvailable" lastModified="2012-08-10T22:20:16">
+    <value>Todos los servidores están disponibles</value>
+    <comment>phrase: All servers are available</comment>
+  </data>
+  <data name="SyncDetails" lastModified="2012-08-10T22:20:16">
+    <value>¡Datos!</value>
+    <comment>word: Details</comment>
+  </data>
+  <data name="SynchronizationIsCompleted" lastModified="2012-08-10T22:20:16">
+    <value>La sincronización se ha completado</value>
+    <comment>phrase: Synchronization is completed</comment>
+  </data>
+  <data name="Details" lastModified="2012-08-10T22:20:16">
+    <value>¡Datos!</value>
+    <comment>word: Details</comment>
+  </data>
+  <data name="SynchronizationDetails" lastModified="2012-08-10T22:20:16">
+    <value>Detalles de sincronización</value>
+    <comment>phrase: Synchronization details</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2012-08-10T22:20:16">
+    <value>Proporciona funcionalidad para la sincronización de las instancias Sitefinity</value>
+    <comment>The description of the site synchronization module</comment>
+  </data>
+  <data name="GoToSync" lastModified="2012-08-10T22:20:16">
+    <value>Ir a sincronizar</value>
+    <comment>phrase: Go to sync</comment>
+  </data>
+</root>

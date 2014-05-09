@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DocumentsPluralTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Documentos</value>
+    <comment>Documents type name</comment>
+  </data>
+  <data name="TitleStatus" lastModified="2012-08-10T22:20:16">
+    <value>Título/Estado</value>
+    <comment>Header text for the title column in the backend grid</comment>
+  </data>
+  <data name="EmbedThisDocument" lastModified="2012-08-10T22:20:16">
+    <value>Embeber enlace a este archivo</value>
+    <comment>Text of link for embedding a document in the backend grid</comment>
+  </data>
+  <data name="DocumentLibrarySingleTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Biblioteca de Documentos</value>
+    <comment>Documents type name</comment>
+  </data>
+  <data name="DocumentsResourcesTitle" lastModified="2012-08-10T22:20:16">
+    <value>Documentos y Archivos</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="Document" lastModified="2012-08-10T22:20:16">
+    <value>Documento u otro archivo</value>
+    <comment>The 'Documents' string in singular.</comment>
+  </data>
+  <data name="DocumentsResourcesTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>Documentos y Archivos</value>
+    <comment>The title of this class in plural.</comment>
+  </data>
+  <data name="DocumentsResourcesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables de Documentos y Archivos de la interfaz de usuario.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="Publish" lastModified="2012-08-10T22:20:16">
+    <value>Publicar</value>
+    <comment>Label of the publish action.</comment>
+  </data>
+  <data name="Unpublish" lastModified="2012-08-10T22:20:16">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="MoreActions" lastModified="2012-08-10T22:20:16">
+    <value>Más acciones</value>
+    <comment>The text of the more action menu in grid toolbar.</comment>
+  </data>
+  <data name="DocumentLibrariesPluralTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Bibliotecas de Documentos</value>
+    <comment>Documents type name</comment>
+  </data>
+  <data name="ManageDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Administrar documentos y archivos</value>
+    <comment>Manage Documents</comment>
+  </data>
+  <data name="Documents" lastModified="2012-08-10T22:20:16">
+    <value>documentos u otros archivos</value>
+    <comment>The 'Documents' string in plural.</comment>
+  </data>
+  <data name="DocumentsOnly" lastModified="2012-08-10T22:20:16">
+    <value>documentos</value>
+    <comment>The 'Documents' string in plural.</comment>
+  </data>
+  <data name="DocumentWithArticle" lastModified="2012-08-10T22:20:16">
+    <value>un documento u otro archivo</value>
+    <comment>a document</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>The title of the decision screen when there are no videos.</comment>
+  </data>
+  <data name="FilterDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar Documentos y Archivos</value>
+    <comment>The 'Filter Documents' label in the grid sidebar.</comment>
+  </data>
+  <data name="FilterDocumentsInThisLibrary" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar los elementos de esta biblioteca</value>
+    <comment>The 'Filter Documents in this library' label in the grid sidebar.</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2012-08-10T22:20:16">
+    <value>Documentos y Archivos</value>
+    <comment>The title of the Documents module.</comment>
+  </data>
+  <data name="MyDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Mis elementos</value>
+    <comment>The 'My Documents' link in the grid sidebar.</comment>
+  </data>
+  <data name="AllDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Todos los elementos</value>
+    <comment>The 'All Documents' link in the grid sidebar.</comment>
+  </data>
+  <data name="DocumentsByLibrary" lastModified="2012-08-10T22:20:16">
+    <value>elementos por biblioteca</value>
+    <comment>The 'Documents by Library' label in the grid sidebar.</comment>
+  </data>
+  <data name="DocumentsByDate" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar elementos actualidaos el…</value>
+    <comment>phrase: Documents By Date</comment>
+  </data>
+  <data name="UploadDocumentsButton" lastModified="2012-08-10T22:20:16">
+    <value>Cargar documentos u otros archivos</value>
+    <comment>The text of the upload button in grid toolbar.</comment>
+  </data>
+  <data name="DraftDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Borrador</value>
+    <comment>The 'Draft Documents' link in the permissions dialog.</comment>
+  </data>
+  <data name="DocumentsByTag" lastModified="2012-08-10T22:20:16">
+    <value>elementos por etiquetas</value>
+    <comment>The 'Documents by tag' label in the grid sidebar.</comment>
+  </data>
+  <data name="PermissionsForDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Permisos de Documentos y Archivos</value>
+    <comment>The 'Permissions for Documents' label in the permissions dialog.</comment>
+  </data>
+  <data name="PublishedDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Publicado</value>
+    <comment>The 'Published Documents' link in the grid sidebar.</comment>
+  </data>
+  <data name="SettingsForDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Configuración de Documentos y Archivos</value>
+    <comment>The 'Settings for Documents' label in the grid sidebar.</comment>
+  </data>
+  <data name="LibraryName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre de la biblioteca</value>
+    <comment>The 'Library name' label.</comment>
+  </data>
+  <data name="CloseDateFilter" lastModified="2012-08-10T22:20:16">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+  </data>
+  <data name="ScheduledDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Programado</value>
+    <comment>The link for displaying scheduled documents in the sidebar.</comment>
+  </data>
+  <data name="DocumentsSingleTypeName" lastModified="2012-08-10T22:20:16">
+    <value>documento</value>
+    <comment>Documents type name</comment>
+  </data>
+  <data name="LibraryNameExample" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: Informe financiero</value>
+    <comment>The example how to fill library name field.</comment>
+  </data>
+  <data name="CreateAndAddAnotherLibrary" lastModified="2012-08-10T22:20:16">
+    <value>Crear y agregar otra biblioteca</value>
+    <comment>The 'Create and add another library' button in the library form.</comment>
+  </data>
+  <data name="LibraryDescription" lastModified="2012-08-10T22:20:16">
+    <value>La descripción de esta biblioteca.</value>
+    <comment>The description of the Description field in the library form.</comment>
+  </data>
+  <data name="Description" lastModified="2012-08-10T22:20:16">
+    <value>Descripción</value>
+    <comment>The 'Description' label.</comment>
+  </data>
+  <data name="DocumentsByCategory" lastModified="2012-08-10T22:20:16">
+    <value>Elementos por categoría</value>
+    <comment>The 'Documents by category' label in the grid sidebar.</comment>
+  </data>
+  <data name="CreateThisLibrary" lastModified="2012-08-10T22:20:16">
+    <value>Crear esta biblioteca</value>
+    <comment>The 'Create this library' button in the library form.</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2012-08-10T22:20:16">
+    <value>Guardar cambios</value>
+    <comment>The label for saving changes.</comment>
+  </data>
+  <data name="LibraryNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>nombre de la biblioteca no puede estar vacío</value>
+    <comment>The message shown when the library name is empty.</comment>
+  </data>
+  <data name="MergeLibraries" lastModified="2012-08-10T22:20:16">
+    <value>Combinar las bibliotecas</value>
+    <comment>The label for merging libraries.</comment>
+  </data>
+  <data name="CreateLibrary" lastModified="2012-08-10T22:20:16">
+    <value>Crear una biblioteca</value>
+    <comment>The label for creating a library.</comment>
+  </data>
+  <data name="NoItemsExist" lastModified="2012-08-10T22:20:16">
+    <value>Todavía no se han subido documentos ni archivos</value>
+    <comment>The text of the message that user is presented with on the decision screen.</comment>
+  </data>
+  <data name="LibraryCategoriesTags" lastModified="2012-08-10T22:20:16">
+    <value>Biblioteca/categorías/etiquetas</value>
+    <comment>Header text for corresponding column in backend grid</comment>
+  </data>
+  <data name="ViewItem" lastModified="2012-08-10T22:20:16">
+    <value>Ver un documento u otro archivo</value>
+    <comment>The title of the view item dialog</comment>
+  </data>
+  <data name="MaxDocumentSize" lastModified="2012-08-10T22:20:16">
+    <value>Tamaño máximo de documentos/archivo</value>
+    <comment>The title of the field for setting max document size.</comment>
+  </data>
+  <data name="ShowLessLibraries" lastModified="2012-08-10T22:20:16">
+    <value>{0} menos bibliotecas</value>
+    <comment>Phrase: {0} less libraries</comment>
+  </data>
+  <data name="ChangeLibraryInSpan" lastModified="2012-08-10T22:20:16">
+    <value>&lt;span class='sfLinkBtnIn'&gt;Cambiar de biblioteca&lt;/span&gt;</value>
+    <comment>phrase: Change library</comment>
+  </data>
+  <data name="EditDocument" lastModified="2012-08-10T22:20:16">
+    <value>Modificar las propiedades</value>
+    <comment>The title of the dialog for editing documents.</comment>
+  </data>
+  <data name="OpenFile" lastModified="2012-08-10T22:20:16">
+    <value>Abrir el archivo</value>
+    <comment>The text of the button for opening a file in edit properties form.</comment>
+  </data>
+  <data name="ReplaceFile" lastModified="2012-08-10T22:20:16">
+    <value>Reemplazar el archivo</value>
+    <comment>The text of the button for replacing a file in edit properties form.</comment>
+  </data>
+  <data name="Change" lastModified="2012-08-10T22:20:16">
+    <value>Cambiar</value>
+    <comment>The text of the button for changing the video thumbnail.</comment>
+  </data>
+  <data name="BelowDescription" lastModified="2012-08-10T22:20:16">
+    <value>Debajo de la descripción</value>
+    <comment>Below the description' label in the downloadlist designers.</comment>
+  </data>
+  <data name="SortDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Ordenar elementos:</value>
+    <comment>Phrase: Sort documents:</comment>
+  </data>
+  <data name="PartsExample" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Ejemplo: &lt;/strong&gt;&lt;em&gt;24 páginas &lt;/em&gt;</value>
+    <comment>The example how to fill parts field.</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="Parts" lastModified="2012-08-10T22:20:16">
+    <value>Otros detalles</value>
+    <comment>Word: Parts</comment>
+  </data>
+  <data name="Cancel" lastModified="2012-08-10T22:20:16">
+    <value>Cancelar</value>
+    <comment>The text of the cancel button.</comment>
+  </data>
+  <data name="ReviewHistory" lastModified="2012-08-10T22:20:16">
+    <value>Historial de revisiones</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="SetPermissions" lastModified="2012-08-10T22:20:16">
+    <value>Establecer permisos</value>
+    <comment>The text of the 'Set permissions' link in the action menu.</comment>
+  </data>
+  <data name="ShowMoreLibraries" lastModified="2012-08-10T22:20:16">
+    <value>{0} más bibliotecas</value>
+    <comment>Phrase: {0} more libraries</comment>
+  </data>
+  <data name="ChooseLibrary" lastModified="2012-08-10T22:20:16">
+    <value>Elija biblioteca</value>
+    <comment>Phrase: Choose library</comment>
+  </data>
+  <data name="AllPublishedDocumentsAndFiles" lastModified="2012-08-10T22:20:16">
+    <value>Todos los documentos y archivos publicados</value>
+    <comment>phrase: All published documents and files</comment>
+  </data>
+  <data name="FromSelectedLibrary" lastModified="2012-08-10T22:20:16">
+    <value>De la biblioteca seleccionada ...</value>
+    <comment>Phrase: From selected library...</comment>
+  </data>
+  <data name="NoLibrarySelected" lastModified="2012-08-10T22:20:16">
+    <value>Ninguna biblioteca seleccionada</value>
+    <comment>Phrase: No library selected</comment>
+  </data>
+  <data name="AsOrderedInLibrary" lastModified="2012-08-10T22:20:16">
+    <value>Según como se ordenan en la biblioteca</value>
+    <comment>Phrase: As they are ordered in library</comment>
+  </data>
+  <data name="BigIcons" lastModified="2012-08-10T22:20:16">
+    <value>Iconos grandes</value>
+    <comment>Phrase: Big icons</comment>
+  </data>
+  <data name="List" lastModified="2012-08-10T22:20:16">
+    <value>Lista</value>
+    <comment>Word: List</comment>
+  </data>
+  <data name="NoIcons" lastModified="2012-08-10T22:20:16">
+    <value>Sin iconos</value>
+    <comment>Phrase: No icons</comment>
+  </data>
+  <data name="SmallIcons" lastModified="2012-08-10T22:20:16">
+    <value>Iconos pequeños</value>
+    <comment>Phrase: Small icons</comment>
+  </data>
+  <data name="LibraryDocumentsTitleFormat" lastModified="2012-08-10T22:20:16">
+    <value>Documentos y archivos de la biblioteca &lt;i&gt;{0}&lt;/i&gt;</value>
+    <comment>phrase: Documents &amp; files from &lt;i&gt;{0}&lt;/i&gt; library</comment>
+  </data>
+  <data name="CommonLibrary" lastModified="2012-08-10T22:20:16">
+    <value>biblioteca común</value>
+    <comment>phrase: Common library</comment>
+  </data>
+  <data name="Library" lastModified="2012-08-10T22:20:16">
+    <value>Biblioteca</value>
+    <comment>word: Library</comment>
+  </data>
+  <data name="DisplayIcons" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar icono</value>
+    <comment>Phrase: Display icons</comment>
+  </data>
+  <data name="Permissions" lastModified="2012-08-10T22:20:16">
+    <value>Permisos</value>
+    <comment>The link that navigates to permissions dialog in the sidebar.</comment>
+  </data>
+  <data name="Libraries" lastModified="2012-08-10T22:20:16">
+    <value>Bibliotecas</value>
+    <comment>word: Libraries</comment>
+  </data>
+  <data name="LastUploaded" lastModified="2012-08-10T22:20:16">
+    <value>Los últimos subidos:</value>
+    <comment>Last uploaded:' label in the libraries grid.</comment>
+  </data>
+  <data name="BackToDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Ver todos los documentos y otros archivos</value>
+    <comment>Text of the link that will show the view that lists all documents.</comment>
+  </data>
+  <data name="BackToItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a todos los elementos</value>
+    <comment>The back to all items button</comment>
+  </data>
+  <data name="Table" lastModified="2012-08-10T22:20:16">
+    <value>Tabla</value>
+    <comment>Word: Table</comment>
+  </data>
+  <data name="BackToAllLibraries" lastModified="2012-08-10T22:20:16">
+    <value>Volver a todas las bibliotecas</value>
+    <comment>The label for link to return to all libraries.</comment>
+  </data>
+  <data name="UploadDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Cargar documentos u otros archivos</value>
+    <comment>The label for uploading documents.</comment>
+  </data>
+  <data name="BackToAllDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Volver a Documentos y Archivos</value>
+    <comment>Text of the link that will show the view that lists all documents.</comment>
+  </data>
+  <data name="UploadNew" lastModified="2012-08-10T22:20:16">
+    <value>cargar un nuevo ...</value>
+    <comment>Upload new...</comment>
+  </data>
+  <data name="UploadDocumentsOrOtherFiles" lastModified="2012-08-10T22:20:16">
+    <value>Cargar documentos u otros archivos</value>
+    <comment>The label for uploading documents</comment>
+  </data>
+  <data name="MaxLibrarySize" lastModified="2012-08-10T22:20:16">
+    <value>Tamaño máximo de biblioteca</value>
+    <comment>The title of the field for setting max library size.</comment>
+  </data>
+  <data name="ListDetailPage" lastModified="2012-08-10T22:20:16">
+    <value>Lista + Página de Detalle</value>
+    <comment>Phrase: List + Detail page</comment>
+  </data>
+  <data name="TableDetailPage" lastModified="2012-08-10T22:20:16">
+    <value>Tabla + Página de Detalle</value>
+    <comment>Phrase: Table + Detail page</comment>
+  </data>
+  <data name="DownloadLinksAreBothOnTheDetailAndTheTablePage" lastModified="2012-08-10T22:20:16">
+    <value>Enlaces de descarga están tanto en la página de detalle como en la página tabla</value>
+    <comment>phrase: Download links are both on the Detail and the Table page</comment>
+  </data>
+  <data name="DocumentLinkPropertyEditorTitle" lastModified="2012-08-10T22:20:16">
+    <value>Insertar un documento u otro archivo</value>
+    <comment>Phrase: Insert a document</comment>
+  </data>
+  <data name="WhichDocumentToUpload" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué documento o fichero desea cargar?</value>
+    <comment>Phrase: Which document to upload?</comment>
+  </data>
+  <data name="FromAlreadyUploadedDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Desde elemento ya cargado</value>
+    <comment>Phrase: From already uploaded</comment>
+  </data>
+  <data name="DisplayIconsInTable" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar iconos en la tabla</value>
+    <comment>Phrase: Display icons in the table</comment>
+  </data>
+  <data name="WhereToStoreTheUploadedDocument" lastModified="2012-08-10T22:20:16">
+    <value>Dónde desea guardar el documento/archivo subido?</value>
+    <comment>Phrase: Where to store the uploaded document?</comment>
+  </data>
+  <data name="PositionOfDownloadLinkOnDetailPage" lastModified="2012-08-10T22:20:16">
+    <value>Posición del enlace &lt;em&gt;Descargar &lt;/em&gt; en la página de detalle</value>
+    <comment>Position of the Download link on the detail page' label in the downloadlist designers.</comment>
+  </data>
+  <data name="Details" lastModified="2012-08-10T22:20:16">
+    <value>Detalles &lt;em class='sfNote'&gt;(Autor, Descripción, Partes) &lt;/em&gt;</value>
+    <comment>The title of the 'Details' section.</comment>
+  </data>
+  <data name="EditItem" lastModified="2012-08-10T22:20:16">
+    <value>Editar un documento u otro archivo</value>
+    <comment>The title of the edit item dialog</comment>
+  </data>
+  <data name="CreateItem" lastModified="2012-08-10T22:20:16">
+    <value>Crear un documento</value>
+    <comment>The title of the create document dialog</comment>
+  </data>
+  <data name="DocumentWasNotSelectedOrHasBeenDeleted" lastModified="2012-08-10T22:20:16">
+    <value>Un documento o archivo no se ha seleccionado o ha sido borrado. Por favor, seleccione otro.</value>
+    <comment>phrase: A document was not selected or has been deleted. Please select another one.</comment>
+  </data>
+  <data name="Delete" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>The text of the delete button.</comment>
+  </data>
+  <data name="DocumentSingularItemName" lastModified="2012-08-10T22:20:16">
+    <value>Documento u otro archivo</value>
+    <comment>word: document</comment>
+  </data>
+  <data name="DocumentPluralItemName" lastModified="2012-08-10T22:20:16">
+    <value>documentos u otros archivos</value>
+    <comment>word: documents</comment>
+  </data>
+  <data name="DownloadLinkIsOnTheDetailPage" lastModified="2012-08-10T22:20:16">
+    <value>El enlace de descarga se encuentra en la página de Detalle.</value>
+    <comment>Phrase: Download link is on the Detail page.</comment>
+  </data>
+  <data name="EditDownloadListSettings" lastModified="2012-08-10T22:20:16">
+    <value>Editar opciones de Descarga de listas</value>
+    <comment>Phrase: Edit Download list settings</comment>
+  </data>
+  <data name="SelectDocument" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione un documento u otro archivo</value>
+    <comment>Phrase: Select a document</comment>
+  </data>
+  <data name="NarrowByTypingTitle" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar escribiendo el título</value>
+    <comment>Phrase: Narrow by typing title</comment>
+  </data>
+  <data name="DocumentsDataFields" lastModified="2012-08-10T22:20:16">
+    <value>Campos de datos de documentos</value>
+    <comment>phrase: Documents data fields</comment>
+  </data>
+  <data name="CreateAndGoToUploadDocuments" lastModified="2012-08-10T22:20:16">
+    <value>Crear e ir a cargar documentos</value>
+    <comment>phrase: Create and go to upload documents.</comment>
+  </data>
+  <data name="ReorderDocuments" lastModified="2012-08-10T22:20:16">
+    <value>&lt;em&gt;Reordenar&lt;/em&gt; documentos</value>
+    <comment>phrase: Reorder documents</comment>
+  </data>
+  <data name="Mb" lastModified="2012-08-10T22:20:16">
+    <value>MB</value>
+    <comment>label: MB</comment>
+  </data>
+  <data name="Kb" lastModified="2012-08-10T22:20:16">
+    <value>KB</value>
+    <comment>label: KB</comment>
+  </data>
+  <data name="NewModifiedFirst" lastModified="2012-08-10T22:20:16">
+    <value>Situar encima lo último modificado</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ByStatus" lastModified="2012-08-10T22:20:16">
+    <value>por estado</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="SortByTemplate" lastModified="2012-08-10T22:20:16">
+    <value>por plantilla</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ByHierarchy" lastModified="2012-08-10T22:20:16">
+    <value>por Jerarquía</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="NewUploadedFirst" lastModified="2012-08-10T22:20:16">
+    <value>Los últimos subidos en la parte superior</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="AboveDescription" lastModified="2012-08-10T22:20:16">
+    <value>Encima de la descripción</value>
+    <comment>Above the description' label in the downloadlist designers.</comment>
+  </data>
+  <data name="AlphabeticallyAsc" lastModified="2012-08-10T22:20:16">
+    <value>Alfabeticamente (A-Z)</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="ManageDocumentLibraries" lastModified="2012-08-10T22:20:16">
+    <value>Administrar Bibliotecas de Documentos</value>
+    <comment>The text of 'Manage Document Libraries' link.</comment>
+  </data>
+  <data name="AlphabeticallyDesc" lastModified="2012-08-10T22:20:16">
+    <value>Alfabeticamente (Z-A)</value>
+    <comment>Label text.</comment>
+  </data>
+</root>

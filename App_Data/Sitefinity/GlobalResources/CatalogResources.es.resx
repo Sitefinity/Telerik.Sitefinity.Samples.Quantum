@@ -1,0 +1,1184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleDescription" lastModified="2012-08-10T22:20:16">
+    <value>Módulo de catálogo usado para administrar los productos para el módulo de comercio electrónico.</value>
+    <comment>Description of the catalog module.</comment>
+  </data>
+  <data name="SaleEndDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de finalización de la venta</value>
+    <comment>phrase: Sale End Date</comment>
+  </data>
+  <data name="SaleEndDateIsInvalid" lastModified="2012-08-10T22:20:16">
+    <value>La fecha de finalización de la venta no es válida</value>
+    <comment>phrase: Sale end date is invalid</comment>
+  </data>
+  <data name="ProductTitlePluralCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>Debe introducir el nombre en plural para el Tipo de Producto.</value>
+    <comment>Phrase: You must enter the plural name for the Product Type.</comment>
+  </data>
+  <data name="ProductsDetailViewFriendlyName" lastModified="2012-08-10T22:20:16">
+    <value>Detalles del Producto</value>
+    <comment>phrase: Product Details</comment>
+  </data>
+  <data name="TypesOfProductsNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>tipos-de-productos</value>
+    <comment>Url name of the types of products node.</comment>
+  </data>
+  <data name="ProductsMasterViewFriendlyName" lastModified="2012-08-10T22:20:16">
+    <value>Lista de Productos</value>
+    <comment>phrase: Products List</comment>
+  </data>
+  <data name="ProductsCatalogNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Catálogo de productos</value>
+    <comment>Title of the products catalog node.</comment>
+  </data>
+  <data name="ProductsNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Productos</value>
+    <comment>Title of the products node.</comment>
+  </data>
+  <data name="ProductsNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Productos</value>
+    <comment>Url name of the products node.</comment>
+  </data>
+  <data name="ProductsCatalogNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>catálogo-de-productos</value>
+    <comment>Url name of the products catalog node.</comment>
+  </data>
+  <data name="ProductPluralTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Productos</value>
+    <comment>word: Products</comment>
+  </data>
+  <data name="ManufacturersNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Fabricantes</value>
+    <comment>Title of the manufacturers node.</comment>
+  </data>
+  <data name="DepartmentsNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Departamentos</value>
+    <comment>Title of the departments node.</comment>
+  </data>
+  <data name="DepartmentsNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Departamentos</value>
+    <comment>Url name of the departments node.</comment>
+  </data>
+  <data name="ManufacturersNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Fabricantes</value>
+    <comment>Url name of the manufacturers node.</comment>
+  </data>
+  <data name="ProductAttributesNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>atributos-de-productos</value>
+    <comment>Url name of the product attributes node.</comment>
+  </data>
+  <data name="ProductAddOnsNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Complementos</value>
+    <comment>Title of the product add-ons node.</comment>
+  </data>
+  <data name="ProductAddOnsNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Complementos</value>
+    <comment>Url name of the product add-ons node.</comment>
+  </data>
+  <data name="TypesOfProductsNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Tipos de productos</value>
+    <comment>Title of the types of products node.</comment>
+  </data>
+  <data name="ProductReviewsNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Url name of the product reviews node.</comment>
+  </data>
+  <data name="ProductReviewsNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Title of the product reviews node.</comment>
+  </data>
+  <data name="Delete" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>word: Delete</comment>
+  </data>
+  <data name="Publish" lastModified="2012-08-10T22:20:16">
+    <value>Publicar</value>
+    <comment>word: Publish</comment>
+  </data>
+  <data name="Unpublish" lastModified="2012-08-10T22:20:16">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="CreateAProduct" lastModified="2012-08-10T22:20:16">
+    <value>Crear un producto</value>
+    <comment>phrase: Create a product</comment>
+  </data>
+  <data name="CreateProduct" lastModified="2012-08-10T22:20:16">
+    <value>Crear producto</value>
+    <comment>phrase: Create product</comment>
+  </data>
+  <data name="CreateThisProduct" lastModified="2012-08-10T22:20:16">
+    <value>Crear este producto</value>
+    <comment>phrase: Create this product</comment>
+  </data>
+  <data name="BackToProducts" lastModified="2012-08-10T22:20:16">
+    <value>Volver a los productos</value>
+    <comment>phrase: Back to products</comment>
+  </data>
+  <data name="Title" lastModified="2012-08-10T22:20:16">
+    <value>Título</value>
+    <comment>The label for product title.</comment>
+  </data>
+  <data name="Description" lastModified="2012-08-10T22:20:16">
+    <value>Descripción</value>
+    <comment>The label for the product description.</comment>
+  </data>
+  <data name="PermissionsForProducts" lastModified="2012-08-10T22:20:16">
+    <value>Permisos para los productos</value>
+    <comment>phrase: Permissions for products</comment>
+  </data>
+  <data name="BackToItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a los productos</value>
+    <comment>phrase: Back to products</comment>
+  </data>
+  <data name="ProductTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Producto</value>
+    <comment>word: Product</comment>
+  </data>
+  <data name="Weight" lastModified="2012-08-10T22:20:16">
+    <value>Peso</value>
+    <comment>word: Weight</comment>
+  </data>
+  <data name="SaleStartDateIsInvalid" lastModified="2012-08-10T22:20:16">
+    <value>La fecha de inicio de la venta no es válida</value>
+    <comment>phrase: Sale start date is invalid</comment>
+  </data>
+  <data name="Was" lastModified="2012-08-10T22:20:16">
+    <value>Antes</value>
+    <comment>word: Was</comment>
+  </data>
+  <data name="Sale" lastModified="2012-08-10T22:20:16">
+    <value>Oferta</value>
+    <comment>word: Sale</comment>
+  </data>
+  <data name="Products" lastModified="2012-08-10T22:20:16">
+    <value>Productos</value>
+    <comment>word: Products</comment>
+  </data>
+  <data name="SaleOptions" lastModified="2012-08-10T22:20:16">
+    <value>Opciones de venta</value>
+    <comment>phrase: Sale options</comment>
+  </data>
+  <data name="SalePrice" lastModified="2012-08-10T22:20:16">
+    <value>Precio de venta</value>
+    <comment>phrase: Sale Price</comment>
+  </data>
+  <data name="Price" lastModified="2012-08-10T22:20:16">
+    <value>Precio</value>
+    <comment>word: Price</comment>
+  </data>
+  <data name="SaleStartDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de inicio de la venta</value>
+    <comment>phrase: Sale Start Date</comment>
+  </data>
+  <data name="SalePriceIsInvalid" lastModified="2012-08-10T22:20:16">
+    <value>El precio de venta no es válido</value>
+    <comment>phrase: Sale price is invalid</comment>
+  </data>
+  <data name="SaleEndDateShouldNotBeEarlierThanStartDate" lastModified="2012-08-10T22:20:16">
+    <value>La fecha de finalización de la venta no se puede establecer antes de su fecha de inicio.</value>
+    <comment>Message: Sale end date cannot be set earlier than its start date.</comment>
+  </data>
+  <data name="Permissions" lastModified="2012-08-10T22:20:16">
+    <value>Permisos</value>
+    <comment> </comment>
+  </data>
+  <data name="IsVatTaxable" lastModified="2012-08-10T22:20:16">
+    <value>Este precio está sujeto al VAT</value>
+    <comment>phrase: This price is VAT taxable</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>word: Delete</comment>
+  </data>
+  <data name="VatIncluded" lastModified="2012-08-10T22:20:16">
+    <value>(incl&amp;nbsp;Imp)</value>
+    <comment>phrase: (incl Tax)</comment>
+  </data>
+  <data name="SelectTax" lastModified="2012-08-10T22:20:16">
+    <value>-- Seleccionar un impuesto --</value>
+    <comment>phrase: Select a tax</comment>
+  </data>
+  <data name="TaxClass" lastModified="2012-08-10T22:20:16">
+    <value>Clase de impuestos</value>
+    <comment>word: Tax class</comment>
+  </data>
+  <data name="Sku" lastModified="2012-08-10T22:20:16">
+    <value>SKU (Stock Keeping Unit)</value>
+    <comment>phrase: SKU (Stock Keeping Unit)</comment>
+  </data>
+  <data name="Tax" lastModified="2012-08-10T22:20:16">
+    <value>Impuesto</value>
+    <comment>word: Tax</comment>
+  </data>
+  <data name="BackToAllProducts" lastModified="2012-08-10T22:20:16">
+    <value>Volver a todos los productos</value>
+    <comment> </comment>
+  </data>
+  <data name="SaveChanges" lastModified="2012-08-10T22:20:16">
+    <value>Guardar cambios</value>
+    <comment>word: Save changes</comment>
+  </data>
+  <data name="Actions" lastModified="2012-08-10T22:20:16">
+    <value>Acciones</value>
+    <comment>word: Actions</comment>
+  </data>
+  <data name="NoProductsHaveBeenCreatedYetCreateA" lastModified="2012-08-10T22:20:16">
+    <value>Aún no se han creado productos &lt;h2&gt;Crear un... &lt;/h2&gt;</value>
+    <comment>The message shown when no products have yet been created.</comment>
+  </data>
+  <data name="EditAProduct" lastModified="2012-08-10T22:20:16">
+    <value>Editar un producto</value>
+    <comment>phrase: Edit a product</comment>
+  </data>
+  <data name="ProductsViewToolboxDescription" lastModified="2012-08-10T22:20:16">
+    <value>Lista de productos con opciones para comprar</value>
+    <comment>Description of the products view widget in the toolbox.</comment>
+  </data>
+  <data name="DepartmentControlToolboxName" lastModified="2012-08-10T22:20:16">
+    <value>Departamentos</value>
+    <comment>Title of the Department Control widget in the toolbox.</comment>
+  </data>
+  <data name="Departments" lastModified="2012-08-10T22:20:16">
+    <value>Departamentos</value>
+    <comment>word: Departments</comment>
+  </data>
+  <data name="Images" lastModified="2012-08-10T22:20:16">
+    <value>Imágenes</value>
+    <comment>word: Images</comment>
+  </data>
+  <data name="Tags" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas</value>
+    <comment>word</comment>
+  </data>
+  <data name="Categories" lastModified="2012-08-10T22:20:16">
+    <value>Categorías</value>
+    <comment>word</comment>
+  </data>
+  <data name="BuyNowViewToolboxName" lastModified="2012-08-10T22:20:16">
+    <value>Comprar ahora</value>
+    <comment>Title of the buy now view widget in the toolbox.</comment>
+  </data>
+  <data name="BuyNowViewToolboxDescription" lastModified="2012-08-10T22:20:16">
+    <value>El botón 'Compre ahora' personalizado que se puede utilizar con diferentes tipos de contenido (no sólo con productos)</value>
+    <comment>Description of the buy now view widget in the toolbox.</comment>
+  </data>
+  <data name="BuyNowViewFriendlyName" lastModified="2012-08-10T22:20:16">
+    <value>Comprar ahora</value>
+    <comment>phrase: Buy now</comment>
+  </data>
+  <data name="ProductUrlNameInvalidSymbols" lastModified="2012-08-10T22:20:16">
+    <value>El nombre de la URL del producto contiene algunos caracteres no válidos.</value>
+    <comment>The message which warns user that url name of the product has some invalid characters.</comment>
+  </data>
+  <data name="ProductUrlName" lastModified="2012-08-10T22:20:16">
+    <value>URL</value>
+    <comment>The title of the product url name property.</comment>
+  </data>
+  <data name="ProductUrlNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El nombre de la URL del producto no puede estar vacío.</value>
+    <comment>The message which warns user that url name of the product cannot be left empty.</comment>
+  </data>
+  <data name="ProductTitleCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El título del producto se debe establecer</value>
+    <comment>The message shown to user if no title for the product has been entered.</comment>
+  </data>
+  <data name="ProductWeightCannotBeNegative" lastModified="2012-08-10T22:20:16">
+    <value>El peso del producto no puede ser menor que cero.</value>
+    <comment>The message shown to the user if the weight of the product is negative.</comment>
+  </data>
+  <data name="ProductPriceIsInvalid" lastModified="2012-08-10T22:20:16">
+    <value>El precio del producto debe ser un valor numérico que sea mayor o igual a 0 y menor de 100,000,000.00;  use punto "."  para el separador decimal; se permite un máximo de 2 dígitos a partir del separador decimal.</value>
+    <comment>The message shown to the user if the price of the product is not valid.</comment>
+  </data>
+  <data name="ProductPriceCannotBeNegative" lastModified="2012-08-10T22:20:16">
+    <value>El precio del producto no puede ser negativo.</value>
+    <comment>The message shown to the user if the price of the product is negative.</comment>
+  </data>
+  <data name="ProductTitleTooLong" lastModified="2012-08-10T22:20:16">
+    <value>La longitud del título del producto no puede ser de más de 255 caracteres.</value>
+    <comment>The message shown to user if the title is longer than 255 characters.</comment>
+  </data>
+  <data name="ProductsViewToolboxName" lastModified="2012-08-10T22:20:16">
+    <value>Lista de productos</value>
+    <comment>Title of the products view widget in the toolbox.</comment>
+  </data>
+  <data name="ProductWeightIsInvalid" lastModified="2012-08-10T22:20:16">
+    <value>El peso del producto debe ser un valor numérico mayor que 0; use punto "."  para el separador decimal; se permite un máximo de 2 dígitos a partir del separador decimal.</value>
+    <comment>The message shown to the user if the weight of the product is not valid.</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2012-08-10T22:20:16">
+    <value>Catálogo</value>
+    <comment> </comment>
+  </data>
+  <data name="ViewAll" lastModified="2012-08-10T22:20:16">
+    <value>Ver Todos</value>
+    <comment>Phrase: View All</comment>
+  </data>
+  <data name="ItemsPerPage" lastModified="2012-08-10T22:20:16">
+    <value>Artículos por página:</value>
+    <comment>Phrase: Items per page:</comment>
+  </data>
+  <data name="MoreOptions" lastModified="2012-08-10T22:20:16">
+    <value>Más opciones</value>
+    <comment>phrase: More options</comment>
+  </data>
+  <data name="IsActive" lastModified="2012-08-10T22:20:16">
+    <value>Este producto está activo</value>
+    <comment>phrase: This product is active</comment>
+  </data>
+  <data name="CatalogNodeName" lastModified="2012-08-10T22:20:16">
+    <value>Catálogo</value>
+    <comment> </comment>
+  </data>
+  <data name="UploadOrSelectAnImage" lastModified="2012-08-10T22:20:16">
+    <value>Subir o seleccionar una imagen...</value>
+    <comment>The text for the 'Upload or select an image...' button.</comment>
+  </data>
+  <data name="CatalogNodeDescription" lastModified="2012-08-10T22:20:16">
+    <value>Módulo de catálogos</value>
+    <comment> </comment>
+  </data>
+  <data name="CatalogNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Catálogo</value>
+    <comment> </comment>
+  </data>
+  <data name="IsTaxable" lastModified="2012-08-10T22:20:16">
+    <value>Este precio está sujeto a impuestos</value>
+    <comment>phrase: This price is taxable</comment>
+  </data>
+  <data name="BackToAllVendors" lastModified="2012-08-10T22:20:16">
+    <value>Volver a todos los proveedores</value>
+    <comment> </comment>
+  </data>
+  <data name="ManageCatalogModule" lastModified="2012-08-10T22:20:16">
+    <value>Administrar módulo de catálogo</value>
+    <comment> </comment>
+  </data>
+  <data name="ProductsViewPropertyEditorTitle" lastModified="2012-08-10T22:20:16">
+    <value>Lista de productos</value>
+    <comment> </comment>
+  </data>
+  <data name="Manage" lastModified="2012-08-10T22:20:16">
+    <value>Administrar</value>
+    <comment> </comment>
+  </data>
+  <data name="ManageProducts" lastModified="2012-08-10T22:20:16">
+    <value>Administrar Productos</value>
+    <comment>phrase: Manage Products</comment>
+  </data>
+  <data name="ProductsTitle" lastModified="2012-08-10T22:20:16">
+    <value>Productos</value>
+    <comment> </comment>
+  </data>
+  <data name="EditProductsViewSettings" lastModified="2012-08-10T22:20:16">
+    <value>EditProductsViewSettings</value>
+    <comment> </comment>
+  </data>
+  <data name="VendorsNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Proveedores</value>
+    <comment> </comment>
+  </data>
+  <data name="CreateVendor" lastModified="2012-08-10T22:20:16">
+    <value>Crear este proveedor</value>
+    <comment> </comment>
+  </data>
+  <data name="DepartmentsPropertyEditorTitle" lastModified="2012-08-10T22:20:16">
+    <value>Departamentos</value>
+    <comment> </comment>
+  </data>
+  <data name="CatalogWidgetsSectionTitle" lastModified="2012-08-10T22:20:16">
+    <value>Catálogo</value>
+    <comment> </comment>
+  </data>
+  <data name="ManageAlso" lastModified="2012-08-10T22:20:16">
+    <value>Configuración de productos</value>
+    <comment> </comment>
+  </data>
+  <data name="ProductsViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Vista de Productos</value>
+    <comment> </comment>
+  </data>
+  <data name="ProductCustomFields" lastModified="2012-08-10T22:20:16">
+    <value>Configurar campos personalizados para los productos</value>
+    <comment> </comment>
+  </data>
+  <data name="ProductsByCategory" lastModified="2012-08-10T22:20:16">
+    <value>Productos por Categoría</value>
+    <comment> </comment>
+  </data>
+  <data name="FilterProducts" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar productos</value>
+    <comment>phrase: Filter products</comment>
+  </data>
+  <data name="BuyNowPropertyEditorTitle" lastModified="2012-08-10T22:20:16">
+    <value>Editar Comprar Ahora</value>
+    <comment> </comment>
+  </data>
+  <data name="ProductsByVendor" lastModified="2012-08-10T22:20:16">
+    <value>Productos por Proveedor</value>
+    <comment> </comment>
+  </data>
+  <data name="PackageSizeByTag" lastModified="2012-08-10T22:20:16">
+    <value>Tamaño del paquete por etiqueta</value>
+    <comment>Phrase: Package size by tag</comment>
+  </data>
+  <data name="CloseVendors" lastModified="2012-08-10T22:20:16">
+    <value>Cerrar Proveedores</value>
+    <comment> </comment>
+  </data>
+  <data name="ByVendor" lastModified="2012-08-10T22:20:16">
+    <value>por Proveedor…</value>
+    <comment> </comment>
+  </data>
+  <data name="ByDepartments" lastModified="2012-08-10T22:20:16">
+    <value>por Departamentos</value>
+    <comment>phrase: by Departments</comment>
+  </data>
+  <data name="SameTemplateForAllProductTypes" lastModified="2012-08-10T22:20:16">
+    <value>Misma plantilla para todo tipo de productos...</value>
+    <comment>Phrase: Same template for all product types...</comment>
+  </data>
+  <data name="MyProducts" lastModified="2012-08-10T22:20:16">
+    <value>Mis productos</value>
+    <comment>The text of my products sidebar button</comment>
+  </data>
+  <data name="ProductAttributes" lastModified="2012-08-10T22:20:16">
+    <value>Atributos</value>
+    <comment>Phrase: Product Attributes</comment>
+  </data>
+  <data name="DifferentTemplateForEachProductType" lastModified="2012-08-10T22:20:16">
+    <value>Una plantilla diferente para cada tipo de producto...</value>
+    <comment>Phrase: Different template for each product type...</comment>
+  </data>
+  <data name="ProductAttributeValues" lastModified="2012-08-10T22:20:16">
+    <value>Valores de Atributos</value>
+    <comment> </comment>
+  </data>
+  <data name="AllowUsersToSetNumberOfItemsPerPage" lastModified="2012-08-10T22:20:16">
+    <value>Permitir que los usuarios configuren el número de artículos por página</value>
+    <comment>phrase: Allow users to set number of items per page</comment>
+  </data>
+  <data name="CreateAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Crear este atributo</value>
+    <comment> </comment>
+  </data>
+  <data name="AllProductTypes" lastModified="2012-08-10T22:20:16">
+    <value>Todos los Tipos de Productos</value>
+    <comment>Phrase: All Product Types</comment>
+  </data>
+  <data name="SetPermissions" lastModified="2012-08-10T22:20:16">
+    <value>Establecer permisos</value>
+    <comment> </comment>
+  </data>
+  <data name="TaxCategoryRequired" lastModified="2012-08-10T22:20:16">
+    <value>Debe seleccionar una categoría de impuestos.</value>
+    <comment>phrase: TaxCategoryRequired</comment>
+  </data>
+  <data name="CreateProductType" lastModified="2012-08-10T22:20:16">
+    <value>Crear tipo de producto</value>
+    <comment>phrase: Create product type</comment>
+  </data>
+  <data name="SortByPriceAscending" lastModified="2012-08-10T22:20:16">
+    <value>Precio: más bajo, primero</value>
+    <comment>Phrase: Price (low to high)</comment>
+  </data>
+  <data name="SortByPriceDescending" lastModified="2012-08-10T22:20:16">
+    <value>Precio: más alto, primero</value>
+    <comment>Phrase: Price (high to low)</comment>
+  </data>
+  <data name="AllProducts" lastModified="2012-08-10T22:20:16">
+    <value>Todos los productos</value>
+    <comment>Phrase: All products</comment>
+  </data>
+  <data name="SortByDate" lastModified="2012-08-10T22:20:16">
+    <value>Primero lo más muevo</value>
+    <comment>Phrase: Newest first</comment>
+  </data>
+  <data name="SortByRating" lastModified="2012-08-10T22:20:16">
+    <value>Puntuación</value>
+    <comment>Phrase: Rating</comment>
+  </data>
+  <data name="SortByName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre</value>
+    <comment>Phrase: Sort by name</comment>
+  </data>
+  <data name="SortByBestSelling" lastModified="2012-08-10T22:20:16">
+    <value>Más vendidos</value>
+    <comment>Phrase: Best selling</comment>
+  </data>
+  <data name="SortByFeatured" lastModified="2012-08-10T22:20:16">
+    <value>Destacado</value>
+    <comment>Phrase: Featured</comment>
+  </data>
+  <data name="ProductTypes" lastModified="2012-08-10T22:20:16">
+    <value>Tipos de producto</value>
+    <comment>phrase: Product types</comment>
+  </data>
+  <data name="NoProductTypesHaveBeenCreatedYet" lastModified="2012-08-10T22:20:16">
+    <value>Aún no se han creado tipos de productos</value>
+    <comment>phrase: No product types have been created yet</comment>
+  </data>
+  <data name="CreateAProductType" lastModified="2012-08-10T22:20:16">
+    <value>Crear un tipo</value>
+    <comment>phrase: Create a product type</comment>
+  </data>
+  <data name="NameSingular" lastModified="2012-08-10T22:20:16">
+    <value>Nombre (singular)</value>
+    <comment>phrase: Name singular</comment>
+  </data>
+  <data name="BackToProductTypes" lastModified="2012-08-10T22:20:16">
+    <value>Volver a los tipos</value>
+    <comment>phrase: Back to product types</comment>
+  </data>
+  <data name="ValueTooLong" lastModified="2012-08-10T22:20:16">
+    <value>La longitud del valor no puede exceder los 255 caracteres.</value>
+    <comment>The message shown to user if the value is longer than 255 characters.</comment>
+  </data>
+  <data name="ProductTypeProperties" lastModified="2012-08-10T22:20:16">
+    <value>Propiedades del tipo de producto</value>
+    <comment>phrase: Product type properties</comment>
+  </data>
+  <data name="NamePlural" lastModified="2012-08-10T22:20:16">
+    <value>Nombre (plural)</value>
+    <comment>phrase: Name (plural)</comment>
+  </data>
+  <data name="NamePluralExample" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: Libros. Esto se utilizará en los filtros.</value>
+    <comment>phrase: Example: Books. This will be used in filters.</comment>
+  </data>
+  <data name="NameSingularExample" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: Libro</value>
+    <comment>phrase: Example: Book</comment>
+  </data>
+  <data name="CreateA" lastModified="2012-08-10T22:20:16">
+    <value>Crear un...</value>
+    <comment>phrase: Create a...</comment>
+  </data>
+  <data name="RolePickerFieldTitle" lastModified="2012-08-10T22:20:16">
+    <value>Función: Cuando alguien pide este producto, asignarle esta función</value>
+    <comment>The title of the product role picker field</comment>
+  </data>
+  <data name="EditAProductAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Editar un atributo</value>
+    <comment>phrase: Edit an attribute</comment>
+  </data>
+  <data name="NoAssociatedRole" lastModified="2012-08-10T22:20:16">
+    <value>- ningún rol asociado -</value>
+    <comment>phrase: - no associated role -</comment>
+  </data>
+  <data name="RolePickerFieldDescription" lastModified="2012-08-10T22:20:16">
+    <value>Asignar usuarios a una función le permite darles permisos específicos, p. ej., sólo ellos están autorizados a descargar un archivo, tener acceso a recursos específicos de apoyo, etc.</value>
+    <comment>The description of the product role picker field.</comment>
+  </data>
+  <data name="SalePriceShouldBeLessThanPrice" lastModified="2012-08-10T22:20:16">
+    <value>El precio de venta debe ser menor que el precio</value>
+    <comment>phrase: Sale price should be less than price.</comment>
+  </data>
+  <data name="CreateProductAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Crear un atributo</value>
+    <comment>phrase: Create an attribute</comment>
+  </data>
+  <data name="CreateAnProductAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Crear un atributo</value>
+    <comment>phrase: Create an attribute</comment>
+  </data>
+  <data name="Cancel" lastModified="2012-08-10T22:20:16">
+    <value>Cancelar</value>
+    <comment>word: Cancel</comment>
+  </data>
+  <data name="BackToProductAttributes" lastModified="2012-08-10T22:20:16">
+    <value>Volver a atributos</value>
+    <comment>phrase: Back to attributes</comment>
+  </data>
+  <data name="ThisProductAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Este atributo está activo</value>
+    <comment>phrase: This attribute is active</comment>
+  </data>
+  <data name="Type" lastModified="2012-08-10T22:20:16">
+    <value>Tipo</value>
+    <comment>word: Type</comment>
+  </data>
+  <data name="ProductAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Atributo</value>
+    <comment>Attribute</comment>
+  </data>
+  <data name="AttributeNameTooLong" lastModified="2012-08-10T22:20:16">
+    <value>La longitud del nombre del atributo no puede exceder los 255 caracteres.</value>
+    <comment>The message shown to user if the name is longer than 255 characters.</comment>
+  </data>
+  <data name="ProductAttributeValuesNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Valores de un atributo</value>
+    <comment>Values of an attribute</comment>
+  </data>
+  <data name="AttributeNameFieldControlExample" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: Tamaño</value>
+    <comment>Example: Size</comment>
+  </data>
+  <data name="CreateAProductAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Crear un atributo</value>
+    <comment>phrase: Create an attribute</comment>
+  </data>
+  <data name="CreateThisProductAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Crear este atributo</value>
+    <comment>phrase: Create this attribute</comment>
+  </data>
+  <data name="AdvancedSection" lastModified="2012-08-10T22:20:16">
+    <value>Avanzado</value>
+    <comment>Advanced</comment>
+  </data>
+  <data name="ProductAttributeValuesNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>attribute-values</value>
+    <comment>Url name of the product attributes values node.</comment>
+  </data>
+  <data name="ProductAttributeInternalName" lastModified="2012-08-10T22:20:16">
+    <value>Para los desarrolladores: nombre que se utiliza en el código</value>
+    <comment>For developers: name used in code</comment>
+  </data>
+  <data name="ProductAttributeInternalNameInvalidSymbols" lastModified="2012-08-10T22:20:16">
+    <value>El nombre interno del atributo tiene algunos caracteres no válidos.</value>
+    <comment>The internal name of the attribute has some invalid characters.</comment>
+  </data>
+  <data name="ProductAttributeValuesUrlName" lastModified="2012-08-10T22:20:16">
+    <value>AttributeValues</value>
+    <comment>Product Attribute values URL name</comment>
+  </data>
+  <data name="ProductValue" lastModified="2012-08-10T22:20:16">
+    <value>Valor</value>
+    <comment>Value</comment>
+  </data>
+  <data name="AttributeNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El nombre del atributo no puede estar vacío</value>
+    <comment>phrase: Attribute name cannot be empty</comment>
+  </data>
+  <data name="NoProductAttributeValuesHaveBeenCreatedYet" lastModified="2012-08-10T22:20:16">
+    <value>Aún no se han creado valores</value>
+    <comment>phrase: No values have been created yet</comment>
+  </data>
+  <data name="CreateProductAttributeValue" lastModified="2012-08-10T22:20:16">
+    <value>Crear un valor</value>
+    <comment>phrase: Create a value</comment>
+  </data>
+  <data name="NoProductAttributesHaveBeenCreatedYet" lastModified="2012-08-10T22:20:16">
+    <value>Aún no se han creado atributos</value>
+    <comment>phrase: No attributes have been created yet</comment>
+  </data>
+  <data name="CreateAProductAttributeValue" lastModified="2012-08-10T22:20:16">
+    <value>Crear un valor</value>
+    <comment>phrase: Create a value</comment>
+  </data>
+  <data name="ValueNameFieldControlExample" lastModified="2012-08-10T22:20:16">
+    <value>Ejemplo: XL</value>
+    <comment>Example: XL</comment>
+  </data>
+  <data name="BackToProductAttributeValues" lastModified="2012-08-10T22:20:16">
+    <value>Volver a valores</value>
+    <comment>phrase: Back to values</comment>
+  </data>
+  <data name="ThisProductAttributeValue" lastModified="2012-08-10T22:20:16">
+    <value>Este valor está activo</value>
+    <comment>phrase: This value is active</comment>
+  </data>
+  <data name="ProductAttributeInternalNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El nombre interno del atributo no puede estar vacío.</value>
+    <comment>The internal name of the attribute cannot be empty.</comment>
+  </data>
+  <data name="ValueCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El valor no puede estar vacío</value>
+    <comment>phrase: value cannot be empty</comment>
+  </data>
+  <data name="BackToProductVariations" lastModified="2012-08-10T22:20:16">
+    <value>Volver a variaciones</value>
+    <comment>phrase: Back to variations</comment>
+  </data>
+  <data name="ProductAttributeValuesTitleFormat" lastModified="2012-08-10T22:20:16">
+    <value>&lt;em&gt;{0}&lt;/em&gt; valores</value>
+    <comment>Title format for the product attribute values.</comment>
+  </data>
+  <data name="GroupDeleteProductAttributeValues" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="ClickToAddDescription" lastModified="2012-08-10T22:20:16">
+    <value>Hacer clic para añadir una descripción</value>
+    <comment>The label for the product description expand link</comment>
+  </data>
+  <data name="ProductVariationsNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Variaciones del Producto</value>
+    <comment>Values of an attribute</comment>
+  </data>
+  <data name="Variations" lastModified="2012-08-10T22:20:16">
+    <value>Variaciones</value>
+    <comment>Variations</comment>
+  </data>
+  <data name="EditProductVariations" lastModified="2012-08-10T22:20:16">
+    <value>Variaciones</value>
+    <comment>Variations</comment>
+  </data>
+  <data name="ViewAllAttributes" lastModified="2012-08-10T22:20:16">
+    <value>Todos los atributos</value>
+    <comment>All attributes</comment>
+  </data>
+  <data name="ProductVariationsNodeUrlName" lastModified="2012-08-10T22:20:16">
+    <value>product-variations</value>
+    <comment>Url name of the product variations node.</comment>
+  </data>
+  <data name="CreateProductVariation" lastModified="2012-08-10T22:20:16">
+    <value>Crear una variación</value>
+    <comment>Create a variation</comment>
+  </data>
+  <data name="EditProductVariation" lastModified="2012-08-10T22:20:16">
+    <value>Editar variaciones del producto</value>
+    <comment>Edit Product variations</comment>
+  </data>
+  <data name="CreateAProductVariation" lastModified="2012-08-10T22:20:16">
+    <value>Crear variaciones</value>
+    <comment>Create variations</comment>
+  </data>
+  <data name="NoProductVariationsHaveBeenCreatedYet" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;¿Cuáles son las variaciones?&lt;/strong&gt; &lt;br /&gt; Si este producto está disponible en más de un tamaño, color, material, etc., necesita crear variaciones. Cada variación puede tener diferente precio, SKU, descripción, imágenes, etc.</value>
+    <comment>phrase: No attributes have been created yet</comment>
+  </data>
+  <data name="ProductVariationsUrlName" lastModified="2012-08-10T22:20:16">
+    <value>ProductVariations</value>
+    <comment>Product variations URL name</comment>
+  </data>
+  <data name="ProductVariationsTitleFormat" lastModified="2012-08-10T22:20:16">
+    <value>&lt;em&gt;{0}&lt;/em&gt; variaciones</value>
+    <comment>Title format for the product variations.</comment>
+  </data>
+  <data name="CreateVariations" lastModified="2012-08-10T22:20:16">
+    <value>Crear variaciones</value>
+    <comment>create variations</comment>
+  </data>
+  <data name="Edit" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+  </data>
+  <data name="AdditionalCharge" lastModified="2012-08-10T22:20:16">
+    <value>Cargo adicional</value>
+    <comment>Additional charge</comment>
+  </data>
+  <data name="ProductVariationsSKU" lastModified="2012-08-10T22:20:16">
+    <value>SKU</value>
+    <comment>Product Variations SKU</comment>
+  </data>
+  <data name="ProductVariations" lastModified="2012-08-10T22:20:16">
+    <value>ProductVariations</value>
+    <comment> </comment>
+  </data>
+  <data name="ProductVariationsName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre</value>
+    <comment>Name</comment>
+  </data>
+  <data name="EditAProductVariations" lastModified="2012-08-10T22:20:16">
+    <value>Editar variaciones</value>
+    <comment>Edit variations</comment>
+  </data>
+  <data name="CreateThisProductVariation" lastModified="2012-08-10T22:20:16">
+    <value>Crear esta variación</value>
+    <comment>phrase: Create this variation</comment>
+  </data>
+  <data name="CreateAProductVariations" lastModified="2012-08-10T22:20:16">
+    <value>Crear una variación</value>
+    <comment>Create a variation</comment>
+  </data>
+  <data name="SelectAttribute" lastModified="2012-08-10T22:20:16">
+    <value>- Seleccionar atributo -</value>
+    <comment>- Select attribute -</comment>
+  </data>
+  <data name="SelectValue" lastModified="2012-08-10T22:20:16">
+    <value>- Seleccionar valor -</value>
+    <comment>- Select value -</comment>
+  </data>
+  <data name="CreateVariation" lastModified="2012-08-10T22:20:16">
+    <value>Crear esta variación</value>
+    <comment> </comment>
+  </data>
+  <data name="ProductAttributeRequired" lastModified="2012-08-10T22:20:16">
+    <value>Usted debe seleccionar un atributo.</value>
+    <comment>phrase: You must select an attribute</comment>
+  </data>
+  <data name="ThisProductVariation" lastModified="2012-08-10T22:20:16">
+    <value>Esta variación está activa</value>
+    <comment>phrase: This variation is active</comment>
+  </data>
+  <data name="ProductVariation" lastModified="2012-08-10T22:20:16">
+    <value>Variación</value>
+    <comment>Product Variation</comment>
+  </data>
+  <data name="EditAProductAttributeValue" lastModified="2012-08-10T22:20:16">
+    <value>Editar un valor</value>
+    <comment>phrase: Edit a value</comment>
+  </data>
+  <data name="ProductAttributeValueRequired" lastModified="2012-08-10T22:20:16">
+    <value>Debe seleccionar un valor.</value>
+    <comment>phrase: You must select a value</comment>
+  </data>
+  <data name="OptionSubtractPrice" lastModified="2012-08-10T22:20:16">
+    <value>- {0}</value>
+    <comment>Format for displaying the option price (which will be subtracted from the base price) in drop-down</comment>
+  </data>
+  <data name="ThisProductHasVariationsBy" lastModified="2012-08-10T22:20:16">
+    <value>Este producto tiene variaciones en...</value>
+    <comment>This product has variations by...</comment>
+  </data>
+  <data name="ThisAttributeIsActive" lastModified="2012-08-10T22:20:16">
+    <value>Este atributo está activo</value>
+    <comment>phrase: This attribute is active</comment>
+  </data>
+  <data name="DuplicateProductVariationException" lastModified="2012-08-10T22:20:16">
+    <value>La variación del producto con atributo '{0}' y valor '{1}' ya existe para este producto.</value>
+    <comment>The message shown to the user if the product variation information duplicates another variation of the same product.</comment>
+  </data>
+  <data name="AddAnotherAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Añadir otro atributo</value>
+    <comment>Add another attribute</comment>
+  </data>
+  <data name="ThisValueIsActive" lastModified="2012-08-10T22:20:16">
+    <value>Este valor está activo</value>
+    <comment>phrase: This value is active</comment>
+  </data>
+  <data name="OptionZeroPrice" lastModified="2012-08-10T22:20:16">
+    <value></value>
+    <comment>Format for displaying the option price (when it is zero) in drop-down</comment>
+  </data>
+  <data name="OptionAddPrice" lastModified="2012-08-10T22:20:16">
+    <value>+ {0}</value>
+    <comment>Format for displaying the option price (which will be added to the base price) in drop-down</comment>
+  </data>
+  <data name="EditTheVariations" lastModified="2012-08-10T22:20:16">
+    <value>Editar variaciones</value>
+    <comment>phrase: Edit variations</comment>
+  </data>
+  <data name="CannotDeleteProductAttributeValue" lastModified="2012-08-10T22:20:16">
+    <value>Este valor no puede ser eliminado ya que un producto lo está utilizando como una variación. Por favor, elimine la variación antes de eliminar este valor.</value>
+    <comment>phrase: message that gets shown to the user when deleting a product attribute value is failed due to exsisting product using the attribute / value</comment>
+  </data>
+  <data name="CannotDeleteProductAttribute" lastModified="2012-08-10T22:20:16">
+    <value>Este atributo no puede ser eliminado ya que un producto lo está utilizando como una variación. Por favor, elimine la variación antes de eliminar este atributo.</value>
+    <comment>phrase: message that gets shown to the user when deleting a product attribute failed due to exsisting product using the attribute</comment>
+  </data>
+  <data name="AlphabeticallyAZ" lastModified="2012-08-10T22:20:16">
+    <value>Alfabeticamente (A-Z)</value>
+    <comment>word: Alphabetically (A-Z)</comment>
+  </data>
+  <data name="Order" lastModified="2012-08-10T22:20:16">
+    <value>Ordenar</value>
+    <comment>word: Order</comment>
+  </data>
+  <data name="ThisAttributeCanBeAppliedTo" lastModified="2012-08-10T22:20:16">
+    <value>Este atributo se puede aplicar a...</value>
+    <comment>This attribute can be applied to...</comment>
+  </data>
+  <data name="Manually" lastModified="2012-08-10T22:20:16">
+    <value>Manualmente</value>
+    <comment>word: Manually</comment>
+  </data>
+  <data name="CreateAndAddAnotherProductAttributeValue" lastModified="2012-08-10T22:20:16">
+    <value>Crear y agregar otro</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="LastCreatedTop" lastModified="2012-08-10T22:20:16">
+    <value>Situar encima lo último creado</value>
+    <comment>phrase: Last created on top</comment>
+  </data>
+  <data name="AlphabeticallyZA" lastModified="2012-08-10T22:20:16">
+    <value>Alfabeticamente (Z-A)</value>
+    <comment>word: Alphabetically (Z-A)</comment>
+  </data>
+  <data name="AllTypesOfProducts" lastModified="2012-08-10T22:20:16">
+    <value>Todos los tipos de productos</value>
+    <comment>All types of products</comment>
+  </data>
+  <data name="SelectedTypes" lastModified="2012-08-10T22:20:16">
+    <value>Tipos seleccionados...</value>
+    <comment>Selected types...</comment>
+  </data>
+  <data name="ISBN" lastModified="2012-08-10T22:20:16">
+    <value>ISBN</value>
+    <comment>word: ISBN</comment>
+  </data>
+  <data name="AppliedToProductTypeError" lastModified="2012-08-10T22:20:16">
+    <value>Por favor, seleccione un tipo de producto al que se debe aplicar este atributo</value>
+    <comment>Please select a product type that this attribute has to apply to</comment>
+  </data>
+  <data name="AppliedTo" lastModified="2012-08-10T22:20:16">
+    <value>Aplicar A</value>
+    <comment>Applied To</comment>
+  </data>
+  <data name="ReleaseDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de puesta en venta</value>
+    <comment>phrase: Release date</comment>
+  </data>
+  <data name="ThisVariationIsActive" lastModified="2012-08-10T22:20:16">
+    <value>Esta variación está activa</value>
+    <comment>phrase: This variation is active</comment>
+  </data>
+  <data name="ManageAttributes" lastModified="2012-08-10T22:20:16">
+    <value>Administrar atributos</value>
+    <comment>phrase: Manage attributes</comment>
+  </data>
+  <data name="LastCreatedBottom" lastModified="2012-08-10T22:20:16">
+    <value>Último creado en el fondo</value>
+    <comment>phrase: Last created at bottom</comment>
+  </data>
+  <data name="Author" lastModified="2012-08-10T22:20:16">
+    <value>Autor</value>
+    <comment>word: Author</comment>
+  </data>
+  <data name="ManageValues" lastModified="2012-08-10T22:20:16">
+    <value>Administrar valores</value>
+    <comment>phrase: Manage values</comment>
+  </data>
+  <data name="ReleaseYear" lastModified="2012-08-10T22:20:16">
+    <value>Año de lanzamiento</value>
+    <comment>phrase: Year of release</comment>
+  </data>
+  <data name="NumberOfPages" lastModified="2012-08-10T22:20:16">
+    <value>Número de páginas</value>
+    <comment>phrase: Number of pages</comment>
+  </data>
+  <data name="DepartmentsOpenThisPage" lastModified="2012-08-10T22:20:16">
+    <value>Esta página</value>
+    <comment>phrase: Open department products on page...</comment>
+  </data>
+  <data name="Length" lastModified="2012-08-10T22:20:16">
+    <value>Extensión</value>
+    <comment>word: Length</comment>
+  </data>
+  <data name="Artist" lastModified="2012-08-10T22:20:16">
+    <value>Artista</value>
+    <comment>word: Artist</comment>
+  </data>
+  <data name="Album" lastModified="2012-08-10T22:20:16">
+    <value>Álbumes</value>
+    <comment>word: Album</comment>
+  </data>
+  <data name="Release" lastModified="2012-08-10T22:20:16">
+    <value>Puesta en venta</value>
+    <comment>word: Release</comment>
+  </data>
+  <data name="IsShippableTitle" lastModified="2012-08-10T22:20:16">
+    <value>Productos despachables</value>
+    <comment>Title of the Is shippable field</comment>
+  </data>
+  <data name="IsShippableDescription" lastModified="2012-08-10T22:20:16">
+    <value>No seleccione esta opción si los productos no se pueden enviar, p. ej., software, MP3.</value>
+    <comment>Description of the Is shippable field</comment>
+  </data>
+  <data name="ProductDeliveryTitle" lastModified="2012-08-10T22:20:16">
+    <value>&lt;string&gt;Este tipo contiene...&lt;/strong&gt;</value>
+    <comment>Title of the product delivery title</comment>
+  </data>
+  <data name="Platform" lastModified="2012-08-10T22:20:16">
+    <value>Plataforma</value>
+    <comment>word: Platform</comment>
+  </data>
+  <data name="DepartmentsOpenOtherPage" lastModified="2012-08-10T22:20:16">
+    <value>Otra página…</value>
+    <comment>phrase: Open department products on page...</comment>
+  </data>
+  <data name="NumberOfPagesFormatErrorMessage" lastModified="2012-08-10T22:20:16">
+    <value>El número de páginas debe ser un número entero.</value>
+    <comment>Violation message displayed to user if value for number of pages is not correctly entered.</comment>
+  </data>
+  <data name="OpenDepartmentProductsOnPage" lastModified="2012-08-10T22:20:16">
+    <value>Abrir los productos del departamento en la página...</value>
+    <comment>phrase: Open department products on page...</comment>
+  </data>
+  <data name="RedirectToShoppingCart" lastModified="2012-08-10T22:20:16">
+    <value>Redirigir al Carrito de Compras</value>
+    <comment>phrase: Redirect to Shopping cart</comment>
+  </data>
+  <data name="ClickingAddToCartButtonRedirectsToTheShoppingCartPage" lastModified="2012-08-10T22:20:16">
+    <value>Si hace clic en "Agregar al Carrito de Compras" será redirigido a la página del Carrito de Compras</value>
+    <comment>Clicking "Add to cart" button redirects to the Shopping cart page</comment>
+  </data>
+  <data name="Publisher" lastModified="2012-08-10T22:20:16">
+    <value>Editor</value>
+    <comment>word: Publisher</comment>
+  </data>
+  <data name="IsDownloadableTitle" lastModified="2012-08-10T22:20:16">
+    <value>Productos descargables (por ejemplo, MP3, libros electrónicos, software)</value>
+    <comment>Title of the Is Downloadable field</comment>
+  </data>
+  <data name="IsServiceTitle" lastModified="2012-08-10T22:20:16">
+    <value>Servicios u otros productos no despachables (por ejemplo, suscripciones)</value>
+    <comment>Title of the Is Service field</comment>
+  </data>
+  <data name="ReleaseYearFormatError" lastModified="2012-08-10T22:20:16">
+    <value>El año de puesta en venta debe ser un número con cuatro dígitos; sólo se aceptan años entre 1900 y 2099.</value>
+    <comment>Violation message displayed to user if value for the year of release is not correctly entered.</comment>
+  </data>
+  <data name="FileToDownload" lastModified="2012-08-10T22:20:16">
+    <value>Archivos para descargar</value>
+    <comment>phrase: Files to download</comment>
+  </data>
+  <data name="SelectFile" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione archivo</value>
+    <comment>The text for the 'Select file' button.</comment>
+  </data>
+  <data name="CannotDeleteThisProductAttributeValue" lastModified="2012-08-10T22:20:16">
+    <value>El valor '{0}' no puede ser eliminado ya que un producto lo está utilizando como una variación. Por favor, elimine la variación antes de eliminar este valor.</value>
+    <comment>phrase: message that gets shown to the user when deleting a product attribute value is failed due to exsisting product using the attribute / value</comment>
+  </data>
+  <data name="DepartmentsThisPageHelpfulText" lastModified="2012-08-10T22:20:16">
+    <value>Debe tener un widget de lista de productos en esta página</value>
+    <comment>phrase: Open department products on page...</comment>
+  </data>
+  <data name="DoNotDisplayProductsWhichAreNotTranslatedToTheCurrentLanguage" lastModified="2012-08-10T22:20:16">
+    <value>No mostrar los productos que no están traducidos al lenguaje actual</value>
+    <comment>phrase: Don't display products which are not translated to the current language</comment>
+  </data>
+  <data name="WhatToDoWithNotTranslatedProductsText" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué hacer con los productos sin traducir?</value>
+    <comment>phrase: What to do with untranslated products?</comment>
+  </data>
+  <data name="CannotDeleteThisProductAttribute" lastModified="2012-08-10T22:20:16">
+    <value>El atributo '{0}' no puede ser eliminado ya que un producto lo está utilizando como una variación. Por favor, elimine la variación antes de eliminar este atributo.</value>
+    <comment>phrase: message that gets shown to the user when deleting a product attribute failed due to exsisting product using the attribute</comment>
+  </data>
+  <data name="UsedIfTheProductDoesNotHaveAnyVariations" lastModified="2012-08-10T22:20:16">
+    <value>(Se utiliza cuando el producto no tiene ninguna variación)</value>
+    <comment>phrase: (Used if the product does not have any variations)</comment>
+  </data>
+  <data name="UsedIfTheProductHasVariations" lastModified="2012-08-10T22:20:16">
+    <value>(Se utiliza si el producto presenta variaciones)</value>
+    <comment>phrase: (Used if the product has variations)</comment>
+  </data>
+  <data name="DisplayProductsInTheirDefaultLanguageIfTheyAreNotTranslatedToTheCurrentLanguage" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar los productos en su idioma por defecto si no se traducen al lenguaje actual</value>
+    <comment>phrase: Display products in their default language if they are not translated to the current language</comment>
+  </data>
+  <data name="DepartmentsOtherPageHelpfulText" lastModified="2012-08-10T22:20:16">
+    <value>Debe tener un widget de lista de productos en la página seleccionada</value>
+    <comment>phrase: Open department products on page...</comment>
+  </data>
+  <data name="ProductAttributesNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Atributos (tamaño, color, etc.)</value>
+    <comment>Title of the product attributes node.</comment>
+  </data>
+  <data name="CreateThisProductType" lastModified="2012-08-10T22:20:16">
+    <value>Crear este tipo de producto y definir sus campos</value>
+    <comment>phrase: Create this product type</comment>
+  </data>
+</root>

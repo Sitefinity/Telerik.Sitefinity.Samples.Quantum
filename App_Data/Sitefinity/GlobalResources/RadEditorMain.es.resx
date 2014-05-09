@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCustomWordSuccess" lastModified="2011-12-01T08:56:28">
+    <value>Añadido al diccionario</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="RadEditorMainDescription" lastModified="2011-12-01T08:56:28">
+    <value>Cadenas de recursos para RadEditor.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="RadEditorMainTitle" lastModified="2011-12-01T08:56:28">
+    <value>RadEditor principal</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="RadEditorMainTitlePlural" lastModified="2011-12-01T08:56:28">
+    <value>RadEditor principal</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="ReservedResource" lastModified="2011-12-01T08:56:28">
+    <value>Por favor, no elimine esta cadena de texto. RadEditor la necesita para determinar si un archivo de recursos externos está en App_GlobalResources.</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="AddCustomHexColor" lastModified="2011-12-01T08:56:28">
+    <value>Añadir color hexadecimal...</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="AddCustomColor" lastModified="2011-12-01T08:56:28">
+    <value>Añadir color personalizado ...</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="AddToDictionary" lastModified="2011-12-01T08:56:28">
+    <value>Añadir al diccionario</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="CancelButton" lastModified="2011-12-01T08:56:28">
+    <value>Cancelar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="CellWarning" lastModified="2011-12-01T08:56:28">
+    <value>Por favor, seleccione una celda para establecer sus propiedades!</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="CancelTable" lastModified="2011-12-01T08:56:28">
+    <value>Cancelar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FileOpen" lastModified="2011-12-01T08:56:28">
+    <value>Abrir archivo ..</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="CellProperties" lastModified="2011-12-01T08:56:28">
+    <value>Propiedades de celda</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ClearCssFormatting" lastModified="2011-12-01T08:56:28">
+    <value>Hojas de estilo</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="Class" lastModified="2011-12-01T08:56:28">
+    <value>Clase CSS</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ChangeWordString" lastModified="2011-12-01T08:56:28">
+    <value>Cambiar manualmente</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ClearAllHtmlTags" lastModified="2011-12-01T08:56:28">
+    <value>Todas las etiquetas HTML</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ClearFontTags" lastModified="2011-12-01T08:56:28">
+    <value> Etiquetas de Fuente</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="DropdownToolbar" lastModified="2011-12-01T08:56:28">
+    <value>Combo</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="CorrectSpelling" lastModified="2011-12-01T08:56:28">
+    <value>Cambios de ortografía</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ClearStyle" lastModified="2011-12-01T08:56:28">
+    <value>Borrar estilo</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ClearSpanTags" lastModified="2011-12-01T08:56:28">
+    <value>Etiquetas Span</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ClearWordFormatting" lastModified="2011-12-01T08:56:28">
+    <value>Formato Microsoft Word</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ClearFormatting" lastModified="2011-12-01T08:56:28">
+    <value>Borrar formato</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="DialogToolbar" lastModified="2011-12-01T08:56:28">
+    <value>Diálogos</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="CreateLink" lastModified="2011-12-01T08:56:28">
+    <value>Crear vínculo</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="MoreThanOnceMessage" lastModified="2011-12-01T08:56:28">
+    <value>Esta palabra aparece más de una vez en el texto. ¿Desea reemplazar todas las repeticiones?</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="EnhancedEditToolbar" lastModified="2011-12-01T08:56:28">
+    <value>Edición mejorada</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="MainToolbar" lastModified="2011-12-01T08:56:28">
+    <value>Barra de herramientas principal</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormHidden" lastModified="2011-12-01T08:56:28">
+    <value>Oculto</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormCheckbox" lastModified="2011-12-01T08:56:28">
+    <value>Checkbox</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormButton" lastModified="2011-12-01T08:56:28">
+    <value>Botón</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormForm" lastModified="2011-12-01T08:56:28">
+    <value>Formulario</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormSelect" lastModified="2011-12-01T08:56:28">
+    <value>Seleccionar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormRadio" lastModified="2011-12-01T08:56:28">
+    <value>Radio button</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormPassword" lastModified="2011-12-01T08:56:28">
+    <value>Contraseña</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FileSaveAs" lastModified="2011-12-01T08:56:28">
+    <value>Guardar como ...</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormSubmit" lastModified="2011-12-01T08:56:28">
+    <value>Enviar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="InsertToolbar" lastModified="2011-12-01T08:56:28">
+    <value>Insertar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="IgnoreString" lastModified="2011-12-01T08:56:28">
+    <value>Ignorar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="HtmlMode" lastModified="2011-12-01T08:56:28">
+    <value>Modo HTML</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormTextarea" lastModified="2011-12-01T08:56:28">
+    <value>Textarea</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="IgnoreAllString" lastModified="2011-12-01T08:56:28">
+    <value>Ignorar todas</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormText" lastModified="2011-12-01T08:56:28">
+    <value>Textbox</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="IndentHtml" lastModified="2011-12-01T08:56:28">
+    <value>Sangrado HTML</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ImageMapWarning" lastModified="2011-12-01T08:56:28">
+    <value>Por favor, seleccione una imagen para definir sus propiedades como mapa de imagen!</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="MoveCommand" lastModified="2011-12-01T08:56:28">
+    <value>Mover</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="NoSpellingMistakes" lastModified="2011-12-01T08:56:28">
+    <value>No se ha encontrado ningún error</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ExceededTextLength" lastModified="2011-12-01T08:56:28">
+    <value>El texto añadido excede el límite de caracteres</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ShowToolbarTooltip" lastModified="2011-12-01T08:56:28">
+    <value>Mostrar barra de herramientas</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="RadEditorDesignMode" lastModified="2011-12-01T08:56:28">
+    <value>Diseño</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="SpellCheckComplete" lastModified="2011-12-01T08:56:28">
+    <value>Se completó la corrección ortográfica!</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="NoSuggestions" lastModified="2011-12-01T08:56:28">
+    <value>(No hay sugerencias)</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="RadEditorHtmlMode" lastModified="2011-12-01T08:56:28">
+    <value>HTML</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="SetHtml" lastModified="2011-12-01T08:56:28">
+    <value>Establecer HTML</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="PromptColor" lastModified="2011-12-01T08:56:28">
+    <value>Por favor, indique el valor HEX del color personalizado: </value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="RadEditorPreviewMode" lastModified="2011-12-01T08:56:28">
+    <value>Vista previa</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="SpellCheckEnd" lastModified="2011-12-01T08:56:28">
+    <value>Finalizar corrección ortográfica</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="TableWarning" lastModified="2011-12-01T08:56:28">
+    <value>Por favor, seleccione una tabla para establecer sus propiedades!</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="SpellingInProgress" lastModified="2011-12-01T08:56:28">
+    <value>Corrección ortográfica en curso ...</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="SpellingChange" lastModified="2011-12-01T08:56:28">
+    <value>Cambio de Ortografía</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ToolbarCaption" lastModified="2011-12-01T08:56:28">
+    <value>RadEditor barra de herramientas</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="AskWordCleaning" lastModified="2011-12-01T08:56:28">
+    <value>El contenido que está tratando de pegar tiene formato de MS Word. ¿Le gustaría limpiarlo?</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="Table" lastModified="2011-12-01T08:56:28">
+    <value>Tabla</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="TableToolbar" lastModified="2011-12-01T08:56:28">
+    <value>Tabla</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="SpellingMode" lastModified="2011-12-01T08:56:28">
+    <value>Modo de corrección ortográfica. Las palabras mal escritas se resaltan en amarillo.</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ResizeCommand" lastModified="2011-12-01T08:56:28">
+    <value>Cambiar el tamaño del Objeto</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ToolNotSupportedByNetscape" lastModified="2011-12-01T08:56:28">
+    <value>Esta herramienta no es compatible con Mozilla/Netscape.</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="Typing" lastModified="2011-12-01T08:56:28">
+    <value>Escribiendo ...</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="UseCtrlX" lastModified="2011-12-01T08:56:28">
+    <value>Por favor, use Ctrl + X para cortar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="UseCtrlC" lastModified="2011-12-01T08:56:28">
+    <value>Por favor, use Ctrl + C para copiar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="UpdateButton" lastModified="2011-12-01T08:56:28">
+    <value>Actualizar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="UseCtrlV" lastModified="2011-12-01T08:56:28">
+    <value>Por favor, use Ctrl + V para pegar</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ReduceTheConentLength" lastModified="2011-12-01T08:56:28">
+    <value>Por favor, reduzca el contenido del campo</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ExceededHtmlLength" lastModified="2011-12-01T08:56:28">
+    <value>El código HTML añadido excede el límite de caracteres</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="ClearClass" lastModified="2011-12-01T08:56:28">
+    <value>Borrar la clase</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="UndoDisabledMessage" lastModified="2011-12-01T08:56:28">
+    <value>No se puede deshacer más en el modo de corrector ortográfico. Por favor, termine la corrección ortográfica antes.</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+  <data name="FormReset" lastModified="2011-12-01T08:56:28">
+    <value>Restablecer</value>
+    <comment>RadEditorMain resource strings.</comment>
+  </data>
+</root>

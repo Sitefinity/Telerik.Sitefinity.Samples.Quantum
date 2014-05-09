@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UserProfilesResourcesTitle" lastModified="2014-04-07T14:32:44">
+    <value>User profiles labels</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="UserProfilesResourcesDescription" lastModified="2014-04-07T14:32:44">
+    <value>Contains localizable resources for user profiles user interface.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="UserProfileTypesDescription" lastModified="2014-04-07T14:32:44">
+    <value>profile types</value>
+    <comment>News</comment>
+  </data>
+  <data name="UserProfileTypesHtmlTitle" lastModified="2014-04-07T14:32:44">
+    <value>Profile types</value>
+    <comment>Html Title for the user profiles types page.</comment>
+  </data>
+  <data name="UserProfileTypes" lastModified="2014-04-07T14:32:44">
+    <value>Profile Types</value>
+    <comment>The name of the Sitefinity/Admin/ProfileTypes section.</comment>
+  </data>
+  <data name="UserProfileTypesUrlName" lastModified="2014-04-07T14:32:44">
+    <value>ProfileTypes</value>
+    <comment>The UrlName of the Sitefinity/Admin/ProfileTypes page.</comment>
+  </data>
+  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+    <value>Back to Profile Types</value>
+    <comment>The text of the back to profile types link</comment>
+  </data>
+  <data name="PluralItemName" lastModified="2014-04-07T14:32:44">
+    <value>user profiles</value>
+    <comment>Phrase: news</comment>
+  </data>
+  <data name="EditProfilesWidgetSettings" lastModified="2014-04-07T14:32:44">
+    <value>Edit Profiles widget settings</value>
+    <comment>Phrase: Edit Profiles widget settings</comment>
+  </data>
+  <data name="ShowMyEmailToOthers" lastModified="2014-04-07T14:32:44">
+    <value>Show my email to others</value>
+    <comment>Phrase: Show my email to others</comment>
+  </data>
+  <data name="NoUserProfileTypes" lastModified="2014-04-07T14:32:44">
+    <value>No profile types.</value>
+    <comment>phrase: No profile types.</comment>
+  </data>
+  <data name="NameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Name cannot be empty.</value>
+    <comment>phrase: Name cannot be empty.</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+    <value>Title cannot be empty</value>
+    <comment>phrase: Title cannot be empty</comment>
+  </data>
+  <data name="ProfileNameNotValid" lastModified="2014-04-07T14:32:44">
+    <value>Sorry, the name should start with a letter and continue with letters (a-z), numbers (0-9), or underscores (_).</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="YouAreNotLoggedIn" lastModified="2014-04-07T14:32:44">
+    <value>You are not logged in.</value>
+    <comment>Phrase: You are not logged in.</comment>
+  </data>
+  <data name="OpenViewsInExternalPages" lastModified="2014-04-07T14:32:44">
+    <value>Open &lt;em&gt;Edit&lt;/em&gt; and &lt;em&gt;Change password &lt;/em&gt; in selected existing pages...</value>
+    <comment>phrase: Open &lt;em&gt;Edit&lt;/em&gt; and &lt;em&gt;Change password &lt;/em&gt; in selected existing pages...</comment>
+  </data>
+  <data name="PageForEditingProfile" lastModified="2014-04-07T14:32:44">
+    <value>Page for editing profile</value>
+    <comment>phrase: Page for editing profile</comment>
+  </data>
+  <data name="PageForChangingPassword" lastModified="2014-04-07T14:32:44">
+    <value>Page for changing password</value>
+    <comment>phrase: Page for changing password</comment>
+  </data>
+  <data name="ThisProfileIsIn" lastModified="2014-04-07T14:32:44">
+    <value>This profile is in...</value>
+    <comment>phrase: This profile is in...</comment>
+  </data>
+  <data name="ReadModeOnly" lastModified="2014-04-07T14:32:44">
+    <value>Read mode only</value>
+    <comment>phrase: Read mode only</comment>
+  </data>
+  <data name="EditModeOnly" lastModified="2014-04-07T14:32:44">
+    <value>Edit mode only</value>
+    <comment>phrase:Edit mode only</comment>
+  </data>
+  <data name="BothModes" lastModified="2014-04-07T14:32:44">
+    <value>Both: Read mode that can be edited</value>
+    <comment>phrase:Both: Read mode that can be edited</comment>
+  </data>
+  <data name="FineTuneTheSelectedType" lastModified="2014-04-07T14:32:44">
+    <value>Fine tune the selected type</value>
+    <comment>phrase:Fine tune the selected type</comment>
+  </data>
+  <data name="DisplayTheProfileOf" lastModified="2014-04-07T14:32:44">
+    <value>Display the profile of...</value>
+    <comment>phrase: Display the profile of...</comment>
+  </data>
+  <data name="UserLoggedToHisHerAccount" lastModified="2014-04-07T14:32:44">
+    <value>User logged to his/her account</value>
+    <comment>phrase: User logged to his/her account</comment>
+  </data>
+  <data name="SelectedUser" lastModified="2014-04-07T14:32:44">
+    <value>Selected user:</value>
+    <comment>phrase:Selected user:</comment>
+  </data>
+  <data name="NoUserSelected" lastModified="2014-04-07T14:32:44">
+    <value>No user selected</value>
+    <comment>phrase:No user selected</comment>
+  </data>
+  <data name="SelectAUser" lastModified="2014-04-07T14:32:44">
+    <value>Select a user</value>
+    <comment>phrase:Select a user</comment>
+  </data>
+  <data name="SelectARole" lastModified="2014-04-07T14:32:44">
+    <value>Select a role</value>
+    <comment>phrase:Select a role</comment>
+  </data>
+  <data name="WhichUsersToDisplay" lastModified="2014-04-07T14:32:44">
+    <value>Which users to display?</value>
+    <comment>phrase:Which users to display?</comment>
+  </data>
+  <data name="ProfileType" lastModified="2014-04-07T14:32:44">
+    <value>Profile type</value>
+    <comment>phrase:Profile type</comment>
+  </data>
+  <data name="Template" lastModified="2014-04-07T14:32:44">
+    <value>Template</value>
+    <comment>Word:Template</comment>
+  </data>
+  <data name="ReadModeTemplate" lastModified="2014-04-07T14:32:44">
+    <value>'Read mode' template</value>
+    <comment>phrase:'Read mode' template</comment>
+  </data>
+  <data name="CreateNewTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Create New Template</value>
+    <comment>phrase:Create New Template</comment>
+  </data>
+  <data name="EditModeTemplate" lastModified="2014-04-07T14:32:44">
+    <value>'Edit mode' template</value>
+    <comment>phrase:'Edit mode' template</comment>
+  </data>
+  <data name="TemplateForNotLoggedUsers" lastModified="2014-04-07T14:32:44">
+    <value>Template for not logged users</value>
+    <comment>phrase:Template for not logged users</comment>
+  </data>
+  <data name="ChangePasswordTemplate" lastModified="2014-04-07T14:32:44">
+    <value>'Change password' template</value>
+    <comment>phrase: 'Change password' template</comment>
+  </data>
+  <data name="WhenTheChangesAreSaved" lastModified="2014-04-07T14:32:44">
+    <value>When the changes are saved...</value>
+    <comment>phrase: When the changes are saved...</comment>
+  </data>
+  <data name="SwitchToReadMode" lastModified="2014-04-07T14:32:44">
+    <value>Switch to 'Read mode'</value>
+    <comment>phrase: Switch to 'Read mode'</comment>
+  </data>
+  <data name="ShowMessageAboveTheForm" lastModified="2014-04-07T14:32:44">
+    <value>Show message above the form</value>
+    <comment>phrase: Show message above the form</comment>
+  </data>
+  <data name="OpenASpeciallyPreparedPage" lastModified="2014-04-07T14:32:44">
+    <value>Open a specially prepared page...</value>
+    <comment>phrase: Open a specially prepared page...</comment>
+  </data>
+  <data name="CssClass" lastModified="2014-04-07T14:32:44">
+    <value>Css class</value>
+    <comment>phrase: Css class</comment>
+  </data>
+  <data name="ChangePage" lastModified="2014-04-07T14:32:44">
+    <value>Change page</value>
+    <comment>phrase: Change page</comment>
+  </data>
+  <data name="UserViewPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+    <value>Profile</value>
+    <comment>word: Profile</comment>
+  </data>
+  <data name="StayInTheSameScreenDisplayMessage" lastModified="2014-04-07T14:32:44">
+    <value>Stay in the same screen but display a message above the form...</value>
+    <comment>phrase: Stay in the same screen but display a message above the form...</comment>
+  </data>
+  <data name="ChangesAreSuccessfullySaved" lastModified="2014-04-07T14:32:44">
+    <value>Changes are successfully saved.</value>
+    <comment>phrase: Changes are successfully saved.</comment>
+  </data>
+  <data name="About" lastModified="2014-04-07T14:32:44">
+    <value>About</value>
+    <comment>word: About</comment>
+  </data>
+  <data name="Photo" lastModified="2014-04-07T14:32:44">
+    <value>Photo</value>
+    <comment>word: Photo</comment>
+  </data>
+  <data name="ManageUserProfiles" lastModified="2014-04-07T14:32:44">
+    <value>Manage User Profiles</value>
+    <comment>word: Manage User Profiles</comment>
+  </data>
+  <data name="ManageUserProfileTypes" lastModified="2014-04-07T14:32:44">
+    <value>Manage Profile types</value>
+    <comment>word: Manage Profile Types</comment>
+  </data>
+  <data name="Title" lastModified="2014-04-07T14:32:44">
+    <value>Title</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ExampleTitle" lastModified="2014-04-07T14:32:44">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; Forum profile</value>
+    <comment>Label: Example for title field</comment>
+  </data>
+  <data name="Settings" lastModified="2014-04-07T14:32:44">
+    <value>Settings for user profiles</value>
+    <comment>phrase: Settings for user profiles</comment>
+  </data>
+  <data name="CreateItem" lastModified="2014-04-07T14:32:44">
+    <value>Create profile type</value>
+    <comment>Label of the dialog that creates a profile type.</comment>
+  </data>
+  <data name="EditItem" lastModified="2014-04-07T14:32:44">
+    <value>Edit a profile type</value>
+    <comment>The title of the edit item dialog</comment>
+  </data>
+  <data name="EditFields" lastModified="2014-04-07T14:32:44">
+    <value>Add/Edit fields</value>
+    <comment>Label: Edit fields</comment>
+  </data>
+  <data name="CreateNewItem" lastModified="2014-04-07T14:32:44">
+    <value>Create a profile type</value>
+    <comment>phrase: Create a profile type</comment>
+  </data>
+  <data name="CreateThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Create this profile type and go to add fields</value>
+    <comment>phrase: Create this news</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2014-04-07T14:32:44">
+    <value>Delete</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+    <value>Save changes</value>
+    <comment>Phrase</comment>
+  </data>
+  <data name="EditProfile" lastModified="2014-04-07T14:32:44">
+    <value>Edit Profile</value>
+    <comment>Phrase: EditProfile</comment>
+  </data>
+  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+    <value>Cancel</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+  </data>
+  <data name="ProfileProvider" lastModified="2014-04-07T14:32:44">
+    <value>Profile provider</value>
+    <comment>Label: Profile provider</comment>
+  </data>
+  <data name="UserProvidersFieldTitle" lastModified="2014-04-07T14:32:44">
+    <value>User providers this profile set is used by:</value>
+    <comment>Title of user providers field in detail form.</comment>
+  </data>
+  <data name="AppliedTo" lastModified="2014-04-07T14:32:44">
+    <value>Applied to</value>
+    <comment>Label: Applied to</comment>
+  </data>
+  <data name="AllUserProviders" lastModified="2014-04-07T14:32:44">
+    <value>All user providers</value>
+    <comment>Label: All user providers</comment>
+  </data>
+  <data name="UseSpecificUserProviders" lastModified="2014-04-07T14:32:44">
+    <value>Specific user providers</value>
+    <comment>Label: Specific user providers</comment>
+  </data>
+  <data name="UseAllUserProviders" lastModified="2014-04-07T14:32:44">
+    <value>All user providers</value>
+    <comment>Label: All user providers</comment>
+  </data>
+  <data name="CreateNewItemViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Register user</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="EditItemViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Edit a profile</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="ViewItemViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>View profile</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="CreateNewItemBackendViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Create a user</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="EditItemBackendViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Edit a profile</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="ViewItemBackendViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>View own profile</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="EditOwnItemBackendViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Edit own profile</value>
+    <comment>The title of a view definition.</comment>
+  </data>
+  <data name="ErrorDeleteBuiltInProfileType" lastModified="2014-04-07T14:32:44">
+    <value>You cannot delete the built-in 'Basic profile' type!</value>
+    <comment>Message displayed when user tries to delete the built-in profile type.</comment>
+  </data>
+  <data name="ErrorProfileTypeAlreadyExists" lastModified="2014-04-07T14:32:44">
+    <value>A profile type with the specified name already exists. Please, select a different name.</value>
+    <comment>Message displayed when user tries to create a profile type that already exists.</comment>
+  </data>
+  <data name="ErrorProfileTypeTitleAlreadyExists" lastModified="2014-04-07T14:32:44">
+    <value>A profile type with the specified title already exists. Please, select a different title.</value>
+    <comment>Message displayed when user tries to update a profile type with a title that already exists.</comment>
+  </data>
+  <data name="Nickname" lastModified="2014-04-07T14:32:44">
+    <value>Nickname</value>
+    <comment>Word: Nickname</comment>
+  </data>
+  <data name="NicknameDescription" lastModified="2014-04-07T14:32:44">
+    <value>If left blank, the username will be used as a nickname</value>
+    <comment>Phrase: If left blank, the username will be used as a nickname</comment>
+  </data>
+  <data name="SortUsersBy" lastModified="2014-04-07T14:32:44">
+    <value>Sort users by</value>
+    <comment>phrase: Sort users by</comment>
+  </data>
+  <data name="OpenSingleUserProfileInDotDotDot" lastModified="2014-04-07T14:32:44">
+    <value>Open single user profile in...</value>
+    <comment>phrase: Open single user profile in...</comment>
+  </data>
+  <data name="AllRegisteredUsers" lastModified="2014-04-07T14:32:44">
+    <value>All registered users</value>
+    <comment>phrase: All registered users</comment>
+  </data>
+  <data name="OneUserOnly" lastModified="2014-04-07T14:32:44">
+    <value>One user only:</value>
+    <comment>phrase: One user only:</comment>
+  </data>
+  <data name="UsersByRoles" lastModified="2014-04-07T14:32:44">
+    <value>Users by roles...</value>
+    <comment>phrase: Users by roles...</comment>
+  </data>
+  <data name="SelectAyUser" lastModified="2014-04-07T14:32:44">
+    <value>Select a user...</value>
+    <comment>phrase: Select a user...</comment>
+  </data>
+  <data name="SelectRoles" lastModified="2014-04-07T14:32:44">
+    <value>Select roles...</value>
+    <comment>phrase: Select roles...</comment>
+  </data>
+  <data name="UserList" lastModified="2014-04-07T14:32:44">
+    <value>User list</value>
+    <comment>phrase: User list</comment>
+  </data>
+  <data name="AscendingSuffix" lastModified="2014-04-07T14:32:44">
+    <value>(A-Z)</value>
+    <comment>phrase: (A-Z)</comment>
+  </data>
+  <data name="DescendingSuffix" lastModified="2014-04-07T14:32:44">
+    <value>(Z-A)</value>
+    <comment>phrase: (Z-A)</comment>
+  </data>
+  <data name="Register" lastModified="2014-04-07T14:32:44">
+    <value>Register</value>
+    <comment>Label: All user providers</comment>
+  </data>
+  <data name="ReTypePassword" lastModified="2014-04-07T14:32:44">
+    <value>Re-type password</value>
+    <comment>Label: Re-type password</comment>
+  </data>
+  <data name="AscendingDateTimeSuffix" lastModified="2014-04-07T14:32:44">
+    <value>on top</value>
+    <comment>phrase: on top</comment>
+  </data>
+  <data name="DescendingDateTimeSuffix" lastModified="2014-04-07T14:32:44">
+    <value>on bottom</value>
+    <comment>phrase: on bottom</comment>
+  </data>
+  <data name="RegistrationFormGeneralViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>General</value>
+    <comment>phrase: General</comment>
+  </data>
+  <data name="RegistrationFormAccountActivationViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Account activation</value>
+    <comment>phrase: Account activation</comment>
+  </data>
+  <data name="ProviderUsersWillBeRegisteredIn" lastModified="2014-04-07T14:32:44">
+    <value>Provider, where the user will be registered...</value>
+    <comment>phrase: Provider users will be registered in...</comment>
+  </data>
+  <data name="RolesRegisteredUsersWillBeAssignedTo" lastModified="2014-04-07T14:32:44">
+    <value>Roles, which the user will be assigned to...</value>
+    <comment>phrase: Roles registered users will be assigned to...</comment>
+  </data>
+  <data name="RegisterFormTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Registration form template</value>
+    <comment>phrase: Register form template</comment>
+  </data>
+  <data name="WhenTheFormIsSuccessfully" lastModified="2014-04-07T14:32:44">
+    <value>When the form is successfully submitted...</value>
+    <comment>phrase: When the form is successfully submitted...</comment>
+  </data>
+  <data name="ShowAMessage" lastModified="2014-04-07T14:32:44">
+    <value>Show a message:</value>
+    <comment>phrase: Show a message:</comment>
+  </data>
+  <data name="OpenSpeciallyPreparedPage" lastModified="2014-04-07T14:32:44">
+    <value>Open a specially prepared page...</value>
+    <comment>phrase: Show a message:</comment>
+  </data>
+  <data name="ActivateAccounts" lastModified="2014-04-07T14:32:44">
+    <value>Activate accounts...</value>
+    <comment>phrase: Activate accounts...</comment>
+  </data>
+  <data name="Immediately" lastModified="2014-04-07T14:32:44">
+    <value>Immediately</value>
+    <comment>phrase: Immediately</comment>
+  </data>
+  <data name="AfterConfirmation" lastModified="2014-04-07T14:32:44">
+    <value>After a confirmation</value>
+    <comment>phrase: After a confirmation</comment>
+  </data>
+  <data name="AnEmailProvidingLinkWillBeSent" lastModified="2014-04-07T14:32:44">
+    <value>An email providing a link for confirmation will be sent</value>
+    <comment>phrase: An email providing a link for confirmation will be sent</comment>
+  </data>
+  <data name="SendAnEmailForSuccessfulRegistration" lastModified="2014-04-07T14:32:44">
+    <value>Send an email for successful registration</value>
+    <comment>phrase: Send an email for successful registration</comment>
+  </data>
+  <data name="AfterTheConfirmation" lastModified="2014-04-07T14:32:44">
+    <value>after the confirmation</value>
+    <comment>phrase: after the confirmation</comment>
+  </data>
+  <data name="ConfirmationEmailTemplate" lastModified="2014-04-07T14:32:44">
+    <value>Confirmation email template</value>
+    <comment>phrase: Confirmation email template</comment>
+  </data>
+  <data name="SuccessEmailTemplate" lastModified="2014-04-07T14:32:44">
+    <value>'Success' email template</value>
+    <comment>phrase: 'Success' email template</comment>
+  </data>
+  <data name="ConfirmationPage" lastModified="2014-04-07T14:32:44">
+    <value>Confirmation page</value>
+    <comment>phrase: Confirmation page</comment>
+  </data>
+  <data name="ConfirmationPageDescription" lastModified="2014-04-07T14:32:44">
+    <value>When the confirmation link in the email is clicked open a selected page</value>
+    <comment>phrase: When the confirmation link in the email is clicked open a selected page</comment>
+  </data>
+  <data name="UserProfiles" lastModified="2014-04-07T14:32:44">
+    <value>User Profiles:</value>
+    <comment>phrase: User Profiles:</comment>
+  </data>
+  <data name="PreferredLanguage" lastModified="2014-04-07T14:32:44">
+    <value>Preferred language:</value>
+    <comment>phrase: Preferred language:</comment>
+  </data>
+  <data name="ConfirmationEmailSubject" lastModified="2014-04-07T14:32:44">
+    <value>Confirmation email subject</value>
+    <comment>phrase: Confirmation email subject</comment>
+  </data>
+  <data name="SuccessEmailSubject" lastModified="2014-04-07T14:32:44">
+    <value>'Success' email subject</value>
+    <comment>phrase: 'Success' email subject</comment>
+  </data>
+  <data name="UserAuthenticationAndSingleSignOnTitle" lastModified="2014-04-07T14:32:44">
+    <value>User authentication &amp; Single sign on</value>
+    <comment>phrase: User authentication &amp; Single sign on</comment>
+  </data>
+  <data name="TypeOfAuthenticationLiteral" lastModified="2014-04-07T14:32:44">
+    <value>What is the type of authentication you want to use for your website</value>
+    <comment>phrase: What is the type of authentication you want to use for your website</comment>
+  </data>
+  <data name="LoginWithLiteral" lastModified="2014-04-07T14:32:44">
+    <value>Allow users to login with</value>
+    <comment>phrase: Allow users to login with</comment>
+  </data>
+  <data name="UserSectionTitle" lastModified="2014-04-07T14:32:44">
+    <value>Users</value>
+    <comment>Control description: Title of the users toolbox section</comment>
+  </data>
+  <data name="UserSectionDescription" lastModified="2014-04-07T14:32:44">
+    <value>Toolbox section with the widgets related to users and profiles.</value>
+    <comment>Control description: Toolbox section with the widgets related to users and profiles.</comment>
+  </data>
+  <data name="UserProfileViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Profile</value>
+    <comment>Control title: User profile</comment>
+  </data>
+  <data name="UserProfileViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>A control for displaying user profiles.</value>
+    <comment>Control description: A control for displaying user profiles.</comment>
+  </data>
+  <data name="UserProfilesViewTitle" lastModified="2014-04-07T14:32:44">
+    <value>Users list</value>
+    <comment>Control title: Users list</comment>
+  </data>
+  <data name="UserProfilesViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>Displaying or editing the profile of the currently logged user</value>
+    <comment>Control description: A control for displaying user profiles.</comment>
+  </data>
+  <data name="UsersListViewDescription" lastModified="2014-04-07T14:32:44">
+    <value>List of users and their profiles</value>
+    <comment>Control description: A control for displaying user profiles.</comment>
+  </data>
+  <data name="RegistrationWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Registration</value>
+    <comment>Control title: Registration</comment>
+  </data>
+  <data name="RegistrationWidgetDescription" lastModified="2014-04-07T14:32:44">
+    <value>Form used to register users</value>
+    <comment>Control description: A form used to register users.</comment>
+  </data>
+  <data name="AccountActivationWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Account activation</value>
+    <comment>Control title: Account Activation</comment>
+  </data>
+  <data name="AccountActivationWidgetDescription" lastModified="2014-04-07T14:32:44">
+    <value>Put this widget on the page linked in the email for activation user account</value>
+    <comment>Control description: A widget that should be placed on the page that will be used to activate user accounts.</comment>
+  </data>
+  <data name="SuccessThanksForFillingOutOurForm" lastModified="2014-04-07T14:32:44">
+    <value>Success! Thanks for filling out our form!</value>
+    <comment>phrase: Success! Thanks for filling out our form!</comment>
+  </data>
+  <data name="FacebookActivityFeedTitle" lastModified="2014-04-07T14:32:44">
+    <value>Facebook feed</value>
+    <comment>Control title: Facebook feed</comment>
+  </data>
+  <data name="FacebookActivityFeedDescription" lastModified="2014-04-07T14:32:44">
+    <value>A widget that shows latest facebook activities on a page after entering a facebook account.</value>
+    <comment>Control description: A widget that shows latest facebook activities on a page after entering a facebook account.</comment>
+  </data>
+  <data name="FacebookLikeTitle" lastModified="2014-04-07T14:32:44">
+    <value>Facebook like</value>
+    <comment>Control title: Facebook like</comment>
+  </data>
+  <data name="FacebookLikeDescription" lastModified="2014-04-07T14:32:44">
+    <value>Control description: A widget that allows to add and configure facebook Like button.</value>
+    <comment>Control description: A widget that allows to add and configure facebook Like button.</comment>
+  </data>
+  <data name="TwitterFeedTitle" lastModified="2014-04-07T14:32:44">
+    <value>Twitter feed &lt;span class="sfNote"&gt;(backward compatibility)&lt;/span&gt;</value>
+    <comment>Control title: Twitter feed</comment>
+  </data>
+  <data name="TwitterFeedDescription" lastModified="2014-04-07T14:32:44">
+    <value>A widget that shows lates twitter activities on a page after entering a twitter account.</value>
+    <comment>Control description: A widget that shows lates twitter activities on a page after entering a twitter account.</comment>
+  </data>
+  <data name="PageSharingTitle" lastModified="2014-04-07T14:32:44">
+    <value>Page sharing</value>
+    <comment>Control title: Page sharing</comment>
+  </data>
+  <data name="PageSharingDescription" lastModified="2014-04-07T14:32:44">
+    <value>Control description: A widget that allows to share page on different social networks.</value>
+    <comment>Control description: A widget that allows to share page on different social networks.</comment>
+  </data>
+  <data name="TwitterWidgetTitle" lastModified="2014-04-07T14:32:44">
+    <value>Twitter widget</value>
+    <comment>Control title: Twitter widget</comment>
+  </data>
+  <data name="TwitterWidgetDescription" lastModified="2014-04-07T14:32:44">
+    <value>A widget that shows later twitter activities.</value>
+    <comment>Control description: A widget that shows later twitter activities.</comment>
+  </data>
+  <data name="SuccessEmailDefaultSubject" lastModified="2014-04-07T14:32:44">
+    <value>Welcome</value>
+    <comment>The default subject of the success email</comment>
+  </data>
+  <data name="ConfirmationEmailDefaultSubject" lastModified="2014-04-07T14:32:44">
+    <value>Registration successful</value>
+    <comment>The default subject of the confirmation email</comment>
+  </data>
+  <data name="Users" lastModified="2014-04-07T14:32:44">
+    <value>Users</value>
+    <comment>word: Users</comment>
+  </data>
+  <data name="ProfileReadMode" lastModified="2014-04-07T14:32:44">
+    <value>Profile - read mode</value>
+    <comment>phrase: Profile – read mode</comment>
+  </data>
+  <data name="ProfileEditMode" lastModified="2014-04-07T14:32:44">
+    <value>Profile – edit mode</value>
+    <comment>phrase: Profile – edit mode</comment>
+  </data>
+  <data name="ProfileNotLoggedUser" lastModified="2014-04-07T14:32:44">
+    <value>Profile – not logged user</value>
+    <comment>phrase: Profile – not logged user</comment>
+  </data>
+  <data name="ProfilePasswordEditor" lastModified="2014-04-07T14:32:44">
+    <value>Profile – password editor</value>
+    <comment>phrase: Profile – password editor</comment>
+  </data>
+  <data name="TheSelectedTemplateCannotBeUsed" lastModified="2014-04-07T14:32:44">
+    <value>The selected template cannot be used with this profile type. Select another template or edit this template.</value>
+    <comment>phrase: The selected template cannot be used with this profile type. Select another template or edit this template.</comment>
+  </data>
+  <data name="CurrentPassword" lastModified="2014-04-07T14:32:44">
+    <value>Current password</value>
+    <comment>phrase: Current password</comment>
+  </data>
+  <data name="ConfirmNewPassword" lastModified="2014-04-07T14:32:44">
+    <value>Confirm new password</value>
+    <comment>phrase: Confirm new password</comment>
+  </data>
+  <data name="Login" lastModified="2014-04-07T14:32:44">
+    <value>Login</value>
+    <comment>word: Login</comment>
+  </data>
+  <data name="Anonymous" lastModified="2014-04-07T14:32:44">
+    <value>Anonymous</value>
+    <comment>word: Anonymous</comment>
+  </data>
+  <data name="MissingUser" lastModified="2014-04-07T14:32:44">
+    <value>Missing user</value>
+    <comment>phrase: Missing user</comment>
+  </data>
+</root>

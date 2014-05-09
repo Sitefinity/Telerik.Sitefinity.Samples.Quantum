@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link href="/Sitefinity/WebsiteTemplates/google/css/Google.css" rel="Stylesheet" type="text/css" />
+    <title></title>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="ResultsWrapper">
+        <div class="ResultsLeft">
+            <a href="http://quantum.sitefinity.com/"><img src="/Sitefinity/WebsiteTemplates/google/css/images/Google_Results_Top.png" alt="Left Results" /></a>
+        </div>
+        <div class="ResultsMain">
+        
+            <div class="ResultsInnerLeft">
+                <div class="Google_Result_Top_Bar">
+                    <%--<div class="Google_Results_Top_Bar_SearchText">
+                        <asp:TextBox ID="SearchText" CssClass="SearchInput" runat="server" />
+                        <asp:Button ID="SearchButton" CssClass="SearchButton" runat="server" Text="Search" />
+                    </div>--%>
+                    <div class="Google_Result_Top_Bar_Advanced">
+                        <%--<span class="ResultsSummary">About 10,000,000 results for <asp:Literal ID="litSearchTerm" runat="server"></asp:Literal> (0.28 seconds)</span>
+                        <a href="javascript:void(0);" class="AdvancedLink">Advanced Search</a>--%>
+                    </div>
+                </div>
+                <div class="Google_Result_Search_Results_Box">
+                <img src="/Sitefinity/WebsiteTemplates/google/css/images/paidresults.png" alt="Additional Google Results for eco friendly laptops" />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+                <img src="/Sitefinity/WebsiteTemplates/google/css/images/ecoresults.png" alt="Additional Google Results for High End TVs" />
+                    
+
+                </div>
+                <br/>
+	            <div class="MainResultList">
+                    <ul class="ResultList">
+				        <asp:Literal ID="ltrResults" runat="server"></asp:Literal>
+			        </ul>
+                
+			        
+	            </div>
+            </div>
+            <%--<div class="ResultsInnerRight">
+                <%--<img src="/google/css/images/GoogleRightResults.jpg" alt="TV Sponsored Results" />
+            </div>--%>
+          
+            
+        </div>
+    </div>
+    
+       
+    
+    </form>
+</body>
+</html>

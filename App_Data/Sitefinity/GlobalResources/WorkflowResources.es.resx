@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PromptTitlePublishPageInMultilingual" lastModified="2012-08-10T22:20:16">
+    <value>Publicar</value>
+    <comment>Title of the message box shown when publishing page in multilingual mode.</comment>
+  </data>
+  <data name="DefineWorkflowProperties" lastModified="2012-08-10T22:20:16">
+    <value>Definir un flujo de trabajo: Propiedades</value>
+    <comment>phrase: Define a workflow: Properties</comment>
+  </data>
+  <data name="AddRolesOrUserS" lastModified="2012-08-10T22:20:16">
+    <value>Agregar roles o usuarios</value>
+    <comment>phrase: Add roles or users</comment>
+  </data>
+  <data name="OrElipsis" lastModified="2012-08-10T22:20:16">
+    <value>O ...</value>
+    <comment>or with the elipsis</comment>
+  </data>
+  <data name="WorkflowResourcesTitle" lastModified="2012-08-10T22:20:16">
+    <value>Flujo de trabajo</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="WorkflowResourcesTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>Flujos de trabajo</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="TwoLevelsOfApprovalBeforePublishing" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;2 niveles de aprobación antes de publicar &lt;/strong&gt;&lt;span class='sfNote'&gt;Pasos: &lt;em&gt;Editar &amp;gt; Para aprobación &amp;gt; Para publicación &amp;gt; Publicado&lt;/em&gt;&lt;/span&gt;</value>
+    <comment>Title of the standard two step workflow</comment>
+  </data>
+  <data name="WorkflowTitleEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El nombre del flujo de trabajo no puede estar vacío!</value>
+    <comment>Validation message when the workflow title is empty.</comment>
+  </data>
+  <data name="BackToWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>Volver al flujo de trabajo</value>
+    <comment>phrase: Back to workflow</comment>
+  </data>
+  <data name="WorkflowName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre</value>
+    <comment>Label for the workflow title.</comment>
+  </data>
+  <data name="SaveWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>Guardar flujo de trabajo</value>
+    <comment>Label of the button that saves workflow</comment>
+  </data>
+  <data name="CustomWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;flujo de trabajo personalizado &lt;/strong&gt;&lt;span class='sfNote'&gt;Crea tu propio flujo de trabajo desde cero &lt;/span&gt;</value>
+    <comment>phrase: Custom workflow</comment>
+  </data>
+  <data name="WorkflowType" lastModified="2012-08-10T22:20:16">
+    <value>Tipo de flujo de trabajo</value>
+    <comment>phrase: Workflow type</comment>
+  </data>
+  <data name="ApprovalBeforePublishing" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Aprobación antes de publicar &lt;/strong&gt;&lt;span class='sfNote'&gt;Pasos: &lt;em&gt;Editar &amp;gt; Para Aprobación &amp;gt; Publicado&lt;/em&gt;&lt;/span&gt;</value>
+    <comment>Title of the standard one step workflow</comment>
+  </data>
+  <data name="AllowAdministratorsToSkipWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>Permitir a los administradores omitir el flujo de trabajo</value>
+    <comment>phrase: Allow administrators to skip the workflow</comment>
+  </data>
+  <data name="SetApproversForLevel1Description" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione los usuarios o roles que son capaces de aprobar elementos &lt;br /&gt;&lt;strong&gt;Nota: &lt;/strong&gt;Los administradores son capaces de aprobar de forma predeterminada</value>
+    <comment>phrase: Select users or groups who will be able to approve items</comment>
+  </data>
+  <data name="WorkflowResourcesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables para el módulo de flujo de trabajo.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ActivateWorkflowImmediately" lastModified="2012-08-10T22:20:16">
+    <value>Este flujo de trabajo está activo</value>
+    <comment>Label for the checkbox indicating that workflow ought to be activated immediately</comment>
+  </data>
+  <data name="AllowAdministratorsToSkipWorkflowDescription" lastModified="2012-08-10T22:20:16">
+    <value>Aquí va una breve descripción</value>
+    <comment>Description explaining what it means that administrators can skip the workflow</comment>
+  </data>
+  <data name="CreateAWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>Define un flujo de trabajo</value>
+    <comment>phrase: Define a workflow</comment>
+  </data>
+  <data name="SetApproversForLevel1" lastModified="2012-08-10T22:20:16">
+    <value>Establecer aprobadores para el nivel 1</value>
+    <comment>phrase: Set approvers for Level 1</comment>
+  </data>
+  <data name="SetApproversForLevel2Description" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione los usuarios o roles que son capaces de aprobar elementos &lt;br /&gt;&lt;strong&gt;Nota: &lt;/strong&gt;Los administradores son capaces de aprobar de forma predeterminada</value>
+    <comment>phrase: Select users or groups who will be able to approve items</comment>
+  </data>
+  <data name="SetApproversForLevel2" lastModified="2012-08-10T22:20:16">
+    <value>Establecer aprobadores para el nivel 2</value>
+    <comment>phrase: Set approvers for Level 2</comment>
+  </data>
+  <data name="SetApprovers" lastModified="2012-08-10T22:20:16">
+    <value>Establecer aprobadores</value>
+    <comment>phrase: Set approvers</comment>
+  </data>
+  <data name="NotifyUsersForApproval" lastModified="2012-08-10T22:20:16">
+    <value>Notifique a los usuarios por correo electrónico cuando un elemento esté a la espera de su aprobación</value>
+    <comment>phrase: Notify users by email when an item is waiting for their approval</comment>
+  </data>
+  <data name="Content" lastModified="2012-08-10T22:20:16">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+  </data>
+  <data name="LanguageVersion" lastModified="2012-08-10T22:20:16">
+    <value>Versión de idioma</value>
+    <comment>phrase: Language version</comment>
+  </data>
+  <data name="PublishOn" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de publicación &lt;span class='sfNote'&gt;(aparece en el sitio público)&lt;/span&gt;</value>
+    <comment>Phrase: Publication date</comment>
+  </data>
+  <data name="MyWorkflows" lastModified="2012-08-10T22:20:16">
+    <value>Mis flujos de trabajo</value>
+    <comment>phrase: My workflows</comment>
+  </data>
+  <data name="AllLanguages" lastModified="2012-08-10T22:20:16">
+    <value>Todos los idiomas</value>
+    <comment>phrase: All languages</comment>
+  </data>
+  <data name="DesignYourOwnWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>Diseña tu propio flujo de trabajo</value>
+    <comment>phrase: Design your own workflow</comment>
+  </data>
+  <data name="AddContent" lastModified="2012-08-10T22:20:16">
+    <value>Añadir contenido</value>
+    <comment>phrase: Add content</comment>
+  </data>
+  <data name="ActiveWorkflows" lastModified="2012-08-10T22:20:16">
+    <value>Active los flujos de trabajo</value>
+    <comment>phrase: Active workflows</comment>
+  </data>
+  <data name="WorkflowByContentType" lastModified="2012-08-10T22:20:16">
+    <value>Flujo de trabajo por tipo de contenido</value>
+    <comment>phrase: Workflow by content type</comment>
+  </data>
+  <data name="SelectionOfContent" lastModified="2012-08-10T22:20:16">
+    <value>Selección de {0}:</value>
+    <comment>Phrase: Selection of {0}:</comment>
+  </data>
+  <data name="SettingsForWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>Opciones de flujo de trabajo</value>
+    <comment>phrase: Settings for workflow</comment>
+  </data>
+  <data name="Filter" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar</value>
+    <comment>word: Filter</comment>
+  </data>
+  <data name="InactiveWorkflows" lastModified="2012-08-10T22:20:16">
+    <value>Flujos de trabajo inactivos</value>
+    <comment>phrase: Inactive workflows</comment>
+  </data>
+  <data name="Permissions" lastModified="2012-08-10T22:20:16">
+    <value>Permisos</value>
+    <comment>word: Permissions</comment>
+  </data>
+  <data name="Workflow" lastModified="2012-08-10T22:20:16">
+    <value>Flujo de trabajo</value>
+    <comment>word: Workflow</comment>
+  </data>
+  <data name="CreatedOnOwner" lastModified="2012-08-10T22:20:16">
+    <value>Creado el/Propietario</value>
+    <comment>Title of the created on / owner column</comment>
+  </data>
+  <data name="WhichContentToInclude" lastModified="2012-08-10T22:20:16">
+    <value>Que {0} se debe incluir?</value>
+    <comment>Phrase: Which {0} to include?</comment>
+  </data>
+  <data name="WorkflowScope" lastModified="2012-08-10T22:20:16">
+    <value>Ámbito del flujo de trabajo</value>
+    <comment>Phrase: Workflow Scope</comment>
+  </data>
+  <data name="AllWorkflows" lastModified="2012-08-10T22:20:16">
+    <value>Todos los flujos de trabajo</value>
+    <comment>phrase: All workflows</comment>
+  </data>
+  <data name="AllContent" lastModified="2012-08-10T22:20:16">
+    <value>Todas las {0}</value>
+    <comment>Phrase: All {0}</comment>
+  </data>
+  <data name="ALL_CONTENT" lastModified="2012-08-10T22:20:16">
+    <value>Todo el contenido y las páginas</value>
+    <comment>Phrase: All content</comment>
+  </data>
+  <data name="DefineWorkflowSelectType" lastModified="2012-08-10T22:20:16">
+    <value>Definir un flujo de trabajo: Seleccionar un tipo</value>
+    <comment>phrase: Define a workflow: Select a type</comment>
+  </data>
+  <data name="DefineWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>Define un flujo de trabajo</value>
+    <comment>phrase: Define a workflow</comment>
+  </data>
+  <data name="WorkflowScopeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Título del ámbito del Flujo de trabajo</value>
+    <comment>phrase: Workflow scope title</comment>
+  </data>
+  <data name="NoWorkflowsCreatedYet" lastModified="2012-08-10T22:20:16">
+    <value>Todavía no se han creado flujos de trabajo</value>
+    <comment>phrase: No workflows have been created yet</comment>
+  </data>
+  <data name="Continue" lastModified="2012-08-10T22:20:16">
+    <value>Continuar</value>
+    <comment>phrase: Continue</comment>
+  </data>
+  <data name="DefineWorkflowUploadFile" lastModified="2012-08-10T22:20:16">
+    <value>Definir un flujo de trabajo: cargar archivo</value>
+    <comment>phrase: Define a workflow: Upload file</comment>
+  </data>
+  <data name="BackToWorkflowTypes" lastModified="2012-08-10T22:20:16">
+    <value>Volver a los tipos de flujo de trabajo</value>
+    <comment>phrase: Back to workflow types</comment>
+  </data>
+  <data name="EditWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>Editar un flujo de trabajo</value>
+    <comment>phrase: Edit a workflow</comment>
+  </data>
+  <data name="ScopeDescription" lastModified="2012-08-10T22:20:16">
+    <value>Indica donde el flujo de trabajo seleccionado se aplicará</value>
+    <comment>phrase: Define where the selected workflow will apply</comment>
+  </data>
+  <data name="UploadWorkflowFile" lastModified="2012-08-10T22:20:16">
+    <value>Cargar un archivo de flujo de trabajo</value>
+    <comment>phrase: Upload a workflow file</comment>
+  </data>
+  <data name="ReasonToReject" lastModified="2012-08-10T22:20:16">
+    <value>Motivo para rechazar &lt;span class='sfNote'&gt;(opcional)&lt;/span&gt;</value>
+    <comment>Phrase:  Reason to reject (optional)</comment>
+  </data>
+  <data name="AdvancedSelection" lastModified="2012-08-10T22:20:16">
+    <value>Selección avanzada</value>
+    <comment>Phrase: Advanced selection</comment>
+  </data>
+  <data name="SelectWorkflowFileToUpload" lastModified="2012-08-10T22:20:16">
+    <value>Seleccione un archivo de flujo de trabajo para cargar</value>
+    <comment>phrase: Select a workflow file to upload</comment>
+  </data>
+  <data name="InvalidWorkflowFile" lastModified="2012-08-10T22:20:16">
+    <value>Archivo de flujo de trabajo no válido</value>
+    <comment>phrase: Invalid workflow file</comment>
+  </data>
+  <data name="FromSelectedParent" lastModified="2012-08-10T22:20:16">
+    <value>Desde {0} seleccionado</value>
+    <comment>Phrase: From selected {0}</comment>
+  </data>
+  <data name="PermissionsForWorkflow" lastModified="2012-08-10T22:20:16">
+    <value>Permisos para flujo de trabajo</value>
+    <comment>phrase: Permissions for workflow</comment>
+  </data>
+  <data name="TheReasonWillBeSentToTheAuthor" lastModified="2012-08-10T22:20:16">
+    <value>&lt;p class='sfNote'&gt;Se enviará el motivo por correo electrónico al autor&lt;/p&gt;</value>
+    <comment>Phrase:  The reason will be sent to the author by email</comment>
+  </data>
+  <data name="RejectingThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Al rechazar esta página se la enviará nuevamente a su autor.</value>
+    <comment>Phrase: Rejecting this page will return it to its author.</comment>
+  </data>
+  <data name="RejectPublishing" lastModified="2012-08-10T22:20:16">
+    <value>Rechazar la publicación</value>
+    <comment>Phrase: Reject publishing</comment>
+  </data>
+  <data name="Scope" lastModified="2012-08-10T22:20:16">
+    <value>Ámbito</value>
+    <comment>word: Scope</comment>
+  </data>
+  <data name="PublicationDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de publicación</value>
+    <comment>Label: Publication date</comment>
+  </data>
+  <data name="AwaitingApprovalAction" lastModified="2012-08-10T22:20:16">
+    <value>Guardar como En espera de aprobación</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="Schedule" lastModified="2012-08-10T22:20:16">
+    <value>Programar</value>
+    <comment>Phrase: Schedule</comment>
+  </data>
+  <data name="SchedulePublishUnpublish" lastModified="2012-08-10T22:20:16">
+    <value>Publicar/Anular publicación en una Fecha Específica</value>
+    <comment>Phrase: Publish/Unpublish on Specific date</comment>
+  </data>
+  <data name="LastModified" lastModified="2012-08-10T22:20:16">
+    <value>Última modificación</value>
+    <comment>Label: Last modified</comment>
+  </data>
+  <data name="TwoLevelsOfApproval" lastModified="2012-08-10T22:20:16">
+    <value>2 niveles de aprobación</value>
+    <comment>Phrase: 2 levels of approval</comment>
+  </data>
+  <data name="SchedulingWasNotMade" lastModified="2012-08-10T22:20:16">
+    <value>Programación no se hizo porque no se seleccionaron fechas. Por favor, especifique una fecha.</value>
+    <comment>Phrase: SchedulingWasNotMade</comment>
+  </data>
+  <data name="DateToUnpublish" lastModified="2012-08-10T22:20:16">
+    <value>Fecha para quitar de publicación &lt;span class='sfNote'&gt;(opcional)&lt;/span&gt;</value>
+    <comment>Phrase: Date to Unpublish (optional)</comment>
+  </data>
+  <data name="UnpublishDateShouldBeAfterPublicationDate" lastModified="2012-08-10T22:20:16">
+    <value>La programación no se hizo porque la fecha de publicación es posterior a la fecha para suspender la publicación. Por favor, corrija las fechas.</value>
+    <comment>Phrase: Scheduling was not made because the publication time is later then the time of unpublishing. Please, correct the dates.</comment>
+  </data>
+  <data name="WhyRejected" lastModified="2012-08-10T22:20:16">
+    <value>¿Por qué se rechazó?</value>
+    <comment>Phrase: Why rejected?</comment>
+  </data>
+  <data name="SetApproversWarningMsg" lastModified="2012-08-10T22:20:16">
+    <value>Antes de seleccionar aprobadores asegurarse de que tienen permisos "Modificar" para el contenido a aprobar</value>
+    <comment>Phrase: Before selecting approvers make sure they have "Modify" permissions for the content subject to approval</comment>
+  </data>
+  <data name="UploadAndPublish" lastModified="2012-08-10T22:20:16">
+    <value>Cargar y Publicar</value>
+    <comment>upload and publish workflow action name</comment>
+  </data>
+  <data name="SavedOn" lastModified="2012-08-10T22:20:16">
+    <value>Guardado el</value>
+    <comment>Phrase: Saved on</comment>
+  </data>
+  <data name="SavedAt" lastModified="2012-08-10T22:20:16">
+    <value>Guardado en</value>
+    <comment>Phrase: Saved at</comment>
+  </data>
+  <data name="SelectedOnly" lastModified="2012-08-10T22:20:16">
+    <value>Sólo seleccionado</value>
+    <comment>Phrase: Selected only</comment>
+  </data>
+  <data name="At" lastModified="2012-08-10T22:20:16">
+    <value>en</value>
+    <comment>Word: at</comment>
+  </data>
+  <data name="On" lastModified="2012-08-10T22:20:16">
+    <value>en</value>
+    <comment>Word: on</comment>
+  </data>
+  <data name="FileHasBeenUploaded" lastModified="2012-08-10T22:20:16">
+    <value>Su archivo {0} se ha subido al App_Data/WorkFlows</value>
+    <comment>Phrase: Your {0} file has been uploaded to App_Data/Workflows</comment>
+  </data>
+  <data name="ToBePublishedAt" lastModified="2012-08-10T22:20:16">
+    <value>para publicar el</value>
+    <comment>Phrase: to be published at</comment>
+  </data>
+  <data name="ToBePublishedOn" lastModified="2012-08-10T22:20:16">
+    <value>para publicar el</value>
+    <comment>Phrase: to be published on</comment>
+  </data>
+  <data name="OneLevelOfApproval" lastModified="2012-08-10T22:20:16">
+    <value>Un nivel de aprobación</value>
+    <comment>Phrase: 1 level of approval</comment>
+  </data>
+  <data name="SaveAsPrivateDraftAction" lastModified="2012-08-10T22:20:16">
+    <value>Guardar como borrador privado</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="SaveAsDraftAction" lastModified="2012-08-10T22:20:16">
+    <value>Guardar como borrador</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="RejectAction" lastModified="2012-08-10T22:20:16">
+    <value>Rechazar</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="UpdateContent" lastModified="2012-08-10T22:20:16">
+    <value>Actualizar contenido</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="PublishAction" lastModified="2012-08-10T22:20:16">
+    <value>Publicar</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="UnpublishAction" lastModified="2012-08-10T22:20:16">
+    <value>QuitarDePublicacion</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="ScheduleAction" lastModified="2012-08-10T22:20:16">
+    <value>Publicar/Anular publicación en una Fecha Específica</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="DeleteAction" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="SendForApprovalAction" lastModified="2012-08-10T22:20:16">
+    <value>Enviar para aprobación</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="AwaitingPublishingAction" lastModified="2012-08-10T22:20:16">
+    <value>Guardar como En espera de publicación</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="UnpublishOn" lastModified="2012-08-10T22:20:16">
+    <value>Retirar de publicación el</value>
+    <comment>Phrase: Unpublish on</comment>
+  </data>
+  <data name="SendForPublishingAction" lastModified="2012-08-10T22:20:16">
+    <value>Enviar para publicación</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="PublishPageInMultilingualWarning" lastModified="2012-08-10T22:20:16">
+    <value>"Si publica una página sincronizada, también se publicarán todas las traducciones.
+¿Está seguro de que desea continuar publicando?</value>
+    <comment>Warning dipslayed when publishing a page</comment>
+  </data>
+  <data name="UploadAndSaveAsDraftAction" lastModified="2012-08-10T22:20:16">
+    <value>Cargar y Guardar como Borrador</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="DiscardDraftAction" lastModified="2012-08-10T22:20:16">
+    <value>Desechar Borrador</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="StopScheduleAction" lastModified="2012-08-10T22:20:16">
+    <value>Parar programación</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="UploadAndSendForApprovalAction" lastModified="2012-08-10T22:20:16">
+    <value>Cargar y Enviar para Aprobación</value>
+    <comment>a workflow action name</comment>
+  </data>
+  <data name="MobilePreview" lastModified="2012-08-10T22:20:16">
+    <value>Vista previa para Smartphones y Tabletas</value>
+    <comment>phrase: Preview for Smartphones &amp; Tablets</comment>
+  </data>
+  <data name="UnPublishPageInMultilingualWarning" lastModified="2012-08-10T22:20:16">
+    <value>"Si anula la publicación de una página sincronizada, también se anulará la publicación de todas las traducciones.
+¿Está seguro de que desea continuar con la anulación?</value>
+    <comment>Warning dipslayed when unpublishing a page</comment>
+  </data>
+  <data name="UnPublishInMultilingualWarning" lastModified="2012-08-10T22:20:16">
+    <value>"Este elemento tiene versiones traducidas.
+Si anula la publicación del elemento, también se anulará la publicación de todas las traducciones. ¿Está seguro de que desea continuar con la anulación?</value>
+    <comment>Warning dipslayed when unpublishing an item</comment>
+  </data>
+  <data name="PublishInMultilingualWarning" lastModified="2012-08-10T22:20:16">
+    <value>"Este elemento tiene versiones traducidas.
+Si publica el elemento, también se publicarán todas las traducciones. ¿Está seguro de que desea continuar publicando?</value>
+    <comment>Warning dipslayed when publishing an item</comment>
+  </data>
+  <data name="PromptTitleUnPublishPageInMultilingual" lastModified="2012-08-10T22:20:16">
+    <value>QuitarDePublicacion</value>
+    <comment>Title of the message box shown when unpublishing page in multilingual mode.</comment>
+  </data>
+</root>

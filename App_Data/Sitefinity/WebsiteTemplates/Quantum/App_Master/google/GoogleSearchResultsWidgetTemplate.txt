@@ -1,0 +1,25 @@
+<%@ Control Language="C#" %>
+<%@ Register Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI" TagPrefix="sitefinity" %>
+<%@ Register Assembly="Telerik.Sitefinity.Search.Impl" Namespace="Telerik.Sitefinity.Services.Search.Web.UI.Public" TagPrefix="sfSearch" %>
+
+<sfSearch:SearchBox ID="topSearchBox" runat="server" />
+
+<asp:Repeater ID="resultsList" runat="server">
+    <HeaderTemplate>
+        <dl class="sfsearchResultsWrp sfsearchReultTitleSnippetUrl">
+    </HeaderTemplate>
+    <ItemTemplate>
+      <h3><b><dt class="sfsearchResultTitle"><a runat="server" href='<%# Eval("Link")%>'><%# Eval("Title") %></a></dt></b></h3>  
+		
+		<dd class="sfsearchResultUrl"><span runat="server"  href='<%# Eval("Link")%>'><%# Eval("Link")%></span></dd>
+                <dd class="sfsearchResultSnippet"><%# Eval("Summary")%></dd>
+        <dd class="sfsearchResultHighLighter"><%# Eval("HighLighterResult")%></dd> 
+          <br />
+    </ItemTemplate>
+                  
+    <FooterTemplate>
+        </dl>
+    </FooterTemplate>
+</asp:Repeater>
+<sitefinity:Pager ID="pager" runat="server" />
+<sfSearch:SearchBox ID="bottomSearchBox" runat="server" />

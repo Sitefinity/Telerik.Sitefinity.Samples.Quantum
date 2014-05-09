@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EventsToolboxSectionTitle" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>Events toolbox section title</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>The name of the events module.</comment>
+  </data>
+  <data name="EventsHtmlTitle" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>HTML title of the Events module landing page.</comment>
+  </data>
+  <data name="EventsResourcesTitle" lastModified="2012-08-10T22:20:16">
+    <value>EventsResources</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="EventsResourcesTitlePlural" lastModified="2012-08-10T22:20:16">
+    <value>EventsResources</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="EventsPremissionsHtmltitle" lastModified="2012-08-10T22:20:16">
+    <value>Permisos de Eventos</value>
+    <comment>HTML title of the page handling permissions for the Events module.</comment>
+  </data>
+  <data name="EventsResourcesDescription" lastModified="2012-08-10T22:20:16">
+    <value>Contiene recursos localizables para el módulo de Eventos</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2012-08-10T22:20:16">
+    <value>Proporciona la interfaz de usuario para la gestión de eventos.</value>
+    <comment>The description of the events module</comment>
+  </data>
+  <data name="SettingsForEvents" lastModified="2012-08-10T22:20:16">
+    <value>Opciones</value>
+    <comment>phrase: Settings for events</comment>
+  </data>
+  <data name="PageGroupNodeTitle" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>Page group for the events module.</comment>
+  </data>
+  <data name="CategoriesMetafieldTitle" lastModified="2012-08-10T22:20:16">
+    <value>Categoría</value>
+    <comment>Name of the metafield containing the categories taxonomy for events.</comment>
+  </data>
+  <data name="EventsUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>Events URL.</comment>
+  </data>
+  <data name="CategoriesMetafieldDescription" lastModified="2012-08-10T22:20:16">
+    <value>Define la categoría de este elemento de contenido.</value>
+    <comment>Description of the metafield containing the categories taxonomy for events.</comment>
+  </data>
+  <data name="PageGroupNodeDescription" lastModified="2012-08-10T22:20:16">
+    <value>Grupo de páginas del módulo de eventos.</value>
+    <comment>Events Page Group Description</comment>
+  </data>
+  <data name="TagsMetafieldDescription" lastModified="2012-08-10T22:20:16">
+    <value>Establece Etiquetas para este elemento de contenido.</value>
+    <comment>Description of the metafield containing the tags taxonomy for events.</comment>
+  </data>
+  <data name="TagsMetafieldTitle" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas</value>
+    <comment>Name of the metafield containing the tags taxonomy for events.</comment>
+  </data>
+  <data name="EventsToolboxSectionDescription" lastModified="2012-08-10T22:20:16">
+    <value>Título de la sección Eventos de la caja de herramientas</value>
+    <comment>Describes the event toolbox section title.</comment>
+  </data>
+  <data name="EventsViewDescription" lastModified="2012-08-10T22:20:16">
+    <value>Listas de eventos</value>
+    <comment>Describes the purpose of the EventsView control.</comment>
+  </data>
+  <data name="CommentsTitle" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Title of the comments page.</comment>
+  </data>
+  <data name="Permissions" lastModified="2012-08-10T22:20:16">
+    <value>Permisos</value>
+    <comment>Label for the buttons that switch to the permissions dialog.</comment>
+  </data>
+  <data name="CommentsUrlName" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Comments URL</comment>
+  </data>
+  <data name="CommentsDescription" lastModified="2012-08-10T22:20:16">
+    <value>Gestionar comentarios</value>
+    <comment>Provides description for the comments view of events module.</comment>
+  </data>
+  <data name="CreateEvent" lastModified="2012-08-10T22:20:16">
+    <value>Crear un evento</value>
+    <comment>Label of the dialog that creates an event.</comment>
+  </data>
+  <data name="Create" lastModified="2012-08-10T22:20:16">
+    <value>Crear</value>
+    <comment>Label for the buttons that create an event.</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisEvent" lastModified="2012-08-10T22:20:16">
+    <value>¿Está seguro de que desea eliminar este evento?</value>
+    <comment>Confirmation message when an event is deleted.</comment>
+  </data>
+  <data name="EventsPluralTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>Events plural type name</comment>
+  </data>
+  <data name="Event" lastModified="2012-08-10T22:20:16">
+    <value>Evento</value>
+    <comment>Event word.</comment>
+  </data>
+  <data name="CloseSearch" lastModified="2012-08-10T22:20:16">
+    <value>Cerrar búsqueda</value>
+    <comment>Close search.</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El título no puede estar vacío</value>
+    <comment>Title cannot be empty</comment>
+  </data>
+  <data name="Search" lastModified="2012-08-10T22:20:16">
+    <value>Búsqueda</value>
+    <comment>Search word.</comment>
+  </data>
+  <data name="ClickToAddSummary" lastModified="2012-08-10T22:20:16">
+    <value>Haga clic para añadir resumen</value>
+    <comment>phrase: Click to add summary</comment>
+  </data>
+  <data name="lLocation" lastModified="2012-08-10T22:20:16">
+    <value>Ubicación &lt;em class='sfNote'&gt;(Calle, Ciudad, País, Estado) &lt;/em&gt;</value>
+    <comment>Word: Location &lt;em class='sfNote'&gt;(Street, City, Country, State)&lt;/em&gt;</comment>
+  </data>
+  <data name="lStreet" lastModified="2012-08-10T22:20:16">
+    <value>Calle</value>
+    <comment>Word: Street</comment>
+  </data>
+  <data name="Delete" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>Label for the buttons that delete an event.</comment>
+  </data>
+  <data name="lCountry" lastModified="2012-08-10T22:20:16">
+    <value>País</value>
+    <comment>Word: Country</comment>
+  </data>
+  <data name="lCity" lastModified="2012-08-10T22:20:16">
+    <value>Ciudad</value>
+    <comment>Word: City</comment>
+  </data>
+  <data name="lState" lastModified="2012-08-10T22:20:16">
+    <value>Estado</value>
+    <comment>Word: State</comment>
+  </data>
+  <data name="lContactInformation" lastModified="2012-08-10T22:20:16">
+    <value>Información de contacto &lt;em class='sfNote'&gt;(correo electrónico, Web, Nombre del contacto, Teléfono) &lt;/em&gt;</value>
+    <comment>Phrase: Contact information &lt;em class='sfNote'&gt;(Email, Web, Contact name, Phone)&lt;/em&gt;</comment>
+  </data>
+  <data name="lEmail" lastModified="2012-08-10T22:20:16">
+    <value>Correo electrónico</value>
+    <comment>Word: Email</comment>
+  </data>
+  <data name="lCellPhone" lastModified="2012-08-10T22:20:16">
+    <value>Teléfono móvil</value>
+    <comment>Word: Cell phone</comment>
+  </data>
+  <data name="lWebExample" lastModified="2012-08-10T22:20:16">
+    <value>Comenzar con &lt;em&gt;http://&lt;/em&gt;&lt;br /&gt;Ejemplo: &lt;em&gt;http://devreach.com/&lt;/em&gt;</value>
+    <comment>Example: Start with http://</comment>
+  </data>
+  <data name="lContactName" lastModified="2012-08-10T22:20:16">
+    <value>Nombre del contacto</value>
+    <comment>Word: Contact name</comment>
+  </data>
+  <data name="lPhone" lastModified="2012-08-10T22:20:16">
+    <value>Teléfono</value>
+    <comment>Word: Phone</comment>
+  </data>
+  <data name="Status" lastModified="2012-08-10T22:20:16">
+    <value>Estado</value>
+    <comment>Word: Status</comment>
+  </data>
+  <data name="PublishOn" lastModified="2012-08-10T22:20:16">
+    <value>Publicado el:</value>
+    <comment>Phrase: Publish on:</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>La URL no puede estar vacía</value>
+    <comment>Word: URL cannot be empty</comment>
+  </data>
+  <data name="lUrlName" lastModified="2012-08-10T22:20:16">
+    <value>URL</value>
+    <comment>Word: URL</comment>
+  </data>
+  <data name="ContentCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>El contenido no puede estar vacío</value>
+    <comment>Content cannot be empty</comment>
+  </data>
+  <data name="ExpiresOn" lastModified="2012-08-10T22:20:16">
+    <value>Expira el:</value>
+    <comment>Phrase: Expires on:</comment>
+  </data>
+  <data name="EventsSingleTypeName" lastModified="2012-08-10T22:20:16">
+    <value>Evento</value>
+    <comment>Events single type name</comment>
+  </data>
+  <data name="BackToItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a Eventos</value>
+    <comment>The text of the back to events</comment>
+  </data>
+  <data name="BackToAllItems" lastModified="2012-08-10T22:20:16">
+    <value>Volver a todos los eventos</value>
+    <comment>phrase: Back to all events</comment>
+  </data>
+  <data name="lWeb" lastModified="2012-08-10T22:20:16">
+    <value>Sitio web</value>
+    <comment>Word: Web</comment>
+  </data>
+  <data name="CreateNewItem" lastModified="2012-08-10T22:20:16">
+    <value>Crear un evento</value>
+    <comment>The title of the create new event dialog</comment>
+  </data>
+  <data name="EditItem" lastModified="2012-08-10T22:20:16">
+    <value>Editar un evento</value>
+    <comment>The title of the edit event dialog</comment>
+  </data>
+  <data name="Language" lastModified="2012-08-10T22:20:16">
+    <value>Idioma</value>
+    <comment>word: Language</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2012-08-10T22:20:16">
+    <value>Guardar cambios</value>
+    <comment>phrase: Save changes</comment>
+  </data>
+  <data name="CreateThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Crear este evento</value>
+    <comment>phrase: Create this event</comment>
+  </data>
+  <data name="Email" lastModified="2012-08-10T22:20:16">
+    <value>Correo electrónico</value>
+    <comment>phrase: Email</comment>
+  </data>
+  <data name="ContactPhone" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Teléfono: &lt;/strong&gt;</value>
+    <comment>phrase: Phone</comment>
+  </data>
+  <data name="Comments" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>word: Comments</comment>
+  </data>
+  <data name="Date" lastModified="2012-08-10T22:20:16">
+    <value>Fecha</value>
+    <comment>word: Date</comment>
+  </data>
+  <data name="ManageEvents" lastModified="2012-08-10T22:20:16">
+    <value>Gestionar Eventos</value>
+    <comment>phrase: Manage Events</comment>
+  </data>
+  <data name="Publish" lastModified="2012-08-10T22:20:16">
+    <value>Publicar</value>
+    <comment>word: Publish</comment>
+  </data>
+  <data name="Unpublish" lastModified="2012-08-10T22:20:16">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="LearnMoreWithVideoTutorials" lastModified="2012-08-10T22:20:16">
+    <value>Más información con tutoriales en video</value>
+    <comment>Label for the external links used in Pages</comment>
+  </data>
+  <data name="SearchEvents" lastModified="2012-08-10T22:20:16">
+    <value>Búscar eventos ...</value>
+    <comment>phrase: Search events...</comment>
+  </data>
+  <data name="MoreActions" lastModified="2012-08-10T22:20:16">
+    <value>Más acciones con eventos</value>
+    <comment>phrase: More actions with events</comment>
+  </data>
+  <data name="Tags" lastModified="2012-08-10T22:20:16">
+    <value>Etiquetas</value>
+    <comment>word: Tags</comment>
+  </data>
+  <data name="ManageAlso" lastModified="2012-08-10T22:20:16">
+    <value>Gestionar también</value>
+    <comment>phrase: Manage also</comment>
+  </data>
+  <data name="Settings" lastModified="2012-08-10T22:20:16">
+    <value>Opciones para eventos</value>
+    <comment>phrase: Events settings</comment>
+  </data>
+  <data name="PermissionsForEvents" lastModified="2012-08-10T22:20:16">
+    <value>Permisos</value>
+    <comment>phrase: Permissions for events</comment>
+  </data>
+  <data name="CommentsForEvents" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios para eventos</value>
+    <comment>phrase: Comments for events</comment>
+  </data>
+  <data name="Title" lastModified="2012-08-10T22:20:16">
+    <value>Título</value>
+    <comment>word: Title</comment>
+  </data>
+  <data name="Author" lastModified="2012-08-10T22:20:16">
+    <value>Autor</value>
+    <comment>word: Author</comment>
+  </data>
+  <data name="Actions" lastModified="2012-08-10T22:20:16">
+    <value>Acciones</value>
+    <comment>word: Actions</comment>
+  </data>
+  <data name="FilterEvents" lastModified="2012-08-10T22:20:16">
+    <value>Filtrar acontecimientos</value>
+    <comment>phrase: Filter events</comment>
+  </data>
+  <data name="Duplicate" lastModified="2012-08-10T22:20:16">
+    <value>Duplicar</value>
+    <comment>word: Duplicate</comment>
+  </data>
+  <data name="View" lastModified="2012-08-10T22:20:16">
+    <value>Ver</value>
+    <comment>word: View</comment>
+  </data>
+  <data name="Content" lastModified="2012-08-10T22:20:16">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+  </data>
+  <data name="History" lastModified="2012-08-10T22:20:16">
+    <value>Historial</value>
+    <comment>word: History</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" lastModified="2012-08-10T22:20:16">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>phrase: What do you want to do now?</comment>
+  </data>
+  <data name="MoreOptions" lastModified="2012-08-10T22:20:16">
+    <value>Más opciones</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Edit" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+  </data>
+  <data name="Cancel" lastModified="2012-08-10T22:20:16">
+    <value>Cancelar</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+  </data>
+  <data name="MoreOptionsURL" lastModified="2012-08-10T22:20:16">
+    <value>Más opciones &lt;em class='sfNote'&gt;(URL, comentarios) &lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+  </data>
+  <data name="ExpirationDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de expiración</value>
+    <comment>phrase: Expiration Date</comment>
+  </data>
+  <data name="EventStart" lastModified="2012-08-10T22:20:16">
+    <value>Inicio del evento</value>
+    <comment>phrase: Event Start</comment>
+  </data>
+  <data name="PublicationDateCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>FechaDePublicacion no puede estar vacía.</value>
+    <comment>PublicationDate cannot be empty.</comment>
+  </data>
+  <data name="PublicationDate" lastModified="2012-08-10T22:20:16">
+    <value>Fecha de publicación</value>
+    <comment>phrase: Publication Date</comment>
+  </data>
+  <data name="Categories" lastModified="2012-08-10T22:20:16">
+    <value>Categorías</value>
+    <comment>word: Categories</comment>
+  </data>
+  <data name="EventStartCannotBeEmpty" lastModified="2012-08-10T22:20:16">
+    <value>EventStart no puede estar vacío.</value>
+    <comment>EventStart cannot be empty.</comment>
+  </data>
+  <data name="WebSite" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Sitio web:&lt;/strong&gt; &lt;a href='{0}'&gt;{0}&lt;/a&gt;</value>
+    <comment>phrase: Web Site</comment>
+  </data>
+  <data name="SetPermissions" lastModified="2012-08-10T22:20:16">
+    <value>Establecer permisos</value>
+    <comment>phrase: Set permissions</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2012-08-10T22:20:16">
+    <value>Eliminar</value>
+    <comment>phrase: Delete this event item</comment>
+  </data>
+  <data name="NoEvents" lastModified="2012-08-10T22:20:16">
+    <value>Todavía no se han creado eventos</value>
+    <comment>phrase: No events have been created yet</comment>
+  </data>
+  <data name="ReviewHistory" lastModified="2012-08-10T22:20:16">
+    <value>Historial de revisiones</value>
+    <comment>phrase: Review history</comment>
+  </data>
+  <data name="Where" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Ubicación: &lt;/strong&gt;</value>
+    <comment>phrase: Where</comment>
+  </data>
+  <data name="EventEnd" lastModified="2012-08-10T22:20:16">
+    <value>Final del evento</value>
+    <comment>phrase: Event End</comment>
+  </data>
+  <data name="ContactEmail" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Correo electrónico:&lt;/strong&gt; &lt;a href='mailto:{0}'&gt;{0}&lt;/a&gt;</value>
+    <comment>Contact Name</comment>
+  </data>
+  <data name="ContactName" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Contacto: &lt;/strong&gt;</value>
+    <comment>Contact Name</comment>
+  </data>
+  <data name="ContactCell" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Teléfono móvil: &lt;/strong&gt;</value>
+    <comment>phrase: Cell Phone</comment>
+  </data>
+  <data name="Address" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Dirección: &lt;/strong&gt;</value>
+    <comment>phrase: Address</comment>
+  </data>
+  <data name="EventsByTag" lastModified="2012-08-10T22:20:16">
+    <value>Eventos por etiquetas</value>
+    <comment>Phrase: Events by tag</comment>
+  </data>
+  <data name="EventsViewPropertyEditorTitle" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>word: Events</comment>
+  </data>
+  <data name="lSummary" lastModified="2012-08-10T22:20:16">
+    <value>Resumen</value>
+    <comment>word: Summary</comment>
+  </data>
+  <data name="CategoriesAndTags" lastModified="2012-08-10T22:20:16">
+    <value>Categorías y etiquetas</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Owner" lastModified="2012-08-10T22:20:16">
+    <value>Propietario</value>
+    <comment>word: Owner</comment>
+  </data>
+  <data name="Category" lastModified="2012-08-10T22:20:16">
+    <value>Categoría</value>
+    <comment>word: Category</comment>
+  </data>
+  <data name="AllEvents" lastModified="2012-08-10T22:20:16">
+    <value>Todos los eventos</value>
+    <comment>Phrase: All events</comment>
+  </data>
+  <data name="PublishedEvents" lastModified="2012-08-10T22:20:16">
+    <value>Publicado</value>
+    <comment>The text of published events sidebar button.</comment>
+  </data>
+  <data name="WaitingForApproval" lastModified="2012-08-10T22:20:16">
+    <value>En espera de aprobación</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+  </data>
+  <data name="MyEvents" lastModified="2012-08-10T22:20:16">
+    <value>Mis eventos</value>
+    <comment>The text of my events sidebar button</comment>
+  </data>
+  <data name="ScheduledEvents" lastModified="2012-08-10T22:20:16">
+    <value>Programado</value>
+    <comment>The text of scheduled events sidebar button.</comment>
+  </data>
+  <data name="ByDateModified" lastModified="2012-08-10T22:20:16">
+    <value>por fecha de modificación ...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+  </data>
+  <data name="CloseDateFilter" lastModified="2012-08-10T22:20:16">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+  </data>
+  <data name="EventsByCategory" lastModified="2012-08-10T22:20:16">
+    <value>Eventos por categoría</value>
+    <comment>Phrase: Events by category</comment>
+  </data>
+  <data name="SortEvents" lastModified="2012-08-10T22:20:16">
+    <value>Seleccionar eventos</value>
+    <comment>Label text.</comment>
+  </data>
+  <data name="DisplayLastUpdatedEvents" lastModified="2012-08-10T22:20:16">
+    <value>Mostrar eventos actualizadas por última vez el...</value>
+    <comment>The text of last updated events sidebar button</comment>
+  </data>
+  <data name="DefaultPage" lastModified="2012-08-10T22:20:16">
+    <value>Página predeterminada</value>
+    <comment>Phrase: Default page</comment>
+  </data>
+  <data name="AllowComments" lastModified="2012-08-10T22:20:16">
+    <value>Permitir comentarios</value>
+    <comment>Phrase: Allow comments</comment>
+  </data>
+  <data name="EventSingularItemName" lastModified="2012-08-10T22:20:16">
+    <value>Evento</value>
+    <comment>Word: event</comment>
+  </data>
+  <data name="EventsDetailViewFriendlyName" lastModified="2012-08-10T22:20:16">
+    <value>Eventos - uno a uno</value>
+    <comment>Phrase: Events - single</comment>
+  </data>
+  <data name="EditEventsSettings" lastModified="2012-08-10T22:20:16">
+    <value>Modificar la configuración de Eventos</value>
+    <comment>Phrase: Edit Events settings</comment>
+  </data>
+  <data name="EventsMasterViewFriendlyName" lastModified="2012-08-10T22:20:16">
+    <value>Eventos - lista</value>
+    <comment>Phrase: Events - list</comment>
+  </data>
+  <data name="EventsDataFields" lastModified="2012-08-10T22:20:16">
+    <value>Campos de datos de Eventos</value>
+    <comment>phrase: Events data fields</comment>
+  </data>
+  <data name="CommentsHtmlTitle" lastModified="2012-08-10T22:20:16">
+    <value>Comentarios</value>
+    <comment>Html Title for the comments events module.</comment>
+  </data>
+  <data name="UrlNameInvalidSymbols" lastModified="2012-08-10T22:20:16">
+    <value>La dirección URL contiene símbolos no válidos.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+  </data>
+  <data name="DraftEvents" lastModified="2012-08-10T22:20:16">
+    <value>Borradores</value>
+    <comment>The text of draft events sidebar button.</comment>
+  </data>
+  <data name="EventPluralItemName" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>Word: events</comment>
+  </data>
+  <data name="EventsViewTitle" lastModified="2012-08-10T22:20:16">
+    <value>Eventos</value>
+    <comment>Provides a UI for displaying events.</comment>
+  </data>
+  <data name="Dates" lastModified="2012-08-10T22:20:16">
+    <value>&lt;strong&gt;Fechas: &lt;/strong&gt;</value>
+    <comment>phrase: Dates</comment>
+  </data>
+  <data name="CustomFields" lastModified="2012-08-10T22:20:16">
+    <value>Campos personalizados para eventos</value>
+    <comment>phrase: Custom Fields for events</comment>
+  </data>
+</root>
