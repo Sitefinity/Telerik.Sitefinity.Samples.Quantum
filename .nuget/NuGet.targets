@@ -23,7 +23,7 @@
             <PackageSource Include="https://www.nuget.org/api/v2/" />
             <PackageSource Include="https://my-nuget-source/nuget/" />
         -->
-      <PackageSource Include="https://nuget.sitefinity.com/nuget/" />
+      <PackageSource Include="http://nuget.sitefinity.com/nuget/" />
       <PackageSource Include="https://www.nuget.org/api/v2/" />
     </ItemGroup>
 
