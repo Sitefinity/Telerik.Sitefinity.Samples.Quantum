@@ -51,7 +51,7 @@ Some of the main highlights of the Quantum project include:
 
 * Windows Identity Foundation
 
-NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
+   NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
 
   * Windows 7 - download from [Windows Identity Foundation](http://www.microsoft.com/en-us/download/details.aspx?id=17331)
 
