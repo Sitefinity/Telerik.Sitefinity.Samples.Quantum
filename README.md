@@ -18,15 +18,25 @@ The Quantum project is based on few principles:
 Some of the main highlights of the Quantum project include:
 
 * full-blown online shop
+
 * multilingual environment
+
 * usage of dynamic modules
+
 * social media features
+
 * personalization
+
 * email campaigns
+
 * responsive design
+
 * Google maps usage
+
 * blogging
+
 * workflows
+
 * forums
 
 ### Requirements
@@ -42,8 +52,10 @@ Some of the main highlights of the Quantum project include:
 * Windows Identity Foundation
 
 NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
-..* Windows 7 - download from [Windows Identity Foundation](http://www.microsoft.com/en-us/download/details.aspx?id=17331)
-..* Windows 8 - in the Control Panel, turn on the relevant Windows feature Windows Identity Foundation 3.5
+
+  * Windows 7 - download from [Windows Identity Foundation](http://www.microsoft.com/en-us/download/details.aspx?id=17331)
+
+  * Windows 8 - in the Control Panel, turn on the relevant Windows feature Windows Identity Foundation 3.5
 
 
 
