@@ -101,12 +101,6 @@
     <Reference Include="Microsoft.SharePoint.Client.Runtime">
       <HintPath>packages\Microsoft.SharePoint.Client.15.0.4569.1000\lib\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Interop.DexterLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=59345589f61c4f31, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-      <HintPath>bin\Interop.DexterLib.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>packages\Microsoft.SqlServer.Types.10.50.1600.1\lib\Net20\Microsoft.SqlServer.Types.dll</HintPath>
@@ -153,10 +147,6 @@
     </Reference>
     <Reference Include="ServiceStack.Interfaces">
       <HintPath>packages\ServiceStack.Interfaces.4.0.14\lib\net40\ServiceStack.Interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.ServiceInterface, Version=3.9.56.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\ServiceStack.ServiceInterface.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Text">
       <HintPath>packages\ServiceStack.Text.Signed.4.0.14\lib\net40\ServiceStack.Text.dll</HintPath>
@@ -261,11 +251,6 @@
     <Reference Include="Telerik.OpenAccess.40.Extensions">
       <HintPath>packages\Telerik.DataAccess.Core.2014.1.403.2\lib\net40\Telerik.OpenAccess.40.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.OpenAccess.Config, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.OpenAccess.Config.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Telerik.OpenAccess.DataAdapter">
       <HintPath>packages\Telerik.Sitefinity.Octopus.2014.1.404.1\lib\net40\Telerik.OpenAccess.DataAdapter.dll</HintPath>
     </Reference>
@@ -313,21 +298,6 @@
     </Reference>
     <Reference Include="Telerik.Sitefinity">
       <HintPath>packages\Telerik.Sitefinity.Core.7.0.5100.0\lib\net40\Telerik.Sitefinity.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.Sitefinity.Analytics.Server.Core, Version=4.0.810.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.Sitefinity.Analytics.Server.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Telerik.Sitefinity.Analytics.Server.DependencyResolution, Version=4.0.810.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.Sitefinity.Analytics.Server.DependencyResolution.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin, Version=4.0.810.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Analytics.Server.Infrastructure">
       <HintPath>packages\Telerik.Sitefinity.Analytics.7.0.5100.0\lib\net40\Telerik.Sitefinity.Analytics.Server.Infrastructure.dll</HintPath>
