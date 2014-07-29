@@ -117,335 +117,335 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadEditorMainTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorMainTitle" lastModified="2014-07-22T13:48:17">
     <value>RadEditor Main</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="RadEditorMainTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorMainTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>RadEditor Main</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="RadEditorMainDescription" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorMainDescription" lastModified="2014-07-22T13:48:17">
     <value>Resource strings for RadEditor.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+  <data name="ReservedResource" lastModified="2014-07-22T13:48:17">
     <value>Please, do not delete this string. RadEditor needs it to determine if an external resource file is present in App_GlobalResources.</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="AddCustomColor" lastModified="2014-04-07T14:32:44">
+  <data name="AddCustomColor" lastModified="2014-07-22T13:48:17">
     <value>Add Custom Color...</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="AddCustomHexColor" lastModified="2014-04-07T14:32:44">
+  <data name="AddCustomHexColor" lastModified="2014-07-22T13:48:17">
     <value>Add Hex Color...</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="AddCustomWordSuccess" lastModified="2014-04-07T14:32:44">
+  <data name="AddCustomWordSuccess" lastModified="2014-07-22T13:48:17">
     <value>successfully added to dictionary</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="AddToDictionary" lastModified="2014-04-07T14:32:44">
+  <data name="AddToDictionary" lastModified="2014-07-22T13:48:17">
     <value>Add to dictionary</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="AskWordCleaning" lastModified="2014-04-07T14:32:44">
+  <data name="AskWordCleaning" lastModified="2014-07-22T13:48:17">
     <value>The content you are trying to paste has MS Word formatting.Would you like to clean it?</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="CancelButton" lastModified="2014-04-07T14:32:44">
+  <data name="CancelButton" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="CancelTable" lastModified="2014-04-07T14:32:44">
+  <data name="CancelTable" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="CellProperties" lastModified="2014-04-07T14:32:44">
+  <data name="CellProperties" lastModified="2014-07-22T13:48:17">
     <value>Cell Properties</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="CellWarning" lastModified="2014-04-07T14:32:44">
+  <data name="CellWarning" lastModified="2014-07-22T13:48:17">
     <value>Please, select a cell to set its properties!</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ChangeWordString" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeWordString" lastModified="2014-07-22T13:48:17">
     <value>Change Manually</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="Class" lastModified="2014-04-07T14:32:44">
+  <data name="Class" lastModified="2014-07-22T13:48:17">
     <value>CSS Class</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ClearAllHtmlTags" lastModified="2014-04-07T14:32:44">
+  <data name="ClearAllHtmlTags" lastModified="2014-07-22T13:48:17">
     <value>All HTML Tags</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ClearCssFormatting" lastModified="2014-04-07T14:32:44">
+  <data name="ClearCssFormatting" lastModified="2014-07-22T13:48:17">
     <value>Cascading Style Sheets</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ClearFontTags" lastModified="2014-04-07T14:32:44">
+  <data name="ClearFontTags" lastModified="2014-07-22T13:48:17">
     <value>Font Tags</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ClearFormatting" lastModified="2014-04-07T14:32:44">
+  <data name="ClearFormatting" lastModified="2014-07-22T13:48:17">
     <value>Clear Formatting</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ClearSpanTags" lastModified="2014-04-07T14:32:44">
+  <data name="ClearSpanTags" lastModified="2014-07-22T13:48:17">
     <value>Span Tags</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ClearStyle" lastModified="2014-04-07T14:32:44">
+  <data name="ClearStyle" lastModified="2014-07-22T13:48:17">
     <value>Clear Style</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ClearWordFormatting" lastModified="2014-04-07T14:32:44">
+  <data name="ClearWordFormatting" lastModified="2014-07-22T13:48:17">
     <value>Microsoft Word Formatting</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="CorrectSpelling" lastModified="2014-04-07T14:32:44">
+  <data name="CorrectSpelling" lastModified="2014-07-22T13:48:17">
     <value>Spelling Changes</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="CreateLink" lastModified="2014-04-07T14:32:44">
+  <data name="CreateLink" lastModified="2014-07-22T13:48:17">
     <value>Create Link</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="DialogToolbar" lastModified="2014-04-07T14:32:44">
+  <data name="DialogToolbar" lastModified="2014-07-22T13:48:17">
     <value>Dialogs</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="DropdownToolbar" lastModified="2014-04-07T14:32:44">
+  <data name="DropdownToolbar" lastModified="2014-07-22T13:48:17">
     <value>Dropdowns</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="EnhancedEditToolbar" lastModified="2014-04-07T14:32:44">
+  <data name="EnhancedEditToolbar" lastModified="2014-07-22T13:48:17">
     <value>Enhanced Edit</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FileOpen" lastModified="2014-04-07T14:32:44">
+  <data name="FileOpen" lastModified="2014-07-22T13:48:17">
     <value>Open file..</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FileSaveAs" lastModified="2014-04-07T14:32:44">
+  <data name="FileSaveAs" lastModified="2014-07-22T13:48:17">
     <value>Save as...</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormButton" lastModified="2014-04-07T14:32:44">
+  <data name="FormButton" lastModified="2014-07-22T13:48:17">
     <value>Button</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormCheckbox" lastModified="2014-04-07T14:32:44">
+  <data name="FormCheckbox" lastModified="2014-07-22T13:48:17">
     <value>Checkbox</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormForm" lastModified="2014-04-07T14:32:44">
+  <data name="FormForm" lastModified="2014-07-22T13:48:17">
     <value>Form</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormHidden" lastModified="2014-04-07T14:32:44">
+  <data name="FormHidden" lastModified="2014-07-22T13:48:17">
     <value>Hidden</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormPassword" lastModified="2014-04-07T14:32:44">
+  <data name="FormPassword" lastModified="2014-07-22T13:48:17">
     <value>Password</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormRadio" lastModified="2014-04-07T14:32:44">
+  <data name="FormRadio" lastModified="2014-07-22T13:48:17">
     <value>Radio button</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormReset" lastModified="2014-04-07T14:32:44">
+  <data name="FormReset" lastModified="2014-07-22T13:48:17">
     <value>Reset</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormSelect" lastModified="2014-04-07T14:32:44">
+  <data name="FormSelect" lastModified="2014-07-22T13:48:17">
     <value>Select</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormSubmit" lastModified="2014-04-07T14:32:44">
+  <data name="FormSubmit" lastModified="2014-07-22T13:48:17">
     <value>Submit</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormText" lastModified="2014-04-07T14:32:44">
+  <data name="FormText" lastModified="2014-07-22T13:48:17">
     <value>Textbox</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormTextarea" lastModified="2014-04-07T14:32:44">
+  <data name="FormTextarea" lastModified="2014-07-22T13:48:17">
     <value>Textarea</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="HtmlMode" lastModified="2014-04-07T14:32:44">
+  <data name="HtmlMode" lastModified="2014-07-22T13:48:17">
     <value>HTML Mode</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="IgnoreAllString" lastModified="2014-04-07T14:32:44">
+  <data name="IgnoreAllString" lastModified="2014-07-22T13:48:17">
     <value>Ignore All</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="IgnoreString" lastModified="2014-04-07T14:32:44">
+  <data name="IgnoreString" lastModified="2014-07-22T13:48:17">
     <value>Ignore</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ImageMapWarning" lastModified="2014-04-07T14:32:44">
+  <data name="ImageMapWarning" lastModified="2014-07-22T13:48:17">
     <value>Please, select an image to set its image map properties!</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="IndentHtml" lastModified="2014-04-07T14:32:44">
+  <data name="IndentHtml" lastModified="2014-07-22T13:48:17">
     <value>Indent HTML</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="InsertToolbar" lastModified="2014-04-07T14:32:44">
+  <data name="InsertToolbar" lastModified="2014-07-22T13:48:17">
     <value>Insert</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="MainToolbar" lastModified="2014-04-07T14:32:44">
+  <data name="MainToolbar" lastModified="2014-07-22T13:48:17">
     <value>Main Toolbar</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="MoreThanOnceMessage" lastModified="2014-04-07T14:32:44">
+  <data name="MoreThanOnceMessage" lastModified="2014-07-22T13:48:17">
     <value>This word occurs more than once in the text. Would you like to replace all instances?</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="MoveCommand" lastModified="2014-04-07T14:32:44">
+  <data name="MoveCommand" lastModified="2014-07-22T13:48:17">
     <value>Move</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="NoSpellingMistakes" lastModified="2014-04-07T14:32:44">
+  <data name="NoSpellingMistakes" lastModified="2014-07-22T13:48:17">
     <value>No mistakes found.</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="NoSuggestions" lastModified="2014-04-07T14:32:44">
+  <data name="NoSuggestions" lastModified="2014-07-22T13:48:17">
     <value>(no suggestions)</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="PromptColor" lastModified="2014-04-07T14:32:44">
+  <data name="PromptColor" lastModified="2014-07-22T13:48:17">
     <value>Please, provide the custom color HEX value:</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="RadEditorDesignMode" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorDesignMode" lastModified="2014-07-22T13:48:17">
     <value>Design</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="RadEditorHtmlMode" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorHtmlMode" lastModified="2014-07-22T13:48:17">
     <value>HTML</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="RadEditorPreviewMode" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorPreviewMode" lastModified="2014-07-22T13:48:17">
     <value>Preview</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ResizeCommand" lastModified="2014-04-07T14:32:44">
+  <data name="ResizeCommand" lastModified="2014-07-22T13:48:17">
     <value>Resize Object</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="SetHtml" lastModified="2014-04-07T14:32:44">
+  <data name="SetHtml" lastModified="2014-07-22T13:48:17">
     <value>Set HTML</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ShowToolbarTooltip" lastModified="2014-04-07T14:32:44">
+  <data name="ShowToolbarTooltip" lastModified="2014-07-22T13:48:17">
     <value>Show toolbar</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="SpellCheckComplete" lastModified="2014-04-07T14:32:44">
+  <data name="SpellCheckComplete" lastModified="2014-07-22T13:48:17">
     <value>The Spell Check is complete!</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="SpellCheckEnd" lastModified="2014-04-07T14:32:44">
+  <data name="SpellCheckEnd" lastModified="2014-07-22T13:48:17">
     <value>Finish spellchecking</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="SpellingChange" lastModified="2014-04-07T14:32:44">
+  <data name="SpellingChange" lastModified="2014-07-22T13:48:17">
     <value>Spelling Change</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="SpellingInProgress" lastModified="2014-04-07T14:32:44">
+  <data name="SpellingInProgress" lastModified="2014-07-22T13:48:17">
     <value>Spell checking in progress...</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="SpellingMode" lastModified="2014-04-07T14:32:44">
+  <data name="SpellingMode" lastModified="2014-07-22T13:48:17">
     <value>Spell checking mode. Misspelled words are highlighted in yellow.</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="Table" lastModified="2014-04-07T14:32:44">
+  <data name="Table" lastModified="2014-07-22T13:48:17">
     <value>Table</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="TableToolbar" lastModified="2014-04-07T14:32:44">
+  <data name="TableToolbar" lastModified="2014-07-22T13:48:17">
     <value>Table</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="TableWarning" lastModified="2014-04-07T14:32:44">
+  <data name="TableWarning" lastModified="2014-07-22T13:48:17">
     <value>Please, select a table to set its properties!</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ToolbarCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ToolbarCaption" lastModified="2014-07-22T13:48:17">
     <value>RadEditor Toolbar</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ToolNotSupportedByNetscape" lastModified="2014-04-07T14:32:44">
+  <data name="ToolNotSupportedByNetscape" lastModified="2014-07-22T13:48:17">
     <value>This tool is not supported by Mozilla/Netscape browsers.</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="Typing" lastModified="2014-04-07T14:32:44">
+  <data name="Typing" lastModified="2014-07-22T13:48:17">
     <value>Typing...</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="UndoDisabledMessage" lastModified="2014-04-07T14:32:44">
+  <data name="UndoDisabledMessage" lastModified="2014-07-22T13:48:17">
     <value>You cannot undo further while in spellcheck mode. Please finish spellchecking first.</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="UpdateButton" lastModified="2014-04-07T14:32:44">
+  <data name="UpdateButton" lastModified="2014-07-22T13:48:17">
     <value>Update</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="UseCtrlC" lastModified="2014-04-07T14:32:44">
+  <data name="UseCtrlC" lastModified="2014-07-22T13:48:17">
     <value>Please use Ctrl+C to Copy (Cmd+C on Mac)</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="UseCtrlV" lastModified="2014-04-07T14:32:44">
+  <data name="UseCtrlV" lastModified="2014-07-22T13:48:17">
     <value>Please use Ctrl+V to Paste (Cmd+V on Mac)</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="UseCtrlX" lastModified="2014-04-07T14:32:44">
+  <data name="UseCtrlX" lastModified="2014-07-22T13:48:17">
     <value>Please use Ctrl+X to Cut (Cmd+X on Mac)</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ClearClass" lastModified="2014-04-07T14:32:44">
+  <data name="ClearClass" lastModified="2014-07-22T13:48:17">
     <value>Clear Class</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ExceededHtmlLength" lastModified="2014-04-07T14:32:44">
+  <data name="ExceededHtmlLength" lastModified="2014-07-22T13:48:17">
     <value>The added HTML code exceeded the character limit</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ExceededTextLength" lastModified="2014-04-07T14:32:44">
+  <data name="ExceededTextLength" lastModified="2014-07-22T13:48:17">
     <value>The added text exceeded the character limit</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="ReduceTheConentLength" lastModified="2014-04-07T14:32:44">
+  <data name="ReduceTheConentLength" lastModified="2014-07-22T13:48:17">
     <value>Please, reduce the content of the field</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="FormElementsAreSupportedByIframeError" lastModified="2014-04-07T14:32:44">
+  <data name="FormElementsAreSupportedByIframeError" lastModified="2014-07-22T13:48:17">
     <value>Error! Form elements are only supported when the content area is set to Iframe!</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="GetAllSheetsCalledWithNoDocumentError" lastModified="2014-04-07T14:32:44">
+  <data name="GetAllSheetsCalledWithNoDocumentError" lastModified="2014-07-22T13:48:17">
     <value>RadEditor._getAllSheets called with no document object provided!</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="SetToIframeForFullHTMLError" lastModified="2014-04-07T14:32:44">
+  <data name="SetToIframeForFullHTMLError" lastModified="2014-07-22T13:48:17">
     <value>Error! Set EditorContentAreaMode to Iframe if you want to edit full page HTML!</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="RadEditorGroupboxContent" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorGroupboxContent" lastModified="2014-07-22T13:48:17">
     <value>Content...</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>
-  <data name="RadEditorGroupboxTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorGroupboxTitle" lastModified="2014-07-22T13:48:17">
     <value>Title</value>
     <comment>RadEditorMain resource strings.</comment>
   </data>

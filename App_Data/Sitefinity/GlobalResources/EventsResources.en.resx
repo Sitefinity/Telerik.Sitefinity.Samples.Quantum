@@ -117,904 +117,908 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="EventsResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="EventsResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>EventsResources</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="EventsResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="EventsResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>EventsResources</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="EventsResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="EventsResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for the Events module</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleTitle" lastModified="2014-07-22T13:48:17">
     <value>Events</value>
     <comment>The name of the events module.</comment>
   </data>
-  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleDescription" lastModified="2014-07-22T13:48:17">
     <value>Provides user interface for managing events.</value>
     <comment>The description of the events module</comment>
   </data>
-  <data name="EventsHtmlTitle" lastModified="2014-04-07T14:32:44">
+  <data name="EventsHtmlTitle" lastModified="2014-07-22T13:48:17">
     <value>Events</value>
     <comment>HTML title of the Events module landing page.</comment>
   </data>
-  <data name="EventsPremissionsHtmltitle" lastModified="2014-04-07T14:32:44">
+  <data name="EventsPremissionsHtmltitle" lastModified="2014-07-22T13:48:17">
     <value>Events Permissions</value>
     <comment>HTML title of the page handling permissions for the Events module.</comment>
   </data>
-  <data name="SettingsForEvents" lastModified="2014-04-07T14:32:44">
+  <data name="SettingsForEvents" lastModified="2014-07-22T13:48:17">
     <value>Settings</value>
     <comment>phrase: Settings for events</comment>
   </data>
-  <data name="PagesWhereEventsArePublished" lastModified="2014-04-07T14:32:44">
+  <data name="PagesWhereEventsArePublished" lastModified="2014-07-22T13:48:17">
     <value>Pages where Events are published</value>
     <comment>Pages where Events are published</comment>
   </data>
-  <data name="EventsUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="EventsUrlName" lastModified="2014-07-22T13:48:17">
     <value>Events</value>
     <comment>Events URL.</comment>
   </data>
-  <data name="CategoriesMetafieldTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CategoriesMetafieldTitle" lastModified="2014-07-22T13:48:17">
     <value>Category</value>
     <comment>Name of the metafield containing the categories taxonomy for events.</comment>
   </data>
-  <data name="CategoriesMetafieldDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CategoriesMetafieldDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the category of this content item.</value>
     <comment>Description of the metafield containing the categories taxonomy for events.</comment>
   </data>
-  <data name="TagsMetafieldTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TagsMetafieldTitle" lastModified="2014-07-22T13:48:17">
     <value>Tags</value>
     <comment>Name of the metafield containing the tags taxonomy for events.</comment>
   </data>
-  <data name="TagsMetafieldDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TagsMetafieldDescription" lastModified="2014-07-22T13:48:17">
     <value>Set Tags for this content item.</value>
     <comment>Description of the metafield containing the tags taxonomy for events.</comment>
   </data>
-  <data name="PageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="PageGroupNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Events</value>
     <comment>Page group for the events module.</comment>
   </data>
-  <data name="PageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+  <data name="PageGroupNodeDescription" lastModified="2014-07-22T13:48:17">
     <value>Page group for the events module.</value>
     <comment>Events Page Group Description</comment>
   </data>
-  <data name="EventsToolboxSectionTitle" lastModified="2014-04-07T14:32:44">
+  <data name="EventsToolboxSectionTitle" lastModified="2014-07-22T13:48:17">
     <value>Events</value>
     <comment>Events toolbox section title</comment>
   </data>
-  <data name="EventsToolboxSectionDescription" lastModified="2014-04-07T14:32:44">
+  <data name="EventsToolboxSectionDescription" lastModified="2014-07-22T13:48:17">
     <value>Events toolbox section title.</value>
     <comment>Describes the event toolbox section title.</comment>
   </data>
-  <data name="EventsViewTitle" lastModified="2014-04-07T14:32:44">
+  <data name="EventsViewTitle" lastModified="2014-07-22T13:48:17">
     <value>Events</value>
     <comment>Provides a UI for displaying events.</comment>
   </data>
-  <data name="EventsViewDescription" lastModified="2014-04-07T14:32:44">
+  <data name="EventsViewDescription" lastModified="2014-07-22T13:48:17">
     <value>Lists of events</value>
     <comment>Describes the purpose of the EventsView control.</comment>
   </data>
-  <data name="CommentsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CommentsTitle" lastModified="2014-07-22T13:48:17">
     <value>Comments</value>
     <comment>Title of the comments page.</comment>
   </data>
-  <data name="CommentsUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="CommentsUrlName" lastModified="2014-07-22T13:48:17">
     <value>Comments</value>
     <comment>Comments URL</comment>
   </data>
-  <data name="CommentsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CommentsDescription" lastModified="2014-07-22T13:48:17">
     <value>Manage comments</value>
     <comment>Provides description for the comments view of events module.</comment>
   </data>
-  <data name="EndDateShouldNotBeEarlierThanStartDate" lastModified="2014-04-07T14:32:44">
+  <data name="EndDateShouldNotBeEarlierThanStartDate" lastModified="2014-07-22T13:48:17">
     <value>Event's end date cannot be set earlier than its start date.</value>
     <comment>Message: Event's end date cannot be set earlier than its start date.</comment>
   </data>
-  <data name="EndTimeShouldNotBeEarlierThanStartTime" lastModified="2014-04-07T14:32:44">
+  <data name="EndTimeShouldNotBeEarlierThanStartTime" lastModified="2014-07-22T13:48:17">
     <value>Event's end time cannot be set earlier than its start time.</value>
     <comment>Message: Event's end time cannot be set earlier than its start time.</comment>
   </data>
-  <data name="AreYouSureYouWantToDeleteThisEvent" lastModified="2014-04-07T14:32:44">
+  <data name="AreYouSureYouWantToDeleteThisEvent" lastModified="2014-07-22T13:48:17">
     <value>Are you sure you want to delete this event?</value>
     <comment>Confirmation message when an event is deleted.</comment>
   </data>
-  <data name="CreateEvent" lastModified="2014-04-07T14:32:44">
+  <data name="CreateEvent" lastModified="2014-07-22T13:48:17">
     <value>Create an event</value>
     <comment>Label of the dialog that creates an event.</comment>
   </data>
-  <data name="Create" lastModified="2014-04-07T14:32:44">
+  <data name="Create" lastModified="2014-07-22T13:48:17">
     <value>Create</value>
     <comment>Label for the buttons that create an event.</comment>
   </data>
-  <data name="Delete" lastModified="2014-04-07T14:32:44">
+  <data name="Delete" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>Label for the buttons that delete an event.</comment>
   </data>
-  <data name="Permissions" lastModified="2014-04-07T14:32:44">
+  <data name="Permissions" lastModified="2014-07-22T13:48:17">
     <value>Permissions</value>
     <comment>Label for the buttons that switch to the permissions dialog.</comment>
   </data>
-  <data name="Event" lastModified="2014-04-07T14:32:44">
+  <data name="Event" lastModified="2014-07-22T13:48:17">
     <value>Event</value>
     <comment>Event word.</comment>
   </data>
-  <data name="Search" lastModified="2014-04-07T14:32:44">
+  <data name="Search" lastModified="2014-07-22T13:48:17">
     <value>Search</value>
     <comment>Search word.</comment>
   </data>
-  <data name="CloseSearch" lastModified="2014-04-07T14:32:44">
+  <data name="CloseSearch" lastModified="2014-07-22T13:48:17">
     <value>Close search</value>
     <comment>Close search.</comment>
   </data>
-  <data name="TitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="TitleCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Title cannot be empty</value>
     <comment>Title cannot be empty</comment>
   </data>
-  <data name="ContentCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="ContentCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Content cannot be empty</value>
     <comment>Content cannot be empty</comment>
   </data>
-  <data name="ClickToAddSummary" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddSummary" lastModified="2014-07-22T13:48:17">
     <value>Click to add summary</value>
     <comment>phrase: Click to add summary</comment>
   </data>
-  <data name="lLocation" lastModified="2014-04-07T14:32:44">
+  <data name="lLocation" lastModified="2014-07-22T13:48:17">
     <value>Location &lt;em class='sfNote'&gt;(Street, City, Country, State)&lt;/em&gt;</value>
     <comment>Word: Location &lt;em class='sfNote'&gt;(Street, City, Country, State)&lt;/em&gt;</comment>
   </data>
-  <data name="lStreet" lastModified="2014-04-07T14:32:44">
+  <data name="lStreet" lastModified="2014-07-22T13:48:17">
     <value>Street</value>
     <comment>Word: Street</comment>
   </data>
-  <data name="lCity" lastModified="2014-04-07T14:32:44">
+  <data name="lCity" lastModified="2014-07-22T13:48:17">
     <value>City</value>
     <comment>Word: City</comment>
   </data>
-  <data name="lCountry" lastModified="2014-04-07T14:32:44">
+  <data name="lCountry" lastModified="2014-07-22T13:48:17">
     <value>Country</value>
     <comment>Word: Country</comment>
   </data>
-  <data name="lState" lastModified="2014-04-07T14:32:44">
+  <data name="lState" lastModified="2014-07-22T13:48:17">
     <value>State</value>
     <comment>Word: State</comment>
   </data>
-  <data name="lContactInformation" lastModified="2014-04-07T14:32:44">
+  <data name="lContactInformation" lastModified="2014-07-22T13:48:17">
     <value>Contact information &lt;em class='sfNote'&gt;(Email, Web, Contact name, Phone)&lt;/em&gt;</value>
     <comment>Phrase: Contact information &lt;em class='sfNote'&gt;(Email, Web, Contact name, Phone)&lt;/em&gt;</comment>
   </data>
-  <data name="lEmail" lastModified="2014-04-07T14:32:44">
+  <data name="lEmail" lastModified="2014-07-22T13:48:17">
     <value>Email</value>
     <comment>Word: Email</comment>
   </data>
-  <data name="lWeb" lastModified="2014-04-07T14:32:44">
+  <data name="lWeb" lastModified="2014-07-22T13:48:17">
     <value>Website</value>
     <comment>Word: Web</comment>
   </data>
-  <data name="lWebExample" lastModified="2014-04-07T14:32:44">
+  <data name="lWebExample" lastModified="2014-07-22T13:48:17">
     <value>Start with &lt;em&gt;http://&lt;/em&gt;&lt;br /&gt;Example: &lt;em&gt;http://devreach.com/&lt;/em&gt;</value>
     <comment>Example: Start with http://</comment>
   </data>
-  <data name="lContactName" lastModified="2014-04-07T14:32:44">
+  <data name="lContactName" lastModified="2014-07-22T13:48:17">
     <value>Contact name</value>
     <comment>Word: Contact name</comment>
   </data>
-  <data name="lCellPhone" lastModified="2014-04-07T14:32:44">
+  <data name="lCellPhone" lastModified="2014-07-22T13:48:17">
     <value>Cell phone</value>
     <comment>Word: Cell phone</comment>
   </data>
-  <data name="lPhone" lastModified="2014-04-07T14:32:44">
+  <data name="lPhone" lastModified="2014-07-22T13:48:17">
     <value>Phone</value>
     <comment>Word: Phone</comment>
   </data>
-  <data name="lUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="lUrlName" lastModified="2014-07-22T13:48:17">
     <value>URL</value>
     <comment>Word: URL</comment>
   </data>
-  <data name="UrlNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="UrlNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>URL cannot be empty</value>
     <comment>Word: URL cannot be empty</comment>
   </data>
-  <data name="Status" lastModified="2014-04-07T14:32:44">
+  <data name="Status" lastModified="2014-07-22T13:48:17">
     <value>Status</value>
     <comment>Word: Status</comment>
   </data>
-  <data name="PublishOn" lastModified="2014-04-07T14:32:44">
+  <data name="PublishOn" lastModified="2014-07-22T13:48:17">
     <value>Publish on:</value>
     <comment>Phrase: Publish on:</comment>
   </data>
-  <data name="ExpiresOn" lastModified="2014-04-07T14:32:44">
+  <data name="ExpiresOn" lastModified="2014-07-22T13:48:17">
     <value>Expires on:</value>
     <comment>Phrase: Expires on:</comment>
   </data>
-  <data name="Language" lastModified="2014-04-07T14:32:44">
+  <data name="Language" lastModified="2014-07-22T13:48:17">
     <value>Language</value>
     <comment>word: Language</comment>
   </data>
-  <data name="BackToAllItems" lastModified="2014-04-07T14:32:44">
+  <data name="BackToAllItems" lastModified="2014-07-22T13:48:17">
     <value>Back to all events</value>
     <comment>phrase: Back to all events</comment>
   </data>
-  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+  <data name="BackToItems" lastModified="2014-07-22T13:48:17">
     <value>Back to Events</value>
     <comment>The text of the back to events</comment>
   </data>
-  <data name="CreateNewItem" lastModified="2014-04-07T14:32:44">
+  <data name="CreateNewItem" lastModified="2014-07-22T13:48:17">
     <value>Create an event</value>
     <comment>The title of the create new event dialog</comment>
   </data>
-  <data name="EditItem" lastModified="2014-04-07T14:32:44">
+  <data name="EditItem" lastModified="2014-07-22T13:48:17">
     <value>Edit an event</value>
     <comment>The title of the edit event dialog</comment>
   </data>
-  <data name="CreateThisItem" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisItem" lastModified="2014-07-22T13:48:17">
     <value>Create this event</value>
     <comment>phrase: Create this event</comment>
   </data>
-  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+  <data name="SaveChanges" lastModified="2014-07-22T13:48:17">
     <value>Save changes</value>
     <comment>phrase: Save changes</comment>
   </data>
-  <data name="EventsSingleTypeName" lastModified="2014-04-07T14:32:44">
+  <data name="EventsSingleTypeName" lastModified="2014-07-22T13:48:17">
     <value>Event</value>
     <comment>Events single type name</comment>
   </data>
-  <data name="EventsPluralTypeName" lastModified="2014-04-07T14:32:44">
+  <data name="EventsPluralTypeName" lastModified="2014-07-22T13:48:17">
     <value>Events</value>
     <comment>Events plural type name</comment>
   </data>
-  <data name="Categories" lastModified="2014-04-07T14:32:44">
+  <data name="Categories" lastModified="2014-07-22T13:48:17">
     <value>Categories</value>
     <comment>word: Categories</comment>
   </data>
-  <data name="Tags" lastModified="2014-04-07T14:32:44">
+  <data name="Tags" lastModified="2014-07-22T13:48:17">
     <value>Tags</value>
     <comment>word: Tags</comment>
   </data>
-  <data name="Comments" lastModified="2014-04-07T14:32:44">
+  <data name="Comments" lastModified="2014-07-22T13:48:17">
     <value>Comments</value>
     <comment>word: Comments</comment>
   </data>
-  <data name="Date" lastModified="2014-04-07T14:32:44">
+  <data name="Date" lastModified="2014-07-22T13:48:17">
     <value>Date</value>
     <comment>word: Date</comment>
   </data>
-  <data name="Publish" lastModified="2014-04-07T14:32:44">
+  <data name="Publish" lastModified="2014-07-22T13:48:17">
     <value>Publish</value>
     <comment>word: Publish</comment>
   </data>
-  <data name="Unpublish" lastModified="2014-04-07T14:32:44">
+  <data name="Unpublish" lastModified="2014-07-22T13:48:17">
     <value>Unpublish</value>
     <comment>word: Unpublish</comment>
   </data>
-  <data name="MoreActions" lastModified="2014-04-07T14:32:44">
+  <data name="MoreActions" lastModified="2014-07-22T13:48:17">
     <value>More actions with events</value>
     <comment>phrase: More actions with events</comment>
   </data>
-  <data name="LearnMoreWithVideoTutorials" lastModified="2014-04-07T14:32:44">
+  <data name="LearnMoreWithVideoTutorials" lastModified="2014-07-22T13:48:17">
     <value>Learn more with video tutorials</value>
     <comment>Label for the external links used in Pages</comment>
   </data>
-  <data name="SearchEvents" lastModified="2014-04-07T14:32:44">
+  <data name="SearchEvents" lastModified="2014-07-22T13:48:17">
     <value>Search events...</value>
     <comment>phrase: Search events...</comment>
   </data>
-  <data name="FilterEvents" lastModified="2014-04-07T14:32:44">
+  <data name="FilterEvents" lastModified="2014-07-22T13:48:17">
     <value>Filter events</value>
     <comment>phrase: Filter events</comment>
   </data>
-  <data name="ManageEvents" lastModified="2014-04-07T14:32:44">
+  <data name="ManageEvents" lastModified="2014-07-22T13:48:17">
     <value>Manage Events</value>
     <comment>phrase: Manage Events</comment>
   </data>
-  <data name="ManageAlso" lastModified="2014-04-07T14:32:44">
+  <data name="ManageAlso" lastModified="2014-07-22T13:48:17">
     <value>Manage also</value>
     <comment>phrase: Manage also</comment>
   </data>
-  <data name="CommentsForEvents" lastModified="2014-04-07T14:32:44">
+  <data name="CommentsForEvents" lastModified="2014-07-22T13:48:17">
     <value>Comments for events</value>
     <comment>phrase: Comments for events</comment>
   </data>
-  <data name="Settings" lastModified="2014-04-07T14:32:44">
+  <data name="Settings" lastModified="2014-07-22T13:48:17">
     <value>Settings for events</value>
     <comment>phrase: Events settings</comment>
   </data>
-  <data name="PermissionsForEvents" lastModified="2014-04-07T14:32:44">
+  <data name="PermissionsForEvents" lastModified="2014-07-22T13:48:17">
     <value>Permissions</value>
     <comment>phrase: Permissions for events</comment>
   </data>
-  <data name="CustomFields" lastModified="2014-04-07T14:32:44">
+  <data name="CustomFields" lastModified="2014-07-22T13:48:17">
     <value>Custom Fields for events</value>
     <comment>phrase: Custom Fields for events</comment>
   </data>
-  <data name="Title" lastModified="2014-04-07T14:32:44">
+  <data name="Title" lastModified="2014-07-22T13:48:17">
     <value>Title</value>
     <comment>word: Title</comment>
   </data>
-  <data name="Author" lastModified="2014-04-07T14:32:44">
+  <data name="Author" lastModified="2014-07-22T13:48:17">
     <value>Author</value>
     <comment>word: Author</comment>
   </data>
-  <data name="Actions" lastModified="2014-04-07T14:32:44">
+  <data name="Actions" lastModified="2014-07-22T13:48:17">
     <value>Actions</value>
     <comment>word: Actions</comment>
   </data>
-  <data name="View" lastModified="2014-04-07T14:32:44">
+  <data name="View" lastModified="2014-07-22T13:48:17">
     <value>View</value>
     <comment>word: View</comment>
   </data>
-  <data name="ViewProperties" lastModified="2014-04-07T14:32:44">
+  <data name="ViewProperties" lastModified="2014-07-22T13:48:17">
     <value>Properties</value>
     <comment>word: Properties</comment>
   </data>
-  <data name="Duplicate" lastModified="2014-04-07T14:32:44">
+  <data name="Duplicate" lastModified="2014-07-22T13:48:17">
     <value>Duplicate</value>
     <comment>word: Duplicate</comment>
   </data>
-  <data name="Content" lastModified="2014-04-07T14:32:44">
+  <data name="Content" lastModified="2014-07-22T13:48:17">
     <value>Content</value>
     <comment>word: Content</comment>
   </data>
-  <data name="History" lastModified="2014-04-07T14:32:44">
+  <data name="History" lastModified="2014-07-22T13:48:17">
     <value>History</value>
     <comment>word: History</comment>
   </data>
-  <data name="WhatDoYouWantToDoNow" lastModified="2014-04-07T14:32:44">
+  <data name="WhatDoYouWantToDoNow" lastModified="2014-07-22T13:48:17">
     <value>What do you want to do now?</value>
     <comment>phrase: What do you want to do now?</comment>
   </data>
-  <data name="NoEvents" lastModified="2014-04-07T14:32:44">
+  <data name="NoEvents" lastModified="2014-07-22T13:48:17">
     <value>No events have been created yet</value>
     <comment>phrase: No events have been created yet</comment>
   </data>
-  <data name="Edit" lastModified="2014-04-07T14:32:44">
+  <data name="Edit" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Edit...&lt;/strong&gt;</value>
     <comment>word</comment>
   </data>
-  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+  <data name="Cancel" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
   </data>
-  <data name="MoreOptions" lastModified="2014-04-07T14:32:44">
+  <data name="MoreOptions" lastModified="2014-07-22T13:48:17">
     <value>More options</value>
     <comment>phrase</comment>
   </data>
-  <data name="MoreOptionsURL" lastModified="2014-04-07T14:32:44">
+  <data name="MoreOptionsURL" lastModified="2014-07-22T13:48:17">
     <value>More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</value>
     <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
   </data>
-  <data name="PublicationDate" lastModified="2014-04-07T14:32:44">
+  <data name="PublicationDate" lastModified="2014-07-22T13:48:17">
     <value>Publication Date</value>
     <comment>phrase: Publication Date</comment>
   </data>
-  <data name="PublicationDateCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="PublicationDateCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>PublicationDate cannot be empty.</value>
     <comment>PublicationDate cannot be empty.</comment>
   </data>
-  <data name="ExpirationDate" lastModified="2014-04-07T14:32:44">
+  <data name="ExpirationDate" lastModified="2014-07-22T13:48:17">
     <value>Expiration Date</value>
     <comment>phrase: Expiration Date</comment>
   </data>
-  <data name="EventStart" lastModified="2014-04-07T14:32:44">
+  <data name="EventStart" lastModified="2014-07-22T13:48:17">
     <value>Event start</value>
     <comment>phrase: Event Start</comment>
   </data>
-  <data name="EventStartCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="EventStartCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>EventStart cannot be empty.</value>
     <comment>EventStart cannot be empty.</comment>
   </data>
-  <data name="EventEnd" lastModified="2014-04-07T14:32:44">
+  <data name="EventEnd" lastModified="2014-07-22T13:48:17">
     <value>Event end</value>
     <comment>phrase: Event End</comment>
   </data>
-  <data name="EventTimeZone" lastModified="2014-04-07T14:32:44">
+  <data name="EventTimeZone" lastModified="2014-07-22T13:48:17">
     <value>Time zone</value>
     <comment>phrase: Event time zone</comment>
   </data>
-  <data name="DeleteThisItem" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteThisItem" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>phrase: Delete this event item</comment>
   </data>
-  <data name="SetPermissions" lastModified="2014-04-07T14:32:44">
+  <data name="SetPermissions" lastModified="2014-07-22T13:48:17">
     <value>Set Permissions</value>
     <comment>phrase: Set permissions</comment>
   </data>
-  <data name="ReviewHistory" lastModified="2014-04-07T14:32:44">
+  <data name="ReviewHistory" lastModified="2014-07-22T13:48:17">
     <value>Revision History</value>
     <comment>phrase: Review history</comment>
   </data>
-  <data name="Where" lastModified="2014-04-07T14:32:44">
+  <data name="Where" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Location:&lt;/strong&gt; {0}</value>
     <comment>phrase: Where</comment>
   </data>
-  <data name="ContactName" lastModified="2014-04-07T14:32:44">
+  <data name="ContactName" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Contact:&lt;/strong&gt; {0}</value>
     <comment>Contact Name</comment>
   </data>
-  <data name="ContactEmail" lastModified="2014-04-07T14:32:44">
+  <data name="ContactEmail" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href='mailto:{0}'&gt;{0}&lt;/a&gt;</value>
     <comment>Contact Name</comment>
   </data>
-  <data name="WebSite" lastModified="2014-04-07T14:32:44">
+  <data name="WebSite" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Website:&lt;/strong&gt; &lt;a href='{0}'&gt;{0}&lt;/a&gt;</value>
     <comment>phrase: Web Site</comment>
   </data>
-  <data name="Email" lastModified="2014-04-07T14:32:44">
+  <data name="Email" lastModified="2014-07-22T13:48:17">
     <value>Email</value>
     <comment>phrase: Email</comment>
   </data>
-  <data name="ContactPhone" lastModified="2014-04-07T14:32:44">
+  <data name="ContactPhone" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Phone:&lt;/strong&gt; {0}</value>
     <comment>phrase: Phone</comment>
   </data>
-  <data name="ContactCell" lastModified="2014-04-07T14:32:44">
+  <data name="ContactCell" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Cell phone:&lt;/strong&gt;</value>
     <comment>phrase: Cell Phone</comment>
   </data>
-  <data name="Dates" lastModified="2014-04-07T14:32:44">
+  <data name="Dates" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Dates:&lt;/strong&gt;</value>
     <comment>phrase: Dates</comment>
   </data>
-  <data name="Address" lastModified="2014-04-07T14:32:44">
+  <data name="Address" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Address:&lt;/strong&gt; {0}</value>
     <comment>phrase: Address</comment>
   </data>
-  <data name="EventsViewPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="EventsViewPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Events</value>
     <comment>word: Events</comment>
   </data>
-  <data name="lSummary" lastModified="2014-04-07T14:32:44">
+  <data name="lSummary" lastModified="2014-07-22T13:48:17">
     <value>Summary</value>
     <comment>word: Summary</comment>
   </data>
-  <data name="Category" lastModified="2014-04-07T14:32:44">
+  <data name="Category" lastModified="2014-07-22T13:48:17">
     <value>Category</value>
     <comment>word: Category</comment>
   </data>
-  <data name="CategoriesAndTags" lastModified="2014-04-07T14:32:44">
+  <data name="CategoriesAndTags" lastModified="2014-07-22T13:48:17">
     <value>Categories and tags</value>
     <comment>phrase</comment>
   </data>
-  <data name="Owner" lastModified="2014-04-07T14:32:44">
+  <data name="Owner" lastModified="2014-07-22T13:48:17">
     <value>Owner</value>
     <comment>word: Owner</comment>
   </data>
-  <data name="EventsByCategory" lastModified="2014-04-07T14:32:44">
+  <data name="EventsByCategory" lastModified="2014-07-22T13:48:17">
     <value>Events by category</value>
     <comment>Phrase: Events by category</comment>
   </data>
-  <data name="EventsByTag" lastModified="2014-04-07T14:32:44">
+  <data name="EventsByTag" lastModified="2014-07-22T13:48:17">
     <value>Events by tag</value>
     <comment>Phrase: Events by tag</comment>
   </data>
-  <data name="AllEvents" lastModified="2014-04-07T14:32:44">
+  <data name="AllEvents" lastModified="2014-07-22T13:48:17">
     <value>All events</value>
     <comment>Phrase: All events</comment>
   </data>
-  <data name="MyEvents" lastModified="2014-04-07T14:32:44">
+  <data name="MyEvents" lastModified="2014-07-22T13:48:17">
     <value>My events</value>
     <comment>The text of my events sidebar button</comment>
   </data>
-  <data name="PublishedEvents" lastModified="2014-04-07T14:32:44">
+  <data name="PublishedEvents" lastModified="2014-07-22T13:48:17">
     <value>Published</value>
     <comment>The text of published events sidebar button.</comment>
   </data>
-  <data name="WaitingForApproval" lastModified="2014-04-07T14:32:44">
+  <data name="WaitingForApproval" lastModified="2014-07-22T13:48:17">
     <value>Awaiting approval</value>
     <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
   </data>
-  <data name="DraftEvents" lastModified="2014-04-07T14:32:44">
+  <data name="DraftEvents" lastModified="2014-07-22T13:48:17">
     <value>Drafts</value>
     <comment>The text of draft events sidebar button.</comment>
   </data>
-  <data name="ScheduledEvents" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduledEvents" lastModified="2014-07-22T13:48:17">
     <value>Scheduled</value>
     <comment>The text of scheduled events sidebar button.</comment>
   </data>
-  <data name="ByDateModified" lastModified="2014-04-07T14:32:44">
+  <data name="ByDateModified" lastModified="2014-07-22T13:48:17">
     <value>by Date modified...</value>
     <comment>The text of the date filter sidebar button.</comment>
   </data>
-  <data name="CloseDateFilter" lastModified="2014-04-07T14:32:44">
+  <data name="CloseDateFilter" lastModified="2014-07-22T13:48:17">
     <value>Close dates</value>
     <comment>The link for closing the date filter widget in the sidebar.</comment>
   </data>
-  <data name="DisplayLastUpdatedEvents" lastModified="2014-04-07T14:32:44">
+  <data name="DisplayLastUpdatedEvents" lastModified="2014-07-22T13:48:17">
     <value>Display events last updated in...</value>
     <comment>The text of last updated events sidebar button</comment>
   </data>
-  <data name="SortEvents" lastModified="2014-04-07T14:32:44">
+  <data name="SortEvents" lastModified="2014-07-22T13:48:17">
     <value>Sort events</value>
     <comment>Label text.</comment>
   </data>
-  <data name="AutoListAndSingleItem" lastModified="2014-04-07T14:32:44">
+  <data name="AutoListAndSingleItem" lastModified="2014-07-22T13:48:17">
     <value>Auto: List + single item</value>
     <comment>Label text.</comment>
   </data>
-  <data name="ListOnly" lastModified="2014-04-07T14:32:44">
+  <data name="ListOnly" lastModified="2014-07-22T13:48:17">
     <value>List only</value>
     <comment>Label text.</comment>
   </data>
-  <data name="SingleItemOnly" lastModified="2014-04-07T14:32:44">
+  <data name="SingleItemOnly" lastModified="2014-07-22T13:48:17">
     <value>Single item only</value>
     <comment>Label text.</comment>
   </data>
-  <data name="Step1Title" lastModified="2014-04-07T14:32:44">
+  <data name="Step1Title" lastModified="2014-07-22T13:48:17">
     <value>What events functionality to use?</value>
     <comment>Label text.</comment>
   </data>
-  <data name="Step2Title" lastModified="2014-04-07T14:32:44">
+  <data name="Step2Title" lastModified="2014-07-22T13:48:17">
     <value>Settings</value>
     <comment>Label text.</comment>
   </data>
-  <data name="DefaultPage" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultPage" lastModified="2014-07-22T13:48:17">
     <value>Default page</value>
     <comment>Phrase: Default page</comment>
   </data>
-  <data name="AllowComments" lastModified="2014-04-07T14:32:44">
+  <data name="AllowComments" lastModified="2014-07-22T13:48:17">
     <value>Allow comments</value>
     <comment>Phrase: Allow comments</comment>
   </data>
-  <data name="EventSingularItemName" lastModified="2014-04-07T14:32:44">
+  <data name="EventSingularItemName" lastModified="2014-07-22T13:48:17">
     <value>event</value>
     <comment>Word: event</comment>
   </data>
-  <data name="EventPluralItemName" lastModified="2014-04-07T14:32:44">
+  <data name="EventPluralItemName" lastModified="2014-07-22T13:48:17">
     <value>events</value>
     <comment>Word: events</comment>
   </data>
-  <data name="EditEventsSettings" lastModified="2014-04-07T14:32:44">
+  <data name="EditEventsSettings" lastModified="2014-07-22T13:48:17">
     <value>Edit Events settings</value>
     <comment>Phrase: Edit Events settings</comment>
   </data>
-  <data name="EventsMasterViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="EventsMasterViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Events - list</value>
     <comment>Phrase: Events - list</comment>
   </data>
-  <data name="EventsDetailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="EventsDetailViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Events - single</value>
     <comment>Phrase: Events - single</comment>
   </data>
-  <data name="EventsDataFields" lastModified="2014-04-07T14:32:44">
+  <data name="EventsDataFields" lastModified="2014-07-22T13:48:17">
     <value>Events data fields</value>
     <comment>phrase: Events data fields</comment>
   </data>
-  <data name="UrlNameInvalidSymbols" lastModified="2014-04-07T14:32:44">
+  <data name="UrlNameInvalidSymbols" lastModified="2014-07-22T13:48:17">
     <value>The URL contains invalid symbols.</value>
     <comment>The message shown when the url contains invalid symbols.</comment>
   </data>
-  <data name="CommentsHtmlTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CommentsHtmlTitle" lastModified="2014-07-22T13:48:17">
     <value>Comments</value>
     <comment>Html Title for the comments events module.</comment>
   </data>
-  <data name="NoEventsSelectedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoEventsSelectedYet" lastModified="2014-07-22T13:48:17">
     <value>No events selected yet</value>
     <comment>Phrase: No events selected yet</comment>
   </data>
-  <data name="Sort" lastModified="2014-04-07T14:32:44">
+  <data name="Sort" lastModified="2014-07-22T13:48:17">
     <value>Sort</value>
     <comment>Label text.</comment>
   </data>
-  <data name="ByTitleAsc" lastModified="2014-04-07T14:32:44">
+  <data name="ByTitleAsc" lastModified="2014-07-22T13:48:17">
     <value>By Title (A-Z)</value>
     <comment>Label text.</comment>
   </data>
-  <data name="ByTitleDesc" lastModified="2014-04-07T14:32:44">
+  <data name="ByTitleDesc" lastModified="2014-07-22T13:48:17">
     <value>By Title (Z-A)</value>
     <comment>Label text.</comment>
   </data>
-  <data name="EventModifiedFirst" lastModified="2014-04-07T14:32:44">
+  <data name="EventModifiedFirst" lastModified="2014-07-22T13:48:17">
     <value>Last modified on top</value>
     <comment>Label text.</comment>
   </data>
-  <data name="EventCreatedFirst" lastModified="2014-04-07T14:32:44">
+  <data name="EventCreatedFirst" lastModified="2014-07-22T13:48:17">
     <value>Last created on top</value>
     <comment>Label text.</comment>
   </data>
-  <data name="CustomSorting" lastModified="2014-04-07T14:32:44">
+  <data name="CustomSorting" lastModified="2014-07-22T13:48:17">
     <value>Custom sorting...</value>
     <comment>Phrase: Custom sorting...</comment>
   </data>
-  <data name="OutlookEventExporterTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OutlookEventExporterTitle" lastModified="2014-07-22T13:48:17">
     <value>Outlook</value>
     <comment>The title for the outlook export widget.</comment>
   </data>
-  <data name="ICalEventExporterTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ICalEventExporterTitle" lastModified="2014-07-22T13:48:17">
     <value>ICal</value>
     <comment>The title for the ICal export widget.</comment>
   </data>
-  <data name="GoogleEventExporterTitle" lastModified="2014-04-07T14:32:44">
+  <data name="GoogleEventExporterTitle" lastModified="2014-07-22T13:48:17">
     <value>Google Calendar</value>
     <comment>The title for the Google Calendar export widget.</comment>
   </data>
-  <data name="AddEventTo" lastModified="2014-04-07T14:32:44">
+  <data name="AddEventTo" lastModified="2014-07-22T13:48:17">
     <value>Add event to:</value>
     <comment>The text preceding  the event exporters.</comment>
   </data>
-  <data name="CurrentEvents" lastModified="2014-04-07T14:32:44">
+  <data name="CurrentEvents" lastModified="2014-07-22T13:48:17">
     <value>Current events</value>
     <comment>Phrase: Current events</comment>
   </data>
-  <data name="UpcomingEvents" lastModified="2014-04-07T14:32:44">
+  <data name="UpcomingEvents" lastModified="2014-07-22T13:48:17">
     <value>Upcoming events</value>
     <comment>Phrase: Upcoming events</comment>
   </data>
-  <data name="PastEvents" lastModified="2014-04-07T14:32:44">
+  <data name="PastEvents" lastModified="2014-07-22T13:48:17">
     <value>Past events</value>
     <comment>Phrase: Past events</comment>
   </data>
-  <data name="Start" lastModified="2014-04-07T14:32:44">
+  <data name="Start" lastModified="2014-07-22T13:48:17">
     <value>Start</value>
     <comment>Word: Start</comment>
   </data>
-  <data name="End" lastModified="2014-04-07T14:32:44">
+  <data name="End" lastModified="2014-07-22T13:48:17">
     <value>End</value>
     <comment>Word: End</comment>
   </data>
-  <data name="RepeatEvent" lastModified="2014-04-07T14:32:44">
+  <data name="RepeatEvent" lastModified="2014-07-22T13:48:17">
     <value>Repeat event</value>
     <comment>Phrase: Repeat event</comment>
   </data>
-  <data name="EventEndEllipsis" lastModified="2014-04-07T14:32:44">
+  <data name="EventEndEllipsis" lastModified="2014-07-22T13:48:17">
     <value>Event end...</value>
     <comment>phrase: Event end...</comment>
   </data>
-  <data name="EditEvent" lastModified="2014-04-07T14:32:44">
+  <data name="EditEvent" lastModified="2014-07-22T13:48:17">
     <value>Edit event</value>
     <comment>Phrase: Edit event</comment>
   </data>
-  <data name="PagingSectionComplementoryText" lastModified="2014-04-07T14:32:44">
+  <data name="PagingSectionComplementoryText" lastModified="2014-07-22T13:48:17">
     <value>Paging, limit and sorting</value>
     <comment>Paging, limit and sorting</comment>
   </data>
-  <data name="AddEventsToCalendarOption" lastModified="2014-04-07T14:32:44">
+  <data name="AddEventsToCalendarOption" lastModified="2014-07-22T13:48:17">
     <value>Allow users to add events to their calendar</value>
     <comment>Allow users to add events to their calendar</comment>
   </data>
-  <data name="AddEventsToOutlook" lastModified="2014-04-07T14:32:44">
+  <data name="AddEventsToOutlook" lastModified="2014-07-22T13:48:17">
     <value>The users can add events to Outlook, Google Calendar and iCal</value>
     <comment>The users can add events to Outlook, Google Calendar and iCal</comment>
   </data>
-  <data name="CurrentOpenedEventItem" lastModified="2014-04-07T14:32:44">
+  <data name="CurrentOpenedEventItem" lastModified="2014-07-22T13:48:17">
     <value>Current opened event item</value>
     <comment>Current opened event item</comment>
   </data>
-  <data name="CalendarsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarsTitle" lastModified="2014-07-22T13:48:17">
     <value>Calendars</value>
     <comment>Title of the Calendars page.</comment>
   </data>
-  <data name="CalendarsUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarsUrlName" lastModified="2014-07-22T13:48:17">
     <value>Calendars</value>
     <comment>Calendars URL</comment>
   </data>
-  <data name="CalendarsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarsDescription" lastModified="2014-07-22T13:48:17">
     <value>Manage calendars</value>
     <comment>Provides description for the Calendars screen of Events module.</comment>
   </data>
-  <data name="CalendarsHtmlTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarsHtmlTitle" lastModified="2014-07-22T13:48:17">
     <value>Calendars</value>
     <comment>Html Title for Calendars page.</comment>
   </data>
-  <data name="CreateCalendar" lastModified="2014-04-07T14:32:44">
+  <data name="CreateCalendar" lastModified="2014-07-22T13:48:17">
     <value>Create a calendar</value>
     <comment>phrase: Create a calendar</comment>
   </data>
-  <data name="EditCalendar" lastModified="2014-04-07T14:32:44">
+  <data name="EditCalendar" lastModified="2014-07-22T13:48:17">
     <value>Edit a calendar</value>
     <comment>phrase: Edit a calendar</comment>
   </data>
-  <data name="Description" lastModified="2014-04-07T14:32:44">
+  <data name="Description" lastModified="2014-07-22T13:48:17">
     <value>Description</value>
     <comment>word: Description</comment>
   </data>
-  <data name="ClickToAddDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddDescription" lastModified="2014-07-22T13:48:17">
     <value>Click to add description</value>
     <comment>phrase: Click to add description</comment>
   </data>
-  <data name="CreateThisCalendar" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisCalendar" lastModified="2014-07-22T13:48:17">
     <value>Create this calendar</value>
     <comment>phrase: Create this calendar</comment>
   </data>
-  <data name="EventsCountFormat" lastModified="2014-04-07T14:32:44">
+  <data name="EventsCountFormat" lastModified="2014-07-22T13:48:17">
     <value>{0} events</value>
     <comment>phrase: {0} events</comment>
   </data>
-  <data name="AllCalendars" lastModified="2014-04-07T14:32:44">
+  <data name="AllCalendars" lastModified="2014-07-22T13:48:17">
     <value>All calendars</value>
     <comment>phrase: All calendars</comment>
   </data>
-  <data name="MyCalendars" lastModified="2014-04-07T14:32:44">
+  <data name="MyCalendars" lastModified="2014-07-22T13:48:17">
     <value>My calendars</value>
     <comment>phrase: My calendars</comment>
   </data>
-  <data name="ManageCalendars" lastModified="2014-04-07T14:32:44">
+  <data name="ManageCalendars" lastModified="2014-07-22T13:48:17">
     <value>Manage Calendars</value>
     <comment>phrase: Manage Calendars</comment>
   </data>
-  <data name="Calendar" lastModified="2014-04-07T14:32:44">
+  <data name="Calendar" lastModified="2014-07-22T13:48:17">
     <value>Calendar</value>
     <comment>Word: Calendar</comment>
   </data>
-  <data name="Color" lastModified="2014-04-07T14:32:44">
+  <data name="Color" lastModified="2014-07-22T13:48:17">
     <value>Color</value>
     <comment>phrase: Color</comment>
   </data>
-  <data name="EventsByCalendar" lastModified="2014-04-07T14:32:44">
+  <data name="EventsByCalendar" lastModified="2014-07-22T13:48:17">
     <value>Events by calendar</value>
     <comment>phrase: Events by calendar</comment>
   </data>
-  <data name="ShowMoreCalendars" lastModified="2014-04-07T14:32:44">
+  <data name="ShowMoreCalendars" lastModified="2014-07-22T13:48:17">
     <value>{0} more calendars</value>
     <comment>phrase: {0} more calendars</comment>
   </data>
-  <data name="ShowLessCalendars" lastModified="2014-04-07T14:32:44">
+  <data name="ShowLessCalendars" lastModified="2014-07-22T13:48:17">
     <value>{0} less calendars</value>
     <comment>phrase: {0} less calendars</comment>
   </data>
-  <data name="MoreDetails" lastModified="2014-04-07T14:32:44">
+  <data name="MoreDetails" lastModified="2014-07-22T13:48:17">
     <value>More details</value>
     <comment>The more details link in the QuickAddEventDialog</comment>
   </data>
-  <data name="TitleRequired" lastModified="2014-04-07T14:32:44">
+  <data name="TitleRequired" lastModified="2014-07-22T13:48:17">
     <value>Title is required</value>
     <comment>The error message indicating that the title of the event is a required element.</comment>
   </data>
-  <data name="CalendarRequired" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarRequired" lastModified="2014-07-22T13:48:17">
     <value>Calendar is required</value>
     <comment>The error message indicating that the calendar, that the event belongs to, is a required element.</comment>
   </data>
-  <data name="AllDay" lastModified="2014-04-07T14:32:44">
+  <data name="AllDay" lastModified="2014-07-22T13:48:17">
     <value>All day</value>
     <comment>All day event</comment>
   </data>
-  <data name="AllDayEvent" lastModified="2014-04-07T14:32:44">
+  <data name="AllDayEvent" lastModified="2014-07-22T13:48:17">
     <value>All day event</value>
     <comment>All day event</comment>
   </data>
-  <data name="EventStartRequired" lastModified="2014-04-07T14:32:44">
+  <data name="EventStartRequired" lastModified="2014-07-22T13:48:17">
     <value>Start date of the event is required</value>
     <comment>The error message indicating that the start date of the event is a required element.</comment>
   </data>
-  <data name="Or" lastModified="2014-04-07T14:32:44">
+  <data name="Or" lastModified="2014-07-22T13:48:17">
     <value>or</value>
     <comment>Word: or</comment>
   </data>
-  <data name="EditButton" lastModified="2014-04-07T14:32:44">
+  <data name="EditButton" lastModified="2014-07-22T13:48:17">
     <value>Edit</value>
     <comment>Word: Edit</comment>
   </data>
-  <data name="NewCalendar" lastModified="2014-04-07T14:32:44">
+  <data name="NewCalendar" lastModified="2014-07-22T13:48:17">
     <value>New calendar</value>
     <comment>phrase: New calendar.</comment>
   </data>
-  <data name="PageForSingleItem" lastModified="2014-04-07T14:32:44">
+  <data name="PageForSingleItem" lastModified="2014-07-22T13:48:17">
     <value>Page for Single item&lt;br/&gt; &lt;span class="sfNote"&gt;This is the page which is opened clicking the name of a list item. There must be an Event widget on this page set to display Single item only.&lt;/span&gt;</value>
     <comment>Page for Single item</comment>
   </data>
-  <data name="CalendarAppearance" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarAppearance" lastModified="2014-07-22T13:48:17">
     <value>Calendar appearance</value>
     <comment>Calendar appearance</comment>
   </data>
-  <data name="DefaultView" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultView" lastModified="2014-07-22T13:48:17">
     <value>Default view</value>
     <comment>Default view</comment>
   </data>
-  <data name="CreateEvents" lastModified="2014-04-07T14:32:44">
+  <data name="CreateEvents" lastModified="2014-07-22T13:48:17">
     <value>Create events</value>
     <comment>Create events</comment>
   </data>
-  <data name="AllowCreateEvents" lastModified="2014-04-07T14:32:44">
+  <data name="AllowCreateEvents" lastModified="2014-07-22T13:48:17">
     <value>Allow users to create events</value>
     <comment>Allow users to create events</comment>
   </data>
-  <data name="AllowCreateCalendars" lastModified="2014-04-07T14:32:44">
+  <data name="AllowCreateCalendars" lastModified="2014-07-22T13:48:17">
     <value>Allow users to create calendars</value>
     <comment>Allow users to create calendars</comment>
   </data>
-  <data name="AllowChangeCalendarView" lastModified="2014-04-07T14:32:44">
+  <data name="AllowChangeCalendarView" lastModified="2014-07-22T13:48:17">
     <value>Allow users to change view mode</value>
     <comment>Allow users to change view mode</comment>
   </data>
-  <data name="Month" lastModified="2014-04-07T14:32:44">
+  <data name="Month" lastModified="2014-07-22T13:48:17">
     <value>Month</value>
     <comment>Month</comment>
   </data>
-  <data name="Week" lastModified="2014-04-07T14:32:44">
+  <data name="Week" lastModified="2014-07-22T13:48:17">
     <value>Week</value>
     <comment>Week</comment>
   </data>
-  <data name="Day" lastModified="2014-04-07T14:32:44">
+  <data name="Day" lastModified="2014-07-22T13:48:17">
     <value>Day</value>
     <comment>Day</comment>
   </data>
-  <data name="ByCalendars" lastModified="2014-04-07T14:32:44">
+  <data name="ByCalendars" lastModified="2014-07-22T13:48:17">
     <value>by Calendars...</value>
     <comment>by Calendars...</comment>
   </data>
-  <data name="SelectACalendar" lastModified="2014-04-07T14:32:44">
+  <data name="SelectACalendar" lastModified="2014-07-22T13:48:17">
     <value>Select a calendar</value>
     <comment>Select a calendar</comment>
   </data>
-  <data name="ListTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="ListTemplate" lastModified="2014-07-22T13:48:17">
     <value>List template</value>
     <comment>List template</comment>
   </data>
-  <data name="CalendarTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarTemplate" lastModified="2014-07-22T13:48:17">
     <value>Calendar template</value>
     <comment>Calendar template</comment>
   </data>
-  <data name="CreateNewCalendar" lastModified="2014-04-07T14:32:44">
+  <data name="CreateNewCalendar" lastModified="2014-07-22T13:48:17">
     <value>Create a new calendar</value>
     <comment>phrase: Create a new calendar</comment>
   </data>
-  <data name="EventsCalendarViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="EventsCalendarViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Events - calendar</value>
     <comment>Phrase: Events - calendar</comment>
   </data>
-  <data name="CalendarsPluralTypeName" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarsPluralTypeName" lastModified="2014-07-22T13:48:17">
     <value>Calendars</value>
     <comment>word: Calendars</comment>
   </data>
-  <data name="CalendarNotSelected" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarNotSelected" lastModified="2014-07-22T13:48:17">
     <value>Calendar is not selected.</value>
     <comment>phrase: Calendar is not selected.</comment>
   </data>
-  <data name="CalendarNotAvailableInEditMode" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarNotAvailableInEditMode" lastModified="2014-07-22T13:48:17">
     <value>Events might not be correctly displayed in design mode. If you have issues click Preview on top of this page to see the events.</value>
     <comment>phrase: Events might not be correctly displayed in design mode. If you have issues click Preview on top of this page to see the events.</comment>
   </data>
-  <data name="NoCalendars" lastModified="2014-04-07T14:32:44">
+  <data name="NoCalendars" lastModified="2014-07-22T13:48:17">
     <value>No calendars have been created yet</value>
     <comment>phrase: No calendars have been created yet</comment>
   </data>
-  <data name="Occurs" lastModified="2014-04-07T14:32:44">
+  <data name="Occurs" lastModified="2014-07-22T13:48:17">
     <value>Occurs</value>
     <comment>word: Occurs</comment>
   </data>
-  <data name="At" lastModified="2014-04-07T14:32:44">
+  <data name="At" lastModified="2014-07-22T13:48:17">
     <value>At</value>
     <comment>word: At</comment>
   </data>
-  <data name="AreYouSureYouWantToDeleteThisCalendar" lastModified="2014-04-07T14:32:44">
+  <data name="AreYouSureYouWantToDeleteThisCalendar" lastModified="2014-07-22T13:48:17">
     <value>Are you sure you want to delete this calendar?</value>
     <comment>Confirmation message when calendar is deleted.</comment>
   </data>
-  <data name="NoCalendarsSelectedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoCalendarsSelectedYet" lastModified="2014-07-22T13:48:17">
     <value>No calendars selected yet</value>
     <comment>Phrase: No calendars selected yet</comment>
   </data>
-  <data name="HowToFindUs" lastModified="2014-04-07T14:32:44">
+  <data name="HowToFindUs" lastModified="2014-07-22T13:48:17">
     <value>How to find us</value>
     <comment>How to find us</comment>
   </data>
-  <data name="HowToFindUsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="HowToFindUsDescription" lastModified="2014-07-22T13:48:17">
     <value>Free-form instructions. Alternatively, you can use this field to enter the location in a free manner.</value>
     <comment>Description of 'How to find us' field.</comment>
   </data>
-  <data name="HowToFindUsFormat" lastModified="2014-04-07T14:32:44">
+  <data name="HowToFindUsFormat" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;How to find us:&lt;/strong&gt; {0}</value>
     <comment>&lt;strong&gt;How to find us:&lt;/strong&gt; {0}</comment>
   </data>
-  <data name="Time" lastModified="2014-04-07T14:32:44">
+  <data name="Time" lastModified="2014-07-22T13:48:17">
     <value>Time</value>
     <comment>Time</comment>
   </data>
-  <data name="StartsAt" lastModified="2014-04-07T14:32:44">
+  <data name="StartsAt" lastModified="2014-07-22T13:48:17">
     <value>Starts at</value>
     <comment>Starts at</comment>
   </data>
-  <data name="EndsAt" lastModified="2014-04-07T14:32:44">
+  <data name="EndsAt" lastModified="2014-07-22T13:48:17">
     <value>Ends at</value>
     <comment>Ends at</comment>
   </data>
-  <data name="Weeks" lastModified="2014-04-07T14:32:44">
+  <data name="Weeks" lastModified="2014-07-22T13:48:17">
     <value>Weeks</value>
     <comment>Weeks</comment>
   </data>
-  <data name="CalendarsSingleTypeName" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarsSingleTypeName" lastModified="2014-07-22T13:48:17">
     <value>Calendar</value>
     <comment>word: Calendar</comment>
+  </data>
+  <data name="IncludeInSitemap" lastModified="2014-07-22T13:48:17">
+    <value>Include in sitemap</value>
+    <comment>phrase: Include in sitemap</comment>
   </data>
 </root>

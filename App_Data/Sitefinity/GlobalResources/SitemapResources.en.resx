@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SitemapResourcesTitle" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap generator</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="SitemapResourcesDescription" lastModified="2014-07-22T13:48:17">
+    <value>Contains localizable resources for Sitemap module.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="SitemapForSearchEngines" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap for search engines</value>
+    <comment>phrase: Sitemap for search engines</comment>
+  </data>
+  <data name="GenerateSitemapForSearchEngines" lastModified="2014-07-22T13:48:17">
+    <value>Generate sitemap for search engines...</value>
+    <comment>phrase: Generate sitemap for search engines...</comment>
+  </data>
+  <data name="SitemapName" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap name</value>
+    <comment>phrase: Sitemap name</comment>
+  </data>
+  <data name="SitemapIndexName" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap Index name</value>
+    <comment>phrase: Sitemap Index name</comment>
+  </data>
+  <data name="Directory" lastModified="2014-07-22T13:48:17">
+    <value>Directory</value>
+    <comment>word: Directory</comment>
+  </data>
+  <data name="SplitSitemap" lastModified="2014-07-22T13:48:17">
+    <value>Split sitemap into multiple files if it contains more than...</value>
+    <comment>phrase: Split sitemap into multiple files if it contains more than...</comment>
+  </data>
+  <data name="SitemapUrlLimitMessage" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap file must have no more than 50,000 URLs.</value>
+    <comment>phrase: Sitemap file must have no more than 50,000 URLs.</comment>
+  </data>
+  <data name="SitemapUsageDescription" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap is an XML file that lists URLs for a site along with additional metadata about each URL (when it was last updated, how often it usually changes, and how important it is, relative to other URLs in the site) so that search engines can more intelligently crawl the site. Generated sitemap files can be found at the root directory of your site. The sitemap is formatted according to the specification on &lt;a href="http://www.sitemaps.org" target="_blank"&gt;Sitemaps.org&lt;/a&gt;</value>
+    <comment>phrase: Sitemap is an XML file that lists URLs for a site along with additional metadata about each URL (when it was last updated, how often it usually changes, and how important it is, relative to other URLs in the site) so that search engines can more intelligently crawl the site. Generated sitemap files can be found at the root directory of your site. The sitemap is formatted according to the specification on &lt;a href="http://www.sitemaps.org" target="_blank"&gt;Sitemaps.org&lt;/a&gt;</comment>
+  </data>
+  <data name="Records" lastModified="2014-07-22T13:48:17">
+    <value>records</value>
+    <comment>word: records</comment>
+  </data>
+  <data name="CompressFileLabel" lastModified="2014-07-22T13:48:17">
+    <value>Compress file to reduce the bandwidth</value>
+    <comment>phrase: Compress file to reduce the bandwidth</comment>
+  </data>
+  <data name="Cache" lastModified="2014-07-22T13:48:17">
+    <value>Cache</value>
+    <comment>word: Cache</comment>
+  </data>
+  <data name="EnableSitemapCaching" lastModified="2014-07-22T13:48:17">
+    <value>Enable sitemap caching</value>
+    <comment>phrase: Enable sitemap caching</comment>
+  </data>
+  <data name="WhenToRegenerateSitemap" lastModified="2014-07-22T13:48:17">
+    <value>When to regenerate the sitemap?</value>
+    <comment>phrase: When to regenerate the sitemap?</comment>
+  </data>
+  <data name="MaxValueViolationMessage" lastModified="2014-07-22T13:48:17">
+    <value>Maximum allowed urls per file is</value>
+    <comment>phrase: Maximum allowed urls per file is</comment>
+  </data>
+  <data name="NumberOnlyViolationmessage" lastModified="2014-07-22T13:48:17">
+    <value>Incorect characters. Only numbers are allowed!</value>
+    <comment>phrase: Only numbers are allowed!</comment>
+  </data>
+  <data name="GenerationInProgressMessage" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap generation in progress...</value>
+    <comment>phrase: Sitemap generation in progress...</comment>
+  </data>
+  <data name="GenerateManualButtonTitle" lastModified="2014-07-22T13:48:17">
+    <value>Generate Sitemap</value>
+    <comment>The title of the button for manual generating sitemap</comment>
+  </data>
+  <data name="FileNameViolationmessage" lastModified="2014-07-22T13:48:17">
+    <value>File name contains invalid characters.</value>
+    <comment>phrase: File name contains invalid characters.</comment>
+  </data>
+  <data name="SitemapGenerationSuccess" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap generation has finished.</value>
+    <comment>phrase: Sitemap generation has finished.</comment>
+  </data>
+  <data name="GenerationProgressStep0" lastModified="2014-07-22T13:48:17">
+    <value>Generating sitemap...</value>
+    <comment>Gets the Step 0 label text.</comment>
+  </data>
+  <data name="GenerationProgressStep1" lastModified="2014-07-22T13:48:17">
+    <value>Step 1 of 7: Getting pages...</value>
+    <comment>Gets the Step 1 label text.</comment>
+  </data>
+  <data name="GenerationProgressStep2" lastModified="2014-07-22T13:48:17">
+    <value>Step 2 of 7: Getting news...</value>
+    <comment>Gets the Step 2 label text.</comment>
+  </data>
+  <data name="GenerationProgressStep3" lastModified="2014-07-22T13:48:17">
+    <value>Step 3 of 7: Getting blogs...</value>
+    <comment>Gets the Step 3 label text.</comment>
+  </data>
+  <data name="GenerationProgressStep4" lastModified="2014-07-22T13:48:17">
+    <value>Step 4 of 7: Getting forums...</value>
+    <comment>Gets the Step 4 label text.</comment>
+  </data>
+  <data name="GenerationProgressStep5" lastModified="2014-07-22T13:48:17">
+    <value>Step 5 of 7: Getting events...</value>
+    <comment>Gets the Step 5 label text.</comment>
+  </data>
+  <data name="GenerationProgressStep6" lastModified="2014-07-22T13:48:17">
+    <value>Step 6 of 7: Getting dynamic content...</value>
+    <comment>Gets the Step 6 label text.</comment>
+  </data>
+  <data name="GenerationProgressStep7" lastModified="2014-07-22T13:48:17">
+    <value>Step 7 of 7: Writing sitemap files...</value>
+    <comment>Gets the Step 7 label text.</comment>
+  </data>
+  <data name="GenerationProgressStep71" lastModified="2014-07-22T13:48:17">
+    <value>Step 7 of 7: Writing sitemap file...</value>
+    <comment>Gets the Step 7 label text (single file).</comment>
+  </data>
+  <data name="LastExecutedTime" lastModified="2014-07-22T13:48:17">
+    <value>Last generated:</value>
+    <comment>phrase: Last generated:</comment>
+  </data>
+  <data name="SitemapGenerationFailed" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap generation has failed</value>
+    <comment>phrase: Sitemap generation has failed</comment>
+  </data>
+  <data name="SitemapGenerationCompletedPositive" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap generated successfully</value>
+    <comment>phrase: Sitemap generated successfully</comment>
+  </data>
+  <data name="GoToSitemapSettingsLink" lastModified="2014-07-22T13:48:17">
+    <value>Go to Sitemap settings</value>
+    <comment>phrase: Go to Sitemap settings</comment>
+  </data>
+  <data name="PingDisabledMessage" lastModified="2014-07-22T13:48:17">
+    <value>Automatic ping to Google and Bing is disabled because you are using localhost</value>
+    <comment>phrase: Automatic ping to Google and Bing is disabled because you are using localhost</comment>
+  </data>
+  <data name="PingDisabledToolTip" lastModified="2014-07-22T13:48:17">
+    <value>The sitemap file(s) will be generated but search engines will not be pinged. Search engines will be pinged automatic, when you use valid domain (e.g. www.example.com).You can change domain in Manage sites</value>
+    <comment>phrase: The sitemap file(s) will be generated but search engines will not be pinged. Search engines will be pinged automatic, when you use valid domain (e.g. www.example.com).You can change domain in Manage sites</comment>
+  </data>
+  <data name="Sitemap" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap</value>
+    <comment>word: Sitemap</comment>
+  </data>
+  <data name="At" lastModified="2014-07-22T13:48:17">
+    <value>at</value>
+    <comment>preposition: at</comment>
+  </data>
+  <data name="SitemapIndexToolTip" lastModified="2014-07-22T13:48:17">
+    <value>Sitemap file must have no more than 50,000 URLs. If you have more than the defined number of URLs, Sitefinity will create multiple Sitemaps and list each file in a Sitemap index file.</value>
+    <comment>Tooltip for the sitemap index name in the basic settings screen.</comment>
+  </data>
+  <data name="SitemapDirectory" lastModified="2014-07-22T13:48:17">
+    <value>It is strongly recommended that you place your Sitemap at the root directory of your web server</value>
+    <comment>Tooltip for the sitemap directory in the basic settings screen.</comment>
+  </data>
+</root>

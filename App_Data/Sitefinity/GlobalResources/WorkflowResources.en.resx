@@ -117,445 +117,445 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="WorkflowResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="WorkflowResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Workflow</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="WorkflowResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="WorkflowResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Workflows</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="WorkflowResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="WorkflowResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for workflow module.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="CreateAWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="CreateAWorkflow" lastModified="2014-07-22T13:48:17">
     <value>Define a workflow</value>
     <comment>phrase: Define a workflow</comment>
   </data>
-  <data name="BackToWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="BackToWorkflow" lastModified="2014-07-22T13:48:17">
     <value>Back to workflow</value>
     <comment>phrase: Back to workflow</comment>
   </data>
-  <data name="WorkflowName" lastModified="2014-04-07T14:32:44">
+  <data name="WorkflowName" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Label for the workflow title.</comment>
   </data>
-  <data name="WorkflowTitleEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="WorkflowTitleEmpty" lastModified="2014-07-22T13:48:17">
     <value>The name of the workflow cannot be empty!</value>
     <comment>Validation message when the workflow title is empty.</comment>
   </data>
-  <data name="SaveWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="SaveWorkflow" lastModified="2014-07-22T13:48:17">
     <value>Save workflow</value>
     <comment>Label of the button that saves workflow</comment>
   </data>
-  <data name="WorkflowType" lastModified="2014-04-07T14:32:44">
+  <data name="WorkflowType" lastModified="2014-07-22T13:48:17">
     <value>Workflow type</value>
     <comment>phrase: Workflow type</comment>
   </data>
-  <data name="OrElipsis" lastModified="2014-04-07T14:32:44">
+  <data name="OrElipsis" lastModified="2014-07-22T13:48:17">
     <value>Or...</value>
     <comment>or with the elipsis</comment>
   </data>
-  <data name="ApprovalBeforePublishing" lastModified="2014-04-07T14:32:44">
+  <data name="ApprovalBeforePublishing" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Approval before publishing&lt;/strong&gt;&lt;span class='sfNote'&gt;Steps: &lt;em&gt;Edit &amp;gt; For Approval &amp;gt; Published&lt;/em&gt;&lt;/span&gt;</value>
     <comment>Title of the standard one step workflow</comment>
   </data>
-  <data name="TwoLevelsOfApprovalBeforePublishing" lastModified="2014-04-07T14:32:44">
+  <data name="TwoLevelsOfApprovalBeforePublishing" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;2 levels of approval before publishing&lt;/strong&gt;&lt;span class='sfNote'&gt;Steps: &lt;em&gt;Edit &amp;gt; For Approval &amp;gt; For Publishing &amp;gt; Published&lt;/em&gt;&lt;/span&gt;</value>
     <comment>Title of the standard two step workflow</comment>
   </data>
-  <data name="CustomWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="CustomWorkflow" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Custom workflow&lt;/strong&gt;&lt;span class='sfNote'&gt;Create your own workflow from scratch&lt;/span&gt;</value>
     <comment>phrase: Custom workflow</comment>
   </data>
-  <data name="AllowAdministratorsToSkipWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="AllowAdministratorsToSkipWorkflow" lastModified="2014-07-22T13:48:17">
     <value>Allow administrators to skip the workflow</value>
     <comment>phrase: Allow administrators to skip the workflow</comment>
   </data>
-  <data name="AllowAdministratorsToSkipWorkflowDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AllowAdministratorsToSkipWorkflowDescription" lastModified="2014-07-22T13:48:17">
     <value>short description goes here</value>
     <comment>Description explaining what it means that administrators can skip the workflow</comment>
   </data>
-  <data name="ActivateWorkflowImmediately" lastModified="2014-04-07T14:32:44">
+  <data name="ActivateWorkflowImmediately" lastModified="2014-07-22T13:48:17">
     <value>This workflow is active</value>
     <comment>Label for the checkbox indicating that workflow ought to be activated immediately</comment>
   </data>
-  <data name="SetApproversForLevel1" lastModified="2014-04-07T14:32:44">
+  <data name="SetApproversForLevel1" lastModified="2014-07-22T13:48:17">
     <value>Set approvers for Level 1</value>
     <comment>phrase: Set approvers for Level 1</comment>
   </data>
-  <data name="SetApprovers" lastModified="2014-04-07T14:32:44">
+  <data name="SetApprovers" lastModified="2014-07-22T13:48:17">
     <value>Set approvers</value>
     <comment>phrase: Set approvers</comment>
   </data>
-  <data name="SetApproversForLevel2" lastModified="2014-04-07T14:32:44">
+  <data name="SetApproversForLevel2" lastModified="2014-07-22T13:48:17">
     <value>Set approvers for Level 2</value>
     <comment>phrase: Set approvers for Level 2</comment>
   </data>
-  <data name="SetApproversForLevel1Description" lastModified="2014-04-07T14:32:44">
+  <data name="SetApproversForLevel1Description" lastModified="2014-07-22T13:48:17">
     <value>Select users or roles who are able to approve items.&lt;br /&gt;&lt;strong&gt;Note:&lt;/strong&gt; Administrators are able to approve by default</value>
     <comment>phrase: Select users or groups who will be able to approve items</comment>
   </data>
-  <data name="SetApproversForLevel2Description" lastModified="2014-04-07T14:32:44">
+  <data name="SetApproversForLevel2Description" lastModified="2014-07-22T13:48:17">
     <value>Select users or roles who are able to approve items.&lt;br /&gt;&lt;strong&gt;Note:&lt;/strong&gt; Administrators are able to approve by default</value>
     <comment>phrase: Select users or groups who will be able to approve items</comment>
   </data>
-  <data name="NotifyUsersForApproval" lastModified="2014-04-07T14:32:44">
+  <data name="NotifyUsersForApproval" lastModified="2014-07-22T13:48:17">
     <value>Notify users by email when an item is waiting for their approval</value>
     <comment>phrase: Notify users by email when an item is waiting for their approval</comment>
   </data>
-  <data name="AddRolesOrUserS" lastModified="2014-04-07T14:32:44">
+  <data name="AddRolesOrUserS" lastModified="2014-07-22T13:48:17">
     <value>Add roles or users</value>
     <comment>phrase: Add roles or users</comment>
   </data>
-  <data name="Scope" lastModified="2014-04-07T14:32:44">
+  <data name="Scope" lastModified="2014-07-22T13:48:17">
     <value>Scope</value>
     <comment>word: Scope</comment>
   </data>
-  <data name="ScopeDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ScopeDescription" lastModified="2014-07-22T13:48:17">
     <value>Define where the selected workflow will apply</value>
     <comment>phrase: Define where the selected workflow will apply</comment>
   </data>
-  <data name="LanguageVersion" lastModified="2014-04-07T14:32:44">
+  <data name="LanguageVersion" lastModified="2014-07-22T13:48:17">
     <value>Language version</value>
     <comment>phrase: Language version</comment>
   </data>
-  <data name="Content" lastModified="2014-04-07T14:32:44">
+  <data name="Content" lastModified="2014-07-22T13:48:17">
     <value>Content</value>
     <comment>word: Content</comment>
   </data>
-  <data name="AddContent" lastModified="2014-04-07T14:32:44">
+  <data name="AddContent" lastModified="2014-07-22T13:48:17">
     <value>Add content</value>
     <comment>phrase: Add content</comment>
   </data>
-  <data name="AllLanguages" lastModified="2014-04-07T14:32:44">
+  <data name="AllLanguages" lastModified="2014-07-22T13:48:17">
     <value>All languages</value>
     <comment>phrase: All languages</comment>
   </data>
-  <data name="DesignYourOwnWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="DesignYourOwnWorkflow" lastModified="2014-07-22T13:48:17">
     <value>Design your own workflow</value>
     <comment>phrase: Design your own workflow</comment>
   </data>
-  <data name="CreatedOnOwner" lastModified="2014-04-07T14:32:44">
+  <data name="CreatedOnOwner" lastModified="2014-07-22T13:48:17">
     <value>Created on / owner</value>
     <comment>Title of the created on / owner column</comment>
   </data>
-  <data name="AllWorkflows" lastModified="2014-04-07T14:32:44">
+  <data name="AllWorkflows" lastModified="2014-07-22T13:48:17">
     <value>All workflows</value>
     <comment>phrase: All workflows</comment>
   </data>
-  <data name="MyWorkflows" lastModified="2014-04-07T14:32:44">
+  <data name="MyWorkflows" lastModified="2014-07-22T13:48:17">
     <value>My workflows</value>
     <comment>phrase: My workflows</comment>
   </data>
-  <data name="ActiveWorkflows" lastModified="2014-04-07T14:32:44">
+  <data name="ActiveWorkflows" lastModified="2014-07-22T13:48:17">
     <value>Active workflows</value>
     <comment>phrase: Active workflows</comment>
   </data>
-  <data name="InactiveWorkflows" lastModified="2014-04-07T14:32:44">
+  <data name="InactiveWorkflows" lastModified="2014-07-22T13:48:17">
     <value>Inactive workflows</value>
     <comment>phrase: Inactive workflows</comment>
   </data>
-  <data name="WorkflowByContentType" lastModified="2014-04-07T14:32:44">
+  <data name="WorkflowByContentType" lastModified="2014-07-22T13:48:17">
     <value>Workflow by content type</value>
     <comment>phrase: Workflow by content type</comment>
   </data>
-  <data name="Filter" lastModified="2014-04-07T14:32:44">
+  <data name="Filter" lastModified="2014-07-22T13:48:17">
     <value>Filter</value>
     <comment>word: Filter</comment>
   </data>
-  <data name="SettingsForWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="SettingsForWorkflow" lastModified="2014-07-22T13:48:17">
     <value>Settings for workflow</value>
     <comment>phrase: Settings for workflow</comment>
   </data>
-  <data name="Permissions" lastModified="2014-04-07T14:32:44">
+  <data name="Permissions" lastModified="2014-07-22T13:48:17">
     <value>Permissions</value>
     <comment>word: Permissions</comment>
   </data>
-  <data name="Workflow" lastModified="2014-04-07T14:32:44">
+  <data name="Workflow" lastModified="2014-07-22T13:48:17">
     <value>Workflow</value>
     <comment>word: Workflow</comment>
   </data>
-  <data name="WorkflowScope" lastModified="2014-04-07T14:32:44">
+  <data name="WorkflowScope" lastModified="2014-07-22T13:48:17">
     <value>Workflow Scope</value>
     <comment>Phrase: Workflow Scope</comment>
   </data>
-  <data name="WhichContentToInclude" lastModified="2014-04-07T14:32:44">
+  <data name="WhichContentToInclude" lastModified="2014-07-22T13:48:17">
     <value>Which {0} to include?</value>
     <comment>Phrase: Which {0} to include?</comment>
   </data>
-  <data name="SelectionOfContent" lastModified="2014-04-07T14:32:44">
+  <data name="SelectionOfContent" lastModified="2014-07-22T13:48:17">
     <value>Selection of {0}:</value>
     <comment>Phrase: Selection of {0}:</comment>
   </data>
-  <data name="AllContent" lastModified="2014-04-07T14:32:44">
+  <data name="AllContent" lastModified="2014-07-22T13:48:17">
     <value>All {0}</value>
     <comment>Phrase: All {0}</comment>
   </data>
-  <data name="ALL_CONTENT" lastModified="2014-04-07T14:32:44">
+  <data name="ALL_CONTENT" lastModified="2014-07-22T13:48:17">
     <value>All content and pages</value>
     <comment>Phrase: All content</comment>
   </data>
-  <data name="AdvancedSelection" lastModified="2014-04-07T14:32:44">
+  <data name="AdvancedSelection" lastModified="2014-07-22T13:48:17">
     <value>Advanced selection</value>
     <comment>Phrase: Advanced selection</comment>
   </data>
-  <data name="FromSelectedParent" lastModified="2014-04-07T14:32:44">
+  <data name="FromSelectedParent" lastModified="2014-07-22T13:48:17">
     <value>From selected {0}</value>
     <comment>Phrase: From selected {0}</comment>
   </data>
-  <data name="WorkflowScopeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="WorkflowScopeTitle" lastModified="2014-07-22T13:48:17">
     <value>Workflow scope title</value>
     <comment>phrase: Workflow scope title</comment>
   </data>
-  <data name="NoWorkflowsCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoWorkflowsCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No workflows have been created yet</value>
     <comment>phrase: No workflows have been created yet</comment>
   </data>
-  <data name="DefineWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="DefineWorkflow" lastModified="2014-07-22T13:48:17">
     <value>Define a workflow</value>
     <comment>phrase: Define a workflow</comment>
   </data>
-  <data name="Continue" lastModified="2014-04-07T14:32:44">
+  <data name="Continue" lastModified="2014-07-22T13:48:17">
     <value>Continue</value>
     <comment>phrase: Continue</comment>
   </data>
-  <data name="BackToWorkflowTypes" lastModified="2014-04-07T14:32:44">
+  <data name="BackToWorkflowTypes" lastModified="2014-07-22T13:48:17">
     <value>Back to workflow types</value>
     <comment>phrase: Back to workflow types</comment>
   </data>
-  <data name="DefineWorkflowProperties" lastModified="2014-04-07T14:32:44">
+  <data name="DefineWorkflowProperties" lastModified="2014-07-22T13:48:17">
     <value>Define a workflow: Properties</value>
     <comment>phrase: Define a workflow: Properties</comment>
   </data>
-  <data name="EditWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="EditWorkflow" lastModified="2014-07-22T13:48:17">
     <value>Edit a workflow</value>
     <comment>phrase: Edit a workflow</comment>
   </data>
-  <data name="DefineWorkflowSelectType" lastModified="2014-04-07T14:32:44">
+  <data name="DefineWorkflowSelectType" lastModified="2014-07-22T13:48:17">
     <value>Define a workflow: Select a type</value>
     <comment>phrase: Define a workflow: Select a type</comment>
   </data>
-  <data name="DefineWorkflowUploadFile" lastModified="2014-04-07T14:32:44">
+  <data name="DefineWorkflowUploadFile" lastModified="2014-07-22T13:48:17">
     <value>Define a workflow: Upload file</value>
     <comment>phrase: Define a workflow: Upload file</comment>
   </data>
-  <data name="UploadWorkflowFile" lastModified="2014-04-07T14:32:44">
+  <data name="UploadWorkflowFile" lastModified="2014-07-22T13:48:17">
     <value>Upload a workflow file</value>
     <comment>phrase: Upload a workflow file</comment>
   </data>
-  <data name="InvalidWorkflowFile" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidWorkflowFile" lastModified="2014-07-22T13:48:17">
     <value>Invalid workflow file</value>
     <comment>phrase: Invalid workflow file</comment>
   </data>
-  <data name="SelectWorkflowFileToUpload" lastModified="2014-04-07T14:32:44">
+  <data name="SelectWorkflowFileToUpload" lastModified="2014-07-22T13:48:17">
     <value>Select a workflow file to upload</value>
     <comment>phrase: Select a workflow file to upload</comment>
   </data>
-  <data name="PermissionsForWorkflow" lastModified="2014-04-07T14:32:44">
+  <data name="PermissionsForWorkflow" lastModified="2014-07-22T13:48:17">
     <value>Permissions for workflow</value>
     <comment>phrase: Permissions for workflow</comment>
   </data>
-  <data name="RejectPublishing" lastModified="2014-04-07T14:32:44">
+  <data name="RejectPublishing" lastModified="2014-07-22T13:48:17">
     <value>Reject publishing</value>
     <comment>Phrase: Reject publishing</comment>
   </data>
-  <data name="RejectingThisItem" lastModified="2014-04-07T14:32:44">
+  <data name="RejectingThisItem" lastModified="2014-07-22T13:48:17">
     <value>Rejecting this page will return it to its author.</value>
     <comment>Phrase: Rejecting this page will return it to its author.</comment>
   </data>
-  <data name="ReasonToReject" lastModified="2014-04-07T14:32:44">
+  <data name="ReasonToReject" lastModified="2014-07-22T13:48:17">
     <value>Reason to reject &lt;span class='sfNote'&gt;(optional)&lt;/span&gt;</value>
     <comment>Phrase:  Reason to reject (optional)</comment>
   </data>
-  <data name="TheReasonWillBeSentToTheAuthor" lastModified="2014-04-07T14:32:44">
+  <data name="TheReasonWillBeSentToTheAuthor" lastModified="2014-07-22T13:48:17">
     <value>&lt;p class='sfNote'&gt;The reason will be sent to the author by email&lt;/p&gt;</value>
     <comment>Phrase:  The reason will be sent to the author by email</comment>
   </data>
-  <data name="PublishOn" lastModified="2014-04-07T14:32:44">
+  <data name="PublishOn" lastModified="2014-07-22T13:48:17">
     <value>Publication date &lt;span class='sfNote'&gt;(displayed on the public site)&lt;/span&gt;</value>
     <comment>Phrase: Publication date</comment>
   </data>
-  <data name="PublicationDate" lastModified="2014-04-07T14:32:44">
+  <data name="PublicationDate" lastModified="2014-07-22T13:48:17">
     <value>Publication date</value>
     <comment>Label: Publication date</comment>
   </data>
-  <data name="LastModified" lastModified="2014-04-07T14:32:44">
+  <data name="LastModified" lastModified="2014-07-22T13:48:17">
     <value>Last modified</value>
     <comment>Label: Last modified</comment>
   </data>
-  <data name="UnpublishOn" lastModified="2014-04-07T14:32:44">
+  <data name="UnpublishOn" lastModified="2014-07-22T13:48:17">
     <value>Unpublish on</value>
     <comment>Phrase: Unpublish on</comment>
   </data>
-  <data name="SchedulePublishUnpublish" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulePublishUnpublish" lastModified="2014-07-22T13:48:17">
     <value>Publish/Unpublish on Specific date</value>
     <comment>Phrase: Publish/Unpublish on Specific date</comment>
   </data>
-  <data name="Schedule" lastModified="2014-04-07T14:32:44">
+  <data name="Schedule" lastModified="2014-07-22T13:48:17">
     <value>Schedule</value>
     <comment>Phrase: Schedule</comment>
   </data>
-  <data name="UnpublishDateShouldBeAfterPublicationDate" lastModified="2014-04-07T14:32:44">
+  <data name="UnpublishDateShouldBeAfterPublicationDate" lastModified="2014-07-22T13:48:17">
     <value>Scheduling was not made because the publication time is later then the time of unpublishing. Please, correct the dates.</value>
     <comment>Phrase: Scheduling was not made because the publication time is later then the time of unpublishing. Please, correct the dates.</comment>
   </data>
-  <data name="SchedulingWasNotMade" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulingWasNotMade" lastModified="2014-07-22T13:48:17">
     <value>Scheduling was not made because no dates were selected. Please, specify a date.</value>
     <comment>Phrase: SchedulingWasNotMade</comment>
   </data>
-  <data name="DateToUnpublish" lastModified="2014-04-07T14:32:44">
+  <data name="DateToUnpublish" lastModified="2014-07-22T13:48:17">
     <value>Date to Unpublish &lt;span class='sfNote'&gt;(optional)&lt;/span&gt;</value>
     <comment>Phrase: Date to Unpublish (optional)</comment>
   </data>
-  <data name="FileHasBeenUploaded" lastModified="2014-04-07T14:32:44">
+  <data name="FileHasBeenUploaded" lastModified="2014-07-22T13:48:17">
     <value>Your {0} file has been uploaded to App_Data/Workflows</value>
     <comment>Phrase: Your {0} file has been uploaded to App_Data/Workflows</comment>
   </data>
-  <data name="OneLevelOfApproval" lastModified="2014-04-07T14:32:44">
+  <data name="OneLevelOfApproval" lastModified="2014-07-22T13:48:17">
     <value>1 level of approval</value>
     <comment>Phrase: 1 level of approval</comment>
   </data>
-  <data name="TwoLevelsOfApproval" lastModified="2014-04-07T14:32:44">
+  <data name="TwoLevelsOfApproval" lastModified="2014-07-22T13:48:17">
     <value>2 levels of approval</value>
     <comment>Phrase: 2 levels of approval</comment>
   </data>
-  <data name="WhyRejected" lastModified="2014-04-07T14:32:44">
+  <data name="WhyRejected" lastModified="2014-07-22T13:48:17">
     <value>Why rejected?</value>
     <comment>Phrase: Why rejected?</comment>
   </data>
-  <data name="SelectedOnly" lastModified="2014-04-07T14:32:44">
+  <data name="SelectedOnly" lastModified="2014-07-22T13:48:17">
     <value>Selected only</value>
     <comment>Phrase: Selected only</comment>
   </data>
-  <data name="SetApproversWarningMsg" lastModified="2014-04-07T14:32:44">
+  <data name="SetApproversWarningMsg" lastModified="2014-07-22T13:48:17">
     <value>Before selecting approvers make sure they have "Modify" permissions for the content subject to approval</value>
     <comment>Phrase: Before selecting approvers make sure they have "Modify" permissions for the content subject to approval</comment>
   </data>
-  <data name="SavedAt" lastModified="2014-04-07T14:32:44">
+  <data name="SavedAt" lastModified="2014-07-22T13:48:17">
     <value>Saved at</value>
     <comment>Phrase: Saved at</comment>
   </data>
-  <data name="SavedOn" lastModified="2014-04-07T14:32:44">
+  <data name="SavedOn" lastModified="2014-07-22T13:48:17">
     <value>Saved on</value>
     <comment>Phrase: Saved on</comment>
   </data>
-  <data name="At" lastModified="2014-04-07T14:32:44">
+  <data name="At" lastModified="2014-07-22T13:48:17">
     <value>at</value>
     <comment>Word: at</comment>
   </data>
-  <data name="On" lastModified="2014-04-07T14:32:44">
+  <data name="On" lastModified="2014-07-22T13:48:17">
     <value>on</value>
     <comment>Word: on</comment>
   </data>
-  <data name="ToBePublishedOn" lastModified="2014-04-07T14:32:44">
+  <data name="ToBePublishedOn" lastModified="2014-07-22T13:48:17">
     <value>to be published on</value>
     <comment>Phrase: to be published on</comment>
   </data>
-  <data name="ToBePublishedAt" lastModified="2014-04-07T14:32:44">
+  <data name="ToBePublishedAt" lastModified="2014-07-22T13:48:17">
     <value>to be published at</value>
     <comment>Phrase: to be published at</comment>
   </data>
-  <data name="UploadAndPublish" lastModified="2014-04-07T14:32:44">
+  <data name="UploadAndPublish" lastModified="2014-07-22T13:48:17">
     <value>Upload and Publish</value>
     <comment>upload and publish workflow action name</comment>
   </data>
-  <data name="SaveAsPrivateDraftAction" lastModified="2014-04-07T14:32:44">
+  <data name="SaveAsPrivateDraftAction" lastModified="2014-07-22T13:48:17">
     <value>Save as Private draft</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="SaveAsDraftAction" lastModified="2014-04-07T14:32:44">
+  <data name="SaveAsDraftAction" lastModified="2014-07-22T13:48:17">
     <value>Save as Draft</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="UploadAndSaveAsDraftAction" lastModified="2014-04-07T14:32:44">
+  <data name="UploadAndSaveAsDraftAction" lastModified="2014-07-22T13:48:17">
     <value>Upload and Save as Draft</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="UploadAndSendForApprovalAction" lastModified="2014-04-07T14:32:44">
+  <data name="UploadAndSendForApprovalAction" lastModified="2014-07-22T13:48:17">
     <value>Upload and Send for Approval</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="PublishAction" lastModified="2014-04-07T14:32:44">
+  <data name="PublishAction" lastModified="2014-07-22T13:48:17">
     <value>Publish</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="UnpublishAction" lastModified="2014-04-07T14:32:44">
+  <data name="UnpublishAction" lastModified="2014-07-22T13:48:17">
     <value>Unpublish</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="UpdateContent" lastModified="2014-04-07T14:32:44">
+  <data name="UpdateContent" lastModified="2014-07-22T13:48:17">
     <value>Update content</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="ScheduleAction" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleAction" lastModified="2014-07-22T13:48:17">
     <value>Publish/Unpublish on Specific Date</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="SendForApprovalAction" lastModified="2014-04-07T14:32:44">
+  <data name="SendForApprovalAction" lastModified="2014-07-22T13:48:17">
     <value>Send for Approval</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="AwaitingApprovalAction" lastModified="2014-04-07T14:32:44">
+  <data name="AwaitingApprovalAction" lastModified="2014-07-22T13:48:17">
     <value>Save as Awaiting approval</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="AwaitingPublishingAction" lastModified="2014-04-07T14:32:44">
+  <data name="AwaitingPublishingAction" lastModified="2014-07-22T13:48:17">
     <value>Save as Awaiting publishing</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="RejectAction" lastModified="2014-04-07T14:32:44">
+  <data name="RejectAction" lastModified="2014-07-22T13:48:17">
     <value>Reject</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="DeleteAction" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteAction" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="SendForPublishingAction" lastModified="2014-04-07T14:32:44">
+  <data name="SendForPublishingAction" lastModified="2014-07-22T13:48:17">
     <value>Send for Publishing</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="StopScheduleAction" lastModified="2014-04-07T14:32:44">
+  <data name="StopScheduleAction" lastModified="2014-07-22T13:48:17">
     <value>Stop Schedule</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="DiscardDraftAction" lastModified="2014-04-07T14:32:44">
+  <data name="DiscardDraftAction" lastModified="2014-07-22T13:48:17">
     <value>Discard Draft</value>
     <comment>a workflow action name</comment>
   </data>
-  <data name="MobilePreview" lastModified="2014-04-07T14:32:44">
+  <data name="MobilePreview" lastModified="2014-07-22T13:48:17">
     <value>Preview for Smartphones &amp; Tablets</value>
     <comment>phrase: Preview for Smartphones &amp; Tablets</comment>
   </data>
-  <data name="PublishInMultilingualWarning" lastModified="2014-04-07T14:32:44">
+  <data name="PublishInMultilingualWarning" lastModified="2014-07-22T13:48:17">
     <value>This item has translated versions.
 If you publish the item all translations will be also published.
 Are you sure you want to continue publishing?</value>
     <comment>Warning dipslayed when publishing an item</comment>
   </data>
-  <data name="UnPublishInMultilingualWarning" lastModified="2014-04-07T14:32:44">
+  <data name="UnPublishInMultilingualWarning" lastModified="2014-07-22T13:48:17">
     <value>This item has translated versions.
 If you unpublish the item all translations will be also unpublished.
 Are you sure you want to continue unpublishing?</value>
     <comment>Warning dipslayed when unpublishing an item</comment>
   </data>
-  <data name="PublishPageInMultilingualWarning" lastModified="2014-04-07T14:32:44">
+  <data name="PublishPageInMultilingualWarning" lastModified="2014-07-22T13:48:17">
     <value>If you publish a synchronized page all translations will be published too.
 Are you sure you want to continue publishing?</value>
     <comment>Warning dipslayed when publishing a page</comment>
   </data>
-  <data name="UnPublishPageInMultilingualWarning" lastModified="2014-04-07T14:32:44">
+  <data name="UnPublishPageInMultilingualWarning" lastModified="2014-07-22T13:48:17">
     <value>If you unpublish a synchronized page all translations will be unpublished too.
 Are you sure you want to continue publishing?</value>
     <comment>Warning dipslayed when unpublishing a page</comment>
   </data>
-  <data name="PromptTitlePublishPageInMultilingual" lastModified="2014-04-07T14:32:44">
+  <data name="PromptTitlePublishPageInMultilingual" lastModified="2014-07-22T13:48:17">
     <value>Publish</value>
     <comment>Title of the message box shown when publishing page in multilingual mode.</comment>
   </data>
-  <data name="PromptTitleUnPublishPageInMultilingual" lastModified="2014-04-07T14:32:44">
+  <data name="PromptTitleUnPublishPageInMultilingual" lastModified="2014-07-22T13:48:17">
     <value>UnPublish</value>
     <comment>Title of the message box shown when unpublishing page in multilingual mode.</comment>
   </data>

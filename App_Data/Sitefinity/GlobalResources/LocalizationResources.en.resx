@@ -117,47 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LocalizationResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="LocalizationResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Localization resources</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="LocalizationResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="LocalizationResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for localization user interface.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="Languages" lastModified="2014-04-07T14:32:44">
+  <data name="Languages" lastModified="2014-07-22T13:48:17">
     <value>Languages</value>
     <comment>word: Languages</comment>
   </data>
-  <data name="Language" lastModified="2014-04-07T14:32:44">
+  <data name="Language" lastModified="2014-07-22T13:48:17">
     <value>Language</value>
     <comment>word: Language</comment>
   </data>
-  <data name="Translations" lastModified="2014-04-07T14:32:44">
+  <data name="Translations" lastModified="2014-07-22T13:48:17">
     <value>Translations</value>
     <comment>word: Translations</comment>
   </data>
-  <data name="OtherTranslationsColon" lastModified="2014-04-07T14:32:44">
+  <data name="OtherTranslationsColon" lastModified="2014-07-22T13:48:17">
     <value>Other translations:</value>
     <comment>phrase: Other translations:</comment>
   </data>
-  <data name="ShowAllTranslations" lastModified="2014-04-07T14:32:44">
+  <data name="ShowAllTranslations" lastModified="2014-07-22T13:48:17">
     <value>Show all translations</value>
     <comment>phrase: Show all translations</comment>
   </data>
-  <data name="ShowBasicTranslationsOnly" lastModified="2014-04-07T14:32:44">
+  <data name="ShowBasicTranslationsOnly" lastModified="2014-07-22T13:48:17">
     <value>Show basic translations only</value>
     <comment>phrase: Show basic translations only</comment>
   </data>
-  <data name="MoreTranslations" lastModified="2014-04-07T14:32:44">
+  <data name="MoreTranslations" lastModified="2014-07-22T13:48:17">
     <value>More translations&amp;hellip;</value>
     <comment>phrase: More translations...</comment>
   </data>
-  <data name="BasicTranslationsOnly" lastModified="2014-04-07T14:32:44">
+  <data name="BasicTranslationsOnly" lastModified="2014-07-22T13:48:17">
     <value>Basic translations only&amp;hellip;</value>
     <comment>phrase: Basic trasnlations only...</comment>
   </data>
-  <data name="NotTranslated" lastModified="2014-04-07T14:32:44">
+  <data name="NotTranslated" lastModified="2014-07-22T13:48:17">
     <value>not translated</value>
     <comment>phrase: not translated</comment>
   </data>

@@ -117,115 +117,115 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ConfigDescriptionsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ConfigDescriptionsTitle" lastModified="2014-07-22T13:48:17">
     <value>Configuration Descriptions</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="ConfigDescriptionsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ConfigDescriptionsDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Sitefinity configuration descriptions.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="LanguageSourceCaption" lastModified="2014-04-07T14:32:44">
+  <data name="LanguageSourceCaption" lastModified="2014-07-22T13:48:17">
     <value>Source for available languages</value>
     <comment>phrase: Source for available languages</comment>
   </data>
-  <data name="LanguageSourceDescription" lastModified="2014-04-07T14:32:44">
+  <data name="LanguageSourceDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the source for available languages.</value>
     <comment>phrase: Defines the source for available languages.</comment>
   </data>
-  <data name="HideIfSingleLanguageCaption" lastModified="2014-04-07T14:32:44">
+  <data name="HideIfSingleLanguageCaption" lastModified="2014-07-22T13:48:17">
     <value>Hide if single language</value>
     <comment>phrase: Hide if single language</comment>
   </data>
-  <data name="HideIfSingleLanguageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="HideIfSingleLanguageDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines whether to hide the field if only a single language is found.</value>
     <comment>phrase: Defines whether to hide the field if only a single language is found.</comment>
   </data>
-  <data name="AvailableLanguagesCaption" lastModified="2014-04-07T14:32:44">
+  <data name="AvailableLanguagesCaption" lastModified="2014-07-22T13:48:17">
     <value>List of all cultures</value>
     <comment>phrase: List of all cultures</comment>
   </data>
-  <data name="AvailableLanguagesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AvailableLanguagesDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the list of all listed cultures. This is only used if LanguageSource is set to Custom.</value>
     <comment>phrase: Defines the list of all listed cultures. This is only used if LanguageSource is set to Custom.</comment>
   </data>
-  <data name="ItemsInGroupCountCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ItemsInGroupCountCaption" lastModified="2014-07-22T13:48:17">
     <value>Number of items in a group</value>
     <comment>phrase: Number of items in a group</comment>
   </data>
-  <data name="ItemsInGroupCountDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ItemsInGroupCountDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the number of items in a group.</value>
     <comment>phrase: Defines the number of items in a group.</comment>
   </data>
-  <data name="ContainerTagCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ContainerTagCaption" lastModified="2014-07-22T13:48:17">
     <value>Container tag</value>
     <comment>phrase: Container tag</comment>
   </data>
-  <data name="ContainerTagDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ContainerTagDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the tag of the container element.</value>
     <comment>phrase: Defines the tag of the container element.</comment>
   </data>
-  <data name="GroupTagCaption" lastModified="2014-04-07T14:32:44">
+  <data name="GroupTagCaption" lastModified="2014-07-22T13:48:17">
     <value>Group tag</value>
     <comment>phrase: Group tag</comment>
   </data>
-  <data name="GroupTagDescription" lastModified="2014-04-07T14:32:44">
+  <data name="GroupTagDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the tag of the group element.</value>
     <comment>phrase: Defines the tag of the group element.</comment>
   </data>
-  <data name="ItemTagCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ItemTagCaption" lastModified="2014-07-22T13:48:17">
     <value>Item tag</value>
     <comment>phrase: Item tag</comment>
   </data>
-  <data name="ItemTagDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ItemTagDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the tag of the item element.</value>
     <comment>phrase: Defines the tag of the item element.</comment>
   </data>
-  <data name="ContainerClassCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ContainerClassCaption" lastModified="2014-07-22T13:48:17">
     <value>Container CSS class</value>
     <comment>phrase: Container CSS class</comment>
   </data>
-  <data name="ContainerClassDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ContainerClassDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the CSS class of the container element.</value>
     <comment>phrase: Defines the CSS class of the container element.</comment>
   </data>
-  <data name="GroupClassCaption" lastModified="2014-04-07T14:32:44">
+  <data name="GroupClassCaption" lastModified="2014-07-22T13:48:17">
     <value>Group css class</value>
     <comment>phrase: Group css class</comment>
   </data>
-  <data name="GroupClassDescription" lastModified="2014-04-07T14:32:44">
+  <data name="GroupClassDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the CSS class of the group element.</value>
     <comment>phrase: Defines the CSS class of the group element.</comment>
   </data>
-  <data name="ItemClassCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ItemClassCaption" lastModified="2014-07-22T13:48:17">
     <value>Item CSS class</value>
     <comment>phrase: Item CSS class</comment>
   </data>
-  <data name="ItemClassDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ItemClassDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the CSS class of the item element.</value>
     <comment>phrase: Defines the CSS class of the item element.</comment>
   </data>
-  <data name="AddAllLanguagesOptionCaption" lastModified="2014-04-07T14:32:44">
+  <data name="AddAllLanguagesOptionCaption" lastModified="2014-07-22T13:48:17">
     <value>Option for all languages</value>
     <comment>phrase: Option for all languages</comment>
   </data>
-  <data name="AddAllLanguagesOptionDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AddAllLanguagesOptionDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines whether an option for all languages should be added.</value>
     <comment>phrase: Defines whether an option for all languages should be added.</comment>
   </data>
-  <data name="CommandNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="CommandNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Command name</value>
     <comment>phrase: Command name</comment>
   </data>
-  <data name="CommandNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CommandNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Name of the command that widget fires.</value>
     <comment>phrase: Name of the command that widget fires.</comment>
   </data>
-  <data name="LanguagesToShowCaption" lastModified="2014-04-07T14:32:44">
+  <data name="LanguagesToShowCaption" lastModified="2014-07-22T13:48:17">
     <value>Languages to show</value>
     <comment>phrase: Languages to show</comment>
   </data>
-  <data name="LanguagesToShowDescription" lastModified="2014-04-07T14:32:44">
+  <data name="LanguagesToShowDescription" lastModified="2014-07-22T13:48:17">
     <value>The languages that are displayed by the widget.</value>
     <comment>phrase: The languages that are displayed by the widget.</comment>
   </data>

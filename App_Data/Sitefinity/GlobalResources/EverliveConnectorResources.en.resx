@@ -129,183 +129,183 @@
     <value>This is the Connector module group page.</value>
     <comment>Description of the Connector module group page.</comment>
   </data>
-  <data name="EverliveConnectorGroupPageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveConnectorGroupPageTitle" lastModified="2014-07-22T13:48:17">
     <value>Connector for Telerik BaaS</value>
     <comment>Title of the Everlive Connector's group page.</comment>
   </data>
-  <data name="EverliveConnectorGroupPageUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveConnectorGroupPageUrlName" lastModified="2014-07-22T13:48:17">
     <value>Telerik-backend-services</value>
     <comment>Urlname of the Everlive Connector's group page.</comment>
   </data>
-  <data name="EverliveConnectorGroupPageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveConnectorGroupPageDescription" lastModified="2014-07-22T13:48:17">
     <value>This is the Telerik Backend Services Connector module group page.</value>
     <comment>Description of the Everlive Connector module group page.</comment>
   </data>
-  <data name="EverliveConnectorPageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveConnectorPageTitle" lastModified="2014-07-22T13:48:17">
     <value>Telerik Backend Services connector</value>
     <comment>Phrase: Telerik Backend Services connector</comment>
   </data>
-  <data name="ScheduleFiveMinutes" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleFiveMinutes" lastModified="2014-07-22T13:48:17">
     <value>Every 5 minutes</value>
     <comment>Phrase: Every 5 minutes</comment>
   </data>
-  <data name="ScheduleHalfHour" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleHalfHour" lastModified="2014-07-22T13:48:17">
     <value>Every 30 minutes</value>
     <comment>Phrase: Every 30 minutes</comment>
   </data>
-  <data name="ScheduleOneHour" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleOneHour" lastModified="2014-07-22T13:48:17">
     <value>Every 1 hour</value>
     <comment>Phrase: Every 1 hour</comment>
   </data>
-  <data name="ScheduleWeekly" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleWeekly" lastModified="2014-07-22T13:48:17">
     <value>Weekly on</value>
     <comment>Phrase: Weekly on</comment>
   </data>
-  <data name="ScheduleMonday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleMonday" lastModified="2014-07-22T13:48:17">
     <value>Monday</value>
     <comment>Word: Monday</comment>
   </data>
-  <data name="ScheduleTuesday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleTuesday" lastModified="2014-07-22T13:48:17">
     <value>Tuesday</value>
     <comment>Word: Tuesday</comment>
   </data>
-  <data name="ScheduleWednesday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleWednesday" lastModified="2014-07-22T13:48:17">
     <value>Wednesday</value>
     <comment>Word: Wednesday</comment>
   </data>
-  <data name="ScheduleThursday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleThursday" lastModified="2014-07-22T13:48:17">
     <value>Thursday</value>
     <comment>Word: Thursday</comment>
   </data>
-  <data name="ScheduleFriday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleFriday" lastModified="2014-07-22T13:48:17">
     <value>Friday</value>
     <comment>Word: Friday</comment>
   </data>
-  <data name="ScheduleSaturday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSaturday" lastModified="2014-07-22T13:48:17">
     <value>Saturday</value>
     <comment>Word: Saturday</comment>
   </data>
-  <data name="ScheduleSunday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSunday" lastModified="2014-07-22T13:48:17">
     <value>Sunday</value>
     <comment>Word: Sunday</comment>
   </data>
-  <data name="ScheduleTypeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleTypeLabel" lastModified="2014-07-22T13:48:17">
     <value>When to sync...</value>
     <comment>Phrase: When to sync</comment>
   </data>
-  <data name="ChangeModulesLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeModulesLabel" lastModified="2014-07-22T13:48:17">
     <value>Change modules</value>
     <comment>Phrase: Change modules</comment>
   </data>
-  <data name="SaveLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SaveLabel" lastModified="2014-07-22T13:48:17">
     <value>Save</value>
     <comment>Word: Save</comment>
   </data>
-  <data name="SyncNowLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncNowLabel" lastModified="2014-07-22T13:48:17">
     <value>Sync now</value>
     <comment>Phrase: Sync now</comment>
   </data>
-  <data name="DisconnectAlertMessage" lastModified="2014-04-07T14:32:44">
+  <data name="DisconnectAlertMessage" lastModified="2014-07-22T13:48:17">
     <value>All applications that are using Backend Services will not be synced anymore. Are you sure you want to disconnect?</value>
     <comment>Phrase: All applications that are using Backend Services will not be synced anymore. Are you sure you want to disconnect?</comment>
   </data>
-  <data name="ChangeConnectionLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeConnectionLabel" lastModified="2014-07-22T13:48:17">
     <value>Change connection</value>
     <comment>Phrase: Change connection</comment>
   </data>
-  <data name="UsernameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="UsernameLabel" lastModified="2014-07-22T13:48:17">
     <value>Telerik username</value>
     <comment>Phrase: Telerik username</comment>
   </data>
-  <data name="PasswordLabel" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordLabel" lastModified="2014-07-22T13:48:17">
     <value>Telerik password</value>
     <comment>Phrase: Telerik password</comment>
   </data>
-  <data name="LogInFailMessage" lastModified="2014-04-07T14:32:44">
+  <data name="LogInFailMessage" lastModified="2014-07-22T13:48:17">
     <value>Failed to connect to Telerik Backend Services</value>
     <comment>Phrase: Failed to connect to Everlive</comment>
   </data>
-  <data name="ConnectLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectLabel" lastModified="2014-07-22T13:48:17">
     <value>Connect</value>
     <comment>Word: Connect</comment>
   </data>
-  <data name="LogInFormHeader" lastModified="2014-04-07T14:32:44">
+  <data name="LogInFormHeader" lastModified="2014-07-22T13:48:17">
     <value>Connect to Telerik Backend Services, using your Telerik Account</value>
     <comment>Phrase: Connect to Telerik Backend Services, using your Telerik Account</comment>
   </data>
-  <data name="MetricsHint" lastModified="2014-04-07T14:32:44">
+  <data name="MetricsHint" lastModified="2014-07-22T13:48:17">
     <value>Total usage of the connected account</value>
     <comment>Phrase: Total usage of the connected account</comment>
   </data>
-  <data name="NameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NameLabel" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Word: Name</comment>
   </data>
-  <data name="SelectProviders" lastModified="2014-04-07T14:32:44">
+  <data name="SelectProviders" lastModified="2014-07-22T13:48:17">
     <value>Select providers</value>
     <comment>Phrase: Select providers</comment>
   </data>
-  <data name="ModulesSelectorHeader" lastModified="2014-04-07T14:32:44">
+  <data name="ModulesSelectorHeader" lastModified="2014-07-22T13:48:17">
     <value>Which modules will be connected to Telerik Backend Services?</value>
     <comment>Phrase: Which modules will be connected to Telerik Backend Services?</comment>
   </data>
-  <data name="ModulesSelectorHint" lastModified="2014-04-07T14:32:44">
+  <data name="ModulesSelectorHint" lastModified="2014-07-22T13:48:17">
     <value>A new Telerik Backend Services project will be created for each of the selected providers</value>
     <comment>Phrase: A new Evervlive project will be created for each of the selected providers</comment>
   </data>
-  <data name="EverliveQuestionLabel" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveQuestionLabel" lastModified="2014-07-22T13:48:17">
     <value>Why use Telerik Backend Services?</value>
     <comment>Phrase: Why use Telerik Backend Services?</comment>
   </data>
-  <data name="EverliveQuestionsListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveQuestionsListLabel" lastModified="2014-07-22T13:48:17">
     <value>Use syncing with Backend Services to:</value>
     <comment>Phrase: Use syncing with Backend Services to: </comment>
   </data>
-  <data name="EverliveReasonLabel1" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveReasonLabel1" lastModified="2014-07-22T13:48:17">
     <value>Back up the content of your modules</value>
     <comment>Phrase: Back up the content of your modules</comment>
   </data>
-  <data name="EverliveReasonDescriptionLabel1" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveReasonDescriptionLabel1" lastModified="2014-07-22T13:48:17">
     <value>You can expose some data, while keeping the rest safely behind your firewall.</value>
     <comment>Phrase: You can expose some data, while keeping the rest safely behind your firewall. </comment>
   </data>
-  <data name="EverliveReasonLabel2" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveReasonLabel2" lastModified="2014-07-22T13:48:17">
     <value>Havе faster mobile apps</value>
     <comment>Havе faster mobile apps</comment>
   </data>
-  <data name="EverliveReasonDescriptionLabel2" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveReasonDescriptionLabel2" lastModified="2014-07-22T13:48:17">
     <value>To maximize mobile app performance, Telerik Backend Services use a non-relational database built for speed and scalability. RESTful web services result in less traffic and in lightning speed of mobile apps.</value>
     <comment>Phrase: To maximize mobile app performance, Telerik Backend Services use a non-relational database built for speed and scalability. RESTful web services result in less traffic and in lightning speed of mobile apps. </comment>
   </data>
-  <data name="EverliveReasonLabel3" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveReasonLabel3" lastModified="2014-07-22T13:48:17">
     <value>Grant access to sensitive intranet data to employees on the go</value>
     <comment>Phrase: Grant access to sensitive intranet data to employees on the go</comment>
   </data>
-  <data name="EverliveReasonDescriptionLabel3" lastModified="2014-04-07T14:32:44">
+  <data name="EverliveReasonDescriptionLabel3" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity controls which data is synced, then permissions on the Telerik Backend Services side control who can access it.</value>
     <comment>Phrase: Sitefinity controls which data is synced, then permissions on the Telerik Backend Services side control who can access it.</comment>
   </data>
-  <data name="SyncFrequencyLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncFrequencyLabel" lastModified="2014-07-22T13:48:17">
     <value>Sync frequency:</value>
     <comment>Label: Sync frequency:</comment>
   </data>
-  <data name="AccessEverliveConnectorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccessEverliveConnectorTitle" lastModified="2014-07-22T13:48:17">
     <value>Access Everlive connector module</value>
     <comment>Title of the 'AccessEverliveConnector' security action</comment>
   </data>
-  <data name="AccessEverliveConnectorDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AccessEverliveConnectorDescription" lastModified="2014-07-22T13:48:17">
     <value>Security action that allows access to the backend pages of the Everlive connector module</value>
     <comment>Description of the 'AccessEverliveConnector' security action</comment>
   </data>
-  <data name="PublicSTSIssuerUrlTitle" lastModified="2014-04-07T14:32:44">
+  <data name="PublicSTSIssuerUrlTitle" lastModified="2014-07-22T13:48:17">
     <value>Public STS issuer url</value>
     <comment>Phrase: Public STS issuer url</comment>
   </data>
-  <data name="PublicSTSIssuerUrlDescription" lastModified="2014-04-07T14:32:44">
+  <data name="PublicSTSIssuerUrlDescription" lastModified="2014-07-22T13:48:17">
     <value>Url of the STS issuer that is not hidden by firewall. If empty means that the mobile application (Sitefinity Box) authenticates directly to the site.</value>
     <comment>Phrase: Url of the STS issuer that is not hidden by firewall</comment>
   </data>
-  <data name="TelerikBackendServicesLabel" lastModified="2014-04-07T14:32:44">
+  <data name="TelerikBackendServicesLabel" lastModified="2014-07-22T13:48:17">
     <value>Telerik Backend Services</value>
     <comment>Phrase: Telerik Backend Services</comment>
   </data>

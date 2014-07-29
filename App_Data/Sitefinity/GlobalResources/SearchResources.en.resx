@@ -117,215 +117,215 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SearchResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SearchResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Search and Indexes</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="SearchResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="SearchResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Search and Indexes</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="SearchResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SearchResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Search and Indexing service module.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleTitle" lastModified="2014-07-22T13:48:17">
     <value>Search indexes</value>
     <comment>The title of the search module.</comment>
   </data>
-  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleDescription" lastModified="2014-07-22T13:48:17">
     <value>Provides user interface for creating and managing indexes and controlling search behaviors.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="SearchHtmlTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SearchHtmlTitle" lastModified="2014-07-22T13:48:17">
     <value>Search and Indexes</value>
     <comment>The html title of the search module.</comment>
   </data>
-  <data name="SearchIndexes" lastModified="2014-04-07T14:32:44">
+  <data name="SearchIndexes" lastModified="2014-07-22T13:48:17">
     <value>Search indexes</value>
     <comment>phrase: Search indexes</comment>
   </data>
-  <data name="CreateSearchIndex" lastModified="2014-04-07T14:32:44">
+  <data name="CreateSearchIndex" lastModified="2014-07-22T13:48:17">
     <value>Create a search index</value>
     <comment>phrase: Create a search index</comment>
   </data>
-  <data name="EditSearchIndex" lastModified="2014-04-07T14:32:44">
+  <data name="EditSearchIndex" lastModified="2014-07-22T13:48:17">
     <value>Edit a search index</value>
     <comment>phrase: Edit a search index</comment>
   </data>
-  <data name="Reindex" lastModified="2014-04-07T14:32:44">
+  <data name="Reindex" lastModified="2014-07-22T13:48:17">
     <value>Reindex</value>
     <comment>phrase: Start indexing now</comment>
   </data>
-  <data name="LastIndexing" lastModified="2014-04-07T14:32:44">
+  <data name="LastIndexing" lastModified="2014-07-22T13:48:17">
     <value>Last indexing</value>
     <comment>phrase: Last indexing</comment>
   </data>
-  <data name="Name" lastModified="2014-04-07T14:32:44">
+  <data name="Name" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>word: Name</comment>
   </data>
-  <data name="Index" lastModified="2014-04-07T14:32:44">
+  <data name="Index" lastModified="2014-07-22T13:48:17">
     <value>Index</value>
     <comment>word: Index</comment>
   </data>
-  <data name="AutoIndex" lastModified="2014-04-07T14:32:44">
+  <data name="AutoIndex" lastModified="2014-07-22T13:48:17">
     <value>Auto-index</value>
     <comment>phrase: Auto-index</comment>
   </data>
-  <data name="NotAutoIndex" lastModified="2014-04-07T14:32:44">
+  <data name="NotAutoIndex" lastModified="2014-07-22T13:48:17">
     <value>Not auto-index</value>
     <comment>phrase: Not auto-index</comment>
   </data>
-  <data name="CreateThisSearchIndex" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisSearchIndex" lastModified="2014-07-22T13:48:17">
     <value>Create this search index</value>
     <comment>phrase: Create this search index</comment>
   </data>
-  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+  <data name="SaveChanges" lastModified="2014-07-22T13:48:17">
     <value>Save changes</value>
     <comment>phrase: Save changes</comment>
   </data>
-  <data name="NameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="NameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Name cannot be empty</value>
     <comment>phrase: Name cannot be empty</comment>
   </data>
-  <data name="NoSearchIndexes" lastModified="2014-04-07T14:32:44">
+  <data name="NoSearchIndexes" lastModified="2014-07-22T13:48:17">
     <value>No search indexes have been created yet</value>
     <comment>phrase: No search indexes have been created yet</comment>
   </data>
-  <data name="WhatDoYouWantToDoNow" lastModified="2014-04-07T14:32:44">
+  <data name="WhatDoYouWantToDoNow" lastModified="2014-07-22T13:48:17">
     <value>What do you want to do now?</value>
     <comment>phrase: What do you want to do now?</comment>
   </data>
-  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+  <data name="BackToItems" lastModified="2014-07-22T13:48:17">
     <value>Go back</value>
     <comment>phrase: Go back</comment>
   </data>
-  <data name="PageGroupNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="PageGroupNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Search indexes</value>
     <comment>Page group for the Search module.</comment>
   </data>
-  <data name="SearchUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="SearchUrlName" lastModified="2014-07-22T13:48:17">
     <value>Search</value>
     <comment>Search URL name.</comment>
   </data>
-  <data name="PageGroupNodeDescription" lastModified="2014-04-07T14:32:44">
+  <data name="PageGroupNodeDescription" lastModified="2014-07-22T13:48:17">
     <value>Page group for the Publishing module.</value>
     <comment>Search Page Group Description</comment>
   </data>
-  <data name="Search" lastModified="2014-04-07T14:32:44">
+  <data name="Search" lastModified="2014-07-22T13:48:17">
     <value>Search</value>
     <comment>Word: Search</comment>
   </data>
-  <data name="SearchBoxTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxTitle" lastModified="2014-07-22T13:48:17">
     <value>Search</value>
     <comment>Control title: Search</comment>
   </data>
-  <data name="SearchBoxDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxDescription" lastModified="2014-07-22T13:48:17">
     <value>Search box</value>
     <comment>Control description: A search box control for entering search criteria.</comment>
   </data>
-  <data name="SearchResultsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SearchResultsTitle" lastModified="2014-07-22T13:48:17">
     <value>Search results</value>
     <comment>Control title: Search results</comment>
   </data>
-  <data name="SearchResultsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SearchResultsDescription" lastModified="2014-07-22T13:48:17">
     <value>List of search results</value>
     <comment>Control description: A control for displaying search results.</comment>
   </data>
-  <data name="InvalidIndex" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidIndex" lastModified="2014-07-22T13:48:17">
     <value>Invalid index: {0}</value>
     <comment>Phrase: Invalid index: {0}</comment>
   </data>
-  <data name="SearchResultsViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="SearchResultsViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Search results - list</value>
     <comment>Phrase: Search results - list</comment>
   </data>
-  <data name="Scope" lastModified="2014-04-07T14:32:44">
+  <data name="Scope" lastModified="2014-07-22T13:48:17">
     <value>Scope</value>
     <comment>Word: Scope</comment>
   </data>
-  <data name="DefineWhatTypeOfContentWillBeIndexed" lastModified="2014-04-07T14:32:44">
+  <data name="DefineWhatTypeOfContentWillBeIndexed" lastModified="2014-07-22T13:48:17">
     <value>Define what type of content will be indexed</value>
     <comment>Word: Define what type of content will be indexed</comment>
   </data>
-  <data name="SearchResultsStatusMessage" lastModified="2014-04-07T14:32:44">
+  <data name="SearchResultsStatusMessage" lastModified="2014-07-22T13:48:17">
     <value>{0} search results for &lt;strong&gt;{1}&lt;/strong&gt;</value>
     <comment>Phrase: {0} search results for &lt;strong&gt;{1}&lt;/strong&gt;</comment>
   </data>
-  <data name="SearchBoxEmptyLinkText" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxEmptyLinkText" lastModified="2014-07-22T13:48:17">
     <value>Set where to search</value>
     <comment>phrase: Set where to search</comment>
   </data>
-  <data name="SearchBoxDesignerIndexTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxDesignerIndexTitle" lastModified="2014-07-22T13:48:17">
     <value>Which feed to display?</value>
     <comment>phrase: Which feed to display?</comment>
   </data>
-  <data name="SearchBoxDesignerRequiredIndexMessage" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxDesignerRequiredIndexMessage" lastModified="2014-07-22T13:48:17">
     <value>Please select where to search.</value>
     <comment>phrase: Please select where to search.</comment>
   </data>
-  <data name="SearchBoxDesignerIndexDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxDesignerIndexDescription" lastModified="2014-07-22T13:48:17">
     <value>Here are listed search indexes created in&lt;br /&gt;&lt;em&gt;Administration &amp;gt; Search indexes&lt;/em&gt;</value>
     <comment>phrase: Here are listed search indexes created in&lt;br /&gt;&lt;em&gt;Administration &amp;gt; Search indexes&lt;/em&gt;</comment>
   </data>
-  <data name="SearchBoxDesignerPageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxDesignerPageTitle" lastModified="2014-07-22T13:48:17">
     <value>Where to display search results?</value>
     <comment>phrase: Where to display search results?</comment>
   </data>
-  <data name="SearchBoxDesignerRequiredPageMessage" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxDesignerRequiredPageMessage" lastModified="2014-07-22T13:48:17">
     <value>Please select where to display search results.</value>
     <comment>phrase: Please select where to display search results.</comment>
   </data>
-  <data name="SearchBoxDesignerPageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxDesignerPageDescription" lastModified="2014-07-22T13:48:17">
     <value>This is the page where you have &lt;strong&gt;dropped &lt;em&gt;Search results&lt;/em&gt; widget&lt;/strong&gt;</value>
     <comment>phrase: This is the page where you have &lt;strong&gt;dropped &lt;em&gt;Search results&lt;/em&gt; widget&lt;/strong&gt;</comment>
   </data>
-  <data name="SearchBoxDesignerNoSearchIndexesCreated" lastModified="2014-04-07T14:32:44">
+  <data name="SearchBoxDesignerNoSearchIndexesCreated" lastModified="2014-07-22T13:48:17">
     <value>No search indexes created</value>
     <comment>phrase: No search indexes created</comment>
   </data>
-  <data name="ShowSearchBoxAbove" lastModified="2014-04-07T14:32:44">
+  <data name="ShowSearchBoxAbove" lastModified="2014-07-22T13:48:17">
     <value>Show search box above the results</value>
     <comment>phrase: Show search box above the results</comment>
   </data>
-  <data name="ShowSearchBoxBelow" lastModified="2014-04-07T14:32:44">
+  <data name="ShowSearchBoxBelow" lastModified="2014-07-22T13:48:17">
     <value>Show search box below the results</value>
     <comment>phrase: Show search box below the results</comment>
   </data>
-  <data name="DuplicateSearchIndexTitle" lastModified="2014-04-07T14:32:44">
+  <data name="DuplicateSearchIndexTitle" lastModified="2014-07-22T13:48:17">
     <value>A search index with this name already exists.</value>
     <comment>Error message: Duplicate search index title.</comment>
   </data>
-  <data name="SelectIndex" lastModified="2014-04-07T14:32:44">
+  <data name="SelectIndex" lastModified="2014-07-22T13:48:17">
     <value>Select index</value>
     <comment>phrase: Select index</comment>
   </data>
-  <data name="SearchConfig" lastModified="2014-04-07T14:32:44">
+  <data name="SearchConfig" lastModified="2014-07-22T13:48:17">
     <value>Search settings</value>
     <comment>phrase: Search settings</comment>
   </data>
-  <data name="IndexingInProgress" lastModified="2014-04-07T14:32:44">
+  <data name="IndexingInProgress" lastModified="2014-07-22T13:48:17">
     <value>Indexing in progress...</value>
     <comment>phrase: Indexing in progress...</comment>
   </data>
-  <data name="AdvancedSection" lastModified="2014-04-07T14:32:44">
+  <data name="AdvancedSection" lastModified="2014-07-22T13:48:17">
     <value>Advanced &lt;em class='sfNote'&gt;(for developers)&lt;/em&gt;</value>
     <comment>The title of the 'Advanced' section in the Backend Detail View form.</comment>
   </data>
-  <data name="AdditionalFieldsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AdditionalFieldsTitle" lastModified="2014-07-22T13:48:17">
     <value>Additional fields for indexing</value>
     <comment>The title of the 'Additional fields' field in the Backend Detail View form.</comment>
   </data>
-  <data name="AdditionalFieldsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AdditionalFieldsDescription" lastModified="2014-07-22T13:48:17">
     <value>You can manually include different fields (static or dynamic) in the search index. Note that these fields should be of type short or long text. Separate with comma.</value>
     <comment>The description of the 'Advanced settings' field in the Backend Detail View form.</comment>
   </data>
-  <data name="AdditionalFieldsExample" lastModified="2014-04-07T14:32:44">
+  <data name="AdditionalFieldsExample" lastModified="2014-07-22T13:48:17">
     <value>Example: Author, SourceName</value>
     <comment>The example of the 'Advanced settings' field in the Backend Detail View form.</comment>
   </data>
-  <data name="AdditionalFieldsErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="AdditionalFieldsErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>You have entered invalid symbols. Use letters, numbers and "_" symbol.</value>
     <comment>The error message of the 'Advanced settings' field in the Backend Detail View form.</comment>
   </data>

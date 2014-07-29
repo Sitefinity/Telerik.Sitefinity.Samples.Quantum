@@ -125,2519 +125,2535 @@
     <value>Mark as shipped</value>
     <comment>phrase: Mark as shipped</comment>
   </data>
-  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleTitle" lastModified="2014-07-22T13:48:17">
     <value>Orders</value>
     <comment>Title of the ecommerce orders node.</comment>
   </data>
-  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleDescription" lastModified="2014-07-22T13:48:17">
     <value>Module that manages the orders for the ecommerce module</value>
     <comment>Description of the ecommerce node.</comment>
   </data>
-  <data name="CustomersNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CustomersNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Customers</value>
     <comment>Title of the customers node.</comment>
   </data>
-  <data name="CustomerInfo" lastModified="2014-04-07T14:32:44">
+  <data name="CustomerInfo" lastModified="2014-07-22T13:48:17">
     <value>Customer Info</value>
     <comment>Customer Info</comment>
   </data>
-  <data name="AnonymousUser" lastModified="2014-04-07T14:32:44">
+  <data name="AnonymousUser" lastModified="2014-07-22T13:48:17">
     <value>Anonymous user</value>
     <comment>phrase: Anonymous user</comment>
   </data>
-  <data name="BackToCustomers" lastModified="2014-04-07T14:32:44">
+  <data name="BackToCustomers" lastModified="2014-07-22T13:48:17">
     <value>Back to customers</value>
     <comment>Back To Customers</comment>
   </data>
-  <data name="BackToCustomer" lastModified="2014-04-07T14:32:44">
+  <data name="BackToCustomer" lastModified="2014-07-22T13:48:17">
     <value>Back to customer</value>
     <comment>Back To Customer</comment>
   </data>
-  <data name="OrderInfo" lastModified="2014-04-07T14:32:44">
+  <data name="OrderInfo" lastModified="2014-07-22T13:48:17">
     <value>Order Info</value>
     <comment>Customer Info</comment>
   </data>
-  <data name="Status" lastModified="2014-04-07T14:32:44">
+  <data name="Status" lastModified="2014-07-22T13:48:17">
     <value>Status</value>
     <comment>word: Status</comment>
   </data>
-  <data name="OrderedOn" lastModified="2014-04-07T14:32:44">
+  <data name="OrderedOn" lastModified="2014-07-22T13:48:17">
     <value>Ordered on</value>
     <comment>phrase: Ordered on</comment>
   </data>
-  <data name="ShippedOn" lastModified="2014-04-07T14:32:44">
+  <data name="ShippedOn" lastModified="2014-07-22T13:48:17">
     <value>Shipped on</value>
     <comment>phrase: Shipped on</comment>
   </data>
-  <data name="ShippingBillingAddressForm" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingBillingAddressForm" lastModified="2014-07-22T13:48:17">
     <value>Shipping/billing address form</value>
     <comment>phrase: Shipping/billing address form</comment>
   </data>
-  <data name="OrderNumber" lastModified="2014-04-07T14:32:44">
+  <data name="OrderNumber" lastModified="2014-07-22T13:48:17">
     <value>Order Number</value>
     <comment>phrase: Order Number</comment>
   </data>
-  <data name="OrderNo" lastModified="2014-04-07T14:32:44">
+  <data name="OrderNo" lastModified="2014-07-22T13:48:17">
     <value>Order No.</value>
     <comment>phrase: Order No.</comment>
   </data>
-  <data name="BackToOrders" lastModified="2014-04-07T14:32:44">
+  <data name="BackToOrders" lastModified="2014-07-22T13:48:17">
     <value>Back to Orders</value>
     <comment>Back to Orders</comment>
   </data>
-  <data name="CustomersNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="CustomersNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>customers</value>
     <comment>Url name of the customers node.</comment>
   </data>
-  <data name="OrdersNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Orders</value>
     <comment>Title of the orders node.</comment>
   </data>
-  <data name="OrdersNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>orders</value>
     <comment>Url name of the orders node.</comment>
   </data>
-  <data name="Discounts" lastModified="2014-04-07T14:32:44">
+  <data name="Discounts" lastModified="2014-07-22T13:48:17">
     <value>Discounts</value>
     <comment>word: Discounts</comment>
   </data>
-  <data name="TotalDiscounts" lastModified="2014-04-07T14:32:44">
+  <data name="TotalDiscounts" lastModified="2014-07-22T13:48:17">
     <value>Total Discounts</value>
     <comment>word: Total Discounts</comment>
   </data>
-  <data name="DiscountsNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Discounts</value>
     <comment>Title of the discounts node.</comment>
   </data>
-  <data name="DiscountsNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>discounts</value>
     <comment>Url name of the discounts node.</comment>
   </data>
-  <data name="DiscountInfo" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountInfo" lastModified="2014-07-22T13:48:17">
     <value>Discount Info</value>
     <comment>Discount Info</comment>
   </data>
-  <data name="AtThisMomentYouHaveNoDiscounts" lastModified="2014-04-07T14:32:44">
+  <data name="AtThisMomentYouHaveNoDiscounts" lastModified="2014-07-22T13:48:17">
     <value>At this moment you have no discounts</value>
     <comment>phrase: At this moment you have no discounts</comment>
   </data>
-  <data name="PaymentMethodsNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Payment methods</value>
     <comment>Title of the payment methods node.</comment>
   </data>
-  <data name="PaymentMethodsNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>payment-methods</value>
     <comment>Url name of the payment methods node.</comment>
   </data>
-  <data name="PaymentProcessingError" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentProcessingError" lastModified="2014-07-22T13:48:17">
     <value>There was an error processing your payment. Please try again at a later time.</value>
     <comment>Phrase: There was an error processing your payment. Please try again at a later time.</comment>
   </data>
-  <data name="ShoppingCartSettingsNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartSettingsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart settings</value>
     <comment>Title of the shopping cart settings node.</comment>
   </data>
-  <data name="ShoppingCartSettingsNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartSettingsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>shopping-cart-settings</value>
     <comment>Url name of the shopping cart settings node.</comment>
   </data>
-  <data name="OrdersReportsByPeriodNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersReportsByPeriodNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Reports</value>
     <comment>Title of the reports node.</comment>
   </data>
-  <data name="OrdersReportsByPeriodNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersReportsByPeriodNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>reports-by-period</value>
     <comment>Url name of the reports node.</comment>
   </data>
-  <data name="OrdersReportByRegionNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersReportByRegionNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Orders reports by region</value>
     <comment>Title of the node that displays the orders reports by region</comment>
   </data>
-  <data name="OrdersReportByRegionUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersReportByRegionUrlName" lastModified="2014-07-22T13:48:17">
     <value>reports-by-region</value>
     <comment>Url name of the orders reports by region.</comment>
   </data>
-  <data name="OrdersReportsByProductNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersReportsByProductNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Orders reports by product</value>
     <comment>Title of the node that displays the orders by product.</comment>
   </data>
-  <data name="OrdersReportsByProductUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersReportsByProductUrlName" lastModified="2014-07-22T13:48:17">
     <value>reports-by-product</value>
     <comment>Url name of the orders reports by product.</comment>
   </data>
-  <data name="TaxesNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TaxesNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Taxes</value>
     <comment>Title of the taxes node.</comment>
   </data>
-  <data name="TaxesNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="TaxesNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>taxes</value>
     <comment>Url name of the taxes node.</comment>
   </data>
-  <data name="Quantity" lastModified="2014-04-07T14:32:44">
+  <data name="Quantity" lastModified="2014-07-22T13:48:17">
     <value>Quantity</value>
     <comment>word: Quantity</comment>
   </data>
-  <data name="QuantityColon" lastModified="2014-04-07T14:32:44">
+  <data name="QuantityColon" lastModified="2014-07-22T13:48:17">
     <value>Quantity:</value>
     <comment>word: Quantity</comment>
   </data>
-  <data name="AddToCart" lastModified="2014-04-07T14:32:44">
+  <data name="AddToCart" lastModified="2014-07-22T13:48:17">
     <value>Add to cart</value>
     <comment>The label of the button that adds product to cart.</comment>
   </data>
-  <data name="ShoppingCartSummaryToolboxName" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartSummaryToolboxName" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart summary</value>
     <comment>The title of the shopping cart summary widget in the toolbox.</comment>
   </data>
-  <data name="ShoppingCartSummaryToolboxDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartSummaryToolboxDescription" lastModified="2014-07-22T13:48:17">
     <value>Summary of current user’s shopping cart</value>
     <comment>The description of the shopping cart summary widget in the toolbox.</comment>
   </data>
-  <data name="ShoppingCartSummaryTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartSummaryTemplate" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart summary template</value>
     <comment>phrase: Shopping cart summary template.</comment>
   </data>
-  <data name="ShoppingCartTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartTemplate" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart template</value>
     <comment>phrase: Shopping cart template.</comment>
   </data>
-  <data name="ShoppingCartViewPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartViewPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Shopping Cart</value>
     <comment>word: Shopping Cart</comment>
   </data>
-  <data name="ShoppingCartToolboxName" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartToolboxName" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart</value>
     <comment>The title of the shopping cart widget in the toolbox.</comment>
   </data>
-  <data name="ShoppingCartToolboxDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartToolboxDescription" lastModified="2014-07-22T13:48:17">
     <value>All products selected for buying by currently logged users</value>
     <comment>The description of the shopping cart widget in the toolbox.</comment>
   </data>
-  <data name="OrdersList" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersList" lastModified="2014-07-22T13:48:17">
     <value>Orders list</value>
     <comment>The title of the orders list.</comment>
   </data>
-  <data name="SetOrdersList" lastModified="2014-04-07T14:32:44">
+  <data name="SetOrdersList" lastModified="2014-07-22T13:48:17">
     <value>Set Orders list</value>
     <comment>Phrase: Set Orders list</comment>
   </data>
-  <data name="OrdersListNotSetUp" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersListNotSetUp" lastModified="2014-07-22T13:48:17">
     <value>Orders list not set up</value>
     <comment>Phrase: Orders list not set up</comment>
   </data>
-  <data name="OrderInvoice" lastModified="2014-04-07T14:32:44">
+  <data name="OrderInvoice" lastModified="2014-07-22T13:48:17">
     <value>Order Invoice</value>
     <comment>The title of the Orders Invoice widget.</comment>
   </data>
-  <data name="OrderInvoicePropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OrderInvoicePropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Order invoice</value>
     <comment>Order invoice.</comment>
   </data>
-  <data name="OrderInvoiceDesignerViewContent" lastModified="2014-04-07T14:32:44">
+  <data name="OrderInvoiceDesignerViewContent" lastModified="2014-07-22T13:48:17">
     <value>Orders Invoice</value>
     <comment>The content for the Orders Invoice Designer View</comment>
   </data>
-  <data name="CheckoutToolboxName" lastModified="2014-04-07T14:32:44">
+  <data name="CheckoutToolboxName" lastModified="2014-07-22T13:48:17">
     <value>Checkout</value>
     <comment>The title of the checkout widget in the toolbox.</comment>
   </data>
-  <data name="CheckoutToolboxDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CheckoutToolboxDescription" lastModified="2014-07-22T13:48:17">
     <value>Wizard for completing an order: entering shipping and payment details</value>
     <comment>The description of the check out widget in the toolbox.</comment>
   </data>
-  <data name="ShippingAddress" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingAddress" lastModified="2014-07-22T13:48:17">
     <value>Shipping address</value>
     <comment>phrase: Shipping address</comment>
   </data>
-  <data name="FirstName" lastModified="2014-04-07T14:32:44">
+  <data name="FirstName" lastModified="2014-07-22T13:48:17">
     <value>First name</value>
     <comment>phrase: First name</comment>
   </data>
-  <data name="LastName" lastModified="2014-04-07T14:32:44">
+  <data name="LastName" lastModified="2014-07-22T13:48:17">
     <value>Last name</value>
     <comment>phrase: Last name</comment>
   </data>
-  <data name="Company" lastModified="2014-04-07T14:32:44">
+  <data name="Company" lastModified="2014-07-22T13:48:17">
     <value>Company</value>
     <comment>phrase: Company</comment>
   </data>
-  <data name="Email" lastModified="2014-04-07T14:32:44">
+  <data name="Email" lastModified="2014-07-22T13:48:17">
     <value>Email</value>
     <comment>phrase: Email</comment>
   </data>
-  <data name="AddressLine1" lastModified="2014-04-07T14:32:44">
+  <data name="AddressLine1" lastModified="2014-07-22T13:48:17">
     <value>Address line 1</value>
     <comment>phrase: Address line 1</comment>
   </data>
-  <data name="AddressLine2" lastModified="2014-04-07T14:32:44">
+  <data name="AddressLine2" lastModified="2014-07-22T13:48:17">
     <value>Address line 2</value>
     <comment>phrase: Address line 2</comment>
   </data>
-  <data name="City" lastModified="2014-04-07T14:32:44">
+  <data name="City" lastModified="2014-07-22T13:48:17">
     <value>City</value>
     <comment>word: City</comment>
   </data>
-  <data name="Country" lastModified="2014-04-07T14:32:44">
+  <data name="Country" lastModified="2014-07-22T13:48:17">
     <value>Country</value>
     <comment>word: Country</comment>
   </data>
-  <data name="CountryOfDelivery" lastModified="2014-04-07T14:32:44">
+  <data name="CountryOfDelivery" lastModified="2014-07-22T13:48:17">
     <value>Country of delivery</value>
     <comment>phrase: Country of delivery</comment>
   </data>
-  <data name="StateOrProvince" lastModified="2014-04-07T14:32:44">
+  <data name="StateOrProvince" lastModified="2014-07-22T13:48:17">
     <value>State / province</value>
     <comment>phrase: State / Province</comment>
   </data>
-  <data name="Zip" lastModified="2014-04-07T14:32:44">
+  <data name="Zip" lastModified="2014-07-22T13:48:17">
     <value>Zip</value>
     <comment>word: Zip</comment>
   </data>
-  <data name="PhoneNumber" lastModified="2014-04-07T14:32:44">
+  <data name="PhoneNumber" lastModified="2014-07-22T13:48:17">
     <value>Phone number</value>
     <comment>phrase: Phone number</comment>
   </data>
-  <data name="UseShippingAddressAsBillingAddress" lastModified="2014-04-07T14:32:44">
+  <data name="UseShippingAddressAsBillingAddress" lastModified="2014-07-22T13:48:17">
     <value>Billing address is the same as the shipping address</value>
     <comment>Message that indicates that billing address is same as the shipping address.</comment>
   </data>
-  <data name="ShippingInformation" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingInformation" lastModified="2014-07-22T13:48:17">
     <value>Shipping information</value>
     <comment>phrase: Shipping information</comment>
   </data>
-  <data name="Carrier" lastModified="2014-04-07T14:32:44">
+  <data name="Carrier" lastModified="2014-07-22T13:48:17">
     <value>Carrier</value>
     <comment>word: Carrier</comment>
   </data>
-  <data name="Service" lastModified="2014-04-07T14:32:44">
+  <data name="Service" lastModified="2014-07-22T13:48:17">
     <value>Service</value>
     <comment>word: Service</comment>
   </data>
-  <data name="ShippingOptions" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingOptions" lastModified="2014-07-22T13:48:17">
     <value>Shipping options</value>
     <comment>phrase: Shipping options</comment>
   </data>
-  <data name="Options" lastModified="2014-04-07T14:32:44">
+  <data name="Options" lastModified="2014-07-22T13:48:17">
     <value>Options</value>
     <comment>word: Options</comment>
   </data>
-  <data name="Payment" lastModified="2014-04-07T14:32:44">
+  <data name="Payment" lastModified="2014-07-22T13:48:17">
     <value>Payment</value>
     <comment>word: Payment</comment>
   </data>
-  <data name="Preview" lastModified="2014-04-07T14:32:44">
+  <data name="Preview" lastModified="2014-07-22T13:48:17">
     <value>Preview</value>
     <comment>word: Preview</comment>
   </data>
-  <data name="Confirmation" lastModified="2014-04-07T14:32:44">
+  <data name="Confirmation" lastModified="2014-07-22T13:48:17">
     <value>Confirmation</value>
     <comment>word: Confirmation</comment>
   </data>
-  <data name="Step1ShippingInformation" lastModified="2014-04-07T14:32:44">
+  <data name="Step1ShippingInformation" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong class='sfStep'&gt;1&lt;/strong&gt; Shipping information</value>
     <comment>phrase: Shipping information</comment>
   </data>
-  <data name="Step1BillingInformation" lastModified="2014-04-07T14:32:44">
+  <data name="Step1BillingInformation" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong class='sfStep'&gt;1&lt;/strong&gt; Billing information</value>
     <comment>phrase: Billing information</comment>
   </data>
-  <data name="Step2ShippingOptions" lastModified="2014-04-07T14:32:44">
+  <data name="Step2ShippingOptions" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong class='sfStep'&gt;2&lt;/strong&gt; Shipping options</value>
     <comment>phrase: Shipping options</comment>
   </data>
-  <data name="Step2Payment" lastModified="2014-04-07T14:32:44">
+  <data name="Step2Payment" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong class='sfStep'&gt;2&lt;/strong&gt; Payment</value>
     <comment>word: Payment</comment>
   </data>
-  <data name="Step3Payment" lastModified="2014-04-07T14:32:44">
+  <data name="Step3Payment" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong class='sfStep'&gt;3&lt;/strong&gt; Payment</value>
     <comment>word: Payment</comment>
   </data>
-  <data name="Step3Preview" lastModified="2014-04-07T14:32:44">
+  <data name="Step3Preview" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong class='sfStep'&gt;3&lt;/strong&gt; Preview</value>
     <comment>word: Preview</comment>
   </data>
-  <data name="Step4Preview" lastModified="2014-04-07T14:32:44">
+  <data name="Step4Preview" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong class='sfStep'&gt;4&lt;/strong&gt; Preview</value>
     <comment>word: Preview</comment>
   </data>
-  <data name="Step4Confirmation" lastModified="2014-04-07T14:32:44">
+  <data name="Step4Confirmation" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong class='sfStep'&gt;4&lt;/strong&gt; Confirmation</value>
     <comment>word: Confirmation</comment>
   </data>
-  <data name="Step5Confirmation" lastModified="2014-04-07T14:32:44">
+  <data name="Step5Confirmation" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong class='sfStep'&gt;5&lt;/strong&gt; Confirmation</value>
     <comment>word: Confirmation</comment>
   </data>
-  <data name="GetShippingRates" lastModified="2014-04-07T14:32:44">
+  <data name="GetShippingRates" lastModified="2014-07-22T13:48:17">
     <value>Get shipping rates</value>
     <comment>phrase: Get shipping rates</comment>
   </data>
-  <data name="OrderSummary" lastModified="2014-04-07T14:32:44">
+  <data name="OrderSummary" lastModified="2014-07-22T13:48:17">
     <value>Order summary</value>
     <comment>phrase: Order summary</comment>
   </data>
-  <data name="Order" lastModified="2014-04-07T14:32:44">
+  <data name="Order" lastModified="2014-07-22T13:48:17">
     <value>Order</value>
     <comment>word: Order</comment>
   </data>
-  <data name="Date" lastModified="2014-04-07T14:32:44">
+  <data name="Date" lastModified="2014-07-22T13:48:17">
     <value>Date</value>
     <comment>word: Date</comment>
   </data>
-  <data name="Shipping" lastModified="2014-04-07T14:32:44">
+  <data name="Shipping" lastModified="2014-07-22T13:48:17">
     <value>Shipping</value>
     <comment>word: Shipping</comment>
   </data>
-  <data name="Tax" lastModified="2014-04-07T14:32:44">
+  <data name="Tax" lastModified="2014-07-22T13:48:17">
     <value>Tax</value>
     <comment>word: Tax</comment>
   </data>
-  <data name="Total" lastModified="2014-04-07T14:32:44">
+  <data name="Total" lastModified="2014-07-22T13:48:17">
     <value>Total</value>
     <comment>word: Total</comment>
   </data>
-  <data name="OrderTotal" lastModified="2014-04-07T14:32:44">
+  <data name="OrderTotal" lastModified="2014-07-22T13:48:17">
     <value>Order Total</value>
     <comment>phrase: Order Total</comment>
   </data>
-  <data name="PaymentOptions" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentOptions" lastModified="2014-07-22T13:48:17">
     <value>Payment options</value>
     <comment>phrase: Payment options</comment>
   </data>
-  <data name="Continue" lastModified="2014-04-07T14:32:44">
+  <data name="Continue" lastModified="2014-07-22T13:48:17">
     <value>Continue</value>
     <comment>word: Continue</comment>
   </data>
-  <data name="CreditCard" lastModified="2014-04-07T14:32:44">
+  <data name="CreditCard" lastModified="2014-07-22T13:48:17">
     <value>Credit card</value>
     <comment>phrase: Credit card</comment>
   </data>
-  <data name="CardNumber" lastModified="2014-04-07T14:32:44">
+  <data name="CardNumber" lastModified="2014-07-22T13:48:17">
     <value>Card number</value>
     <comment>phrase: Card number</comment>
   </data>
-  <data name="CardholderName" lastModified="2014-04-07T14:32:44">
+  <data name="CardholderName" lastModified="2014-07-22T13:48:17">
     <value>Cardholder name</value>
     <comment>phrase: Cardholder name</comment>
   </data>
-  <data name="ExpirationDate" lastModified="2014-04-07T14:32:44">
+  <data name="ExpirationDate" lastModified="2014-07-22T13:48:17">
     <value>Expiration date</value>
     <comment>phrase: Expiration date</comment>
   </data>
-  <data name="SecurityCode" lastModified="2014-04-07T14:32:44">
+  <data name="SecurityCode" lastModified="2014-07-22T13:48:17">
     <value>Security code</value>
     <comment>phrase: Security code</comment>
   </data>
-  <data name="PlaceThisOrder" lastModified="2014-04-07T14:32:44">
+  <data name="PlaceThisOrder" lastModified="2014-07-22T13:48:17">
     <value>Place this order</value>
     <comment>The text of the button that places the order.</comment>
   </data>
-  <data name="ShippingMethod" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingMethod" lastModified="2014-07-22T13:48:17">
     <value>Shipping method</value>
     <comment>phrase: Shipping method</comment>
   </data>
-  <data name="Products" lastModified="2014-04-07T14:32:44">
+  <data name="Products" lastModified="2014-07-22T13:48:17">
     <value>Products</value>
     <comment>word: Products</comment>
   </data>
-  <data name="items" lastModified="2014-04-07T14:32:44">
+  <data name="items" lastModified="2014-07-22T13:48:17">
     <value>items</value>
     <comment>word: items</comment>
   </data>
-  <data name="ProductsSubtotal" lastModified="2014-04-07T14:32:44">
+  <data name="ProductsSubtotal" lastModified="2014-07-22T13:48:17">
     <value>product(s) Subtotal</value>
     <comment>word: product(s) Subtotal</comment>
   </data>
-  <data name="VATTax" lastModified="2014-04-07T14:32:44">
+  <data name="VATTax" lastModified="2014-07-22T13:48:17">
     <value>VAT Tax</value>
     <comment>word: VAT Tax</comment>
   </data>
-  <data name="ExcludingVatTax" lastModified="2014-04-07T14:32:44">
+  <data name="ExcludingVatTax" lastModified="2014-07-22T13:48:17">
     <value>(Excluding Taxes)</value>
     <comment>phrase: Excluding Taxes</comment>
   </data>
-  <data name="ProductDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ProductDescription" lastModified="2014-07-22T13:48:17">
     <value>Product</value>
     <comment>phrase: Product</comment>
   </data>
-  <data name="ProductOptions" lastModified="2014-04-07T14:32:44">
+  <data name="ProductOptions" lastModified="2014-07-22T13:48:17">
     <value>Options</value>
     <comment>phrase: Options</comment>
   </data>
-  <data name="OutOfStock" lastModified="2014-04-07T14:32:44">
+  <data name="OutOfStock" lastModified="2014-07-22T13:48:17">
     <value>Out of stock</value>
     <comment>phrase: Out of stock</comment>
   </data>
-  <data name="CartProductNoInventory" lastModified="2014-04-07T14:32:44">
+  <data name="CartProductNoInventory" lastModified="2014-07-22T13:48:17">
     <value>We apologize that product &lt;strong&gt;{0}&lt;/strong&gt; has been removed from your shopping cart. This may be caused by inventory being sold out.  You must return to the shipping options page to recalculate shipping before checking out.</value>
     <comment>Shown to the user when product inventory is empty for a product in the customer's shopping cart</comment>
   </data>
-  <data name="CartEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="CartEmpty" lastModified="2014-07-22T13:48:17">
     <value>We apologize that product &lt;strong&gt;{0}&lt;/strong&gt; is no longer available.   Please continue shopping.</value>
     <comment>Shown to the user when shopping cart is empty on the checkout or shopping cart pages</comment>
   </data>
-  <data name="CartEmptyOnCheckout" lastModified="2014-04-07T14:32:44">
+  <data name="CartEmptyOnCheckout" lastModified="2014-07-22T13:48:17">
     <value>We apologize but products in your cart are no longer available.   Please continue shopping.</value>
     <comment>Shown to the user when shopping cart is empty after clicking on Checkout button</comment>
   </data>
-  <data name="CartTotalInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="CartTotalInvalid" lastModified="2014-07-22T13:48:17">
     <value>We apologize but your order total is too high to process.</value>
     <comment>Shown to the user when shopping cart total is invalid (too high)</comment>
   </data>
-  <data name="ShippingMethodInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingMethodInvalid" lastModified="2014-07-22T13:48:17">
     <value>We apologize but the shipping method you selected is no longer available.  Please return to the Shipping Options page and select a different shipping method.</value>
     <comment>We apologize but the shipping method you selected is no longer available.  Please return to the Shipping Options page and select a different shipping method.</comment>
   </data>
-  <data name="ShoppingCartProductInventoryChange" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartProductInventoryChange" lastModified="2014-07-22T13:48:17">
     <value>We apologize that the available inventory for product {0} has been changed to {1}.  You may place your order with this reduced quantity.  The total price has been recalculated.</value>
     <comment>We apologize that the available inventory for product {0} has been changed to {1}.  You may place your order with this reduced quantity.  The total price has been recalculated.</comment>
   </data>
-  <data name="ShoppingCartProductNoInventory" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartProductNoInventory" lastModified="2014-07-22T13:48:17">
     <value>We apologize that product &lt;strong&gt;{0}&lt;/strong&gt; has been removed from your shopping cart. This may be caused by inventory being sold out.  You may place your order without this product.  The total price has been recalculated.</value>
     <comment>Shown to the user when product inventory is empty for a product in the customer's shopping cart</comment>
   </data>
-  <data name="CartProductInventoryChange" lastModified="2014-04-07T14:32:44">
+  <data name="CartProductInventoryChange" lastModified="2014-07-22T13:48:17">
     <value>We apologize that the available inventory for product {0} has been changed to {1}.  You must return to the shipping options page to recalculate shipping before checking out.</value>
     <comment>We apologize that the available inventory for product {0} has been changed to {1}.  You must return to the shipping options page to recalculate shipping before checking out.</comment>
   </data>
-  <data name="InventoryChange" lastModified="2014-04-07T14:32:44">
+  <data name="InventoryChange" lastModified="2014-07-22T13:48:17">
     <value>Inventory Change</value>
     <comment>phrase: Inventory Change</comment>
   </data>
-  <data name="BasePrice" lastModified="2014-04-07T14:32:44">
+  <data name="BasePrice" lastModified="2014-07-22T13:48:17">
     <value>Base Price</value>
     <comment>word: Base Price</comment>
   </data>
-  <data name="Price" lastModified="2014-04-07T14:32:44">
+  <data name="Price" lastModified="2014-07-22T13:48:17">
     <value>Price</value>
     <comment>word: Price</comment>
   </data>
-  <data name="TotalPrice" lastModified="2014-04-07T14:32:44">
+  <data name="TotalPrice" lastModified="2014-07-22T13:48:17">
     <value>Total Price</value>
     <comment>word: TotalPrice</comment>
   </data>
-  <data name="ContinueShopping" lastModified="2014-04-07T14:32:44">
+  <data name="ContinueShopping" lastModified="2014-07-22T13:48:17">
     <value>Continue shopping</value>
     <comment>phrase: Continue shopping</comment>
   </data>
-  <data name="BillingAddress" lastModified="2014-04-07T14:32:44">
+  <data name="BillingAddress" lastModified="2014-07-22T13:48:17">
     <value>Billing address</value>
     <comment>phrase: Billing address</comment>
   </data>
-  <data name="Shipment" lastModified="2014-04-07T14:32:44">
+  <data name="Shipment" lastModified="2014-07-22T13:48:17">
     <value>Shipment</value>
     <comment>word: Shipment</comment>
   </data>
-  <data name="PaymentMethod" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethod" lastModified="2014-07-22T13:48:17">
     <value>Payment method</value>
     <comment>phrase: Payment method</comment>
   </data>
-  <data name="AuthNetAimMethod" lastModified="2014-04-07T14:32:44">
+  <data name="AuthNetAimMethod" lastModified="2014-07-22T13:48:17">
     <value>Authorize.Net AIM</value>
     <comment>phrase: Authorize.Net AIM</comment>
   </data>
-  <data name="PayFlowProMethod" lastModified="2014-04-07T14:32:44">
+  <data name="PayFlowProMethod" lastModified="2014-07-22T13:48:17">
     <value>PayPal PayFlowPro</value>
     <comment>word: PayFlowPro</comment>
   </data>
-  <data name="ProductSlashSku" lastModified="2014-04-07T14:32:44">
+  <data name="ProductSlashSku" lastModified="2014-07-22T13:48:17">
     <value>Product / Sku</value>
     <comment>phrase: Product / Sku</comment>
   </data>
-  <data name="ItemsSubtotal" lastModified="2014-04-07T14:32:44">
+  <data name="ItemsSubtotal" lastModified="2014-07-22T13:48:17">
     <value>Item(s) Subtotal</value>
     <comment>phrase: Items(s) Subtotal</comment>
   </data>
-  <data name="ShippingAndHandling" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingAndHandling" lastModified="2014-07-22T13:48:17">
     <value>Shipping &amp;amp; Handling</value>
     <comment>phrase: Shipping &amp; Handling</comment>
   </data>
-  <data name="TotalBeforeTax" lastModified="2014-04-07T14:32:44">
+  <data name="TotalBeforeTax" lastModified="2014-07-22T13:48:17">
     <value>Total Before Tax</value>
     <comment>phrase: Total Before Tax</comment>
   </data>
-  <data name="SalesTax" lastModified="2014-04-07T14:32:44">
+  <data name="SalesTax" lastModified="2014-07-22T13:48:17">
     <value>Sales Tax</value>
     <comment>phrase: Sales Tax</comment>
   </data>
-  <data name="PaymentReceived" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentReceived" lastModified="2014-07-22T13:48:17">
     <value>Payment received</value>
     <comment>phrase: Payment received</comment>
   </data>
-  <data name="OrderPlacement_Success" lastModified="2014-04-07T14:32:44">
+  <data name="OrderPlacement_Success" lastModified="2014-07-22T13:48:17">
     <value>Your order has been placed successfully</value>
     <comment>Message shown to user when order was placed successfully.</comment>
   </data>
-  <data name="OrderPlacement_Failure" lastModified="2014-04-07T14:32:44">
+  <data name="OrderPlacement_Failure" lastModified="2014-07-22T13:48:17">
     <value>There was a problem while placing your order. Order was not placed</value>
     <comment>Message shown to user when order was not placed correctly.</comment>
   </data>
-  <data name="FirstNameShippingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="FirstNameShippingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the shipping first name</value>
     <comment>The message shown to the user if shipping first name is not entered.</comment>
   </data>
-  <data name="LastNameShippingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="LastNameShippingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the shipping last name</value>
     <comment>The message shown to the user if shipping last name is not entered.</comment>
   </data>
-  <data name="EmailShippingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="EmailShippingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the shipping email</value>
     <comment>The message shown to the user if shipping email is not entered.</comment>
   </data>
-  <data name="Address1ShippingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="Address1ShippingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the shipping address</value>
     <comment>The message shown to the user if shipping address is not entered.</comment>
   </data>
-  <data name="CityShippingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="CityShippingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the shipping city</value>
     <comment>The message shown to the user if shipping city is not specified.</comment>
   </data>
-  <data name="ZipShippingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="ZipShippingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the zip code for the shipping destination</value>
     <comment>The message shown to the user if zip code for the shipping destination is not specified.</comment>
   </data>
-  <data name="FirstNameBillingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="FirstNameBillingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the billing first name</value>
     <comment>The message shown to the user if billing first name is not entered.</comment>
   </data>
-  <data name="LastNameBillingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="LastNameBillingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the billing last name</value>
     <comment>The message shown to the user if billing last name is not entered.</comment>
   </data>
-  <data name="EmailBillingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="EmailBillingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the billing email</value>
     <comment>The message shown to the user if billing email is not entered.</comment>
   </data>
-  <data name="Address1BillingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="Address1BillingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the billing address</value>
     <comment>The message shown to the user if billing address is not entered.</comment>
   </data>
-  <data name="CityBillingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="CityBillingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the billing city</value>
     <comment>The message shown to the user if billing city is not specified.</comment>
   </data>
-  <data name="ZipBillingIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="ZipBillingIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the zip code for the billing destination</value>
     <comment>The message shown to the user if zip code for the billing destination is not specified.</comment>
   </data>
-  <data name="CardNumberIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="CardNumberIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the credit card number</value>
     <comment>The message shown to the user if credit card number is not entered.</comment>
   </data>
-  <data name="CardholderNameIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="CardholderNameIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the cardholder name</value>
     <comment>The message shown to the user if credit card cardholder name is not entered.</comment>
   </data>
-  <data name="SecurityCodeIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="SecurityCodeIsRequired" lastModified="2014-07-22T13:48:17">
     <value>It is required to enter the credit card security code</value>
     <comment>The message shown to the user if credit card security code is not entered.</comment>
   </data>
-  <data name="Remove" lastModified="2014-04-07T14:32:44">
+  <data name="Remove" lastModified="2014-07-22T13:48:17">
     <value>Remove</value>
     <comment>word: Remove</comment>
   </data>
-  <data name="Change" lastModified="2014-04-07T14:32:44">
+  <data name="Change" lastModified="2014-07-22T13:48:17">
     <value>Change</value>
     <comment>word: Change (a coupon code)</comment>
   </data>
-  <data name="Undo" lastModified="2014-04-07T14:32:44">
+  <data name="Undo" lastModified="2014-07-22T13:48:17">
     <value>Undo</value>
     <comment>word: Undo (adding coupon code)</comment>
   </data>
-  <data name="CouponCode" lastModified="2014-04-07T14:32:44">
+  <data name="CouponCode" lastModified="2014-07-22T13:48:17">
     <value>Coupon code:</value>
     <comment>phrase: Coupon code:</comment>
   </data>
-  <data name="DontUseCouponCode" lastModified="2014-04-07T14:32:44">
+  <data name="DontUseCouponCode" lastModified="2014-07-22T13:48:17">
     <value>Don't use a coupon code</value>
     <comment>phrase: Don't use a coupon code</comment>
   </data>
-  <data name="ProductQuantityIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="ProductQuantityIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The quantity must be greater than 0 and less than 9,999.</value>
     <comment>The message shown to the user if the quantity in the is not valid when trying to add to cart.</comment>
   </data>
-  <data name="ProductQuantityIsInvalidInShoppingCart" lastModified="2014-04-07T14:32:44">
+  <data name="ProductQuantityIsInvalidInShoppingCart" lastModified="2014-07-22T13:48:17">
     <value>The quantity must be between 0 and 9,999 (0 removes the product from your cart).</value>
     <comment>The message shown to the user if the quantity in the is not valid when trying to add to cart.</comment>
   </data>
-  <data name="ProductQuantityIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="ProductQuantityIsRequired" lastModified="2014-07-22T13:48:17">
     <value>When adding product to a cart you must specify the quantity</value>
     <comment>The message shown to the user if the quantity of products was not specified</comment>
   </data>
-  <data name="ModifyYourPaymentSettings" lastModified="2014-04-07T14:32:44">
+  <data name="ModifyYourPaymentSettings" lastModified="2014-07-22T13:48:17">
     <value>Modify your payment settings</value>
     <comment>The text of the button displayed to the user when there is a problem with the payment.</comment>
   </data>
-  <data name="CreditCardNumberIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="CreditCardNumberIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The credit card number is invalid. Please check that the credit card number is correct and that the credit card type selected in the drop-down is correct.</value>
     <comment>The message shown to the user if the credit card number is invalid.</comment>
   </data>
-  <data name="CreditCardVerificationCodeIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="CreditCardVerificationCodeIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>Please enter a valid security code.</value>
     <comment>phrase: Please enter a valid security code.</comment>
   </data>
-  <data name="NoShippingOptionsAreAvailable" lastModified="2014-04-07T14:32:44">
+  <data name="NoShippingOptionsAreAvailable" lastModified="2014-07-22T13:48:17">
     <value>No shipping options are available, please create a shipping method in order to continue.</value>
     <comment>Message shown to the user if no shopping options are available.</comment>
   </data>
-  <data name="ModifyShippingInformation" lastModified="2014-04-07T14:32:44">
+  <data name="ModifyShippingInformation" lastModified="2014-07-22T13:48:17">
     <value>Modify shipping information</value>
     <comment>Text of the button displayed to user if no shipping options are available.</comment>
   </data>
-  <data name="EditProperties" lastModified="2014-04-07T14:32:44">
+  <data name="EditProperties" lastModified="2014-07-22T13:48:17">
     <value>Edit properties</value>
     <comment>phrase: Edit properties</comment>
   </data>
-  <data name="CreatePaymentMethod" lastModified="2014-04-07T14:32:44">
+  <data name="OrderDiscountReachedLimit" lastModified="2014-07-22T13:48:17">
+    <value>One of the discount in this order has reached its usage limit, please update usage of the discount and then move the order to Paid status</value>
+    <comment>phrase: One of the discount in this order has reached its usage limit, please update usage of the discount and then move the order to Paid status</comment>
+  </data>
+  <data name="OrderDiscountDeleted" lastModified="2014-07-22T13:48:17">
+    <value>One of the discount in this order has been deleted, you are not allowed to move the order to Paid status</value>
+    <comment>phrase: One of the discount in this order has been deleted, you are not allowed to move the order to Paid status</comment>
+  </data>
+  <data name="CreatePaymentMethod" lastModified="2014-07-22T13:48:17">
     <value>Create payment method</value>
     <comment>phrase: Create payment method</comment>
   </data>
-  <data name="CreateThisPaymentMethod" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisPaymentMethod" lastModified="2014-07-22T13:48:17">
     <value>Create this payment method</value>
     <comment>phrase: Create this payment method</comment>
   </data>
-  <data name="CreateAPaymentMethod" lastModified="2014-04-07T14:32:44">
+  <data name="CreateAPaymentMethod" lastModified="2014-07-22T13:48:17">
     <value>Create a payment method</value>
     <comment>phrase: Create a payment method</comment>
   </data>
-  <data name="BackToPaymentMethods" lastModified="2014-04-07T14:32:44">
+  <data name="BackToPaymentMethods" lastModified="2014-07-22T13:48:17">
     <value>Back to payment methods</value>
     <comment>phrase: Back to payment methods</comment>
   </data>
-  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+  <data name="BackToItems" lastModified="2014-07-22T13:48:17">
     <value>Back to items</value>
     <comment>phrase: Back to items</comment>
   </data>
-  <data name="PermissionsForProducts" lastModified="2014-04-07T14:32:44">
+  <data name="PermissionsForProducts" lastModified="2014-07-22T13:48:17">
     <value>Permissions for products</value>
     <comment>phrase: Permissions for products</comment>
   </data>
-  <data name="PaymentMethodName" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodName" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>The Name label for product method.</comment>
   </data>
-  <data name="EwayCustomerId" lastModified="2014-04-07T14:32:44">
+  <data name="EwayCustomerId" lastModified="2014-07-22T13:48:17">
     <value>Eway Customer Id</value>
     <comment>phrase: Eway Customer Id</comment>
   </data>
-  <data name="Description" lastModified="2014-04-07T14:32:44">
+  <data name="Description" lastModified="2014-07-22T13:48:17">
     <value>Description</value>
     <comment>The label for the product description.</comment>
   </data>
-  <data name="ClickToAddDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddDescription" lastModified="2014-07-22T13:48:17">
     <value>Click to add description</value>
     <comment>The label for the product description expand link</comment>
   </data>
-  <data name="Weight" lastModified="2014-04-07T14:32:44">
+  <data name="Weight" lastModified="2014-07-22T13:48:17">
     <value>Weight</value>
     <comment>word: Weight</comment>
   </data>
-  <data name="Sku" lastModified="2014-04-07T14:32:44">
+  <data name="Sku" lastModified="2014-07-22T13:48:17">
     <value>SKU (Stock Keeping Unit)</value>
     <comment>phrase: SKU (Stock Keeping Unit)</comment>
   </data>
-  <data name="SkuSimple" lastModified="2014-04-07T14:32:44">
+  <data name="SkuSimple" lastModified="2014-07-22T13:48:17">
     <value>SKU</value>
     <comment>word: SKU</comment>
   </data>
-  <data name="Images" lastModified="2014-04-07T14:32:44">
+  <data name="Images" lastModified="2014-07-22T13:48:17">
     <value>Images</value>
     <comment>word: Images</comment>
   </data>
-  <data name="DeleteThisItem" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteThisItem" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>word: Delete</comment>
   </data>
-  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+  <data name="SaveChanges" lastModified="2014-07-22T13:48:17">
     <value>Save changes</value>
     <comment>word: Save changes</comment>
   </data>
-  <data name="EditAPaymentMethod" lastModified="2014-04-07T14:32:44">
+  <data name="EditAPaymentMethod" lastModified="2014-07-22T13:48:17">
     <value>Edit a payment method</value>
     <comment>phrase: Edit a payment method</comment>
   </data>
-  <data name="NoPaymentMethodsHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoPaymentMethodsHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No payment methods have been created yet</value>
     <comment>The message shown when no payment methods have yet been created.</comment>
   </data>
-  <data name="PaymentMethodTitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTitleCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Payment method title cannot be empty</value>
     <comment>Payment method title cannot be empty</comment>
   </data>
-  <data name="CreditCards" lastModified="2014-04-07T14:32:44">
+  <data name="CreditCards" lastModified="2014-07-22T13:48:17">
     <value>Credit Cards</value>
     <comment>CreditCards header</comment>
   </data>
-  <data name="PaymentProcessor" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentProcessor" lastModified="2014-07-22T13:48:17">
     <value>Online payment</value>
     <comment>PaymentProcessor header</comment>
   </data>
-  <data name="PaymentProcessorDescription" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentProcessorDescription" lastModified="2014-07-22T13:48:17">
     <value>(e.g. PayPal, Google Checkout)</value>
     <comment>PaymentProcessorDescription header description</comment>
   </data>
-  <data name="OfflinePayment" lastModified="2014-04-07T14:32:44">
+  <data name="OfflinePayment" lastModified="2014-07-22T13:48:17">
     <value>Offline payment</value>
     <comment>OfflinePayment header</comment>
   </data>
-  <data name="OfflinePaymentDescription" lastModified="2014-04-07T14:32:44">
+  <data name="OfflinePaymentDescription" lastModified="2014-07-22T13:48:17">
     <value>(e.g. On delivery, Bank)</value>
     <comment>OfflinePaymentDescription header</comment>
   </data>
-  <data name="NameFieldControlExample" lastModified="2014-04-07T14:32:44">
+  <data name="NameFieldControlExample" lastModified="2014-07-22T13:48:17">
     <value>Example: Express shipping</value>
     <comment>NameFieldControlExample</comment>
   </data>
-  <data name="PaymentMethodNameFieldControlExample" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodNameFieldControlExample" lastModified="2014-07-22T13:48:17">
     <value>Example: Credit Card</value>
     <comment>The example text shown on the Create Payment Method screen.</comment>
   </data>
-  <data name="SelectPaymentProcessor" lastModified="2014-04-07T14:32:44">
+  <data name="SelectPaymentProcessor" lastModified="2014-07-22T13:48:17">
     <value>Payment processor</value>
     <comment>SelectPaymentProcessor</comment>
   </data>
-  <data name="ProductTitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="ProductTitleCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The title of the payment method must be set.</value>
     <comment>The message shown to user if no title for the payment method has been entered.</comment>
   </data>
-  <data name="PaymentMethodTitleTooLong" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTitleTooLong" lastModified="2014-07-22T13:48:17">
     <value>The length of the payment method title cannot be larger than 255 characters.</value>
     <comment>The message shown to user if the title is longer than 255 characters.</comment>
   </data>
-  <data name="Customer" lastModified="2014-04-07T14:32:44">
+  <data name="Customer" lastModified="2014-07-22T13:48:17">
     <value>Customer</value>
     <comment>word: Customer</comment>
   </data>
-  <data name="AtThisMomentYouHaveNoCustomers" lastModified="2014-04-07T14:32:44">
+  <data name="AtThisMomentYouHaveNoCustomers" lastModified="2014-07-22T13:48:17">
     <value>At this moment you have no customers</value>
     <comment>phrase: At this moment you have no customers</comment>
   </data>
-  <data name="MoneySpent" lastModified="2014-04-07T14:32:44">
+  <data name="MoneySpent" lastModified="2014-07-22T13:48:17">
     <value>Money spent</value>
     <comment>phrase: Money spent</comment>
   </data>
-  <data name="Orders" lastModified="2014-04-07T14:32:44">
+  <data name="Orders" lastModified="2014-07-22T13:48:17">
     <value>Orders</value>
     <comment>word: Orders</comment>
   </data>
-  <data name="AtThisMomentYouHaveNoOrders" lastModified="2014-04-07T14:32:44">
+  <data name="AtThisMomentYouHaveNoOrders" lastModified="2014-07-22T13:48:17">
     <value>At this moment you have no orders.</value>
     <comment>word: At this moment you have no orders.</comment>
   </data>
-  <data name="FilterCustomers" lastModified="2014-04-07T14:32:44">
+  <data name="FilterCustomers" lastModified="2014-07-22T13:48:17">
     <value>Filter customers</value>
     <comment>phrase: Filter customers</comment>
   </data>
-  <data name="AllCustomers" lastModified="2014-04-07T14:32:44">
+  <data name="AllCustomers" lastModified="2014-07-22T13:48:17">
     <value>All customers</value>
     <comment>phrase: All customers</comment>
   </data>
-  <data name="WithOnlyOneOrder" lastModified="2014-04-07T14:32:44">
+  <data name="WithOnlyOneOrder" lastModified="2014-07-22T13:48:17">
     <value>With only 1 order</value>
     <comment>phrase: With only 1 order</comment>
   </data>
-  <data name="WithMoreThanOneOrder" lastModified="2014-04-07T14:32:44">
+  <data name="WithMoreThanOneOrder" lastModified="2014-07-22T13:48:17">
     <value>With more than 1 order</value>
     <comment>phrase: With more than 1 order</comment>
   </data>
-  <data name="PaymentMethodLiveUrl" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLiveUrl" lastModified="2014-07-22T13:48:17">
     <value>URL</value>
     <comment>The payment method live Url</comment>
   </data>
-  <data name="PaymentMethodGatewayUrl" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodGatewayUrl" lastModified="2014-07-22T13:48:17">
     <value>Gateway URL</value>
     <comment>phrase: Gateway URL</comment>
   </data>
-  <data name="PaymentMethodLiveUsername" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLiveUsername" lastModified="2014-07-22T13:48:17">
     <value>Username</value>
     <comment>The payment method live username</comment>
   </data>
-  <data name="PaymentMethodLiveLoginId" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLiveLoginId" lastModified="2014-07-22T13:48:17">
     <value>Login ID</value>
     <comment>The payment method live login id</comment>
   </data>
-  <data name="PaymentMethodLoginId" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLoginId" lastModified="2014-07-22T13:48:17">
     <value>Login ID</value>
     <comment>The payment method login id</comment>
   </data>
-  <data name="PaymentMethodLoginIdRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLoginIdRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method login id is required</value>
     <comment>phrase: The payment method login id is required</comment>
   </data>
-  <data name="PaymentMethodTransactionKey" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTransactionKey" lastModified="2014-07-22T13:48:17">
     <value>Transaction key</value>
     <comment>The payment method transaction key</comment>
   </data>
-  <data name="PaymentMethodTransactionKeyRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTransactionKeyRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method transaction key is required</value>
     <comment>phrase: The payment method transaction key is required</comment>
   </data>
-  <data name="PaymentMethodLiveAccountNumber" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLiveAccountNumber" lastModified="2014-07-22T13:48:17">
     <value>Account Number</value>
     <comment>The Payment Method live account number</comment>
   </data>
-  <data name="PaymentMethodTimeout" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTimeout" lastModified="2014-07-22T13:48:17">
     <value>Timeout</value>
     <comment>The Payment Method timeout</comment>
   </data>
-  <data name="PaymentMethodApiVersion" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodApiVersion" lastModified="2014-07-22T13:48:17">
     <value>API version</value>
     <comment>The Payment Method API Version</comment>
   </data>
-  <data name="PaymentMethodPassword" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodPassword" lastModified="2014-07-22T13:48:17">
     <value>Password</value>
     <comment>The payment method password</comment>
   </data>
-  <data name="PaymentMethodPasswordRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodPasswordRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method password is required</value>
     <comment>phrase: The payment method password is required</comment>
   </data>
-  <data name="PaymentMethodPartner" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodPartner" lastModified="2014-07-22T13:48:17">
     <value>Partner</value>
     <comment>The payment method partner</comment>
   </data>
-  <data name="PaymentMethodPartnerRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodPartnerRequired" lastModified="2014-07-22T13:48:17">
     <value>Partner</value>
     <comment>The payment method partner required</comment>
   </data>
-  <data name="PaymentMethodTestUrl" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTestUrl" lastModified="2014-07-22T13:48:17">
     <value>URL</value>
     <comment>The Payment Method test url</comment>
   </data>
-  <data name="PaymentMethodUsernameRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodUsernameRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method username required</value>
     <comment>The payment method username required</comment>
   </data>
-  <data name="PaymentMethodUsername" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodUsername" lastModified="2014-07-22T13:48:17">
     <value>Username</value>
     <comment>word: Username</comment>
   </data>
-  <data name="PaymentMethodVendorRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodVendorRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method vendor required</value>
     <comment>The payment method vendor required</comment>
   </data>
-  <data name="PaymentMethodVendor" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodVendor" lastModified="2014-07-22T13:48:17">
     <value>Vendor</value>
     <comment>word: Vendor</comment>
   </data>
-  <data name="PaymentMethodTestUsername" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTestUsername" lastModified="2014-07-22T13:48:17">
     <value>Test Username</value>
     <comment>The Payment Method test username</comment>
   </data>
-  <data name="PaymentMethodTestAccountNumber" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTestAccountNumber" lastModified="2014-07-22T13:48:17">
     <value>Test Account Number</value>
     <comment>The Payment Method test account number</comment>
   </data>
-  <data name="PaymentMethodPaymentType" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodPaymentType" lastModified="2014-07-22T13:48:17">
     <value>Payment type</value>
     <comment>The Payment Method payment type</comment>
   </data>
-  <data name="Mode" lastModified="2014-04-07T14:32:44">
+  <data name="Mode" lastModified="2014-07-22T13:48:17">
     <value>Mode</value>
     <comment>The Payment Method test mode</comment>
   </data>
-  <data name="PaymentMethodTestMode" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTestMode" lastModified="2014-07-22T13:48:17">
     <value>Test</value>
     <comment>The Payment Method test mode</comment>
   </data>
-  <data name="PaymentMethodLiveMode" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLiveMode" lastModified="2014-07-22T13:48:17">
     <value>Live</value>
     <comment>The Payment Method live mode</comment>
   </data>
-  <data name="RequiredField" lastModified="2014-04-07T14:32:44">
+  <data name="RequiredField" lastModified="2014-07-22T13:48:17">
     <value>(required)</value>
     <comment>RequiredField</comment>
   </data>
-  <data name="PaymentMethodTestUrlRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTestUrlRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method test URL is required</value>
     <comment>The payment method test URL is required</comment>
   </data>
-  <data name="PaymentMethodTestUsernameRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTestUsernameRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method test username is required</value>
     <comment>The payment method test username is required</comment>
   </data>
-  <data name="PaymentMethodTestAccountNumberRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTestAccountNumberRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method test account number is required</value>
     <comment>The payment method account number is required</comment>
   </data>
-  <data name="PaymentMethodLiveUrlRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLiveUrlRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method live URL is required</value>
     <comment>The payment method live URL is required</comment>
   </data>
-  <data name="PaymentMethodLiveUsernameRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLiveUsernameRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method live username is required</value>
     <comment>The payment method live username is required</comment>
   </data>
-  <data name="PaymentMethodLiveAccountNumberRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodLiveAccountNumberRequired" lastModified="2014-07-22T13:48:17">
     <value>The payment method live account number is required</value>
     <comment>The payment method account number is required</comment>
   </data>
-  <data name="InternetUrlViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="InternetUrlViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>This field must be in the format of an internet URL (ex. http://www.telerik.com)</value>
     <comment>Message displayed when an internet url field is in the incorrect format</comment>
   </data>
-  <data name="PaymentMethodAPIVersionRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodAPIVersionRequired" lastModified="2014-07-22T13:48:17">
     <value>You must enter the version number for the payment processor's API</value>
     <comment>Message displayed when no payment processor API version number is entered</comment>
   </data>
-  <data name="PaymentMethodTimeoutViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTimeoutViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You must enter the timeout (in milliseconds) for the payment processor's API</value>
     <comment>Message displayed when no payment processor API timeout is entered</comment>
   </data>
-  <data name="NoPaymentProcessorConfigured" lastModified="2014-04-07T14:32:44">
+  <data name="NoPaymentProcessorConfigured" lastModified="2014-07-22T13:48:17">
     <value>No payment processor configured</value>
     <comment>phrase:No payment processor configured</comment>
   </data>
-  <data name="PaymentMethodAPIVersionViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodAPIVersionViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You must enter an API version of one or more alpha numeric characters</value>
     <comment>Message displayed when no API version alphanumeric violation occurs</comment>
   </data>
-  <data name="PaymentMethodCreditCards" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodCreditCards" lastModified="2014-07-22T13:48:17">
     <value>Credit cards allowed</value>
     <comment>Header for list of credit cards processed by the payment processor</comment>
   </data>
-  <data name="PaymentMethodCreditCardsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodCreditCardsRequired" lastModified="2014-07-22T13:48:17">
     <value>You must select one or more credit cards to be processed</value>
     <comment>Message when no credit cards selected for payment processor</comment>
   </data>
-  <data name="PaymentTypeSale" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentTypeSale" lastModified="2014-07-22T13:48:17">
     <value>Sale</value>
     <comment>Processor payment type</comment>
   </data>
-  <data name="PaymentTypeAuthorize" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentTypeAuthorize" lastModified="2014-07-22T13:48:17">
     <value>Authorization</value>
     <comment>Processor payment type</comment>
   </data>
-  <data name="WorldPayPaymentTypeSale" lastModified="2014-04-07T14:32:44">
+  <data name="WorldPayPaymentTypeSale" lastModified="2014-07-22T13:48:17">
     <value>Full authorization</value>
     <comment>WorldPay call the sale full authroization</comment>
   </data>
-  <data name="WorldPayPaymentTypeAuthorize" lastModified="2014-04-07T14:32:44">
+  <data name="WorldPayPaymentTypeAuthorize" lastModified="2014-07-22T13:48:17">
     <value>Pre-authorization</value>
     <comment>WorldPay call the authorize pre-authorization</comment>
   </data>
-  <data name="PaymentTypeCapture" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentTypeCapture" lastModified="2014-07-22T13:48:17">
     <value>Capture</value>
     <comment>Processor payment type</comment>
   </data>
-  <data name="PaymentTypeAuthorizeAndCapture" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentTypeAuthorizeAndCapture" lastModified="2014-07-22T13:48:17">
     <value>Authorize &amp; Capture</value>
     <comment>Processor payment type</comment>
   </data>
-  <data name="PaymentMethodCodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodCodeTitle" lastModified="2014-07-22T13:48:17">
     <value>For developers: name used in code</value>
     <comment>Payment method code title</comment>
   </data>
-  <data name="AdvancedSection" lastModified="2014-04-07T14:32:44">
+  <data name="AdvancedSection" lastModified="2014-07-22T13:48:17">
     <value>Advanced</value>
     <comment>Advanced section title</comment>
   </data>
-  <data name="Actions" lastModified="2014-04-07T14:32:44">
+  <data name="Actions" lastModified="2014-07-22T13:48:17">
     <value>Actions!</value>
     <comment>Header column for payment method grid.</comment>
   </data>
-  <data name="Details" lastModified="2014-04-07T14:32:44">
+  <data name="Details" lastModified="2014-07-22T13:48:17">
     <value>Details</value>
     <comment>Header column for payment method grid.</comment>
   </data>
-  <data name="Method" lastModified="2014-04-07T14:32:44">
+  <data name="Method" lastModified="2014-07-22T13:48:17">
     <value>Method!</value>
     <comment>Header column for payment method grid.</comment>
   </data>
-  <data name="Type" lastModified="2014-04-07T14:32:44">
+  <data name="Type" lastModified="2014-07-22T13:48:17">
     <value>Type!</value>
     <comment>Header column for payment method grid.</comment>
   </data>
-  <data name="Delete" lastModified="2014-04-07T14:32:44">
+  <data name="Delete" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>Header column for payment method grid.</comment>
   </data>
-  <data name="MakeInactive" lastModified="2014-04-07T14:32:44">
+  <data name="MakeInactive" lastModified="2014-07-22T13:48:17">
     <value>Make Inactive</value>
     <comment>Action command.</comment>
   </data>
-  <data name="MakeActive" lastModified="2014-04-07T14:32:44">
+  <data name="MakeActive" lastModified="2014-07-22T13:48:17">
     <value>Make active</value>
     <comment>Action command.</comment>
   </data>
-  <data name="EditProfile" lastModified="2014-04-07T14:32:44">
+  <data name="EditProfile" lastModified="2014-07-22T13:48:17">
     <value>Edit profile</value>
     <comment>Action command: Edit profile</comment>
   </data>
-  <data name="IsActive" lastModified="2014-04-07T14:32:44">
+  <data name="IsActive" lastModified="2014-07-22T13:48:17">
     <value>Is Active</value>
     <comment>phrase: Is Active</comment>
   </data>
-  <data name="PaymentMethodIsActive" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodIsActive" lastModified="2014-07-22T13:48:17">
     <value>This payment method is active</value>
     <comment>phrase: This payment method is active</comment>
   </data>
-  <data name="ThisDiscountIsActive" lastModified="2014-04-07T14:32:44">
+  <data name="ThisDiscountIsActive" lastModified="2014-07-22T13:48:17">
     <value>This discount is active</value>
     <comment>phrase: This discount is active</comment>
   </data>
-  <data name="LinkToCheckoutPage" lastModified="2014-04-07T14:32:44">
+  <data name="LinkToCheckoutPage" lastModified="2014-07-22T13:48:17">
     <value>Link to checkout page</value>
     <comment>phrase: Link to checkout page</comment>
   </data>
-  <data name="LinkToShoppingCart" lastModified="2014-04-07T14:32:44">
+  <data name="LinkToShoppingCart" lastModified="2014-07-22T13:48:17">
     <value>Link to shopping cart</value>
     <comment>phrase: Link to shopping cart</comment>
   </data>
-  <data name="LinkToContinueShopping" lastModified="2014-04-07T14:32:44">
+  <data name="LinkToContinueShopping" lastModified="2014-07-22T13:48:17">
     <value>Link to Product list page (to continue shopping)</value>
     <comment>phrase: Link to Product list page (to continue shopping)</comment>
   </data>
-  <data name="LinkToProductsListPage" lastModified="2014-04-07T14:32:44">
+  <data name="LinkToProductsListPage" lastModified="2014-07-22T13:48:17">
     <value>Link to Product list page</value>
     <comment>phrase: Link to Product list page</comment>
   </data>
-  <data name="CreateTax" lastModified="2014-04-07T14:32:44">
+  <data name="CreateTax" lastModified="2014-07-22T13:48:17">
     <value>Create tax</value>
     <comment>phrase: Create tax</comment>
   </data>
-  <data name="CreateThisTax" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisTax" lastModified="2014-07-22T13:48:17">
     <value>Create this tax</value>
     <comment>phrase: Create this tax</comment>
   </data>
-  <data name="CreateATax" lastModified="2014-04-07T14:32:44">
+  <data name="CreateATax" lastModified="2014-07-22T13:48:17">
     <value>Create a tax</value>
     <comment>phrase: Create a tax</comment>
   </data>
-  <data name="EditATax" lastModified="2014-04-07T14:32:44">
+  <data name="EditATax" lastModified="2014-07-22T13:48:17">
     <value>Edit a tax</value>
     <comment>phrase: Edit a tax</comment>
   </data>
-  <data name="BackToTaxes" lastModified="2014-04-07T14:32:44">
+  <data name="BackToTaxes" lastModified="2014-07-22T13:48:17">
     <value>Back to taxes</value>
     <comment>phrase: Back to taxes</comment>
   </data>
-  <data name="NoTaxesHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoTaxesHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No taxes have been created yet</value>
     <comment>The message shown when no taxes have yet been created.</comment>
   </data>
-  <data name="TaxName" lastModified="2014-04-07T14:32:44">
+  <data name="TaxName" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>The Name label for tax.</comment>
   </data>
-  <data name="TaxNameFieldControlExample" lastModified="2014-04-07T14:32:44">
+  <data name="TaxNameFieldControlExample" lastModified="2014-07-22T13:48:17">
     <value>Example: VAT</value>
     <comment>An example of a tax name</comment>
   </data>
-  <data name="TaxInclusionDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TaxInclusionDescription" lastModified="2014-07-22T13:48:17">
     <value>If the included tax is not applicable to the customer shipping/billing address, on checkout&lt;br /&gt;&lt;em&gt;it will be automatically replaced&lt;/em&gt; with the applicable one.</value>
     <comment>Explanation of what happens when the included tax is inapplicable to the customer</comment>
   </data>
-  <data name="TaxRate" lastModified="2014-04-07T14:32:44">
+  <data name="TaxRate" lastModified="2014-07-22T13:48:17">
     <value>Rate</value>
     <comment>The tax rate.</comment>
   </data>
-  <data name="StandardTaxRate" lastModified="2014-04-07T14:32:44">
+  <data name="StandardTaxRate" lastModified="2014-07-22T13:48:17">
     <value>Standard rate</value>
     <comment>The standard tax rate.</comment>
   </data>
-  <data name="TaxExempt" lastModified="2014-04-07T14:32:44">
+  <data name="TaxExempt" lastModified="2014-07-22T13:48:17">
     <value>Tax exempt</value>
     <comment>Tax exempt .</comment>
   </data>
-  <data name="HandlingTaxRate" lastModified="2014-04-07T14:32:44">
+  <data name="HandlingTaxRate" lastModified="2014-07-22T13:48:17">
     <value>Handling tax rate</value>
     <comment>The handling tax rate.</comment>
   </data>
-  <data name="ShippingTaxRate" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingTaxRate" lastModified="2014-07-22T13:48:17">
     <value>Shipping tax rate</value>
     <comment>The shipping tax rate.</comment>
   </data>
-  <data name="TaxTitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="TaxTitleCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The title of the tax must be set.</value>
     <comment>The message shown to user if no title for the tax has been entered.</comment>
   </data>
-  <data name="TaxTitleTooLong" lastModified="2014-04-07T14:32:44">
+  <data name="TaxTitleTooLong" lastModified="2014-07-22T13:48:17">
     <value>The length of the tax title cannot be larger than 255 characters.</value>
     <comment>The message shown to user if the title is longer than 255 characters.</comment>
   </data>
-  <data name="ShippingMethodNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingMethodNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The name of the shipping method must be set.</value>
     <comment>The message shown to user if no name for the shipping method has been entered.</comment>
   </data>
-  <data name="ShippingMethodNameTooLong" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingMethodNameTooLong" lastModified="2014-07-22T13:48:17">
     <value>The length of the shipping method name cannot be larger than 255 characters.</value>
     <comment>The message shown to user if the shipping method title is longer than 255 characters.</comment>
   </data>
-  <data name="StateProvince" lastModified="2014-04-07T14:32:44">
+  <data name="StateProvince" lastModified="2014-07-22T13:48:17">
     <value>State / province</value>
     <comment>The name label for the state / province combo box.</comment>
   </data>
-  <data name="TaxRateIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="TaxRateIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The tax rate must be a numeric value; use dot "." for decimal separator.</value>
     <comment>The message shown to the user if the tax rate is not valid.</comment>
   </data>
-  <data name="TaxRateCannotBeNegative" lastModified="2014-04-07T14:32:44">
+  <data name="TaxRateCannotBeNegative" lastModified="2014-07-22T13:48:17">
     <value>The tax rate cannot be less than zero.</value>
     <comment>The message show to the user if the tax rate is negative.</comment>
   </data>
-  <data name="TaxRateGreaterThan100" lastModified="2014-04-07T14:32:44">
+  <data name="TaxRateGreaterThan100" lastModified="2014-07-22T13:48:17">
     <value>The tax rate must be less than or equal to 100%.</value>
     <comment>The message shown to the user if the tax rate is greater than 100%.</comment>
   </data>
-  <data name="DuplicateTaxException" lastModified="2014-04-07T14:32:44">
+  <data name="DuplicateTaxException" lastModified="2014-07-22T13:48:17">
     <value>The tax with title '{0}' already has the same country (and state) and 'Based on' address as you are trying to save.</value>
     <comment>The message shown to the user if the tax information duplicates another tax.</comment>
   </data>
-  <data name="DuplicateTaxRangeException" lastModified="2014-04-07T14:32:44">
+  <data name="DuplicateTaxRangeException" lastModified="2014-07-22T13:48:17">
     <value>Duplicate tax ranges cannot be entered, another tax '{0}' has a same or overlapping zip range defined</value>
     <comment>The message shown to the user if the tax range information duplicates another tax.</comment>
   </data>
-  <data name="HandlingTaxRateIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="HandlingTaxRateIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The handling tax rate must be a numeric value; use dot "." for decimal separator.</value>
     <comment>The message shown to the user if the handling tax rate is not valid.</comment>
   </data>
-  <data name="HandlingTaxRateCannotBeNegative" lastModified="2014-04-07T14:32:44">
+  <data name="HandlingTaxRateCannotBeNegative" lastModified="2014-07-22T13:48:17">
     <value>The handling tax rate cannot be less than zero.</value>
     <comment>The message show to the user if the handling tax rate is negative.</comment>
   </data>
-  <data name="ShippingTaxRateIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingTaxRateIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The shipping tax rate must be a numeric value; use dot "." for decimal separator.</value>
     <comment>The message shown to the user if the shipping tax rate is not valid.</comment>
   </data>
-  <data name="ShippingTaxRateCannotBeNegative" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingTaxRateCannotBeNegative" lastModified="2014-07-22T13:48:17">
     <value>The shipping tax rate cannot be less than zero.</value>
     <comment>The message show to the user if the shipping tax rate is negative.</comment>
   </data>
-  <data name="BasedOn" lastModified="2014-04-07T14:32:44">
+  <data name="BasedOn" lastModified="2014-07-22T13:48:17">
     <value>Based on</value>
     <comment>Label in create / edit tax dialogs.</comment>
   </data>
-  <data name="SelectStateProvince" lastModified="2014-04-07T14:32:44">
+  <data name="SelectStateProvince" lastModified="2014-07-22T13:48:17">
     <value>-- Select state / province --</value>
     <comment>Instruction in drop-down to select a state or province.</comment>
   </data>
-  <data name="IncludeTaxInPrice" lastModified="2014-04-07T14:32:44">
+  <data name="IncludeTaxInPrice" lastModified="2014-07-22T13:48:17">
     <value>Include in prices displayed on the site</value>
     <comment>Label for include tax in price checkbox.</comment>
   </data>
-  <data name="NarrowLocation" lastModified="2014-04-07T14:32:44">
+  <data name="NarrowLocation" lastModified="2014-07-22T13:48:17">
     <value>Narrow location &lt;em class='sfLblNote'&gt;(optional)&lt;/em&gt;</value>
     <comment>Label for narrow location section.</comment>
   </data>
-  <data name="TaxCity" lastModified="2014-04-07T14:32:44">
+  <data name="TaxCity" lastModified="2014-07-22T13:48:17">
     <value>City</value>
     <comment>Label for city where tax applies.</comment>
   </data>
-  <data name="TaxCounty" lastModified="2014-04-07T14:32:44">
+  <data name="TaxCounty" lastModified="2014-07-22T13:48:17">
     <value>County</value>
     <comment>Label for county where tax applies.</comment>
   </data>
-  <data name="UsePostalCodeRange" lastModified="2014-04-07T14:32:44">
+  <data name="UsePostalCodeRange" lastModified="2014-07-22T13:48:17">
     <value>Use range of  ZIP / Post codes</value>
     <comment>Label for the use postal code range checkbox.</comment>
   </data>
-  <data name="PostalCode" lastModified="2014-04-07T14:32:44">
+  <data name="PostalCode" lastModified="2014-07-22T13:48:17">
     <value>ZIP / Post code</value>
     <comment>Label for the postal code used in tax calculations.</comment>
   </data>
-  <data name="FromPostalCode" lastModified="2014-04-07T14:32:44">
+  <data name="FromPostalCode" lastModified="2014-07-22T13:48:17">
     <value>From ZIP / Post code</value>
     <comment>Label for the first postal code in a range of postal codes used in tax calculations.</comment>
   </data>
-  <data name="ToPostalCode" lastModified="2014-04-07T14:32:44">
+  <data name="ToPostalCode" lastModified="2014-07-22T13:48:17">
     <value>To ZIP / Post code</value>
     <comment>Label for the last postal code in a range of postal codes used in tax calculations.</comment>
   </data>
-  <data name="MeasurementUnitsChanged" lastModified="2014-04-07T14:32:44">
+  <data name="MeasurementUnitsChanged" lastModified="2014-07-22T13:48:17">
     <value>The measurement unit settings have changed. You will need to update your products' measurements accordingly.</value>
     <comment>phrase: The measurement unit settings have changed. You will need to update your products' measurements accordingly.</comment>
   </data>
-  <data name="InvalidMeasurementUnit" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidMeasurementUnit" lastModified="2014-07-22T13:48:17">
     <value>One of the measurement units selected is invalid.</value>
     <comment>The message to display when users attempt to select a measurement unit that does not exist / apply.</comment>
   </data>
-  <data name="Update" lastModified="2014-04-07T14:32:44">
+  <data name="Update" lastModified="2014-07-22T13:48:17">
     <value>Update</value>
     <comment>word: Update</comment>
   </data>
-  <data name="ShoppingCartSummaryViewPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartSummaryViewPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart summary</value>
     <comment>title: Shopping cart summary</comment>
   </data>
-  <data name="GoogleConversionPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="GoogleConversionPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Google conversion tracking</value>
     <comment>title: Google conversion tracking</comment>
   </data>
-  <data name="RegistrationDate" lastModified="2014-04-07T14:32:44">
+  <data name="RegistrationDate" lastModified="2014-07-22T13:48:17">
     <value>Registered:</value>
     <comment>Used to label the registration date field on customer profile views</comment>
   </data>
-  <data name="PageForOrdersList" lastModified="2014-04-07T14:32:44">
+  <data name="PageForOrdersList" lastModified="2014-07-22T13:48:17">
     <value>Page for Orders list</value>
     <comment>phrase: Page for Orders list</comment>
   </data>
-  <data name="DigitalDownloadsOrdersListSelectorDescriptiveTextLine1" lastModified="2014-04-07T14:32:44">
+  <data name="DigitalDownloadsOrdersListSelectorDescriptiveTextLine1" lastModified="2014-07-22T13:48:17">
     <value>This is the page which is opened by clicking the "Order details" link.</value>
     <comment>phrase: This is the page which is opened by clicking the "Order details" link.</comment>
   </data>
-  <data name="DigitalDownloadsOrdersListSelectorDescriptiveTextLine2" lastModified="2014-04-07T14:32:44">
+  <data name="DigitalDownloadsOrdersListSelectorDescriptiveTextLine2" lastModified="2014-07-22T13:48:17">
     <value>There must be a Order list widget on this page.</value>
     <comment>phrase: There must be a Order list widget on this page.</comment>
   </data>
-  <data name="YourDownloadsTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="YourDownloadsTemplate" lastModified="2014-07-22T13:48:17">
     <value>'Your downloads' template</value>
     <comment>phrase: 'Your downloads' template</comment>
   </data>
-  <data name="NoDownloadsTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="WishListToolboxDescription" lastModified="2014-07-22T13:48:17">
+    <value>Wish list</value>
+    <comment>Description of Wish list widget in the toolbox.</comment>
+  </data>
+  <data name="NoDownloadsTemplate" lastModified="2014-07-22T13:48:17">
     <value>'No downloads' template</value>
     <comment>phrase: 'No downloads' template</comment>
   </data>
-  <data name="AllowUsersToSortItems" lastModified="2014-04-07T14:32:44">
+  <data name="AllowUsersToSortItems" lastModified="2014-07-22T13:48:17">
     <value>Allow users to sort items</value>
     <comment>phrase: Allow users to sort items</comment>
   </data>
-  <data name="AddedToCart" lastModified="2014-04-07T14:32:44">
+  <data name="AddedToCart" lastModified="2014-07-22T13:48:17">
     <value>Added to shopping cart</value>
     <comment>phrase: Added to shopping cart</comment>
   </data>
-  <data name="NotAddedToCart" lastModified="2014-04-07T14:32:44">
+  <data name="NotAddedToCart" lastModified="2014-07-22T13:48:17">
     <value>This item cannot be added to your shopping cart at this time.</value>
     <comment>Shown to the user when they cannot add an item to their shopping cart (exception, etc)</comment>
   </data>
-  <data name="CartNotUpdated" lastModified="2014-04-07T14:32:44">
+  <data name="CartNotUpdated" lastModified="2014-07-22T13:48:17">
     <value>There was a problem updating your shopping cart. Please check that your cart has the desired products and quantities.</value>
     <comment>Shown to the user when they cannot update their shopping cart (exception, etc)</comment>
   </data>
-  <data name="NoItemsInCartMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NoItemsInCartMessage" lastModified="2014-07-22T13:48:17">
     <value>You cannot checkout without having at least one item in the shopping cart.</value>
     <comment>Message shown to the user when they try checking out with no itmes in their shopping cart.</comment>
   </data>
-  <data name="LoginUrlPropertyCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="LoginUrlPropertyCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The LoginUrl property of the 'Checkout' widget cannot be an empty string.</value>
     <comment>Message shown to the merchant when the LoginUrl property of the 'Checkout' widget has not been set.</comment>
   </data>
-  <data name="LoginPageUrlCannotBeDetermined" lastModified="2014-04-07T14:32:44">
+  <data name="LoginPageUrlCannotBeDetermined" lastModified="2014-07-22T13:48:17">
     <value>Url of the log in page cannot be determined.</value>
     <comment>Message shown to the merchant when the log in page cannot be determined.</comment>
   </data>
-  <data name="CheckoutWizardUrlCannotBeDetermined" lastModified="2014-04-07T14:32:44">
+  <data name="CheckoutWizardUrlCannotBeDetermined" lastModified="2014-07-22T13:48:17">
     <value>Url of the checkout wizard cannot be determined.</value>
     <comment>Message shown to the merchant when the url of the checkout wizard cannot be determined.</comment>
   </data>
-  <data name="ExpirationDateExceeded" lastModified="2014-04-07T14:32:44">
+  <data name="ExpirationDateExceeded" lastModified="2014-07-22T13:48:17">
     <value>Please enter an expiration date in the future.</value>
     <comment>Message to show to users who enter an expired credit card date.</comment>
   </data>
-  <data name="BuyNowButton" lastModified="2014-04-07T14:32:44">
+  <data name="BuyNowButton" lastModified="2014-07-22T13:48:17">
     <value>Buy Now</value>
     <comment>phrase: Buy Now</comment>
   </data>
-  <data name="SetBuyNow" lastModified="2014-04-07T14:32:44">
+  <data name="SetBuyNow" lastModified="2014-07-22T13:48:17">
     <value>Set Buy now</value>
     <comment>phrase: Set Buy now</comment>
   </data>
-  <data name="BuyNowNotSetUp" lastModified="2014-04-07T14:32:44">
+  <data name="BuyNowNotSetUp" lastModified="2014-07-22T13:48:17">
     <value>Buy now not set up</value>
     <comment>phrase: Buy now not set up</comment>
   </data>
-  <data name="BuyNowTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="BuyNowTemplate" lastModified="2014-07-22T13:48:17">
     <value>Template</value>
     <comment>phrase: Template</comment>
   </data>
-  <data name="InvoiceWidgetShouldBeOnDifferentPage" lastModified="2014-04-07T14:32:44">
+  <data name="InvoiceWidgetShouldBeOnDifferentPage" lastModified="2014-07-22T13:48:17">
     <value>The invoice widget should be on a different page than the orders list widget</value>
     <comment>phrase: The invoice widget should be on a different page than the orders list widget</comment>
   </data>
-  <data name="OrdersListPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersListPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Orders list</value>
     <comment>phrase: Orders List</comment>
   </data>
-  <data name="ActiveOrders" lastModified="2014-04-07T14:32:44">
+  <data name="ActiveOrders" lastModified="2014-07-22T13:48:17">
     <value>Active Order(s)</value>
     <comment>Header for the group of currently active orders in the OrdersList</comment>
   </data>
-  <data name="OlderOrders" lastModified="2014-04-07T14:32:44">
+  <data name="OlderOrders" lastModified="2014-07-22T13:48:17">
     <value>Older Order(s)</value>
     <comment>Header for the group of other orders in the OrdersList</comment>
   </data>
-  <data name="RedirectToConfirmationPage" lastModified="2014-04-07T14:32:44">
+  <data name="RedirectToConfirmationPage" lastModified="2014-07-22T13:48:17">
     <value>Redirect to confirmation page</value>
     <comment>Phrase: Redirect to confirmation page</comment>
   </data>
-  <data name="RedirectToConfirmationPageNote" lastModified="2014-04-07T14:32:44">
+  <data name="RedirectToConfirmationPageNote" lastModified="2014-07-22T13:48:17">
     <value>The redirect page needs to contain an Order invoice widget or a Google conversion widget.</value>
     <comment>Phrase: The redirect page needs to contain an Order invoice widget or a Google conversion widget.</comment>
   </data>
-  <data name="UseTemplateForConfirmationStep" lastModified="2014-04-07T14:32:44">
+  <data name="UseTemplateForConfirmationStep" lastModified="2014-07-22T13:48:17">
     <value>Use template for confirmation step</value>
     <comment>Phrase: Use template for confirmation step</comment>
   </data>
-  <data name="OrdersReports" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersReports" lastModified="2014-07-22T13:48:17">
     <value>Orders reports</value>
     <comment>phrase: Orders reports</comment>
   </data>
-  <data name="ReportsByPeriod" lastModified="2014-04-07T14:32:44">
+  <data name="ReportsByPeriod" lastModified="2014-07-22T13:48:17">
     <value>Sales by period</value>
     <comment>phrase: Reports by period</comment>
   </data>
-  <data name="ReportsByRegion" lastModified="2014-04-07T14:32:44">
+  <data name="ReportsByRegion" lastModified="2014-07-22T13:48:17">
     <value>Sales by region</value>
     <comment>phrase: Reports by region</comment>
   </data>
-  <data name="ReportsByProduct" lastModified="2014-04-07T14:32:44">
+  <data name="ReportsByProduct" lastModified="2014-07-22T13:48:17">
     <value>Reports by product</value>
     <comment>phrase: Reports by product</comment>
   </data>
-  <data name="ByPeriod" lastModified="2014-04-07T14:32:44">
+  <data name="ByPeriod" lastModified="2014-07-22T13:48:17">
     <value>by period</value>
     <comment>phrase: by period</comment>
   </data>
-  <data name="ByRegion" lastModified="2014-04-07T14:32:44">
+  <data name="ByRegion" lastModified="2014-07-22T13:48:17">
     <value>by region</value>
     <comment>phrase: by region</comment>
   </data>
-  <data name="ByProduct" lastModified="2014-04-07T14:32:44">
+  <data name="ByProduct" lastModified="2014-07-22T13:48:17">
     <value>by product</value>
     <comment>phrase: by product</comment>
   </data>
-  <data name="Discount" lastModified="2014-04-07T14:32:44">
+  <data name="Discount" lastModified="2014-07-22T13:48:17">
     <value>Discount</value>
     <comment>The word 'Discount.'</comment>
   </data>
-  <data name="NoDiscountsHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoDiscountsHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No discounts have been created yet</value>
     <comment>The message shown when no discounts have yet been created.</comment>
   </data>
-  <data name="CreateDiscount" lastModified="2014-04-07T14:32:44">
+  <data name="CreateDiscount" lastModified="2014-07-22T13:48:17">
     <value>Create discount</value>
     <comment>phrase: Create discount</comment>
   </data>
-  <data name="CreateADiscount" lastModified="2014-04-07T14:32:44">
+  <data name="CreateADiscount" lastModified="2014-07-22T13:48:17">
     <value>Create a discount</value>
     <comment>phrase: Create a discount</comment>
   </data>
-  <data name="CreateThisDiscount" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisDiscount" lastModified="2014-07-22T13:48:17">
     <value>Create this discount</value>
     <comment>phrase: Create this discount</comment>
   </data>
-  <data name="BackToDiscounts" lastModified="2014-04-07T14:32:44">
+  <data name="BackToDiscounts" lastModified="2014-07-22T13:48:17">
     <value>Back to discounts</value>
     <comment>phrase: Back to discounts</comment>
   </data>
-  <data name="EditADiscount" lastModified="2014-04-07T14:32:44">
+  <data name="EditADiscount" lastModified="2014-07-22T13:48:17">
     <value>Edit a discount</value>
     <comment>phrase: Edit a discount</comment>
   </data>
-  <data name="DiscountName" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountName" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>phrase: Discount Name</comment>
   </data>
-  <data name="DiscountNameFieldControlExample" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountNameFieldControlExample" lastModified="2014-07-22T13:48:17">
     <value>Example: Christmas promo</value>
     <comment>phrase: Discount name example</comment>
   </data>
-  <data name="DiscountAmount" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountAmount" lastModified="2014-07-22T13:48:17">
     <value>Discount amount &lt;em class="sfLblNote"&gt;(will be applied to the subtotal)&lt;/em&gt;</value>
     <comment>phrase: Discount Amount</comment>
   </data>
-  <data name="Amount" lastModified="2014-04-07T14:32:44">
+  <data name="Amount" lastModified="2014-07-22T13:48:17">
     <value>Amount</value>
     <comment>phrase: Amount</comment>
   </data>
-  <data name="MinimumSubtotal" lastModified="2014-04-07T14:32:44">
+  <data name="MinimumSubtotal" lastModified="2014-07-22T13:48:17">
     <value>Minimum subtotal</value>
     <comment>phrase: Minimum Subtotal</comment>
   </data>
-  <data name="MaximumSubtotal" lastModified="2014-04-07T14:32:44">
+  <data name="MaximumSubtotal" lastModified="2014-07-22T13:48:17">
     <value>Maximum subtotal</value>
     <comment>phrase: Maximum Subtotal</comment>
   </data>
-  <data name="MinimumSubtotalFieldDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MinimumSubtotalFieldDescription" lastModified="2014-07-22T13:48:17">
     <value>Apply discount only if the subtotal is higher than this amount</value>
     <comment>phrase: Minimum subtotal field description</comment>
   </data>
-  <data name="MaximumSubtotalFieldDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MaximumSubtotalFieldDescription" lastModified="2014-07-22T13:48:17">
     <value>Apply discount only if the subtotal is lower than this amount</value>
     <comment>phrase: Maximum subtotal field description</comment>
   </data>
-  <data name="DiscountStartDate" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountStartDate" lastModified="2014-07-22T13:48:17">
     <value>Start date</value>
     <comment>phrase: Discount start date</comment>
   </data>
-  <data name="DiscountEndDate" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountEndDate" lastModified="2014-07-22T13:48:17">
     <value>End date</value>
     <comment>phrase: Discount end date</comment>
   </data>
-  <data name="DiscountNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Discount name cannot be empty</value>
     <comment>phrase: Discount name cannot be empty</comment>
   </data>
-  <data name="DiscountNameTooLong" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountNameTooLong" lastModified="2014-07-22T13:48:17">
     <value>The length of the discount name cannot be larger than 255 characters.</value>
     <comment>The message shown to user if the name is longer than 255 characters.</comment>
   </data>
-  <data name="DiscountAmountIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountAmountIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The discount amount must be a numeric value.</value>
     <comment>The message shown to the user if the discount amount is not valid.</comment>
   </data>
-  <data name="DiscountPercentageAmountIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountPercentageAmountIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The discount percentage must be less than or equal to 100.</value>
     <comment>The message shown to the user if the discount percentage amount is not valid.</comment>
   </data>
-  <data name="DiscountStartCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountStartCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Discount start date cannot be empty.</value>
     <comment>Phrase: Discount start date cannot be empty.</comment>
   </data>
-  <data name="DiscountMinimumSubtotalIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountMinimumSubtotalIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The minimum subtotal must be a numeric value.</value>
     <comment>The message shown to the user if the discount minimum subtotal is not valid.</comment>
   </data>
-  <data name="DiscountMinimumSubtotalIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountMinimumSubtotalIsRequired" lastModified="2014-07-22T13:48:17">
     <value>The minimum subtotal cannot be empty.</value>
     <comment>The message shown to the user if the discount minimum subtotal is empty.</comment>
   </data>
-  <data name="DiscountMaximumSubtotalIsInvalid" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountMaximumSubtotalIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The maximum subtotal must be a numeric value.</value>
     <comment>The message shown to the user if the discount maximum subtotal is not valid.</comment>
   </data>
-  <data name="DiscountMaximumSubtotalIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountMaximumSubtotalIsRequired" lastModified="2014-07-22T13:48:17">
     <value>The maximum subtotal cannot be empty.</value>
     <comment>The message shown to the user if the discount maximum subtotal is empty.</comment>
   </data>
-  <data name="DiscountEndDateShouldNotBeEarlierThanStartDate" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountEndDateShouldNotBeEarlierThanStartDate" lastModified="2014-07-22T13:48:17">
     <value>Discount's end date cannot be set earlier than its start date.</value>
     <comment>Message: Discount's end date cannot be set earlier than its start date.</comment>
   </data>
-  <data name="MaximumSubTotalShouldNotBeLessThanMinimumSubTotal" lastModified="2014-04-07T14:32:44">
+  <data name="MaximumSubTotalShouldNotBeLessThanMinimumSubTotal" lastModified="2014-07-22T13:48:17">
     <value>The maximum subtotal should not be less than minimum subtotal.</value>
     <comment>The message shown to the user if the maximum subtotal is less than minimum subtotal.</comment>
   </data>
-  <data name="RequireCouponForDiscountCheckboxLabel" lastModified="2014-04-07T14:32:44">
+  <data name="RequireCouponForDiscountCheckboxLabel" lastModified="2014-07-22T13:48:17">
     <value>Apply discount only if the customer enters a &lt;strong&gt;coupon code&lt;/strong&gt;</value>
     <comment>label for require coupon code checkbox</comment>
   </data>
-  <data name="CreateCouponCodeForDiscountTextboxLabel" lastModified="2014-04-07T14:32:44">
+  <data name="CreateCouponCodeForDiscountTextboxLabel" lastModified="2014-07-22T13:48:17">
     <value>Create a coupon code</value>
     <comment>The label for the Create Coupon Code textbox.</comment>
   </data>
-  <data name="CreateCouponCodeForDiscountExampleText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateCouponCodeForDiscountExampleText" lastModified="2014-07-22T13:48:17">
     <value>Examples: 9843FG, March2 discount</value>
     <comment>The examples for creating a new Coupon Code.</comment>
   </data>
-  <data name="UnitPrice" lastModified="2014-04-07T14:32:44">
+  <data name="UnitPrice" lastModified="2014-07-22T13:48:17">
     <value>Unit Price</value>
     <comment>phrase: Unit Price</comment>
   </data>
-  <data name="GoogleConversionTracking" lastModified="2014-04-07T14:32:44">
+  <data name="GoogleConversionTracking" lastModified="2014-07-22T13:48:17">
     <value>Google conversion tracking</value>
     <comment>The title of the Google conversion tracking widget.</comment>
   </data>
-  <data name="ShoppingCartSummaryPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartSummaryPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart summary</value>
     <comment>Property editor title for Shopping cart summary widget.</comment>
   </data>
-  <data name="ShoppingCartPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart</value>
     <comment>Property editor title for Shopping cart widget.</comment>
   </data>
-  <data name="CheckoutPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CheckoutPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Checkout</value>
     <comment>Property editor title for checkout widget.</comment>
   </data>
-  <data name="DigitalDownloads" lastModified="2014-04-07T14:32:44">
+  <data name="DigitalDownloads" lastModified="2014-07-22T13:48:17">
     <value>Digital downloads</value>
     <comment>phrase: Digital downloads</comment>
   </data>
-  <data name="YourDownloads" lastModified="2014-04-07T14:32:44">
+  <data name="YourDownloads" lastModified="2014-07-22T13:48:17">
     <value>Your downloads</value>
     <comment>phrase: Your downloads</comment>
   </data>
-  <data name="DigitalDownloadsPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="DigitalDownloadsPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Digital downloads</value>
     <comment>Property editor title for the digital downloads widget.</comment>
   </data>
-  <data name="ProductPriceCannotBeLessThanZero" lastModified="2014-04-07T14:32:44">
+  <data name="ProductPriceCannotBeLessThanZero" lastModified="2014-07-22T13:48:17">
     <value>You cannot add this item to your cart as the price of the item is less than zero.</value>
     <comment>Message that gets shown to the user when they try to add a product with price less than zero.</comment>
   </data>
-  <data name="CustomerColumnHeader" lastModified="2014-04-07T14:32:44">
+  <data name="CustomerColumnHeader" lastModified="2014-07-22T13:48:17">
     <value>Customer</value>
     <comment>The Customer column header.</comment>
   </data>
-  <data name="MoneySpentCustomerColumnHeader" lastModified="2014-04-07T14:32:44">
+  <data name="MoneySpentCustomerColumnHeader" lastModified="2014-07-22T13:48:17">
     <value>Money Spent</value>
     <comment>The Money Spent customer column header.</comment>
   </data>
-  <data name="OrdersCountCustomerColumnHeader" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersCountCustomerColumnHeader" lastModified="2014-07-22T13:48:17">
     <value>Orders</value>
     <comment>The Orders Count customer column header.</comment>
   </data>
-  <data name="ActionsCustomerColumnHeader" lastModified="2014-04-07T14:32:44">
+  <data name="ActionsCustomerColumnHeader" lastModified="2014-07-22T13:48:17">
     <value>Actions</value>
     <comment>The Actions customer column header.</comment>
   </data>
-  <data name="LastOrderCustomerColumnHeader" lastModified="2014-04-07T14:32:44">
+  <data name="LastOrderCustomerColumnHeader" lastModified="2014-07-22T13:48:17">
     <value>Last Order</value>
     <comment>The Last Order customer column header.</comment>
   </data>
-  <data name="FilterCustomersLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FilterCustomersLabel" lastModified="2014-07-22T13:48:17">
     <value>Filter Customers</value>
     <comment>Title: Filter Customers</comment>
   </data>
-  <data name="AllCustomersLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AllCustomersLabel" lastModified="2014-07-22T13:48:17">
     <value>All Customers</value>
     <comment>phrase: All Customers</comment>
   </data>
-  <data name="SortCustomersByDateLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SortCustomersByDateLabel" lastModified="2014-07-22T13:48:17">
     <value>By date...</value>
     <comment>phrase: Sort Customers by date...</comment>
   </data>
-  <data name="ManageCustomers" lastModified="2014-04-07T14:32:44">
+  <data name="ManageCustomers" lastModified="2014-07-22T13:48:17">
     <value>Manage Customers</value>
     <comment>word: Manage Customers</comment>
   </data>
-  <data name="DisplayLastUpdatedCustomers" lastModified="2014-04-07T14:32:44">
+  <data name="DisplayLastUpdatedCustomers" lastModified="2014-07-22T13:48:17">
     <value>Display customers who have made orders in…</value>
     <comment>The text of the last updated customer sidebar button</comment>
   </data>
-  <data name="CreateTaxClass" lastModified="2014-04-07T14:32:44">
+  <data name="CreateTaxClass" lastModified="2014-07-22T13:48:17">
     <value>Create a tax class</value>
     <comment>phrase: Create a tax class</comment>
   </data>
-  <data name="NoTaxClassesHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoTaxClassesHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No Tax classes have been created yet</value>
     <comment>Message shown when there are no tax classes created</comment>
   </data>
-  <data name="CreateATaxClass" lastModified="2014-04-07T14:32:44">
+  <data name="CreateATaxClass" lastModified="2014-07-22T13:48:17">
     <value>Create a Tax class</value>
     <comment>phrase: Create a Tax class</comment>
   </data>
-  <data name="EditATaxClass" lastModified="2014-04-07T14:32:44">
+  <data name="EditATaxClass" lastModified="2014-07-22T13:48:17">
     <value>Edit a tax class</value>
     <comment>phrase: Edit a tax class</comment>
   </data>
-  <data name="TaxClassTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TaxClassTitle" lastModified="2014-07-22T13:48:17">
     <value>Tax class</value>
     <comment>phrase: Tax class</comment>
   </data>
-  <data name="TaxClassTitleFieldControlExample" lastModified="2014-04-07T14:32:44">
+  <data name="TaxClassTitleFieldControlExample" lastModified="2014-07-22T13:48:17">
     <value>Example: Drugs</value>
     <comment>Message shown as example for Tax class title.</comment>
   </data>
-  <data name="TaxClassTitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="TaxClassTitleCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The title of the tax class must be set.</value>
     <comment>The message shown to user if no title for the tax class has been entered.</comment>
   </data>
-  <data name="TaxClassTitleTooLong" lastModified="2014-04-07T14:32:44">
+  <data name="TaxClassTitleTooLong" lastModified="2014-07-22T13:48:17">
     <value>The length of the tax class title cannot be larger than 255 characters.</value>
     <comment>The message shown to user if the title is longer than 255 characters.</comment>
   </data>
-  <data name="TaxClassesNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TaxClassesNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Tax classes</value>
     <comment>Title of the tax classes node.</comment>
   </data>
-  <data name="TaxClassesNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="TaxClassesNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>tax-classes</value>
     <comment>Url name of the tax classes node.</comment>
   </data>
-  <data name="CreateThisTaxClass" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisTaxClass" lastModified="2014-07-22T13:48:17">
     <value>Create this tax class</value>
     <comment>phrase: Create this tax class</comment>
   </data>
-  <data name="BackToTaxClasses" lastModified="2014-04-07T14:32:44">
+  <data name="BackToTaxClasses" lastModified="2014-07-22T13:48:17">
     <value>Back to Tax classes</value>
     <comment>Back To Tax classes</comment>
   </data>
-  <data name="OrderInvoiceViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="OrderInvoiceViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Order Invoice</value>
     <comment>Order invoice friendly name</comment>
   </data>
-  <data name="ShoppingCartViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Shopping Cart</value>
     <comment>Shopping cart view friendly name</comment>
   </data>
-  <data name="ShoppingCartSummaryViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartSummaryViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Shopping Cart Summary</value>
     <comment>Shopping cart view friendly name</comment>
   </data>
-  <data name="DigitalDownloadsViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="DigitalDownloadsViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Digital downloads</value>
     <comment>Digital downloads view friendly name</comment>
   </data>
-  <data name="OrderMasterViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="OrderMasterViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Orders Master list</value>
     <comment>Order master view friendly name</comment>
   </data>
-  <data name="OrderDetailViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="OrderDetailViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Order detail</value>
     <comment>Order detail view friendly name</comment>
   </data>
-  <data name="CheckoutAreaTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CheckoutAreaTitle" lastModified="2014-07-22T13:48:17">
     <value>Ecommerce Checkout</value>
     <comment>Title of checkout area</comment>
   </data>
-  <data name="CheckoutFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="CheckoutFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Checkout</value>
     <comment>Checkout view friendly name</comment>
   </data>
-  <data name="ShippingAndBillingInformationFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingAndBillingInformationFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Shipping and Billing Information</value>
     <comment>Shipping and billing information view friendly name</comment>
   </data>
-  <data name="ShippingOptionsFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingOptionsFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Shipping Options</value>
     <comment>Shipping options view friendly name</comment>
   </data>
-  <data name="PaymentStepFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentStepFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Payment Step</value>
     <comment>Payment step view friendly name</comment>
   </data>
-  <data name="PreviewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Preview</value>
     <comment>Preview view friendly name</comment>
   </data>
-  <data name="ConfirmationFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="ConfirmationFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Confirmation</value>
     <comment>Confirmation view friendly name</comment>
   </data>
-  <data name="ShoppingCart" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCart" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart</value>
     <comment>The title of the shopping cart</comment>
   </data>
-  <data name="Checkout" lastModified="2014-04-07T14:32:44">
+  <data name="Checkout" lastModified="2014-07-22T13:48:17">
     <value>Checkout</value>
     <comment>word: Checkout</comment>
   </data>
-  <data name="ViewShoppingCart" lastModified="2014-04-07T14:32:44">
+  <data name="ViewShoppingCart" lastModified="2014-07-22T13:48:17">
     <value>View shopping cart</value>
     <comment>phrase: View shopping cart</comment>
   </data>
-  <data name="BeforeDiscounts" lastModified="2014-04-07T14:32:44">
+  <data name="BeforeDiscounts" lastModified="2014-07-22T13:48:17">
     <value>Before Discounts</value>
     <comment>phrase: Before Discounts</comment>
   </data>
-  <data name="Subtotal" lastModified="2014-04-07T14:32:44">
+  <data name="Subtotal" lastModified="2014-07-22T13:48:17">
     <value>Subtotal</value>
     <comment>word: Subtotal</comment>
   </data>
-  <data name="SubtotalWithDiscounts" lastModified="2014-04-07T14:32:44">
+  <data name="SubtotalWithDiscounts" lastModified="2014-07-22T13:48:17">
     <value>Subtotal (Including Discounts)</value>
     <comment>word: SubtotalWithDiscounts</comment>
   </data>
-  <data name="ProductsLower" lastModified="2014-04-07T14:32:44">
+  <data name="ProductsLower" lastModified="2014-07-22T13:48:17">
     <value>products</value>
     <comment>word: products</comment>
   </data>
-  <data name="ProductNotAvailable" lastModified="2014-04-07T14:32:44">
+  <data name="ProductNotAvailable" lastModified="2014-07-22T13:48:17">
     <value>Sorry the product you requested is currently not available.</value>
     <comment>phrase: Sorry the product you requested is currently not available.</comment>
   </data>
-  <data name="NoProductsInShoppingCart" lastModified="2014-04-07T14:32:44">
+  <data name="NoProductsInShoppingCart" lastModified="2014-07-22T13:48:17">
     <value>There are no products in your cart.</value>
     <comment>The message shown to the user if there are no products in his or her shopping cart</comment>
   </data>
-  <data name="ThereAreNoProducts" lastModified="2014-04-07T14:32:44">
+  <data name="ThereAreNoProducts" lastModified="2014-07-22T13:48:17">
     <value>There are no products</value>
     <comment>phrase: There are no products</comment>
   </data>
-  <data name="PrintInvoice" lastModified="2014-04-07T14:32:44">
+  <data name="PrintInvoice" lastModified="2014-07-22T13:48:17">
     <value>Print invoice</value>
     <comment>phrase: Print invoice</comment>
   </data>
-  <data name="Invoice" lastModified="2014-04-07T14:32:44">
+  <data name="ShowInvoice" lastModified="2014-07-22T13:48:17">
+    <value>Show invoice</value>
+    <comment>phrase: Show invoice</comment>
+  </data>
+  <data name="Invoice" lastModified="2014-07-22T13:48:17">
     <value>Invoice</value>
     <comment>word: Invoice</comment>
   </data>
-  <data name="OrderDetails" lastModified="2014-04-07T14:32:44">
+  <data name="OrderDetails" lastModified="2014-07-22T13:48:17">
     <value>Order Details</value>
     <comment>phrase: Order Details</comment>
   </data>
-  <data name="ViewOrderDetails" lastModified="2014-04-07T14:32:44">
+  <data name="ViewOrderDetails" lastModified="2014-07-22T13:48:17">
     <value>View order details</value>
     <comment>phrase: View order details</comment>
   </data>
-  <data name="OrderedProducts" lastModified="2014-04-07T14:32:44">
+  <data name="OrderedProducts" lastModified="2014-07-22T13:48:17">
     <value>Ordered products</value>
     <comment>phrase: Ordered products</comment>
   </data>
-  <data name="UnableToDisplayOrderInvoice" lastModified="2014-04-07T14:32:44">
+  <data name="UnableToDisplayOrderInvoice" lastModified="2014-07-22T13:48:17">
     <value>The system was unable to display the Invoice for the Order</value>
     <comment>phrase: The system was unable to display the Invoice for the Order</comment>
   </data>
-  <data name="UnableToDisplayOrderDetails" lastModified="2014-04-07T14:32:44">
+  <data name="UnableToDisplayOrderDetails" lastModified="2014-07-22T13:48:17">
     <value>The system was unable to display the details for the Order</value>
     <comment>phrase: The system was unable to display the details for the Order</comment>
   </data>
-  <data name="Offline" lastModified="2014-04-07T14:32:44">
+  <data name="Offline" lastModified="2014-07-22T13:48:17">
     <value>Offline</value>
     <comment>word: Offline</comment>
   </data>
-  <data name="OrderEmailSubject" lastModified="2014-04-07T14:32:44">
+  <data name="OrderEmailSubject" lastModified="2014-07-22T13:48:17">
     <value>Confirming Order {0}</value>
     <comment>Phrase: Confirming Order {0}</comment>
   </data>
-  <data name="ApplyTaxToShippingTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ApplyTaxToShippingTitle" lastModified="2014-07-22T13:48:17">
     <value>Apply tax to shipping</value>
     <comment>phrase: Apply tax to shipping title.</comment>
   </data>
-  <data name="ApplyTaxToShippingDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ApplyTaxToShippingDescription" lastModified="2014-07-22T13:48:17">
     <value>Standard rate will be applied to the shipping rates of taxable products</value>
     <comment>phrase: Description applied to Apply tax to shipping checkbox.</comment>
   </data>
-  <data name="HaveACouponCode" lastModified="2014-04-07T14:32:44">
+  <data name="HaveACouponCode" lastModified="2014-07-22T13:48:17">
     <value>Have a coupon code?</value>
     <comment>phrase: Have a coupon code?</comment>
   </data>
-  <data name="ApplyCouponCode" lastModified="2014-04-07T14:32:44">
+  <data name="ApplyCouponCode" lastModified="2014-07-22T13:48:17">
     <value>Apply</value>
     <comment>Label of the button that the user clicks to apply a discount</comment>
   </data>
-  <data name="EmptyCouponCode" lastModified="2014-04-07T14:32:44">
+  <data name="EmptyCouponCode" lastModified="2014-07-22T13:48:17">
     <value>Please enter a code.</value>
     <comment>Message that displays when user enters an empty coupon code</comment>
   </data>
-  <data name="InvalidCouponCode" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidCouponCode" lastModified="2014-07-22T13:48:17">
     <value>Invalid code</value>
     <comment>Message that displays when user enters a non-existent coupon code.</comment>
   </data>
-  <data name="ExpiredCouponCode" lastModified="2014-04-07T14:32:44">
+  <data name="ExpiredCouponCode" lastModified="2014-07-22T13:48:17">
     <value>Expired code</value>
     <comment>Message that displays when the user enters a coupon code for an expired coupon.</comment>
   </data>
-  <data name="CouponCodeDoesNotApplyToCurrentCartOrder" lastModified="2014-04-07T14:32:44">
+  <data name="CouponCodeDoesNotApplyToCurrentCartOrder" lastModified="2014-07-22T13:48:17">
     <value>Supplied code cannot be applied to current order</value>
     <comment>Message that displays when the user enters a coupon code for an order that it cannot be applied to.</comment>
   </data>
-  <data name="CouponCodeValidEntry" lastModified="2014-04-07T14:32:44">
+  <data name="CouponCodeValidEntry" lastModified="2014-07-22T13:48:17">
     <value>Successfully applied code:</value>
     <comment>Message that displays when user enters a valid coupon code</comment>
   </data>
-  <data name="BasicStepsStep" lastModified="2014-04-07T14:32:44">
+  <data name="BasicStepsStep" lastModified="2014-07-22T13:48:17">
     <value>Basic Steps</value>
     <comment>phrase: Basic Steps</comment>
   </data>
-  <data name="OrderPlacedClientEmailTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="OrderPlacedClientEmailTemplate" lastModified="2014-07-22T13:48:17">
     <value>Order placed client email template</value>
     <comment>phrase: Order placed client email template</comment>
   </data>
-  <data name="SendACopyOfOrderPlacedEmailToMerchant" lastModified="2014-04-07T14:32:44">
+  <data name="SendACopyOfOrderPlacedEmailToMerchant" lastModified="2014-07-22T13:48:17">
     <value>Send merchant a copy of the email</value>
     <comment>phrase: Send merchant a copy of the email</comment>
   </data>
-  <data name="CheckoutRequiresLogIn" lastModified="2014-04-07T14:32:44">
+  <data name="CheckoutRequiresLogIn" lastModified="2014-07-22T13:48:17">
     <value>Allow anonymous users to place orders</value>
     <comment>phrase: Allow anonymous users to place orders</comment>
   </data>
-  <data name="LinkToConfirmationPage" lastModified="2014-04-07T14:32:44">
+  <data name="LinkToConfirmationPage" lastModified="2014-07-22T13:48:17">
     <value>Link to confirmation page</value>
     <comment>phrase: Link to confirmation page</comment>
   </data>
-  <data name="SetUpShoppingCart" lastModified="2014-04-07T14:32:44">
+  <data name="SetUpShoppingCart" lastModified="2014-07-22T13:48:17">
     <value>Set Shopping cart</value>
     <comment>phrase: Set Shopping cart</comment>
   </data>
-  <data name="SetUpShoppingCartSummary" lastModified="2014-04-07T14:32:44">
+  <data name="SetUpShoppingCartSummary" lastModified="2014-07-22T13:48:17">
     <value>Set Shopping cart summary</value>
     <comment>phrase: Set Shopping cart summary</comment>
   </data>
-  <data name="ShoppingCartNotSetUp" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartNotSetUp" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart not set up</value>
     <comment>phrase: Shopping cart not set up</comment>
   </data>
-  <data name="ShoppingCartSummaryNotSetUp" lastModified="2014-04-07T14:32:44">
+  <data name="ShoppingCartSummaryNotSetUp" lastModified="2014-07-22T13:48:17">
     <value>Shopping cart summary not set up</value>
     <comment>phrase: Shopping cart summary not set up</comment>
   </data>
-  <data name="FilterOrdersLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FilterOrdersLabel" lastModified="2014-07-22T13:48:17">
     <value>Filter orders</value>
     <comment>Title: Filter orders</comment>
   </data>
-  <data name="ManageOrders" lastModified="2014-04-07T14:32:44">
+  <data name="ManageOrders" lastModified="2014-07-22T13:48:17">
     <value>Manage Orders</value>
     <comment>word: Manage Orders</comment>
   </data>
-  <data name="SortOrdersByDateLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SortOrdersByDateLabel" lastModified="2014-07-22T13:48:17">
     <value>By date...</value>
     <comment>phrase: Sort Orders by date...</comment>
   </data>
-  <data name="AllOrdersLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AllOrdersLabel" lastModified="2014-07-22T13:48:17">
     <value>All Orders</value>
     <comment>phrase: All Orders</comment>
   </data>
-  <data name="DisplayLastUpdatedOrders" lastModified="2014-04-07T14:32:44">
+  <data name="DisplayLastUpdatedOrders" lastModified="2014-07-22T13:48:17">
     <value>Display orders last updated in...</value>
     <comment>The text of the last updated order sidebar button</comment>
   </data>
-  <data name="CloseDateFilter" lastModified="2014-04-07T14:32:44">
+  <data name="CloseDateFilter" lastModified="2014-07-22T13:48:17">
     <value>Close dates</value>
     <comment>The link for closing the date filter widget in the sidebar.</comment>
   </data>
-  <data name="NoDownloadableProductsPurchased" lastModified="2014-04-07T14:32:44">
+  <data name="NoDownloadableProductsPurchased" lastModified="2014-07-22T13:48:17">
     <value>You haven't purchased any downloadable products yet.</value>
     <comment>phrase: You haven't purchased any downloadable products yet.</comment>
   </data>
-  <data name="DigitalDownloadRequiresLogin" lastModified="2014-04-07T14:32:44">
+  <data name="DigitalDownloadRequiresLogin" lastModified="2014-07-22T13:48:17">
     <value>Your cart contains digital items. In order to purchase and download your digital items, you will need to register and log in.</value>
     <comment>phrase: Your cart contains digital items. In order to purchase and download your digital items, you will need to register and log in.</comment>
   </data>
-  <data name="YouHaventBoughtDownloadableProductsYet" lastModified="2014-04-07T14:32:44">
+  <data name="YouHaventBoughtDownloadableProductsYet" lastModified="2014-07-22T13:48:17">
     <value>You haven't bought downloadable products yet.</value>
     <comment>phrase: You haven't bought downloadable products yet.</comment>
   </data>
-  <data name="OnceYouHaveBoughtDownloadables" lastModified="2014-04-07T14:32:44">
+  <data name="OnceYouHaveBoughtDownloadables" lastModified="2014-07-22T13:48:17">
     <value>Once you have bought some, this will be the place for downloading them</value>
     <comment>phrase: Once you have bought some, this will be the place for downloading them.</comment>
   </data>
-  <data name="SortBy" lastModified="2014-04-07T14:32:44">
+  <data name="SortBy" lastModified="2014-07-22T13:48:17">
     <value>Sort by:</value>
     <comment>phrase: Sort by:</comment>
   </data>
-  <data name="SortByNewest" lastModified="2014-04-07T14:32:44">
+  <data name="SortByNewest" lastModified="2014-07-22T13:48:17">
     <value>Newest first</value>
     <comment>phrase: Newest first</comment>
   </data>
-  <data name="SortByOldest" lastModified="2014-04-07T14:32:44">
+  <data name="SortByOldest" lastModified="2014-07-22T13:48:17">
     <value>Oldest first</value>
     <comment>phrase: Oldest first</comment>
   </data>
-  <data name="ClickToDownload" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToDownload" lastModified="2014-07-22T13:48:17">
     <value>Click to download</value>
     <comment>phrase: Click to download</comment>
   </data>
-  <data name="Purchased" lastModified="2014-04-07T14:32:44">
+  <data name="Purchased" lastModified="2014-07-22T13:48:17">
     <value>Purchased</value>
     <comment>phrase: Purchased</comment>
   </data>
-  <data name="NoPaging" lastModified="2014-04-07T14:32:44">
+  <data name="NoPaging" lastModified="2014-07-22T13:48:17">
     <value>No paging</value>
     <comment>phrase: No paging</comment>
   </data>
-  <data name="YouAreNotAllowedToDownloadThisFile" lastModified="2014-04-07T14:32:44">
+  <data name="YouAreNotAllowedToDownloadThisFile" lastModified="2014-07-22T13:48:17">
     <value>You are not allowed to download this file as you have not purchased the product</value>
     <comment>You are not allowed to download this file as you have not purchased the product</comment>
   </data>
-  <data name="OrderStatusUnknown" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusUnknown" lastModified="2014-07-22T13:48:17">
     <value>Unknown</value>
     <comment>word: Unknown</comment>
   </data>
-  <data name="OrderStatusPending" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusPending" lastModified="2014-07-22T13:48:17">
     <value>Pending</value>
     <comment>word: Pending</comment>
   </data>
-  <data name="OrderStatusPaid" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusPaid" lastModified="2014-07-22T13:48:17">
     <value>Paid</value>
     <comment>word: Paid</comment>
   </data>
-  <data name="OrderStatusDeclined" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusDeclined" lastModified="2014-07-22T13:48:17">
     <value>Declined</value>
     <comment>word: Declined</comment>
   </data>
-  <data name="OrderStatusShipped" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusShipped" lastModified="2014-07-22T13:48:17">
     <value>Shipped</value>
     <comment>word: Shipped</comment>
   </data>
-  <data name="OrderStatusAuthorized" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusAuthorized" lastModified="2014-07-22T13:48:17">
     <value>Authorized</value>
     <comment>word: Authorized</comment>
   </data>
-  <data name="OrderStatusCancelled" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusCancelled" lastModified="2014-07-22T13:48:17">
     <value>Cancelled</value>
     <comment>word: Cancelled</comment>
   </data>
-  <data name="OrderStatusDeleted" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusDeleted" lastModified="2014-07-22T13:48:17">
     <value>Deleted</value>
     <comment>word: Deleted</comment>
   </data>
-  <data name="OrderStatusPlaced" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusPlaced" lastModified="2014-07-22T13:48:17">
     <value>Placed</value>
     <comment>word: Placed</comment>
   </data>
-  <data name="CannotDeletePaymentMethod" lastModified="2014-04-07T14:32:44">
+  <data name="CannotDeletePaymentMethod" lastModified="2014-07-22T13:48:17">
     <value>You cannot delete this payment method because there are orders in the system that already use it.  Please deactivate the payment method if it is not going to be used.</value>
     <comment>Message that is shown when a payment method cannot be deleted because its used in order payment records</comment>
   </data>
-  <data name="CouponCodeViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="CouponCodeViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Coupon Code</value>
     <comment>phrase: Coupon Code</comment>
   </data>
-  <data name="CouponCodeNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CouponCodeNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>eCommerce Checkout</value>
     <comment>Title of the orders coupon code node.</comment>
   </data>
-  <data name="OrderSummaryViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="OrderSummaryViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Order Summary</value>
     <comment>phrase: Order Summary</comment>
   </data>
-  <data name="OrderSummaryNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OrderSummaryNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>eCommerce Checkout</value>
     <comment>Title of the Order Summary node.</comment>
   </data>
-  <data name="CannotDeleteCustomer" lastModified="2014-04-07T14:32:44">
+  <data name="CannotDeleteCustomer" lastModified="2014-07-22T13:48:17">
     <value>Cannot delete {0} as there are orders associated with this customer.</value>
     <comment>Message that gets shown when a customer cannot be deleted.</comment>
   </data>
-  <data name="CannotReachPaymentProcessorServer" lastModified="2014-04-07T14:32:44">
+  <data name="CannotReachPaymentProcessorServer" lastModified="2014-07-22T13:48:17">
     <value>Cannot reach the payment processor. Please try again later.</value>
     <comment>Cannot reach the payment processor. Please try again later.</comment>
   </data>
-  <data name="OrderPaymentDataMissing" lastModified="2014-04-07T14:32:44">
+  <data name="OrderPaymentDataMissing" lastModified="2014-07-22T13:48:17">
     <value>Order payment data is missing</value>
     <comment>phrase: Order payment data is missing</comment>
   </data>
-  <data name="BillingAddressMissing" lastModified="2014-04-07T14:32:44">
+  <data name="BillingAddressMissing" lastModified="2014-07-22T13:48:17">
     <value>Billing address is missing</value>
     <comment>phrase: Billing address is missing</comment>
   </data>
-  <data name="ThisDiscountCanBeUsed" lastModified="2014-04-07T14:32:44">
+  <data name="ThisDiscountCanBeUsed" lastModified="2014-07-22T13:48:17">
     <value>This discount can be used</value>
     <comment>phrase: This discount can be used</comment>
   </data>
-  <data name="Times" lastModified="2014-04-07T14:32:44">
+  <data name="Times" lastModified="2014-07-22T13:48:17">
     <value>times.</value>
     <comment>times</comment>
   </data>
-  <data name="CouponHasExceededUsage" lastModified="2014-04-07T14:32:44">
+  <data name="CouponHasExceededUsage" lastModified="2014-07-22T13:48:17">
     <value>Invalid code</value>
     <comment>Coupon usage has been reached</comment>
   </data>
-  <data name="NotEnoughInventory" lastModified="2014-04-07T14:32:44">
+  <data name="NotEnoughInventory" lastModified="2014-07-22T13:48:17">
     <value>This item cannot be added to your shopping cart at this time, because the quantity you requested exceeds current inventory. Quantity has automatically been updated to the most available.</value>
     <comment>NotEnoughInventory</comment>
   </data>
-  <data name="SomeProductsNotAvailableInOrder" lastModified="2014-04-07T14:32:44">
+  <data name="SomeProductsNotAvailableInOrder" lastModified="2014-07-22T13:48:17">
     <value>One or more products are not available in the order.</value>
     <comment>SomeProductsNotAvailableInOrder</comment>
   </data>
-  <data name="DiscountSelectUsersRoles" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountSelectUsersRoles" lastModified="2014-07-22T13:48:17">
     <value>Selected users and roles</value>
     <comment>Selected users and roles</comment>
   </data>
-  <data name="DiscountAllCustomers" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountAllCustomers" lastModified="2014-07-22T13:48:17">
     <value>All customers</value>
     <comment>All customers</comment>
   </data>
-  <data name="DiscountExistingCustomers" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountExistingCustomers" lastModified="2014-07-22T13:48:17">
     <value>Existing customers</value>
     <comment>Existing customers</comment>
   </data>
-  <data name="DiscountNewCustomers" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountNewCustomers" lastModified="2014-07-22T13:48:17">
     <value>New customers</value>
     <comment>New customers</comment>
   </data>
-  <data name="DiscountApplyForHeader" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountApplyForHeader" lastModified="2014-07-22T13:48:17">
     <value>Apply discount for...</value>
     <comment>Apply discount for...</comment>
   </data>
-  <data name="CouponCodeRequired" lastModified="2014-04-07T14:32:44">
+  <data name="CouponCodeRequired" lastModified="2014-07-22T13:48:17">
     <value>The option selected requires a coupon code to be entered</value>
     <comment>The option selected requires a coupon code to be entered</comment>
   </data>
-  <data name="CartDiscountChange" lastModified="2014-04-07T14:32:44">
+  <data name="CartDiscountChange" lastModified="2014-07-22T13:48:17">
     <value>We apologize that one or more discounts were removed from your shopping cart.  The total price has been recalculated.</value>
     <comment>We apologize that one or more discounts were removed from your shopping cart.  The total price has been recalculated.</comment>
   </data>
-  <data name="CartDiscountNumberIncrease" lastModified="2014-04-07T14:32:44">
+  <data name="CartDiscountNumberIncrease" lastModified="2014-07-22T13:48:17">
     <value>One or more discounts have been added to your shopping cart.  The total price has been recalculated.</value>
     <comment>One or more discounts have been added to your shopping cart.  The total price has been recalculated.</comment>
   </data>
-  <data name="PleaseEnterFromPostalCOde" lastModified="2014-04-07T14:32:44">
+  <data name="PleaseEnterFromPostalCOde" lastModified="2014-07-22T13:48:17">
     <value>Please enter from postal code</value>
     <comment>PleaseEnterFromPostalCOde</comment>
   </data>
-  <data name="PleaseEnterToPostalCOde" lastModified="2014-04-07T14:32:44">
+  <data name="PleaseEnterToPostalCOde" lastModified="2014-07-22T13:48:17">
     <value>Please enter to postal code</value>
     <comment>PleaseEnterToPostalCOde</comment>
   </data>
-  <data name="AddToWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="AddToWishlist" lastModified="2014-07-22T13:48:17">
     <value>add to wish list</value>
     <comment>add to wish list</comment>
   </data>
-  <data name="NotAddedToWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="NotAddedToWishlist" lastModified="2014-07-22T13:48:17">
     <value>This item cannot be added to your wish list at this time.</value>
     <comment>This item cannot be added to your wish list at this time.</comment>
   </data>
-  <data name="WishListToolboxName" lastModified="2014-04-07T14:32:44">
+  <data name="WishListToolboxName" lastModified="2014-07-22T13:48:17">
     <value>Wish list</value>
     <comment>The title of the Wishlist widget in the toolbox.</comment>
   </data>
-  <data name="ProductQuantityIsInvalidInWishList" lastModified="2014-04-07T14:32:44">
+  <data name="ProductQuantityIsInvalidInWishList" lastModified="2014-07-22T13:48:17">
     <value>The quantity must be between 0 and 9,999 (0 removes the product from your wish list).</value>
     <comment>The message shown to the user if the quantity in the is not valid when trying to add to wishlist.</comment>
   </data>
-  <data name="NoProductsInWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="NoProductsInWishlist" lastModified="2014-07-22T13:48:17">
     <value>There are no products in your wish list.</value>
     <comment>The message shown to the user if there are no products in his or her wishlist</comment>
   </data>
-  <data name="WishlistPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="WishlistPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Wishlist</value>
     <comment>Wishlist property editor title.</comment>
   </data>
-  <data name="WishlistViewFriendlyName" lastModified="2014-04-07T14:32:44">
+  <data name="WishlistViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Wishlist</value>
     <comment>Wishlist view friendly name</comment>
   </data>
-  <data name="Wishlist" lastModified="2014-04-07T14:32:44">
+  <data name="Wishlist" lastModified="2014-07-22T13:48:17">
     <value>Wish list</value>
     <comment>Wishlist</comment>
   </data>
-  <data name="AddedToWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="AddedToWishlist" lastModified="2014-07-22T13:48:17">
     <value>Added to wish list</value>
     <comment>Added to wish list</comment>
   </data>
-  <data name="MoveToShoppingCart" lastModified="2014-04-07T14:32:44">
+  <data name="MoveToShoppingCart" lastModified="2014-07-22T13:48:17">
     <value>Add to cart</value>
     <comment>Move to shopping cart</comment>
   </data>
-  <data name="MoveToWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="MoveToWishlist" lastModified="2014-07-22T13:48:17">
     <value>Move to wish list</value>
     <comment>Move to wishlist</comment>
   </data>
-  <data name="NotAddedToWishlistAnonymous" lastModified="2014-04-07T14:32:44">
+  <data name="NotAddedToWishlistAnonymous" lastModified="2014-07-22T13:48:17">
     <value>Wish list can only be used by logged in users of the site. If you have an account, please login or create an account</value>
     <comment>Message that gets shown to the user who is not logged but tries to use wishlist</comment>
   </data>
-  <data name="WishlistIsNotForAnonymousUsers" lastModified="2014-04-07T14:32:44">
+  <data name="WishlistIsNotForAnonymousUsers" lastModified="2014-07-22T13:48:17">
     <value>To use a wish list you have to be a member of the site and be logged in.</value>
     <comment>Message that gets shown to the user who is not logged but tries to use wishlist</comment>
   </data>
-  <data name="GoToShoppingCart" lastModified="2014-04-07T14:32:44">
+  <data name="GoToShoppingCart" lastModified="2014-07-22T13:48:17">
     <value>Go to shopping cart</value>
     <comment>Text on go to shopping cart link in wishlist control</comment>
   </data>
-  <data name="WishlistTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="WishlistTemplate" lastModified="2014-07-22T13:48:17">
     <value>Wish list template</value>
     <comment>phrase: Wishlist template.</comment>
   </data>
-  <data name="SetUpWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="SetUpWishlist" lastModified="2014-07-22T13:48:17">
     <value>Set Wish List</value>
     <comment>phrase: Set Wishlist</comment>
   </data>
-  <data name="WishlistNotSetUp" lastModified="2014-04-07T14:32:44">
+  <data name="WishlistNotSetUp" lastModified="2014-07-22T13:48:17">
     <value>Wish List not set up</value>
     <comment>phrase: Wishlist not set up</comment>
   </data>
-  <data name="SharingWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="SharingWishlist" lastModified="2014-07-22T13:48:17">
     <value>Check out my Wish List -</value>
     <comment>phrase: Wishlist not set up</comment>
   </data>
-  <data name="CurrentPrivacyIsPrivate" lastModified="2014-04-07T14:32:44">
+  <data name="CurrentPrivacyIsPrivate" lastModified="2014-07-22T13:48:17">
     <value>Private wish list</value>
     <comment>phrase: Your Wishlist is currently private (only accessible by you).</comment>
   </data>
-  <data name="SwitchPrivacyToPublic" lastModified="2014-04-07T14:32:44">
+  <data name="SwitchPrivacyToPublic" lastModified="2014-07-22T13:48:17">
     <value>Make public</value>
     <comment>phrase: Make your wishlist public</comment>
   </data>
-  <data name="CurrentPrivacyIsPublic" lastModified="2014-04-07T14:32:44">
+  <data name="CurrentPrivacyIsPublic" lastModified="2014-07-22T13:48:17">
     <value>Public wish list</value>
     <comment>phrase: Your Wishlist is currently public (accessible to others).</comment>
   </data>
-  <data name="SwitchPrivacyToPrivate" lastModified="2014-04-07T14:32:44">
+  <data name="SwitchPrivacyToPrivate" lastModified="2014-07-22T13:48:17">
     <value>Make private</value>
     <comment>phrase: Make your wishlist private</comment>
   </data>
-  <data name="WishlistGuidEvaluatorDescription" lastModified="2014-04-07T14:32:44">
+  <data name="WishlistGuidEvaluatorDescription" lastModified="2014-07-22T13:48:17">
     <value>Extracts the URL based on the Wish List id that is passed</value>
     <comment>The description of the Wishlist Guid URL Evaluator.</comment>
   </data>
-  <data name="ItemCannotBeRemovedFromWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="ItemCannotBeRemovedFromWishlist" lastModified="2014-07-22T13:48:17">
     <value>There was some problem with removing item from wish list, please try again later.</value>
     <comment>Message that gets shown when remove is pressed on wishlist</comment>
   </data>
-  <data name="ItemRemovedFromWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="ItemRemovedFromWishlist" lastModified="2014-07-22T13:48:17">
     <value>{0} has removed from your wish list.</value>
     <comment>Message that gets shown when remove is successful on wishlist</comment>
   </data>
-  <data name="ItemCannotBeMovedToCart" lastModified="2014-04-07T14:32:44">
+  <data name="ItemCannotBeMovedToCart" lastModified="2014-07-22T13:48:17">
     <value>There was some problem with adding product to your cart, please try again later.</value>
     <comment>Message that gets shown when move to cart is pressed on wishlist </comment>
   </data>
-  <data name="ItemMovedToCart" lastModified="2014-04-07T14:32:44">
+  <data name="ItemMovedToCart" lastModified="2014-07-22T13:48:17">
     <value>{0} has been added to your shopping cart.</value>
     <comment>Message that gets shown when move to cart is successful on wishlist</comment>
   </data>
-  <data name="AllowUserToMoveProductsToWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="AllowUserToMoveProductsToWishlist" lastModified="2014-07-22T13:48:17">
     <value>Allow user to move products to wish list</value>
     <comment>Phrase: Allow user to move products to wish list</comment>
   </data>
-  <data name="AllowUserToAddProductsToWishlist" lastModified="2014-04-07T14:32:44">
+  <data name="AllowUserToAddProductsToWishlist" lastModified="2014-07-22T13:48:17">
     <value>Allow user to add products to wish list</value>
     <comment>Phrase: Allow user to add products to wish list</comment>
   </data>
-  <data name="LinkToShoppingCartPage" lastModified="2014-04-07T14:32:44">
+  <data name="LinkToShoppingCartPage" lastModified="2014-07-22T13:48:17">
     <value>Link to shopping cart page</value>
     <comment>phrase: Link to shopping cart page</comment>
   </data>
-  <data name="Location" lastModified="2014-04-07T14:32:44">
+  <data name="Location" lastModified="2014-07-22T13:48:17">
     <value>Location</value>
     <comment>Location</comment>
   </data>
-  <data name="OrdersSummaryReport" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersSummaryReport" lastModified="2014-07-22T13:48:17">
     <value>Sales summary report</value>
     <comment>Orders summary report</comment>
   </data>
-  <data name="OrdersReportsSummaryReportNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersReportsSummaryReportNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Orders Summary</value>
     <comment>Orders Summary</comment>
   </data>
-  <data name="OrdersReportsSummaryReportNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="OrdersReportsSummaryReportNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>orders-summary</value>
     <comment>Url name of the orders summary report</comment>
   </data>
-  <data name="Period" lastModified="2014-04-07T14:32:44">
+  <data name="Period" lastModified="2014-07-22T13:48:17">
     <value>Period</value>
     <comment>Word: Period</comment>
   </data>
-  <data name="SelectPeriod" lastModified="2014-04-07T14:32:44">
+  <data name="SelectPeriod" lastModified="2014-07-22T13:48:17">
     <value>Select Period</value>
     <comment>phrase: Select Period</comment>
   </data>
-  <data name="Today" lastModified="2014-04-07T14:32:44">
+  <data name="Today" lastModified="2014-07-22T13:48:17">
     <value>Today</value>
     <comment>Word: Today</comment>
   </data>
-  <data name="Yesterday" lastModified="2014-04-07T14:32:44">
+  <data name="Yesterday" lastModified="2014-07-22T13:48:17">
     <value>Yesterday</value>
     <comment>phrase: Yesterday</comment>
   </data>
-  <data name="Last7Days" lastModified="2014-04-07T14:32:44">
+  <data name="Last7Days" lastModified="2014-07-22T13:48:17">
     <value>Last 7 days</value>
     <comment>phrase: Last 7 days</comment>
   </data>
-  <data name="Last30Days" lastModified="2014-04-07T14:32:44">
+  <data name="Last30Days" lastModified="2014-07-22T13:48:17">
     <value>Last 30 days</value>
     <comment>phrase: Last 30 days</comment>
   </data>
-  <data name="Last90Days" lastModified="2014-04-07T14:32:44">
+  <data name="Last90Days" lastModified="2014-07-22T13:48:17">
     <value>Last 90 days</value>
     <comment>phrase: Last 90 days</comment>
   </data>
-  <data name="CustomPeriodDot" lastModified="2014-04-07T14:32:44">
+  <data name="CustomPeriodDot" lastModified="2014-07-22T13:48:17">
     <value>Custom period...</value>
     <comment>phrase: Custom period...</comment>
   </data>
-  <data name="TotalSales" lastModified="2014-04-07T14:32:44">
+  <data name="TotalSales" lastModified="2014-07-22T13:48:17">
     <value>Total sales</value>
     <comment>Total sales</comment>
   </data>
-  <data name="Taxes" lastModified="2014-04-07T14:32:44">
+  <data name="Taxes" lastModified="2014-07-22T13:48:17">
     <value>Taxes</value>
     <comment>Taxes</comment>
   </data>
-  <data name="Sales" lastModified="2014-04-07T14:32:44">
+  <data name="Sales" lastModified="2014-07-22T13:48:17">
     <value>Sales</value>
     <comment>Word: Sales</comment>
   </data>
-  <data name="FromDateCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="FromDateCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>From date is required</value>
     <comment>From date is required</comment>
   </data>
-  <data name="ToDateShouldBeAfterFromDate" lastModified="2014-04-07T14:32:44">
+  <data name="ToDateShouldBeAfterFromDate" lastModified="2014-07-22T13:48:17">
     <value>ToDateShouldBeAfterFromDate</value>
     <comment>To date should be a after from date</comment>
   </data>
-  <data name="CustomPeriod" lastModified="2014-04-07T14:32:44">
+  <data name="CustomPeriod" lastModified="2014-07-22T13:48:17">
     <value>Custom period</value>
     <comment>phrase: Custom period</comment>
   </data>
-  <data name="CannotExportReport" lastModified="2014-04-07T14:32:44">
+  <data name="CannotExportReport" lastModified="2014-07-22T13:48:17">
     <value>Cannot export the report as there is no data available.</value>
     <comment>Phrase: Cannot export the report as there is no data available</comment>
   </data>
-  <data name="ItemsInCheckoutNotAvailable" lastModified="2014-04-07T14:32:44">
+  <data name="ItemsInCheckoutNotAvailable" lastModified="2014-07-22T13:48:17">
     <value>Some of the items in the checkout (shipping, payment) are no longer available, please hit change on your shipping / billing address to start the checkout process again.</value>
     <comment>Message that gets shown when some items which are part of checkout are deleted by the merchant in the backend while the customer is in the process of checkout</comment>
   </data>
-  <data name="ManagePaymentMethod" lastModified="2014-04-07T14:32:44">
+  <data name="ManagePaymentMethod" lastModified="2014-07-22T13:48:17">
     <value>Manage Payment Method</value>
     <comment>Manage Payment Method</comment>
   </data>
-  <data name="ManageTaxes" lastModified="2014-04-07T14:32:44">
+  <data name="ManageTaxes" lastModified="2014-07-22T13:48:17">
     <value>Manage Taxes</value>
     <comment>Manage Taxes</comment>
   </data>
-  <data name="ManageDiscounts" lastModified="2014-04-07T14:32:44">
+  <data name="ManageDiscounts" lastModified="2014-07-22T13:48:17">
     <value>Manage Discounts</value>
     <comment>Manage Discounts</comment>
   </data>
-  <data name="ManageTaxClasses" lastModified="2014-04-07T14:32:44">
+  <data name="ManageTaxClasses" lastModified="2014-07-22T13:48:17">
     <value>Manage Tax Class</value>
     <comment>Manage Tax Class</comment>
   </data>
-  <data name="QuantitySold" lastModified="2014-04-07T14:32:44">
+  <data name="QuantitySold" lastModified="2014-07-22T13:48:17">
     <value>Quantity Sold</value>
     <comment>Quantity Sold</comment>
   </data>
-  <data name="PlacedOn" lastModified="2014-04-07T14:32:44">
+  <data name="PlacedOn" lastModified="2014-07-22T13:48:17">
     <value>Placed on</value>
     <comment>Placed on</comment>
   </data>
-  <data name="ChangeStatus" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeStatus" lastModified="2014-07-22T13:48:17">
     <value>Change status...</value>
     <comment>Change status...</comment>
   </data>
-  <data name="CommentOptional" lastModified="2014-04-07T14:32:44">
+  <data name="CommentOptional" lastModified="2014-07-22T13:48:17">
     <value>Comment &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
     <comment>Comment &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</comment>
   </data>
-  <data name="TrackingNumber" lastModified="2014-04-07T14:32:44">
+  <data name="TrackingNumber" lastModified="2014-07-22T13:48:17">
     <value>Tracking code</value>
     <comment>Tracking code</comment>
   </data>
-  <data name="TrackingNumberOptional" lastModified="2014-04-07T14:32:44">
+  <data name="TrackingNumberOptional" lastModified="2014-07-22T13:48:17">
     <value>Tracking code &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
     <comment>Tracking code &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</comment>
   </data>
-  <data name="ChangeStatusTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeStatusTitle" lastModified="2014-07-22T13:48:17">
     <value>Change Status</value>
     <comment>Change Status</comment>
   </data>
-  <data name="OrderStatusNotChanged" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusNotChanged" lastModified="2014-07-22T13:48:17">
     <value>The order status have not been changed. Please fill in all the required fields.</value>
     <comment>The order status have not been changed. Please fill in all the required fields.</comment>
   </data>
-  <data name="Via" lastModified="2014-04-07T14:32:44">
+  <data name="Via" lastModified="2014-07-22T13:48:17">
     <value>via</value>
     <comment>phrase : via</comment>
   </data>
-  <data name="On" lastModified="2014-04-07T14:32:44">
+  <data name="On" lastModified="2014-07-22T13:48:17">
     <value>on</value>
     <comment>phrase : on</comment>
   </data>
-  <data name="OrderStatusReturned" lastModified="2014-04-07T14:32:44">
+  <data name="OrderStatusReturned" lastModified="2014-07-22T13:48:17">
     <value>Returned</value>
     <comment>word: Returned</comment>
   </data>
-  <data name="TrackingCode" lastModified="2014-04-07T14:32:44">
+  <data name="TrackingCode" lastModified="2014-07-22T13:48:17">
     <value>Tracking code</value>
     <comment>Tracking code</comment>
   </data>
-  <data name="Processor" lastModified="2014-04-07T14:32:44">
+  <data name="Processor" lastModified="2014-07-22T13:48:17">
     <value>Processor</value>
     <comment>Processor of payflow pro provider</comment>
   </data>
-  <data name="PaymentProcessorUnknown" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentProcessorUnknown" lastModified="2014-07-22T13:48:17">
     <value>Unknown</value>
     <comment>word:Unknown</comment>
   </data>
-  <data name="AmericanExpress" lastModified="2014-04-07T14:32:44">
+  <data name="AmericanExpress" lastModified="2014-07-22T13:48:17">
     <value>American Express</value>
     <comment></comment>
   </data>
-  <data name="ElectronicChecks" lastModified="2014-04-07T14:32:44">
+  <data name="ElectronicChecks" lastModified="2014-07-22T13:48:17">
     <value>Electronic Checks</value>
     <comment></comment>
   </data>
-  <data name="FDMSNashville" lastModified="2014-04-07T14:32:44">
+  <data name="FDMSNashville" lastModified="2014-07-22T13:48:17">
     <value>First Data Merchant Services Nashville</value>
     <comment></comment>
   </data>
-  <data name="FDMSSouth" lastModified="2014-04-07T14:32:44">
+  <data name="FDMSSouth" lastModified="2014-07-22T13:48:17">
     <value>First Data Merchant Services South</value>
     <comment></comment>
   </data>
-  <data name="FDMSNorth" lastModified="2014-04-07T14:32:44">
+  <data name="FDMSNorth" lastModified="2014-07-22T13:48:17">
     <value>First Data Merchant Services North</value>
     <comment></comment>
   </data>
-  <data name="GlobalPaymentsEast" lastModified="2014-04-07T14:32:44">
+  <data name="GlobalPaymentsEast" lastModified="2014-07-22T13:48:17">
     <value>Global Payments East</value>
     <comment></comment>
   </data>
-  <data name="GlobalPaymentsCentral" lastModified="2014-04-07T14:32:44">
+  <data name="GlobalPaymentsCentral" lastModified="2014-07-22T13:48:17">
     <value>Global Payments Central</value>
     <comment></comment>
   </data>
-  <data name="Heartland" lastModified="2014-04-07T14:32:44">
+  <data name="Heartland" lastModified="2014-07-22T13:48:17">
     <value>Heartland</value>
     <comment></comment>
   </data>
-  <data name="Litle" lastModified="2014-04-07T14:32:44">
+  <data name="Litle" lastModified="2014-07-22T13:48:17">
     <value>Litle</value>
     <comment></comment>
   </data>
-  <data name="MerchantESolutions" lastModified="2014-04-07T14:32:44">
+  <data name="MerchantESolutions" lastModified="2014-07-22T13:48:17">
     <value>Merchant e-Solutions</value>
     <comment></comment>
   </data>
-  <data name="Moneris" lastModified="2014-04-07T14:32:44">
+  <data name="Moneris" lastModified="2014-07-22T13:48:17">
     <value>Moneris</value>
     <comment></comment>
   </data>
-  <data name="Nova" lastModified="2014-04-07T14:32:44">
+  <data name="Nova" lastModified="2014-07-22T13:48:17">
     <value>Nova (Elavon)</value>
     <comment></comment>
   </data>
-  <data name="PaymentTechSalem" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentTechSalem" lastModified="2014-07-22T13:48:17">
     <value>Payment tech Salem</value>
     <comment></comment>
   </data>
-  <data name="PaymentTechTampa" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentTechTampa" lastModified="2014-07-22T13:48:17">
     <value>Payment tech Tampa</value>
     <comment></comment>
   </data>
-  <data name="SecureNet" lastModified="2014-04-07T14:32:44">
+  <data name="SecureNet" lastModified="2014-07-22T13:48:17">
     <value>SecureNet</value>
     <comment></comment>
   </data>
-  <data name="VitalVisaNet" lastModified="2014-04-07T14:32:44">
+  <data name="VitalVisaNet" lastModified="2014-07-22T13:48:17">
     <value>Vital / VisaNet (TSYS)</value>
     <comment></comment>
   </data>
-  <data name="Vantiv" lastModified="2014-04-07T14:32:44">
+  <data name="Vantiv" lastModified="2014-07-22T13:48:17">
     <value>Vantiv</value>
     <comment></comment>
   </data>
-  <data name="WorldPay" lastModified="2014-04-07T14:32:44">
+  <data name="WorldPay" lastModified="2014-07-22T13:48:17">
     <value>World Pay</value>
     <comment></comment>
   </data>
-  <data name="PayPal" lastModified="2014-04-07T14:32:44">
+  <data name="PayPal" lastModified="2014-07-22T13:48:17">
     <value>PayPal</value>
     <comment>Paypal</comment>
   </data>
-  <data name="SelectFromAvailableOptions" lastModified="2014-04-07T14:32:44">
+  <data name="SelectFromAvailableOptions" lastModified="2014-07-22T13:48:17">
     <value>Please select from available product options</value>
     <comment>Please select from available product options</comment>
   </data>
-  <data name="OrderHasntBeenPaid" lastModified="2014-04-07T14:32:44">
+  <data name="OrderHasntBeenPaid" lastModified="2014-07-22T13:48:17">
     <value>Your order hasn't been paid.</value>
     <comment>phrase: Your order hasn't been paid.</comment>
   </data>
-  <data name="PaymentMethodEmailRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodEmailRequired" lastModified="2014-07-22T13:48:17">
     <value>The merchant email is required</value>
     <comment>The merchant email is required</comment>
   </data>
-  <data name="PaymentMethodInstallationIdRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodInstallationIdRequired" lastModified="2014-07-22T13:48:17">
     <value>The installation id is required</value>
     <comment>the installation id is required</comment>
   </data>
-  <data name="WorldPayInstallationId" lastModified="2014-04-07T14:32:44">
+  <data name="WorldPayInstallationId" lastModified="2014-07-22T13:48:17">
     <value>WorldPay Installation ID</value>
     <comment>WorldPay Installation ID</comment>
   </data>
-  <data name="PaymentResponsePassword" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentResponsePassword" lastModified="2014-07-22T13:48:17">
     <value>Payment response password  &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
     <comment>Payment response password </comment>
   </data>
-  <data name="MD5Secret" lastModified="2014-04-07T14:32:44">
+  <data name="MD5Secret" lastModified="2014-07-22T13:48:17">
     <value>MD5 secret &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
     <comment>MD5 secret &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</comment>
   </data>
-  <data name="PaymentMethodTransactionId" lastModified="2014-04-07T14:32:44">
+  <data name="PaymentMethodTransactionId" lastModified="2014-07-22T13:48:17">
     <value>Transaction ID</value>
     <comment>phrase:Transaction ID</comment>
   </data>
-  <data name="ImportTaxes" lastModified="2014-04-07T14:32:44">
+  <data name="ImportTaxes" lastModified="2014-07-22T13:48:17">
     <value>Import Taxes</value>
     <comment>phrase:Import Taxes</comment>
   </data>
-  <data name="ExportTaxes" lastModified="2014-04-07T14:32:44">
+  <data name="ExportTaxes" lastModified="2014-07-22T13:48:17">
     <value>Export Taxes</value>
     <comment>phrase:Export Taxes</comment>
   </data>
-  <data name="PayPalIdentityToken" lastModified="2014-04-07T14:32:44">
+  <data name="PayPalIdentityToken" lastModified="2014-07-22T13:48:17">
     <value>PDT Identity Token &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
     <comment>label: PDT Identity Token</comment>
   </data>
-  <data name="ThisTaxClassIsActive" lastModified="2014-04-07T14:32:44">
+  <data name="ThisTaxClassIsActive" lastModified="2014-07-22T13:48:17">
     <value>This tax class is active</value>
     <comment>Phrase: This tax class is active</comment>
   </data>
-  <data name="PendingOrdersEmailSubject" lastModified="2014-04-07T14:32:44">
+  <data name="PendingOrdersEmailSubject" lastModified="2014-07-22T13:48:17">
     <value>{0} orders pending</value>
     <comment></comment>
   </data>
-  <data name="OffsitePaymentRedirect" lastModified="2014-04-07T14:32:44">
+  <data name="OffsitePaymentRedirect" lastModified="2014-07-22T13:48:17">
     <value>Redirecting to the payment provider. Please wait...</value>
     <comment>phrase: Redirecting to the payment provider. Please wait... </comment>
   </data>
-  <data name="ExportTaxesToCsvFile" lastModified="2014-04-07T14:32:44">
+  <data name="ExportTaxesToCsvFile" lastModified="2014-07-22T13:48:17">
     <value>Export taxes to a CSV file</value>
     <comment>label: Export taxes to a CSV file</comment>
   </data>
-  <data name="TheCsvFileContainsAllTaxes" lastModified="2014-04-07T14:32:44">
+  <data name="TheCsvFileContainsAllTaxes" lastModified="2014-07-22T13:48:17">
     <value>The .csv file contains all taxes</value>
     <comment>label: The .csv file contains all taxes</comment>
   </data>
-  <data name="Export" lastModified="2014-04-07T14:32:44">
+  <data name="Export" lastModified="2014-07-22T13:48:17">
     <value>Export</value>
     <comment>Word: Export</comment>
   </data>
-  <data name="TaxClassInternalName" lastModified="2014-04-07T14:32:44">
+  <data name="TaxClassInternalName" lastModified="2014-07-22T13:48:17">
     <value>For developers: name used in code</value>
     <comment>For developers: name used in code</comment>
   </data>
-  <data name="TaxClassInternalNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="TaxClassInternalNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The internal name of the tax class cannot be empty.</value>
     <comment>The internal name of the tax class cannot be empty.</comment>
   </data>
-  <data name="TaxClassInternalNameInvalidSymbols" lastModified="2014-04-07T14:32:44">
+  <data name="TaxClassInternalNameInvalidSymbols" lastModified="2014-07-22T13:48:17">
     <value>The internal name of the tax class has some invalid characters.</value>
     <comment>The internal name of the tax class has some invalid characters.</comment>
   </data>
-  <data name="ImportTaxesFromCsvFile" lastModified="2014-04-07T14:32:44">
+  <data name="ImportTaxesFromCsvFile" lastModified="2014-07-22T13:48:17">
     <value>Import taxes from a CSV file</value>
     <comment>Import taxes from a csv file</comment>
   </data>
-  <data name="Import" lastModified="2014-04-07T14:32:44">
+  <data name="Import" lastModified="2014-07-22T13:48:17">
     <value>Import</value>
     <comment>Import</comment>
   </data>
-  <data name="SelectCsvFile" lastModified="2014-04-07T14:32:44">
+  <data name="SelectCsvFile" lastModified="2014-07-22T13:48:17">
     <value>Select CSV file</value>
     <comment>Select CSV file</comment>
   </data>
-  <data name="Note" lastModified="2014-04-07T14:32:44">
+  <data name="Note" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Note&lt;/strong&gt;</value>
     <comment>Note</comment>
   </data>
-  <data name="TaxFileNote" lastModified="2014-04-07T14:32:44">
+  <data name="TaxFileNote" lastModified="2014-07-22T13:48:17">
     <value>The CSV file should contain all the necessary attributes of a tax. Please, read the &lt;a href='#' class='sfMoreDetails'&gt;documentation&lt;/a&gt; for more information</value>
     <comment>Tax file note</comment>
   </data>
-  <data name="Browse" lastModified="2014-04-07T14:32:44">
+  <data name="Browse" lastModified="2014-07-22T13:48:17">
     <value>Browse</value>
     <comment>word: Browse</comment>
   </data>
-  <data name="TaxImportIsCompleted" lastModified="2014-04-07T14:32:44">
+  <data name="TaxImportIsCompleted" lastModified="2014-07-22T13:48:17">
     <value>Tax import is completed</value>
     <comment>Tax import is completed</comment>
   </data>
-  <data name="TaxesAreImportedSuccessfully" lastModified="2014-04-07T14:32:44">
+  <data name="TaxesAreImportedSuccessfully" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;{0} taxes &lt;/strong&gt; are imported successfully</value>
     <comment>Number of taxes that are successfully imported</comment>
   </data>
-  <data name="ViewLogFile" lastModified="2014-04-07T14:32:44">
+  <data name="ViewLogFile" lastModified="2014-07-22T13:48:17">
     <value>View log file</value>
     <comment>View log file</comment>
   </data>
-  <data name="TaxImportFailed" lastModified="2014-04-07T14:32:44">
+  <data name="TaxImportFailed" lastModified="2014-07-22T13:48:17">
     <value>Tax import failed</value>
     <comment>Tax import failed</comment>
   </data>
-  <data name="TaxesWereNotImported" lastModified="2014-04-07T14:32:44">
+  <data name="TaxesWereNotImported" lastModified="2014-07-22T13:48:17">
     <value>Taxes were not imported successfully</value>
     <comment>Taxes were not imported successfully</comment>
   </data>
-  <data name="Retry" lastModified="2014-04-07T14:32:44">
+  <data name="Retry" lastModified="2014-07-22T13:48:17">
     <value>Retry</value>
     <comment>Retry</comment>
   </data>
-  <data name="Close" lastModified="2014-04-07T14:32:44">
+  <data name="Close" lastModified="2014-07-22T13:48:17">
     <value>Close</value>
     <comment>Close</comment>
   </data>
-  <data name="ImportedExportedTaxesLogFiles" lastModified="2014-04-07T14:32:44">
+  <data name="ImportedExportedTaxesLogFiles" lastModified="2014-07-22T13:48:17">
     <value>Imported / Exported taxes log files</value>
     <comment>Imported / Exported taxes log files</comment>
   </data>
-  <data name="CheckoutProductNoInventoryNoShipping" lastModified="2014-04-07T14:32:44">
+  <data name="CheckoutProductNoInventoryNoShipping" lastModified="2014-07-22T13:48:17">
     <value>We apologize that product &lt;strong&gt;{0}&lt;/strong&gt; has been removed from your shopping cart. This may be caused by inventory being sold out.  You may place your order without this product.  The total price has been recalculated.</value>
     <comment>Shown to the user when product inventory is empty for a product at the checkout step</comment>
   </data>
-  <data name="OrderDetailDescriptionTierPrices" lastModified="2014-04-07T14:32:44">
+  <data name="OrderDetailDescriptionTierPrices" lastModified="2014-07-22T13:48:17">
     <value>&lt;span class='sfNewPrice'&gt;Quantity discount&lt;/span&gt;</value>
     <comment>Quantity discount</comment>
   </data>
-  <data name="Free" lastModified="2014-04-07T14:32:44">
+  <data name="Free" lastModified="2014-07-22T13:48:17">
     <value>Free</value>
     <comment></comment>
   </data>

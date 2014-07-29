@@ -117,55 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ThunderResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ThunderResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity Thunder</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="ThunderResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ThunderResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Sitefinity Thunder.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ThunderResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="ThunderResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Thunder</value>
     <comment>Title plural for the Thunder module.</comment>
   </data>
-  <data name="ThunderThemesSettingsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ThunderThemesSettingsTitle" lastModified="2014-07-22T13:48:17">
     <value>Themes</value>
     <comment>phrase: The title for thunder themes section</comment>
   </data>
-  <data name="ThunderThemesSettingsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ThunderThemesSettingsDescription" lastModified="2014-07-22T13:48:17">
     <value>This is the Thunder themes configuration group that contains all the themes settings.</value>
     <comment>phrase: The title for thunder themes section</comment>
   </data>
-  <data name="ThemesPathDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ThemesPathDescription" lastModified="2014-07-22T13:48:17">
     <value>This is where the themes are saved.</value>
     <comment>phrase: This is the themes description path</comment>
   </data>
-  <data name="ThemesPathTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ThemesPathTitle" lastModified="2014-07-22T13:48:17">
     <value>Themes save virtual path</value>
     <comment>phrase: This is the path</comment>
   </data>
-  <data name="ThemesBackupPathTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ThemesBackupPathTitle" lastModified="2014-07-22T13:48:17">
     <value>Themes backup virtual path</value>
     <comment>phrase: This is themes backup path title</comment>
   </data>
-  <data name="ThemesBackupPathDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ThemesBackupPathDescription" lastModified="2014-07-22T13:48:17">
     <value>This is where the themes backups are saved.</value>
     <comment>phrase: This is themes backup path description</comment>
   </data>
-  <data name="BackupFileFormatTitle" lastModified="2014-04-07T14:32:44">
+  <data name="BackupFileFormatTitle" lastModified="2014-07-22T13:48:17">
     <value>Themes backup file format</value>
     <comment>phrase: This is themes backup file format title</comment>
   </data>
-  <data name="BackupFileFormatDescription" lastModified="2014-04-07T14:32:44">
+  <data name="BackupFileFormatDescription" lastModified="2014-07-22T13:48:17">
     <value>The themes backup file format.</value>
     <comment>phrase: This is the themes backup file format description</comment>
   </data>
-  <data name="BackupThemesOnUpdateTitle" lastModified="2014-04-07T14:32:44">
+  <data name="BackupThemesOnUpdateTitle" lastModified="2014-07-22T13:48:17">
     <value>Backup themes on update</value>
     <comment>phrase: This is backup themes on update</comment>
   </data>
-  <data name="BackupThemesOnUpdateDescription" lastModified="2014-04-07T14:32:44">
+  <data name="BackupThemesOnUpdateDescription" lastModified="2014-07-22T13:48:17">
     <value>Determine whether the system will keep backup files for the updated themes or not.</value>
     <comment>phrase: This is backup themes on update description</comment>
   </data>

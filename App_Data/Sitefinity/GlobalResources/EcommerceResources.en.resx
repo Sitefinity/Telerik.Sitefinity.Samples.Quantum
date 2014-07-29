@@ -117,691 +117,691 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SaveCreditCardNumberInDatabase" lastModified="2014-04-07T14:32:44">
+  <data name="SaveCreditCardNumberInDatabase" lastModified="2014-07-22T13:48:17">
     <value>Save credit card number in database (encrypted)</value>
     <comment>phrase: Save credit card number in database (encrypted)</comment>
   </data>
-  <data name="BypassPaymentProcessing" lastModified="2014-04-07T14:32:44">
+  <data name="BypassPaymentProcessing" lastModified="2014-07-22T13:48:17">
     <value>Bypass real-time payment processing</value>
     <comment>phrase: Bypass real-time payment processing</comment>
   </data>
-  <data name="EcommerceNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Ecommerce</value>
     <comment>Title of the ecommerce node.</comment>
   </data>
-  <data name="EcommerceSiteSyncNodeName" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceSiteSyncNodeName" lastModified="2014-07-22T13:48:17">
     <value>Ecommerce</value>
     <comment>Name of the ecommerce node for site sync.</comment>
   </data>
-  <data name="EcommerceNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>ecommerce</value>
     <comment>Url name of the ecommerce node.</comment>
   </data>
-  <data name="OrderManagementNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="OrderManagementNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Order management</value>
     <comment>Title of the order management node.</comment>
   </data>
-  <data name="OrderManagementNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="OrderManagementNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>order-management</value>
     <comment>Url name of the order management node.</comment>
   </data>
-  <data name="EcommerceToolboxSectionTitle" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceToolboxSectionTitle" lastModified="2014-07-22T13:48:17">
     <value>Ecommerce</value>
     <comment>Title of the toolbox section which holds the widgets of ecommerce modules.</comment>
   </data>
-  <data name="EcommerceToolboxSectionDescription" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceToolboxSectionDescription" lastModified="2014-07-22T13:48:17">
     <value>Section with ecommerce widgets.</value>
     <comment>Description of the toolbox section which holds the widgets of ecommerce modules.</comment>
   </data>
-  <data name="DefaultCurrencyConfig" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultCurrencyConfig" lastModified="2014-07-22T13:48:17">
     <value>The name of the default currency (ISO-4217)</value>
     <comment>Description of the default currency configuration property.</comment>
   </data>
-  <data name="CurrencyNameConfig" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyNameConfig" lastModified="2014-07-22T13:48:17">
     <value>Name of the currency as per ISO-4217 standard.</value>
     <comment>Describes the currency name configuration property.</comment>
   </data>
-  <data name="CurrencyTitleConfig" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyTitleConfig" lastModified="2014-07-22T13:48:17">
     <value>Title of the currency in English.</value>
     <comment>Describes the currency title configuration property.</comment>
   </data>
-  <data name="CountryNameTitleConfig" lastModified="2014-04-07T14:32:44">
+  <data name="CountryNameTitleConfig" lastModified="2014-07-22T13:48:17">
     <value>Title of the country name in English.</value>
     <comment>Describes the country name configuration property.</comment>
   </data>
-  <data name="CountryIsoCodeTitleConfig" lastModified="2014-04-07T14:32:44">
+  <data name="CountryIsoCodeTitleConfig" lastModified="2014-07-22T13:48:17">
     <value>Title of the country iso code.</value>
     <comment>Describes the country iso code configuration property.</comment>
   </data>
-  <data name="SupportedCurrenciesConfig" lastModified="2014-04-07T14:32:44">
+  <data name="SupportedCurrenciesConfig" lastModified="2014-07-22T13:48:17">
     <value>Supported currencies by the ecommerce module. Please be sure to not delete your default store currency.</value>
     <comment>Describes the supported currencies configuration property.</comment>
   </data>
-  <data name="CurrenciesAllowed" lastModified="2014-04-07T14:32:44">
+  <data name="CurrenciesAllowed" lastModified="2014-07-22T13:48:17">
     <value>Allowed currencies by the ecommerce module.</value>
     <comment>Describes the allowed currencies configuration property.</comment>
   </data>
-  <data name="CurrencyExchangeRateConfig" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyExchangeRateConfig" lastModified="2014-07-22T13:48:17">
     <value>The exchange rate of the currency relative to the default currency.</value>
     <comment>Describes the exchange rate of the currency relative to the default currency.</comment>
   </data>
-  <data name="CurrencyIsDefaultConfig" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyIsDefaultConfig" lastModified="2014-07-22T13:48:17">
     <value>Is Default</value>
     <comment>Is Default.</comment>
   </data>
-  <data name="CurrencyIsActiveConfig" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyIsActiveConfig" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets whether a currency is active. When in multicurrency mode, only active currencies get used. Please be sure not to deactivate the default currency of your store.</value>
     <comment>Is Active.</comment>
   </data>
-  <data name="SupportedCountriesConfig" lastModified="2014-04-07T14:32:44">
+  <data name="SupportedCountriesConfig" lastModified="2014-07-22T13:48:17">
     <value>Supported countries by the ecommerce module.</value>
     <comment>Describes the supported countries configuration property.</comment>
   </data>
-  <data name="SupportedStatesConfig" lastModified="2014-04-07T14:32:44">
+  <data name="SupportedStatesConfig" lastModified="2014-07-22T13:48:17">
     <value>Supported states and provinces by the ecommerce module.</value>
     <comment>Describes the supported states and provinces configuration property.</comment>
   </data>
-  <data name="SupportedMassUnitsConfig" lastModified="2014-04-07T14:32:44">
+  <data name="SupportedMassUnitsConfig" lastModified="2014-07-22T13:48:17">
     <value>Supported mass measurement units by the ecommerce module.</value>
     <comment>Describes the supported mass units configuration property.</comment>
   </data>
-  <data name="UnitAbbreviationConfig" lastModified="2014-04-07T14:32:44">
+  <data name="UnitAbbreviationConfig" lastModified="2014-07-22T13:48:17">
     <value>International abbreviation for the measurement unit.</value>
     <comment>Describes the unit abbreviation configuration property.</comment>
   </data>
-  <data name="MeasurementUnitTitleConfig" lastModified="2014-04-07T14:32:44">
+  <data name="MeasurementUnitTitleConfig" lastModified="2014-07-22T13:48:17">
     <value>Title of the measurement unit in English.</value>
     <comment>Describes the unit title configuration property.</comment>
   </data>
-  <data name="SupportedLengthUnitsConfig" lastModified="2014-04-07T14:32:44">
+  <data name="SupportedLengthUnitsConfig" lastModified="2014-07-22T13:48:17">
     <value>Supported length measurement units by the ecommerce module.</value>
     <comment>Describes the supported length units configuration property.</comment>
   </data>
-  <data name="MassUnit" lastModified="2014-04-07T14:32:44">
+  <data name="MassUnit" lastModified="2014-07-22T13:48:17">
     <value>Mass unit</value>
     <comment>Describes the name of the mass unit property</comment>
   </data>
-  <data name="LengthUnit" lastModified="2014-04-07T14:32:44">
+  <data name="LengthUnit" lastModified="2014-07-22T13:48:17">
     <value>Length unit</value>
     <comment>Describes the name of the length unit property</comment>
   </data>
-  <data name="DefaultMassUnitConfig" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultMassUnitConfig" lastModified="2014-07-22T13:48:17">
     <value>The default unit of mass to be used by ecommerce module.</value>
     <comment>Describes the default mass unit configuration property.</comment>
   </data>
-  <data name="DefaultLengthUnitConfig" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultLengthUnitConfig" lastModified="2014-07-22T13:48:17">
     <value>The default unit of length to be used by ecommerce module.</value>
     <comment>Describes the default length unit configuration property.</comment>
   </data>
-  <data name="ShippingFromCountryConfig" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingFromCountryConfig" lastModified="2014-07-22T13:48:17">
     <value>The ISO code (e.g. US, DE) for the country from which the products will be shipped.</value>
     <comment>Describes the shipping from country configuration property.</comment>
   </data>
-  <data name="ShippingFromCityConfig" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingFromCityConfig" lastModified="2014-07-22T13:48:17">
     <value>City as string from which the products will be shipped.</value>
     <comment>Describes the shipping from city configuration property.</comment>
   </data>
-  <data name="ShippingFromAddressConfig" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingFromAddressConfig" lastModified="2014-07-22T13:48:17">
     <value>Address as string from which the products will be shipped.</value>
     <comment>Describes the shipping from address configuration property.</comment>
   </data>
-  <data name="MerchantNameConfig" lastModified="2014-04-07T14:32:44">
+  <data name="MerchantNameConfig" lastModified="2014-07-22T13:48:17">
     <value>Merchant name as string from which the products will be shipped.</value>
     <comment>Describes the shipping from merchant name configuration property.</comment>
   </data>
-  <data name="ShippingFromStateProvinceConfig" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingFromStateProvinceConfig" lastModified="2014-07-22T13:48:17">
     <value>The state / province from which the products will be shipped.  This should be blank when the merchant country is not “US” or “CA”.</value>
     <comment>Describes the shipping from state / province configuration property.</comment>
   </data>
-  <data name="CountryIsoCodeConfig" lastModified="2014-04-07T14:32:44">
+  <data name="CountryIsoCodeConfig" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the ISO code (e.g. US, DE) for the country from which the products will be shipped.</value>
     <comment>Describes the shipping from country configuration property.</comment>
   </data>
-  <data name="ShippingFromZipConfig" lastModified="2014-04-07T14:32:44">
+  <data name="ShippingFromZipConfig" lastModified="2014-07-22T13:48:17">
     <value>The zip code from which the products will be shipped.</value>
     <comment>Describes the shipping from zip configuration property.</comment>
   </data>
-  <data name="StoreNameConfig" lastModified="2014-04-07T14:32:44">
+  <data name="StoreNameConfig" lastModified="2014-07-22T13:48:17">
     <value>The name of the store.</value>
     <comment>Describes the store name configuration property.</comment>
   </data>
-  <data name="MerchantEmail" lastModified="2014-04-07T14:32:44">
+  <data name="MerchantEmail" lastModified="2014-07-22T13:48:17">
     <value>The merchant email which is used when sending emails from the merchant.</value>
     <comment>Describes the merchant email configuration property.</comment>
   </data>
-  <data name="SendOrderPlacedEmailToShippingAddress" lastModified="2014-04-07T14:32:44">
+  <data name="SendOrderPlacedEmailToShippingAddress" lastModified="2014-07-22T13:48:17">
     <value>Check this box if you want order placed email sent to the shipping address in addition to the billing address.</value>
     <comment>Describes the merchant email configuration property.</comment>
   </data>
-  <data name="MerchantName" lastModified="2014-04-07T14:32:44">
+  <data name="MerchantName" lastModified="2014-07-22T13:48:17">
     <value>The merchant name which is used when sending order confirmation emails from the merchant.</value>
     <comment>Describes the merchant name configuration property.</comment>
   </data>
-  <data name="CurrencyAndLocationMenuItem" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyAndLocationMenuItem" lastModified="2014-07-22T13:48:17">
     <value>Currency and Location</value>
     <comment>Title of the Currency and Location Menu Item</comment>
   </data>
-  <data name="StoreGeneralSettingsMenuItem" lastModified="2014-04-07T14:32:44">
+  <data name="StoreGeneralSettingsMenuItem" lastModified="2014-07-22T13:48:17">
     <value>General</value>
     <comment>Title of the General Settings Menu Item</comment>
   </data>
-  <data name="GeneralStoreSettingsChanged" lastModified="2014-04-07T14:32:44">
+  <data name="GeneralStoreSettingsChanged" lastModified="2014-07-22T13:48:17">
     <value>The Store settings have changed.</value>
     <comment>phrase: The Store settings have changed.</comment>
   </data>
-  <data name="GeneralStoreSettingsNotChanged" lastModified="2014-04-07T14:32:44">
+  <data name="GeneralStoreSettingsNotChanged" lastModified="2014-07-22T13:48:17">
     <value>The store settings changes have not been saved. Please fill in all the required fields.</value>
     <comment>The store settings changes have not been saved.</comment>
   </data>
-  <data name="TaxMenuItem" lastModified="2014-04-07T14:32:44">
+  <data name="TaxMenuItem" lastModified="2014-07-22T13:48:17">
     <value>Tax</value>
     <comment>Title of the Tax Settings Menu Item</comment>
   </data>
-  <data name="StoreDetailsViewTitle" lastModified="2014-04-07T14:32:44">
+  <data name="StoreDetailsViewTitle" lastModified="2014-07-22T13:48:17">
     <value>Store Details</value>
     <comment>Title of the Store Settings </comment>
   </data>
-  <data name="MeasurementUnitsViewTitle" lastModified="2014-04-07T14:32:44">
+  <data name="MeasurementUnitsViewTitle" lastModified="2014-07-22T13:48:17">
     <value>Measurement units</value>
     <comment>Title of the Measurement Units Store Settings</comment>
   </data>
-  <data name="CurrencyExchangeRatesViewTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyExchangeRatesViewTitle" lastModified="2014-07-22T13:48:17">
     <value>Currencies</value>
     <comment>Title of the Currency Exchange Rates Store Settings</comment>
   </data>
-  <data name="GlobalSettingsViewTitle" lastModified="2014-04-07T14:32:44">
+  <data name="GlobalSettingsViewTitle" lastModified="2014-07-22T13:48:17">
     <value>Global settings</value>
     <comment>Title of the Global Ecommerce Settings</comment>
   </data>
-  <data name="CurrenciesAllowedTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CurrenciesAllowedTitle" lastModified="2014-07-22T13:48:17">
     <value>Currencies</value>
     <comment>Title of currencies grid in settings</comment>
   </data>
-  <data name="AddCurrencies" lastModified="2014-04-07T14:32:44">
+  <data name="AddCurrencies" lastModified="2014-07-22T13:48:17">
     <value>Add currencies...</value>
     <comment>Add currencies</comment>
   </data>
-  <data name="StoreSettingsNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="StoreSettingsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Configuration</value>
     <comment>Title of the Store Settings</comment>
   </data>
-  <data name="StoreSettingsNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="StoreSettingsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>StoreSettings</value>
     <comment>Url of the Store Settings</comment>
   </data>
-  <data name="StoreGeneralConfigurationNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="StoreGeneralConfigurationNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Store settings</value>
     <comment>Title of the General Configuration page</comment>
   </data>
-  <data name="StoreGeneralConfigurationNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="StoreGeneralConfigurationNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>GeneralConfiguration</value>
     <comment>Url of the general configuration Page</comment>
   </data>
-  <data name="StoreName" lastModified="2014-04-07T14:32:44">
+  <data name="StoreName" lastModified="2014-07-22T13:48:17">
     <value>Store Name</value>
     <comment>Store Name </comment>
   </data>
-  <data name="Country" lastModified="2014-04-07T14:32:44">
+  <data name="Country" lastModified="2014-07-22T13:48:17">
     <value>Country</value>
     <comment>Country</comment>
   </data>
-  <data name="State" lastModified="2014-04-07T14:32:44">
+  <data name="State" lastModified="2014-07-22T13:48:17">
     <value>State</value>
     <comment>State</comment>
   </data>
-  <data name="City" lastModified="2014-04-07T14:32:44">
+  <data name="City" lastModified="2014-07-22T13:48:17">
     <value>City</value>
     <comment>City</comment>
   </data>
-  <data name="Zip" lastModified="2014-04-07T14:32:44">
+  <data name="Zip" lastModified="2014-07-22T13:48:17">
     <value>Zip</value>
     <comment>Zip</comment>
   </data>
-  <data name="Address" lastModified="2014-04-07T14:32:44">
+  <data name="Address" lastModified="2014-07-22T13:48:17">
     <value>Address &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
     <comment>Address</comment>
   </data>
-  <data name="Email" lastModified="2014-04-07T14:32:44">
+  <data name="Email" lastModified="2014-07-22T13:48:17">
     <value>Email</value>
     <comment>Email</comment>
   </data>
-  <data name="ContactPerson" lastModified="2014-04-07T14:32:44">
+  <data name="ContactPerson" lastModified="2014-07-22T13:48:17">
     <value>Contact Person &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
     <comment>ContactPerson</comment>
   </data>
-  <data name="ConfigurationNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ConfigurationNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Configuration</value>
     <comment>Title of the Configuration page</comment>
   </data>
-  <data name="ConfigurationNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="ConfigurationNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>Configuration</value>
     <comment>Url of the configuration Page</comment>
   </data>
-  <data name="TaxSettingsNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TaxSettingsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Tax settings</value>
     <comment>Title of the tax settings page</comment>
   </data>
-  <data name="TaxSettingsNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="TaxSettingsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>TaxSettings</value>
     <comment>Url of the tax settings Page</comment>
   </data>
-  <data name="MeasurementUnitsNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="MeasurementUnitsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Measurement Units</value>
     <comment>Title of the Measurement Units Store Settings</comment>
   </data>
-  <data name="MeasurementUnitsNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="MeasurementUnitsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>MeasurementUnits</value>
     <comment>Url of the Measurement Units Store Settings</comment>
   </data>
-  <data name="CurrencyExchangeRatesNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyExchangeRatesNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Currency Exchange Rates</value>
     <comment>Title of the Currency Exchange Rates Settings Page</comment>
   </data>
-  <data name="CurrencyExchangeRatesNodeUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyExchangeRatesNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>CurrencyExchangeRates</value>
     <comment>Url of the Currency Exchange Rates Settings Page</comment>
   </data>
-  <data name="DefaultProductTypesInstalled" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultProductTypesInstalled" lastModified="2014-07-22T13:48:17">
     <value>Are default product types installed?</value>
     <comment>Description DefaultProductTypesInstalled configuration property.</comment>
   </data>
-  <data name="Fields" lastModified="2014-04-07T14:32:44">
+  <data name="Fields" lastModified="2014-07-22T13:48:17">
     <value>Fields</value>
     <comment>word: Fields</comment>
   </data>
-  <data name="TypeSlashSKU" lastModified="2014-04-07T14:32:44">
+  <data name="TypeSlashSKU" lastModified="2014-07-22T13:48:17">
     <value>Type / SKU</value>
     <comment>phrase: Type / SKU</comment>
   </data>
-  <data name="OtherFilterOptions" lastModified="2014-04-07T14:32:44">
+  <data name="OtherFilterOptions" lastModified="2014-07-22T13:48:17">
     <value>Other filter options</value>
     <comment>phrase: Other filter options</comment>
   </data>
-  <data name="InStockProducts" lastModified="2014-04-07T14:32:44">
+  <data name="InStockProducts" lastModified="2014-07-22T13:48:17">
     <value>In stock products</value>
     <comment>phrase: In stock products</comment>
   </data>
-  <data name="OutOfStockProducts" lastModified="2014-04-07T14:32:44">
+  <data name="OutOfStockProducts" lastModified="2014-07-22T13:48:17">
     <value>Out of stock products</value>
     <comment>phrase: Out of stock products</comment>
   </data>
-  <data name="ProductsByType" lastModified="2014-04-07T14:32:44">
+  <data name="ProductsByType" lastModified="2014-07-22T13:48:17">
     <value>Products by type</value>
     <comment>phrase: Products by type</comment>
   </data>
-  <data name="ManageProductTypes" lastModified="2014-04-07T14:32:44">
+  <data name="ManageProductTypes" lastModified="2014-07-22T13:48:17">
     <value>Manage product types</value>
     <comment>phrase: Manage product types</comment>
   </data>
-  <data name="PriceDisplayComment" lastModified="2014-04-07T14:32:44">
+  <data name="PriceDisplayComment" lastModified="2014-07-22T13:48:17">
     <value>How to display prices on the site?</value>
     <comment>phrase: How to display prices on the site?</comment>
   </data>
-  <data name="WhichTaxToInclude" lastModified="2014-04-07T14:32:44">
+  <data name="WhichTaxToInclude" lastModified="2014-07-22T13:48:17">
     <value>Which tax is included in prices?</value>
     <comment>phrase: Which tax is included in prices?</comment>
   </data>
-  <data name="ExcludingTax" lastModified="2014-04-07T14:32:44">
+  <data name="ExcludingTax" lastModified="2014-07-22T13:48:17">
     <value>Excluding tax. Tax will be included on checkout</value>
     <comment>phrase: Excluding tax</comment>
   </data>
-  <data name="ExcludingTaxExample" lastModified="2014-04-07T14:32:44">
+  <data name="ExcludingTaxExample" lastModified="2014-07-22T13:48:17">
     <value>&lt;b&gt;Example:&lt;/b&gt;&lt;br /&gt;Price entered in the CMS: $100&lt;br /&gt;Price displayed in the product list: $100&lt;br /&gt;Checkout: $120 ($100 + $20 tax)</value>
     <comment>Excluding tax example</comment>
   </data>
-  <data name="IncludingTaxAutomatically" lastModified="2014-04-07T14:32:44">
+  <data name="IncludingTaxAutomatically" lastModified="2014-07-22T13:48:17">
     <value>Including tax automatically</value>
     <comment>phrase: Including tax automatically</comment>
   </data>
-  <data name="IncludingTaxAutomaticallyExample" lastModified="2014-04-07T14:32:44">
+  <data name="IncludingTaxAutomaticallyExample" lastModified="2014-07-22T13:48:17">
     <value>&lt;b&gt;Example:&lt;/b&gt;&lt;br /&gt;Price entered in the CMS: $100&lt;br /&gt;Price displayed in the product list: $120 ($100 + $20 tax)&lt;br /&gt;Checkout: $120 ($100 + $20 tax)</value>
     <comment>Including tax automatically example</comment>
   </data>
-  <data name="IncludingTaxManually" lastModified="2014-04-07T14:32:44">
+  <data name="IncludingTaxManually" lastModified="2014-07-22T13:48:17">
     <value>Including tax manually (prices will be entered including this tax)</value>
     <comment>phrase: Including tax manually (prices will be entered including this tax)</comment>
   </data>
-  <data name="IncludingTaxManuallyExample" lastModified="2014-04-07T14:32:44">
+  <data name="IncludingTaxManuallyExample" lastModified="2014-07-22T13:48:17">
     <value>&lt;b&gt;Example:&lt;/b&gt;&lt;br /&gt;Price entered in the CMS: $120&lt;br /&gt;Price displayed in the product list: $120&lt;br /&gt;Checkout: $120 ($100 + $20 tax)</value>
     <comment>Including tax automatically example</comment>
   </data>
-  <data name="TaxDisplayModeConfig" lastModified="2014-04-07T14:32:44">
+  <data name="TaxDisplayModeConfig" lastModified="2014-07-22T13:48:17">
     <value>The tax display mode to be used by ecommerce module.</value>
     <comment>Describes the tax display mode configuration property.</comment>
   </data>
-  <data name="TaxToDisplayInPriceConfig" lastModified="2014-04-07T14:32:44">
+  <data name="TaxToDisplayInPriceConfig" lastModified="2014-07-22T13:48:17">
     <value>The id of the tax to be used when displaying tax in price.</value>
     <comment>Describes the tax to display in price configuration property.</comment>
   </data>
-  <data name="DisplayTaxInPriceSettingsChanged" lastModified="2014-04-07T14:32:44">
+  <data name="DisplayTaxInPriceSettingsChanged" lastModified="2014-07-22T13:48:17">
     <value>The display tax in price settings have changed.</value>
     <comment>phrase: The display tax in price settings have changed.</comment>
   </data>
-  <data name="DisplayTaxInPriceSettingsChangesNotSaved" lastModified="2014-04-07T14:32:44">
+  <data name="DisplayTaxInPriceSettingsChangesNotSaved" lastModified="2014-07-22T13:48:17">
     <value>The display tax in price settings changes have not been saved.</value>
     <comment>phrase: The display tax in price settings changes have not been saved.</comment>
   </data>
-  <data name="SkuDelimiterConfig" lastModified="2014-04-07T14:32:44">
+  <data name="SkuDelimiterConfig" lastModified="2014-07-22T13:48:17">
     <value>The delimiter (separator) of the SKUs of the product options. It is used to separate the SKUs stored in the shopping cart details.</value>
     <comment>Describes the SKU delimiter in the ecommerce configuration property.</comment>
   </data>
-  <data name="DefaultBoxLengthConfig" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultBoxLengthConfig" lastModified="2014-07-22T13:48:17">
     <value>Default shipping box length (numeric value only. units defined in DefaultLengthUnitConfig setting)</value>
     <comment>Description Default box length (numeric value only. units defined in DefaultLengthUnitConfig setting)</comment>
   </data>
-  <data name="DefaultBoxWidthConfig" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultBoxWidthConfig" lastModified="2014-07-22T13:48:17">
     <value>Default shipping box width (numeric value only. units defined in DefaultLengthUnitConfig setting)</value>
     <comment>Description Default box width (numeric value only. units defined in DefaultLengthUnitConfig setting)</comment>
   </data>
-  <data name="DefaultBoxHeightConfig" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultBoxHeightConfig" lastModified="2014-07-22T13:48:17">
     <value>Default shipping box height (numeric value only. units defined in DefaultLengthUnitConfig setting)</value>
     <comment>Description Default box height (numeric value only. units defined in DefaultLengthUnitConfig setting)</comment>
   </data>
-  <data name="DefaultCurrencyIsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultCurrencyIsRequired" lastModified="2014-07-22T13:48:17">
     <value>Default currency field is required for configuring Ecommerce</value>
     <comment>Default currency field is required for configuring Ecommerce</comment>
   </data>
-  <data name="CurrencyShouldBeConfiguredUnderSupportedCurrencies" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyShouldBeConfiguredUnderSupportedCurrencies" lastModified="2014-07-22T13:48:17">
     <value>The value of Default currency should be among supported currencies</value>
     <comment>The value of Default currency should be among supported currencies</comment>
   </data>
-  <data name="SelectCurrencies" lastModified="2014-04-07T14:32:44">
+  <data name="SelectCurrencies" lastModified="2014-07-22T13:48:17">
     <value>Select currencies</value>
     <comment>Select currencies</comment>
   </data>
-  <data name="ExchangeRates" lastModified="2014-04-07T14:32:44">
+  <data name="ExchangeRates" lastModified="2014-07-22T13:48:17">
     <value>Exchange rates</value>
     <comment>Exchange rates</comment>
   </data>
-  <data name="ExchangeRatesOn" lastModified="2014-04-07T14:32:44">
+  <data name="ExchangeRatesOn" lastModified="2014-07-22T13:48:17">
     <value>Exchange rates on</value>
     <comment>phrase: Exchange rates on</comment>
   </data>
-  <data name="SetManually" lastModified="2014-04-07T14:32:44">
+  <data name="SetManually" lastModified="2014-07-22T13:48:17">
     <value>Set manually</value>
     <comment>Set manually</comment>
   </data>
-  <data name="UseExternalService" lastModified="2014-04-07T14:32:44">
+  <data name="UseExternalService" lastModified="2014-07-22T13:48:17">
     <value>Use external service</value>
     <comment>Use external service</comment>
   </data>
-  <data name="CurrencySelector" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencySelector" lastModified="2014-07-22T13:48:17">
     <value>Currency selector</value>
     <comment>The title of the Currency Selector widget.</comment>
   </data>
-  <data name="CurrencySelectorPropertyEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencySelectorPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Currency selector</value>
     <comment>title: Currency selector</comment>
   </data>
-  <data name="RoundToTheNearest" lastModified="2014-04-07T14:32:44">
+  <data name="RoundToTheNearest" lastModified="2014-07-22T13:48:17">
     <value>Round to the nearest number. Accepted values (None,OneDecimal,TwoDecimal,Whole)</value>
     <comment>Round to the nearest number. Accepted values (None,OneDecimal,TwoDecimal,Whole)</comment>
   </data>
-  <data name="DisplayCurrencySelectorAs" lastModified="2014-04-07T14:32:44">
+  <data name="DisplayCurrencySelectorAs" lastModified="2014-07-22T13:48:17">
     <value>Display currency selector as...</value>
     <comment>Display currency selector as...</comment>
   </data>
-  <data name="IncludeCurrentCurrency" lastModified="2014-04-07T14:32:44">
+  <data name="IncludeCurrentCurrency" lastModified="2014-07-22T13:48:17">
     <value>Include the current currency in the selector</value>
     <comment>Include the current currency in the selector</comment>
   </data>
-  <data name="GetRates" lastModified="2014-04-07T14:32:44">
+  <data name="GetRates" lastModified="2014-07-22T13:48:17">
     <value>Get rates</value>
     <comment>Get rates</comment>
   </data>
-  <data name="AutomaticallyUpdateDaily" lastModified="2014-04-07T14:32:44">
+  <data name="AutomaticallyUpdateDaily" lastModified="2014-07-22T13:48:17">
     <value>Automatically update daily</value>
     <comment>Automatically update daily</comment>
   </data>
-  <data name="DonotUpdate" lastModified="2014-04-07T14:32:44">
+  <data name="DonotUpdate" lastModified="2014-07-22T13:48:17">
     <value>Do not update</value>
     <comment>Do not update</comment>
   </data>
-  <data name="Advanced" lastModified="2014-04-07T14:32:44">
+  <data name="Advanced" lastModified="2014-07-22T13:48:17">
     <value>Advanced</value>
     <comment>Advanced</comment>
   </data>
-  <data name="Export" lastModified="2014-04-07T14:32:44">
+  <data name="Export" lastModified="2014-07-22T13:48:17">
     <value>Export...</value>
     <comment>Export...</comment>
   </data>
-  <data name="BreakInheritance" lastModified="2014-04-07T14:32:44">
+  <data name="BreakInheritance" lastModified="2014-07-22T13:48:17">
     <value>&lt;span class='sfLinkBtnIn'&gt;Break inheritance&lt;/span&gt;</value>
     <comment>Break inheritance</comment>
   </data>
-  <data name="InheritGlobalProfileSettings" lastModified="2014-04-07T14:32:44">
+  <data name="InheritGlobalProfileSettings" lastModified="2014-07-22T13:48:17">
     <value>&lt;span class='sfLinkBtnIn'&gt;Inherit settings from Global profile&lt;/span&gt;</value>
     <comment>Inherit settings from Global profile</comment>
   </data>
-  <data name="InvalidXml" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidXml" lastModified="2014-07-22T13:48:17">
     <value>Blank or missing XML</value>
     <comment>Invalid (blank or invalid) Xml</comment>
   </data>
-  <data name="RateNotSupported" lastModified="2014-04-07T14:32:44">
+  <data name="RateNotSupported" lastModified="2014-07-22T13:48:17">
     <value>Currency rate not supported</value>
     <comment>Currency rate not supported</comment>
   </data>
-  <data name="XeRateServiceError" lastModified="2014-04-07T14:32:44">
+  <data name="XeRateServiceError" lastModified="2014-07-22T13:48:17">
     <value>XE Rate Service Error</value>
     <comment>XE Rate Service Error</comment>
   </data>
-  <data name="EcbRateServiceError" lastModified="2014-04-07T14:32:44">
+  <data name="EcbRateServiceError" lastModified="2014-07-22T13:48:17">
     <value>ECB Rate Connector Service Error</value>
     <comment>ECB Rate Connector Service Error</comment>
   </data>
-  <data name="Response" lastModified="2014-04-07T14:32:44">
+  <data name="Response" lastModified="2014-07-22T13:48:17">
     <value>Response</value>
     <comment>word: Response</comment>
   </data>
-  <data name="NotValidCurrencyMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NotValidCurrencyMessage" lastModified="2014-07-22T13:48:17">
     <value>The value cannot be null or empty or zero</value>
     <comment>The value cannot be null or empty or zero</comment>
   </data>
-  <data name="ErrorWhileProcessingRequest" lastModified="2014-04-07T14:32:44">
+  <data name="ErrorWhileProcessingRequest" lastModified="2014-07-22T13:48:17">
     <value>There was an error while processing the request.</value>
     <comment>There was an error while processing the request.</comment>
   </data>
-  <data name="PriceInOtherCurrencies" lastModified="2014-04-07T14:32:44">
+  <data name="PriceInOtherCurrencies" lastModified="2014-07-22T13:48:17">
     <value>Price in other currencies</value>
     <comment>phrase: Price in other currencies</comment>
   </data>
-  <data name="SystemNotReady_MissingShippingFromZip" lastModified="2014-04-07T14:32:44">
+  <data name="SystemNotReady_MissingShippingFromZip" lastModified="2014-07-22T13:48:17">
     <value>The ecommerce is not completely configured. Please set the 'ShippingFromZip' property in the Ecommerce configurations. This can be set by navigating to Ecommerce -&gt; Store Settings -&gt; Shipping Configurations; and select Ecommerce from the menu on the left. &lt;br /&gt;</value>
     <comment>The message shown to user when ecommerce system is missing 'ShippingFromZip' information.</comment>
   </data>
-  <data name="SystemNotReady_MissingShippingFromCountry" lastModified="2014-04-07T14:32:44">
+  <data name="SystemNotReady_MissingShippingFromCountry" lastModified="2014-07-22T13:48:17">
     <value>The ecommerce is not completely configured. Please set the 'ShippingFromCountry' property in the Ecommerce configurations. This can be set by navigating to Ecommerce -&gt; Store Settings -&gt; Shipping Configurations; and select Ecommerce from the menu on the left. &lt;br /&gt;</value>
     <comment>The message shown to user when ecommerce system is missing 'ShippingFromCountry' information.</comment>
   </data>
-  <data name="SystemNotReady_NoPaymentMethodsDefined" lastModified="2014-04-07T14:32:44">
+  <data name="SystemNotReady_NoPaymentMethodsDefined" lastModified="2014-07-22T13:48:17">
     <value>The ecommerce is not completely configured. Please define at least one payment method for the ecommerce.</value>
     <comment>The message shown to user when ecommerce system has no payment methods defined.</comment>
   </data>
-  <data name="SystemNotReady_MissingSMTPHost" lastModified="2014-04-07T14:32:44">
+  <data name="SystemNotReady_MissingSMTPHost" lastModified="2014-07-22T13:48:17">
     <value>The ecommerce is not completely configured. Please set the 'Host' property in the SMTP (Email Settings) configurations. This can be set by navigating to Administration -&gt; Settings -&gt; Advanced -&gt; System -&gt; SMTP (Email Settings) and filling in the value for Host. &lt;br /&gt;</value>
     <comment>The message shown to user when ecommerce system is missing 'SMTP Host' information.</comment>
   </data>
-  <data name="SystemNotReady_MissingSMTPUserName" lastModified="2014-04-07T14:32:44">
+  <data name="SystemNotReady_MissingSMTPUserName" lastModified="2014-07-22T13:48:17">
     <value>The ecommerce is not completely configured. Please set the 'UserName' property in the SMTP (Email Settings) configurations. This can be set by navigating to Administration -&gt; Settings -&gt; Advanced -&gt; System -&gt; SMTP (Email Settings) and filling in the value for UserName. &lt;br /&gt;</value>
     <comment>The message shown to user when the ecommerce system is missing 'SMTP UserName' information.</comment>
   </data>
-  <data name="SystemNotReady_MissingSMTPPassword" lastModified="2014-04-07T14:32:44">
+  <data name="SystemNotReady_MissingSMTPPassword" lastModified="2014-07-22T13:48:17">
     <value>The ecommerce is not completely configured. Please set the 'Password' property in the SMTP (Email Settings) configurations. This can be set by navigating to Administration -&gt; Settings -&gt; Advanced -&gt; System -&gt; SMTP (Email Settings) and filling in the value for Password. &lt;br /&gt;</value>
     <comment>The message shown to user when the ecommerce system is missing 'SMTP Password' information.</comment>
   </data>
-  <data name="SystemNotReady_MissingMerchantEmail" lastModified="2014-04-07T14:32:44">
+  <data name="SystemNotReady_MissingMerchantEmail" lastModified="2014-07-22T13:48:17">
     <value>The ecommerce is not completely configured. Please set the 'Email' field in the general store settings. This can be set by navigating to Ecommerce-&gt; Store settings  -&gt; General &lt;br/&gt;</value>
     <comment>The message shown to user when the ecommerce system is missing 'MerchantEmail' information.</comment>
   </data>
-  <data name="SystemNotReady_InvalidFormatMerchantEmail" lastModified="2014-04-07T14:32:44">
+  <data name="SystemNotReady_InvalidFormatMerchantEmail" lastModified="2014-07-22T13:48:17">
     <value>The 'MerchantEmail' is an invalid email format. Please check the 'MerchantEmail' property in the Ecommerce configurations. This can be seen by navigating to Ecommerce -&gt; Store Settings -&gt; Shipping Configurations; and select Ecommerce from the menu on the left. &lt;br /&gt;</value>
     <comment>The message shown to user when the ecommerce system property 'MerchantEmail' has an invalid email format.</comment>
   </data>
-  <data name="ModuleNotLicensed" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleNotLicensed" lastModified="2014-07-22T13:48:17">
     <value>E-commerce functionality is disabled since the E-commerce module is not licensed.</value>
     <comment>Module Not Licensed message</comment>
   </data>
-  <data name="DiscountConditionsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountConditionsTitle" lastModified="2014-07-22T13:48:17">
     <value>Discount Conditions</value>
     <comment>Label for the discount conditions control title.</comment>
   </data>
-  <data name="DiscountBasedOnQuantity" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountBasedOnQuantity" lastModified="2014-07-22T13:48:17">
     <value>Quantity</value>
     <comment>Label for the based on quantity drop down.</comment>
   </data>
-  <data name="DiscountBasedOnSubtotal" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountBasedOnSubtotal" lastModified="2014-07-22T13:48:17">
     <value>Quantity</value>
     <comment>Label for the based on subtotal.</comment>
   </data>
-  <data name="BasedOn" lastModified="2014-04-07T14:32:44">
+  <data name="BasedOn" lastModified="2014-07-22T13:48:17">
     <value>Based on ...</value>
     <comment>Label for the discount conditions based on drop-down.</comment>
   </data>
-  <data name="PublishedProducts" lastModified="2014-04-07T14:32:44">
+  <data name="PublishedProducts" lastModified="2014-07-22T13:48:17">
     <value>Published products</value>
     <comment>Published products</comment>
   </data>
-  <data name="DraftProducts" lastModified="2014-04-07T14:32:44">
+  <data name="DraftProducts" lastModified="2014-07-22T13:48:17">
     <value>Draft products</value>
     <comment>Draft products</comment>
   </data>
-  <data name="ScheduledProducts" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduledProducts" lastModified="2014-07-22T13:48:17">
     <value>Scheduled products</value>
     <comment>Scheduled products</comment>
   </data>
-  <data name="DiscountedProducts" lastModified="2014-04-07T14:32:44">
+  <data name="DiscountedProducts" lastModified="2014-07-22T13:48:17">
     <value>Discounted products</value>
     <comment>Discounted products</comment>
   </data>
-  <data name="RoundToNone" lastModified="2014-04-07T14:32:44">
+  <data name="RoundToNone" lastModified="2014-07-22T13:48:17">
     <value>None</value>
     <comment>RoundToTheNearest value for None</comment>
   </data>
-  <data name="RoundToOneDecimal" lastModified="2014-04-07T14:32:44">
+  <data name="RoundToOneDecimal" lastModified="2014-07-22T13:48:17">
     <value>One decimal</value>
     <comment>RoundToTheNearest value for One Decimal</comment>
   </data>
-  <data name="RoundToTwoDecimal" lastModified="2014-04-07T14:32:44">
+  <data name="RoundToTwoDecimal" lastModified="2014-07-22T13:48:17">
     <value>Two decimals</value>
     <comment>RoundToTheNearest value for Two Decimals</comment>
   </data>
-  <data name="RoundToWhole" lastModified="2014-04-07T14:32:44">
+  <data name="RoundToWhole" lastModified="2014-07-22T13:48:17">
     <value>Whole number</value>
     <comment>RoundToTheNearest value for Whole</comment>
   </data>
-  <data name="Code" lastModified="2014-04-07T14:32:44">
+  <data name="Code" lastModified="2014-07-22T13:48:17">
     <value>CODE</value>
     <comment>The code as a label used for currency settings screen</comment>
   </data>
-  <data name="Name" lastModified="2014-04-07T14:32:44">
+  <data name="Name" lastModified="2014-07-22T13:48:17">
     <value>NAME</value>
     <comment>The label Name which is shown on the currencies settings screen</comment>
   </data>
-  <data name="RoundValueTo" lastModified="2014-04-07T14:32:44">
+  <data name="RoundValueTo" lastModified="2014-07-22T13:48:17">
     <value>ROUND VALUE TO</value>
     <comment>The round value to label used on the currencies settings screen</comment>
   </data>
-  <data name="EcommerceTitleForWorkFlow" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceTitleForWorkFlow" lastModified="2014-07-22T13:48:17">
     <value>&lt;i&gt;(Ecommerce)&lt;/i&gt;</value>
     <comment>Message shown to the user when configuring workflows</comment>
   </data>
-  <data name="UnPublishedProducts" lastModified="2014-04-07T14:32:44">
+  <data name="UnPublishedProducts" lastModified="2014-07-22T13:48:17">
     <value>Unpublished products</value>
     <comment>Unpublished products</comment>
   </data>
-  <data name="StoreGeneralViewTitle" lastModified="2014-04-07T14:32:44">
+  <data name="StoreGeneralViewTitle" lastModified="2014-07-22T13:48:17">
     <value>General</value>
     <comment></comment>
   </data>
-  <data name="StoreSettingsViewTitle" lastModified="2014-04-07T14:32:44">
+  <data name="StoreSettingsViewTitle" lastModified="2014-07-22T13:48:17">
     <value>Store settings</value>
     <comment></comment>
   </data>
-  <data name="SettingsForProducts" lastModified="2014-04-07T14:32:44">
+  <data name="SettingsForProducts" lastModified="2014-07-22T13:48:17">
     <value>Settings</value>
     <comment>phrase: Settings for Products</comment>
   </data>
-  <data name="PagesWhereProductsArePublished" lastModified="2014-04-07T14:32:44">
+  <data name="PagesWhereProductsArePublished" lastModified="2014-07-22T13:48:17">
     <value>Pages where Products are published</value>
     <comment>Pages where Products are published</comment>
   </data>
-  <data name="EcommerceSiteSyncModuleName" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceSiteSyncModuleName" lastModified="2014-07-22T13:48:17">
     <value>(Ecommerce)</value>
     <comment>Ecommerce Module Name for SiteSync</comment>
   </data>
-  <data name="EcommerceSiteSyncAttributesName" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceSiteSyncAttributesName" lastModified="2014-07-22T13:48:17">
     <value>Attributes</value>
     <comment>Name of the Attributes for SiteSync</comment>
   </data>
-  <data name="EcommerceSiteSyncAttributeValuesName" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceSiteSyncAttributeValuesName" lastModified="2014-07-22T13:48:17">
     <value>Attribute Values</value>
     <comment>Name of the Attribute Values for SiteSync</comment>
   </data>
-  <data name="EcommerceSiteSyncVariationsName" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceSiteSyncVariationsName" lastModified="2014-07-22T13:48:17">
     <value>Variations</value>
     <comment>Name of the Variations for SiteSync</comment>
   </data>
-  <data name="EcommerceSiteSyncVariationsDetailName" lastModified="2014-04-07T14:32:44">
+  <data name="EcommerceSiteSyncVariationsDetailName" lastModified="2014-07-22T13:48:17">
     <value>Variation Details</value>
     <comment>Name of the Variation Details for SiteSync</comment>
   </data>
-  <data name="RoundOptionsShow" lastModified="2014-04-07T14:32:44">
+  <data name="RoundOptionsShow" lastModified="2014-07-22T13:48:17">
     <value>+ Rounding options</value>
     <comment></comment>
   </data>
-  <data name="RoundOptionsHide" lastModified="2014-04-07T14:32:44">
+  <data name="RoundOptionsHide" lastModified="2014-07-22T13:48:17">
     <value>- Hide rounding options</value>
     <comment></comment>
   </data>
-  <data name="EmailNotificationPending" lastModified="2014-04-07T14:32:44">
+  <data name="EmailNotificationPending" lastModified="2014-07-22T13:48:17">
     <value>Send email notification for pending orders</value>
     <comment>Send email notification for pending orders</comment>
   </data>
-  <data name="EmailNotificationPendingNote" lastModified="2014-04-07T14:32:44">
+  <data name="EmailNotificationPendingNote" lastModified="2014-07-22T13:48:17">
     <value>In case there is no confirmation from the payment provider, the status of the order will remain pending. &lt;br/&gt; You should manually check what is the status for these orders with the respective provider</value>
     <comment>In case there is no confirmation from the payment provider, the status of the order will remain pending. You should manually check what is the status for these orders with the respective provider</comment>
   </data>
-  <data name="EmailNotificationPendingFrequency" lastModified="2014-04-07T14:32:44">
+  <data name="EmailNotificationPendingFrequency" lastModified="2014-07-22T13:48:17">
     <value>How frequently receive notification</value>
     <comment>How frequently receive notification</comment>
   </data>
-  <data name="EmailNotificationPendingFrequencyHourly" lastModified="2014-04-07T14:32:44">
+  <data name="EmailNotificationPendingFrequencyHourly" lastModified="2014-07-22T13:48:17">
     <value>Hourly</value>
     <comment>Hourly value in the frequency notifications combo box</comment>
   </data>
-  <data name="EmailNotificationPendingFrequencyDaily" lastModified="2014-04-07T14:32:44">
+  <data name="EmailNotificationPendingFrequencyDaily" lastModified="2014-07-22T13:48:17">
     <value>Daily</value>
     <comment>Daily value in the frequency notifications combo box</comment>
   </data>
-  <data name="EmailNotificationPendingFrequencyWeekly" lastModified="2014-04-07T14:32:44">
+  <data name="EmailNotificationPendingFrequencyWeekly" lastModified="2014-07-22T13:48:17">
     <value>Weekly</value>
     <comment>Weekly value in the frequency notifications combo box</comment>
   </data>
-  <data name="On" lastModified="2014-04-07T14:32:44">
+  <data name="On" lastModified="2014-07-22T13:48:17">
     <value>on</value>
     <comment>phrase : on</comment>
   </data>
-  <data name="At" lastModified="2014-04-07T14:32:44">
+  <data name="At" lastModified="2014-07-22T13:48:17">
     <value>at</value>
     <comment>phrase : At</comment>
   </data>
-  <data name="DoNotSyncInventoryAfterInitialSync" lastModified="2014-04-07T14:32:44">
+  <data name="DoNotSyncInventoryAfterInitialSync" lastModified="2014-07-22T13:48:17">
     <value>Do not sync inventory details after the product has been synced at least once</value>
     <comment></comment>
   </data>
-  <data name="ManageAlso" lastModified="2014-04-07T14:32:44">
+  <data name="ManageAlso" lastModified="2014-07-22T13:48:17">
     <value>Manage also</value>
     <comment>phrase: Manage also</comment>
   </data>
-  <data name="CommentsForProducts" lastModified="2014-04-07T14:32:44">
+  <data name="CommentsForProducts" lastModified="2014-07-22T13:48:17">
     <value>Comments for products</value>
     <comment>phrase: Comments for products</comment>
   </data>
-  <data name="KeepShoppingCartPerUser" lastModified="2014-04-07T14:32:44">
+  <data name="KeepShoppingCartPerUser" lastModified="2014-07-22T13:48:17">
     <value>A shopping cart is refered to the current user only.</value>
     <comment>phrase: A shopping cart is refered to the current user only.</comment>
   </data>
-  <data name="DefaultProductImageUrlConfig" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultProductImageUrlConfig" lastModified="2014-07-22T13:48:17">
     <value>The Url to the default product thumbnail image. Example:'/DefaultProductThumbnail.jpg'</value>
     <comment>Description of the default product thumbnail Url configuration property.</comment>
   </data>

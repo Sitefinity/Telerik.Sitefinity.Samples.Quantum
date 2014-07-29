@@ -117,179 +117,179 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadEditorModulesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorModulesTitle" lastModified="2014-07-22T13:48:17">
     <value>RadEditor Modules</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="RadEditorModulesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorModulesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>RadEditor Modules</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="RadEditorModulesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorModulesDescription" lastModified="2014-07-22T13:48:17">
     <value>Resource strings for RadEditor Modules</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+  <data name="ReservedResource" lastModified="2014-07-22T13:48:17">
     <value>Please, do not delete this string. RadEditor needs it to determine if an external resource file is present in App_GlobalResources.</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="blank" lastModified="2014-04-07T14:32:44">
+  <data name="blank" lastModified="2014-07-22T13:48:17">
     <value>New Window</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="media" lastModified="2014-04-07T14:32:44">
+  <data name="media" lastModified="2014-07-22T13:48:17">
     <value>Media Pane</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="parent" lastModified="2014-04-07T14:32:44">
+  <data name="parent" lastModified="2014-07-22T13:48:17">
     <value>Parent Window</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="search" lastModified="2014-04-07T14:32:44">
+  <data name="search" lastModified="2014-07-22T13:48:17">
     <value>Search Pane</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="self" lastModified="2014-04-07T14:32:44">
+  <data name="self" lastModified="2014-07-22T13:48:17">
     <value>Same Window</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="top" lastModified="2014-04-07T14:32:44">
+  <data name="top" lastModified="2014-07-22T13:48:17">
     <value>Browser Window</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="action" lastModified="2014-04-07T14:32:44">
+  <data name="action" lastModified="2014-07-22T13:48:17">
     <value>Action</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="align" lastModified="2014-04-07T14:32:44">
+  <data name="align" lastModified="2014-07-22T13:48:17">
     <value>Alignment</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="alt" lastModified="2014-04-07T14:32:44">
+  <data name="alt" lastModified="2014-07-22T13:48:17">
     <value>ToolTip</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="bgColor" lastModified="2014-04-07T14:32:44">
+  <data name="bgColor" lastModified="2014-07-22T13:48:17">
     <value>Background</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="border" lastModified="2014-04-07T14:32:44">
+  <data name="border" lastModified="2014-07-22T13:48:17">
     <value>Border Width</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="borderColor" lastModified="2014-04-07T14:32:44">
+  <data name="borderColor" lastModified="2014-07-22T13:48:17">
     <value>Border color</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="cellPadding" lastModified="2014-04-07T14:32:44">
+  <data name="cellPadding" lastModified="2014-07-22T13:48:17">
     <value>CellPadding</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="cellSpacing" lastModified="2014-04-07T14:32:44">
+  <data name="cellSpacing" lastModified="2014-07-22T13:48:17">
     <value>CellSpacing</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="className" lastModified="2014-04-07T14:32:44">
+  <data name="className" lastModified="2014-07-22T13:48:17">
     <value>Classname</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="cols" lastModified="2014-04-07T14:32:44">
+  <data name="cols" lastModified="2014-07-22T13:48:17">
     <value>Columns</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="Doctype" lastModified="2014-04-07T14:32:44">
+  <data name="Doctype" lastModified="2014-07-22T13:48:17">
     <value>Select Doctype</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="DomInspectorRemoveElement" lastModified="2014-04-07T14:32:44">
+  <data name="DomInspectorRemoveElement" lastModified="2014-07-22T13:48:17">
     <value>RemoveElement</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="ExpandValidator" lastModified="2014-04-07T14:32:44">
+  <data name="ExpandValidator" lastModified="2014-07-22T13:48:17">
     <value>Expand Report Pane</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="height" lastModified="2014-04-07T14:32:44">
+  <data name="height" lastModified="2014-07-22T13:48:17">
     <value>Height</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="href" lastModified="2014-04-07T14:32:44">
+  <data name="href" lastModified="2014-07-22T13:48:17">
     <value>URL</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="id" lastModified="2014-04-07T14:32:44">
+  <data name="id" lastModified="2014-07-22T13:48:17">
     <value>Id</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="name" lastModified="2014-04-07T14:32:44">
+  <data name="name" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="NodeInspectorInvalidValue" lastModified="2014-04-07T14:32:44">
+  <data name="NodeInspectorInvalidValue" lastModified="2014-07-22T13:48:17">
     <value>Invalid value. Please enter a number.</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="NodeInspectorSelectedElement" lastModified="2014-04-07T14:32:44">
+  <data name="NodeInspectorSelectedElement" lastModified="2014-07-22T13:48:17">
     <value>The selected element is</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="noWrap" lastModified="2014-04-07T14:32:44">
+  <data name="noWrap" lastModified="2014-07-22T13:48:17">
     <value>Nowrap</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="RadEditorDomInspector" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorDomInspector" lastModified="2014-07-22T13:48:17">
     <value>Tag Inspector</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="RadEditorHtmlInspector" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorHtmlInspector" lastModified="2014-07-22T13:48:17">
     <value>Real-Time HTML View</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="RadEditorNodeInspector" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorNodeInspector" lastModified="2014-07-22T13:48:17">
     <value>Properties Inspector</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="RadEditorStatistics" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorStatistics" lastModified="2014-07-22T13:48:17">
     <value>Statistics</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="RadEditorXhtmlValidator" lastModified="2014-04-07T14:32:44">
+  <data name="RadEditorXhtmlValidator" lastModified="2014-07-22T13:48:17">
     <value>XHTML Validator</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="rows" lastModified="2014-04-07T14:32:44">
+  <data name="rows" lastModified="2014-07-22T13:48:17">
     <value>Rows</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="StatisticsCharacters" lastModified="2014-04-07T14:32:44">
+  <data name="StatisticsCharacters" lastModified="2014-07-22T13:48:17">
     <value>Characters:</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="StatisticsWords" lastModified="2014-04-07T14:32:44">
+  <data name="StatisticsWords" lastModified="2014-07-22T13:48:17">
     <value>Words:</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="target" lastModified="2014-04-07T14:32:44">
+  <data name="target" lastModified="2014-07-22T13:48:17">
     <value>Target</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="title" lastModified="2014-04-07T14:32:44">
+  <data name="title" lastModified="2014-07-22T13:48:17">
     <value>Title</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="ValidateXHTML" lastModified="2014-04-07T14:32:44">
+  <data name="ValidateXHTML" lastModified="2014-07-22T13:48:17">
     <value>Validate XHTML</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="vAlign" lastModified="2014-04-07T14:32:44">
+  <data name="vAlign" lastModified="2014-07-22T13:48:17">
     <value>Vertical Alignment</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="value" lastModified="2014-04-07T14:32:44">
+  <data name="value" lastModified="2014-07-22T13:48:17">
     <value>Value</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>
-  <data name="width" lastModified="2014-04-07T14:32:44">
+  <data name="width" lastModified="2014-07-22T13:48:17">
     <value>Width</value>
     <comment>RadEditorModules resource strings.</comment>
   </data>

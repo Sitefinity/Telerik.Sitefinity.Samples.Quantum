@@ -117,151 +117,151 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadImageEditorMainTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadImageEditorMainTitle" lastModified="2014-07-22T13:48:17">
     <value>RadImageEditor Main</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="RadImageEditorMainTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="RadImageEditorMainTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>RadImageEditor Main</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="RadImageEditorMainDescription" lastModified="2014-04-07T14:32:44">
+  <data name="RadImageEditorMainDescription" lastModified="2014-07-22T13:48:17">
     <value>Resource strings for RadImageEditor.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="AddText" lastModified="2014-04-07T14:32:44">
+  <data name="AddText" lastModified="2014-07-22T13:48:17">
     <value>Add Text</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="BrightnessContrast" lastModified="2014-04-07T14:32:44">
+  <data name="BrightnessContrast" lastModified="2014-07-22T13:48:17">
     <value>Brightness/Contrast</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="CanvasNotSupported" lastModified="2014-04-07T14:32:44">
+  <data name="CanvasNotSupported" lastModified="2014-07-22T13:48:17">
     <value>The current browser does not support the &lt;canvas&gt; tag</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Common_Close" lastModified="2014-04-07T14:32:44">
+  <data name="Common_Close" lastModified="2014-07-22T13:48:17">
     <value>Close</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Common_ZoomIn" lastModified="2014-04-07T14:32:44">
+  <data name="Common_ZoomIn" lastModified="2014-07-22T13:48:17">
     <value>Zoom In</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Common_ZoomOut" lastModified="2014-04-07T14:32:44">
+  <data name="Common_ZoomOut" lastModified="2014-07-22T13:48:17">
     <value>Zoom Out</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Crop" lastModified="2014-04-07T14:32:44">
+  <data name="Crop" lastModified="2014-07-22T13:48:17">
     <value>Crop</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Export" lastModified="2014-04-07T14:32:44">
+  <data name="Export" lastModified="2014-07-22T13:48:17">
     <value>Export Image</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Flip" lastModified="2014-04-07T14:32:44">
+  <data name="Flip" lastModified="2014-07-22T13:48:17">
     <value>Flip</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="FlipBoth" lastModified="2014-04-07T14:32:44">
+  <data name="FlipBoth" lastModified="2014-07-22T13:48:17">
     <value>Flip Both</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="FlipHorizontal" lastModified="2014-04-07T14:32:44">
+  <data name="FlipHorizontal" lastModified="2014-07-22T13:48:17">
     <value>Flip Horizontally</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="FlipVertical" lastModified="2014-04-07T14:32:44">
+  <data name="FlipVertical" lastModified="2014-07-22T13:48:17">
     <value>Flip Vertically</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Greyscale" lastModified="2014-04-07T14:32:44">
+  <data name="Greyscale" lastModified="2014-07-22T13:48:17">
     <value>Greyscale</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="HueSaturation" lastModified="2014-04-07T14:32:44">
+  <data name="HueSaturation" lastModified="2014-07-22T13:48:17">
     <value>Hue/Saturation</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="InsertImage" lastModified="2014-04-07T14:32:44">
+  <data name="InsertImage" lastModified="2014-07-22T13:48:17">
     <value>Insert Image</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="InvertColor" lastModified="2014-04-07T14:32:44">
+  <data name="InvertColor" lastModified="2014-07-22T13:48:17">
     <value>Invert Colors (negative)</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Opacity" lastModified="2014-04-07T14:32:44">
+  <data name="Opacity" lastModified="2014-07-22T13:48:17">
     <value>Opacity</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="OpacityNotSupported" lastModified="2014-04-07T14:32:44">
+  <data name="OpacityNotSupported" lastModified="2014-07-22T13:48:17">
     <value>The current image format does not support opacity.</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Print" lastModified="2014-04-07T14:32:44">
+  <data name="Print" lastModified="2014-07-22T13:48:17">
     <value>Print Image</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Redo" lastModified="2014-04-07T14:32:44">
+  <data name="Redo" lastModified="2014-07-22T13:48:17">
     <value>Redo</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+  <data name="ReservedResource" lastModified="2014-07-22T13:48:17">
     <value>Please do not delete this string.</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Reset" lastModified="2014-04-07T14:32:44">
+  <data name="Reset" lastModified="2014-07-22T13:48:17">
     <value>Reset Changes</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Resize" lastModified="2014-04-07T14:32:44">
+  <data name="Resize" lastModified="2014-07-22T13:48:17">
     <value>Resize</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Rotate" lastModified="2014-04-07T14:32:44">
+  <data name="Rotate" lastModified="2014-07-22T13:48:17">
     <value>Rotate</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="RotateLeft" lastModified="2014-04-07T14:32:44">
+  <data name="RotateLeft" lastModified="2014-07-22T13:48:17">
     <value>Rotate Left by 90 deg</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="RotateRight" lastModified="2014-04-07T14:32:44">
+  <data name="RotateRight" lastModified="2014-07-22T13:48:17">
     <value>Rotate Right by 90 deg</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Save" lastModified="2014-04-07T14:32:44">
+  <data name="Save" lastModified="2014-07-22T13:48:17">
     <value>Save Image</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Sepia" lastModified="2014-04-07T14:32:44">
+  <data name="Sepia" lastModified="2014-07-22T13:48:17">
     <value>Sepia</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="StatusBar_LastAction" lastModified="2014-04-07T14:32:44">
+  <data name="StatusBar_LastAction" lastModified="2014-07-22T13:48:17">
     <value>Last Action</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="StatusBar_Position" lastModified="2014-04-07T14:32:44">
+  <data name="StatusBar_Position" lastModified="2014-07-22T13:48:17">
     <value>Pos.</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="StatusBar_Size" lastModified="2014-04-07T14:32:44">
+  <data name="StatusBar_Size" lastModified="2014-07-22T13:48:17">
     <value>Size</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="StatusBar_Zoom" lastModified="2014-04-07T14:32:44">
+  <data name="StatusBar_Zoom" lastModified="2014-07-22T13:48:17">
     <value>Zoom</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Undo" lastModified="2014-04-07T14:32:44">
+  <data name="Undo" lastModified="2014-07-22T13:48:17">
     <value>Undo</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>
-  <data name="Zoom" lastModified="2014-04-07T14:32:44">
+  <data name="Zoom" lastModified="2014-07-22T13:48:17">
     <value>Zoom</value>
     <comment>RadImageEditorMain resource strings.</comment>
   </data>

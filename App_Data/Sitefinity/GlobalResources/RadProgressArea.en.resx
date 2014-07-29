@@ -117,55 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadProgressAreaTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadProgressAreaTitle" lastModified="2014-07-22T13:48:17">
     <value>RadProgressArea</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="RadProgressAreaTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="RadProgressAreaTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>RadProgressAreaTitlePlural</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="RadProgressAreaDescription" lastModified="2014-04-07T14:32:44">
+  <data name="RadProgressAreaDescription" lastModified="2014-07-22T13:48:17">
     <value>Resource strings for RadProgressArea.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+  <data name="Cancel" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>
-  <data name="CurrentFileName" lastModified="2014-04-07T14:32:44">
+  <data name="CurrentFileName" lastModified="2014-07-22T13:48:17">
     <value>Uploading file:</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>
-  <data name="ElapsedTime" lastModified="2014-04-07T14:32:44">
+  <data name="ElapsedTime" lastModified="2014-07-22T13:48:17">
     <value>Elapsed time:</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>
-  <data name="EstimatedTime" lastModified="2014-04-07T14:32:44">
+  <data name="EstimatedTime" lastModified="2014-07-22T13:48:17">
     <value>Estimated time:</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>
-  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+  <data name="ReservedResource" lastModified="2014-07-22T13:48:17">
     <value>Please do not remove this key.</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>
-  <data name="Total" lastModified="2014-04-07T14:32:44">
+  <data name="Total" lastModified="2014-07-22T13:48:17">
     <value>Total</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>
-  <data name="TotalFiles" lastModified="2014-04-07T14:32:44">
+  <data name="TotalFiles" lastModified="2014-07-22T13:48:17">
     <value>Total files:</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>
-  <data name="TransferSpeed" lastModified="2014-04-07T14:32:44">
+  <data name="TransferSpeed" lastModified="2014-07-22T13:48:17">
     <value>Speed:</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>
-  <data name="Uploaded" lastModified="2014-04-07T14:32:44">
+  <data name="Uploaded" lastModified="2014-07-22T13:48:17">
     <value>Uploaded</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>
-  <data name="UploadedFiles" lastModified="2014-04-07T14:32:44">
+  <data name="UploadedFiles" lastModified="2014-07-22T13:48:17">
     <value>Uploaded files:</value>
     <comment>RadProgressArea resource strings.</comment>
   </data>

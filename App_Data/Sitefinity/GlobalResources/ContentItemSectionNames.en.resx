@@ -117,31 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ContentItem_AdditionalInfo" lastModified="2014-04-07T14:32:44">
+  <data name="ContentItem_AdditionalInfo" lastModified="2014-07-22T13:48:17">
     <value>Additional Info</value>
     <comment>label</comment>
   </data>
-  <data name="ContentItem_Attributes" lastModified="2014-04-07T14:32:44">
+  <data name="ContentItem_Attributes" lastModified="2014-07-22T13:48:17">
     <value>Attributes</value>
     <comment>label</comment>
   </data>
-  <data name="ContentItem_Behaviour" lastModified="2014-04-07T14:32:44">
+  <data name="ContentItem_Behaviour" lastModified="2014-07-22T13:48:17">
     <value>Behavior</value>
     <comment>label</comment>
   </data>
-  <data name="ContentItem_Data" lastModified="2014-04-07T14:32:44">
+  <data name="ContentItem_Data" lastModified="2014-07-22T13:48:17">
     <value>Data</value>
     <comment>label</comment>
   </data>
-  <data name="ContentItemSectionNamesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ContentItemSectionNamesTitle" lastModified="2014-07-22T13:48:17">
     <value>Data</value>
     <comment>label</comment>
   </data>
-  <data name="ContentItemSectionNamesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="ContentItemSectionNamesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Data</value>
     <comment>label</comment>
   </data>
-  <data name="ContentItemSectionNamesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ContentItemSectionNamesDescription" lastModified="2014-07-22T13:48:17">
     <value>Data</value>
     <comment>label</comment>
   </data>

@@ -117,103 +117,103 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ContentLifecycleMessagesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLifecycleMessagesTitle" lastModified="2014-07-22T13:48:17">
     <value>Content Lifecycle</value>
     <comment>Title of the content lifecycle localization class.</comment>
   </data>
-  <data name="ContentLifecycleMessagesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLifecycleMessagesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Content Lifecycle Messages</value>
     <comment>Plural form of this localization class' title.</comment>
   </data>
-  <data name="ContentLifecycleMessagesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLifecycleMessagesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Content Lifecycle user interface.</value>
     <comment>Description of the content lifecycle localization class.</comment>
   </data>
-  <data name="Published" lastModified="2014-04-07T14:32:44">
+  <data name="Published" lastModified="2014-07-22T13:48:17">
     <value>Published</value>
     <comment>Label for the published (live) status of a content item.</comment>
   </data>
-  <data name="Scheduled" lastModified="2014-04-07T14:32:44">
+  <data name="Scheduled" lastModified="2014-07-22T13:48:17">
     <value>Scheduled</value>
     <comment>Label for the published (live) status of a content item.</comment>
   </data>
-  <data name="DraftNewerThanPublished" lastModified="2014-04-07T14:32:44">
+  <data name="DraftNewerThanPublished" lastModified="2014-07-22T13:48:17">
     <value>Draft newer than published</value>
     <comment>Label for the published (live) status of a content item.</comment>
   </data>
-  <data name="LockedByUserName" lastModified="2014-04-07T14:32:44">
+  <data name="LockedByUserName" lastModified="2014-07-22T13:48:17">
     <value>Private copy locked by {0}</value>
     <comment>Label notifying that a user owns a private copy of an item (that is locked). {0} is placeholder for the user name.</comment>
   </data>
-  <data name="Draft" lastModified="2014-04-07T14:32:44">
+  <data name="Draft" lastModified="2014-07-22T13:48:17">
     <value>Draft</value>
     <comment>Status of an item that is in draft state.</comment>
   </data>
-  <data name="ItemUnlockedWhileEditing" lastModified="2014-04-07T14:32:44">
+  <data name="ItemUnlockedWhileEditing" lastModified="2014-07-22T13:48:17">
     <value>The item was unlocked by another user while you were editing and you cannot save/publish it.</value>
     <comment>Error message</comment>
   </data>
-  <data name="ItemUnlockedWhileEditingBy" lastModified="2014-04-07T14:32:44">
+  <data name="ItemUnlockedWhileEditingBy" lastModified="2014-07-22T13:48:17">
     <value>The item was unlocked by {0} while you were editing and you cannot save/publish it</value>
     <comment>Error message. {0} is placeholder for user name.</comment>
   </data>
-  <data name="ItemDeletedWhileEditing" lastModified="2014-04-07T14:32:44">
+  <data name="ItemDeletedWhileEditing" lastModified="2014-07-22T13:48:17">
     <value>The item was deleted by another user while you were editing and you cannot save/publish it.</value>
     <comment>Error message</comment>
   </data>
-  <data name="LiveVersionGreaterThanMasterVersion" lastModified="2014-04-07T14:32:44">
+  <data name="LiveVersionGreaterThanMasterVersion" lastModified="2014-07-22T13:48:17">
     <value>Published version &gt; draft version =&gt; data corruption.</value>
     <comment>Error message</comment>
   </data>
-  <data name="CannotCheckIn" lastModified="2014-04-07T14:32:44">
+  <data name="CannotCheckIn" lastModified="2014-07-22T13:48:17">
     <value>You can not check in since the item is locked by another user and is not admin.</value>
     <comment>Error message shown when user can not check in.</comment>
   </data>
-  <data name="AlreadyCheckedOut" lastModified="2014-04-07T14:32:44">
+  <data name="AlreadyCheckedOut" lastModified="2014-07-22T13:48:17">
     <value>The content item has already been checked out by another user and you cannot unlock it.</value>
     <comment>Error message shown when user can not check out.</comment>
   </data>
-  <data name="AlreadyLockedBy" lastModified="2014-04-07T14:32:44">
+  <data name="AlreadyLockedBy" lastModified="2014-07-22T13:48:17">
     <value>This item has already been locked by {0} and you cannot continue editing it</value>
     <comment>Error message when user wants to edit an item that has already been locked</comment>
   </data>
-  <data name="MasterNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="MasterNotFound" lastModified="2014-07-22T13:48:17">
     <value>Master version was not found. All items should always have one and only one master.</value>
     <comment>Error message shown when a master (draft) cannot be found.</comment>
   </data>
-  <data name="MasterExpected" lastModified="2014-04-07T14:32:44">
+  <data name="MasterExpected" lastModified="2014-07-22T13:48:17">
     <value>The item is in an invalid state. It should be master (draft).</value>
     <comment>Error message shown when an item is expected to be master (draft), but it is not.</comment>
   </data>
-  <data name="TempExpectedForCheckIn" lastModified="2014-04-07T14:32:44">
+  <data name="TempExpectedForCheckIn" lastModified="2014-07-22T13:48:17">
     <value>Cannot check in item that is not in temp state.</value>
     <comment>Error message shown when an item that is not temp is checked in.</comment>
   </data>
-  <data name="LiveExpectedForUnpublish" lastModified="2014-04-07T14:32:44">
+  <data name="LiveExpectedForUnpublish" lastModified="2014-07-22T13:48:17">
     <value>Cannot unpublish an item that is not published.</value>
     <comment>Error message shown when an non-live item is unpublished.</comment>
   </data>
-  <data name="MasterExpectedForCheckOut" lastModified="2014-04-07T14:32:44">
+  <data name="MasterExpectedForCheckOut" lastModified="2014-07-22T13:48:17">
     <value>Cannot check out item that is not in master state.</value>
     <comment>Error message shown when an item that is not master is checked in.</comment>
   </data>
-  <data name="LiveExpectedForEdit" lastModified="2014-04-07T14:32:44">
+  <data name="LiveExpectedForEdit" lastModified="2014-07-22T13:48:17">
     <value>Cannot edit an item that is not in live state.</value>
     <comment>Error message shown when an item that is not live is edited.</comment>
   </data>
-  <data name="MasterExpectedForPublish" lastModified="2014-04-07T14:32:44">
+  <data name="MasterExpectedForPublish" lastModified="2014-07-22T13:48:17">
     <value>Cannot publish an item that is not a master.</value>
     <comment>Error message shown when an item that is not master is published.</comment>
   </data>
-  <data name="MasterExpectedForSchedule" lastModified="2014-04-07T14:32:44">
+  <data name="MasterExpectedForSchedule" lastModified="2014-07-22T13:48:17">
     <value>Cannot schedule an item that is not a master.</value>
     <comment>Error message shown when an item that is not master is scheduled.</comment>
   </data>
-  <data name="ScheduleExpiresBeforePublish" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleExpiresBeforePublish" lastModified="2014-07-22T13:48:17">
     <value>You are trying to schedule an item with expiration date before the publication date.</value>
     <comment>Error message shown when an item is scheduled so that it will expire before it gets to the public side.</comment>
   </data>
-  <data name="ItemUpdateWhileEditing" lastModified="2014-04-07T14:32:44">
+  <data name="ItemUpdateWhileEditing" lastModified="2014-07-22T13:48:17">
     <value>An item on the page was updated more than once and cannot be published. To proceed, refresh the page (all unsaved changes will be lost).</value>
     <comment>Error message shown when an item is opened in backend and frontend at the same time. And it is updated in the backend.</comment>
   </data>

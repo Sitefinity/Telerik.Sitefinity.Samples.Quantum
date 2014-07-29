@@ -117,75 +117,75 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="FilesResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="FilesResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Files</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="FilesResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="FilesResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Files</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="FilesResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="FilesResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Files user interface.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleTitle" lastModified="2014-07-22T13:48:17">
     <value>Files</value>
     <comment>The title of the Files module.</comment>
   </data>
-  <data name="TypeGridColumnHeaderText" lastModified="2014-04-07T14:32:44">
+  <data name="TypeGridColumnHeaderText" lastModified="2014-07-22T13:48:17">
     <value>Type</value>
     <comment>The title of the Type column in FileBrowser grid.</comment>
   </data>
-  <data name="DateModifiedGridColumnHeaderText" lastModified="2014-04-07T14:32:44">
+  <data name="DateModifiedGridColumnHeaderText" lastModified="2014-07-22T13:48:17">
     <value>Date Modified</value>
     <comment>The title of the Date Modified column in FileBrowser grid.</comment>
   </data>
-  <data name="FileFolderText" lastModified="2014-04-07T14:32:44">
+  <data name="FileFolderText" lastModified="2014-07-22T13:48:17">
     <value>File Folder</value>
     <comment>The text displayed for the folders in the FileBrowser grid Type column.</comment>
   </data>
-  <data name="FileText" lastModified="2014-04-07T14:32:44">
+  <data name="FileText" lastModified="2014-07-22T13:48:17">
     <value>File</value>
     <comment>The text displayed for the files in the FileBrowser grid Type column.</comment>
   </data>
-  <data name="FileNameText" lastModified="2014-04-07T14:32:44">
+  <data name="FileNameText" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>The text displayed in the FileBrowser grid Filename column.</comment>
   </data>
-  <data name="DownloadToolBarButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="DownloadToolBarButtonText" lastModified="2014-07-22T13:48:17">
     <value>Download</value>
     <comment>The text of the Download button in the toolbar.</comment>
   </data>
-  <data name="DownloadContextMenuText" lastModified="2014-04-07T14:32:44">
+  <data name="DownloadContextMenuText" lastModified="2014-07-22T13:48:17">
     <value>Download</value>
     <comment>The text of the Download option in the context menu.</comment>
   </data>
-  <data name="RenameToolBarButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="RenameToolBarButtonText" lastModified="2014-07-22T13:48:17">
     <value>Rename</value>
     <comment>The text of the Rename button in the toolbar.</comment>
   </data>
-  <data name="CopyToolBarButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="CopyToolBarButtonText" lastModified="2014-07-22T13:48:17">
     <value>Copy</value>
     <comment>The text of the Copy button in the toolbar.</comment>
   </data>
-  <data name="PasteToolBarButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="PasteToolBarButtonText" lastModified="2014-07-22T13:48:17">
     <value>Paste</value>
     <comment>The text of the Paste button in the toolbar.</comment>
   </data>
-  <data name="FolderUpToolBarButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="FolderUpToolBarButtonText" lastModified="2014-07-22T13:48:17">
     <value>Folder Up</value>
     <comment>The text of the FolderUp button in the toolbar.</comment>
   </data>
-  <data name="DeleteToolBarButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteToolBarButtonText" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>The text of the Delete button in the toolbar.</comment>
   </data>
-  <data name="NewFolderToolBarButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="NewFolderToolBarButtonText" lastModified="2014-07-22T13:48:17">
     <value>New Folder</value>
     <comment>The text of the NewFolder button in the toolbar.</comment>
   </data>
-  <data name="UploadToolBarButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="UploadToolBarButtonText" lastModified="2014-07-22T13:48:17">
     <value>Upload</value>
     <comment>The text of the Upload button in the toolbar.</comment>
   </data>

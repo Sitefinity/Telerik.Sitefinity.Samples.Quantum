@@ -117,910 +117,910 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Personalization" lastModified="2014-04-07T14:32:44">
+  <data name="Personalization" lastModified="2014-07-22T13:48:17">
     <value>Personalization</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="PersonalizationResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Personalization</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="PersonalizationResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Personalization user interface.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="PersonalizationModuleDescription" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationModuleDescription" lastModified="2014-07-22T13:48:17">
     <value>Module which allows to personalize content that Sitefinity serves to visitors.</value>
     <comment>Description of the Personalization module.</comment>
   </data>
-  <data name="PersonalizationModuleUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationModuleUrlName" lastModified="2014-07-22T13:48:17">
     <value>personalization</value>
     <comment>Url name of the personalization module.</comment>
   </data>
-  <data name="AccessPersonalizationTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccessPersonalizationTitle" lastModified="2014-07-22T13:48:17">
     <value>Access personalization module</value>
     <comment>phrase: Access personalization module</comment>
   </data>
-  <data name="AccessPersonalizationDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AccessPersonalizationDescription" lastModified="2014-07-22T13:48:17">
     <value>Security action that allows access to the backend pages of the personalization module</value>
     <comment>phrase: Security action that allows access to the backend pages of the personalization module</comment>
   </data>
-  <data name="NoSegmentsCreatedMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NoSegmentsCreatedMessage" lastModified="2014-07-22T13:48:17">
     <value>No user segments have been created yet</value>
     <comment>Message displayed to user when no user segments exist in the system</comment>
   </data>
-  <data name="CreateAnUserSegment" lastModified="2014-04-07T14:32:44">
+  <data name="CreateAnUserSegment" lastModified="2014-07-22T13:48:17">
     <value>Create a user segment</value>
     <comment>Title of the button for creating a new user segment</comment>
   </data>
-  <data name="UserSegmentHeader" lastModified="2014-04-07T14:32:44">
+  <data name="UserSegmentHeader" lastModified="2014-07-22T13:48:17">
     <value>User segment</value>
     <comment>phrase: User segment</comment>
   </data>
-  <data name="SegmentDescriptionHeader" lastModified="2014-04-07T14:32:44">
+  <data name="SegmentDescriptionHeader" lastModified="2014-07-22T13:48:17">
     <value>Description</value>
     <comment>Header of the column that provides a description of the user segment</comment>
   </data>
-  <data name="SegmentActionsHeader" lastModified="2014-04-07T14:32:44">
+  <data name="SegmentActionsHeader" lastModified="2014-07-22T13:48:17">
     <value>Actions</value>
     <comment>Header of the column that displays the actions for user segments</comment>
   </data>
-  <data name="BackToPersonalization" lastModified="2014-04-07T14:32:44">
+  <data name="BackToPersonalization" lastModified="2014-07-22T13:48:17">
     <value>Back to Personalization</value>
     <comment>Title of the link for closing the dialog and going back to the personalization module</comment>
   </data>
-  <data name="SegmentNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="SegmentNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The name of the segment cannot be empty</value>
     <comment>Error message displayed if the user does not enter segment name.</comment>
   </data>
-  <data name="SegmentNameTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SegmentNameTitle" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Label for the segment name field</comment>
   </data>
-  <data name="SegmentNameExample" lastModified="2014-04-07T14:32:44">
+  <data name="SegmentNameExample" lastModified="2014-07-22T13:48:17">
     <value>Example: Potential clients. This name is for your convenience only.</value>
     <comment>Example for the segment name field</comment>
   </data>
-  <data name="SegmentDescriptionTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SegmentDescriptionTitle" lastModified="2014-07-22T13:48:17">
     <value>Description</value>
     <comment>Title of the segment description field.</comment>
   </data>
-  <data name="Done" lastModified="2014-04-07T14:32:44">
+  <data name="Done" lastModified="2014-07-22T13:48:17">
     <value>Done</value>
     <comment>word: Done</comment>
   </data>
-  <data name="Close" lastModified="2014-04-07T14:32:44">
+  <data name="Close" lastModified="2014-07-22T13:48:17">
     <value>Close</value>
     <comment>word: Close</comment>
   </data>
-  <data name="Cancel" lastModified="2014-04-07T14:32:44">
+  <data name="Cancel" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>word: Cancel</comment>
   </data>
-  <data name="ThisUserSegmentIsActive" lastModified="2014-04-07T14:32:44">
+  <data name="ThisUserSegmentIsActive" lastModified="2014-07-22T13:48:17">
     <value>This user segment is active</value>
     <comment>phrase: This user segment is active</comment>
   </data>
-  <data name="Active" lastModified="2014-04-07T14:32:44">
+  <data name="Active" lastModified="2014-07-22T13:48:17">
     <value>Active</value>
     <comment>Status of the active segment</comment>
   </data>
-  <data name="Inactive" lastModified="2014-04-07T14:32:44">
+  <data name="Inactive" lastModified="2014-07-22T13:48:17">
     <value>Inactive</value>
     <comment>Status of the inactive segment</comment>
   </data>
-  <data name="ForUsersWithTheseCharacteristics" lastModified="2014-04-07T14:32:44">
+  <data name="ForUsersWithTheseCharacteristics" lastModified="2014-07-22T13:48:17">
     <value>For users with these characteristics...</value>
     <comment>Title of the section to define segment criteria</comment>
   </data>
-  <data name="DeleteSegmentConfirmationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteSegmentConfirmationMessage" lastModified="2014-07-22T13:48:17">
     <value>Are you sure you want to delete this user segment and personalized page(s)?</value>
     <comment>Message displayed to user when deleting a user segment.</comment>
   </data>
-  <data name="DeleteSegmentConfirmationPageUsageWarning" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteSegmentConfirmationPageUsageWarning" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;personalized page(s)&lt;/strong&gt; use this segment.</value>
     <comment>Warning about the number of pages being personalized by the segment that is about to be deleted</comment>
   </data>
-  <data name="YesDeleteThisSegment" lastModified="2014-04-07T14:32:44">
+  <data name="YesDeleteThisSegment" lastModified="2014-07-22T13:48:17">
     <value>Yes, delete this segment and pages</value>
     <comment>Text of the button that confirms deletion of user segment</comment>
   </data>
-  <data name="ViewSiteAs" lastModified="2014-04-07T14:32:44">
+  <data name="ViewSiteAs" lastModified="2014-07-22T13:48:17">
     <value>View site as</value>
     <comment>phrase: View site as</comment>
   </data>
-  <data name="CreateThisSegment" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisSegment" lastModified="2014-07-22T13:48:17">
     <value>Create this segment</value>
     <comment>phrase: Create this segment</comment>
   </data>
-  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+  <data name="SaveChanges" lastModified="2014-07-22T13:48:17">
     <value>Save changes</value>
     <comment>phrase: Save changes</comment>
   </data>
-  <data name="NoCriteriaDefinedForSegment" lastModified="2014-04-07T14:32:44">
+  <data name="NoCriteriaDefinedForSegment" lastModified="2014-07-22T13:48:17">
     <value>You must define at least one characteristic for the segment</value>
     <comment>phrase: You must define at least one characteristic for the segment</comment>
   </data>
-  <data name="PagesHaveBeenPersonalizedForThisSegment" lastModified="2014-04-07T14:32:44">
+  <data name="PagesHaveBeenPersonalizedForThisSegment" lastModified="2014-07-22T13:48:17">
     <value>pages have been personalized for this segment</value>
     <comment>phrase: pages have been personalized for this segment</comment>
   </data>
-  <data name="PageHasBeenPersonalizedForThisSegment" lastModified="2014-04-07T14:32:44">
+  <data name="PageHasBeenPersonalizedForThisSegment" lastModified="2014-07-22T13:48:17">
     <value>page has been personalized for this segment</value>
     <comment>phrase: pag has been personalized for this segment</comment>
   </data>
-  <data name="ChangesInTheSegmentWillAffectThesePages" lastModified="2014-04-07T14:32:44">
+  <data name="ChangesInTheSegmentWillAffectThesePages" lastModified="2014-07-22T13:48:17">
     <value>Changes in the segment will affect these pages</value>
     <comment>phrase: Changes in the segment will affect these pages</comment>
   </data>
-  <data name="Actions" lastModified="2014-04-07T14:32:44">
+  <data name="Actions" lastModified="2014-07-22T13:48:17">
     <value>Actions</value>
     <comment>word: Actions</comment>
   </data>
-  <data name="Delete" lastModified="2014-04-07T14:32:44">
+  <data name="Delete" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>word: Delete</comment>
   </data>
-  <data name="Pages" lastModified="2014-04-07T14:32:44">
+  <data name="Pages" lastModified="2014-07-22T13:48:17">
     <value>Pages</value>
     <comment>word: Pages</comment>
   </data>
-  <data name="LocationsPackageIsNotInstalled" lastModified="2014-04-07T14:32:44">
+  <data name="LocationsPackageIsNotInstalled" lastModified="2014-07-22T13:48:17">
     <value>Locations package is not installed</value>
     <comment>phrase: Locations package is not installed</comment>
   </data>
-  <data name="Details" lastModified="2014-04-07T14:32:44">
+  <data name="Details" lastModified="2014-07-22T13:48:17">
     <value>Details</value>
     <comment>word: Details</comment>
   </data>
-  <data name="Priority" lastModified="2014-04-07T14:32:44">
+  <data name="Priority" lastModified="2014-07-22T13:48:17">
     <value>Priority</value>
     <comment>word: Priority</comment>
   </data>
-  <data name="SetPriority" lastModified="2014-04-07T14:32:44">
+  <data name="SetPriority" lastModified="2014-07-22T13:48:17">
     <value>Set priority</value>
     <comment>phrase: Set priority</comment>
   </data>
-  <data name="Up" lastModified="2014-04-07T14:32:44">
+  <data name="Up" lastModified="2014-07-22T13:48:17">
     <value>Up</value>
     <comment>Down</comment>
   </data>
-  <data name="Down" lastModified="2014-04-07T14:32:44">
+  <data name="Down" lastModified="2014-07-22T13:48:17">
     <value>Down</value>
     <comment>word: Down</comment>
   </data>
-  <data name="SegmentWithNameAlreadyExists" lastModified="2014-04-07T14:32:44">
+  <data name="SegmentWithNameAlreadyExists" lastModified="2014-07-22T13:48:17">
     <value>A segment with name "{0}" already exists</value>
     <comment>error message: A segment with name {0} already exists</comment>
   </data>
-  <data name="Change" lastModified="2014-04-07T14:32:44">
+  <data name="Change" lastModified="2014-07-22T13:48:17">
     <value>Change</value>
     <comment>word: Change</comment>
   </data>
-  <data name="AddACharacteristic" lastModified="2014-04-07T14:32:44">
+  <data name="AddACharacteristic" lastModified="2014-07-22T13:48:17">
     <value>Add a characteristic</value>
     <comment>Label of the button for adding new criteria to the segment definition</comment>
   </data>
-  <data name="Characteristic" lastModified="2014-04-07T14:32:44">
+  <data name="Characteristic" lastModified="2014-07-22T13:48:17">
     <value>Characteristic</value>
     <comment>word: Characteristic</comment>
   </data>
-  <data name="Save" lastModified="2014-04-07T14:32:44">
+  <data name="Save" lastModified="2014-07-22T13:48:17">
     <value>Save</value>
     <comment>word: Save</comment>
   </data>
-  <data name="Is" lastModified="2014-04-07T14:32:44">
+  <data name="Is" lastModified="2014-07-22T13:48:17">
     <value>is</value>
     <comment>word: is</comment>
   </data>
-  <data name="IsNot" lastModified="2014-04-07T14:32:44">
+  <data name="IsNot" lastModified="2014-07-22T13:48:17">
     <value>is not</value>
     <comment>phrase: is not</comment>
   </data>
-  <data name="NoCharacteristicSelected" lastModified="2014-04-07T14:32:44">
+  <data name="NoCharacteristicSelected" lastModified="2014-07-22T13:48:17">
     <value>No characteristic selected</value>
     <comment>phrase: No characteristic selected</comment>
   </data>
-  <data name="Select" lastModified="2014-04-07T14:32:44">
+  <data name="Select" lastModified="2014-07-22T13:48:17">
     <value>- Select -</value>
     <comment>DropDown title: select</comment>
   </data>
-  <data name="IPAddress" lastModified="2014-04-07T14:32:44">
+  <data name="IPAddress" lastModified="2014-07-22T13:48:17">
     <value>IP address</value>
     <comment>Title of the IP Address criterion</comment>
   </data>
-  <data name="IPAddressEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="IPAddressEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Enter at least one IP address.</value>
     <comment>Error message when user does not enter anything in the IP address field.</comment>
   </data>
-  <data name="InvalidIpAddress" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidIpAddress" lastModified="2014-07-22T13:48:17">
     <value>The IP address on line {0} is not a valid IP address.</value>
     <comment>Error message when user does not enter a valid IP address.</comment>
   </data>
-  <data name="LandingURL" lastModified="2014-04-07T14:32:44">
+  <data name="LandingURL" lastModified="2014-07-22T13:48:17">
     <value>Landing URL</value>
     <comment>Title of the Landing URL criterion</comment>
   </data>
-  <data name="LandingUrlEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="LandingUrlEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Enter at least one Landing URL</value>
     <comment>Error message when user does not enter anything in the Landing URL field.</comment>
   </data>
-  <data name="Location" lastModified="2014-04-07T14:32:44">
+  <data name="Location" lastModified="2014-07-22T13:48:17">
     <value>Location</value>
     <comment>Title of the location URL criterion</comment>
   </data>
-  <data name="LocationsEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="LocationsEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Enter at least one location</value>
     <comment>Error message when user does not enter anything in the Landing URL field.</comment>
   </data>
-  <data name="ProfileFields" lastModified="2014-04-07T14:32:44">
+  <data name="ProfileFields" lastModified="2014-07-22T13:48:17">
     <value>Profile fields</value>
     <comment>Title of the profile fields URL criterion</comment>
   </data>
-  <data name="NoProfileCriteriaDefinedError" lastModified="2014-04-07T14:32:44">
+  <data name="NoProfileCriteriaDefinedError" lastModified="2014-07-22T13:48:17">
     <value>Define a criteria for at least one profile field.</value>
     <comment>Error message displayed when user does not define any profile field criteria.</comment>
   </data>
-  <data name="ReferralURL" lastModified="2014-04-07T14:32:44">
+  <data name="ReferralURL" lastModified="2014-07-22T13:48:17">
     <value>Referral URL</value>
     <comment>Title of the referral URL criterion</comment>
   </data>
-  <data name="ReferralUrlEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="ReferralUrlEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Enter at least one Referral URL</value>
     <comment>Error message when user does not enter anything in the Referral URL field.</comment>
   </data>
-  <data name="SearchKeywords" lastModified="2014-04-07T14:32:44">
+  <data name="SearchKeywords" lastModified="2014-07-22T13:48:17">
     <value>Search keywords</value>
     <comment>Title of the search keywords URL criterion</comment>
   </data>
-  <data name="SearchKeywordsEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="SearchKeywordsEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Enter at least one search keyword</value>
     <comment>Error message when user does not enter anything in the search keywords field.</comment>
   </data>
-  <data name="TimeOfDay" lastModified="2014-04-07T14:32:44">
+  <data name="TimeOfDay" lastModified="2014-07-22T13:48:17">
     <value>Time of day</value>
     <comment>Title of the time of the day criterion</comment>
   </data>
-  <data name="TimeOfDayFromEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="TimeOfDayFromEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Please define the 'From' field</value>
     <comment>Error message displayed when in time of day criterion, 'from' is not defined.</comment>
   </data>
-  <data name="TimeOfDayToEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="TimeOfDayToEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Please define the 'To' field</value>
     <comment>Error message displayed when in time of day criterion, 'to' is not defined.</comment>
   </data>
-  <data name="TheSelectedTimePeriodMustStartBeforeItEnds" lastModified="2014-04-07T14:32:44">
+  <data name="TheSelectedTimePeriodMustStartBeforeItEnds" lastModified="2014-07-22T13:48:17">
     <value>'From' hour must be earlier than the hour selected in the 'To' field</value>
     <comment>Error message displayed to user when the time of day criterion is illogical.</comment>
   </data>
-  <data name="Purchases" lastModified="2014-04-07T14:32:44">
+  <data name="Purchases" lastModified="2014-07-22T13:48:17">
     <value>Purchases</value>
     <comment>Title of the purchases criterion</comment>
   </data>
-  <data name="PurchasesNoDepartmentsSelected" lastModified="2014-04-07T14:32:44">
+  <data name="PurchasesNoDepartmentsSelected" lastModified="2014-07-22T13:48:17">
     <value>Please, select at least one department</value>
     <comment>Error message displayed when user chooses no departments in the purchase criterion editor.</comment>
   </data>
-  <data name="PriceRangeFromEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="PriceRangeFromEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Please enter the 'From' field</value>
     <comment>Error message displayed when user does not enter 'from' field in the purchase price range criterion editor.</comment>
   </data>
-  <data name="PriceRangeToEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="PriceRangeToEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Please enter the 'To' field</value>
     <comment>Error message displayed when user does not enter 'to' field in the purchase price range criterion editor.</comment>
   </data>
-  <data name="PriceRangeFromNotValidError" lastModified="2014-04-07T14:32:44">
+  <data name="PriceRangeFromNotValidError" lastModified="2014-07-22T13:48:17">
     <value>The value in the 'from' field is not valid</value>
     <comment>Error message displayed when user enters invalid value in the 'from' field.</comment>
   </data>
-  <data name="PriceRangeToNotValidError" lastModified="2014-04-07T14:32:44">
+  <data name="PriceRangeToNotValidError" lastModified="2014-07-22T13:48:17">
     <value>The value in the 'to' field is not valid</value>
     <comment>Error message displayed when user enters invalid value in the 'to' field.</comment>
   </data>
-  <data name="PriceRangeFromNotSmallerThanToError" lastModified="2014-04-07T14:32:44">
+  <data name="PriceRangeFromNotSmallerThanToError" lastModified="2014-07-22T13:48:17">
     <value>The value in the 'from' field has to be smaller than the value in the 'to' field</value>
     <comment>Error message displayed when the user enters illogical range in the purchase price range criterion editor.</comment>
   </data>
-  <data name="PriceRangeNoTagsSelectedError" lastModified="2014-04-07T14:32:44">
+  <data name="PriceRangeNoTagsSelectedError" lastModified="2014-07-22T13:48:17">
     <value>Please select at least one tag</value>
     <comment>Error displayed when user selects no tags in the purchase tag criterion editor.</comment>
   </data>
-  <data name="PurchasesProductTypesSelected" lastModified="2014-04-07T14:32:44">
+  <data name="PurchasesProductTypesSelected" lastModified="2014-07-22T13:48:17">
     <value>Please select at least one product type</value>
     <comment>Error message displayed when user does not select any product types in the purchase product type criterion editor.</comment>
   </data>
-  <data name="VisitDuration" lastModified="2014-04-07T14:32:44">
+  <data name="VisitDuration" lastModified="2014-07-22T13:48:17">
     <value>Visit duration</value>
     <comment>Title of the visit duration criterion</comment>
   </data>
-  <data name="VisitDurationFromEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="VisitDurationFromEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Please enter the 'From' field</value>
     <comment>Error message displayed when user does not enter 'from' field in the visit duration criterion editor.</comment>
   </data>
-  <data name="VisitDurationToEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="VisitDurationToEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Please enter the 'To' field</value>
     <comment>Error message displayed when user does not enter 'to' field in the visit duration criterion editor.</comment>
   </data>
-  <data name="VisitDurationFromNotValidError" lastModified="2014-04-07T14:32:44">
+  <data name="VisitDurationFromNotValidError" lastModified="2014-07-22T13:48:17">
     <value>The value in the 'from' field is not valid</value>
     <comment>Error message displayed when user enters invalid value in the 'from' field.</comment>
   </data>
-  <data name="VisitDurationToNotValidError" lastModified="2014-04-07T14:32:44">
+  <data name="VisitDurationToNotValidError" lastModified="2014-07-22T13:48:17">
     <value>The value in the 'to' field is not valid</value>
     <comment>Error message displayed when user enters invalid value in the 'to' field.</comment>
   </data>
-  <data name="VisitDurationFromNotSmallerThanToError" lastModified="2014-04-07T14:32:44">
+  <data name="VisitDurationFromNotSmallerThanToError" lastModified="2014-07-22T13:48:17">
     <value>The value in the 'from' field has to be smaller than the value in the 'to' field</value>
     <comment>Error message displayed when the user enters illogical range in the visitor duration criterion editor.</comment>
   </data>
-  <data name="SearchKeywordsFieldExample" lastModified="2014-04-07T14:32:44">
+  <data name="SearchKeywordsFieldExample" lastModified="2014-07-22T13:48:17">
     <value>Comma separated keywords</value>
     <comment>Example label for the field for entering search keywords criterion</comment>
   </data>
-  <data name="IpAddressesFieldExample" lastModified="2014-04-07T14:32:44">
+  <data name="IpAddressesFieldExample" lastModified="2014-07-22T13:48:17">
     <value>Enter IP addresses; one per line</value>
     <comment>Example label for the field for entering IP addresses criterion</comment>
   </data>
-  <data name="LandingUrlFieldExample" lastModified="2014-04-07T14:32:44">
+  <data name="LandingUrlFieldExample" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;http://www.wikipedia.com/&lt;/em&gt;, &lt;em&gt;/about-us&lt;/em&gt;</value>
     <comment>Example label for the field for entering landing URLs criterion</comment>
   </data>
-  <data name="ReferralUrlFieldExample" lastModified="2014-04-07T14:32:44">
+  <data name="ReferralUrlFieldExample" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Example:&lt;/strong&gt;&lt;em&gt;http://www.wikipedia.com/&lt;/em&gt;</value>
     <comment>Example label for the field for entering referral URLs criterion</comment>
   </data>
-  <data name="From" lastModified="2014-04-07T14:32:44">
+  <data name="From" lastModified="2014-07-22T13:48:17">
     <value>From</value>
     <comment>word: From</comment>
   </data>
-  <data name="To" lastModified="2014-04-07T14:32:44">
+  <data name="To" lastModified="2014-07-22T13:48:17">
     <value>To</value>
     <comment>word: To</comment>
   </data>
-  <data name="Seconds" lastModified="2014-04-07T14:32:44">
+  <data name="Seconds" lastModified="2014-07-22T13:48:17">
     <value>seconds</value>
     <comment>word: seconds</comment>
   </data>
-  <data name="Minutes" lastModified="2014-04-07T14:32:44">
+  <data name="Minutes" lastModified="2014-07-22T13:48:17">
     <value>minutes</value>
     <comment>word: minutes</comment>
   </data>
-  <data name="AddAProfileField" lastModified="2014-04-07T14:32:44">
+  <data name="AddAProfileField" lastModified="2014-07-22T13:48:17">
     <value>Add a profile field</value>
     <comment>Title of the field for entering profile field criterion</comment>
   </data>
-  <data name="Field" lastModified="2014-04-07T14:32:44">
+  <data name="Field" lastModified="2014-07-22T13:48:17">
     <value>Field</value>
     <comment>word: Field</comment>
   </data>
-  <data name="Value" lastModified="2014-04-07T14:32:44">
+  <data name="Value" lastModified="2014-07-22T13:48:17">
     <value>Value</value>
     <comment>word: Value</comment>
   </data>
-  <data name="Add" lastModified="2014-04-07T14:32:44">
+  <data name="Add" lastModified="2014-07-22T13:48:17">
     <value>Add</value>
     <comment>word: Add</comment>
   </data>
-  <data name="ProfileFieldsBy" lastModified="2014-04-07T14:32:44">
+  <data name="ProfileFieldsBy" lastModified="2014-07-22T13:48:17">
     <value>Profile fields by</value>
     <comment>The label for the profile type selector in profile fields criterion editor</comment>
   </data>
-  <data name="Remove" lastModified="2014-04-07T14:32:44">
+  <data name="Remove" lastModified="2014-07-22T13:48:17">
     <value>Remove</value>
     <comment>word: Remove</comment>
   </data>
-  <data name="AddLocation" lastModified="2014-04-07T14:32:44">
+  <data name="AddLocation" lastModified="2014-07-22T13:48:17">
     <value>Add location</value>
     <comment>phrase: Add location</comment>
   </data>
-  <data name="LocationFieldExample" lastModified="2014-04-07T14:32:44">
+  <data name="LocationFieldExample" lastModified="2014-07-22T13:48:17">
     <value>&lt;em&gt;Select one of the predefined locations&lt;/em&gt;</value>
     <comment>phrase: Select one of the predefined locations</comment>
   </data>
-  <data name="LocationFieldCriterionTitle" lastModified="2014-04-07T14:32:44">
+  <data name="LocationFieldCriterionTitle" lastModified="2014-07-22T13:48:17">
     <value>Match of the following locations</value>
     <comment>Title of the location field criterion</comment>
   </data>
-  <data name="PurchasedProductBy" lastModified="2014-04-07T14:32:44">
+  <data name="PurchasedProductBy" lastModified="2014-07-22T13:48:17">
     <value>Purchased product by</value>
     <comment>phrase: Purchased product by</comment>
   </data>
-  <data name="Departments" lastModified="2014-04-07T14:32:44">
+  <data name="Departments" lastModified="2014-07-22T13:48:17">
     <value>Departments</value>
     <comment>word: Departments</comment>
   </data>
-  <data name="PriceRange" lastModified="2014-04-07T14:32:44">
+  <data name="PriceRange" lastModified="2014-07-22T13:48:17">
     <value>Price range</value>
     <comment>phrase: Price range</comment>
   </data>
-  <data name="Price" lastModified="2014-04-07T14:32:44">
+  <data name="Price" lastModified="2014-07-22T13:48:17">
     <value>Price</value>
     <comment>word: Price</comment>
   </data>
-  <data name="Tag" lastModified="2014-04-07T14:32:44">
+  <data name="Tag" lastModified="2014-07-22T13:48:17">
     <value>Tag</value>
     <comment>word: Tag</comment>
   </data>
-  <data name="TypeOfProducts" lastModified="2014-04-07T14:32:44">
+  <data name="TypeOfProducts" lastModified="2014-07-22T13:48:17">
     <value>Type of products</value>
     <comment>phrase: Type of products</comment>
   </data>
-  <data name="ParticularProduct" lastModified="2014-04-07T14:32:44">
+  <data name="ParticularProduct" lastModified="2014-07-22T13:48:17">
     <value>Particular product</value>
     <comment>phrase: Particular product</comment>
   </data>
-  <data name="PurchaseDepartmentsFieldTitle" lastModified="2014-04-07T14:32:44">
+  <data name="PurchaseDepartmentsFieldTitle" lastModified="2014-07-22T13:48:17">
     <value>Match of the following departments</value>
     <comment>Title of the field for purchases by department criterion field</comment>
   </data>
-  <data name="NarrowByTyping" lastModified="2014-04-07T14:32:44">
+  <data name="NarrowByTyping" lastModified="2014-07-22T13:48:17">
     <value>Narrow by typing</value>
     <comment>phrase: Narrow by typing</comment>
   </data>
-  <data name="Under" lastModified="2014-04-07T14:32:44">
+  <data name="Under" lastModified="2014-07-22T13:48:17">
     <value>Under</value>
     <comment>word: Under</comment>
   </data>
-  <data name="PurchasePriceRangeFieldTitle" lastModified="2014-04-07T14:32:44">
+  <data name="PurchasePriceRangeFieldTitle" lastModified="2014-07-22T13:48:17">
     <value>Match of the following price range</value>
     <comment>Title of the purchase price range field criterion editor</comment>
   </data>
-  <data name="TagFieldTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TagFieldTitle" lastModified="2014-07-22T13:48:17">
     <value>Match of the following tags</value>
     <comment>Title of the purchase editor for tags</comment>
   </data>
-  <data name="TagFieldNote" lastModified="2014-04-07T14:32:44">
+  <data name="TagFieldNote" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Comma separated&lt;/strong&gt;, type &lt;strong&gt;new&lt;/strong&gt; or &lt;strong&gt;existing&lt;/strong&gt; tags</value>
     <comment>Instruction for using tag field editor</comment>
   </data>
-  <data name="Or" lastModified="2014-04-07T14:32:44">
+  <data name="Or" lastModified="2014-07-22T13:48:17">
     <value>or</value>
     <comment>word: Or</comment>
   </data>
-  <data name="And" lastModified="2014-04-07T14:32:44">
+  <data name="And" lastModified="2014-07-22T13:48:17">
     <value>and</value>
     <comment>word: and</comment>
   </data>
-  <data name="SelectFromExisting" lastModified="2014-04-07T14:32:44">
+  <data name="SelectFromExisting" lastModified="2014-07-22T13:48:17">
     <value>Select from existing</value>
     <comment>phrase: Select from existing</comment>
   </data>
-  <data name="CloseExisting" lastModified="2014-04-07T14:32:44">
+  <data name="CloseExisting" lastModified="2014-07-22T13:48:17">
     <value>Close existing</value>
     <comment>phrase: Close existing</comment>
   </data>
-  <data name="ClickToSelect" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToSelect" lastModified="2014-07-22T13:48:17">
     <value>Click to select</value>
     <comment>phrase: Click to select</comment>
   </data>
-  <data name="TypeOfProductsFieldTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TypeOfProductsFieldTitle" lastModified="2014-07-22T13:48:17">
     <value>Match of the following types of products</value>
     <comment>Title of the criterion field for purchase / type of products editor</comment>
   </data>
-  <data name="VisitedPage" lastModified="2014-04-07T14:32:44">
+  <data name="VisitedPage" lastModified="2014-07-22T13:48:17">
     <value>Visited page</value>
     <comment>Title of the visited page personalization criterion</comment>
   </data>
-  <data name="NoPageSelectedError" lastModified="2014-04-07T14:32:44">
+  <data name="NoPageSelectedError" lastModified="2014-07-22T13:48:17">
     <value>Please select a page</value>
     <comment>Error message displayed to user when no page has been selected in the visited page criterion editor</comment>
   </data>
-  <data name="VisitedPageUrlEmptyError" lastModified="2014-04-07T14:32:44">
+  <data name="VisitedPageUrlEmptyError" lastModified="2014-07-22T13:48:17">
     <value>Please enter the url</value>
     <comment>Error message displayed to user when no url has been entered in visited page criterion editor.</comment>
   </data>
-  <data name="SelectPageElipsis" lastModified="2014-04-07T14:32:44">
+  <data name="SelectPageElipsis" lastModified="2014-07-22T13:48:17">
     <value>Select page...</value>
     <comment>phrase: Select page...</comment>
   </data>
-  <data name="EnterUrlElipsis" lastModified="2014-04-07T14:32:44">
+  <data name="EnterUrlElipsis" lastModified="2014-07-22T13:48:17">
     <value>Enter URL...</value>
     <comment>phrase: Enter URL...</comment>
   </data>
-  <data name="VisitedPageUrlExample" lastModified="2014-04-07T14:32:44">
+  <data name="VisitedPageUrlExample" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;http://wikipedia.com&lt;/em&gt;</value>
     <comment>Example for the visited page url field</comment>
   </data>
-  <data name="NoPagesHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoPagesHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No pages have been created yet</value>
     <comment>Message shown to user when no pages have been created in the system</comment>
   </data>
-  <data name="PeriodOfVisitation" lastModified="2014-04-07T14:32:44">
+  <data name="PeriodOfVisitation" lastModified="2014-07-22T13:48:17">
     <value>Period of visitation</value>
     <comment>phrase: Period of visitation</comment>
   </data>
-  <data name="LastDay" lastModified="2014-04-07T14:32:44">
+  <data name="LastDay" lastModified="2014-07-22T13:48:17">
     <value>Last day</value>
     <comment>phrase: Last day</comment>
   </data>
-  <data name="LastWeek" lastModified="2014-04-07T14:32:44">
+  <data name="LastWeek" lastModified="2014-07-22T13:48:17">
     <value>Last week</value>
     <comment>phrase: Last week</comment>
   </data>
-  <data name="LastMonth" lastModified="2014-04-07T14:32:44">
+  <data name="LastMonth" lastModified="2014-07-22T13:48:17">
     <value>Last month</value>
     <comment>phrase: Last month</comment>
   </data>
-  <data name="LastYear" lastModified="2014-04-07T14:32:44">
+  <data name="LastYear" lastModified="2014-07-22T13:48:17">
     <value>Last year</value>
     <comment>phrase: Last year</comment>
   </data>
-  <data name="AllTime" lastModified="2014-04-07T14:32:44">
+  <data name="AllTime" lastModified="2014-07-22T13:48:17">
     <value>All time</value>
     <comment>phrase: All time</comment>
   </data>
-  <data name="IsEqualTo" lastModified="2014-04-07T14:32:44">
+  <data name="IsEqualTo" lastModified="2014-07-22T13:48:17">
     <value>is equal to</value>
     <comment>phrase: is equal to</comment>
   </data>
-  <data name="IsNotEqualTo" lastModified="2014-04-07T14:32:44">
+  <data name="IsNotEqualTo" lastModified="2014-07-22T13:48:17">
     <value>is not equal to</value>
     <comment>phrase: is not equal to</comment>
   </data>
-  <data name="StartsWith" lastModified="2014-04-07T14:32:44">
+  <data name="StartsWith" lastModified="2014-07-22T13:48:17">
     <value>starts with</value>
     <comment>phrase: starts with</comment>
   </data>
-  <data name="Contains" lastModified="2014-04-07T14:32:44">
+  <data name="Contains" lastModified="2014-07-22T13:48:17">
     <value>contains</value>
     <comment>word: contains</comment>
   </data>
-  <data name="EndsWith" lastModified="2014-04-07T14:32:44">
+  <data name="EndsWith" lastModified="2014-07-22T13:48:17">
     <value>ends with</value>
     <comment>phrase: ends with</comment>
   </data>
-  <data name="IsEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="IsEmpty" lastModified="2014-07-22T13:48:17">
     <value>is empty</value>
     <comment>phrase: is empty</comment>
   </data>
-  <data name="IsNotEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="IsNotEmpty" lastModified="2014-07-22T13:48:17">
     <value>is not empty</value>
     <comment>phrase: is not empty</comment>
   </data>
-  <data name="IsLargerThan" lastModified="2014-04-07T14:32:44">
+  <data name="IsLargerThan" lastModified="2014-07-22T13:48:17">
     <value>is larger than</value>
     <comment>phrase: is larger than</comment>
   </data>
-  <data name="IsLargerOrEqualTo" lastModified="2014-04-07T14:32:44">
+  <data name="IsLargerOrEqualTo" lastModified="2014-07-22T13:48:17">
     <value>is larger or equal to</value>
     <comment>phrase: is larger or equal to</comment>
   </data>
-  <data name="IsSmallerThan" lastModified="2014-04-07T14:32:44">
+  <data name="IsSmallerThan" lastModified="2014-07-22T13:48:17">
     <value>is smaller than</value>
     <comment>phrase: is smaller than</comment>
   </data>
-  <data name="IsSmallerOrEqualTo" lastModified="2014-04-07T14:32:44">
+  <data name="IsSmallerOrEqualTo" lastModified="2014-07-22T13:48:17">
     <value>is smaller or equal to</value>
     <comment>phrase: is smaller or equal to</comment>
   </data>
-  <data name="Yes" lastModified="2014-04-07T14:32:44">
+  <data name="Yes" lastModified="2014-07-22T13:48:17">
     <value>Yes</value>
     <comment>word: Yes</comment>
   </data>
-  <data name="No" lastModified="2014-04-07T14:32:44">
+  <data name="No" lastModified="2014-07-22T13:48:17">
     <value>No</value>
     <comment>word: No</comment>
   </data>
-  <data name="SetTime" lastModified="2014-04-07T14:32:44">
+  <data name="SetTime" lastModified="2014-07-22T13:48:17">
     <value>Set time</value>
     <comment>phrase: Set time</comment>
   </data>
-  <data name="Hour" lastModified="2014-04-07T14:32:44">
+  <data name="Hour" lastModified="2014-07-22T13:48:17">
     <value>Hour</value>
     <comment>word: Hour</comment>
   </data>
-  <data name="Minute" lastModified="2014-04-07T14:32:44">
+  <data name="Minute" lastModified="2014-07-22T13:48:17">
     <value>Minute</value>
     <comment>word: Minute</comment>
   </data>
-  <data name="SetCharacteristics" lastModified="2014-04-07T14:32:44">
+  <data name="SetCharacteristics" lastModified="2014-07-22T13:48:17">
     <value>Set characteristics</value>
     <comment>word: Set characteristics</comment>
   </data>
-  <data name="All" lastModified="2014-04-07T14:32:44">
+  <data name="All" lastModified="2014-07-22T13:48:17">
     <value>All</value>
     <comment>word: All</comment>
   </data>
-  <data name="Selected" lastModified="2014-04-07T14:32:44">
+  <data name="Selected" lastModified="2014-07-22T13:48:17">
     <value>Selected</value>
     <comment>word: Selected</comment>
   </data>
-  <data name="Roles" lastModified="2014-04-07T14:32:44">
+  <data name="Roles" lastModified="2014-07-22T13:48:17">
     <value>Roles</value>
     <comment>Title of the Roles criterion</comment>
   </data>
-  <data name="PersonalizationByRolesInfo" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationByRolesInfo" lastModified="2014-07-22T13:48:17">
     <value>This characteristic will apply for any of selected roles.</value>
     <comment>phrase: This characteristic will apply for any of selected roles.</comment>
   </data>
-  <data name="PersonalizationByDepartmentsInfo" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationByDepartmentsInfo" lastModified="2014-07-22T13:48:17">
     <value>This characteristic will apply for any of selected departments.</value>
     <comment>phrase: This characteristic will apply for any of selected departments.</comment>
   </data>
-  <data name="PersonalizationByTagsInfo" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationByTagsInfo" lastModified="2014-07-22T13:48:17">
     <value>This characteristic will apply for any of selected tags.</value>
     <comment>phrase: This characteristic will apply for any of selected tags.</comment>
   </data>
-  <data name="PersonalizationByProductTypesInfo" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationByProductTypesInfo" lastModified="2014-07-22T13:48:17">
     <value>This characteristic will apply for any of selected types of products.</value>
     <comment>phrase: This characteristic will apply for any of selected types of products.</comment>
   </data>
-  <data name="PersonalizationByProductsInfo" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationByProductsInfo" lastModified="2014-07-22T13:48:17">
     <value>This characteristic will apply for any of selected products.</value>
     <comment>phrase: This characteristic will apply for any of selected products.</comment>
   </data>
-  <data name="WhichUserSegmentWillOpenThisPage" lastModified="2014-04-07T14:32:44">
+  <data name="WhichUserSegmentWillOpenThisPage" lastModified="2014-07-22T13:48:17">
     <value>Which user segment will open this page</value>
     <comment>Title of the field for selecting a user segment</comment>
   </data>
-  <data name="Everyone" lastModified="2014-04-07T14:32:44">
+  <data name="Everyone" lastModified="2014-07-22T13:48:17">
     <value>Everyone</value>
     <comment>word: Everyone</comment>
   </data>
-  <data name="BackToPages" lastModified="2014-04-07T14:32:44">
+  <data name="BackToPages" lastModified="2014-07-22T13:48:17">
     <value>Back to pages</value>
     <comment>phrase: Back to pages</comment>
   </data>
-  <data name="CreateAPersonalizedPage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateAPersonalizedPage" lastModified="2014-07-22T13:48:17">
     <value>Create a personalized page</value>
     <comment>phrase: Create a personalized page</comment>
   </data>
-  <data name="CreateAndGoToEditContent" lastModified="2014-04-07T14:32:44">
+  <data name="CreateAndGoToEditContent" lastModified="2014-07-22T13:48:17">
     <value>Create and go to edit content</value>
     <comment>phrase: Create and go to edit content</comment>
   </data>
-  <data name="Personalizations" lastModified="2014-04-07T14:32:44">
+  <data name="Personalizations" lastModified="2014-07-22T13:48:17">
     <value>personalizations</value>
     <comment>word: personalizations</comment>
   </data>
-  <data name="PersonalizationsInfo" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationsInfo" lastModified="2014-07-22T13:48:17">
     <value>This page has {0} personalizations based on these user segments:</value>
     <comment>Info about page personalizations</comment>
   </data>
-  <data name="ItIsRequiredToSelectASegment" lastModified="2014-04-07T14:32:44">
+  <data name="ItIsRequiredToSelectASegment" lastModified="2014-07-22T13:48:17">
     <value>It is required to select a segment</value>
     <comment>phrase: It is required to select a segment</comment>
   </data>
-  <data name="NoPersonalizationPossibleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="NoPersonalizationPossibleTitle" lastModified="2014-07-22T13:48:17">
     <value>You cannot create other personalization</value>
     <comment>Title displayed to user when page has been personalized for all the segments</comment>
   </data>
-  <data name="NoPersonalizationPossibleMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NoPersonalizationPossibleMessage" lastModified="2014-07-22T13:48:17">
     <value>This page has been personalized for all available user segments.</value>
     <comment>Message displayed to user when page has been personalized for all the segments</comment>
   </data>
-  <data name="NoUserSegmentsHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoUserSegmentsHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No user segments have been created yet</value>
     <comment>Message shown to users when no personalizations segments exist</comment>
   </data>
-  <data name="NoUserSegmentsMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NoUserSegmentsMessage" lastModified="2014-07-22T13:48:17">
     <value>To personalize this page you should have least one user segment</value>
     <comment>phrase: To personalize this page you should have least one user segment</comment>
   </data>
-  <data name="GoToCreateASegment" lastModified="2014-04-07T14:32:44">
+  <data name="GoToCreateASegment" lastModified="2014-07-22T13:48:17">
     <value>Go to create a segment</value>
     <comment>phrase: Go to create a segment</comment>
   </data>
-  <data name="Ok" lastModified="2014-04-07T14:32:44">
+  <data name="Ok" lastModified="2014-07-22T13:48:17">
     <value>Ok</value>
     <comment>word: Ok</comment>
   </data>
-  <data name="OKUppercase" lastModified="2014-04-07T14:32:44">
+  <data name="OKUppercase" lastModified="2014-07-22T13:48:17">
     <value>OK</value>
     <comment>word: OK</comment>
   </data>
-  <data name="ConsoleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ConsoleTitle" lastModified="2014-07-22T13:48:17">
     <value>View site as visitor who has the following characteristics</value>
     <comment>Title of the personalization testing console</comment>
   </data>
-  <data name="ByUserSegment" lastModified="2014-04-07T14:32:44">
+  <data name="ByUserSegment" lastModified="2014-07-22T13:48:17">
     <value>By user segment</value>
     <comment>phrase: By user segment</comment>
   </data>
-  <data name="Custom" lastModified="2014-04-07T14:32:44">
+  <data name="Custom" lastModified="2014-07-22T13:48:17">
     <value>Custom</value>
     <comment>word: Custom</comment>
   </data>
-  <data name="DevicePreview" lastModified="2014-04-07T14:32:44">
+  <data name="DevicePreview" lastModified="2014-07-22T13:48:17">
     <value>Device preview</value>
     <comment>phrase: Device preview</comment>
   </data>
-  <data name="View" lastModified="2014-04-07T14:32:44">
+  <data name="View" lastModified="2014-07-22T13:48:17">
     <value>View</value>
     <comment>word: View</comment>
   </data>
-  <data name="Default" lastModified="2014-04-07T14:32:44">
+  <data name="Default" lastModified="2014-07-22T13:48:17">
     <value>Default</value>
     <comment>word: Default</comment>
   </data>
-  <data name="UserSegment" lastModified="2014-04-07T14:32:44">
+  <data name="UserSegment" lastModified="2014-07-22T13:48:17">
     <value>User segment</value>
     <comment>phrase: User segment</comment>
   </data>
-  <data name="Portrait" lastModified="2014-04-07T14:32:44">
+  <data name="Portrait" lastModified="2014-07-22T13:48:17">
     <value>Portrait</value>
     <comment>word: Portrait</comment>
   </data>
-  <data name="Landscape" lastModified="2014-04-07T14:32:44">
+  <data name="Landscape" lastModified="2014-07-22T13:48:17">
     <value>Landscape</value>
     <comment>word: Landscape</comment>
   </data>
-  <data name="Any" lastModified="2014-04-07T14:32:44">
+  <data name="Any" lastModified="2014-07-22T13:48:17">
     <value>Any</value>
     <comment>word: Any</comment>
   </data>
-  <data name="Time" lastModified="2014-04-07T14:32:44">
+  <data name="Time" lastModified="2014-07-22T13:48:17">
     <value>Time</value>
     <comment>word: Time</comment>
   </data>
-  <data name="ExpandAll" lastModified="2014-04-07T14:32:44">
+  <data name="ExpandAll" lastModified="2014-07-22T13:48:17">
     <value>Expand all</value>
     <comment>phrase: Expand all</comment>
   </data>
-  <data name="CollapseAll" lastModified="2014-04-07T14:32:44">
+  <data name="CollapseAll" lastModified="2014-07-22T13:48:17">
     <value>Collapse all</value>
     <comment>phrase: Collapse all</comment>
   </data>
-  <data name="ClearAllEntries" lastModified="2014-04-07T14:32:44">
+  <data name="ClearAllEntries" lastModified="2014-07-22T13:48:17">
     <value>Clear all entries</value>
     <comment>phrase: Clear all entries</comment>
   </data>
-  <data name="ConsoleIPAddressEditorExample" lastModified="2014-04-07T14:32:44">
+  <data name="ConsoleIPAddressEditorExample" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Example:&lt;/strong&gt;78.78.34.98</value>
     <comment>The example for the console IP address editor</comment>
   </data>
-  <data name="ConsoleLocationEditorExample" lastModified="2014-04-07T14:32:44">
+  <data name="ConsoleLocationEditorExample" lastModified="2014-07-22T13:48:17">
     <value>Type country or city name</value>
     <comment>phrase: Type country or city name</comment>
   </data>
-  <data name="ProfileType" lastModified="2014-04-07T14:32:44">
+  <data name="ProfileType" lastModified="2014-07-22T13:48:17">
     <value>Profile type</value>
     <comment>phrase: Profile type</comment>
   </data>
-  <data name="TypeAKeyword" lastModified="2014-04-07T14:32:44">
+  <data name="TypeAKeyword" lastModified="2014-07-22T13:48:17">
     <value>Type a keyword</value>
     <comment>phrase: Type a keyword</comment>
   </data>
-  <data name="SiteUrl" lastModified="2014-04-07T14:32:44">
+  <data name="SiteUrl" lastModified="2014-07-22T13:48:17">
     <value>Site URL</value>
     <comment>phrase: Site URL</comment>
   </data>
-  <data name="Go" lastModified="2014-04-07T14:32:44">
+  <data name="Go" lastModified="2014-07-22T13:48:17">
     <value>Go</value>
     <comment>word: Go</comment>
   </data>
-  <data name="LocationsPackage" lastModified="2014-04-07T14:32:44">
+  <data name="LocationsPackage" lastModified="2014-07-22T13:48:17">
     <value>Locations package</value>
     <comment>phrase: Locations package</comment>
   </data>
-  <data name="LocationsPackageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="LocationsPackageDescription" lastModified="2014-07-22T13:48:17">
     <value>To be able to create user segments based on location and time of day criteria, it
                       is required to install an additional package that contains all locations.
                       The installation process might take up to an hour.</value>
     <comment>Message which explains locations package insallation process</comment>
   </data>
-  <data name="UpToAnHour" lastModified="2014-04-07T14:32:44">
+  <data name="UpToAnHour" lastModified="2014-07-22T13:48:17">
     <value>Up to an hour</value>
     <comment>phrase: Up to an hour</comment>
   </data>
-  <data name="InstallLocationsPackage" lastModified="2014-04-07T14:32:44">
+  <data name="InstallLocationsPackage" lastModified="2014-07-22T13:48:17">
     <value>Install locations package</value>
     <comment>phrase: Install locations package</comment>
   </data>
-  <data name="Skip" lastModified="2014-04-07T14:32:44">
+  <data name="Skip" lastModified="2014-07-22T13:48:17">
     <value>Skip</value>
     <comment>word: Skip</comment>
   </data>
-  <data name="InstallationInProgress" lastModified="2014-04-07T14:32:44">
+  <data name="InstallationInProgress" lastModified="2014-07-22T13:48:17">
     <value>Installation in progress</value>
     <comment>phrase: Installation in progress</comment>
   </data>
-  <data name="InstallationInProgressMessage" lastModified="2014-04-07T14:32:44">
+  <data name="InstallationInProgressMessage" lastModified="2014-07-22T13:48:17">
     <value>Please wait while the process finishes. It may take up to an hour.</value>
     <comment>phrase: Please wait while the process finishes. It may take up to an hour.</comment>
   </data>
-  <data name="InstallationHasFailed" lastModified="2014-04-07T14:32:44">
+  <data name="InstallationHasFailed" lastModified="2014-07-22T13:48:17">
     <value>Installation has failed</value>
     <comment>phrase: Installation has failed</comment>
   </data>
-  <data name="TryAgain" lastModified="2014-04-07T14:32:44">
+  <data name="TryAgain" lastModified="2014-07-22T13:48:17">
     <value>Try again</value>
     <comment>phrase: Try again</comment>
   </data>
-  <data name="GoToPersonalization" lastModified="2014-04-07T14:32:44">
+  <data name="GoToPersonalization" lastModified="2014-07-22T13:48:17">
     <value>Go to personalization</value>
     <comment>phrase: Go to personalization</comment>
   </data>
-  <data name="CriterionElementTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CriterionElementTitle" lastModified="2014-07-22T13:48:17">
     <value>Criterion</value>
     <comment>Title of the criterion configuration element.</comment>
   </data>
-  <data name="CriterionElementDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CriterionElementDescription" lastModified="2014-07-22T13:48:17">
     <value>Element which defines a personalization criterion</value>
     <comment>Description of the criterion configuration element.</comment>
   </data>
-  <data name="CriterionNameTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CriterionNameTitle" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Title of the criterion name configuration property</comment>
   </data>
-  <data name="CriterionNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CriterionNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Name of the personalization criterion</value>
     <comment>Description of the criterion name configuration property</comment>
   </data>
-  <data name="CriterionTitleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CriterionTitleTitle" lastModified="2014-07-22T13:48:17">
     <value>Title</value>
     <comment>Title of the criterion title configuration property</comment>
   </data>
-  <data name="CriterionTitleDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CriterionTitleDescription" lastModified="2014-07-22T13:48:17">
     <value>Title of the criterion title configuration property</value>
     <comment>Description of criterion title configuration property</comment>
   </data>
-  <data name="CriteriaTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CriteriaTitle" lastModified="2014-07-22T13:48:17">
     <value>Criteria</value>
     <comment>Title of the criteria configuration property</comment>
   </data>
-  <data name="CriteriaDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CriteriaDescription" lastModified="2014-07-22T13:48:17">
     <value>Collection of available personalization criteria</value>
     <comment>Description of the criteria configuration property</comment>
   </data>
-  <data name="ResourceClassIdTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ResourceClassIdTitle" lastModified="2014-07-22T13:48:17">
     <value>Resources class ID</value>
     <comment>Title of the resource class id configuration property.</comment>
   </data>
-  <data name="ResourceClassIdDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ResourceClassIdDescription" lastModified="2014-07-22T13:48:17">
     <value>The id of the resource class to be used to localize the strings</value>
     <comment>Description of the resource class id configuration property.</comment>
   </data>
-  <data name="CriterionEditorUrlTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CriterionEditorUrlTitle" lastModified="2014-07-22T13:48:17">
     <value>Criterion editor URL</value>
     <comment>Title of the criterion editor url property</comment>
   </data>
-  <data name="CriterionEditorUrlDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CriterionEditorUrlDescription" lastModified="2014-07-22T13:48:17">
     <value>The URL of the file which represents the editor of the criterion</value>
     <comment>Description of the criterion editor url property</comment>
   </data>
-  <data name="ConsoleCriterionEditorUrlTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ConsoleCriterionEditorUrlTitle" lastModified="2014-07-22T13:48:17">
     <value>Console criterion editor URL</value>
     <comment>Title of the console criterion editor url property</comment>
   </data>
-  <data name="ConsoleCriterionEditorUrlDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ConsoleCriterionEditorUrlDescription" lastModified="2014-07-22T13:48:17">
     <value>The url of the file which represents the console editor of the criterion</value>
     <comment>Description of the console criterion editor url property</comment>
   </data>
-  <data name="CriterionVirtualPathPrefixTitle" lastModified="2014-04-07T14:32:44">
+  <data name="CriterionVirtualPathPrefixTitle" lastModified="2014-07-22T13:48:17">
     <value>Criterion virtual path prefix</value>
     <comment>Title of the criterion virtual path prefix property</comment>
   </data>
-  <data name="GeoLocationFileStorageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="GeoLocationFileStorageTitle" lastModified="2014-07-22T13:48:17">
     <value>GeoIP database location</value>
     <comment>Title of the GeoLocation.dat configuration property</comment>
   </data>
-  <data name="GeoLocationFileStorageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="GeoLocationFileStorageDescription" lastModified="2014-07-22T13:48:17">
     <value>GeoIP database file location.</value>
     <comment>Description of the GeoLocation.dat configuration property</comment>
   </data>
-  <data name="GeoLocationFilePhysicalTitle" lastModified="2014-04-07T14:32:44">
+  <data name="GeoLocationFilePhysicalTitle" lastModified="2014-07-22T13:48:17">
     <value>The virtual path of the GeoCity.data file</value>
     <comment>Title of the virtual path of GeoCity.data file</comment>
   </data>
-  <data name="GeoLocationFilePhysicalDescription" lastModified="2014-04-07T14:32:44">
+  <data name="GeoLocationFilePhysicalDescription" lastModified="2014-07-22T13:48:17">
     <value>The virtual path of the GeoCity.data file</value>
     <comment>Description of the virtual path of GeoCity.data file</comment>
   </data>
-  <data name="ToolboxItemModuleNameTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ToolboxItemModuleNameTitle" lastModified="2014-07-22T13:48:17">
     <value>Module Name</value>
     <comment>The display title of this configuration element.</comment>
   </data>
-  <data name="ToolboxItemModuleNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ToolboxItemModuleNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Specifies the unique name of the module to which an item belongs.</value>
     <comment>Describes this configuration element.</comment>
   </data>
-  <data name="MissingProfileField" lastModified="2014-04-07T14:32:44">
+  <data name="MissingProfileField" lastModified="2014-07-22T13:48:17">
     <value>Your personalization criteria depends on a missing Profile field: {0}
  that no longer exists.</value>
     <comment>Throw this message, when Profile field, that is used in the personalization segment characteristic is missing</comment>
   </data>
-  <data name="noRolesSelected" lastModified="2014-04-07T14:32:44">
+  <data name="noRolesSelected" lastModified="2014-07-22T13:48:17">
     <value>Please select a role</value>
     <comment>Please select a role</comment>
   </data>

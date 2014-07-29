@@ -117,48 +117,60 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="PageTemplateResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="PageTemplateResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Page Templates Resources</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="PageTemplateResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="PageTemplateResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Page Templates Resources</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="PageTemplateResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="PageTemplateResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Sitefinity page templates.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ManageTemplates" lastModified="2014-04-07T14:32:44">
+  <data name="ManageTemplates" lastModified="2014-07-22T13:48:17">
     <value>Manage Templates</value>
     <comment>phrase: Manage Templates</comment>
   </data>
-  <data name="MyTemplates" lastModified="2014-04-07T14:32:44">
+  <data name="MyTemplates" lastModified="2014-07-22T13:48:17">
     <value>My Templates</value>
     <comment>phrase: My Templates</comment>
   </data>
-  <data name="FilterTemplates" lastModified="2014-04-07T14:32:44">
+  <data name="FilterTemplates" lastModified="2014-07-22T13:48:17">
     <value>Filter templates</value>
     <comment>phrase: Filter templates</comment>
   </data>
-  <data name="Sort" lastModified="2014-04-07T14:32:44">
+  <data name="Sort" lastModified="2014-07-22T13:48:17">
     <value>Sort</value>
     <comment>Label text.</comment>
   </data>
-  <data name="NewModifiedFirst" lastModified="2014-04-07T14:32:44">
+  <data name="NewModifiedFirst" lastModified="2014-07-22T13:48:17">
     <value>Last modified on top</value>
     <comment>Label text.</comment>
   </data>
-  <data name="NewCreatedFirst" lastModified="2014-04-07T14:32:44">
+  <data name="NewCreatedFirst" lastModified="2014-07-22T13:48:17">
     <value>Last created on top</value>
     <comment>Label text.</comment>
   </data>
-  <data name="ByTitleAsc" lastModified="2014-04-07T14:32:44">
+  <data name="ByTitleAsc" lastModified="2014-07-22T13:48:17">
     <value>By Title (A-Z)</value>
     <comment>Label text.</comment>
   </data>
-  <data name="ByTitleDesc" lastModified="2014-04-07T14:32:44">
+  <data name="ByTitleDesc" lastModified="2014-07-22T13:48:17">
     <value>By Title (Z-A)</value>
     <comment>Label text.</comment>
+  </data>
+  <data name="TemplateThumbnailRecommendedImageSize" lastModified="2014-07-22T13:48:17">
+    <value>Recommended image size: 105x80px</value>
+    <comment>Template thumbnail recommended image size</comment>
+  </data>
+  <data name="TemplateThumbnailFieldTitle" lastModified="2014-07-22T13:48:17">
+    <value>Template thumbnail</value>
+    <comment>The template thumbnail field title</comment>
+  </data>
+  <data name="ChangeLabel" lastModified="2014-07-22T13:48:17">
+    <value>Change</value>
+    <comment>Word: Change</comment>
   </data>
 </root>

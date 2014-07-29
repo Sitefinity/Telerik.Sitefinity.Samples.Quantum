@@ -121,135 +121,135 @@
     <value>Classes</value>
     <comment>word: Classes</comment>
   </data>
-  <data name="ControlResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ControlResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Control</value>
     <comment>Configuration element singular name.</comment>
   </data>
-  <data name="ControlResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="ControlResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Controls</value>
     <comment>Configuration element plural name.</comment>
   </data>
-  <data name="ControlResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ControlResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Configuration element description.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="PropertyNotSet" lastModified="2014-04-07T14:32:44">
+  <data name="PropertyNotSet" lastModified="2014-07-22T13:48:17">
     <value>{0} property must be set to a value.</value>
     <comment>Property must be set to a value.</comment>
   </data>
-  <data name="SearchingWithNoSearchFields" lastModified="2014-04-07T14:32:44">
+  <data name="SearchingWithNoSearchFields" lastModified="2014-07-22T13:48:17">
     <value>When searching functionality is enabled, at least one data members must be marked as IsSearchField = true</value>
     <comment>phrase: When searching functionality is enabled, at least one data members must be marked as IsSearchField = true</comment>
   </data>
-  <data name="SelectorHasNoKeysDefined" lastModified="2014-04-07T14:32:44">
+  <data name="SelectorHasNoKeysDefined" lastModified="2014-07-22T13:48:17">
     <value>Selector must have at least one data member defined as a key.</value>
     <comment>phrase: Selector must have at least one data member defined as a key.</comment>
   </data>
-  <data name="Sizes" lastModified="2014-04-07T14:32:44">
+  <data name="Sizes" lastModified="2014-07-22T13:48:17">
     <value>Sizes</value>
     <comment>word: sizes</comment>
   </data>
-  <data name="Spaces" lastModified="2014-04-07T14:32:44">
+  <data name="Spaces" lastModified="2014-07-22T13:48:17">
     <value>Spaces</value>
     <comment>word: Spaces</comment>
   </data>
-  <data name="ClassesAndLabels" lastModified="2014-04-07T14:32:44">
+  <data name="ClassesAndLabels" lastModified="2014-07-22T13:48:17">
     <value>Classes &amp; Labels</value>
     <comment>word: Classes &amp; Labels</comment>
   </data>
-  <data name="ShowSizesIn" lastModified="2014-04-07T14:32:44">
+  <data name="ShowSizesIn" lastModified="2014-07-22T13:48:17">
     <value>Show sizes in</value>
     <comment>phrase: Show sizes in</comment>
   </data>
-  <data name="Widths" lastModified="2014-04-07T14:32:44">
+  <data name="Widths" lastModified="2014-07-22T13:48:17">
     <value>Widths</value>
     <comment>word: Widths</comment>
   </data>
-  <data name="Column" lastModified="2014-04-07T14:32:44">
+  <data name="Column" lastModified="2014-07-22T13:48:17">
     <value>Column</value>
     <comment>word: Column</comment>
   </data>
-  <data name="AutoSized" lastModified="2014-04-07T14:32:44">
+  <data name="AutoSized" lastModified="2014-07-22T13:48:17">
     <value>auto-sized</value>
     <comment>word: auto-sized</comment>
   </data>
-  <data name="ChangeAutoSizedColumn" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeAutoSizedColumn" lastModified="2014-07-22T13:48:17">
     <value>Change auto-sized column</value>
     <comment>phrase: Change auto-sized column</comment>
   </data>
-  <data name="MakeThisAutoSized" lastModified="2014-04-07T14:32:44">
+  <data name="MakeThisAutoSized" lastModified="2014-07-22T13:48:17">
     <value>Make this auto-sized</value>
     <comment>phrase: Make this auto-sized</comment>
   </data>
-  <data name="CancelChangeAutoSizedColumnLabel" lastModified="2014-04-07T14:32:44">
+  <data name="CancelChangeAutoSizedColumnLabel" lastModified="2014-07-22T13:48:17">
     <value>Cancel changing auto-sized column</value>
     <comment>phrase: Cancel changing auto-sized column</comment>
   </data>
-  <data name="LookLeft" lastModified="2014-04-07T14:32:44">
+  <data name="LookLeft" lastModified="2014-07-22T13:48:17">
     <value>Look left</value>
     <comment>phrase: Look left</comment>
   </data>
-  <data name="ResizingInstruction" lastModified="2014-04-07T14:32:44">
+  <data name="ResizingInstruction" lastModified="2014-07-22T13:48:17">
     <value>You can resize widths by dragging columns, too.</value>
     <comment>phrase: You can resize widths by dragging columns, too</comment>
   </data>
-  <data name="ShowSpacesIn" lastModified="2014-04-07T14:32:44">
+  <data name="ShowSpacesIn" lastModified="2014-07-22T13:48:17">
     <value>Show spaces in</value>
     <comment>phrase: Show spaces in</comment>
   </data>
-  <data name="HorizontalSpaceBetweenColumns" lastModified="2014-04-07T14:32:44">
+  <data name="HorizontalSpaceBetweenColumns" lastModified="2014-07-22T13:48:17">
     <value>Space &lt;strong&gt;between&lt;/strong&gt; columns</value>
     <comment>phrase: Space between columns</comment>
   </data>
-  <data name="VerticalSpaceAboveAndBelowColumns" lastModified="2014-04-07T14:32:44">
+  <data name="VerticalSpaceAboveAndBelowColumns" lastModified="2014-07-22T13:48:17">
     <value>Space &lt;strong&gt;above and below&lt;/strong&gt; columns</value>
     <comment>phrase: Space above and below columns</comment>
   </data>
-  <data name="SpacesSideBySide" lastModified="2014-04-07T14:32:44">
+  <data name="SpacesSideBySide" lastModified="2014-07-22T13:48:17">
     <value>Individual spaces per column</value>
     <comment>phrase: Individual spaces per column</comment>
   </data>
-  <data name="EqualSpaces" lastModified="2014-04-07T14:32:44">
+  <data name="EqualSpaces" lastModified="2014-07-22T13:48:17">
     <value>Equal spaces for all columns</value>
     <comment>phrase: Equal spaces for all columns</comment>
   </data>
-  <data name="Top" lastModified="2014-04-07T14:32:44">
+  <data name="Top" lastModified="2014-07-22T13:48:17">
     <value>Top</value>
     <comment>word: Top</comment>
   </data>
-  <data name="Right" lastModified="2014-04-07T14:32:44">
+  <data name="Right" lastModified="2014-07-22T13:48:17">
     <value>Right</value>
     <comment>word: Right</comment>
   </data>
-  <data name="Bottom" lastModified="2014-04-07T14:32:44">
+  <data name="Bottom" lastModified="2014-07-22T13:48:17">
     <value>Bottom</value>
     <comment>word: Bottom</comment>
   </data>
-  <data name="Left" lastModified="2014-04-07T14:32:44">
+  <data name="Left" lastModified="2014-07-22T13:48:17">
     <value>Left</value>
     <comment>word: Left</comment>
   </data>
-  <data name="AValueBetween" lastModified="2014-04-07T14:32:44">
+  <data name="AValueBetween" lastModified="2014-07-22T13:48:17">
     <value>You must enter a value between {0} and {1}.</value>
     <comment>phrase: You must enter a value between {0} and {1}.</comment>
   </data>
-  <data name="EditLayoutElement" lastModified="2014-04-07T14:32:44">
+  <data name="EditLayoutElement" lastModified="2014-07-22T13:48:17">
     <value>Edit layout element</value>
     <comment>phrase: Edit Layout Element</comment>
   </data>
-  <data name="Themes" lastModified="2014-04-07T14:32:44">
+  <data name="Themes" lastModified="2014-07-22T13:48:17">
     <value>Themes</value>
     <comment>phrase: Themes</comment>
   </data>
-  <data name="Theme" lastModified="2014-04-07T14:32:44">
+  <data name="Theme" lastModified="2014-07-22T13:48:17">
     <value>Theme</value>
     <comment>word: Theme</comment>
   </data>
-  <data name="SelectATheme" lastModified="2014-04-07T14:32:44">
+  <data name="SelectATheme" lastModified="2014-07-22T13:48:17">
     <value>-- Select a theme --</value>
     <comment>phrase: Select a theme</comment>
   </data>
-  <data name="WrapperClass" lastModified="2014-04-07T14:32:44">
+  <data name="WrapperClass" lastModified="2014-07-22T13:48:17">
     <value>Wrapper</value>
     <comment>Label: Wrapper</comment>
   </data>

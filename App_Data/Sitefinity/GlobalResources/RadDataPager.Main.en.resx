@@ -117,71 +117,71 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadDataPagerMainTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadDataPagerMainTitle" lastModified="2014-07-22T13:48:17">
     <value>RadDataPager Main</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="RadDataPagerMainTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="RadDataPagerMainTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>RadDataPager Main</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="RadDataPagerMainDescription" lastModified="2014-04-07T14:32:44">
+  <data name="RadDataPagerMainDescription" lastModified="2014-07-22T13:48:17">
     <value>Resource strings for RadDataPager.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+  <data name="ReservedResource" lastModified="2014-07-22T13:48:17">
     <value>Please do not remove this key.</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="CurrentPageText" lastModified="2014-04-07T14:32:44">
+  <data name="CurrentPageText" lastModified="2014-07-22T13:48:17">
     <value>Page</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="FirstButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="FirstButtonText" lastModified="2014-07-22T13:48:17">
     <value></value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="LabelText" lastModified="2014-04-07T14:32:44">
+  <data name="LabelText" lastModified="2014-07-22T13:48:17">
     <value>Page size</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="LastButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="LastButtonText" lastModified="2014-07-22T13:48:17">
     <value></value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="NextButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="NextButtonText" lastModified="2014-07-22T13:48:17">
     <value></value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="PageSizeSubmitButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="PageSizeSubmitButtonText" lastModified="2014-07-22T13:48:17">
     <value>Change</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="PageSizeText" lastModified="2014-04-07T14:32:44">
+  <data name="PageSizeText" lastModified="2014-07-22T13:48:17">
     <value>Page size</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="PrevButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="PrevButtonText" lastModified="2014-07-22T13:48:17">
     <value></value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="SliderDecreaseText" lastModified="2014-04-07T14:32:44">
+  <data name="SliderDecreaseText" lastModified="2014-07-22T13:48:17">
     <value>Decrease</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="SliderDragText" lastModified="2014-04-07T14:32:44">
+  <data name="SliderDragText" lastModified="2014-07-22T13:48:17">
     <value>Drag</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="SliderIncreaseText" lastModified="2014-04-07T14:32:44">
+  <data name="SliderIncreaseText" lastModified="2014-07-22T13:48:17">
     <value>Increase</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="SubmitButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="SubmitButtonText" lastModified="2014-07-22T13:48:17">
     <value>Go</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>
-  <data name="TotalPageText" lastModified="2014-04-07T14:32:44">
+  <data name="TotalPageText" lastModified="2014-07-22T13:48:17">
     <value>of</value>
     <comment>RadDataPagerMain resource strings.</comment>
   </data>

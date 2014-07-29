@@ -117,135 +117,135 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AddressFieldResourcesTitle" lastModified="2014-04-07T14:32:43">
+  <data name="AddressFieldResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Address field resources</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="AddressFieldResourcesDescription" lastModified="2014-04-07T14:32:43">
+  <data name="AddressFieldResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Address Field.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="CountryReadMode" lastModified="2014-04-07T14:32:43">
+  <data name="CountryReadMode" lastModified="2014-07-22T13:48:17">
     <value>Country:</value>
     <comment>Phrase: Country:</comment>
   </data>
-  <data name="StateReadMode" lastModified="2014-04-07T14:32:43">
+  <data name="StateReadMode" lastModified="2014-07-22T13:48:17">
     <value>State:</value>
     <comment>Phrase: State:</comment>
   </data>
-  <data name="CityReadMode" lastModified="2014-04-07T14:32:43">
+  <data name="CityReadMode" lastModified="2014-07-22T13:48:17">
     <value>City:</value>
     <comment>Phrase: City:</comment>
   </data>
-  <data name="ZipReadMode" lastModified="2014-04-07T14:32:43">
+  <data name="ZipReadMode" lastModified="2014-07-22T13:48:17">
     <value>Zip:</value>
     <comment>Phrase: Zip:</comment>
   </data>
-  <data name="StreetReadMode" lastModified="2014-04-07T14:32:43">
+  <data name="StreetReadMode" lastModified="2014-07-22T13:48:17">
     <value>Street:</value>
     <comment>Phrase: Street:</comment>
   </data>
-  <data name="LatitudeReadMode" lastModified="2014-04-07T14:32:43">
+  <data name="LatitudeReadMode" lastModified="2014-07-22T13:48:17">
     <value>Latitude:</value>
     <comment>Phrase: Latitude:</comment>
   </data>
-  <data name="LongitudeReadMode" lastModified="2014-04-07T14:32:43">
+  <data name="LongitudeReadMode" lastModified="2014-07-22T13:48:17">
     <value>Longitude:</value>
     <comment>Phrase: Longitude:</comment>
   </data>
-  <data name="CountryWriteMode" lastModified="2014-04-07T14:32:43">
+  <data name="CountryWriteMode" lastModified="2014-07-22T13:48:17">
     <value>Country</value>
     <comment>Phrase: Country</comment>
   </data>
-  <data name="CountryRequiredMsg" lastModified="2014-04-07T14:32:43">
+  <data name="CountryRequiredMsg" lastModified="2014-07-22T13:48:17">
     <value>Country is required</value>
     <comment>Phrase: Country is required</comment>
   </data>
-  <data name="StateWriteMode" lastModified="2014-04-07T14:32:43">
+  <data name="StateWriteMode" lastModified="2014-07-22T13:48:17">
     <value>State</value>
     <comment>Phrase: State</comment>
   </data>
-  <data name="StateRequiredMsg" lastModified="2014-04-07T14:32:43">
+  <data name="StateRequiredMsg" lastModified="2014-07-22T13:48:17">
     <value>State is required</value>
     <comment>Phrase: State is required</comment>
   </data>
-  <data name="CityWriteMode" lastModified="2014-04-07T14:32:43">
+  <data name="CityWriteMode" lastModified="2014-07-22T13:48:17">
     <value>City</value>
     <comment>Phrase: City</comment>
   </data>
-  <data name="CityRequiredMsg" lastModified="2014-04-07T14:32:43">
+  <data name="CityRequiredMsg" lastModified="2014-07-22T13:48:17">
     <value>City is required</value>
     <comment>Phrase: City is required</comment>
   </data>
-  <data name="ZipWriteMode" lastModified="2014-04-07T14:32:43">
+  <data name="ZipWriteMode" lastModified="2014-07-22T13:48:17">
     <value>Zip</value>
     <comment>Phrase: Zip</comment>
   </data>
-  <data name="ZipRequiredMsg" lastModified="2014-04-07T14:32:43">
+  <data name="ZipRequiredMsg" lastModified="2014-07-22T13:48:17">
     <value>Zip is required</value>
     <comment>Phrase: Zip is required</comment>
   </data>
-  <data name="StreetWriteMode" lastModified="2014-04-07T14:32:43">
+  <data name="StreetWriteMode" lastModified="2014-07-22T13:48:17">
     <value>Street</value>
     <comment>Phrase: Street</comment>
   </data>
-  <data name="StreetRequiredMsg" lastModified="2014-04-07T14:32:43">
+  <data name="StreetRequiredMsg" lastModified="2014-07-22T13:48:17">
     <value>Street is required</value>
     <comment>Phrase: Street is required</comment>
   </data>
-  <data name="LatitudeWriteMode" lastModified="2014-04-07T14:32:43">
+  <data name="LatitudeWriteMode" lastModified="2014-07-22T13:48:17">
     <value>Latitude</value>
     <comment>Phrase: Latitude</comment>
   </data>
-  <data name="LatitudeRequiredMsg" lastModified="2014-04-07T14:32:43">
+  <data name="LatitudeRequiredMsg" lastModified="2014-07-22T13:48:17">
     <value>Latitude is required</value>
     <comment>Phrase: Latitude is required</comment>
   </data>
-  <data name="LatitudeRegexMsg" lastModified="2014-04-07T14:32:43">
+  <data name="LatitudeRegexMsg" lastModified="2014-07-22T13:48:17">
     <value>Latitude is specified in degrees within the range [-90, 90]</value>
     <comment>Phrase:Latitude is specified in degrees within the range [-90, 90]</comment>
   </data>
-  <data name="LongitudeWriteMode" lastModified="2014-04-07T14:32:43">
+  <data name="LongitudeWriteMode" lastModified="2014-07-22T13:48:17">
     <value>Longitude</value>
     <comment>Phrase: Longitude</comment>
   </data>
-  <data name="LongitudeRequiredMsg" lastModified="2014-04-07T14:32:43">
+  <data name="LongitudeRequiredMsg" lastModified="2014-07-22T13:48:17">
     <value>Longitude is required</value>
     <comment>Phrase: Longitude is required</comment>
   </data>
-  <data name="LongitudeRegexMsg" lastModified="2014-04-07T14:32:43">
+  <data name="LongitudeRegexMsg" lastModified="2014-07-22T13:48:17">
     <value>Longitude is specified in degrees within the range [-180, 180]</value>
     <comment>Phrase:Longitude is specified in degrees within the range [-180, 180]</comment>
   </data>
-  <data name="SelectCountry" lastModified="2014-04-07T14:32:43">
+  <data name="SelectCountry" lastModified="2014-07-22T13:48:17">
     <value>- Select country -</value>
     <comment>Phrase: - Select country -</comment>
   </data>
-  <data name="SelectState" lastModified="2014-04-07T14:32:43">
+  <data name="SelectState" lastModified="2014-07-22T13:48:17">
     <value>- Select state -</value>
     <comment>Phrase: - Select state -</comment>
   </data>
-  <data name="MissingApiV3Key" lastModified="2014-04-07T14:32:43">
+  <data name="MissingApiV3Key" lastModified="2014-07-22T13:48:17">
     <value>Google Maps API Key is not set.</value>
     <comment>Phrase:Google Maps API Key is not set.</comment>
   </data>
-  <data name="MissingApiKeyDescription" lastModified="2014-04-07T14:32:43">
+  <data name="MissingApiKeyDescription" lastModified="2014-07-22T13:48:17">
     <value>Google Maps are not set.</value>
     <comment>Phrase: Google Maps are not set.</comment>
   </data>
-  <data name="MissingApiKeyDescriptionSettings" lastModified="2014-04-07T14:32:43">
+  <data name="MissingApiKeyDescriptionSettings" lastModified="2014-07-22T13:48:17">
     <value>In order to use maps make settings in:</value>
     <comment>Phrase: In order to use maps make settings in:</comment>
   </data>
-  <data name="GoogleMapsLinkText" lastModified="2014-04-07T14:32:43">
+  <data name="GoogleMapsLinkText" lastModified="2014-07-22T13:48:17">
     <value>Administration &amp;gt; Settings &amp;gt; Google Maps settings</value>
     <comment>Phrase: Administration &gt; Settings &gt; Google Maps settings</comment>
   </data>
-  <data name="ViewMapLabel" lastModified="2014-04-07T14:32:43">
+  <data name="ViewMapLabel" lastModified="2014-07-22T13:48:17">
     <value>View map</value>
     <comment>Phrase: View map</comment>
   </data>
-  <data name="CoordinatesLabel" lastModified="2014-04-07T14:32:43">
+  <data name="CoordinatesLabel" lastModified="2014-07-22T13:48:17">
     <value>Coordinates</value>
     <comment>Phrase: Coordinates</comment>
   </data>

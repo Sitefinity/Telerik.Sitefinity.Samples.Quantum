@@ -117,355 +117,355 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="MarketoConnectorResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Connector for Marketo module labels</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="MarketoConnectorResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Connector for Marketo module labels</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="MarketoConnectorResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Connector for Marketo module.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="AapiKeyLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AapiKeyLabel" lastModified="2014-07-22T13:48:17">
     <value>SOAP API Encryption Key</value>
     <comment>Phrase: SOAP API Encryption Key</comment>
   </data>
-  <data name="SoapEndPointLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SoapEndPointLabel" lastModified="2014-07-22T13:48:17">
     <value>SOAP End point &lt;span class='sfNote'&gt;(URL to the service)&lt;/span&gt;</value>
     <comment>Phrase: SOAP End point</comment>
   </data>
-  <data name="MunchkinJsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="MunchkinJsLabel" lastModified="2014-07-22T13:48:17">
     <value>Enter the Munchkin javascript here:</value>
     <comment>Phrase: Enter the Munchkin javascript here:</comment>
   </data>
-  <data name="ConnectLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectLabel" lastModified="2014-07-22T13:48:17">
     <value>Connect</value>
     <comment>Word: Connect</comment>
   </data>
-  <data name="ChangeConnectionLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeConnectionLabel" lastModified="2014-07-22T13:48:17">
     <value>Change connection</value>
     <comment>Phrase: Change connection</comment>
   </data>
-  <data name="DisconnectLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DisconnectLabel" lastModified="2014-07-22T13:48:17">
     <value>Disconnect</value>
     <comment>Word: Disconnect</comment>
   </data>
-  <data name="ReconnectLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ReconnectLabel" lastModified="2014-07-22T13:48:17">
     <value>Reconnect</value>
     <comment>Word: Reconnect</comment>
   </data>
-  <data name="MarketoInstructionsHeader" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoInstructionsHeader" lastModified="2014-07-22T13:48:17">
     <value>Why use Marketo</value>
     <comment>Phrase: Why use Marketo</comment>
   </data>
-  <data name="MarketoAccountSettingsHeader" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoAccountSettingsHeader" lastModified="2014-07-22T13:48:17">
     <value>Connect to Marketo using your аccount</value>
     <comment>Phrase: Connect to Marketo using your аccount</comment>
   </data>
-  <data name="IsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="IsLabel" lastModified="2014-07-22T13:48:17">
     <value>is</value>
     <comment>Word: is</comment>
   </data>
-  <data name="TrackExternalFormsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="TrackExternalFormsLabel" lastModified="2014-07-22T13:48:17">
     <value>Track external forms</value>
     <comment>Phrase: Track external forms</comment>
   </data>
-  <data name="DoWebCallsOnExternalFormsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DoWebCallsOnExternalFormsLabel" lastModified="2014-07-22T13:48:17">
     <value>Raise events in Marketo when external forms are submitted</value>
     <comment>Phrase: Raise events in Marketo when external forms are submitted</comment>
   </data>
-  <data name="SaveLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SaveLabel" lastModified="2014-07-22T13:48:17">
     <value>Save</value>
     <comment>Word: Save</comment>
   </data>
-  <data name="SavedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SavedLabel" lastModified="2014-07-22T13:48:17">
     <value>Saved</value>
     <comment>Word: Saved</comment>
   </data>
-  <data name="PagesLabel" lastModified="2014-04-07T14:32:44">
+  <data name="PagesLabel" lastModified="2014-07-22T13:48:17">
     <value>Pages:</value>
     <comment>Word: Pages:</comment>
   </data>
-  <data name="DocumentsTrackingLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DocumentsTrackingLabel" lastModified="2014-07-22T13:48:17">
     <value>Documents tracking:</value>
     <comment>Phrase: Documents tracking:</comment>
   </data>
-  <data name="ExternalFormsTrackingLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ExternalFormsTrackingLabel" lastModified="2014-07-22T13:48:17">
     <value>External forms tracking:</value>
     <comment>Phrase: External forms tracking:</comment>
   </data>
-  <data name="ChangeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeLabel" lastModified="2014-07-22T13:48:17">
     <value>Change</value>
     <comment>Word: Change</comment>
   </data>
-  <data name="EnabledLabel" lastModified="2014-04-07T14:32:44">
+  <data name="EnabledLabel" lastModified="2014-07-22T13:48:17">
     <value>enabled</value>
     <comment>Word: enabled</comment>
   </data>
-  <data name="DisabledLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DisabledLabel" lastModified="2014-07-22T13:48:17">
     <value>disabled</value>
     <comment>Word: disabled</comment>
   </data>
-  <data name="HelpHeader1" lastModified="2014-04-07T14:32:44">
+  <data name="HelpHeader1" lastModified="2014-07-22T13:48:17">
     <value>Use Marketo integration to:</value>
     <comment>Phrase: Use Marketo integration to:</comment>
   </data>
-  <data name="HelpHeader2" lastModified="2014-04-07T14:32:44">
+  <data name="HelpHeader2" lastModified="2014-07-22T13:48:17">
     <value>Track pages and links</value>
     <comment>Phrase: Track pages and links</comment>
   </data>
-  <data name="HelpHeader3" lastModified="2014-04-07T14:32:44">
+  <data name="HelpHeader3" lastModified="2014-07-22T13:48:17">
     <value>Track Forms</value>
     <comment>Phrase: Track Forms</comment>
   </data>
-  <data name="HelpHeader4" lastModified="2014-04-07T14:32:44">
+  <data name="HelpHeader4" lastModified="2014-07-22T13:48:17">
     <value>Personalization Rules</value>
     <comment>Phrase: Personalization Rules</comment>
   </data>
-  <data name="HelpText1" lastModified="2014-04-07T14:32:44">
+  <data name="HelpText1" lastModified="2014-07-22T13:48:17">
     <value>The Connector for Marketo will automatically help tracking all pages and link clicks for all existing and new pages. File downloads via a click link will be monitored too.</value>
     <comment>Phrase: The Connector for Marketo will automatically help tracking all pages and link clicks for all existing and new pages. File downloads via a click link will be monitored too.</comment>
   </data>
-  <data name="HelpText2" lastModified="2014-04-07T14:32:44">
+  <data name="HelpText2" lastModified="2014-07-22T13:48:17">
     <value>Automatically track all Forms built with the Forms Module, as well as your custom forms in any user controls, pages or templates. This is how anonymous visitors can be associated with real names.</value>
     <comment>Phrase: Automatically track all Forms built with the Forms Module, as well as your custom forms in any user controls, pages or templates. This is how anonymous visitors can be associated with real names.</comment>
   </data>
-  <data name="HelpText3" lastModified="2014-04-07T14:32:44">
+  <data name="HelpText3" lastModified="2014-07-22T13:48:17">
     <value>If you have the Personalization module installed, the Connector for Marketo will add Marketo Personalization rules.</value>
     <comment>Phrase: If you have the Personalization module installed, the Connector for Marketo will add Marketo Personalization rules.</comment>
   </data>
-  <data name="SettingsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SettingsLabel" lastModified="2014-07-22T13:48:17">
     <value>Settings</value>
     <comment>Word: Settings</comment>
   </data>
-  <data name="InvalidAccountSettingsMessage" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidAccountSettingsMessage" lastModified="2014-07-22T13:48:17">
     <value>The provided credentials are not valid. Please check them in Marketo &gt; Admin &gt; SOAP API section.</value>
     <comment></comment>
   </data>
-  <data name="MarketoFormsFieldsHeader" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoFormsFieldsHeader" lastModified="2014-07-22T13:48:17">
     <value>Marketo settings</value>
     <comment>Phrase: Marketo settings</comment>
   </data>
-  <data name="ChangeMarketoLeadScoreLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeMarketoLeadScoreLabel" lastModified="2014-07-22T13:48:17">
     <value>Change Marketo Lead Score</value>
     <comment>Phrase: Change Marketo Lead Score</comment>
   </data>
-  <data name="ChangeMarketoLeadScoreFieldDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeMarketoLeadScoreFieldDescription" lastModified="2014-07-22T13:48:17">
     <value>Lead score</value>
     <comment>Phrase: Lead score</comment>
   </data>
-  <data name="SyncFormFieldsWithLeadFieldsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncFormFieldsWithLeadFieldsLabel" lastModified="2014-07-22T13:48:17">
     <value>Sync this form fields with Marketo Lead fields</value>
     <comment>Phrase: Sync this form fields with Marketo Lead fields</comment>
   </data>
-  <data name="DoSpecificWebCallsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DoSpecificWebCallsLabel" lastModified="2014-07-22T13:48:17">
     <value>Raise an event in Marketo when this form is submitted</value>
     <comment>Phrase: Raise an event in Marketo when this form is submitted</comment>
   </data>
-  <data name="MarketoConnectorExpandableControlLabel" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorExpandableControlLabel" lastModified="2014-07-22T13:48:17">
     <value>Advanced</value>
     <comment>Word: Advanced</comment>
   </data>
-  <data name="FormsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FormsLabel" lastModified="2014-07-22T13:48:17">
     <value>Forms:</value>
     <comment>Word: Forms:</comment>
   </data>
-  <data name="AboveLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AboveLabel" lastModified="2014-07-22T13:48:17">
     <value>above</value>
     <comment>Word: above</comment>
   </data>
-  <data name="BelowLabel" lastModified="2014-04-07T14:32:44">
+  <data name="BelowLabel" lastModified="2014-07-22T13:48:17">
     <value>below</value>
     <comment>Word: below</comment>
   </data>
-  <data name="MarketoLeadScore" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoLeadScore" lastModified="2014-07-22T13:48:17">
     <value>Marketo lead score</value>
     <comment>Phrase: Marketo lead score</comment>
   </data>
-  <data name="InvalidScoreValidationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidScoreValidationMessage" lastModified="2014-07-22T13:48:17">
     <value>Enter only positive numbers</value>
     <comment>Phrase: Enter only positive numbers</comment>
   </data>
-  <data name="LargeScoreValidationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="LargeScoreValidationMessage" lastModified="2014-07-22T13:48:17">
     <value>The number is too big</value>
     <comment>Phrase: The number is too big</comment>
   </data>
-  <data name="UsePersonalizationRuleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="UsePersonalizationRuleLabel" lastModified="2014-07-22T13:48:17">
     <value>Personalize Sitefinity using Marketo criteria</value>
     <comment>Phrase: Personalize Sitefinity using Marketo criteria</comment>
   </data>
-  <data name="EqualsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="EqualsLabel" lastModified="2014-07-22T13:48:17">
     <value>is equal to</value>
     <comment>Phrase: is equal to</comment>
   </data>
-  <data name="ContainsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ContainsLabel" lastModified="2014-07-22T13:48:17">
     <value>contains</value>
     <comment>Word: contains</comment>
   </data>
-  <data name="LeadFieldLabel" lastModified="2014-04-07T14:32:44">
+  <data name="LeadFieldLabel" lastModified="2014-07-22T13:48:17">
     <value>Lead field</value>
     <comment>Phrase: Lead field</comment>
   </data>
-  <data name="MarketoField" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoField" lastModified="2014-07-22T13:48:17">
     <value>Marketo field</value>
     <comment>Phrase: Marketo field</comment>
   </data>
-  <data name="ConnectedPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectedPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Connected</value>
     <comment>Word: Connected</comment>
   </data>
-  <data name="ConnectedPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectedPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines whether the module will track and send information to Marketo.</value>
     <comment>Phrase: Determines whether the module will track and send information to Marketo.</comment>
   </data>
-  <data name="SoapEndPointPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SoapEndPointPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Soap API End point</value>
     <comment>Phrase: Soap API End point</comment>
   </data>
-  <data name="SoapEndPointPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SoapEndPointPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The Marketo account's Soap end point.</value>
     <comment>Phrase: The Marketo account's Soap end point.</comment>
   </data>
-  <data name="UserIdPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="UserIdPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>User Id</value>
     <comment>Phrase: User Id</comment>
   </data>
-  <data name="UserIdPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="UserIdPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Marketo account's user Id.</value>
     <comment>Phrase: Marketo account's user Id.</comment>
   </data>
-  <data name="ApiKeyPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ApiKeyPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Api Key</value>
     <comment>Phrase: Api Key</comment>
   </data>
-  <data name="ApiKeyPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ApiKeyPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Marketo account's API Key.</value>
     <comment>Phrase: Marketo account's API Key.</comment>
   </data>
-  <data name="MunchkinJSPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="MunchkinJSPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Munchkin JS</value>
     <comment>Phrase: Munchkin JS</comment>
   </data>
-  <data name="MunchkinJSPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MunchkinJSPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The Munchkin JS which will track user activity.</value>
     <comment>Phrase: The Munchkin JS which will track user activity.</comment>
   </data>
-  <data name="TrackExternalFormsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="TrackExternalFormsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Track external forms</value>
     <comment>Phrase: Track external forms</comment>
   </data>
-  <data name="TrackExternalFormsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TrackExternalFormsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines whether external forms will be tracked.</value>
     <comment>Phrase: Determines whether external forms will be tracked.</comment>
   </data>
-  <data name="ExternalFormSubmitButtonsQueryPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ExternalFormSubmitButtonsQueryPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>External form submit buttons query</value>
     <comment>Phrase: External form submit buttons query</comment>
   </data>
-  <data name="ExternalFormSubmitButtonsQueryPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ExternalFormSubmitButtonsQueryPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>This is a standard jQuery selector literal which determines on which external form submit button's clicks, an information will be collected from the form elements.</value>
     <comment>Phrase: This is a standard jQuery selector literal which determines on which external form submit button's clicks, an information will be collected from the form elements.</comment>
   </data>
-  <data name="ExternalFormFieldKeyAttributesPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ExternalFormFieldKeyAttributesPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>External form field key attributes</value>
     <comment>Phrase: External form field key attributes</comment>
   </data>
-  <data name="ExternalFormFieldKeyAttributesPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ExternalFormFieldKeyAttributesPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines in which html elements' attributes will be looked for a lead field name. They are sorted from higher to lower priority.</value>
     <comment>Phrase: Determines in which html elements' attributes will be looked for a lead field name. They are sorted from higher to lower priority.</comment>
   </data>
-  <data name="MarketoLeadFieldsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoLeadFieldsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Marketo lead fields</value>
     <comment>Phrase: Marketo lead fields</comment>
   </data>
-  <data name="MarketoLeadFieldsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoLeadFieldsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>This is a mapping in the format 'LeadField:Value'where if the 'eadField' is found in a key attribute, the 'Value' is sent to Marketo as name of the lead field. If 'Value' is omitted, the 'LeadField' is sent as a name of the field.</value>
     <comment>Phrase: This is a mapping in the format 'LeadField:Value'where if the 'eadField' is found in a key attribute, the 'Value' is sent to Marketo as name of the lead field. If 'Value' is omitted, the 'LeadField' is sent as a name of the field.</comment>
   </data>
-  <data name="DoSpecificWebCallsOnExternalFormPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="DoSpecificWebCallsOnExternalFormPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Do specific web calls on external form</value>
     <comment>Phrase: Do specific web calls on external form</comment>
   </data>
-  <data name="DoSpecificWebCallsOnExternalFormPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="DoSpecificWebCallsOnExternalFormPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines whether to send 'VisitedPage' event to Marketo, when external form is submited.</value>
     <comment>Phrase: Determines whether to send 'VisitedPage' event to Marketo, when external form is submited.</comment>
   </data>
-  <data name="UsePersonalizationRulePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="UsePersonalizationRulePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Use personalization rule</value>
     <comment>Phrase: Use personalization rule</comment>
   </data>
-  <data name="UsePersonalizationRulePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="UsePersonalizationRulePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines whether the personalization characteristics will be active.</value>
     <comment>Phrase: Determines whether the personalization characteristics will be active.</comment>
   </data>
-  <data name="CacheAbsoluteExpirationPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="CacheAbsoluteExpirationPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Personalization cache absolute expiration</value>
     <comment>Phrase: Personalization cache absolute expiration</comment>
   </data>
-  <data name="CacheAbsoluteExpirationPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CacheAbsoluteExpirationPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines the maximum duration that the leads will be kept in memory. Time is in minutes. Enter 0 to disable.</value>
     <comment>Phrase: Determines the maximum duration that the leads will be kept in memory in minutes. Enter 0 to disable.</comment>
   </data>
-  <data name="CacheSlidingExpirationPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="CacheSlidingExpirationPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Personalization cache sliding expiration</value>
     <comment>Phrase: Personalization cache sliding expiration</comment>
   </data>
-  <data name="CacheSlidingExpirationPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="CacheSlidingExpirationPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines the time that it takes for a cached lead to expire if it is not used. The time is in minutes. Enter 0 to disable.</value>
     <comment>Phrase: Determines the time that it takes for a cached lead to expire if it is not used. The time is in minutes. Enter 0 to disable.</comment>
   </data>
-  <data name="MarketoConnectorGroupPageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorGroupPageTitle" lastModified="2014-07-22T13:48:17">
     <value>Connector for Marketo</value>
     <comment>Phrase: Connector for Marketo</comment>
   </data>
-  <data name="MarketoConnectorGroupPageUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorGroupPageUrlName" lastModified="2014-07-22T13:48:17">
     <value>Marketo</value>
     <comment>Word: Marketo</comment>
   </data>
-  <data name="MarketoConnectorGroupPageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorGroupPageDescription" lastModified="2014-07-22T13:48:17">
     <value>Connector for Marketo group page</value>
     <comment>Phrase: Connector for Marketo group page</comment>
   </data>
-  <data name="MarketoConnectorPageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorPageTitle" lastModified="2014-07-22T13:48:17">
     <value>Connector for Marketo</value>
     <comment>Phrase: Connector for Marketo</comment>
   </data>
-  <data name="MarketoConnectorPageUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorPageUrlName" lastModified="2014-07-22T13:48:17">
     <value>Settings</value>
     <comment>Word: Settings</comment>
   </data>
-  <data name="MarketoConnectorPageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MarketoConnectorPageDescription" lastModified="2014-07-22T13:48:17">
     <value>Connector for Marketo</value>
     <comment>Connector for Marketo</comment>
   </data>
-  <data name="ActiveLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ActiveLabel" lastModified="2014-07-22T13:48:17">
     <value>Active</value>
     <comment>Word: Active</comment>
   </data>
-  <data name="DeactivatedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeactivatedLabel" lastModified="2014-07-22T13:48:17">
     <value>Disabled</value>
     <comment>Word: Disabled</comment>
   </data>
-  <data name="PersonalizationRuleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="PersonalizationRuleLabel" lastModified="2014-07-22T13:48:17">
     <value>Personalization rules:</value>
     <comment>Phrase: Personalization rule:</comment>
   </data>
-  <data name="UserIdLabel" lastModified="2014-04-07T14:32:44">
+  <data name="UserIdLabel" lastModified="2014-07-22T13:48:17">
     <value>User Id</value>
     <comment>Phrase: User Id</comment>
   </data>
-  <data name="Faq" lastModified="2014-04-07T14:32:44">
+  <data name="Faq" lastModified="2014-07-22T13:48:17">
     <value>FAQ</value>
     <comment>abbreviation : FAQ</comment>
   </data>
-  <data name="AccessMarketoConnectorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccessMarketoConnectorTitle" lastModified="2014-07-22T13:48:17">
     <value>Access Connector for Marketo module</value>
     <comment>Phrase: Access Connector for Marketo module</comment>
   </data>
-  <data name="AccessMarketoConnectorDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AccessMarketoConnectorDescription" lastModified="2014-07-22T13:48:17">
     <value>Security action that allows access to the backend pages of the Connector for Marketo module.</value>
     <comment>Phrase: Security action that allows access to the backend pages of the Connector for Marketo module.</comment>
   </data>

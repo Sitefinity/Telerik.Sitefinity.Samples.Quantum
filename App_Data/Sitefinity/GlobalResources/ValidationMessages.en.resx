@@ -117,39 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ValidationMessagesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ValidationMessagesTitle" lastModified="2014-07-22T13:48:17">
     <value>Validation Messages</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="ValidationMessagesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="ValidationMessagesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Validation Messages</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="ValidationMessagesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ValidationMessagesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable validation messages.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="InvalidValue" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidValue" lastModified="2014-07-22T13:48:17">
     <value>Value is not valid</value>
     <comment>label</comment>
   </data>
-  <data name="RequiredValue" lastModified="2014-04-07T14:32:44">
+  <data name="RequiredValue" lastModified="2014-07-22T13:48:17">
     <value>Field is required</value>
     <comment>label</comment>
   </data>
-  <data name="CannotBeEmptyValue" lastModified="2014-04-07T14:32:44">
+  <data name="CannotBeEmptyValue" lastModified="2014-07-22T13:48:17">
     <value>cannot be empty</value>
     <comment>label</comment>
   </data>
-  <data name="ValueBetween" lastModified="2014-04-07T14:32:44">
+  <data name="ValueBetween" lastModified="2014-07-22T13:48:17">
     <value>Value must be between {0} and {1}</value>
     <comment>label</comment>
   </data>
-  <data name="ValueGreaterThan" lastModified="2014-04-07T14:32:44">
+  <data name="ValueGreaterThan" lastModified="2014-07-22T13:48:17">
     <value>Value must be greater than {0}</value>
     <comment>label</comment>
   </data>
-  <data name="ValueLessThan" lastModified="2014-04-07T14:32:44">
+  <data name="ValueLessThan" lastModified="2014-07-22T13:48:17">
     <value>Value must be less than {0}</value>
     <comment>label</comment>
   </data>

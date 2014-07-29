@@ -117,31 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ContentViewPluginMessagesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ContentViewPluginMessagesTitle" lastModified="2014-07-22T13:48:17">
     <value>Messages for ContentView Plugins</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="ContentViewPluginMessagesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="ContentViewPluginMessagesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Messages for ContentView Plugins</value>
     <comment>The titleplural of this class.</comment>
   </data>
-  <data name="ContentViewPluginMessagesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ContentViewPluginMessagesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable messages for ContentView plugins that are integrated within Sitefinity.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="AverageXOutOfXPeople" lastModified="2014-04-07T14:32:44">
+  <data name="AverageXOutOfXPeople" lastModified="2014-07-22T13:48:17">
     <value>Average: {0:F2} out of {1} people.</value>
     <comment>Displays the subtitle of a Rating control that summarizes the voting results</comment>
   </data>
-  <data name="AverageXOutOfOnePerson" lastModified="2014-04-07T14:32:44">
+  <data name="AverageXOutOfOnePerson" lastModified="2014-07-22T13:48:17">
     <value>Average: {0:F2} out of 1 person.</value>
     <comment>Displays the subtitle of a Rating control that summarizes the voting results</comment>
   </data>
-  <data name="NobodyHasVotedSoFar" lastModified="2014-04-07T14:32:44">
+  <data name="NobodyHasVotedSoFar" lastModified="2014-07-22T13:48:17">
     <value>Nobody has voted so far.</value>
     <comment>Subtitle of the Rating control that is displayed when there are no votes for a particular item.</comment>
   </data>
-  <data name="AreYouSureToResetRating" lastModified="2014-04-07T14:32:44">
+  <data name="AreYouSureToResetRating" lastModified="2014-07-22T13:48:17">
     <value>Are you sure you want to reset rating?</value>
     <comment>Confirmation message shown before resetting rating results.</comment>
   </data>

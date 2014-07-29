@@ -117,43 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DefaultProvider" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultProvider" lastModified="2014-07-22T13:48:17">
     <value>Default Provider</value>
     <comment>Name of the default provider for the publishing system.</comment>
   </data>
-  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleTitle" lastModified="2014-07-22T13:48:17">
     <value>Scheduling</value>
     <comment>The title of this module </comment>
   </data>
-  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleDescription" lastModified="2014-07-22T13:48:17">
     <value>Provides functionality for scheduled tasks</value>
     <comment>The description of the Scheduling module</comment>
   </data>
-  <data name="SchedulingResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulingResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Scheduling</value>
     <comment>The title of this resource class</comment>
   </data>
-  <data name="SchedulingResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulingResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Scheduling messages</value>
     <comment>The title plural of this class</comment>
   </data>
-  <data name="SchedulingResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulingResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Sitefinity scheduling sub-system</value>
     <comment>The description of this class</comment>
   </data>
-  <data name="SchedulingConfig" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulingConfig" lastModified="2014-07-22T13:48:17">
     <value>Scheduling configuration</value>
     <comment>Configuration section description.</comment>
   </data>
-  <data name="ProviderSettings" lastModified="2014-04-07T14:32:44">
+  <data name="ProviderSettings" lastModified="2014-07-22T13:48:17">
     <value>Provider Settings</value>
     <comment>Dictionary of settings for the initialization of scheduling providers</comment>
   </data>
-  <data name="scheduledTypestrategies" lastModified="2014-04-07T14:32:44">
+  <data name="scheduledTypestrategies" lastModified="2014-07-22T13:48:17">
     <value>Scheduled Type Strategies</value>
     <comment>Dictionary of settings for the initialization of scheduling type strategies</comment>
   </data>
-  <data name="dataItemsProviderSettings" lastModified="2014-04-07T14:32:44">
+  <data name="dataItemsProviderSettings" lastModified="2014-07-22T13:48:17">
     <value>Provider Data Items Settings</value>
     <comment>Dictionary of settings for the initialization of scheduling providers</comment>
   </data>

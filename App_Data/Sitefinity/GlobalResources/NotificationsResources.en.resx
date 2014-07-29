@@ -117,75 +117,75 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="NotificationsResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="NotificationsResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Notifications</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="NotificationsResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="NotificationsResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Notifications user interface.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="SmtpSettings" lastModified="2014-04-07T14:32:44">
+  <data name="SmtpSettings" lastModified="2014-07-22T13:48:17">
     <value>SMTP settings</value>
     <comment>phrase: SMTP Settings</comment>
   </data>
-  <data name="Host" lastModified="2014-04-07T14:32:44">
+  <data name="Host" lastModified="2014-07-22T13:48:17">
     <value>Host</value>
     <comment>word: Host</comment>
   </data>
-  <data name="Port" lastModified="2014-04-07T14:32:44">
+  <data name="Port" lastModified="2014-07-22T13:48:17">
     <value>Port</value>
     <comment>word: Port</comment>
   </data>
-  <data name="Username" lastModified="2014-04-07T14:32:44">
+  <data name="Username" lastModified="2014-07-22T13:48:17">
     <value>Username</value>
     <comment>word: Username</comment>
   </data>
-  <data name="Password" lastModified="2014-04-07T14:32:44">
+  <data name="Password" lastModified="2014-07-22T13:48:17">
     <value>Password</value>
     <comment>word: Password</comment>
   </data>
-  <data name="Domain" lastModified="2014-04-07T14:32:44">
+  <data name="Domain" lastModified="2014-07-22T13:48:17">
     <value>Domain</value>
     <comment>word: Domain</comment>
   </data>
-  <data name="EnableSSL" lastModified="2014-04-07T14:32:44">
+  <data name="EnableSSL" lastModified="2014-07-22T13:48:17">
     <value>Enable SSL?</value>
     <comment>word: Enable SSL</comment>
   </data>
-  <data name="SmtpProfileIsNotSet" lastModified="2014-04-07T14:32:44">
+  <data name="SmtpProfileIsNotSet" lastModified="2014-07-22T13:48:17">
     <value>There are no default SMTP client settings.</value>
     <comment>phrase: There are no default SMTP client settings.</comment>
   </data>
-  <data name="SmtpHostCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="SmtpHostCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>SmtpHost property set through configuration of notifications service module cannot be an empty string.</value>
     <comment>phrase: SmtpHost property set through configuration of notifications service module cannot be an empty string.</comment>
   </data>
-  <data name="DefaultSenderEmailAddressCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultSenderEmailAddressCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>DefaultSenderEmailAddress property cannot be empty.</value>
     <comment>phrase: DefaultSenderEmailAddress property cannot be empty.</comment>
   </data>
-  <data name="DefaultSenderEmailAddressNotValid" lastModified="2014-04-07T14:32:44">
+  <data name="DefaultSenderEmailAddressNotValid" lastModified="2014-07-22T13:48:17">
     <value>DefaultSenderEmailAddress property does not represent a valid email address.</value>
     <comment>phrase: DefaultSenderEmailAddress property does not represent a valid email address.</comment>
   </data>
-  <data name="SmtpPortMustBeInRange" lastModified="2014-04-07T14:32:44">
+  <data name="SmtpPortMustBeInRange" lastModified="2014-07-22T13:48:17">
     <value>SmtpPort property set through configuration of notifications service module must be an integer between 0 and 65535.</value>
     <comment>phrase: SmtpPort property set through configuration of notifications service module must be an integer between 0 and 65535.</comment>
   </data>
-  <data name="ProvideSmtpUserName" lastModified="2014-04-07T14:32:44">
+  <data name="ProvideSmtpUserName" lastModified="2014-07-22T13:48:17">
     <value>When SMTP authentication is turned on, you must provide value for the SmtpUserName property.</value>
     <comment>phrase: When SMTP authentication is turned on, you must provide value for the SmtpUserName property.</comment>
   </data>
-  <data name="ProvideSmtpPassword" lastModified="2014-04-07T14:32:44">
+  <data name="ProvideSmtpPassword" lastModified="2014-07-22T13:48:17">
     <value>When SMTP authentication is turned on, you must provide value for the ProvidSmtpPassword property.</value>
     <comment>phrase: When SMTP authentication is turned on, you must provide value for the ProvidSmtpPassword property.</comment>
   </data>
-  <data name="SMTPPortOutOfRange" lastModified="2014-04-07T14:32:44">
+  <data name="SMTPPortOutOfRange" lastModified="2014-07-22T13:48:17">
     <value>SMTP port number must be a value between 0 and 65535</value>
     <comment>phrase: SMTP port number must be a value between 0 and 65535</comment>
   </data>
-  <data name="Pop3PortOutOfRange" lastModified="2014-04-07T14:32:44">
+  <data name="Pop3PortOutOfRange" lastModified="2014-07-22T13:48:17">
     <value>POP3 port number must be a value between 0 and 1023</value>
     <comment>phrase: POP3 port number must be a value between 0 and 1023</comment>
   </data>

@@ -117,39 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadComboBoxResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadComboBoxResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>RadComboBox</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="RadComboBoxResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="RadComboBoxResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>RadComboBox</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="RadComboBoxResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="RadComboBoxResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Resource strings for RadComboBox.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="AllItemsCheckedString" lastModified="2014-04-07T14:32:44">
+  <data name="AllItemsCheckedString" lastModified="2014-07-22T13:48:17">
     <value>All items checked</value>
     <comment>RadComboBox resource strings.</comment>
   </data>
-  <data name="CheckAllString" lastModified="2014-04-07T14:32:44">
+  <data name="CheckAllString" lastModified="2014-07-22T13:48:17">
     <value>Check All</value>
     <comment>RadComboBox resource strings.</comment>
   </data>
-  <data name="ItemsCheckedString" lastModified="2014-04-07T14:32:44">
+  <data name="ItemsCheckedString" lastModified="2014-07-22T13:48:17">
     <value>items checked</value>
     <comment>RadComboBox resource strings.</comment>
   </data>
-  <data name="NoMatches" lastModified="2014-04-07T14:32:44">
+  <data name="NoMatches" lastModified="2014-07-22T13:48:17">
     <value>No matches</value>
     <comment>RadComboBox resource strings.</comment>
   </data>
-  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+  <data name="ReservedResource" lastModified="2014-07-22T13:48:17">
     <value>Please do not remove this key.</value>
     <comment>RadComboBox resource strings.</comment>
   </data>
-  <data name="ShowMoreFormatString" lastModified="2014-04-07T14:32:44">
+  <data name="ShowMoreFormatString" lastModified="2014-07-22T13:48:17">
     <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
     <comment>RadComboBox resource strings.</comment>
   </data>

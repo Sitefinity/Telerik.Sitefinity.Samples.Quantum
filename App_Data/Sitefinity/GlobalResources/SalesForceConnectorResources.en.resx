@@ -117,775 +117,775 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SalesForceConnectorResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>SalesForceConnector module labels</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="SalesForceConnectorResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>SalesForceConnector module labels</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="SalesForceConnectorResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for SalesForceConnector module.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="SalesForceConnectorGroupPageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorGroupPageTitle" lastModified="2014-07-22T13:48:17">
     <value>Connector for SalesForce</value>
     <comment>Phrase: Connector for SalesForce</comment>
   </data>
-  <data name="SalesForceConnectorGroupPageUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorGroupPageUrlName" lastModified="2014-07-22T13:48:17">
     <value>SalesForce</value>
     <comment>Word: SalesForce</comment>
   </data>
-  <data name="SalesForceConnectorGroupPageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorGroupPageDescription" lastModified="2014-07-22T13:48:17">
     <value>Connector for SalesForce group page</value>
     <comment>Phrase: Connector for SalesForce group page</comment>
   </data>
-  <data name="SalesForceConnectorAccountsPageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorAccountsPageTitle" lastModified="2014-07-22T13:48:17">
     <value>Connector for SalesForce</value>
     <comment>Phrase:Connector for SalesForce</comment>
   </data>
-  <data name="SalesForceConnectorAccountsPageUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorAccountsPageUrlName" lastModified="2014-07-22T13:48:17">
     <value>Accounts</value>
     <comment>Word: Accounts</comment>
   </data>
-  <data name="SalesForceConnectorAccountsPageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorAccountsPageDescription" lastModified="2014-07-22T13:48:17">
     <value>Connector for SalesForce accounts page</value>
     <comment>Phrase: Connector for SalesForce accounts page</comment>
   </data>
-  <data name="SalesForceConnectorListsPageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorListsPageTitle" lastModified="2014-07-22T13:48:17">
     <value>Synchronizations</value>
     <comment>Word: Synchronizations</comment>
   </data>
-  <data name="SalesForceConnectorListsPageUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorListsPageUrlName" lastModified="2014-07-22T13:48:17">
     <value>Lists</value>
     <comment>Word: Lists</comment>
   </data>
-  <data name="SalesForceConnectorListsPageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceConnectorListsPageDescription" lastModified="2014-07-22T13:48:17">
     <value>Connector for SalesForce synchronizations page</value>
     <comment>Phrase: Connector for SalesForce synchronizations page</comment>
   </data>
-  <data name="AddSalesForceAccountLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AddSalesForceAccountLabel" lastModified="2014-07-22T13:48:17">
     <value>Add account</value>
     <comment>Phrase: Add account</comment>
   </data>
-  <data name="NoSalesForceAccountsConnectedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NoSalesForceAccountsConnectedLabel" lastModified="2014-07-22T13:48:17">
     <value>No SalesForce account has been connected for synchronization</value>
     <comment>Phrase: No SalesForce account has been connected for synchronization</comment>
   </data>
-  <data name="AccountNameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AccountNameLabel" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Word: Name</comment>
   </data>
-  <data name="SalesForceAccountLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceAccountLabel" lastModified="2014-07-22T13:48:17">
     <value>SalesForce account</value>
     <comment>Phrase: SalesForce account</comment>
   </data>
-  <data name="AccountConnectedListsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccountConnectedListsTitle" lastModified="2014-07-22T13:48:17">
     <value>Synchronizations</value>
     <comment>Word: Synchronizations</comment>
   </data>
-  <data name="ActionsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ActionsLabel" lastModified="2014-07-22T13:48:17">
     <value>Actions</value>
     <comment>Word: Actions</comment>
   </data>
-  <data name="DeleteAccountConfirmationLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteAccountConfirmationLabel" lastModified="2014-07-22T13:48:17">
     <value>Are you sure you want to delete this SalesForce account?</value>
     <comment>Phrase: Are you sure you want to delete this SalesForce account?</comment>
   </data>
-  <data name="DeleteAccountConfirmationButton" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteAccountConfirmationButton" lastModified="2014-07-22T13:48:17">
     <value>Yes, delete this SalesForce site</value>
     <comment>Phrase: Yes, delete this SalesForce site</comment>
   </data>
-  <data name="CancelButtonLabel" lastModified="2014-04-07T14:32:44">
+  <data name="CancelButtonLabel" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>Word: Cancel</comment>
   </data>
-  <data name="BackToSalesForceAccountsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="BackToSalesForceAccountsLabel" lastModified="2014-07-22T13:48:17">
     <value>Back to Connector for SalesForce</value>
     <comment>Phrase: Back to Connector for SalesForce</comment>
   </data>
-  <data name="AccountsFormCreateTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormCreateTitle" lastModified="2014-07-22T13:48:17">
     <value>Add SalesForce account</value>
     <comment>Phrase: Add SalesForce account</comment>
   </data>
-  <data name="AccountsFormEditTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormEditTitle" lastModified="2014-07-22T13:48:17">
     <value>Edit SalesForce account</value>
     <comment>Phrase: Edit SalesForce account</comment>
   </data>
-  <data name="AccountsFormAccountNameTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountNameTitle" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Word: Name</comment>
   </data>
-  <data name="AccountsFormAccountNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Account name cannot be empty</value>
     <comment>Phrase: Account name cannot be empty</comment>
   </data>
-  <data name="AccountsFormAccountNameRegExError" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountNameRegExError" lastModified="2014-07-22T13:48:17">
     <value>Account name contains invalid characters</value>
     <comment>Phrase: Account name contains invalid characters</comment>
   </data>
-  <data name="AccountsFormAccountNameExampleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountNameExampleLabel" lastModified="2014-07-22T13:48:17">
     <value>This name is for your convenience only</value>
     <comment>Phrase: This name is for your convenience only</comment>
   </data>
-  <data name="AccountsFormAccountUsernameTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountUsernameTitle" lastModified="2014-07-22T13:48:17">
     <value>Username</value>
     <comment>Word: Username</comment>
   </data>
-  <data name="AccountsFormAccountUsernameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountUsernameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>SalesForce username cannot be empty</value>
     <comment>Phrase: SalesForce username cannot be empty</comment>
   </data>
-  <data name="AccountsFormAccountUsernameExampleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountUsernameExampleLabel" lastModified="2014-07-22T13:48:17">
     <value>Use your SalesForce developer account</value>
     <comment>Phrase: Use your SalesForce developer account</comment>
   </data>
-  <data name="AccountsFormAccountPasswordTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountPasswordTitle" lastModified="2014-07-22T13:48:17">
     <value>Password</value>
     <comment>Word: Password</comment>
   </data>
-  <data name="AccountsFormAccountPasswordCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountPasswordCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>SalesForce account password cannot be empty</value>
     <comment>Phrase: SalesForce account password cannot be empty</comment>
   </data>
-  <data name="ContinueToSetupSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ContinueToSetupSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Continue to setup synchronization</value>
     <comment>Phrase: Continue to setup synchronization</comment>
   </data>
-  <data name="SaveAndCloseLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SaveAndCloseLabel" lastModified="2014-07-22T13:48:17">
     <value>Save and Close</value>
     <comment>Phrase: Save and Close</comment>
   </data>
-  <data name="AccountsFormAccountSecurityTokenTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountSecurityTokenTitle" lastModified="2014-07-22T13:48:17">
     <value>Security token</value>
     <comment>Phrase Security token</comment>
   </data>
-  <data name="AccountsFormAccountSecurityTokenCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="AccountsFormAccountSecurityTokenCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>SalesForce security token cannot be empty</value>
     <comment>Phrase: SalesForce security token cannot be empty</comment>
   </data>
-  <data name="OrLabel" lastModified="2014-04-07T14:32:44">
+  <data name="OrLabel" lastModified="2014-07-22T13:48:17">
     <value>or</value>
     <comment>Word: or</comment>
   </data>
-  <data name="SyncDetailsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SyncDetailsTitle" lastModified="2014-07-22T13:48:17">
     <value>Synchronization details</value>
     <comment>Phrase: Synchronization details</comment>
   </data>
-  <data name="NotSyncedlabel" lastModified="2014-04-07T14:32:44">
+  <data name="NotSyncedlabel" lastModified="2014-07-22T13:48:17">
     <value>This account has never been synchronized</value>
     <comment>Phrase: This account has never been synchronized</comment>
   </data>
-  <data name="SalesForceListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceListLabel" lastModified="2014-07-22T13:48:17">
     <value>SalesForce</value>
     <comment>Word: SalesForce</comment>
   </data>
-  <data name="LogStatusLabel" lastModified="2014-04-07T14:32:44">
+  <data name="LogStatusLabel" lastModified="2014-07-22T13:48:17">
     <value>Status</value>
     <comment>Word: Status</comment>
   </data>
-  <data name="LogDateLabel" lastModified="2014-04-07T14:32:44">
+  <data name="LogDateLabel" lastModified="2014-07-22T13:48:17">
     <value>Synced at</value>
     <comment>Phrase: Synced at</comment>
   </data>
-  <data name="PropertiesLabel" lastModified="2014-04-07T14:32:44">
+  <data name="PropertiesLabel" lastModified="2014-07-22T13:48:17">
     <value>Properties</value>
     <comment>Word: Properties</comment>
   </data>
-  <data name="RemoveLabel" lastModified="2014-04-07T14:32:44">
+  <data name="RemoveLabel" lastModified="2014-07-22T13:48:17">
     <value>Remove</value>
     <comment>Word: Remove</comment>
   </data>
-  <data name="EnableSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="EnableSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Enable</value>
     <comment>Word: Enable</comment>
   </data>
-  <data name="DisableSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DisableSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Disable</value>
     <comment>Word: Disable</comment>
   </data>
-  <data name="SyncLogLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncLogLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronization log</value>
     <comment>Phrase: Synchronization log</comment>
   </data>
-  <data name="AlreadyMappedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AlreadyMappedLabel" lastModified="2014-07-22T13:48:17">
     <value>Already connected</value>
     <comment>Phrase: Already connected</comment>
   </data>
-  <data name="AddSynchronizationLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AddSynchronizationLabel" lastModified="2014-07-22T13:48:17">
     <value>Add synchronization</value>
     <comment>Phrase: Add synchronization</comment>
   </data>
-  <data name="ListCountLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ListCountLabel" lastModified="2014-07-22T13:48:17">
     <value>synchronization</value>
     <comment>Word: synchronization</comment>
   </data>
-  <data name="ListCountPluralLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ListCountPluralLabel" lastModified="2014-07-22T13:48:17">
     <value>synchronizations</value>
     <comment>Word: synchronizations</comment>
   </data>
-  <data name="TriggerSyncOnAccountLabel" lastModified="2014-04-07T14:32:44">
+  <data name="TriggerSyncOnAccountLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronize now</value>
     <comment>Phrase: Synchronize now</comment>
   </data>
-  <data name="EnabledSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="EnabledSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Enabled</value>
     <comment>Word: Enabled</comment>
   </data>
-  <data name="DisabledSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DisabledSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Disabled</value>
     <comment>Word: Disabled</comment>
   </data>
-  <data name="DeleteListConfirmationLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteListConfirmationLabel" lastModified="2014-07-22T13:48:17">
     <value>Are you sure you want to delete this SalesForce synchronization?</value>
     <comment>Phrase: Are you sure you want to delete this SalesForce synchronization?</comment>
   </data>
-  <data name="DeleteListConfirmationButton" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteListConfirmationButton" lastModified="2014-07-22T13:48:17">
     <value>Yes, delete this synchronization</value>
     <comment>Phrase: Yes, delete this synchronization</comment>
   </data>
-  <data name="ListsSidebarTitleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ListsSidebarTitleLabel" lastModified="2014-07-22T13:48:17">
     <value>Manage synchronizations</value>
     <comment>Phrase: Manage synchronizations</comment>
   </data>
-  <data name="FilterListsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FilterListsLabel" lastModified="2014-07-22T13:48:17">
     <value>Filter synchronizations</value>
     <comment>Phrase: Filter synchronizations</comment>
   </data>
-  <data name="AllListsFilterLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AllListsFilterLabel" lastModified="2014-07-22T13:48:17">
     <value>All synchronizations</value>
     <comment>Phrase: All synchronizations</comment>
   </data>
-  <data name="ListsByAccountLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ListsByAccountLabel" lastModified="2014-07-22T13:48:17">
     <value>Lists by SalesForce account</value>
     <comment>Phrase: Lists by SalesForce account</comment>
   </data>
-  <data name="AddSalesForceListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AddSalesForceListLabel" lastModified="2014-07-22T13:48:17">
     <value>Add new sync</value>
     <comment>Phrase: Add new sync</comment>
   </data>
-  <data name="NoSalesForceListsConnectedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NoSalesForceListsConnectedLabel" lastModified="2014-07-22T13:48:17">
     <value>No synchronizations have been created yet</value>
     <comment>Phrase: No synchronizations have been created yet</comment>
   </data>
-  <data name="BackToSalesForceListsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="BackToSalesForceListsLabel" lastModified="2014-07-22T13:48:17">
     <value>Back to Synchronizations</value>
     <comment>Phrase: Back to Synchronizations</comment>
   </data>
-  <data name="SalesForceListMappingFormTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceListMappingFormTitle" lastModified="2014-07-22T13:48:17">
     <value>Add synchronization</value>
     <comment>Phrase: Add synchronization</comment>
   </data>
-  <data name="UsersLabel" lastModified="2014-04-07T14:32:44">
+  <data name="UsersLabel" lastModified="2014-07-22T13:48:17">
     <value>Users</value>
     <comment>Word: Users</comment>
   </data>
-  <data name="DocumentsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DocumentsLabel" lastModified="2014-07-22T13:48:17">
     <value>Documents</value>
     <comment>Word: Documents</comment>
   </data>
-  <data name="FormResponsesLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FormResponsesLabel" lastModified="2014-07-22T13:48:17">
     <value>Form responses</value>
     <comment>Phrase: Form responses</comment>
   </data>
-  <data name="WhatDataToSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="WhatDataToSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>What data do you want to sync?</value>
     <comment>Phrase: What data do you want to sync?</comment>
   </data>
-  <data name="ContinueLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ContinueLabel" lastModified="2014-07-22T13:48:17">
     <value>Continue</value>
     <comment>Word: Continue</comment>
   </data>
-  <data name="ContactsLeadsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ContactsLeadsLabel" lastModified="2014-07-22T13:48:17">
     <value>(Contacts, Leads, Users)</value>
     <comment>Phrase: (Contacts, Leads, Users)</comment>
   </data>
-  <data name="SaveLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SaveLabel" lastModified="2014-07-22T13:48:17">
     <value>Save</value>
     <comment>Word: Save</comment>
   </data>
-  <data name="ScheduleTypeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleTypeLabel" lastModified="2014-07-22T13:48:17">
     <value>Schedule type</value>
     <comment>Phrase: Schedule type</comment>
   </data>
-  <data name="SynchronizationTypeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SynchronizationTypeLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronization type</value>
     <comment>Phrase: Synchronization type</comment>
   </data>
-  <data name="SyncTypeTwoWayLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncTypeTwoWayLabel" lastModified="2014-07-22T13:48:17">
     <value>Two way</value>
     <comment>Phrase: Two way</comment>
   </data>
-  <data name="SyncTypeOneWayToSitefinityLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncTypeOneWayToSitefinityLabel" lastModified="2014-07-22T13:48:17">
     <value>SalesForce to server</value>
     <comment>Phrase: SalesForce to server</comment>
   </data>
-  <data name="SyncTypeOneWayToSalesForceLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncTypeOneWayToSalesForceLabel" lastModified="2014-07-22T13:48:17">
     <value>Server to SalesForce</value>
     <comment>Phrase: Server to SalesForce</comment>
   </data>
-  <data name="SelectLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectLabel" lastModified="2014-07-22T13:48:17">
     <value>Select</value>
     <comment>Word: Select</comment>
   </data>
-  <data name="SalesForceListNameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceListNameLabel" lastModified="2014-07-22T13:48:17">
     <value>SalesForce</value>
     <comment>Word: SalesForce</comment>
   </data>
-  <data name="SitefinityLibraryNameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityLibraryNameLabel" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity</value>
     <comment>Word: Sitefinity</comment>
   </data>
-  <data name="ScheduleNever" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleNever" lastModified="2014-07-22T13:48:17">
     <value>Not scheduled</value>
     <comment>Phrase: Not scheduled</comment>
   </data>
-  <data name="ScheduleFiveMinutes" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleFiveMinutes" lastModified="2014-07-22T13:48:17">
     <value>Every 5 minutes</value>
     <comment>Phrase: Every 5 minutes</comment>
   </data>
-  <data name="ScheduleHalfHour" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleHalfHour" lastModified="2014-07-22T13:48:17">
     <value>Every 30 minutes</value>
     <comment>Phrase: Every 30 minutes</comment>
   </data>
-  <data name="ScheduleOneHour" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleOneHour" lastModified="2014-07-22T13:48:17">
     <value>Every 1 hour</value>
     <comment>Phrase: Every 1 hour</comment>
   </data>
-  <data name="ScheduleWeekly" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleWeekly" lastModified="2014-07-22T13:48:17">
     <value>Weekly on</value>
     <comment>Phrase: Weekly on</comment>
   </data>
-  <data name="ScheduleMonday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleMonday" lastModified="2014-07-22T13:48:17">
     <value>Monday</value>
     <comment>Word: Monday</comment>
   </data>
-  <data name="ScheduleTuesday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleTuesday" lastModified="2014-07-22T13:48:17">
     <value>Tuesday</value>
     <comment>Word: Tuesday</comment>
   </data>
-  <data name="ScheduleWednesday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleWednesday" lastModified="2014-07-22T13:48:17">
     <value>Wednesday</value>
     <comment>Word: Wednesday</comment>
   </data>
-  <data name="ScheduleThursday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleThursday" lastModified="2014-07-22T13:48:17">
     <value>Thursday</value>
     <comment>Word: Thursday</comment>
   </data>
-  <data name="ScheduleFriday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleFriday" lastModified="2014-07-22T13:48:17">
     <value>Friday</value>
     <comment>Word: Friday</comment>
   </data>
-  <data name="ScheduleSaturday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSaturday" lastModified="2014-07-22T13:48:17">
     <value>Saturday</value>
     <comment>Word: Saturday</comment>
   </data>
-  <data name="ScheduleSunday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSunday" lastModified="2014-07-22T13:48:17">
     <value>Sunday</value>
     <comment>Word: Sunday</comment>
   </data>
-  <data name="SelectSalesForceListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectSalesForceListLabel" lastModified="2014-07-22T13:48:17">
     <value>Select a SalesForce list</value>
     <comment>Phrase: Select a SalesForce list</comment>
   </data>
-  <data name="SelectSitefinityRoleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectSitefinityRoleLabel" lastModified="2014-07-22T13:48:17">
     <value>Select a Sitefinity role</value>
     <comment>Phrase: Select a Sitefinity role</comment>
   </data>
-  <data name="ProviderLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ProviderLabel" lastModified="2014-07-22T13:48:17">
     <value>Provider</value>
     <comment>Word: Provider</comment>
   </data>
-  <data name="RolesSelectorHeader" lastModified="2014-04-07T14:32:44">
+  <data name="RolesSelectorHeader" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity roles</value>
     <comment>Phrase: Sitefinity roles</comment>
   </data>
-  <data name="ContentTypeDeleted" lastModified="2014-04-07T14:32:44">
+  <data name="ContentTypeDeleted" lastModified="2014-07-22T13:48:17">
     <value>Deleted content type</value>
     <comment>Phrase: Deleted content type</comment>
   </data>
-  <data name="TriggerSyncOnListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="TriggerSyncOnListLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronize now</value>
     <comment>Phrase: Synchronize now</comment>
   </data>
-  <data name="SyncingDotDotDotLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncingDotDotDotLabel" lastModified="2014-07-22T13:48:17">
     <value>Syncing...</value>
     <comment>Phrase: Syncing...</comment>
   </data>
-  <data name="FailedToSynchronizeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FailedToSynchronizeLabel" lastModified="2014-07-22T13:48:17">
     <value>Failed to be synced</value>
     <comment>Phrase: Failed to be synced</comment>
   </data>
-  <data name="SyncInQueueLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncInQueueLabel" lastModified="2014-07-22T13:48:17">
     <value>Sync pending...</value>
     <comment>Phrase: Sync pending...</comment>
   </data>
-  <data name="DisabledFromAccountLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DisabledFromAccountLabel" lastModified="2014-07-22T13:48:17">
     <value>Disabled from account</value>
     <comment>Phrase: Disabled from account</comment>
   </data>
-  <data name="SitefinityDataLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityDataLabel" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity</value>
     <comment>Word: Sitefinity</comment>
   </data>
-  <data name="SyncConditionLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncConditionLabel" lastModified="2014-07-22T13:48:17">
     <value>When to sync</value>
     <comment>Phrase: When to sync</comment>
   </data>
-  <data name="ListAccountTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ListAccountTitle" lastModified="2014-07-22T13:48:17">
     <value>Account</value>
     <comment>Word: Account</comment>
   </data>
-  <data name="SitefinityContentTypeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityContentTypeLabel" lastModified="2014-07-22T13:48:17">
     <value>Type</value>
     <comment>Word: Type</comment>
   </data>
-  <data name="SyncedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncedLabel" lastModified="2014-07-22T13:48:17">
     <value>Synced</value>
     <comment>Word: Synced</comment>
   </data>
-  <data name="RunningLabel" lastModified="2014-04-07T14:32:44">
+  <data name="RunningLabel" lastModified="2014-07-22T13:48:17">
     <value>Running</value>
     <comment>Word: Running</comment>
   </data>
-  <data name="FailedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FailedLabel" lastModified="2014-07-22T13:48:17">
     <value>Failed</value>
     <comment>Word: Failed</comment>
   </data>
-  <data name="ListSyncFailMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ListSyncFailMessage" lastModified="2014-07-22T13:48:17">
     <value>The list failed to be synchronized. See the error details in the Sitefinity log files.</value>
     <comment>Phrase: The list failed to be synchronized. See the error details in the Sitefinity log files.</comment>
   </data>
-  <data name="UnableToConnectToSiteMessage" lastModified="2014-04-07T14:32:44">
+  <data name="UnableToConnectToSiteMessage" lastModified="2014-07-22T13:48:17">
     <value>Unable to connect. Please make sure the SalesForce credentials are correct.</value>
     <comment>Phrase: Unable to connect. Please make sure the SalesForce credentials are correct.</comment>
   </data>
-  <data name="NoConnectionMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NoConnectionMessage" lastModified="2014-07-22T13:48:17">
     <value>Site '{0}' cannot be synced because there is no connection with the server.</value>
     <comment>Phrase: Site '{0}' cannot be synced because there is no connection with the server.</comment>
   </data>
-  <data name="InvalidCredentialsMessage" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidCredentialsMessage" lastModified="2014-07-22T13:48:17">
     <value>Invalid username, password or security token.</value>
     <comment>Phrase: Invalid username, password or security token.</comment>
   </data>
-  <data name="ButtonSelectLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ButtonSelectLabel" lastModified="2014-07-22T13:48:17">
     <value>Select...</value>
     <comment>Phrase: Select...</comment>
   </data>
-  <data name="DeletedUserRoleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeletedUserRoleLabel" lastModified="2014-07-22T13:48:17">
     <value>Deleted user role</value>
     <comment>Phrase: Deleted user role</comment>
   </data>
-  <data name="DeletedFormLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeletedFormLabel" lastModified="2014-07-22T13:48:17">
     <value>Deleted form</value>
     <comment>Phrase: Deleted form</comment>
   </data>
-  <data name="ListsSyncedSingular" lastModified="2014-04-07T14:32:44">
+  <data name="ListsSyncedSingular" lastModified="2014-07-22T13:48:17">
     <value>list successfully synced</value>
     <comment>Phrase: list successfully synced</comment>
   </data>
-  <data name="ListsSyncedPlural" lastModified="2014-04-07T14:32:44">
+  <data name="ListsSyncedPlural" lastModified="2014-07-22T13:48:17">
     <value>lists successfully synced</value>
     <comment>Phrase: lists successfully synced</comment>
   </data>
-  <data name="ListsFailedSingular" lastModified="2014-04-07T14:32:44">
+  <data name="ListsFailedSingular" lastModified="2014-07-22T13:48:17">
     <value>list failed to be synced</value>
     <comment>Phrase: list failed to be synced</comment>
   </data>
-  <data name="ListsFailedPlural" lastModified="2014-04-07T14:32:44">
+  <data name="ListsFailedPlural" lastModified="2014-07-22T13:48:17">
     <value>lists failed to be synced</value>
     <comment>Phrase: lists failed to be synced</comment>
   </data>
-  <data name="SelectSalesForceFieldNameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectSalesForceFieldNameLabel" lastModified="2014-07-22T13:48:17">
     <value>Select SalesForce field</value>
     <comment>Phrase: Select SalesForce field</comment>
   </data>
-  <data name="SelectSalesForceFieldValueLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectSalesForceFieldValueLabel" lastModified="2014-07-22T13:48:17">
     <value>Enter SalesForce value</value>
     <comment>Phrase: Enter SalesForce value</comment>
   </data>
-  <data name="SalesForceListSelectorHeader" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceListSelectorHeader" lastModified="2014-07-22T13:48:17">
     <value>SalesForce contacts</value>
     <comment>Phrase: SalesForce contacts</comment>
   </data>
-  <data name="WhatToSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="WhatToSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>What to sync...</value>
     <comment>Phrase: What to sync...</comment>
   </data>
-  <data name="ValueLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ValueLabel" lastModified="2014-07-22T13:48:17">
     <value>Value</value>
     <comment>Word: Value</comment>
   </data>
-  <data name="FieldExampleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FieldExampleLabel" lastModified="2014-07-22T13:48:17">
     <value>Department</value>
     <comment>Word: Department</comment>
   </data>
-  <data name="ValueExampleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ValueExampleLabel" lastModified="2014-07-22T13:48:17">
     <value>Marketing</value>
     <comment>Word: Marketing</comment>
   </data>
-  <data name="SelectUniqueSalesForceListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectUniqueSalesForceListLabel" lastModified="2014-07-22T13:48:17">
     <value>List name is already in use.</value>
     <comment>Phrase: List name is already in use.</comment>
   </data>
-  <data name="ContactSourceLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ContactSourceLabel" lastModified="2014-07-22T13:48:17">
     <value>Set a field to mark the synced contacts on SalesForce</value>
     <comment>Phrase: Set a field to mark the synced contacts on SalesForce</comment>
   </data>
-  <data name="FormsSelectorHeader" lastModified="2014-04-07T14:32:44">
+  <data name="FormsSelectorHeader" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity forms</value>
     <comment>Phrase: Sitefinity forms</comment>
   </data>
-  <data name="DeletedLibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeletedLibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>Deleted library</value>
     <comment>Phrase: Deleted library</comment>
   </data>
-  <data name="SalesForceFieldsMappingHeader" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceFieldsMappingHeader" lastModified="2014-07-22T13:48:17">
     <value>SalesForce fields -&gt; Sitefinity fields</value>
     <comment>Phrase: SalesForce fields -&gt; Sitefinity fields</comment>
   </data>
-  <data name="AdvancedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AdvancedLabel" lastModified="2014-07-22T13:48:17">
     <value>Advanced</value>
     <comment>Word: Advanced</comment>
   </data>
-  <data name="MappingSettingsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="MappingSettingsLabel" lastModified="2014-07-22T13:48:17">
     <value>Mapping settings</value>
     <comment>Phrase: Mapping settings</comment>
   </data>
-  <data name="FieldMappingsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="FieldMappingsRequired" lastModified="2014-07-22T13:48:17">
     <value>You should map the fields you want to be synced</value>
     <comment>Phrase: You should map the fields you want to be synced</comment>
   </data>
-  <data name="MappingsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="MappingsLabel" lastModified="2014-07-22T13:48:17">
     <value>Mappings</value>
     <comment>Word: Mappings</comment>
   </data>
-  <data name="LibrariesSelectorHeader" lastModified="2014-04-07T14:32:44">
+  <data name="LibrariesSelectorHeader" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity libraries</value>
     <comment>Phrase: Sitefinity libraries</comment>
   </data>
-  <data name="AddSalesForceAccountMessage" lastModified="2014-04-07T14:32:44">
+  <data name="AddSalesForceAccountMessage" lastModified="2014-07-22T13:48:17">
     <value>Add SalesForce account</value>
     <comment>Phrase: Add SalesForce account</comment>
   </data>
-  <data name="MissingFilterFieldMessage" lastModified="2014-04-07T14:32:44">
+  <data name="MissingFilterFieldMessage" lastModified="2014-07-22T13:48:17">
     <value>The SalesForce filtering field doesn't exist. Please check if your Contact or Lead fields contains the one provided. You can find them in the setup page of your SalesForce account.</value>
     <comment>Phrase: The SalesForce filtering field doesn't exist. Please check if your Contact or Lead fields contains the one provided. You can find them in the setup page of your SalesForce account.</comment>
   </data>
-  <data name="MissingExternalIdMessage" lastModified="2014-04-07T14:32:44">
+  <data name="MissingExternalIdMessage" lastModified="2014-07-22T13:48:17">
     <value>You don't have SalesForce external id field. Please go to your SalesForce account -&gt; Setup -&gt; Customize -&gt; Contacts/Leads -&gt; Fields and create a new text field with unique values, 36 characters minimal length and set it as external id. Then enter its name in the Sitefinity Advanced settings -&gt; SalesForce connector.</value>
     <comment>Phrase: You don't have SalesForce external id field. Please go to your SalesForce account -&gt; Setup -&gt; Customize -&gt; Contacts/Leads -&gt; Fields and create a new text field with unique values, 36 characters minimal length and set it as external id. Then enter its name in the Sitefinity Advanced settings -&gt; SalesForce connector.</comment>
   </data>
-  <data name="SelectSalesForceFilterInvalidCharsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectSalesForceFilterInvalidCharsLabel" lastModified="2014-07-22T13:48:17">
     <value>Invalid characters: , = ; :</value>
     <comment>Phrase: Invalid characters: , = ; :</comment>
   </data>
-  <data name="SalesForceMappingSalesForceFieldPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSalesForceFieldPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>SalesForce field name</value>
     <comment>Phrase: SalesForce field name</comment>
   </data>
-  <data name="SalesForceMappingSalesForceFieldPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSalesForceFieldPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>SalesForce field which will be mapped</value>
     <comment>Phrase: SalesForce field which will be mapped</comment>
   </data>
-  <data name="SalesForceMappingSitefinityFieldPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSitefinityFieldPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity field</value>
     <comment>Phrase: Sitefinity field</comment>
   </data>
-  <data name="SalesForceMappingSitefinityFieldPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSitefinityFieldPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity field which will be mapped</value>
     <comment>Phrase: Sitefinity field which will be mapped</comment>
   </data>
-  <data name="AccountNamePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="AccountNamePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Account name</value>
     <comment>Phrase: Account name</comment>
   </data>
-  <data name="AccountNamePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AccountNamePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>SalesForce account name</value>
     <comment>Phrase: SalesForce account name</comment>
   </data>
-  <data name="SalesForceUsernamePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceUsernamePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Username</value>
     <comment>Word: Username</comment>
   </data>
-  <data name="SalesForceUsernamePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceUsernamePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>SalesForce Username</value>
     <comment>Phrase: SalesForce username</comment>
   </data>
-  <data name="SalesForcePasswordPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForcePasswordPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Password</value>
     <comment>Word: Password</comment>
   </data>
-  <data name="SalesForcePasswordPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForcePasswordPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>SalesForce Password</value>
     <comment>Phrase: SalesForce password</comment>
   </data>
-  <data name="SalesForceSecurityTokenPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceSecurityTokenPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Security token</value>
     <comment>Phrase: Security token</comment>
   </data>
-  <data name="SalesForceSecurityTokenPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceSecurityTokenPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>SalesForce security token</value>
     <comment>Phrase: SalesForce security token</comment>
   </data>
-  <data name="SalesForceContactsExternalIdPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceContactsExternalIdPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Contacts external id</value>
     <comment>Phrase: Contacts external id</comment>
   </data>
-  <data name="SalesForceContactsExternalIdPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceContactsExternalIdPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The column where the Sitefinity items' ids will be stored in the SalesForce contacts table</value>
     <comment>Phrase: The column where the Sitefinity items will be stored in the SalesForce contacts table</comment>
   </data>
-  <data name="SalesForceLeadsExternalIdPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceLeadsExternalIdPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The column where the Sitefinity items' ids will be stored in the SalesForce leads table</value>
     <comment>Phrase: The column where the Sitefinity items will be stored in the SalesForce leads table</comment>
   </data>
-  <data name="SalesForceLeadsExternalIdPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceLeadsExternalIdPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Leads external id</value>
     <comment>Phrase: Leads external id</comment>
   </data>
-  <data name="SynchronizationStatusPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SynchronizationStatusPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Synchronization status</value>
     <comment>Phrase: Synchronization status</comment>
   </data>
-  <data name="SynchronizationStatusPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SynchronizationStatusPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Synchronization status</value>
     <comment>Phrase: Synchronization status</comment>
   </data>
-  <data name="ListMappingsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ListMappingsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>List mappings</value>
     <comment>Phrase: List mappings</comment>
   </data>
-  <data name="ListMappingsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ListMappingsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>List mappings</value>
     <comment>Phrase: List mappings</comment>
   </data>
-  <data name="SalesForceAccountsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceAccountsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>SalesForce account</value>
     <comment>Phrase: SalesForce accounts</comment>
   </data>
-  <data name="SalesForceAccountsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceAccountsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Accounts which will be synchronized</value>
     <comment>Phrase: Accounts which will be synchronized</comment>
   </data>
-  <data name="MasterAdapterPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="MasterAdapterPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Master adapter</value>
     <comment>Phrase: Master adapter</comment>
   </data>
-  <data name="MasterAdapterPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MasterAdapterPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines which adapter wins in case of conflicts. Possible values: SalesForce, Sitefinity</value>
     <comment>Phrase: Determines which adapter wins in case of conflicts. Possible values: SalesForce, Sitefinity</comment>
   </data>
-  <data name="SyncDeletedItemsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SyncDeletedItemsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Synchronize deleted items</value>
     <comment>Phrase: Synchronize deleted items</comment>
   </data>
-  <data name="SyncDeletedItemsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SyncDeletedItemsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines whether items will be deleted when syncing</value>
     <comment>Phrase: Determines whether items will be deleted when syncing</comment>
   </data>
-  <data name="TaskRetryIntervalPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="TaskRetryIntervalPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Task retry interval</value>
     <comment>Phrase: Task retry interval</comment>
   </data>
-  <data name="TaskRetryIntervalPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TaskRetryIntervalPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the synchronization task retry interval in seconds</value>
     <comment>Phrase: Gets or sets the synchronization task retry interval in seconds</comment>
   </data>
-  <data name="ConfigurationIdPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ConfigurationIdPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Configuration id</value>
     <comment>Phrase: Configuration id</comment>
   </data>
-  <data name="ConfigurationIdPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ConfigurationIdPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Configuration id</value>
     <comment>Phrase: Configuration id</comment>
   </data>
-  <data name="SalesForceMappingSalesForceDataPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSalesForceDataPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>SalesForce list name</value>
     <comment>Phrase: SalesForce list name</comment>
   </data>
-  <data name="SalesForceMappingSalesForceDataPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSalesForceDataPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>SalesForce list name with filter in the format Contact/Lead(FilterField1:FilterValue1; FilterField2:FilterValue2;...)</value>
     <comment>Phrase: SalesForce list name with filter in the format Contacts/Leads(FilterField1:FilterValue1; FilterField2:FilterValue2;...)</comment>
   </data>
-  <data name="UsesSourceFieldPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="UsesSourceFieldPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Uses source field</value>
     <comment>Phrase: Uses source field</comment>
   </data>
-  <data name="UsesSourceFieldPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="UsesSourceFieldPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines whether the filter in the SalesForce list name is used like a filter or source field</value>
     <comment>Phrase: Determines whether the filter in the SalesForce list name is used like a filter or source field</comment>
   </data>
-  <data name="SalesForceMappingSitefinityDataPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSitefinityDataPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity content type name</value>
     <comment>Phrase: Sitefinity content type name</comment>
   </data>
-  <data name="SalesForceMappingSitefinityDataPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSitefinityDataPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The name of the synced Sitefinity content</value>
     <comment>Phrase: The name of the synced Sitefinity content</comment>
   </data>
-  <data name="SalesForceMappingSitefinityDataProviderPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSitefinityDataProviderPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity data provider name</value>
     <comment>Phrase: Sitefinity data provider name</comment>
   </data>
-  <data name="SalesForceMappingSitefinityDataProviderPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSitefinityDataProviderPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The name of the synced Sitefinity content provider</value>
     <comment>Phrase: The name of the synced Sitefinity content provider</comment>
   </data>
-  <data name="SalesForceMappingSynchronizationTypePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSynchronizationTypePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Synchronization type</value>
     <comment>Phrase: Synchronization type</comment>
   </data>
-  <data name="SalesForceMappingSynchronizationTypePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSynchronizationTypePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The synchronization direction</value>
     <comment>Phrase: The synchronization direction</comment>
   </data>
-  <data name="SalesForceMappingSitefinityContentTypePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSitefinityContentTypePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity content type</value>
     <comment>Phrase: Sitefinity content type</comment>
   </data>
-  <data name="SalesForceMappingSitefinityContentTypePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceMappingSitefinityContentTypePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The synced Sitefinity content type</value>
     <comment>Phrase: The synced Sitefinity content type</comment>
   </data>
-  <data name="SchedulePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Schedule</value>
     <comment>Word: Schedule</comment>
   </data>
-  <data name="SchedulePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The schedule interval in crontab format</value>
     <comment>Phrase: The schedule interval in crontab format</comment>
   </data>
-  <data name="ScheduleSummaryPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSummaryPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Schedule summary</value>
     <comment>Phrase: Schedule summary</comment>
   </data>
-  <data name="ScheduleSummaryPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSummaryPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Schedule interval summary</value>
     <comment>Phrase: Schedule interval summary</comment>
   </data>
-  <data name="SalesForceFieldMappingsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceFieldMappingsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Field mappings</value>
     <comment>Phrase: Field mappings</comment>
   </data>
-  <data name="SalesForceFieldMappingsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SalesForceFieldMappingsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The field mappings between the Sitefinity item's properties and the SalesForce item's fields</value>
     <comment>Phrase: The field mappings between the Sitefinity item's properties and the SalesForce item's fields</comment>
   </data>
-  <data name="FilterContactsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FilterContactsLabel" lastModified="2014-07-22T13:48:17">
     <value>Filter Contacts by field</value>
     <comment>Phrase: Filter Contacts by field</comment>
   </data>
-  <data name="FieldLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FieldLabel" lastModified="2014-07-22T13:48:17">
     <value>Field</value>
     <comment>Word: Field</comment>
   </data>
-  <data name="AccessSalesForceConnectorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccessSalesForceConnectorTitle" lastModified="2014-07-22T13:48:17">
     <value>Access Connector for SalesForce module</value>
     <comment>Phrase: Access Connector for SalesForce module</comment>
   </data>
-  <data name="AccessSalesForceConnectorDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AccessSalesForceConnectorDescription" lastModified="2014-07-22T13:48:17">
     <value>Security action that allows access to the backend pages of the Connector for SalesForce module.</value>
     <comment>Phrase: Security action that allows access to the backend pages of the Connector for SalesForce module.</comment>
   </data>

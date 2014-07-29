@@ -117,19 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SummaryResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SummaryResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Summary</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="SummaryResourcesTitlePlaural" lastModified="2014-04-07T14:32:44">
+  <data name="SummaryResourcesTitlePlaural" lastModified="2014-07-22T13:48:17">
     <value>Summaries</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="SummaryResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SummaryResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for summary parser.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="InvalidStringFormat" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidStringFormat" lastModified="2014-07-22T13:48:17">
     <value>Invalid String Format</value>
     <comment></comment>
   </data>

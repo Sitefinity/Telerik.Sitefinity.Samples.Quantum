@@ -117,83 +117,83 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ContentLocationsResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Content Locations</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="ContentLocationsResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Content Locations user interface.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ItemLocationsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ItemLocationsTitle" lastModified="2014-07-22T13:48:17">
     <value>Pages</value>
     <comment>Title of the item locations list</comment>
   </data>
-  <data name="ItemLocationsNote" lastModified="2014-04-07T14:32:44">
+  <data name="ItemLocationsNote" lastModified="2014-07-22T13:48:17">
     <value>where this item can be found</value>
     <comment>Description of the item locations list</comment>
   </data>
-  <data name="RefreshPagesList" lastModified="2014-04-07T14:32:44">
+  <data name="RefreshPagesList" lastModified="2014-07-22T13:48:17">
     <value>Refresh pages list</value>
     <comment>The text of the button to refresh locations list</comment>
   </data>
-  <data name="ContentLocationsGridPageHeader" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsGridPageHeader" lastModified="2014-07-22T13:48:17">
     <value>Pages</value>
     <comment>Pages</comment>
   </data>
-  <data name="ContentLocationsGridSiteHeader" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsGridSiteHeader" lastModified="2014-07-22T13:48:17">
     <value>Site</value>
     <comment>Site</comment>
   </data>
-  <data name="ContentLocationsGridPriorityHeader" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsGridPriorityHeader" lastModified="2014-07-22T13:48:17">
     <value>Priority</value>
     <comment>Priority</comment>
   </data>
-  <data name="ContentLocationsGridActionsHeader" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsGridActionsHeader" lastModified="2014-07-22T13:48:17">
     <value>Actions</value>
     <comment>Actions</comment>
   </data>
-  <data name="ContentLocationsGridActionsTitleSetPriority" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsGridActionsTitleSetPriority" lastModified="2014-07-22T13:48:17">
     <value>Set priority...</value>
     <comment>Set priority...</comment>
   </data>
-  <data name="ContentLocationsGridActionUp" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsGridActionUp" lastModified="2014-07-22T13:48:17">
     <value>Up</value>
     <comment>Up</comment>
   </data>
-  <data name="ContentLocationsGridActionDown" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsGridActionDown" lastModified="2014-07-22T13:48:17">
     <value>Down</value>
     <comment>Down</comment>
   </data>
-  <data name="ContentLocationsGridActionTop" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsGridActionTop" lastModified="2014-07-22T13:48:17">
     <value>Top</value>
     <comment>Top</comment>
   </data>
-  <data name="ContentLocationsGridActionBottom" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsGridActionBottom" lastModified="2014-07-22T13:48:17">
     <value>Bottom</value>
     <comment>Bottom</comment>
   </data>
-  <data name="ContentLocationsManagementNodeTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsManagementNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Content Locations</value>
     <comment>Content locations management</comment>
   </data>
-  <data name="ContentLocationsManagementUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsManagementUrlName" lastModified="2014-07-22T13:48:17">
     <value>ContentLocations</value>
     <comment>ContentLocations</comment>
   </data>
-  <data name="ContentLocationsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsDescription" lastModified="2014-07-22T13:48:17">
     <value>You can manage the content locations priorities to identify the canonical url locations.</value>
     <comment>Content locations management</comment>
   </data>
-  <data name="ContentLocationsManagementTitleTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="ContentLocationsManagementTitleTemplate" lastModified="2014-07-22T13:48:17">
     <value>Pages where {0} items are published</value>
     <comment>Pages where {0} items are published</comment>
   </data>
-  <data name="Back" lastModified="2014-04-07T14:32:44">
+  <data name="Back" lastModified="2014-07-22T13:48:17">
     <value>Back</value>
     <comment>Phrase:Back</comment>
   </data>
-  <data name="NoLocationsForThisItem" lastModified="2014-04-07T14:32:44">
+  <data name="NoLocationsForThisItem" lastModified="2014-07-22T13:48:17">
     <value>No pages has been set to display content like this.</value>
     <comment>The message to show when the grid is empty.</comment>
   </data>

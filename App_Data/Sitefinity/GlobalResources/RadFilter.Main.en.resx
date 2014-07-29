@@ -117,183 +117,183 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadFilterMainTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadFilterMainTitle" lastModified="2014-07-22T13:48:17">
     <value>RadFilter Main</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="RadFilterMainTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="RadFilterMainTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>RadFilter Main</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="RadFilterMainDescription" lastModified="2014-04-07T14:32:44">
+  <data name="RadFilterMainDescription" lastModified="2014-07-22T13:48:17">
     <value>Resource strings for RadFilter.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+  <data name="ReservedResource" lastModified="2014-07-22T13:48:17">
     <value>Please do not remove this key.</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="AddExpressionToolTip" lastModified="2014-04-07T14:32:44">
+  <data name="AddExpressionToolTip" lastModified="2014-07-22T13:48:17">
     <value>Add Expression</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="AddGroupToolTip" lastModified="2014-04-07T14:32:44">
+  <data name="AddGroupToolTip" lastModified="2014-07-22T13:48:17">
     <value>Add Group</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="ApplyButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="ApplyButtonText" lastModified="2014-07-22T13:48:17">
     <value>Apply</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="BetweenDelimeterText" lastModified="2014-04-07T14:32:44">
+  <data name="BetweenDelimeterText" lastModified="2014-07-22T13:48:17">
     <value>And</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionBetween" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionBetween" lastModified="2014-07-22T13:48:17">
     <value>Between</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionContains" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionContains" lastModified="2014-07-22T13:48:17">
     <value>Contains</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionDoesNotContain" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionDoesNotContain" lastModified="2014-07-22T13:48:17">
     <value>DoesNotContain</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionEndsWith" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionEndsWith" lastModified="2014-07-22T13:48:17">
     <value>EndsWith</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionEqualTo" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionEqualTo" lastModified="2014-07-22T13:48:17">
     <value>EqualTo</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionGreaterThan" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionGreaterThan" lastModified="2014-07-22T13:48:17">
     <value>GreaterThan</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionGreaterThanOrEqualTo" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionGreaterThanOrEqualTo" lastModified="2014-07-22T13:48:17">
     <value>GreaterThanOrEqualTo</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionIsEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionIsEmpty" lastModified="2014-07-22T13:48:17">
     <value>IsEmpty</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionIsNull" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionIsNull" lastModified="2014-07-22T13:48:17">
     <value>IsNull</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionLessThan" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionLessThan" lastModified="2014-07-22T13:48:17">
     <value>LessThan</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionLessThanOrEqualTo" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionLessThanOrEqualTo" lastModified="2014-07-22T13:48:17">
     <value>LessThanOrEqualTo</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionNotBetween" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionNotBetween" lastModified="2014-07-22T13:48:17">
     <value>NotBetween</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionNotEqualTo" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionNotEqualTo" lastModified="2014-07-22T13:48:17">
     <value>NotEqualTo</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionNotIsEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionNotIsEmpty" lastModified="2014-07-22T13:48:17">
     <value>NotIsEmpty</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionNotIsNull" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionNotIsNull" lastModified="2014-07-22T13:48:17">
     <value>NotIsNull</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="FilterFunctionStartsWith" lastModified="2014-04-07T14:32:44">
+  <data name="FilterFunctionStartsWith" lastModified="2014-07-22T13:48:17">
     <value>StartsWith</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="GroupOperationAnd" lastModified="2014-04-07T14:32:44">
+  <data name="GroupOperationAnd" lastModified="2014-07-22T13:48:17">
     <value>And</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="GroupOperationNotAnd" lastModified="2014-04-07T14:32:44">
+  <data name="GroupOperationNotAnd" lastModified="2014-07-22T13:48:17">
     <value>Not And</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="GroupOperationNotOr" lastModified="2014-04-07T14:32:44">
+  <data name="GroupOperationNotOr" lastModified="2014-07-22T13:48:17">
     <value>Not Or</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="GroupOperationOr" lastModified="2014-04-07T14:32:44">
+  <data name="GroupOperationOr" lastModified="2014-07-22T13:48:17">
     <value>Or</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="RemoveToolTip" lastModified="2014-04-07T14:32:44">
+  <data name="RemoveToolTip" lastModified="2014-07-22T13:48:17">
     <value>Remove Item</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderBetweenText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderBetweenText" lastModified="2014-07-22T13:48:17">
     <value>Between</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderContainsText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderContainsText" lastModified="2014-07-22T13:48:17">
     <value>Contains</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderDoesNotContainText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderDoesNotContainText" lastModified="2014-07-22T13:48:17">
     <value>Does Not Contain</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderEndsWithText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderEndsWithText" lastModified="2014-07-22T13:48:17">
     <value>Ends With</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderEqualToText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderEqualToText" lastModified="2014-07-22T13:48:17">
     <value>=</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderGreaterThanOrEqualToText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderGreaterThanOrEqualToText" lastModified="2014-07-22T13:48:17">
     <value>&gt;=</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderGreaterThanText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderGreaterThanText" lastModified="2014-07-22T13:48:17">
     <value>&gt;</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderIsEmptyText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderIsEmptyText" lastModified="2014-07-22T13:48:17">
     <value>Is Empty</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderIsNullText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderIsNullText" lastModified="2014-07-22T13:48:17">
     <value>Is Null</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderLessThanOrEqualToText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderLessThanOrEqualToText" lastModified="2014-07-22T13:48:17">
     <value>&lt;=</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderLessThanText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderLessThanText" lastModified="2014-07-22T13:48:17">
     <value>&lt;</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderNotBetweenText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderNotBetweenText" lastModified="2014-07-22T13:48:17">
     <value>NotBetween</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderNotEqualToText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderNotEqualToText" lastModified="2014-07-22T13:48:17">
     <value>&lt;&gt;</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderNotIsEmptyText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderNotIsEmptyText" lastModified="2014-07-22T13:48:17">
     <value>Is Not Empty</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderNotIsNullText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderNotIsNullText" lastModified="2014-07-22T13:48:17">
     <value>Is Not Null</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>
-  <data name="PreviewProviderStartsWithText" lastModified="2014-04-07T14:32:44">
+  <data name="PreviewProviderStartsWithText" lastModified="2014-07-22T13:48:17">
     <value>Starts With</value>
     <comment>RadFilterMain resource strings.</comment>
   </data>

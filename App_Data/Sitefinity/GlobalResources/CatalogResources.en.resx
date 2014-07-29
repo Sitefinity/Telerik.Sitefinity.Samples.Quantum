@@ -129,1572 +129,1624 @@
     <value>Size of image preview</value>
     <comment>The text for the Select image preview dropdown</comment>
   </data>
-  <data name="ModuleDescription" lastModified="2014-04-07T14:32:43">
+  <data name="ModuleDescription" lastModified="2014-07-22T13:48:17">
     <value>Catalog module used to manage products for the ecommerce module.</value>
     <comment>Description of the catalog module.</comment>
   </data>
-  <data name="ProductTypeName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductTypeName" lastModified="2014-07-22T13:48:17">
     <value>Product</value>
     <comment>word: Product</comment>
   </data>
-  <data name="ProductPluralTypeName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductPluralTypeName" lastModified="2014-07-22T13:48:17">
     <value>Products</value>
     <comment>word: Products</comment>
   </data>
-  <data name="ProductTitlePluralCannotBeEmpty" lastModified="2014-04-07T14:32:43">
+  <data name="ProductTitlePluralCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>You must enter the plural name for the Product Type.</value>
     <comment>Phrase: You must enter the plural name for the Product Type.</comment>
   </data>
-  <data name="ProductsDetailViewFriendlyName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsDetailViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Product Details</value>
     <comment>phrase: Product Details</comment>
   </data>
-  <data name="ProductsMasterViewFriendlyName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsMasterViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Products List</value>
     <comment>phrase: Products List</comment>
   </data>
-  <data name="ProductsCatalogNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsCatalogNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Products catalog</value>
     <comment>Title of the products catalog node.</comment>
   </data>
-  <data name="ProductsCatalogNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsCatalogNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>products-catalog</value>
     <comment>Url name of the products catalog node.</comment>
   </data>
-  <data name="ProductsNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Products</value>
     <comment>Title of the products node.</comment>
   </data>
-  <data name="ProductsNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>products</value>
     <comment>Url name of the products node.</comment>
   </data>
-  <data name="TypesOfProductsNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="TypesOfProductsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Types of products</value>
     <comment>Title of the types of products node.</comment>
   </data>
-  <data name="TypesOfProductsNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="TypesOfProductsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>types-of-products</value>
     <comment>Url name of the types of products node.</comment>
   </data>
-  <data name="ManufacturersNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ManufacturersNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Manufacturers</value>
     <comment>Title of the manufacturers node.</comment>
   </data>
-  <data name="ManufacturersNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ManufacturersNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>manufacturers</value>
     <comment>Url name of the manufacturers node.</comment>
   </data>
-  <data name="DepartmentsNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="DepartmentsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Departments</value>
     <comment>Title of the departments node.</comment>
   </data>
-  <data name="DepartmentsNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="DepartmentsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>departments</value>
     <comment>Url name of the departments node.</comment>
   </data>
-  <data name="ProductAttributesNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributesNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Attributes (size, color, etc.)</value>
     <comment>Title of the product attributes node.</comment>
   </data>
-  <data name="ProductAttributesNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributesNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>product-attributes</value>
     <comment>Url name of the product attributes node.</comment>
   </data>
-  <data name="ProductAddOnsNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAddOnsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Add-ons</value>
     <comment>Title of the product add-ons node.</comment>
   </data>
-  <data name="ProductAddOnsNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAddOnsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>add-ons</value>
     <comment>Url name of the product add-ons node.</comment>
   </data>
-  <data name="ProductReviewsNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductReviewsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Reviews</value>
     <comment>Title of the product reviews node.</comment>
   </data>
-  <data name="ProductReviewsNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductReviewsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>reviews</value>
     <comment>Url name of the product reviews node.</comment>
   </data>
-  <data name="Delete" lastModified="2014-04-07T14:32:43">
+  <data name="Delete" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>word: Delete</comment>
   </data>
-  <data name="Publish" lastModified="2014-04-07T14:32:43">
+  <data name="Publish" lastModified="2014-07-22T13:48:17">
     <value>Publish</value>
     <comment>word: Publish</comment>
   </data>
-  <data name="Unpublish" lastModified="2014-04-07T14:32:43">
+  <data name="Unpublish" lastModified="2014-07-22T13:48:17">
     <value>Unpublish</value>
     <comment>word: Unpublish</comment>
   </data>
-  <data name="Products" lastModified="2014-04-07T14:32:43">
+  <data name="Products" lastModified="2014-07-22T13:48:17">
     <value>Products</value>
     <comment>word: Products</comment>
   </data>
-  <data name="ProductsLower" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsLower" lastModified="2014-07-22T13:48:17">
     <value>products</value>
     <comment>word: products</comment>
   </data>
-  <data name="CreateProduct" lastModified="2014-04-07T14:32:43">
+  <data name="CreateProduct" lastModified="2014-07-22T13:48:17">
     <value>Create product</value>
     <comment>phrase: Create product</comment>
   </data>
-  <data name="CreateThisProduct" lastModified="2014-04-07T14:32:43">
+  <data name="CreateThisProduct" lastModified="2014-07-22T13:48:17">
     <value>Create this product</value>
     <comment>phrase: Create this product</comment>
   </data>
-  <data name="CreateAProduct" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAProduct" lastModified="2014-07-22T13:48:17">
     <value>Create a product</value>
     <comment>phrase: Create a product</comment>
   </data>
-  <data name="BackToProducts" lastModified="2014-04-07T14:32:43">
+  <data name="BackToProducts" lastModified="2014-07-22T13:48:17">
     <value>Back to products</value>
     <comment>phrase: Back to products</comment>
   </data>
-  <data name="BackToItems" lastModified="2014-04-07T14:32:43">
+  <data name="BackToItems" lastModified="2014-07-22T13:48:17">
     <value>Back to products</value>
     <comment>phrase: Back to products</comment>
   </data>
-  <data name="PermissionsForProducts" lastModified="2014-04-07T14:32:43">
+  <data name="PermissionsForProducts" lastModified="2014-07-22T13:48:17">
     <value>Permissions for products</value>
     <comment>phrase: Permissions for products</comment>
   </data>
-  <data name="Title" lastModified="2014-04-07T14:32:43">
+  <data name="Title" lastModified="2014-07-22T13:48:17">
     <value>Title</value>
     <comment>The label for product title.</comment>
   </data>
-  <data name="Description" lastModified="2014-04-07T14:32:43">
+  <data name="Description" lastModified="2014-07-22T13:48:17">
     <value>Description</value>
     <comment>The label for the product description.</comment>
   </data>
-  <data name="Weight" lastModified="2014-04-07T14:32:43">
+  <data name="Weight" lastModified="2014-07-22T13:48:17">
     <value>Weight</value>
     <comment>word: Weight</comment>
   </data>
-  <data name="Price" lastModified="2014-04-07T14:32:43">
+  <data name="Price" lastModified="2014-07-22T13:48:17">
     <value>Price</value>
     <comment>word: Price</comment>
   </data>
-  <data name="Sale" lastModified="2014-04-07T14:32:43">
+  <data name="Sale" lastModified="2014-07-22T13:48:17">
     <value>Sale</value>
     <comment>word: Sale</comment>
   </data>
-  <data name="Was" lastModified="2014-04-07T14:32:43">
+  <data name="Was" lastModified="2014-07-22T13:48:17">
     <value>Was</value>
     <comment>word: Was</comment>
   </data>
-  <data name="SaleOptions" lastModified="2014-04-07T14:32:43">
+  <data name="SaleOptions" lastModified="2014-07-22T13:48:17">
     <value>Sale options</value>
     <comment>phrase: Sale options</comment>
   </data>
-  <data name="SalePrice" lastModified="2014-04-07T14:32:43">
+  <data name="SalePrice" lastModified="2014-07-22T13:48:17">
     <value>Sale price</value>
     <comment>phrase: Sale Price</comment>
   </data>
-  <data name="SalePriceIsInvalid" lastModified="2014-04-07T14:32:43">
+  <data name="SalePriceIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>Sale price is invalid</value>
     <comment>phrase: Sale price is invalid</comment>
   </data>
-  <data name="SaleStartDate" lastModified="2014-04-07T14:32:43">
+  <data name="SaleStartDate" lastModified="2014-07-22T13:48:17">
     <value>Sale start date</value>
     <comment>phrase: Sale Start Date</comment>
   </data>
-  <data name="SaleStartDateIsInvalid" lastModified="2014-04-07T14:32:43">
+  <data name="SaleStartDateIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>Sale start date is invalid</value>
     <comment>phrase: Sale start date is invalid</comment>
   </data>
-  <data name="SaleEndDate" lastModified="2014-04-07T14:32:43">
+  <data name="SaleEndDate" lastModified="2014-07-22T13:48:17">
     <value>Sale end date</value>
     <comment>phrase: Sale End Date</comment>
   </data>
-  <data name="SaleEndDateIsInvalid" lastModified="2014-04-07T14:32:43">
+  <data name="SaleEndDateIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>Sale end date is invalid</value>
     <comment>phrase: Sale end date is invalid</comment>
   </data>
-  <data name="SaleEndDateShouldNotBeEarlierThanStartDate" lastModified="2014-04-07T14:32:43">
+  <data name="SaleEndDateShouldNotBeEarlierThanStartDate" lastModified="2014-07-22T13:48:17">
     <value>Sale end date cannot be set earlier than its start date.</value>
     <comment>Message: Sale end date cannot be set earlier than its start date.</comment>
   </data>
-  <data name="IsTaxable" lastModified="2014-04-07T14:32:43">
+  <data name="IsTaxable" lastModified="2014-07-22T13:48:17">
     <value>This price is taxable</value>
     <comment>phrase: This price is taxable</comment>
   </data>
-  <data name="IsVatTaxable" lastModified="2014-04-07T14:32:43">
+  <data name="IsVatTaxable" lastModified="2014-07-22T13:48:17">
     <value>This price is VAT taxable</value>
     <comment>phrase: This price is VAT taxable</comment>
   </data>
-  <data name="VatIncluded" lastModified="2014-04-07T14:32:43">
+  <data name="VatIncluded" lastModified="2014-07-22T13:48:17">
     <value>(incl&amp;nbsp;Tax)</value>
     <comment>phrase: (incl Tax)</comment>
   </data>
-  <data name="SelectTax" lastModified="2014-04-07T14:32:43">
+  <data name="SelectTax" lastModified="2014-07-22T13:48:17">
     <value>-- Select a tax --</value>
     <comment>phrase: Select a tax</comment>
   </data>
-  <data name="Tax" lastModified="2014-04-07T14:32:43">
+  <data name="Tax" lastModified="2014-07-22T13:48:17">
     <value>Tax</value>
     <comment>word: Tax</comment>
   </data>
-  <data name="TaxClass" lastModified="2014-04-07T14:32:43">
+  <data name="TaxClass" lastModified="2014-07-22T13:48:17">
     <value>Tax class</value>
     <comment>word: Tax class</comment>
   </data>
-  <data name="Sku" lastModified="2014-04-07T14:32:43">
+  <data name="Sku" lastModified="2014-07-22T13:48:17">
     <value>SKU (Stock Keeping Unit)</value>
     <comment>phrase: SKU (Stock Keeping Unit)</comment>
   </data>
-  <data name="SkuLarge" lastModified="2014-04-07T14:32:43">
+  <data name="SkuLarge" lastModified="2014-07-22T13:48:17">
     <value>SKU</value>
     <comment>SKU</comment>
   </data>
-  <data name="Images" lastModified="2014-04-07T14:32:43">
+  <data name="Images" lastModified="2014-07-22T13:48:17">
     <value>Images</value>
     <comment>word: Images</comment>
   </data>
-  <data name="DeleteThisItem" lastModified="2014-04-07T14:32:43">
+  <data name="DeleteThisItem" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>word: Delete</comment>
   </data>
-  <data name="SaveChanges" lastModified="2014-04-07T14:32:43">
+  <data name="SaveChanges" lastModified="2014-07-22T13:48:17">
     <value>Save changes</value>
     <comment>word: Save changes</comment>
   </data>
-  <data name="EditAProduct" lastModified="2014-04-07T14:32:43">
+  <data name="EditAProduct" lastModified="2014-07-22T13:48:17">
     <value>Edit a product</value>
     <comment>phrase: Edit a product</comment>
   </data>
-  <data name="Actions" lastModified="2014-04-07T14:32:43">
+  <data name="Actions" lastModified="2014-07-22T13:48:17">
     <value>Actions</value>
     <comment>word: Actions</comment>
   </data>
-  <data name="NoProductsHaveBeenCreatedYetCreateA" lastModified="2014-04-07T14:32:43">
+  <data name="NoProductsHaveBeenCreatedYetCreateA" lastModified="2014-07-22T13:48:17">
     <value>No products have been created yet&lt;h2&gt;Create a...&lt;/h2&gt;</value>
     <comment>The message shown when no products have yet been created.</comment>
   </data>
-  <data name="ProductsViewToolboxName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsViewToolboxName" lastModified="2014-07-22T13:48:17">
     <value>Product list</value>
     <comment>Title of the products view widget in the toolbox.</comment>
   </data>
-  <data name="ProductsViewToolboxDescription" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsViewToolboxDescription" lastModified="2014-07-22T13:48:17">
     <value>List of products with options to buy them</value>
     <comment>Description of the products view widget in the toolbox.</comment>
   </data>
-  <data name="DepartmentControlToolboxName" lastModified="2014-04-07T14:32:43">
+  <data name="DepartmentControlToolboxName" lastModified="2014-07-22T13:48:17">
     <value>Departments</value>
     <comment>Title of the Department Control widget in the toolbox.</comment>
   </data>
-  <data name="Departments" lastModified="2014-04-07T14:32:43">
+  <data name="Departments" lastModified="2014-07-22T13:48:17">
     <value>Departments</value>
     <comment>word: Departments</comment>
   </data>
-  <data name="Categories" lastModified="2014-04-07T14:32:43">
+  <data name="Categories" lastModified="2014-07-22T13:48:17">
     <value>Categories</value>
     <comment>word</comment>
   </data>
-  <data name="Tags" lastModified="2014-04-07T14:32:43">
+  <data name="Tags" lastModified="2014-07-22T13:48:17">
     <value>Tags</value>
     <comment>word</comment>
   </data>
-  <data name="BuyNowViewToolboxName" lastModified="2014-04-07T14:32:43">
+  <data name="BuyNowViewToolboxName" lastModified="2014-07-22T13:48:17">
     <value>Buy now</value>
     <comment>Title of the buy now view widget in the toolbox.</comment>
   </data>
-  <data name="BuyNowViewToolboxDescription" lastModified="2014-04-07T14:32:43">
+  <data name="BuyNowViewToolboxDescription" lastModified="2014-07-22T13:48:17">
     <value>Custom 'Buy now' button that can be used with different type of content (not only with products)</value>
     <comment>Description of the buy now view widget in the toolbox.</comment>
   </data>
-  <data name="BuyNowViewFriendlyName" lastModified="2014-04-07T14:32:43">
+  <data name="BuyNowViewFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Buy now</value>
     <comment>phrase: Buy now</comment>
   </data>
-  <data name="FilterProductsFriendlyName" lastModified="2014-04-07T14:32:43">
+  <data name="FilterProductsFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Filter products</value>
     <comment>phrase: Filter products</comment>
   </data>
-  <data name="ProductFilterTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductFilterTitle" lastModified="2014-07-22T13:48:17">
     <value>Filter products</value>
     <comment>phrase: Filter products</comment>
   </data>
-  <data name="ProductDocumentsAndFilesFriendlyName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductDocumentsAndFilesFriendlyName" lastModified="2014-07-22T13:48:17">
     <value>Product Documents And Files</value>
     <comment>phrase: Product Documents And Files</comment>
   </data>
-  <data name="MoreOptions" lastModified="2014-04-07T14:32:43">
+  <data name="MoreOptions" lastModified="2014-07-22T13:48:17">
     <value>More options</value>
     <comment>phrase: More options</comment>
   </data>
-  <data name="ProductUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductUrlName" lastModified="2014-07-22T13:48:17">
     <value>URL</value>
     <comment>The title of the product url name property.</comment>
   </data>
-  <data name="ProductUrlNameCannotBeEmpty" lastModified="2014-04-07T14:32:43">
+  <data name="ProductUrlNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The url name of the product cannot be empty.</value>
     <comment>The message which warns user that url name of the product cannot be left empty.</comment>
   </data>
-  <data name="ProductUrlNameInvalidSymbols" lastModified="2014-04-07T14:32:43">
+  <data name="ProductUrlNameInvalidSymbols" lastModified="2014-07-22T13:48:17">
     <value>The url name of the product has some invalid characters.</value>
     <comment>The message which warns user that url name of the product has some invalid characters.</comment>
   </data>
-  <data name="ProductTitleCannotBeEmpty" lastModified="2014-04-07T14:32:43">
+  <data name="ProductTitleCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The title of the product must be set</value>
     <comment>The message shown to user if no title for the product has been entered.</comment>
   </data>
-  <data name="ProductTitleTooLong" lastModified="2014-04-07T14:32:43">
+  <data name="ProductTitleTooLong" lastModified="2014-07-22T13:48:17">
     <value>The length of the product title cannot be longer than 255 characters.</value>
     <comment>The message shown to user if the title is longer than 255 characters.</comment>
   </data>
-  <data name="ProductPriceCannotBeNegative" lastModified="2014-04-07T14:32:43">
+  <data name="ProductPriceCannotBeNegative" lastModified="2014-07-22T13:48:17">
     <value>The price of the product cannot be negative.</value>
     <comment>The message shown to the user if the price of the product is negative.</comment>
   </data>
-  <data name="ProductWeightCannotBeNegative" lastModified="2014-04-07T14:32:43">
+  <data name="ProductWeightCannotBeNegative" lastModified="2014-07-22T13:48:17">
     <value>The weight of the product cannot be less than zero.</value>
     <comment>The message shown to the user if the weight of the product is negative.</comment>
   </data>
-  <data name="ProductPriceIsInvalid" lastModified="2014-04-07T14:32:43">
+  <data name="ProductPriceIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The price of the product must be a numeric value which is greater than or equal to 0 and less than 100,000,000.00; use dot "." for decimal separator; at most 2 digits are allowed right from the decimal separator.</value>
     <comment>The message shown to the user if the price of the product is not valid.</comment>
   </data>
-  <data name="ProductWeightIsInvalid" lastModified="2014-04-07T14:32:43">
+  <data name="ProductWeightIsInvalid" lastModified="2014-07-22T13:48:17">
     <value>The weight of the product must be a numeric value which is greater than 0; use dot "." for decimal separator; at most 2 digits are allowed right from the decimal separator.</value>
     <comment>The message shown to the user if the weight of the product is not valid.</comment>
   </data>
-  <data name="UploadOrSelectAnImage" lastModified="2014-04-07T14:32:43">
+  <data name="UploadOrSelectAnImage" lastModified="2014-07-22T13:48:17">
     <value>Upload or select an image...</value>
     <comment>The text for the 'Upload or select an image...' button.</comment>
   </data>
-  <data name="ItemsPerPage" lastModified="2014-04-07T14:32:43">
+  <data name="ItemsPerPage" lastModified="2014-07-22T13:48:17">
     <value>Items per page:</value>
     <comment>Phrase: Items per page:</comment>
   </data>
-  <data name="ViewAll" lastModified="2014-04-07T14:32:43">
+  <data name="ViewAll" lastModified="2014-07-22T13:48:17">
     <value>View All</value>
     <comment>Phrase: View All</comment>
   </data>
-  <data name="IsActive" lastModified="2014-04-07T14:32:43">
+  <data name="IsActive" lastModified="2014-07-22T13:48:17">
     <value>This product is active</value>
     <comment>phrase: This product is active</comment>
   </data>
-  <data name="ProductsForCount" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsForCount" lastModified="2014-07-22T13:48:17">
     <value>products</value>
     <comment>word: products</comment>
   </data>
-  <data name="ProductForCount" lastModified="2014-04-07T14:32:43">
+  <data name="ProductForCount" lastModified="2014-07-22T13:48:17">
     <value>product</value>
     <comment>word: product</comment>
   </data>
-  <data name="WhichItemsToDisplay" lastModified="2014-04-07T14:32:43">
+  <data name="WhichItemsToDisplay" lastModified="2014-07-22T13:48:17">
     <value>Which items to display?</value>
     <comment>phrase: Which items to display?</comment>
   </data>
-  <data name="ItemsCustomSelection" lastModified="2014-04-07T14:32:43">
+  <data name="ItemsCustomSelection" lastModified="2014-07-22T13:48:17">
     <value>Custom selection of items</value>
     <comment>phrase: Custom selection of items</comment>
   </data>
-  <data name="ManageFilterOptions" lastModified="2014-04-07T14:32:43">
+  <data name="ManageFilterOptions" lastModified="2014-07-22T13:48:17">
     <value>Manage filter options</value>
     <comment>phrase: Manage filter options</comment>
   </data>
-  <data name="CatalogNodeName" lastModified="2014-04-07T14:32:43">
+  <data name="CatalogNodeName" lastModified="2014-07-22T13:48:17">
     <value>Catalog</value>
     <comment></comment>
   </data>
-  <data name="CatalogNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="CatalogNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Catalog</value>
     <comment></comment>
   </data>
-  <data name="CatalogNodeDescription" lastModified="2014-04-07T14:32:43">
+  <data name="CatalogNodeDescription" lastModified="2014-07-22T13:48:17">
     <value>Catalog module</value>
     <comment></comment>
   </data>
-  <data name="ModuleTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ModuleTitle" lastModified="2014-07-22T13:48:17">
     <value>Catalog</value>
     <comment></comment>
   </data>
-  <data name="BackToAllProducts" lastModified="2014-04-07T14:32:43">
+  <data name="BackToAllProducts" lastModified="2014-07-22T13:48:17">
     <value>Back to all products</value>
     <comment></comment>
   </data>
-  <data name="SetPermissions" lastModified="2014-04-07T14:32:43">
+  <data name="SetPermissions" lastModified="2014-07-22T13:48:17">
     <value>Set permissions</value>
     <comment></comment>
   </data>
-  <data name="CreateVendor" lastModified="2014-04-07T14:32:43">
+  <data name="CreateVendor" lastModified="2014-07-22T13:48:17">
     <value>Create this vendor</value>
     <comment></comment>
   </data>
-  <data name="BackToAllVendors" lastModified="2014-04-07T14:32:43">
+  <data name="BackToAllVendors" lastModified="2014-07-22T13:48:17">
     <value>Back to all vendors</value>
     <comment></comment>
   </data>
-  <data name="ManageCatalogModule" lastModified="2014-04-07T14:32:43">
+  <data name="ManageCatalogModule" lastModified="2014-07-22T13:48:17">
     <value>Manage catalog module</value>
     <comment></comment>
   </data>
-  <data name="Manage" lastModified="2014-04-07T14:32:43">
+  <data name="Manage" lastModified="2014-07-22T13:48:17">
     <value>Manage</value>
     <comment></comment>
   </data>
-  <data name="ManageProducts" lastModified="2014-04-07T14:32:43">
+  <data name="ManageProducts" lastModified="2014-07-22T13:48:17">
     <value>Manage Products</value>
     <comment>phrase: Manage Products</comment>
   </data>
-  <data name="VendorsNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="VendorsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Vendors</value>
     <comment></comment>
   </data>
-  <data name="ProductsTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsTitle" lastModified="2014-07-22T13:48:17">
     <value>Products</value>
     <comment></comment>
   </data>
-  <data name="EditProductsViewSettings" lastModified="2014-04-07T14:32:43">
+  <data name="EditProductsViewSettings" lastModified="2014-07-22T13:48:17">
     <value>EditProductsViewSettings</value>
     <comment></comment>
   </data>
-  <data name="BuyNowPropertyEditorTitle" lastModified="2014-04-07T14:32:43">
+  <data name="BuyNowPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Edit Buy Now</value>
     <comment></comment>
   </data>
-  <data name="ProductsViewPropertyEditorTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsViewPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Product list</value>
     <comment></comment>
   </data>
-  <data name="DepartmentsPropertyEditorTitle" lastModified="2014-04-07T14:32:43">
+  <data name="DepartmentsPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Departments</value>
     <comment></comment>
   </data>
-  <data name="FilterProductsPropertyEditorTitle" lastModified="2014-04-07T14:32:43">
+  <data name="FilterProductsPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Filter products</value>
     <comment></comment>
   </data>
-  <data name="ProductsViewTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsViewTitle" lastModified="2014-07-22T13:48:17">
     <value>Products View</value>
     <comment></comment>
   </data>
-  <data name="CatalogWidgetsSectionTitle" lastModified="2014-04-07T14:32:43">
+  <data name="CatalogWidgetsSectionTitle" lastModified="2014-07-22T13:48:17">
     <value>Catalog</value>
     <comment></comment>
   </data>
-  <data name="ManageAlso" lastModified="2014-04-07T14:32:43">
+  <data name="ManageAlso" lastModified="2014-07-22T13:48:17">
     <value>Settings for products</value>
     <comment></comment>
   </data>
-  <data name="Permissions" lastModified="2014-04-07T14:32:43">
+  <data name="Permissions" lastModified="2014-07-22T13:48:17">
     <value>Permissions</value>
     <comment></comment>
   </data>
-  <data name="ProductCustomFields" lastModified="2014-04-07T14:32:43">
+  <data name="ProductCustomFields" lastModified="2014-07-22T13:48:17">
     <value>Set custom fields for products</value>
     <comment></comment>
   </data>
-  <data name="ProductsByCategory" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsByCategory" lastModified="2014-07-22T13:48:17">
     <value>Products by Category</value>
     <comment></comment>
   </data>
-  <data name="FilterProducts" lastModified="2014-04-07T14:32:43">
+  <data name="FilterProducts" lastModified="2014-07-22T13:48:17">
     <value>Filter products</value>
     <comment>phrase: Filter products</comment>
   </data>
-  <data name="PackageSizeByTag" lastModified="2014-04-07T14:32:43">
+  <data name="PackageSizeByTag" lastModified="2014-07-22T13:48:17">
     <value>Package size by tag</value>
     <comment>Phrase: Package size by tag</comment>
   </data>
-  <data name="ProductsByVendor" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsByVendor" lastModified="2014-07-22T13:48:17">
     <value>Products by Vendor</value>
     <comment></comment>
   </data>
-  <data name="CloseVendors" lastModified="2014-04-07T14:32:43">
+  <data name="CloseVendors" lastModified="2014-07-22T13:48:17">
     <value>Close Vendors</value>
     <comment></comment>
   </data>
-  <data name="ByVendor" lastModified="2014-04-07T14:32:43">
+  <data name="ByVendor" lastModified="2014-07-22T13:48:17">
     <value>by Vendor...</value>
     <comment></comment>
   </data>
-  <data name="ByDepartments" lastModified="2014-04-07T14:32:43">
+  <data name="ByDepartments" lastModified="2014-07-22T13:48:17">
     <value>by Departments</value>
     <comment>phrase: by Departments</comment>
   </data>
-  <data name="AllProducts" lastModified="2014-04-07T14:32:43">
+  <data name="AllProducts" lastModified="2014-07-22T13:48:17">
     <value>All products</value>
     <comment>Phrase: All products</comment>
   </data>
-  <data name="MyProducts" lastModified="2014-04-07T14:32:43">
+  <data name="MyProducts" lastModified="2014-07-22T13:48:17">
     <value>My products</value>
     <comment>The text of my products sidebar button</comment>
   </data>
-  <data name="ProductAttributes" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributes" lastModified="2014-07-22T13:48:17">
     <value>Attributes</value>
     <comment>Phrase: Product Attributes</comment>
   </data>
-  <data name="SameTemplateForAllProductTypes" lastModified="2014-04-07T14:32:43">
+  <data name="SameTemplateForAllProductTypes" lastModified="2014-07-22T13:48:17">
     <value>Same template for all product types...</value>
     <comment>Phrase: Same template for all product types...</comment>
   </data>
-  <data name="DifferentTemplateForEachProductType" lastModified="2014-04-07T14:32:43">
+  <data name="DifferentTemplateForEachProductType" lastModified="2014-07-22T13:48:17">
     <value>Different template for each product type...</value>
     <comment>Phrase: Different template for each product type...</comment>
   </data>
-  <data name="AllProductTypes" lastModified="2014-04-07T14:32:43">
+  <data name="AllProductTypes" lastModified="2014-07-22T13:48:17">
     <value>All Product Types</value>
     <comment>Phrase: All Product Types</comment>
   </data>
-  <data name="CreateAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAttribute" lastModified="2014-07-22T13:48:17">
     <value>Create this attribute</value>
     <comment></comment>
   </data>
-  <data name="ProductAttributeValues" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeValues" lastModified="2014-07-22T13:48:17">
     <value>Attribute Values</value>
     <comment></comment>
   </data>
-  <data name="AllowUsersToSetNumberOfItemsPerPage" lastModified="2014-04-07T14:32:43">
+  <data name="AllowUsersToSetNumberOfItemsPerPage" lastModified="2014-07-22T13:48:17">
     <value>Allow users to set number of items per page</value>
     <comment>phrase: Allow users to set number of items per page</comment>
   </data>
-  <data name="TaxCategoryRequired" lastModified="2014-04-07T14:32:43">
+  <data name="TaxCategoryRequired" lastModified="2014-07-22T13:48:17">
     <value>You must select a tax category.</value>
     <comment>phrase: TaxCategoryRequired</comment>
   </data>
-  <data name="SortByName" lastModified="2014-04-07T14:32:43">
+  <data name="SortByName" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Phrase: Sort by name</comment>
   </data>
-  <data name="SortByPriceDescending" lastModified="2014-04-07T14:32:43">
+  <data name="SortByPriceDescending" lastModified="2014-07-22T13:48:17">
     <value>Price: highest first</value>
     <comment>Phrase: Price (high to low)</comment>
   </data>
-  <data name="SortByPriceAscending" lastModified="2014-04-07T14:32:43">
+  <data name="SortByPriceAscending" lastModified="2014-07-22T13:48:17">
     <value>Price: lowest first</value>
     <comment>Phrase: Price (low to high)</comment>
   </data>
-  <data name="SortByDate" lastModified="2014-04-07T14:32:43">
+  <data name="SortByDate" lastModified="2014-07-22T13:48:17">
     <value>Newest first</value>
     <comment>Phrase: Newest first</comment>
   </data>
-  <data name="SortByRating" lastModified="2014-04-07T14:32:43">
+  <data name="SortByRating" lastModified="2014-07-22T13:48:17">
     <value>Rating</value>
     <comment>Phrase: Rating</comment>
   </data>
-  <data name="SortByFeatured" lastModified="2014-04-07T14:32:43">
+  <data name="SortByFeatured" lastModified="2014-07-22T13:48:17">
     <value>Featured</value>
     <comment>Phrase: Featured</comment>
   </data>
-  <data name="SortByBestSelling" lastModified="2014-04-07T14:32:43">
+  <data name="SortByBestSelling" lastModified="2014-07-22T13:48:17">
     <value>Best selling</value>
     <comment>Phrase: Best selling</comment>
   </data>
-  <data name="CreateProductType" lastModified="2014-04-07T14:32:43">
+  <data name="CreateProductType" lastModified="2014-07-22T13:48:17">
     <value>Create product type</value>
     <comment>phrase: Create product type</comment>
   </data>
-  <data name="ProductTypes" lastModified="2014-04-07T14:32:43">
+  <data name="ProductTypes" lastModified="2014-07-22T13:48:17">
     <value>Product types</value>
     <comment>phrase: Product types</comment>
   </data>
-  <data name="NoProductTypesHaveBeenCreatedYet" lastModified="2014-04-07T14:32:43">
+  <data name="NoProductTypesHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No product types have been created yet</value>
     <comment>phrase: No product types have been created yet</comment>
   </data>
-  <data name="CreateAProductType" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAProductType" lastModified="2014-07-22T13:48:17">
     <value>Create a type</value>
     <comment>phrase: Create a product type</comment>
   </data>
-  <data name="CreateThisProductType" lastModified="2014-04-07T14:32:43">
+  <data name="CreateThisProductType" lastModified="2014-07-22T13:48:17">
     <value>Create this product type and go define its fields</value>
     <comment>phrase: Create this product type</comment>
   </data>
-  <data name="BackToProductTypes" lastModified="2014-04-07T14:32:43">
+  <data name="BackToProductTypes" lastModified="2014-07-22T13:48:17">
     <value>Back to types</value>
     <comment>phrase: Back to product types</comment>
   </data>
-  <data name="NameSingular" lastModified="2014-04-07T14:32:43">
+  <data name="NameSingular" lastModified="2014-07-22T13:48:17">
     <value>Name (singular)</value>
     <comment>phrase: Name singular</comment>
   </data>
-  <data name="NameSingularExample" lastModified="2014-04-07T14:32:43">
+  <data name="NameSingularExample" lastModified="2014-07-22T13:48:17">
     <value>Example: Book</value>
     <comment>phrase: Example: Book</comment>
   </data>
-  <data name="NamePlural" lastModified="2014-04-07T14:32:43">
+  <data name="NamePlural" lastModified="2014-07-22T13:48:17">
     <value>Name (plural)</value>
     <comment>phrase: Name (plural)</comment>
   </data>
-  <data name="NamePluralExample" lastModified="2014-04-07T14:32:43">
+  <data name="NamePluralExample" lastModified="2014-07-22T13:48:17">
     <value>Example: Books. This will be used in filters.</value>
     <comment>phrase: Example: Books. This will be used in filters.</comment>
   </data>
-  <data name="Cancel" lastModified="2014-04-07T14:32:43">
+  <data name="Cancel" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>word: Cancel</comment>
   </data>
-  <data name="Type" lastModified="2014-04-07T14:32:43">
+  <data name="Type" lastModified="2014-07-22T13:48:17">
     <value>Type</value>
     <comment>word: Type</comment>
   </data>
-  <data name="ProductTypeProperties" lastModified="2014-04-07T14:32:43">
+  <data name="ProductTypeProperties" lastModified="2014-07-22T13:48:17">
     <value>Product type properties</value>
     <comment>phrase: Product type properties</comment>
   </data>
-  <data name="CreateA" lastModified="2014-04-07T14:32:43">
+  <data name="CreateA" lastModified="2014-07-22T13:48:17">
     <value>Create a...</value>
     <comment>phrase: Create a...</comment>
   </data>
-  <data name="SalePriceShouldBeLessThanPrice" lastModified="2014-04-07T14:32:43">
+  <data name="SalePriceShouldBeLessThanPrice" lastModified="2014-07-22T13:48:17">
     <value>Sale price should be less than price</value>
     <comment>phrase: Sale price should be less than price.</comment>
   </data>
-  <data name="RolePickerFieldTitle" lastModified="2014-04-07T14:32:43">
+  <data name="RolePickerFieldTitle" lastModified="2014-07-22T13:48:17">
     <value>Role: When someone orders this product assign them to this role</value>
     <comment>The title of the product role picker field</comment>
   </data>
-  <data name="RolePickerFieldDescription" lastModified="2014-04-07T14:32:43">
+  <data name="RolePickerFieldDescription" lastModified="2014-07-22T13:48:17">
     <value>Assigning users to a role allows you to give them specific permissions, e.g. only they can be allowed to download a file, to enter specific support resources, etc.</value>
     <comment>The description of the product role picker field.</comment>
   </data>
-  <data name="NoAssociatedRole" lastModified="2014-04-07T14:32:43">
+  <data name="NoAssociatedRole" lastModified="2014-07-22T13:48:17">
     <value>- no associated role -</value>
     <comment>phrase: - no associated role -</comment>
   </data>
-  <data name="DocumentsAndOtherFilesField" lastModified="2014-04-07T14:32:43">
+  <data name="DocumentsAndOtherFilesField" lastModified="2014-07-22T13:48:17">
     <value>Documents and other files</value>
     <comment>phrase: Documents and other files</comment>
   </data>
-  <data name="UploadOrSelectADocument" lastModified="2014-04-07T14:32:43">
+  <data name="UploadOrSelectADocument" lastModified="2014-07-22T13:48:17">
     <value>Upload or select a document...</value>
     <comment>phrase: Upload or select a document...</comment>
   </data>
-  <data name="ProductFilesAndDocuments" lastModified="2014-04-07T14:32:43">
+  <data name="ProductFilesAndDocuments" lastModified="2014-07-22T13:48:17">
     <value>Product files and documents</value>
     <comment>phrase: Product files and documents</comment>
   </data>
-  <data name="Inventory" lastModified="2014-04-07T14:32:43">
+  <data name="Inventory" lastModified="2014-07-22T13:48:17">
     <value>Inventory</value>
     <comment>Inventory</comment>
   </data>
-  <data name="TrackInventory" lastModified="2014-04-07T14:32:43">
+  <data name="TrackInventory" lastModified="2014-07-22T13:48:17">
     <value>Track inventory</value>
     <comment>phrase: Track inventory</comment>
   </data>
-  <data name="TrackInventoryByVariations" lastModified="2014-04-07T14:32:43">
+  <data name="TrackInventoryByVariations" lastModified="2014-07-22T13:48:17">
     <value>Track inventory by variations &lt;span class="sfNote"&gt;(if this product has variations)&lt;/span&gt;</value>
     <comment>phrase: Track inventory by variations</comment>
   </data>
-  <data name="DoNotTrackInventory" lastModified="2014-04-07T14:32:43">
+  <data name="DoNotTrackInventory" lastModified="2014-07-22T13:48:17">
     <value>Do not track inventory</value>
     <comment>phrase: Do not track inventory</comment>
   </data>
-  <data name="AllowUserToPurchaseEvenIfNoLongerInStock" lastModified="2014-04-07T14:32:43">
+  <data name="AllowUserToPurchaseEvenIfNoLongerInStock" lastModified="2014-07-22T13:48:17">
     <value>Allow users to purchase this item, even if it is no longer in stock</value>
     <comment>phrase: Allow users to purchase this item, even if it is no longer in stock</comment>
   </data>
-  <data name="InventoryViolationMessage" lastModified="2014-04-07T14:32:43">
+  <data name="InventoryViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>Inventory amount can only be a whole number.</value>
     <comment>phrase: Inventory amount can only be a whole number</comment>
   </data>
-  <data name="Availability" lastModified="2014-04-07T14:32:43">
+  <data name="Availability" lastModified="2014-07-22T13:48:17">
     <value>Availability</value>
     <comment>Availability</comment>
   </data>
-  <data name="InStock" lastModified="2014-04-07T14:32:43">
+  <data name="InStock" lastModified="2014-07-22T13:48:17">
     <value>In stock</value>
     <comment>InStock</comment>
   </data>
-  <data name="OutOfStock" lastModified="2014-04-07T14:32:43">
+  <data name="OutOfStock" lastModified="2014-07-22T13:48:17">
     <value>Out of stock</value>
     <comment>OutOfStock</comment>
   </data>
-  <data name="IfProductIsOutOfStock" lastModified="2014-04-07T14:32:43">
+  <data name="IfProductIsOutOfStock" lastModified="2014-07-22T13:48:17">
     <value>If this product is out of stock...</value>
     <comment>If this product is out of stock...</comment>
   </data>
-  <data name="IfVariationIsOutOfStock" lastModified="2014-04-07T14:32:43">
+  <data name="IfVariationIsOutOfStock" lastModified="2014-07-22T13:48:17">
     <value>If this variation is out of stock...</value>
     <comment>If this variation is out of stock...</comment>
   </data>
-  <data name="DisplayTheProduct" lastModified="2014-04-07T14:32:43">
+  <data name="DisplayTheProduct" lastModified="2014-07-22T13:48:17">
     <value>Display the product</value>
     <comment>Display the product</comment>
   </data>
-  <data name="DisplayTheVariation" lastModified="2014-04-07T14:32:43">
+  <data name="DisplayTheVariation" lastModified="2014-07-22T13:48:17">
     <value>Display the variation</value>
     <comment>Display the variation</comment>
   </data>
-  <data name="AllowOrdersEvenIfNotAvailable" lastModified="2014-04-07T14:32:43">
+  <data name="AllowOrdersEvenIfNotAvailable" lastModified="2014-07-22T13:48:17">
     <value>Allow orders even if not available</value>
     <comment>Allow orders even if not available</comment>
   </data>
-  <data name="NoTracking" lastModified="2014-04-07T14:32:43">
+  <data name="NoTracking" lastModified="2014-07-22T13:48:17">
     <value>No tracking</value>
     <comment>NoTracking</comment>
   </data>
-  <data name="TrackedOnVariations" lastModified="2014-04-07T14:32:43">
+  <data name="TrackedOnVariations" lastModified="2014-07-22T13:48:17">
     <value>Tracked on variations</value>
     <comment>TrackedOnVariations</comment>
   </data>
-  <data name="AvailableForPurchase" lastModified="2014-04-07T14:32:43">
+  <data name="AvailableForPurchase" lastModified="2014-07-22T13:48:17">
     <value>(Available for purchase)</value>
     <comment>Available for purchase</comment>
   </data>
-  <data name="VisibleOnTheSite" lastModified="2014-04-07T14:32:43">
+  <data name="VisibleOnTheSite" lastModified="2014-07-22T13:48:17">
     <value>(Visible on the site)</value>
     <comment>Visible on the site</comment>
   </data>
-  <data name="HiddenOnTheSite" lastModified="2014-04-07T14:32:43">
+  <data name="HiddenOnTheSite" lastModified="2014-07-22T13:48:17">
     <value>(Hidden on the site)</value>
     <comment>Hidden on the site</comment>
   </data>
-  <data name="Quantity" lastModified="2014-04-07T14:32:43">
+  <data name="Quantity" lastModified="2014-07-22T13:48:17">
     <value>Quantity</value>
     <comment>Quantity</comment>
   </data>
-  <data name="CreateProductAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="CreateProductAttribute" lastModified="2014-07-22T13:48:17">
     <value>Create an attribute</value>
     <comment>phrase: Create an attribute</comment>
   </data>
-  <data name="CreateAnProductAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAnProductAttribute" lastModified="2014-07-22T13:48:17">
     <value>Create an attribute</value>
     <comment>phrase: Create an attribute</comment>
   </data>
-  <data name="ThisProductAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="ThisProductAttribute" lastModified="2014-07-22T13:48:17">
     <value>This attribute is active</value>
     <comment>phrase: This attribute is active</comment>
   </data>
-  <data name="BackToProductAttributes" lastModified="2014-04-07T14:32:43">
+  <data name="BackToProductAttributes" lastModified="2014-07-22T13:48:17">
     <value>Back to attributes</value>
     <comment>phrase: Back to attributes</comment>
   </data>
-  <data name="EditAProductAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="EditAProductAttribute" lastModified="2014-07-22T13:48:17">
     <value>Edit an attribute</value>
     <comment>phrase: Edit an attribute</comment>
   </data>
-  <data name="ProductAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttribute" lastModified="2014-07-22T13:48:17">
     <value>Attribute</value>
     <comment>Attribute</comment>
   </data>
-  <data name="AttributeNameTooLong" lastModified="2014-04-07T14:32:43">
+  <data name="AttributeNameTooLong" lastModified="2014-07-22T13:48:17">
     <value>The length of the attribute name cannot be larger than 255 characters.</value>
     <comment>The message shown to user if the name is longer than 255 characters.</comment>
   </data>
-  <data name="AttributeNameCannotBeEmpty" lastModified="2014-04-07T14:32:43">
+  <data name="AttributeNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Attribute name cannot be empty</value>
     <comment>phrase: Attribute name cannot be empty</comment>
   </data>
-  <data name="NoProductAttributesHaveBeenCreatedYet" lastModified="2014-04-07T14:32:43">
+  <data name="NoProductAttributesHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No attributes have been created yet</value>
     <comment>phrase: No attributes have been created yet</comment>
   </data>
-  <data name="CreateAProductAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAProductAttribute" lastModified="2014-07-22T13:48:17">
     <value>Create an attribute</value>
     <comment>phrase: Create an attribute</comment>
   </data>
-  <data name="CreateThisProductAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="CreateThisProductAttribute" lastModified="2014-07-22T13:48:17">
     <value>Create this attribute</value>
     <comment>phrase: Create this attribute</comment>
   </data>
-  <data name="AttributeNameFieldControlExample" lastModified="2014-04-07T14:32:43">
+  <data name="AttributeNameFieldControlExample" lastModified="2014-07-22T13:48:17">
     <value>Example: Size</value>
     <comment>Example: Size</comment>
   </data>
-  <data name="AdvancedSection" lastModified="2014-04-07T14:32:43">
+  <data name="AdvancedSection" lastModified="2014-07-22T13:48:17">
     <value>Advanced</value>
     <comment>Advanced</comment>
   </data>
-  <data name="ProductAttributeInternalName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeInternalName" lastModified="2014-07-22T13:48:17">
     <value>For developers: name used in code</value>
     <comment>For developers: name used in code</comment>
   </data>
-  <data name="ProductAttributeInternalNameCannotBeEmpty" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeInternalNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The internal name of the attribute cannot be empty.</value>
     <comment>The internal name of the attribute cannot be empty.</comment>
   </data>
-  <data name="ProductAttributeInternalNameInvalidSymbols" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeInternalNameInvalidSymbols" lastModified="2014-07-22T13:48:17">
     <value>The internal name of the attribute has some invalid characters.</value>
     <comment>The internal name of the attribute has some invalid characters.</comment>
   </data>
-  <data name="ProductAttributeValuesNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeValuesNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Values of an attribute</value>
     <comment>Values of an attribute</comment>
   </data>
-  <data name="ProductAttributeValuesNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeValuesNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>attribute-values</value>
     <comment>Url name of the product attributes values node.</comment>
   </data>
-  <data name="ProductAttributeValuesUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeValuesUrlName" lastModified="2014-07-22T13:48:17">
     <value>AttributeValues</value>
     <comment>Product Attribute values URL name</comment>
   </data>
-  <data name="CreateProductAttributeValue" lastModified="2014-04-07T14:32:43">
+  <data name="CreateProductAttributeValue" lastModified="2014-07-22T13:48:17">
     <value>Create a value</value>
     <comment>phrase: Create a value</comment>
   </data>
-  <data name="NoProductAttributeValuesHaveBeenCreatedYet" lastModified="2014-04-07T14:32:43">
+  <data name="NoProductAttributeValuesHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No values have been created yet</value>
     <comment>phrase: No values have been created yet</comment>
   </data>
-  <data name="CreateAProductAttributeValue" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAProductAttributeValue" lastModified="2014-07-22T13:48:17">
     <value>Create a value</value>
     <comment>phrase: Create a value</comment>
   </data>
-  <data name="ThisProductAttributeValue" lastModified="2014-04-07T14:32:43">
+  <data name="ThisProductAttributeValue" lastModified="2014-07-22T13:48:17">
     <value>This value is active</value>
     <comment>phrase: This value is active</comment>
   </data>
-  <data name="BackToProductAttributeValues" lastModified="2014-04-07T14:32:43">
+  <data name="BackToProductAttributeValues" lastModified="2014-07-22T13:48:17">
     <value>Back to values</value>
     <comment>phrase: Back to values</comment>
   </data>
-  <data name="ProductValue" lastModified="2014-04-07T14:32:43">
+  <data name="ProductValue" lastModified="2014-07-22T13:48:17">
     <value>Value</value>
     <comment>Value</comment>
   </data>
-  <data name="ValueNameFieldControlExample" lastModified="2014-04-07T14:32:43">
+  <data name="ValueNameFieldControlExample" lastModified="2014-07-22T13:48:17">
     <value>Example: XL</value>
     <comment>Example: XL</comment>
   </data>
-  <data name="ValueTooLong" lastModified="2014-04-07T14:32:43">
+  <data name="ValueTooLong" lastModified="2014-07-22T13:48:17">
     <value>The length of the value cannot be larger than 255 characters.</value>
     <comment>The message shown to user if the value is longer than 255 characters.</comment>
   </data>
-  <data name="ValueCannotBeEmpty" lastModified="2014-04-07T14:32:43">
+  <data name="ValueCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Value cannot be empty</value>
     <comment>phrase: value cannot be empty</comment>
   </data>
-  <data name="ClickToAddDescription" lastModified="2014-04-07T14:32:43">
+  <data name="ClickToAddDescription" lastModified="2014-07-22T13:48:17">
     <value>Click to add description</value>
     <comment>The label for the product description expand link</comment>
   </data>
-  <data name="EditAProductAttributeValue" lastModified="2014-04-07T14:32:43">
+  <data name="EditAProductAttributeValue" lastModified="2014-07-22T13:48:17">
     <value>Edit a value</value>
     <comment>phrase: Edit a value</comment>
   </data>
-  <data name="GroupDeleteProductAttributeValues" lastModified="2014-04-07T14:32:43">
+  <data name="GroupDeleteProductAttributeValues" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>Delete</comment>
   </data>
-  <data name="ProductAttributeValuesTitleFormat" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeValuesTitleFormat" lastModified="2014-07-22T13:48:17">
     <value>&lt;em&gt;{0}&lt;/em&gt; values</value>
     <comment>Title format for the product attribute values.</comment>
   </data>
-  <data name="ViewAllAttributes" lastModified="2014-04-07T14:32:43">
+  <data name="ViewAllAttributes" lastModified="2014-07-22T13:48:17">
     <value>All attributes</value>
     <comment>All attributes</comment>
   </data>
-  <data name="Variations" lastModified="2014-04-07T14:32:43">
+  <data name="Variations" lastModified="2014-07-22T13:48:17">
     <value>Variations</value>
     <comment>Variations</comment>
   </data>
-  <data name="EditProductVariations" lastModified="2014-04-07T14:32:43">
+  <data name="EditProductVariations" lastModified="2014-07-22T13:48:17">
     <value>Variations</value>
     <comment>Variations</comment>
   </data>
-  <data name="Edit" lastModified="2014-04-07T14:32:43">
+  <data name="Edit" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Edit...&lt;/strong&gt;</value>
     <comment>word</comment>
   </data>
-  <data name="ProductVariations" lastModified="2014-04-07T14:32:43">
+  <data name="ProductVariations" lastModified="2014-07-22T13:48:17">
     <value>ProductVariations</value>
     <comment></comment>
   </data>
-  <data name="ProductVariationsNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductVariationsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Product Variations</value>
     <comment>Values of an attribute</comment>
   </data>
-  <data name="ProductVariationsNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductVariationsNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>product-variations</value>
     <comment>Url name of the product variations node.</comment>
   </data>
-  <data name="ProductVariationsUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductVariationsUrlName" lastModified="2014-07-22T13:48:17">
     <value>ProductVariations</value>
     <comment>Product variations URL name</comment>
   </data>
-  <data name="CreateProductVariation" lastModified="2014-04-07T14:32:43">
+  <data name="CreateProductVariation" lastModified="2014-07-22T13:48:17">
     <value>Create a variation</value>
     <comment>Create a variation</comment>
   </data>
-  <data name="NoProductVariationsHaveBeenCreatedYet" lastModified="2014-04-07T14:32:43">
+  <data name="NoProductVariationsHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;What are variations?&lt;/strong&gt; &lt;br /&gt; If this product is available in more than one size, color, material, etc., you need to create variations. Each variation can have different price, SKU, description, etc.</value>
     <comment></comment>
   </data>
-  <data name="CreateAProductVariation" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAProductVariation" lastModified="2014-07-22T13:48:17">
     <value>Create variations</value>
     <comment>Create variations</comment>
   </data>
-  <data name="ProductVariationsTitleFormat" lastModified="2014-04-07T14:32:43">
+  <data name="ProductVariationsTitleFormat" lastModified="2014-07-22T13:48:17">
     <value>&lt;em&gt;{0}&lt;/em&gt; variations</value>
     <comment>Title format for the product variations.</comment>
   </data>
-  <data name="CreateVariations" lastModified="2014-04-07T14:32:43">
+  <data name="CreateVariations" lastModified="2014-07-22T13:48:17">
     <value>Create variations</value>
     <comment>create variations</comment>
   </data>
-  <data name="ProductVariationsSKU" lastModified="2014-04-07T14:32:43">
+  <data name="ProductVariationsSKU" lastModified="2014-07-22T13:48:17">
     <value>SKU</value>
     <comment>Product Variations SKU</comment>
   </data>
-  <data name="AdditionalCharge" lastModified="2014-04-07T14:32:43">
+  <data name="AdditionalCharge" lastModified="2014-07-22T13:48:17">
     <value>Additional charge</value>
     <comment>Additional charge</comment>
   </data>
-  <data name="EditProductVariation" lastModified="2014-04-07T14:32:43">
+  <data name="EditProductVariation" lastModified="2014-07-22T13:48:17">
     <value>Edit Product variations</value>
     <comment>Edit Product variations</comment>
   </data>
-  <data name="ProductVariationsName" lastModified="2014-04-07T14:32:43">
+  <data name="ProductVariationsName" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Name</comment>
   </data>
-  <data name="EditAProductVariations" lastModified="2014-04-07T14:32:43">
+  <data name="EditAProductVariations" lastModified="2014-07-22T13:48:17">
     <value>Edit variations</value>
     <comment>Edit variations</comment>
   </data>
-  <data name="ThisProductHasVariationsBy" lastModified="2014-04-07T14:32:43">
+  <data name="ThisProductHasVariationsBy" lastModified="2014-07-22T13:48:17">
     <value>This product has variations by...</value>
     <comment>This product has variations by...</comment>
   </data>
-  <data name="AddAnotherAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="AddAnotherAttribute" lastModified="2014-07-22T13:48:17">
     <value>Add another attribute</value>
     <comment>Add another attribute</comment>
   </data>
-  <data name="SelectAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="SelectAttribute" lastModified="2014-07-22T13:48:17">
     <value>- Select attribute -</value>
     <comment>- Select attribute -</comment>
   </data>
-  <data name="SelectValue" lastModified="2014-04-07T14:32:43">
+  <data name="SelectValue" lastModified="2014-07-22T13:48:17">
     <value>- Select value -</value>
     <comment>- Select value -</comment>
   </data>
-  <data name="CreateAProductVariations" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAProductVariations" lastModified="2014-07-22T13:48:17">
     <value>Create a variation</value>
     <comment>Create a variation</comment>
   </data>
-  <data name="CreateVariation" lastModified="2014-04-07T14:32:43">
+  <data name="CreateVariation" lastModified="2014-07-22T13:48:17">
     <value>Create this variation</value>
     <comment></comment>
   </data>
-  <data name="ThisProductVariation" lastModified="2014-04-07T14:32:43">
+  <data name="ThisProductVariation" lastModified="2014-07-22T13:48:17">
     <value>This variation is active</value>
     <comment>phrase: This variation is active</comment>
   </data>
-  <data name="BackToProductVariations" lastModified="2014-04-07T14:32:43">
+  <data name="BackToProductVariations" lastModified="2014-07-22T13:48:17">
     <value>Back to variations</value>
     <comment>phrase: Back to variations</comment>
   </data>
-  <data name="ProductVariation" lastModified="2014-04-07T14:32:43">
+  <data name="ProductVariation" lastModified="2014-07-22T13:48:17">
     <value>Variation</value>
     <comment>Product Variation</comment>
   </data>
-  <data name="CreateThisProductVariation" lastModified="2014-04-07T14:32:43">
+  <data name="CreateThisProductVariation" lastModified="2014-07-22T13:48:17">
     <value>Create this variation</value>
     <comment>phrase: Create this variation</comment>
   </data>
-  <data name="ProductAttributeRequired" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeRequired" lastModified="2014-07-22T13:48:17">
     <value>You must select an attribute.</value>
     <comment>phrase: You must select an attribute</comment>
   </data>
-  <data name="ProductAttributeValueRequired" lastModified="2014-04-07T14:32:43">
+  <data name="ProductAttributeValueRequired" lastModified="2014-07-22T13:48:17">
     <value>You must select a value.</value>
     <comment>phrase: You must select a value</comment>
   </data>
-  <data name="DuplicateProductVariationException" lastModified="2014-04-07T14:32:43">
+  <data name="DuplicateProductVariationException" lastModified="2014-07-22T13:48:17">
     <value>There is another product variation with this attribute and value combination for this product.</value>
     <comment>The message shown to the user if the product variation information duplicates another variation of the same product.</comment>
   </data>
-  <data name="ThisAttributeIsActive" lastModified="2014-04-07T14:32:43">
+  <data name="ThisAttributeIsActive" lastModified="2014-07-22T13:48:17">
     <value>This attribute is active</value>
     <comment>phrase: This attribute is active</comment>
   </data>
-  <data name="ThisValueIsActive" lastModified="2014-04-07T14:32:43">
+  <data name="ThisValueIsActive" lastModified="2014-07-22T13:48:17">
     <value>This value is active</value>
     <comment>phrase: This value is active</comment>
   </data>
-  <data name="EditTheVariations" lastModified="2014-04-07T14:32:43">
+  <data name="EditTheVariations" lastModified="2014-07-22T13:48:17">
     <value>Edit variations</value>
     <comment>phrase: Edit variations</comment>
   </data>
-  <data name="OptionAddPrice" lastModified="2014-04-07T14:32:43">
+  <data name="OptionAddPrice" lastModified="2014-07-22T13:48:17">
     <value>+ {0}</value>
     <comment>Format for displaying the option price (which will be added to the base price) in drop-down</comment>
   </data>
-  <data name="OptionSubtractPrice" lastModified="2014-04-07T14:32:43">
+  <data name="OptionSubtractPrice" lastModified="2014-07-22T13:48:17">
     <value>- {0}</value>
     <comment>Format for displaying the option price (which will be subtracted from the base price) in drop-down</comment>
   </data>
-  <data name="OptionZeroPrice" lastModified="2014-04-07T14:32:43">
+  <data name="OptionZeroPrice" lastModified="2014-07-22T13:48:17">
     <value></value>
     <comment>Format for displaying the option price (when it is zero) in drop-down</comment>
   </data>
-  <data name="CannotDeleteProductAttributeValue" lastModified="2014-04-07T14:32:43">
+  <data name="CannotDeleteProductAttributeValue" lastModified="2014-07-22T13:48:17">
     <value>This value cannot be deleted as a product is using it as a variation. Please delete the variation before you delete this value.</value>
     <comment>phrase: message that gets shown to the user when deleting a product attribute value is failed due to exsisting product using the attribute / value</comment>
   </data>
-  <data name="CannotDeleteThisProductAttributeValue" lastModified="2014-04-07T14:32:43">
+  <data name="CannotDeleteThisProductAttributeValue" lastModified="2014-07-22T13:48:17">
     <value>The value '{0}' cannot be deleted as a product is using it as a variation. Please delete the variation before you delete this value.</value>
     <comment>phrase: message that gets shown to the user when deleting a product attribute value is failed due to exsisting product using the attribute / value</comment>
   </data>
-  <data name="CannotDeleteProductAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="CannotDeleteProductAttribute" lastModified="2014-07-22T13:48:17">
     <value>This attribute cannot be deleted as a product is using it as a variation. Please delete the variation before you delete this attribute.</value>
     <comment>phrase: message that gets shown to the user when deleting a product attribute failed due to exsisting product using the attribute</comment>
   </data>
-  <data name="CannotDeleteThisProductAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="CannotDeleteThisProductAttribute" lastModified="2014-07-22T13:48:17">
     <value>The attribute '{0}' cannot be deleted as a product is using it as a variation. Please delete the variation before you delete this attribute.</value>
     <comment>phrase: message that gets shown to the user when deleting a product attribute failed due to exsisting product using the attribute</comment>
   </data>
-  <data name="Order" lastModified="2014-04-07T14:32:43">
+  <data name="Order" lastModified="2014-07-22T13:48:17">
     <value>Order</value>
     <comment>word: Order</comment>
   </data>
-  <data name="Manually" lastModified="2014-04-07T14:32:43">
+  <data name="Manually" lastModified="2014-07-22T13:48:17">
     <value>Manually</value>
     <comment>word: Manually</comment>
   </data>
-  <data name="AlphabeticallyAZ" lastModified="2014-04-07T14:32:43">
+  <data name="AlphabeticallyAZ" lastModified="2014-07-22T13:48:17">
     <value>Alphabetically (A-Z)</value>
     <comment>word: Alphabetically (A-Z)</comment>
   </data>
-  <data name="AlphabeticallyZA" lastModified="2014-04-07T14:32:43">
+  <data name="AlphabeticallyZA" lastModified="2014-07-22T13:48:17">
     <value>Alphabetically (Z-A)</value>
     <comment>word: Alphabetically (Z-A)</comment>
   </data>
-  <data name="LastCreatedTop" lastModified="2014-04-07T14:32:43">
+  <data name="LastCreatedTop" lastModified="2014-07-22T13:48:17">
     <value>Last created on top</value>
     <comment>phrase: Last created on top</comment>
   </data>
-  <data name="LastCreatedBottom" lastModified="2014-04-07T14:32:43">
+  <data name="LastCreatedBottom" lastModified="2014-07-22T13:48:17">
     <value>Last created at bottom</value>
     <comment>phrase: Last created at bottom</comment>
   </data>
-  <data name="CreateAndAddAnotherProductAttributeValue" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAndAddAnotherProductAttributeValue" lastModified="2014-07-22T13:48:17">
     <value>Create and add another</value>
     <comment>phrase: Create and add another</comment>
   </data>
-  <data name="ThisAttributeCanBeAppliedTo" lastModified="2014-04-07T14:32:43">
+  <data name="ThisAttributeCanBeAppliedTo" lastModified="2014-07-22T13:48:17">
     <value>This attribute can be applied to...</value>
     <comment>This attribute can be applied to...</comment>
   </data>
-  <data name="AllTypesOfProducts" lastModified="2014-04-07T14:32:43">
+  <data name="AllTypesOfProducts" lastModified="2014-07-22T13:48:17">
     <value>All types of products</value>
     <comment>All types of products</comment>
   </data>
-  <data name="SelectedTypes" lastModified="2014-04-07T14:32:43">
+  <data name="SelectedTypes" lastModified="2014-07-22T13:48:17">
     <value>Selected types...</value>
     <comment>Selected types...</comment>
   </data>
-  <data name="AppliedTo" lastModified="2014-04-07T14:32:43">
+  <data name="AppliedTo" lastModified="2014-07-22T13:48:17">
     <value>Applied To</value>
     <comment>Applied To</comment>
   </data>
-  <data name="AppliedToProductTypeError" lastModified="2014-04-07T14:32:43">
+  <data name="AppliedToProductTypeError" lastModified="2014-07-22T13:48:17">
     <value>Please select a product type that this attribute has to apply to</value>
     <comment>Please select a product type that this attribute has to apply to</comment>
   </data>
-  <data name="ThisVariationIsActive" lastModified="2014-04-07T14:32:43">
+  <data name="ThisVariationIsActive" lastModified="2014-07-22T13:48:17">
     <value>This variation is active</value>
     <comment>phrase: This variation is active</comment>
   </data>
-  <data name="ManageAttributes" lastModified="2014-04-07T14:32:43">
+  <data name="ManageAttributes" lastModified="2014-07-22T13:48:17">
     <value>Manage attributes</value>
     <comment>phrase: Manage attributes</comment>
   </data>
-  <data name="ManageValues" lastModified="2014-04-07T14:32:43">
+  <data name="ManageValues" lastModified="2014-07-22T13:48:17">
     <value>Manage values</value>
     <comment>phrase: Manage values</comment>
   </data>
-  <data name="Author" lastModified="2014-04-07T14:32:43">
+  <data name="Author" lastModified="2014-07-22T13:48:17">
     <value>Author</value>
     <comment>word: Author</comment>
   </data>
-  <data name="ISBN" lastModified="2014-04-07T14:32:43">
+  <data name="ISBN" lastModified="2014-07-22T13:48:17">
     <value>ISBN</value>
     <comment>word: ISBN</comment>
   </data>
-  <data name="ReleaseYear" lastModified="2014-04-07T14:32:43">
+  <data name="ReleaseYear" lastModified="2014-07-22T13:48:17">
     <value>Year of release</value>
     <comment>phrase: Year of release</comment>
   </data>
-  <data name="ReleaseDate" lastModified="2014-04-07T14:32:43">
+  <data name="ReleaseDate" lastModified="2014-07-22T13:48:17">
     <value>Release date</value>
     <comment>phrase: Release date</comment>
   </data>
-  <data name="NumberOfPages" lastModified="2014-04-07T14:32:43">
+  <data name="NumberOfPages" lastModified="2014-07-22T13:48:17">
     <value>Number of pages</value>
     <comment>phrase: Number of pages</comment>
   </data>
-  <data name="Publisher" lastModified="2014-04-07T14:32:43">
+  <data name="Publisher" lastModified="2014-07-22T13:48:17">
     <value>Publisher</value>
     <comment>word: Publisher</comment>
   </data>
-  <data name="Artist" lastModified="2014-04-07T14:32:43">
+  <data name="Artist" lastModified="2014-07-22T13:48:17">
     <value>Artist</value>
     <comment>word: Artist</comment>
   </data>
-  <data name="Album" lastModified="2014-04-07T14:32:43">
+  <data name="Album" lastModified="2014-07-22T13:48:17">
     <value>Album</value>
     <comment>word: Album</comment>
   </data>
-  <data name="Length" lastModified="2014-04-07T14:32:43">
+  <data name="Length" lastModified="2014-07-22T13:48:17">
     <value>Length</value>
     <comment>word: Length</comment>
   </data>
-  <data name="Release" lastModified="2014-04-07T14:32:43">
+  <data name="Release" lastModified="2014-07-22T13:48:17">
     <value>Release</value>
     <comment>word: Release</comment>
   </data>
-  <data name="Platform" lastModified="2014-04-07T14:32:43">
+  <data name="Platform" lastModified="2014-07-22T13:48:17">
     <value>Platform</value>
     <comment>word: Platform</comment>
   </data>
-  <data name="ProductDeliveryTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductDeliveryTitle" lastModified="2014-07-22T13:48:17">
     <value>&lt;string&gt;This type contains...&lt;/strong&gt;</value>
     <comment>Title of the product delivery title</comment>
   </data>
-  <data name="IsShippableTitle" lastModified="2014-04-07T14:32:43">
+  <data name="IsShippableTitle" lastModified="2014-07-22T13:48:17">
     <value>Shippable products</value>
     <comment>Title of the Is shippable field</comment>
   </data>
-  <data name="IsShippableDescription" lastModified="2014-04-07T14:32:43">
+  <data name="IsShippableDescription" lastModified="2014-07-22T13:48:17">
     <value>If the products are not shippable, e.g. software, MP3, don't select this option</value>
     <comment>Description of the Is shippable field</comment>
   </data>
-  <data name="NumberOfPagesFormatErrorMessage" lastModified="2014-04-07T14:32:43">
+  <data name="NumberOfPagesFormatErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Number of pages must be a whole (integer) number.</value>
     <comment>Violation message displayed to user if value for number of pages is not correctly entered.</comment>
   </data>
-  <data name="ReleaseYearFormatError" lastModified="2014-04-07T14:32:43">
+  <data name="ReleaseYearFormatError" lastModified="2014-07-22T13:48:17">
     <value>The year of release must be a number with exactly four digits; years between 1900 and 2099 are only accepted.</value>
     <comment>Violation message displayed to user if value for the year of release is not correctly entered.</comment>
   </data>
-  <data name="ClickingAddToCartButtonRedirectsToTheShoppingCartPage" lastModified="2014-04-07T14:32:43">
+  <data name="ClickingAddToCartButtonRedirectsToTheShoppingCartPage" lastModified="2014-07-22T13:48:17">
     <value>Clicking "Add to cart" button redirects to the Shopping cart page</value>
     <comment>Clicking "Add to cart" button redirects to the Shopping cart page</comment>
   </data>
-  <data name="RedirectToShoppingCart" lastModified="2014-04-07T14:32:43">
+  <data name="RedirectToShoppingCart" lastModified="2014-07-22T13:48:17">
     <value>Redirect to Shopping cart</value>
     <comment>phrase: Redirect to Shopping cart</comment>
   </data>
-  <data name="IsDownloadableTitle" lastModified="2014-04-07T14:32:43">
+  <data name="IsDownloadableTitle" lastModified="2014-07-22T13:48:17">
     <value>Downloadable products (e.g. MP3s, e-books, software)</value>
     <comment>Title of the Is Downloadable field</comment>
   </data>
-  <data name="IsServiceTitle" lastModified="2014-04-07T14:32:43">
+  <data name="IsServiceTitle" lastModified="2014-07-22T13:48:17">
     <value>Services or other non-shippable products (e.g. subscriptions)</value>
     <comment>Title of the Is Service field</comment>
   </data>
-  <data name="SelectFile" lastModified="2014-04-07T14:32:43">
+  <data name="SelectFile" lastModified="2014-07-22T13:48:17">
     <value>Select file</value>
     <comment>The text for the 'Select file' button.</comment>
   </data>
-  <data name="FileToDownload" lastModified="2014-04-07T14:32:43">
+  <data name="FileToDownload" lastModified="2014-07-22T13:48:17">
     <value>Files to download</value>
     <comment>phrase: Files to download</comment>
   </data>
-  <data name="OpenDepartmentProductsOnPage" lastModified="2014-04-07T14:32:43">
+  <data name="OpenDepartmentProductsOnPage" lastModified="2014-07-22T13:48:17">
     <value>Open department products on page...</value>
     <comment>phrase: Open department products on page...</comment>
   </data>
-  <data name="DepartmentsOpenThisPage" lastModified="2014-04-07T14:32:43">
+  <data name="DepartmentsOpenThisPage" lastModified="2014-07-22T13:48:17">
     <value>This page</value>
     <comment>phrase: Open department products on page...</comment>
   </data>
-  <data name="DepartmentsOpenOtherPage" lastModified="2014-04-07T14:32:43">
+  <data name="DepartmentsOpenOtherPage" lastModified="2014-07-22T13:48:17">
     <value>Other page...</value>
     <comment>phrase: Open department products on page...</comment>
   </data>
-  <data name="DepartmentsThisPageHelpfulText" lastModified="2014-04-07T14:32:43">
+  <data name="DepartmentsThisPageHelpfulText" lastModified="2014-07-22T13:48:17">
     <value>You should have a Products list widget on this page</value>
     <comment>phrase: Open department products on page...</comment>
   </data>
-  <data name="DepartmentsOtherPageHelpfulText" lastModified="2014-04-07T14:32:43">
+  <data name="DepartmentsOtherPageHelpfulText" lastModified="2014-07-22T13:48:17">
     <value>You should have a Products list widget on the selected page</value>
     <comment>phrase: Open department products on page...</comment>
   </data>
-  <data name="WhatToDoWithNotTranslatedProductsText" lastModified="2014-04-07T14:32:43">
+  <data name="WhatToDoWithNotTranslatedProductsText" lastModified="2014-07-22T13:48:17">
     <value>What to do with untranslated products?</value>
     <comment>phrase: What to do with untranslated products?</comment>
   </data>
-  <data name="DoNotDisplayProductsWhichAreNotTranslatedToTheCurrentLanguage" lastModified="2014-04-07T14:32:43">
+  <data name="DoNotDisplayProductsWhichAreNotTranslatedToTheCurrentLanguage" lastModified="2014-07-22T13:48:17">
     <value>Don’t display products that are not translated in the current language</value>
     <comment>phrase: Don’t display products that are not translated in the current language</comment>
   </data>
-  <data name="DisplayProductsInTheDefaultLanguageIfTheyAreNotTranslatedToTheCurrentLanguage" lastModified="2014-04-07T14:32:43">
+  <data name="DisplayProductsInTheDefaultLanguageIfTheyAreNotTranslatedToTheCurrentLanguage" lastModified="2014-07-22T13:48:17">
     <value>Display products in the default language, if they are not translated in the current language</value>
     <comment>phrase: Display products in the default language, if they are not translated in the current language</comment>
   </data>
-  <data name="UsedIfTheProductDoesNotHaveAnyVariations" lastModified="2014-04-07T14:32:43">
+  <data name="UsedIfTheProductDoesNotHaveAnyVariations" lastModified="2014-07-22T13:48:17">
     <value>(Used if the product does not have any variations)</value>
     <comment>phrase: (Used if the product does not have any variations)</comment>
   </data>
-  <data name="UsedIfTheProductHasVariations" lastModified="2014-04-07T14:32:43">
+  <data name="UsedIfTheProductHasVariations" lastModified="2014-07-22T13:48:17">
     <value>(Used if the product has variations)</value>
     <comment>phrase: (Used if the product has variations)</comment>
   </data>
-  <data name="NoDocumentsAndFilesToShow" lastModified="2014-04-07T14:32:43">
+  <data name="NoDocumentsAndFilesToShow" lastModified="2014-07-22T13:48:17">
     <value>There are no files and documents for this product</value>
     <comment>There are no files and documents for this product</comment>
   </data>
-  <data name="ProductDocumentsAndFilesPropertyEditorTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ProductDocumentsAndFilesPropertyEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>Product documents and files</value>
     <comment>Property editor title for the product documents and files.</comment>
   </data>
-  <data name="ByProductTypeFilterTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ByProductTypeFilterTitle" lastModified="2014-07-22T13:48:17">
     <value>by Product type</value>
     <comment>by Product type</comment>
   </data>
-  <data name="ByPriceFilterTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ByPriceFilterTitle" lastModified="2014-07-22T13:48:17">
     <value>by Price</value>
     <comment>by Price</comment>
   </data>
-  <data name="ByDepartmentFilterTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ByDepartmentFilterTitle" lastModified="2014-07-22T13:48:17">
     <value>by Department</value>
     <comment>by Departments</comment>
   </data>
-  <data name="ByClassificationFilterTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ByClassificationFilterTitle" lastModified="2014-07-22T13:48:17">
     <value>by {0}</value>
     <comment>by Classification</comment>
   </data>
-  <data name="ByTagFilterTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ByTagFilterTitle" lastModified="2014-07-22T13:48:17">
     <value>by Tag</value>
     <comment>by Departments</comment>
   </data>
-  <data name="PriceFilterFormatString" lastModified="2014-04-07T14:32:43">
+  <data name="PriceFilterFormatString" lastModified="2014-07-22T13:48:17">
     <value>{0} to {1}</value>
     <comment>Price filter format string</comment>
   </data>
-  <data name="PriceFilterFormatStringForAbove" lastModified="2014-04-07T14:32:43">
+  <data name="PriceFilterFormatStringForAbove" lastModified="2014-07-22T13:48:17">
     <value>{0} and {1}</value>
-    <comment>Pirce filter format string for above</comment>
+    <comment>Price filter format string for above</comment>
   </data>
-  <data name="Filter" lastModified="2014-04-07T14:32:43">
+  <data name="Filter" lastModified="2014-07-22T13:48:17">
     <value>Filter</value>
     <comment>Filter</comment>
   </data>
-  <data name="ClearFilter" lastModified="2014-04-07T14:32:43">
+  <data name="ClearFilter" lastModified="2014-07-22T13:48:17">
     <value>Clear filter</value>
     <comment>ClearFilter</comment>
   </data>
-  <data name="ProductTypeFilterEvaluatorDescription" lastModified="2014-04-07T14:32:43">
+  <data name="ProductTypeFilterEvaluatorDescription" lastModified="2014-07-22T13:48:17">
     <value>Extracts the URL based on the Shop-By Filter specified product type</value>
     <comment>The description of the product type shop By Filter URL Evaluator.</comment>
   </data>
-  <data name="PriceFilterEvaluatorDescription" lastModified="2014-04-07T14:32:43">
+  <data name="PriceFilterEvaluatorDescription" lastModified="2014-07-22T13:48:17">
     <value>Extracts the URL based on the Shop-By Filter specified price</value>
     <comment>The description of the price shop By Filter URL Evaluator.</comment>
   </data>
-  <data name="DepartmentFilterEvaluatorDescription" lastModified="2014-04-07T14:32:43">
+  <data name="DepartmentFilterEvaluatorDescription" lastModified="2014-07-22T13:48:17">
     <value>Extracts the URL based on the Shop-By Filter specified department.</value>
     <comment>The description of the department shop By Filter URL Evaluator.</comment>
   </data>
-  <data name="TagFilterEvaluatorDescription" lastModified="2014-04-07T14:32:43">
+  <data name="TagFilterEvaluatorDescription" lastModified="2014-07-22T13:48:17">
     <value>Extracts the URL based on the Shop-By Filter specified tag.</value>
     <comment>The description of the tag shop By Filter URL Evaluator.</comment>
   </data>
-  <data name="ClassificationFilterEvaluatorDescription" lastModified="2014-04-07T14:32:43">
+  <data name="ClassificationFilterEvaluatorDescription" lastModified="2014-07-22T13:48:17">
     <value>Extracts the URL based on the Shop-By Filter specified classification.</value>
     <comment>The description of the classification shop By Filter URL Evaluator.</comment>
   </data>
-  <data name="PriceAscendingOptionText" lastModified="2014-04-07T14:32:43">
+  <data name="PriceAscendingOptionText" lastModified="2014-07-22T13:48:17">
     <value>Price low to high</value>
-    <comment>price low to high</comment>
+    <comment>Phrase: price low to high</comment>
   </data>
-  <data name="PriceDescendingOptionText" lastModified="2014-04-07T14:32:43">
+  <data name="PriceDescendingOptionText" lastModified="2014-07-22T13:48:17">
     <value>Price high to low</value>
-    <comment>price high to low</comment>
+    <comment>Phrase: price high to low</comment>
   </data>
-  <data name="NameAscendingOptionText" lastModified="2014-04-07T14:32:43">
+  <data name="NameAscendingOptionText" lastModified="2014-07-22T13:48:17">
     <value>Name (A - Z)</value>
     <comment>Name (A - Z)</comment>
   </data>
-  <data name="NameDescendingOptionText" lastModified="2014-04-07T14:32:43">
+  <data name="NameDescendingOptionText" lastModified="2014-07-22T13:48:17">
     <value>Name (Z - A)</value>
     <comment>Name (Z - A)</comment>
   </data>
-  <data name="CreatedDateOptionText" lastModified="2014-04-07T14:32:43">
+  <data name="CreatedDateOptionText" lastModified="2014-07-22T13:48:17">
     <value>Created date</value>
     <comment>Created date</comment>
   </data>
-  <data name="SortBy" lastModified="2014-04-07T14:32:43">
+  <data name="SortBy" lastModified="2014-07-22T13:48:17">
     <value>Sort by</value>
     <comment>Sort by</comment>
   </data>
-  <data name="YouHaveToSelectAFile" lastModified="2014-04-07T14:32:43">
+  <data name="YouHaveToSelectAFile" lastModified="2014-07-22T13:48:17">
     <value>Please select a file to download</value>
     <comment>Please select a file to download</comment>
   </data>
-  <data name="ProductsReports" lastModified="2014-04-07T14:32:43">
+  <data name="ProductsReports" lastModified="2014-07-22T13:48:17">
     <value>Products reports</value>
     <comment>Products reports</comment>
   </data>
-  <data name="InventoryReport" lastModified="2014-04-07T14:32:43">
+  <data name="InventoryReport" lastModified="2014-07-22T13:48:17">
     <value>Inventory report</value>
     <comment>Inventory report</comment>
   </data>
-  <data name="EcommerceReportsNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="EcommerceReportsNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Reports</value>
     <comment>Reports</comment>
   </data>
-  <data name="InventoryReportNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="InventoryReportNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Inventory report</value>
     <comment>Title of the node that displays the Inventory report</comment>
   </data>
-  <data name="InventoryReportUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="InventoryReportUrlName" lastModified="2014-07-22T13:48:17">
     <value>inventory-report</value>
     <comment>Url name of the inventory report.</comment>
   </data>
-  <data name="InventoryStatus" lastModified="2014-04-07T14:32:43">
+  <data name="InventoryStatus" lastModified="2014-07-22T13:48:17">
     <value>Inventory status</value>
     <comment>Inventory status</comment>
   </data>
-  <data name="Shippable" lastModified="2014-04-07T14:32:43">
+  <data name="Shippable" lastModified="2014-07-22T13:48:17">
     <value>Shippable</value>
     <comment>Shippable</comment>
   </data>
-  <data name="Downloadable" lastModified="2014-04-07T14:32:43">
+  <data name="Downloadable" lastModified="2014-07-22T13:48:17">
     <value>Downloadable</value>
     <comment>Downloadable</comment>
   </data>
-  <data name="Service" lastModified="2014-04-07T14:32:43">
+  <data name="Service" lastModified="2014-07-22T13:48:17">
     <value>Service</value>
     <comment>Service</comment>
   </data>
-  <data name="DeliveryType" lastModified="2014-04-07T14:32:43">
+  <data name="DeliveryType" lastModified="2014-07-22T13:48:17">
     <value>Type</value>
     <comment>Delivery Type</comment>
   </data>
-  <data name="NameKeyword" lastModified="2014-04-07T14:32:43">
+  <data name="NameKeyword" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Name Keyword</comment>
   </data>
-  <data name="DateOwner" lastModified="2014-04-07T14:32:43">
+  <data name="DateOwner" lastModified="2014-07-22T13:48:17">
     <value>Date / Owner</value>
     <comment>Date / Owner</comment>
   </data>
-  <data name="NewModifiedFirst" lastModified="2014-04-07T14:32:43">
+  <data name="NewModifiedFirst" lastModified="2014-07-22T13:48:17">
     <value>Last modified on top</value>
     <comment>Last modified on top</comment>
   </data>
-  <data name="NewCreatedFirst" lastModified="2014-04-07T14:32:43">
+  <data name="NewCreatedFirst" lastModified="2014-07-22T13:48:17">
     <value>Last created on top</value>
     <comment>Last created on top</comment>
   </data>
-  <data name="ByTitleAsc" lastModified="2014-04-07T14:32:43">
+  <data name="ByTitleAsc" lastModified="2014-07-22T13:48:17">
     <value>By Title (A-Z)</value>
     <comment>By Title (A-Z)</comment>
   </data>
-  <data name="ByTitleDesc" lastModified="2014-04-07T14:32:43">
+  <data name="ByTitleDesc" lastModified="2014-07-22T13:48:17">
     <value>By Title (Z-A)</value>
     <comment>By Title (Z-A)</comment>
   </data>
-  <data name="CustomSorting" lastModified="2014-04-07T14:32:43">
+  <data name="CustomSorting" lastModified="2014-07-22T13:48:17">
     <value>Custom sorting...</value>
     <comment>Custom sorting</comment>
   </data>
-  <data name="Sort" lastModified="2014-04-07T14:32:43">
+  <data name="Sort" lastModified="2014-07-22T13:48:17">
     <value>Sort products:</value>
     <comment>Sort</comment>
   </data>
-  <data name="ByPriceDesc" lastModified="2014-04-07T14:32:43">
+  <data name="ByPriceDesc" lastModified="2014-07-22T13:48:17">
     <value>Most expensive on top</value>
     <comment>Most expensive on top</comment>
   </data>
-  <data name="ByPriceAsc" lastModified="2014-04-07T14:32:43">
+  <data name="ByPriceAsc" lastModified="2014-07-22T13:48:17">
     <value>Least expensive on top</value>
     <comment>Cheapest on top</comment>
   </data>
-  <data name="BySku" lastModified="2014-04-07T14:32:43">
+  <data name="BySku" lastModified="2014-07-22T13:48:17">
     <value>By SKU</value>
     <comment>By SKU</comment>
   </data>
-  <data name="ManageProductTypes" lastModified="2014-04-07T14:32:43">
+  <data name="ManageProductTypes" lastModified="2014-07-22T13:48:17">
     <value>Manage Product Types</value>
     <comment>Manage Product Types</comment>
   </data>
-  <data name="TopSellingReport" lastModified="2014-04-07T14:32:43">
+  <data name="TopSellingReport" lastModified="2014-07-22T13:48:17">
     <value>Top selling report</value>
     <comment></comment>
   </data>
-  <data name="TopSellingReportUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="TopSellingReportUrlName" lastModified="2014-07-22T13:48:17">
     <value>top-selling-report</value>
     <comment>Url name of the top selling report.</comment>
   </data>
-  <data name="TopSellingReportNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="TopSellingReportNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Top selling report</value>
     <comment>Top selling report node title</comment>
   </data>
-  <data name="QuantityMostOnTop" lastModified="2014-04-07T14:32:43">
+  <data name="QuantityMostOnTop" lastModified="2014-07-22T13:48:17">
     <value>Quantity: most on top</value>
     <comment>Quantity most on top</comment>
   </data>
-  <data name="QuantityLeastOnTop" lastModified="2014-04-07T14:32:43">
+  <data name="QuantityLeastOnTop" lastModified="2014-07-22T13:48:17">
     <value>Quantity: less on top</value>
     <comment>Quantity less on top</comment>
   </data>
-  <data name="OrKeyword" lastModified="2014-04-07T14:32:43">
+  <data name="OrKeyword" lastModified="2014-07-22T13:48:17">
     <value>or</value>
     <comment>Or Keyword that gets shown before add to wish list</comment>
   </data>
-  <data name="GenerateAProductVariations" lastModified="2014-04-07T14:32:43">
+  <data name="GenerateAProductVariations" lastModified="2014-07-22T13:48:17">
     <value>Generate product variations</value>
     <comment>Generate product variations</comment>
   </data>
-  <data name="NoAttributesInSystem" lastModified="2014-04-07T14:32:43">
+  <data name="NoAttributesInSystem" lastModified="2014-07-22T13:48:17">
     <value>There are no attributes created in the system (or created attributes are inactive or they do not apply to this product). To create variations please create attributes first.</value>
     <comment>Error message that gets shown when there are no attributes in the system and user tries to create variations</comment>
   </data>
-  <data name="SelectAtleastOneAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="SelectAtleastOneAttribute" lastModified="2014-07-22T13:48:17">
     <value>You must select at least one attribute value to create a variation</value>
     <comment>Error message that gets shown when the user doesnt select any attribute values and tries to create a variation</comment>
   </data>
-  <data name="AutoCreatedVariations" lastModified="2014-04-07T14:32:43">
+  <data name="AutoCreatedVariations" lastModified="2014-07-22T13:48:17">
     <value>variations will be created automatically</value>
     <comment>phrase : variations will be created automatically</comment>
   </data>
-  <data name="Change" lastModified="2014-04-07T14:32:43">
+  <data name="Change" lastModified="2014-07-22T13:48:17">
     <value>Change</value>
     <comment>phrase: Change</comment>
   </data>
-  <data name="GenerateVariations" lastModified="2014-04-07T14:32:43">
+  <data name="GenerateVariations" lastModified="2014-07-22T13:48:17">
     <value>Generate these variations</value>
     <comment>phrase : Generate these variations</comment>
   </data>
-  <data name="SelectValues" lastModified="2014-04-07T14:32:43">
+  <data name="SelectValues" lastModified="2014-07-22T13:48:17">
     <value>Select values</value>
     <comment>phrase: Select values</comment>
   </data>
-  <data name="SelectAValue" lastModified="2014-04-07T14:32:43">
+  <data name="SelectAValue" lastModified="2014-07-22T13:48:17">
     <value>- Select -</value>
     <comment></comment>
   </data>
-  <data name="AttributeApplyToNote" lastModified="2014-04-07T14:32:43">
+  <data name="AttributeApplyToNote" lastModified="2014-07-22T13:48:17">
     <value>This attribute will be automatically added to all variations specified for selected product types</value>
     <comment>This attribute will be automatically added to all variations specified for selected product types</comment>
   </data>
-  <data name="NoValuesSelected" lastModified="2014-04-07T14:32:43">
+  <data name="NoValuesSelected" lastModified="2014-07-22T13:48:17">
     <value>Values are not selected</value>
     <comment>Values are not selected</comment>
   </data>
-  <data name="NoAttributesAvailable" lastModified="2014-04-07T14:32:43">
+  <data name="NoAttributesAvailable" lastModified="2014-07-22T13:48:17">
     <value>No available attributes</value>
     <comment>phrase : No available attributes</comment>
   </data>
-  <data name="CreateAVariationRequirementHint" lastModified="2014-04-07T14:32:43">
+  <data name="CreateAVariationRequirementHint" lastModified="2014-07-22T13:48:17">
     <value>To create variations you should have at least one attribute and define its values first.</value>
     <comment>phrase : To create variations you should have at least one attribute and define its values first.</comment>
   </data>
-  <data name="GoToCreateAnAttribute" lastModified="2014-04-07T14:32:43">
+  <data name="GoToCreateAnAttribute" lastModified="2014-07-22T13:48:17">
     <value>Go to create an attribute</value>
     <comment>Go to create an attribute</comment>
   </data>
-  <data name="BackToVariations" lastModified="2014-04-07T14:32:43">
+  <data name="BackToVariations" lastModified="2014-07-22T13:48:17">
     <value>Back to variations</value>
     <comment>phrase: Back to variations</comment>
   </data>
-  <data name="TrackInventoryForThisVariation" lastModified="2014-04-07T14:32:43">
+  <data name="TrackInventoryForThisVariation" lastModified="2014-07-22T13:48:17">
     <value>Track inventory for this variation</value>
     <comment></comment>
   </data>
-  <data name="MakeActive" lastModified="2014-04-07T14:32:43">
+  <data name="MakeActive" lastModified="2014-07-22T13:48:17">
     <value>Make Active</value>
     <comment>Action command.</comment>
   </data>
-  <data name="MakeInactive" lastModified="2014-04-07T14:32:43">
+  <data name="MakeInactive" lastModified="2014-07-22T13:48:17">
     <value>Make Inactive</value>
     <comment>Action command.</comment>
   </data>
-  <data name="SelectThumbnailDefault" lastModified="2014-04-07T14:32:43">
+  <data name="SelectThumbnailDefault" lastModified="2014-07-22T13:48:17">
     <value>- Select -</value>
     <comment>A dropdown default value '- Select -'</comment>
   </data>
-  <data name="SizeOfThumbnails" lastModified="2014-04-07T14:32:43">
+  <data name="SizeOfThumbnails" lastModified="2014-07-22T13:48:17">
     <value>Size of thumbnails</value>
     <comment>The text for the Select thumbnail size dropdown</comment>
   </data>
-  <data name="SizeOfPrimaryImagePreview" lastModified="2014-04-07T14:32:43">
+  <data name="SizeOfPrimaryImagePreview" lastModified="2014-07-22T13:48:17">
     <value>Size of primary image</value>
     <comment>The text for the Select image preview dropdown</comment>
   </data>
-  <data name="TierPrices" lastModified="2014-04-07T14:32:43">
+  <data name="TierPrices" lastModified="2014-07-22T13:48:17">
     <value>Tier pricing&lt;span class="sfNote"&gt; (Prices based on quantity)&lt;/span&gt;</value>
     <comment></comment>
   </data>
-  <data name="AddPrice" lastModified="2014-04-07T14:32:43">
+  <data name="AddPrice" lastModified="2014-07-22T13:48:17">
     <value>Add price</value>
     <comment>phrase: Add price</comment>
   </data>
-  <data name="SinglePrice" lastModified="2014-04-07T14:32:43">
+  <data name="SinglePrice" lastModified="2014-07-22T13:48:17">
     <value>Single Price</value>
     <comment>Single Price</comment>
   </data>
-  <data name="DiscountPerItem" lastModified="2014-04-07T14:32:43">
+  <data name="DiscountPerItem" lastModified="2014-07-22T13:48:17">
     <value>Discount Per Item</value>
     <comment>Discount Per Item</comment>
   </data>
-  <data name="Remove" lastModified="2014-04-07T14:32:43">
+  <data name="Remove" lastModified="2014-07-22T13:48:17">
     <value>Remove</value>
     <comment>Remove</comment>
   </data>
-  <data name="AndAbove" lastModified="2014-04-07T14:32:43">
+  <data name="AndAbove" lastModified="2014-07-22T13:48:17">
     <value>and above</value>
     <comment>and above</comment>
   </data>
-  <data name="TierPricesQuantityInvalid" lastModified="2014-04-07T14:32:43">
+  <data name="TierPricesQuantityInvalid" lastModified="2014-07-22T13:48:17">
     <value>The quantity must be a integer value which is greater than 1</value>
     <comment>phrase: The quantity must be a integer value which is greater than 1</comment>
   </data>
-  <data name="TierPricesQuantityInvalidInteger" lastModified="2014-04-07T14:32:43">
+  <data name="TierPricesQuantityInvalidInteger" lastModified="2014-07-22T13:48:17">
     <value>The quantity must be a integer value</value>
     <comment>phrase: The quantity must be a integer value</comment>
   </data>
-  <data name="TierPricesSinglePriceInvalid" lastModified="2014-04-07T14:32:43">
+  <data name="TierPricesSinglePriceInvalid" lastModified="2014-07-22T13:48:17">
     <value>The price must be a numeric value which is greater than 0</value>
     <comment>phrase: The price must be a numeric value which is greater than 0</comment>
   </data>
-  <data name="TierPricesSinglePriceInvalidBiggerThenPrice" lastModified="2014-04-07T14:32:43">
+  <data name="TierPricesSinglePriceInvalidBiggerThenPrice" lastModified="2014-07-22T13:48:17">
     <value>The price must be lower value than the base price</value>
     <comment>phrase: The price must be lower value than the base price</comment>
   </data>
-  <data name="TierPricesNote" lastModified="2014-04-07T14:32:43">
+  <data name="TierPricesNote" lastModified="2014-07-22T13:48:17">
     <value>Tier prices should be lower than sale price to appear on the site</value>
     <comment>Tier prices should be lower than sale price to appear on the site</comment>
   </data>
-  <data name="TierPricesEmptyNote" lastModified="2014-04-07T14:32:43">
+  <data name="TierPricesEmptyNote" lastModified="2014-07-22T13:48:17">
     <value>Tier pricing is a promotional tool that allows store administrators to encourage their users to buy larger quantities of a product by applying discounts based on the quantity that is ordered</value>
     <comment>Tier pricing is a promotional tool that allows store administrators to encourage their users to buy larger quantities of a product by applying discounts based on the quantity that is ordered</comment>
   </data>
-  <data name="TierPricesBuyMore" lastModified="2014-04-07T14:32:43">
+  <data name="TierPricesBuyMore" lastModified="2014-07-22T13:48:17">
     <value>Price for {0} or more is {1} each &lt;i class='sfNewPrice'&gt;(Save {2} per item)&lt;/i&gt;</value>
     <comment>Price for {0} or more is {1} each (Save {2} per item)</comment>
   </data>
-  <data name="TierPricesSinglePriceQuantityExist" lastModified="2014-04-07T14:32:43">
+  <data name="TierPricesSinglePriceQuantityExist" lastModified="2014-07-22T13:48:17">
     <value>The quantity is already specified</value>
     <comment>The quantity is already specified</comment>
   </data>
-  <data name="DropdownList" lastModified="2014-04-07T14:32:43">
+  <data name="DropdownList" lastModified="2014-07-22T13:48:17">
     <value>Dropdown list</value>
     <comment>phrase: Dropdown list</comment>
   </data>
-  <data name="TitleAboveProductsFilter" lastModified="2014-04-07T14:32:43">
+  <data name="TitleAboveProductsFilter" lastModified="2014-07-22T13:48:17">
     <value>Title above the filter &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</value>
     <comment>phrase: Title above the filter (optional)</comment>
   </data>
-  <data name="ColumnList" lastModified="2014-04-07T14:32:43">
+  <data name="ColumnList" lastModified="2014-07-22T13:48:17">
     <value>Column list</value>
     <comment>phrase: Column list</comment>
   </data>
-  <data name="DisplayMode" lastModified="2014-04-07T14:32:43">
+  <data name="DisplayMode" lastModified="2014-07-22T13:48:17">
     <value>Display mode</value>
     <comment>phrase: Display mode</comment>
   </data>
-  <data name="PriceRangeValueInvalid" lastModified="2014-04-07T14:32:43">
+  <data name="PriceRangeValueInvalid" lastModified="2014-07-22T13:48:17">
     <value>The value must be a numeric and in the range 0-{0}</value>
     <comment></comment>
   </data>
-  <data name="AtLeastOneFieldNeeded" lastModified="2014-04-07T14:32:43">
+  <data name="AtLeastOneFieldNeeded" lastModified="2014-07-22T13:48:17">
     <value>At least one field must be filled</value>
     <comment></comment>
   </data>
-  <data name="FromValueGreaterThanToValue" lastModified="2014-04-07T14:32:43">
+  <data name="FromValueGreaterThanToValue" lastModified="2014-07-22T13:48:17">
     <value>The minimum value must be lower than the maximum</value>
     <comment></comment>
+  </data>
+  <data name="ByRatingFilterTitle" lastModified="2014-07-22T13:48:17">
+    <value>by Rating</value>
+    <comment>by Rating</comment>
+  </data>
+  <data name="RatingFilterFormatString" lastModified="2014-07-22T13:48:17">
+    <value>{0} to {1}</value>
+    <comment>Rating filter format string</comment>
+  </data>
+  <data name="RatingFilterFormatStringForAbove" lastModified="2014-07-22T13:48:17">
+    <value>{0} and {1}</value>
+    <comment>Rating filter format string for above</comment>
+  </data>
+  <data name="RatingAscendingOptionText" lastModified="2014-07-22T13:48:17">
+    <value>Rating low to high</value>
+    <comment>Phrase: rating low to high</comment>
+  </data>
+  <data name="RatingDescendingOptionText" lastModified="2014-07-22T13:48:17">
+    <value>Rating high to low</value>
+    <comment>Phrase: rating high to low</comment>
+  </data>
+  <data name="SortByRatingAscending" lastModified="2014-07-22T13:48:17">
+    <value>Rating: lowest first</value>
+    <comment>Phrase: Rating (low to high)</comment>
+  </data>
+  <data name="SortByRatingDescending" lastModified="2014-07-22T13:48:17">
+    <value>Rating: highest first</value>
+    <comment>Phrase: Rating (high to low)</comment>
+  </data>
+  <data name="ByRatingDesc" lastModified="2014-07-22T13:48:17">
+    <value>Best rated on top</value>
+    <comment>Best rated on top</comment>
+  </data>
+  <data name="ByRatingAsc" lastModified="2014-07-22T13:48:17">
+    <value>Worst rated on top</value>
+    <comment>Worst rated on top</comment>
+  </data>
+  <data name="Rating" lastModified="2014-07-22T13:48:17">
+    <value>Rating</value>
+    <comment>word: Rating</comment>
+  </data>
+  <data name="RatingRangeValueInvalid" lastModified="2014-07-22T13:48:17">
+    <value>The value must be a numeric and in the range 0-{0}</value>
+    <comment>Error message when the rating is out of the allowed range</comment>
+  </data>
+  <data name="AddRatingRange" lastModified="2014-07-22T13:48:17">
+    <value>Add rating range</value>
+    <comment>Message inviting the user to add rating range</comment>
+  </data>
+  <data name="AddPriceRange" lastModified="2014-07-22T13:48:17">
+    <value>Add price range</value>
+    <comment>Message inviting the user to add price range</comment>
   </data>
 </root>

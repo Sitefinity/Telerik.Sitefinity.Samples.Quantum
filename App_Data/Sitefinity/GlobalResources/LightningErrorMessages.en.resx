@@ -117,31 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="GeneralError" lastModified="2014-04-07T14:32:44">
+  <data name="GeneralError" lastModified="2014-07-22T13:48:17">
     <value>This action cannot be completed due to unknown server error. Please try again later or contact your administrator.</value>
     <comment>The exception that is thrown when unhandled exception occured on the server Lightning server.</comment>
   </data>
-  <data name="AuthenticationFailed" lastModified="2014-04-07T14:32:44">
+  <data name="AuthenticationFailed" lastModified="2014-07-22T13:48:17">
     <value>User is not authenticated.</value>
     <comment>The exception that is thrown when the operating system denies access because of an I/O error or a specific type of security error.</comment>
   </data>
-  <data name="AuthorizationFailed" lastModified="2014-04-07T14:32:44">
+  <data name="AuthorizationFailed" lastModified="2014-07-22T13:48:17">
     <value>You are not authorized to perform this operation.</value>
     <comment>The exception that is thrown when the operating system denies access because of an I/O error or a specific type of security error.</comment>
   </data>
-  <data name="InsufficientPermissions" lastModified="2014-04-07T14:32:44">
+  <data name="InsufficientPermissions" lastModified="2014-07-22T13:48:17">
     <value>You do not have the permissions to perform this action.Contact your system administrator for assistance.</value>
     <comment>The exception that is thrown when a content item is accessed and there are no permissions.</comment>
   </data>
-  <data name="LightningErrorMessagesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="LightningErrorMessagesTitle" lastModified="2014-07-22T13:48:17">
     <value>Lightning error messages</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="LightningErrorMessagesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="LightningErrorMessagesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for lightning error messages.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="LightningErrorMessagesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="LightningErrorMessagesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Lightning error messages</value>
     <comment>Title that will be displayed in Labels &amp; Messages.</comment>
   </data>

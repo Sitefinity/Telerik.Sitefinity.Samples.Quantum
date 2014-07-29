@@ -117,63 +117,63 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AnalyticsResourcesTitle" lastModified="2014-04-07T14:32:43">
+  <data name="AnalyticsResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Analytics</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="AnalyticsResourcesDescription" lastModified="2014-04-07T14:32:43">
+  <data name="AnalyticsResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Web Analytics.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ModuleTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ModuleTitle" lastModified="2014-07-22T13:48:17">
     <value>Analytics</value>
     <comment>The title of the Analytics module.</comment>
   </data>
-  <data name="AccessAnalytics" lastModified="2014-04-07T14:32:43">
+  <data name="AccessAnalytics" lastModified="2014-07-22T13:48:17">
     <value>Access Analytics module</value>
     <comment>Phrase: Access Analytics module</comment>
   </data>
-  <data name="AccessAnalyticsDescription" lastModified="2014-04-07T14:32:43">
+  <data name="AccessAnalyticsDescription" lastModified="2014-07-22T13:48:17">
     <value>Access Analytics module</value>
     <comment>Phrase: Allows or denies access to the Analytics module page.</comment>
   </data>
-  <data name="AnalyticsConfigCaption" lastModified="2014-04-07T14:32:43">
+  <data name="AnalyticsConfigCaption" lastModified="2014-07-22T13:48:17">
     <value>Access Analytics module</value>
     <comment>Phrase: Analytics module</comment>
   </data>
-  <data name="AnalyticsConfigDescription" lastModified="2014-04-07T14:32:43">
+  <data name="AnalyticsConfigDescription" lastModified="2014-07-22T13:48:17">
     <value>Access Analytics module</value>
     <comment>Phrase: Access Analytics module</comment>
   </data>
-  <data name="AnalyticsWidgetTitle" lastModified="2014-04-07T14:32:43">
+  <data name="AnalyticsWidgetTitle" lastModified="2014-07-22T13:48:17">
     <value>Daily Visits</value>
     <comment>The title for the analytics widget on the backend dashboard.</comment>
   </data>
-  <data name="PageGroupNodeTitle" lastModified="2014-04-07T14:32:43">
+  <data name="PageGroupNodeTitle" lastModified="2014-07-22T13:48:17">
     <value>Analytics</value>
     <comment>The title of the page group for Analytics pages.</comment>
   </data>
-  <data name="PageGroupNodeUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="PageGroupNodeUrlName" lastModified="2014-07-22T13:48:17">
     <value>Analytics</value>
     <comment>Specifies the name of the item that appears in the URL. URL names have some restrictions.</comment>
   </data>
-  <data name="AnalyticsTimelineWidgetToolboxTitle" lastModified="2014-04-07T14:32:43">
+  <data name="AnalyticsTimelineWidgetToolboxTitle" lastModified="2014-07-22T13:48:17">
     <value>Analytics Timeline</value>
     <comment>Specifies the name of the analytics dashboard widget in the toolbox.</comment>
   </data>
-  <data name="PageGroupNodeDescription" lastModified="2014-04-07T14:32:43">
+  <data name="PageGroupNodeDescription" lastModified="2014-07-22T13:48:17">
     <value>Provides web traffic information.</value>
     <comment>The description of the page group for Analytics pages.</comment>
   </data>
-  <data name="AnalyticsTitle" lastModified="2014-04-07T14:32:43">
+  <data name="AnalyticsTitle" lastModified="2014-07-22T13:48:17">
     <value>Analytics</value>
     <comment>The title of the Analytics module backend homepage.</comment>
   </data>
-  <data name="AnalyticsUrlName" lastModified="2014-04-07T14:32:43">
+  <data name="AnalyticsUrlName" lastModified="2014-07-22T13:48:17">
     <value>Analytics</value>
     <comment>The URL name of the Analytics module backend homepage.</comment>
   </data>
-  <data name="AnalyticsDescription" lastModified="2014-04-07T14:32:43">
+  <data name="AnalyticsDescription" lastModified="2014-07-22T13:48:17">
     <value>Represents a landing page in the backend for Analytics module.</value>
     <comment>The description of the Analytics module backend homepage.</comment>
   </data>

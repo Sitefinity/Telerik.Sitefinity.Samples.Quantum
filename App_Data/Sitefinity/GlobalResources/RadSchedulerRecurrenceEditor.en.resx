@@ -117,187 +117,187 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadSchedulerRecurrenceEditorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadSchedulerRecurrenceEditorTitle" lastModified="2014-07-22T13:48:17">
     <value>RadSchedulerRecurrenceEditor</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="RadSchedulerRecurrenceEditorTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="RadSchedulerRecurrenceEditorTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>RadSchedulerRecurrenceEditor</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="RadSchedulerRecurrenceEditorDescription" lastModified="2014-04-07T14:32:44">
+  <data name="RadSchedulerRecurrenceEditorDescription" lastModified="2014-07-22T13:48:17">
     <value>Resource strings for RadSchedulerRecurrenceEditor.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+  <data name="ReservedResource" lastModified="2014-07-22T13:48:17">
     <value>Please do not remove this key.</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Recurrence" lastModified="2014-04-07T14:32:44">
+  <data name="Recurrence" lastModified="2014-07-22T13:48:17">
     <value>Recurrence</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Hourly" lastModified="2014-04-07T14:32:44">
+  <data name="Hourly" lastModified="2014-07-22T13:48:17">
     <value>Hourly</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Daily" lastModified="2014-04-07T14:32:44">
+  <data name="Daily" lastModified="2014-07-22T13:48:17">
     <value>Daily</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Weekly" lastModified="2014-04-07T14:32:44">
+  <data name="Weekly" lastModified="2014-07-22T13:48:17">
     <value>Weekly</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Monthly" lastModified="2014-04-07T14:32:44">
+  <data name="Monthly" lastModified="2014-07-22T13:48:17">
     <value>Monthly</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Yearly" lastModified="2014-04-07T14:32:44">
+  <data name="Yearly" lastModified="2014-07-22T13:48:17">
     <value>Yearly</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Every" lastModified="2014-04-07T14:32:44">
+  <data name="Every" lastModified="2014-07-22T13:48:17">
     <value>Every</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Hours" lastModified="2014-04-07T14:32:44">
+  <data name="Hours" lastModified="2014-07-22T13:48:17">
     <value>hour(s)</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Days" lastModified="2014-04-07T14:32:44">
+  <data name="Days" lastModified="2014-07-22T13:48:17">
     <value>day(s)</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Weeks" lastModified="2014-04-07T14:32:44">
+  <data name="Weeks" lastModified="2014-07-22T13:48:17">
     <value>week(s) on</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Months" lastModified="2014-04-07T14:32:44">
+  <data name="Months" lastModified="2014-07-22T13:48:17">
     <value>month(s)</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="EveryWeekday" lastModified="2014-04-07T14:32:44">
+  <data name="EveryWeekday" lastModified="2014-07-22T13:48:17">
     <value>Every weekday</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="RecurEvery" lastModified="2014-04-07T14:32:44">
+  <data name="RecurEvery" lastModified="2014-07-22T13:48:17">
     <value>Recur every</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Day" lastModified="2014-04-07T14:32:44">
+  <data name="Day" lastModified="2014-07-22T13:48:17">
     <value>Day</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="OfEvery" lastModified="2014-04-07T14:32:44">
+  <data name="OfEvery" lastModified="2014-07-22T13:48:17">
     <value>of every</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="First" lastModified="2014-04-07T14:32:44">
+  <data name="First" lastModified="2014-07-22T13:48:17">
     <value>first</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Second" lastModified="2014-04-07T14:32:44">
+  <data name="Second" lastModified="2014-07-22T13:48:17">
     <value>second</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Third" lastModified="2014-04-07T14:32:44">
+  <data name="Third" lastModified="2014-07-22T13:48:17">
     <value>third</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Fourth" lastModified="2014-04-07T14:32:44">
+  <data name="Fourth" lastModified="2014-07-22T13:48:17">
     <value>fourth</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Last" lastModified="2014-04-07T14:32:44">
+  <data name="Last" lastModified="2014-07-22T13:48:17">
     <value>last</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="MaskDay" lastModified="2014-04-07T14:32:44">
+  <data name="MaskDay" lastModified="2014-07-22T13:48:17">
     <value>day</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="MaskWeekday" lastModified="2014-04-07T14:32:44">
+  <data name="MaskWeekday" lastModified="2014-07-22T13:48:17">
     <value>weekday</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="MaskWeekendDay" lastModified="2014-04-07T14:32:44">
+  <data name="MaskWeekendDay" lastModified="2014-07-22T13:48:17">
     <value>weekend day</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="The" lastModified="2014-04-07T14:32:44">
+  <data name="The" lastModified="2014-07-22T13:48:17">
     <value>The</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Of" lastModified="2014-04-07T14:32:44">
+  <data name="Of" lastModified="2014-07-22T13:48:17">
     <value>of</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="NoEndDate" lastModified="2014-04-07T14:32:44">
+  <data name="NoEndDate" lastModified="2014-07-22T13:48:17">
     <value>No end date</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="EndAfter" lastModified="2014-04-07T14:32:44">
+  <data name="EndAfter" lastModified="2014-07-22T13:48:17">
     <value>End after</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="EndByThisDate" lastModified="2014-04-07T14:32:44">
+  <data name="EndByThisDate" lastModified="2014-07-22T13:48:17">
     <value>End by</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Occurrences" lastModified="2014-04-07T14:32:44">
+  <data name="Occurrences" lastModified="2014-07-22T13:48:17">
     <value>occurrences</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="CalendarOK" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarOK" lastModified="2014-07-22T13:48:17">
     <value>OK</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="CalendarCancel" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarCancel" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="CalendarToday" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarToday" lastModified="2014-07-22T13:48:17">
     <value>Today</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Never" lastModified="2014-04-07T14:32:44">
+  <data name="Never" lastModified="2014-07-22T13:48:17">
     <value>Never</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="After" lastModified="2014-04-07T14:32:44">
+  <data name="After" lastModified="2014-07-22T13:48:17">
     <value>After</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="DayOfMonth" lastModified="2014-04-07T14:32:44">
+  <data name="DayOfMonth" lastModified="2014-07-22T13:48:17">
     <value>Day of the month</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="DayOfWeek" lastModified="2014-04-07T14:32:44">
+  <data name="DayOfWeek" lastModified="2014-07-22T13:48:17">
     <value>Day of the week</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="On" lastModified="2014-04-07T14:32:44">
+  <data name="On" lastModified="2014-07-22T13:48:17">
     <value>On</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="Repeat" lastModified="2014-04-07T14:32:44">
+  <data name="Repeat" lastModified="2014-07-22T13:48:17">
     <value>Repeat:</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="RepeatAppointment" lastModified="2014-04-07T14:32:44">
+  <data name="RepeatAppointment" lastModified="2014-07-22T13:48:17">
     <value>Repeat Appointment</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="RepeatEnd" lastModified="2014-04-07T14:32:44">
+  <data name="RepeatEnd" lastModified="2014-07-22T13:48:17">
     <value>Repeat End:</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="RepeatOn" lastModified="2014-04-07T14:32:44">
+  <data name="RepeatOn" lastModified="2014-07-22T13:48:17">
     <value>Repeat On:</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>
-  <data name="EveryWorkingDay" lastModified="2014-04-07T14:32:44">
+  <data name="EveryWorkingDay" lastModified="2014-07-22T13:48:17">
     <value>Every working day</value>
     <comment>RadSchedulerRecurrenceEditor resource strings.</comment>
   </data>

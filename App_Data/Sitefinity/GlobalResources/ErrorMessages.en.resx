@@ -121,219 +121,219 @@
     <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;head&gt;&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" /&gt;&lt;title&gt;Sitefinity trial version&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;div style='font-family: Arial; font-size: 14px; color: #666; position: absolute; top: 50%; left: 50%; width: 680px; height: 50px; margin-left: -340px; margin-top: -25px; text-align: center;'&gt;&lt;h1 style='font-size: 30px; color: #999; font-weight: normal; margin: 0; padding: 0;'&gt;You are running a trial version of &lt;a title='Sitefnity CMS' href='http://www.sitefinity.com' style='border-bottom: 1px dotted #ccc; color: #999; text-decoration: none;'&gt;Sitefinity {1}&lt;/a&gt;.&lt;/h1&gt;&lt;p style='margin:0; padding: 0;'&gt;To proceed with your evaluation, press &lt;a href='{0}'&gt;Continue&lt;/a&gt; or refresh the page.&lt;/p&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</value>
     <comment>Sitefinity is in trial mode message</comment>
   </data>
-  <data name="ErrorMessagesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ErrorMessagesTitle" lastModified="2014-07-22T13:48:17">
     <value>Error Messages</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="ErrorMessagesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="ErrorMessagesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Error Messages Title Plural</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="ErrorMessagesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ErrorMessagesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Sitefinity errors.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="DatabaseNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="DatabaseNotFound" lastModified="2014-07-22T13:48:17">
     <value>Could not connect to database.</value>
     <comment>The exception that is thrown when connection to the database cannot be established.</comment>
   </data>
-  <data name="DatabaseServerNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="DatabaseServerNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Database server name cannot be empty.</value>
     <comment>The exception that is thrown when the name of the database server is not supplied.</comment>
   </data>
-  <data name="DatabaseNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="DatabaseNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Database name cannot be empty.</value>
     <comment>The exception that is thrown when the name of the database is not supplied.</comment>
   </data>
-  <data name="DatabaseServerNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="DatabaseServerNotFound" lastModified="2014-07-22T13:48:17">
     <value>Could not connect to server.</value>
     <comment>The exception that is thrown when connection to the database server cannot be found.</comment>
   </data>
-  <data name="GlobalTransactionUsed" lastModified="2014-04-07T14:32:44">
+  <data name="GlobalTransactionUsed" lastModified="2014-07-22T13:48:17">
     <value>Cannot use SaveChanges or CancelChanges on instance manager that was specified to use global or distributed transaction. Instead, use TransactionManager static methods CommitTransaction(string transactionName) or RollbackTransaction(string transactionName).</value>
     <comment>The exception that is thrown when SaveChanges or CancelChanges is called on a manager that was specified to use global transaction.</comment>
   </data>
-  <data name="AuthorizationFailed" lastModified="2014-04-07T14:32:44">
+  <data name="AuthorizationFailed" lastModified="2014-07-22T13:48:17">
     <value>Authorization failed.</value>
     <comment>The exception that is thrown when the operating system denies access because of an I/O error or a specific type of security error.</comment>
   </data>
-  <data name="ItemNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="ItemNotFound" lastModified="2014-07-22T13:48:17">
     <value>You are trying to access item that no longer exists. The most probable reason is that it has been deleted by another user.</value>
     <comment>Error message show by Sitefinity's common web service when an item is searched by ID and is not found.</comment>
   </data>
-  <data name="ItemNotFoundFormated" lastModified="2014-04-07T14:32:44">
+  <data name="ItemNotFoundFormated" lastModified="2014-07-22T13:48:17">
     <value>You are trying to access {0} that no longer exists. The most probable reason is that it has been deleted by another user.</value>
     <comment>Error message show by Sitefinity's common web service when an item is searched by ID and is not found.</comment>
   </data>
-  <data name="AuthorizationFailedOnlyAdminsAllowed" lastModified="2014-04-07T14:32:44">
+  <data name="AuthorizationFailedOnlyAdminsAllowed" lastModified="2014-07-22T13:48:17">
     <value>Authorization failed! Only system administrators are allowed to perform the operation: "{0}".</value>
     <comment>The exception that is thrown when the operating system denies access because of an I/O error or a specific type of security error.</comment>
   </data>
-  <data name="YouAreNotAuthorizedTo" lastModified="2014-04-07T14:32:44">
+  <data name="YouAreNotAuthorizedTo" lastModified="2014-07-22T13:48:17">
     <value>You are not authorized to {0}. Please contact your system administrator to grant you the necessary permissions to perform this operation, if you believe you are eligible.</value>
     <comment>The exception that is thrown when an operation fails because of insufficient user privileges.</comment>
   </data>
-  <data name="InvalidPlaceHolderSpecified" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidPlaceHolderSpecified" lastModified="2014-07-22T13:48:17">
     <value>The control (Type: {0}, ID: {1}) in template "{2}" specifies place holder with ID: "{3}", but such place holder does not exist in the current template hierarchy. Did you rename or remove the place holder?</value>
     <comment>This error is thrown when a Content control has ContentPlaceHolderID property set to place holder that does not exist in the template.</comment>
   </data>
-  <data name="InvalidActionForPermissionSet" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidActionForPermissionSet" lastModified="2014-07-22T13:48:17">
     <value>There is no action defined with the specified name "{0}" for permission set "{1}".</value>
     <comment>This error is thrown when a user tries to access security action that has not been defined.</comment>
   </data>
-  <data name="InvalidPermissionSet" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidPermissionSet" lastModified="2014-07-22T13:48:17">
     <value>There is no permission set defined with the specified name "{0}".</value>
     <comment>This error is thrown when a user tries to access permission set that has not been defined.</comment>
   </data>
-  <data name="ObjectDoesNotSupportPermissionSet" lastModified="2014-04-07T14:32:44">
+  <data name="ObjectDoesNotSupportPermissionSet" lastModified="2014-07-22T13:48:17">
     <value>Object of type {0} does not support permission set "{1}".</value>
     <comment>This error is thrown when a permission is demanded for an object with a permission set it does not support.</comment>
   </data>
-  <data name="InvalidRootSiteNode" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidRootSiteNode" lastModified="2014-07-22T13:48:17">
     <value>Invalid root node configured for pages. No root node with the name of "{0}".</value>
     <comment>Configuration error.</comment>
   </data>
-  <data name="InvalidPageTaxonomy" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidPageTaxonomy" lastModified="2014-07-22T13:48:17">
     <value>Invalid page taxonomy configured. No taxonomy with the name of "{0}" for provider "{1}".</value>
     <comment>Configuration error.</comment>
   </data>
-  <data name="PageModifiedBySomeoneElse" lastModified="2014-04-07T14:32:44">
+  <data name="PageModifiedBySomeoneElse" lastModified="2014-07-22T13:48:17">
     <value>This page was modified by someone else while you were editing it.</value>
     <comment>This error is thrown when a user attempts to publish a page that was modified someone else while the user was editing it.</comment>
   </data>
-  <data name="PageIsLocked" lastModified="2014-04-07T14:32:44">
+  <data name="PageIsLocked" lastModified="2014-07-22T13:48:17">
     <value>This page is locked by {0}.</value>
     <comment>This error is thrown when a user attempts to edit a page locked by someone else.</comment>
   </data>
-  <data name="ItemIsLocked" lastModified="2014-04-07T14:32:44">
+  <data name="ItemIsLocked" lastModified="2014-07-22T13:48:17">
     <value>This item is locked.</value>
     <comment>This error is thrown when a user attempts to publish an item locked by someone else.</comment>
   </data>
-  <data name="DisabledServiceCannotStart" lastModified="2014-04-07T14:32:44">
+  <data name="DisabledServiceCannotStart" lastModified="2014-07-22T13:48:17">
     <value>The service "{0}" is disabled and cannot be started.</value>
     <comment>This error is thrown when Start() method is called on disabled system service.</comment>
   </data>
-  <data name="NoPermissionSet" lastModified="2014-04-07T14:32:44">
+  <data name="NoPermissionSet" lastModified="2014-07-22T13:48:17">
     <value>No permission set is defined with the name of "{0}".</value>
     <comment>This error is thrown when permission is requested for none existent permission set.</comment>
   </data>
-  <data name="NoSuchAction" lastModified="2014-04-07T14:32:44">
+  <data name="NoSuchAction" lastModified="2014-07-22T13:48:17">
     <value>No action with the name of "{0}" is defined for permission set "{1}".</value>
     <comment>This error is thrown when a none existent security action is requested for a permission set.</comment>
   </data>
-  <data name="PersistentAttributeRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PersistentAttributeRequired" lastModified="2014-07-22T13:48:17">
     <value>PersistentAttribute is required to create cache dependency.</value>
     <comment>This error is thrown if someone tries to create cache dependency for an object that doesn't have PersistentAttribute.</comment>
   </data>
-  <data name="ConnectionNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectionNotFound" lastModified="2014-07-22T13:48:17">
     <value>Connection string "{0}" could not be found in config files.</value>
     <comment>This error is thrown if the specified connection is not found in connection strings collection in web.config.</comment>
   </data>
-  <data name="PropertyNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="PropertyNotFound" lastModified="2014-07-22T13:48:17">
     <value>The type "{0}" does not have property with name "{1}".</value>
     <comment>This error is thrown if the specified property is not found for a type.</comment>
   </data>
-  <data name="PropertyNotFoundInControl" lastModified="2014-04-07T14:32:44">
+  <data name="PropertyNotFoundInControl" lastModified="2014-07-22T13:48:17">
     <value>The control with id "{0}" of type "{1}" does not have property with name "{2}".</value>
     <comment>This error is thrown if the specified property is not found in a control.</comment>
   </data>
-  <data name="NotRegisteredXmlPersistent" lastModified="2014-04-07T14:32:44">
+  <data name="NotRegisteredXmlPersistent" lastModified="2014-07-22T13:48:17">
     <value>The type "{0}" was not registered as XML persistent.</value>
     <comment>This error is thrown when a type that is not registered as XML persistent is attempted to be persisted by an XML data provider.</comment>
   </data>
-  <data name="UserNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="UserNotFound" lastModified="2014-07-22T13:48:17">
     <value>The user "{0}" was not found.</value>
     <comment>This error is thrown by Role data providers.</comment>
   </data>
-  <data name="UserAlreadyInRole" lastModified="2014-04-07T14:32:44">
+  <data name="UserAlreadyInRole" lastModified="2014-07-22T13:48:17">
     <value>The user "{0}" is already in role "{1}".</value>
     <comment>This error is thrown by Role data providers.</comment>
   </data>
-  <data name="RoleAlreadyExists" lastModified="2014-04-07T14:32:44">
+  <data name="RoleAlreadyExists" lastModified="2014-07-22T13:48:17">
     <value>The specified role "{0}" already exists.</value>
     <comment>This error is thrown by Role data providers.</comment>
   </data>
-  <data name="RoleIsNotEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="RoleIsNotEmpty" lastModified="2014-07-22T13:48:17">
     <value>The specified role "{0}" is not empty.</value>
     <comment>This error is thrown by Role data providers.</comment>
   </data>
-  <data name="RoleNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="RoleNotFound" lastModified="2014-07-22T13:48:17">
     <value>The specified role "{0}" was not found. Role provider: "{1}".</value>
     <comment>This error is thrown by Role data providers.</comment>
   </data>
-  <data name="KeyAlreadyExistsInResource" lastModified="2014-04-07T14:32:44">
+  <data name="KeyAlreadyExistsInResource" lastModified="2014-07-22T13:48:17">
     <value>The key "{0}" already exists in the resource class "{1}".</value>
     <comment>This error is thrown when there are more then one resource entries with the same key in a resource class.</comment>
   </data>
-  <data name="TargetAndSourceNotSame" lastModified="2014-04-07T14:32:44">
+  <data name="TargetAndSourceNotSame" lastModified="2014-07-22T13:48:17">
     <value>Target and source types must be the same.</value>
     <comment>This error is usually thrown when performing operations such as comparison of objects of different type.</comment>
   </data>
-  <data name="PermissionDenied" lastModified="2014-04-07T14:32:44">
+  <data name="PermissionDenied" lastModified="2014-07-22T13:48:17">
     <value>Permission denied.</value>
     <comment>This is security error thrown when certain permission is not granted or it is explicitly denied.</comment>
   </data>
-  <data name="KeyNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="KeyNotFound" lastModified="2014-07-22T13:48:17">
     <value>Key not found.</value>
     <comment>This error is usually thrown by dictionaries if the specified key is not found.</comment>
   </data>
-  <data name="ContextOriginsFormDifferentHandler" lastModified="2014-04-07T14:32:44">
+  <data name="ContextOriginsFormDifferentHandler" lastModified="2014-07-22T13:48:17">
     <value>The provided request context origins from different handler.</value>
     <comment>This error is thrown by route handlers.</comment>
   </data>
-  <data name="ResourceNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="ResourceNotFound" lastModified="2014-07-22T13:48:17">
     <value>The resource you are looking for was not found.</value>
     <comment>This error is thrown when there is no resource for the requested URL (HTTP 404).</comment>
   </data>
-  <data name="IdOrTypeNotSepcified" lastModified="2014-04-07T14:32:44">
+  <data name="IdOrTypeNotSepcified" lastModified="2014-07-22T13:48:17">
     <value>ID or search type should be specified first.</value>
     <comment>This error is thrown by GenericContainer class if neither id or search type is specified when searching for child control.</comment>
   </data>
-  <data name="CannotResolveTypeInTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="CannotResolveTypeInTemplate" lastModified="2014-07-22T13:48:17">
     <value>Could not resolve type for tag "{0}". Make sure the proper namespace is registered.</value>
     <comment>This error is thrown by TemplateParser class when a declared type cannot be resolved.</comment>
   </data>
-  <data name="CannotFindTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="CannotFindTemplate" lastModified="2014-07-22T13:48:17">
     <value>Cannot find template "{0}".</value>
     <comment>This error is thrown by ControlUtilities class when trying to load external template but the specified virtual path is invalid.</comment>
   </data>
-  <data name="InvalidResourceNameOrEmtyTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidResourceNameOrEmtyTemplate" lastModified="2014-07-22T13:48:17">
     <value>Invalid resource name "{0}" for assembly "{1}" or empty template.</value>
     <comment>This error is thrown by ControlUtilities class when trying to load embedded template but the resource is not found or empty content is returned.</comment>
   </data>
-  <data name="ViewModeNotDefined" lastModified="2014-04-07T14:32:44">
+  <data name="ViewModeNotDefined" lastModified="2014-07-22T13:48:17">
     <value>The ViewMode "{0}" is not defined for this control.</value>
     <comment>This error is thrown by ViewMode base control if there is an attempt to access a view that was not defined.</comment>
   </data>
-  <data name="NullTemplateInfo" lastModified="2014-04-07T14:32:44">
+  <data name="NullTemplateInfo" lastModified="2014-07-22T13:48:17">
     <value>The property TemplateInfo must not be null.</value>
     <comment>This error is thrown if the propery TemplateInfo of SitefinityRouteHandler class is not set prior to invoking GetHttpHandler method.</comment>
   </data>
-  <data name="RequiredControlNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="RequiredControlNotFound" lastModified="2014-07-22T13:48:17">
     <value>A required control was not found in the template for "{0}". The control must be assignable from type "{1}" and must have ID "{2}".</value>
     <comment>This error is thrown if a required control is not found in a template.</comment>
   </data>
-  <data name="ControlNotFoundOnPage" lastModified="2014-04-07T14:32:44">
+  <data name="ControlNotFoundOnPage" lastModified="2014-07-22T13:48:17">
     <value>No control with id "{0}" was found on this page.</value>
     <comment>This error is thrown if a required control is not found on the page.</comment>
   </data>
-  <data name="InvalidSiteMapRootNode" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidSiteMapRootNode" lastModified="2014-07-22T13:48:17">
     <value>The site map provider "{0}" returned invalid root node or null.</value>
     <comment>This error is thrown a SiteMap provider does not return root node.</comment>
   </data>
-  <data name="OnlyOneBackendSiteMapProviderAllowed" lastModified="2014-04-07T14:32:44">
+  <data name="OnlyOneBackendSiteMapProviderAllowed" lastModified="2014-07-22T13:48:17">
     <value>Only one BackendSiteMapProvider is allowed. In the SiteMap configuration are defined multiple backend SiteMap providers.</value>
     <comment>This error is thrown when more than one BackendSiteMapProvider providers are defined.</comment>
   </data>
-  <data name="AddingDirectlyNotSupported" lastModified="2014-04-07T14:32:44">
+  <data name="AddingDirectlyNotSupported" lastModified="2014-07-22T13:48:17">
     <value>Adding directly to the collection is not supported. You should assign this collection to the object instead.</value>
     <comment>This error is thrown by a collection that does not support adding items.</comment>
   </data>
-  <data name="KeyNotPresentInLocalResources" lastModified="2014-04-07T14:32:44">
+  <data name="KeyNotPresentInLocalResources" lastModified="2014-07-22T13:48:17">
     <value>The key "{0}" was not present in the local resources.</value>
     <comment>This error is thrown if requested local resource is missing.</comment>
   </data>
-  <data name="ResourceIncorrectArgs" lastModified="2014-04-07T14:32:44">
+  <data name="ResourceIncorrectArgs" lastModified="2014-07-22T13:48:17">
     <value>Incorrect number of formatting arguments.
 ClassId: {0}
 Key: {1}
@@ -341,801 +341,801 @@ Value: {2}
 Args: {3}</value>
     <comment>This error is thrown when the number formats in the string do not match the number of arguments passed.</comment>
   </data>
-  <data name="TemplateParser_UnknownCharacterSequence" lastModified="2014-04-07T14:32:44">
+  <data name="TemplateParser_UnknownCharacterSequence" lastModified="2014-07-22T13:48:17">
     <value>Template parser encountered unknown character sequence "&lt;%{0}".</value>
     <comment>This error is thrown when template parser encounters unknown character sequence.</comment>
   </data>
-  <data name="Resource_InvalidPropertyName" lastModified="2014-04-07T14:32:44">
+  <data name="Resource_InvalidPropertyName" lastModified="2014-07-22T13:48:17">
     <value>Invalid property name "{0}" for resource type "{1}".</value>
     <comment>This error is thrown when invalid property name is specified for a localizable resource.</comment>
   </data>
-  <data name="ResourceLink_ResourceNameNotDefined" lastModified="2014-04-07T14:32:44">
+  <data name="ResourceLink_ResourceNameNotDefined" lastModified="2014-07-22T13:48:17">
     <value>ResourceName property for the ResourceLinks has not been defined</value>
     <comment>This error is thrown if the ResourceName for the ResourceLinks control has not been defined.</comment>
   </data>
-  <data name="ResourceLink_ResourceNameMissingExtension" lastModified="2014-04-07T14:32:44">
+  <data name="ResourceLink_ResourceNameMissingExtension" lastModified="2014-07-22T13:48:17">
     <value>ResourceName property of the ResourceLinks does not have defined extension which is not allowed</value>
     <comment>This error is thrown if the ResourceName property of the ResourceLinks control does not have a specified extension.</comment>
   </data>
-  <data name="ResourceLink_ResourceNameInvalidExtension" lastModified="2014-04-07T14:32:44">
+  <data name="ResourceLink_ResourceNameInvalidExtension" lastModified="2014-07-22T13:48:17">
     <value>ResourceName property of the ResourceLinks has specified a resource with an invalid extension. Allowed extensions are: .css, .jpg, .jpeg, .gif, .png and .js</value>
     <comment>This error is thrown if the ResourceName has defined a resource with an invalid extension.</comment>
   </data>
-  <data name="LocalResourcesNotSupported" lastModified="2014-04-07T14:32:44">
+  <data name="LocalResourcesNotSupported" lastModified="2014-07-22T13:48:17">
     <value>Local resources are not supported for embedded templates. Please use global resources instead.</value>
     <comment>This error is thrown when local resource is specified in embedded template.</comment>
   </data>
-  <data name="InvalidClassId" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidClassId" lastModified="2014-07-22T13:48:17">
     <value>A resource file with the specified class ID "{0}" was not found.</value>
     <comment>This error is thrown when global resource is requested by wrong class ID.</comment>
   </data>
-  <data name="InvalidClassIdInTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidClassIdInTemplate" lastModified="2014-07-22T13:48:17">
     <value>A resource file with the specified class ID "{0}" was not found. This class ID declaration appears in {1}.</value>
     <comment>This error is thrown when global resource is requested by wrong class ID.</comment>
   </data>
-  <data name="InvalidItemType" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidItemType" lastModified="2014-07-22T13:48:17">
     <value>Invalid data item type "{0}". Accepted item types are: {1}.</value>
     <comment>This error is thrown when invalid type of data item is passed as parameter to data provider.</comment>
   </data>
-  <data name="InvalidResourceKey" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidResourceKey" lastModified="2014-07-22T13:48:17">
     <value>The key "{0}" is not defined in resource file with class ID "{1}". This key declaration appears in {2}.</value>
     <comment>This error is thrown when global resource is specified with wrong key in a template.</comment>
   </data>
-  <data name="InvalidResourceKeyOrClassId" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidResourceKeyOrClassId" lastModified="2014-07-22T13:48:17">
     <value>Could not find the specified key "{0}" or class id "{1}".</value>
     <comment>This error is thrown when global resource is specified with wrong key or class ID.</comment>
   </data>
-  <data name="NotJoinedToTransaction" lastModified="2014-04-07T14:32:44">
+  <data name="NotJoinedToTransaction" lastModified="2014-07-22T13:48:17">
     <value>Item must be joined to a transaction in order to be saved.</value>
     <comment>This error is thrown when IDataItem.Save() method is called to a new item.</comment>
   </data>
-  <data name="PageContentPlaceholderNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="PageContentPlaceholderNotFound" lastModified="2014-07-22T13:48:17">
     <value>Required control with the id 'pageContent' was not found on the backend page template.</value>
     <comment>This error is thrown when required control with the id 'pageContent' does not exists on the backend page template.</comment>
   </data>
-  <data name="InvalidResourceName" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidResourceName" lastModified="2014-07-22T13:48:17">
     <value>Resource with the name '{0}' does not exist!</value>
     <comment>This error is thrown when an embedded resource that does not exist is being used.</comment>
   </data>
-  <data name="InvalidRedirectKey" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidRedirectKey" lastModified="2014-07-22T13:48:17">
     <value>Invalid redirect key "{0}" was specified.</value>
     <comment>This error is thrown when an invalid key is specified for BackendRedirectRouteHandler.</comment>
   </data>
-  <data name="PageIsNull" lastModified="2014-04-07T14:32:44">
+  <data name="PageIsNull" lastModified="2014-07-22T13:48:17">
     <value>Page object is not set to a reference.</value>
     <comment>This error is thrown when the page object is required by the code, yet it is not set to a reference.</comment>
   </data>
-  <data name="ScriptManagerIsNull" lastModified="2014-04-07T14:32:44">
+  <data name="ScriptManagerIsNull" lastModified="2014-07-22T13:48:17">
     <value>ScriptManager object is not set to a reference.</value>
     <comment>This error is thrown when the ScriptManager object is required by the code, yet it is not present on the page.</comment>
   </data>
-  <data name="RequiredPropertyNotDefined" lastModified="2014-04-07T14:32:44">
+  <data name="RequiredPropertyNotDefined" lastModified="2014-07-22T13:48:17">
     <value>Required property '{0}' has not been defined on the object '{1}'.</value>
     <comment>This error is thrown when a required property has not been defined on an object.</comment>
   </data>
-  <data name="DefinedFileNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="DefinedFileNotFound" lastModified="2014-07-22T13:48:17">
     <value>File set as a value of the property '{0}' on the object '{1}' cannot be found.</value>
     <comment>This error is thrown when the value of a property is a file path, but the specified file cannot be found.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultUserNameFailureText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultUserNameFailureText" lastModified="2014-07-22T13:48:17">
     <value>We were unable to access your information. Please try again.</value>
     <comment>PasswordRecovery controls - cannot retrieve information for the supplied Username.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultQuestionFailureText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultQuestionFailureText" lastModified="2014-07-22T13:48:17">
     <value>Your answer could not be verified. Please try again.</value>
     <comment>PasswordRecovery controls - Your answer could not be verified. Please try again.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultUserNameInstructionText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultUserNameInstructionText" lastModified="2014-07-22T13:48:17">
     <value>Enter your User Name to receive your password.</value>
     <comment>PasswordRecovery controls - Enter your User Name to receive your password.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultUserNameLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultUserNameLabelText" lastModified="2014-07-22T13:48:17">
     <value>User Name</value>
     <comment>PasswordRecovery controls - Label for the username.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultQuestionLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultQuestionLabelText" lastModified="2014-07-22T13:48:17">
     <value>Question</value>
     <comment>PasswordRecovery controls - Question</comment>
   </data>
-  <data name="PasswordInvalidPasswordErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordInvalidPasswordErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Please enter a different password.</value>
     <comment>PasswordRecovery controls - Please enter a different password.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultAnswerLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultAnswerLabelText" lastModified="2014-07-22T13:48:17">
     <value>Answer</value>
     <comment>PasswordRecovery controls - Answer</comment>
   </data>
-  <data name="PasswordRecoveryIdentityConfirmation" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryIdentityConfirmation" lastModified="2014-07-22T13:48:17">
     <value>Identity Confirmation</value>
     <comment>PasswordRecovery controls - Identity Confirmation</comment>
   </data>
-  <data name="PasswordRecoveryAnswerQuestionLabel" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryAnswerQuestionLabel" lastModified="2014-07-22T13:48:17">
     <value>Answer the following question to receive your password.</value>
     <comment>PasswordRecovery controls - Answer the following question to receive your password.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultUserNameRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultUserNameRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Username cannot be empty</value>
     <comment>PasswordRecovery controls - Username cannot be empty</comment>
   </data>
-  <data name="PasswordRecoveryDefaultUserNameTitleText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultUserNameTitleText" lastModified="2014-07-22T13:48:17">
     <value>Forgot your password?</value>
     <comment>PasswordRecovery controls - Forgot Your Password?</comment>
   </data>
-  <data name="PasswordRecoveryRecoveryNotSupported" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryRecoveryNotSupported" lastModified="2014-07-22T13:48:17">
     <value>Membership provider does not support password retrieval or reset.</value>
     <comment>PasswordRecovery controls - Membership provider does not support password retrieval or reset.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultSubject" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultSubject" lastModified="2014-07-22T13:48:17">
     <value>Password</value>
     <comment>PasswordRecovery controls - Default subject of the mail.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultBody" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultBody" lastModified="2014-07-22T13:48:17">
     <value>Your password has been successfully changed.&lt;br /&gt;&lt;br /&gt;User Name: &lt;%\s*UserName\s*%&gt;&lt;br /&gt;Password: &lt;%\s*Password\s*%&gt;</value>
     <comment>PasswordRecovery controls - the mail message body.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultAnswerRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultAnswerRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Answer can't be empty</value>
     <comment>Answer can't be empty</comment>
   </data>
-  <data name="PasswordRecoveryDefaultGeneralFailureText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultGeneralFailureText" lastModified="2014-07-22T13:48:17">
     <value>Your attempt to retrieve your password was not successful. Please try again.</value>
     <comment>PasswordRecovery controls - Your attempt to retrieve your password was not successful. Please try again.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultSubmitButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultSubmitButtonText" lastModified="2014-07-22T13:48:17">
     <value>Submit</value>
     <comment>PasswordRecovery controls - label of the Submit buttons.</comment>
   </data>
-  <data name="PasswordRecoveryDefaultSuccessText" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRecoveryDefaultSuccessText" lastModified="2014-07-22T13:48:17">
     <value>Your password has been sent to you.</value>
     <comment>PasswordRecovery controls - Your password has been sent to you.</comment>
   </data>
-  <data name="ChangePasswordDefaultChangePasswordFailureText" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultChangePasswordFailureText" lastModified="2014-07-22T13:48:17">
     <value>Username or/and Password incorrect or New Password invalid. The minimum length of the new password is {0} characters of which {1} must be non-alphanumeric.</value>
     <comment>ChangePassword control - Password incorrect or New Password invalid.</comment>
   </data>
-  <data name="ChangePasswordDefaultConfirmPasswordRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultConfirmPasswordRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Confirm New Password is required</value>
     <comment>ChangePassword control - Confirm New Password is required</comment>
   </data>
-  <data name="ChangePasswordDefaultChangePasswordTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultChangePasswordTitle" lastModified="2014-07-22T13:48:17">
     <value>Change Your Password</value>
     <comment>ChangePassword control - Change Your Password</comment>
   </data>
-  <data name="ConfirmPasswordCompareErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ConfirmPasswordCompareErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>The new password entries do not match.</value>
     <comment>Change password - The new password entries do not match.</comment>
   </data>
-  <data name="ChangePasswordDefaultContinueButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultContinueButtonText" lastModified="2014-07-22T13:48:17">
     <value>Continue</value>
     <comment>ChangePassword control - Continue</comment>
   </data>
-  <data name="ChangePasswordDefaultNewPasswordRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultNewPasswordRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>New password is required</value>
     <comment>ChangePassword control - New password is required</comment>
   </data>
-  <data name="ChangePasswordDefaultSuccessText" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultSuccessText" lastModified="2014-07-22T13:48:17">
     <value>Your password has been changed!</value>
     <comment>ChangePassword control - Your password has been changed!</comment>
   </data>
-  <data name="ChangePasswordDefaultSuccessTitleText" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultSuccessTitleText" lastModified="2014-07-22T13:48:17">
     <value>Change Password Complete</value>
     <comment>ChangePassword control - Change Password Complete</comment>
   </data>
-  <data name="ChangePasswordDefaultUserNameLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultUserNameLabelText" lastModified="2014-07-22T13:48:17">
     <value>User Name</value>
     <comment>ChangePassword control - User Name</comment>
   </data>
-  <data name="ChangePasswordDefaultUserNameRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultUserNameRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Username is required</value>
     <comment>ChangePassword control - Username is required</comment>
   </data>
-  <data name="ChangePasswordDefaultPasswordRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultPasswordRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Password is required</value>
     <comment>ChangePassword control - Password is required</comment>
   </data>
-  <data name="PasswordRetrievalNotEnabled" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordRetrievalNotEnabled" lastModified="2014-07-22T13:48:17">
     <value>Password Retrieval Not Enabled.</value>
     <comment>EnablePasswordRetrieval is set to false in membership provider method GetPassword.</comment>
   </data>
-  <data name="ChangePasswordFailureText" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordFailureText" lastModified="2014-07-22T13:48:17">
     <value>Error changing password.</value>
     <comment>Error changing password</comment>
   </data>
-  <data name="InvalidPassword" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidPassword" lastModified="2014-07-22T13:48:17">
     <value>Invalid password.</value>
     <comment>phrase: Invalid password</comment>
   </data>
-  <data name="CannotRetrieveHashedPasswords" lastModified="2014-04-07T14:32:44">
+  <data name="CannotRetrieveHashedPasswords" lastModified="2014-07-22T13:48:17">
     <value>Cannot retrieve Hashed passwords.</value>
     <comment>Cannot retrieve Hashed passwords.</comment>
   </data>
-  <data name="MembershipUserNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="MembershipUserNotFound" lastModified="2014-07-22T13:48:17">
     <value>User not found.</value>
     <comment>This error is thrown by the Membership provider.</comment>
   </data>
-  <data name="MembershipUserLocked" lastModified="2014-04-07T14:32:44">
+  <data name="MembershipUserLocked" lastModified="2014-07-22T13:48:17">
     <value>User locked.</value>
     <comment>Membership User is locked.</comment>
   </data>
-  <data name="PasswordAnswerRequired" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordAnswerRequired" lastModified="2014-07-22T13:48:17">
     <value>Password answer required for password reset.</value>
     <comment>Password answer required for password reset.</comment>
   </data>
-  <data name="WrongPasswordAnswer" lastModified="2014-04-07T14:32:44">
+  <data name="WrongPasswordAnswer" lastModified="2014-07-22T13:48:17">
     <value>Wrong password answer.</value>
     <comment>Wrong password answer.</comment>
   </data>
-  <data name="InvalidProviderName" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidProviderName" lastModified="2014-07-22T13:48:17">
     <value>Invalid provider name.</value>
     <comment>Invalid provider name.</comment>
   </data>
-  <data name="InvalidProviderUserKeyType" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidProviderUserKeyType" lastModified="2014-07-22T13:48:17">
     <value>Invalid providerUserKey type. Type must be GUID.</value>
     <comment>Invalid providerUserKey type. Type must be GUID.</comment>
   </data>
-  <data name="PasswordResetIsNotEnabled" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordResetIsNotEnabled" lastModified="2014-07-22T13:48:17">
     <value>Password reset is not enabled. Set the EnablePasswordReset property of the membership provider to true.</value>
     <comment>Password reset is not enabled.</comment>
   </data>
-  <data name="ChangePasswordDefaultBody" lastModified="2014-04-07T14:32:44">
+  <data name="ChangePasswordDefaultBody" lastModified="2014-07-22T13:48:17">
     <value>Please return to the site and log in using the following information.
 User Name: &lt;%UserName%&gt;
 New Password: &lt;%Password%&gt;</value>
     <comment>ChangePassword controls - the mail message body.</comment>
   </data>
-  <data name="CreateUserWizardNoQuestionTextBox" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardNoQuestionTextBox" lastModified="2014-07-22T13:48:17">
     <value>{0}: CreateUserWizardStep.ContentTemplate does not contain an IEditableTextControl with ID {1} for the security question, this is required if your membership provider requires a question and answer.</value>
     <comment>CreateUserWizard - The text to be shown if the passwors answer textbox is missing from the template.</comment>
   </data>
-  <data name="CreateUserWizardNoUserNameTextBox" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardNoUserNameTextBox" lastModified="2014-07-22T13:48:17">
     <value>{0}: CreateUserWizardStep.ContentTemplate does not contain an IEditableTextControl with ID {1} for the username.</value>
     <comment>CreateUserWizard - The error me to be shown if required textbox control is not presented in the template.</comment>
   </data>
-  <data name="CreateUserWizardSidebarLabelNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardSidebarLabelNotFound" lastModified="2014-07-22T13:48:17">
     <value>{0} control must contain a Label with ID {1} in its ItemTemplate.</value>
     <comment>CreateUserWizard - {0} control must contain a Label with ID {1} in its ItemTemplate.</comment>
   </data>
-  <data name="CreateUserWizardDuplicateCreateUserWizardStep" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDuplicateCreateUserWizardStep" lastModified="2014-07-22T13:48:17">
     <value>There can only be one CreateUserWizardStep in your WizardSteps.</value>
     <comment>CreateUserWizard - There can only be one CreateUserWizardStep in your WizardSteps.</comment>
   </data>
-  <data name="CreateUserWizardDuplicateCompleteWizardStep" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDuplicateCompleteWizardStep" lastModified="2014-07-22T13:48:17">
     <value>There can only be one CompleteWizardStep in your WizardSteps.</value>
     <comment>CreateUserWizard - There can only be one CompleteWizardStep in your WizardSteps.</comment>
   </data>
-  <data name="ViewStateInvalidViewState" lastModified="2014-04-07T14:32:44">
+  <data name="ViewStateInvalidViewState" lastModified="2014-07-22T13:48:17">
     <value>Invalid viewstate.</value>
     <comment>CreateUserWizard - Invalid viewstate.</comment>
   </data>
-  <data name="WebControlCannotFindProvider" lastModified="2014-04-07T14:32:44">
+  <data name="WebControlCannotFindProvider" lastModified="2014-07-22T13:48:17">
     <value>Could not find the specified membership provider.</value>
     <comment>CreateUserWizard - Could not find the specified membership provider.</comment>
   </data>
-  <data name="CreateUserWizardDefaultAnswerLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultAnswerLabelText" lastModified="2014-07-22T13:48:17">
     <value>Security Answer</value>
     <comment>CreateUserWizard - The text that identifies the answer textbox.</comment>
   </data>
-  <data name="CreateUserWizardDefaultAnswerRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultAnswerRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Security answer cannot be empty</value>
     <comment>CreateUserWizard - The text to be shown in the validation summary when the answer is empty.</comment>
   </data>
-  <data name="CreateUserWizardDefaultCompleteSuccessText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultCompleteSuccessText" lastModified="2014-07-22T13:48:17">
     <value>Your account has been successfully created.</value>
     <comment>CreateUserWizard - The text to be shown after the user has been created.</comment>
   </data>
-  <data name="CreateUserWizardDefaultConfirmPasswordCompareErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultConfirmPasswordCompareErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>The password and confirmation password must match</value>
     <comment>CreateUserWizard - The text to be shown in the validation summary when the password and confirm password do not match.</comment>
   </data>
-  <data name="CreateUserWizardDefaultConfirmPasswordLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultConfirmPasswordLabelText" lastModified="2014-07-22T13:48:17">
     <value>Confirm password</value>
     <comment>CreateUserWizard - The text that identifies the confirm password textbox.</comment>
   </data>
-  <data name="CreateUserWizardDefaultConfirmPasswordRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultConfirmPasswordRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Confirm password cannot be empty</value>
     <comment>CreateUserWizard - The text to be shown in the validation summary when the confirm password is empty.</comment>
   </data>
-  <data name="CreateUserWizardDefaultContinueButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultContinueButtonText" lastModified="2014-07-22T13:48:17">
     <value>Continue</value>
     <comment>CreateUserWizard - The text of the continue button.</comment>
   </data>
-  <data name="CreateUserWizardDefaultCreateUserButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultCreateUserButtonText" lastModified="2014-07-22T13:48:17">
     <value>Create User</value>
     <comment>CreateUserWizard - The text of the create user button.</comment>
   </data>
-  <data name="CreateUserWizardDefaultDuplicateEmailErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultDuplicateEmailErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>The email address that you entered is already in use. Please enter a different email address.</value>
     <comment>CreateUserWizard - Text to be shown when a duplicate email error is returned from create user.</comment>
   </data>
-  <data name="CreateUserWizardDefaultDuplicateUserNameErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultDuplicateUserNameErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Please enter a different user name.</value>
     <comment>CreateUserWizard - Text to be shown when a duplicate username error is returned from create user.</comment>
   </data>
-  <data name="CreateUserWizardDefaultEmailLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultEmailLabelText" lastModified="2014-07-22T13:48:17">
     <value>Email</value>
     <comment>CreateUserWizard - The text that identifies the email textbox.</comment>
   </data>
-  <data name="CreateUserWizardDefaultEmailRegularExpressionErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultEmailRegularExpressionErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Please enter a valid email address</value>
     <comment>CreateUserWizard - The text to be shown in the validation summary when the email does not match the regular expression.</comment>
   </data>
-  <data name="CreateUserWizardDefaultEmailRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultEmailRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Email cannot be empty</value>
     <comment>CreateUserWizard - The text to be shown in the validation summary when the email is empty.</comment>
   </data>
-  <data name="CreateUserWizardDefaultInvalidAnswerErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultInvalidAnswerErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Please enter a different security answer.</value>
     <comment>CreateUserWizard - Text to be shown when the security answer is invalid.</comment>
   </data>
-  <data name="CreateUserWizardDefaultInvalidEmailErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultInvalidEmailErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Please enter a valid email address.</value>
     <comment>CreateUserWizard - The text to be shown when the email is invalid.</comment>
   </data>
-  <data name="CreateUserWizardDefaultInvalidPasswordErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultInvalidPasswordErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Password length minimum: {0}. Non-alphanumeric characters required: {1}.</value>
     <comment>CreateUserWizard - The text to be shown when the password is invalid.</comment>
   </data>
-  <data name="CreateUserWizardDefaultInvalidQuestionErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultInvalidQuestionErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Please enter a different security question.</value>
     <comment>CreateUserWizard - Text to be shown when the security question is invalid.</comment>
   </data>
-  <data name="LoginControlsDefaultPasswordLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="LoginControlsDefaultPasswordLabelText" lastModified="2014-07-22T13:48:17">
     <value>Password</value>
     <comment>CreateUserWizard - The text that identifies the password textbox.</comment>
   </data>
-  <data name="CreateUserWizardDefaultPasswordRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultPasswordRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Password is required</value>
     <comment>CreateUserWizard - The text to be shown in the validation summary when the password is empty</comment>
   </data>
-  <data name="CreateUserWizardDefaultQuestionLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultQuestionLabelText" lastModified="2014-07-22T13:48:17">
     <value>Security Question</value>
     <comment>CreateUserWizard - The text that identifies the question textbox.</comment>
   </data>
-  <data name="CreateUserWizardDefaultQuestionRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultQuestionRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Security question cannot be empty</value>
     <comment>CreateUserWizard - The text to be shown in the validation summary when the question is empty.</comment>
   </data>
-  <data name="CreateUserWizardDefaultUserNameLabelText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultUserNameLabelText" lastModified="2014-07-22T13:48:17">
     <value>User Name</value>
     <comment>CreateUserWizard - User Name</comment>
   </data>
-  <data name="CreateUserWizardDefaultCreateUserTitleText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultCreateUserTitleText" lastModified="2014-07-22T13:48:17">
     <value>Sign Up for Your New Account</value>
     <comment>CreateUserWizard - Sign Up for Your New Account</comment>
   </data>
-  <data name="CreateUserWizardDefaultUserNameRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultUserNameRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Username is required</value>
     <comment>CreateUserWizard - Username is required</comment>
   </data>
-  <data name="CreateUserWizardDefaultFirstNameRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultFirstNameRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>First name is required</value>
     <comment>CreateUserWizard - First name is required</comment>
   </data>
-  <data name="CreateUserWizardDefaultLastNameRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultLastNameRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Last name is required</value>
     <comment>CreateUserWizard - Last name is required</comment>
   </data>
-  <data name="CreateUserWizardNoAnswerTextBox" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardNoAnswerTextBox" lastModified="2014-07-22T13:48:17">
     <value>{0}: CreateUserWizardStep.ContentTemplate does not contain an IEditableTextControl with ID {1} for the security answer, this is required if your membership provider requires a question and answer.</value>
     <comment>CreateUserWizard - {0}: CreateUserWizardStep.ContentTemplate does not contain an IEditableTextControl with ID {1} for the security answer, this is required if your membership provider requires a question and answer.</comment>
   </data>
-  <data name="CreateUserWizardNoEmailTextBox" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardNoEmailTextBox" lastModified="2014-07-22T13:48:17">
     <value>{0}: CreateUserWizardStep.ContentTemplate does not contain an IEditableTextControl with ID {1} for the email, this is required if RequireEmail = true.</value>
     <comment>CreateUserWizard - {0}: CreateUserWizardStep.ContentTemplate does not contain an IEditableTextControl with ID {1} for the email, this is required if RequireEmail = true.</comment>
   </data>
-  <data name="CreateUserWizardNoPasswordTextBox" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardNoPasswordTextBox" lastModified="2014-07-22T13:48:17">
     <value>{0}: CreateUserWizardStep.ContentTemplate does not contain an IEditableTextControl with ID {1} for the new password, this is required if AutoGeneratePassword = true.</value>
     <comment>CreateUserWizard - The Textbox for password is missing.</comment>
   </data>
-  <data name="WizardActiveStepIndexOutOfRange" lastModified="2014-04-07T14:32:44">
+  <data name="WizardActiveStepIndexOutOfRange" lastModified="2014-07-22T13:48:17">
     <value>The ActiveStepIndex must be less than WizardSteps.Count and at least -1.  For dynamically added steps, make sure they are added before or in Page_PreInit event.</value>
     <comment>CreateUserWizard - The ActiveStepIndex must be less than WizardSteps.Count and at least -1.  For dynamically added steps, make sure they are added before or in Page_PreInit event.</comment>
   </data>
-  <data name="CreateUserWizardDefaultCompleteTitleText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultCompleteTitleText" lastModified="2014-07-22T13:48:17">
     <value>Complete</value>
     <comment>Title text of Complete step in CreateUserWizard.</comment>
   </data>
-  <data name="WizardInvalidBubbleEvent" lastModified="2014-04-07T14:32:44">
+  <data name="WizardInvalidBubbleEvent" lastModified="2014-07-22T13:48:17">
     <value>The command '{0}' is not valid for the previous step, make sure the step type is not changed between postbacks.</value>
     <comment>The command '{0}' is not valid for the previous step, make sure the step type is not changed between postbacks.</comment>
   </data>
-  <data name="CreateUserWizardDefaultUnknownErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultUnknownErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Your account was not created. Please try again.</value>
     <comment>Your account was not created. Please try again.</comment>
   </data>
-  <data name="CreateUserWizardDefaultPreviousButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultPreviousButtonText" lastModified="2014-07-22T13:48:17">
     <value>Previous</value>
     <comment>The label shown on previous button.</comment>
   </data>
-  <data name="CreateUserWizardDefaultCancelButtonText" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultCancelButtonText" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>The label shown on cancel button.</comment>
   </data>
-  <data name="CreateUserWizardStepAllowReturnCannotBeSet" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardStepAllowReturnCannotBeSet" lastModified="2014-07-22T13:48:17">
     <value>AllowReturn cannot be set.</value>
     <comment>AllowReturn cannot be set.</comment>
   </data>
-  <data name="CreateUserWizardStepStepTypeCannotBeSet" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardStepStepTypeCannotBeSet" lastModified="2014-07-22T13:48:17">
     <value>StepType cannot be changed.</value>
     <comment>StepType cannot be changed.</comment>
   </data>
-  <data name="CreateUserWizardDefaultSubject" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultSubject" lastModified="2014-07-22T13:48:17">
     <value>New user created</value>
     <comment>Default subject of the mail for creating new user.</comment>
   </data>
-  <data name="CreateUserWizardDefaultBody" lastModified="2014-04-07T14:32:44">
+  <data name="CreateUserWizardDefaultBody" lastModified="2014-07-22T13:48:17">
     <value>Your account have been created.&lt;br /&gt;&lt;br /&gt;User Name: &lt;%\s*UserName\s*%&gt;&lt;br /&gt;Password: &lt;%\s*Password\s*%&gt;</value>
     <comment>Default body of the mail for creating new user.</comment>
   </data>
-  <data name="NoConfirmationPageIsSet" lastModified="2014-04-07T14:32:44">
+  <data name="NoConfirmationPageIsSet" lastModified="2014-07-22T13:48:17">
     <value>The confirmation page is invalid or not set.</value>
     <comment>Error message: The confirmation page is invalid or not set.</comment>
   </data>
-  <data name="ConfirmRegistrationMailSubject" lastModified="2014-04-07T14:32:44">
+  <data name="ConfirmRegistrationMailSubject" lastModified="2014-07-22T13:48:17">
     <value>Please confirm your registration</value>
     <comment>Default subject of the email sent to the client for registration confirmation.</comment>
   </data>
-  <data name="ConfirmRegistrationMailBody" lastModified="2014-04-07T14:32:44">
+  <data name="ConfirmRegistrationMailBody" lastModified="2014-07-22T13:48:17">
     <value>To complete your registration, follow this link: &lt;%\s*ConfirmationUrl\s*%&gt;.</value>
     <comment>Default body of the email sent to the client for registration confirmation.</comment>
   </data>
-  <data name="SuccessfulRegistrationMailSubject" lastModified="2014-04-07T14:32:44">
+  <data name="SuccessfulRegistrationMailSubject" lastModified="2014-07-22T13:48:17">
     <value>Welcome</value>
     <comment>Default subject of the email sent to the client after a successful registration.</comment>
   </data>
-  <data name="SuccessfulRegistrationEmailBody" lastModified="2014-04-07T14:32:44">
+  <data name="SuccessfulRegistrationEmailBody" lastModified="2014-07-22T13:48:17">
     <value>Your registration was successful.</value>
     <comment>Default body of the email sent to the client after a successful registration.</comment>
   </data>
-  <data name="CannotSendEmails" lastModified="2014-04-07T14:32:44">
+  <data name="CannotSendEmails" lastModified="2014-07-22T13:48:17">
     <value>Cannot send emails</value>
     <comment>The error message title to be shown when SMTP settings are not set.</comment>
   </data>
-  <data name="SmtpSettingsAreNotSet" lastModified="2014-04-07T14:32:44">
+  <data name="SmtpSettingsAreNotSet" lastModified="2014-07-22T13:48:17">
     <value>The system has not been configured to send emails. Go to &lt;a href='{0}' target='_blank'&gt;SMTP settings&lt;/a&gt; or ask your administrator to set them</value>
     <comment>The error message to be shown when SMTP settings are not set.</comment>
   </data>
-  <data name="TheSystemHasNotBeenConfiguredToSendEmails" lastModified="2014-04-07T14:32:44">
+  <data name="TheSystemHasNotBeenConfiguredToSendEmails" lastModified="2014-07-22T13:48:17">
     <value>The system has not been configured to send email.</value>
     <comment>phrase: The system has not been configured to send email.</comment>
   </data>
-  <data name="TheSystemHasIsNotPermittedToSendEmails" lastModified="2014-04-07T14:32:44">
+  <data name="TheSystemHasIsNotPermittedToSendEmails" lastModified="2014-07-22T13:48:17">
     <value>The system is denied the permission(s) to send email.</value>
     <comment>phrase: The system is denied the permission(s) to send email.</comment>
   </data>
-  <data name="ContactAnAdministratorToResetYourPasswordManually" lastModified="2014-04-07T14:32:44">
+  <data name="ContactAnAdministratorToResetYourPasswordManually" lastModified="2014-07-22T13:48:17">
     <value>Contact an administrator to reset your password manually.</value>
     <comment>Contact an administrator to reset your password manually.</comment>
   </data>
-  <data name="OrAskAnAdministratorToConfigureThSystem" lastModified="2014-04-07T14:32:44">
+  <data name="OrAskAnAdministratorToConfigureThSystem" lastModified="2014-07-22T13:48:17">
     <value>Or, ask an administrator to configure the system.</value>
     <comment>Or, ask an administrator to configure the system.</comment>
   </data>
-  <data name="Details" lastModified="2014-04-07T14:32:44">
+  <data name="Details" lastModified="2014-07-22T13:48:17">
     <value>Details</value>
     <comment>Details</comment>
   </data>
-  <data name="HowToSetSMTP" lastModified="2014-04-07T14:32:44">
+  <data name="HowToSetSMTP" lastModified="2014-07-22T13:48:17">
     <value>How to set SMTP?</value>
     <comment>How to set SMTP?</comment>
   </data>
-  <data name="GoToSettingsConfiguration" lastModified="2014-04-07T14:32:44">
+  <data name="GoToSettingsConfiguration" lastModified="2014-07-22T13:48:17">
     <value>Once logged, go to &lt;em&gt;Administration&lt;/em&gt; &amp;gt; &lt;em&gt;Settings&lt;/em&gt; &amp;gt; &lt;em&gt;Advanced&lt;/em&gt;</value>
     <comment>Once logged, go to &lt;em&gt;Administration&lt;/em&gt; &amp;gt; &lt;em&gt;Settings&lt;/em&gt; &amp;gt; &lt;em&gt;Advanced&lt;/em&gt;</comment>
   </data>
-  <data name="SelectSystemSMTPSettings" lastModified="2014-04-07T14:32:44">
+  <data name="SelectSystemSMTPSettings" lastModified="2014-07-22T13:48:17">
     <value>In that screen, select &lt;em&gt;System&lt;/em&gt; &amp;gt; &lt;em&gt;SMTP Settings&lt;/em&gt;</value>
     <comment>In that screen, select &lt;em&gt;System&lt;/em&gt; &amp;gt; &lt;em&gt;SMTP Settings&lt;/em&gt;</comment>
   </data>
-  <data name="NoWebPermissionToConnectToHost" lastModified="2014-04-07T14:32:44">
+  <data name="NoWebPermissionToConnectToHost" lastModified="2014-07-22T13:48:17">
     <value>You need to grant a WebPermission Connect to the host {0}.</value>
     <comment>The error message to be shown when no WebPermission is granted to specific external address.</comment>
   </data>
-  <data name="NoSmtpConnectPermissionGranted" lastModified="2014-04-07T14:32:44">
+  <data name="NoSmtpConnectPermissionGranted" lastModified="2014-07-22T13:48:17">
     <value>You need to grant a SmtpPermissions in order to send emails.</value>
     <comment>No SmtpPermissions granted.</comment>
   </data>
-  <data name="NoSmtpPermissionGrantedForNonDefaultPort" lastModified="2014-04-07T14:32:44">
+  <data name="NoSmtpPermissionGrantedForNonDefaultPort" lastModified="2014-07-22T13:48:17">
     <value>SmtpPermission with Access = SmtpAccess.ConnectToUnrestrictedPort should be granted, when using non default SMTP port (different from 25).</value>
     <comment>phrase: SmtpPermission with Access = SmtpAccess.ConnectToUnrestrictedPort should be granted, when using non default SMTP port (different from 25).</comment>
   </data>
-  <data name="NewAndOldPasswordsAreEqual" lastModified="2014-04-07T14:32:44">
+  <data name="NewAndOldPasswordsAreEqual" lastModified="2014-07-22T13:48:17">
     <value>The new password should be different than the current one.</value>
     <comment>phrase: The new password should be different than the current one.</comment>
   </data>
-  <data name="MembershipMoreThanOneUserWithEmail" lastModified="2014-04-07T14:32:44">
+  <data name="MembershipMoreThanOneUserWithEmail" lastModified="2014-07-22T13:48:17">
     <value>More than one user has the specified email address.</value>
     <comment>More than one user has the specified email address.</comment>
   </data>
-  <data name="ParameterCanNotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="ParameterCanNotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>The parameter '{0}' must not be empty.</value>
     <comment>The parameter '{0}' must not be empty.</comment>
   </data>
-  <data name="ParameterCanNotContainComma" lastModified="2014-04-07T14:32:44">
+  <data name="ParameterCanNotContainComma" lastModified="2014-07-22T13:48:17">
     <value>The parameter '{0}' must not contain commas.</value>
     <comment>The parameter '{0}' must not contain commas.</comment>
   </data>
-  <data name="ParameterTooLong" lastModified="2014-04-07T14:32:44">
+  <data name="ParameterTooLong" lastModified="2014-07-22T13:48:17">
     <value>The parameter '{0}' is too long: it must not exceed {1} chars in length.</value>
     <comment>The parameter '{0}' is too long: it must not exceed {1} chars in length.</comment>
   </data>
-  <data name="ProviderRoleAlreadyExists" lastModified="2014-04-07T14:32:44">
+  <data name="ProviderRoleAlreadyExists" lastModified="2014-07-22T13:48:17">
     <value>The role '{0}' already exists.</value>
     <comment>The role '{0}' already exists.</comment>
   </data>
-  <data name="WCFPropertyDuplicate" lastModified="2014-04-07T14:32:44">
+  <data name="WCFPropertyDuplicate" lastModified="2014-07-22T13:48:17">
     <value>ERROR: The property bag contains duplicate property '{0}', which is not allowed.</value>
     <comment>Error thrown when duplicate property is supplied in Save method of WCF service.</comment>
   </data>
-  <data name="WCFErrorOnSave" lastModified="2014-04-07T14:32:44">
+  <data name="WCFErrorOnSave" lastModified="2014-07-22T13:48:17">
     <value>ERROR: Item could not be saved.</value>
     <comment>Error thrown during saving resource of WCF service.</comment>
   </data>
-  <data name="WCFErrorOnDelete" lastModified="2014-04-07T14:32:44">
+  <data name="WCFErrorOnDelete" lastModified="2014-07-22T13:48:17">
     <value>ERROR: Item could not have been deleted.</value>
     <comment>Error thrown during deleting resource of WCF service.</comment>
   </data>
-  <data name="RoleNameRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="RoleNameRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Role name cannot be empty.</value>
     <comment>Message shown when role name is empty.</comment>
   </data>
-  <data name="PolicyNameRequiredErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="PolicyNameRequiredErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Policy name cannot be empty.</value>
     <comment>Message shown when policy name is empty.</comment>
   </data>
-  <data name="CannotPerformOperationBecauseTypeDoesNotContainPropertyWithThatName" lastModified="2014-04-07T14:32:44">
+  <data name="CannotPerformOperationBecauseTypeDoesNotContainPropertyWithThatName" lastModified="2014-07-22T13:48:17">
     <value>Cannot "{0}", because {1} does not contain a public property named "{2}".</value>
     <comment>Message shown when policy name is empty.</comment>
   </data>
-  <data name="TypeDoesNotImplementAnotherType" lastModified="2014-04-07T14:32:44">
+  <data name="TypeDoesNotImplementAnotherType" lastModified="2014-07-22T13:48:17">
     <value>{0} does not implement {1}.</value>
     <comment>Message shown when Type(x).IsAssignableFrom(y) returns false and this is considered an error in that context.</comment>
   </data>
-  <data name="TypeDoesNotHaveAnAttribute" lastModified="2014-04-07T14:32:44">
+  <data name="TypeDoesNotHaveAnAttribute" lastModified="2014-07-22T13:48:17">
     <value>{0} does not have the {1} attribute.</value>
     <comment>Message shown when a type is not decorated with a given attribute</comment>
   </data>
-  <data name="CannotInferItemTypeFromQueryString" lastModified="2014-04-07T14:32:44">
+  <data name="CannotInferItemTypeFromQueryString" lastModified="2014-07-22T13:48:17">
     <value>Cannot infer item type from query string. Please check that you have an itemType query string parameter in your service call.</value>
     <comment>Message shown when Sitefinity needs to generate a new type for the WCF pipeline</comment>
   </data>
-  <data name="CannotResolveGenericProvider" lastModified="2014-04-07T14:32:44">
+  <data name="CannotResolveGenericProvider" lastModified="2014-07-22T13:48:17">
     <value>Cannot resolve the provider that works with items of type {0}.</value>
     <comment>Message shown when Sitefinity tries to determine the provider it has to use for the generic content manager</comment>
   </data>
-  <data name="CannotResolveType" lastModified="2014-04-07T14:32:44">
+  <data name="CannotResolveType" lastModified="2014-07-22T13:48:17">
     <value>Cannot resolve type {0}. Please check your spelling and if you have registered the type assembly with TypeResolutionService.</value>
     <comment>Message shown when Sitefinity cannot resolve a type.</comment>
   </data>
-  <data name="CannotInferManagerTypeFromItemType" lastModified="2014-04-07T14:32:44">
+  <data name="CannotInferManagerTypeFromItemType" lastModified="2014-07-22T13:48:17">
     <value>Cannot infer manager type, because content type `{0}` is not mapped to a manager type. You can do so in configuration, via the ManagerTypeAttribute, or in code subscribing to ManagerBase.NeedsManagerType.</value>
     <comment>Message that is shown when the manager type cannot be infered from the item type.</comment>
   </data>
-  <data name="OpenAccesInternalIdentityIsNotSupported" lastModified="2014-04-07T14:32:44">
+  <data name="OpenAccesInternalIdentityIsNotSupported" lastModified="2014-07-22T13:48:17">
     <value>OpenAccess internal identity is not supported. Type: {0}</value>
     <comment>Message shown when Sitefinity detects OpenAccess with internal identity in a context that does not allow it</comment>
   </data>
-  <data name="CannotFindIdentityForType" lastModified="2014-04-07T14:32:44">
+  <data name="CannotFindIdentityForType" lastModified="2014-07-22T13:48:17">
     <value>Can not find identity field/property for {0}</value>
     <comment>Message shown when Sitefinity can not determine the identity field or property used by a persistent type. Parameter is a Type.</comment>
   </data>
-  <data name="ViewHostUndefined." lastModified="2014-04-07T14:32:44">
+  <data name="ViewHostUndefined." lastModified="2014-07-22T13:48:17">
     <value>View's Host is not defined.</value>
     <comment>Message shown when a view host is undefined.</comment>
   </data>
-  <data name="ContentDetailIsNull" lastModified="2014-04-07T14:32:44">
+  <data name="ContentDetailIsNull" lastModified="2014-07-22T13:48:17">
     <value>No Content Detail to show.</value>
     <comment>Message shown when view is in detail mode but the Content Detail is null.</comment>
   </data>
-  <data name="TemplateParserCannotSetAttributeValue" lastModified="2014-04-07T14:32:44">
+  <data name="TemplateParserCannotSetAttributeValue" lastModified="2014-07-22T13:48:17">
     <value>{0} ('{1}'): cannot set attribute with name '{2}' to '{3}'</value>
     <comment>{TagName} ('{TypeName}'): cannot set attribute with name '{PropertyName}' to '{Value}'</comment>
   </data>
-  <data name="CurrentUserIsBlockedById" lastModified="2014-04-07T14:32:44">
+  <data name="CurrentUserIsBlockedById" lastModified="2014-07-22T13:48:17">
     <value>The currently logged on user is blocked by ID.</value>
     <comment>Typically used when a user that is blocked by ID tries to perform some action.</comment>
   </data>
-  <data name="CurrentUserIsBlockedByIp" lastModified="2014-04-07T14:32:44">
+  <data name="CurrentUserIsBlockedByIp" lastModified="2014-07-22T13:48:17">
     <value>The currently logged on user is blocked by IP.</value>
     <comment>Typically used when a user that is blocked by IP tries to perform some action.</comment>
   </data>
-  <data name="NoCommentedItem" lastModified="2014-04-07T14:32:44">
+  <data name="NoCommentedItem" lastModified="2014-07-22T13:48:17">
     <value>You must specify a content item to comment.</value>
     <comment>Typically used in CommentsService when trying to comment without specifying the item that has to be commented.</comment>
   </data>
-  <data name="InvalidRegularExpression" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidRegularExpression" lastModified="2014-07-22T13:48:17">
     <value>The specified regular expression: "{0}" is invalid.</value>
     <comment>Message: The specified regular expression: "{0}" is invalid.</comment>
   </data>
-  <data name="InvalidMinDate" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidMinDate" lastModified="2014-07-22T13:48:17">
     <value>You have specified an invalid minimum date.</value>
     <comment>Message: You have specified an invalid minimum date.</comment>
   </data>
-  <data name="InvalidMaxDate" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidMaxDate" lastModified="2014-07-22T13:48:17">
     <value>You have specified an invalid maximum date.</value>
     <comment>Message: You have specified an invalid maximum date.</comment>
   </data>
-  <data name="MaxDateBeforeMinDate" lastModified="2014-04-07T14:32:44">
+  <data name="MaxDateBeforeMinDate" lastModified="2014-07-22T13:48:17">
     <value>You have specified maximum date which is smaller than the minimum date.</value>
     <comment>Message: You have specified maximum date which is smaller than the minimum date.</comment>
   </data>
-  <data name="InvalidTimeZoneName" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidTimeZoneName" lastModified="2014-07-22T13:48:17">
     <value>Invalid time zone standard name.</value>
     <comment>phrase: Invalid time zone standard name.</comment>
   </data>
-  <data name="InvalidTimeZoneOffset" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidTimeZoneOffset" lastModified="2014-07-22T13:48:17">
     <value>Invalid time zone base UTC offset.</value>
     <comment>phrase: Invalid time zone base UTC offset.</comment>
   </data>
-  <data name="AlphaNumericViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="AlphaNumericViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>Non alphanumeric characters are not allowed.</value>
     <comment>Message: Non alphanumeric characters are not allowed.</comment>
   </data>
-  <data name="CurrencyViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="CurrencyViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You have entered an invalid currency.</value>
     <comment>Message: You have entered an invalid currency.</comment>
   </data>
-  <data name="EmailAddressViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="EmailAddressViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You have entered an invalid email address.</value>
     <comment>Message: You have entered an invalid email address.</comment>
   </data>
-  <data name="IntegerViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="IntegerViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You have entered an invalid integer.</value>
     <comment>Message: You have entered an invalid integer.</comment>
   </data>
-  <data name="InternetUrlViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="InternetUrlViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You have entered an invalid URL.</value>
     <comment>Message: You have entered an invalid URL.</comment>
   </data>
-  <data name="MaxLengthViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="MaxLengthViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>Too long</value>
     <comment>Message: Too long</comment>
   </data>
-  <data name="MaxValueViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="MaxValueViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>Too big</value>
     <comment>Message: Too big</comment>
   </data>
-  <data name="MinLengthViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="MinLengthViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>Too short.</value>
     <comment>Message: Too short.</comment>
   </data>
-  <data name="MinValueViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="MinValueViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>Too small.</value>
     <comment>Message: Too small.</comment>
   </data>
-  <data name="NonAlphaNumericViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NonAlphaNumericViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>Alphanumeric characters are not allowed.</value>
     <comment>Message: Alphanumeric characters are not allowed.</comment>
   </data>
-  <data name="NumericViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NumericViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You have entered an invalid number.</value>
     <comment>Message: You have entered an invalid number.</comment>
   </data>
-  <data name="PercentageViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="PercentageViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You have entered an invalid percentage.</value>
     <comment>Message: You have entered an invalid percentage.</comment>
   </data>
-  <data name="RegularExpressionViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="RegularExpressionViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>Invalid format</value>
     <comment>Message: Invalid format</comment>
   </data>
-  <data name="RequiredViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="RequiredViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>Required field.</value>
     <comment>Message: Required field.</comment>
   </data>
-  <data name="USSocialSecurityNumberViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="USSocialSecurityNumberViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You have entered an invalid US social security number.</value>
     <comment>Message: You have entered an invalid US social security number.</comment>
   </data>
-  <data name="USZipCodeViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="USZipCodeViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>You have entered an invalid US ZIP code.</value>
     <comment>Message: You have entered an invalid US ZIP code.</comment>
   </data>
-  <data name="ExpirationDateShouldBeAfterPublicationDate" lastModified="2014-04-07T14:32:44">
+  <data name="ExpirationDateShouldBeAfterPublicationDate" lastModified="2014-07-22T13:48:17">
     <value>The expiration date must be after the publication date.</value>
     <comment>Message: The expiration date must be after the publication date.</comment>
   </data>
-  <data name="EndDateShouldNotBeEarlierThanStartDate" lastModified="2014-04-07T14:32:44">
+  <data name="EndDateShouldNotBeEarlierThanStartDate" lastModified="2014-07-22T13:48:17">
     <value>Event's end date cannot be set earlier than its start date.</value>
     <comment>Message: Event's end date cannot be set earlier than its start date.</comment>
   </data>
-  <data name="FormManagerOnlyOneInstance" lastModified="2014-04-07T14:32:44">
+  <data name="FormManagerOnlyOneInstance" lastModified="2014-07-22T13:48:17">
     <value>Only one instance of FormManager is allowed per page. Please, use FormManager.GetCurrent() to get the FormManager instance or FormManager.Ensure() to automatically add one.</value>
     <comment>Message: Only one instance of FormManager is allowed per page. Please, use FormManager.GetCurrent() to get the FormManager instance or FormManager.Ensure() to automatically add one.</comment>
   </data>
-  <data name="FormManagerNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="FormManagerNotFound" lastModified="2014-07-22T13:48:17">
     <value>No FormManager found on the page. Use FormManager.Ensure() to add one.</value>
     <comment>Message: No FormManager found on the page. Use FormManager.Ensure() to add one.</comment>
   </data>
-  <data name="MissingProvider" lastModified="2014-04-07T14:32:44">
+  <data name="MissingProvider" lastModified="2014-07-22T13:48:17">
     <value>No provider is set.</value>
     <comment>Error message shown when the provider cannot be retrieved.</comment>
   </data>
-  <data name="InvalidConfigElementParent" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidConfigElementParent" lastModified="2014-07-22T13:48:17">
     <value>The parent item of the '{0}' ConfigElement is not the correct one.</value>
     <comment>Message: The parent item of the '{0}' ConfigElement is not the correct one.</comment>
   </data>
-  <data name="InvalidDateRange" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidDateRange" lastModified="2014-07-22T13:48:17">
     <value>You have specified an invalid date range.</value>
     <comment>Message: You have specified an invalid date range.</comment>
   </data>
-  <data name="FirstNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="FirstNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Enter your first name.</value>
     <comment>phrase</comment>
   </data>
-  <data name="LastNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="LastNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Enter your last name.</value>
     <comment>phrase</comment>
   </data>
-  <data name="EmailCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="EmailCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Enter your email.</value>
     <comment>phrase</comment>
   </data>
-  <data name="DynamicTypeDefinitionIsNotArray" lastModified="2014-04-07T14:32:44">
+  <data name="DynamicTypeDefinitionIsNotArray" lastModified="2014-07-22T13:48:17">
     <value>Dynamic type object must be an array</value>
     <comment>phrase</comment>
   </data>
-  <data name="LinkedNodeIdNotSet" lastModified="2014-04-07T14:32:44">
+  <data name="LinkedNodeIdNotSet" lastModified="2014-07-22T13:48:17">
     <value>The LinkedNodeId property is not set.</value>
     <comment>Error thrown when the LinkedNodeId property of a page node is not set.</comment>
   </data>
-  <data name="ActivationErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ActivationErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>User activation failed</value>
     <comment>User activation failed.</comment>
   </data>
-  <data name="SuccessfulActivationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="SuccessfulActivationMessage" lastModified="2014-07-22T13:48:17">
     <value>User activation succeeded.</value>
     <comment>User activation succeeded.</comment>
   </data>
-  <data name="ErrorParsingTheTemplate" lastModified="2014-04-07T14:32:44">
+  <data name="ErrorParsingTheTemplate" lastModified="2014-07-22T13:48:17">
     <value>Error parsing the template</value>
     <comment>phrase: Error parsing the template</comment>
   </data>
-  <data name="CouldNotCreateHashAlgorithm" lastModified="2014-04-07T14:32:44">
+  <data name="CouldNotCreateHashAlgorithm" lastModified="2014-07-22T13:48:17">
     <value>Error creating the hash algorithm</value>
     <comment>phrase: Error creating the hash algorithm</comment>
   </data>
-  <data name="PasswordResetNotConfigured" lastModified="2014-04-07T14:32:44">
+  <data name="PasswordResetNotConfigured" lastModified="2014-07-22T13:48:17">
     <value>Password reset is not configured</value>
     <comment>phrase: Password reset is not configured</comment>
   </data>
-  <data name="NicknameAlreadyUsed" lastModified="2014-04-07T14:32:44">
+  <data name="NicknameAlreadyUsed" lastModified="2014-07-22T13:48:17">
     <value>A user with this nickname already exists.</value>
     <comment>phrase: A user with this nickname already exists.</comment>
   </data>
-  <data name="NicknameMaxLength" lastModified="2014-04-07T14:32:44">
+  <data name="NicknameMaxLength" lastModified="2014-07-22T13:48:17">
     <value>The nickname should be at most 64 symbols.</value>
     <comment>phrase: The nickname should be at most 64 symbols.</comment>
   </data>
-  <data name="EmailNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="EmailNotFound" lastModified="2014-07-22T13:48:17">
     <value>There is no user with this email.</value>
     <comment>phrase: There is no user with this email.</comment>
   </data>
-  <data name="BasicTemplatesCanNotBeBasedOnOtherTemplates" lastModified="2014-04-07T14:32:44">
+  <data name="BasicTemplatesCanNotBeBasedOnOtherTemplates" lastModified="2014-07-22T13:48:17">
     <value>Basic templates can not be based on other templates.</value>
     <comment>phrase: Basic templates can not be based on other templates.</comment>
   </data>
-  <data name="TemplateCannotBeBasedOnItself" lastModified="2014-04-07T14:32:44">
+  <data name="TemplateCannotBeBasedOnItself" lastModified="2014-07-22T13:48:17">
     <value>The template cannot be based on itself or on a template related to this template.</value>
     <comment>phrase: The template cannot be based on itself or on a template related to this template.</comment>
   </data>
-  <data name="CannotChangeParentBecauseOfRecursiveRelation" lastModified="2014-04-07T14:32:44">
+  <data name="CannotChangeParentBecauseOfRecursiveRelation" lastModified="2014-07-22T13:48:17">
     <value>Parent cannot be changed. Changing the parent of "{0}" to "{1}" will cause a recursive relation since "{0}" is a predecessor of "{1}".</value>
     <comment>Message: Parent cannot be changed. Changing the parent of {0} to {1} will cause a recursive relation since {0} is a predecessor of {1}.</comment>
   </data>
-  <data name="DuplicateUrlException" lastModified="2014-04-07T14:32:44">
+  <data name="DuplicateUrlException" lastModified="2014-07-22T13:48:17">
     <value>An item with the URL '{0}' already exists.</value>
     <comment>Error message.</comment>
   </data>
-  <data name="TitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="TitleCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Title cannot be empty</value>
     <comment>phrase: Title cannot be empty</comment>
   </data>
-  <data name="TitleMaxLength" lastModified="2014-04-07T14:32:44">
+  <data name="TitleMaxLength" lastModified="2014-07-22T13:48:17">
     <value>The title should be at most 255 symbols.</value>
     <comment>phrase: The title should be at most 255 symbols.</comment>
   </data>
-  <data name="AltTextMaxLength" lastModified="2014-04-07T14:32:44">
+  <data name="AltTextMaxLength" lastModified="2014-07-22T13:48:17">
     <value>The alternative text should be at most 255 symbols.</value>
     <comment>phrase: The alternative text should be at most 255 symbols.</comment>
   </data>

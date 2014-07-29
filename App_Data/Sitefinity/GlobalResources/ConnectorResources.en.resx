@@ -145,1058 +145,1062 @@
     <value>This is the Connector module group page.</value>
     <comment>Description of the Connector module group page.</comment>
   </data>
-  <data name="ConnectorResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectorResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity Connector for SharePoint</value>
     <comment>Phrase: Sitefinity Connector for SharePoint</comment>
   </data>
-  <data name="ConnectorResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectorResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Connector for SharePoint</value>
     <comment>The plural title for the Connector for SharePoint module.</comment>
   </data>
-  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleTitle" lastModified="2014-07-22T13:48:17">
     <value>Connector for Sharepoint</value>
     <comment>Title of the Connector for Sharepoint module.</comment>
   </data>
-  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleDescription" lastModified="2014-07-22T13:48:17">
     <value>Connector for SharePoint module.</value>
     <comment>Description of the Connector module.</comment>
   </data>
-  <data name="SharepointSitesPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSitesPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>SharePoint sites</value>
     <comment>Phrase: SharePoint sites</comment>
   </data>
-  <data name="SharepointSitesPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSitesPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets a list of the SharePoint sites</value>
     <comment>Phrase: Gets a list of the SharePoint sites</comment>
   </data>
-  <data name="SharepointSiteAddressPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSiteAddressPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Address</value>
     <comment>Word: Address</comment>
   </data>
-  <data name="SharepointSiteAddressPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSiteAddressPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the address of the SharePoint site</value>
     <comment>Phrase: Gets or sets the address of the SharePoint site</comment>
   </data>
-  <data name="SharepointSiteUserNamePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSiteUserNamePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>User name</value>
     <comment>Phrase: User name</comment>
   </data>
-  <data name="SharepointSiteUserNamePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSiteUserNamePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the username that is to be authenticated by the SharePoint site</value>
     <comment>Phrase: Gets or sets the username that is to be authenticated by the SharePoint site</comment>
   </data>
-  <data name="SharepointSitePasswordPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSitePasswordPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Password</value>
     <comment>Word: Password</comment>
   </data>
-  <data name="SharepointSitePasswordPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSitePasswordPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the password that is used to authenticate the user by the SharePoint site</value>
     <comment>Phrase: Gets or sets the password that is used to authenticate the user by the SharePoint site</comment>
   </data>
-  <data name="SharepointListMappingsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointListMappingsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>List mappings</value>
     <comment>Phrase: List mappings</comment>
   </data>
-  <data name="SharepointListMappingsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointListMappingsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets the mappings between the SharePoint lists and Sitefinity libraries</value>
     <comment>Phrase: Gets the mappings between the SharePoint lists and Sitefinity libraries</comment>
   </data>
-  <data name="SharepointMappingSitefinityDataPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityDataPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity data</value>
     <comment>Phrase: Sitefinity data</comment>
   </data>
-  <data name="SharepointMappingSitefinityDataPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityDataPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the Sitefinity data used for the mapping</value>
     <comment>Phrase: Gets or sets the Sitefinity data used for the mapping</comment>
   </data>
-  <data name="ConfigurationIdPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ConfigurationIdPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Configuraiton identifier</value>
     <comment>Phrase: Configuraiton identifier</comment>
   </data>
-  <data name="ConfigurationIdPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ConfigurationIdPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the configuraiton identifier</value>
     <comment>Phrase: Gets or sets the configuraiton identifier</comment>
   </data>
-  <data name="SharepointMappingSharepointListPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSharepointListPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>SharePoint list</value>
     <comment>Phrase: SharePoint list</comment>
   </data>
-  <data name="SharepointMappingSharepointListPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSharepointListPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the SharePoint list used for the mapping</value>
     <comment>Phrase: Gets or sets the SharePoint list used for the mapping</comment>
   </data>
-  <data name="SharepointFieldMappingsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointFieldMappingsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Field mappings</value>
     <comment>Phrase: Field mappings</comment>
   </data>
-  <data name="SharepointFieldMappingsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointFieldMappingsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets the mappings between the SharePoint list fields and Sitefinity data fields</value>
     <comment>Phrase: Gets the mappings between the SharePoint list fields and Sitefinity data fields</comment>
   </data>
-  <data name="SharepointMappingSharepointFieldPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSharepointFieldPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>SharePoint field</value>
     <comment>Phrase: SharePoint field</comment>
   </data>
-  <data name="SharepointMappingSharepointFieldPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSharepointFieldPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the SharePoint list field used for the mapping</value>
     <comment>Phrase: Gets or sets the SharePoint list field used for the mapping</comment>
   </data>
-  <data name="SharepointMappingSitefinityFieldPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityFieldPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity field</value>
     <comment>Phrase: Sitefinity field</comment>
   </data>
-  <data name="SharepointMappingSitefinityFieldPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityFieldPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the Sitefinity data field used for the mapping</value>
     <comment>Phrase: Gets or sets the Sitefinity data field used for the mapping</comment>
   </data>
-  <data name="SharepointMappingSharepointFieldTypePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSharepointFieldTypePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>SharePoint field type</value>
     <comment>Phrase: Sharepoint field type</comment>
   </data>
-  <data name="SharepointMappingSharepointFieldTypePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSharepointFieldTypePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the SharePoint list field type used for the mapping</value>
     <comment>Phrase: Gets or sets the SharePoint list field type used for the mapping</comment>
   </data>
-  <data name="SharepointMappingSitefinityFieldTypePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityFieldTypePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity field type</value>
     <comment>Phrase: Sitefinity field type</comment>
   </data>
-  <data name="SharepointMappingSitefinityFieldTypePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityFieldTypePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the Sitefinity data field type used for the mapping</value>
     <comment>Phrase: Gets or sets the Sitefinity data field type used for the mapping</comment>
   </data>
-  <data name="SharepointMappingIsFieldKeyPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingIsFieldKeyPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Is the field key</value>
     <comment>Phrase: Is the field key</comment>
   </data>
-  <data name="SharepointMappingIsFieldKeyPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingIsFieldKeyPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets whether the field is a key (ID)</value>
     <comment>Phrase: Gets or sets whether the field is a key (ID)</comment>
   </data>
-  <data name="SharepointMappingSitefinityDataProviderPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityDataProviderPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Provider for the Sitefinity data</value>
     <comment>Phrase: Provider for the Sitefinity data</comment>
   </data>
-  <data name="SharepointMappingSitefinityDataProviderPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityDataProviderPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the Sitefinity provider used for the mapping</value>
     <comment>Phrase: Gets or sets the Sitefinity provider used for the mapping</comment>
   </data>
-  <data name="SharepointSiteNamePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSiteNamePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Site name</value>
     <comment>Phrase: Site name</comment>
   </data>
-  <data name="SharepointSiteNamePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSiteNamePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the friendly name for the Sharepoint site</value>
     <comment>Phrase: Gets or sets the friendly name for the Sharepoint site</comment>
   </data>
-  <data name="SharepointMappingSynchronizationTypePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSynchronizationTypePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Synchronization type</value>
     <comment>Phrase: Synchronization type</comment>
   </data>
-  <data name="SharepointMappingSynchronizationTypePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSynchronizationTypePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Allowed values: TwoWay, OneWayToSitefinity, OneWayToSharePoint</value>
     <comment>Phrase: Allowed values: TwoWay, OneWayToSitefinity, OneWayToSharePoint</comment>
   </data>
-  <data name="SharepointMappingSitefinityContentTypePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityContentTypePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Allowed values: DocumentLibrary, DynamicModule, Calendar.</value>
     <comment>Phrase: Allowed values: DocumentLibrary, DynamicModule, EventsModule.</comment>
   </data>
-  <data name="SynchronizationStatusPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SynchronizationStatusPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Synchronization status</value>
     <comment>Phrase: Synchronization status</comment>
   </data>
-  <data name="SynchronizationStatusPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SynchronizationStatusPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Allowed values: Enabled, Disabled</value>
     <comment>Phrase: Allowed values: Enabled, Disabled</comment>
   </data>
-  <data name="SchedulePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Schedule time</value>
     <comment>Phrase: Schedule time</comment>
   </data>
-  <data name="SchedulePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SchedulePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the schedule time in crontab format.</value>
     <comment>Phrase: Gets or sets the schedule time in crontab format.</comment>
   </data>
-  <data name="SharepointMappingSharepointFieldIsReadOnlyPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSharepointFieldIsReadOnlyPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>IsReadOnly property for SharePoint field</value>
     <comment>Phrase: Gets or sets the IsReadOnly property for SharePoint field</comment>
   </data>
-  <data name="SharepointMappingSharepointFieldIsBackendCalculatedPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSharepointFieldIsBackendCalculatedPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>IsBackendCalculated property for SharePoint field</value>
     <comment>Phrase: Gets or sets the IsBackendCalculated property for  SharePoint field</comment>
   </data>
-  <data name="SitefinityDataDisplayNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityDataDisplayNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Display name of the sitefinity data</value>
     <comment>Phrase: Display name of the sitefinity data</comment>
   </data>
-  <data name="SitefinityDataDisplayNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityDataDisplayNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the display name of the sitefinity data.</value>
     <comment>Phrase: Gets or sets the display name of the sitefinity data.</comment>
   </data>
-  <data name="ListTemplateTypePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ListTemplateTypePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>The type of the Sharepoint list</value>
     <comment>Phrase: The type of the Sharepoint list</comment>
   </data>
-  <data name="ListTemplateTypePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ListTemplateTypePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the type of the Sharepoint list.</value>
     <comment>Phrase: Gets or sets the type of the Sharepoint list.</comment>
   </data>
-  <data name="ScheduleSummaryPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSummaryPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Schedule summary</value>
     <comment>Phrase: Schedule summary</comment>
   </data>
-  <data name="ScheduleSummaryPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSummaryPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the localized schedule summary.</value>
     <comment>Phrase: Gets or sets the localized schedule summary.</comment>
   </data>
-  <data name="TaskRetryIntervalPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="TaskRetryIntervalPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Retry interval</value>
     <comment>Phrase: Retry interval</comment>
   </data>
-  <data name="TaskRetryIntervalPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TaskRetryIntervalPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the synchronization task retry interval in seconds</value>
     <comment>Phrase: Gets or sets the synchronization task retry interval in seconds</comment>
   </data>
-  <data name="SyncDeletedItemsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SyncDeletedItemsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sync deleted items</value>
     <comment>Phrase: Sync deleted items</comment>
   </data>
-  <data name="SyncDeletedItemsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SyncDeletedItemsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets whether to synchronize the deleted items</value>
     <comment>Gets or sets whether to synchronize the deleted items</comment>
   </data>
-  <data name="PlaceDeletedItemsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="PlaceDeletedItemsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Place deleted items in the Recycle Bin of a SharePoint site</value>
     <comment>Phrase: Place deleted items in the Recycle Bin of a SharePoint site</comment>
   </data>
-  <data name="PlaceDeletedItemsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="PlaceDeletedItemsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets whether to place deleted items in the Recycle Bin of a SharePoint site</value>
     <comment>Gets or sets whether to place deleted items in the Recycle Bin of a SharePoint site</comment>
   </data>
-  <data name="MasterAdapterPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="MasterAdapterPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Master adapter</value>
     <comment>Phrase: Master adapter</comment>
   </data>
-  <data name="MasterAdapterPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MasterAdapterPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets which adapter wins in case of conflicts during a two-way sync. 
  Allowed values: SharePoint, Sitefinity</value>
     <comment>Phrase: Gets or sets which adapter wins in case of conflicts during a two-way sync. 
  Allowed values: SharePoint, Sitefinity</comment>
   </data>
-  <data name="SharepointMappingSitefinityContentTypePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointMappingSitefinityContentTypePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity content type</value>
     <comment>Phrase: Sitefinity content type</comment>
   </data>
-  <data name="MappingKeyPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="MappingKeyPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Mapping name</value>
     <comment>Phrase: Mapping name</comment>
   </data>
-  <data name="MappingKeyPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="MappingKeyPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Unique identifier for the mapping</value>
     <comment>Phrase: Unique identifier for the mapping</comment>
   </data>
-  <data name="SharepointFilterPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointFilterPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>SharePoint filter</value>
     <comment>Phrase: SharePoint filter</comment>
   </data>
-  <data name="SharepointFilterPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointFilterPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Specifies which SharePoint items should be synced</value>
     <comment>Phrase: Specifies which SharePoint items should be synced</comment>
   </data>
-  <data name="SitefinityFilterPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityFilterPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity filter</value>
     <comment>Phrase: Sitefinity filter</comment>
   </data>
-  <data name="SitefinityFilterPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityFilterPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Specifies which Sitefinity items should be synced</value>
     <comment>Phrase: Specifies which Sitefinity items should be synced</comment>
   </data>
-  <data name="SkipDraftItemsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SkipDraftItemsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Skip draft items</value>
     <comment>Phrase: Skip draft items</comment>
   </data>
-  <data name="SkipDraftItemsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SkipDraftItemsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets whether to ignore the items that are not Approved/Published.</value>
     <comment>Phrase: Gets or sets whether to ignore the items that are not Approved/Published.</comment>
   </data>
-  <data name="SyncSharePointTagsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SyncSharePointTagsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sync SharePoint tags</value>
     <comment>Phrase: Sync SharePoint tags</comment>
   </data>
-  <data name="SyncSharePointTagsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SyncSharePointTagsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets whether to synchronize SharePoint tags to a Sitefinity classification.</value>
     <comment>Phrase: Gets or sets whether to synchronize SharePoint tags to a Sitefinity classification.</comment>
   </data>
-  <data name="SitefinityTaxonomyPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityTaxonomyPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity classification</value>
     <comment>Phrase: Sitefinity classification</comment>
   </data>
-  <data name="SitefinityTaxonomyPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityTaxonomyPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the developer name of the Sitefinity flat (simple) classification that will be synchronized with the SharePoint tags.</value>
     <comment>Phrase: Gets or sets the developer name of the Sitefinity flat (simple) classification that will be synchronized with the SharePoint tags.</comment>
   </data>
-  <data name="SitefinityTaxaPropertyNamePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityTaxaPropertyNamePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity classification field name</value>
     <comment>Phrase: Sitefinity classification field name</comment>
   </data>
-  <data name="SitefinityTaxaPropertyNamePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityTaxaPropertyNamePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the property which stores the classification in the Sitefinity item.</value>
     <comment>Phrase: Gets or sets the property which stores the classification in the Sitefinity item.</comment>
   </data>
-  <data name="SharePointTagsFilterPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SharePointTagsFilterPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>SharePoint tags filter</value>
     <comment>Phrase: SharePoint tags filter</comment>
   </data>
-  <data name="SharePointTagsFilterPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharePointTagsFilterPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the tags that will be used to filter the SharePoint items, separated by semicolons.</value>
     <comment>Phrase: Gets or sets the tags that will be used to filter the SharePoint items, separated by semicolons.</comment>
   </data>
-  <data name="SitefinityTaxonomyFilterPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityTaxonomyFilterPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity classification filter</value>
     <comment>Phrase: Sitefinity classification filter</comment>
   </data>
-  <data name="SitefinityTaxonomyFilterPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityTaxonomyFilterPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the classifications that will be used to filter the Sitefinity items, separated by semicolons.</value>
     <comment>Phrase: Gets or sets the classifications that will be used to filter the Sitefinity items, separated by semicolons.</comment>
   </data>
-  <data name="PageSizePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="PageSizePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Page size</value>
     <comment>Phrase: Page size</comment>
   </data>
-  <data name="PageSizePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="PageSizePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the size of the page during synchronization.</value>
     <comment>Phrase: Gets or sets the size of the page during synchronization.</comment>
   </data>
-  <data name="TransactionSizePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="TransactionSizePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Transaction size</value>
     <comment>Phrase: Transaction size</comment>
   </data>
-  <data name="TransactionSizePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TransactionSizePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Gets or sets the size of the transaction during synchronization.</value>
     <comment>Phrase: Gets or sets the size of the transaction during synchronization.</comment>
   </data>
-  <data name="SharepointBasicSettingsName" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointBasicSettingsName" lastModified="2014-07-22T13:48:17">
     <value>SharePoint</value>
     <comment>The name of the SharePoint basic settings page.</comment>
   </data>
-  <data name="SharepointBasicSettingsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointBasicSettingsTitle" lastModified="2014-07-22T13:48:17">
     <value>SharePoint Servers</value>
     <comment>The title of the SharePoint basic settings page.</comment>
   </data>
-  <data name="SharepointSitesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSitesTitle" lastModified="2014-07-22T13:48:17">
     <value>SharePoint sites</value>
     <comment>Title of the SharePoint connector module page.</comment>
   </data>
-  <data name="SharepointSitesUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSitesUrlName" lastModified="2014-07-22T13:48:17">
     <value>Sites</value>
     <comment>Urlname of the SharePoint connector module page.</comment>
   </data>
-  <data name="SharepointSitesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSitesDescription" lastModified="2014-07-22T13:48:17">
     <value>This is the main page of the Connector for SharePoint module</value>
     <comment>Description of the SharePoint connector module main page.</comment>
   </data>
-  <data name="SharepointSitesHtmlTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointSitesHtmlTitle" lastModified="2014-07-22T13:48:17">
     <value>SharePoint sites</value>
     <comment>Html title of the SharePoint connector module page.</comment>
   </data>
-  <data name="SharepointListsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointListsTitle" lastModified="2014-07-22T13:48:17">
     <value>SharePoint lists</value>
     <comment>Title of the SharePoint lists page.</comment>
   </data>
-  <data name="SharepointListsHtmlTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointListsHtmlTitle" lastModified="2014-07-22T13:48:17">
     <value>SharePoint lists</value>
     <comment>Html title of the SharePoint lists page.</comment>
   </data>
-  <data name="SharepointListsUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointListsUrlName" lastModified="2014-07-22T13:48:17">
     <value>Lists</value>
     <comment>Url name of the SharePoint lists page.</comment>
   </data>
-  <data name="SharepointListsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointListsDescription" lastModified="2014-07-22T13:48:17">
     <value>This is the page for the SharePoint lists.</value>
     <comment>Description of the SharePoint lists page.</comment>
   </data>
-  <data name="SharepointConnectorGroupPageTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointConnectorGroupPageTitle" lastModified="2014-07-22T13:48:17">
     <value>Connector for SharePoint</value>
     <comment>Title of the Sharepoint Connector's group page.</comment>
   </data>
-  <data name="SharepointConnectorGroupPageUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointConnectorGroupPageUrlName" lastModified="2014-07-22T13:48:17">
     <value>SharePoint</value>
     <comment>Urlname of the Sharepoint Connector's group page.</comment>
   </data>
-  <data name="SharepointConnectorGroupPageDescription" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointConnectorGroupPageDescription" lastModified="2014-07-22T13:48:17">
     <value>This is the Connector for SharePoint module group page.</value>
     <comment>Description of the Sharepoint Connector module group page.</comment>
   </data>
-  <data name="NoSharepointServersConnectedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NoSharepointServersConnectedLabel" lastModified="2014-07-22T13:48:17">
     <value>No SharePoint site has been connected for synchronization</value>
     <comment>Phrase: No SharePoint site has been connected for synchronization</comment>
   </data>
-  <data name="AddSharepointServerLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AddSharepointServerLabel" lastModified="2014-07-22T13:48:17">
     <value>Add a SharePoint Site</value>
     <comment>Phrase: Add a SharePoint Site</comment>
   </data>
-  <data name="AddSharepointSiteLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AddSharepointSiteLabel" lastModified="2014-07-22T13:48:17">
     <value>Add new site</value>
     <comment>Phrase: Add new site</comment>
   </data>
-  <data name="SiteNameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SiteNameLabel" lastModified="2014-07-22T13:48:17">
     <value>Site name</value>
     <comment>Phrase: Site name</comment>
   </data>
-  <data name="ActionsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ActionsLabel" lastModified="2014-07-22T13:48:17">
     <value>Actions</value>
     <comment>Word: Actions</comment>
   </data>
-  <data name="PropertiesLabel" lastModified="2014-04-07T14:32:44">
+  <data name="PropertiesLabel" lastModified="2014-07-22T13:48:17">
     <value>Properties</value>
     <comment>Word: Properties</comment>
   </data>
-  <data name="RemoveLabel" lastModified="2014-04-07T14:32:44">
+  <data name="RemoveLabel" lastModified="2014-07-22T13:48:17">
     <value>Remove</value>
     <comment>Word: Remove</comment>
   </data>
-  <data name="SitesFormCreateTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormCreateTitle" lastModified="2014-07-22T13:48:17">
     <value>Add SharePoint site</value>
     <comment>Phrase: Add SharePoint site</comment>
   </data>
-  <data name="BackToSharepointLabel" lastModified="2014-04-07T14:32:44">
+  <data name="BackToSharepointLabel" lastModified="2014-07-22T13:48:17">
     <value>Back to Connector for SharePoint</value>
     <comment>Phrase: Back to Connector for SharePoint</comment>
   </data>
-  <data name="SitesFormSiteNameTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSiteNameTitle" lastModified="2014-07-22T13:48:17">
     <value>Site name</value>
     <comment>Phrase: Site name</comment>
   </data>
-  <data name="SitesFormSiteNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSiteNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Site name cannot be empty</value>
     <comment>Phrase: Site name cannot be empty</comment>
   </data>
-  <data name="SitesFormSiteAddressTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSiteAddressTitle" lastModified="2014-07-22T13:48:17">
     <value>URL / IP address</value>
     <comment>Phrase: URL / IP address</comment>
   </data>
-  <data name="SitesFormSiteAddressCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSiteAddressCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>URL / IP address cannot be empty</value>
     <comment>Phrase: URL / IP address cannot be empty</comment>
   </data>
-  <data name="SitesFormSiteUsernameTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSiteUsernameTitle" lastModified="2014-07-22T13:48:17">
     <value>Username</value>
     <comment>Word: Username</comment>
   </data>
-  <data name="SitesFormSiteUsernameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSiteUsernameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Username cannot be empty</value>
     <comment>Phrase: Username cannot be empty</comment>
   </data>
-  <data name="SitesFormSitePasswordTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSitePasswordTitle" lastModified="2014-07-22T13:48:17">
     <value>Password</value>
     <comment>Word: Password</comment>
   </data>
-  <data name="SitesFormSitePasswordCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSitePasswordCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Password cannot be empty</value>
     <comment>Phrase: Password cannot be empty</comment>
   </data>
-  <data name="ContinueToSetupSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ContinueToSetupSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Continue to Setup Synchronization</value>
     <comment>Phrase: Continue to Setup Synchronization</comment>
   </data>
-  <data name="SaveAndCloseLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SaveAndCloseLabel" lastModified="2014-07-22T13:48:17">
     <value>Save and close</value>
     <comment>Phrase: Save and close</comment>
   </data>
-  <data name="OrLabel" lastModified="2014-04-07T14:32:44">
+  <data name="OrLabel" lastModified="2014-07-22T13:48:17">
     <value>or</value>
     <comment>Word: or</comment>
   </data>
-  <data name="CancelButtonLabel" lastModified="2014-04-07T14:32:44">
+  <data name="CancelButtonLabel" lastModified="2014-07-22T13:48:17">
     <value>Cancel</value>
     <comment>Word: Cancel</comment>
   </data>
-  <data name="DeleteSiteConfirmationLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteSiteConfirmationLabel" lastModified="2014-07-22T13:48:17">
     <value>Are you sure you want to delete this SharePoint site?</value>
     <comment>Phrase: Are you sure you want to delete this SharePoint site?</comment>
   </data>
-  <data name="DeleteSiteConfirmationButton" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteSiteConfirmationButton" lastModified="2014-07-22T13:48:17">
     <value>Yes, delete this SharePoint site</value>
     <comment>Phrase: Yes, delete this SharePoint site</comment>
   </data>
-  <data name="AddSharepointListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AddSharepointListLabel" lastModified="2014-07-22T13:48:17">
     <value>Connect SharePoint List</value>
     <comment>Phrase: Connect SharePoint List</comment>
   </data>
-  <data name="SharepointListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointListLabel" lastModified="2014-07-22T13:48:17">
     <value>SharePoint list</value>
     <comment>Phrase: SharePoint list</comment>
   </data>
-  <data name="SyncDirectionLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncDirectionLabel" lastModified="2014-07-22T13:48:17">
     <value>Sync with</value>
     <comment>Phrase: Sync with</comment>
   </data>
-  <data name="SitefinityDataLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityDataLabel" lastModified="2014-07-22T13:48:17">
     <value>Content type / Library</value>
     <comment>Phrase: Content type / Library </comment>
   </data>
-  <data name="SyncConditionLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncConditionLabel" lastModified="2014-07-22T13:48:17">
     <value>When to sync</value>
     <comment>Phrase: When to sync</comment>
   </data>
-  <data name="AddSharepointListMappingLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AddSharepointListMappingLabel" lastModified="2014-07-22T13:48:17">
     <value>Connect Lists</value>
     <comment>Phrase: Connect Lists</comment>
   </data>
-  <data name="SharepointListMappingFormTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointListMappingFormTitle" lastModified="2014-07-22T13:48:17">
     <value>Setup Synchronization</value>
     <comment>Phrase: Setup Synchronization</comment>
   </data>
-  <data name="BackToSharepointListsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="BackToSharepointListsLabel" lastModified="2014-07-22T13:48:17">
     <value>Back to Connected lists</value>
     <comment>Phrase: Back to SharePoint lists</comment>
   </data>
-  <data name="SharepointListNameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SharepointListNameLabel" lastModified="2014-07-22T13:48:17">
     <value>SharePoint Lists</value>
     <comment>Phrase: SharePoint Lists</comment>
   </data>
-  <data name="SitefinityLibraryNameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityLibraryNameLabel" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity Content types</value>
     <comment>Phrase: Sitefinity Content types</comment>
   </data>
-  <data name="SaveLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SaveLabel" lastModified="2014-07-22T13:48:17">
     <value>Save</value>
     <comment>Word: Save</comment>
   </data>
-  <data name="SitefinityDataProviderLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SitefinityDataProviderLabel" lastModified="2014-07-22T13:48:17">
     <value>Sitefinity data provider</value>
     <comment>Phrase: Sitefinity data provider</comment>
   </data>
-  <data name="SitesFormEditTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormEditTitle" lastModified="2014-07-22T13:48:17">
     <value>Edit SharePoint site</value>
     <comment>Phrase: Edit SharePoint site</comment>
   </data>
-  <data name="SynchronizationTypeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SynchronizationTypeLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronization type</value>
     <comment>Phrase: Synchronization type</comment>
   </data>
-  <data name="SyncTypeTwoWayLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncTypeTwoWayLabel" lastModified="2014-07-22T13:48:17">
     <value>Two way (Sharepoint-Server-Sharepoint)</value>
     <comment>Phrase: Two way (Sharepoint-Server-Sharepoint)</comment>
   </data>
-  <data name="SyncTypeOneWayToSitefinityLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncTypeOneWayToSitefinityLabel" lastModified="2014-07-22T13:48:17">
     <value>Sharepoint to server</value>
     <comment>Phrase: Sharepoint to server</comment>
   </data>
-  <data name="SyncTypeOneWayToSharePointLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncTypeOneWayToSharePointLabel" lastModified="2014-07-22T13:48:17">
     <value>Server to SharePoint</value>
     <comment>Phrase: Server to SharePoint</comment>
   </data>
-  <data name="TriggerSyncOnListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="TriggerSyncOnListLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronize now</value>
     <comment>Phrase: Synchronize now</comment>
   </data>
-  <data name="TriggerSyncOnSiteLabel" lastModified="2014-04-07T14:32:44">
+  <data name="TriggerSyncOnSiteLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronize now</value>
     <comment>Phrase: Synchronize now</comment>
   </data>
-  <data name="DeleteListConfirmationLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteListConfirmationLabel" lastModified="2014-07-22T13:48:17">
     <value>Are you sure you want to delete this SharePoint list mapping?</value>
     <comment>Phrase: Are you sure you want to delete this SharePoint list mapping?</comment>
   </data>
-  <data name="DeleteListConfirmationButton" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteListConfirmationButton" lastModified="2014-07-22T13:48:17">
     <value>Yes, delete this mapping</value>
     <comment>Phrase: Yes, delete this mapping</comment>
   </data>
-  <data name="BackToSharepointSitesLabel" lastModified="2014-04-07T14:32:44">
+  <data name="BackToSharepointSitesLabel" lastModified="2014-07-22T13:48:17">
     <value>Back to sites</value>
     <comment>Phrase: Back to sites</comment>
   </data>
-  <data name="FilterListsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FilterListsLabel" lastModified="2014-07-22T13:48:17">
     <value>Filter lists</value>
     <comment>Phrase: Filter lists</comment>
   </data>
-  <data name="ListsBySiteLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ListsBySiteLabel" lastModified="2014-07-22T13:48:17">
     <value>Lists by site</value>
     <comment>Phrase: Lists by site</comment>
   </data>
-  <data name="ListsSidebarTitleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ListsSidebarTitleLabel" lastModified="2014-07-22T13:48:17">
     <value>Manage lists</value>
     <comment>Phrase: Manage lists</comment>
   </data>
-  <data name="AllListsFilterLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AllListsFilterLabel" lastModified="2014-07-22T13:48:17">
     <value>All lists</value>
     <comment>Phrase: All lists</comment>
   </data>
-  <data name="NotSyncedFilterLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NotSyncedFilterLabel" lastModified="2014-07-22T13:48:17">
     <value>Not synced to data type</value>
     <comment>Phrase: Not synced to data type</comment>
   </data>
-  <data name="ListCountLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ListCountLabel" lastModified="2014-07-22T13:48:17">
     <value>list</value>
     <comment>Word: list</comment>
   </data>
-  <data name="ListCountPluralLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ListCountPluralLabel" lastModified="2014-07-22T13:48:17">
     <value>lists</value>
     <comment>Word: lists</comment>
   </data>
-  <data name="SiteConnectedListsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SiteConnectedListsTitle" lastModified="2014-07-22T13:48:17">
     <value>Connected lists</value>
     <comment>Phrase: Connected lists</comment>
   </data>
-  <data name="ListSiteTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ListSiteTitle" lastModified="2014-07-22T13:48:17">
     <value>Site</value>
     <comment>Word: Site</comment>
   </data>
-  <data name="SitesFormSiteNameRegExError" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSiteNameRegExError" lastModified="2014-07-22T13:48:17">
     <value>The site name contains invalid characters.</value>
     <comment>Phrase: The site name contains invalid characters.</comment>
   </data>
-  <data name="UnableToConnectToSharepointLabel" lastModified="2014-04-07T14:32:44">
+  <data name="UnableToConnectToSharepointLabel" lastModified="2014-07-22T13:48:17">
     <value>Unable to connect to SharePoint</value>
     <comment>Phrase: Unable to connect to SharePoint</comment>
   </data>
-  <data name="SharePointSiteLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SharePointSiteLabel" lastModified="2014-07-22T13:48:17">
     <value>SharePoint site</value>
     <comment>Phrase: SharePoint site</comment>
   </data>
-  <data name="SharePointFieldsMappingHeader" lastModified="2014-04-07T14:32:44">
+  <data name="SharePointFieldsMappingHeader" lastModified="2014-07-22T13:48:17">
     <value>SharePoint Lists &gt; Sitefinity Content types</value>
     <comment>Phrase: SharePoint Lists &gt; Sitefinity Content types</comment>
   </data>
-  <data name="SharePointListSelectorHeader" lastModified="2014-04-07T14:32:44">
+  <data name="SharePointListSelectorHeader" lastModified="2014-07-22T13:48:17">
     <value>Select List</value>
     <comment>Phrase: Select List</comment>
   </data>
-  <data name="ButtonSelectLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ButtonSelectLabel" lastModified="2014-07-22T13:48:17">
     <value>Select...</value>
     <comment>Phrase: Select...</comment>
   </data>
-  <data name="SelectSharePointListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectSharePointListLabel" lastModified="2014-07-22T13:48:17">
     <value>Select a SharePoint list</value>
     <comment>Phrase: Select a SharePoint list</comment>
   </data>
-  <data name="LibrarySelectorHeader" lastModified="2014-04-07T14:32:44">
+  <data name="LibrarySelectorHeader" lastModified="2014-07-22T13:48:17">
     <value>Select Content type</value>
     <comment>Phrase: Select Content type</comment>
   </data>
-  <data name="SelectSitefinityLibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectSitefinityLibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>Select a Sitefinity Content type</value>
     <comment>Phrase: Select a Sitefinity Content type</comment>
   </data>
-  <data name="AutoCreationTypeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AutoCreationTypeLabel" lastModified="2014-07-22T13:48:17">
     <value>Automatically</value>
     <comment>Phrase: Automatically</comment>
   </data>
-  <data name="ManuallyCreationTypeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ManuallyCreationTypeLabel" lastModified="2014-07-22T13:48:17">
     <value>Manually</value>
     <comment>Phrase: Manually</comment>
   </data>
-  <data name="ScheduleFiveMinutes" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleFiveMinutes" lastModified="2014-07-22T13:48:17">
     <value>Every 5 minutes</value>
     <comment>Phrase: Every 5 minutes</comment>
   </data>
-  <data name="ScheduleHalfHour" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleHalfHour" lastModified="2014-07-22T13:48:17">
     <value>Every 30 minutes</value>
     <comment>Phrase: Every 30 minutes</comment>
   </data>
-  <data name="ScheduleOneHour" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleOneHour" lastModified="2014-07-22T13:48:17">
     <value>Every 1 hour</value>
     <comment>Phrase: Every 1 hour</comment>
   </data>
-  <data name="EnableSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="EnableSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Enable</value>
     <comment>Word: Enable</comment>
   </data>
-  <data name="DisableSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DisableSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Disable</value>
     <comment>Word: Disable</comment>
   </data>
-  <data name="DisabledFromSiteLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DisabledFromSiteLabel" lastModified="2014-07-22T13:48:17">
     <value>Disabled from site</value>
     <comment>Phrase: Disabled from site</comment>
   </data>
-  <data name="EnabledSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="EnabledSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Enabled</value>
     <comment>Word: Enabled</comment>
   </data>
-  <data name="DisabledSyncLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DisabledSyncLabel" lastModified="2014-07-22T13:48:17">
     <value>Disabled</value>
     <comment>Word: Disabled</comment>
   </data>
-  <data name="ScheduleWeekly" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleWeekly" lastModified="2014-07-22T13:48:17">
     <value>Weekly on</value>
     <comment>Phrase: Weekly on...</comment>
   </data>
-  <data name="ScheduleMonday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleMonday" lastModified="2014-07-22T13:48:17">
     <value>Monday</value>
     <comment>Word: Monday</comment>
   </data>
-  <data name="ScheduleTuesday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleTuesday" lastModified="2014-07-22T13:48:17">
     <value>Tuesday</value>
     <comment>Word: Tuesday</comment>
   </data>
-  <data name="ScheduleWednesday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleWednesday" lastModified="2014-07-22T13:48:17">
     <value>Wednesday</value>
     <comment>Word: Wednesday</comment>
   </data>
-  <data name="ScheduleThursday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleThursday" lastModified="2014-07-22T13:48:17">
     <value>Thursday</value>
     <comment>Word: Thursday</comment>
   </data>
-  <data name="ScheduleFriday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleFriday" lastModified="2014-07-22T13:48:17">
     <value>Friday</value>
     <comment>Word: Friday</comment>
   </data>
-  <data name="ScheduleSaturday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSaturday" lastModified="2014-07-22T13:48:17">
     <value>Saturday</value>
     <comment>Word: Saturday</comment>
   </data>
-  <data name="ScheduleSunday" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleSunday" lastModified="2014-07-22T13:48:17">
     <value>Sunday</value>
     <comment>Word: Sunday</comment>
   </data>
-  <data name="ScheduleTypeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleTypeLabel" lastModified="2014-07-22T13:48:17">
     <value>When to sync...</value>
     <comment>Phrase: When to sync</comment>
   </data>
-  <data name="ScheduleNever" lastModified="2014-04-07T14:32:44">
+  <data name="ScheduleNever" lastModified="2014-07-22T13:48:17">
     <value>Not scheduled</value>
     <comment>Phrase: Not scheduled</comment>
   </data>
-  <data name="SyncingDotDotDotLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncingDotDotDotLabel" lastModified="2014-07-22T13:48:17">
     <value>Syncing...</value>
     <comment>Phrase: Syncing...</comment>
   </data>
-  <data name="SyncDetailsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="SyncDetailsTitle" lastModified="2014-07-22T13:48:17">
     <value>Synchronization details</value>
     <comment>Phrase: Synchronization details</comment>
   </data>
-  <data name="SyncLogLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncLogLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronization log</value>
     <comment>Phrase: Synchronization log</comment>
   </data>
-  <data name="LogStatusLabel" lastModified="2014-04-07T14:32:44">
+  <data name="LogStatusLabel" lastModified="2014-07-22T13:48:17">
     <value>Status</value>
     <comment>Word: Status</comment>
   </data>
-  <data name="LogDateLabel" lastModified="2014-04-07T14:32:44">
+  <data name="LogDateLabel" lastModified="2014-07-22T13:48:17">
     <value>Synced at</value>
     <comment>Phrase: Synced at</comment>
   </data>
-  <data name="DocumentLibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DocumentLibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>Document library</value>
     <comment>Phrase: Document library</comment>
   </data>
-  <data name="CalendarLabel" lastModified="2014-04-07T14:32:44">
+  <data name="CalendarLabel" lastModified="2014-07-22T13:48:17">
     <value>Calendar</value>
     <comment>Word: Calendar</comment>
   </data>
-  <data name="NotSyncedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NotSyncedLabel" lastModified="2014-07-22T13:48:17">
     <value>This site has never been synchronized</value>
     <comment>Phrase: This site has never been synchronized</comment>
   </data>
-  <data name="ListSyncFailMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ListSyncFailMessage" lastModified="2014-07-22T13:48:17">
     <value>The list failed to be synchronized. See the error details in the Sitefinity log files.</value>
     <comment>Phrase: The list failed to be synchronized. See the error details in the Sitefinity log files.</comment>
   </data>
-  <data name="CreateNewContentTypeHeader" lastModified="2014-04-07T14:32:44">
+  <data name="CreateNewContentTypeHeader" lastModified="2014-07-22T13:48:17">
     <value>Create new Content type</value>
     <comment>Phrase: Create new Content type</comment>
   </data>
-  <data name="CreateNewContentTypeHint" lastModified="2014-04-07T14:32:44">
+  <data name="CreateNewContentTypeHint" lastModified="2014-07-22T13:48:17">
     <value>You may add this Content type to a new or existing dynamic module</value>
     <comment>Phrase: You may add this Content type to a new or existing dynamic module</comment>
   </data>
-  <data name="ModulesRadioButtonLabel1" lastModified="2014-04-07T14:32:44">
+  <data name="ModulesRadioButtonLabel1" lastModified="2014-07-22T13:48:17">
     <value>Add Content type to an existing dynamic module</value>
     <comment>Phrase: Add Content type to an existing dynamic module</comment>
   </data>
-  <data name="ModulesRadioButtonLabel2" lastModified="2014-04-07T14:32:44">
+  <data name="ModulesRadioButtonLabel2" lastModified="2014-07-22T13:48:17">
     <value>Create new dynamic module for this Content type</value>
     <comment>Phrase: Create new dynamic module for this Content type</comment>
   </data>
-  <data name="ModulesRadioButtonLabel2Hint" lastModified="2014-04-07T14:32:44">
+  <data name="ModulesRadioButtonLabel2Hint" lastModified="2014-07-22T13:48:17">
     <value>New dynamic module will be automatically created</value>
     <comment>Phrase: New dynamic module will be automatically created</comment>
   </data>
-  <data name="AdvancedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AdvancedLabel" lastModified="2014-07-22T13:48:17">
     <value>Advanced</value>
     <comment>Phrase: Advanced</comment>
   </data>
-  <data name="MappingsAdvancedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="MappingsAdvancedLabel" lastModified="2014-07-22T13:48:17">
     <value>mappings</value>
     <comment>Phrase: mappings</comment>
   </data>
-  <data name="MappingSettingsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="MappingSettingsLabel" lastModified="2014-07-22T13:48:17">
     <value>Mapping settings</value>
     <comment>Phrase: Mapping settings</comment>
   </data>
-  <data name="ProviderLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ProviderLabel" lastModified="2014-07-22T13:48:17">
     <value>Provider</value>
     <comment>Phrase: Provider</comment>
   </data>
-  <data name="NewContentTypeInNewModuleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NewContentTypeInNewModuleLabel" lastModified="2014-07-22T13:48:17">
     <value>New content type in a new dynamic module</value>
     <comment>Phrase: New content type in a new dynamic module</comment>
   </data>
-  <data name="NewContentTypeInExistingModuleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NewContentTypeInExistingModuleLabel" lastModified="2014-07-22T13:48:17">
     <value>New content type in</value>
     <comment>Phrase: New content type in</comment>
   </data>
-  <data name="LibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="LibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>Library</value>
     <comment>Word: Library</comment>
   </data>
-  <data name="NewLibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NewLibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>New Document library</value>
     <comment>Phrase: New Library</comment>
   </data>
-  <data name="NewContentTypeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NewContentTypeLabel" lastModified="2014-07-22T13:48:17">
     <value>New Content type</value>
     <comment>Phrase: New Content type</comment>
   </data>
-  <data name="AlreadyMappedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AlreadyMappedLabel" lastModified="2014-07-22T13:48:17">
     <value>Already connected</value>
     <comment>Phrase: Already connected</comment>
   </data>
-  <data name="NewCalendarLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NewCalendarLabel" lastModified="2014-07-22T13:48:17">
     <value>New Calendar</value>
     <comment>Phrase: New Calendar</comment>
   </data>
-  <data name="FailedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FailedLabel" lastModified="2014-07-22T13:48:17">
     <value>Failed</value>
     <comment>Word: Failed</comment>
   </data>
-  <data name="SyncedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncedLabel" lastModified="2014-07-22T13:48:17">
     <value>Synced</value>
     <comment>Word: Synced</comment>
   </data>
-  <data name="RunningLabel" lastModified="2014-04-07T14:32:44">
+  <data name="RunningLabel" lastModified="2014-07-22T13:48:17">
     <value>Running</value>
     <comment>Word: Running</comment>
   </data>
-  <data name="FieldMappingsRequired" lastModified="2014-04-07T14:32:44">
+  <data name="FieldMappingsRequired" lastModified="2014-07-22T13:48:17">
     <value>You should map the fields you want to be synced</value>
     <comment>Phrase: You should map the fields you want to be synced </comment>
   </data>
-  <data name="ContentTypeDeletedModule" lastModified="2014-04-07T14:32:44">
+  <data name="ContentTypeDeletedModule" lastModified="2014-07-22T13:48:17">
     <value>Deleted content type</value>
     <comment>Phrase: Deleted content type</comment>
   </data>
-  <data name="AccessSharepointConnectorTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AccessSharepointConnectorTitle" lastModified="2014-07-22T13:48:17">
     <value>Access Connector for SharePoint module</value>
     <comment>Phrase: Access SharePoint connector module</comment>
   </data>
-  <data name="AccessSharepointConnectorDescription" lastModified="2014-04-07T14:32:44">
+  <data name="AccessSharepointConnectorDescription" lastModified="2014-07-22T13:48:17">
     <value>Security action that allows access to the backend pages of the Connector for SharePoint module</value>
     <comment>Phrase: Security action that allows access to the backend pages of the SharePoint connector module</comment>
   </data>
-  <data name="FailedToSynchronizeLabel" lastModified="2014-04-07T14:32:44">
+  <data name="FailedToSynchronizeLabel" lastModified="2014-07-22T13:48:17">
     <value>Failed to be synced</value>
     <comment>Phrase: Failed to be synced</comment>
   </data>
-  <data name="CreationInstructionLabelPart1" lastModified="2014-04-07T14:32:44">
+  <data name="CreationInstructionLabelPart1" lastModified="2014-07-22T13:48:17">
     <value>If you select Automatically, SharePoint lists and Document Libraries will be mapped to newly created Content types and Libraries in Sitefinity.</value>
     <comment>Phrase: If you select Automatically, SharePoint lists and Document Libraries will be mapped to newly created Content types and Libraries in Sitefinity.</comment>
   </data>
-  <data name="ManuallyCreationInstructionLabelPart1" lastModified="2014-04-07T14:32:44">
+  <data name="ManuallyCreationInstructionLabelPart1" lastModified="2014-07-22T13:48:17">
     <value>If you want to sync items in both directions select Two way sync. In all other cases select either to sync from SharePoint to Sitefinity or vice versa.</value>
     <comment>Phrase: If you want to sync items in both directions select Two way sync. In all other cases select either to sync from SharePoint to Sitefinity or vice versa.</comment>
   </data>
-  <data name="SyncInQueueLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SyncInQueueLabel" lastModified="2014-07-22T13:48:17">
     <value>Sync pending...</value>
     <comment>Phrase: Sync pending...</comment>
   </data>
-  <data name="CreationModeInstructionHeader" lastModified="2014-04-07T14:32:44">
+  <data name="CreationModeInstructionHeader" lastModified="2014-07-22T13:48:17">
     <value>How to connect SharePoint lists to Sitefinity?</value>
     <comment>Phrase: Where automatically created types will be displayed? </comment>
   </data>
-  <data name="ConnectLibrariesVideoTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectLibrariesVideoTitle" lastModified="2014-07-22T13:48:17">
     <value>Connect and map Document libraries</value>
     <comment>Phrase: Connect and map Document libraries</comment>
   </data>
-  <data name="ManuallyMapVideoTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ManuallyMapVideoTitle" lastModified="2014-07-22T13:48:17">
     <value>Manually map data types and libraries</value>
     <comment>Phrase: Manually map data types and libraries</comment>
   </data>
-  <data name="HowToSyncInstructionHeader" lastModified="2014-04-07T14:32:44">
+  <data name="HowToSyncInstructionHeader" lastModified="2014-07-22T13:48:17">
     <value>How to setup synchronization?</value>
     <comment>Phrase: How to setup synchronization?</comment>
   </data>
-  <data name="SelectMultipleListsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="SelectMultipleListsLabel" lastModified="2014-07-22T13:48:17">
     <value>Select which SharePoint lists you want to be synced</value>
     <comment>Phrase: Select which SharePoint lists you want to be synced</comment>
   </data>
-  <data name="ListsSyncedSingular" lastModified="2014-04-07T14:32:44">
+  <data name="ListsSyncedSingular" lastModified="2014-07-22T13:48:17">
     <value>list successfully synced</value>
     <comment>Phrase: list successfully synced</comment>
   </data>
-  <data name="ListsSyncedPlural" lastModified="2014-04-07T14:32:44">
+  <data name="ListsSyncedPlural" lastModified="2014-07-22T13:48:17">
     <value>lists successfully synced</value>
     <comment>Phrase: lists successfully synced</comment>
   </data>
-  <data name="ListsFailedSingular" lastModified="2014-04-07T14:32:44">
+  <data name="ListsFailedSingular" lastModified="2014-07-22T13:48:17">
     <value>list failed to be synced</value>
     <comment>Phrase: list failed to be synced</comment>
   </data>
-  <data name="ListsFailedPlural" lastModified="2014-04-07T14:32:44">
+  <data name="ListsFailedPlural" lastModified="2014-07-22T13:48:17">
     <value>lists failed to be synced</value>
     <comment>Phrase: lists failed to be synced</comment>
   </data>
-  <data name="DeletedLibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeletedLibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>Deleted Document library</value>
     <comment>Phrase: Deleted Document library</comment>
   </data>
-  <data name="ContinueSynchronizationLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ContinueSynchronizationLabel" lastModified="2014-07-22T13:48:17">
     <value>Continue synchronization</value>
     <comment>Phrase: Continue synchronization</comment>
   </data>
-  <data name="PictureLibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="PictureLibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>Picture library</value>
     <comment>Phrase: Picture library</comment>
   </data>
-  <data name="AutoCreationInstructionLabel" lastModified="2014-04-07T14:32:44">
+  <data name="AutoCreationInstructionLabel" lastModified="2014-07-22T13:48:17">
     <value>New Content types and Document libraries will be created automatically in Sitefinity to map SharePoint lists and Document libraries you select to be synced.</value>
     <comment>Phrase: New Content types and Document libraries will be created automatically in Sitefinity to map SharePoint lists and Document libraries you select to be synced.</comment>
   </data>
-  <data name="CreationInstructionLabelPart2" lastModified="2014-04-07T14:32:44">
+  <data name="CreationInstructionLabelPart2" lastModified="2014-07-22T13:48:17">
     <value>If you want to manually map SharePoint lists to content types in Sitefinity select Manually.</value>
     <comment>Phrase: If you want to manually map SharePoint lists to content types in Sitefinity select Manually.</comment>
   </data>
-  <data name="ManuallyCreationInstructionLabelPart2" lastModified="2014-04-07T14:32:44">
+  <data name="ManuallyCreationInstructionLabelPart2" lastModified="2014-07-22T13:48:17">
     <value>Note that by default all items that are deleted from one side of the sync will be deleted from the other.</value>
     <comment>Phrase: Note that by default all items that are deleted from one side of the sync will be deleted from the other.</comment>
   </data>
-  <data name="ManuallyCreationInstructionLabelPart3" lastModified="2014-04-07T14:32:44">
+  <data name="ManuallyCreationInstructionLabelPart3" lastModified="2014-07-22T13:48:17">
     <value>To change this setting go to</value>
     <comment>Phrase: To change this setting go to</comment>
   </data>
-  <data name="AutoMapVideoTitle" lastModified="2014-04-07T14:32:44">
+  <data name="AutoMapVideoTitle" lastModified="2014-07-22T13:48:17">
     <value>Map data types and libraries automatically</value>
     <comment>Phrase: Map data types and libraries automatically</comment>
   </data>
-  <data name="ManuallyCreationInstructionHint" lastModified="2014-04-07T14:32:44">
+  <data name="ManuallyCreationInstructionHint" lastModified="2014-07-22T13:48:17">
     <value>Select Lists, Calendars and Document libraries you want to sync from SharePoint and map them manually to existing Dynamic content types, Libraries and Events in Sitefinity</value>
     <comment>Phrase: Select Lists, Calendars and Document libraries you want to sync from SharePoint and map them manually to existing Dynamic content types, Libraries and Events in Sitefinity</comment>
   </data>
-  <data name="ContinueLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ContinueLabel" lastModified="2014-07-22T13:48:17">
     <value>Continue</value>
     <comment>Word: Continue</comment>
   </data>
-  <data name="SitesFormSiteNameDuplicateNameError" lastModified="2014-04-07T14:32:44">
+  <data name="SitesFormSiteNameDuplicateNameError" lastModified="2014-07-22T13:48:17">
     <value>Site with this name already exists.</value>
     <comment>Phrase: Site with this name already exists.</comment>
   </data>
-  <data name="AdvancedSettingsLinkText" lastModified="2014-04-07T14:32:44">
+  <data name="AdvancedSettingsLinkText" lastModified="2014-07-22T13:48:17">
     <value>Administration&gt;Settings&gt;Advanced&gt;Connector for SharePoint</value>
     <comment>Phrase: Administration&gt;Settings&gt;Advanced&gt;SharePoint Connector</comment>
   </data>
-  <data name="NewImageLibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NewImageLibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>New Image library</value>
     <comment>Phrase: New Image library</comment>
   </data>
-  <data name="ImageLibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ImageLibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>Image Library</value>
     <comment>Phrase: Image library</comment>
   </data>
-  <data name="DeletedImageLibraryLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DeletedImageLibraryLabel" lastModified="2014-07-22T13:48:17">
     <value>Deleted Image library</value>
     <comment>Phrase: Deleted Image library</comment>
   </data>
-  <data name="NoSharepointListsConnectedLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NoSharepointListsConnectedLabel" lastModified="2014-07-22T13:48:17">
     <value>No lists have been connected yet</value>
     <comment>Phrase: No lists have been connected yet</comment>
   </data>
-  <data name="ConnectListLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectListLabel" lastModified="2014-07-22T13:48:17">
     <value>Connect a List</value>
     <comment>Phrase: Connect a List</comment>
   </data>
-  <data name="TheFieldsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="TheFieldsLabel" lastModified="2014-07-22T13:48:17">
     <value>The fields:</value>
     <comment>Phrase: The fields: </comment>
   </data>
-  <data name="DuplicateMappingKeyLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DuplicateMappingKeyLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronization with this name already exist</value>
     <comment>Phrase: Synchronization with this name already exist</comment>
   </data>
-  <data name="MappingNameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="MappingNameLabel" lastModified="2014-07-22T13:48:17">
     <value>Synchronization name</value>
     <comment>Phrase: Synchronization name</comment>
   </data>
-  <data name="EmptyMappingKeyLabel" lastModified="2014-04-07T14:32:44">
+  <data name="EmptyMappingKeyLabel" lastModified="2014-07-22T13:48:17">
     <value>Enter synchronization name</value>
     <comment>Phrase: Enter synchronization name</comment>
   </data>
-  <data name="NameLabel" lastModified="2014-04-07T14:32:44">
+  <data name="NameLabel" lastModified="2014-07-22T13:48:17">
     <value>Name</value>
     <comment>Word: Name</comment>
   </data>
-  <data name="ExampleLabel" lastModified="2014-04-07T14:32:44">
+  <data name="ExampleLabel" lastModified="2014-07-22T13:48:17">
     <value>Example:</value>
     <comment>Word: Example:</comment>
   </data>
-  <data name="DocumentsLabel" lastModified="2014-04-07T14:32:44">
+  <data name="DocumentsLabel" lastModified="2014-07-22T13:48:17">
     <value>Documents</value>
     <comment>Word: Documents </comment>
   </data>
-  <data name="DuplicateKeyExceptionMessage" lastModified="2014-04-07T14:32:44">
+  <data name="DuplicateKeyExceptionMessage" lastModified="2014-07-22T13:48:17">
     <value>An item failed to be synchronized, because it already exists in Sitefinity.</value>
     <comment>Phrase: An item failed to be synchronized because it already exists in a Sitefinity.</comment>
   </data>
-  <data name="PublishErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="PublishErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Item with name '{0}' failed to be published.</value>
     <comment>Phrase: Item with name '{0}' failed to be published.</comment>
   </data>
-  <data name="UploadErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="UploadErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Item with name '{0}' failed to be uploaded.</value>
     <comment>Phrase: Item with name '{0}' failed to be uploaded.</comment>
   </data>
-  <data name="UpdateErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="UpdateErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Item with name '{0}' failed to be updated.</value>
     <comment>Phrase: Item with name '{0}' failed to be updated.</comment>
   </data>
-  <data name="DeleteErrorMessage" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteErrorMessage" lastModified="2014-07-22T13:48:17">
     <value>Item with name '{0}' failed to be deleted.</value>
     <comment>Phrase: Item with name '{0}' failed to be deleted.</comment>
   </data>
-  <data name="UnableToConnectToSiteMessage" lastModified="2014-04-07T14:32:44">
+  <data name="UnableToConnectToSiteMessage" lastModified="2014-07-22T13:48:17">
     <value>Unable to connect. Please make sure the Sharepoint site is online.</value>
     <comment>Phrase: Unable to connect. Please make sure the Sharepoint site is online.</comment>
   </data>
-  <data name="NoConnectionMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NoConnectionMessage" lastModified="2014-07-22T13:48:17">
     <value>Site '{0}' cannot be synced because there is no connection with the server.</value>
     <comment>Phrase: Site '{0}' cannot be synced because there is no connection with the server.</comment>
   </data>
-  <data name="InvalidCredentialsMessage" lastModified="2014-04-07T14:32:44">
+  <data name="InvalidCredentialsMessage" lastModified="2014-07-22T13:48:17">
     <value>Invalid username or password.</value>
     <comment>Phrase: Invalid username or password.</comment>
   </data>
-  <data name="NotExistingContentTypeMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NotExistingContentTypeMessage" lastModified="2014-07-22T13:48:17">
     <value>Content type with name '{0}' does not exist in Sitefinity</value>
     <comment>Phrase: Content type with name '{0}' does not exist in Sitefinity.</comment>
   </data>
-  <data name="DuplicateKeyExceptionDetailedMessage" lastModified="2014-04-07T14:32:44">
+  <data name="DuplicateKeyExceptionDetailedMessage" lastModified="2014-07-22T13:48:17">
     <value>An item with title '{0}' failed to be synchronized, because it already exists in Sitefinity library with name '{1}'.</value>
     <comment>Phrase: An item with title '{0}' failed to be synchronized, because it already exists in Sitefinity library with name '{1}'.</comment>
   </data>
-  <data name="NotExistingLibraryMessage" lastModified="2014-04-07T14:32:44">
+  <data name="NotExistingLibraryMessage" lastModified="2014-07-22T13:48:17">
     <value>Library with name '{0}' does not exist in Sitefinity.</value>
     <comment>Phrase: Library with name '{0}' does not exist in Sitefinity.</comment>
   </data>
-  <data name="InactiveDynamicModuleMessage" lastModified="2014-04-07T14:32:44">
+  <data name="InactiveDynamicModuleMessage" lastModified="2014-07-22T13:48:17">
     <value>The dynamic module '{0}' is not activated. Go to Administration -&gt; Module builder to activate it.</value>
     <comment>Phrase: The dynamic module '{0}' is not activated. Go to Administration -&gt; Module builder to activate it.</comment>
   </data>
-  <data name="ItemAlreadyExistMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ItemAlreadyExistMessage" lastModified="2014-07-22T13:48:17">
     <value>File with name '{0}' is duplicated in a folder inside the SharePoint library.</value>
     <comment>Phrase: File with name '{0}' is duplicated in a folder inside the SharePoint library.</comment>
   </data>
-  <data name="ItemAlreadyExistGenericMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ItemAlreadyExistGenericMessage" lastModified="2014-07-22T13:48:17">
     <value>A file is duplicated in a folder inside the SharePoint library.</value>
     <comment>Phrase: A file is duplicated in a folder inside the SharePoint library.</comment>
   </data>
-  <data name="ReadOnlyFieldsViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="ReadOnlyFieldsViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>are read-only in SharePoint and cannot be edited when the sync direction is Server to SharePoint. Please change the direction or unmap the fields from the field mappings dialog.</value>
     <comment>Phrase: are read only in SharePoint and cannot be edited when the sync direction is Server to SharePoint. Please change the direction or unmap the fields from the field mappings dialog.</comment>
   </data>
-  <data name="SingleReadOnlyFieldViolationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="SingleReadOnlyFieldViolationMessage" lastModified="2014-07-22T13:48:17">
     <value>The field '{0}' is read-only in SharePoint and cannot be edited when the sync direction is Server to SharePoint. Please change the direction or unmap the field from the field mappings dialog.</value>
     <comment>Phrase: The field '{0}' is read-only in SharePoint and cannot be edited when the sync direction is Server to SharePoint. Please change the direction or unmap the field from the field mappings dialog.</comment>
+  </data>
+  <data name="CannotSyncHierarchicalTypeMessage" lastModified="2014-07-22T13:48:17">
+    <value>Cannot sync content type with name '{0}' because it is not on the root level of the module's hierarchy.</value>
+    <comment>Phrase: Cannot sync content type with name '{0}' because it is not on the root level of the module's hierarchy.</comment>
   </data>
 </root>

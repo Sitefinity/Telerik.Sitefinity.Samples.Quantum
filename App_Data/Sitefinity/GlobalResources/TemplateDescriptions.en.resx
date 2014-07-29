@@ -117,27 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TemplateDescriptionsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TemplateDescriptionsTitle" lastModified="2014-07-22T13:48:17">
     <value>Template Descriptions</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="TemplateDescriptionsTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="TemplateDescriptionsTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Template Descriptions title plural.</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="TemplateDescriptionsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TemplateDescriptionsDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Sitefinity template descriptions.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="CommandPanelLayout" lastModified="2014-04-07T14:32:44">
+  <data name="CommandPanelLayout" lastModified="2014-07-22T13:48:17">
     <value>This template defines the layout of CommandPanel control when used with standard command set. It uses Repeater control to render command items.</value>
     <comment>Description of CommandPanel layout template.</comment>
   </data>
-  <data name="ControlPanelLayout" lastModified="2014-04-07T14:32:44">
+  <data name="ControlPanelLayout" lastModified="2014-07-22T13:48:17">
     <value>This template defines the layout of ControlPanel control.</value>
     <comment>Description of ControlPanel layout template.</comment>
   </data>
-  <data name="ProviderSelectorPanel" lastModified="2014-04-07T14:32:44">
+  <data name="ProviderSelectorPanel" lastModified="2014-07-22T13:48:17">
     <value>This template defines the layout of ProviderSelectorPanel control.</value>
     <comment>Description of ProviderSelectorPanel layout template.</comment>
   </data>

@@ -117,80 +117,88 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ConnectivityResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectivityResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>ConnectivityResources labels</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="ConnectivityResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectivityResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>ConnectivityResources labels</value>
     <comment>The plural title of this class.</comment>
   </data>
-  <data name="ConnectivityResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ConnectivityResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains shared localizable resources for all connectors.</value>
     <comment>Contains shared localizable resources for all connectors.</comment>
   </data>
-  <data name="LogicalOperatorPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="LogicalOperatorPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Logical operator</value>
     <comment>Phrase: Logical operator</comment>
   </data>
-  <data name="LogicalOperatorPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="LogicalOperatorPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Determines the logical operator that will be applied for all logical groups and filter conditions. Allowed values: 'AND', 'OR'</value>
     <comment>Phrase: Determines the logical operator that will be applied for  all logical groups and filter conditions. Allowed values: 'AND', 'OR' </comment>
   </data>
-  <data name="LogicalGroupsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="LogicalGroupsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Logical groups</value>
     <comment>Phrase: Logical groups</comment>
   </data>
-  <data name="LogicalGroupsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="LogicalGroupsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Container for other logical groups</value>
     <comment>Phrase: Container for other logical groups</comment>
   </data>
-  <data name="FilterConditionsPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="FilterConditionsPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Filter conditions</value>
     <comment>Phrase: Filter conditions</comment>
   </data>
-  <data name="FilterConditionsPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="FilterConditionsPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Container for fields with desired values that build the actual filter</value>
     <comment>Phrase: Container for fields with desired values that build the actual filter</comment>
   </data>
-  <data name="ComparisonOperatorPropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="ComparisonOperatorPropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Comparison operator</value>
     <comment>Phrase: Comparison operator</comment>
   </data>
-  <data name="ComparisonOperatorPropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ComparisonOperatorPropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>Operator for comparing a field with its value.</value>
     <comment>Phrase: Operator for comparing a field with its value.</comment>
   </data>
-  <data name="FieldNamePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="FieldNamePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Field name</value>
     <comment>Phrase: Field name</comment>
   </data>
-  <data name="FieldNamePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="FieldNamePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>A field that the filter will be based upon</value>
     <comment>Phrase: A field that the filter will be based upon</comment>
   </data>
-  <data name="FieldValuePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="FieldValuePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Field value</value>
     <comment>Phrase: Field value</comment>
   </data>
-  <data name="FieldValuePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="FieldValuePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>A value that will be used to filter items</value>
     <comment>Phrase: A value that will be used to filter items</comment>
   </data>
-  <data name="FieldDefaultValuePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="FieldDefaultValuePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>A value that will be set to the filter property of a new synchronized item so it will match the filter for later synchronizations</value>
     <comment>Phrase: A value that will be set to the filter property of a new synchronized item so it will match the filter for later synchronizations</comment>
   </data>
-  <data name="FieldTypeFullNamePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="FieldTypeFullNamePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Field type full name</value>
     <comment>Phrase: Field type full name</comment>
   </data>
-  <data name="FieldTypeFullNamePropNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="FieldTypeFullNamePropNameDescription" lastModified="2014-07-22T13:48:17">
     <value>The full name of the field's type</value>
     <comment>Phrase: The full name of the field's type</comment>
   </data>
-  <data name="FieldDefaultValuePropNameCaption" lastModified="2014-04-07T14:32:44">
+  <data name="FieldDefaultValuePropNameCaption" lastModified="2014-07-22T13:48:17">
     <value>Default filter field value</value>
     <comment>Phrase: Default filter field value</comment>
+  </data>
+  <data name="TriggerListSyncCompletionEventPropNameTitle" lastModified="2014-07-22T13:48:17">
+    <value>Trigger an event when list synchronization is completed</value>
+    <comment>Phrase: Trigger an event when list synchronization is completed</comment>
+  </data>
+  <data name="TriggerListSyncCompletionEventPropNameCaption" lastModified="2014-07-22T13:48:17">
+    <value>Enable or disable triggering of an event that will notify users when list synchronization between Sitefinity and the current connector is completed.</value>
+    <comment>Phrase: Enable or disable triggering of an event that will notify users when list synchronization between Sitefinity and the current connector is completed.</comment>
   </data>
 </root>

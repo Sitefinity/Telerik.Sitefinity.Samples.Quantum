@@ -117,95 +117,95 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ApprovalWorkflowResourcesTitle" lastModified="2014-04-07T14:32:43">
+  <data name="ApprovalWorkflowResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Approval Workflow</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="ApprovalWorkflowResourcesTitlePlural" lastModified="2014-04-07T14:32:43">
+  <data name="ApprovalWorkflowResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Approval workflows</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="ApprovalWorkflowResourcesDescription" lastModified="2014-04-07T14:32:43">
+  <data name="ApprovalWorkflowResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for workflow module.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="AwaitingApproval" lastModified="2014-04-07T14:32:43">
+  <data name="AwaitingApproval" lastModified="2014-07-22T13:48:17">
     <value>Awaiting approval</value>
     <comment>phrase: Awaiting approval</comment>
   </data>
-  <data name="AwaitingPublishing" lastModified="2014-04-07T14:32:43">
+  <data name="AwaitingPublishing" lastModified="2014-07-22T13:48:17">
     <value>Awaiting publishing</value>
     <comment>phrase: Awaiting approval</comment>
   </data>
-  <data name="Published" lastModified="2014-04-07T14:32:43">
+  <data name="Published" lastModified="2014-07-22T13:48:17">
     <value>Published[[[content.ExpirationDate], scheduled unpublish on {{content.ExpirationDate:dd/MM/yy 'at' HH:mm}}]]</value>
     <comment>word: Published</comment>
   </data>
-  <data name="Unpublished" lastModified="2014-04-07T14:32:43">
+  <data name="Unpublished" lastModified="2014-07-22T13:48:17">
     <value>Unpublished</value>
     <comment>word: Unpublished</comment>
   </data>
-  <data name="Draft" lastModified="2014-04-07T14:32:43">
+  <data name="Draft" lastModified="2014-07-22T13:48:17">
     <value>Draft</value>
     <comment>word: Draft</comment>
   </data>
-  <data name="Rejected" lastModified="2014-04-07T14:32:43">
+  <data name="Rejected" lastModified="2014-07-22T13:48:17">
     <value>Rejected</value>
     <comment>word: Rejected</comment>
   </data>
-  <data name="RejectedForPublishing" lastModified="2014-04-07T14:32:43">
-    <value>Rejected</value>
-    <comment>word: Rejected</comment>
-  </data>
-  <data name="RejectedForPublishingMessage" lastModified="2014-04-07T14:32:43">
+  <data name="RejectedForPublishing" lastModified="2014-07-22T13:48:17">
     <value>Rejected for publishing</value>
     <comment>word: Rejected</comment>
   </data>
-  <data name="Scheduled" lastModified="2014-04-07T14:32:43">
+  <data name="RejectedForPublishingMessage" lastModified="2014-07-22T13:48:17">
+    <value>Rejected for publishing</value>
+    <comment>word: Rejected</comment>
+  </data>
+  <data name="Scheduled" lastModified="2014-07-22T13:48:17">
     <value>Scheduled publish on {{content.PublicationDate:dd/MM/yy 'at' HH:mm}}[[[content.ExpirationDate], unpublish on {{content.ExpirationDate:dd/MM/yy 'at' HH:mm}}]]</value>
     <comment>phrase: Scheduled publish on {{content.PublicationDate:dd/MM/yy 'at' HH:mm}}[[[content.ExpirationDate], unpublish on {{content.ExpirationDate:dd/MM/yy 'at' HH:mm}}]]</comment>
   </data>
-  <data name="AwaitingApprovalMessage" lastModified="2014-04-07T14:32:43">
+  <data name="AwaitingApprovalMessage" lastModified="2014-07-22T13:48:17">
     <value>Successfully saved as awaiting approval</value>
     <comment>phrase: Successfully saved as awaiting approval</comment>
   </data>
-  <data name="AwaitingPublishingMessage" lastModified="2014-04-07T14:32:43">
+  <data name="AwaitingPublishingMessage" lastModified="2014-07-22T13:48:17">
     <value>Successfully saved as awaiting publishing</value>
     <comment>phrase: Successfully sent for publishing</comment>
   </data>
-  <data name="PublishedMessage" lastModified="2014-04-07T14:32:43">
+  <data name="PublishedMessage" lastModified="2014-07-22T13:48:17">
     <value>Successfully published</value>
     <comment>phrase: Successfully published</comment>
   </data>
-  <data name="UnpublishedMessage" lastModified="2014-04-07T14:32:43">
+  <data name="UnpublishedMessage" lastModified="2014-07-22T13:48:17">
     <value>Successfully unpublished</value>
     <comment>phrase: Successfully unpublished</comment>
   </data>
-  <data name="DraftMessage" lastModified="2014-04-07T14:32:43">
+  <data name="DraftMessage" lastModified="2014-07-22T13:48:17">
     <value>Your draft has been saved</value>
     <comment>phrase: Your draft has been saved</comment>
   </data>
-  <data name="RejectedMessage" lastModified="2014-04-07T14:32:43">
+  <data name="RejectedMessage" lastModified="2014-07-22T13:48:17">
     <value>Successfully rejected</value>
     <comment>phrase: Successfully rejected</comment>
   </data>
-  <data name="ScheduledMessage" lastModified="2014-04-07T14:32:43">
+  <data name="ScheduledMessage" lastModified="2014-07-22T13:48:17">
     <value>Successfully scheduled</value>
     <comment>phrase: Successfully scheduled</comment>
   </data>
-  <data name="PublishedAndDraftMessage" lastModified="2014-04-07T14:32:43">
+  <data name="PublishedAndDraftMessage" lastModified="2014-07-22T13:48:17">
     <value>Your draft has been saved</value>
     <comment>word: Draft</comment>
   </data>
-  <data name="ItemAwaitingApproval" lastModified="2014-04-07T14:32:43">
+  <data name="ItemAwaitingApproval" lastModified="2014-07-22T13:48:17">
     <value>New {0} waiting for approval</value>
     <comment>phrase: New {0} waiting for approval</comment>
   </data>
-  <data name="ItemAwaitingApprovalDetailedMessage" lastModified="2014-04-07T14:32:43">
+  <data name="ItemAwaitingApprovalDetailedMessage" lastModified="2014-07-22T13:48:17">
     <value>This message is to notify you that a new {0} is waiting for your approval</value>
     <comment>phrase: This message is to notify you that a new {0} is waiting for your approval</comment>
   </data>
-  <data name="SentByOnAt" lastModified="2014-04-07T14:32:43">
+  <data name="SentByOnAt" lastModified="2014-07-22T13:48:17">
     <value>Sent by: {0} on {1} at {2}</value>
     <comment>phrase: Sent by: {0} on {1} at {2}</comment>
   </data>

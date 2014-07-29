@@ -117,39 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadUploadResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="RadUploadResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>RadUpload</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="RadUploadResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="RadUploadResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>RadUpload title plural</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="RadUploadResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="RadUploadResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Resource strings for RadUpload.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="Add" lastModified="2014-04-07T14:32:44">
+  <data name="Add" lastModified="2014-07-22T13:48:17">
     <value>Add</value>
     <comment>RadUpload resource strings.</comment>
   </data>
-  <data name="Clear" lastModified="2014-04-07T14:32:44">
+  <data name="Clear" lastModified="2014-07-22T13:48:17">
     <value>Clear</value>
     <comment>RadUpload resource strings.</comment>
   </data>
-  <data name="Delete" lastModified="2014-04-07T14:32:44">
+  <data name="Delete" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>RadUpload resource strings.</comment>
   </data>
-  <data name="Remove" lastModified="2014-04-07T14:32:44">
+  <data name="Remove" lastModified="2014-07-22T13:48:17">
     <value>Remove</value>
     <comment>RadUpload resource strings.</comment>
   </data>
-  <data name="ReservedResource" lastModified="2014-04-07T14:32:44">
+  <data name="ReservedResource" lastModified="2014-07-22T13:48:17">
     <value>Please do not remove this key.</value>
     <comment>RadUpload resource strings.</comment>
   </data>
-  <data name="Select" lastModified="2014-04-07T14:32:44">
+  <data name="Select" lastModified="2014-07-22T13:48:17">
     <value>Select</value>
     <comment>RadUpload resource strings.</comment>
   </data>

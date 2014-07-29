@@ -117,663 +117,663 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TaxonomyResourcesTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonomyResourcesTitle" lastModified="2014-07-22T13:48:17">
     <value>Taxonomies</value>
     <comment>The title of this class.</comment>
   </data>
-  <data name="TaxonomyResourcesTitlePlural" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonomyResourcesTitlePlural" lastModified="2014-07-22T13:48:17">
     <value>Taxonomies</value>
     <comment>The title plural of this class.</comment>
   </data>
-  <data name="TaxonomyResourcesDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonomyResourcesDescription" lastModified="2014-07-22T13:48:17">
     <value>Contains localizable resources for Taxonomy module.</value>
     <comment>The description of this class.</comment>
   </data>
-  <data name="ModuleTitle" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleTitle" lastModified="2014-07-22T13:48:17">
     <value>Classification of content</value>
     <comment>The title of Taxonomy module.</comment>
   </data>
-  <data name="EditItem" lastModified="2014-04-07T14:32:44">
+  <data name="EditItem" lastModified="2014-07-22T13:48:17">
     <value>Edit</value>
     <comment>The title of the edit taxon dialog</comment>
   </data>
-  <data name="DeleteThisItem" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteThisItem" lastModified="2014-07-22T13:48:17">
     <value>Delete</value>
     <comment>Delete</comment>
   </data>
-  <data name="CreateThisItem" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisItem" lastModified="2014-07-22T13:48:17">
     <value>Create this tag</value>
     <comment>phrase: Create this tag</comment>
   </data>
-  <data name="BackToItems" lastModified="2014-04-07T14:32:44">
+  <data name="BackToItems" lastModified="2014-07-22T13:48:17">
     <value>Back to Tags</value>
     <comment>The text of the back to tags link</comment>
   </data>
-  <data name="ModuleDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ModuleDescription" lastModified="2014-07-22T13:48:17">
     <value>Defines the relationships that exist between separate content items in a coherent whole.</value>
     <comment>The description of Taxonomy module.</comment>
   </data>
-  <data name="Classifications" lastModified="2014-04-07T14:32:44">
+  <data name="Classifications" lastModified="2014-07-22T13:48:17">
     <value>Classifications</value>
     <comment>word: Classifications</comment>
   </data>
-  <data name="Classification" lastModified="2014-04-07T14:32:44">
+  <data name="Classification" lastModified="2014-07-22T13:48:17">
     <value>Classification</value>
     <comment>word: Classification</comment>
   </data>
-  <data name="CreateNewClassification" lastModified="2014-04-07T14:32:44">
+  <data name="CreateNewClassification" lastModified="2014-07-22T13:48:17">
     <value>Create new classification</value>
     <comment>phrase: Create new classification</comment>
   </data>
-  <data name="SearchInsideClassifications" lastModified="2014-04-07T14:32:44">
+  <data name="SearchInsideClassifications" lastModified="2014-07-22T13:48:17">
     <value>Search inside classifications...</value>
     <comment>phrase: Search inside classifications</comment>
   </data>
-  <data name="SearchClassifications" lastModified="2014-04-07T14:32:44">
+  <data name="SearchClassifications" lastModified="2014-07-22T13:48:17">
     <value>Search classifications...</value>
     <comment>phrase: Search classifications</comment>
   </data>
-  <data name="CloseSearchClassifications" lastModified="2014-04-07T14:32:44">
+  <data name="CloseSearchClassifications" lastModified="2014-07-22T13:48:17">
     <value>Close search classifications...</value>
     <comment>phrase: Close search classifications</comment>
   </data>
-  <data name="CategoriesAndTags" lastModified="2014-04-07T14:32:44">
+  <data name="CategoriesAndTags" lastModified="2014-07-22T13:48:17">
     <value>Categories and tags</value>
     <comment>phrase: Categories and tags</comment>
   </data>
-  <data name="FilterClassifications" lastModified="2014-04-07T14:32:44">
+  <data name="FilterClassifications" lastModified="2014-07-22T13:48:17">
     <value>Filter classifications</value>
     <comment>phrase: Filter classifications</comment>
   </data>
-  <data name="AllClassifications" lastModified="2014-04-07T14:32:44">
+  <data name="AllClassifications" lastModified="2014-07-22T13:48:17">
     <value>All classifications</value>
     <comment>phrase: All classifications</comment>
   </data>
-  <data name="SimpleLists" lastModified="2014-04-07T14:32:44">
+  <data name="SimpleLists" lastModified="2014-07-22T13:48:17">
     <value>Simple lists</value>
     <comment>phrase: Simple lists</comment>
   </data>
-  <data name="Hierarchicals" lastModified="2014-04-07T14:32:44">
+  <data name="Hierarchicals" lastModified="2014-07-22T13:48:17">
     <value>Hierarchicals</value>
     <comment>word: Hierarchicals</comment>
   </data>
-  <data name="Faceted" lastModified="2014-04-07T14:32:44">
+  <data name="Faceted" lastModified="2014-07-22T13:48:17">
     <value>Faceted</value>
     <comment>word: Faceted</comment>
   </data>
-  <data name="EmptyClassifications" lastModified="2014-04-07T14:32:44">
+  <data name="EmptyClassifications" lastModified="2014-07-22T13:48:17">
     <value>Empty classifications</value>
     <comment>phrase: Empty classifications</comment>
   </data>
-  <data name="PermissionsForAllClassifications" lastModified="2014-04-07T14:32:44">
+  <data name="PermissionsForAllClassifications" lastModified="2014-07-22T13:48:17">
     <value>Permissions for all classifications</value>
     <comment>phrase: Permissions for all classifications</comment>
   </data>
-  <data name="ClassificationSlashType" lastModified="2014-04-07T14:32:44">
+  <data name="ClassificationSlashType" lastModified="2014-07-22T13:48:17">
     <value>Classification / Type</value>
     <comment>phrase: Classification / Type</comment>
   </data>
-  <data name="FlatTaxonomyUserFriendly" lastModified="2014-04-07T14:32:44">
+  <data name="FlatTaxonomyUserFriendly" lastModified="2014-07-22T13:48:17">
     <value>Simple list</value>
     <comment>phrase: Flat list</comment>
   </data>
-  <data name="HierarchicalTaxonomyUserFriendly" lastModified="2014-04-07T14:32:44">
+  <data name="HierarchicalTaxonomyUserFriendly" lastModified="2014-07-22T13:48:17">
     <value>Hierarchical list</value>
     <comment>phrase: Hierarchical list</comment>
   </data>
-  <data name="CreateATagName" lastModified="2014-04-07T14:32:44">
+  <data name="CreateATagName" lastModified="2014-07-22T13:48:17">
     <value>Create a Tag</value>
     <comment>phrase: Create a Tag</comment>
   </data>
-  <data name="ClickToAddDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddDescription" lastModified="2014-07-22T13:48:17">
     <value>Click to add a description</value>
     <comment>phrase: Click to add a description</comment>
   </data>
-  <data name="lDescription" lastModified="2014-04-07T14:32:44">
+  <data name="lDescription" lastModified="2014-07-22T13:48:17">
     <value>Description</value>
     <comment>phrase: Description</comment>
   </data>
-  <data name="FlatTaxonomyUserFriendlyWithExample" lastModified="2014-04-07T14:32:44">
+  <data name="FlatTaxonomyUserFriendlyWithExample" lastModified="2014-07-22T13:48:17">
     <value>Simple list&lt;span class="sfExample"&gt;Convenient for tags, keywords, one-level list of things.&lt;/span&gt;</value>
     <comment>phrase: Flat list</comment>
   </data>
-  <data name="HierarchicalTaxonomyUserFriendlyWithExample" lastModified="2014-04-07T14:32:44">
+  <data name="HierarchicalTaxonomyUserFriendlyWithExample" lastModified="2014-07-22T13:48:17">
     <value>Hierarchical list&lt;span class="sfExample"&gt;For Items, sub-items, sub-sub-items, etc. (tree).&lt;br /&gt; &lt;strong&gt;Example:&lt;/strong&gt; List of continents, countries and cities.&lt;/span&gt;</value>
     <comment>phrase: Hierarchical list</comment>
   </data>
-  <data name="FlatTaxonomyMenuName" lastModified="2014-04-07T14:32:44">
+  <data name="FlatTaxonomyMenuName" lastModified="2014-07-22T13:48:17">
     <value>Tags</value>
     <comment>word: Tags</comment>
   </data>
-  <data name="PermissionsForFlatTaxonomies" lastModified="2014-04-07T14:32:44">
+  <data name="PermissionsForFlatTaxonomies" lastModified="2014-07-22T13:48:17">
     <value>Permissions for tags</value>
     <comment>Phrase: Permissions for tags</comment>
   </data>
-  <data name="PermissionsForHierarchicalTaxonomies" lastModified="2014-04-07T14:32:44">
+  <data name="PermissionsForHierarchicalTaxonomies" lastModified="2014-07-22T13:48:17">
     <value>Permissions for categories</value>
     <comment>Phrase: Permissions for categories</comment>
   </data>
-  <data name="HierarchicalTaxonomyMenuName" lastModified="2014-04-07T14:32:44">
+  <data name="HierarchicalTaxonomyMenuName" lastModified="2014-07-22T13:48:17">
     <value>Categories</value>
     <comment>word: Categories</comment>
   </data>
-  <data name="NetworkTaxonomyUserFriendly" lastModified="2014-04-07T14:32:44">
+  <data name="NetworkTaxonomyUserFriendly" lastModified="2014-07-22T13:48:17">
     <value>Network list</value>
     <comment>phrase: Network list</comment>
   </data>
-  <data name="FacetTaxonomyUserFriendly" lastModified="2014-04-07T14:32:44">
+  <data name="FacetTaxonomyUserFriendly" lastModified="2014-07-22T13:48:17">
     <value>Facet list</value>
     <comment>phrase: Facet list</comment>
   </data>
-  <data name="Flat" lastModified="2014-04-07T14:32:44">
+  <data name="Flat" lastModified="2014-07-22T13:48:17">
     <value>Flat</value>
     <comment>word: Flat</comment>
   </data>
-  <data name="Hierarchical" lastModified="2014-04-07T14:32:44">
+  <data name="Hierarchical" lastModified="2014-07-22T13:48:17">
     <value>Hierarchical</value>
     <comment>word: Hierarchical</comment>
   </data>
-  <data name="Network" lastModified="2014-04-07T14:32:44">
+  <data name="Network" lastModified="2014-07-22T13:48:17">
     <value>Network</value>
     <comment>word: Network</comment>
   </data>
-  <data name="Facet" lastModified="2014-04-07T14:32:44">
+  <data name="Facet" lastModified="2014-07-22T13:48:17">
     <value>Facet</value>
     <comment>word: Facet</comment>
   </data>
-  <data name="SingleItem" lastModified="2014-04-07T14:32:44">
+  <data name="SingleItem" lastModified="2014-07-22T13:48:17">
     <value>Single item</value>
     <comment>phrase: Single item</comment>
   </data>
-  <data name="Type" lastModified="2014-04-07T14:32:44">
+  <data name="Type" lastModified="2014-07-22T13:48:17">
     <value>Type</value>
     <comment>word: Type</comment>
   </data>
-  <data name="NameForProgramCode" lastModified="2014-04-07T14:32:44">
+  <data name="NameForProgramCode" lastModified="2014-07-22T13:48:17">
     <value>Name for program code</value>
     <comment>phrase: Name for program code</comment>
   </data>
-  <data name="DeleteClassification" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteClassification" lastModified="2014-07-22T13:48:17">
     <value>Delete classification</value>
     <comment>phrase: Delete classification</comment>
   </data>
-  <data name="CreateATaxonName" lastModified="2014-04-07T14:32:44">
+  <data name="CreateATaxonName" lastModified="2014-07-22T13:48:17">
     <value>Create a {0}</value>
     <comment>phrase: Create a {0}</comment>
   </data>
-  <data name="EditATaxonName" lastModified="2014-04-07T14:32:44">
+  <data name="EditATaxonName" lastModified="2014-07-22T13:48:17">
     <value>Edit a {0}</value>
     <comment>phrase: Edit a {0}</comment>
   </data>
-  <data name="BackToTaxonomyName" lastModified="2014-04-07T14:32:44">
+  <data name="BackToTaxonomyName" lastModified="2014-07-22T13:48:17">
     <value>Back to {0}</value>
     <comment>phrase: Back to {0}</comment>
   </data>
-  <data name="CreateThisTaxonName" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisTaxonName" lastModified="2014-07-22T13:48:17">
     <value>Create</value>
     <comment>phrase</comment>
   </data>
-  <data name="CreateAndAddAnotherTaxonName" lastModified="2014-04-07T14:32:44">
+  <data name="CreateAndAddAnotherTaxonName" lastModified="2014-07-22T13:48:17">
     <value>Create and add another</value>
     <comment>phrase</comment>
   </data>
-  <data name="FlatTaxonTitleExample" lastModified="2014-04-07T14:32:44">
+  <data name="FlatTaxonTitleExample" lastModified="2014-07-22T13:48:17">
     <value>Example: &lt;em&gt;North America&lt;/em&gt;</value>
     <comment>phrase: Example of the input for a flat taxon title</comment>
   </data>
-  <data name="EditSynonyms" lastModified="2014-04-07T14:32:44">
+  <data name="EditSynonyms" lastModified="2014-07-22T13:48:17">
     <value>Edit synonyms</value>
     <comment>phrase: Edit synonyms</comment>
   </data>
-  <data name="Synonyms" lastModified="2014-04-07T14:32:44">
+  <data name="Synonyms" lastModified="2014-07-22T13:48:17">
     <value>Synonyms</value>
     <comment>word: Synonyms</comment>
   </data>
-  <data name="SynonymsExample" lastModified="2014-04-07T14:32:44">
+  <data name="SynonymsExample" lastModified="2014-07-22T13:48:17">
     <value>Synonyms &lt;span class='sfNote'&gt;(separated by space, e.g. flat apartment)&lt;/span&gt;</value>
     <comment>phrase: Synonyms (separated by space, e.g. flat apartment)</comment>
   </data>
-  <data name="EditUrlNames" lastModified="2014-04-07T14:32:44">
+  <data name="EditUrlNames" lastModified="2014-07-22T13:48:17">
     <value>Edit URLs</value>
     <comment>phrase: Edit URLs</comment>
   </data>
-  <data name="BackToClassificationsName" lastModified="2014-04-07T14:32:44">
+  <data name="BackToClassificationsName" lastModified="2014-07-22T13:48:17">
     <value>Back to classifications</value>
     <comment>phrase: Back to classifications</comment>
   </data>
-  <data name="CreateAClassificationName" lastModified="2014-04-07T14:32:44">
+  <data name="CreateAClassificationName" lastModified="2014-07-22T13:48:17">
     <value>Create a classification</value>
     <comment>phrase: Create a classification</comment>
   </data>
-  <data name="EditAClassificationName" lastModified="2014-04-07T14:32:44">
+  <data name="EditAClassificationName" lastModified="2014-07-22T13:48:17">
     <value>Edit a Classification</value>
     <comment>phrase: Edit a Classification</comment>
   </data>
-  <data name="CreateThisClassificationName" lastModified="2014-04-07T14:32:44">
+  <data name="CreateThisClassificationName" lastModified="2014-07-22T13:48:17">
     <value>Create this classification</value>
     <comment>phrase: Create this Classification</comment>
   </data>
-  <data name="ClassificationTitleExample" lastModified="2014-04-07T14:32:44">
+  <data name="ClassificationTitleExample" lastModified="2014-07-22T13:48:17">
     <value>Example: &lt;em&gt;Geographic regions&lt;/em&gt;</value>
     <comment>phrase: Geographic regions</comment>
   </data>
-  <data name="TaxonTitleExample" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonTitleExample" lastModified="2014-07-22T13:48:17">
     <value>Example: &lt;em&gt;North America&lt;/em&gt;</value>
     <comment>phrase: TaxonTitleExample</comment>
   </data>
-  <data name="CreateNewItem" lastModified="2014-04-07T14:32:44">
+  <data name="CreateNewItem" lastModified="2014-07-22T13:48:17">
     <value>Create new item</value>
     <comment>phrase: Create new item</comment>
   </data>
-  <data name="lAdvanced" lastModified="2014-04-07T14:32:44">
+  <data name="lAdvanced" lastModified="2014-07-22T13:48:17">
     <value>Advanced</value>
     <comment>phrase: Advanced</comment>
   </data>
-  <data name="UrlName" lastModified="2014-04-07T14:32:44">
+  <data name="UrlName" lastModified="2014-07-22T13:48:17">
     <value>URL</value>
     <comment>phrase: URL</comment>
   </data>
-  <data name="UrlNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="UrlNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>URL cannot be empty</value>
     <comment>phrase: URL cannot be empty</comment>
   </data>
-  <data name="UrlNameInvalidSymbols" lastModified="2014-04-07T14:32:44">
+  <data name="UrlNameInvalidSymbols" lastModified="2014-07-22T13:48:17">
     <value>The URL contains invalid symbols.</value>
     <comment>The message shown when the url contains invalid symbols.</comment>
   </data>
-  <data name="ClassificationSingleItemExample" lastModified="2014-04-07T14:32:44">
+  <data name="ClassificationSingleItemExample" lastModified="2014-07-22T13:48:17">
     <value>Example: &lt;em&gt;Geographic region&lt;/em&gt;</value>
     <comment>phrase: Geographic region</comment>
   </data>
-  <data name="ClassificationType" lastModified="2014-04-07T14:32:44">
+  <data name="ClassificationType" lastModified="2014-07-22T13:48:17">
     <value>Type</value>
     <comment>phrase: Type</comment>
   </data>
-  <data name="ClassificationDescription" lastModified="2014-04-07T14:32:44">
+  <data name="ClassificationDescription" lastModified="2014-07-22T13:48:17">
     <value>Description</value>
     <comment>phrase: Description</comment>
   </data>
-  <data name="SingleItemName" lastModified="2014-04-07T14:32:44">
+  <data name="SingleItemName" lastModified="2014-07-22T13:48:17">
     <value>Single item name</value>
     <comment>phrase: Single Item Name</comment>
   </data>
-  <data name="Category" lastModified="2014-04-07T14:32:44">
+  <data name="Category" lastModified="2014-07-22T13:48:17">
     <value>Category</value>
     <comment>word</comment>
   </data>
-  <data name="Categories" lastModified="2014-04-07T14:32:44">
+  <data name="Categories" lastModified="2014-07-22T13:48:17">
     <value>Categories</value>
     <comment>word</comment>
   </data>
-  <data name="Tags" lastModified="2014-04-07T14:32:44">
+  <data name="Tags" lastModified="2014-07-22T13:48:17">
     <value>Tags</value>
     <comment>word</comment>
   </data>
-  <data name="CommonCategories" lastModified="2014-04-07T14:32:44">
+  <data name="CommonCategories" lastModified="2014-07-22T13:48:17">
     <value>Common categories</value>
     <comment>phrase: Common categories</comment>
   </data>
-  <data name="CommonTags" lastModified="2014-04-07T14:32:44">
+  <data name="CommonTags" lastModified="2014-07-22T13:48:17">
     <value>Common tags</value>
     <comment>phrase: Common tags</comment>
   </data>
-  <data name="Taxon" lastModified="2014-04-07T14:32:44">
+  <data name="Taxon" lastModified="2014-07-22T13:48:17">
     <value>Taxon</value>
     <comment>word</comment>
   </data>
-  <data name="SimpleList" lastModified="2014-04-07T14:32:44">
+  <data name="SimpleList" lastModified="2014-07-22T13:48:17">
     <value>Simple List</value>
     <comment>phrase: Simple List</comment>
   </data>
-  <data name="Hierarchy" lastModified="2014-04-07T14:32:44">
+  <data name="Hierarchy" lastModified="2014-07-22T13:48:17">
     <value>Hierarchy</value>
     <comment>word: Hierarchy</comment>
   </data>
-  <data name="Facets" lastModified="2014-04-07T14:32:44">
+  <data name="Facets" lastModified="2014-07-22T13:48:17">
     <value>Facets</value>
     <comment>word: Facets</comment>
   </data>
-  <data name="TaxonomyPermissionsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonomyPermissionsTitle" lastModified="2014-07-22T13:48:17">
     <value>Taxonomy Permissions</value>
     <comment>Title for the Taxonomy Permissions module.</comment>
   </data>
-  <data name="TaxonomyPermissionsUrlName" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonomyPermissionsUrlName" lastModified="2014-07-22T13:48:17">
     <value>Permissions</value>
     <comment>Taxonomy Permissions URL.</comment>
   </data>
-  <data name="TaxonomyPermissionsDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonomyPermissionsDescription" lastModified="2014-07-22T13:48:17">
     <value>TaxonomyPermissions</value>
     <comment>Defines permissions for the Taxonomy module.</comment>
   </data>
-  <data name="MarkedItemTitle" lastModified="2014-04-07T14:32:44">
+  <data name="MarkedItemTitle" lastModified="2014-07-22T13:48:17">
     <value>Item</value>
     <comment>phrase</comment>
   </data>
-  <data name="UnmarkItems" lastModified="2014-04-07T14:32:44">
+  <data name="UnmarkItems" lastModified="2014-07-22T13:48:17">
     <value>Remove {0} from the selected items</value>
     <comment>phrase</comment>
   </data>
-  <data name="MarkedItemsTitle" lastModified="2014-04-07T14:32:44">
+  <data name="MarkedItemsTitle" lastModified="2014-07-22T13:48:17">
     <value>Items under {0}</value>
     <comment>phrase</comment>
   </data>
-  <data name="TaxonProperties" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonProperties" lastModified="2014-07-22T13:48:17">
     <value>{0} properties</value>
     <comment>phrase</comment>
   </data>
-  <data name="ItemsInTotal" lastModified="2014-04-07T14:32:44">
+  <data name="ItemsInTotal" lastModified="2014-07-22T13:48:17">
     <value>Items in total</value>
     <comment>phrase</comment>
   </data>
-  <data name="ChildCategory" lastModified="2014-04-07T14:32:44">
+  <data name="ChildCategory" lastModified="2014-07-22T13:48:17">
     <value>Create a child category</value>
     <comment>phrase: Create a child category</comment>
   </data>
-  <data name="SiblingCategoryBefore" lastModified="2014-04-07T14:32:44">
+  <data name="SiblingCategoryBefore" lastModified="2014-07-22T13:48:17">
     <value>Sibling category before</value>
     <comment>phrase: Sibling category before</comment>
   </data>
-  <data name="SiblingCategoryAfter" lastModified="2014-04-07T14:32:44">
+  <data name="SiblingCategoryAfter" lastModified="2014-07-22T13:48:17">
     <value>Sibling category after</value>
     <comment>phrase: Sibling category after</comment>
   </data>
-  <data name="ChangeParent" lastModified="2014-04-07T14:32:44">
+  <data name="ChangeParent" lastModified="2014-07-22T13:48:17">
     <value>Change parent {0}</value>
     <comment>phrase: Change parent {0}</comment>
   </data>
-  <data name="DeleteClassificationMessage" lastModified="2014-04-07T14:32:44">
+  <data name="DeleteClassificationMessage" lastModified="2014-07-22T13:48:17">
     <value>Are you sure you want to delete this classification?</value>
     <comment>phrase</comment>
   </data>
-  <data name="BulkEditFormTitle" lastModified="2014-04-07T14:32:44">
+  <data name="BulkEditFormTitle" lastModified="2014-07-22T13:48:17">
     <value>Bulk edit URLs and Synonyms</value>
     <comment>phrase</comment>
   </data>
-  <data name="NoParentTaxonNameDescription" lastModified="2014-04-07T14:32:44">
+  <data name="NoParentTaxonNameDescription" lastModified="2014-07-22T13:48:17">
     <value>No parent (this {0} will be at the top level)</value>
     <comment>No parent (this {0} will be at the top level)</comment>
   </data>
-  <data name="SelectedAParent" lastModified="2014-04-07T14:32:44">
+  <data name="SelectedAParent" lastModified="2014-07-22T13:48:17">
     <value>Select a parent...</value>
     <comment>Select a parent...</comment>
   </data>
-  <data name="SelectATaxonName" lastModified="2014-04-07T14:32:44">
+  <data name="SelectATaxonName" lastModified="2014-07-22T13:48:17">
     <value>Select a {0}</value>
     <comment>Select a {0}</comment>
   </data>
-  <data name="NoItemsHaveBeenCreated" lastModified="2014-04-07T14:32:44">
+  <data name="NoItemsHaveBeenCreated" lastModified="2014-07-22T13:48:17">
     <value>No items have been created yet</value>
     <comment>No items have been created yet</comment>
   </data>
-  <data name="NoTaxaExistsYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoTaxaExistsYet" lastModified="2014-07-22T13:48:17">
     <value>No {0} have been created yet</value>
     <comment>phrase: No {0} have been created yet. - argument is the title of the taxonomy</comment>
   </data>
-  <data name="NoParentSelected" lastModified="2014-04-07T14:32:44">
+  <data name="NoParentSelected" lastModified="2014-07-22T13:48:17">
     <value>No parent {0} has been selected.</value>
     <comment>No parent {0} have been selected.</comment>
   </data>
-  <data name="SaveATaxonName" lastModified="2014-04-07T14:32:44">
+  <data name="SaveATaxonName" lastModified="2014-07-22T13:48:17">
     <value>Save a {0}</value>
     <comment>phrase: Save a {0}</comment>
   </data>
-  <data name="SaveThisTaxonName" lastModified="2014-04-07T14:32:44">
+  <data name="SaveThisTaxonName" lastModified="2014-07-22T13:48:17">
     <value>Save</value>
     <comment>phrase</comment>
   </data>
-  <data name="SaveAndAddAnotherTaxonName" lastModified="2014-04-07T14:32:44">
+  <data name="SaveAndAddAnotherTaxonName" lastModified="2014-07-22T13:48:17">
     <value>Save and add another</value>
     <comment>phrase</comment>
   </data>
-  <data name="TypeCannotBeChanged" lastModified="2014-04-07T14:32:44">
+  <data name="TypeCannotBeChanged" lastModified="2014-07-22T13:48:17">
     <value>&lt;em class="sfNote"&gt;(Type cannot be changed)&lt;/em&gt;</value>
     <comment>phrase</comment>
   </data>
-  <data name="TaxonomyTreeMalformed" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonomyTreeMalformed" lastModified="2014-07-22T13:48:17">
     <value>Hierarchical taxonomy tree is malformed!</value>
     <comment>message</comment>
   </data>
-  <data name="TaxonNotFound" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonNotFound" lastModified="2014-07-22T13:48:17">
     <value>The requested taxon was not found.</value>
     <comment>message</comment>
   </data>
-  <data name="ApplyTaxonomyHelp" lastModified="2014-04-07T14:32:44">
+  <data name="ApplyTaxonomyHelp" lastModified="2014-07-22T13:48:17">
     <value>Learn &lt;strong&gt;how to apply&lt;/strong&gt; this classification to some content types, e.g. Blog posts, News, etc.</value>
     <comment>Link text for taxonomy help</comment>
   </data>
-  <data name="NoClassificationsCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoClassificationsCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No classifications have been created yet.</value>
     <comment>phrase: No classifications have been created yet.</comment>
   </data>
-  <data name="CreateYourFirstClassification" lastModified="2014-04-07T14:32:44">
+  <data name="CreateYourFirstClassification" lastModified="2014-07-22T13:48:17">
     <value>Create your first classification.</value>
     <comment>phrase: Create your first classification.</comment>
   </data>
-  <data name="SetPermissionsForClassifications" lastModified="2014-04-07T14:32:44">
+  <data name="SetPermissionsForClassifications" lastModified="2014-07-22T13:48:17">
     <value>Set permissions for classifications.</value>
     <comment>phrase: Set permissions for classifications.</comment>
   </data>
-  <data name="ClassificationHasBeenSuccessfullyCreated" lastModified="2014-04-07T14:32:44">
+  <data name="ClassificationHasBeenSuccessfullyCreated" lastModified="2014-07-22T13:48:17">
     <value>'&lt;em&gt;{0}&lt;/em&gt;' classification has been successfully created.</value>
     <comment>phrase: '{0}' classification has been successfully created.</comment>
   </data>
-  <data name="CannotBeParentToItself" lastModified="2014-04-07T14:32:44">
+  <data name="CannotBeParentToItself" lastModified="2014-07-22T13:48:17">
     <value>Invalid operation: cannot be parent to itself.</value>
     <comment>phrase: Invalid operation: cannot be parent to itself.</comment>
   </data>
-  <data name="NoClassificationsMatchTheSearchQuery" lastModified="2014-04-07T14:32:44">
+  <data name="NoClassificationsMatchTheSearchQuery" lastModified="2014-07-22T13:48:17">
     <value>No classifications match the search query.</value>
     <comment>phrase: No classifications match the search query.</comment>
   </data>
-  <data name="HierarchicalTaxonParentRootLabel" lastModified="2014-04-07T14:32:44">
+  <data name="HierarchicalTaxonParentRootLabel" lastModified="2014-07-22T13:48:17">
     <value>No parent (this {0} will be at the top level)</value>
     <comment>No parent (this {0} will be at the top level)</comment>
   </data>
-  <data name="SelectAParent" lastModified="2014-04-07T14:32:44">
+  <data name="SelectAParent" lastModified="2014-07-22T13:48:17">
     <value>Select a parent&amp;hellip;</value>
     <comment>phrase: Select a parent&amp;hellip;</comment>
   </data>
-  <data name="Parent" lastModified="2014-04-07T14:32:44">
+  <data name="Parent" lastModified="2014-07-22T13:48:17">
     <value>Parent</value>
     <comment>word: Parent</comment>
   </data>
-  <data name="ExampleNorthAmerica" lastModified="2014-04-07T14:32:44">
+  <data name="ExampleNorthAmerica" lastModified="2014-07-22T13:48:17">
     <value>Example: &lt;em&gt;North America&lt;/em&gt;</value>
     <comment>phrase: Example : North America</comment>
   </data>
-  <data name="NoTaxaHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoTaxaHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No {0} have been created yet.</value>
     <comment>phrase: No {0} have been created yet.</comment>
   </data>
-  <data name="NoTagsHaveBeenCreatedYet" lastModified="2014-04-07T14:32:44">
+  <data name="NoTagsHaveBeenCreatedYet" lastModified="2014-07-22T13:48:17">
     <value>No tags have been created yet.</value>
     <comment>phrase: No tags have been created yet.</comment>
   </data>
-  <data name="CreateNewTaxon" lastModified="2014-04-07T14:32:44">
+  <data name="CreateNewTaxon" lastModified="2014-07-22T13:48:17">
     <value>Create new {0}</value>
     <comment>Title of the TaxaMasterGridView decisions screen action that creates a new taxon when the list is empty</comment>
   </data>
-  <data name="DuplicateUrlException" lastModified="2014-04-07T14:32:44">
+  <data name="DuplicateUrlException" lastModified="2014-07-22T13:48:17">
     <value>{0} with URL '{1}' already exists in {2}.</value>
     <comment>Error message.</comment>
   </data>
-  <data name="TagsFieldInstructions" lastModified="2014-04-07T14:32:44">
+  <data name="TagsFieldInstructions" lastModified="2014-07-22T13:48:17">
     <value>&lt;strong&gt;Comma separated&lt;/strong&gt;, type &lt;strong&gt;new&lt;/strong&gt; or &lt;strong&gt;existing&lt;/strong&gt; tags</value>
     <comment>Comma seperated, type new or existing tags</comment>
   </data>
-  <data name="EmptyCollectionOfTaxonsIsNotAllowed" lastModified="2014-04-07T14:32:44">
+  <data name="EmptyCollectionOfTaxonsIsNotAllowed" lastModified="2014-07-22T13:48:17">
     <value>An empty collection of taxons was passed to the method, which is not allowed.</value>
     <comment>Error messages.</comment>
   </data>
-  <data name="CannotMoveTaxon" lastModified="2014-04-07T14:32:44">
+  <data name="CannotMoveTaxon" lastModified="2014-07-22T13:48:17">
     <value>Taxon cannot be moved</value>
     <comment>Error messages.</comment>
   </data>
-  <data name="CannotMoveFirstTaxonUp" lastModified="2014-04-07T14:32:44">
+  <data name="CannotMoveFirstTaxonUp" lastModified="2014-07-22T13:48:17">
     <value>Cannot move the first taxon up</value>
     <comment>Error messages.</comment>
   </data>
-  <data name="CannotMoveLastTaxonDown" lastModified="2014-04-07T14:32:44">
+  <data name="CannotMoveLastTaxonDown" lastModified="2014-07-22T13:48:17">
     <value>Cannot move the last taxon down</value>
     <comment>Error messages.</comment>
   </data>
-  <data name="NewsItemDisplay" lastModified="2014-04-07T14:32:44">
+  <data name="NewsItemDisplay" lastModified="2014-07-22T13:48:17">
     <value>News items</value>
     <comment>Type name display</comment>
   </data>
-  <data name="ChooseParent" lastModified="2014-04-07T14:32:44">
+  <data name="ChooseParent" lastModified="2014-07-22T13:48:17">
     <value>Choose parent</value>
     <comment>phrase: Choose parent</comment>
   </data>
-  <data name="TagsFieldDescription" lastModified="2014-04-07T14:32:44">
+  <data name="TagsFieldDescription" lastModified="2014-07-22T13:48:17">
     <value>Type &lt;strong&gt;new&lt;/strong&gt; or &lt;strong&gt;existing&lt;/strong&gt; {0}, &lt;strong&gt;comma separated&lt;/strong&gt;</value>
     <comment>phrase: Description which explains how to use FlatTaxonField. The argument is the title of the taxonomy.</comment>
   </data>
-  <data name="ClickToAddCategories" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddCategories" lastModified="2014-07-22T13:48:17">
     <value>Click to add categories</value>
     <comment>phrase: Click to add categories</comment>
   </data>
-  <data name="ClickToAddTags" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddTags" lastModified="2014-07-22T13:48:17">
     <value>Click to add tags</value>
     <comment>phrase: Click to add tags</comment>
   </data>
-  <data name="ClickToAddCommonCategories" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddCommonCategories" lastModified="2014-07-22T13:48:17">
     <value>Click to add common categories</value>
     <comment>phrase: Click to add common categories</comment>
   </data>
-  <data name="ClickToAddCommonTags" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddCommonTags" lastModified="2014-07-22T13:48:17">
     <value>Click to add common tags</value>
     <comment>phrase: Click to add common tags</comment>
   </data>
-  <data name="ClickToAddSynonyms" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddSynonyms" lastModified="2014-07-22T13:48:17">
     <value>Click to add synonyms.</value>
     <comment>phrase: Click to add synonyms.</comment>
   </data>
-  <data name="ClickToAddTaxon" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddTaxon" lastModified="2014-07-22T13:48:17">
     <value>Click to add taxon.</value>
     <comment>phrase: Click to add taxon.</comment>
   </data>
-  <data name="ForDevelopersNameUsedInCode" lastModified="2014-04-07T14:32:44">
+  <data name="ForDevelopersNameUsedInCode" lastModified="2014-07-22T13:48:17">
     <value>For developers: name used in code.</value>
     <comment>phrase: For developers: name used in code.</comment>
   </data>
-  <data name="TitleCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="TitleCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Title cannot be empty.</value>
     <comment>phrase: Title cannot be empty.</comment>
   </data>
-  <data name="DescriptionCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="DescriptionCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Description cannot be empty.</value>
     <comment>phrase: Description cannot be empty.</comment>
   </data>
-  <data name="SingleItemNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="SingleItemNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Single item name cannot be empty.</value>
     <comment>phrase: Single item name cannot be empty.</comment>
   </data>
-  <data name="NameUsedInCodeCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="NameUsedInCodeCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Name used in code cannot be empty.</value>
     <comment>phrase: Name used in code cannot be empty.</comment>
   </data>
-  <data name="ClassificationCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="ClassificationCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Classification cannot be empty</value>
     <comment>phrase: Classification cannot be empty</comment>
   </data>
-  <data name="ItemNameCannotBeEmpty" lastModified="2014-04-07T14:32:44">
+  <data name="ItemNameCannotBeEmpty" lastModified="2014-07-22T13:48:17">
     <value>Item name cannot be empty</value>
     <comment>phrase: Item name cannot be empty</comment>
   </data>
-  <data name="NameUsedInCode" lastModified="2014-04-07T14:32:44">
+  <data name="NameUsedInCode" lastModified="2014-07-22T13:48:17">
     <value>For developers: name used in code</value>
     <comment>phrase: For developers: name used in code</comment>
   </data>
-  <data name="ClickToAddNameUsedInCode" lastModified="2014-04-07T14:32:44">
+  <data name="ClickToAddNameUsedInCode" lastModified="2014-07-22T13:48:17">
     <value>Click to add name used in code</value>
     <comment>phrase: Click to add name used in code</comment>
   </data>
-  <data name="ClassificationSimpleListExample" lastModified="2014-04-07T14:32:44">
+  <data name="ClassificationSimpleListExample" lastModified="2014-07-22T13:48:17">
     <value>Convenient for tags, keywords, one-level list of things.</value>
     <comment>phrase: Convenient for tags, keywords, one-level list of things. &lt;a href='#' class='sfMoreDetails'&gt;More details&lt;/a&gt;</comment>
   </data>
-  <data name="ClassificationHierarchyListExample" lastModified="2014-04-07T14:32:44">
+  <data name="ClassificationHierarchyListExample" lastModified="2014-07-22T13:48:17">
     <value>For Items, sub-items, sub-sub-items, etc. (tree).&lt;br /&gt; &lt;strong&gt;Example:&lt;/strong&gt; List of continents, countries and cities.</value>
     <comment>phrase: For Items, sub-items, sub-sub-items, etc. (tree).&lt;br /&gt; &lt;strong&gt;Example:&lt;/strong&gt; List of continents, countries and cities. &lt;a href='#' class='sfMoreDetails'&gt;More details&lt;/a&gt;</comment>
   </data>
-  <data name="ParentTaxonName" lastModified="2014-04-07T14:32:44">
+  <data name="ParentTaxonName" lastModified="2014-07-22T13:48:17">
     <value>Parent {0}</value>
     <comment>phrase: Parent {0}</comment>
   </data>
-  <data name="SaveChanges" lastModified="2014-04-07T14:32:44">
+  <data name="SaveChanges" lastModified="2014-07-22T13:48:17">
     <value>Save changes</value>
     <comment>Phrase</comment>
   </data>
-  <data name="LearnMoreWithVideoTutorials" lastModified="2014-04-07T14:32:44">
+  <data name="LearnMoreWithVideoTutorials" lastModified="2014-07-22T13:48:17">
     <value>Learn more with video tutorials</value>
     <comment>Label for the external links used in Taxonomies</comment>
   </data>
-  <data name="HowToSetupAndUseTags" lastModified="2014-04-07T14:32:44">
+  <data name="HowToSetupAndUseTags" lastModified="2014-07-22T13:48:17">
     <value>How to setup and use tags &lt;span class="sfDuration"&gt;(3:52 min)</value>
     <comment>Label: How to setup and use tags &lt;span class="sfDuration"&gt;(3:52 min)</comment>
   </data>
-  <data name="TaxonNameTaxonTitleMarkup" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonNameTaxonTitleMarkup" lastModified="2014-07-22T13:48:17">
     <value>{0} &lt;em&gt;{1}&lt;/em&gt;</value>
     <comment>Markup that is shown in MarkedItems that displays statistics about taxon usage. Something like 'Tax Cats'</comment>
   </data>
-  <data name="DevNameInvalidSymbols" lastModified="2014-04-07T14:32:44">
+  <data name="DevNameInvalidSymbols" lastModified="2014-07-22T13:48:17">
     <value>The name contains invalid symbols.</value>
     <comment>The message shown when the dev name contains invalid symbols.</comment>
   </data>
-  <data name="Departments" lastModified="2014-04-07T14:32:44">
+  <data name="Departments" lastModified="2014-07-22T13:48:17">
     <value>Departments</value>
     <comment>word: Departments</comment>
   </data>
-  <data name="SelectDepartments" lastModified="2014-04-07T14:32:44">
+  <data name="SelectDepartments" lastModified="2014-07-22T13:48:17">
     <value>Select departments...</value>
     <comment>phrase: Select departments...</comment>
   </data>
-  <data name="TaxaPluralTypeName" lastModified="2014-04-07T14:32:44">
+  <data name="TaxaPluralTypeName" lastModified="2014-07-22T13:48:17">
     <value>Taxa</value>
     <comment>word: Taxa</comment>
   </data>
-  <data name="Sort" lastModified="2014-04-07T14:32:44">
+  <data name="Sort" lastModified="2014-07-22T13:48:17">
     <value>Sort</value>
     <comment>Label text.</comment>
   </data>
-  <data name="ByTitleAsc" lastModified="2014-04-07T14:32:44">
+  <data name="ByTitleAsc" lastModified="2014-07-22T13:48:17">
     <value>By Title (A-Z)</value>
     <comment>Label text.</comment>
   </data>
-  <data name="ByTitleDesc" lastModified="2014-04-07T14:32:44">
+  <data name="ByTitleDesc" lastModified="2014-07-22T13:48:17">
     <value>By Title (Z-A)</value>
     <comment>Label text.</comment>
   </data>
-  <data name="UrlAsc" lastModified="2014-04-07T14:32:44">
+  <data name="UrlAsc" lastModified="2014-07-22T13:48:17">
     <value>By URL (A-Z)</value>
     <comment>Label text.</comment>
   </data>
-  <data name="NewModifiedFirst" lastModified="2014-04-07T14:32:44">
+  <data name="NewModifiedFirst" lastModified="2014-07-22T13:48:17">
     <value>Last modified on top</value>
     <comment>Label text.</comment>
   </data>
-  <data name="NewCreatedFirst" lastModified="2014-04-07T14:32:44">
+  <data name="NewCreatedFirst" lastModified="2014-07-22T13:48:17">
     <value>Last created on top</value>
     <comment>Label text.</comment>
   </data>
-  <data name="UrlDesc" lastModified="2014-04-07T14:32:44">
+  <data name="UrlDesc" lastModified="2014-07-22T13:48:17">
     <value>By URL(Z-A)</value>
     <comment>Label text.</comment>
   </data>
-  <data name="CustomSorting" lastModified="2014-04-07T14:32:44">
+  <data name="CustomSorting" lastModified="2014-07-22T13:48:17">
     <value>Custom sorting...</value>
     <comment>Phrase: Custom sorting...</comment>
   </data>
-  <data name="ByHierarchy" lastModified="2014-04-07T14:32:44">
+  <data name="ByHierarchy" lastModified="2014-07-22T13:48:17">
     <value>by Hierarchy</value>
     <comment>Label text.</comment>
   </data>
-  <data name="TaxonTypeNames" lastModified="2014-04-07T14:32:44">
+  <data name="TaxonTypeNames" lastModified="2014-07-22T13:48:17">
     <value>Tags, Categories, Departments etc</value>
     <comment>phrase: Tags, Categories, Departments etc</comment>
   </data>
-  <data name="SortBy" lastModified="2014-04-07T14:32:44">
+  <data name="SortBy" lastModified="2014-07-22T13:48:17">
     <value>by {0}...</value>
     <comment>by {0}...</comment>
   </data>
