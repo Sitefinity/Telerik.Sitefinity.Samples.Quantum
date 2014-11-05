@@ -62,7 +62,7 @@ You need to attach the database backup files to your SQL Server. To do this:
 ### Nuget package restoration
 The solution in this repository relies on NuGet packages with automatic package restore while the build procedure takes place.   
 For a full list of the referenced packages and their versions see the [packages.config](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Quantum/blob/master/packages.config) file.    
-For a history and additional information related to package versions on different releases of this repository, see the [Releases page](https://github.com/Sitefinity-SDK/external-logging/releases).    
+For a history and additional information related to package versions on different releases of this repository, see the [Releases page](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Quantum/releases).   
 
 
 ### Installation instructions: SDK Samples from GitHub
