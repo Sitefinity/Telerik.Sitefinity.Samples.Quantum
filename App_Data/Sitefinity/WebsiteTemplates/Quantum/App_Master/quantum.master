@@ -2,7 +2,7 @@
 <%@ Register Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI" TagPrefix="sf" %>
 
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" runat="server" id="sfFrontendHtml">
 <head id="Head1" runat="server">
     <link rel="shortcut icon" href="/favicon.ico?v=3" />
     <title></title>
