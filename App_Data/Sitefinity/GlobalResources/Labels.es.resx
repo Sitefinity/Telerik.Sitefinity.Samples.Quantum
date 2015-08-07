@@ -173,10 +173,6 @@
     <value>No hay texto.</value>
     <comment>Phrase: There is no text.</comment>
   </data>
-  <data name="Gadgets" lastModified="2012-08-10T22:20:16">
-    <value>Gadgets</value>
-    <comment>label</comment>
-  </data>
   <data name="Version" lastModified="2012-08-10T22:20:16">
     <value>Versión</value>
     <comment>Version</comment>
@@ -333,10 +329,6 @@
     <value>Acciones con rol</value>
     <comment>word</comment>
   </data>
-  <data name="Roles" lastModified="2012-08-10T22:20:16">
-    <value>Roles</value>
-    <comment>word</comment>
-  </data>
   <data name="Submit" lastModified="2012-08-10T22:20:16">
     <value>Enviar</value>
     <comment>word</comment>
@@ -452,10 +444,6 @@
   <data name="SaveChanges" lastModified="2012-08-10T22:20:16">
     <value>Guardar cambios</value>
     <comment>Phrase</comment>
-  </data>
-  <data name="Grid" lastModified="2012-08-10T22:20:16">
-    <value>Grid</value>
-    <comment>word</comment>
   </data>
   <data name="Views" lastModified="2012-08-10T22:20:16">
     <value>Vistas</value>
@@ -865,10 +853,6 @@
     <value>Clasificación</value>
     <comment>Label: Classification</comment>
   </data>
-  <data name="MetaFieldTypeDecimal" lastModified="2012-08-10T22:20:16">
-    <value>Decimal</value>
-    <comment>Meta type title: Decimal</comment>
-  </data>
   <data name="MetaFieldTypeInt" lastModified="2012-08-10T22:20:16">
     <value>Entero</value>
     <comment>Meta type title: Integer</comment>
@@ -996,10 +980,6 @@
   <data name="InstallModuleTypeShouldDerrive" lastModified="2012-08-10T22:20:16">
     <value>El tipo dado: {0} debe implementar (directa o indirectamente): {1}, pero no lo hace.</value>
     <comment>The text message to be shown when you try to install a module with type that does not derive from the expected one</comment>
-  </data>
-  <data name="DeactivateModule" lastModified="2012-08-10T22:20:16">
-    <value>Deactivate this module</value>
-    <comment>The text to be shown for deactivating a module</comment>
   </data>
   <data name="ModuleStartMode" lastModified="2012-08-10T22:20:16">
     <value>Iniciar módulo...</value>
@@ -1501,10 +1481,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Ningún sector</value>
     <comment>Label</comment>
   </data>
-  <data name="Url" lastModified="2012-08-10T22:20:16">
-    <value>URL</value>
-    <comment>Label</comment>
-  </data>
   <data name="CreateThisSection" lastModified="2012-08-10T22:20:16">
     <value>Crear esta sección</value>
     <comment>Label</comment>
@@ -1737,10 +1713,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Agregar etiquetas</value>
     <comment>phrase: Add tags</comment>
   </data>
-  <data name="Simpler" lastModified="2012-08-10T22:20:16">
-    <value>Simple</value>
-    <comment>word: Simpler</comment>
-  </data>
   <data name="DraftIsNotPublicallyVisibleOnTheWebsite" lastModified="2012-08-10T22:20:16">
     <value>Proyecto no es visible en el sitio web público</value>
     <comment>phrase</comment>
@@ -1829,10 +1801,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Volver a todos los comentarios de</value>
     <comment>phrase</comment>
   </data>
-  <data name="Spam" lastModified="2012-08-10T22:20:16">
-    <value>Spam</value>
-    <comment>word</comment>
-  </data>
   <data name="IpAddress" lastModified="2012-08-10T22:20:16">
     <value>Dirección IP</value>
     <comment>phrase</comment>
@@ -1897,10 +1865,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>&lt;em&gt;No hay sección seleccionada &lt;/em&gt;</value>
     <comment>phrase</comment>
   </data>
-  <data name="Simple" lastModified="2012-08-10T22:20:16">
-    <value>Simple</value>
-    <comment>word: Simple</comment>
-  </data>
   <data name="AndMustContainNoLessThanNonAlphanumeric" lastModified="2012-08-10T22:20:16">
     <value>y debe contener no menos de {0} no alfanuméricos {1}</value>
     <comment>phrase: and must contain no less than "{0}" non alphanumeric "{1}"]</comment>
@@ -1923,10 +1887,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
   </data>
   <data name="AboutTitle" lastModified="2012-08-10T22:20:16">
     <value>Acerca del título</value>
-    <comment>phrase</comment>
-  </data>
-  <data name="UrlName" lastModified="2012-08-10T22:20:16">
-    <value>URL</value>
     <comment>phrase</comment>
   </data>
   <data name="BackToTemplates" lastModified="2012-08-10T22:20:16">
@@ -2357,10 +2317,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Horizontal con pestañas</value>
     <comment>Label shown in navigation control desginer modes</comment>
   </data>
-  <data name="NavigationModeVerticalSimple" lastModified="2012-08-10T22:20:16">
-    <value>Vertical</value>
-    <comment>Label shown in navigation control desginer modes</comment>
-  </data>
   <data name="NavigationModeSiteMapInRows" lastModified="2012-08-10T22:20:16">
     <value>Mapa del sitio dividido en filas</value>
     <comment>Label shown in navigation control desginer modes</comment>
@@ -2377,10 +2333,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>¿Qué tipo de navegación desea utilizar?</value>
     <comment>Label shown in navigation control desginer modes</comment>
   </data>
-  <data name="GoogleAnalytics" lastModified="2012-08-10T22:20:16">
-    <value>Google Analytics</value>
-    <comment>phrase: Google Analytics</comment>
-  </data>
   <data name="NavigationSelectionHeadingHorizontalSimple" lastModified="2012-08-10T22:20:16">
     <value>Mostrar enlaces a qué páginas? |</value>
     <comment>Label shown in navigation control desginer modes</comment>
@@ -2388,10 +2340,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
   <data name="NoPageIsSelected" lastModified="2012-08-10T22:20:16">
     <value>No se ha seleccionado ninguna página</value>
     <comment>phrase: No page is selected</comment>
-  </data>
-  <data name="NavigationModeHorizontalSimple" lastModified="2012-08-10T22:20:16">
-    <value>Horizontal</value>
-    <comment>Label shown in navigation control desginer modes</comment>
   </data>
   <data name="NavigationSelectionHeadingHorizontalTabs" lastModified="2012-08-10T22:20:16">
     <value>En la barra superior: ¿Mostrar enlaces a qué páginas? | Sus páginas secundarias se mostrarán en una franja inferior</value>
@@ -2577,14 +2525,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Editar en lotes</value>
     <comment>phrase: Bulk edit</comment>
   </data>
-  <data name="CSS" lastModified="2012-08-10T22:20:16">
-    <value>CSS</value>
-    <comment>word: CSS</comment>
-  </data>
-  <data name="Media" lastModified="2012-08-10T22:20:16">
-    <value>Media</value>
-    <comment>word: Media</comment>
-  </data>
   <data name="SearchBox" lastModified="2012-08-10T22:20:16">
     <value>Cuadro de búsqueda</value>
     <comment>word: Search Box</comment>
@@ -2596,10 +2536,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
   <data name="SelfLogoffLabel" lastModified="2012-08-10T22:20:16">
     <value>Alguien &lt;strong&gt;está utilizando ya &lt;/strong&gt;este nombre de usuario y la contraseña en otro ordenador o navegador. &lt;br/&gt;Para continuar, es necesario&lt;strong&gt; finalizar dicha sesión&lt;/strong&gt;.</value>
     <comment>You already logged in on a different computer or browser.</comment>
-  </data>
-  <data name="JavaScript" lastModified="2012-08-10T22:20:16">
-    <value>Java Script</value>
-    <comment>phrase: Java Script</comment>
   </data>
   <data name="NeedAdminRights" lastModified="2012-08-10T22:20:16">
     <value>Necesita permisos de administrador para cerrar sesiones de otros usuarios</value>
@@ -3701,10 +3637,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Nombre utilizado en el código (para desarrolladores)</value>
     <comment>word</comment>
   </data>
-  <data name="Sitefinity40" lastModified="2012-10-19T08:56:54">
-    <value>Sitefinity 5.2</value>
-    <comment>Label: Sitefinity 5.1</comment>
-  </data>
   <data name="Settings" lastModified="2012-08-10T22:20:16">
     <value>Opciones</value>
     <comment>phrase: Settings</comment>
@@ -3885,17 +3817,9 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Mostrar la página principal en la navegación</value>
     <comment>Label: Show the parent page in navigation</comment>
   </data>
-  <data name="Px" lastModified="2012-08-10T22:20:16">
-    <value>px</value>
-    <comment>px.</comment>
-  </data>
   <data name="Update" lastModified="2012-08-10T22:20:16">
     <value>Actualizar</value>
     <comment>Word: Update</comment>
-  </data>
-  <data name="No" lastModified="2012-08-10T22:20:16">
-    <value>No</value>
-    <comment>word: No</comment>
   </data>
   <data name="DisplayName" lastModified="2012-08-10T22:20:16">
     <value>Nombre</value>
@@ -3969,10 +3893,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Al igual que para todo el sitio</value>
     <comment>phrase: The same as for the whole site</comment>
   </data>
-  <data name="CustomFieldsSection" lastModified="2012-08-10T22:20:16">
-    <value>CustomFieldsSection</value>
-    <comment>phrase: CustomFieldsSection</comment>
-  </data>
   <data name="HttpHeader" lastModified="2012-08-10T22:20:16">
     <value>Encabezado HTTP</value>
     <comment>phrase: HTTP Header</comment>
@@ -3988,10 +3908,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
   <data name="HoursAbbreviated" lastModified="2012-08-10T22:20:16">
     <value>h</value>
     <comment>word: hr</comment>
-  </data>
-  <data name="Blogger" lastModified="2012-08-10T22:20:16">
-    <value>Blogger</value>
-    <comment>The label next to Blogger icon in social share options.</comment>
   </data>
   <data name="CurrentTranslation" lastModified="2012-08-10T22:20:16">
     <value>Sólo las traducciones actuales</value>
@@ -4097,17 +4013,9 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Etiqueta de Botón</value>
     <comment>phrase: Button Label</comment>
   </data>
-  <data name="DaysAbbreviated" lastModified="2012-08-10T22:20:16">
-    <value>d</value>
-    <comment>word: d</comment>
-  </data>
   <data name="FacebookCurrentPage" lastModified="2012-08-10T22:20:16">
     <value>Página actual</value>
     <comment>phrase: Current page</comment>
-  </data>
-  <data name="LinkedIn" lastModified="2012-08-10T22:20:16">
-    <value>LinkedIn</value>
-    <comment>The label next to LinkedIn icon in social share options.</comment>
   </data>
   <data name="FacebookFeedBorderColor" lastModified="2012-08-10T22:20:16">
     <value>Color del borde</value>
@@ -4129,57 +4037,17 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>"Me gusta" de Facebook</value>
     <comment>word: Facebook like</comment>
   </data>
-  <data name="GooglePlusOne" lastModified="2012-08-10T22:20:16">
-    <value>Google +</value>
-    <comment>The label next to Google + icon in social share options.</comment>
-  </data>
-  <data name="Twitter" lastModified="2012-08-10T22:20:16">
-    <value>Twitter</value>
-    <comment>The label next to Twitter icon in social share options.</comment>
-  </data>
-  <data name="Facebook" lastModified="2012-08-10T22:20:16">
-    <value>Facebook</value>
-    <comment>The label next to Facebook icon in social share options.</comment>
-  </data>
   <data name="CacheSettingsLocation" lastModified="2012-08-10T22:20:16">
     <value>Administración &gt; Configuración &gt; Configuración avanzada &gt; Sistema &gt; Configuración de la caché de resultados</value>
     <comment>phrase: Administration &gt; Settings &gt; Advanced settings &gt; System &gt; Output Cache Settings</comment>
-  </data>
-  <data name="Delicious" lastModified="2012-08-10T22:20:16">
-    <value>Delicious</value>
-    <comment>The label next to Delicious icon in social share options.</comment>
   </data>
   <data name="PromptMessageCannotEdit" lastModified="2012-08-10T22:20:16">
     <value>Usted no tiene permiso para editar este elemento</value>
     <comment>Prompt message when opening a content item for edit and no actions are possible</comment>
   </data>
-  <data name="MySpace" lastModified="2012-08-10T22:20:16">
-    <value>My Space</value>
-    <comment>The label next to My Space icon in social share options.</comment>
-  </data>
-  <data name="Digg" lastModified="2012-08-10T22:20:16">
-    <value>Digg</value>
-    <comment>The label next to Digg icon in social share options.</comment>
-  </data>
-  <data name="Tumblr" lastModified="2012-08-10T22:20:16">
-    <value>Tumblr</value>
-    <comment>The label next to Tumblr icon in social share options.</comment>
-  </data>
   <data name="SmallIcons" lastModified="2012-08-10T22:20:16">
     <value>&lt;span class="sficon sffacebook"&gt;&lt;/span&gt;Iconos pequeños</value>
     <comment>The label next to small icons radio button in social share options.</comment>
-  </data>
-  <data name="Reddit" lastModified="2012-08-10T22:20:16">
-    <value>Reddit</value>
-    <comment>The label next to Reddit icon in social share options.</comment>
-  </data>
-  <data name="MailTo" lastModified="2012-08-10T22:20:16">
-    <value>MailTo</value>
-    <comment>The label next to Mail to icon in social share options.</comment>
-  </data>
-  <data name="StumbleUpon" lastModified="2012-08-10T22:20:16">
-    <value>Stumble upon</value>
-    <comment>The label next to Stumble upon icon in social share options.</comment>
   </data>
   <data name="BigIcons" lastModified="2012-08-10T22:20:16">
     <value>&lt;span class="sficon sffacebookbig"&gt;&lt;/span&gt;Iconos grandes</value>
@@ -4453,10 +4321,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>altura</value>
     <comment>word: Height</comment>
   </data>
-  <data name="TwitterWidgetPixelsLabel" lastModified="2012-08-10T22:20:16">
-    <value>px</value>
-    <comment>word: Pixels</comment>
-  </data>
   <data name="TwitterWidgetInclude" lastModified="2012-08-10T22:20:16">
     <value>Incluir…</value>
     <comment>word: Include...</comment>
@@ -4521,10 +4385,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <value>Documentos</value>
     <comment>word: Documents</comment>
   </data>
-  <data name="VideoPlural" lastModified="2012-08-10T22:20:16">
-    <value>Videos</value>
-    <comment>word: Videos</comment>
-  </data>
   <data name="AddToolSetByUploadingXmlFile" lastModified="2012-08-10T22:20:16">
     <value>Agregar su propio grupo de herramientas al subir un archivo .xml</value>
     <comment>Phrase: Add your own tool set by uploading an .xml file</comment>
@@ -4536,10 +4396,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
   <data name="TextEditorSettings" lastModified="2012-08-10T22:20:16">
     <value>Configuración de editor de texto</value>
     <comment>Phrase: Text editor settings</comment>
-  </data>
-  <data name="VideoSingular" lastModified="2012-08-10T22:20:16">
-    <value>Video</value>
-    <comment>word: Video</comment>
   </data>
   <data name="CreateToolSet" lastModified="2012-08-10T22:20:16">
     <value>Crear un conjunto de herramientas</value>
@@ -4588,10 +4444,6 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
   <data name="UsedInThePublicSiteWhereThereAreForums" lastModified="2012-08-10T22:20:16">
     <value>Se utiliza en el sitio público donde hay foros</value>
     <comment>Phrase: Used in the public site where there are forums</comment>
-  </data>
-  <data name="Forums module" lastModified="2012-08-10T22:20:16">
-    <value>ForumsDescription</value>
-    <comment>Forums</comment>
   </data>
   <data name="Minute" lastModified="2012-08-10T22:20:16">
     <value>minuto</value>
@@ -4648,10 +4500,6 @@ El equipo de &lt;%\s*SiteName\s*%&gt;</value>
   <data name="ToResetYourPasswordEnterYourEmail" lastModified="2012-08-10T22:20:16">
     <value>Para restablecer su contraseña, introduzca su correo electrónico</value>
     <comment>phrase: To reset your password, enter your email</comment>
-  </data>
-  <data name="Sitefinity" lastModified="2012-08-10T22:20:16">
-    <value>Sitefinity</value>
-    <comment>Word: Sitefinity</comment>
   </data>
   <data name="ContinueToWebsite" lastModified="2012-08-10T22:20:16">
     <value>Continuar a la página web</value>
