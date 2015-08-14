@@ -53,7 +53,7 @@ Clear the NuGet cache files. To do this:
 You need to attach the database backup files to your SQL Server. To do this:
 
 1. Navigate to the _SitefinityWebApp_ -> *App_Data* folder.
-2. Unzip the **CorporateDB.zip** file.
+2. Unzip the **QuantumDB.zip** file.
 2. In SQL Management Studio, open the context menu of _Databases_ and click _Attach..._
 2. Click the _Add..._ button and navigate to the folder where you unzipped the **QuantumDB.zip** file.
 3. Select the **SitefinityQuantum.mdf** file and click _OK_.
