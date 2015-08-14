@@ -30,8 +30,6 @@ namespace SitefinityWebApp
                     new ContainerControlledLifetimeManager(),
                     new InjectionConstructor()); 
             }
-            
-
         }
         
     }
