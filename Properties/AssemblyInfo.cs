@@ -9,6 +9,10 @@ using System.Resources;
 [assembly: AssemblyTitle("Sitefinity Web Application")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Telerik")]
+[assembly: AssemblyProduct("Telerik Sitefinity CMS")]
+[assembly: AssemblyCopyright("Copyright © 2005-2016 Telerik AD")]
+[assembly: AssemblyTrademark("Sitefinity")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
