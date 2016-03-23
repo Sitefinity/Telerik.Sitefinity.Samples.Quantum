@@ -33,6 +33,10 @@ using System.Resources;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("8.2.5900.0")]
-[assembly: AssemblyFileVersion("8.2.5900.0")]
+[assembly: AssemblyVersion("9.0.6000.0")]
+[assembly: AssemblyFileVersion("9.0.6000.0")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
+
+[assembly: Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes.ControllerContainer]
+
+[assembly: Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes.ResourcePackage]
