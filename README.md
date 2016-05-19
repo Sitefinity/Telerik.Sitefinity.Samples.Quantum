@@ -1,12 +1,12 @@
-Telerik.Sitefinity.Samples.Quantum
+Progress.Sitefinity.Samples.Quantum
 ==================================
 
 [![Build Status](http://sdk-jenkins-ci.cloudapp.net/buildStatus/icon?job=Telerik.Sitefinity.Samples.Quantum.CI)](http://sdk-jenkins-ci.cloudapp.net/job/Telerik.Sitefinity.Samples.Quantum.CI/)
 
-The Quantum sample project showcases all Sitefinity features available out of the box in a aestethically designed Quantum Portable Computers website. This starter kit is designed to help business users get up to speed quickly using Sitefinity and gives developers a way to easily add custom features to it. The Quantum website is perfect for doing Sitefinity demos to project stakeholders.
+The Quantum sample project showcases all Sitefinity CMS features available out of the box in a aestethically designed Quantum Portable Computers website. This starter kit is designed to help business users get up to speed quickly using Sitefinity CMS and gives developers a way to easily add custom features to it. The Quantum website is perfect for doing Sitefinity CMS demos to project stakeholders.
 
 
-The main purpose of the Quantum project is to provide a real life example of how users can practically utilize the core features of Sitefinity thus bringing value to organizations by empowering non-technical employees to quickly and efficiently manage their content.
+The main purpose of the Quantum project is to provide a real life example of how users can practically utilize the core features of Sitefinity CMS thus bringing value to organizations by empowering non-technical employees to quickly and efficiently manage their content.
 
 The Quantum project is based on few principles:
 
@@ -31,7 +31,7 @@ Some of the main highlights of the Quantum project include:
 
 ### Requirements
 
-* Sitefinity license
+* Sitefinity CMS license
 * .NET Framework 4
 * Visual Studio 2012
 * Microsoft SQL Server 2008R2 or later versions
@@ -75,7 +75,7 @@ For a history and additional information related to package versions on differen
 
 ### Login
 
-To login to Sitefinity backend, use the following credentials: 
+To login to the Sitefinity CMS backend, use the following credentials: 
 
 **Username:** admin
 **Password:** password
