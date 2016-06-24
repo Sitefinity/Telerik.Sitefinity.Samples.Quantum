@@ -59,6 +59,11 @@ You need to attach the database backup files to your SQL Server. To do this:
 3. Select the **SitefinityQuantum.mdf** file and click _OK_.
 4. Click _OK_.
 
+Powershell Execution Policy
+
+Please make sure to set the appropriate __Powershell__ execution policy in order to avoid build errors. To do this open your _Visual Studio_'s _Package Manager Console_ and execute the following command:  
+```Set-ExecutionPolicy RemoteSigned```
+
 ### Nuget package restoration
 The solution in this repository relies on NuGet packages with automatic package restore while the build procedure takes place.   
 For a full list of the referenced packages and their versions see the [packages.config](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Quantum/blob/master/packages.config) file.    
