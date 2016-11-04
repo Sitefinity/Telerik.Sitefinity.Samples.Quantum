@@ -1,1 +1,0 @@
-<%@ ServiceHost Language="C#" Debug="false" Service="Telerik.Sitefinity.SiteSync.Web.SiteSyncService" Factory="Telerik.Sitefinity.Web.Services.WcfHostFactory" %>

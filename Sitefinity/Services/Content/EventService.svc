@@ -1,8 +1,0 @@
-<%@ ServiceHost 
-    Language="C#" 
-    Debug="false" 
-    Service="Telerik.Sitefinity.Modules.Events.Web.Services.EventService" 
-    Factory="Telerik.Sitefinity.Web.Services.WcfHostFactory"
- %>
- 
- 

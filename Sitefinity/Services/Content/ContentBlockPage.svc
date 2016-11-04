@@ -1,9 +1,0 @@
-<%@ ServiceHost 
-    Language="C#" 
-    Debug="false" 
-    Service="Telerik.Sitefinity.Modules.GenericContent.Web.Services.ContentBlockPageService" 
-    Factory="Telerik.Sitefinity.Web.Services.WcfHostFactory"
- %>
- 
- 
- 

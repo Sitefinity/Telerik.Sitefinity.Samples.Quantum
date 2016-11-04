@@ -1,1 +1,0 @@
-<%@ ServiceHost Language="C#" Debug="false" Service="Telerik.Sitefinity.Localization.Web.LocalizationResources" Factory="Telerik.Sitefinity.Web.Services.WcfHostFactory" %>

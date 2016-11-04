@@ -1,6 +1,0 @@
-<%@ ServiceHost 
-    Language="C#" 
-    Debug="false" 
-    Service="Telerik.Sitefinity.Modules.ControlTemplates.Web.Services.ControlTemplateService" 
-    Factory="Telerik.Sitefinity.Web.Services.WcfHostFactory"
- %>

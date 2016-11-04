@@ -1,6 +1,0 @@
-<%@ ServiceHost 
-    Language="C#" 
-    Debug="false" 
-    Service="Telerik.Sitefinity.Taxonomies.Web.Services.TaxonomyService" 
-    Factory="Telerik.Sitefinity.Web.Services.WcfHostFactory"
- %>
