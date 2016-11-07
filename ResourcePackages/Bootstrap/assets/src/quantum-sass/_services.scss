@@ -1,0 +1,119 @@
+﻿/********* @group Services Styles **********/
+
+.devs{
+       @media (max-width: 885px) {
+        text-align:center;
+    }
+}
+
+.devs img{
+    width: 100%;
+    @media (max-width: 885px) {
+        width: 50%;
+    }
+}
+
+.design_column{
+    padding: 2%;
+    text-align: center;
+}
+
+.design_column img{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 60%;
+}
+
+.request_form{
+      width: 50%;
+      margin-left:25%;
+        @media (max-width: 885px) {
+        width: 100%;
+        margin-left:0;
+        }
+}
+
+.request_quote{
+    text-align: center;
+    padding:1%;
+}
+
+.request_quote textarea{
+    height:200px;
+    width: 50%;
+    border-color: $quantum-main;
+    border-radius: 4px;
+    padding: 6px 12px;
+
+   @media (max-width: 885px) {
+        width: 100%;
+    }
+}
+
+.request_quote label{
+    display: none;
+}
+
+.splash {
+  position: relative;
+  width: 100%;
+}
+
+.splash-text {
+  position: absolute;
+  width: 60%;
+  top: 35%;
+  margin-left:20%;
+  text-align: center;
+  font-weight: bold; 
+    @media (max-width: 885px) {
+      margin:0;
+      width:100%;
+    }
+    @media (max-width: 425px) {
+      bottom: 0;
+    }
+}
+  
+.splash-text h3 {
+    font-size: 70px;
+    color: white; 
+            @media (max-width: 885px) {
+                font-size: 40px;
+            }
+            @media (max-width: 415px) {
+                font-size: 16px;
+            }
+}
+  
+.splash-text p {
+    font-size: 24px;
+    color: white;
+    @media (max-width: 1085px) {
+        font-size: 16px;
+    }
+        @media (max-width: 885px) {
+            display:none; 
+        }
+  }
+
+.about_us_card{
+    padding: 2%;
+    margin: 2%;
+    width: 95%;
+    height: 500px;
+    border: 1px solid $quantum-main;
+    background: white;
+}
+
+.about_us_card p{
+    font-size: 14px;
+}
+
+.careers{
+    padding: 3%;
+}
+
+
+
+/* @end Services */

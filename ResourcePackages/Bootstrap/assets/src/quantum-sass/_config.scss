@@ -1,0 +1,111 @@
+/* COLORS */
+
+/* Complementary and Supporting Brand Colors */
+/*
+NOTE: Extend brand color names to use in Website Colors
+so that they are easy to change globally and not tied to a color name.
+*/
+
+$quantum-main: rgb(0, 180, 201); //Quantum Blue
+$quantum-action: rgb(255,174,0); //Quantum Orange
+$quantum-complementary: rgb(129,223,176); //Light Green
+
+
+/* Website Colors */
+/*
+Use these variables when setting colors in theme.
+Inherit values from above if necessary.
+*/
+
+$color-primary: $quantum-main;
+$color-primary-overlay: rgba(0, 180, 201, .5);
+$color-secondary: $quantum-complementary;
+$color-bright: $quantum-action;
+$color-light: rgb(247,251,240);
+$color-button-dark: rgb(255,152,57);
+$color-overlay: rgba(0,0,0,.4);
+$color-gray: rgb(238, 238, 238);
+$color-gray-dark: rgb(86, 86, 86);
+$color-hover: $color-button-dark;
+$color-border: #ccc;
+$color-text: rgb(102, 102, 102);
+$color-text-dark: rgb(85, 85, 85);
+$color-text-light: white;
+$color-button: $color-bright;
+
+$text-shadow-default: 1px 1px 0px rgb(17,17,121);
+
+/* FONTS */
+$font-family-body: 'Open Sans', sans-serif;
+$font-family-headings: 'Open Sans', sans-serif;
+$font-family-display: 'Open Sans', sans-serif;
+
+/* MIXINS & HELPERS */
+
+@mixin flex-center {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.color-primary {
+  color: $color-primary;
+}
+
+.color-secondary {
+  color: $color-secondary;
+}
+
+.color-bright {
+  color: $color-bright;
+}
+
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.font-display {
+  font-family: $font-family-display;
+}
+
+.bg-default {
+  @extend .clearfix;
+  background-color: $color-gray;
+}
+
+.main-color{
+    color: $quantum-main;
+    a{
+        color:$quantum-main;
+    }
+}
+
+.text-light {
+  color: $color-text-light;
+  a {
+    color: $color-bright;
+    &:hover {
+      color: $color-hover;
+    }
+  }
+  .btn {
+    background: $color-button;
+    color: white;
+    &:hover {
+      background: $color-button-dark;
+      color: white;
+    }
+  }
+}
+
+.center-text {
+  text-align: center;
+}

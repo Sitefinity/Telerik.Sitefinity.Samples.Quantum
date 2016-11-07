@@ -1,0 +1,511 @@
+/* --- DOCUMENT --- */
+/* Download link */
+.sfdownloadFileWrp a
+{
+    padding: 3px 0 3px 25px;
+    background: transparent url("../Images/sfFileExtensionsSml.gif") no-repeat 0 0;
+    *line-height: 21px;
+}
+/* Icons background positions */
+
+.sfdownloadFileWrp .sfpdf
+{
+    background-position: 0 -100px;
+}
+.sfdownloadFileWrp .sfdoc
+{
+    background-position: 0 -200px;
+}
+.sfdownloadFileWrp .sfrtf
+{
+    background-position: 0 -300px;
+}
+.sfdownloadFileWrp .sftxt
+{
+    background-position: 0 -400px;
+}
+.sfdownloadFileWrp .sfxls
+{
+    background-position: 0 -500px;
+}
+.sfdownloadFileWrp .sfzip
+{
+    background-position: 0 -600px;
+}
+.sfdownloadFileWrp .sfjpg
+{
+    background-position: 0 -700px;
+}
+.sfdownloadFileWrp .sfgif
+{
+    background-position: 0 -800px;
+}
+.sfdownloadFileWrp .sfpng
+{
+    background-position: 0 -900px;
+}
+.sfdownloadFileWrp .sfppt
+{
+    background-position: 0 -1000px;
+}
+.sfdownloadFileWrp .sfhtml, .sfdownloadFileWrp .sfhtm
+{
+    background-position: 0 -1100px;
+}
+.sfdownloadFileWrp .sfdocx
+{
+    background-position: 0 -1600px;
+}
+.sfdownloadFileWrp .sfxlsx
+{
+    background-position: 0 -1700px;
+}
+.sfdownloadFileWrp .sfcsv
+{
+    background-position: 0 -1800px;
+}
+.sfdownloadFileWrp .sfrar
+{
+    background-position: 0 -1900px;
+}
+.sfdownloadFileWrp .sfjpeg
+{
+    background-position: 0 -2000px;
+}
+.sfdownloadFileWrp .sfpptx
+{
+    background-position: 0 -2100px;
+}
+.sfdownloadFileWrp .sfpps
+{
+    background-position: 0 -2200px;
+}
+.sfdownloadFileWrp .sfppsx
+{
+    background-position: 0 -2300px;
+}
+.sfdownloadFileWrp .sfmp3
+{
+    background-position: 0 -2400px;
+}
+.sfdownloadFileWrp .sfwav
+{
+    background-position: 0 -2500px;
+}
+.sfdownloadFileWrp .sfwma
+{
+    background-position: 0 -2600px;
+}
+.sfdownloadFileWrp .sfogg
+{
+    background-position: 0 -2700px;
+}
+.sfdownloadFileWrp .sfmp4
+{
+    background-position: 0 -2800px;
+}
+.sfdownloadFileWrp .sfavi
+{
+    background-position: 0 -2900px;
+}
+.sfdownloadFileWrp .sfmpg
+{
+    background-position: 0 -3000px;
+}
+.sfdownloadFileWrp .sfmpeg
+{
+    background-position: 0 -3100px;
+}
+.sfdownloadFileWrp .sfmov
+{
+    background-position: 0 -3200px;
+}
+.sfdownloadFileWrp .sfwmv
+{
+    background-position: 0 -3300px;
+}
+.sfdownloadFileWrp .sfbook
+{
+    background-position: 0 -3400px;
+}
+.sfdownloadFileWrp .sfiba
+{
+    background-position: 0 -3500px;
+}
+.sfdownloadFileWrp .sfepub
+{
+    background-position: 0 -3600px;
+}
+.sfdownloadFileWrp .sffb2
+{
+    background-position: 0 -3700px;
+}
+.sfdownloadFileWrp .sfsfb
+{
+    background-position: 0 -3800px;
+}
+.sfdownloadFileWrp .sfmobi
+{
+    background-position: 0 -3900px;
+}
+/* --- end of DOCUMENT --- */
+/* --- DOCUMENT GALLERY --- */
+/* --- Documents list --- */
+/* --- Used by "List" and "List + Detail page" modes --- */
+/* List of download files wrapper */
+/* Single download file wrapper when it has a large icon */
+.sfSmallIcns .sfdownloadList .sfdownloadFile
+{
+    padding-left: 25px;
+    background: transparent url("../Images/sfFileExtensionsSml.gif") no-repeat 0 0;
+}
+/* Single download file wrapper when it has a small icon */
+.sfLargeIcns .sfdownloadList .sfdownloadFile
+{
+    padding-left: 43px;
+    background: transparent url("../Images/sfFileExtensions.gif") no-repeat 0 0;
+}
+/* --- Download Table --- */
+/* --- Used by "Table" and "Table + Detail page" modes --- */
+/* Download link when it has an icon */
+.sfdownloadTable.sfHasIcons .sfdownloadLink
+{
+	display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    
+    padding: 3px 0 3px 25px;
+    background: transparent url("../Images/sfFileExtensionsSml.gif") no-repeat 0 0;
+}
+/* --- Details View --- */
+/* Download file link */
+.sfdownloadDetails .sfdownloadLinkWrp .sfdownloadLink
+{
+	display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    
+    padding: 3px 0 15px 50px;
+    background: transparent url("../Images/sfFileExtensions.gif") no-repeat 0 0;
+}
+/* Wraps download file extension and size  */
+/* Icons background positions in the following order
+    - List with small icons
+    - List with big icons
+    - Table
+    - File details view
+*/
+.sfSmallIcns .sfdownloadList .sfpdf, 
+.sfLargeIcns .sfdownloadList .sfpdf,
+.sfdownloadTable.sfHasIcons .sfpdf .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfpdf .sfdownloadLink
+{
+    background-position: 0 -100px;
+}
+.sfSmallIcns .sfdownloadList .sfdoc, 
+.sfLargeIcns .sfdownloadList .sfdoc,
+.sfdownloadTable.sfHasIcons .sfdoc .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfdoc .sfdownloadLink
+{
+    background-position: 0 -200px;
+}
+.sfSmallIcns .sfdownloadList .sfrtf, 
+.sfLargeIcns .sfdownloadList .sfrtf,
+.sfdownloadTable.sfHasIcons .sfrtf .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfrtf .sfdownloadLink
+{
+    background-position: 0 -300px;
+}
+.sfSmallIcns .sfdownloadList .sftxt, 
+.sfLargeIcns .sfdownloadList .sftxt,
+.sfdownloadTable.sfHasIcons .sftxt .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sftxt .sfdownloadLink
+{
+    background-position: 0 -400px;
+}
+.sfSmallIcns .sfdownloadList .sfxls, 
+.sfLargeIcns .sfdownloadList .sfxls,
+.sfdownloadTable.sfHasIcons .sfxls .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfxls .sfdownloadLink
+{
+    background-position: 0 -500px;
+}
+.sfSmallIcns .sfdownloadList .sfzip, 
+.sfLargeIcns .sfdownloadList .sfzip,
+.sfdownloadTable.sfHasIcons .sfzip .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfzip .sfdownloadLink
+{
+    background-position: 0 -600px;
+}
+.sfSmallIcns .sfdownloadList .sfjpg, 
+.sfLargeIcns .sfdownloadList .sfjpg,
+.sfdownloadTable.sfHasIcons .sfjpg .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfjpg .sfdownloadLink
+{
+    background-position: 0 -700px;
+}
+.sfSmallIcns .sfdownloadList .sfgif, 
+.sfLargeIcns .sfdownloadList .sfgif,
+.sfdownloadTable.sfHasIcons .sfgif .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfgif .sfdownloadLink
+{
+    background-position: 0 -800px;
+}
+.sfSmallIcns .sfdownloadList .sfpng, 
+.sfLargeIcns .sfdownloadList .sfpng,
+.sfdownloadTable.sfHasIcons .sfpng .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfpng .sfdownloadLink
+{
+    background-position: 0 -900px;
+}
+.sfSmallIcns .sfdownloadList .sfppt, 
+.sfLargeIcns .sfdownloadList .sfppt,
+.sfdownloadTable.sfHasIcons .sfppt .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfppt .sfdownloadLink
+{
+    background-position: 0 -1000px;
+}
+.sfSmallIcns .sfdownloadList .sfhtml, 
+.sfLargeIcns .sfdownloadList .sfhtml,
+.sfdownloadTable.sfHasIcons .sfhtml .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfhtml .sfdownloadLink,
+.sfSmallIcns .sfdownloadList .sfhtm, 
+.sfLargeIcns .sfdownloadList .sfhtm,
+.sfdownloadTable.sfHasIcons .sfhtm .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfhtm .sfdownloadLink
+{
+    background-position: 0 -1100px;
+}
+.sfSmallIcns .sfdownloadList .sfdocx, 
+.sfLargeIcns .sfdownloadList .sfdocx,
+.sfdownloadTable.sfHasIcons .sfdocx .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfdocx .sfdownloadLink
+{
+    background-position: 0 -1600px;
+}
+.sfSmallIcns .sfdownloadList .sfxlsx, 
+.sfLargeIcns .sfdownloadList .sfxlsx,
+.sfdownloadTable.sfHasIcons .sfxlsx .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfxlsx .sfdownloadLink
+{
+    background-position: 0 -1700px;
+}
+.sfSmallIcns .sfdownloadList .sfcsv, 
+.sfLargeIcns .sfdownloadList .sfcsv,
+.sfdownloadTable.sfHasIcons .sfcsv .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfcsv .sfdownloadLink
+{
+    background-position: 0 -1800px;
+}
+.sfSmallIcns .sfdownloadList .sfrar, 
+.sfLargeIcns .sfdownloadList .sfrar,
+.sfdownloadTable.sfHasIcons .sfrar .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfrar .sfdownloadLink
+{
+    background-position: 0 -1900px;
+}
+.sfSmallIcns .sfdownloadList .sfjpeg, 
+.sfLargeIcns .sfdownloadList .sfjpeg,
+.sfdownloadTable.sfHasIcons .sfjpeg .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfjpeg .sfdownloadLink
+{
+    background-position: 0 -2000px;
+}
+.sfSmallIcns .sfdownloadList .sfpptx, 
+.sfLargeIcns .sfdownloadList .sfpptx,
+.sfdownloadTable.sfHasIcons .sfpptx .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfpptx .sfdownloadLink
+{
+    background-position: 0 -2100px;
+}
+.sfSmallIcns .sfdownloadList .sfpps, 
+.sfLargeIcns .sfdownloadList .sfpps,
+.sfdownloadTable.sfHasIcons .sfpps .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfpps .sfdownloadLink
+{
+    background-position: 0 -2200px;
+}
+.sfSmallIcns .sfdownloadList .sfppsx, 
+.sfLargeIcns .sfdownloadList .sfppsx,
+.sfdownloadTable.sfHasIcons .sfppsx .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfppsx .sfdownloadLink
+{
+    background-position: 0 -2300px;
+}
+.sfSmallIcns .sfdownloadList .sfmp3, 
+.sfLargeIcns .sfdownloadList .sfmp3,
+.sfdownloadTable.sfHasIcons .sfmp3 .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfmp3 .sfdownloadLink
+{
+    background-position: 0 -2400px;
+}
+.sfSmallIcns .sfdownloadList .sfwav, 
+.sfLargeIcns .sfdownloadList .sfwav,
+.sfdownloadTable.sfHasIcons .sfwav .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfwav .sfdownloadLink
+{
+    background-position: 0 -2500px;
+}
+.sfSmallIcns .sfdownloadList .sfwma, 
+.sfLargeIcns .sfdownloadList .sfwma,
+.sfdownloadTable.sfHasIcons .sfwma .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfwma .sfdownloadLink
+{
+    background-position: 0 -2600px;
+}
+.sfSmallIcns .sfdownloadList .sfogg, 
+.sfLargeIcns .sfdownloadList .sfogg,
+.sfdownloadTable.sfHasIcons .sfogg .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfogg .sfdownloadLink
+{
+    background-position: 0 -2700px;
+}
+.sfSmallIcns .sfdownloadList .sfmp4, 
+.sfLargeIcns .sfdownloadList .sfmp4,
+.sfdownloadTable.sfHasIcons .sfmp4 .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfmp4 .sfdownloadLink
+{
+    background-position: 0 -2800px;
+}
+.sfSmallIcns .sfdownloadList .sfavi, 
+.sfLargeIcns .sfdownloadList .sfavi,
+.sfdownloadTable.sfHasIcons .sfavi .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfavi .sfdownloadLink
+{
+    background-position: 0 -2900px;
+}
+.sfSmallIcns .sfdownloadList .sfmpg, 
+.sfLargeIcns .sfdownloadList .sfmpg,
+.sfdownloadTable.sfHasIcons .sfmpg .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfmpg .sfdownloadLink
+{
+    background-position: 0 -3000px;
+}
+.sfSmallIcns .sfdownloadList .sfmpeg, 
+.sfLargeIcns .sfdownloadList .sfmpeg,
+.sfdownloadTable.sfHasIcons .sfmpeg .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfmpeg .sfdownloadLink
+{
+    background-position: 0 -3100px;
+}
+.sfSmallIcns .sfdownloadList .sfmov, 
+.sfLargeIcns .sfdownloadList .sfmov,
+.sfdownloadTable.sfHasIcons .sfmov .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfmov .sfdownloadLink
+{
+    background-position: 0 -3200px;
+}
+.sfSmallIcns .sfdownloadList .sfwmv, 
+.sfLargeIcns .sfdownloadList .sfwmv,
+.sfdownloadTable.sfHasIcons .sfwmv .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfwmv .sfdownloadLink
+{
+    background-position: 0 -3300px;
+}
+.sfSmallIcns .sfdownloadList .sfbook, 
+.sfLargeIcns .sfdownloadList .sfbook,
+.sfdownloadTable.sfHasIcons .sfbook .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfbook .sfdownloadLink
+{
+    background-position: 0 -3400px;
+}
+.sfSmallIcns .sfdownloadList .sfiba, 
+.sfLargeIcns .sfdownloadList .sfiba,
+.sfdownloadTable.sfHasIcons .sfiba .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfiba .sfdownloadLink
+{
+    background-position: 0 -3500px;
+}
+.sfSmallIcns .sfdownloadList .sfepub, 
+.sfLargeIcns .sfdownloadList .sfepub,
+.sfdownloadTable.sfHasIcons .sfepub .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfepub .sfdownloadLink
+{
+    background-position: 0 -3600px;
+}
+.sfSmallIcns .sfdownloadList .sffb2, 
+.sfLargeIcns .sfdownloadList .sffb2,
+.sfdownloadTable.sfHasIcons .sffb2 .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sffb2 .sfdownloadLink
+{
+    background-position: 0 -3700px;
+}
+.sfSmallIcns .sfdownloadList .sfsfb, 
+.sfLargeIcns .sfdownloadList .sfsfb,
+.sfdownloadTable.sfHasIcons .sfsfb .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfsfb .sfdownloadLink
+{
+    background-position: 0 -3800px;
+}
+.sfSmallIcns .sfdownloadList .sfmobi, 
+.sfLargeIcns .sfdownloadList .sfmobi,
+.sfdownloadTable.sfHasIcons .sfmobi .sfdownloadLink,
+.sfdownloadDetails .sfdownloadLinkWrp.sfmobi .sfdownloadLink
+{
+    background-position: 0 -3900px;
+}
+/* --- end of DOCUMENT GALLERY --- */
+/* --- FEED --- */
+.sfFeedBigIcn
+{
+    padding: 5px 0 13px 45px;
+    background: transparent url("../Images/sfFileExtensions.gif") no-repeat 0 -1200px;
+    *line-height: 38px;
+}
+.sfFeedSmallIcn
+{    
+    padding: 2px 0 2px 22px;
+    background: transparent url("../Images/sfFileExtensionsSml.gif") no-repeat 0 -1198px;
+
+}
+/* --- end of FEED --- */
+/* BLOG not set message */
+.sftoggleErrorWrp
+{
+    position: relative;
+    z-index: 10;
+}
+.sftoggleErrorLnk
+{
+	display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    
+    width: 14px;
+    height: 14px;
+    background: transparent url("../Images/sfPublicContent.gif") no-repeat 0 -1500px;
+    text-indent: -9999px;
+}
+.sftoggleError
+{
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    padding: 10px;
+    background-color: #ffc;
+    font-size: 11px;
+    z-index: 100;
+}
+/* end of BLOG not set message */
+
+/* begin eCommerce Digital Downloads */
+.sfDigitalDownloadIcon {
+    display: block;
+    height: 15px;
+    float: left;
+}
+/* */
+.sfShopByFilterGroupList.sfVerticalList .sfFilterLnk
+{
+    padding-left: 15px;
+    background: transparent url("../Images/sfPublicContent.gif") no-repeat 0 -1598px;
+}
+.sfShopByFilterGroupList.sfVerticalList .sfShopByFilterListItemSelected .sfFilterLnk
+{
+    background-position: 0 -1698px;
+}

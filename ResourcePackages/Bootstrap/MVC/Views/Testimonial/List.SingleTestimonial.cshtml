@@ -1,0 +1,42 @@
+@model Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Models.DynamicContentListViewModel
+
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.Mvc.Models;
+@using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+
+@Html.Script(ScriptRef.JQuery, "top", false)
+
+<div class="testimonial @Model.CssClass">
+        @foreach (var item in Model.Items)
+        {
+            var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+            <div @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                
+				<h3>
+				@*Start Quote field*@
+				<div @Html.InlineEditingFieldAttributes("Quote", "LongText")>"@Html.Raw(item.Fields.Quote)"</div>
+				@*End Quote field*@
+				</h3>
+                @*Start Photo field*@
+                    @if (item.Fields.Photo != null)
+                           {
+                                <img src='@item.Fields.Photo.Fields.MediaUrl' alt='@item.Fields.Photo.Fields.AlternativeText' title='@item.Fields.Photo.Fields.Title' />
+                           }
+                @*End Photo field*@
+
+				<div @Html.InlineEditingFieldAttributes("TestimonialAuthor", "ShortText")>@item.Fields.TestimonialAuthor</div>
+				@*Start JobTitle/Company field*@
+				<div>
+					<span @Html.InlineEditingFieldAttributes("JobTitle", "ShortText")>@item.Fields.JobTitle</span>,<span @Html.InlineEditingFieldAttributes("Company", "ShortText")>@item.Fields.Company</span>     
+				</div>
+				@*End JobTitle field*@
+
+			
+            </div>
+        }
+</div>

@@ -1,0 +1,93 @@
+﻿/*OTHER PAGES STYLES*/
+.media-left{
+    float:left;
+}
+
+.thumbnail{
+    border: none;
+    position: relative;
+    padding:0;
+}
+
+.comments_header{
+    padding-top: 5%;
+}
+
+.expand{
+  margin-bottom: 2%;
+}
+
+.expand a{
+  text-transform: uppercase;
+  color: $quantum-main;
+  font-weight: 700;
+}
+
+.faq{
+  padding: 2%;
+}
+
+.login_reg{
+    padding: 3%;
+}
+
+.loginn a{
+  margin-right: 2%;
+  color: $quantum-main;
+}
+
+.loginn a:hover{
+ cursor: pointer;
+}
+
+.subscribe{
+  margin-top: 2%;
+}
+
+.location_details{
+    margin: 1%;
+    padding: 1%;
+}
+
+.location_item{
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid $color-gray;
+}
+
+.location_item div{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.highlights li{
+    float: left;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    @media (max-width: 775px) {
+        width: 100%;
+    }       
+}
+
+.highlights ul{
+    list-style: none;
+    padding:0;
+}
+
+.highlights img{
+        @media (max-width: 885px) {max-width:50%}
+    }
+
+#map{
+	width: 100%;
+    height: 750px;
+    border: 3px solid $color-gray;
+}
+
+.promo {
+  color: $quantum-main;
+  border: 3px solid $quantum-main;
+  padding: 2%; 
+}
+/*OTHER PAGES STYLES END*/

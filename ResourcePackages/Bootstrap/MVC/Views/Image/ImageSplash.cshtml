@@ -1,0 +1,21 @@
+@model Telerik.Sitefinity.Frontend.Media.Mvc.Models.Image.ImageViewModel
+@using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+
+<div class="thumbnail @Model.CssClass">
+	@if (string.IsNullOrEmpty(Model.LinkedContentUrl))
+	{
+		<img class="@Model.CssClass splash" src="@Model.SelectedSizeUrl" title="@Model.Title" alt="@Model.AlternativeText" style="max-width:100%;" />
+	}
+	else
+	{
+		<a href="@Model.LinkedContentUrl">
+			<img class="@Model.CssClass" src="@Model.SelectedSizeUrl" title="@Model.Title" alt="@Model.AlternativeText" style="max-width:100%;"  />
+		</a>
+	}
+	<div class="caption splash-text">
+        <h3>@Html.Raw(@Model.Title)</h3>
+        <p>@Html.Raw(@Model.Item.Fields.Description)</p>
+    </div>
+</div>

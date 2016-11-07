@@ -1,0 +1,1188 @@
+.horizontal-flex, .vertical-flex {
+  display: flex; }
+
+.horizontal-flex {
+  flex-direction: row; }
+
+.vertical-flex {
+  flex-direction: column; }
+
+.flex {
+  flex: 1; }
+
+body.main-body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  padding-top: 10px; }
+
+.glyphicon {
+  color: #00B4C9;
+  font-size: 1.5em; }
+
+.quantum {
+  font-size: 29px; }
+
+.logo:hover {
+  text-decoration: none!important;
+}
+
+#map{
+	width: 100%;
+    height: 750px;
+    border: 3px solid #eee;}
+a, a:visited, a:link, a:hover, a:active   {
+    text-decoration: none;}
+
+.more {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #A9A9A9;
+  padding-top: 6px; }
+
+.searchbar {
+  border-radius: 20px;
+  padding: 5px;
+  border: 2px solid #00B4C9;
+  color: #00B4C9; }
+
+.blue-horizontal {
+  background-color: white;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 16px; }
+  .blue-horizontal li {
+    text-align: center; }
+    
+.blue-horizontal
+{
+    background-color: white !important;
+    border: 0 !important;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main {
+    border-left: 1px solid #eee;
+    margin: 0 0 0 -1px;
+}
+
+a, a:visited, a:link, a:hover, a:active   {
+    text-decoration: none;}
+
+.shop_header{
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 2%;
+      padding-top: 1%;
+}   
+
+.PagerWrapper{float: left}
+
+.sf_PagerCurrent {
+  color:white!important;
+  background-color: #00b4c9;
+  padding: 5px 10px;
+  border-radius: 80%;
+}
+
+.sf_pagerNumeric a:hover{
+  text-decoration: none;
+}
+
+.sf_pagerNumeric{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.sfCatalogPager a{
+  color: #00b4c9;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.sfcommentAuthorAvatar{
+    width: 100px;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+input[type="submit"]
+{
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px #ccc;
+    font-size: 15px;
+    color: white;
+    background-color:#00b4c9;
+}
+
+.sfTxt.sfQuantity {
+    width: 60px;
+    text-align: right;
+}
+
+.sfTxt {
+    font-family: 'Open Sans';
+    padding: 5px 10px;
+    border: 2px solid #eee;
+}
+
+.sfcommentsFormWithAvatarWrp .sfcommentsFormWrp .sfcommentsForm .sfcommentsFieldsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sfcommentsFieldsList li {
+    margin: 10px;
+}
+
+.sfwishListBtnsWrp a{
+  margin-right: 10px;
+}
+
+.sidebar{
+  padding: 1%;
+}
+
+.sflnkToCart{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  color: #00B4C9;
+}
+
+.sfItmTitle{
+    font-weight: bold;
+    color: #00B4C9;
+}
+
+.sfPriceTotal{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.sfminiShoppingCart{
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.sfItmRemove{
+  padding-right: 3%;
+}
+
+.invoice_wrap{
+  padding: 2%;
+}
+
+.sfRatingClosingText{
+  color: #00b4c9;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#ctl00_contentPlaceholder_C005_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_ctl02_ctl00_ctl00_updatePanel{
+  padding-top: 2%;
+}
+
+.dropdown-menu {
+    z-index: 2000 !important;
+}
+.RadScheduler_Metro .rsHeader {
+    background: #00b4c9;
+}
+
+.sfeventMetaInfo {
+    background-color: #eee;
+    padding: 4%;
+}
+
+.sfeventTitle a {
+    color: #00b4c9;
+}
+
+.sfeventTitle a:hover{
+    text-decoration: none;
+} 
+
+.sfeventDatesLocationContacts{
+    list-style: none;
+    padding: 0;
+}
+
+.sfcalendarList{
+    list-style: none;
+    padding: 0;
+}
+
+.sfColorWrp{
+    padding: 0.2%;
+}
+
+.sfdelete{
+    margin: 1%;
+    color: #00b4c9;
+}
+
+.sfproductsList .sfproductListItem{float:left;list-style:none;width:33%;border-bottom:1px solid #eee;height:300px}
+.sfproductsList .sfproductListItem .sfproductTmbWrp{position:relative}
+.sfproductsList .sfproductListItem .sfproductTmbWrp a{display:block;width:210px!important;height:210px!important}
+.sfproductsList .sfproductListItem .sfproductTmbWrp img{transition:.2s all ease-out;width:210px;position:absolute;height:210px;opacity:.8;top:0}
+.sfproductsList .sfproductListItem .sfproductTmbWrp:hover img{opacity:1;width:240px;height:240px}
+.sfproductsList .sfproductListItem a{color:#00b4c9}
+.sfproductsList .sfproductListItem .sfRegPrice{font-weight:400;font-size:13px}
+.sfproductsList .sfproductListItem h2{position:relative;z-index:2;margin:0;padding:0;letter-spacing:-1px;font-size:22px;font-weight:400}
+.sfproductsList .sfproductListItem a:hover{text-decoration: none!important;}
+.content .PagerWrapper .sfCatalogTotalCount{padding:10px 0;font-size:11px;margin:10px 0;}
+.sfproductDetailsWrp{float:left;width:100%}
+.sfproductDetailsWrp .sfproductImgsWrp{width:40%;padding:0 4% 0 0;float:left}
+.sfproductDetailsWrp .sfproductImgsWrp .sfproductMainImgWrp{margin:0 0 20px;border-bottom:1px solid #eee}
+.sfproductDetailsWrp .sfproductImgsWrp .sfproductMainImgWrp img{width:100%; position: relative}
+.sfproductDetailsWrp .sfproductDescription h2{font-size:18px;font-weight:400}
+.sfproductDetailsWrp .sfproductPrice .sfRegPrice{padding:5px 10px;background:#00b4c9;color:#fff}
+.sfproductDetailsWrp .RadSocialShare{border:0;padding:20px 0 0;margin:20px 0 0;border-top:1px solid #eee}
+.sfproductDetailsWrp .sfproductInfoWrp{width:45%;padding:0 0 0 4%;float:left;border-left:1px solid #eee}
+.sfproductDetailsWrp .sfproductInfoWrp .sfproductInventory,.sfproductDetailsWrp .sfproductInfoWrp h3{font-weight:600;font-size:14px}
+.sfproductDetailsWrp .sfproductInfoWrp ul{font-size:13px;line-height:20px;color:#666;list-style: none; padding-left: 0;padding-top: 3%;}
+.sfproductDetailsWrp .sfproductInfoWrp ul li{padding:0 0 10px}
+.sfproductDetailsWrp .sfproductInfoWrp ul.sfproductOptionsList{padding:15px 0 0;margin:0;border-top:1px solid #eee;list-style:none}
+.sfproductDetailsWrp .sfproductInfoWrp ul.sfproductOptionsList label{width:30%;display:block;padding:5px 0 0;float:left}
+.sfproductDetailsWrp .sfproductInfoWrp ul.sfproductOptionsList select{padding:3px 6px;border:2px solid #eee;font-family:"Open Sans"}
+.sfproductDetailsWrp .sfProductInventoryWrp .sfProductInStock{color:#00b4c9}
+.sfproductDetailsWrp .sfProductInventoryWrp .sfProductOutOfStock{color:orange}
+.sfproductDetailsWrp .sfproductDocumentsAndFilesWrp{border:0;padding:0;margin:20px 0 0;}
+.sfproductDetailsWrp .sfproductDocumentsAndFilesWrp h2.sfProductfilesTitle{font-weight:600;font-size:14px}
+.sfproductDetailsWrp .sfproductDocumentsAndFilesWrp span{color:#777}
+.sfproductDetailsWrp .sfproductDocumentsAndFilesWrp .sfdownloadFile{color:#00b4c9;display:inline-block;height:36px}
+.sfproductDetailsWrp .sfproductImgsListWrp ul{list-style:none;padding:0;margin:0}
+.sfproductDetailsWrp .sfproductImgsListWrp ul li{float:left;width:85px;height:85px;margin:0 10px 0 0}
+.sfproductDetailsWrp .sfproductImgsListWrp ul li a{border:1px solid #ddd;display:block;width:85px;height:85px;overflow:hidden}
+.sfproductDetailsWrp .sfproductImgsListWrp ul li a img{width:85px;height:85px!important}
+.sffilterTitle{font-size:14px;font-weight:700;border-bottom:1px solid #eee;padding:0 0 15px;text-transform:uppercase}
+.sffilterClearLnk{color:#00b4c9;font-weight:700;font-size:14px;text-transform:uppercase}
+.sfShopByFilterGroupList{padding:0;margin:0;list-style:none}
+.sfShopByFilterGroupList h3.sfGroupTitle{font-size:17px;font-weight:400;border-top:1px solid #eee;padding:15px 0 0}
+.sfShopByFilterGroupList .sfShopByFilterList{padding:0;margin:0;list-style:none}
+.sfShopByFilterGroupList .sfShopByFilterList li{font-size:14px;font-family:Arial,sans-serif}
+.sfShopByFilterGroupList .sfShopByFilterList li a.sfFilterLnk{background:0 0;padding:0 0 0 25px;color:#888;position:relative}
+.sfShopByFilterGroupList .sfShopByFilterList li a.sfFilterLnk:before{width:14px;height:14px;display:block;left:0;top:2px;position:absolute;content:"";border-radius:2px;border:1px solid #fff;background:#eee}
+.sfShopByFilterGroupList .sfShopByFilterList li a.sfFilterLnk:hover{color:#000; text-decoration: none;}
+.sfShopByFilterGroupList .sfShopByFilterList li a.sfFilterLnk:hover:before{border:1px solid #ccc}
+.sfShopByFilterGroupList .sfShopByFilterList li.sfShopByFilterListItemSelected a.sfFilterLnk{font-weight:700;color:#444}
+.sfShopByFilterGroupList .sfShopByFilterList li.sfShopByFilterListItemSelected a.sfFilterLnk:before{background:#3aa4bf}
+.cart-navigation{border-bottom:1px solid #eee}
+.sfcurrenciesHorizontalList{padding:0;margin:15px 0;list-style:none}
+.sfcurrenciesHorizontalList li{padding:0 15px;float:left;height:30px;line-height:30px}
+.sfcurrenciesHorizontalList li a{color:#00b4c9;font-weight:600}
+.sfcurrenciesHorizontalList li.sfcurrencySelected a{color:#666}
+.sfcartSummaryExpandableWrp{float:right;margin:8px 0;position:relative}
+.sfcartSummaryExpandableWrp .sflnkToggleCartWrp{float:right;transition:opacity .3s ease-out}
+.sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart{padding:0 25px 0 0;background:url(../Images/arrow_down.png) right center no-repeat;font-weight:600;display:block;color:#000;text-align:right}
+sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart .sflnkToggleCartLbl{display:block}
+.sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart .sfcartSummaryItemsCount,.sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart .sfcartSummaryNoItems{display:block;font-size:12px;font-weight:400!important;color:#888}
+.sfcartSummaryExpandableWrp .sflnkToggleCartWrp:hover{opacity:.7}
+.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp{position:absolute;width:280px;right:0;top:55px;background:#fff;z-index:3;padding:30px;border:1px solid #eee;box-shadow:0 7px 20px rgba(0,0,0,.3)}
+.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp .sfminiShoppingCart{width:100%}
+.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp .sfminiShoppingCart td{border-bottom:1px solid #eee}
+.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp .sfminiShoppingCart .sfItmPriceCol{text-align:right;line-height:16px}
+.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp .sfminiShoppingCart .sfItmPriceCol span{font-size:14px}
+.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp .sfminiShoppingCart .sfItmPriceCol span span{font-size:10px;font-weight:700;color:#000}
+.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp .sfminiShoppingCart .sfItmTitleCol{padding:5px 0 5px 10px}
+.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp .sfminiShoppingCart .sfItmTitleCol a{color:#00b4c9;font-size:13px;font-weight:600}
+.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp .sfminiShoppingCart .sfItmTitleCol .sfproductOptions{color:#999;font-size:11px;line-height:16px}
+.sfcartSummaryExpandableWrp .sfPriceTotal{margin:10px 0;font-size:12px;text-align:left;color:#666}
+.sfcartSummaryExpandableWrp .sfPriceTotal strong{font-size:14px;color:#000;display:inline-block;float:right}
+.sfcartSummaryExpandableWrp .sfcartSummaryBtnsWrp{margin:10px 0;padding:10px 0 0;border-top:1px solid #eee}
+.sfcartSummaryExpandableWrp .sfcartSummaryBtnsWrp a{color:#00b4c9;font-size:12px}
+.sfcartSummaryExpandableWrp .sfcartSummaryBtnsWrp input{background:#00b4c9;padding:5px 10px;color:#fff;border:0;font-family:"Open Sans";font-size:12px;font-weight:600;border-radius:2px;box-shadow:0 2px 4px #ccc;text-transform:uppercase;transition:all .3s ease-out;float:right}
+.sfcartSummaryExpandableWrp .sfcartSummaryBtnsWrp input:hover{background:#0097a9}
+.sfProductsSortByWrp{padding:20px 0;font-weight:600;color:#000;font-size:11px;margin:0 0 40px;text-transform:uppercase}
+.sfProductsSortByWrp .sfSortByWrp{float:right}
+.sfProductsSortByWrp select{border:2px solid #eee;border-radius:2px;font-family:"Open Sans";padding:3px 6px;outline:0}
+.sfcheckoutPreviewProduct .RadGrid,.sfcheckoutPreviewProduct .rgMasterTable,.sfshoppingCartWrp .RadGrid,.sfshoppingCartWrp .rgMasterTable{outline:0}
+.sfcheckoutPreviewProduct .rgMasterTable tr th,.sfshoppingCartWrp .rgMasterTable tr th{text-align:left;font-size:12px;text-transform:uppercase;border-bottom:1px solid #eee;padding:5px 0;color:#aaa}
+.sfcheckoutPreviewProduct .rgMasterTable tr th.sfItmPriceCol,.sfshoppingCartWrp .rgMasterTable tr th.sfItmPriceCol{text-align:right}
+а ок.sfcheckoutPreviewProduct .rgMasterTable tr td,.sfshoppingCartWrp .rgMasterTable tr td{border-bottom:1px solid #eee}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmTmbCol,.sfshoppingCartWrp .rgMasterTable tr td.sfItmTmbCol{width:140px}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmTmbCol img.sfproductTmb,.sfshoppingCartWrp .rgMasterTable tr td.sfItmTmbCol img.sfproductTmb{width:120px}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmTitleCol .sfItmTitle,.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmTitleCol .sfItmTitleWrp,.sfshoppingCartWrp .rgMasterTable tr td.sfItmTitleCol .sfItmTitle,.sfshoppingCartWrp .rgMasterTable tr td.sfItmTitleCol .sfItmTitleWrp{font-size:24px;color:#000;font-weight:600;letter-spacing:-1px}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmTitleCol .sfItmLnksWrp,.sfshoppingCartWrp .rgMasterTable tr td.sfItmTitleCol .sfItmLnksWrp{font-size:12px}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmTitleCol .sfItmLnksWrp a.sfItmRemove,.sfshoppingCartWrp .rgMasterTable tr td.sfItmTitleCol .sfItmLnksWrp a.sfItmRemove{color:#eba149}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmTitleCol .sfItmLnksWrp a.sfToWishList,.sfshoppingCartWrp .rgMasterTable tr td.sfItmTitleCol .sfItmLnksWrp a.sfToWishList{color:#00b4c9;display:inline-block;}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfSingleItmPriceCol,.sfshoppingCartWrp .rgMasterTable tr td.sfSingleItmPriceCol{text-align:right}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfSingleItmPriceCol .sfRegPrice,.sfshoppingCartWrp .rgMasterTable tr td.sfSingleItmPriceCol .sfRegPrice{font-size:16px;font-weight:400;color:#666}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmQuantityCol input,.sfshoppingCartWrp .rgMasterTable tr td.sfItmQuantityCol input{width:50px;font-size:16px;text-align:right}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmPriceCol,.sfshoppingCartWrp .rgMasterTable tr td.sfItmPriceCol{font-size:20px;text-align:right}
+.sfcheckoutPreviewProduct,.sfordersListDetailView{height:auto!important;float:left;width:70%;padding:0 0 0 4%;border-left:1px solid #eee}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmTmbCol img.sfproductTmb,.sfordersListDetailView .rgMasterTable tr td.sfItmTmbCol img.sfproductTmb{width:80px}
+.sfcheckoutPreviewProduct .rgMasterTable tr td,.sfordersListDetailView .rgMasterTable tr td{padding:10px 0;border-top:1px solid #eee}
+.sfcheckoutPreviewProduct .rgMasterTable tr td.sfItmQuantityCol,.sfcheckoutPreviewProduct .rgMasterTable tr th.sfItmQuantityCol{text-align:right}
+.sfCheckoutPreviewShippingAndPayment,.sforderBriefInfoWrp{float:left;width:25%}
+.sfCheckoutPreviewShippingAndPayment .CheckoutPreviewShipping,.sfCheckoutPreviewShippingAndPayment .sfCheckoutPreviewPayment,.sforderBriefInfoWrp .CheckoutPreviewShipping,.sforderBriefInfoWrp .sfCheckoutPreviewPayment{float:left}
+.sfCheckoutPreviewShippingAndPayment .CheckoutPreviewShipping .sfcheckoutPreviewAddressBlock,.sfCheckoutPreviewShippingAndPayment .sfCheckoutPreviewPayment .sfcheckoutPreviewAddressBlock,.sforderBriefInfoWrp .CheckoutPreviewShipping .sfcheckoutPreviewAddressBlock,.sforderBriefInfoWrp .sfCheckoutPreviewPayment .sfcheckoutPreviewAddressBlock{font-style:normal;margin:0 40px 30px 0;display:block;float:left;color:#666;font-size:13px;line-height:20px}
+.sfCheckoutPreviewShippingAndPayment .CheckoutPreviewShipping .sfcheckoutPreviewAddressBlock b,.sfCheckoutPreviewShippingAndPayment .CheckoutPreviewShipping .sfcheckoutPreviewAddressBlock strong,.sfCheckoutPreviewShippingAndPayment .sfCheckoutPreviewPayment .sfcheckoutPreviewAddressBlock b,.sfCheckoutPreviewShippingAndPayment .sfCheckoutPreviewPayment .sfcheckoutPreviewAddressBlock strong,.sforderBriefInfoWrp .CheckoutPreviewShipping .sfcheckoutPreviewAddressBlock b,.sforderBriefInfoWrp .CheckoutPreviewShipping .sfcheckoutPreviewAddressBlock strong,.sforderBriefInfoWrp .sfCheckoutPreviewPayment .sfcheckoutPreviewAddressBlock b,.sforderBriefInfoWrp .sfCheckoutPreviewPayment .sfcheckoutPreviewAddressBlock strong{color:#000;font-weight:600;font-size:15px}
+.sfCheckoutPreviewShippingAndPayment a,.sforderBriefInfoWrp a{color:#00b4c9; margin-right: 5%;}
+.sfCheckoutPreviewShippingAndPayment a:hover,.sforderBriefInfoWrp a:hover{color:#0097a9}
+.sforderDetailsWrp h2{font-weight:400}.sforderDetailsWrp .RadGrid th{font-weight:600;text-align:left}
+.sforderDetailsWrp .RadGrid td{border-bottom:1px solid #eee;padding:10px 0}.sforderBriefInfoWrp{border-right:1px solid #eee}
+.sforderBriefInfoWrp address{font-style:normal;margin:0 40px 30px 0;color:#666;font-size:13px;line-height:20px;width:100%;float:left;display:block}
+.sforderBriefInfoWrp .sforderDetailsTitle,.sforderBriefInfoWrp h3.sforderDetailsTitle{font-weight:600;font-size:15px;width:100%;color:#000;float:left;padding:0;margin:0 0 10px}
+.sforderBriefInfoWrp p{margin:0}.sforderBriefInfoWrp .sforderBriefInfoList{list-style:none;padding:0;margin:0 0 20px}
+.sfPrintBtn{background:#00b4c9;color:#fff;border:0;font-family:"Open Sans";border-radius:2px;box-shadow:0 2px 4px #ccc;transition:all .3s ease-out;padding:10px 25px;font-size:16px;text-transform:none;font-weight:400;float:left;clear:both;margin:15px 0}
+.sfPrintBtn:hover{background:#0097a9}
+.sfcheckoutBtnsWrp{margin:15px 0;float:left;width:100%}
+.sfcheckoutTotalPriceWrp{padding:10px 0;margin:10px 0;list-style:none;border-bottom:1px solid #eee}
+.sfcheckoutTotalPriceWrp .sfAmount{display:block;font-weight:600;font-size:15px}
+.sfcheckoutTotalPriceWrp .sfAmountCol{text-align:right}
+.sfcheckoutTotalPriceWrp .sfPrice{display:block;float:right;font-size:20px}
+.sfcheckoutTotalPriceWrp .sfDiscountsWrp td{border:0!important}
+.sfCouponEntryFieldHidden{display:none}.sfTotalRowWrp{font-weight:600;padding:10px 0}
+.sfTotalRowWrp span{display:block}
+.sfTotalRowWrp span.sfTxtLbl{font-weight:400}
+.sfTotalRowWrp .sfPriceTotal{display:block;float:right;font-size:24px;margin:-30px 0 0}
+.sfshoppingCartUpdateLnk{background:#00b4c9;padding:5px 10px;color:#fff;border:0;font-family:"Open Sans";font-size:12px;font-weight:600;border-radius:2px;box-shadow:0 2px 4px #ccc;text-transform:uppercase;transition:all .3s ease-out}
+.sfshoppingCartUpdateLnk:hover{background:#0097a9; color: white; text-decoration: none;}
+.sfshoppingCartBtnsWrp{margin:20px 0 0;border-top:1px solid #eee;padding:20px 0 0;text-align:right}
+.sfshoppingCartBtnsWrp input{background:#00b4c9;color:#fff;border:0;font-family:"Open Sans";border-radius:2px;box-shadow:0 2px 4px #ccc;transition:all .3s ease-out;padding:10px 25px;font-size:16px;text-transform:none;font-weight:400}
+.sfshoppingCartBtnsWrp input:hover{background:#0097a9}
+.sfshoppingCartBtnsWrp .sfBackBtn{color:#00b4c9}
+.sfshoppingCartBtnsWrp .sfBackBtn:hover{color:#0097a9}
+.sfcouponCodeEntryViewWrap{padding:6px 0;border-bottom:1px solid #eee}
+.sfcouponCodeEntryViewWrap .sfExpandIcon{color:#00b4c9;text-transform:uppercase;font-size:11px;font-weight:600}
+.sfcouponCodeEntryViewWrap .sfExpandIcon:hover{color:#0097a9}
+.sfcouponCodeEntryViewWrap .sfCouponEntryField .sfApplyCouponBtn{background:#00b4c9;padding:5px 10px;color:#fff;border:0;font-family:"Open Sans";font-size:12px;font-weight:600;border-radius:2px;box-shadow:0 2px 4px #ccc;text-transform:uppercase;transition:all .3s ease-out}
+.sfcouponCodeEntryViewWrap .sfCouponEntryField .sfApplyCouponBtn:hover{background:#0097a9}
+.sfcheckoutMulitPage .sfcheckoutFormWrp{padding:0;margin:20px 0;border:0;border-top:1px solid #eee}
+.sfcheckoutMulitPage .sfcheckoutFormWrp .sfcheckoutFormList{list-style:none;padding:0;margin:0}
+.sfcheckoutMulitPage .sfcheckoutFormWrp .sfErrorWrp{color:#e9916a}
+.sfcheckoutMulitPage h2.sfcheckoutStepTitle{font-size:20px;font-weight:400;color:#000}
+.sfcheckoutMulitPage .sfcheckoutFormItm{border-bottom:1px solid #eee;padding:5px 0;line-height:30px}
+.sfcheckoutMulitPage .sfcheckoutFormItm:hover{background:#e8f7f9}
+.sfcheckoutMulitPage .sfcheckoutFormItm.sfnoHide{display:none}
+.sfcheckoutMulitPage .sfcheckoutFormItm .sfTxtLbl{display:block;width:25%;padding:0 10px;float:left}
+.sfcheckoutMulitPage .sfcheckoutContinueBtn{background:#00b4c9;color:#fff;border:0;font-family:"Open Sans";border-radius:2px;box-shadow:0 2px 4px #ccc;transition:all .3s ease-out;padding:10px 25px;font-size:16px;text-transform:none;font-weight:400;margin-top:10px}
+.sfcheckoutMulitPage .sfcheckoutContinueBtn:hover{background:#0097a9}
+.sfcheckoutMulitPage .sforderSummaryTable th{text-align:left;font-weight:400}
+.sfcheckoutTabstrip{background:#f4f4f4}
+.sfcheckoutTabstrip .rtsLink{color:#000;background:url(../Images/steps.png) right top no-repeat;padding:15px 40px 15px 0}
+.sfcheckoutTabstrip .rtsLink .sfStep{color:#ccc;display:inline-block}
+.sfcheckoutTabstrip.sfCStep0 .sfStep1{color:#00b4c9;background-color:#e8f7f9}
+.sfcheckoutTabstrip.sfCStep0 .sfStep1 .sfStep{color:#00b4c9}
+.sfcheckoutTabstrip.sfCStep1 .sfStep1,.sfcheckoutTabstrip.sfCStep1 .sfStep2{color:#00b4c9;background-color:#e8f7f9}
+.sfcheckoutTabstrip.sfCStep1 .sfStep1 .sfStep,.sfcheckoutTabstrip.sfCStep1 .sfStep2 .sfStep{color:#00b4c9}
+.sfcheckoutTabstrip.sfCStep1 .sfStep1{background-position:right bottom}.sfcheckoutTabstrip.sfCStep2 .sfStep1,.sfcheckoutTabstrip.sfCStep2 .sfStep2,.sfcheckoutTabstrip.sfCStep2 .sfStep3{color:#00b4c9;background-color:#e8f7f9}
+.sfcheckoutTabstrip.sfCStep2 .sfStep1 .sfStep,.sfcheckoutTabstrip.sfCStep2 .sfStep2 .sfStep,.sfcheckoutTabstrip.sfCStep2 .sfStep3 .sfStep{color:#00b4c9}
+.sfcheckoutTabstrip.sfCStep2 .sfStep1,.sfcheckoutTabstrip.sfCStep2 .sfStep2{background-position:right bottom}
+.sfcheckoutTabstrip.sfCStep3 .sfStep1,.sfcheckoutTabstrip.sfCStep3 .sfStep2,.sfcheckoutTabstrip.sfCStep3 .sfStep3,.sfcheckoutTabstrip.sfCStep3 .sfStep4{color:#00b4c9;background-color:#e8f7f9}
+.sfcheckoutTabstrip.sfCStep3 .sfStep1 .sfStep,.sfcheckoutTabstrip.sfCStep3 .sfStep2 .sfStep,.sfcheckoutTabstrip.sfCStep3 .sfStep3 .sfStep,.sfcheckoutTabstrip.sfCStep3 .sfStep4 .sfStep{color:#00b4c9}
+.sfcheckoutTabstrip.sfCStep3 .sfStep1,.sfcheckoutTabstrip.sfCStep3 .sfStep2,.sfcheckoutTabstrip.sfCStep3 .sfStep3{background-position:right bottom}
+.sfcheckoutTabstrip.sfCStep4 .sfStep5{color:#00b4c9;background-color:#e8f7f9}
+.sfcheckoutTabstrip.sfCStep4 .sfStep5 .sfStep{color:#00b4c9}
+.sfcheckoutTabstrip.sfCStep5 .sfStep6{color:#00b4c9;background-color:#e8f7f9}
+.sfcheckoutTabstrip.sfCStep5 .sfStep6 .sfStep{color:#00b4c9}
+.sfordersList{list-style:none;padding:0;margin:0}
+.sfordersList li.sfordersListItem{float:left;width:96%;border-bottom:1px solid #eee;padding:20px 2%}
+.sfordersList li.sfordersListItem:hover{background:#f9f9f9}
+.sfordersList li.sfordersListItem .sfordersListOrderStatusWrp{background:#00b4c9;color:#fff;padding:3px 15px;float:right;border-radius:15px;margin:0 0 20px}
+.sfordersList .sfordersListDetailView{height:auto!important}
+.sfordersList .sfordersListDetailView .rgMasterTable{width:100%}
+.sfwishListWrp{float:left;width:100%}.sfwishListWrp .RadGrid tr td{border-bottom:1px solid #eee}
+.sfwishListWrp .RadGrid tr td .sfItmTitleWrp a{color:#00b4c9;font-size:20px}
+.sfwishListWrp .RadGrid tr td .sfItmTitleWrp a:hover{color:#0097a9}
+.sfwishListWrp .RadGrid tr td .sfItmLnksWrp a{color:#00b4c9;display:inline-block;padding:0 5px 0 0;font-size:12px}
+.sfwishListWrp .RadGrid tr td .sfItmLnksWrp a:hover{color:#0097a9}
+.sfwishListWrp .RadGrid tr td.sfItmPriceCol{font-size:18px;text-align:right}
+.sfwishListWrp .RadGrid tr th{font-weight:600;text-align:left;font-size:12px;border-bottom:1px solid #ddd;text-transform:uppercase}
+.sfwishListWrp .sfWishlistPrivate a{color:#00b4c9}
+.sfwishListWrp .sfWishlistPrivate a:hover{color:#0097a9}
+.sfwishListWrp .sfWishlistUpdate a.sfshoppingCartUpdateLnk{background:#00b4c9;color:#fff;border:0;font-family:"Open Sans";border-radius:2px;box-shadow:0 2px 4px #ccc;transition:all .3s ease-out;padding:10px 25px;font-size:16px;text-transform:none;font-weight:400;display:block;float:left;margin:10px 0}
+.sfwishListWrp .sfWishlistUpdate a.sfshoppingCartUpdateLnk:hover{background:#0097a9}
+.sfwishListWrp .sfwishListBtnsWrp{float:left;width:100%;position:relative;margin:10px 0}
+.sfwishListWrp .sfwishListBtnsWrp a{color:#00b4c9}
+.sfwishListWrp .sfwishListBtnsWrp a:hover{color:#0097a9}
+
+
+/*FORUMS STYLES*/
+.sfforumsList {
+    width: 100%;
+    border-spacing: 0;
+}
+
+    .sfforumsList tr th {
+        text-align: left;
+    }
+
+        .sfforumsList tr th h2.sfforumGroupTitle {
+            font-size: 12px;
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+            margin: 10px 0 0;
+            text-transform: uppercase;
+        }
+
+        .sfforumsList tr th .sfforumGroupDescription {
+            font-size: 11px;
+            font-weight: 400;
+            padding: 8px 0;
+            margin: 0 0 20px;
+        }
+
+    .sfforumsList tr td {
+        border: 0;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+    }
+
+        .sfforumsList tr td.sfforumTitleWrp {
+            font-size: 18px;
+        }
+
+            .sfforumsList tr td.sfforumTitleWrp p {
+                margin: 0;
+                padding: 0;
+            }
+
+        .sfforumsList tr td.sfforumLastPostWrp {
+            font-size: 12px;
+            text-align: right;
+        }
+
+            .sfforumsList tr td.sfforumLastPostWrp a {
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+    .sfforumsList tr:hover td {
+        background: #f7f7f7;
+    }
+
+    .sfforumsList a {
+        color: #00b4c9;
+    }
+
+        .sfforumsList a:hover {
+            color: #0097a9;
+        }
+
+.sfforumThreadsList {
+    width: 100%;
+}
+
+    .sfforumThreadsList a {
+        color: #00b4c9;
+    }
+
+        .sfforumThreadsList a:hover {
+            color: #0097a9;
+        }
+
+    .sfforumThreadsList tr td {
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+    }
+
+        .sfforumThreadsList tr td.sfforumThreadLastPostWrp {
+            font-size: 12px;
+            text-align: right;
+        }
+
+            .sfforumThreadsList tr td.sfforumThreadLastPostWrp a {
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+        .sfforumThreadsList tr td.sfforumThreadPostsWrp, .sfforumThreadsList tr td.sfforumThreadViewsWrp {
+            text-align: right;
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        .sfforumThreadsList tr td.sfforumThreadWrp a.sfforumThreadTitle {
+            font-size: 18px;
+        }
+
+            .sfforumThreadsList tr td.sfforumThreadWrp a.sfforumThreadTitle .sfAnnouncmentThread, .sfforumThreadsList tr td.sfforumThreadWrp a.sfforumThreadTitle .sfStickyThread {
+                background: url(../Images/forums.png) -16px -116px no-repeat;
+                width: 18px;
+                margin: 4px 4px 0 0;
+                height: 18px;
+                display: block;
+                float: left;
+            }
+
+            .sfforumThreadsList tr td.sfforumThreadWrp a.sfforumThreadTitle .sfStickyThread {
+                background-position: -16px -166px;
+            }
+
+        .sfforumThreadsList tr td.sfforumThreadWrp .sfforumThreadAgeWrp {
+            font-size: 12px;
+            color: #777;
+        }
+
+        .sfforumThreadsList tr td.sfforumThreadWrp .sfLockedThread, .sfforumThreadsList tr td.sfforumThreadWrp .sfNormalThread {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: url(../Images/forums.png) no-repeat;
+            float: left;
+            margin: 0 10px 0 0;
+        }
+
+        .sfforumThreadsList tr td.sfforumThreadWrp .sfLockedThread {
+            background-position: 0 -50px;
+        }
+
+    .sfforumThreadsList tr th {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 12px;
+        border-bottom: 1px solid #eee;
+        text-align: right;
+    }
+
+        .sfforumThreadsList tr th.sfforumThreadWrp {
+            text-align: left;
+        }
+
+.sfforumNewThreadLnk {
+    background: #00b4c9;
+    color: #fff;
+    border: 0;
+    font-family: "Open Sans";
+    border-radius: 2px;
+    box-shadow: 0 2px 4px #ccc;
+    transition: all .3s ease-out;
+    padding: 10px 25px;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 400;
+    margin: 20px 0;
+    display: block;
+    float: left;
+}
+
+    .sfforumNewThreadLnk:hover {
+        background: #0097a9;
+    }
+
+.sfforumSubscribeWrp {
+    text-align: right;
+    float: right;
+}
+
+    .sfforumSubscribeWrp a {
+        color: #00b4c9;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+        .sfforumSubscribeWrp a:hover {
+            color: #0097a9;
+        }
+
+.sfforumNewThreadLnk:hover{
+    text-decoration:none;
+    color: white;
+}
+
+.sfforumsFilterWrp {
+    margin: 40px 0;
+}
+
+    .sfforumsFilterWrp .sfthreadsFilterList {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .sfforumsFilterWrp .sfthreadsFilterList .sfthreadsFilterListItm {
+            float: left;
+            margin: 0 15px 0 0;
+            border-right: 1px solid #ddd;
+            padding: 0 15px 0 0;
+        }
+
+            .sfforumsFilterWrp .sfthreadsFilterList .sfthreadsFilterListItm:last-child {
+                border: 0;
+            }
+
+            .sfforumsFilterWrp .sfthreadsFilterList .sfthreadsFilterListItm .sfthreadsFilterListLnk {
+                display: block;
+                color: #00b4c9;
+            }
+
+                .sfforumsFilterWrp .sfthreadsFilterList .sfthreadsFilterListItm .sfthreadsFilterListLnk:hover {
+                    color: #0097a9;
+                }
+
+.sfforumThreadPostList {
+    list-style: none;
+    padding: 0;
+    border-top: 1px solid #eee;
+    float: left;
+    width: 100%;
+    margin: 30px 0;
+}
+
+    .sfforumThreadPostList .sfforumThreadPost {
+        padding: 30px 0;
+        border-bottom: 1px solid #eee;
+        float: left;
+        width: 100%;
+        position: relative;
+    }
+
+        .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser {
+            float: left;
+            width: 15%;
+        }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser strong.sfforumUser {
+                font-size: 18px;
+                font-weight: 400!important;
+                display: inline-block;
+                margin: 0 0 15px;
+            }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser .sfforumUserAvatarWrp img {
+                box-shadow: 0 3px 12px #ddd;
+                border: 1px solid #eee;
+                border-radius: 65px;
+            }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser .sfforumUserPostsInfo {
+                font-size: 12px;
+                color: #999;
+                line-height: 18px;
+            }
+
+        .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp {
+            float: left;
+            width: 83%;
+            min-height: 250px;
+            border-left: 1px solid #eee;
+            margin-left: -1px;
+            padding: 0 0 0 2%;
+        }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumPostIsFeaturedWrp {
+                float: left;
+                width: 100%;
+                margin: 0 0 20px;
+            }
+
+                .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumPostIsFeaturedWrp a {
+                    font-weight: 600;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    color: #00b4c9;
+                }
+
+                    .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumPostIsFeaturedWrp a:hover {
+                        color: #0097a9;
+                    }
+
+                .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumPostIsFeaturedWrp .sfforumPostFeatured {
+                    display: block;
+                    background: #00b4c9;
+                    padding: 4px 15px;
+                    font-size: 11px;
+                    color: #e8f7f9;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    text-align: center;
+                    position: relative;
+                    float: left;
+                    margin: 0 10px 0 0;
+                }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfEditBtn {
+                float: left;
+                font-size: 12px;
+                display: inline-block;
+                margin: 0 15px 0 0;
+                color: #00b4c9;
+            }
+
+                .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfEditBtn:hover {
+                    color: #0097a9;
+                }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumPostAge {
+                font-size: 11px;
+                text-transform: uppercase;
+                color: #666;
+                float: left;
+            }
+
+                .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumPostAge a {
+                    color: #00b4c9;
+                    font-weight: 600;
+                }
+
+                    .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumPostAge a:hover {
+                        color: #0097a9;
+                    }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumPostPermalink {
+                float: right;
+                font-size: 12px;
+                color: #00b4c9;
+            }
+
+                .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumPostPermalink:hover {
+                    color: #0097a9;
+                }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumThreadPostContent {
+                width: 100%;
+                float: left;
+                margin: 40px 0;
+                font-size: 16px;
+                line-height: 30px;
+                color: #555;
+            }
+
+                .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumThreadPostContent p {
+                    color: #555!important;
+                    font-size: 16px!important;
+                    line-height: 30px!important;
+                }
+
+                .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumThreadPostContent a {
+                    color: #00b4c9;
+                }
+
+                    .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumThreadPostContent a:hover {
+                        color: #0097a9;
+                    }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumReplyBtn {
+                background: #00b4c9;
+                padding: 5px 10px;
+                color: #fff;
+                border: 0;
+                font-family: "Open Sans";
+                font-size: 12px;
+                font-weight: 600;
+                border-radius: 2px;
+                box-shadow: 0 2px 4px #ccc;
+                text-transform: uppercase;
+                transition: all .3s ease-out;
+                float: left;
+                clear: both;
+            }
+
+                .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp .sfforumReplyBtn:hover {
+                    background: #0097a9;
+                }
+
+            .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp blockquote.sfPostQuoteView {
+                border: 1px solid #eee;
+                background: #f9f9f9;
+                padding: 15px 25px;
+                margin: 0;
+                font-style: italic;
+                font-size: 13px;
+                color: #666;
+            }
+
+                .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp blockquote.sfPostQuoteView strong.sfUserQuote {
+                    display: block;
+                    color: #000;
+                    font-style: normal;
+                }
+
+.sfforumReplyPostWrp {
+    float: left;
+    width: 100%;
+    padding: 15px 0;
+}
+
+    .sfforumReplyPostWrp .sfforumReplyBtn {
+        background: #00b4c9;
+        color: #fff;
+        border: 0;
+        font-family: "Open Sans";
+        border-radius: 2px;
+        box-shadow: 0 2px 4px #ccc;
+        transition: all .3s ease-out;
+        padding: 10px 25px;
+        font-size: 16px;
+        text-transform: none;
+        font-weight: 400;
+    }
+
+        .sfforumReplyPostWrp .sfforumReplyBtn:hover {
+            background: #0097a9;
+        }
+
+    .sfforumReplyPostWrp .sfClosedItm {
+        background: #e8f7f9;
+        color: #00b4c9;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 6px 0;
+        float: left;
+        font-size: 12px;
+        font-weight: 700;
+        width: 100%;
+    }
+
+.sfforumSocialShareWrp {
+    float: left;
+    width: 100%;
+    text-align: right;
+    color: #777;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+    .sfforumSocialShareWrp .RadSocialShare {
+        float: left;
+        border: 0;
+        padding: 0;
+    }
+
+.sfforumPostBreabcrumbWrp {
+    font-size: 12px;
+    margin: 20px 0;
+    color: #888;
+}
+
+    .sfforumPostBreabcrumbWrp a {
+        color: #00b4c9;
+    }
+
+        .sfforumPostBreabcrumbWrp a:hover {
+            color: #0097a9;
+        }
+
+.sfforumPostReplyContainer {
+    float: left;
+    width: 100%;
+    height: auto!important;
+    display: none;
+}
+
+.sfforumReplyFormVisible {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 290px!important;
+}
+
+    .sfforumReplyFormVisible .sfClose {
+        color: #00b4c9;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 15px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+        .sfforumReplyFormVisible .sfClose:hover {
+            color: #0097a9;
+        }
+
+    .sfforumReplyFormVisible .sfforumPostReplyContainer {
+        display: block;
+        position: fixed;
+        left: 50%;
+        bottom: 0;
+        background: #fff;
+        width: 1250px;
+        margin: 0 0 0 -625px;
+        border-top: 1px solid #eee;
+        box-shadow: 0 0 70px rgba(0,0,0,.3);
+    }
+
+        .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm {
+            padding: 40px 0 30px;
+            position: relative;
+            margin: 0 0 0 -570px;
+            width: 1140px;
+            left: 50%;
+            border: 0;
+        }
+
+            .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumThreadPostUser {
+                float: left;
+                width: 15%;
+            }
+
+                .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumThreadPostUser .sfforumUserPostsInfo {
+                    font-size: 13px;
+                    color: #444;
+                }
+
+            .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumReplyThreadContent {
+                width: 85%;
+                float: left;
+            }
+
+                .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumReplyThreadContent h2 {
+                    font-size: 14px;
+                    padding: 0;
+                    margin: 0;
+                    font-weight: 400;
+                }
+
+                .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumReplyThreadContent .sfQuote {
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    color: #00b4c9;
+                    font-weight: 700;
+                }
+
+                    .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumReplyThreadContent .sfQuote:hover {
+                        color: #0097a9;
+                    }
+
+                .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumReplyThreadContent .sfSubmitBtnWrp {
+                    position: relative;
+                    margin: 20px 0;
+                }
+
+                    .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumReplyThreadContent .sfSubmitBtnWrp input {
+                        background: #00b4c9;
+                        color: #fff;
+                        border: 0;
+                        font-family: "Open Sans";
+                        border-radius: 2px;
+                        box-shadow: 0 2px 4px #ccc;
+                        transition: all .3s ease-out;
+                        padding: 10px 25px;
+                        font-size: 16px;
+                        text-transform: none;
+                        font-weight: 400;
+                    }
+
+                        .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumReplyThreadContent .sfSubmitBtnWrp input:hover {
+                            background: #0097a9;
+                        }
+
+                    .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumReplyThreadContent .sfSubmitBtnWrp .sfCancel {
+                        color: #00b4c9;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                    }
+
+                        .sfforumReplyFormVisible .sfforumPostReplyContainer .sfforumPostReplyForm .sfforumReplyThreadContent .sfSubmitBtnWrp .sfCancel:hover {
+                            color: #0097a9;
+                        }
+
+.Sitefinity.RadEditor * {
+    font-family: 'Open Sans';
+}
+
+.reToolbar .reGrip.grip_first {
+    display: none;
+}
+
+.sfforumNewThreadWrp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+    .sfforumNewThreadWrp .sfforumNewThreadFormList {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .sfforumNewThreadWrp .sfforumNewThreadFormList .sfforumNewThreadName label {
+            display: block;
+        }
+
+        .sfforumNewThreadWrp .sfforumNewThreadFormList .sfforumNewThreadName input {
+            padding: 15px 20px;
+            width: 50%;
+            font-size: 18px;
+        }
+
+    .sfforumNewThreadWrp .sfSubmitBtnWrp input {
+        background: #00b4c9;
+        color: #fff;
+        border: 0;
+        font-family: "Open Sans";
+        border-radius: 2px;
+        box-shadow: 0 2px 4px #ccc;
+        transition: all .3s ease-out;
+        padding: 10px 25px;
+        font-size: 16px;
+        text-transform: none;
+        font-weight: 400;
+    }
+
+        .sfforumNewThreadWrp .sfSubmitBtnWrp input:hover {
+            background: #0097a9;
+        }
+
+    .sfforumNewThreadWrp .sfSubmitBtnWrp a {
+        color: #00b4c9;
+    }
+
+        .sfforumNewThreadWrp .sfSubmitBtnWrp a:hover {
+            color: #0097a9;
+        }
+
+/*FORUMS STYLES END*/
+
+.sfcheckoutPreviewProduct, .sfordersListDetailView {
+    height: auto!important;
+    float: left;
+    width: 70%;
+    padding: 0 0 0 4%;
+    border-left: 1px solid #eee;
+}
+
+.sfcheckoutPreviewAddress, .sforderBriefInfoWrp {
+    float: left;
+    width: 20%;
+}
+
+.sfcheckoutTotal{
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #eee;
+}
+
+.sfProductComments{
+  padding-top: 3%;
+}
+
+.sfAddToWishListLnkWrp a{
+  color: #00b4c9;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.sfAddToWishListLnkWrp a:hover{
+  text-decoration: none;
+}
+
+.sfeventsList li{
+    list-style: none;
+}
+
+.events_div ul {
+    list-style: none;
+}
+
+.events_div a{
+        color: #00b4c9;
+}
+
+.sflanguagesHorizontalList{
+    list-style: none;
+    padding: 0;
+}
+
+    .sflanguagesHorizontalList a {
+        color: #00b4c9;
+    }
+
+    .logged-test a{
+        color: #00b4c9;
+        margin-right: 5px;
+    }
+
+    .qsitemap{
+        z-index: 3;
+    }
+
+    .sfforumPostReplyContainer{
+        z-index: 4;
+    }
+
+    .reToolbar{
+        border-left: 1px solid #828282;
+    }
+    
+    .sfLinkBtn{
+        padding-left: 5px;
+    }
+
+    .sfCheckoutBtn{
+        margin-top: 20px;
+    }
+
+    .sfUseShippingAddressAsBillingAddress input, .sfcheckoutFormItmCheckboxList input{
+        margin-right: 10px!important;
+    }
+
+    .sforderSummaryTable{
+        width: 50%;
+    }
+
+    .sfAddToCartWidget{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+@media all and (max-width:1200px){#wrapper{width:100%;left:0;margin:0;box-shadow:none}.topbox .sf_colsOut{width:100%!important;margin-bottom:10px}.featured img,.products img,.sfnewsDetails img{width:100%}.careers-header{margin:0!important;width:100%;background-size:100%;height:auto;padding-top:150px}.careers-header h1{position:relative;width:90%;bottom:0;top:auto;padding:30px 5%!important}.office-header{width:100%;margin:0;left:0;overflow:hidden}.office-header h1{font-size:45px!important}}
+@media all and (max-width:1024px){.topbox{display:none}.content .banner{padding:40px 30px;text-align:center}.content .banner img{position:relative}.content .banner a{display:block;max-width:260px;left:50%;margin-left:-130px;position:relative}#logo{position:relative;float:left;left:50%;margin-left:-110px}#wrapper{padding-bottom:200px}.headerright{margin-top:20px!important}.headerleft,.headerright{width:100%!important}
+.headerleft #langsWrapper,.headerright #langsWrapper{margin-right:20px}.headerleft .login,.headerright .login{border:0}.headerleft .topnav,.headerright .topnav{float:left}.topbox{bottom:0;width:100%}#top-sellers ul li{width:33%;padding:0;margin:0}#top-sellers ul li img{width:100%}body.navigation .topnav{display:block}.topnav{display:none;position:absolute;right:0;top:-15px;height:100%;width:230px;padding:70px 0 0 20px;background:#fff;box-shadow:0 0 30px rgba(0,0,0,.4);z-index:2}.topnav .k-menu .k-item{width:100%;min-height:0}.topnav .k-menu .k-item .k-link{padding:8px;font-size:11px}.topnav .k-menu .k-item .k-group{box-shadow:none;border:0;border-bottom:1px solid #ddd;position:relative;display:block;padding:0;margin:0}.topnav .k-menu .k-item .k-group .k-item{border:0;padding:0;margin:0}.topnav .k-menu .k-item:first-child .k-group{width:auto;min-height:0;padding:0;background:0 0}#toggle{display:block}.main,.sidebar{border:0;width:100%!important}.browse-products{display:block;padding-top:20px}.content .sidebar .sf_colsIn.sf_2cols_1in_25{margin:0!important}.content .sidebar .RadSiteMap_leftnav{display:none;margin:10px 0 0}.content .sidebar .RadSiteMap_leftnav .rsmList{width:100%;float:left}.content .sidebar .RadSiteMap_leftnav .rsmList .rsmItem{width:23%;margin:0 2% 0 0;float:left;clear:none}.content .sidebar .RadSiteMap_leftnav .rsmList .rsmItem .rsmItem{width:100%}body.products .content .sidebar .RadSiteMap_leftnav{display:block}.sfpostsList{width:100%}.sfpostsList li.sfpostListItem{height:auto;width:45%!important;margin:0;padding:0 3% 0 0!important;border:0}.content .sfShopByFilterGroupList{display:none;border-bottom:1px solid #eee;float:left;width:100%;padding:0 0 30px}.content .sfShopByFilterGroupList .sfShopByFilterGroupListItem{width:33%;float:left}.content .sffilterClearLnk{display:none}.content .sffilterTitle{text-align:center;font-size:13px;font-weight:600;cursor:pointer}
+body.filters .content .sfShopByFilterGroupList,body.filters .content .sffilterClearLnk{display:block}.sfcheckoutTabstrip .rtsLink{padding:10px;background-image:none}.sfcheckoutTabstrip.sfCStep0 .sfStep1{background-color:#00b4c9;color:#fff}.sfcheckoutTabstrip.sfCStep0 .sfStep1 .sfStep{color:#00b4c9}.sfcheckoutTabstrip.sfCStep1 .sfStep1,.sfcheckoutTabstrip.sfCStep1 .sfStep2{background-color:#00b4c9;color:#fff}.sfcheckoutTabstrip.sfCStep1 .sfStep1 .sfStep,.sfcheckoutTabstrip.sfCStep1 .sfStep2 .sfStep{color:#00b4c9}.sfcheckoutTabstrip.sfCStep2 .sfStep1,.sfcheckoutTabstrip.sfCStep2 .sfStep2,.sfcheckoutTabstrip.sfCStep2 .sfStep3{background-color:#00b4c9;color:#fff}.sfcheckoutTabstrip.sfCStep2 .sfStep1 .sfStep,.sfcheckoutTabstrip.sfCStep2 .sfStep2 .sfStep,.sfcheckoutTabstrip.sfCStep2 .sfStep3 .sfStep{color:#00b4c9}.sfcheckoutTabstrip.sfCStep3 .sfStep1,.sfcheckoutTabstrip.sfCStep3 .sfStep2,.sfcheckoutTabstrip.sfCStep3 .sfStep3,.sfcheckoutTabstrip.sfCStep3 .sfStep4{background-color:#00b4c9;color:#fff}.sfcheckoutTabstrip.sfCStep3 .sfStep1 .sfStep,.sfcheckoutTabstrip.sfCStep3 .sfStep2 .sfStep,.sfcheckoutTabstrip.sfCStep3 .sfStep3 .sfStep,.sfcheckoutTabstrip.sfCStep3 .sfStep4 .sfStep{color:#00b4c9}.sfcheckoutTabstrip.sfCStep4 .sfStep5{background-color:#00b4c9;color:#fff}.sfcheckoutTabstrip.sfCStep4 .sfStep5 .sfStep{color:#00b4c9}.sfcheckoutTabstrip.sfCStep5 .sfStep6{background-color:#00b4c9;color:#fff}.sfcheckoutTabstrip.sfCStep5 .sfStep6 .sfStep{color:#00b4c9}}
+@media all and (max-width:800px){.sidebar .sfShopByFilterGroupList {
+        display: none;
+        border-bottom: 1px solid #eee;
+        float: left;
+        width: 100%;
+        padding: 0 0 30px;
+    }
+
+        .sidebar .sfShopByFilterGroupList .sfShopByFilterGroupListItem {
+            width: 50%;
+            float: left;
+        }
+
+    .sidebar .sffilterClearLnk {
+        display: none;
+    }
+
+    .sidebar .sffilterTitle {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+        .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser {
+        width: 30%;
+    }
+
+    .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp {
+        width: 68%;
+    }
+
+    body.filters .sidebar .sfShopByFilterGroupList, body.filters #content .sffilterClearLnk {
+        display: block;
+    }.office-header img{display:none}.office-header h1{color:#000;text-shadow:none}.office-contacts{color:#000}.office-contacts,.office-header{float:left;position:relative;height:auto;text-align:left;top:auto;right:auto}.office-contacts h1,.office-header h1{position:relative;left:0;margin-bottom:30px}.main .sf_colsIn.sf_2cols_2in_75{margin:0!important}#top-sellers ul li{width:45%;margin:0 5% 0 0}.content .banner img{width:100%}.content .sidebar .RadSiteMap_leftnav .rsmList .rsmItem{width:48%;margin:0 2% 10px 0}.content .sidebar .RadSiteMap_leftnav .rsmList .rsmItem .rsmItem{margin-bottom:0}.content .specifications{border:0}.product-list img{width:100%;height:auto}.product-list a{margin-top:20px}.sfproductsList li.sfproductListItem{width:50%}.sfproductDetails .sfproductImgsWrp,.sfproductDetails .sfproductInfoWrp{width:100%;margin:0;padding:0;border:0}.sfcheckoutTabstrip .rtsLI{text-transform:uppercase;width:100%}.sfCheckoutPreviewShippingAndPayment,.sfCheckoutPreviewShippingAndPayment .CheckoutPreviewShipping,.sfCheckoutPreviewShippingAndPayment .sfCheckoutPreviewPayment{width:100%}.sfCheckoutPreviewShippingAndPayment .CheckoutPreviewShipping .sfcheckoutPreviewAddressBlock,.sfCheckoutPreviewShippingAndPayment .sfCheckoutPreviewPayment .sfcheckoutPreviewAddressBlock{width:50%;margin:15px 0}.sfcheckoutPreviewProduct,.sfordersListDetailView{width:100%;padding:0;margin:20px 0 0;border:0}.sforderBriefInfoWrp{width:100%;border:0}.sfwishListWrp .rgMasterTable .sfTxt{width:30px}.galleria-container{height:auto}.galleria-container .galleria-stage .galleria-images .galleria-image,.galleria-container .galleria-stage .galleria-images .galleria-image img{width:100%!important}.galleria-container .galleria-thumbnails-container{display:none}.sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser{width:30%}.sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp{width:68%}}
+@media all and (max-width:767px){.navbar-brand{display:inline-block}.headerleft{display:none}}
+@media all and (max-width:640px){.topbox{display:none}.content{padding:20px}#logo{left:0;margin-left:0}#top-sellers ul li{width:100%;margin:0}.content .banner{padding:20px 0;background:0 0;text-align:left}.content .banner h1{font-size:30px;line-height:40px;font-weight:400}.content .banner a{max-width:0;min-width:180px;left:auto;margin:20px 0}.content .sidebar .sfShopByFilterGroupList .sfShopByFilterGroupListItem{width:50%}.sfcalendarWrp{width:100%}.content .careers-header{padding-top:100px}.content .careers-header h1{letter-spacing:0;font-size:24px!important;line-height:30px!important}.sfpostsList li.sfpostListItem{width:100%!important;padding:0}.sfforumThreadsList tr .sfforumThreadPostsWrp,.sfforumThreadsList tr .sfforumThreadViewsWrp,.sfforumsList tr td.sfforumLastPostWrp,.sfforumsList tr td.sfforumThreadsCountWrp{display:none}.sfCheckoutPreviewShippingAndPayment .CheckoutPreviewShipping .sfcheckoutPreviewAddressBlock,.sfCheckoutPreviewShippingAndPayment .sfCheckoutPreviewPayment .sfcheckoutPreviewAddressBlock{width:100%}.sfcheckoutPreviewProduct .rgMasterTable .sfItmOptionsCol,.sfcheckoutPreviewProduct .rgMasterTable .sfItmQuantityCol,.sfcheckoutPreviewProduct .rgMasterTable .sfSingleItmPriceCol,.sfordersListDetailView .rgMasterTable .sfItmOptionsCol,.sfordersListDetailView .rgMasterTable .sfItmQuantityCol,.sfordersListDetailView .rgMasterTable .sfSingleItmPriceCol,.sfwishListWrp .rgMasterTable .sfItmOptionsCol,.sfwishListWrp .rgMasterTable .sfItmTmbCol,.sfwishListWrp .rgMasterTable .sfSingleItmPriceCol{display:none}.sfdownloadTable .rgMasterTable td,.sfdownloadTable .rgMasterTable th{display:block;width:100%}.sfdownloadTable .rgMasterTable td.sfdownloadDate,.sfdownloadTable .rgMasterTable td.sfdownloadSize,.sfdownloadTable .rgMasterTable td.sfdownloadType,.sfdownloadTable .rgMasterTable th.sfdownloadDate,.sfdownloadTable .rgMasterTable th.sfdownloadSize,.sfdownloadTable .rgMasterTable th.sfdownloadType{display:none!important}    .sfforumThreadsList tr .sfforumThreadPostsWrp, .sfforumThreadsList tr .sfforumThreadViewsWrp, .sfforumsList tr td.sfforumLastPostWrp, .sfforumsList tr td.sfforumThreadsCountWrp {
+        display: none;
+    }}
+@media all and (max-width:480px){    .sfforumsList tr td.sfforumPostsCountWrp {
+        display: none;
+    }
+
+    .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser {
+        width: 100%;
+    }
+
+    .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp {
+        width: 100%;
+        border: 0;
+    }.sfproductsList .sfproductListItem {text-align:center;}.content .sfContentBlock img{float:none!important;margin-top:1em;margin-left:auto;margin-right:auto;clear:both}.content .banner img{display:none}.content .sidebar .RadSiteMap_leftnav .rsmList .rsmItem{width:100%;margin:0 0 10px}.content .sidebar .RadSiteMap_leftnav .rsmList .rsmItem .rsmItem{margin-bottom:0}.content .sidebar .sfShopByFilterGroupList .sfShopByFilterGroupListItem{width:100%}.sfforumsList tr td.sfforumPostsCountWrp{display:none}.sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser{width:100%}.sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp{width:100%;border:0}.sfproductsList li.sfproductListItem{width:100%;height:auto!important}.sfproductsList li.sfproductListItem .sfproductTmbWrp{width:100%;position:relative;height:auto}.sfproductsList li.sfproductListItem .sfproductTmbWrp a{width:100%!important;height:auto}.sfproductsList li.sfproductListItem .sfproductTmbWrp a img{position:relative;width:60%;height:auto}.sfproductsList li.sfproductListItem .sfproductTmbWrp a:hover,.sfproductsList li.sfproductListItem .sfproductTmbWrp a:hover img{width:100%;height:auto}.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp{width:220px}}.sfimagesTmbList{position:relative;float:left;width:100%;list-style:none}.sfimagesTmbList li{o position:relative;float:left;margin:5px;list-style-position:inside}.sfimagesTmbList li img{padding:6px;background-color:#fff;border-right:1px solid #666;border-bottom:1px solid #666}.sfimagesTmbList li a:hover img{background-color:#aaa}.button{background-image:url(../img/button_bg.jpg);border-radius:5px;box-shadow:0 0 5px #999;border:0;padding:6px 20px;line-height:18px;float:left;position:relative;background-color:#008eee;color:#fff;font-weight:400;font-size:15px;margin:5px;text-decoration:none;font-family:'Ropa Sans'}.sfnewsListItem{list-style:none}.sfnewsListItem a{text-decoration:none;color:#00b4c9}.sfnewsList.sfnewsListTitlesOnly.sflist .sfnewsListItem a{text-transform:uppercase}.highlight{background-color:#F7F7F7;border-radius:10px;box-shadow:0 0 10px #EDEDED;float:left;margin-bottom:20px;padding:0 10px 10px;width:98%}.content img{max-width:100%}.sfContentBlock img{display:block;margin-top:1em;margin-bottom:1em}.sfContentBlock img[style*="vertical-align:middle;"],.sfContentBlock img[style*="vertical-align: middle;"]{margin:1em auto;clear:both}.sfContentBlock img[style*="float:right;"],.sfContentBlock img[style*="float: right;"]{float:right;margin-top:.25em;margin-right:0;margin-left:1em}.sfContentBlock img[style*="float:left;"],.sfContentBlock img[style*="float: left;"]{float:right;margin-top:.25em;margin-left:0;margin-right:1em}.sfPlayerWrp video,.sfPlayerWrp>div{width:100%!important;height:auto!important}.productGallery .galleria-container.notouch{min-height:500px!important}.main-body>.k-animation-container .k-popup[data-role=popup]{background:#fff;box-shadow:0 7px 20px rgba(0,0,0,.3)}.k-popup[data-role=popup] .k-item,.main-body>.k-animation-container .k-popup[data-role=popup]{border:none}.main-body>.k-animation-container .k-popup[data-role=popup] .k-item:hover{background:#e0f2f5}

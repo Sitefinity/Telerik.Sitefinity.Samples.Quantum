@@ -1,0 +1,66 @@
+[
+  {
+    "Id": "57ebf3a4-1d60-6822-81ac-ff0000da1875",
+    "Namespace": "Telerik.Sitefinity.Blogs.Model",
+    "ClassName": "BlogPost",
+    "Fields": [
+      {
+        "Id": "58ebf3a4-1d60-6822-81ac-ff0000da1875",
+        "FieldName": "Category",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "13dd21db-2e33-4319-906a-fd559cb5ed5b",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:HierarchicalTaxonField ID=\"HierarchicalFieldControl\" runat=\"server\" TaxonomyId=\"E5CD6D69-1543-427b-AD62-688A99F5E7D4\" DisplayMode=\"Read\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/HierarchicalTaxon.svc\" Expanded=\"false\" TaxonomyMetafieldName=\"Category\" ExpandText=\"ClickToAddCategories\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.HierarchicalTaxonFieldReadMode.ascx\"/>"
+          },
+          {
+            "Id": "739c1c30-0a6f-4600-aefa-e16ed53c64a3",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "c134eb9f-9098-4a4a-87d8-b2d8b4966cb9",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "QunatumNext/",
+        "IsDynamic": true
+      },
+      {
+        "Id": "59ebf3a4-1d60-6822-81ac-ff0000da1875",
+        "FieldName": "Tags",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "cb0f3a19-a211-48a7-88ec-77495c0f5374",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "d629d8cb-9262-4348-95ef-e3e31be1d7b9",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:FlatTaxonField ID=\"FlatFieldControl\" DisplayMode=\"Read\" runat=\"server\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/FlatTaxon.svc\" AllowMultipleSelection=\"true\" TaxonomyId=\"CB0F3A19-A211-48a7-88EC-77495C0F5374\" TaxonomyMetafieldName=\"Tags\" Expanded=\"false\" ExpandText=\"ClickToAddTags\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.FlatTaxonFieldReadMode.ascx\" />"
+          },
+          {
+            "Id": "c7c24f90-5a64-4644-83ee-9724ba964158",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "8fcb98c9-098b-4fb7-83ab-b04f8030bc79",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "QunatumNext/",
+        "IsDynamic": true
+      }
+    ],
+    "ApplicationName": "QunatumNext/",
+    "Presentation": [],
+    "MetaAttributes": [],
+    "SectionNames": [],
+    "AssemblyName": "Telerik.Sitefinity.ContentModules"
+  }
+]
