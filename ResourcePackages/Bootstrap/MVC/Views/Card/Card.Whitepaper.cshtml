@@ -1,0 +1,19 @@
+@model Telerik.Sitefinity.Frontend.Card.Mvc.Models.Card.CardViewModel
+
+<div class="@Model.CssClass row">
+    <div class="caption col-md-7 col-md-offset-1  col-xs-12 whitepaper_part">
+        <h1>@Html.Raw(Model.Heading)</h1>
+        <p>@Html.Raw(Model.Description)</p>
+    </div>
+    <div class="col-md-3 col-xs-12 row whitepaper_container">
+        <div class="col-xs-12 whitepaper_image">
+            <img src="@Model.SelectedSizeUrl" title="@Model.ImageTitle" alt="@Model.ImageAlternativeText">
+        </div>
+        <div class="col-xs-12">
+            @if (!string.IsNullOrEmpty(Model.ActionName))
+            {
+                <p><a href="@Model.ActionUrl" class="btn btn-primary btn-quantum" role="button">Download @Model.ActionName</a></p>
+            }
+        </div>
+    </div>
+</div>

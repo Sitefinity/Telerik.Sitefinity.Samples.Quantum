@@ -1,0 +1,14 @@
+div.k-window.sfcalendarEventPreviewWrp 
+{
+    background-color: #FFFFFF;
+    min-width: 300px !important;
+}
+.sfcalendarEventPreviewWrp .k-i-close
+{
+    background: transparent url("../Images/sfPublicContent.gif") no-repeat 0 -1200px !important;
+}
+.sfcalendarEventPreviewWrp .sfcalendarEventPreviewEditLnkWrp 
+{
+    text-align: right;
+    cursor: pointer;
+}

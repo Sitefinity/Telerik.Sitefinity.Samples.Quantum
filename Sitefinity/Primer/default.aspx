@@ -8,7 +8,7 @@
     <script src="http://cdn.kendostatic.com/2013.3.1324/js/kendo.all.min.js" type="text/javascript"></script>
     <link href="http://cdn.kendostatic.com/2013.3.1324/styles/kendo.common.min.css" rel="stylesheet" />
     <link href="http://cdn.kendostatic.com/2013.3.1324/styles/kendo.flat.min.css" rel="stylesheet" />
-    <script src=" /Sitefinity/WebsiteTemplates/Quantum/App_Themes/QuantumNew/Scripts/masonry.js" type="text/javascript"></script>
+    <script src=" /Sitefinity/WebsiteTemplates/Quantum/App_Themes/Quantum/Scripts/masonry.js" type="text/javascript"></script>
     <link href="resources/primer.min.css" rel='stylesheet' type='text/css' />
 </head>
 <body style="visibility: hidden">

@@ -1,0 +1,41 @@
+﻿/********* @group Events **********/
+
+.sfcalendarEventPreviewTitle{
+        margin-top: 0px;
+}
+
+.event_details{
+    border: 1px solid $color-border;
+    padding: 2%;
+}
+
+.event_date_place{
+    background-color: $quantum-main;
+    padding: 1%;
+}
+
+.event_date_place p {
+        color: white;
+}
+
+.event_date_place address {
+        color: white;
+}
+
+.k-header{
+    background-color: inherit;
+    border-bottom-width: 0px;
+}
+
+.events_div ul {
+    list-style: none;
+}
+
+.events_div a{
+        color: #00b4c9;
+}
+
+.events_container{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+/* @end Events */

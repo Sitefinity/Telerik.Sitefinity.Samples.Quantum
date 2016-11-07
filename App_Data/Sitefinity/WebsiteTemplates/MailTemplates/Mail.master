@@ -7,8 +7,13 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <style>
              h2{display: block; margin: 0px; padding: 0px; font-size: 18px; font-weight: 400; color: #000000;}
-            p{margin: 4px 0px 0px; padding: 0px; font-size: 12px; line-height: 18px; color: #a8a8a8;}
-            
+             p{margin: 4px 0px 0px; padding: 0px; font-size: 12px; line-height: 18px; color: #a8a8a8;}
+            img{max-width:100%;}
+            a, a:visited, a:link, a:hover, a:active {text-decoration: none;}
+            a
+            {
+                color: #00b4c9;
+            }
         </style>
 </head>
 <body class="main-body">
@@ -30,11 +35,11 @@
                                 <table cellspacing="0" cellpadding="0" border="0" style="margin: 0px; padding: 0px; font-family: arial, helvetica, verdana, sans-serif; line-height: 1;">
                                     <tbody>
                                         <tr>
-                                            <td style="width: 338px;text-align:right">
+                                            <td style="width: 338px;text-align:right;padding: 10px;">
                                             <asp:ContentPlaceHolder runat="server" ID="logoPlaceholder" />
                                             </td>
                                             <!-- top heading -->
-                                            <td valign="middle" style="background-color: #0e66a5; width: 362px;">
+                                            <td valign="middle" style="background-color: #00b4c9; width: 362px;">
                                             <h1 style="display: block; font-weight: 400; font-size: 17px; color: #feffff; font-style: italic; margin-right: 25px; font-family: 'segoe ui', arial, sans-serif; text-align: right;">Quantum Green Newsletter</h1>
                                             </td>
                                             <!-- //top heading -->
@@ -76,11 +81,11 @@
                                 </td>
                             </tr>
                             <!-- //top content -->
-                            <tr>
+                            <%--<tr>
                                 <td>
                                 <img alt="" width="700" height="33" src="http://www.telerik.com/documents/media/newsletter/2011-12/sitefinity/bottom-shadow.jpg" style="display: block;" />
                                 </td>
-                            </tr>
+                            </tr>--%>
                             <!-- //footer shadow -->
                             <!-- bottom contet -->
                             <tr>
@@ -109,11 +114,11 @@
                             </tr>
                             <!-- //footer -->
                             <!-- footer shadow -->
-                            <tr>
+                            <%--<tr>
                                 <td>
                                 <img alt="" width="700" height="46" src="http://www.telerik.com/documents/media/newsletter/2011-12/sitefinity/bottom-shadow.jpg" style="display: block;" />
                                 </td>
-                            </tr>
+                            </tr>--%>
                             <!-- //footer shadow -->
                         </tbody>
                     </table>

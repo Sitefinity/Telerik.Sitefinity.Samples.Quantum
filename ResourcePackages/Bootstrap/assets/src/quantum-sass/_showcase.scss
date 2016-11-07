@@ -1,0 +1,68 @@
+﻿/********* @group Showcase Styles **********/
+
+.showcase_heading{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.showcase_image{
+    text-align: center;
+}
+.showcase_image img{
+    margin-bottom: 6%;
+}
+
+.showcase_download a{
+    padding: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: $color-button;
+    border-color: $color-button;
+    color: white;
+    border-radius: 5px;
+}
+
+.showcase_download a:hover {
+    background-color: $color-button-dark;
+}
+
+.showcase_summary div{
+    margin-bottom: 3%;
+}
+
+.showcase_summary{
+    @media (max-width:775px){
+        margin-top: 5%;
+    }
+}
+
+.showcase-list{
+   list-style: none;
+   display:flex;
+   padding-left:0;
+}
+
+.showcase-list-item{    
+   align-self: center;
+   text-align: center;
+}
+
+.showcase-list-item h3 a{    
+    color: $color-button;
+}
+
+.showcase-list-item img{    
+   width: 60%;
+   margin: auto;
+}
+
+.slider-description{
+    background-color: $color-overlay;
+    padding: 1%;
+}
+
+.caption h3, .caption span{
+    color: white;
+}
+
+/* @end Showcase */

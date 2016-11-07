@@ -1,0 +1,45 @@
+@model Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Models.DynamicContentListViewModel
+
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.Mvc.Models;
+@using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+
+@Html.Script(ScriptRef.JQuery, "top", false)
+
+
+<div class="@Model.CssClass">
+	<div id="map"></div>
+	<script type="text/javascript">
+        function initMap() {
+            
+			var myLatLng = {lat: 15.581651, lng: 32.430719};
+
+			var map = new google.maps.Map(document.getElementById('map'), {
+			  zoom: 3,
+			  minZoom: 3, 
+			  maxZoom: 15,
+			  scrollwheel: false,
+			  center: myLatLng
+			});
+			
+			@foreach (var item in Model.Items)
+			{
+			<text>
+				new google.maps.Marker({
+				  position: {lat: @item.Fields.Address.Latitude.ToString().Replace(',', '.'), lng: @item.Fields.Address.Longitude.ToString().Replace(',', '.')},
+				  map: map,
+				  title: '@item.Fields.Title',
+				    animation: google.maps.Animation.DROP 
+				});
+			</text>
+			}
+			
+		}		
+	</script>
+	@Html.Script(Url.Content("https://maps.googleapis.com/maps/api/js?key=AIzaSyCKP_DsimIlPT9uwxumfjeVUkDh8mW8TY4&callback=initMap"))
+</div>

@@ -75259,6 +75259,7 @@ Wheatland	Wyoming	United States
 Wilson	Wyoming	United States
 Worland	Wyoming	United States
 Wright	Wyoming	United States
+Wyoming	United States
 Sagle	Idaho	United States
 Dell	Montana	United States
 Frazer	Montana	United States

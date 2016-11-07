@@ -1,0 +1,75 @@
+@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentDetailsViewModel
+
+@using System.Collections;
+@using System.Linq;
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Libraries.Model;
+@using Telerik.Sitefinity.Localization;
+@using Telerik.Sitefinity.Model;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Pages.Model;
+
+<div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
+    <h3 @Html.InlineEditingFieldAttributes("Title", "ShortText")>
+        @Model.Item.Fields.Title
+    </h3>
+    <div>
+        @Model.Item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt")
+        @Html.CommentsCount("", @Model.Item.DataItem)
+    </div>
+    
+    
+@*Start Client field*@
+<div>
+    <strong> Client :</strong>
+
+    <span @Html.InlineEditingFieldAttributes("Client", "ShortText")>@Model.Item.Fields.Client</span>    
+</div>
+@*End Client field*@
+
+@*Start Website field*@
+<div>
+    <strong> Website :</strong>
+
+    <span @Html.InlineEditingFieldAttributes("Website", "ShortText")>@Model.Item.Fields.Website</span>    
+</div>
+@*End Website field*@
+
+@*Start Challenge field*@
+<div @Html.InlineEditingFieldAttributes("Challenge", "LongText")>@Html.Raw(Model.Item.Fields.Challenge)</div>
+@*End Challenge field*@
+
+@*Start Solution field*@
+<div @Html.InlineEditingFieldAttributes("Solution", "LongText")>@Html.Raw(Model.Item.Fields.Solution)</div>
+@*End Solution field*@
+
+@*Start Results field*@
+<div @Html.InlineEditingFieldAttributes("Results", "LongText")>@Html.Raw(Model.Item.Fields.Results)</div>
+@*End Results field*@
+
+@*Start Thumbnail field*@
+@if(Model.Item.Fields.Thumbnail != null)
+{
+    <img src='@Model.Item.Fields.Thumbnail.Fields.MediaUrl' alt='@Model.Item.Fields.Thumbnail.Fields.AlternativeText' title='@Model.Item.Fields.Thumbnail.Fields.Title' />
+}
+@*End Thumbnail field*@
+
+@*Start Download field*@
+@if(Model.Item.Fields.Download != null)
+{
+    <a href='@Model.Item.Fields.Download.Fields.MediaUrl'>@Model.Item.Fields.Download.Fields.Title</a>
+}
+@*End Download field*@
+
+    
+    @if (Model.EnableSocialSharing)
+    {
+        @Html.SocialShareOptions()
+    }
+
+    @Html.CommentsList(@Model.Item.DataItem)
+</div>

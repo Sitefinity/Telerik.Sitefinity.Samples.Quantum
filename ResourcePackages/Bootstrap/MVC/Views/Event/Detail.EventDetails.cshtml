@@ -4,42 +4,44 @@
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers;
 @using Telerik.Sitefinity.Web.DataResolving;
 
-<div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
-    <h3 class="sf-event-title">
-        <span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</span>
-        
-    </h3>
-    <span class="sf-event-type" style="background:@Model.Item.EventCalendarColour()"></span>
+<div class="@Model.CssClass container event_details " @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
+    <div class="col-xs-12">
+        <h1 class="sf-event-title">
+            <span class="sf-event-type" style="background:@Model.Item.EventCalendarColour()"></span>
+            <span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</span>
+        </h1>        
+    </div>
 
-     @if (!string.IsNullOrEmpty(Model.Item.EventDates())) {
-        <p class="text-muted">
-            <time>@Model.Item.EventDates()</time>
-        </p>
-    }
 
-    @if (!string.IsNullOrEmpty(Model.Item.Fields.City) || !string.IsNullOrEmpty(Model.Item.Fields.Country))
-    {
-        <address class="text-muted">
+    <div class="text-muted sf-mb-m col-xs-6 event_date_place">
+        @if (!string.IsNullOrEmpty(Model.Item.EventDates()))
+        {
+            <p class="text-muted">
+                <strong>Dates:</strong><time>@Model.Item.EventDates()</time>
+            </p>
+        }
 
-            @if (!string.IsNullOrEmpty(Model.Item.Fields.City) && !string.IsNullOrEmpty(Model.Item.Fields.Country))
-            {
-                @Model.Item.Fields.City<span>,</span> @Model.Item.Fields.Country
-                <br>
-            }
-            else
-            {
-                @(string.IsNullOrEmpty(Model.Item.Fields.City) ? Model.Item.Fields.Country : Model.Item.Fields.City)
-                <br>
-            }
+        @if (!string.IsNullOrEmpty(Model.Item.Fields.City) || !string.IsNullOrEmpty(Model.Item.Fields.Country))
+        {
+            <address class="text-muted">
 
-            @if (!string.IsNullOrEmpty(Model.Item.Fields.Street))
-            {
-                @Model.Item.Fields.Street
-            }
-        </address>
-    }
-    
-    <div class="text-muted sf-mb-m">
+                @if (!string.IsNullOrEmpty(Model.Item.Fields.City) && !string.IsNullOrEmpty(Model.Item.Fields.Country))
+                {
+                    @Model.Item.Fields.City<span>,</span> @Model.Item.Fields.Country
+                    <br>
+                }
+                else
+                {
+                    @(string.IsNullOrEmpty(Model.Item.Fields.City) ? Model.Item.Fields.Country : Model.Item.Fields.City)
+                    <br>
+                }
+
+                @if (!string.IsNullOrEmpty(Model.Item.Fields.Street))
+                {
+                    @Model.Item.Fields.Street
+                }
+            </address>
+        }
         @if (!string.IsNullOrEmpty(Model.Item.Fields.ContactName))
         {
             @Model.Item.Fields.ContactName
@@ -57,63 +59,71 @@
             @Model.Item.Fields.ContactCell
             <br>
         }
-        
+
         @if (!string.IsNullOrEmpty(Model.Item.Fields.ContactEmail))
         {
             <address class="sf-mb-xxs"><a href="mailto:@(Model.Item.Fields.ContactEmail)" target="_blank">@Model.Item.Fields.ContactEmail</a></address>
         }
 
-        @if (!string.IsNullOrEmpty(Model.Item.Fields.ContactWeb))
-        {
-            <a href="@(Model.Item.Fields.ContactWeb)" target="_blank">@Model.Item.Fields.ContactWeb</a>
-        }
+
 
     </div>
+    <div class="col-xs-6">
+        @if (ViewBag.AllowCalendarExport)
+        {
 
-    @if (!string.IsNullOrEmpty(Model.Item.Fields.Location))
-    {        
-        <p class="text-muted"> @*How to find us field*@
-        @Model.Item.Fields.Location</p>
-    }
+            <span>@Html.Resource("AddTo")</span>
+                <ul class="list-unstyled list-inline sf-event-addToList">
+                    <li><a href="@Model.Item.GenerateOutlookUrl()" target="_blank">@Html.Resource("OutlookEventExporterTitle")</a>,</li>
+                    <li><a href="@Model.Item.GenerateICalUrl()" target="_blank">@Html.Resource("ICalEventExporterTitle")</a>,</li>
+                    <li><a href="@Model.Item.GenerateGoogleUrl()" target="_blank">@Html.Resource("GoogleEventExporterTitle")</a></li>
+                </ul>
 
-    @if (!string.IsNullOrEmpty(Model.Item.Fields.Description))
-    {        
-        <p class="text-muted">
-            @Model.Item.Fields.Description
-        </p>
-    }
+        }
 
-    <div class="row">
-        <div class="col-md-7 sf-Comment-count--block"> @Html.CommentsCount(string.Empty, @Model.Item.DataItem)</div>
-        <div class="col-md-5 clearfix">
-                @if (ViewBag.AllowCalendarExport)
-                {
-                    <div class="pull-right">
-                        <span>@Html.Resource("AddTo")</span>
-                        <ul class="list-unstyled list-inline sf-event-addToList">
-                            <li><a href="@Model.Item.GenerateOutlookUrl()" target="_blank">@Html.Resource("OutlookEventExporterTitle")</a>,</li>
-                            <li><a href="@Model.Item.GenerateICalUrl()" target="_blank">@Html.Resource("ICalEventExporterTitle")</a>,</li>
-                            <li><a href="@Model.Item.GenerateGoogleUrl()" target="_blank">@Html.Resource("GoogleEventExporterTitle")</a></li>
-                        </ul>
-                    </div>
-                }
+
+        @if (!string.IsNullOrEmpty(Model.Item.Fields.Location))
+        {
+            <p class="text-muted">
+                @*How to find us field*@
+                @Model.Item.Fields.Location
+            </p>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Item.Fields.Description))
+        {
+            <p class="text-muted">
+                @Model.Item.Fields.Description
+            </p>
+        }
+
+
+        @Html.CommentsCount(string.Empty, @Model.Item.DataItem)
+        <div>
+            @if (!string.IsNullOrEmpty(Model.Item.Fields.ContactWeb))
+            {
+                <a href="@(Model.Item.Fields.ContactWeb)" target="_blank">Official Website</a>
+            }
         </div>
     </div>
 
-    @if (!string.IsNullOrEmpty(Model.Item.Fields.Summary))
-    {        
-        <p class="text-muted" @Html.InlineEditingFieldAttributes("Summary", "LongText")>@Html.Raw(Model.Item.Fields.Summary)</p>
-    }
+    <div class="col-xs-12">
+        @if (!string.IsNullOrEmpty(Model.Item.Fields.Summary))
+        {
+            <p class="text-muted" @Html.InlineEditingFieldAttributes("Summary", "LongText")>@Html.Raw(Model.Item.Fields.Summary)</p>
+        }
 
-    @if (!string.IsNullOrEmpty(Model.Item.Fields.Content))
-    {        
-        <p @Html.InlineEditingFieldAttributes("Content", "LongText")>@Html.Raw(Model.Item.Fields.Content)</p>
-    }
-    
-    @if (Model.EnableSocialSharing)
-    {
-        @Html.SocialShareOptions()
-    }
+        @if (!string.IsNullOrEmpty(Model.Item.Fields.Content))
+        {
+            <p @Html.InlineEditingFieldAttributes("Content", "LongText")>@Html.Raw(Model.Item.Fields.Content)</p>
+        }
 
-    @Html.CommentsList(@Model.Item.DataItem)
+        @if (Model.EnableSocialSharing)
+        {
+            @Html.SocialShareOptions()
+        }
+
+        @Html.CommentsList(@Model.Item.DataItem)
+    </div>
 </div>
+

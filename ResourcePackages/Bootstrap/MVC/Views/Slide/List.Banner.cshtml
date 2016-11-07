@@ -1,0 +1,77 @@
+@model Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Models.DynamicContentListViewModel
+
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.Mvc.Models;
+@using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+
+@Html.Script(ScriptRef.JQuery, "top", false)
+
+<div class="@Model.CssClass">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            @{int i = 0;}
+            @foreach (var item in Model.Items)
+            {
+                if (Model.Items.Count() > 1)
+                {
+                    if (i == 0)
+                    {
+                        <li data-target="#myCarousel" data-slide-to="@i" class="active"></li>
+                    }
+                    else
+                    {
+                        <li data-target="#myCarousel" data-slide-to="@i" class=""></li>
+                    }
+                    i++;
+                }
+            }
+        </ol>
+        <div class="row carousel-inner" role="listbox">
+            @{i = 0;}
+            @foreach (var item in Model.Items)
+            {
+                var style = (i == 0) ? "item active" : "item";
+                var textPosition = (@item.Fields.TextPosition.Text == "Right") ? "feat_text" : "feat_text_2";
+                var textInverted = (@item.Fields.InvertText) ? "inverted" : "";
+                <div class='@style' @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                    <div class="@textPosition @textInverted">
+                        <span class="feat_heading" @Html.InlineEditingFieldAttributes("Title", "ShortText")>@item.Fields.Title</span>
+                        <p class="feat_content" @Html.InlineEditingFieldAttributes("Subtitle", "ShortText")>@item.Fields.Subtitle</p>                        
+                    </div>
+                    @if (item.Fields.Image != null)
+                    {
+                        <img src='@item.Fields.Image.Fields.ThumbnailUrl.Replace("tmb-", "tmb-slide-1900")' alt='@item.Fields.Image.Fields.AlternativeText' title='@item.Fields.Image.Fields.Title'>
+                    }
+
+                </div>
+                i++;
+            }
+        </div>
+        <div class="buttons-position">
+            <span class="fa fa-pause pause-button" aria-hidden="true"></span>
+            <span class="fa fa-play play-button hidden" aria-hidden="true"></span>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        @if (Model.ShowPager)
+        {
+            @Html.Action("Index", "ContentPager", new
+       {
+           currentPage = Model.CurrentPage,
+           totalPagesCount = Model.TotalPagesCount.Value,
+           redirectUrlTemplate = ViewBag.RedirectPageUrlTemplate
+       })
+        }
+    </div>
+</div>

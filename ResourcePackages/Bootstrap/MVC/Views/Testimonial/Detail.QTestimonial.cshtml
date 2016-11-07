@@ -1,0 +1,55 @@
+@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentDetailsViewModel
+
+@using System.Collections;
+@using System.Linq;
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Libraries.Model;
+@using Telerik.Sitefinity.Localization;
+@using Telerik.Sitefinity.Model;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Pages.Model; 
+
+<div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
+    <h3 @Html.InlineEditingFieldAttributes("TestimonialAuthor", "ShortText")>
+        @Model.Item.Fields.TestimonialAuthor
+    </h3>
+    
+    
+@*Start Quote field*@
+<div @Html.InlineEditingFieldAttributes("Quote", "LongText")>@Html.Raw(Model.Item.Fields.Quote)</div>
+@*End Quote field*@
+
+@*Start JobTitle field*@
+<div>
+    <strong> Job title :</strong>
+
+    <span @Html.InlineEditingFieldAttributes("JobTitle", "ShortText")>@Model.Item.Fields.JobTitle</span>    
+</div>
+@*End JobTitle field*@
+
+@*Start Company field*@
+<div>
+    <strong> Company :</strong>
+
+    <span @Html.InlineEditingFieldAttributes("Company", "ShortText")>@Model.Item.Fields.Company</span>    
+</div>
+@*End Company field*@
+
+@*Start Photo field*@
+@if(Model.Item.Fields.Photo != null)
+{
+    <img src='@Model.Item.Fields.Photo.Fields.MediaUrl' alt='@Model.Item.Fields.Photo.Fields.AlternativeText' title='@Model.Item.Fields.Photo.Fields.Title' />
+}
+@*End Photo field*@
+
+    
+    @if (Model.EnableSocialSharing)
+    {
+        @Html.SocialShareOptions()
+    }
+
+</div>

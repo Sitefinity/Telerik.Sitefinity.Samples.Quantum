@@ -1,0 +1,227 @@
+/*#region Default styles for responsive elements */
+.sfNavWrp .sfNavToggle, .sfNavWrp .sfNavSelect
+{
+    display: none;
+}
+
+.sfNavList
+{
+    display: block;
+}
+.sfNavWrp .sfSel
+{
+    font-weight: bold;
+}
+.sfNavToggle
+{
+    cursor: pointer;
+}
+/*#endregion*/
+/*#region Horizontal (one-level) */
+.sfNavHorizontal
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.sfNavHorizontal:before, .sfNavHorizontal:after 
+{
+    content:"";
+    display:table;
+}
+.sfNavHorizontal:after 
+{
+    clear:both;
+}
+.sfNavHorizontal li
+{
+    float: left;
+}
+.sfNavHorizontal li:first-child
+{
+    margin-left: 0;
+}
+/*#endregion*/
+/*#region Horizontal with drop-down menus */
+.sfNavHorizontalDropDownWrp .k-menu
+{
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.sfNavHorizontalDropDown:before, .sfNavHorizontalDropDown:after 
+{
+    content:"";
+    display:table;
+}
+.sfNavHorizontalDropDown:after 
+{
+    clear:both;
+}
+.sfNavHorizontalDropDownWrp .k-popup
+{
+    background-color: #fff;
+}
+/*#endregion*/
+/*#region Horizontal with tabs */
+.sfNavHorizontalTabs
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.sfNavHorizontalTabs:before, .sfNavHorizontalTabs:after 
+{
+    content:"";
+    display:table;
+}
+.sfNavHorizontalTabs:after 
+{
+    clear:both;
+}
+.sfNavHorizontalTabs li
+{
+    float: left;
+}
+/*#endregion*/
+/*#region Vertical (one-level) */
+.sfNavVertical
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/*#endregion*/
+/*#region Vertical with drop-down menus */
+
+/*#endregion*/
+/*#region Horizontal sitemap*/
+.sfNavHorizontalSiteMap
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+}
+.sfNavHorizontalSiteMap:before, .sfNavHorizontalSiteMap:after 
+{
+    content:"";
+    display:table;
+}
+.sfNavHorizontalSiteMap:after 
+{
+    clear:both;
+}
+.sfNavHorizontalSiteMap:after
+{
+    content: '';
+    display: block;
+    width: 99%;
+    height: 0;
+    float: inherit;
+    overflow: hidden;
+}
+
+.sfNavHorizontalSiteMap > li
+{
+    float: left;
+    margin-left: 30px;
+}
+
+.sfNavHorizontalSiteMap > li:first-child
+{
+    margin-left: 0;
+}
+
+.sfNavHorizontalSiteMap > li > ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sfNavHorizontalSiteMap > li > a
+{
+    font-weight: bold;
+}
+/*#endregion*/
+/*#region Vertical sitemap */
+.sfNavVerticalSiteMap
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.sfNavVerticalSiteMap ul, .sfNavVerticalSiteMap li
+{
+    margin: 0;
+    padding: 0;
+}
+.sfNavVerticalSiteMap > li
+{
+    display: block;
+    margin-bottom: 10px;
+}
+.sfNavVerticalSiteMap > li:after
+{
+    content: '';
+    display: block;
+    width: 99%;
+    height: 0;
+    float: inherit;
+    overflow: hidden;
+}
+.sfNavVerticalSiteMap > li > a
+{
+        font-weight: bold;
+}
+.sfNavVerticalSiteMap > li > ul > li
+{
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+}
+.sfNavVerticalSiteMap > li > ul:before, .sfNavVerticalSiteMap > li > ul:after 
+{
+    content:"";
+    display:table;
+}
+.sfNavVerticalSiteMap > li > ul:after 
+{
+    clear:both;
+}
+.k-widget.k-menu-horizontal>.k-item{
+    border-right-width: 0px !important;
+}
+.k-link
+{
+        color: #777;
+}
+.sfSel.k-link
+{
+    color:#00B4C9;
+}
+.k-i-arrow-s
+{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    
+    margin-right:3px !important;
+    margin-left:5px !important;
+}
+.k-menu .k-item > .k-link
+{
+    padding: 15px;
+}
+a.k-link, a.k-link:visited, a.k-link:link, a.k-link:hover, a.k-link:active   {
+    text-decoration: none;}
+a.k-link:hover
+{
+    color: #333;
+}
+/*#endregion*/

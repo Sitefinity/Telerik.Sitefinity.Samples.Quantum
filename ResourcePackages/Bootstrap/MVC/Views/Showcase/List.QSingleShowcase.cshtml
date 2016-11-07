@@ -1,0 +1,97 @@
+@model Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Models.DynamicContentListViewModel
+
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.Mvc.Models;
+@using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+
+@Html.Script(ScriptRef.JQuery, "top", false)
+
+<div class="@Model.CssClass showcase">
+        @foreach (var item in Model.Items)
+        {
+            var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+            <div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                <h2 @Html.InlineEditingFieldAttributes("Title", "ShortText") class="showcase_heading">
+                    @item.Fields.Title
+                </h2>
+                <div class="col-md-6 col-xs-12 showcase_image">
+                    @*Start Thumbnail field*@
+                    <div class="col-xs-12">
+                        @if (item.Fields.Thumbnail != null)
+                {
+                            <img src='@item.Fields.Thumbnail.Fields.MediaUrl' alt='@item.Fields.Thumbnail.Fields.AlternativeText' title='@item.Fields.Thumbnail.Fields.Title' />
+                        }
+                        @*End Thumbnail field*@
+                    </div>
+                    <div class="col-xs-12 showcase_download">
+                        @*Start Download field*@
+                        @if (item.Fields.Download != null)
+                {
+                            <a href='@item.Fields.Download.Fields.MediaUrl'>Get the whole story here </a>
+                        }
+                        @*End Download field*@
+                    </div>
+
+                </div>
+                
+                <div class="col-md-6 col-xs-12 showcase_summary">
+                    @*Start Client field*@
+                    <div>
+                        <strong>Client:</strong>
+
+                        <div @Html.InlineEditingFieldAttributes("Client", "ShortText")>@item.Fields.Client</div>
+                    </div>
+                    @*End Client field*@
+
+                    @*Start Website field*@
+                    <div>
+                        <strong>Website:</strong>
+
+                        <div @Html.InlineEditingFieldAttributes("Website", "ShortText")><a href="@item.Fields.Website" target="_blank">@item.Fields.Website</a></div>
+                    </div>
+                    @*End Website field*@
+
+                    @*Start Challenge field*@
+                    <div>
+                        <strong>Challenge:</strong>
+
+                        <div @Html.InlineEditingFieldAttributes("Challenge", "LongText")>@Html.Raw(item.Fields.Challenge)</div>
+                    </div>
+                    @*End Challenge field*@
+
+                    @*Start Solution field*@
+                    <div>
+                        <strong> Solution:</strong>
+
+                        <div @Html.InlineEditingFieldAttributes("Solution", "LongText")>@Html.Raw(item.Fields.Solution)</div>
+                    </div>
+                    @*End Solution field*@
+
+                    @*Start Results field*@
+                    <div>
+                        <strong>Results:</strong>
+
+                        <div @Html.InlineEditingFieldAttributes("Results", "LongText")>@Html.Raw(item.Fields.Results)</div>
+                    </div>
+                        @*End Results field*@
+                    </div>
+
+
+
+
+                </div>
+        }
+
+    @if (Model.ShowPager)
+    {
+        @Html.Action("Index", "ContentPager", new { currentPage = Model.CurrentPage, 
+                        totalPagesCount = Model.TotalPagesCount.Value, 
+                        redirectUrlTemplate = ViewBag.RedirectPageUrlTemplate })
+    }
+
+</div>

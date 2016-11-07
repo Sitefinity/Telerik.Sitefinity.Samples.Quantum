@@ -117,76 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AutomaticallyNavigated" lastModified="2011-03-11T00:00:00">
-    <value>You were automatically navigated from "{0}" because you are not authorized to access that page!</value>
-    <comment>Message</comment>
+  <data name="403_Forbidden">
+    <value>Forbidden</value>
+    <comment>403 Forbidden</comment>
+    <lastModified>2016-10-13T11:53:17</lastModified>
   </data>
-  <data name="DraftIsNotPublicallyVisibleOnTheWebsite" lastModified="2010-07-26T00:00:00">
-    <value>Draft is not publically visible on the website</value>
-    <comment>phrase</comment>
+  <data name="404_PageNotFound">
+    <value>Page Not Found</value>
+    <comment>404 Page Not Found</comment>
+    <lastModified>2016-10-13T11:55:36</lastModified>
   </data>
-  <data name="AppMasterFolder" lastModified="2009-12-19T00:00:00">
-    <value>Folder: &lt;strong&gt;App_Master&lt;/strong&gt;</value>
-    <comment>phrase</comment>
-  </data>
-  <data name="NoMasterFiles" lastModified="2009-12-22T00:00:00">
-    <value>No master files have been uploaded to &lt;em&gt;App_Master&lt;/em&gt; folder yet</value>
-    <comment>phrase</comment>
-  </data>
-  <data name="OpenInNewWindowDescription" lastModified="2010-07-29T00:00:00">
-    <value>&lt;strong&gt;Caution:&lt;/strong&gt; Opening a new window is in conflict with web standards</value>
-    <comment>phrase: Caution: Opening a new window is in conflict with web standards</comment>
-  </data>
-  <data name="ChooseProduct" lastModified="2011-06-16T00:00:00">
-    <value>Choose Product</value>
-    <comment>phrase: Choose Product</comment>
-  </data>
-  <data name="ChooseOrderInvoicePage" lastModified="2011-07-18T00:00:00">
-    <value>Choose Order Invoice page</value>
-    <comment>phrase: Choose Order Invoice page</comment>
-  </data>
-  <data name="SelectOrderInvoicePage" lastModified="2011-07-18T00:00:00">
-    <value>Select Order Invoice page</value>
-    <comment>phrase: Select Order Invoice page</comment>
-  </data>
-  <data name="GeneralSettings" lastModified="2010-10-21T00:00:00">
-    <value>General settings</value>
-    <comment>Phrase: General settings</comment>
-  </data>
-  <data name="WelcomeToSitefinity40" lastModified="2013-05-09T11:43:55">
-    <value>Welcome to Sitefinity 6.0</value>
-    <comment>Dashboard Label: Welcome to Sitefinity 5.0</comment>
-  </data>
-  <data name="DisplayCountersToolTip" lastModified="2011-11-24T00:00:00">
-    <value>For Facebook, Twitter and Google+ shows the number of people who also shared the  same item</value>
-    <comment>The tooltip for Details link next to Display Counters checkbox in social share options.</comment>
-  </data>
-  <data name="PromptMessageCannotEditExplaination" lastModified="2011-09-07T00:00:00">
-    <value>Ask you administrator for details, if you think there is something wrong</value>
-    <comment>Explaination of prompt message when opening a content item for edit and no actions are possible</comment>
-  </data>
-  <data name="ImageSize" lastModified="2011-09-28T00:00:00">
-    <value>Image Size</value>
-    <comment>Label: Image Size</comment>
-  </data>
-  <data name="LostPasswordEmailBody" lastModified="2012-02-15T00:00:00">
-    <value>Dear &lt;%\s*UserDisplayName\s*%&gt;, we received a request for password change for username &lt;%\s*UserName\s*%&gt; at &lt;%\s*SiteName\s*%&gt;.&lt;br /&gt;
-&lt;a href="&lt;%\s*ConfirmationUrl\s*%&gt;" target="_blank"&gt;Go to this page&lt;/a&gt; to set your new password. The link will be active for one hour.&lt;br /&gt;
-&lt;br /&gt;
-Regards,&lt;br /&gt;
-The &lt;%\s*SiteName\s*%&gt; team</value>
-    <comment>The body of the email sent to users for changing their passwords</comment>
-  </data>
-  <data name="BreadcrumbShowCurrentPage" lastModified="2012-02-14T00:00:00">
-    <value>Show current page In the end of the breadcrumb</value>
-    <comment>Show current page In the end of the breadcrumb</comment>
-  </data>
-  <data name="toggle_user_menu" lastModified="2012-03-13T12:39:48">
-    <value>Toggle user menu</value>
-    <comment>This is the button for the top menu</comment>
-  </data>
-  <data name="user_preferences" lastModified="2012-03-13T12:52:12">
-    <value>User preferences</value>
-    <comment></comment>
+  <data name="500_InternalServerError">
+    <value>Internal Server Error</value>
+    <comment>500 Internal Server Error</comment>
+    <lastModified>2016-10-13T11:56:04</lastModified>
   </data>
 </root>

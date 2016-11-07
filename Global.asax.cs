@@ -4,11 +4,16 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using SitefinityWebApp.Mvc.Models;
+using SitefinityWebApp.Tasks;
 using Telerik.Sitefinity.Abstractions;
-using Telerik.Sitefinity.Personalization;
-using Telerik.Microsoft.Practices.Unity;
-using Telerik.Sitefinity.Personalization.Impl.Evaluators;
-using Telerik.Sitefinity.Personalization.Impl;
+using Telerik.Sitefinity.Frontend;
+using Telerik.Sitefinity.Frontend.Navigation.Mvc.Models;
+using Telerik.Sitefinity.GenericContent.Model;
+using Telerik.Sitefinity.Modules.News;
+using Telerik.Sitefinity.News.Model;
+using Telerik.Sitefinity.Security;
+using Telerik.Sitefinity.Workflow;
 
 namespace SitefinityWebApp
 {
@@ -17,20 +22,22 @@ namespace SitefinityWebApp
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            Telerik.Sitefinity.Abstractions.Bootstrapper.Initialized += Bootstrapper_Initialized;
+            Bootstrapper.Initialized += this.Bootstrapper_Initialized;
+            Bootstrapper.Bootstrapped += Bootstrapper_Bootstrapped;
         }
 
-        protected void Bootstrapper_Initialized(object sender, Telerik.Sitefinity.Data.ExecutedEventArgs args)
+        private void Bootstrapper_Initialized(object sender, Telerik.Sitefinity.Data.ExecutedEventArgs e)
         {
-            if (args.CommandName == "Bootstrapped") {
-                ObjectFactory.Container.RegisterType(
-                    typeof(ICriterionEvaluator),
-                    typeof(CustomEvaluator),
-                    PersonalizationConstants.CriteriaName.SearchKeywords,
-                    new ContainerControlledLifetimeManager(),
-                    new InjectionConstructor()); 
+            if (e.CommandName == "Bootstrapped")
+            {
+                FrontendModule.Current.DependencyResolver.Rebind<INavigationModel>().To<CustomNavigationModel>();
+                //RenewContentTask.CreateTask();
             }
         }
-        
+
+        protected void Bootstrapper_Bootstrapped(object sender, EventArgs e)
+        {
+            FeatherActionInvokerCustom.Register();
+        }
     }
 }

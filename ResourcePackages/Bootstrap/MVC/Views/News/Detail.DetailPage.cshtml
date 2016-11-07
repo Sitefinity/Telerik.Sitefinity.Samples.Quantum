@@ -4,10 +4,10 @@
 @using Telerik.Sitefinity.Web.DataResolving;
 
 
-<div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
-    <h3>
-		<span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</span>
-    </h3>
+<div class="@Model.CssClass news_item" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
+    <h1>
+        <span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</span>
+    </h1>
 
     <div>
 
@@ -19,15 +19,19 @@
         @Html.CommentsCount("", @Model.Item.DataItem)
     </div>
 
-    <div @Html.InlineEditingFieldAttributes("Summary", "LongText")>@Html.Raw(Model.Item.Fields.Summary)</div>
-
-	<div @Html.InlineEditingFieldAttributes("Content", "LongText")>@Html.Raw(Model.Item.Fields.Content)</div>
+    <div class="news_image">
+        @if (@Model.Item.Fields.Thumbnail != null)
+        {
+            <img src="@Model.Item.Fields.Thumbnail.Fields.MediaUrl" />}
+    </div>
+    <div class="news_summary" @Html.InlineEditingFieldAttributes("Summary", "LongText")>@Html.Raw(Model.Item.Fields.Summary)</div>
+    <div @Html.InlineEditingFieldAttributes("Content", "LongText")>@Html.Raw(Model.Item.Fields.Content)</div>
 
 
     @if (Model.EnableSocialSharing)
     {
         @Html.SocialShareOptions()
     }
-    
+
     @Html.CommentsList(@Model.Item.DataItem)
 </div>

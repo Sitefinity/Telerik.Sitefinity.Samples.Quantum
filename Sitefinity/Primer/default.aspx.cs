@@ -1,12 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Collections.Generic;
 using Telerik.Sitefinity;
 using Telerik.Sitefinity.Modules.Pages;
+using Telerik.Sitefinity.Security.Claims;
 using Telerik.Sitefinity.Services;
+using Telerik.Sitefinity.Security;
 
 namespace SitefinityWebApp.Sitefinity.Primer
 {
@@ -14,12 +16,11 @@ namespace SitefinityWebApp.Sitefinity.Primer
     {
         protected void Page_Init(object sender, EventArgs e)
         {
-            var currentUser = Telerik.Sitefinity.Security.SecurityManager.GetCurrentUser();
-            if (!currentUser.IsBackendUser || !currentUser.Identity.IsAuthenticated)
+            var currPrincipal = ClaimsManager.GetCurrentPrincipal();
+            if (!UserManager.GetManager().GetUser(currPrincipal.Identity.Name).IsBackendUser || !currPrincipal.Identity.IsAuthenticated)
             {
                 Response.Redirect("~/", true);
             }
-
             if (Request.QueryString["prime"] == null || Request.QueryString["reloadevery"] == null || Request.QueryString["timerenabled"] == null)
             {
                 //If these are not in the querystring redirect over
