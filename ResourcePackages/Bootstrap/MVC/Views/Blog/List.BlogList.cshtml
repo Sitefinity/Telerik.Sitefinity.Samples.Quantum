@@ -1,38 +1,35 @@
 @model Telerik.Sitefinity.Frontend.Mvc.Models.ContentListViewModel
 
 @using Telerik.Sitefinity;
-@using Telerik.Sitefinity.Frontend.Blogs.Mvc.Helpers;
-@using Telerik.Sitefinity.Frontend.Blogs.Mvc.Models.Blog;
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers;
 @using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Web.DataResolving;
 
 @Html.Script(ScriptRef.JQuery, "top", false)
 
 <div class="@Model.CssClass">
-
     <ul class="list-unstyled">
+
         @foreach (var item in Model.Items)
         {
-            var detailPageUrl = DetailLocationHyperLinkHelper.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.DetailPageMode);
-            <li @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+            var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+
+            <li class="news_item" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
                 <h3>
-                    @if (!string.IsNullOrEmpty(detailPageUrl))
-                    {
-                        <a @Html.InlineEditingFieldAttributes("Title", "ShortText") href="@detailPageUrl">@item.Fields.Title</a>
-                    }
-                    else{
-                        <span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@item.Fields.Title</span>
-                    }
+                    <a @Html.InlineEditingFieldAttributes("Title", "ShortText") href="@navigateUrl">@item.Fields.Title</a>
                 </h3>
 
-                @{
-                    var lastPostDate = item.GetLastPostDate();
-                    if (lastPostDate != null && lastPostDate.HasValue)
-                    {
-                        <p class="text-muted">@Html.Resource("LastPost") : @lastPostDate.Value.ToShortDateString()</p>
-                    }
-                }
 
+                <div class="text-muted">
+                    @item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt")
+                    @Html.Resource("By")
+                    @DataResolver.Resolve(item.DataItem, "Author", null)
+                    @Html.CommentsCount((string)navigateUrl, item.DataItem)
+                </div>
+
+                <div @Html.InlineEditingFieldAttributes("Summary", "ShortText")>@Html.Raw(item.Fields.Summary)</div>
+
+                <a href="@navigateUrl">@Html.Resource("FullStory")</a>
             </li>
         }
     </ul>

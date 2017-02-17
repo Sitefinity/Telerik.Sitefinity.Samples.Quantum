@@ -1,24 +1,29 @@
-@model Telerik.Sitefinity.Frontend.Blogs.Mvc.Models.Blog.BlogDetailsViewModel
+@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentDetailsViewModel
 
 @using Telerik.Sitefinity;
-@using Telerik.Sitefinity.Frontend.Blogs.Mvc.Helpers;
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers;
 @using Telerik.Sitefinity.Web.DataResolving;
 
-<div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
-    <h3>
+<div class="@Model.CssClass news_item" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
+    <h1>
         <span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</span>
-    </h3>
-	
-		<p class="text-muted">@string.Format(Html.Resource("PostsCount"), Model.PostsCount)</p>
-        @{
-            var lastPostDate = Model.Item.GetLastPostDate();
-            if (lastPostDate!=null && lastPostDate.HasValue)
-            {
-                <p class="text-muted">@Html.Resource("LastPost") : @lastPostDate.Value.ToShortDateString() </p>
-            }
-        }
+    </h1>
 
-    <div @Html.InlineEditingFieldAttributes("Description", "LongText")>@Html.Raw(Model.Item.Fields.Description)</div>
+    <div class="text-muted">
+        @Model.Item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt")
+        @Html.Resource("By")
+        @DataResolver.Resolve(@Model.Item.DataItem, "Author", null)
+        @Html.CommentsCount(string.Empty, @Model.Item.DataItem)
+    </div>
 
+    <div class="news_summary" @Html.InlineEditingFieldAttributes("Summary", "LongText")>@Html.Raw(Model.Item.Fields.Summary)</div>
+
+    <div @Html.InlineEditingFieldAttributes("Content", "LongText")>@Html.Raw(Model.Item.Fields.Content)</div>
+
+    @if (Model.EnableSocialSharing)
+    {
+        @Html.SocialShareOptions()
+    }
+
+    @Html.CommentsList(@Model.Item.DataItem)
 </div>
