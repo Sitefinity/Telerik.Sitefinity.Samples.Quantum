@@ -165,11 +165,6 @@
                 {
                     <button type="submit" class="btn btn-primary">@Html.Resource("Register")</button>
                 }
-
-                <div class="sf-mt-l">
-                    <div>Already registered?</div>
-                    <a href="@Model.LoginPageUrl">@Html.Resource("BackToLogin")</a>
-                </div>
             </div>
 			
 			if (Model.ExternalProviders != null && Model.ExternalProviders.Count() > 0)
