@@ -800,7 +800,8 @@ video {
   width: 50%;
   border-color: #00b4c9;
   border-radius: 4px;
-  padding: 6px 12px; }
+  padding: 6px 12px;
+  margin: auto; }
   @media (max-width: 885px) {
     .request_quote textarea {
       width: 100%; } }
@@ -1022,6 +1023,9 @@ textarea {
 
 /* @end Landing Page */
 /*DIFFERENT HOMEPAGE STYLES*/
+input[type=search] {
+  width: 100% !important; }
+
 .blue-big {
   position: relative;
   background-color: #00b4c9; }
@@ -1311,9 +1315,6 @@ blockquote p {
   display: none; }
 
 /* Slider */
-.slick-loading .slick-list {
-  background: #fff url("./ajax-loader.gif") center center no-repeat; }
-
 /* Icons */
 @font-face {
   font-family: 'slick';
