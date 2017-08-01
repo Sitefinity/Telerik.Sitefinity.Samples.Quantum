@@ -42,8 +42,6 @@ using System.Web.UI;
 [assembly: WebResource("SitefinityWebApp.App_Data.Sitefinity.WebsiteTemplates.Quantum.App_Themes.Quantum.Scripts.bootstrap.min.js", "application/x-javascript")]
 [assembly: WebResource("SitefinityWebApp.App_Data.Sitefinity.WebsiteTemplates.Quantum.App_Themes.Quantum.Scripts.quantum.js", "application/x-javascript")]
 
-
-
 [assembly: Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes.ControllerContainer]
 
 [assembly: Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes.ResourcePackage]
