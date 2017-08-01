@@ -1411,7 +1411,6 @@
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>
     </Content>
-    <Content Include="Settings.aiis" />
     <Content Include="ResourcePackages\Bootstrap\README.md" />
     <Content Include="ResourcePackages\Bootstrap\razorgenerator.directives" />
     <Content Include="ResourcePackages\Bootstrap\package.json" />
