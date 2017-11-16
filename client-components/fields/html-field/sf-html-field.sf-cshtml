@@ -38,16 +38,16 @@
     "insertUnorderedList", "insertOrderedList", "indent", "outdent",
     {
         name: "createLink",
-        template: "<a href=\"\" class=\"k-tool k-group-start\" ng-click=\"openLinkSelector()\"><span class=\"k-tool-icon k-createLink\"></span></a>"
+        template: "<a href=\"\" class=\"k-tool k-group-start\" ng-click=\"openLinkSelector()\" title=\"@(Res.Get<ClientComponentsResources>().InsertHyperlink)\"><span class=\"k-tool-icon k-icon k-i-link-horizontal\"></span></a>"
     },
     "unlink",
     {
         name: "insertImage",
-        template: "<a href=\"\" class=\"k-tool k-group-start\" ng-click=\"openImageSelector()\"><span class=\"k-tool-icon k-insertImage\"></span></a>"
+        template: "<a href=\"\" class=\"k-tool k-group-start\" ng-click=\"openImageSelector()\" title=\"@(Res.Get<ClientComponentsResources>().InsertImage)\"><span class=\"k-tool-icon k-icon k-i-image\"></span></a>"
     },
     {
         name: "insertFile",
-        template: "<a href=\"\" class=\"k-tool k-group-start\" ng-click=\"openDocumentSelector()\"><span class=\"k-tool-icon k-insertFile\"></span></a>"
+        template: "<a href=\"\" class=\"k-tool k-group-start\" ng-click=\"openDocumentSelector()\" title=\"@(Res.Get<ClientComponentsResources>().InsertFile)\"><span class=\"k-tool-icon k-icon k-i-attachment\"></span></a>"
     },
     {
         name: "insertVideo",
@@ -81,4 +81,3 @@
      window-class="sf-designer-dlg sf-timespan-selector-dlg sf-backend-wrp"
      dialog-controller="{{sfMediaPropertiesController}}">
 </div>
-

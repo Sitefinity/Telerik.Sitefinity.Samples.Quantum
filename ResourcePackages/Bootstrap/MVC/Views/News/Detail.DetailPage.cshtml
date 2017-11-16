@@ -3,30 +3,35 @@
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers;
 @using Telerik.Sitefinity.Web.DataResolving;
 
-<div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
-    <h3>
-        <span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</span>
 
-    </h3>
+<div class="@Model.CssClass news_item" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
+    <h1>
+        <span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</span>
+    </h1>
 
     <div>
-        @Model.Item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt")
-        @Html.Resource("By")
-        @DataResolver.Resolve(@Model.Item.DataItem, "Author", null)
 
-        @Html.CommentsCount(string.Empty, @Model.Item.DataItem)
+        <span class="text-muted">
+            @Model.Item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt")
+            @Html.Resource("By")
+            @DataResolver.Resolve(@Model.Item.DataItem, "Author", null)
+        </span>
+        @Html.CommentsCount("", @Model.Item.DataItem)
     </div>
 
-    <div @Html.InlineEditingFieldAttributes("Summary", "LongText")>@Html.HtmlSanitize((string)Model.Item.Fields.Summary)</div>
-
-    <div @Html.InlineEditingFieldAttributes("Content", "LongText")>@Html.HtmlSanitize((string)Model.Item.Fields.Content)</div>
-
-    @{        
-        if (Model.EnableSocialSharing)
+    <div class="news_image">
+        @if (@Model.Item.Fields.Thumbnail != null)
         {
-            var item = Model.Item.DataItem as Telerik.Sitefinity.Model.IHasTitle;
-            @Html.SocialShareOptions(item);
-        }
+            <img src="@Model.Item.Fields.Thumbnail.Fields.MediaUrl" />}
+    </div>
+    <div class="news_summary" @Html.InlineEditingFieldAttributes("Summary", "LongText")>@Html.Raw(Model.Item.Fields.Summary)</div>
+    <div @Html.InlineEditingFieldAttributes("Content", "LongText")>@Html.Raw(Model.Item.Fields.Content)</div>
+
+
+    @if (Model.EnableSocialSharing)
+    {
+        var item = Model.Item.DataItem as Telerik.Sitefinity.Model.IHasTitle;
+        @Html.SocialShareOptions(item)
     }
 
     @Html.CommentsList(@Model.Item.DataItem)
