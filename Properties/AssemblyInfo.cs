@@ -9,7 +9,7 @@ using System.Web.UI;
 // associated with an assembly.
 [assembly: AssemblyCompany("Progress")]
 [assembly: AssemblyProduct("Progress Sitefinity CMS")]
-[assembly: AssemblyCopyright("© 2016 Telerik AD. All rights reserved.")]
+[assembly: AssemblyCopyright("Â© 2018 Telerik AD. All rights reserved.")]
 [assembly: AssemblyTrademark("Sitefinity")]
 [assembly: AssemblyTitle("Sitefinity Web Application")]
 [assembly: AssemblyDescription("")]
