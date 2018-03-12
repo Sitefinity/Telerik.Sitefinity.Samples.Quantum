@@ -11,79 +11,83 @@
 
 @Html.Script(ScriptRef.JQuery, "top", false)
 
-<div class="@Model.CssClass showcase">
+<div class="@Model.CssClass showcase row">
         @foreach (var item in Model.Items)
         {
             var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
-            <div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
-                <h2 @Html.InlineEditingFieldAttributes("Title", "ShortText") class="showcase_heading">
+            <div class="@Model.CssClass container" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                <h2 @Html.InlineEditingFieldAttributes("Title", "ShortText")>
                     @item.Fields.Title
                 </h2>
-                <div class="col-md-6 col-xs-12 showcase_image">
+                <div class="col-md-4 showcase_image">
                     @*Start Thumbnail field*@
-                    <div class="col-xs-12">
+                    <div>
                         @if (item.Fields.Thumbnail != null)
-                {
+                        {
                             <img src='@item.Fields.Thumbnail.Fields.MediaUrl' alt='@item.Fields.Thumbnail.Fields.AlternativeText' title='@item.Fields.Thumbnail.Fields.Title' />
                         }
                         @*End Thumbnail field*@
                     </div>
-                    <div class="col-xs-12 showcase_download">
-                        @*Start Download field*@
-                        @if (item.Fields.Download != null)
-                {
-                            <a href='@item.Fields.Download.Fields.MediaUrl'>Get the whole story here </a>
-                        }
-                        @*End Download field*@
-                    </div>
-
                 </div>
                 
-                <div class="col-md-6 col-xs-12 showcase_summary">
-                    @*Start Client field*@
-                    <div>
-                        <strong>Client:</strong>
+                <div class="col-md-8 showcase_summary">
+                    <div class="row showcase-info">
+                        <div class="col-md-6 no-padding">
+                            @*Start Client field*@
+                            <div>
+                                <strong>Client</strong>
 
-                        <div @Html.InlineEditingFieldAttributes("Client", "ShortText")>@item.Fields.Client</div>
+                                <p @Html.InlineEditingFieldAttributes("Client", "ShortText")>@item.Fields.Client</p>
+                            </div>
+                            @*End Client field*@
+                        </div>
+                        <div class="col-md-6">
+                            @*Start Website field*@
+                            <div>
+                                <strong>Website</strong>
+
+                                <p @Html.InlineEditingFieldAttributes("Website", "ShortText")><a href="@item.Fields.Website" target="_blank">@item.Fields.Website</a></p>
+                            </div>
+                            @*End Website field*@
+                        </div>
                     </div>
-                    @*End Client field*@
+                    <div class="row">
+                        <div class="col-md-12">
+                            @*Start Challenge field*@
+                            <div class="showcase-info">
+                                <strong>Challenge</strong>
 
-                    @*Start Website field*@
-                    <div>
-                        <strong>Website:</strong>
+                                <p @Html.InlineEditingFieldAttributes("Challenge", "LongText")>@Html.Raw(item.Fields.Challenge)</p>
+                            </div>
+                            @*End Challenge field*@
 
-                        <div @Html.InlineEditingFieldAttributes("Website", "ShortText")><a href="@item.Fields.Website" target="_blank">@item.Fields.Website</a></div>
+                            @*Start Solution field*@
+                            <div class="showcase-info">
+                                <strong> Solution</strong>
+
+                                <p @Html.InlineEditingFieldAttributes("Solution", "LongText")>@Html.Raw(item.Fields.Solution)</p>
+                            </div>
+                            @*End Solution field*@
+
+                            @*Start Results field*@
+                            <div class="showcase-info showcase-info-last">
+                                <strong>Results</strong>
+
+                                <p @Html.InlineEditingFieldAttributes("Results", "LongText")>@Html.Raw(item.Fields.Results)</p>
+                            </div>
+                            @*End Results field*@
+                            <div class="showcase_download">
+                                @*Start Download field*@
+                                @if (item.Fields.Download != null)
+                                {
+                                    <a href='@item.Fields.Download.Fields.MediaUrl'>Read the Whole story</a>
+                                }
+                                @*End Download field*@
+                            </div>
+                        </div>
                     </div>
-                    @*End Website field*@
 
-                    @*Start Challenge field*@
-                    <div>
-                        <strong>Challenge:</strong>
-
-                        <div @Html.InlineEditingFieldAttributes("Challenge", "LongText")>@Html.Raw(item.Fields.Challenge)</div>
                     </div>
-                    @*End Challenge field*@
-
-                    @*Start Solution field*@
-                    <div>
-                        <strong> Solution:</strong>
-
-                        <div @Html.InlineEditingFieldAttributes("Solution", "LongText")>@Html.Raw(item.Fields.Solution)</div>
-                    </div>
-                    @*End Solution field*@
-
-                    @*Start Results field*@
-                    <div>
-                        <strong>Results:</strong>
-
-                        <div @Html.InlineEditingFieldAttributes("Results", "LongText")>@Html.Raw(item.Fields.Results)</div>
-                    </div>
-                        @*End Results field*@
-                    </div>
-
-
-
-
                 </div>
         }
 

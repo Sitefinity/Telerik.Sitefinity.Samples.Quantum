@@ -7,17 +7,18 @@
     <title></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
-<body class="main-body container-fluid">
+<body class="">
     <form id="form1" runat="server">
         <sf:ResourceLinks ID="resourcesLinks" UseEmbeddedThemes="false"  runat="server" DisableCompression="false">
             <sf:ResourceFile JavaScriptLibrary="JQuery"></sf:ResourceFile>
             <sf:ResourceFile Name="SitefinityWebApp.App_Data.Sitefinity.WebsiteTemplates.Quantum.App_Themes.Quantum.Scripts.quantum.js" 
                 AssemblyInfo="SitefinityWebApp.AzureWebRole" />
             <sf:ResourceFile Name="SitefinityWebApp.App_Data.Sitefinity.WebsiteTemplates.Quantum.App_Themes.Quantum.Scripts.bootstrap.min.js" 
+                AssemblyInfo="SitefinityWebApp.AzureWebRole" />
+            <sf:ResourceFile Name="SitefinityWebApp.App_Data.Sitefinity.WebsiteTemplates.Quantum.App_Themes.Quantum.Scripts.fontawesome-all.min.js" 
                 AssemblyInfo="SitefinityWebApp.AzureWebRole" />
         </sf:ResourceLinks>
         <div id="wrapper">

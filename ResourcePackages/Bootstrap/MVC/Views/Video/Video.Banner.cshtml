@@ -6,11 +6,11 @@
     var videoHeight = Model.AspectRatio.ToLowerInvariant() == "auto" ? string.Empty : string.Format("height={0}", Model.Height);
 }
 
-<div class="@Model.CssClass HomepageHeader2">
+<div class="@Model.CssClass HomepageHeader2 row">
     @if (!string.IsNullOrEmpty(videoUrl))
     {
         <video autoplay muted loop width="100%" class="@String.Concat("sf", Model.Item.Fields.Extension) video-banner" src="@videoUrl" @videoWidth @videoHeight poster="@Model.Item.Fields.ThumbnailUrl.Replace(".jpg", "vthumbnail.jpg")"></video>    
-        <div class="HomepageHeader-hgroup2">
+        <div class="container HomepageHeader-hgroup2">
             <h1>@Model.Item.Fields.Title</h1>
             <h2>@Model.Item.Fields.Description</h2>
         </div>

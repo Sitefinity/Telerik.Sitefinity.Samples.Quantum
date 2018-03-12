@@ -1,0 +1,162 @@
+﻿/*SOCIAL SHARE BUTTONS*/
+.social-button-icon{
+    font-size: 4em;
+    @media(max-width: 750px){
+        font-size: 2.5em;
+    }
+}
+
+.social-group{
+    position: fixed;
+    left:0;
+    z-index: 1;   
+}
+
+.social{
+    border-radius: 100%;
+    color: white;
+}
+
+.social-round{
+    @extend .social;
+    padding: 6px;
+}
+
+.social-high{
+    @extend .social;
+    padding:7px 5px; 
+}
+
+.social-wide{
+    @extend .social;
+    padding: 5px 8px;
+}
+
+a { 
+   text-decoration: none;
+}
+
+.sociaal:hover{
+    cursor: pointer;
+}
+
+.fa-share-alt-square{
+   color:  #ffae00; 
+   box-shadow: none!important;
+}
+
+#sticky-social{
+    border: 0!important;
+    box-shadow: none!important;
+    margin-left: -10px;
+    min-width: 50px;
+    background-color: transparent;
+}
+
+
+#sticky-social a:hover {
+background: transparent;
+}
+
+#q-horizontal-social{
+  top: 0;
+  left: 40px;
+  background-color: transparent;
+  border: 0!important;
+  box-shadow: none!important;
+  min-width: 200px;
+}
+
+#q-horizontal-social li{
+    float: left;
+    width: 30px;
+}
+
+#q-horizontal-social a {
+    padding: 0;
+    margin: 0;
+}
+
+#q-horizontal-social a:hover {
+background: transparent;
+}
+
+.social-facebook{
+    @extend .social-wide;
+    background: #3b5998;
+}
+
+.social-twitter{
+    @extend .social-round;
+    background: #1dcaff;    
+}
+
+.social-linkedin{
+    @extend .social-round;
+    background: #0077b5;
+}
+
+.social-tumblr{
+    @extend .social-wide;
+    background: #35465c;
+}
+
+.social-digg{
+    @extend .social-high;
+    background: #356AA0;
+}
+
+.social-blogger{
+    @extend .social-wide;
+    background: #f57d00;
+}
+
+
+.social-book{
+    @extend .social-round;
+    background: #34a853;
+}
+
+
+.social-delicious{
+    @extend .social-round;
+    background: #3399ff;
+}
+
+.social-myspace{
+    @extend .social-round;
+    background: #000000;
+}
+
+.social-stumbleupon{
+    @extend .social-round;
+    background: #eb4924;
+}
+
+.social-reddit{
+    border-radius: 100%;
+    background: #ff4500;
+    color: white;
+    padding: 6px;
+}
+
+.social-mail{
+    @extend .social-round;
+    background: #00b4c9;
+}
+
+.gooo{
+    padding-left: 20px!important;
+    padding-top: 5px!important;
+}
+/*SOCIAL SHARE BUTTONS END*/
+/*TAGS STYLES*/
+.tag-color{
+    color: $quantum-action;
+}
+
+.tags-count-color{
+    @extend .social-wide;
+    background-color: lightgray;
+}
+/*TAGS STYLES END*/

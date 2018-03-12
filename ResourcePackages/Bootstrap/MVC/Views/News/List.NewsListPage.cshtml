@@ -1,0 +1,52 @@
+@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentListViewModel
+
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Web.DataResolving;
+
+<div class="@Model.CssClass">
+    <ul class="list-unstyled row news-list-page">
+        @foreach (var item in Model.Items)
+            {
+                var featured = (@item.Fields.Featured) ? "featured_news_recent" : "news_item_recent";
+                var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+                var imageThumbnail = (@item.Fields.Thumbnail != null) ? "<img src=\"" + @item.Fields.Thumbnail.Fields.ThumbnailUrl.Replace("tmb-", "tmb-thumnail-6") + "\" alt='" + @item.Fields.Thumbnail.Fields.AlternativeText + "' title='" + @item.Fields.Thumbnail.Fields.Title + "'>" : "";
+
+            <li class="col-md-4" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                <div class="col-xs-12 @featured news_text homepage_news">
+                    <a href="@navigateUrl">@Html.Raw(@imageThumbnail)</a>
+                    <div class="homepage_news_text">
+                        <h4>
+                            <a @Html.InlineEditingFieldAttributes("Title", "ShortText") href="@navigateUrl">@item.Fields.Title</a>
+                        </h4>
+                        <span class="text-muted">
+                            @item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt")<br />
+                            @Html.Resource("By")
+                            @DataResolver.Resolve(item.DataItem, "Author", null)
+                        </span>
+                        <p @Html.InlineEditingFieldAttributes("Summary", "ShortText")>@Html.Raw(item.Fields.Summary)</p>
+                    </div>
+                </div>
+                @if (@item.Fields.Featured)
+                {
+                    <div class="ribbon"><span>FEATURED</span></div>
+                }
+            </li>
+
+
+
+        }
+    </ul>
+
+
+    @if (Model.ShowPager)
+            {
+        @Html.Action("Index", "ContentPager", new
+       {
+           currentPage = Model.CurrentPage,
+           totalPagesCount = Model.TotalPagesCount.Value,
+           redirectUrlTemplate = ViewBag.RedirectPageUrlTemplate
+       })
+    }
+</div>
+

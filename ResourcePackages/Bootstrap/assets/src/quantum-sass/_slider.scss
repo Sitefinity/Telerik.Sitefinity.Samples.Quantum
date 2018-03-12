@@ -1,13 +1,11 @@
 ﻿/********* @group Slider **********/
-
-
 .carousel-inner > .item > a > img, .carousel-inner > .item > img{
     margin: auto !important;
 }
 
 .glyphicon-chevron-right, .glyphicon-chevron-left{
   color: $quantum-main;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .glyphicon-chevron-right{
     right:30%!important;
@@ -149,15 +147,4 @@
     cursor: pointer;
 }
 
-    .slick-slide .news_container li:not(:first-child),
-    .slick-slide .showcase-list-item:not(:first-child){
-        @media (max-width: 775px) {
-            display: none;
-            }
-    }
-  .slick-slide .showcase-list{
-      @media (max-width: 415px) {
-          padding:0;
-          }
-  }
 /* @end Slider */

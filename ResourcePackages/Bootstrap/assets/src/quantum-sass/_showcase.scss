@@ -1,4 +1,15 @@
 ﻿/********* @group Showcase Styles **********/
+.showcase{
+    background: #F3F4F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: -5px;
+}
+
+.showcase h2{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
 
 .showcase_heading{
     text-align: center;
@@ -6,34 +17,52 @@
 }
 
 .showcase_image{
-    text-align: center;
-}
-.showcase_image img{
-    margin-bottom: 6%;
+    padding: 0;
 }
 
 .showcase_download a{
-    padding: 10px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
     margin-top: 3%;
     margin-bottom: 3%;
-    background-color: $color-button;
-    border-color: $color-button;
-    color: white;
+    background-color: white;
+    border-color: white;
+    color: #444;
     border-radius: 5px;
+    float: left;
 }
 
 .showcase_download a:hover {
-    background-color: $color-button-dark;
+    opacity: 0.8;
 }
 
-.showcase_summary div{
-    margin-bottom: 3%;
+.showcase-info{
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
 }
 
-.showcase_summary{
-    @media (max-width:775px){
-        margin-top: 5%;
-    }
+.showcase-info-last{
+    border-bottom: 1px solid #ccc;
+}
+
+.showcase-info strong{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.showcase-info p{
+    padding-top: 10px;
+}
+
+.showcase-info a{
+    color: $quantum-main;
+    font-weight: 900;
 }
 
 .showcase-list{

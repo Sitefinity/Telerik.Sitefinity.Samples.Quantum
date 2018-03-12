@@ -12,32 +12,30 @@
                 var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
                 var imageThumbnail = (@item.Fields.Thumbnail != null) ? "<img src=\"" + @item.Fields.Thumbnail.Fields.ThumbnailUrl.Replace("tmb-", "tmb-thumnail-6") + "\" alt='" + @item.Fields.Thumbnail.Fields.AlternativeText + "' title='" + @item.Fields.Thumbnail.Fields.Title + "'>" : "";
 
-                <div class="@featured">
-                    <li @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
-                        <div class="col-sm-4 col-xs-12 news_image">
+
+                    <li class="@featured" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                        <div class="col-md-4 col-xs-12 news_image">
                             <a href="@navigateUrl">@Html.Raw(@imageThumbnail)</a>
                         </div>
-                        <div class="row col-sm-8 col-xs-12">
-                            <h3>
+                        <div class="col-md-8 col-xs-12 news_text">
+                            <h4>
                                 <a @Html.InlineEditingFieldAttributes("Title", "ShortText") href="@navigateUrl">@item.Fields.Title</a>
-                            </h3>
+                            </h4>
                             <span class="text-muted">
                                 @item.GetDateTime("PublicationDate", "MMM d, yyyy, HH:mm tt")
                                 @Html.Resource("By")
                                 @DataResolver.Resolve(item.DataItem, "Author", null)
                             </span>
-                            <div @Html.InlineEditingFieldAttributes("Summary", "ShortText")>@Html.Raw(item.Fields.Summary)</div>
-                            <div>
-                                <a href="@navigateUrl">@Html.Resource("FullStory")</a>
-                            </div>
+                            <p @Html.InlineEditingFieldAttributes("Summary", "ShortText")>@Html.Raw(item.Fields.Summary)</p>
                         </div>
+                        @if (@item.Fields.Featured)
+                        {
+                            <div class="ribbon"><span>FEATURED</span></div>
+                        }
                     </li>
 
-                    @if (@item.Fields.Featured)
-                    {
-                        <div class="ribbon"><span>FEATURED</span></div>
-                    }
-                </div>
+
+
             }
         </ul>
 

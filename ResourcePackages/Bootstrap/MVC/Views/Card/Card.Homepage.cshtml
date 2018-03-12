@@ -1,0 +1,17 @@
+@model Telerik.Sitefinity.Frontend.Card.Mvc.Models.Card.CardViewModel
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+
+<div class="@Model.CssClass homepage-card-banner">
+    <img src="@Model.SelectedSizeUrl" title="@Model.ImageTitle" alt="@Model.ImageAlternativeText" class="splash">
+    <div class="container">
+        <div class="homepage-card-banner-text">
+            <h2>@Html.HtmlSanitize(Model.Heading)</h2>
+            <p>@Html.HtmlSanitize(Model.Description)</p>
+
+            @if (!string.IsNullOrEmpty(Model.ActionName))
+            {
+            <p><a href="@Model.ActionUrl" class="btn btn-primary btn-quantum-homepage" role="button">@Model.ActionName</a></p>
+            }
+        </div>
+    </div>
+</div>

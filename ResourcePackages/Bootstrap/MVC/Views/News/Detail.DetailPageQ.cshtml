@@ -4,10 +4,10 @@
 @using Telerik.Sitefinity.Web.DataResolving;
 
 
-<div class="@Model.CssClass news_item" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
-    <h1>
+<div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
+    <h2>
         <span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</span>
-    </h1>
+    </h2>
 
     <div>
 

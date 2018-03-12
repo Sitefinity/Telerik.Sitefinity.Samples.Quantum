@@ -1,0 +1,99 @@
+@model Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Models.DynamicContentListViewModel
+
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.Mvc.Models;
+@using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+
+@Html.Script(ScriptRef.JQuery, "top", false)
+
+<div class="@Model.CssClass row">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            @{int i = 0;}
+            @foreach (var item in Model.Items)
+            {
+                if (Model.Items.Count() > 1)
+                {
+                    if (i == 0)
+                    {
+                        <li data-target="#myCarousel" data-slide-to="@i" class="active"></li>
+                    }
+                    else
+                    {
+                        <li data-target="#myCarousel" data-slide-to="@i" class=""></li>
+                    }
+                    i++;
+                }
+            }
+        </ol>
+        <div class="row carousel-inner" role="listbox">
+            @{i = 0;}
+            @foreach (var item in Model.Items)
+            {
+                var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+                var style = (i == 0) ? "item active" : "item";
+                <div class='@style' @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                    <div>
+                        <div @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                            <div class="col-md-2 testimonial-quote-icon">
+                                <img src="~/ResourcePackages/Bootstrap/assets/dist/images/quote-image.png" />
+                            </div>
+                            <div class="col-md-10 testimonial-quote">
+                                <h3 @Html.InlineEditingFieldAttributes("Quote", "LongText")>
+                                    @*Start Quote field*@
+                                    @Html.Raw(item.Fields.Quote)
+                                    @*End Quote field*@
+                                </h3>
+                                <div class="testimonial-image">
+                                    <div class="col-md-2">
+                                        @*Start Photo field*@
+                                        @if (item.Fields.Photo != null)
+                                        {
+                                            <img src='@item.Fields.Photo.Fields.MediaUrl' alt='@item.Fields.Photo.Fields.AlternativeText' title='@item.Fields.Photo.Fields.Title' />
+                                        }
+                                        @*End Photo field*@
+                                    </div>
+                                    <div class="col-md-10">
+                                        <strong @Html.InlineEditingFieldAttributes("TestimonialAuthor", "ShortText")>@item.Fields.TestimonialAuthor</strong><br />
+                                        <span @Html.InlineEditingFieldAttributes("JobTitle", "ShortText")>@item.Fields.JobTitle, </span><span @Html.InlineEditingFieldAttributes("Company", "ShortText")>@item.Fields.Company</span>
+                                    </div>
+                                </div>
+                                @*End JobTitle field*@
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                i++;
+            }
+        </div>
+        <div class="buttons-position">
+            <span class="fa fa-pause pause-button" aria-hidden="true"></span>
+            <span class="fa fa-play play-button hidden" aria-hidden="true"></span>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        @if (Model.ShowPager)
+        {
+            @Html.Action("Index", "ContentPager", new
+       {
+           currentPage = Model.CurrentPage,
+           totalPagesCount = Model.TotalPagesCount.Value,
+           redirectUrlTemplate = ViewBag.RedirectPageUrlTemplate
+       })
+        }
+    </div>
+
+</div>

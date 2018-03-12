@@ -1,18 +1,5 @@
 ﻿/********* @group Services Styles **********/
 
-.devs{
-       @media (max-width: 885px) {
-        text-align:center;
-    }
-}
-
-.devs img{
-    width: 100%;
-    @media (max-width: 885px) {
-        width: 50%;
-    }
-}
-
 .design_column{
     padding: 2%;
     text-align: center;
@@ -22,37 +9,6 @@
     padding-top: 2%;
     padding-bottom: 2%;
     width: 60%;
-}
-
-.request_form{
-      width: 50%;
-      margin-left:25%;
-        @media (max-width: 885px) {
-        width: 100%;
-        margin-left:0;
-        }
-}
-
-.request_quote{
-    text-align: center;
-    padding:1%;
-}
-
-.request_quote textarea{
-    height:200px;
-    width: 50%;
-    border-color: $quantum-main;
-    border-radius: 4px;
-    padding: 6px 12px;
-    margin: auto;
-
-   @media (max-width: 885px) {
-        width: 100%;
-    }
-}
-
-.request_quote label{
-    display: none;
 }
 
 .splash {
@@ -115,6 +71,47 @@
     padding: 3%;
 }
 
+.marketing_card h2{
+    color: white!important;
+}
 
+.marketing_card p{
+    color: white!important;
+}
 
+.project{
+    padding: 0;
+}
+
+.project-phase{
+    margin-top: 40px;
+}
+
+.project-phase img{
+    opacity: 0.3;
+}
+
+.project-phase h3{
+    margin-top: -10px!important;
+    color: black!important;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.project-phase h3:after{
+    content: url('../../dist/images/Arrow.png');
+    margin-left: 30px;
+}
+
+.project-phase-last h3:after{
+    content: ''!important;
+}
+
+.project-phase p{
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
 /* @end Services */

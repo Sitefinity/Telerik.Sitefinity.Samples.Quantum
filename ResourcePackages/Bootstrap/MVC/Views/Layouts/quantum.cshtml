@@ -11,10 +11,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script defer src="~/ResourcePackages/Bootstrap/assets/dist/js/fontawesome-all.min.js"></script>
     <title></title>
     @Html.Section("head")
-    @Html.StyleSheet(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/css/styles.min.css"), "head")
+    @Html.StyleSheet(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/css/main.min.css"), "head")
     @Html.StyleSheet(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/css/quantum-style.css"), "head")
 
 </head>
@@ -47,7 +47,7 @@
 
     }
 
-    @Html.Script(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/js/project.min.js"), "bottom")
+    @Html.Script(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/js/bootstrap.min.js"), "bottom")
     @Html.Script(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/js/quantum.js"), "bottom")
 </body>
 </html>

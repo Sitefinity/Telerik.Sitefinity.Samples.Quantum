@@ -1,0 +1,99 @@
+﻿@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentDetailsViewModel
+
+@using System.Collections;
+@using System.Linq;
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Libraries.Model;
+@using Telerik.Sitefinity.Localization;
+@using Telerik.Sitefinity.Model;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Pages.Model;
+
+<div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
+    <div class="container single-location-container">
+        <div class="row">
+            <h1 @Html.InlineEditingFieldAttributes("Title", "ShortText")>
+                @Model.Item.Fields.Title
+            </h1>
+            <div class="col-md-6">
+                @*Start WorkingHours field*@
+                <div>
+                    <strong> Working Hours :</strong>
+
+                    <p @Html.InlineEditingFieldAttributes("WorkingHours", "ShortText")>@Model.Item.Fields.WorkingHours</p>
+                </div>
+                @*End WorkingHours field*@
+
+                @*Start Email field*@
+                <div>
+                    <strong> Email :</strong>
+
+                    <p @Html.InlineEditingFieldAttributes("Email", "ShortText")>@Model.Item.Fields.Email</p>
+                </div>
+                @*End Email field*@
+
+                @*Start Fax field*@
+                <div>
+                    <strong> Fax :</strong>
+
+                    <p @Html.InlineEditingFieldAttributes("Fax", "ShortText")>@Model.Item.Fields.Fax</p>
+                </div>
+                @*End Fax field*@
+
+                @*Start Phone field*@
+                <div>
+                    <strong> Phone :</strong>
+
+                    <p @Html.InlineEditingFieldAttributes("Phone", "ShortText")>@Model.Item.Fields.Phone</p>
+                </div>
+                @*End Phone field*@
+
+
+                @*Start Address field*@
+                <div>
+                    <strong> Address :</strong>
+
+                    <div>
+                        @if (!string.IsNullOrEmpty(Model.Item.Fields.Address.CountryCode))
+            {
+                            <address>
+                                @Model.Item.GetAddressString("Address", "#=Street# #=City# #=State# #=Country#")
+                            </address>
+                        }
+                    </div>
+                </div>
+
+                @if (FieldExtensions.IsApiKeyValid())
+                {
+                    @Html.Script(ScriptRef.JQuery, "top", false)
+                    @Html.Script("https://maps.googleapis.com/maps/api/js?key=" + FieldExtensions.GetApiKey() + "&sensor=false", "top", false)
+                    @Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.jquery.ui.map.js"), "top", false)
+                    @Html.Script(Url.WidgetContent("WidgetTemplates/Fields/Scripts/address-field.js", "Telerik.Sitefinity.Frontend.DynamicContent"), "bottom", false)
+                }
+
+                @*End Address field*@
+            </div>
+            <div class="col-md-6">
+                @*Start Image field*@
+                @if (Model.Item.Fields.Image != null)
+                {
+                    <img src='@Model.Item.Fields.Image.Fields.MediaUrl' alt='@Model.Item.Fields.Image.Fields.AlternativeText' title='@Model.Item.Fields.Image.Fields.Title' />
+                }
+                @*End Image field*@
+
+
+                @{
+                    if (Model.EnableSocialSharing)
+                    {
+                        var item = Model.Item.DataItem as Telerik.Sitefinity.Model.IHasTitle;
+                        @Html.SocialShareOptions(item);
+            }
+                }
+            </div>
+        </div>
+    </div>
+</div>

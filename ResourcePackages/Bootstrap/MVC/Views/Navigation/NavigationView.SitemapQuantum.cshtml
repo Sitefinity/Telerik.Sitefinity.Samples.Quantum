@@ -1,0 +1,58 @@
+@model Telerik.Sitefinity.Frontend.Navigation.Mvc.Models.INavigationModel
+
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.Navigation.Mvc.Models;
+@using Telerik.Sitefinity.Modules.Pages;
+
+@*Add scripts and stylesheets*@
+
+<div class="@Model.CssClass qsitemap row">
+    <div class="container">
+        <div class="col-md-4 quantum-footer-logo">
+            <a href="~/"><img src="~/ResourcePackages/Bootstrap/assets/dist/images/Quantum_Logo_white.png" /></a>
+        </div>
+        <div class="col-md-8">
+            @* @Html.Action("GetView", new { viewName = "Dropdown",  model= Model}) *@
+            <ul class="nav nav-sitemap">
+                @foreach (var node in Model.Nodes)
+            {
+                    @RenderRootLevelNode(node);
+            }
+            </ul>
+        </div>
+    </div>
+
+</div>
+@*Here is specified the rendering for the root level*@
+@helper RenderRootLevelNode(NodeViewModel node)
+{
+    <li >
+        <a href="@node.Url" target="@node.LinkTarget"><strong>@node.Title</strong></a>
+        @if (node.ChildNodes.Count > 0)
+        {
+            <ul class="nav nav-stacked q-sitemap-stacked">
+                @foreach (var childNode in node.ChildNodes)
+                {
+                    @RenderSubLevelsRecursive(childNode)
+                }
+            </ul>
+        }
+    </li>
+}
+
+@*Here is specified the rendering for the sub levels*@
+@helper RenderSubLevelsRecursive(NodeViewModel node)
+{
+    <li>
+        <a href="@node.Url" target ="@node.LinkTarget"  class="sub">@node.Title</a>
+        @if (node.ChildNodes.Count > 0)
+        {
+            <ul class="nav">
+                @foreach (var childNode in node.ChildNodes)
+                {
+                    @RenderSubLevelsRecursive(childNode)
+                }
+            </ul>
+        }
+    </li>
+}

@@ -13,26 +13,449 @@
 
 
 <div class="@Model.CssClass">
-	<div id="map"></div>
+	<div id="map" class="row"></div>
+    <div>
+        <div class="container locations-container">
+            <h1>Contact Us</h1>
+            <ul class="list-unstyled row">
+                @foreach (var item in Model.Items)
+            {
+                var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+                    <li class="col-md-3" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                        <div class="locations-holder">
+                            <div>
+                                <a href="@navigateUrl">
+                                    <img src="@item.Fields.Image.Fields.MediaUrl">
+                                </a>
+                            </div>
+                            <div class="locations-holder-info">
+                                <h3 @Html.InlineEditingFieldAttributes("Title", "ShortText")>
+                                    @item.Fields.Title
+                                </h3>
+
+                                <div>
+                                    @if (!string.IsNullOrEmpty(item.Fields.Address.CountryCode))
+                                    {
+                                        <span class="fa fa-globe"></span><br />
+                                        <span>
+                                            @item.GetAddressString("Address", "#=Street# #=City# #=State# #=Country#")
+                                        </span>
+                                    }
+                                </div>
+                                <div>
+                                    @if (!string.IsNullOrEmpty(item.Fields.WorkingHours))
+                                    {
+                                        <span class="far fa-clock"></span><br />
+                                        <span @Html.InlineEditingFieldAttributes("WorkingHours", "ShortText")>@item.Fields.WorkingHours</span>
+                                    }
+                                </div>
+
+                                <div>
+                                    <span class="fa fa-mobile"></span><br />
+                                    <a @Html.InlineEditingFieldAttributes("Phone", "ShortText")>@item.Fields.Phone</a>
+                                </div>
+                                <div>
+                                    @if (!string.IsNullOrEmpty(item.Fields.Fax))
+                                    {
+                                        <span class="fa fa-fax"></span><br />
+                                        <a @Html.InlineEditingFieldAttributes("Fax", "ShortText")>@item.Fields.Fax</a>
+                                    }
+                                </div>
+                                <div>
+                                    @if (!string.IsNullOrEmpty(item.Fields.Email))
+                                    {
+                                        <span class="fa fa-envelope"></span><br />
+                                        <a href="mailto:@item.Fields.Email" @Html.InlineEditingFieldAttributes("Email", "ShortText")>@item.Fields.Email</a>
+                                    }
+                                </div>
+                            </div>                          
+                        </div>
+
+                    </li>
+                }
+            </ul>
+        </div>
+
+        @if (Model.ShowPager)
+        {
+            @Html.Action("Index", "ContentPager", new
+   {
+       currentPage = Model.CurrentPage,
+       totalPagesCount = Model.TotalPagesCount.Value,
+       redirectUrlTemplate = ViewBag.RedirectPageUrlTemplate
+   })
+        }
+
+    </div>
+
 	<script type="text/javascript">
         function initMap() {
             
-			var myLatLng = {lat: 15.581651, lng: 32.430719};
+            var myLatLng = {lat: 10.581651, lng: 32.430719};
+
+            var styledMapType = new google.maps.StyledMapType(
+            [
+  {
+      "elementType": "geometry",
+      "stylers": [
+        {
+            "color": "#1d2c4d"
+        }
+      ]
+  },
+  {
+      "elementType": "labels",
+      "stylers": [
+        {
+            "visibility": "off"
+        }
+      ]
+  },
+  {
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+            "color": "#8ec3b9"
+        }
+      ]
+  },
+  {
+      "elementType": "labels.text.stroke",
+      "stylers": [
+        {
+            "color": "#1a3646"
+        }
+      ]
+  },
+  {
+      "featureType": "administrative",
+      "elementType": "geometry",
+      "stylers": [
+        {
+            "visibility": "off"
+        }
+      ]
+  },
+  {
+      "featureType": "administrative.country",
+      "elementType": "geometry.stroke",
+      "stylers": [
+        {
+            "color": "#4b6878"
+        }
+      ]
+  },
+  {
+      "featureType": "administrative.land_parcel",
+      "stylers": [
+        {
+            "visibility": "off"
+        }
+      ]
+  },
+  {
+      "featureType": "administrative.land_parcel",
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+            "color": "#64779e"
+        }
+      ]
+  },
+  {
+      "featureType": "administrative.neighborhood",
+      "stylers": [
+        {
+            "visibility": "off"
+        }
+      ]
+  },
+  {
+      "featureType": "administrative.province",
+      "elementType": "geometry.stroke",
+      "stylers": [
+        {
+            "color": "#4b6878"
+        }
+      ]
+  },
+  {
+      "featureType": "landscape.man_made",
+      "elementType": "geometry.stroke",
+      "stylers": [
+        {
+            "color": "#334e87"
+        }
+      ]
+  },
+  {
+      "featureType": "landscape.natural",
+      "elementType": "geometry",
+      "stylers": [
+        {
+            "color": "#023e58"
+        }
+      ]
+  },
+  {
+      "featureType": "landscape.natural.landcover",
+      "stylers": [
+        {
+            "color": "#75d3dd"
+        }
+      ]
+  },
+  {
+      "featureType": "landscape.natural.landcover",
+      "elementType": "geometry",
+      "stylers": [
+        {
+            "color": "#75d3dd"
+        },
+        {
+            "visibility": "simplified"
+        }
+      ]
+  },
+  {
+      "featureType": "landscape.natural.terrain",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+            "color": "#51b7c6"
+        }
+      ]
+  },
+  {
+      "featureType": "poi",
+      "stylers": [
+        {
+            "visibility": "off"
+        }
+      ]
+  },
+  {
+      "featureType": "poi",
+      "elementType": "geometry",
+      "stylers": [
+        {
+            "color": "#283d6a"
+        }
+      ]
+  },
+  {
+      "featureType": "poi",
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+            "color": "#6f9ba5"
+        }
+      ]
+  },
+  {
+      "featureType": "poi",
+      "elementType": "labels.text.stroke",
+      "stylers": [
+        {
+            "color": "#1d2c4d"
+        }
+      ]
+  },
+  {
+      "featureType": "poi.park",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+            "color": "#023e58"
+        }
+      ]
+  },
+  {
+      "featureType": "poi.park",
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+            "color": "#3C7680"
+        }
+      ]
+  },
+  {
+      "featureType": "road",
+      "stylers": [
+        {
+            "visibility": "off"
+        }
+      ]
+  },
+  {
+      "featureType": "road",
+      "elementType": "geometry",
+      "stylers": [
+        {
+            "color": "#304a7d"
+        }
+      ]
+  },
+  {
+      "featureType": "road",
+      "elementType": "labels.icon",
+      "stylers": [
+        {
+            "visibility": "off"
+        }
+      ]
+  },
+  {
+      "featureType": "road",
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+            "color": "#98a5be"
+        }
+      ]
+  },
+  {
+      "featureType": "road",
+      "elementType": "labels.text.stroke",
+      "stylers": [
+        {
+            "color": "#1d2c4d"
+        }
+      ]
+  },
+  {
+      "featureType": "road.highway",
+      "elementType": "geometry",
+      "stylers": [
+        {
+            "color": "#2c6675"
+        }
+      ]
+  },
+  {
+      "featureType": "road.highway",
+      "elementType": "geometry.stroke",
+      "stylers": [
+        {
+            "color": "#255763"
+        }
+      ]
+  },
+  {
+      "featureType": "road.highway",
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+            "color": "#b0d5ce"
+        }
+      ]
+  },
+  {
+      "featureType": "road.highway",
+      "elementType": "labels.text.stroke",
+      "stylers": [
+        {
+            "color": "#023e58"
+        }
+      ]
+  },
+  {
+      "featureType": "transit",
+      "stylers": [
+        {
+            "visibility": "off"
+        }
+      ]
+  },
+  {
+      "featureType": "transit",
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+            "color": "#98a5be"
+        }
+      ]
+  },
+  {
+      "featureType": "transit",
+      "elementType": "labels.text.stroke",
+      "stylers": [
+        {
+            "color": "#1d2c4d"
+        }
+      ]
+  },
+  {
+      "featureType": "transit.line",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+            "color": "#283d6a"
+        }
+      ]
+  },
+  {
+      "featureType": "transit.station",
+      "elementType": "geometry",
+      "stylers": [
+        {
+            "color": "#3a4762"
+        }
+      ]
+  },
+  {
+      "featureType": "water",
+      "elementType": "geometry",
+      "stylers": [
+        {
+            "color": "#0e1626"
+        }
+      ]
+  },
+  {
+      "featureType": "water",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+            "color": "#51b7c6"
+        }
+      ]
+  },
+  {
+      "featureType": "water",
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+            "color": "#4e6d70"
+        }
+      ]
+  }
+            ],
+            {name: 'Styled Map'});
 
 			var map = new google.maps.Map(document.getElementById('map'), {
 			  zoom: 3,
 			  minZoom: 3, 
 			  maxZoom: 15,
 			  scrollwheel: false,
-			  center: myLatLng
+			  center: myLatLng,
+			  mapTypeControlOptions: {
+			      mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+                          'styled_map']
+			  }
 			});
+
+			map.mapTypes.set('styled_map', styledMapType);
+			map.setMapTypeId('styled_map');
 			
-			@foreach (var item in Model.Items)
+            @foreach (var item in Model.Items)
 			{
 			<text>
+            var iconBase = '../ResourcePackages/Bootstrap/assets/dist/images/Quantum_flag.png'
 				new google.maps.Marker({
 				  position: {lat: @item.Fields.Address.Latitude.ToString().Replace(',', '.'), lng: @item.Fields.Address.Longitude.ToString().Replace(',', '.')},
-				  map: map,
+				    map: map,
+                    icon: iconBase,
 				  title: '@item.Fields.Title',
 				    animation: google.maps.Animation.DROP 
 				});

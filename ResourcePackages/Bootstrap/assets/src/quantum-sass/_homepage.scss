@@ -1,8 +1,4 @@
 ﻿/*DIFFERENT HOMEPAGE STYLES*/
-input[type=search]{
-    width:100%!important;
-}
-
 .blue-big {
   position: relative;
   background-color: $quantum-main; }
@@ -10,6 +6,57 @@ input[type=search]{
 .green-big {
     position: relative;
     background-color: $quantum-complementary;
+}
+
+.blue-big h3, .green-big h3{
+    color: white;
+    margin-top: 0;
+}
+
+.homepage-card-banner{
+    position: relative;
+}
+
+.homepage-card-banner-text{
+    position: absolute;
+    margin-right: 50%;
+    top: 0;
+        @media (max-width: 775px) {
+           position: relative;
+           margin-right: 0;
+        }
+}
+
+.homepage-card-banner-text h2{
+    margin-top: 12%;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    font-weight: 500;
+    @media (max-width: 905px) {
+             font-size: 40px;
+        }
+}
+
+.homepage-card-banner-text p{
+    padding-top: 2%;
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+.btn-quantum-homepage{
+    background: #36DEF3;
+    color: #112233;
+    border: none;
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.btn-quantum-homepage:hover{
+    background: $quantum-main;
+    color: #112233;
 }
 
 .product-container {
@@ -41,25 +88,47 @@ input[type=search]{
   font-weight: lighter; 
 }
 
-.whitepaper_part h1{
-    padding-top: 3%;
-    padding-bottom: 3%;
+.homepage-whitepaper{
+    background: #66D2DF;
+    border-radius: 8px;
+    padding: 2%;
+    margin-top: 3%;
 }
 
-.whitepaper_container {
-  text-align: center; 
+.whitepaper_part{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.whitepaper_image img {
-  padding-top: 10%;
-  padding-bottom: 10%; 
+.whitepaper_part h2{
+   margin-top: 0;
+   font-size: 26px;
+   font-weight: 600;
 }
 
-.download_whitepaper {
-  color: #00B4C9;
-  font-size: 16px;
-  border: 5px solid #00B4C9;
-  padding: 1% 5% 1% 5%; 
+.whitepaper_part p{
+   font-size: 16px;
+   line-height: 1.4;
+   color: black;
+}
+
+.btn-download{
+    background: white;
+    color: black!important;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    margin-top: 15%;  
+        @media (max-width: 1200px) and (min-width:980px){
+          font-size: 16px;
+          padding: 5px 10px;
+        }  
+}
+
+.btn-download:hover{
+    background: white!important;
+    opacity: 0.9;
 }
 
 .quote {
@@ -80,25 +149,35 @@ input[type=search]{
     width: 100%;
 }
 
-.testimonial{
-      padding: 1%;
-      text-align: center;
-      margin-bottom: 20px;
-      color: white;
+.testimonial-slide-holder{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
-.testimonial img{
+.testimonial-quote{
+    padding: 5%;
+}
+
+.testimonial-quote h3{
+    color: black;
+    font-style: italic;
+}
+
+
+.home-shop-banner{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.testimonial-image img{
       border-radius:50%;
       margin: auto;
-      max-width: 160px;
+      max-width: 90px;
 }
 
-.testimonial-author{
-    text-align: center;
-}
-
-.testimonial-author p{
-    color: white;
+.testimonial-quote-icon{
+    margin-top: -1%;
+    color: #DDF1F5;
 }
 
 .slider-testimonial-img{
@@ -114,31 +193,6 @@ input[type=search]{
 .slider-testimonial{    
   background-color: rgba(0,180,0, 0.5);
   padding: 1%;
-}
-
-blockquote {
-  border-left: 10px solid #ccc;
-  background-color: rgba(0,0,0, 0.3);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  color: white;
-  quotes: "\201C""\201D""\2018""\2019";
-  font-size: 24px;
-  @media (max-width: 1185px) {
-      font-size: 18px;
-  }
-}
-blockquote:before {
-  color: white;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-
-blockquote p {
-  display: inline;
 }
 
 .article_wrapper{

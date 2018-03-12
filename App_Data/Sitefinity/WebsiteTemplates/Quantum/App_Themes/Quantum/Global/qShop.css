@@ -14,8 +14,23 @@ body.main-body {
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
-  padding-top: 10px; }
+.blue-horizontal {
+  background-color: transparent!important;
+  border: 0!important;
+  font-size: 16px;
+  margin-top: 20px; }
+
+.mega-menu img, .mega-menu a{
+    display: none;
+}
+
+.mega-menu a:hover{
+    text-decoration: none;
+}
+
+.nav-header a{
+    display: block!important;
+}
 
 .glyphicon {
   color: #00B4C9;
@@ -48,26 +63,7 @@ a, a:visited, a:link, a:hover, a:active   {
   border: 2px solid #00B4C9;
   color: #00B4C9; }
 
-.blue-horizontal {
-  background-color: white;
-  border: 0;
-  text-transform: uppercase;
-  font-size: 16px; }
-  .blue-horizontal li {
-    text-align: center; }
-    
-.blue-horizontal
-{
-    background-color: white !important;
-    border: 0 !important;
-    text-transform: uppercase;
-    font-size: 16px;
-}
 
-.main {
-    border-left: 1px solid #eee;
-    margin: 0 0 0 -1px;
-}
 
 a, a:visited, a:link, a:hover, a:active   {
     text-decoration: none;}
@@ -143,10 +139,6 @@ input[type="submit"]
 
 .sfwishListBtnsWrp a{
   margin-right: 10px;
-}
-
-.sidebar{
-  padding: 1%;
 }
 
 .sflnkToCart{
@@ -993,6 +985,7 @@ sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkTogg
     padding: 0;
     margin: 0;
     border: 0;
+    margin-bottom: 30px;
 }
 
     .sfforumNewThreadWrp .sfforumNewThreadFormList {
@@ -1007,7 +1000,7 @@ sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkTogg
 
         .sfforumNewThreadWrp .sfforumNewThreadFormList .sfforumNewThreadName input {
             padding: 15px 20px;
-            width: 50%;
+            width: 100%;
             font-size: 18px;
         }
 

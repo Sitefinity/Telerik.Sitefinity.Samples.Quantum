@@ -5,29 +5,31 @@
 @using Telerik.Sitefinity.Frontend.Media.Mvc.Models.DocumentsList;
 
 <div class="@Model.CssClass">
-    <div class="row news_container">
-        <div class="col-xs-12">
-            <ul class="list-unstyled news_container">
+    <div class="row download_list">
+        <div class="">
+            <ul class="list-unstyled">
                 @foreach (var item in Model.Items)
-                {
-             <li class="download_item" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
-                        <div class="col-xs-12">
-                            <h4>
-                                <a class="sf-title" href="@item.Fields.MediaUrl" target="_blank">
-                                    @item.Fields.Title
-                                </a>
-                            </h4>
-                        </div>
-                        <div class="col-xs-12">
-                                <img src="@item.Fields.Image.Fields.MediaUrl">
-                    </div>
-                 <div class="col-xs-12">
-                     <i class="icon-file icon-txt icon-md">
-                         <span class="icon-txt-@(((DocumentItemViewModel)item).Extension)">@(((DocumentItemViewModel)item).Extension)</span>
-                     </i>
-                     <a href="@item.Fields.MediaUrl" target="_blank">Download</a>
-                     <span class="text-muted">(@(Math.Ceiling((double)item.Fields.TotalSize / 1024) + " KB"))</span>
-                 </div>
+                {                
+             <li class="col-md-3" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                 <div class="download_item">
+                     <div class="download_item_image">
+                         <img src="@item.Fields.Image.Fields.MediaUrl">
+                     </div>
+                     <div class="">
+                         <h3>
+                             <a class="sf-title" href="@item.Fields.MediaUrl" target="_blank">
+                                 @item.Fields.Title
+                             </a>
+                         </h3>
+                         <p>
+                             <a class="btn btn-primary btn-quantum-homepage btn-q-download" href="@item.Fields.MediaUrl" target="_blank">Download</a>
+                         </p>
+                         <p class="download_file_size">
+                             <span class="icon-txt-@(((DocumentItemViewModel)item).Extension)">@(((DocumentItemViewModel)item).Extension)</span>
+                             <span>(@(Math.Ceiling((double)item.Fields.TotalSize / 1024) + " KB"))</span>
+                         </p>
+                     </div>
+                 </div>                       
                 </li>
                 }
             </ul>

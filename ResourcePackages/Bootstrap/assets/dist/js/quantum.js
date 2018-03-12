@@ -1,12 +1,6 @@
 // JavaScript source code
 jQuery(document).ready(function () {
-    $(".dropdown").click(
-    function () {
-        $('.dropdown-menu', this).toggleClass("q-hidden");
-    });
-    
-
-
+ 
     $("#myCarousel").carousel({ interval: 8000 });
 
     $(".pause-button").click(function(){

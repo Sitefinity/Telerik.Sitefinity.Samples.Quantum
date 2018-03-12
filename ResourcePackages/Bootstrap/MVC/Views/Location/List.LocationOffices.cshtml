@@ -1,0 +1,89 @@
+@model Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Models.DynamicContentListViewModel
+
+@using Telerik.Sitefinity.Frontend.DynamicContent.WidgetTemplates.Fields.Helpers;
+@using Telerik.Sitefinity;
+@using Telerik.Sitefinity.Data.ContentLinks;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.Mvc.Models;
+@using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.Model.ContentLinks;
+@using Telerik.Sitefinity.Modules.Pages;
+
+@Html.Script(ScriptRef.JQuery, "top", false)
+
+<div class="@Model.CssClass">
+    <div class="container locations-container">
+        <h2>Our Offices</h2>
+        <ul class="list-unstyled row">
+            @foreach (var item in Model.Items)
+            {
+                var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+                <li class="col-md-4" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)item.Fields.Id)>
+                    <div class="locations-holder">
+                        <div>
+                            <a href="@navigateUrl">
+                                <img src="@item.Fields.Image.Fields.MediaUrl">
+                            </a>
+                        </div>
+                        <div class="locations-holder-info">
+                            <h3>
+                                <a @Html.InlineEditingFieldAttributes("Title", "ShortText") href="@navigateUrl">
+                                    @item.Fields.Title
+                                </a>
+                            </h3>
+
+                            <div>
+                                @if (!string.IsNullOrEmpty(item.Fields.Address.CountryCode))
+                                {
+                                    <span class="fa fa-globe"></span><br />
+                                        <span>
+                                            @item.GetAddressString("Address", "#=Street# #=City# #=State# #=Country#")
+                                        </span>
+                                }
+                            </div>
+                            <div>
+                                @if (!string.IsNullOrEmpty(item.Fields.WorkingHours))
+                                {
+                                    <span class="fa fa-clock-o"></span><br />
+                                        <span @Html.InlineEditingFieldAttributes("WorkingHours", "ShortText")>@item.Fields.WorkingHours</span>
+                                }
+                            </div>
+
+                            <div>
+                                <span class="fa fa-mobile"></span><br />
+                                <a @Html.InlineEditingFieldAttributes("Phone", "ShortText")>@item.Fields.Phone</a>
+                            </div>
+                            <div>
+                                @if (!string.IsNullOrEmpty(item.Fields.Fax))
+                                {
+                                    <span class="fa fa-fax"></span><br />
+                                        <span @Html.InlineEditingFieldAttributes("Fax", "ShortText")>@item.Fields.Fax</span>
+                                }
+                            </div>
+                            <div>
+                                @if (!string.IsNullOrEmpty(item.Fields.Email))
+                                {
+                                    <span class="fa fa-envelope"></span><br />
+                                        <a href="mailto:@item.Fields.Email" @Html.InlineEditingFieldAttributes("Email", "ShortText")>@item.Fields.Email</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+            }
+        </ul>
+    </div>
+
+    @if (Model.ShowPager)
+    {
+        @Html.Action("Index", "ContentPager", new
+       {
+           currentPage = Model.CurrentPage,
+           totalPagesCount = Model.TotalPagesCount.Value,
+           redirectUrlTemplate = ViewBag.RedirectPageUrlTemplate
+       })
+    }
+
+</div>
+

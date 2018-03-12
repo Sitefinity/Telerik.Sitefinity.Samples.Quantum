@@ -12,9 +12,9 @@
   flex-wrap: wrap; }
 
 .news_item, .news_item_recent {
-  width: 100%;
-  margin: 1%;
-  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 25px;  
+  padding: 0;
   border: 1px solid $color-gray;
   background: rgba(255, 255, 255, 0.8); 
 
@@ -27,6 +27,19 @@
    box-shadow: 0 4px 15px $color-gray;
 }
 
+.homepage_news{
+    border-radius: 8px;
+    min-height: 575px;
+}
+
+.homepage_news img{
+    border-radius: 8px 8px 0 0;
+}
+
+.homepage_news_text{
+    padding: 20px;
+}
+
 .news_image{
     text-align:center;
     margin-top: 20px;
@@ -34,10 +47,6 @@
 
 .news_item a {
     color: $color-gray-dark;
-  }
-
-.news_item_recent a, .featured_news_recent a {
-    color: $color-button;
   }
 
 .news_heading{
@@ -64,26 +73,87 @@
         padding: 2%;
     }
 
+.news_text h4{
+    font-weight: bold;
+}
+
+.news_text h4 a, .news_item h4 a{
+    color: $quantum-main;
+}
+
+.news_text h4 a:hover{
+    color: $quantum-action;
+}
+
+.news_text p{
+    font-size: 15px;
+}
+
+.news_text span{
+    font-size: 13px;
+}
+
+.news-home{
+    padding: 5%;
+}
+
+.news-list-page{
+    margin-top: 40px;
+}
+
+.download_list{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .download_item {
-    width: 350px;
-    margin: auto;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #F3F4F5;
     text-align: center;
+    margin-bottom: 30px;
+    padding: 4%;
+    min-height: 630px;
 }
 
-.download_item img{
-    width: 75%;
-    padding-top: 3%;
+.download_item:hover {
+    box-shadow: 0 4px 15px $color-gray;
 }
 
-.download_item a{
-    color: $quantum-main; 
+
+
+.download_item h3{
+    margin: 30px;
+    font-size: 20px;
+    min-height: 90px;
+}
+
+.download_item h3 a{
+    color: black;
+    font-weight: bold;
+}
+
+.download_item_image{
+    border: 1px solid #eee;
+}
+
+.download_file_size{
+    text-transform: uppercase;
+    color: #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-q-download{
+    padding-left: 40px!important;
+    padding-right: 40px!important;
 }
 
 .featured_news, .featured_news_recent {
-  width: 100%;
   margin: 1%;
+  margin-bottom: 25px;
   padding: 1%;
-  background: $quantum-main;
+  background: $quantum-complementary;
   border: 1px solid $color-gray;
   color: white;
   position:relative; 
@@ -92,69 +162,174 @@
   }
 }
 
-.featured_news_recent:hover{
-   box-shadow: 0 4px 15px $quantum-main;
+.featured_news_recent h4 a{
+   color: white;
 }
 
-.featured_news a, .featured_news_recent a {
+.featured_news_recent:hover{
+   box-shadow: 0 4px 15px $quantum-complementary;
+}
+
+.featured_news_recent a, .featured_news_recent p {
     color: white; }
 
-.featured_news img{
+.featured_news_recent img{
       width: 100%;
   }
 
+.featured_news_recent span{
+    color: white;
+  }
+
+.news_inner{
+    padding: 30px;
+}
+
+.blog_post_list{
+    margin-bottom: 80px;
+}
+
 .blog_item{
-    border-top: 1px solid $color-gray;
-    border-bottom: 1px solid $color-gray;
-    margin-top: 2%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+.blog_item h3{
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .blog_item a{
     color: $quantum-main;
 }
 
+.blog_item h3 a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.date-and-author{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
 .ribbon {
-  position: absolute;
-  right: -5px; top: -5px;
+  right: 0; top: -5px;
   z-index: 1;
   overflow: hidden;
-  width: 75px; height: 75px;
   text-align: right;
 }
 .ribbon span {
-  font-size: 10px;
-  font-weight: bold;
-  color: $color-gray;
+  font-size: 15px;
+  font-weight: lighter;
+  color: $quantum-complementary;
   text-transform: uppercase;
   text-align: center;
+  padding: 7px 12px;
   line-height: 20px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  width: 100px;
   display: block;
-  background: #79A70A;
-  background: linear-gradient(#FFAE00 0%, #A7822B 100%);
-  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  background: white;
   position: absolute;
-  top: 19px; right: -21px;
-}
-.ribbon span::before {
-  content: "";
-  position: absolute; left: 0px; top: 100%;
-  z-index: -1;
-  border-left: 3px solid #A7822B;
-  border-right: 3px solid transparent;
-  border-bottom: 3px solid transparent;
-  border-top: 3px solid #A7822B;
-}
-.ribbon span::after {
-  content: "";
-  position: absolute; right: 0px; top: 100%;
-  z-index: -1;
-  border-left: 3px solid transparent;
-  border-right: 3px solid #A7822B;
-  border-bottom: 3px solid transparent;
-  border-top: 3px solid #A7822B;
+  top: 19px; right: 0;
 }
 
+.categories-list, .sf-Tags{
+    margin-bottom: 30px;
+}
+
+.categories-list a, .sf-Tags a{
+    color: $quantum-main;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.categories-list a:hover, .sf-Tags a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.subscription{
+    padding: 0;
+}
+
+.subscription p{
+    font-size: 14px;
+}
+
+.subscription label{
+    font-size: 14px;
+}
+
+.e-mail-subscription input{
+    width: 100%!important;
+    background: white;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.subscription-button{
+    width: 100%;
+    border: none;
+    background: #002529;
+    text-transform: capitalize;
+}
+
+.blogs-container{
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.blog_item_detail{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+}
+
+.blog-social{
+    -webkit-padding-start: 0!important;
+    margin-top: 20px;
+}
+
+.blog-social li{
+    list-style: none;    
+    display: grid;
+}
+
+.blog-social li a{
+    color: #ccc;
+    font-size: 18px;
+    padding: 5px 5px 5px 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+}
+
+.blog-social li a:hover{
+    color: $quantum-main;
+}
+
+.blog_summary{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    padding-right: 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.blog_summary_quote{
+    color: $quantum-main;
+    padding-right: 15px;
+    line-height: 1.3;
+}
+
+.featured_news_recent{
+    margin-bottom: 25px;
+}
 /* @end News */

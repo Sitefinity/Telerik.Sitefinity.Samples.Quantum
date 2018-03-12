@@ -3,6 +3,7 @@
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers;
 @using Telerik.Sitefinity.Frontend.Navigation.Mvc.Models;
 @using Telerik.Sitefinity.Modules.Pages;
+@using SitefinityWebApp.Mvc.Models;
 
 <div class="@Model.CssClass">
     @* @Html.Action("GetView", new { viewName = "Dropdown",  model= Model}) *@
@@ -21,7 +22,7 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    @foreach (SitefinityWebApp.Mvc.Models.CustomNodeViewModel node in Model.Nodes)
+                    @foreach (var node in Model.Nodes)
                     {
                         @RenderRootLevelNode(node);
                     }
@@ -43,10 +44,10 @@
     if (node.ChildNodes.Count > 0)
     {
         <li class="dropdown">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle">@node.Title
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle upper-nav">@node.Title
                 <span class="caret"></span>
             </a>
-            <ul class="dropdown-menu mega-menu @(node.ChildNodes.Count==2 || node.ChildNodes.Count==4 ? "even-menu" : "")">
+            <ul class="dropdown-menu mega-menu">
                 @RenderSubLevelsRecursive(node)
             </ul>
         </li>
@@ -60,7 +61,7 @@
 @*Here is specified the rendering for all child levels*@
 @helper RenderSubLevelsRecursive(NodeViewModel node)
 {
-    foreach (SitefinityWebApp.Mvc.Models.CustomNodeViewModel childNode in node.ChildNodes)
+    foreach (var childNode in node.ChildNodes)
     {
         if(childNode.ChildNodes.Count > 0)
         {
@@ -75,16 +76,11 @@
     }
     else
     {
-        var imageHtml = (childNode.Image != null) ? "<img src=\"" + childNode.Image.MediaUrl + "\">" : "";
-                            <li class="@GetClass(childNode) mega-menu-column">                                
+                            <li class="@GetClass(childNode)">                                
                                     <ul>
-                                        <li class="nav-header"><a href="@childNode.Url" target="@childNode.LinkTarget">@childNode.Title</a></li>
-                                        <a href="@childNode.Url" target="@childNode.LinkTarget">
-                                            @Html.Raw(imageHtml)
-                                        </a>
-                                        <a href="@childNode.Url" target="@childNode.LinkTarget">
-                                        <li class="col-xs-12"><span>@childNode.Description</span></li>
-                                        </a>
+                                        <li>
+                                        <a class="nav-header" href="@childNode.Url" target="@childNode.LinkTarget">@childNode.Title</a>
+                                        </li>
                                      </ul>                                                            
                             </li>
     }
