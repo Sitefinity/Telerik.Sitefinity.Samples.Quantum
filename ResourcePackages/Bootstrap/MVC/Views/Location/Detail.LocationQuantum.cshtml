@@ -84,15 +84,6 @@
                     <img src='@Model.Item.Fields.Image.Fields.MediaUrl' alt='@Model.Item.Fields.Image.Fields.AlternativeText' title='@Model.Item.Fields.Image.Fields.Title' />
                 }
                 @*End Image field*@
-
-
-                @{
-                    if (Model.EnableSocialSharing)
-                    {
-                        var item = Model.Item.DataItem as Telerik.Sitefinity.Model.IHasTitle;
-                        @Html.SocialShareOptions(item);
-            }
-                }
             </div>
         </div>
     </div>

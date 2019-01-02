@@ -65,11 +65,5 @@
 }
 @*End Download field*@
 
-    
-    @if (Model.EnableSocialSharing)
-    {
-        @Html.SocialShareOptions()
-    }
-
     @Html.CommentsList(@Model.Item.DataItem)
 </div>

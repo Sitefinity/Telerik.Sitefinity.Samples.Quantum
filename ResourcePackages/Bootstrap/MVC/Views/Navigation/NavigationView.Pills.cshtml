@@ -6,7 +6,8 @@
 
 @*Add scripts and stylesheets*@
 @Html.Script(ScriptRef.JQuery, "top", false)
-@Html.Script(Url.WidgetContent("Mvc/Scripts/Bootstrap/js/bootstrap.min.js"), "top", false)
+
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <div class="@Model.CssClass">
     @* @Html.Action("GetView", new { viewName = "Dropdown",  model= Model}) *@
@@ -78,4 +79,4 @@
     }
 }
 
-@Html.Script(Url.WidgetContent("MVC/Scripts/Navigation/pills.js"), "bottom")
+@Html.Script(Url.WidgetContent("MVC/Scripts/Navigation/pills.js"), "bottom", true)

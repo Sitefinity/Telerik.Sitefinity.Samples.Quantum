@@ -45,11 +45,4 @@
     <img src='@Model.Item.Fields.Photo.Fields.MediaUrl' alt='@Model.Item.Fields.Photo.Fields.AlternativeText' title='@Model.Item.Fields.Photo.Fields.Title' />
 }
 @*End Photo field*@
-
-    
-    @if (Model.EnableSocialSharing)
-    {
-        @Html.SocialShareOptions()
-    }
-
 </div>

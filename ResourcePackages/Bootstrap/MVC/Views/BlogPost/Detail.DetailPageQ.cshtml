@@ -18,11 +18,6 @@
     <div class="blog_summary" @Html.InlineEditingFieldAttributes("Summary", "LongText")><span class="fa fa-quote-left blog_summary_quote"></span>@Html.Raw(Model.Item.Fields.Summary)</div>
 
     <div @Html.InlineEditingFieldAttributes("Content", "LongText")>@Html.Raw(Model.Item.Fields.Content)</div>
-
-    @if (Model.EnableSocialSharing)
-    {
-        @Html.SocialShareOptions()
-    }
-
+	
     @Html.CommentsList(@Model.Item.DataItem)
 </div>

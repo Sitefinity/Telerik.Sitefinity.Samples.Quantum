@@ -17,6 +17,8 @@
     <ItemGroup>
         <!-- Package sources used to restore packages. By default, registered sources under %APPDATA%\NuGet\NuGet.Config will be used -->
         <!-- The official NuGet package source (https://nuget.org/api/v2/) will be excluded if package sources are specified and it does not appear in the list -->
+        <PackageSource Include="\\telerik.com\distributions\OfficialReleases\Sitefinity\nuget" />
+        <PackageSource Include="\\telerik.com\distributions\Nuget" />
 	      <PackageSource Include="http://nuget.sitefinity.com/nuget/" />
         <PackageSource Include="https://nuget.org/api/v2/" />
     </ItemGroup>
@@ -113,7 +115,7 @@
 
                     Log.LogMessage("Downloading latest version of NuGet.exe...");
                     WebClient webClient = new WebClient();
-                    webClient.DownloadFile(@"https://www.nuget.org/nuget.exe", OutputFilename);
+                    webClient.DownloadFile(@"\\telerik.com\distributions\OfficialReleases\Sitefinity\nuget\NuGet.exe", OutputFilename);
 
 
                     return true;

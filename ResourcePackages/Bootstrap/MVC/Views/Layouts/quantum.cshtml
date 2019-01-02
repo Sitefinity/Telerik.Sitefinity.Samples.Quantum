@@ -11,7 +11,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <script defer src="~/ResourcePackages/Bootstrap/assets/dist/js/fontawesome-all.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <title></title>
     @Html.Section("head")
     @Html.StyleSheet(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/css/main.min.css"), "head")
@@ -47,7 +48,6 @@
 
     }
 
-    @Html.Script(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/js/bootstrap.min.js"), "bottom")
     @Html.Script(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/js/quantum.js"), "bottom")
 </body>
 </html>
