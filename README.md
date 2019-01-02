@@ -44,7 +44,7 @@ Clear the NuGet cache files. To do this:
 
 You need to attach the database backup files to your SQL Server. To do this:
 
-1. Download the database backup file from: [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB.zip)
+1. Download the database backup file from: [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_112.zip)
 2. Navigate to the _SitefinityWebApp_ -&gt; _App\_Data_ folder.
 3. Unzip the  **QuantumDB.zip**  file.
 4. In SQL Management Studio, open the context menu of _Databases_ and click _Attach..._
