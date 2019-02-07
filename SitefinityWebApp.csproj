@@ -852,8 +852,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".nuget\nuget.exe" />
-    <Content Include="AdminApp\app.48f7ffc88287f1cdafe0.bundle.js" />
-    <Content Include="AdminApp\app.92537380224c51001bf2.bundle.js" />
+    <Content Include="AdminApp\app.be82abc013ae024e4e18.bundle.js" />
     <Content Include="AdminApp\assets\auth\oidc-client.min.js" />
     <Content Include="AdminApp\assets\auth\silent-renew.html" />
     <Content Include="AdminApp\assets\auth\silent-renew.js" />
@@ -937,11 +936,10 @@
     <Content Include="AdminApp\assets\js\monaco-editor\vs\language\typescript\src\worker.js" />
     <Content Include="AdminApp\assets\js\monaco-editor\vs\loader.js" />
     <Content Include="AdminApp\DecExtensions\dec-iris.extensions.bundle.js" />
-    <Content Include="AdminApp\elements.bundle.js" />
+    <Content Include="AdminApp\elements.bb3cfdc0183913a78758.bundle.js" />
     <Content Include="AdminApp\favicon.ico" />
     <Content Include="AdminApp\index.html" />
-    <Content Include="AdminApp\vendors.24ca53043111c8c72814.bundle.js" />
-    <Content Include="AdminApp\vendors.afe53bf76cd9eedbd0c1.bundle.js" />
+    <Content Include="AdminApp\vendors.73c3e7af91de2fb2bdd0.bundle.js" />
     <Content Include="App_Data\appStatusReport.html" />
     <Content Include="App_Data\RadCaptcha\0.wav" />
     <Content Include="App_Data\RadCaptcha\1.wav" />
@@ -1209,7 +1207,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\GeoLocation\" />
     <Folder Include="App_Data\Sitefinity\WebsiteTemplates\Quantum\App_Themes\Quantum\Images\Images\" />
     <Folder Include="App_Data\Storage\FileSystem\" />
   </ItemGroup>
@@ -1410,13 +1407,13 @@
     <Content Include="App_Data\Sitefinity\Configuration\AnalyticsConfig.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="AdminApp\config.json" />
-    <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js.map" />
     <Content Include="OpenAccessNuGet.targets" />
     <Content Include="App_Data\RadSpell\fr-FR.tdf" />
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
+    <Content Include="AdminApp\config.json" />
+    <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js.map" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
