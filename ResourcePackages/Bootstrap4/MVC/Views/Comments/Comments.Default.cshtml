@@ -34,7 +34,7 @@
           
     <div data-sf-role="list-loading-indicator" class="sf-loading" style="display:none;"><span></span></div>
 
-    <ul data-sf-role="comments-container" class="media-list sf-Comments-list list-unstyled"></ul>
+    <div data-sf-role="comments-container" class="media-list sf-Comments-list list-unstyled"></div>
 
     @if(Model.EnablePaging)
     {
@@ -143,10 +143,9 @@
     }
     
     @*Single comment template*@
+    <div data-sf-role="single-comment-template">
 
-    <template data-sf-role="single-comment-template">
-
-        <li class="media sf-media">
+        <div class="media sf-media">
             <div class="media-left sf-img-thmb" aria-hidden="true"> 
                 <img alt="User avatar" data-sf-role="comment-avatar" width="40" height="40" src="@Url.WidgetContent("assets/dist/img/dummy.jpg")"/>
             </div>
@@ -158,9 +157,9 @@
                
                 <div data-sf-role="comment-message"></div>
             </div>  
-        </li>  
+        </div>  
 
-    </template>
+    </div>
 
 </div>
 

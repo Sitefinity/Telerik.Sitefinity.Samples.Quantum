@@ -55,6 +55,8 @@
           "tableWizard",
           "cleanFormatting",
           "html"
+      ],
+      "stylesheets": [
       ]
   }
 }

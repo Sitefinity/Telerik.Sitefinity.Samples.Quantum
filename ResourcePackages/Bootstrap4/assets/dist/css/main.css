@@ -9501,8 +9501,9 @@ body[contenteditable="true"] {
   user-select: none;
 }
 
-.sf-Gallery-next:hover,
-.sf-Gallery-prev:hover {
+.sf-Gallery-next:hover, .sf-Gallery-next:focus,
+.sf-Gallery-prev:hover,
+.sf-Gallery-prev:focus {
   opacity: 1;
   color: #000;
 }
