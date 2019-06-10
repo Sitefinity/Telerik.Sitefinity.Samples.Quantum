@@ -1,4 +1,4 @@
-﻿@using System.Web.Mvc;
+@using System.Web.Mvc;
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers;
 @using Telerik.Sitefinity.Modules.Pages;
 @using Telerik.Sitefinity.UI.MVC;
@@ -10,30 +10,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    @if (!SystemManager.IsDesignMode || SystemManager.IsPreviewMode)
+    {
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+        <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    }
     <title></title>
     @Html.Section("head")
     @Html.StyleSheet(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/css/main.min.css"), "head")
     @Html.StyleSheet(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/css/quantum-style.css"), "head")
-
 </head>
 
 <body class="container-fluid main-body">
     @Html.Section("top")
-	<div class="sfPublicWrapper" id="PublicWrapper">	
-		<header>	
-			@Html.SfPlaceHolder("header")	
-		</header>
-		<main>
-			@Html.SfPlaceHolder("content")	
-		</main>
-		<footer>
-			@Html.SfPlaceHolder("footer")
-		</footer>
-	</div>
+    <div class="sfPublicWrapper" id="PublicWrapper">
+        <header>
+            @Html.SfPlaceHolder("header")
+        </header>
+        <main>
+            @Html.SfPlaceHolder("content")
+        </main>
+        <footer>
+            @Html.SfPlaceHolder("footer")
+        </footer>
+    </div>
     @Html.Section("bottom")
+
     @* Inline editing scripts and helpers. They should be available only when inline editing is possible. *@
     @if (Html.ShouldRenderInlineEditing())
     {
@@ -45,9 +49,11 @@
         @Html.Script(ScriptRef.KendoAll, "top")
         @Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.RequireJS.require.min.js"), "top")
         @Html.InlineEditingManager(false)
-
     }
 
-    @Html.Script(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/js/quantum.js"), "bottom")
+    @if (!SystemManager.IsDesignMode || SystemManager.IsPreviewMode)
+    {
+        @Html.Script(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/js/quantum.js"), "bottom")
+    }
 </body>
 </html>
