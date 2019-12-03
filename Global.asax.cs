@@ -10,14 +10,5 @@ namespace SitefinityWebApp
 {
     public class Global : System.Web.HttpApplication
     {
-        protected void Application_Start(object sender, EventArgs e)
-        {
-            Bootstrapper.Bootstrapped += Bootstrapper_Bootstrapped;
-        }
-
-        protected void Bootstrapper_Bootstrapped(object sender, EventArgs e)
-        {
-            FeatherActionInvokerCustom.Register();
-        }
     }
 }
