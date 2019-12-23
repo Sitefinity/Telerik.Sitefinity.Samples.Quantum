@@ -1,0 +1,1 @@
+DELETE FROM uCommerce_CategoryProperty WHERE Value = '' OR Value is null

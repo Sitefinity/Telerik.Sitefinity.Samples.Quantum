@@ -1,0 +1,12 @@
+-- Add unique identifier to definitions so we can unify definition across tables
+ALTER TABLE uCommerce_Product ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_Category ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_ProductCatalog ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_ProductCatalogGroup ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_DataTypeEnum ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_PriceGroup ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_Currency ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_EmailProfile ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_OrderNumberSerie ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_ProductDefinitionField ADD [Guid] uniqueidentifier not null DEFAULT NEWID()
+ALTER TABLE uCommerce_DefinitionField ADD [Guid] uniqueidentifier not null DEFAULT NEWID()

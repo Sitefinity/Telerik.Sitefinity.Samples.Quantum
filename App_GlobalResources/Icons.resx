@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="analytics-orders" xml:space="preserve">
+    <value>documents-stack.png</value>
+  </data>
+  <data name="analytics-products" xml:space="preserve">
+    <value>box.png</value>
+  </data>
+  <data name="stores" xml:space="preserve">
+    <value>box.png</value>
+  </data>
+  <data name="store" xml:space="preserve">
+    <value>cart.png</value>
+  </data>
+  <data name="catalog" xml:space="preserve">
+    <value>layout.png</value>
+  </data>
+  <data name="category" xml:space="preserve">
+    <value>report.png</value>
+  </data>
+  <data name="analytics" xml:space="preserve">
+    <value>chart-up-color.png</value>
+  </data>
+  <data name="orders" xml:space="preserve">
+    <value>documents-stack.png</value>
+  </data>
+  <data name="settings-orders" xml:space="preserve">
+    <value>documents-stack.png</value>
+  </data>
+  <data name="settings-apps" xml:space="preserve">
+    <value>appsIcon.png</value>
+  </data>
+  <data name="dashboard" xml:space="preserve">
+    <value>application_view_tile.png</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>gear.png</value>
+  </data>
+  <data name="settings-install-app" xml:space="preserve">
+    <value>application_side_expand.png</value>
+  </data>
+  <data name="settings-installed-apps" xml:space="preserve">
+    <value>application_view_tile.png</value>
+  </data>
+  <data name="settings-catalog" xml:space="preserve">
+    <value>box.png</value>
+  </data>
+  <data name="marketing" xml:space="preserve">
+    <value>chart_pie.png</value>
+  </data>
+  <data name="marketing-campaign" xml:space="preserve">
+    <value>newspaper.png</value>
+  </data>
+  <data name="marketing-campaign-inactive" xml:space="preserve">
+    <value>tag_red.png</value>
+  </data>
+  <data name="orders-order" xml:space="preserve">
+    <value>folder.png</value>
+  </data>
+  <data name="orders-ordergroup" xml:space="preserve">
+    <value>settingTemplate.gif</value>
+  </data>
+  <data name="marketing-campaign-active" xml:space="preserve">
+    <value>tag_green.png</value>
+  </data>
+  <data name="orders-search" xml:space="preserve">
+    <value>magnifier.png</value>
+  </data>
+  <data name="products-search" xml:space="preserve">
+    <value>magnifier.png</value>
+  </data>
+  <data name="settings-email" xml:space="preserve">
+    <value>maps-stack.png</value>
+  </data>
+  <data name="settings-search" xml:space="preserve">
+    <value>magnifier.png</value>
+  </data>
+  <data name="settings-security" xml:space="preserve">
+    <value>lock.png</value>
+  </data>
+  <data name="settings-security-users" xml:space="preserve">
+    <value>lockUser.png</value>
+  </data>
+  <data name="settings-security-groups" xml:space="preserve">
+    <value>lockGroup.png</value>
+  </data>
+  <data name="settings-security-user" xml:space="preserve">
+    <value>user.png</value>
+  </data>
+  <data name="settings-security-group" xml:space="preserve">
+    <value>users4.png</value>
+  </data>
+  <data name="settings-email-types" xml:space="preserve">
+    <value>mails.png</value>
+  </data>
+  <data name="settings-email-type" xml:space="preserve">
+    <value>mail.png</value>
+  </data>
+  <data name="settings-email-profile" xml:space="preserve">
+    <value>mail.png</value>
+  </data>
+  <data name="settings-email-profile-item" xml:space="preserve">
+    <value>mail.png</value>
+  </data>
+  <data name="settings-email-profiles" xml:space="preserve">
+    <value>mail-open-table.png</value>
+  </data>
+  <data name="settings-catalog-pricegroups" xml:space="preserve">
+    <value>money-coin.png</value>
+  </data>
+  <data name="settings-catalog-pricegroup" xml:space="preserve">
+    <value>money.png</value>
+  </data>
+  <data name="settings-catalog-product-relations" xml:space="preserve">
+    <value>product_relation_root.png</value>
+  </data>
+  <data name="settings-catalog-product-relation" xml:space="preserve">
+    <value>product_relation.png</value>
+  </data>
+  <data name="settings-definitions" xml:space="preserve">
+    <value>documents-stack.png</value>
+  </data>
+  <data name="settings-definitions-data-types" xml:space="preserve">
+    <value>ui-scroll-pane-list.png</value>
+  </data>
+  <data name="settings-definitions-data-type" xml:space="preserve">
+    <value>ui-button.png</value>
+  </data>
+  <data name="settings-definitions-dynamic-definition-item" xml:space="preserve">
+    <value>map.png</value>
+  </data>
+  <data name="settings-definitions-dynamic-definition-items" xml:space="preserve">
+    <value>maps-stack.png</value>
+  </data>
+  <data name="settings-definitions-product-definitions" xml:space="preserve">
+    <value>map.png</value>
+  </data>
+  <data name="settings-definitions-product-definition" xml:space="preserve">
+    <value>map.png</value>
+  </data>
+  <data name="settings-dynamic-definition" xml:space="preserve">
+    <value>map.png</value>
+  </data>
+  <data name="settings-datatype-text" xml:space="preserve">
+    <value>ui-text-field.png</value>
+  </data>
+  <data name="settings-datatype-bool" xml:space="preserve">
+    <value>ui-check-box.png</value>
+  </data>
+  <data name="settings-datatype-enum" xml:space="preserve">
+    <value>ui-combo-box.png</value>
+  </data>
+  <data name="settings-datatype-media" xml:space="preserve">
+    <value>ui-scroll-pane-image.png</value>
+  </data>
+  <data name="settings-datatype-content" xml:space="preserve">
+    <value>settingTemplate.gif</value>
+  </data>
+  <data name="settings-datatype-number" xml:space="preserve">
+    <value>ui-number-field.png</value>
+  </data>
+  <data name="settings-orders-shipping-methods" xml:space="preserve">
+    <value>lorry.png</value>
+  </data>
+  <data name="settings-orders-shipping-method" xml:space="preserve">
+    <value>lorry_go.png</value>
+  </data>
+  <data name="settings-orders-payment-methods" xml:space="preserve">
+    <value>credit-cards.png</value>
+  </data>
+  <data name="settings-orders-payment-method" xml:space="preserve">
+    <value>credit-card-green.png</value>
+  </data>
+  <data name="settings-orders-countries" xml:space="preserve">
+    <value>globe-green.png</value>
+  </data>
+  <data name="settings-orders-country" xml:space="preserve">
+    <value>globe-medium-green.png</value>
+  </data>
+  <data name="settings-orders-currencies" xml:space="preserve">
+    <value>currency-euro.png</value>
+  </data>
+  <data name="settings-orders-currency" xml:space="preserve">
+    <value>money--arrow.png</value>
+  </data>
+  <data name="settings-orders-order-numbers" xml:space="preserve">
+    <value>counter.png</value>
+  </data>
+  <data name="settings-orders-order-number" xml:space="preserve">
+    <value>counter-count-up.png</value>
+  </data>
+  <data name="option-create" xml:space="preserve">
+    <value>create.png</value>
+  </data>
+  <data name="option-delete" xml:space="preserve">
+    <value>delete.png</value>
+  </data>
+  <data name="option-export" xml:space="preserve">
+    <value>table_save.png</value>
+  </data>
+  <data name="option-refresh" xml:space="preserve">
+    <value>refresh.png</value>
+  </data>
+  <data name="option-sort" xml:space="preserve">
+    <value>sort.png</value>
+  </data>
+  <data name="product" xml:space="preserve">
+    <value>tag_green.png</value>
+  </data>
+</root>

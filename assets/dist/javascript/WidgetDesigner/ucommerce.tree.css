@@ -1,0 +1,168 @@
+﻿.contentTree ul {
+    padding: 0px;
+    padding-left: 20px;
+    margin: 0px;
+}
+
+    .contentTree ul li {
+        margin-top: 5px;
+        line-height: 5px;
+    }
+
+.contentTree input[type=checkbox] {
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.contentTree .treeLink {
+    height: 20px;
+    line-height: 5px;
+}
+
+.contentTree .treeItemExpandContainer {
+    display: inline-block;
+    position: relative;
+    left: -16px;
+    top: 13px;
+    height: 0px;
+}
+
+    .contentTree .treeItemExpandContainer a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+        .contentTree .treeItemExpandContainer a span {
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+        }
+
+        .contentTree .treeItemExpandContainer a.treeItemOpen span {
+            background-image: url("/ucommerce/css/images/collapse.gif");
+        }
+
+        .contentTree .treeItemExpandContainer a.treeItemClosed span {
+            background-image: url("/ucommerce/css/images/expand.gif");
+        }
+
+.contentTree .treeNodeIcon {
+    width: auto;
+    display: inline-flex;
+    cursor: pointer;
+    height: 31px;
+    background-repeat: no-repeat;
+    background-position-y: 2px;
+}
+
+    .contentTree .treeNodeIcon .nodeName {
+        margin-top: 6px;
+        width: auto;
+        display: inline-flex;
+        display: ms-flex;
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        padding-left: 5px;
+        width: 80%;
+        white-space: nowrap;
+    }
+
+.multiPickerAction {
+    display: flex;
+    flex-flow: row;
+    line-height: 20px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px !important;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.multiPickerAction .multiPickerTree {
+    margin-right: 10px;
+}
+
+    .multiPickerAction .multiPickerTree, .selectedNodes {
+        border: 1px solid #ccc;
+        padding: 5px;
+        overflow-y: auto;
+        flex: 1 1 auto;
+        max-width: 580px;
+    }
+	.multiPickerAction .multiPickerTree {
+        margin-right: 10px;
+    }
+
+        .selectedNodes .selectedNode .node .nodeName {
+            margin-top: 0;
+        }
+
+    .multiPickerAction .selectedNodes .selected-nodes-container {
+        display: flex;
+        flex-flow: column;
+    }
+
+        .multiPickerAction .selectedNodes .selected-nodes-container .selectedNode {
+            display: flex;
+            flex-flow: row;
+            overflow: hidden;
+        }
+
+.selectedNodes .selected-nodes-container .selectedNode .removeIcon {
+    display: flex;
+    flex: 0 0 20px;
+    flex-flow: column;
+    cursor: pointer;
+    padding-right: 15px;
+}
+
+.selectedNodes .selected-nodes-container .selectedNode .node {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.selectedNodes .nodeName {
+    width: auto;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.selectedNodes .selectedNode .selectedNodeName {
+    padding-left: 20px;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    font-size: 14px;
+}
+
+.selectedNodes .treeNodeIcon {
+    width: auto;
+    cursor: pointer;
+    height: 31px;
+}
+
+.contentPickerSearchInput {
+    width: 100%;
+}
+
+.multiPickerAction .clear-search.clear-search-spinner {
+    margin-top: 5px;
+}
+
+.multiPickerAction .content-picker-search-placeHolder {
+    position: relative;
+}
+
+.multiPickerAction .clear-search {
+    position: absolute;
+    right: 6px;
+    top: 3px;
+    cursor: pointer;
+    color: #a7a7a7;
+    font-size: 20px;
+    width: 16px;
+}

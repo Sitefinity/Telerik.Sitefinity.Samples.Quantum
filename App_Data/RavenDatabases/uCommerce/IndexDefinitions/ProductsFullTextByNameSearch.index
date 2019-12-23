@@ -1,0 +1,30 @@
+{
+  "Name": "ProductsFullTextByNameSearch",
+  "LockMode": "Unlock",
+  "Map": "docs.Products.Select(product => new {\r\n    Name = product.Name\r\n})",
+  "Maps": [
+    "docs.Products.Select(product => new {\r\n    Name = product.Name\r\n})"
+  ],
+  "Reduce": null,
+  "TransformResults": null,
+  "IsMapReduce": false,
+  "IsCompiled": false,
+  "Stores": {},
+  "Indexes": {
+    "Name": "Analyzed"
+  },
+  "SortOptions": {},
+  "Analyzers": {},
+  "Fields": [],
+  "Suggestions": {
+    "Name": {
+      "Distance": "Levenshtein",
+      "Accuracy": 0.5
+    }
+  },
+  "TermVectors": {},
+  "SpatialIndexes": {},
+  "InternalFieldsMapping": null,
+  "Type": "Map",
+  "DisableInMemoryIndexing": false
+}

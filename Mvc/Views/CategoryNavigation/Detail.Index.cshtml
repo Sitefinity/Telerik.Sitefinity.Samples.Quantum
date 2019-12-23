@@ -1,0 +1,171 @@
+﻿@model dynamic
+
+@using Newtonsoft.Json;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using Telerik.Sitefinity.Services;
+@using Telerik.Sitefinity.Web;
+@using UCommerce.Sitefinity.UI.Mvc.Model;
+@using UCommerce.Sitefinity.UI.Mvc.ViewModels;
+
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-quantum.css"), "head")
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
+}
+
+<div data-component="category-navigation" id="@Html.UniqueId("categories")" v-cloak>
+    <script type="application/json" data-items="true">
+        { "items" : @Html.Raw(JsonConvert.SerializeObject(Model.Categories)) }
+    </script>
+    <header class="top top--light">
+        <div class="top-inner top-inner--center">
+            <nav class="logo-wrap hide-element-sm">
+                <a href="/" class="logo logo--on-light" alt="">
+                    <img src="@Model.ImageUrl" alt="">
+                </a>
+            </nav>
+
+            @if (Model.Categories.Count > 0)
+            {
+                <nav class="main-nav">
+                    <dropdown-menu :nodes="items"></dropdown-menu>
+                </nav>
+            }
+            <nav class="main-nav main-nav--right hide--m">
+                <ul class="category-parent">
+                    @if (Model.AllowChangingCurrency && Model.Currencies.Count > 0)
+                    {
+                        var currencies = JsonConvert.SerializeObject(Model.Currencies);
+                        var currentCurrency = JsonConvert.SerializeObject(Model.CurrentCurrency);
+                        <currency-selector :serialized-currencies="'@currencies'" :serialized-current-currency="'@currentCurrency'" :root-id="$el.id">
+                        </currency-selector>
+                    }
+                    <li class="toggle-search" v-on:click="toggleSearchBar()"><a href="javascript:void(0)"><i class="fa fa-search"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        @foreach (var route in Model.Routes)
+        {
+            <input type="hidden" class="@route.Key" value="@route.Value" />
+        }
+
+        <search :search-page-url="'@UrlPath.ResolveAbsoluteUrl(Model.SearchPageUrl)'" :product-details-page-id="'@Model.ProductDetailsPageId'" :root-id="$el.id" ref="search">
+        </search>
+    </header>
+</div>
+
+<script type="text/x-template" id="dropdown-menu-template">
+    <ul class="navbar-nav mr-auto category-parent">
+        <li v-for="node in nodes"
+            v-bind:key="node.DisplayName"
+            v-bind:class="{'selected': node.IsActive}">
+            <a v-if="node.Categories.length > 0"
+               :href="node.Url"
+               :id="node.DisplayName"
+               class="float-left"
+               v-on:click.stop>
+                {{node.DisplayName}}
+            </a>
+            <button type="button" class="btn-navcategory float-left" v-if="node.Categories.length > 0" v-on:click.stop="nodeClicked(node)"><i class="fa fa-chevron-down"></i></button>
+            <a v-else
+               v-on:click.stop
+               :href="node.Url">
+                {{node.DisplayName}}
+            </a>
+            <dropdown-submenu :parent-node="node"></dropdown-submenu>
+        </li>
+    </ul>
+</script>
+
+<script type="text/x-template" id="dropdown-submenu-template">
+    <ul class="category-child"
+        v-bind:class="{'open': isParentOpen, 'closed': !isParentOpen, 'category-parent': parentNode.Categories.length > 0, 'category-child': parentNode.Categories.length <= 0}"
+        :aria-labelledby="parentNode.DisplayName">
+        <li v-for="node in parentNode.Categories"
+            v-bind:key="node.DisplayName"
+            v-bind:class="{'selected': node.IsActive, 'mr-14p-sm': node.Categories.length > 0}">
+            <a v-if="node.Categories.length > 0"
+               :href="node.Url"
+               :id="node.DisplayName"
+               class="float-left"
+               v-on:click.stop>
+                {{node.DisplayName}}
+            </a>
+            <button type="button" class="btn-navcategory float-left position-absolute" v-if="node.Categories.length > 0" v-on:click.stop="nodeClicked(node)"><i class="fa fa-chevron-right"></i></button>
+            <a v-else
+               v-on:click.stop
+               :href="node.Url">
+                {{node.DisplayName}}
+            </a>
+            <dropdown-submenu :parent-node="node"></dropdown-submenu>
+        </li>
+    </ul>
+</script>
+
+<script type="text/x-template" id="currency-selector-template">
+    <li class="lang currency mr-30">
+        <a class="float-left">
+            <span style="display: inline-block;">{{currentCurrency.DisplayName}}</span>
+        </a>
+        <button type="button" class="btn-navcategory float-left position-absolute" v-on:click="toggleCurrenciesVisibility"><i class="fa fa-chevron-down"></i></button>
+        <ul v-show="showCurrencies" class="category-child" v-bind:class="{'open': showCurrencies}">
+            <li v-for="currency in currencies">
+                <a href="javascript:void(0)" v-on:click="setCurrency(currency.PriceGroupId)">
+                    <span>{{currency.DisplayName}}</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+</script>
+
+<script type="text/x-template" id="search-template">
+    <div v-bind:class="{ 'search-visible': showSearchBar }">
+        <div class="search">
+            <button class="search__close" v-on:click="closeSearch"><i class="fa fa-times"></i></button>
+
+            <div class="search__stage">
+
+                <form v-if="searchPageUrl !== ''" v-bind:action="searchPageUrl" class="search__form" _lpchecked="1">
+                    <i class="fa fa-search"></i>
+                    <input type="text" autocomplete="off" v-model="searchQuery" focus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="search__input" placeholder="Search for products">
+                </form>
+
+                <form v-if="searchPageUrl === ''" v-on:submit.prevent class="search__form" _lpchecked="1">
+                    <i class="fa fa-search"></i>
+                    <input type="text" autocomplete="off" v-model="searchQuery" autofocus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="search__input" placeholder="Search for products">
+                </form>
+
+                <div class="search__autocomplete">
+                    <ul class="search__suggest" v-show="searchResult.length !== 0 || suggestions.length !== 0">
+                        <li v-for="suggestion in suggestions" v-on:click="searchQuery = suggestion;search()">
+                            <span class="search__suggest-image">
+                            </span>
+                            <span class="search__suggest-info">
+                                <span class="search__suggest-title">{{suggestion}}</span>
+                            </span>
+                        </li>
+                        <li v-for="product in searchResult">
+                            <a v-bind:href="product.Url">
+                                <span class="search__suggest-image">
+                                    <img v-bind:src="product.ThumbnailImageUrl" alt="">
+                                </span>
+                                <span class="search__suggest-info">
+                                    <span class="search__suggest-title">{{product.Name}}</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a v-show="searchPageUrl !== ''" v-bind:href="searchPageHref()" class="button button--block">Show all results</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</script>

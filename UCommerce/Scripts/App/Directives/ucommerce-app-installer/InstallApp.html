@@ -1,0 +1,27 @@
+﻿<div class="appInstall">
+	<div class="loading" ng-style="installing && {'display':'table'} || {'display':'none'}">
+		<div class="loaderIndication">
+			<div class="rotateY ">
+				<i class="icon-ucommerce"></i>
+			</div>
+			<h1>{{loadingText}}</h1>
+		</div>
+	</div>
+	<div class="propertyPane">
+		<div class="upload" ng-hide="installationMode">
+			<h2 class="propertyPaneTitel">{{installAppHeader}}</h2>
+
+			<label for="fileToUpload">{{chooseAFile}}</label>
+			<div class="upload-container">
+				<input type="file" onchange="angular.element(this).scope().fileNameChanged(this)" id="FileToUpload" />
+
+				<button name="data" type="button" ng-click="uploadFiles()">{{uploadAppButton}}</button>
+				<span ng-repeat="error in errorTexts" class="appError">{{error}}</span>
+			</div>
+		</div>
+
+		<div class="installPreview" ng-show="installationMode">
+			<ucommerce-app-preview actionlistener="'installApp'" actiontext="buttonText"></ucommerce-app-preview>
+		</div>
+	</div>
+</div>

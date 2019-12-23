@@ -1,0 +1,23 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@model UCommerce.Sitefinity.UI.Mvc.ViewModels.ConfirmationMessageViewModel
+@{
+    Layout = null;
+}
+
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
+
+<div class="alert alert-info section-margin">
+    @if (string.IsNullOrEmpty(Model.Headline))
+    {
+        Model.Headline = "Thank you for your order";
+    }
+    <h1>@Model.Headline</h1>
+    <br />
+    @if (string.IsNullOrEmpty(Model.Message))
+    {
+        Model.Message = "An order confirmation email has been sent to your email address";
+    }
+    <p>@Model.Message</p>
+</div>

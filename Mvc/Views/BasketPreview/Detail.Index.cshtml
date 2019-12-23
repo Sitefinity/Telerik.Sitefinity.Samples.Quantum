@@ -1,0 +1,191 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.UI.MVC;
+@using Telerik.Sitefinity.Services;
+@model UCommerce.Sitefinity.UI.Mvc.ViewModels.BasketPreviewViewModel
+@{
+    Layout = null;
+}
+
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
+}
+
+<div class="section-margin ">
+    @using (Html.BeginFormSitefinity("RequestPayment", "BasketPreview", FormMethod.Post))
+    {
+        <div class="row well overflow-hidden">
+            <div class="col-md-6">
+                <h3 class="heading-underline">Billing address</h3>
+                <br />
+                <address>
+                    <span class="address-line"><strong>@Model.BillingAddress.FirstName @Model.BillingAddress.LastName</strong></span><br>
+                    <span class="address-line">@Model.BillingAddress.Line1<br></span>
+                    <span class="address-line">@Model.BillingAddress.PostalCode @Model.BillingAddress.City</span><br>
+                    <span class="address-line">@Model.BillingAddress.Country.Name</span>
+                    @if (!String.IsNullOrWhiteSpace(@Model.BillingAddress.Attention))
+                    {
+                        <span class="address-line"><text>att. </text> @Model.BillingAddress.Attention</span>
+                    }<br>
+                    <span class="address-line"><abbr title="Phone">P:</abbr>@Model.BillingAddress.PhoneNumber</span><br>
+                    <span class="address-line"><abbr title="Mobile">M:</abbr>@Model.BillingAddress.MobilePhoneNumber </span><br>
+                    <span class="address-line"><abbr title="Email">E:</abbr><a href="mailto:@Model.BillingAddress.EmailAddress">@Model.BillingAddress.EmailAddress</a></span>
+                </address>
+            </div>
+            <div class="col-md-6">
+                <h3 class="heading-underline">Shipping address</h3>
+                <br />
+                <address>
+                    <span class="address-line"><strong>@Model.ShipmentAddress.FirstName @Model.ShipmentAddress.LastName</strong></span><br>
+                    <span class="address-line">@Model.ShipmentAddress.CompanyName</span>
+                    @if (!String.IsNullOrWhiteSpace(@Model.ShipmentAddress.Attention))
+                    {
+                        <span class="address-line"><text>att. </text> @Model.ShipmentAddress.Attention </span>
+                    }<br />
+                    <span class="address-line">@Model.ShipmentAddress.Line1</span><br>
+                    <span class="address-line">@Model.ShipmentAddress.PostalCode @Model.ShipmentAddress.City</span><br>
+                    <span class="address-line">@Model.ShipmentAddress.Country.Name</span><br>
+                    <span class="address-line"><abbr title="Phone">P:</abbr>@Model.ShipmentAddress.PhoneNumber</span><br>
+                    <span class="address-line"><abbr title="Mobile">M:</abbr>@Model.ShipmentAddress.MobilePhoneNumber</span><br>
+                    <span class="address-line"><abbr title="Email">E:</abbr><a href="mailto:@Model.ShipmentAddress.EmailAddress">@Model.ShipmentAddress.EmailAddress</a></span>
+                </address>
+            </div>
+        </div>
+        <div class="table-wrapper">
+            <div class="table-row t-heading">
+                <div class="span2 table-cell">Item no. </div>
+                <div class="span6 table-cell">Description</div>
+                <div class="span2 table-cell money">Price</div>
+                <div class="span2 table-cell money">VAT</div>
+                <div class="span2 table-cell number">Quantity</div>
+                <div class="span2 table-cell money">Total</div>
+            </div>
+            <div class="table-body">
+                @foreach (var lineItem in @Model.OrderLines)
+                {
+                    <div class="table-row item-preview">
+                        <div class="table-cell">@lineItem.Sku</div>
+                        <div class="table-cell">@lineItem.ProductName</div>
+                        <div class="table-cell money">
+                            @if (lineItem.Discount.HasValue && lineItem.Discount > 0)
+                            {
+                                <span style="text-decoration: line-through">
+                                    @lineItem.Price
+                                </span>
+                                @lineItem.PriceWithDiscount
+                            }
+                            else
+                            {
+                                @lineItem.Price
+                            }
+                        </div>
+                        <div class="table-cell money">@lineItem.Tax</div>
+                        <div class="table-cell number">@lineItem.Quantity</div>
+                        <div class="table-cell money">@lineItem.Total</div>
+                    </div>
+                }
+            <div class="table-row">
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell">Sub total: </div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell money">
+                    @Model.SubTotal
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell">VAT: </div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell money">
+                    @Model.TaxTotal
+                </div>
+            </div>
+                @if (@Model.DiscountAmount != 0)
+                {
+            <div class="table-row">
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell">Order discounts: </div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell money">
+                    -@Model.DiscountTotal
+                </div>
+            </div>
+                }
+                @if (@Model.ShipmentAmount != 0)
+                {
+            <div class="table-row">
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell">
+                    Shipping
+                    <span> (via @Model.ShipmentName)</span>
+                </div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell money">@Model.ShippingTotal</div>
+            </div>
+                }
+                @if (@Model.PaymentAmount != 0)
+                {
+            <div class="table-row">
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell">
+                    Payment
+                    <span> (@Model.PaymentName)</span>
+                </div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell money">@Model.PaymentTotal</div>
+            </div>
+                }
+            <div class="table-row">
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                <div class="table-cell">Order total: </div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell empty-cell">&nbsp;</div>
+                <div class="table-cell money">@Model.OrderTotal</div>
+            </div>
+            </div>
+        </div>
+        <div class="control-group row multistep-btn-a">
+            <div class="col-md-6 padding-0">
+                @{
+                    var showBackButton = true;
+
+                    if (Model.PreviousStepUrl == "")
+                    {
+                        showBackButton = false;
+                    }
+
+                }
+                <a href="@Model.PreviousStepUrl" style="@(showBackButton ? "display:block" : "display:none")" type="submit" class="btn btn-next btn-transparent pull-left">Back</a>
+
+            </div>
+            <div class="col-md-6 padding-0">
+                @{
+                    var showContinueButton = true;
+
+                    if (Model.NextStepUrl == "")
+                    {
+                        showContinueButton = false;
+                    }
+
+                }
+                <input name="send-order" type="submit" style="@(showContinueButton ? "display:block" : "display:none")" class="btn btn-next btn-complete btn-success pull-right" value="Complete Order" />
+            </div>
+        </div>
+    }
+</div>

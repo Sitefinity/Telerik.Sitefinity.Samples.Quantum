@@ -1,0 +1,351 @@
+﻿@model UCommerce.Sitefinity.UI.Mvc.ViewModels.ConfirmationEmailViewModel
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+
+@{
+    Layout = null;
+}
+
+<table class="body" data-made-with-foundation=""
+       style="Margin:0;background:#fff;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
+    <tbody>
+        <tr style="padding:0;text-align:left;vertical-align:top">
+            <td class="float-center" align="center" valign="top"
+                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;float:none;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding:0;text-align:center;vertical-align:top;word-wrap:break-word">
+                <center style="min-width:1140px;width:100%">
+                    <table class="container"
+                           style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:1140px">
+                        <tbody>
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-6 first columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;text-align:left;width:570px">
+                                                    <a style="margin:0;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:center;text-decoration:none;" href="@Telerik.Sitefinity.Web.UrlPath.ResolveUrl(Url.WidgetContent("/home"), true)" rel="home" align="left">
+                                                        <img height="42" width="165" src="@Telerik.Sitefinity.Web.UrlPath.ResolveUrl(Url.WidgetContent("assets/src/images/icons/logo_quantum.png"), true)" alt="Quantum logo" style="-ms-interpolation-mode:bicubic;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto">
+                                                    </a>
+                                                </th>
+                                                <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <hr style="border-top:1px solid #e1e1e1" />
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 first last columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:570px">
+                                                    <h1>Thank you for the order @Model.CustomerName</h1>
+                                                </th>
+                                                <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="row bg-light"
+                                           style="background:#f5f5f5;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-6 first columns"
+                                                    style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:32px;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:570px">
+                                                    <h3 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">
+                                                        Billing address
+                                                    </h3>
+                                                    <hr>
+                                                    <p class="address-line">
+                                                        <strong>
+                                                            @Model.BillingAddress.FirstName
+                                                            @Model.BillingAddress.LastName
+                                                        </strong>
+                                                    </p>
+                                                    <p class="address-line">@Model.BillingAddress.Line1</p>
+                                                    <p class="address-line">
+                                                        @Model.BillingAddress.PostalCode
+                                                        @Model.BillingAddress.City
+                                                    </p>
+                                                    <p class="address-line">@Model.BillingAddress.Country.Name</p>
+                                                    @if (!String.IsNullOrWhiteSpace(@Model.BillingAddress.Attention))
+                                                    {
+                                                        <p class="address-line"><text>att.</text>@Model.BillingAddress.Attention</p>
+                                                    }
+
+                                                    <p class="address-line">
+                                                        <abbr title="Phone">P:&nbsp;</abbr>@Model.BillingAddress.PhoneNumber
+                                                    </p>
+                                                    <p class="address-line">
+                                                        <abbr title="Mobile">M:&nbsp;</abbr>@Model.BillingAddress.MobilePhoneNumber
+                                                    </p>
+                                                    <p class="address-line">
+                                                        <abbr title="Email">E:&nbsp;</abbr><a href="mailto:@Model.BillingAddress.EmailAddress"
+                                                                                              style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">@Model.BillingAddress.EmailAddress</a>
+                                                                                        </p>
+                                                                                    </th>
+                                                                                    <th class="small-12 large-6 last columns"
+                                                                                        style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:32px;padding-bottom:16px;padding-left:8px;padding-right:16px;text-align:left;width:570px">
+                                                                                        <h3 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">
+                                                                                            Shipping address
+                                                                                        </h3>
+                                                                                        <hr>
+                                                                                        <p class="address-line">
+                                                                                            <strong>
+                                                                                                @Model.ShipmentAddress.FirstName
+                                                                                                @Model.ShipmentAddress.LastName
+                                                                                            </strong>
+                                                                                        </p>
+                                                                                        <p class="address-line">@Model.ShipmentAddress.CompanyName</p>
+                                                                                        @if (!String.IsNullOrWhiteSpace(@Model.ShipmentAddress.Attention))
+                                                                                        {
+                                                                                            <p class="address-line">
+                                                                                                <text>att.</text>@Model.ShipmentAddress.Attention
+                                                                                            </p>
+                                                                                        }
+                                                                                        <p class="address-line">@Model.ShipmentAddress.Line1</p>
+                                                                                        <p class="address-line">
+                                                                                            @Model.ShipmentAddress.PostalCode
+                                                                                            @Model.ShipmentAddress.City
+                                                                                        </p>
+                                                                                        <p class="address-line">@Model.ShipmentAddress.Country.Name</p>
+                                                                                        <p class="address-line">
+                                                                                            <abbr title="Phone">P:&nbsp;</abbr>@Model.ShipmentAddress.PhoneNumber
+                                                                                        </p>
+                                                                                        <p class="address-line">
+                                                                                            <abbr title="Mobile">M:&nbsp;</abbr>@Model.ShipmentAddress.MobilePhoneNumber
+                                                                                        </p>
+                                                                                        <p class="address-line">
+                                                                                            <abbr title="Email">E:&nbsp;</abbr><a href="mailto:@Model.ShipmentAddress.EmailAddress"
+                                                                                                                                  style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">@Model.ShipmentAddress.EmailAddress</a>
+                                                                                                                            </p>
+                                                                                                                        </th>
+                                                                                                                        <th class="expander"
+                                                                                                                            style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+                                                                                                                        </th>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                            <table class="row"
+                                                                                                                   style="border-collapse:collapse;border-spacing:0;display:table;margin:24px 0;Margin:24px 0;padding:24px 0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                                                                                <tbody>
+                                                                                                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                                                                        <th class="small-12 large-12 columns first last"
+                                                                                                                            style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:100%">
+                                                                                                                            <table class="table-overview" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                                                                                <tbody>
+                                                                                                                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                                                                                        <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                                                                                                            <table class="table"
+                                                                                                                                                   style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                                                                                                <thead>
+                                                                                                                                                    <tr style="padding:8px 0;text-align:left;vertical-align:top; border-bottom: 1px solid #aaa;">
+                                                                                                                                                        <th class="span2"
+                                                                                                                                                            style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:8px 0;text-align:left">
+                                                                                                                                                            <strong>Item no.</strong>
+                                                                                                                                                        </th>
+                                                                                                                                                        <th class="span6"
+                                                                                                                                                            style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:8px 0;text-align:left">
+                                                                                                                                                            <strong>Description</strong>
+                                                                                                                                                        </th>
+                                                                                                                                                        <th class="span2 money"
+                                                                                                                                                            style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:8px 0;text-align:left">
+                                                                                                                                                            <strong>Price</strong>
+                                                                                                                                                        </th>
+                                                                                                                                                        <th class="span2 money"
+                                                                                                                                                            style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:8px 0;text-align:left">
+                                                                                                                                                            <strong>VAT</strong>
+                                                                                                                                                        </th>
+                                                                                                                                                        <th class="span2 number"
+                                                                                                                                                            style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:8px 0;text-align:left">
+                                                                                                                                                            <strong>Quantity</strong>
+                                                                                                                                                        </th>
+                                                                                                                                                        <th class="span2 money"
+                                                                                                                                                            style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:8px 0;text-align:left">
+                                                                                                                                                            <strong>Total</strong>
+                                                                                                                                                        </th>
+                                                                                                                                                    </tr>
+                                                                                                                                                </thead>
+                                                                                                                                                <tbody>
+                                                                                                                                                    @foreach (var lineItem in @Model.OrderLines)
+                                                                                                                                                    {
+                                                                                                                                                        <tr class="row-preview" style="padding:8px 0;text-align:left;vertical-align:top;border-bottom: 1px solid #aaa;">
+                                                                                                                                                            <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                @lineItem.Sku
+                                                                                                                                                            </td>
+                                                                                                                                                            <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                @lineItem.ProductName
+                                                                                                                                                            </td>
+                                                                                                                                                            <td class="money"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+                                                                                                                                                                @if (lineItem.Discount.HasValue && lineItem.Discount > 0)
+                                                                                                                                                                {
+                                                                                                                                                                    <p style="text-decoration:line-through">
+                                                                                                                                                                        @lineItem.Price
+                                                                                                                                                                    </p>
+                                                                                                                                                                    @lineItem.PriceWithDiscount
+                                                                                                                                                                }
+                                                                                                                                                                else
+                                                                                                                                                                {
+                                                                                                                                                                    @lineItem.Price
+                                                                                                                                                                }
+                                                                                                                                                            </td>
+                                                                                                                                                            <td class="money"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                @lineItem.Tax
+                                                                                                                                                            </td>
+                                                                                                                                                            <td class="number"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                @lineItem.Quantity
+                                                                                                                                                            </td>
+                                                                                                                                                            <td class="money"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                @lineItem.Total
+                                                                                                                                                            </td>
+                                                                                                                                                        </tr>
+                                                                                                                                                    }
+                                                                                                                                                    <tr style="padding:8px 0;text-align:left;vertical-align:top;border-bottom: 1px solid #aaa;">
+                                                                                                                                                        <td rowspan="@ViewBag.RowSpan"
+                                                                                                                                                            colspan="2"
+                                                                                                                                                            class="white-background"
+                                                                                                                                                            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                        </td>
+                                                                                                                                                        <td colspan="3"
+                                                                                                                                                            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                            <strong>Sub total:&nbsp;</strong>
+                                                                                                                                                        </td>
+                                                                                                                                                        <td class="money"
+                                                                                                                                                            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                            @Model.SubTotal
+                                                                                                                                                        </td>
+                                                                                                                                                    </tr>
+                                                                                                                                                    <tr style="padding:8px 0;text-align:left;vertical-align:top;border-bottom: 1px solid #aaa;">
+                                                                                                                                                        <td colspan="3"
+                                                                                                                                                            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                            <strong>VAT:&nbsp;</strong>
+                                                                                                                                                        </td>
+                                                                                                                                                        <td class="money"
+                                                                                                                                                            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                            @Model.TaxTotal
+                                                                                                                                                        </td>
+                                                                                                                                                    </tr>
+                                                                                                                                                    @if (@Model.DiscountAmount != 0)
+                                                                                                                                                    {
+                                                                                                                                                        <tr style="padding:8px 0;text-align:left;vertical-align:top;border-bottom: 1px solid #aaa;">
+                                                                                                                                                            <td colspan="3"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                <strong>Order discounts:&nbsp;</strong>
+                                                                                                                                                            </td>
+                                                                                                                                                            <td class="money"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                - @Model.DiscountTotal
+                                                                                                                                                            </td>
+                                                                                                                                                        </tr>
+                                                                                                                                                    }
+                                                                                                                                                    @if (@Model.ShipmentAmount != 0)
+                                                                                                                                                    {
+                                                                                                                                                        <tr style="padding:8px 0;text-align:left;vertical-align:top;border-bottom: 1px solid #aaa;">
+                                                                                                                                                            <td colspan="3"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                <strong>Shipping&nbsp;</strong><text>
+                                                                                                                                                                    (via
+                                                                                                                                                                    @Model.ShipmentName)
+                                                                                                                                                                </text>
+                                                                                                                                                            </td>
+                                                                                                                                                            <td class="money"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                @Model.ShippingTotal
+                                                                                                                                                            </td>
+                                                                                                                                                        </tr>
+                                                                                                                                                    }
+                                                                                                                                                    @if (@Model.PaymentAmount != 0)
+                                                                                                                                                    {
+                                                                                                                                                        <tr style="padding:0;text-align:left;vertical-align:top;border-bottom: 1px solid #aaa;">
+                                                                                                                                                            <td colspan="3"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                <strong>Payment&nbsp;</strong> <text>(@Model.PaymentName)</text>
+                                                                                                                                                            </td>
+                                                                                                                                                            <td class="money"
+                                                                                                                                                                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                                @Model.PaymentTotal
+                                                                                                                                                            </td>
+                                                                                                                                                        </tr>
+                                                                                                                                                    }
+                                                                                                                                                    <tr style="padding:0;text-align:left;vertical-align:top;border-bottom: 1px solid #aaa;">
+                                                                                                                                                        <td colspan="3"
+                                                                                                                                                            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                            <strong>Order total:&nbsp;</strong>
+                                                                                                                                                        </td>
+                                                                                                                                                        <td class="money"
+                                                                                                                                                            style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:8px 0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                                                                            @Model.OrderTotal
+                                                                                                                                                        </td>
+                                                                                                                                                    </tr>
+                                                                                                                                                </tbody>
+                                                                                                                                            </table>
+                                                                                                                                        </th>
+                                                                                                                                        <th class="expander"
+                                                                                                                                            style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+                                                                                                                                        </th>
+                                                                                                                                    </tr>
+                                                                                                                                </tbody>
+                                                                                                                            </table>
+                                                                                                                        </th>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                            <table class="row" style="border-collapse:collapse;border-spacing:0;padding:32px 0;margin:32px 0;Margin: 32px 0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                                                                                <tbody>
+                                                                                                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                                                                        <th class="small-12 large-6 first columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:570px">
+                                                                                                                            <a href="" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><strong>CONTACT US | Quantum</strong></a>
+                                                                                                                            <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:8px;padding:0;padding-top:8px;text-align:left">Copyright © 2002-2019 Quantum. All rights reserved.</p>
+                                                                                                                        </th>
+                                                                                                                        <th class="small-12 large-6 last columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:8px auto;padding:0;padding-top:8px;padding-bottom:16px;padding-left:8px;padding-right:16px;text-align:left;width:570px">
+
+                                                                                                                            <table class="row" style="border-collapse:collapse;border-spacing:0;padding:0;position:relative;text-align:center;vertical-align:top;width:100%">
+                                                                                                                                <tbody>
+                                                                                                                                    <tr style="padding:0;text-align:center;vertical-align:top">
+                                                                                                                                        <th class="small-12 large-2 first columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:80.67px">
+                                                                                                                                            <a href="http://www.facebook.com/sitefinity" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                                                                                                <img height="30" width="30" src="@Telerik.Sitefinity.Web.UrlPath.ResolveUrl(@Url.WidgetContent("assets/src/images/icons/icon-fb.png"), true)" alt="Facebook icon" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto;font-size:45px;font-family:serif;font-weight:bold;color:#b31b1b;margin:0 auto;">
+                                                                                                                                            </a>
+                                                                                                                                        </th>
+                                                                                                                                        <th class="small-12 large-2 columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:80.67px">
+                                                                                                                                            <a href="http://www.twitter.com/sitefinity" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                                                                                                <img height="30" width="30" src="@Telerik.Sitefinity.Web.UrlPath.ResolveUrl(@Url.WidgetContent("assets/src/images/icons/icon-twitter.png"), true)" alt="Twitter icon" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto;font-size:45px;font-family:serif;font-weight:bold;color:#b31b1b;margin:0 auto;">
+                                                                                                                                            </a>
+                                                                                                                                        </th>
+                                                                                                                                        <th class="small-12 large-2 columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:80.67px">
+                                                                                                                                            <a href="http://www.youtube.com/user/TelerikSitefinityCMS" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                                                                                                <img height="30" width="30" src="@Telerik.Sitefinity.Web.UrlPath.ResolveUrl(@Url.WidgetContent("assets/src/images/icons/icon-youtube.png"), true)" alt="Youtube icon" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto;font-size:45px;font-family:serif;font-weight:bold;color:#b31b1b;margin:0 auto;">
+                                                                                                                                            </a>
+                                                                                                                                        </th>
+                                                                                                                                        <th class="small-12 large-2 columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:80.67px">
+                                                                                                                                            <a href="http://www.sitefinity.com/feeds/newsrss" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                                                                                                <img height="30" width="30" src="@Telerik.Sitefinity.Web.UrlPath.ResolveUrl(@Url.WidgetContent("assets/src/images/icons/icon-rss.png"), true)" alt="Sitefinity feed icon" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto;font-size:45px;font-family:serif;font-weight:bold;color:#b31b1b;margin:0 auto;">
+                                                                                                                                            </a>
+                                                                                                                                        </th>
+                                                                                                                                        <th class="small-12 large-2 columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:80.67px">
+                                                                                                                                            <a href="http://www.linkedin.com/company/2892140?trk=NUS_CMPY_TWIT" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                                                                                                <img height="30" width="30" src="@Telerik.Sitefinity.Web.UrlPath.ResolveUrl(@Url.WidgetContent("assets/src/images/icons/icon-in.png"), true)" alt="Linkedin icon" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto;font-size:45px;font-family:serif;font-weight:bold;color:#b31b1b;margin:0 auto;">
+                                                                                                                                            </a>
+                                                                                                                                        </th>
+                                                                                                                                        <th class="small-12 large-2 last columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:80.67px">
+                                                                                                                                            <a href="https://github.com/Sitefinity/" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                                                                                                <img height="30" width="30" src="@Telerik.Sitefinity.Web.UrlPath.ResolveUrl(@Url.WidgetContent("assets/src/images/icons/icon-git.png"), true)" alt="Github icon" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto;font-size:45px;font-family:serif;font-weight:bold;color:#b31b1b;margin:0 auto;">
+                                                                                                                                            </a>
+                                                                                                                                        </th>
+                                                                                                                                        <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                                                                                                    </tr>
+                                                                                                                                </tbody>
+                                                                                                                            </table>
+                                                                                                                        </th>
+                                                                                                                        <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </center>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>

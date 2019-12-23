@@ -1,0 +1,47 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UCommerceAdmin.master.cs" Inherits="UCommerce.Web.UI.UCommerce.MasterPages.UCommerceAdmin" %>
+<%@ Register TagPrefix="uc" Namespace="UCommerce.Presentation.Web.Controls" Assembly="UCommerce.Presentation" %>
+<%@ Register TagPrefix="uc" Namespace="ClientDependency.Core.Controls" Assembly="ClientDependency.Core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head runat="server">
+		<title>uCommerce</title>
+	    <uc:ClientDependency runat="server" id="ClientDependency"/>
+        <asp:ContentPlaceHolder runat="server" id="Head"></asp:ContentPlaceHolder>
+        <asp:PlaceHolder runat="server" ID="JavaScriptPlaceHolder"></asp:PlaceHolder>
+        <asp:PlaceHolder runat="server" ID="CssPlaceHolder"></asp:PlaceHolder>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	</head>
+	<body>
+	<script type="text/javascript">
+		<%-- 
+	        Allow the client to inject a stylesheet in to the header - the stylesheet can be defined in the iframe containing this page.
+	        Needed to support Sitecore's SPEAK layout.
+	     --%>
+		var customStylesheet = $(window.frameElement).attr("ucommerce-stylesheet");
+		if (customStylesheet)
+			$("head").append('<link href="' +  customStylesheet + '" rel="stylesheet" type="text/css" />');
+	</script>
+	<script type="text/javascript">
+		var customScript = $(window.frameElement).attr("ucommerce-script");
+		if (customScript) {
+			var script = document.createElement("script");
+			script.type = "text/javascript";
+			script.src = customScript;
+			$("head").append(script);
+		}
+	</script>
+		<form id="form1" runat="server">
+		    <input type="hidden" id="mainUcommerceFrame"/>
+    		<asp:ScriptManager runat="server"/>
+			<asp:PlaceHolder ID="TabViewPlaceHolder" runat="server" />
+    		<asp:ContentPlaceHolder ID="ContentArea" runat="server"/>
+		</form>
+        <script type="text/javascript">
+	        $(function () {
+		        // window.setTimeout is required for Firefox to fire focus event properly
+		        window.setTimeout(function () { $("input:text:visible:first[value='']").focus(); }, 100);
+	        });
+        </script>
+	</body>
+</html>

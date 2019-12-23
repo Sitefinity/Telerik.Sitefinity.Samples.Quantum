@@ -1,0 +1,46 @@
+﻿<div ng-controller="analyticsDataChartController">
+    <div class="propertyItem" ng-repeat="property in widget.properties | filter:{ 'key':'googleAnalyticsKey'}">
+        <div class="propertyItemHeader">
+			<span class="widgetPropertyLabel">{{property.key}}</span>
+       </div>
+        <div class="propertyItemContent">
+			<input type="text" class="no-margin" ng-model="property.value" />
+		</div>
+    </div>
+
+    <div class="propertyItem" ng-repeat="property in widget.properties | filter:{ 'key':'chartType'}">
+        <div class="propertyItemHeader">
+            <span class="widgetPropertyLabel">{{property.key}}</span>
+        </div>
+        
+        <div class="propertyItemContent">
+			<select name="singleSelect"
+					ng-options="chartType for chartType in chartTypes track by chartType"
+					ng-model="property.value"></select>
+		</div>
+    </div>
+
+    <div class="propertyItem" ng-repeat="property in widget.properties | filter:{ 'key':'metrics'}">
+        <div class="propertyItemHeader">
+            <span class="widgetPropertyLabel">{{property.key}}</span>
+        </div>
+      
+        <div class="propertyItemContent">
+			<select name="singleSelect"
+					ng-options="metric for metric in metrics track by metric"
+					ng-model="property.value"></select>
+		</div>
+    </div>
+
+    <div class="propertyItem" ng-repeat="property in widget.properties | filter:{ 'key':'dimensions'}">
+        <div class="propertyItemHeader">
+            <span class="widgetPropertyLabel">{{property.key}}</span>
+        </div>
+       
+        <div class="propertyItemContent">
+			<select name="singleSelect"
+					ng-options="dimension for dimension in dimensions track by dimension"
+					ng-model="property.value"></select>
+		</div>
+    </div>
+</div>

@@ -1,0 +1,332 @@
+﻿.cart-table {
+    margin: 30px 0px;
+}
+
+.table-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    border-bottom: 1px solid #e5e5e5;
+    display: table-cell;
+    padding: 8px 8px;
+}
+
+.table-body {
+    display: table-row-group;
+}
+
+.t-heading {
+    color: #aaa !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.border-cell-0 {
+    border-bottom: none !important;
+}
+
+.update-basket,
+.line-remove,
+.btn-next,
+.multistep-btn-a input[type="submit"] {
+    border: none;
+    background: #00b4c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase !important;
+    font-family: "Open Sans";
+    box-shadow: 0 2px 4px #ccc;
+    transition: all .3s ease-out;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+    .update-basket:hover,
+    .line-remove:hover,
+    .btn-next:hover,
+    .multistep-btn-a input[type="submit"]:hover {
+        background: #0097a9;
+    }
+
+.update-basket, .line-remove {
+    width: 130px;
+}
+
+.btn-next {
+    width: 25%;
+    font-size: 18px;
+    padding: 15px 10px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.multistep-btn-a input[type="submit"],
+.multistep-btn-a .btn-complete {
+    width: 50% !important;
+    font-size: 18px !important;
+    padding: 15px 10px !important;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.update-basket > .btn-text,
+.line-remove > .btn-text {
+    margin: 0 10px;
+    color: white;
+}
+
+.update-basket > .fa-sync-alt,
+.line-remove > .fa-times {
+    color: white !important;
+}
+
+.qty {
+    padding-left: 10px;
+}
+
+.a-heading {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+    .a-heading:hover {
+        color: #00b4c9;
+        text-decoration: underline;
+    }
+
+.order-total {
+    font-weight: 600;
+}
+
+.order-line:last-child {
+    padding-bottom: 20px;
+}
+
+tr {
+    background: white !important;
+}
+
+.section-margin {
+    margin: 20px 0 !important;
+}
+
+.btn-transparent {
+    background: transparent;
+}
+
+.padding-0 {
+    padding: 0px !important;
+}
+
+.btn-next.btn-transparent {
+    color: black !important;
+}
+
+    .btn-next.btn-transparent:hover {
+        color: #fff !important;
+        background: #ccc;
+    }
+
+.js-address-billing input,
+.js-address-billing select,
+.js-address-shipping input,
+.js-address-shipping select {
+    height: 44px;
+}
+
+.radio-btn-ml {
+    margin-left: 44px !important;
+}
+
+.address-line {
+    font-size: 16px;
+}
+
+    .address-line:first-child {
+        font-size: 18px;
+    }
+
+    .address-line:nth-child(2) {
+        padding-top: 20px;
+    }
+
+abbr {
+    margin-right: 10px !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+    abbr:hover {
+        cursor: default;
+    }
+
+.js-mini-basket {
+    text-align: center !important;
+    position: relative !important;
+    top: 30px !important;
+}
+
+.shopping-cart {
+    color: black !important;
+}
+
+.heading-underline {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.address-line a {
+    word-wrap: break-word;
+}
+
+.dropdown-section {
+    width: 55%;
+}
+
+    .dropdown-section:before {
+        content: "";
+        clear: both;
+    }
+
+.uc-float-right {
+    float: right;
+}
+
+@media only screen and (max-width: 1023px) {
+    .table-wrapper, .table-body, .table-row, .table-cell {
+        display: block;
+    }
+
+    .table-cell {
+        border: none;
+    }
+
+    .table-row {
+        margin-top: 16px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    .qty {
+        width: 130px;
+    }
+
+    .t-heading {
+        display: none;
+    }
+
+    .table-row .table-cell:before {
+        display: block;
+        color: #aaa;
+        font-weight: bold;
+        padding-bottom: 8px;
+    }
+
+    .table-row.item-preview .table-cell:before {
+        color: black;
+    }
+
+    .table-row.item-info .table-cell:nth-of-type(1):before {
+        content: "Description";
+    }
+
+    .table-row.item-info .table-cell:nth-of-type(2):before {
+        content: "Price";
+    }
+
+    .table-row.item-info .table-cell:nth-of-type(3):before {
+        content: "VAT";
+    }
+
+    .table-row.item-info .table-cell:nth-of-type(4):before {
+        content: "Quantity";
+    }
+
+    .table-row.item-info .table-cell:nth-of-type(5):before {
+        content: "Total";
+    }
+
+    .table-row.item-preview .table-cell:nth-of-type(1):before {
+        content: "Item no.";
+    }
+
+    .table-row.item-preview .table-cell:nth-of-type(2):before {
+        content: "Description";
+    }
+
+    .table-row.item-preview .table-cell:nth-of-type(3):before {
+        content: "Price";
+    }
+
+    .table-row.item-preview .table-cell:nth-of-type(4):before {
+        content: "VAT";
+    }
+
+    .table-row.item-preview .table-cell:nth-of-type(5):before {
+        content: "Quantity";
+    }
+
+    .table-row.item-preview .table-cell:nth-of-type(6):before {
+        content: "Total";
+    }
+
+    .empty-cell {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    .sfproductDetailsWrp .uc-float-right {
+        float: none;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .btn-next {
+        width: 100%;
+    }
+
+    .multistep-btn-a input[type="submit"] {
+        width: 100% !important;
+    }
+
+    .header-right-group div {
+        display: block;
+    }
+
+        .header-right-group > div > div:nth-of-type(1) {
+            display: none !important;
+        }
+
+        .header-right-group > div > div:nth-of-type(2) {
+            display: none !important;
+        }
+
+        .header-right-group > div > div:nth-of-type(3) {
+            display: none !important;
+        }
+
+        .header-right-group > div > div:nth-of-type(4) {
+            display: block !important;
+        }
+    .js-mini-basket {
+        top: 0px !important;
+        padding-left: 12px;
+        padding-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .sfAddToCartBtn {
+        margin-top: 16px;
+    }
+}

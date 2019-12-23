@@ -1,0 +1,8 @@
+﻿<div class="imagePicker" data-has-selected="{{showImage() || inputValueName != ''}}">
+    <span class="{{nodeIconClasses()}} {{firstSelectedNode.icon}}" style="{{getNodeIconStyle()}}" >
+        <p class="selectedNodeTitle" style="font-weight: bold; text-decoration: none; cursor: default;">{{inputValueName}}</p>
+        <p data-ng-click="launchTreePicker()" class="choosePicture">{{selectButtonText}}</p>
+        <p data-ng-click="removeContent()" data-ng-show="selectedItemEmpty()" class="removePicture">{{removeButtonText}}</p>
+    </span>
+    <img ng-src="{{ImageUrl}}" data-ng-show="showImage()" class="imagePreview {{ImageClasses}}" id="selectedImage"/>
+</div>

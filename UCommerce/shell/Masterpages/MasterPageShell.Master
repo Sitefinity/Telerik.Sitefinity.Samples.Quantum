@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageShell.master.cs" Inherits="UCommerce.Web.Shell.Masterpages.MasterPageShell" %>
+<%@ Register TagPrefix="uc" Namespace="UCommerce.Web.Shell.Web.Controls" Assembly="UCommerce.Web.Shell" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<script type="text/javascript">    
+			var alertFallback = false;
+			if (typeof console === "undefined" || typeof console.log === "undefined") {
+				console = {};
+				if (alertFallback) {
+					console.log = function (msg) {
+						alert(msg);
+					};
+				} else {
+					console.log = function () { };
+				}
+			}
+		</script>
+		<uc:ClientDependencyShell runat="server" id="ClientDependency" />
+        <asp:PlaceHolder runat="server" ID="JavaScriptPlaceHolder"></asp:PlaceHolder>
+        <asp:PlaceHolder runat="server" ID="CssPlaceHolder"></asp:PlaceHolder>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<title>uCommerce</title>
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+	</head>
+	<body id="ucommerceMainPageBody">
+		<asp:ContentPlaceHolder runat="server" ID="ContentPlacerHolder"></asp:ContentPlaceHolder>
+	</body>
+    
+    <asp:ContentPlaceHolder runat="server" ID="ShellJavscriptPlaceHolder"></asp:ContentPlaceHolder>
+    <script src="App/json3.js"></script>
+    <script src="Scripts/yepnope/yepnope.1.5.4-min.js"></script>
+    <script src="App/loader.js"></script>
+</html>

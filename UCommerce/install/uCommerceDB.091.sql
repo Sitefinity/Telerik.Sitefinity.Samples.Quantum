@@ -1,0 +1,7 @@
+  update uCommerce_EntityUiDescription set CultureCode = 'da' where CultureCode = 'da-DK'
+  update uCommerce_EntityUiDescription set CultureCode = 'de' where CultureCode = 'de-DE'
+  update uCommerce_EntityUiDescription set CultureCode = 'en' where CultureCode = 'en-US'
+  update uCommerce_EntityUiDescription set CultureCode = 'sv' where CultureCode = 'sv-SE'
+  update uCommerce_EntityUiDescription set CultureCode = 'sv' where CultureCode = 'se-SV'
+  update uCommerce_EntityUiDescription set DisplayName = 'Prisgruppe' where DisplayName = 'Pris gruppe'
+  update uCommerce_EntityUiDescription set DisplayName = 'Prisgrupp' where DisplayName = 'Pris grupp'

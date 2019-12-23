@@ -1,0 +1,42 @@
+﻿<div class="height100">
+	<div class="searchHeader">
+		<div class="searchInput">
+			<i class="fa fa-search"></i>
+			<input type="text" placeholder="{{typeToSearch}}" id="catalogSearchInput" />
+		</div>
+	</div>
+	<div class="catalogSearch catalogSearchResult" ng-show="searchResultNotEmpty()">
+		<ul class="dataList">
+			<li data-ng-repeat="result in result.result" ng-click="editItem(result)">
+				<span class="icon" ng-style="result.icon"></span>
+
+
+				<span class="productName oneLineText">
+					{{result.name}}
+				</span>
+
+			</li>
+		</ul>
+	</div>
+	<div ng-show="noResults()" class="noResults">
+		<div class="results">
+			<span>{{searchResult}}</span>
+		</div>
+		<div ng-show="availableSuggestions()" class="availableSuggestions">
+			<span>{{suggestions}}</span>
+			<ul class="catalogSearch tags">
+				<li data-ng-repeat="suggestion in result.suggestions" ng-click="searchAgain(suggestion)">
+					<span>{{suggestion}}</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div ng-show="errorInSearch">
+		<div>
+			<span>{{error.message}}</span>
+		</div>
+		<div>
+			<span>{{forgotIndexing}}</span>
+		</div>
+	</div>
+</div>

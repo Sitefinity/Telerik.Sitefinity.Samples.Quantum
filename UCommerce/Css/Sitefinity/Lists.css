@@ -1,0 +1,226 @@
+table.dataList {
+    width: 100%;
+    white-space: nowrap;
+    margin-bottom: 16px;
+    font-family: open_sansregular, "Segoe UI",Helvetica,Verdana,Arial,sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+.dataTables_filter {
+	float: none;
+}
+.propertyPane .dataTables_filter {
+	font-size: 14px;
+	font-family: open_sansregular, "Segoe UI",Helvetica,Verdana,Arial,sans-serif;
+    margin: 16px 0 16px 0;
+} 
+
+table.stripped {
+    border-collapse: collapse;
+}
+
+table.stripped td, table.stripped th {
+    padding: 3px;
+}
+
+.dataList th
+{
+    width: auto;
+	border: 0;
+	color: #ffffff;
+	white-space: normal;
+}
+
+.dataList tbody tr
+{
+	white-space: nowrap;
+	overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    background-color: transparent !important
+}
+
+.dataList tbody tr td {
+	border-top: 0;
+	white-space: normal;
+    padding: 6px 8px;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dataList thead tr {
+}
+
+.dataList thead tr.headerRow {
+}
+
+.dataList tbody tr th {
+	/*background-color: #969696;*/
+}
+
+.dataList thead tr th, .dataList tbody tr th {
+    padding: 6px 8px;
+    line-height: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 9px;
+    color: #777;
+    border-bottom: none;
+    cursor: initial;
+}
+
+.sorting, .sorting_asc, .sorting_desc {
+    background: none;
+}
+
+table.dataTable tr td.sorting_1, table.dataTable tr td.sorting_1  {
+    background-color: #FFF;
+}
+
+.dataList thead tr th.sorting span, .dataList thead tr th.sorting_asc span, .dataList thead tr th.sorting_desc span {
+}
+
+.dataList thead tr th.sorting span:hover, .dataList thead tr th.sorting_asc span:hover, .dataList thead tr th.sorting_desc span:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dataList tbody tr:hover
+{
+    background-color: #f8f8f8 !important;
+}
+
+.imageButton {
+	width: 36px;
+}
+
+.imageButton input[type="image"] {
+	margin: 0;
+}
+
+.dataList .amountCell
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.dataList .quantityCell
+{
+	text-align: center;
+}
+
+.dataList .textCell
+{
+	text-align: left;
+}
+
+/*tr.listOdd
+{
+    background-color: #FFFFFF;
+}*/
+
+tr.listEven 
+{
+	
+}
+
+/*.list tbody tr:hover
+{
+	background-color: #DDDDDD;
+}*/
+
+.list .amountCell
+{
+	padding-right: 10px;
+	text-align: right;
+	width: 80px;
+}
+
+.list .quantityCell
+{
+	text-align: center;
+}
+
+.list .textCell
+{
+	text-align: left;
+}
+
+/* SORT */
+
+/*#sortable td {
+	padding: 14px 15px;
+	border: 1px solid #d6d6d6;
+	border-top: 0;
+}*/
+
+#sortable th:first-child, #sortable td:first-child {
+	padding-right: 30px;
+}
+
+#sortable thead:last-child {
+	text-align: right;
+}
+
+#sortable tr td:last-child {
+	text-align: right;
+}
+
+/*#sortable tbody tr:hover
+{
+	cursor: move;
+	text-decoration: none;
+	background-color: rgb(227,227,227);
+}*/
+
+.newSortOrder.newSortOrder {
+	display: none;
+}
+
+/*.sorting {
+	background: url('./images/sort_both.png') no-repeat center right;
+}
+
+.sorting_asc {
+	background: url('./images/sort_asc.png') no-repeat center right;
+}
+
+.sorting_desc {
+	background: url('./images/sort_desc.png') no-repeat center right;
+}*/
+
+#discountList .textCell input {
+	width: 100%;
+}
+
+.propertyItemContent table tr td label {
+	vertical-align: 2px;
+}
+
+table.discountList .amountCell .discount {
+	width: 90% !important;
+}
+
+table.editShipmentMethod th {
+	font-weight: normal;
+}
+
+table.editShipmentMethod th:after {
+	content: ":";
+}
+
+table.edittCampaigneItemTable th span {
+    color: #0f6194;
+    font-family: open_sanssemibold, "Segoe UI Semibold",Helvetica,Verdana,Arial,sans-serif;
+    font-size: 14px;
+}
+
+table.edittCampaigneItemTable td select {
+    width: 284px; 
+}
+
+.umbraco.eight.only {
+    display: none;
+}

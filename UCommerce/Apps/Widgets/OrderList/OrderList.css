@@ -1,0 +1,61 @@
+﻿.OrderList table {
+	width: 100%;
+}
+
+.OrderList-content {
+	height: 100%;
+	    overflow-y: hidden;
+}
+
+.orderStatuses select {
+	height: 80px;
+}
+
+.OrderList {
+	width: 100%;
+	height: 100%;
+}
+
+.orderStatuses label {
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.orderStatuses {
+	padding-bottom: 7px;
+	margin: 0px 1px;
+}
+
+	.orderStatuses label span {
+		line-height: 19px;
+		vertical-align: top;
+	}
+
+	.orderStatuses label span {
+		line-height: 24px\0/;
+		line-height: 24px\9;
+		vertical-align: top;
+	}
+
+
+.OrderList table tr td {
+	cursor: pointer;
+}
+
+.noOrders {
+	margin-left: 3px;
+}
+
+.timeSpan select {
+	margin-bottom: 10px;
+}
+
+.orderStatuses label input {
+	margin: 3px 0px 0px 4px;
+}
+
+
+
+.OrderList table tr th:last-child span {
+	float: right
+}
