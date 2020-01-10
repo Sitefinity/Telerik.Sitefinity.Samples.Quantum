@@ -26,8 +26,8 @@ Some of the main highlights of the Quantum project include:
 
 - Sitefinity CMS license
 - .NET Framework 4.7.2
-- Visual Studio 2012
-- Microsoft SQL Server 2008R2 or later versions
+- Visual Studio 2015 or later
+- Microsoft SQL Server 2012R2 or later versions
 - Windows Identity Foundation NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
   - **Windows 7**  - download from  Windows Identity Foundation : http://www.microsoft.com/en-us/download/details.aspx?id=17331
   - **Windows 8**  - in the Control Panel, turn on the relevant Windows feature Windows Identity Foundation 3.5
