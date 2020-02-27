@@ -28,6 +28,7 @@ input[type=number] {
 
 .continue-shopping-wrapper .continue-shopping-link {
     color: #00b4c9;
+    padding-right: 16px;
 }
 
     .continue-shopping-wrapper .continue-shopping-link:hover {
@@ -274,6 +275,24 @@ abbr {
 
 .clear {
     clear: both;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.n-items {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #00b4c9;
+    border-radius: 50%;
+    line-height: 20px;
+    top: -8px;
+    left: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
 }
 
 @media only screen and (max-width: 1023px) {
