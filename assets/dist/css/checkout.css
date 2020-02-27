@@ -17,10 +17,6 @@ input[type=number] {
         height: 120px;
     }
 
-    .cart-table h1 {
-        margin-bottom: 32px;
-    }
-
     .cart-table .continue-shopping-wrapper {
         float: right;
         margin-top: 24px;
@@ -74,8 +70,6 @@ input[type=number] {
     border-bottom: none !important;
 }
 
-.update-basket,
-.line-remove,
 .btn-next,
 .multistep-btn-a input[type="submit"] {
     border: none;
@@ -91,12 +85,55 @@ input[type=number] {
     font-weight: 600;
 }
 
-    .update-basket:hover,
-    .line-remove:hover,
     .btn-next:hover,
     .multistep-btn-a input[type="submit"]:hover {
         background: #0097a9;
     }
+
+.update-basket {
+    color: #00b4c9;
+}
+
+.line-remove {
+    color: #eba149;
+}
+
+.update-basket:hover {
+    color: #00b4c9;
+}
+
+.line-remove:hover {
+    color: #eba149;
+}
+
+.update-basket,
+.line-remove {
+    padding-right: 3%;
+    font-size: 12px;
+}
+
+    .update-basket:hover,
+    .line-remove:hover {
+        cursor: pointer;
+    }
+
+.has-voucher-label {
+    color: #00b4c9;
+}
+
+    .has-voucher-label:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+#hasVoucher:hover {
+    cursor: pointer;
+}
+
+.voucherCode {
+    width: 110px !important;
+    display: inline-block;
+}
 
 .btn-next {
     font-size: 16px;
@@ -263,23 +300,45 @@ abbr {
     color: #00b4c9;
     padding: 6px 0;
 }
+
     .btn-back:hover,
     .btn-back:active,
     .btn-back:focus {
         color: #0097a9;
         text-decoration: underline;
         -webkit-box-shadow: none;
-         box-shadow: none;
-         
+        box-shadow: none;
     }
 
 .clear {
     clear: both;
 }
 
-.p-relative{
+.p-relative {
     position: relative;
 }
+
+.addVoucher {
+    margin-bottom: 4px;
+    border: none;
+    background: #00b4c9;
+    padding: 5px 10px;
+    border-radius: 2px !important;
+    text-transform: uppercase !important;
+    font-family: "Open Sans";
+    box-shadow: 0 2px 4px #ccc;
+    transition: all .3s ease-out;
+    text-transform: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    height: 34px;
+}
+
+    .addVoucher:hover {
+        background: #0097a9;
+        color: white;
+    }
 
 .n-items {
     position: absolute;
