@@ -1,3 +1,8 @@
+.review-form,
+.review-list {
+    margin: 15px 0 30px;
+}
+
 .review-form .review-textarea-wrapper {
     width: 100%;
     height: 250px;
@@ -21,6 +26,9 @@
     padding-right: 2px;
     width: 16px;
     height: 16px;
+}
+
+.review-form .star {
     cursor: pointer;
 }
 
@@ -28,11 +36,28 @@
 .review-list .star.on {
     background-position: 0 -16px;
 }
+
 .review-form .review-form-inner {
     margin: 10px 10px 0;
 }
 
+.review-form input {
+    margin: 10px 0;
+}
+
 .review-list .review-list-inner {
     padding-left: 40px;
+    margin: 10px 0 50px;
+}
+
+.review-list .sfStarsWrapper {
     margin: 10px 0;
+}
+
+.review-list .sfcommentAuthorAvatar {
+    margin: 0 10px;
+}
+
+.review-form-inner label {
+    margin-right: 20px;
 }
