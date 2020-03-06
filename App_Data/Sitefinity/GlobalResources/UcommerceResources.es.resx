@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddToBasket">
+    <value>Añadir al carrito</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:28:22</lastModified>
+  </data>
+  <data name="AddToCart">
+    <value>Anadir al carrito</value>
+    <comment></comment>
+    <lastModified>2020-02-28T12:16:57</lastModified>
+  </data>
+  <data name="AddToWishList">
+    <value>Añadir a la lista de deseos</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:28:47</lastModified>
+  </data>
+  <data name="Line1Validation">
+    <value>Se requiere línea de dirección 1</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:28:58</lastModified>
+  </data>
+  <data name="Attention">
+    <value>Atención</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:29:08</lastModified>
+  </data>
+  <data name="Availability">
+    <value>Disponibilidad</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:29:22</lastModified>
+  </data>
+  <data name="BackButton">
+    <value>Atrás</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:29:36</lastModified>
+  </data>
+  <data name="BillingAddress">
+    <value>Dirección de Envio</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:29:47</lastModified>
+  </data>
+  <data name="City">
+    <value>Ciudad</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:29:56</lastModified>
+  </data>
+  <data name="CityValidation">
+    <value>Se requiere ciudad</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:30:07</lastModified>
+  </data>
+  <data name="Company">
+    <value>Empresa</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:30:16</lastModified>
+  </data>
+  <data name="CompleteOrder">
+    <value>Orden completa</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:30:27</lastModified>
+  </data>
+  <data name="ContactUs">
+    <value>Contacta con nosotros</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:48:39</lastModified>
+  </data>
+  <data name="Continue">
+    <value>Seguir</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:48:49</lastModified>
+  </data>
+  <data name="ContinueShopping">
+    <value>Seguir comprando</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:49:01</lastModified>
+  </data>
+  <data name="ContinueToNextStep">
+    <value>Continuar al siguiente paso</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:49:11</lastModified>
+  </data>
+  <data name="Copyright">
+    <value>Copyright © 2002-2019 Quantum. Todos los derechos reservados.</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:49:25</lastModified>
+  </data>
+  <data name="Country">
+    <value>País</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:49:35</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:49:44</lastModified>
+  </data>
+  <data name="Discount">
+    <value>Descuento</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:49:52</lastModified>
+  </data>
+  <data name="Discounts">
+    <value>Descuentos</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:50:11</lastModified>
+  </data>
+  <data name="EmailAddressValidation">
+    <value>Correo electronico es requerido</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:50:29</lastModified>
+  </data>
+  <data name="FirstName">
+    <value>Nombre de pila</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:50:39</lastModified>
+  </data>
+  <data name="FirstNameValidation">
+    <value>Se requiere el primer nombre</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:50:49</lastModified>
+  </data>
+  <data name="InStock">
+    <value>En stock</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:50:57</lastModified>
+  </data>
+  <data name="ItemNo">
+    <value>Artículo No.</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:51:07</lastModified>
+  </data>
+  <data name="LastName">
+    <value>Apellido</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:51:18</lastModified>
+  </data>
+  <data name="LastNameValidation">
+    <value>Apellido es obligatorio
+</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:51:32</lastModified>
+  </data>
+  <data name="MobilePhone">
+    <value>Teléfono móvil</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:51:41</lastModified>
+  </data>
+  <data name="NotAddToBasket">
+    <value>No agregado a la cesta
+</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:51:50</lastModified>
+  </data>
+  <data name="OrderDiscounts">
+    <value>Descuentos de pedido
+</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:52:13</lastModified>
+  </data>
+  <data name="OrderTotal">
+    <value>Total del pedido</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:52:23</lastModified>
+  </data>
+  <data name="OutOfStock">
+    <value>Agotado</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:52:34</lastModified>
+  </data>
+  <data name="Payment">
+    <value>Pago</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:52:42</lastModified>
+  </data>
+  <data name="PaymentMethod">
+    <value>Método de pago</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:52:52</lastModified>
+  </data>
+  <data name="Phone">
+    <value>Teléfono</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:53:00</lastModified>
+  </data>
+  <data name="PleaseSelect">
+    <value>Por favor seleccione ...
+</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:53:08</lastModified>
+  </data>
+  <data name="PostalCode">
+    <value>Código postal</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:53:19</lastModified>
+  </data>
+  <data name="PostalCodeValidation">
+    <value>Se requiere código postal
+</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:53:30</lastModified>
+  </data>
+  <data name="Price">
+    <value>Precio</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:53:44</lastModified>
+  </data>
+  <data name="ProductQuantity">
+    <value>La cantidad de producto</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:53:53</lastModified>
+  </data>
+  <data name="Products">
+    <value>productos</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:54:03</lastModified>
+  </data>
+  <data name="Quantity">
+    <value>Cantidad</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:54:10</lastModified>
+  </data>
+  <data name="Remove">
+    <value>Eliminar</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:54:22</lastModified>
+  </data>
+  <data name="ReturnToStore">
+    <value>regrese a nuestra tienda y agregue algunos artículos
+</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:54:33</lastModified>
+  </data>
+  <data name="Shipping">
+    <value>Envío</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:54:41</lastModified>
+  </data>
+  <data name="ShippingAddress">
+    <value>Dirección de Envío</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:54:50</lastModified>
+  </data>
+  <data name="ShoppingCart">
+    <value>Carrito de compras</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:54:59</lastModified>
+  </data>
+  <data name="Street">
+    <value>Calle</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:55:07</lastModified>
+  </data>
+  <data name="Street2">
+    <value>Calle 2</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:55:13</lastModified>
+  </data>
+  <data name="SubTotal">
+    <value>Subtotal</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:55:20</lastModified>
+  </data>
+  <data name="ThankYou">
+    <value>Gracias por tu pedido</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:55:29</lastModified>
+  </data>
+  <data name="QuantityValidation">
+    <value>La cantidad debe ser mayor que 0 y menor que 9,999.
+</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:55:37</lastModified>
+  </data>
+  <data name="Update">
+    <value>Actualizar</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:55:53</lastModified>
+  </data>
+  <data name="DifferentShippingAddress">
+    <value>Use una dirección diferente para el envío
+</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:56:03</lastModified>
+  </data>
+  <data name="VAT">
+    <value>IVA</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:56:11</lastModified>
+  </data>
+  <data name="SpecifyQuantity">
+    <value>Al agregar producto a un carrito, debe especificar la cantidad
+</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:56:20</lastModified>
+  </data>
+  <data name="WriteReview">
+    <value>Escribe una reseña</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:56:29</lastModified>
+  </data>
+  <data name="EmptyBasket">
+    <value>Tu canasta esta vacía</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:56:39</lastModified>
+  </data>
+  <data name="YourCartIsEmpty">
+    <value>Tu carrito esta vacío. Por favor</value>
+    <comment></comment>
+    <lastModified>2020-02-27T14:56:51</lastModified>
+  </data>
+</root>
