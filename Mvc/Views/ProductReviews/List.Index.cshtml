@@ -1,0 +1,60 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.UI.MVC;
+@using Telerik.Sitefinity.Services;
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/products-review.css"), "head")
+
+<div data-component="review-list" id="review-list" class="review-list">
+    <template v-if="Reviews">
+        <div id="" class="sfcommentsThreadRatingWrp sfcommentsThreadRatingFull sfRatingReadOnly">
+            <div v-if="displayRating">
+                <span class="sfRatingLabel">@Html.Resource("AverageRating", "UcommerceResources"):</span>
+                <show-rating :rating="averageRating"></show-rating>
+                <span class="sfRatingAbsolute" itemprop="ratingValue">({{ displayRating }})</span>
+            </div>
+            <a class="sfRatingReviewCount" itemprop="reviewCount">
+                {{ count }}
+                <template v-if="count != 1">
+                    @Html.Resource("Reviews", "UcommerceResources")
+                </template>
+                <template v-else>
+                    @Html.Resource("Review", "UcommerceResources")
+                </template>
+            </a>
+        </div>
+
+        <h2 v-if="count">
+            {{ count }}
+            <template v-if="count > 1">
+                @Html.Resource("Reviews", "UcommerceResources")
+            </template>
+            <template v-else>
+                @Html.Resource("Review", "UcommerceResources")
+            </template>
+        </h2>
+        <template v-for="(review, index) of Reviews">
+            <div class="review-list-inner">
+                <div>
+                    <span>{{ index + 1 }}.</span>
+                    <img class="sfcommentAuthorAvatar" src="@Url.WidgetContent("assets/dist/images/default_user.png")" />
+                    <span>{{ review.Name }}</span> |
+                    <span>
+                        <i>{{ formatDate(review.CreatedOn) }}</i>
+                    </span>
+                </div>
+                <show-rating :rating="review.Rating"></show-rating>
+                <div>{{ review.Comments }}</div>
+            </div>
+        </template>
+    </template>
+</div>

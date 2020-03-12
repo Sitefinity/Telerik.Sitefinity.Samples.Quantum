@@ -11,7 +11,6 @@
 {
     @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
     @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
-    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
 }
 
 <div data-component="facet-selector" id="@Html.UniqueId("facetFilter")">
@@ -19,9 +18,9 @@
         { "facets" : @Html.Raw(JsonConvert.SerializeObject(Model)) }
     </script>
     <h2 class="sffilterTitle">
-        Filter products
+        @Html.Resource("FilterProducts", "UcommerceResources")
     </h2>
-    <a class="sffilterClearLnk" v-on:click="clearFilters">Clear filter</a>
+    <a class="sffilterClearLnk" v-on:click="clearFilters">@Html.Resource("ClearFilter", "UcommerceResources")</a>
 
     <ul class="sfShopByFilterGroupList sfVerticalList" v-cloak>
         <li class="sfShopByFilterGroupListItem" v-for="facet in facets" v-bind:key="facet.DisplayName">

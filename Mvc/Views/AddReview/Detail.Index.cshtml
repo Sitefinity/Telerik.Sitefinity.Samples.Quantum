@@ -1,0 +1,44 @@
+﻿@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Services
+
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/products-review.css"), "head")
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
+<div data-component="review-form" id="review-form" class="review-form">
+    <h2 class="sfcommentsTitle">
+        @Html.Resource("WriteReview", "UcommerceResources")
+    </h2>
+    <div class="review-form-inner">
+        <div class="review-textarea-wrapper">
+            <textarea v-model="comments"></textarea>
+        </div>
+    </div>
+    <div class="review-form-inner">
+        <span class="sfRatingLabel">@Html.Resource("Rating", "UcommerceResources"):</span>
+        <div class="sfStarsWrapper">
+            <div v-on:click="setRating(1)" :class="star1"></div>
+            <div v-on:click="setRating(2)" :class="star2"></div>
+            <div v-on:click="setRating(3)" :class="star3"></div>
+            <div v-on:click="setRating(4)" :class="star4"></div>
+            <div v-on:click="setRating(5)" :class="star5"></div>
+        </div>
+    </div>
+    <div v-if="comments">
+        <div class="review-form-inner">
+            <label>@Html.Resource("YourName", "UcommerceResources")</label>
+            <input v-model="userName" type="text">
+        </div>
+        <div class="review-form-inner">
+            <label>@Html.Resource("EmailOptional", "UcommerceResources")</label>
+            <input v-model="userEmail" type="text">
+        </div>
+    </div>
+    <div>
+        <input type="submit" v-on:click="submit" value="@Html.Resource("Submit", "UcommerceResources")" class="sfcommentsSubmitBtn">
+    </div>
+</div>

@@ -14,10 +14,10 @@
 {
     @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
     @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
-    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
 }
 
 <div data-component="category-navigation" id="@Html.UniqueId("categories")" v-cloak>
+    <input type="hidden" value="@Model.Localizations"/>
     <script type="application/json" data-items="true">
         { "items" : @Html.Raw(JsonConvert.SerializeObject(Model.Categories)) }
     </script>
@@ -161,7 +161,7 @@
                         </li>
                     </ul>
 
-                    <a v-show="searchPageUrl !== ''" v-bind:href="searchPageHref()" class="button button--block">Show all results</a>
+                    <a v-show="searchPageUrl !== ''" v-bind:href="searchPageHref()" class="button button--block">@Html.Resource("ShowAllResults", "UcommerceResources")</a>
 
                 </div>
             </div>
