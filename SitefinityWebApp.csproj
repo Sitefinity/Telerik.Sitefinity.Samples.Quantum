@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -75,8 +75,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <!-- Dependency for the Lucene module -->
-    <!-- Dependency for the Telerik.Sitefinity.Audit.ElasticSearch module -->
     <Reference Include="AjaxControlToolkit, Version=3.0.20820.16598, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
       <HintPath>packages\AjaxControlToolkit.3.0.20820.0\lib\AjaxControlToolkit.dll</HintPath>
     </Reference>
@@ -89,8 +87,8 @@
     <Reference Include="AntiXssLibrary, Version=4.3.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
       <HintPath>packages\AntiXSS.4.3.0\lib\net40\AntiXssLibrary.dll</HintPath>
     </Reference>
-    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
-      <HintPath>packages\Antlr3.Runtime.3.5.1\lib\net40-client\Antlr3.Runtime.dll</HintPath>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="AuthorizeNet, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\AuthorizeNet.1.8.3\lib\AuthorizeNet.dll</HintPath>
@@ -111,28 +109,25 @@
       <HintPath>packages\AWSSDK.CloudSearchDomain.3.3.0.83\lib\net45\AWSSDK.CloudSearchDomain.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>packages\AWSSDK.Core.3.3.103.71\lib\net45\AWSSDK.Core.dll</HintPath>
+      <HintPath>packages\AWSSDK.Core.3.3.103.43\lib\net45\AWSSDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.DynamoDBv2, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>packages\AWSSDK.DynamoDBv2.3.3.101.88\lib\net45\AWSSDK.DynamoDBv2.dll</HintPath>
+      <HintPath>packages\AWSSDK.DynamoDBv2.3.3.101.70\lib\net45\AWSSDK.DynamoDBv2.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.S3, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>packages\AWSSDK.S3.3.3.104.43\lib\net45\AWSSDK.S3.dll</HintPath>
+      <HintPath>packages\AWSSDK.S3.3.3.104.31\lib\net45\AWSSDK.S3.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.SQS, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>packages\AWSSDK.SQS.3.3.102.38\lib\net45\AWSSDK.SQS.dll</HintPath>
+      <HintPath>packages\AWSSDK.SQS.3.3.102.11\lib\net45\AWSSDK.SQS.dll</HintPath>
     </Reference>
     <Reference Include="Braintree-2.22.0, Version=2.22.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Braintree.2.22.0\lib\Braintree-2.22.0.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <HintPath>packages\Castle.Core.4.4.0\lib\net45\Castle.Core.dll</HintPath>
+      <HintPath>packages\Castle.Core.4.2.1\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.Facilities.AspNet.SystemWeb, Version=5.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <HintPath>packages\Castle.Facilities.AspNet.SystemWeb.5.0.0\lib\net45\Castle.Facilities.AspNet.SystemWeb.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.Windsor, Version=5.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <HintPath>packages\Castle.Windsor.5.0.0\lib\net45\Castle.Windsor.dll</HintPath>
+    <Reference Include="Castle.Windsor, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>packages\Castle.Windsor.4.1.0\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="ClientDependency.Core, Version=1.9.7.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\ClientDependency.1.9.7\lib\net45\ClientDependency.Core.dll</HintPath>
@@ -161,8 +156,8 @@
     <Reference Include="EPPlus, Version=4.1.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
       <HintPath>packages\EPPlus.4.1.1\lib\net40\EPPlus.dll</HintPath>
     </Reference>
-    <Reference Include="FluentNHibernate, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\FluentNHibernate.2.1.2\lib\net461\FluentNHibernate.dll</HintPath>
+    <Reference Include="FluentNHibernate, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\FluentNHibernate.2.0.1.0\lib\net40\FluentNHibernate.dll</HintPath>
     </Reference>
     <Reference Include="FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
       <HintPath>packages\FluentValidation.8.4.0\lib\net45\FluentValidation.dll</HintPath>
@@ -182,6 +177,7 @@
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
+    <!-- Dependency for the Lucene module -->
     <Reference Include="IdentityModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Progress.Sitefinity.IdentityModel.1.3.0\lib\net45\IdentityModel.dll</HintPath>
     </Reference>
@@ -191,11 +187,11 @@
     <Reference Include="IdentityServer3.AccessTokenValidation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Progress.Sitefinity.IdentityServer3.AccessTokenValidation.1.3.0\lib\net45\IdentityServer3.AccessTokenValidation.dll</HintPath>
     </Reference>
-    <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
-      <HintPath>packages\Iesi.Collections.4.0.4\lib\net461\Iesi.Collections.dll</HintPath>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>packages\Iesi.Collections.4.0.1.4000\lib\net40\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Infralution.Licensing, Version=4.7.1.0, Culture=neutral, PublicKeyToken=3e7e8e3744a5c13f, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.8.4.1.19353\lib\net45\Infralution.Licensing.dll</HintPath>
+      <HintPath>packages\uCommerce.8.3.1.19271\lib\net45\Infralution.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="LinqToTwitter, Version=2.1.9.0, Culture=neutral, PublicKeyToken=957107be965c25d9, processorArchitecture=MSIL">
       <HintPath>packages\linqtotwitterNET40.2.1.9.0\lib\net40\LinqToTwitter.dll</HintPath>
@@ -263,6 +259,7 @@
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
+    <!-- Dependency for the Telerik.Sitefinity.Audit.ElasticSearch module -->
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Data.Edm, Version=5.8.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Data.Edm.5.8.4\lib\net40\Microsoft.Data.Edm.dll</HintPath>
@@ -364,13 +361,16 @@
       <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.XmlTransform, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.8.4.1.19353\lib\Microsoft.Web.XmlTransform.dll</HintPath>
+      <HintPath>packages\Ucommerce.Sitefinity.8.3.1.19271\lib\Microsoft.Web.XmlTransform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Sitefinity.Windows.Azure.2.0.0.4\lib\net40\Microsoft.WindowsAzure.Diagnostics.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Sitefinity.Windows.Azure.2.0.0.4\lib\net40\Microsoft.WindowsAzure.ServiceRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=5.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\WindowsAzure.Storage.5.0.2\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Sitefinity.Windows.Azure.2.0.0.4\lib\net40\Microsoft.WindowsAzure.StorageClient.dll</HintPath>
@@ -387,11 +387,11 @@
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate, Version=5.2.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
-      <HintPath>packages\NHibernate.5.2.5\lib\net461\NHibernate.dll</HintPath>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>packages\NHibernate.4.0.0.4000\lib\net40\NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate.Caches.SysCache, Version=5.5.0.0, Culture=neutral, PublicKeyToken=6876f2ea66c9f443, processorArchitecture=MSIL">
-      <HintPath>packages\NHibernate.Caches.SysCache.5.5.1\lib\net461\NHibernate.Caches.SysCache.dll</HintPath>
+    <Reference Include="NHibernate.Caches.SysCache, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=6876f2ea66c9f443, processorArchitecture=MSIL">
+      <HintPath>packages\NHibernate.Caches.SysCache.4.0.0.4000\lib\net40\NHibernate.Caches.SysCache.dll</HintPath>
     </Reference>
     <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <HintPath>packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
@@ -419,17 +419,9 @@
     </Reference>
     <Reference Include="RazorGenerator.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\RazorGenerator.Mvc.2.3.12\lib\net40\RazorGenerator.Mvc.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="RazorGenerator.Templating, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\RazorGenerator.Templating.2.1.1\lib\net40\RazorGenerator.Templating.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
-      <HintPath>packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="Remotion.Linq.EagerFetching, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
-      <HintPath>packages\Remotion.Linq.EagerFetching.2.2.0\lib\net45\Remotion.Linq.EagerFetching.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack, Version=5.0.0.0, Culture=neutral, PublicKeyToken=02c12cbda47e6587, processorArchitecture=MSIL">
       <HintPath>packages\ServiceStack.5.7.0\lib\net45\ServiceStack.dll</HintPath>
@@ -533,7 +525,6 @@
     </Reference>
     <Reference Include="System.Threading" />
     <Reference Include="System.Threading.Tasks" />
-    <Reference Include="System.Transactions" />
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
@@ -568,6 +559,9 @@
     <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
@@ -587,20 +581,6 @@
     <Reference Include="System.Xaml" />
     <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="RazorGenerator.Templating">
-      <HintPath>bin\RazorGenerator.Templating.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
-    </Reference>
-    <!-- The reference to Telerik.Sitefinity.Audit.ElasticSearch comes from integration build with GIT. 
-	     The module also requires references to Elasticsearch.Net.dll and NEST.dll
-		 The source and additional info of the module can be found on the following Git repository:
-		 https://github.com/Sitefinity/ElasticsearchAuditLogger -->
-    <Reference Include="RazorGenerator.Mvc">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\RazorGenerator.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Telerik.DEC.Common.Encryption.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ca7c0b9c77ee15aa, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.Octopus.2018.0.1127.2\lib\net40\Telerik.DEC.Common.Encryption.Contract.dll</HintPath>
     </Reference>
@@ -684,6 +664,9 @@
     </Reference>
     <Reference Include="Telerik.Sitefinity.Authentication, Version=12.2.7200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Progress.Sitefinity.Authentication.12.2.7200\lib\net472\Telerik.Sitefinity.Authentication.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Azure, Version=12.2.7200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Azure.12.2.7200\lib\net472\Telerik.Sitefinity.Azure.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Connectivity, Version=12.2.7200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.Connectivity.12.2.7200\lib\net472\Telerik.Sitefinity.Connectivity.dll</HintPath>
@@ -802,7 +785,8 @@
     <Reference Include="Telerik.Sitefinity.RecycleBin, Version=12.2.7200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.RecycleBin.12.2.7200\lib\net472\Telerik.Sitefinity.RecycleBin.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Resources">
+    <Reference Include="Telerik.Sitefinity.Resources, Version=12.2.7200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\Telerik.Sitefinity.Core.12.2.7200\lib\net472\Telerik.Sitefinity.Resources.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SalesForceConnector, Version=12.2.7200.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
@@ -913,41 +897,58 @@
     <Reference Include="Twitterizer2, Version=2.4.1.27318, Culture=neutral, PublicKeyToken=69d1469eac671567, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.Twitterizer.2.4.1\lib\net40\Twitterizer2.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.8.4.1.19353\lib\net45\UCommerce.dll</HintPath>
+    <Reference Include="RazorGenerator.Templating">
+      <HintPath>bin\RazorGenerator.Templating.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Admin, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.8.4.1.19353\lib\net45\UCommerce.Admin.dll</HintPath>
+    <!-- The reference to Telerik.Sitefinity.Audit.ElasticSearch comes from integration build with GIT. 
+	     The module also requires references to Elasticsearch.Net.dll and NEST.dll
+		 The source and additional info of the module can be found on the following Git repository:
+		 https://github.com/Sitefinity/ElasticsearchAuditLogger -->
+    <Reference Include="RazorGenerator.Mvc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\RazorGenerator.Mvc.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="UCommerce.Infrastructure, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.8.4.1.19353\lib\net45\UCommerce.Infrastructure.dll</HintPath>
+    <Reference Include="UCommerce, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.8.3.1.19271\lib\net45\UCommerce.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.Installer, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.8.4.1.19353\lib\net45\UCommerce.Installer.dll</HintPath>
+    <Reference Include="UCommerce.Admin, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.8.3.1.19271\lib\net45\UCommerce.Admin.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.NHibernate, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.8.4.1.19353\lib\net45\UCommerce.NHibernate.dll</HintPath>
+    <Reference Include="UCommerce.Infrastructure, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.8.3.1.19271\lib\net45\UCommerce.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.Pipelines, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.8.4.1.19353\lib\net45\UCommerce.Pipelines.dll</HintPath>
+    <Reference Include="UCommerce.Installer, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.8.3.1.19271\lib\net45\UCommerce.Installer.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.Presentation, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.8.4.1.19353\lib\net45\UCommerce.Presentation.dll</HintPath>
+    <Reference Include="UCommerce.NHibernate, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.8.3.1.19271\lib\net45\UCommerce.NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.Sitefinity, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.8.4.1.19353\lib\UCommerce.Sitefinity.dll</HintPath>
+    <Reference Include="UCommerce.Pipelines, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.8.3.1.19271\lib\net45\UCommerce.Pipelines.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.Sitefinity.Installer, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.8.4.1.19353\lib\UCommerce.Sitefinity.Installer.dll</HintPath>
+    <Reference Include="UCommerce.Presentation, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.8.3.1.19271\lib\net45\UCommerce.Presentation.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.SystemHttp, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.8.4.1.19353\lib\net45\UCommerce.SystemHttp.dll</HintPath>
+    <Reference Include="UCommerce.Sitefinity, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.8.3.1.19271\lib\UCommerce.Sitefinity.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.SystemWeb, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.8.4.1.19353\lib\net45\UCommerce.SystemWeb.dll</HintPath>
+    <Reference Include="UCommerce.Sitefinity.Installer, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.8.3.1.19271\lib\UCommerce.Sitefinity.Installer.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.Web.Shell, Version=8.4.1.19353, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.8.4.1.19353\lib\UCommerce.Web.Shell.dll</HintPath>
+    <Reference Include="UCommerce.Sitefinity.UI, Version=0.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\UCommerce.Sitefinity.UI.12.2.7200\lib\UCommerce.Sitefinity.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.SystemHttp, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.8.3.1.19271\lib\net45\UCommerce.SystemHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.SystemWeb, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.8.3.1.19271\lib\net45\UCommerce.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.Web.Shell, Version=8.3.1.19271, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.8.3.1.19271\lib\UCommerce.Web.Shell.dll</HintPath>
     </Reference>
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
@@ -1346,6 +1347,20 @@
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\Quantum\App_Themes\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\Quantum\App_Themes\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\Quantum\App_Themes\Quantum\Global\quantum-style.css.map" />
+    <Content Include="Mvc\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml" />
+    <Content Include="Mvc\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml" />
+    <Content Include="Mvc\Views\LanguageSelector\LanguageSelector.QLanguageLinks.cshtml" />
+    <Content Include="Mvc\Views\LoginStatus\LoginStatus.LoginButton.cshtml" />
+    <Content Include="Mvc\Views\LoginStatus\LoginStatus.LoginName.cshtml" />
+    <Content Include="Mvc\Views\Navigation\Dropdown.cshtml" />
+    <Content Include="Mvc\Views\Navigation\NavigationView.Horizontal.cshtml" />
+    <Content Include="Mvc\Views\Navigation\NavigationView.Pills.cshtml" />
+    <Content Include="Mvc\Views\Navigation\NavigationView.QHorizontal.cshtml" />
+    <Content Include="Mvc\Views\Navigation\NavigationView.QSitemap.cshtml" />
+    <Content Include="Mvc\Views\Navigation\NavigationView.Sitemap.cshtml" />
+    <Content Include="Mvc\Views\Navigation\NavigationView.Tabs.cshtml" />
+    <Content Include="Mvc\Views\Navigation\NavigationView.Vertical.cshtml" />
+    <Content Include="Mvc\Views\SearchBox\SearchBox.cshtml" />
     <Content Include="App_Data\Sitefinity\Configuration\AppearanceConfig.config">
       <SubType>Designer</SubType>
     </Content>
@@ -1363,15 +1378,50 @@
     <Content Include="App_Data\Sitefinity\Configuration\SystemConfig.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Mvc\Views\LanguageSelector\LanguageSelector.QDropDownMenu.cshtml" />
+    <Content Include="Mvc\Views\Card\Card.cshtml" />
+    <Content Include="Mvc\Views\Card\Card.Hero.cshtml" />
+    <Content Include="Mvc\Views\Card\Card.Homepage.cshtml" />
+    <Content Include="Mvc\Views\Card\Card.Simple.cshtml" />
+    <Content Include="Mvc\Views\Card\Card.Splash.cshtml" />
+    <Content Include="Mvc\Views\Card\Card.Whitepaper.cshtml" />
+    <Content Include="Mvc\Views\SearchBox\SearchBox_Q.cshtml" />
     <Content Include="App_Data\Sitefinity\Configuration\DigitalExperienceCloudConnectorConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\ResponsiveDesignConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\AnalyticsConfig.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="OpenAccessNuGet.targets" />
     <Content Include="App_Data\Sitefinity\Configuration\WebSecurityConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\AuthenticationConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\LiveChatConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\PagesConfig.config" />
+    <Content Include="App_Data\RadSpell\fr-FR.tdf" />
+    <Content Include="App_Data\RadSpell\en-US.tdf" />
+    <Content Include="App_Data\RadSpell\de-DE.tdf" />
+    <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
+    <Content Include="AdminApp\config.json" />
+    <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js.map" />
+    <Content Include="Mvc\Views\PaymentPicker\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\Products\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\Products\List.Index.cshtml" />
+    <Content Include="Mvc\Views\Address\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\Address\Index.cshtml.orig" />
+    <Content Include="Mvc\Views\BasketPreview\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\Cart\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\CategoryNavigation\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\ConfirmationEmail\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\ConfirmationMessage\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\FacetsFilter\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\Layouts\Email.cshtml" />
+    <Content Include="Mvc\Views\MiniBasket\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\ShippingPicker\Detail.Index.cshtml" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="SampleTemplate.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </Content>
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\quantum-style.css.map" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.eot" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
@@ -1688,80 +1738,6 @@
     <Content Include="ResourcePackages\Bootstrap\package.json" />
     <Content Include="ResourcePackages\Bootstrap\razorgenerator.directives" />
     <Content Include="ResourcePackages\Bootstrap\README.md" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ShippingPicker\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Shared\_Warning.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Products\List.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Products\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\PaymentPicker\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\MiniBasket\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\FacetsFilter\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ConfirmationMessage\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ConfirmationEmail\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\CategoryNavigation\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Cart\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Address\Detail.Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\DocumentsListResources.resx" />
-    <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\ErrorMessages.resx" />
-    <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\Labels.resx" />
-    <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\LoginStatusResources.resx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ucommerce-ui\Ucommerce.Sitefinity.UI\Ucommerce.Sitefinity.UI.csproj">
-      <Project>{7ffd1a52-79b1-49f8-b155-2beadba87ee0}</Project>
-      <Name>Ucommerce.Sitefinity.UI</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="AdminApp\config.json" />
-    <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js.map" />
-    <Content Include="OpenAccessNuGet.targets" />
-    <Content Include="App_Data\RadSpell\fr-FR.tdf" />
-    <Content Include="App_Data\RadSpell\en-US.tdf" />
-    <Content Include="App_Data\RadSpell\de-DE.tdf" />
-    <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
-    <Content Include="Mvc\Views\Address\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\BasketPreview\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\Card\Card.cshtml" />
-    <Content Include="Mvc\Views\Card\Card.Hero.cshtml" />
-    <Content Include="Mvc\Views\Card\Card.Homepage.cshtml" />
-    <Content Include="Mvc\Views\Card\Card.Simple.cshtml" />
-    <Content Include="Mvc\Views\Card\Card.Splash.cshtml" />
-    <Content Include="Mvc\Views\Card\Card.Whitepaper.cshtml" />
-    <Content Include="Mvc\Views\Cart\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\CategoryNavigation\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\ConfirmationEmail\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\ConfirmationMessage\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\FacetsFilter\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\LanguageSelector\LanguageSelector.DropDownMenu.cshtml" />
-    <Content Include="Mvc\Views\LanguageSelector\LanguageSelector.LanguageLinks.cshtml" />
-    <Content Include="Mvc\Views\LanguageSelector\LanguageSelector.QDropDownMenu.cshtml" />
-    <Content Include="Mvc\Views\LanguageSelector\LanguageSelector.QLanguageLinks.cshtml" />
-    <Content Include="Mvc\Views\Layouts\Email.cshtml" />
-    <Content Include="Mvc\Views\LoginStatus\LoginStatus.LoginButton.cshtml" />
-    <Content Include="Mvc\Views\LoginStatus\LoginStatus.LoginName.cshtml" />
-    <Content Include="Mvc\Views\MiniBasket\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\Navigation\Dropdown.cshtml" />
-    <Content Include="Mvc\Views\Navigation\NavigationView.Horizontal.cshtml" />
-    <Content Include="Mvc\Views\Navigation\NavigationView.Pills.cshtml" />
-    <Content Include="Mvc\Views\Navigation\NavigationView.QHorizontal.cshtml" />
-    <Content Include="Mvc\Views\Navigation\NavigationView.QSitemap.cshtml" />
-    <Content Include="Mvc\Views\Navigation\NavigationView.Sitemap.cshtml" />
-    <Content Include="Mvc\Views\Navigation\NavigationView.Tabs.cshtml" />
-    <Content Include="Mvc\Views\Navigation\NavigationView.Vertical.cshtml" />
-    <Content Include="Mvc\Views\PaymentPicker\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\Products\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\Products\List.Index.cshtml" />
-    <Content Include="Mvc\Views\SearchBox\SearchBox.cshtml" />
-    <Content Include="Mvc\Views\SearchBox\SearchBox_Q.cshtml" />
-    <Content Include="Mvc\Views\ShippingPicker\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\AddReview\Detail.Index.cshtml" />
-    <Content Include="Mvc\Views\ProductReviews\List.Index.cshtml" />
-    <None Include="packages.config" />
-    <Content Include="SampleTemplate.cshtml">
-      <Generator>RazorGenerator</Generator>
-    </Content>
     <Content Include="ResourcePackages\Bootstrap4\README.md" />
     <Content Include="ResourcePackages\Bootstrap4\razorgenerator.directives" />
     <Content Include="ResourcePackages\Bootstrap4\package.json" />
@@ -1912,15 +1888,32 @@
     <Content Include="ResourcePackages\Bootstrap4\assets\src\sitefinity\sass\base\_list.scss" />
     <Content Include="ResourcePackages\Bootstrap4\assets\src\project\sass\main.scss" />
     <Content Include="ResourcePackages\Bootstrap4\assets\src\project\sass\adminapp\editor.scss" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\AddReview\Detail.Index.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ProductReviews\List.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ShippingPicker\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Shared\_Warning.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Products\List.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Products\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\PaymentPicker\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\MiniBasket\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\FacetsFilter\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ConfirmationMessage\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ConfirmationEmail\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\CategoryNavigation\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Cart\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\BasketPreview\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Address\Detail.Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\DocumentsListResources.resx" />
+    <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\ErrorMessages.resx" />
+    <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\Labels.resx" />
+    <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\LoginStatusResources.resx" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="packages\AWSSDK.CloudSearch.3.3.0.83\analyzers\dotnet\cs\AWSSDK.CloudSearch.CodeAnalysis.dll" />
     <Analyzer Include="packages\AWSSDK.CloudSearchDomain.3.3.0.83\analyzers\dotnet\cs\AWSSDK.CloudSearchDomain.CodeAnalysis.dll" />
-    <Analyzer Include="packages\AWSSDK.DynamoDBv2.3.3.101.88\analyzers\dotnet\cs\AWSSDK.DynamoDBv2.CodeAnalysis.dll" />
-    <Analyzer Include="packages\AWSSDK.S3.3.3.104.43\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
-    <Analyzer Include="packages\AWSSDK.SQS.3.3.102.38\analyzers\dotnet\cs\AWSSDK.SQS.CodeAnalysis.dll" />
+    <Analyzer Include="packages\AWSSDK.DynamoDBv2.3.3.101.70\analyzers\dotnet\cs\AWSSDK.DynamoDBv2.CodeAnalysis.dll" />
+    <Analyzer Include="packages\AWSSDK.S3.3.3.104.31\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
+    <Analyzer Include="packages\AWSSDK.SQS.3.3.102.11\analyzers\dotnet\cs\AWSSDK.SQS.CodeAnalysis.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="OpenAccessNuget.targets" />
@@ -1956,9 +1949,9 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
     <Error Condition="!Exists('packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
     <Error Condition="!Exists('packages\Telerik.Sitefinity.Feather.12.2.7200\build\Telerik.Sitefinity.Feather.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Telerik.Sitefinity.Feather.12.2.7200\build\Telerik.Sitefinity.Feather.targets'))" />
   </Target>
   <Import Project="packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets" Condition="Exists('packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets')" />

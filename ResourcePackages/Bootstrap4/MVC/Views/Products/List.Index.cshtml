@@ -13,14 +13,13 @@
 {
     @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
     @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
 }
 
 <div class="container my-5" data-component="products" id="@Html.UniqueId("product-list")" v-cloak>
-<input type="hidden" ref="addToBasket" value="@Html.Resource("AddToBasket", "UcommerceResources")"/>
-<input type="hidden" ref="notAddToBasket" value="@Html.Resource("NotAddToBasket", "UcommerceResources")"/>
     <div class="row">
         <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
-            <em class="p-1">@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
+            <em class="p-1">@Model.TotalCount products</em>
         </div>
     </div>
     <div class="row">
@@ -71,9 +70,7 @@
 
                                             <add-to-basket :product-sku="'@product.Sku'" :root-id="$el.id">
                                             </add-to-basket>
-                                            <div>
-                                                <a class="text-info" href="@product.ProductUrl">@Html.Resource("WriteReview", "UcommerceResources")</a>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +83,7 @@
     </div>
     <div class="row">
         <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
-            <em class="p-1">@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
+            <em class="p-1">@Model.TotalCount products</em>
         </div>
     </div>
     <div class="row">
@@ -108,20 +105,20 @@
 
 <script type="text/x-template" id="add-to-basket-template">
     <div class="mt-2">
-        <span class="font-weight-bold">@Html.Resource("Quantity", "UcommerceResources"):</span>
+        <span class="font-weight-bold">Quantity:</span>
         <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityRequiredFieldValidator" style="display:none;">
             <span class="text-danger">
-                @Html.Resource("SpecifyQuantity", "UcommerceResources")
+                When adding product to a cart you must specify the quantity
             </span>
         </span>
         <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityValidator" style="display:none;">
             <span class="text-danger">
-                @Html.Resource("QuantityValidation", "UcommerceResources")
+                The quantity must be greater than 0 and less than 9,999.
             </span>
         </span>
         <input title="Product Quantity" id="productQuantityInput" v-model="quantity" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$quantity" type="text" class="form-control" />
 
-        <input type="button" title="Add to cart button" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$addToCartButton" value="@Html.Resource("AddToCart", "UcommerceResources")" v-on:click="addToBasket()" id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_addToCartButton" class="btn btn-info mt-2" />
+        <input type="button" title="Add to cart button" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$addToCartButton" value="Add to cart" v-on:click="addToBasket()" id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_addToCartButton" class="btn btn-info mt-2" />
         <span class="text-success pl-2 pt-1 position-absolute" v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
     </div>
 </script>

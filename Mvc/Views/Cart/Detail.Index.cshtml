@@ -5,187 +5,144 @@
 @using Telerik.Sitefinity.UI.MVC;
 @using Telerik.Sitefinity.Services;
 
+@model UCommerce.Sitefinity.UI.Mvc.ViewModels.CartRenderingViewModel
+
+
 @Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
-@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
 
 @if (!SystemManager.IsDesignMode)
 {
-    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
-    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
 }
 
-<div data-component="cart" class="cart-table" id="shopping-cart">
-    <hgroup>
-        <h1> @Html.Resource("ShoppingCart", "UcommerceResources")</h1>
-    </hgroup>
-    <template v-if="model">
-        <div class="sfProductsInCart">
-            <template v-if="(model && model.OrderLines && model.OrderLines.length > 0)">
-                {{ model.OrderLines.length }}&nbsp;@Html.Resource("Items", "UcommerceResources")
-            </template>s
-        </div>
-        <template v-if="model.OrderLines.length == 0">
-            <div class="alert alert-info section-margin">
-                <p>@Html.Resource("YourCartIsEmpty", "UcommerceResources") <a :href="model.RedirectUrl">@Html.Resource("ReturnToStore", "UcommerceResources")</a>.</p>
-            </div>
-        </template>
-        <template v-else>
-            <div class="cart table-wrapper">
-                <div class="table-body">
-                    <div class="table-row t-heading">
-                        <div class="span3 table-cell"></div>
-                        <div class="span3 table-cell">@Html.Resource("Description", "UcommerceResources")</div>
-                        <div class="span1 table-cell money">@Html.Resource("Price", "UcommerceResources")</div>
-                        <div class="span1 table-cell money">@Html.Resource("VAT", "UcommerceResources")</div>
-                        <div class="span1 table-cell">@Html.Resource("Quantity", "UcommerceResources")</div>
-                        <div class="span1 money table-cell">@Html.Resource("Total", "UcommerceResources")</div>
-                    </div>
+@if (Model.OrderLines.Count == 0)
+{
+    <div class="alert alert-info section-margin">
+        <p>Your cart is empty. Please <a href="/">return to our store and add some items</a>.</p>
+    </div>
+}
+else
+{
+    <div class="cart-table">
+        <div class="cart table-wrapper">
+            <div class="table-body">
+                <div class="table-row t-heading">
+                    <div class="span3 table-cell">Description</div>
+                    <div class="span1 table-cell money">Price</div>
+                    <div class="span1 table-cell money">VAT</div>
+                    <div class="span1 table-cell">Quantity</div>
+                    <div class="span1 money table-cell">Total</div>
+                    <div class="span05 table-cell"></div>
+                    <div class="span05 table-cell"></div>
+                </div>
+                @for (var i = 0; i < Model.OrderLines.Count; i++)
+                {
+                    var line = Model.OrderLines[i];
+                    <div class="table-row item-info order-line" data-orderline="@line.OrderLineId">
+                        @Html.HiddenFor(model => model.OrderLines[i].Sku)
+                        @Html.HiddenFor(model => model.OrderLines[i].VariantSku)
+                        @Html.HiddenFor(model => model.OrderLines[i].OrderLineId)
 
-                    <template v-for="(item, key) in model.OrderLines" :key="item.OrderLineId">
-                        <div class="table-row item-info order-line" data-orderline="{{ item.OrderLineId }}">
-                            <input :id="'OrderLines_' + key + '__Sku'" :name="'OrderLines[' + key + '].Sku'" type="hidden" :value="item.Sku">
-                            <input :id="'OrderLines_' + key + '__VariantSku'" :name="'OrderLines[' + key + '].VariantSku'" type="hidden" :value="item.VariantSku">
-                            <input :id="'OrderLines_' + key + '__OrderLineId'" :name="'OrderLines[' + key + '].OrderLineId'" type="hidden" :value="item.OrderLineId">
-                            <div class="table-cell">
-                                <figure>
-                                    <img class="product-thumbnail" :title="item.ProductName" :src="item.ThumbnailUrl" :alt="item.ProductName" />
-                                </figure>
-                            </div>
-                            <div class="table-cell">
-                                <a class="a-heading" :href="item.ProductUrl">{{ item.ProductName }}</a>
-                                <div>
-                                    <a class="line-remove" v-on:click="removeCartItem(item.OrderLineId)">
-                                        @Html.Resource("Remove", "UcommerceResources")
-                                    </a>
-                                    <a class="update-basket js-update-basket" v-on:click="updateCartItems">
-                                        @Html.Resource("Update", "UcommerceResources")
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="table-cell money">
-                                <template v-if="item.Discount && item.Discount > 0">
-                                    <span style="text-decoration: line-through" data-price>
-                                        {{ item.Price }}
-                                    </span>
-                                    <span data-price-with-discount>
-                                        {{ item.PriceWithDiscount }}
-                                    </span>
-                                </template>
-                                <template v-else>
-                                    <span data-price>
-                                        {{ item.Price }}
-                                    </span>
-                                </template>
-                            </div>
-                            <div class="table-cell money" data-tax>
-                                {{ item.Tax }}
-                            </div>
-                            <div class="table-cell">
-                                <input class="qty form-control inline-block no-padding" type="number" v-model="item.Quantity">
-                            </div>
-                            <div class="table-cell money item-total">
-                                {{ item.Total }}
-                            </div>
+                        <div class="table-cell"><a class="a-heading" href="@line.ProductUrl">@line.ProductName</a></div>
+                        <div class="table-cell money">
+                            @if (@line.Discount.HasValue && @line.Discount > 0)
+                            {
+                                <span style="text-decoration: line-through" data-price>
+                                    @line.Price
+                                </span>
+                                <span data-price-with-discount>
+                                    @line.PriceWithDiscount
+                                </span>
+                            }
+                            else
+                            {
+                                <span data-price>
+                                    @line.Price
+                                </span>
+
+                            }
                         </div>
-                    </template>
-                    <template v-if="hasVoucher">
-                        <div class="table-row">
-                            <div class="table-cell empty-cell">&nbsp;</div>
-                            <div class="table-cell">
-                                <label for="voucherCode">@Html.Resource("DiscountCode", "UcommerceResources"):</label>
-                                <input id="voucherCode" class="voucherCode qty form-control inline-block no-padding" type="text" v-model="model.Voucher">
-                                <button class="btn-none addVoucher inline-block" type="button" v-on:click="applyVoucher">
-                                    <i class="fas fa-sync-alt fa-1x" aria-hidden="true"></i>
-                                    <span class="btn-text">@Html.Resource("Add", "UcommerceResources")</span>
-                                </button>
-                            </div>
-                            <div class="table-cell empty-cell">&nbsp;</div>
-                            <div class="table-cell empty-cell">&nbsp;</div>
-                            <div class="table-cell empty-cell">&nbsp;</div>
-                            <div class="table-cell empty-cell">&nbsp;</div>
-                            <div class="table-cell empty-cell">&nbsp;</div>
+                        <div class="table-cell money" data-tax>
+                            @line.Tax
                         </div>
-                    </template>
-                    <template v-else>
-                        <div class="table-row">
-                            <div class="table-cell border-cell-0 empty-cell">
-                                <input id="hasVoucher" type="checkbox" v-model="hasVoucher" />
-                                <label for="hasVoucher" class="has-voucher-label">@Html.Resource("HasAVoucher", "UcommerceResources")</label>
-                            </div>
+                        <div class="table-cell">
+                            @Html.TextBoxFor(model => model.OrderLines[i].Quantity, new { @class = "qty form-control inline-block no-padding", data_orderline_id = @Model.OrderLines[i].OrderLineId, data_orderline_qty = @Model.OrderLines[i].Quantity })
+
                         </div>
-                    </template>
-                    <div class="table-row">
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell">@Html.Resource("SubTotal", "UcommerceResources"):</div>
-                        <div class="money table-cell order-subtotal">
-                            {{ model.SubTotal }}
+                        <div class="table-cell money item-total">
+                            @line.Total
+                        </div>
+                        <div class="table-cell">
+                            <button name="update-basket" class="btn-none inline-block update-basket js-update-basket" data-remove-orderline-url="@Model.RemoveOrderlineUrl" data-refresh-url="@Model.RefreshUrl" data-cart-container=".cart-container" data-item-total=".item-total" data-line-remove=".line-remove" data-order-subtotal=".order-subtotal" data-order-tax=".order-tax" data-order-discounts=".order-discounts" data-order-total=".order-total" data-basket="@Model" type="button">
+                                <i class="fas fa-sync-alt fa-1x" aria-hidden="true"></i> <span class="btn-text">Update</span>
+                            </button>
+                        </div>
+                        <div class="table-cell">
+                            <button type="button" data-line-id="@line.OrderLineId" name="RemoveOrderlineId" class="line-remove"><i class="fas fa-times fa-1x"></i><span class="btn-text">Remove</span></button>
                         </div>
                     </div>
-                    <template v-if="hasVoucher">
-                        <template v-for="Voucher in model.Discounts">
-                            <div class="table-row" v-if="Voucher">
-                                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                                <div class="table-cell">@Html.Resource("DiscountCode", "UcommerceResources"):</div>
-                                <div class="money table-cell order-subtotal">{{ Voucher }}</div>
-                                <div class="table-cell">
-                                    <button type="button" class="close" aria-label="Close" v-on:click="removeVoucher(Voucher)">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </template>
-                    </template>
-                    <div class="table-row">
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell">@Html.Resource("VAT", "UcommerceResources"):</div>
-                        <div class="table-cell money order-tax">
-                            {{ model.TaxTotal }}
-                        </div>
+                }
+                <div class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell">Sub total:</div>
+                    <div class="money table-cell order-subtotal">
+                        @Model.SubTotal
                     </div>
-                    <div v-if="model.DiscountTotal" class="table-row">
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell">@Html.Resource("Discounts", "UcommerceResources"):</div>
-                        <div class="table-cell money order-discounts">
-                            {{ model.DiscountTotal }}
-                        </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell">VAT:</div>
+                    <div class="table-cell money order-tax">
+                        @Model.TaxTotal
                     </div>
-                    <div class="table-row">
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                        <div class="table-cell" colspan="1">
-                            <strong>@Html.Resource("OrderTotal", "UcommerceResources"):</strong>
-                        </div>
-                        <div class="table-cell money order-total">
-                            {{ model.OrderTotal }}
-                        </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell">Discounts:</div>
+                    <div class="table-cell money order-discounts">
+                        @Model.DiscountTotal
                     </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell" colspan="1"><strong>Order total:</strong></div>
+                    <div class="table-cell money order-total">
+                        @Model.OrderTotal
+                    </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
                 </div>
             </div>
-            <div class="continue-shopping-wrapper">
-                <a id="continue-shopping-link" class="continue-shopping-link" :href="model.RedirectUrl">@Html.Resource("ContinueShopping", "UcommerceResources")</a>
+        </div>
+
+
+        <div class="control-group margin-top">
+            <div class="controls">
+                @{
+                    var showContinueButton = true;
+
+                    if (Model.NextStepUrl == "")
+                    {
+                        showContinueButton = false;
+                    }
+
+                }
+                <a href="@Model.NextStepUrl"><button style="@(showContinueButton ? "display:block" : "display:none")" type="button" class="btn btn-success btn-next pull-right" name="review-product">Continue</button></a>
             </div>
-            <checkout-navigation v-bind:model="model"
-                                 continue-label="@Html.Resource("Continue", "UcommerceResources")"
-                                 back-label="@Html.Resource("BackButton", "UcommerceResources")"
-                                 classes="control-group margin-top"
-                                 back-link-classes="btn btn-back btn-transparent pull-left"
-                                 continue-btn-classes="btn btn-success btn-next pull-right"
-                                 mode="Bootstrap">
-            </checkout-navigation>
-        </template>
-    </template>
-</div>
+        </div>
+    </div>
+}

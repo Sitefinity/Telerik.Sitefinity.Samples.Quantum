@@ -4,7 +4,7 @@
 @using Telerik.Sitefinity.Modules.Pages;
 @using Telerik.Sitefinity.UI.MVC;
 @using Telerik.Sitefinity.Services;
-
+@model UCommerce.Sitefinity.UI.Mvc.ViewModels.ShippingPickerViewModel
 @{
     Layout = null;
 }
@@ -13,36 +13,61 @@
 
 @if (!SystemManager.IsDesignMode)
 {
-    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
-    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
 }
 
-<div data-component="shipping-widget" id="shipping-method">
-    <template v-if="model">
-        <h3 class="heading-underline">@Html.Resource("ShippingMethod", "UcommerceResources")</h3>
+@using (Html.BeginFormSitefinity("CreateShipment", "ShippingPicker", FormMethod.Post))
+{
+    <h3 class="heading-underline">Shipping method</h3>
+    if (@Model.AvailableShippingMethods.Count > 0)
+    {
+        foreach (var shippingMethod in @Model.AvailableShippingMethods)
+        {
+            <div class="radio-btn-ml section-margin">
+                <label class="radio">
+                    @if (shippingMethod.Selected)
+                    {
+                        @Html.RadioButtonFor(x => x.SelectedShippingMethodId, shippingMethod.Value, new { @checked = "checked", @class = "js-shipping-picker" })
+                        @shippingMethod.Text
+                    }
+                    else
+                    {
+                        @Html.RadioButtonFor(x => x.SelectedShippingMethodId, shippingMethod.Value, new { @class = "js-shipping-picker" })
+                        @shippingMethod.Text
+                    }
+                </label>
+            </div>
+        }
+        <div class="row control-group multistep-btn-a section-margin">
+            <div class="col-md-6 padding-0">
+                @{
+                    var showBackButton = true;
 
-        <template v-if="model.AvailableShippingMethods.length">
-            <template v-for="method in model.AvailableShippingMethods" :model="model">
-                <div class="radio-btn-ml section-margin">
-                    <label class="radio">
-                        <input class="js-shipping-picker" id="SelectedShippingMethodId" name="SelectedShippingMethodId" type="radio" :value="method.Value" :checked="method.Value == model.SelectedShippingMethodId"> {{ method.Text }}
-                    </label>
-                </div>
-            </template>
-            <checkout-navigation v-bind:model="model"
-                                 continue-label="@Html.Resource("ContinueToNextStep", "UcommerceResources")"
-                                 back-label="@Html.Resource("BackButton", "UcommerceResources")"
-                                 mode="Bootstrap"
-                                 :continue-fn="submit"
-                                 back-link-classes="btn btn-back btn-transparent pull-left"
-                                 continue-btn-classes="btn btn-success btn-next btn-complete pull-right"
-                                 classes="row control-group multistep-btn-a section-margin">
-            </checkout-navigation>
-        </template>
-        <template v-else>
-            <p class="alert">
-                WARNING: No shipping methods have been configured for {{ model.ShippingCountry }} within <a href="http://ucommerce.dk">UCommerce</a> administration area.
-            </p>
-        </template>
-    </template>
-</div>
+                    if (Model.NextStepUrl == "")
+                    {
+                        showBackButton = false;
+                    }
+                }
+                <a href="@Model.PreviousStepUrl" class="btn btn-next btn-transparent pull-left" style="@(showBackButton ? "display:block" : "display:none")">Back</a>
+            </div>
+            <div class="col-md-6 padding-0">
+                @{
+                    var showContinueButton = true;
+
+                    if (Model.NextStepUrl == "")
+                    {
+                        showContinueButton = false;
+                    }
+                }
+                <input type="submit" class="btn btn-success pull-right submit-address" style="@(showContinueButton ? "display:block" : "display:none")" value="Continue to next step" />
+            </div>
+        </div>
+    }
+
+    else
+    {
+        <p class="alert">
+            WARNING: No shipping methods have been configured for @Model.ShippingCountry within <a href="http://ucommerce.dk">UCommerce</a> administration area.
+        </p>
+    }
+}

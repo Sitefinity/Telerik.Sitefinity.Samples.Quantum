@@ -4,7 +4,7 @@
 @using Telerik.Sitefinity.Modules.Pages;
 @using Telerik.Sitefinity.UI.MVC;
 @using Telerik.Sitefinity.Services;
-
+@model UCommerce.Sitefinity.UI.Mvc.ViewModels.BasketPreviewViewModel
 @{
     Layout = null;
 }
@@ -13,184 +13,198 @@
 
 @if (!SystemManager.IsDesignMode)
 {
-    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
-    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
 }
 
-<div data-component="checkout-overview" id="checkout-overview">
-    <template v-if="model">
-        <div class="container-fluid">
-            <div class="row overflow-hidden mt-5 bg-light rounded mb-3 p-4">
-                <div class="col-md-6">
-                    <h3>@Html.Resource("BillingAddress", "UcommerceResources")</h3>
-                    <hr />
-                    <br />
-                    <address>
-                        <span><strong>{{ model.BillingAddressDTO.FirstName }} {{ model.BillingAddressDTO.LastName }}</strong></span><br>
-                        <span>{{ model.BillingAddressDTO.Line1 }}<br></span>
-                        <span>{{ model.BillingAddressDTO.PostalCode }} {{ model.BillingAddressDTO.City }}</span><br>
-                        <span>{{ model.BillingAddressDTO.CountryName }}</span>
-                        <template v-if="model.BillingAddressDTO.Attention">
-                            <span><text>att. </text> {{ model.BillingAddressDTO.Attention }}</span>
-                        </template>
-                        <br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Phone", "UcommerceResources")">P:</abbr>{{ model.BillingAddressDTO.PhoneNumber }}</span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Mobile", "UcommerceResources")">M:</abbr>{{ model.BillingAddressDTO.MobilePhoneNumber }} </span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Email", "UcommerceResources")">E:</abbr><a :href="'mailto:' + model.BillingAddressDTO.EmailAddress">{{ model.BillingAddressDTO.EmailAddress }}</a></span>
-                    </address>
-                </div>
-                <div class="col-md-6">
-                    <h3>@Html.Resource("ShippingAddress", "UcommerceResources")</h3>
-                    <hr />
-                    <br />
-                    <address>
-                        <span><strong>{{ model.ShipmentAddressDTO.FirstName }} {{ model.ShipmentAddressDTO.LastName }}</strong></span><br>
-                        <span>{{ model.ShipmentAddressDTO.CompanyName }}</span>
-                        <template v-if="model.ShipmentAddressDTO.Attention">
-                            <span><text>att. </text> {{ model.ShipmentAddressDTO.Attention }} </span>
-                        </template>
-                        <br />
-                        <span>{{ model.ShipmentAddressDTO.Line1 }} </span><br>
-                        <span>{{ model.ShipmentAddressDTO.PostalCode }} {{ model.ShipmentAddressDTO.City }}</span><br>
-                        <span>{{ model.ShipmentAddressDTO.CountryName }}</span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Phone", "UcommerceResources")">P:</abbr>{{ model.ShipmentAddressDTO.PhoneNumber }}</span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Mobile", "UcommerceResources")">M:</abbr>{{ model.ShipmentAddressDTO.MobilePhoneNumber }}</span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Email", "UcommerceResources")">E:</abbr><a :href="'mailto:' + model.ShipmentAddressDTO.EmailAddress">{{ model.ShipmentAddressDTO.EmailAddress }}</a></span>
-                    </address>
-                </div>
+@using (Html.BeginFormSitefinity("RequestPayment", "BasketPreview", FormMethod.Post))
+{
+    <div class="container-fluid">
+        <div class="row overflow-hidden mt-5 bg-light rounded mb-3 p-4">
+            <div class="col-md-6">
+                <h3>Billing address</h3>
+                <hr />
+                <br />
+                <address>
+                    <span><strong>@Model.BillingAddress.FirstName @Model.BillingAddress.LastName</strong></span><br>
+                    <span>@Model.BillingAddress.Line1<br></span>
+                    <span>@Model.BillingAddress.PostalCode @Model.BillingAddress.City</span><br>
+                    <span>@Model.BillingAddress.Country.Name</span>
+                    @if (!String.IsNullOrWhiteSpace(@Model.BillingAddress.Attention))
+                    {
+                        <span><text>att. </text> @Model.BillingAddress.Attention</span>
+                    }<br>
+                    <span><abbr class="pr-2" title="Phone">P:</abbr>@Model.BillingAddress.PhoneNumber</span><br>
+                    <span><abbr class="pr-2" title="Mobile">M:</abbr>@Model.BillingAddress.MobilePhoneNumber </span><br>
+                    <span><abbr class="pr-2" title="Email">E:</abbr><a href="mailto:@Model.BillingAddress.EmailAddress">@Model.BillingAddress.EmailAddress</a></span>
+                </address>
             </div>
-
+            <div class="col-md-6">
+                <h3>Shipping address</h3>
+                <hr />
+                <br />
+                <address>
+                    <span><strong>@Model.ShipmentAddress.FirstName @Model.ShipmentAddress.LastName</strong></span><br>
+                    <span>@Model.ShipmentAddress.CompanyName</span>
+                    @if (!String.IsNullOrWhiteSpace(@Model.ShipmentAddress.Attention))
+                    {
+                        <span><text>att. </text> @Model.ShipmentAddress.Attention </span>
+                    }<br />
+                    <span>@Model.ShipmentAddress.Line1</span><br>
+                    <span>@Model.ShipmentAddress.PostalCode @Model.ShipmentAddress.City</span><br>
+                    <span>@Model.ShipmentAddress.Country.Name</span><br>
+                    <span><abbr class="pr-2" title="Phone">P:</abbr>@Model.ShipmentAddress.PhoneNumber</span><br>
+                    <span><abbr class="pr-2" title="Mobile">M:</abbr>@Model.ShipmentAddress.MobilePhoneNumber</span><br>
+                    <span><abbr class="pr-2" title="Email">E:</abbr><a href="mailto:@Model.ShipmentAddress.EmailAddress">@Model.ShipmentAddress.EmailAddress</a></span>
+                </address>
+            </div>
         </div>
-        <div class="container-fluid mb-5">
-            <div class="row border-bottom py-2 d-none d-md-flex">
-                <div class="col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("ItemNo", "UcommerceResources")</span>
-                </div>
-                <div class="col-md-4">
-                    <span class="font-weight-bold">@Html.Resource("Description", "UcommerceResources")</span>
-                </div>
-                <div class="col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("Price", "UcommerceResources")</span>
-                </div>
-                <div class="col-md-1">
-                    <span class="font-weight-bold">
-                        @Html.Resource("VAT", "UcommerceResources")
-                    </span>
-                </div>
-                <div class="col-md-1">
-                    <span class="font-weight-bold">@Html.Resource("Quantity", "UcommerceResources")</span>
-                </div>
-                <div class="col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("Total", "UcommerceResources")</span>
-                </div>
+
+    </div>
+    <div class="container-fluid mb-5">
+        <div class="row border-bottom py-2 d-none d-md-flex">
+            <div class="col-md-2">
+                <span class="font-weight-bold">Item no.</span>
             </div>
-            <template v-for="lineItem in model.OrderLines">
-
-                <div class="row border-bottom py-3">
-                    <div class="col-md-2 mb-2 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("ItemNo", "UcommerceResources"): </span> <span class="text-info">{{ lineItem.Sku }}</span>
-                    </div>
-                    <div class="col-md-4 mb-2 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("Description", "UcommerceResources"): </span> <span class="text-info d-block d-md-inline-block">{{ lineItem.ProductName }}</span>
-                    </div>
-
-                    <div class="col-md-2 money mb-2 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("Price", "UcommerceResources"): </span>
-                        <template v-if="lineItem.Discount.HasValue && lineItem.Discount > 0">
-                            <span>
-                                {{ lineItem.Price }}
-                            </span>
-                            {{ lineItem.PriceWithDiscount }}
-                        </template>
-                        <template v-else>
-                            {{ lineItem.Price }}
-                        </template>
-                    </div>
-
-                    <div class="col-md-1 money mb-2 mb-md-0" data-tax>
-                        <span class="font-weight-bold d-md-none">@Html.Resource("VAT", "UcommerceResources")</span>
-                        {{ lineItem.Tax }}
-                    </div>
-                    <div class="col-md-1 mb-2 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("Quantity", "UcommerceResources"): </span>
-                        {{ lineItem.Quantity }}
-                    </div>
-                    <div class="col-md-2 money item-total mb-1 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("Total", "UcommerceResources"): </span>
-                        {{ lineItem.Total }}
-                    </div>
-                </div>
-            </template>
-            <div class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("SubTotal", "UcommerceResources"):</span>
-                </div>
-                <div class="col-md-2 money order-subtotal">
-                    {{ model.SubTotal }}
-                </div>
+            <div class="col-md-4">
+                <span class="font-weight-bold">Description</span>
             </div>
-            <div class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("VAT", "UcommerceResources"):</span>
-                </div>
-                <div class="col-md-2 money order-tax">
-                    {{ model.TaxTotal }}
-                </div>
+            <div class="col-md-2">
+                <span class="font-weight-bold">Price</span>
             </div>
-
-            <div v-if="model.DiscountAmount != 0" class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("OrderDiscounts", "UcommerceResources"):</span>
-                </div>
-                <div class="col-md-2 money order-discounts">
-                    -{{ model.DiscountTotal }}
-                </div>
+            <div class="col-md-1">
+                <span class="font-weight-bold">
+                    VAT
+                </span>
             </div>
-
-            <div v-if="model.ShipmentAmount != 0" class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">
-                        @Html.Resource("Shipping", "UcommerceResources")
-                        <text> (via {{ model.ShipmentName }})</text>:
-                    </span>
-                </div>
-                <div class="col-md-2 money order-discounts">
-                    {{ model.ShippingTotal }}
-                </div>
+            <div class="col-md-1">
+                <span class="font-weight-bold">Quantity</span>
             </div>
-
-
-            <div v-if="model.PaymentAmount != 0" class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">
-                        @Html.Resource("Payment", "UcommerceResources")
-                        <text> ({{ model.PaymentName }})</text>:
-                    </span>
-                </div>
-                <div class="col-md-2 money order-discounts">
-                    {{ model.PaymentTotal }}
-                </div>
+            <div class="col-md-2">
+                <span class="font-weight-bold">Total</span>
             </div>
-
-            <div class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("OrderTotal", "UcommerceResources"):</span>
-                </div>
-                <div class="col-md-2 money order-total">
-                    {{ model.OrderTotal }}
-                </div>
-            </div>
-            <checkout-navigation v-bind:model="model"
-                                 continue-label="@Html.Resource("CompleteOrder", "UcommerceResources")"
-                                 back-label="@Html.Resource("BackButton", "UcommerceResources")"
-                                 :continue-fn="continueFn" 
-                                 mode="Bootstrap4"  
-                                 back-link-classes="btn btn-light btn-lg float-md-left"
-                                 continue-btn-classes="btn btn-info btn-lg w-100 mt-3 mt-md-0 float-md-right"
-                                 classes="row mt-4">
-            </checkout-navigation>
         </div>
-    </template>
-</div>
+        @foreach (var lineItem in @Model.OrderLines)
+        {
+
+            <div class="row border-bottom py-3">
+                <div class="col-md-2 mb-2 mb-md-0">
+                    <span class="font-weight-bold d-md-none">Item no.: </span> <span class="text-info">@lineItem.Sku</span>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                    <span class="font-weight-bold d-md-none">Description: </span> <span class="text-info d-block d-md-inline-block">@lineItem.ProductName</span>
+                </div>
+
+                <div class="col-md-2 money mb-2 mb-md-0">
+                    <span class="font-weight-bold d-md-none">Price: </span>
+                    @if (lineItem.Discount.HasValue && lineItem.Discount > 0)
+                    {
+                        <span>
+                            @lineItem.Price
+                        </span>
+                        @lineItem.PriceWithDiscount
+                    }
+                    else
+                    {
+                        @lineItem.Price
+                    }
+                </div>
+
+                <div class="col-md-1 money mb-2 mb-md-0" data-tax>
+                    <span class="font-weight-bold d-md-none">VAT</span>
+                    @lineItem.Tax
+                </div>
+                <div class="col-md-1 mb-2 mb-md-0">
+                    <span class="font-weight-bold d-md-none">Quantity: </span>
+                    @lineItem.Quantity
+                </div>
+                <div class="col-md-2 money item-total mb-1 mb-md-0">
+                    <span class="font-weight-bold d-md-none">Total: </span>
+                    @lineItem.Total
+                </div>
+            </div>
+        }
+        <div class="row border-bottom py-2">
+            <div class="offset-md-8 col-md-2">
+                <span class="font-weight-bold">Sub total:</span>
+            </div>
+            <div class="col-md-2 money order-subtotal">
+                @Model.SubTotal
+            </div>
+        </div>
+        <div class="row border-bottom py-2">
+            <div class="offset-md-8 col-md-2">
+                <span class="font-weight-bold">VAT:</span>
+            </div>
+            <div class="col-md-2 money order-tax">
+                @Model.TaxTotal
+            </div>
+        </div>
+        @if (@Model.DiscountAmount != 0)
+        {
+            <div class="row border-bottom py-2">
+                <div class="offset-md-8 col-md-2">
+                    <span class="font-weight-bold">Discounts:</span>
+                </div>
+                <div class="col-md-2 money order-discounts">
+                    -@Model.DiscountTotal
+                </div>
+            </div>
+        }
+
+        @if (@Model.ShipmentAmount != 0)
+        {
+            <div class="row border-bottom py-2">
+                <div class="offset-md-8 col-md-2">
+                    <span class="font-weight-bold">
+                        Shipping
+                        <text> (via @Model.ShipmentName)</text>:
+                    </span>
+                </div>
+                <div class="col-md-2 money order-discounts">
+                    @Model.ShippingTotal
+                </div>
+            </div>
+        }
+        @if (@Model.PaymentAmount != 0)
+        {
+            <div class="row border-bottom py-2">
+                <div class="offset-md-8 col-md-2">
+                    <span class="font-weight-bold">
+                        Payment
+                        <text> (@Model.PaymentName)</text>:
+                    </span>
+                </div>
+                <div class="col-md-2 money order-discounts">
+                    @Model.PaymentTotal
+                </div>
+            </div>
+        }
+        <div class="row border-bottom py-2">
+            <div class="offset-md-8 col-md-2">
+                <span class="font-weight-bold">Order total:</span>
+            </div>
+            <div class="col-md-2 money order-total">
+                @Model.OrderTotal
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="offset-md-8 col-md-4">
+                @{
+                    var showContinueButton = true;
+
+                    if (Model.NextStepUrl == "")
+                    {
+                        showContinueButton = false;
+                    }
+
+                }
+                <a href="@Model.NextStepUrl" class="btn btn-info btn-lg w-100 mt-3 mt-md-0 float-md-right" style="@(showContinueButton ? "display:block" : "display:none")" name="review-product">Continue</a>
+
+            </div>
+        </div>
+    </div>
 
 
+
+
+}
