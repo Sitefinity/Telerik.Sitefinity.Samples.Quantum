@@ -81,7 +81,7 @@ html, body {
 }
 
 .content-area {
-	width: 74.8%;
+	width: calc(100% - 300px);
 }
 
 .ui-splitter {
@@ -113,7 +113,7 @@ html, body {
 	overflow-y: auto;
 	overflow-x: auto;
 	height: 100%;
-	width: 24.9%;
+	width: 300px;
 }
 
 

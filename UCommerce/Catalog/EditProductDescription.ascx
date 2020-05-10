@@ -8,13 +8,13 @@
 		<div class="propertyItem">
 			<div class="propertyItemHeader"><asp:Localize ID="Localize1" runat="server" meta:resourceKey="DisplayName" /></div>
 			<div class="propertyItemContent">
-				<asp:TextBox runat="server" CssClass="multiLingualDisplayName maxWidth" ID="DisplayNameTextBox" Text="<%# OutputSanitize(ProductDescription.DisplayName) %>" />
+				<asp:TextBox runat="server" CssClass="multiLingualDisplayName maxWidth" ID="DisplayNameTextBox" Text="<%# ProductDescription.DisplayName %>" />
 			</div>
 		</div>
 		<div class="propertyItem">
 			<div class="propertyItemHeader"><asp:Localize ID="Localize2" runat="server" meta:resourceKey="ShortDescription" /></div>
 			<div class="propertyItemContent">
-				<asp:TextBox runat="server" ID="ShortDescriptionTextBox" CssClass="maxWidth" TextMode="MultiLine" Text="<%# OutputSanitize(ProductDescription.ShortDescription) %>" />
+				<asp:TextBox runat="server" ID="ShortDescriptionTextBox" CssClass="maxWidth" TextMode="MultiLine" Text="<%# ProductDescription.ShortDescription %>" />
 			</div>
 		</div>
 		<div class="propertyItem">

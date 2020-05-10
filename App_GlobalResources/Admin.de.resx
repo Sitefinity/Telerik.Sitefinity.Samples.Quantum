@@ -665,4 +665,7 @@
   <data name="Delete" xml:space="preserve">
     <value>Löschen</value>
   </data>
+  <data name="menu_products_root" xml:space="preserve">
+    <value>Produkten</value>
+  </data>
 </root>

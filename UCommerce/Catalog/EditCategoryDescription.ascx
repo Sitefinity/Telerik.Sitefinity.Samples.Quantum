@@ -8,7 +8,7 @@
     <div class="propertyItem">
         <div class="propertyItemHeader"><asp:Localize ID="Localize1" runat="server" meta:resourceKey="DisplayName" /></div>
         <div class="propertyItemContent">
-            <asp:TextBox runat="server" CssClass="multiLingualDisplayName maxWidth" ID="DisplayNameTextBox" Text="<%# SanitizeOutput(Description.DisplayName) %>" />
+            <asp:TextBox runat="server" CssClass="multiLingualDisplayName maxWidth" ID="DisplayNameTextBox" Text="<%# Description.DisplayName %>" />
         </div>
     </div>
     <div class="propertyItem">

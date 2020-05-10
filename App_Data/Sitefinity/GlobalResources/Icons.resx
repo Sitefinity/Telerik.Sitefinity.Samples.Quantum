@@ -324,4 +324,7 @@
   <data name="product" xml:space="preserve">
     <value>tag_green.png</value>
   </data>
+  <data name="settings-products" xml:space="preserve">
+    <value>tag_green.png</value>
+  </data>
 </root>

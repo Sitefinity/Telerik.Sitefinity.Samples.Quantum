@@ -11,9 +11,14 @@
 		//
 		// Catalog
 		//
-        .when('/Vue/catalogs.html', {
+        .when('/Vue/catalogs.html#/catalogs', {
             redirectTo: function () {
-                return buildUrl('/Vue/catalogs.html');
+                return buildUrl('/Vue/catalogs.html?unique=0#catalogs');
+            }
+        })
+        .when('/Vue/catalogs.html#/products', {
+            redirectTo: function () {
+                return buildUrl('/Vue/catalogs.html?unique=1#products');
             }
         })
 		.when('/ucommerce/options/catalog/createproduct/:categoryId', {

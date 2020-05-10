@@ -1,7 +1,7 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditCategoryProducts.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditCategoryProducts" %>
 
 <div class="propertyPane leftAligned" data-role="productsInCategory">
-    <h2 class="propertyPaneTitel"><asp:Localize runat="server" meta:resourcekey="ProductsInCategory"></asp:Localize></h2>
+    <h2 class="propertyPaneTitel"><asp:Localize runat="server" meta:resourcekey="ProductsspeeInCategory"></asp:Localize></h2>
     <asp:Repeater runat="server" ID="ProductRepeater" EnableViewState="false">
         <HeaderTemplate>
             <table class="dataList" cellspacing="0" width="100%" id="productTable">

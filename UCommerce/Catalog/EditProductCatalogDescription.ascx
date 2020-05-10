@@ -8,14 +8,14 @@
     <div class="propertyItem">
         <div class="propertyItemHeader"><asp:Localize ID="Localize1" runat="server" meta:resourceKey="DisplayName" /></div>
         <div class="propertyItemContent">
-            <asp:TextBox runat="server" ID="DisplayNameTextBox" Text="<%# OutputSanitize(Description.DisplayName) %>" Width="200px" CssClass="mediumWidth multiLingualDisplayName" />
-            <asp:RequiredFieldValidator 
-                ID="RequiredFieldValidator1" 
-                runat="server" 
-                ControlToValidate="DisplayNameTextBox" 
-                Display="Static" 
-                Text="*" 
-                ErrorMessage='<%# GetLocalResourceObject("DisplayName.Text") + string.Format(" ({0})", CultureCode) %>' 
+            <asp:TextBox runat="server" ID="DisplayNameTextBox" Text="<%# Description.DisplayName %>" Width="200px" CssClass="mediumWidth multiLingualDisplayName" />
+            <asp:RequiredFieldValidator
+                ID="RequiredFieldValidator1"
+                runat="server"
+                ControlToValidate="DisplayNameTextBox"
+                Display="Static"
+                Text="*"
+                ErrorMessage='<%# GetLocalResourceObject("DisplayName.Text") + string.Format(" ({0})", CultureCode) %>'
                 CssClass="validator" />
         </div>
     </div>
