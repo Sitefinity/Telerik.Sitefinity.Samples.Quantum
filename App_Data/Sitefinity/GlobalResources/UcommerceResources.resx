@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddToBasket">
-    <value>Add to basket</value>
+    <value>Added to basket</value>
     <comment>Added to basket</comment>
     <lastModified>2020-02-27T13:52:57</lastModified>
   </data>
