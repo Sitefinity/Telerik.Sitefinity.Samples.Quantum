@@ -895,7 +895,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".nuget\nuget.exe" />
-    <Content Include="AdminApp\app.e088834fabd2330b5157.bundle.js" />
+    <Content Include="AdminApp\app.c089a4bf4ba0dbdc0050.bundle.js" />
     <Content Include="AdminApp\assets\auth\oidc-client.min.js" />
     <Content Include="AdminApp\assets\auth\silent-renew.html" />
     <Content Include="AdminApp\assets\auth\silent-renew.js" />
@@ -1318,12 +1318,12 @@
     <Content Include="App_Data\Sitefinity\Configuration\AuthenticationConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\LiveChatConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\PagesConfig.config" />
-    <Content Include="AdminApp\config.json" />
-    <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js.map" />
     <Content Include="App_Data\RadSpell\fr-FR.tdf" />
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
+    <Content Include="AdminApp\config.json" />
+    <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js.map" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
