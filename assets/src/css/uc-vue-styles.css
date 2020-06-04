@@ -1,0 +1,15 @@
+﻿[v-cloak] {
+    display: none;
+}
+#navbarNavDropdown ul .nav-item{
+	float: left;
+    list-style: none;
+    padding: 15px 25px 0 0;
+}
+.facet-selector .list-group-item {
+	padding: 2px 0;
+	border: 0 none;
+}
+.product-listing .img-thumbnail{
+	border: 0 none;
+}

@@ -1,0 +1,75 @@
+﻿@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Services;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Web;
+@using Newtonsoft.Json;
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+@{
+    Layout = null;
+    string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
+    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
+}
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
+
+<div data-component="mini-basket" id="mb2" v-cloak>
+    <script type="application/json" purl="true">
+        { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
+    </script>
+
+    <div v-if="model" class="sfcartSummaryWrp sfcartSummaryExpandableWrp">
+        <div class="sflnkToggleCartWrp">
+            <div class="sflnkToggleCartWrpIn">
+                <a v-on:click="toggleVisibility" class="sflnkToggleCart">
+                    <span class="sflnkToggleCartLbl">@Html.Resource("ShoppingCart", "UcommerceResources")</span>
+
+                    <strong v-show="model.NumberOfItems > 0" class="sfcartSummaryItemsCount">{{ model.NumberOfItems }} &nbsp;@Html.Resource("Products", "UcommerceResources")&nbsp;/&nbsp;{{ model.Total }}</strong>
+                    <strong v-show="model.NumberOfItems < 1" class="sfcartSummaryItemsCount">@Html.Resource("NoProductsMessage", "UcommerceResources")</strong>
+                </a>
+            </div>
+        </div>
+
+        <div v-if="isVisible" class="sfcartSummaryDetailsWrp">
+            <table class="sfminiShoppingCart">
+                <tbody>
+                    <tr v-for="prod in model.OrderLines">
+                        <td class="sfItmTmbCol sfProductTmbWrpthumbnail">
+                            <img style="max-width:60px; max-height:60px;" :src="prod.ThumbnailUrl" :alt="prod.ProductName">
+                        </td>
+
+                        <td class="sfItmTitleCol">
+                            <a class="sfItmTitle" :href="prod.ProductUrl">{{prod.ProductName}}</a>
+                            <div class="sfproductOptions"><span></span></div>
+
+                        </td>
+                        <td class="sfItmPriceCol">
+                            <span><span>{{prod.Quantity}}</span> ×</span>
+                            <div>
+                                <div class="sfTxtContent"></div>
+
+                                <div>
+                                    <span class="sfRegPrice">{{prod.Price | removeSpace}}</span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="sfPriceTotal" v-show="model.NumberOfItems > 0">
+                {{ model.NumberOfItems }}&nbsp;@Html.Resource("Products", "UcommerceResources")&nbsp;@Html.Resource("SubTotal", "UcommerceResources"): <strong class="sfPrice">{{ model.Total }}</strong>
+            </div>
+            <div class="sfPriceTotal" v-show="model.NumberOfItems < 1">
+                <span class="sfcartSummaryNoItems">@Html.Resource("NoProductsMessageLong", "UcommerceResources")</span>
+            </div>
+            <div class="sfcartSummaryBtnsWrp sfClearfix" v-show="model.NumberOfItems > 0">
+                <a class="sflnkToCart" :href="model.CartPageUrl">@Html.Resource("ViewShoppingCart", "UcommerceResources")</a> <a class="sfCheckoutBtn" :href="model.CheckoutPageUrl">@Html.Resource("Checkout", "UcommerceResources")</a>
+            </div>
+        </div>
+
+    </div>
+</div>

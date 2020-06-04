@@ -1,4 +1,4 @@
-﻿@model dynamic
+﻿@model CategoryNavigationViewModel
 
 @using Newtonsoft.Json;
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers
@@ -8,163 +8,163 @@
 @using UCommerce.Sitefinity.UI.Mvc.ViewModels;
 
 @Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
-@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-quantum.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/b4-category-navigation.css"), "head")
 
 @if (!SystemManager.IsDesignMode)
 {
     @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
     @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
-    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
 }
 
 <div data-component="category-navigation" id="@Html.UniqueId("categories")" v-cloak>
+    <input type="hidden" value="@Model.Localizations"/>
     <script type="application/json" data-items="true">
         { "items" : @Html.Raw(JsonConvert.SerializeObject(Model.Categories)) }
     </script>
-    <header class="top top--light">
-        <div class="top-inner top-inner--center">
-            <nav class="logo-wrap hide-element-sm">
-                <a href="/" class="logo logo--on-light" alt="">
-                    <img src="@Model.ImageUrl" alt="">
-                </a>
-            </nav>
-
-            @if (Model.Categories.Count > 0)
-            {
-                <nav class="main-nav">
-                    <dropdown-menu :nodes="items"></dropdown-menu>
-                </nav>
-            }
-            <nav class="main-nav main-nav--right hide--m">
-                <ul class="category-parent">
-                    @if (Model.AllowChangingCurrency && Model.Currencies.Count > 0)
-                    {
-                        var currencies = JsonConvert.SerializeObject(Model.Currencies);
-                        var currentCurrency = JsonConvert.SerializeObject(Model.CurrentCurrency);
-                        <currency-selector :serialized-currencies="'@currencies'" :serialized-current-currency="'@currentCurrency'" :root-id="$el.id">
-                        </currency-selector>
-                    }
-                    <li class="toggle-search" v-on:click="toggleSearchBar()"><a href="javascript:void(0)"><i class="fa fa-search"></i></a></li>
-                </ul>
-            </nav>
-        </div>
-
-        @foreach (var route in Model.Routes)
+    <nav class="bg-white shadow-lg mb-0">
+        @if (false && !string.IsNullOrWhiteSpace(Model.ImageUrl))
         {
-            <input type="hidden" class="@route.Key" value="@route.Value" />
+            <a href="/" class="navbar-brand" alt="">
+                <img src="@Model.ImageUrl" class="d-inline-block align-top" alt="Category Navigation Logo" width="30" height="30" />
+            </a>
         }
-
+        @if (Model.AllowChangingCurrency && Model.Currencies.Count > 0)
+        {
+            var currencies = JsonConvert.SerializeObject(Model.Currencies);
+            var currentCurrency = JsonConvert.SerializeObject(Model.CurrentCurrency);
+            <currency-selector :serialized-currencies="'@currencies'" :serialized-current-currency="'@currentCurrency'" :root-id="$el.id"></currency-selector>
+        }
         <search :search-page-url="'@UrlPath.ResolveAbsoluteUrl(Model.SearchPageUrl)'" :product-details-page-id="'@Model.ProductDetailsPageId'" :root-id="$el.id" ref="search">
         </search>
-    </header>
+        @if (Model.Categories.Count > 0)
+        {
+            <h3 class="sffilterTitle">Filter By Category@* Html.Resource("FilterByCategory", "UcommerceResources") *@</h3>
+            <dropdown-menu :nodes="items"></dropdown-menu>
+        }
+    </nav>
+    @foreach (var route in Model.Routes)
+    {
+        <input type="hidden" class="@route.Key" value="@route.Value" />
+    }
 </div>
 
 <script type="text/x-template" id="dropdown-menu-template">
-    <ul class="navbar-nav mr-auto category-parent">
+    <ul class="sfShopByFilterCategoryList">
         <li v-for="node in nodes"
             v-bind:key="node.DisplayName"
-            v-bind:class="{'selected': node.IsActive}">
+            class="sfShopByFilterCategoryListItem"
+            v-bind:class="{'dropdown mr-4': node.Categories.length > 0}">
             <a v-if="node.Categories.length > 0"
                :href="node.Url"
-               :id="node.DisplayName"
-               class="float-left"
-               v-on:click.stop>
+               :id="node.DisplayName">
                 {{node.DisplayName}}
+                <span class="sr-only">(current)</span>
             </a>
-            <button type="button" class="btn-navcategory float-left" v-if="node.Categories.length > 0" v-on:click.stop="nodeClicked(node)"><i class="fa fa-chevron-down"></i></button>
             <a v-else
-               v-on:click.stop
                :href="node.Url">
                 {{node.DisplayName}}
+                <span v-if="node.IsOpen" class="sr-only">(current)</span>
             </a>
+            <button v-if="node.Categories.length > 0"
+                    class="btn btn-outline-dark shadow-none dropdown-toggle position-absolute p-0 mt-2 float-left border-0"
+                    v-on:click.stop.prevent="nodeClicked(node)"
+                    style="width: 25px; height: auto;"></button>
             <dropdown-submenu :parent-node="node"></dropdown-submenu>
         </li>
     </ul>
 </script>
 
 <script type="text/x-template" id="dropdown-submenu-template">
-    <ul class="category-child"
-        v-bind:class="{'open': isParentOpen, 'closed': !isParentOpen, 'category-parent': parentNode.Categories.length > 0, 'category-child': parentNode.Categories.length <= 0}"
+    <ul class="dropdown-menu"
+        v-bind:class="{'show': isParentOpen}"
         :aria-labelledby="parentNode.DisplayName">
         <li v-for="node in parentNode.Categories"
             v-bind:key="node.DisplayName"
-            v-bind:class="{'selected': node.IsActive, 'mr-14p-sm': node.Categories.length > 0}">
+            v-bind:class="{'dropdown dropright': node.Categories.length > 0, 'dropdown-item': node.Categories === 0 }"
+            class="nav-item">
             <a v-if="node.Categories.length > 0"
+               class="nav-link float-left ml-5"
                :href="node.Url"
-               :id="node.DisplayName"
-               class="float-left"
+               :id="node.DisplayName">
+                {{node.DisplayName}}
+                <span class="sr-only">(current)</span>
+                <dropdown-submenu :parent-node="node"></dropdown-submenu>
+            </a>
+            <a v-else
+               class="dropdown-item nav-link text-center"
+               :href="node.Url"
                v-on:click.stop>
                 {{node.DisplayName}}
+                <span class="sr-only">(current)</span>
             </a>
-            <button type="button" class="btn-navcategory float-left position-absolute" v-if="node.Categories.length > 0" v-on:click.stop="nodeClicked(node)"><i class="fa fa-chevron-right"></i></button>
-            <a v-else
-               v-on:click.stop
-               :href="node.Url">
-                {{node.DisplayName}}
-            </a>
-            <dropdown-submenu :parent-node="node"></dropdown-submenu>
+            <button v-if="node.Categories.length > 0"
+                    class="btn btn-outline-dark shadow-none dropdown-toggle position-absolute p-0 mt-2 float-left border-0"
+                    v-on:click.stop.prevent="nodeClicked(node)"
+                    style="width: 25px; height: auto;"></button>
         </li>
     </ul>
 </script>
 
 <script type="text/x-template" id="currency-selector-template">
-    <li class="lang currency mr-30">
-        <a class="float-left">
-            <span style="display: inline-block;">{{currentCurrency.DisplayName}}</span>
-        </a>
-        <button type="button" class="btn-navcategory float-left position-absolute" v-on:click="toggleCurrenciesVisibility"><i class="fa fa-chevron-down"></i></button>
-        <ul v-show="showCurrencies" class="category-child" v-bind:class="{'open': showCurrencies}">
-            <li v-for="currency in currencies">
-                <a href="javascript:void(0)" v-on:click="setCurrency(currency.PriceGroupId)">
-                    <span>{{currency.DisplayName}}</span>
-                </a>
-            </li>
-        </ul>
-    </li>
+<div class="dropdown sfShopByCurrencyPicker">
+    <a class="nav-link float-left">
+        @Html.Resource("SelectedCurrency", "UcommerceResources"): <span style="display: inline-block;">{{currentCurrency.DisplayName}}</span>
+    </a>
+    <button class="btn btn-outline-dark shadow-none"
+            v-on:click="toggleCurrenciesVisibility"><span class="caret"></span></button>
+    <ul :class="showCurrencies ? 'dropdown-menu show' : ''" v-show="showCurrencies">
+        <li class="nav-item" v-for="currency in currencies">
+            <a href="javascript:void(0)" class="dropdown-item nav-link text-center" v-on:click="setCurrency(currency.PriceGroupId)">
+                <span>{{currency.DisplayName}}</span>
+            </a>
+        </li>
+    </ul>
+</div>
 </script>
 
 <script type="text/x-template" id="search-template">
-    <div v-bind:class="{ 'search-visible': showSearchBar }">
-        <div class="search">
-            <button class="search__close" v-on:click="closeSearch"><i class="fa fa-times"></i></button>
+    <div class="bg-white shadow-lg p-3 rounded sfShopBySearchTemplate">
+        <form v-if="searchPageUrl !== ''" v-bind:action="searchPageUrl" class="input-group" _lpchecked="1">
+            <input type="text" autocomplete="off" v-model="searchQuery" focus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control" placeholder="Search for products">
+            <span class="input-group-btn">
+                <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                    <span>&#128269;</span>
+                </button>
+            </span>
+        </form>
 
-            <div class="search__stage">
+        <form v-if="searchPageUrl === ''" v-on:submit.prevent class="input-group" _lpchecked="1">
+            <input type="text" autocomplete="off" v-model="searchQuery" autofocus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control" placeholder="Search for products">
+            <span class="input-group-btn">
+                <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                    <span>&#128269;</span>
+                </button>
+            </span>
+        </form>
 
-                <form v-if="searchPageUrl !== ''" v-bind:action="searchPageUrl" class="search__form" _lpchecked="1">
-                    <i class="fa fa-search"></i>
-                    <input type="text" autocomplete="off" v-model="searchQuery" focus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="search__input" placeholder="Search for products">
-                </form>
+        <div>
+            <ul class="list-group" v-show="searchResult.length !== 0 || suggestions.length !== 0">
+                <li v-for="suggestion in suggestions" class="list-group-item" v-on:click="searchQuery = suggestion;search()">
+                    <span class="img">
+                    </span>
+                    <span class="stext-info">
+                        <span class="p-3 ng-binding">{{suggestion}}</span>
+                    </span>
+                </li>
+                <li v-for="product in searchResult" class="list-group-item">
+                    <a class="nav-link" v-bind:href="product.Url">
+                        <span class="img">
+                            <img height="50" width="50" v-bind:src="product.ThumbnailImageUrl" alt="">
+                        </span>
+                        <span class="text-info">
+                            <span class="p-3">{{product.Name}}</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
 
-                <form v-if="searchPageUrl === ''" v-on:submit.prevent class="search__form" _lpchecked="1">
-                    <i class="fa fa-search"></i>
-                    <input type="text" autocomplete="off" v-model="searchQuery" autofocus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="search__input" placeholder="Search for products">
-                </form>
-
-                <div class="search__autocomplete">
-                    <ul class="search__suggest" v-show="searchResult.length !== 0 || suggestions.length !== 0">
-                        <li v-for="suggestion in suggestions" v-on:click="searchQuery = suggestion;search()">
-                            <span class="search__suggest-image">
-                            </span>
-                            <span class="search__suggest-info">
-                                <span class="search__suggest-title">{{suggestion}}</span>
-                            </span>
-                        </li>
-                        <li v-for="product in searchResult">
-                            <a v-bind:href="product.Url">
-                                <span class="search__suggest-image">
-                                    <img v-bind:src="product.ThumbnailImageUrl" alt="">
-                                </span>
-                                <span class="search__suggest-info">
-                                    <span class="search__suggest-title">{{product.Name}}</span>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <a v-show="searchPageUrl !== ''" v-bind:href="searchPageHref()" class="button button--block">Show all results</a>
-
-                </div>
-            </div>
+            @* <a v-show="searchPageUrl !== ''" v-bind:href="searchPageHref()" class="btn btn-block">@Html.Resource("ShowAllResults", "UcommerceResources")</a> *@
 
         </div>
     </div>

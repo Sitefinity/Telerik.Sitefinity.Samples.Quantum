@@ -1,0 +1,75 @@
+﻿@media only screen and (max-width: 991px) {
+
+    div[data-component="category-navigation"] li .dropdown-item.nav-link.text-center {
+        text-align: left !important;
+    }
+
+    div[data-component="category-navigation"] .nav-item.dropdown.dropright {
+        text-align: left;
+    }
+
+        div[data-component="category-navigation"] .nav-item.dropdown.dropright a.float-left,
+        div[data-component="category-navigation"] .nav-item.dropdown.dropright button.float-left {
+            float: none !important;
+        }
+
+        div[data-component="category-navigation"] .nav-item.dropdown.dropright button.float-left {
+            top: 0;
+            right: 0;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+
+        div[data-component="category-navigation"] .nav-item.dropdown.dropright a.float-left {
+            margin: 0 !important;
+        }
+
+    div[data-component="category-navigation"] .nav-item.dropdown.dropright {
+        margin-left: 20%;
+    }
+
+        div[data-component="category-navigation"] .nav-item.dropdown.dropright a {
+            display: inline-block;
+        }
+
+    div[data-component="category-navigation"] .navbar-nav > li a {
+        margin-right: 1.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+
+        div[data-component="category-navigation"] .navbar-nav > li a:hover,
+        div[data-component="category-navigation"] .navbar-nav > li:hover,
+        div[data-component="category-navigation"] .navbar-nav > li a:focus,
+        div[data-component="category-navigation"] .navbar-nav > li:focus,
+        div[data-component="category-navigation"] .navbar-nav > li a:visited,
+        div[data-component="category-navigation"] .navbar-nav > li:visited,
+        div[data-component="category-navigation"] .navbar-nav > li a:active,
+        div[data-component="category-navigation"] .navbar-nav > li:active,
+        div[data-component="category-navigation"] .navbar-nav > li a:target
+        div[data-component="category-navigation"] .navbar-nav > li:target,
+        div[data-component="category-navigation"] .navbar-nav > li a:checked
+        div[data-component="category-navigation"] .navbar-nav > li:checked {
+            background: none;
+            background-color: none;
+            outline: none;
+        }
+
+    div[data-component="category-navigation"] .navbar-nav:first-child > li {
+        border-bottom: 1px solid #ccc;
+    }
+
+    div[data-component="category-navigation"] .nav-item.dropdown.ml-4.mr-4,
+    div[data-component="category-navigation"] .nav-item.ml-4.mr-4,
+    div[data-component="category-navigation"] .nav-item.dropdown.mr-4 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    div[data-component="category-navigation"] .nav-item.dropdown.dropright > a.nav-link.float-left.ml-5 {
+        width: 100%;
+    }
+}

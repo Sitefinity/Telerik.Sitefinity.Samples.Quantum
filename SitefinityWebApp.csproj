@@ -973,7 +973,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Mvc\Models\StoreNavigationViewModel.cs" />
     <Compile Include="Mvc\Models\CustomNavigationModel.cs" />
+    <Compile Include="Mvc\Controllers\StoreController.cs" />
     <Compile Include="Mvc\Models\CustomNodeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tasks\FeatherActionInvokerCustom.cs" />
@@ -1426,6 +1428,9 @@
     <Content Include="Mvc\Views\Layouts\Email.cshtml" />
     <Content Include="Mvc\Views\MiniBasket\Detail.Index.cshtml" />
     <Content Include="Mvc\Views\ShippingPicker\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\ProductReviews\List.Index.cshtml" />
+    <Content Include="Mvc\Views\AddReview\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\CategoryNavigation\StoreNavigation.cshtml" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
@@ -1911,6 +1916,7 @@
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Cart\Detail.Index.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\BasketPreview\Detail.Index.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Address\Detail.Index.cshtml" />
+    <Content Include="Views\Store\StoreNavigation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\DocumentsListResources.resx" />

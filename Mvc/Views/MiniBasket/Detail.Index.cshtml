@@ -1,43 +1,37 @@
-﻿@using System.Web.Mvc
-@using System.Web.Mvc.Html
+﻿@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Services;
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers;
-@using Telerik.Sitefinity.Services
-@model UCommerce.Sitefinity.UI.Mvc.ViewModels.MiniBasketRenderingViewModel
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Web;
+@using Newtonsoft.Json;
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
 @{
     Layout = null;
-    var emptyClass = Model.IsEmpty ? null : "display:none";
-    var notEmptyClass = !Model.IsEmpty ? null : "display:none";
+    string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
+    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
 }
 
 @Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
 
-@if (!SystemManager.IsDesignMode)
-{
-    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
-}
-
-<div class="js-mini-basket" data-refresh-url="@Model.RefreshUrl" data-mini-basket-empty-selector=".js-mini-basket-empty" data-mini-basket-not-empty-selector=".js-mini-basket-not-empty" data-mini-basket-number-of-items-selector=".js-mini-basket-number-of-items" data-mini-basket-total-selector=".js-mini-basket-total">
-    <div style="@emptyClass" class="js-mini-basket-empty">
-        <div class="pull-xs-right navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li>
-                    <div> <a class="shopping-cart" href="@Model.CartPageUrl"><i class="fa fa-shopping-cart margin-right-small" aria-hidden="true"></i><span class="js-mini-basket-number-of-items">@Model.NumberOfItems</span> </a></div>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div style="@notEmptyClass" class="js-mini-basket-not-empty">
-        <div class="pull-xs-right navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li>
-                    <div>
-                        <a class="shopping-cart" href="@Model.CartPageUrl">
-                            <i class="fa fa-shopping-cart margin-right-small" aria-hidden="true"></i><span class="js-mini-basket-number-of-items">@Model.NumberOfItems</span>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+<div data-component="mini-basket" id="mini-basket" class="sfcartSummaryWrp sfcartSummaryExpandableWrp">
+    <script type="application/json" purl="true">
+        { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
+    </script>
+    <div v-if="model" class="pull-xs-right navbar-collapse js-mini-basket">
+        <ul class="nav navbar-nav">
+            <li>
+                <div class="p-relative">
+                    <a class="shopping-cart" :href="model.CartPageUrl">
+                        <i class="fa fa-shopping-cart margin-right-small" aria-hidden="true"></i><span class="n-items" v-if="model.NumberOfItems > 0">{{ model.NumberOfItems }}</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>

@@ -4,188 +4,164 @@
 @using Telerik.Sitefinity.Modules.Pages;
 @using Telerik.Sitefinity.UI.MVC;
 @using Telerik.Sitefinity.Services;
-@model UCommerce.Sitefinity.UI.Mvc.ViewModels.BasketPreviewViewModel
-@{
-    Layout = null;
-}
-
-@Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
+@using Telerik.Sitefinity.Web;
+@using Newtonsoft.Json;
 
 @if (!SystemManager.IsDesignMode)
 {
-    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
 }
 
-<div class="section-margin ">
-    @using (Html.BeginFormSitefinity("RequestPayment", "BasketPreview", FormMethod.Post))
-    {
+@{
+    Layout = null;
+    string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
+    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
+}
+
+  @Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
+  
+<div class="section-margin " data-component="checkout-overview" id="checkout-overview" v-cloak>
+    <script type="application/json" purl="true">
+        { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
+    </script>
+    <template v-if="model">
         <div class="row well overflow-hidden">
             <div class="col-md-6">
-                <h3 class="heading-underline">Billing address</h3>
+                <h3 class="heading-underline">@Html.Resource("BillingAddress", "UcommerceResources")</h3>
                 <br />
                 <address>
-                    <span class="address-line"><strong>@Model.BillingAddress.FirstName @Model.BillingAddress.LastName</strong></span><br>
-                    <span class="address-line">@Model.BillingAddress.Line1<br></span>
-                    <span class="address-line">@Model.BillingAddress.PostalCode @Model.BillingAddress.City</span><br>
-                    <span class="address-line">@Model.BillingAddress.Country.Name</span>
-                    @if (!String.IsNullOrWhiteSpace(@Model.BillingAddress.Attention))
-                    {
-                        <span class="address-line"><text>att. </text> @Model.BillingAddress.Attention</span>
-                    }<br>
-                    <span class="address-line"><abbr title="Phone">P:</abbr>@Model.BillingAddress.PhoneNumber</span><br>
-                    <span class="address-line"><abbr title="Mobile">M:</abbr>@Model.BillingAddress.MobilePhoneNumber </span><br>
-                    <span class="address-line"><abbr title="Email">E:</abbr><a href="mailto:@Model.BillingAddress.EmailAddress">@Model.BillingAddress.EmailAddress</a></span>
+                    <span class="address-line"><strong>{{ model.BillingAddress.FirstName }} {{ model.BillingAddress.LastName }}</strong></span><br>
+                    <span class="address-line">{{ model.BillingAddress.Line1 }}<br></span>
+                    <span class="address-line">{{ model.BillingAddress.PostalCode }} {{ model.BillingAddress.City }}</span><br>
+                    <span class="address-line">{{ model.BillingAddress.CountryName }}</span>
+                    <template v-if="model.BillingAddress.Attention">
+                        <span class="address-line"><text>att. </text> {{ model.BillingAddress.Attention }}</span>
+                    </template>
+                    <br>
+                    <span class="address-line"><abbr title="@Html.Resource("Phone", "UcommerceResources")">P:</abbr>{{ model.BillingAddress.PhoneNumber }}</span><br>
+                    <span class="address-line"><abbr title="@Html.Resource("Mobile", "UcommerceResources")">M:</abbr>{{ model.BillingAddress.MobilePhoneNumber }} </span><br>
+                    <span class="address-line"><abbr title="@Html.Resource("Email", "UcommerceResources")">E:</abbr><a :href="'mailto:' + model.BillingAddress.EmailAddress">{{ model.BillingAddress.EmailAddress }}</a></span>
                 </address>
             </div>
             <div class="col-md-6">
-                <h3 class="heading-underline">Shipping address</h3>
+                <h3 class="heading-underline">@Html.Resource("ShippingAddress", "UcommerceResources")</h3>
                 <br />
                 <address>
-                    <span class="address-line"><strong>@Model.ShipmentAddress.FirstName @Model.ShipmentAddress.LastName</strong></span><br>
-                    <span class="address-line">@Model.ShipmentAddress.CompanyName</span>
-                    @if (!String.IsNullOrWhiteSpace(@Model.ShipmentAddress.Attention))
-                    {
-                        <span class="address-line"><text>att. </text> @Model.ShipmentAddress.Attention </span>
-                    }<br />
-                    <span class="address-line">@Model.ShipmentAddress.Line1</span><br>
-                    <span class="address-line">@Model.ShipmentAddress.PostalCode @Model.ShipmentAddress.City</span><br>
-                    <span class="address-line">@Model.ShipmentAddress.Country.Name</span><br>
-                    <span class="address-line"><abbr title="Phone">P:</abbr>@Model.ShipmentAddress.PhoneNumber</span><br>
-                    <span class="address-line"><abbr title="Mobile">M:</abbr>@Model.ShipmentAddress.MobilePhoneNumber</span><br>
-                    <span class="address-line"><abbr title="Email">E:</abbr><a href="mailto:@Model.ShipmentAddress.EmailAddress">@Model.ShipmentAddress.EmailAddress</a></span>
+                    <span class="address-line"><strong>{{ model.ShipmentAddress.FirstName }} {{ model.ShipmentAddress.LastName }}</strong></span><br>
+                    <span class="address-line">{{ model.ShipmentAddress.CompanyName }}</span>
+                    <template v-if="model.ShipmentAddress.Attention">
+                        <span class="address-line"><text>att. </text> {{ model.ShipmentAddress.Attention }}</span>
+                    </template>
+                    <br>
+                    <span class="address-line">{{ model.ShipmentAddress.Line1 }}</span><br>
+                    <span class="address-line">{{ model.ShipmentAddress.PostalCode }} {{ model.ShipmentAddress.City }}</span><br>
+                    <span class="address-line">{{ model.ShipmentAddress.CountryName }}</span><br>
+                    <span class="address-line"><abbr title="@Html.Resource("Phone", "UcommerceResources")">P:</abbr>{{ model.ShipmentAddress.PhoneNumber }}</span><br>
+                    <span class="address-line"><abbr title="@Html.Resource("Mobile", "UcommerceResources")">M:</abbr>{{ model.ShipmentAddress.MobilePhoneNumber }}</span><br>
+                    <span class="address-line"><abbr title="@Html.Resource("Email", "UcommerceResources")">E:</abbr><a href="'mailto:' + model.ShipmentAddress.EmailAddress">{{ model.ShipmentAddress.EmailAddress }}</a></span>
                 </address>
             </div>
         </div>
         <div class="table-wrapper">
             <div class="table-row t-heading">
-                <div class="span2 table-cell">Item no. </div>
-                <div class="span6 table-cell">Description</div>
-                <div class="span2 table-cell money">Price</div>
-                <div class="span2 table-cell money">VAT</div>
-                <div class="span2 table-cell number">Quantity</div>
-                <div class="span2 table-cell money">Total</div>
+                <div class="span2 table-cell">@Html.Resource("ItemNo", "UcommerceResources") </div>
+                <div class="span6 table-cell">@Html.Resource("Description", "UcommerceResources")</div>
+                <div class="span2 table-cell money">@Html.Resource("Price", "UcommerceResources")</div>
+                <div class="span2 table-cell money">@Html.Resource("VAT", "UcommerceResources")</div>
+                <div class="span2 table-cell number">@Html.Resource("Quantity", "UcommerceResources")</div>
+                <div class="span2 table-cell money">@Html.Resource("Total", "UcommerceResources")</div>
             </div>
             <div class="table-body">
-                @foreach (var lineItem in @Model.OrderLines)
-                {
+                <template v-for="lineItem in model.OrderLines">
                     <div class="table-row item-preview">
-                        <div class="table-cell">@lineItem.Sku</div>
-                        <div class="table-cell">@lineItem.ProductName</div>
+                        <div class="table-cell">{{ lineItem.Sku }}</div>
+                        <div class="table-cell">{{ lineItem.ProductName }}</div>
                         <div class="table-cell money">
-                            @if (lineItem.Discount.HasValue && lineItem.Discount > 0)
-                            {
+                            <template v-if="lineItem.Discount.HasValue && lineItem.Discount > 0">
                                 <span style="text-decoration: line-through">
-                                    @lineItem.Price
+                                    {{ lineItem.Price }}
                                 </span>
-                                @lineItem.PriceWithDiscount
-                            }
-                            else
-                            {
-                                @lineItem.Price
-                            }
+                                {{ lineItem.PriceWithDiscount }}
+                            </template>
+                            <template v-else>
+                                {{ lineItem.Price }}
+                            </template>
                         </div>
-                        <div class="table-cell money">@lineItem.Tax</div>
-                        <div class="table-cell number">@lineItem.Quantity</div>
-                        <div class="table-cell money">@lineItem.Total</div>
+                        <div class="table-cell money">{{ lineItem.Tax }}</div>
+                        <div class="table-cell number">{{ lineItem.Quantity }}</div>
+                        <div class="table-cell money">{{ lineItem.Total }}</div>
                     </div>
-                }
-            <div class="table-row">
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell">Sub total: </div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell money">
-                    @Model.SubTotal
+                </template>
+                <div class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell">@Html.Resource("SubTotal", "UcommerceResources"): </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell money">
+                        {{ model.SubTotal }}
+                    </div>
                 </div>
-            </div>
-            <div class="table-row">
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell">VAT: </div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell money">
-                    @Model.TaxTotal
+                <div class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell">@Html.Resource("VAT", "UcommerceResources"): </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell money">
+                        {{ model.TaxTotal }}
+                    </div>
                 </div>
-            </div>
-                @if (@Model.DiscountAmount != 0)
-                {
-            <div class="table-row">
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell">Order discounts: </div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell money">
-                    -@Model.DiscountTotal
+                <div v-if="model.DiscountAmount != 0" class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell">@Html.Resource("OrderDiscounts", "UcommerceResources"): </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell money">
+                        -{{ model.DiscountTotal }}
+                    </div>
                 </div>
-            </div>
-                }
-                @if (@Model.ShipmentAmount != 0)
-                {
-            <div class="table-row">
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell">
-                    Shipping
-                    <span> (via @Model.ShipmentName)</span>
+                <div v-if="model.ShipmentAmount != 0" class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell">
+                        @Html.Resource("Shipping", "UcommerceResources")
+                        <span> (via {{ model.ShipmentName }})</span>
+                    </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell money">{{ model.ShippingTotal }}</div>
                 </div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell money">@Model.ShippingTotal</div>
-            </div>
-                }
-                @if (@Model.PaymentAmount != 0)
-                {
-            <div class="table-row">
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell">
-                    Payment
-                    <span> (@Model.PaymentName)</span>
+                <div v-if="model.PaymentAmount != 0" class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell">
+                        @Html.Resource("Payment", "UcommerceResources")
+                        <span> ({{ model.PaymentName }})</span>
+                    </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell money">{{ model.PaymentTotal }}</div>
                 </div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell money">@Model.PaymentTotal</div>
-            </div>
-                }
-            <div class="table-row">
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
-                <div class="table-cell">Order total: </div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell empty-cell">&nbsp;</div>
-                <div class="table-cell money">@Model.OrderTotal</div>
-            </div>
+                <div class="table-row">
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell border-cell-0 empty-cell">&nbsp;</div>
+                    <div class="table-cell">@Html.Resource("OrderTotal", "UcommerceResources"): </div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell empty-cell">&nbsp;</div>
+                    <div class="table-cell money">{{ model.OrderTotal }}</div>
+                </div>
             </div>
         </div>
-        <div class="control-group row multistep-btn-a">
-            <div class="col-md-6 padding-0">
-                @{
-                    var showBackButton = true;
-
-                    if (Model.PreviousStepUrl == "")
-                    {
-                        showBackButton = false;
-                    }
-
-                }
-                <a href="@Model.PreviousStepUrl" style="@(showBackButton ? "display:block" : "display:none")" type="submit" class="btn btn-next btn-transparent pull-left">Back</a>
-
-            </div>
-            <div class="col-md-6 padding-0">
-                @{
-                    var showContinueButton = true;
-
-                    if (Model.NextStepUrl == "")
-                    {
-                        showContinueButton = false;
-                    }
-
-                }
-                <input name="send-order" type="submit" style="@(showContinueButton ? "display:block" : "display:none")" class="btn btn-next btn-complete btn-success pull-right" value="Complete Order" />
-            </div>
-        </div>
-    }
+        <checkout-navigation v-bind:model="model" 
+                             continue-label="@Html.Resource("CompleteOrder", "UcommerceResources")" 
+                             back-label="@Html.Resource("BackButton", "UcommerceResources")"
+                             mode="Bootstrap" 
+                             back-link-classes="btn btn-back btn-transparent pull-left" 
+                             continue-btn-classes="btn btn-success btn-next btn-complete pull-right"
+                             :continue-fn="continueFn" 
+                             classes="row control-group multistep-btn-a section-margin"></checkout-navigation>
+    </template>
 </div>

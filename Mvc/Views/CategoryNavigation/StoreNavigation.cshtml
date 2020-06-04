@@ -1,0 +1,10 @@
+﻿@model UCommerce.Sitefinity.UI.Mvc.ViewModels.CategoryNavigationViewModel
+@if (Model.Categories.Any())
+{
+	<ul>
+		@foreach (var category in Model.Categories)
+		{
+			<li><a href="@category.Url" class="nav-header">@category.DisplayName</a></li>
+		}
+	</ul>
+}

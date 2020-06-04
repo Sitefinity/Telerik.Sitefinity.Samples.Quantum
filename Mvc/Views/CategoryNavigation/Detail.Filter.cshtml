@@ -1,0 +1,39 @@
+﻿@model dynamic
+@using Newtonsoft.Json;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using Telerik.Sitefinity.Services;
+@using Telerik.Sitefinity.Web;
+@using UCommerce.Sitefinity.UI.Mvc.Model;
+@using UCommerce.Sitefinity.UI.Mvc.ViewModels;
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/uc-quantum.css"), "head")
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
+<div>
+    <h2 class="sffilterTitle">
+        @Html.Resource("ProductsByCategory", "UcommerceResources")
+    </h2>
+    <a class="sffilterClearLnk" href="@Model.BaseUrl">@Html.Resource("ClearCategory", "UcommerceResources")</a>
+    
+    <ul class="sfShopByFilterGroupList sfVerticalList">
+        <h3 class="sfGroupTitle"></h3>
+        @foreach (var cat in Model.Categories)
+        {
+        <li>
+            @if (cat.IsActive)
+            {
+                <a class="sfGroupTitle" style="color: #333; font-size: 17px; font-weight: bold;" href="@cat.Url">@cat.DisplayName</a>
+            }
+            else
+            {
+                <a class="sfGroupTitle" style="color: #333; font-size: 17px;" href="@cat.Url">@cat.DisplayName</a>
+            }
+        </li>
+        }
+    </ul>
+</div>
+<br />

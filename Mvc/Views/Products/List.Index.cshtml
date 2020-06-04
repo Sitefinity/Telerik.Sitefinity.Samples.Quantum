@@ -6,20 +6,36 @@
 @{
     ViewBag.Title = "Products";
 }
-
 @Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
-@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-quantum.css"), "head")
-
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/uc-quantum.css"), "head")
 @if (!SystemManager.IsDesignMode)
 {
     @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
     @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
-    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
 }
+
+<div class="sfProductsSortByWrp">
+    <div>
+        <div class="sfSortByWrp">
+            <label>@Html.Resource("SortBy", "UcommerceResources")</label>:
+            <select onchange="sortProducts(this)">
+                @foreach (var item in Model.Sorting)
+                {
+                    <option value="@item.Key" selected="@item.IsActive">@item.Title</option>
+                }
+            </select>
+        </div>
+    </div>
+</div>
+
 <div data-component="products" id="@Html.UniqueId("product-list")" v-cloak>
+    <input type="hidden" ref="addToBasket" value="@Html.Resource("AddToBasket", "UcommerceResources")" />
+    <input type="hidden" ref="notAddToBasket" value="@Html.Resource("NotAddToBasket", "UcommerceResources")" />
+
+
     <div class="sfCatalogTotalCount">
         <div>
-            <em>@Model.TotalCount products</em>
+            <em>@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
         </div>
     </div>
     @if (Model.ShowPager)
@@ -31,36 +47,39 @@
            redirectUrlTemplate = Model.PagingUrlTemplate
         })
     }
-
     @foreach (var route in Model.Routes)
     {
         <input type="hidden" class="@route.Key" value="@route.Value" />
     }
-
     <ul class="sfproductsList">
         @foreach (var product in Model.Products)
         {
             <li class="sfproductListItem sfProductCtnTmbmedium">
                 <div class="sfproductTmbWrp">
-                    <a title="@product.DisplayName" class=" sfProductTmbWrpmedium" href="@product.ProductUrl">
-                        <img title="Top 100 Digital Agencies" src="@product.ThumbnailImageMediaUrl" alt="@product.DisplayName">
+                    <a title="@Html.HtmlSanitize((string)product.DisplayName)" class=" sfProductTmbWrpmedium" href="@product.ProductUrl">
+                        <img title="Top 100 Digital Agencies" src="@product.ThumbnailImageMediaUrl" alt="@Html.HtmlSanitize((string)product.DisplayName)">
                     </a>
                 </div>
                 <h2 class="sfproductTitle">
-                    <a class="sfproductTitleLnk" href="@product.ProductUrl">@product.DisplayName</a>
+                    <a class="sfproductTitleLnk" href="@product.ProductUrl">@Html.HtmlSanitize((string)product.DisplayName)</a>
                 </h2>
                 <div class="sfproductPrice bottomPrice">
                     <div>
                         <div class="sfTxtContent"></div>
                         <div>
                             <span class="sfRegPrice">@product.Price</span>
-                            <p class="paragraph-top">Discount:</p>
-                            <span class="sfDiscPrice">@product.Discount</span>
+                            @if (!string.IsNullOrWhiteSpace(product.Discount))
+                            {
+                                <p class="paragraph-top">@Html.Resource("Discount", "UcommerceResources"):</p>
+                                <span class="sfDiscPrice">@product.Discount</span>
+                            }
                         </div>
-
                         <add-to-basket :product-sku="'@product.Sku'" :root-id="$el.id">
                         </add-to-basket>
                     </div>
+                </div>
+                <div class="sfReviewWrp">
+                    <a href="@product.ProductUrl">@Html.Resource("WriteReview", "UcommerceResources")</a>
                 </div>
             </li>
         }
@@ -68,7 +87,7 @@
     <div class="product-list-paging">
         <div class="sfCatalogTotalCount">
             <div>
-                <em>@Model.TotalCount products</em>
+                <em>@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
             </div>
         </div>
         @if (Model.ShowPager)
@@ -82,24 +101,38 @@
         }
     </div>
 </div>
-
 <script type="text/x-template" id="add-to-basket-template">
     <div>
-        <span class="sfTxtLbl">Quantity:</span>
-        <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityRequiredFieldValidator" class="sfErrorWrp" style="display:none;">
+        <span class="sfTxtLbl">@Html.Resource("Quantity", "UcommerceResources"):</span>
+        <span class="sfErrorWrp" style="display:none;">
             <span class="sfError">
-                When adding product to a cart you must specify the quantity
+                @Html.Resource("SpecifyQuantity", "UcommerceResources")
             </span>
         </span>
-        <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityValidator" class="sfErrorWrp" style="display:none;">
+        <span class="sfErrorWrp" style="display:none;">
             <span class="sfError">
-                The quantity must be greater than 0 and less than 9,999.
+                @Html.Resource("QuantityValidation", "UcommerceResources")
             </span>
         </span>
-        <input title="Product Quantity" id="productQuantityInput" v-model="quantity" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$quantity" type="text" class="sfTxt sfQuantity" />
-
-        <input type="button" title="Add to cart button" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$addToCartButton" value="Add to cart" v-on:click="addToBasket()" id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_addToCartButton" class="sfAddToCartBtn" />
-        <span v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
+        <input title="Product Quantity" id="productQuantityInput" v-model="quantity" type="text" class="sfTxt sfQuantity" />
+        <input type="button" title="Add to cart button" value="@Html.Resource("AddToCart", "UcommerceResources")" v-on:click="addToBasket()" class="sfAddToCartBtn" />
+        <span class="sfAddToCart" v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
     </div>
 </script>
+<script type="text/javascript">
+    function sortProducts(item){
+        var updatetUrl = updateQueryStringParameter(window.location.href, "sortBy", item.value);
+        window.location.href = updatetUrl;
+    }
 
+    function updateQueryStringParameter(uri, key, value) {
+      var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+          var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+          if (uri.match(re)) {
+            return uri.replace(re, '$1' + key + "=" + value + '$2');
+          }
+          else {
+            return uri + separator + key + "=" + value;
+          }
+    }
+</script>

@@ -6,98 +6,109 @@
 @using SitefinityWebApp.Mvc.Models;
 
 <div class="@Model.CssClass">
-    @* @Html.Action("GetView", new { viewName = "Dropdown",  model= Model}) *@
+	@* @Html.Action("GetView", new { viewName = "Dropdown",  model= Model}) *@
+	<nav class="navbar navbar-default  blue-horizontal" role="navigation">
 
-    <nav class="navbar navbar-default  blue-horizontal" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
 
-        <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    @foreach (var node in Model.Nodes)
-                    {
-                        @RenderRootLevelNode(node);
-                    }
-              </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					@foreach (var node in Model.Nodes)
+					{
+						@RenderRootLevelNode(node)
+					}
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
 </div>
 
 @{
-    bool isBackendDesignMode = !SystemManager.IsDesignMode;
+	bool isBackendDesignMode = !SystemManager.IsDesignMode;
 }
 
 @if (isBackendDesignMode)
 {
-@*Here is specified the rendering for the root level*@
-@helper RenderRootLevelNode(NodeViewModel node)
-{
-    if (node.ChildNodes.Count > 0)
-    {
-        <li class="dropdown">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle upper-nav">@node.Title
-                <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu mega-menu">
-                @RenderSubLevelsRecursive(node)
-            </ul>
-        </li>
-    }
-    else
-    {
-        <li class="@GetClass(node)"><a href="@node.Url" target="@node.LinkTarget">@node.Title</a></li>
-    }
-}
+	@*Here is specified the rendering for the root level*@
+	@helper RenderRootLevelNode(NodeViewModel node)
+	{
+		if (node.ChildNodes.Count > 0)
+		{
+			<li class="dropdown">
+				<a href="#" data-toggle="dropdown" class="dropdown-toggle upper-nav">
+					@node.Title
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu mega-menu">
+				@RenderSubLevelsRecursive(node)
+			</ul>
+		</li>
+	}
+	else
+	{
+		<li class="@GetClass(node)">
+			<a href="@node.Url" target="@node.LinkTarget">@node.Title</a>
+		</li>
+	}
+	}
 
-@*Here is specified the rendering for all child levels*@
-@helper RenderSubLevelsRecursive(NodeViewModel node)
-{
-    foreach (var childNode in node.ChildNodes)
-    {
-        if(childNode.ChildNodes.Count > 0)
-        {
-             <li class="dropdown-submenu">
-                <a href="@childNode.Url" target="@childNode.LinkTarget">@childNode.Title
-                    <span class="right-caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    @RenderSubLevelsRecursive(childNode)
-                </ul>
-            </li>
-    }
-    else
-    {
-                            <li class="@GetClass(childNode)">                                
-                                    <ul>
-                                        <li>
-                                        <a class="nav-header" href="@childNode.Url" target="@childNode.LinkTarget">@childNode.Title</a>
-                                        </li>
-                                     </ul>                                                            
-                            </li>
-    }
-}
-}
+	@*Here is specified the rendering for all child levels*@
+	@helper RenderSubLevelsRecursive(NodeViewModel node)
+	{
+		foreach (var childNode in node.ChildNodes)
+		{
+			if (childNode.ChildNodes.Count > 0)
+			{
+				<li class="dropdown-submenu">
+					<a href="@childNode.Url" target="@childNode.LinkTarget">
+						@childNode.Title
+					<span class="right-caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					@RenderSubLevelsRecursive(childNode)
+				</ul>
+			</li>
+		}
+		else
+		{
+<li class="@GetClass(childNode)">
+	@* NOTE: This needs to be replaced with the key childNode.OriginalSiteMapNode.Key == Model.ProductListingPage.Id.ToString() ||  *@
+	@if ((childNode.OriginalSiteMapNode.Key == "904AF4A4-1D60-6822-81AC-FF0000DA1875"))
+	{
+		@Html.Action("StoreNavigation", "CategoryNavigation", new { categoryPageId = "904AF4A4-1D60-6822-81AC-FF0000DA1875" })
+	}
+	else
+	{
+		<ul>
+			<li>
+				<a class="nav-header" href="@childNode.Url" target="@childNode.LinkTarget">@childNode.Title</a>
+			</li>
+		</ul>
+	}
+</li>
+		}
+	}
+	}
 
-@*Resolves the class that will be added for each node depending whether it is selected*@
-@helper GetClass(NodeViewModel node)
-{
+	@*Resolves the class that will be added for each node depending whether it is selected*@
+	@helper GetClass(NodeViewModel node)
+	{
 
-    if (node.IsCurrentlyOpened)
-    {
-        @Html.Raw("active");
-    }
-    else if (node.HasChildOpen)
-    {
-        @Html.Raw("active");
-    }
-}
+		if (node.IsCurrentlyOpened)
+		{
+			@Html.Raw("active");
+		}
+		else if (node.HasChildOpen)
+		{
+			@Html.Raw("active");
+		}
+	}
 }

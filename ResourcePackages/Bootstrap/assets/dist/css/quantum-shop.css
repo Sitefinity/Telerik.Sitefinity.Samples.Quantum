@@ -215,14 +215,20 @@ input[type="submit"]
     margin: 1%;
     color: #00b4c9;
 }
-
-.sfproductsList .sfproductListItem{float:left;list-style:none;width:33%;border-bottom:1px solid #eee;height:300px}
+.product-list-paging{clear:both;}
+.product-listing{padding-bottom:10px}
+.sfproductsList .sfproductListItem{float:left;list-style:none;width:33%;border-bottom:1px solid #eee;height:350px}
+.sfproductsList .sfproductListItem {padding-top:15px}
 .sfproductsList .sfproductListItem .sfproductTmbWrp{position:relative}
 .sfproductsList .sfproductListItem .sfproductTmbWrp a{display:block;width:210px!important;height:210px!important}
 .sfproductsList .sfproductListItem .sfproductTmbWrp img{transition:.2s all ease-out;width:210px;position:absolute;height:210px;opacity:.8;top:0}
 .sfproductsList .sfproductListItem .sfproductTmbWrp:hover img{opacity:1;width:240px;height:240px}
+.sfproductsList .sfproductListItem .sfTxtLbl{display:none;}
+.sfproductsList .sfproductListItem .sfQuantity{font-size:14px}
+.sfproductsList .sfproductListItem .sfAddToCartBtn{font-size:15px}
+.sfproductsList .sfproductListItem .sfReviewWrp{font-size:12px}
 .sfproductsList .sfproductListItem a{color:#00b4c9}
-.sfproductsList .sfproductListItem .sfRegPrice{font-weight:400;font-size:13px}
+.sfproductsList .sfproductListItem .sfRegPrice{font-weight:400;font-size:15px}
 .sfproductsList .sfproductListItem h2{position:relative;z-index:2;margin:0;padding:0;letter-spacing:-1px;font-size:22px;font-weight:400}
 .sfproductsList .sfproductListItem a:hover{text-decoration: none!important;}
 .content .PagerWrapper .sfCatalogTotalCount{padding:10px 0;font-size:11px;margin:10px 0;}
@@ -262,12 +268,19 @@ input[type="submit"]
 .sfShopByFilterGroupList .sfShopByFilterList li a.sfFilterLnk:hover:before{border:1px solid #ccc}
 .sfShopByFilterGroupList .sfShopByFilterList li.sfShopByFilterListItemSelected a.sfFilterLnk{font-weight:700;color:#444}
 .sfShopByFilterGroupList .sfShopByFilterList li.sfShopByFilterListItemSelected a.sfFilterLnk:before{background:#3aa4bf}
+
+.sfShopByCurrencyPicker{margin:10px 0;}
+.sfShopBySearchTemplate{}
+
+.sfShopByFilterCategoryList{padding-left:0;}
+.sfShopByFilterCategoryList li.sfShopByFilterCategoryListItem{list-style: none; padding: 0; margin: 5px 0; font-size: 14px;}
+
 .cart-navigation{border-bottom:1px solid #eee}
 .sfcurrenciesHorizontalList{padding:0;margin:15px 0;list-style:none}
 .sfcurrenciesHorizontalList li{padding:0 15px;float:left;height:30px;line-height:30px}
 .sfcurrenciesHorizontalList li a{color:#00b4c9;font-weight:600}
 .sfcurrenciesHorizontalList li.sfcurrencySelected a{color:#666}
-.sfcartSummaryExpandableWrp{float:right;margin:8px 0;position:relative}
+.sfcartSummaryExpandableWrp{float:right;margin:1px 0;position:relative}
 .sfcartSummaryExpandableWrp .sflnkToggleCartWrp{float:right;transition:opacity .3s ease-out}
 .sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart{padding:0 25px 0 0;background:url(../Images/arrow_down.png) right center no-repeat;font-weight:600;display:block;color:#000;text-align:right}
 sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart .sflnkToggleCartLbl{display:block}
