@@ -13,10 +13,11 @@
     {
         @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
         @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
-        @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
     }
 
     <div class="container-fluid my-5" data-component="products" id="@Html.UniqueId("product-details")" v-cloak>
+    <input type="hidden" ref="addToBasket" value="@Html.Resource("AddToBasket", "UcommerceResources")"/>
+    <input type="hidden" ref="notAddToBasket" value="@Html.Resource("NotAddToBasket", "UcommerceResources")"/>
         <div class="row">
             <div class="col-sx-12 col-sm-5 col-md-5 col-lg-5 border-right">
                 <div class="img">
@@ -65,21 +66,21 @@
                 <div class="row">
                     <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="mt-2">
-                            @Model.ShortDescription
-                        </div>
+                            @Html.HtmlSanitize(Model.LongDescription)
+                       </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="mt-3">
-                            <strong>Availability:</strong>
+                            <strong>@Html.Resource("Availability", "UcommerceResources"):</strong>
                             @if (Model.AllowOrdering)
                             {
-                                <span class="pl-2 text-info">In stock</span>
+                        <span class="pl-2 text-info">@Html.Resource("InStock", "UcommerceResources")</span>
                             }
                             else
                             {
-                                <span class="pl-2 text-danger">Out of stock</span>
+                        <span class="pl-2 text-danger">@Html.Resource("OutOfStock", "UcommerceResources")</span>
                             }
                         </div>
                     </div>
@@ -98,11 +99,11 @@
 
 									<fieldset v-for="v in variants" class="options">
 										<div class="general">
-											<label>{{v.DisplayName}}</label>
+											<label>{{v.Item.DisplayName}}</label>
 											<span class="wrap">
 												<select v-model="v" v-on:change="onChange($event, v)" class="variant float-right">
-													<option>Please select...</option>
-													<option v-for="val in v.Values" v-bind:value="val">
+													<option>@Html.Resource("PleaseSelect", "UcommerceResources")</option>
+													<option v-for="val in v.Item.Values" v-bind:value="val">
 														{{val.Value}}
 													</option>
 												</select>
@@ -132,20 +133,20 @@
 
     <script type="text/x-template" id="add-to-basket-template">
         <div class="mt-2">
-            <span class="font-weight-bold">Quantity:</span>
+            <span class="font-weight-bold">@Html.Resource("Quantity", "UcommerceResources"):</span>
             <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityRequiredFieldValidator" style="display:none;">
                 <span class="text-danger">
-                    When adding product to a cart you must specify the quantity
+                    @Html.Resource("SpecifyQuantity", "UcommerceResources")
                 </span>
             </span>
             <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityValidator" style="display:none;">
                 <span class="text-danger">
-                    The quantity must be greater than 0 and less than 9,999.
+                    @Html.Resource("QuantityValidation", "UcommerceResources")
                 </span>
             </span>
-            <input title="Product Quantity" id="productQuantityInput" v-model="quantity" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$quantity" type="text" class="form-control" />
+            <input title="@Html.Resource("ProductQuantity", "UcommerceResources")" id="productQuantityInput" v-model="quantity" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$quantity" type="text" class="form-control" />
 
-            <input type="button" title="Add to cart button" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$addToCartButton" value="Add to cart" v-on:click="addToBasket" id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_addToCartButton" class="btn btn-info mt-2" />
+            <input type="button" title="@Html.Resource("AddToCart", "UcommerceResources")" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$addToCartButton" value="Add to cart" v-on:click="addToBasket" id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_addToCartButton" class="btn btn-info mt-2" />
             <span class="text-success pl-2 pt-1 position-absolute" v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
         </div>
     </script>

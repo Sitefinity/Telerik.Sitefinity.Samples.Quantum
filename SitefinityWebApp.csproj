@@ -949,7 +949,7 @@
       <HintPath>packages\Ucommerce.Sitefinity.8.4.2.20052\lib\UCommerce.Sitefinity.Installer.dll</HintPath>
     </Reference>
     <Reference Include="UCommerce.Sitefinity.UI, Version=0.8.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\UCommerce.Sitefinity.UI.12.2.7200\lib\UCommerce.Sitefinity.UI.dll</HintPath>
+      <HintPath>packages\Ucommerce.Sitefinity.UI.2.1.0.20156\lib\net472\UCommerce.Sitefinity.UI.dll</HintPath>
     </Reference>
     <Reference Include="UCommerce.SystemHttp, Version=8.4.2.20052, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\uCommerce.Core.8.4.2.20052\lib\net45\UCommerce.SystemHttp.dll</HintPath>
@@ -1917,6 +1917,8 @@
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\BasketPreview\Detail.Index.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Address\Detail.Index.cshtml" />
     <Content Include="Views\Store\StoreNavigation.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ProductReviews\List.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\AddReview\Detail.Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App_Data\Sitefinity\GlobalResources\DocumentsListResources.resx" />

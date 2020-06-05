@@ -15,10 +15,10 @@
 {
     @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
     @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
-    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
 }
 
 <div data-component="category-navigation" id="@Html.UniqueId("categories")" v-cloak>
+    <input type="hidden" value="@Model.Localizations"/>
     <script type="application/json" data-items="true">
         { "items" : @Html.Raw(JsonConvert.SerializeObject(Model.Categories)) }
     </script>
@@ -26,12 +26,28 @@
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg mb-0">
-                    <a href="/" class="navbar-brand" alt="">
-                        <img src="@Model.ImageUrl" width="40" height="40" class="d-inline-block align-top" alt="Category Navigation Logo">
-                    </a>
+					@if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
+					{
+						<a href="/" class="navbar-brand" alt="">
+							<img src="@Model.ImageUrl" class="d-inline-block align-top" alt="Category Navigation Logo">
+						</a>
+					}
                     <div class="navbar-collapse" id="navbarNavDropdown">
                         <dropdown-menu :nodes="items"></dropdown-menu>
+                    </div>
+                </nav>
+            </div>
+            @foreach (var route in Model.Routes)
+            {
+                <input type="hidden" class="@route.Key" value="@route.Value" />
+            }
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg mb-0">
+                    <div class="navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
+                            <li class="nav-item mr-4" v-on:click="toggleSearchBar()"><a class="nav-link" href="javascript:void(0)"><span>&#128269;</span></a></li>
                             @if (Model.AllowChangingCurrency && Model.Currencies.Count > 0)
                             {
                                 var currencies = JsonConvert.SerializeObject(Model.Currencies);
@@ -39,8 +55,6 @@
                                 <currency-selector :serialized-currencies="'@currencies'" :serialized-current-currency="'@currentCurrency'" :root-id="$el.id">
                                 </currency-selector>
                             }
-
-                            <li class="nav-item ml-4 mr-4" v-on:click="toggleSearchBar()"><a class="nav-link" href="javascript:void(0)"><span>&#128269;</span></a></li>
                         </ul>
                     </div>
                 </nav>
@@ -58,7 +72,7 @@
 </div>
 
 <script type="text/x-template" id="dropdown-menu-template">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav flex-column mr-auto">
         <li v-for="node in nodes"
             v-bind:key="node.DisplayName"
             class="nav-item"
@@ -137,29 +151,28 @@
 <script type="text/x-template" id="search-template">
     <div class="container mb-5" v-show="showSearchBar">
         <div class="row">
-            <div class="offset-md-3 col-md-6">
+            <div class="col-md-12">
                 <button class="close" aria-label="Close" v-on:click="closeSearch"><span class="m-1">&#215;</span></button>
 
                 <div class="bg-white shadow-lg p-3 rounded">
 
                     <form v-if="searchPageUrl !== ''" v-bind:action="searchPageUrl" class="input-group" _lpchecked="1">
-                        <input type="text" autocomplete="off" v-model="searchQuery" focus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control form-control-lg py-2 border-right-0 border" placeholder="Search for products">
+                        <input type="text" autocomplete="off" v-model="searchQuery" focus v-on:input="search(searchQuery)" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control form-control-lg py-2 border-right-0 border" placeholder="Search for products">
                         <span class="input-group-append">
-                            <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                            <button class="btn btn-outline-secondary border-left-0 border" type="submit" v-on:click="search(searchQuery)">
                                 <span>&#128269;</span>
                             </button>
                         </span>
                     </form>
 
                     <form v-if="searchPageUrl === ''" v-on:submit.prevent class="input-group" _lpchecked="1">
-                        <input type="text" autocomplete="off" v-model="searchQuery" autofocus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control form-control-lg py-2 border-right-0 border" placeholder="Search for products">
+                        <input type="text" autocomplete="off" v-model="searchQuery" autofocus v-on:input="search(searchQuery)" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control form-control-lg py-2 border-right-0 border" placeholder="Search for products">
                         <span class="input-group-append">
-                            <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                            <button class="btn btn-outline-secondary border-left-0 border" type="submit" v-on:click="search(searchQuery)">
                                 <span>&#128269;</span>
                             </button>
                         </span>
                     </form>
-
                     <div>
                         <ul class="list-group" v-show="searchResult.length !== 0 || suggestions.length !== 0">
                             <li v-for="suggestion in suggestions" class="list-group-item" v-on:click="searchQuery = suggestion;search()">
@@ -181,13 +194,10 @@
                             </li>
                         </ul>
 
-                        <a v-show="searchPageUrl !== ''" v-bind:href="searchPageHref()" class="btn btn-block">Show all results</a>
+                        <a v-show="searchPageUrl !== ''" v-bind:href="searchPageHref()" class="btn btn-block">@Html.Resource("ShowAllResults", "UcommerceResources")</a>
 
                     </div>
                 </div>
-
-            </div>
-            <div class="offset-md-3">
 
             </div>
         </div>

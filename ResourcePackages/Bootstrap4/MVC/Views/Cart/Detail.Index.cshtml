@@ -4,148 +4,171 @@
 @using Telerik.Sitefinity.Modules.Pages;
 @using Telerik.Sitefinity.UI.MVC;
 @using Telerik.Sitefinity.Services;
-
-@model UCommerce.Sitefinity.UI.Mvc.ViewModels.CartRenderingViewModel
-
-@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
+@using Telerik.Sitefinity.Web;
+@using Newtonsoft.Json;
 
 @if (!SystemManager.IsDesignMode)
 {
-    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
 }
 
-@if (Model.OrderLines.Count == 0)
-{
-    <div class="alert alert-info">
-        <p>Your cart is empty. Please <a href="/">return to our store and add some items</a>.</p>
-    </div>
+@{
+    Layout = null;
+    string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
+    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
 }
-else
-{
-    <div class="container-fluid my-5">
-        <div class="row border-bottom py-2 d-none d-md-flex">
-            <div class="col-md-4">
-                <span class="span3 font-weight-bold">Description</span>
-            </div>
-            <div class="col-md-1">
-                <span class="span1 money font-weight-bold">Price</span>
-            </div>
-            <div class="col-md-1">
-                <span class="span1 money font-weight-bold">VAT</span>
-            </div>
-            <div class="col-md-1">
-                <span class="span1 font-weight-bold">Quantity</span>
-            </div>
-            <div class="col-md-1">
-                <span class="span1 money font-weight-bold">Total</span>
-            </div>
-            <div class="col-md-2">
-                <span class="span05">
 
-                </span>
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
+
+<div class="container-fluid my-5 pb-5" data-component="cart" id="shopping-cart">
+    <script type="application/json" purl="true">
+        { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
+    </script>
+    <hgroup>
+        <h1 class="mb-4">@Html.Resource("ShoppingCart", "UcommerceResources")</h1>
+            <template v-if="(model && model.OrderLines && model.OrderLines.length > 0)">
+                {{ model.OrderLines.length }}&nbsp;items
+            </template>
+    </hgroup>
+    <template v-if="model">
+        <template v-if="model.OrderLines.length == 0">
+            <div class="alert alert-info section-margin">
+                <p>@Html.Resource("YourCartIsEmpty","UcommerceResources") <a :href="model.RedirectUrl">@Html.Resource("ReturnToStore", "UcommerceResources")</a>.</p>
             </div>
-            <div class="col-md-2">
-                <span>
+        </template>
+        <template v-else>
+            <div class="row border-bottom py-2 d-none d-md-flex">
+                <div class="col-md-1">
 
-                </span>
-            </div>
-        </div>
-        @for (var i = 0; i < Model.OrderLines.Count; i++)
-        {
-            var line = Model.OrderLines[i];
-            <div class="row border-bottom order-line py-3" data-orderline="@line.OrderLineId">
-                @Html.HiddenFor(model => model.OrderLines[i].Sku)
-                @Html.HiddenFor(model => model.OrderLines[i].VariantSku)
-                @Html.HiddenFor(model => model.OrderLines[i].OrderLineId)
-                <div class="col-md-4 mb-2 mb-md-0">
-                    <span class="font-weight-bold d-md-none">Description: </span> <a class="text-info d-block d-md-inline-block" href="@line.ProductUrl">@line.ProductName</a>
                 </div>
+                <div class="col-md-3">
+                    <span class="span3 font-weight-bold">@Html.Resource("Description", "UcommerceResources")</span>
+                </div>
+                <div class="col-md-1">
+                    <span class="span1 money font-weight-bold">@Html.Resource("Price", "UcommerceResources")</span>
+                </div>
+                <div class="col-md-1">
+                    <span class="span1 money font-weight-bold">@Html.Resource("VAT", "UcommerceResources")</span>
+                </div>
+                <div class="col-md-1">
+                    <span class="span1 font-weight-bold">@Html.Resource("Quantity", "UcommerceResources")</span>
+                </div>
+                <div class="col-md-1">
+                    <span class="span1 money font-weight-bold">@Html.Resource("Total", "UcommerceResources")</span>
+                </div>
+                <div class="col-md-2">
+                    <span class="span05">
 
-                <div class="col-md-1 money mb-2 mb-md-0">
-                    <span class="font-weight-bold d-md-none">Price: </span>
-                    @if (@line.Discount.HasValue && @line.Discount > 0)
-                    {
-                        <span data-price>
-                            @line.Price
-                        </span>
-                        <span data-price-with-discount>
-                            @line.PriceWithDiscount
-                        </span>
-                    }
-                    else
-                    {
-                        <span data-price>
-                            @line.Price
-                        </span>
+                    </span>
+                </div>
+                <div class="col-md-2">
+                    <span>
 
-                    }
-                </div>
-
-                <div class="col-md-1 money mb-2 mb-md-0" data-tax>
-                    <span class="font-weight-bold d-md-none">VAT</span>
-                    @line.Tax
-                </div>
-                <div class="col-md-1 mb-2 mb-md-0">
-                    <span class="font-weight-bold d-md-none">Quantity: </span>
-                    @Html.TextBoxFor(model => model.OrderLines[i].Quantity, new { @class = "qty form-control d-inline-block p-0 pl-1", data_orderline_id = @Model.OrderLines[i].OrderLineId, data_orderline_qty = @Model.OrderLines[i].Quantity })
-                </div>
-                <div class="col-md-1 money item-total mb-1 mb-md-0">
-                    <span class="font-weight-bold d-md-none">Total: </span>
-                    @line.Total
-                </div>
-                <div class="col-md-2 mb-3 mb-md-0">
-                    <button name="update-basket" class="btn btn-info btn d-inline-block float-right js-update-basket" data-remove-orderline-url="@Model.RemoveOrderlineUrl" data-refresh-url="@Model.RefreshUrl" data-cart-container=".cart-container" data-item-total=".item-total" data-line-remove=".line-remove" data-order-subtotal=".order-subtotal" data-order-tax=".order-tax" data-order-discounts=".order-discounts" data-order-total=".order-total" data-basket="@Model" type="button">
-                        <span class="h6 mr-2 text-white">&#10227;</span> <span>Update</span>
-                    </button>
-                </div>
-                <div class="col-md-2 mb-2 mb-md-0">
-                    <button type="button" data-line-id="@line.OrderLineId" name="RemoveOrderlineId" class="line-remove btn float-right btn-info btn"><span class="h6 mr-2 text-white">&#10005;</span><span>Remove</span></button>
+                    </span>
                 </div>
             </div>
-        }
-        <div class="row border-bottom py-2 text-right">
-            <div class="offset-md-8 col-md-2">
-                <span class="font-weight-bold">Sub total:</span>
-            </div>
-            <div class="col-md-2 money order-subtotal">
-                @Model.SubTotal
-            </div>
-        </div>
-        <div class="row border-bottom py-2 text-right">
-            <div class="offset-md-8 col-md-2">
-                <span class="font-weight-bold">VAT:</span>
-            </div>
-            <div class="col-md-2 money order-tax">
-                @Model.TaxTotal
-            </div>
-        </div>
-        <div class="row border-bottom py-2 text-right">
-            <div class="offset-md-8 col-md-2">
-                <span class="font-weight-bold">Discounts:</span>
-            </div>
-            <div class="col-md-2 money order-discounts">
-                @Model.DiscountTotal
-            </div>
-        </div>
-        <div class="row border-bottom py-2 text-right">
-            <div class="offset-md-8 col-md-2">
-                <span class="font-weight-bold">Order total:</span>
-            </div>
-            <div class="col-md-2 money order-total">
-                @Model.OrderTotal
-            </div>
-        </div>
-        <div class="mt-4">
-            @{
-                var showContinueButton = true;
+            <template v-for="(line, key) in model.OrderLines" :key="item.OrderLineId">
+                <div class="row border-bottom order-line py-3">
+                    <input :id="'OrderLines_' + key + '__Sku'" :name="'OrderLines[' + key + '].Sku'" type="hidden" :value="line.Sku">
+                    <input :id="'OrderLines_' + key + '__VariantSku'" :name="'OrderLines[' + key + '].VariantSku'" type="hidden" :value="line.VariantSku">
+                    <input :id="'OrderLines_' + key + '__OrderLineId'" :name="'OrderLines[' + key + '].OrderLineId'" type="hidden" :value="line.OrderLineId">
+                    <div class="col-md-1">
+                        <figure>
+                            <img :title="line.ProductName" :src="line.ThumbnailUrl" :alt="line.ProductName" />
+                        </figure>
+                    </div>
 
-                if (Model.NextStepUrl == "")
-                {
-                    showContinueButton = false;
-                }
+                    <div class="col-md-3 mb-2 mb-md-0">
+                        <span class="font-weight-bold d-md-none">@Html.Resource("Description", "UcommerceResources"): </span> <a class="text-info d-block d-md-inline-block" :href="line.ProductUrl">{{ line.ProductName }}</a>
+                    </div>
 
-            }
-            <a href="@Model.NextStepUrl" class="btn btn-info btn-lg float-md-right" style="@(showContinueButton ? "display:block" : "display:none")" name="review-product">Continue</a>
-        </div>
-    </div>
-}
+                    <div class="col-md-1 money mb-2 mb-md-0">
+                        <span class="font-weight-bold d-md-none">@Html.Resource("Price", "UcommerceResources"): </span>
+                        <template v-if="line.Discount && line.Discount > 0">
+                            <span>
+                                {{ line.Price }}
+                            </span>
+                            <span>
+                                {{ line.PriceWithDiscount }}
+                            </span>
+                        </template>
+                        <template v-else>
+                            <span>
+                                {{ line.Price }}
+                            </span>
+                        </template>
+                    </div>
+
+                    <div class="col-md-1 money mb-2 mb-md-0" data-tax>
+                        <span class="font-weight-bold d-md-none">@Html.Resource("VAT", "UcommerceResources")</span>
+                        {{ line.Tax }}
+                    </div>
+                    <div class="col-md-1 mb-2 mb-md-0">
+                        <span class="font-weight-bold d-md-none">@Html.Resource("Quantity", "UcommerceResources"): </span>
+                        <input class="qty form-control d-inline-block p-0 pl-1" type="number" v-model="line.Quantity">
+                    </div>
+                    <div class="col-md-1 money item-total mb-1 mb-md-0">
+                        <span class="font-weight-bold d-md-none">@Html.Resource("Total", "UcommerceResources"): </span>
+                        {{ line.Total }}
+                    </div>
+                    <div class="col-md-2 mb-3 mb-md-0">
+                        <button name="update-basket" v-on:click="updateCartItems" class="btn btn-info btn d-inline-block float-right js-update-basket" type="button">
+                            <span class="h6 mr-2 text-white">&#10227;</span> <span>@Html.Resource("Update", "UcommerceResources")</span>
+                        </button>
+                    </div>
+                    <div class="col-md-2 mb-2 mb-md-0">
+                        <button type="button" v-on:click="removeCartItem(line.OrderLineId)" name="RemoveOrderlineId" class="line-remove btn float-right btn-info btn"><span class="h6 mr-2 text-white">&#10005;</span><span>@Html.Resource("Remove", "UcommerceResources")</span></button>
+                    </div>
+                </div>
+            </template>
+            <div class="row border-bottom py-2 text-right">
+                <div class="offset-md-8 col-md-2">
+                    <span class="font-weight-bold">@Html.Resource("SubTotal", "UcommerceResources"):</span>
+                </div>
+                <div class="col-md-2 money order-subtotal">
+                    {{ model.SubTotal }}
+                </div>
+            </div>
+            <div class="row border-bottom py-2 text-right">
+                <div class="offset-md-8 col-md-2">
+                    <span class="font-weight-bold">@Html.Resource("VAT", "UcommerceResources"):</span>
+                </div>
+                <div class="col-md-2 money order-tax">
+                    {{ model.TaxTotal }}
+                </div>
+            </div>
+            <div v-if="model.DiscountTotal" class="row border-bottom py-2 text-right">
+                <div class="offset-md-8 col-md-2">
+                    <span class="font-weight-bold">@Html.Resource("Discounts", "UcommerceResources"):</span>
+                </div>
+                <div class="col-md-2 money order-discounts">
+                    {{ model.DiscountTotal }}
+                </div>
+            </div>
+            <div class="row border-bottom py-2 text-right">
+                <div class="offset-md-8 col-md-2">
+                    <span class="font-weight-bold">@Html.Resource("OrderTotal", "UcommerceResources"):</span>
+                </div>
+                <div class="col-md-2 money order-total">
+                    {{ model.OrderTotal }}
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <a class="text-info float-right" href="/shop/e-shop">@Html.Resource("ContinueShopping", "UcommerceResources")</a>
+                </div>
+            </div>
+            <checkout-navigation v-bind:model="model"
+                                 next-step-link=true
+                                 continue-label="@Html.Resource("Continue", "UcommerceResources")"
+                                 back-label="@Html.Resource("BackButton", "UcommerceResources")"
+                                 mode="Bootstrap4"
+                                 back-link-classes="btn btn-light btn-lg float-left"
+                                 continue-btn-classes="btn btn-info btn-lg float-right"
+                                 classes="mt-4">
+            </checkout-navigation>
+        </template>
+    </template>
+</div>
+

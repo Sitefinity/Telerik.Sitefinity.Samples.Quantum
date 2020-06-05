@@ -4,81 +4,60 @@
 @using Telerik.Sitefinity.Modules.Pages;
 @using Telerik.Sitefinity.UI.MVC;
 @using Telerik.Sitefinity.Services;
-@model UCommerce.Sitefinity.UI.Mvc.ViewModels.ShippingPickerViewModel
+@using Telerik.Sitefinity.Web;
+@using Newtonsoft.Json;
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
 @{
     Layout = null;
+    string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
+    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
 }
 
 @Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
 
-@if (!SystemManager.IsDesignMode)
-{
-    @Html.Script(Url.Content("~/bundles/ucommerce-js"), "bottom")
-}
-
-@using (Html.BeginFormSitefinity("CreateShipment", "ShippingPicker", FormMethod.Post))
-{
-    <div class="container my-4">
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Shipping method</h3>
-                <hr />
-            </div>
+<div class="container my-4" data-component="shipping-widget" id="shipping-method">
+    <script type="application/json" purl="true">
+        { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
+    </script>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>@Html.Resource("ShippingMethod", "UcommerceResources")</h3>
+            <hr />
         </div>
-        @if (@Model.AvailableShippingMethods.Count > 0)
-        {
-            foreach (var shippingMethod in @Model.AvailableShippingMethods)
-            {
+    </div>
+    <template v-if="model">
+        <template v-if="model.AvailableShippingMethods.length">
+            <template v-for="method in model.AvailableShippingMethods" :model="model">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-check">
                             <label class="form-check-label">
-                                @if (shippingMethod.Selected)
-                                {
-                                    @Html.RadioButtonFor(x => x.SelectedShippingMethodId, shippingMethod.Value, new { @checked = "checked", @class = "js-shipping-picker" })
-                                    @shippingMethod.Text
-                                }
-                                else
-                                {
-                                    @Html.RadioButtonFor(x => x.SelectedShippingMethodId, shippingMethod.Value, new { @class = "js-shipping-picker" })
-                                    @shippingMethod.Text
-                                }
+                                <input class="js-shipping-picker" name="SelectedShippingMethodId" type="radio" :value="method.Value" :checked="method.Value == model.SelectedShippingMethodId"> {{ method.Text }}
                             </label>
                         </div>
                     </div>
                 </div>
-            }
-            <div class="row my-4">
-                <div class="col-md-6">
-                    @{
-                        var showBackButton = true;
-
-                        if (Model.NextStepUrl == "")
-                        {
-                            showBackButton = false;
-                        }
-                    }
-                    <a href="@Model.PreviousStepUrl" class="btn btn-light btn-lg float-md-left" style="@(showBackButton ? "display:block" : "display:none")">Back</a>
-                </div>
-                <div class="col-md-4 offset-md-2">
-                    @{
-                        var showContinueButton = true;
-
-                        if (Model.NextStepUrl == "")
-                        {
-                            showContinueButton = false;
-                        }
-                    }
-                    <input type="submit" class="btn btn-info btn-lg w-100 mt-3 mt-md-0 float-md-right submit-address" style="@(showContinueButton ? "display:block" : "display:none")" value="Continue to next step" />
-                </div>
-            </div>
-        }
-
-        else
-        {
+            </template>
+            <checkout-navigation v-bind:model="model"
+                                 continue-label="@Html.Resource("ContinueToNextStep", "UcommerceResources")"
+                                 back-label="@Html.Resource("BackButton", "UcommerceResources")"
+                                 mode="Bootstrap4"
+                                 :continue-fn="submit"
+                                 back-link-classes="btn btn-light text-info btn-lg float-right float-md-left"
+                                 continue-btn-classes="btn btn-info btn-lg mt-3 mt-md-0 float-right"
+                                 classes="row my-4">
+            </checkout-navigation>
+        </template>
+        <template v-else>
             <p class="alert alert-danger">
-                WARNING: No shipping methods have been configured for @Model.ShippingCountry within <a href="http://ucommerce.dk">UCommerce</a> administration area.
+                WARNING: No shipping methods have been configured for {{ model.ShippingCountry }} within <a href="http://ucommerce.dk">UCommerce</a> administration area.
             </p>
-        }
-    </div>
-}
+        </template>
+    </template>
+</div>
