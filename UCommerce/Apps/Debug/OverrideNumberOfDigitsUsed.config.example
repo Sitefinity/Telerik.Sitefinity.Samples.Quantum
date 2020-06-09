@@ -1,0 +1,9 @@
+﻿<configuration>
+  <components>
+    <partial-component id="PriceCalculationSettings">
+      <parameters>
+        <NumberOfDigitsPrecision>4</NumberOfDigitsPrecision>
+      </parameters>
+    </partial-component>
+  </components>
+</configuration>
