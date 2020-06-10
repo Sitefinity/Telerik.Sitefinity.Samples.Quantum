@@ -1,10 +1,26 @@
-﻿@model UCommerce.Sitefinity.UI.Mvc.ViewModels.CategoryNavigationViewModel
+﻿@using UCommerce.Extensions
+@model UCommerce.Sitefinity.UI.Mvc.ViewModels.CategoryNavigationViewModel
+@{
+	var currentCategory = UCommerce.Runtime.SiteContext.Current.CatalogContext.CurrentCategory;
+	var categoryName = string.Empty;
+	if (currentCategory != null)
+	{
+		categoryName = currentCategory.DisplayName();
+	}
+}
 @if (Model.Categories.Any())
 {
 	<ul>
 		@foreach (var category in Model.Categories)
 		{
-			<li><a href="@category.Url" class="nav-header">@category.DisplayName</a></li>
+			<li class="@GetClass(category, categoryName)"><a href="@category.Url" class="nav-header">@category.DisplayName</a></li>
 		}
 	</ul>
+}
+@helper GetClass(UCommerce.Sitefinity.UI.Mvc.ViewModels.CategoryNavigationCategoryViewModel category, string categoryName)
+{
+	if (category.DisplayName.Equals(categoryName))
+	{
+		@Html.Raw("active");
+	}
 }

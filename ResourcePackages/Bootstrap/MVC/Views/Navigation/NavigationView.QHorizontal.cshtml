@@ -79,21 +79,23 @@
 		}
 		else
 		{
-<li class="@GetClass(childNode)">
 	@* NOTE: This needs to be replaced with the key childNode.OriginalSiteMapNode.Key == Model.ProductListingPage.Id.ToString() ||  *@
-	@if ((childNode.OriginalSiteMapNode.Key == "904AF4A4-1D60-6822-81AC-FF0000DA1875"))
+	if ((childNode.OriginalSiteMapNode.Key == "904AF4A4-1D60-6822-81AC-FF0000DA1875"))
 	{
+		<li>
 		@Html.Action("StoreNavigation", "CategoryNavigation", new { categoryPageId = "904AF4A4-1D60-6822-81AC-FF0000DA1875" })
+		</li>
 	}
 	else
 	{
+		<li class="@GetClass(childNode)">
 		<ul>
 			<li>
 				<a class="nav-header" href="@childNode.Url" target="@childNode.LinkTarget">@childNode.Title</a>
 			</li>
 		</ul>
+		</li>
 	}
-</li>
 		}
 	}
 	}
