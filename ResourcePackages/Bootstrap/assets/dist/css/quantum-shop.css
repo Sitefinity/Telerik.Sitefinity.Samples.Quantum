@@ -119,7 +119,7 @@ input[type="submit"]
 
 .sfTxt {
     font-family: 'Open Sans';
-    padding: 5px 10px;
+    padding: 6px 10px;
     border: 2px solid #eee;
 }
 
@@ -256,6 +256,24 @@ input[type="submit"]
 .sfproductDetailsWrp .sfproductImgsListWrp ul li{float:left;width:85px;height:85px;margin:0 10px 0 0}
 .sfproductDetailsWrp .sfproductImgsListWrp ul li a{border:1px solid #ddd;display:block;width:85px;height:85px;overflow:hidden}
 .sfproductDetailsWrp .sfproductImgsListWrp ul li a img{width:85px;height:85px!important}
+.sfproductDetailsWrp .sfAddToCartBtn {
+    background-color: #00b5c9;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 8px 26px;
+    text-decoration: none;
+    border: 0 none;
+}
+.sfproductDetailsWrp .sfAddToCartBtn:hover {
+    background-color:#008c99;
+}
+.sfproductDetailsWrp .sfAddToCartBtn:active {
+    position:relative;
+    top:1px;
+}
 .sffilterTitle{font-size:14px;font-weight:700;border-bottom:1px solid #eee;padding:0 0 15px;text-transform:uppercase}
 .sffilterClearLnk{color:#00b4c9;font-weight:700;font-size:14px;text-transform:uppercase}
 .sfShopByFilterGroupList{padding:0;margin:0;list-style:none}
@@ -283,7 +301,7 @@ input[type="submit"]
 .sfcartSummaryExpandableWrp{float:right;margin:1px 0;position:relative}
 .sfcartSummaryExpandableWrp .sflnkToggleCartWrp{float:right;transition:opacity .3s ease-out}
 .sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart{padding:0 25px 0 0;background:url(../Images/arrow_down.png) right center no-repeat;font-weight:600;display:block;color:#000;text-align:right}
-sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart .sflnkToggleCartLbl{display:block}
+.sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart .sflnkToggleCartLbl{display:block}
 .sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart .sfcartSummaryItemsCount,.sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart .sfcartSummaryNoItems{display:block;font-size:12px;font-weight:400!important;color:#888}
 .sfcartSummaryExpandableWrp .sflnkToggleCartWrp:hover{opacity:.7}
 .sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp{position:absolute;width:280px;right:0;top:55px;background:#fff;z-index:3;padding:30px;border:1px solid #eee;box-shadow:0 7px 20px rgba(0,0,0,.3)}
@@ -1188,3 +1206,6 @@ body.filters .content .sfShopByFilterGroupList,body.filters .content .sffilterCl
         width: 100%;
         border: 0;
     }.sfproductsList .sfproductListItem {text-align:center;}.content .sfContentBlock img{float:none!important;margin-top:1em;margin-left:auto;margin-right:auto;clear:both}.content .banner img{display:none}.content .sidebar .RadSiteMap_leftnav .rsmList .rsmItem{width:100%;margin:0 0 10px}.content .sidebar .RadSiteMap_leftnav .rsmList .rsmItem .rsmItem{margin-bottom:0}.content .sidebar .sfShopByFilterGroupList .sfShopByFilterGroupListItem{width:100%}.sfforumsList tr td.sfforumPostsCountWrp{display:none}.sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser{width:100%}.sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostContentWrp{width:100%;border:0}.sfproductsList li.sfproductListItem{width:100%;height:auto!important}.sfproductsList li.sfproductListItem .sfproductTmbWrp{width:100%;position:relative;height:auto}.sfproductsList li.sfproductListItem .sfproductTmbWrp a{width:100%!important;height:auto}.sfproductsList li.sfproductListItem .sfproductTmbWrp a img{position:relative;width:60%;height:auto}.sfproductsList li.sfproductListItem .sfproductTmbWrp a:hover,.sfproductsList li.sfproductListItem .sfproductTmbWrp a:hover img{width:100%;height:auto}.sfcartSummaryExpandableWrp .sfcartSummaryDetailsWrp{width:220px}}.sfimagesTmbList{position:relative;float:left;width:100%;list-style:none}.sfimagesTmbList li{o position:relative;float:left;margin:5px;list-style-position:inside}.sfimagesTmbList li img{padding:6px;background-color:#fff;border-right:1px solid #666;border-bottom:1px solid #666}.sfimagesTmbList li a:hover img{background-color:#aaa}.button{background-image:url(../img/button_bg.jpg);border-radius:5px;box-shadow:0 0 5px #999;border:0;padding:6px 20px;line-height:18px;float:left;position:relative;background-color:#008eee;color:#fff;font-weight:400;font-size:15px;margin:5px;text-decoration:none;font-family:'Ropa Sans'}.sfnewsListItem{list-style:none}.sfnewsListItem a{text-decoration:none;color:#00b4c9}.sfnewsList.sfnewsListTitlesOnly.sflist .sfnewsListItem a{text-transform:uppercase}.highlight{background-color:#F7F7F7;border-radius:10px;box-shadow:0 0 10px #EDEDED;float:left;margin-bottom:20px;padding:0 10px 10px;width:98%}.content img{max-width:100%}.sfContentBlock img{display:block;margin-top:1em;margin-bottom:1em}.sfContentBlock img[style*="vertical-align:middle;"],.sfContentBlock img[style*="vertical-align: middle;"]{margin:1em auto;clear:both}.sfContentBlock img[style*="float:right;"],.sfContentBlock img[style*="float: right;"]{float:right;margin-top:.25em;margin-right:0;margin-left:1em}.sfContentBlock img[style*="float:left;"],.sfContentBlock img[style*="float: left;"]{float:right;margin-top:.25em;margin-left:0;margin-right:1em}.sfPlayerWrp video,.sfPlayerWrp>div{width:100%!important;height:auto!important}.productGallery .galleria-container.notouch{min-height:500px!important}.main-body>.k-animation-container .k-popup[data-role=popup]{background:#fff;box-shadow:0 7px 20px rgba(0,0,0,.3)}.k-popup[data-role=popup] .k-item,.main-body>.k-animation-container .k-popup[data-role=popup]{border:none}.main-body>.k-animation-container .k-popup[data-role=popup] .k-item:hover{background:#e0f2f5}
+
+
+    
