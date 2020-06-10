@@ -292,6 +292,8 @@ input[type="submit"]
 
 .sfShopByFilterCategoryList{padding-left:0;}
 .sfShopByFilterCategoryList li.sfShopByFilterCategoryListItem{list-style: none; padding: 0; margin: 5px 0; font-size: 14px;}
+.sfShopByFilterCategoryList li.sfShopByFilterCategoryListItem a{color:#00b4c9;}
+.sfShopByFilterCategoryList li.sfShopByFilterCategoryListItem a:hover{color:#00b4c9;}
 
 .cart-navigation{border-bottom:1px solid #eee}
 .sfcurrenciesHorizontalList{padding:0;margin:15px 0;list-style:none}
