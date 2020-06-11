@@ -215,7 +215,7 @@ input[type="submit"]
     margin: 1%;
     color: #00b4c9;
 }
-.product-list-paging{clear:both;}
+.product-list-paging{clear:both;margin:20px 0;}
 .product-listing{padding-bottom:10px}
 .sfproductsList .sfproductListItem{float:left;list-style:none;width:33%;border-bottom:1px solid #eee;height:350px}
 .sfproductsList .sfproductListItem {padding-top:15px}
@@ -256,6 +256,8 @@ input[type="submit"]
 .sfproductDetailsWrp .sfproductImgsListWrp ul li{float:left;width:85px;height:85px;margin:0 10px 0 0}
 .sfproductDetailsWrp .sfproductImgsListWrp ul li a{border:1px solid #ddd;display:block;width:85px;height:85px;overflow:hidden}
 .sfproductDetailsWrp .sfproductImgsListWrp ul li a img{width:85px;height:85px!important}
+.sfShopByCurrencyPicker .btn,
+.sfShopBySearchTemplate .btn,
 .sfproductListItem .sfAddToCartBtn,
 .sfproductDetailsWrp .sfAddToCartBtn {
     background-color: #00b5c9;
@@ -268,10 +270,22 @@ input[type="submit"]
     text-decoration: none;
     border: 0 none;
 }
+.sfShopBySearchTemplate .input-group .form-control{
+    height:35px;
+}
+.sfShopByCurrencyPicker .btn,
+.sfShopBySearchTemplate .btn
+{
+    padding: 5px 10px;
+}
+.sfShopByCurrencyPicker .btn:hover,
+.sfShopBySearchTemplate .btn:hover,
 .sfproductListItem .sfAddToCartBtn:hover,
 .sfproductDetailsWrp .sfAddToCartBtn:hover {
     background-color:#008c99;
 }
+.sfShopByCurrencyPicker .btn:active,
+.sfShopBySearchTemplate .btn:active,
 .sfproductListItem .sfAddToCartBtn:active,
 .sfproductDetailsWrp .sfAddToCartBtn:active {
     position:relative;
@@ -279,7 +293,7 @@ input[type="submit"]
 }
 .sffilterTitle{font-size:14px;font-weight:700;border-bottom:1px solid #eee;padding:0 0 15px;text-transform:uppercase}
 .sffilterClearLnk{color:#00b4c9;font-weight:700;font-size:14px;text-transform:uppercase}
-.sfShopByFilterGroupList{padding:0;margin:0;list-style:none}
+.sfShopByFilterGroupList{padding:0;margin:0 0 20px;list-style:none}
 .sfShopByFilterGroupList h3.sfGroupTitle{font-size:17px;font-weight:400;border-top:1px solid #eee;padding:15px 0 0}
 .sfShopByFilterGroupList .sfShopByFilterList{padding:0;margin:0;list-style:none}
 .sfShopByFilterGroupList .sfShopByFilterList li{font-size:14px;font-family:Arial,sans-serif}
