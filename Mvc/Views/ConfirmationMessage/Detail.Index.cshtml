@@ -8,7 +8,7 @@
 
 @Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
 
-<div class="alert alert-success my-4" role="alert">
+<div class="alert alert-success my-4 success-alert" role="alert">
     @if (string.IsNullOrEmpty(Model.Headline))
     {
         Model.Headline = Html.Resource("ThankYou", "UcommerceResources");
