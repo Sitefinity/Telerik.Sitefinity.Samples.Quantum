@@ -156,7 +156,7 @@
             <input title="@Html.Resource("ProductQuantity", "UcommerceResources")" id="productQuantityInput" v-model="quantity" type="text" class="sfTxt sfQuantity" />
 
             <input type="button" title="Add to cart button" value="@Html.Resource("AddToCart", "UcommerceResources")" v-on:click="addToBasket()" class="sfAddToCartBtn" />
-            <span v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
+            <p v-show="showAddToBasketMessage">{{addToBasketMessage}}</p>
         </div>
     </script>
 
