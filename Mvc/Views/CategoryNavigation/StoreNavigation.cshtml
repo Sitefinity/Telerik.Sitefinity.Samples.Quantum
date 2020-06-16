@@ -10,12 +10,14 @@
 }
 @if (Model.Categories.Any())
 {
-	<ul>
-		@foreach (var category in Model.Categories)
-		{
-			<li class="@GetClass(category, categoryName)"><a href="@category.Url" class="nav-header">@category.DisplayName</a></li>
-		}
-	</ul>
+	foreach (var category in Model.Categories)
+	{
+		<li>
+			<ul>
+				<li class="@GetClass(category, categoryName)"><a href="@category.Url" class="nav-header">@category.DisplayName</a></li>
+			</ul>
+		</li>
+	}
 }
 @helper GetClass(UCommerce.Sitefinity.UI.Mvc.ViewModels.CategoryNavigationCategoryViewModel category, string categoryName)
 {
