@@ -34,9 +34,11 @@ using System.Web.UI;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("13.0.7300.0")]
-[assembly: AssemblyFileVersion("13.0.7300.0")]
+[assembly: AssemblyVersion("13.0.7323.0")]
+[assembly: AssemblyFileVersion("13.0.7323.0")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
 [assembly: WebResource("SitefinityWebApp.App_Data.Sitefinity.WebsiteTemplates.Quantum.App_Themes.Quantum.Scripts.quantum.js", "application/x-javascript")]
+
 [assembly: Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes.ControllerContainer]
+
 [assembly: Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers.Attributes.ResourcePackage]
