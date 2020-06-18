@@ -949,7 +949,7 @@
       <HintPath>packages\Ucommerce.Sitefinity.8.4.2.20052\lib\UCommerce.Sitefinity.Installer.dll</HintPath>
     </Reference>
     <Reference Include="UCommerce.Sitefinity.UI, Version=0.8.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.UI.2.1.0.20156\lib\net472\UCommerce.Sitefinity.UI.dll</HintPath>
+      <HintPath>packages\Ucommerce.Sitefinity.UI.2.1.2.20170\lib\net472\UCommerce.Sitefinity.UI.dll</HintPath>
     </Reference>
     <Reference Include="UCommerce.SystemHttp, Version=8.4.2.20052, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\uCommerce.Core.8.4.2.20052\lib\net45\UCommerce.SystemHttp.dll</HintPath>
@@ -1182,6 +1182,7 @@
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Shared\readme.txt" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\main.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\main.min.css" />
+    <Content Include="ResourcePackages\Bootstrap\assets\dist\css\quantum-shop.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\quantum-style.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\quantum-style.min.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\fonts\bootstrap\glyphicons-halflings-regular.svg" />
