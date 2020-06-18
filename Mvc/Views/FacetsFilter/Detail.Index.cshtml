@@ -30,7 +30,7 @@
                     <label class="cb-wrap" v-bind:class="filter.Checked && 'active'">
                         <input type="checkbox" class="js-facets sfFilterItem" v-model="filter.Checked" v-on:change="filterProducts(filter)" v-bind:key="filter.FacetValueName" />
                         <span class="checkmark"></span>
-                        {{ filter.FacetValueName }}
+                        {{ filter.FacetValueName | starRating(facet.DisplayName) }}
                     </label>
                 </li>
             </ul>

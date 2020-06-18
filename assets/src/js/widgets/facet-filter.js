@@ -10,6 +10,15 @@ function initFacetFilter(rootElement) {
         data: {
             facets: facets
         },
+        filters: {
+            starRating: function (facetValue,facetName ) {
+                if (facetName === "Rating") {
+                    return parseInt(facetValue.FacetValueName.split('-')[1].trim())/5
+                } else {
+                    return facetValue.FacetValueName
+                }
+            }
+        },
         created: function () {
             var result = {},
                 queryString = location.search.slice(1),

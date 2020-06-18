@@ -73,14 +73,14 @@ function initReviewList(rootElement) {
                 this.Reviews = null;
 
                 this.$http.get(this.purl + '/reviews/data?productId=' + this.pid, {}).then((response) => {
-                    if (this.hasValue(response.data) &&
-                        this.hasValue(response.data.Status) &&
-                        response.data.Status == 'success' &&
-                        this.hasValue(response.data.Data) &&
-                        this.hasValue(response.data.Data.data) &&
-                        this.hasValue(response.data.Data.data.Reviews)) {
+	                var data = response.data;
+                    if (this.hasValue(data) &&
+                        this.hasValue(data.Status) &&
+                        data.Status == 'success' &&
+                        this.hasValue(data.Data) &&
+                        this.hasValue(data.Data.Reviews)) {
 
-                        this.Reviews = response.data.Data.data.Reviews;
+                        this.Reviews = data.Data.Reviews;
                     }
                     else {
                         this.Reviews = null;

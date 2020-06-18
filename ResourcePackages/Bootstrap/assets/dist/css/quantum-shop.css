@@ -1229,3 +1229,21 @@ body.filters .content .sfShopByFilterGroupList,body.filters .content .sffilterCl
 .success-alert {
 	margin-top: 15px;
 }
+
+.review-list .star {
+    background: url(/Frontend-Assembly/UCommerce.Sitefinity.UI/assets/dist/images/star.png) no-repeat 0 0;
+    display: inline-block !important;
+    zoom: 1;
+    vertical-align: top;
+    padding-right: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.review-list .star {
+cursor: pointer;
+}
+
+.review-list .star.on {
+background-position: 0 -16px;
+}
