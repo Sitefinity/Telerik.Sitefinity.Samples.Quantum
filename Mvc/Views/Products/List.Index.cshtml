@@ -103,20 +103,20 @@
 </div>
 <script type="text/x-template" id="add-to-basket-template">
     <div>
-        <span class="sfTxtLbl">@Html.Resource("Quantity", "UcommerceResources"):</span>
-        <span class="sfErrorWrp" style="display:none;">
+        <p class="sfTxtLbl">@Html.Resource("Quantity", "UcommerceResources"):</p>
+        <p class="sfErrorWrp" style="display:none;">
             <span class="sfError">
                 @Html.Resource("SpecifyQuantity", "UcommerceResources")
             </span>
-        </span>
-        <span class="sfErrorWrp" style="display:none;">
+        </p>
+        <p class="sfErrorWrp" style="display:none;">
             <span class="sfError">
                 @Html.Resource("QuantityValidation", "UcommerceResources")
             </span>
-        </span>
+        </p>
         <input title="Product Quantity" id="productQuantityInput" v-model="quantity" type="text" class="sfTxt sfQuantity" />
         <input type="button" title="Add to cart button" value="@Html.Resource("AddToCart", "UcommerceResources")" v-on:click="addToBasket()" class="sfAddToCartBtn" />
-        <span class="sfAddToCart" v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
+        <p class="sfAddToCart" v-show="showAddToBasketMessage">{{addToBasketMessage}}</p>
     </div>
 </script>
 <script type="text/javascript">
