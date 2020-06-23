@@ -91,24 +91,6 @@
                         </div>
                     </div>
 
-                    @*Beggining of Add to cart section*@
-                    <div class="sfAddToCartWidget">
-                        <div class="sfAddToCartWrp">
-                            <div>
-                                <div class="sfMessage sfTopMsg">
-
-                                </div>
-                                @foreach (var route in Model.Routes)
-                                {
-                                    <input type="hidden" class="@route.Key" value="@route.Value" />
-                                }
-
-                                <add-to-basket :product-sku="'@Model.Sku'" :root-id="$el.id" :selected-variants="selectedVariants">
-                                </add-to-basket>
-                            </div>
-                        </div>
-                    </div>
-                    @*End of Add to cart section *@
                     <div class="dropdown-section">
                         @{
                             if (Model.VariantTypes.Any())
@@ -134,6 +116,24 @@
                             }
                         }
                     </div>
+                    @*Beggining of Add to cart section*@
+                    <div class="sfAddToCartWidget">
+                        <div class="sfAddToCartWrp">
+                            <div>
+                                <div class="sfMessage sfTopMsg">
+
+                                </div>
+                                @foreach (var route in Model.Routes)
+                                {
+                                    <input type="hidden" class="@route.Key" value="@route.Value" />
+                                }
+
+                                <add-to-basket :product-sku="'@Model.Sku'" :root-id="$el.id" :selected-variants="selectedVariants">
+                                </add-to-basket>
+                            </div>
+                        </div>
+                    </div>
+                    @*End of Add to cart section *@
                 </div>
             </div>
         </div>
@@ -142,7 +142,7 @@
     </div>
     <script type="text/x-template" id="add-to-basket-template">
         <div>
-            <span class="sfTxtLbl detail-label">@Html.Resource("Quantity", "UcommerceResources"):</span>
+            <label class="detail-label"">@Html.Resource("Quantity", "UcommerceResources"):</label>
             <span style="display:none;" class="sfErrorWrp">
                 <span class="sfError">
                     @Html.Resource("SpecifyQuantity", "UcommerceResources")
