@@ -256,6 +256,12 @@ input[type="submit"]
 .sfproductDetailsWrp .sfproductImgsListWrp ul li{float:left;width:85px;height:85px;margin:0 10px 0 0}
 .sfproductDetailsWrp .sfproductImgsListWrp ul li a{border:1px solid #ddd;display:block;width:85px;height:85px;overflow:hidden}
 .sfproductDetailsWrp .sfproductImgsListWrp ul li a img{width:85px;height:85px!important}
+.sfShopByCurrencyPicker{
+    color: #555;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.sfShopByCurrencyPicker select{border:2px solid #eee;border-radius:2px;font-family:"Open Sans";padding:3px 6px;outline:0}
 .sfShopByCurrencyPicker .btn,
 .sfShopBySearchTemplate .btn,
 .sfproductListItem .sfAddToCartBtn,

@@ -108,18 +108,15 @@
 
 <script type="text/x-template" id="currency-selector-template">
 <div class="dropdown sfShopByCurrencyPicker">
-    <a class="nav-link float-left">
-        @Html.Resource("SelectedCurrency", "UcommerceResources"): <span style="display: inline-block;">{{currentCurrency.DisplayName}}</span>
-    </a>
-    <button class="btn btn-outline-dark shadow-none"
-            v-on:click="toggleCurrenciesVisibility"><span class="caret"></span></button>
-    <ul :class="showCurrencies ? 'dropdown-menu show' : ''" v-show="showCurrencies">
-        <li class="nav-item" v-for="currency in currencies">
-            <a href="javascript:void(0)" class="dropdown-item nav-link text-center" v-on:click="setCurrency(currency.PriceGroupId)">
-                <span>{{currency.DisplayName}}</span>
-            </a>
-        </li>
-    </ul>
+    <span class="nav-link float-left">
+        @Html.Resource("SelectedCurrency", "UcommerceResources"):
+    </span>
+    <select :class="showCurrencies ? 'show' : ''" v-model="currentCurrency.PriceGroupId">
+        <option v-bind:value="currentCurrency.PriceGroupId">{{currentCurrency.DisplayName}}</option>
+        <option class="nav-item" v-for="currency in currencies" v-bind:value="currency.PriceGroupId" v-on:click="setCurrency(currency.PriceGroupId)">
+            {{currency.DisplayName}}
+        </option>
+    </select>
 </div>
 </script>
 
