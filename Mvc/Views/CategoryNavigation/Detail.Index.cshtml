@@ -125,7 +125,7 @@
         <form v-if="searchPageUrl !== ''" v-bind:action="searchPageUrl" class="input-group" _lpchecked="1">
             <input type="text" autocomplete="off" v-model="searchQuery" focus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control" placeholder="Search for products">
             <span class="input-group-btn">
-                <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                <button class="btn btn-outline-secondary border-left-0 border" type="submit" v-on:click="search()">
                     <span>&#128269;</span>
                 </button>
             </span>
@@ -134,7 +134,7 @@
         <form v-if="searchPageUrl === ''" v-on:submit.prevent class="input-group" _lpchecked="1">
             <input type="text" autocomplete="off" v-model="searchQuery" autofocus v-on:input="search()" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control" placeholder="Search for products">
             <span class="input-group-btn">
-                <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                <button class="btn btn-outline-secondary border-left-0 border" type="submit" v-on:click="search()">
                     <span>&#128269;</span>
                 </button>
             </span>
