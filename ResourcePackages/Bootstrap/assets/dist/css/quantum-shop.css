@@ -249,17 +249,50 @@ input[type="submit"] {
     padding-bottom: 10px
 }
 
-.sfproductsList .sfproductListItem {
-    float: left;
-    list-style: none;
-    width: 33%;
-    border-bottom: 1px solid #eee;
-    height: 350px
+.sfproductsList {
+    padding: 0;
 }
 
 .sfproductsList .sfproductListItem {
-    padding-top: 15px
+    float: left;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top:15px;
+    padding-bottom: 5px;
+    position: relative;
 }
+
+@media all and (max-width:800px) and (min-width:481px) {
+    .sfproductsList li.sfproductListItem{
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+    .sfproductsList li.sfproductListItem:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+}
+
+@media all and (min-width:801px) {
+    .sfproductsList li.sfproductListItem{
+        width: calc(33.33% - 20px);
+        max-width: calc(33.33% - 20px);
+        margin-left: 20px;
+    }
+
+    .sfproductsList .sfproductListItem:nth-child(3n + 1){
+        margin-left: 0;
+    }
+}
+
+
+.sfproductPrice.bottomPrice { margin-top: auto;}
 
 .sfproductsList .sfproductListItem .sfproductTmbWrp {
     position: relative
@@ -283,7 +316,8 @@ input[type="submit"] {
 .sfproductsList .sfproductListItem .sfproductTmbWrp:hover img {
     opacity: 1;
     width: 240px;
-    height: 240px
+    height: 240px;
+    max-width: 240px;
 }
 
 .sfproductsList .sfproductListItem .sfTxtLbl {
@@ -2550,6 +2584,10 @@ input[type="submit"] {
         font-size: 13px;
         font-weight: 600;
         cursor: pointer;
+    }
+
+    .sfTxt.sfQuantity {
+        width: 45px;
     }
 
     .sfforumThreadPostList .sfforumThreadPost .sfforumThreadPostUser {
