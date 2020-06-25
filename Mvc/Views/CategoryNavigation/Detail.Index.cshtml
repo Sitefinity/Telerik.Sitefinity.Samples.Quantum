@@ -111,9 +111,9 @@
     <span class="nav-link float-left">
         @Html.Resource("SelectedCurrency", "UcommerceResources"):
     </span>
-    <select :class="showCurrencies ? 'show' : ''" v-model="currentCurrency.PriceGroupId">
+    <select :class="showCurrencies ? 'show' : ''" v-model="currentCurrency.PriceGroupId" v-on:change="setCurrency(currentCurrency.PriceGroupId)">
         <option v-bind:value="currentCurrency.PriceGroupId">{{currentCurrency.DisplayName}}</option>
-        <option class="nav-item" v-for="currency in currencies" v-bind:value="currency.PriceGroupId" v-on:click="setCurrency(currency.PriceGroupId)">
+        <option class="nav-item" v-for="currency in currencies" v-bind:value="currency.PriceGroupId">
             {{currency.DisplayName}}
         </option>
     </select>
