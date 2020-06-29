@@ -1,3 +1,11 @@
+### Ucommerce Integration Demo
+
+This branch version of Sitefinity Quantum demo website features fully functional integration with UCommerce.
+
+Complete feature overview: https://ucommerce.net/pricing/
+
+### Overview
+
 The Quantum sample project showcases all Sitefinity CMS features available out of the box in an aesthetically designed website. This starter kit is designed to help business users get up to speed quickly using Sitefinity CMS and gives developers a way to easily add custom features to it. The Quantum website is perfect for doing Sitefinity CMS demos to project stakeholders.
 
 The main purpose of the Quantum project is to provide a real life example of how users can practically utilize the core features of Sitefinity CMS thus bringing value to organizations by empowering non-technical employees to quickly and efficiently manage their content.
@@ -38,7 +46,7 @@ See a complete list of the system requirements for the solution here: http://doc
 
 You need to attach the database backup files to your SQL Server. To do this:
 
-1. Download the database backup file from: [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_122.zip)
+1. Download the database backup file from: [here](http://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/SitefinityUcommerceDB.zip)
 2. Navigate to the _SitefinityWebApp_ -&gt; _App\_Data_ folder.
 3. Unzip the  **QuantumDB.zip**  file.
 4. In SQL Management Studio, open the context menu of _Databases_ and click _Attach..._
