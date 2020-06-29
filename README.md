@@ -46,7 +46,7 @@ See a complete list of the system requirements for the solution here: http://doc
 
 You need to attach the database backup files to your SQL Server. To do this:
 
-1. Download the database backup file from: [here](http://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/SitefinityUcommerceDB.zip)
+1. Download the database backup file from: [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/SitefinityUcommerceDB.zip)
 2. Navigate to the _SitefinityWebApp_ -&gt; _App\_Data_ folder.
 3. Unzip the  **QuantumDB.zip**  file.
 4. In SQL Management Studio, open the context menu of _Databases_ and click _Attach..._
@@ -76,3 +76,8 @@ To login to the Sitefinity CMS backend, use the following credentials:
 ### **Frontend Package**
 
 The design of the starter kit is based on the Bootstrap resource package(http://docs.sitefinity.com/feather-frontend-packages).
+
+### Troubleshooting
+Due to a known issue in UCommerce, the store filtering of products is not functioning out of the box. You have to reindex all products
+for the filtering to work correctly. To do that go to the backend of Sitefinity and navigate to Ucommerce -> Settings.
+Expand the 'Settings' tree on the left and select 'Search'. Select 'Index everything from scratch' and wait.
