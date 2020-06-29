@@ -1,0 +1,43 @@
+﻿@model  IList<UCommerce.Sitefinity.UI.Mvc.ViewModels.FacetViewModel>
+
+    @using Newtonsoft.Json;
+    @using Telerik.Sitefinity.Services
+    @using Telerik.Sitefinity.Frontend.Mvc.Helpers
+
+    @Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
+    @Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
+
+    @if (!SystemManager.IsDesignMode)
+    {
+        @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+        @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+    }
+
+    <div class="mb-4 mt-4 container" data-component="facet-selector" id="@Html.UniqueId("facetFilter")">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                <script type="application/json" data-facets="true">
+                    { "facets" : @Html.Raw(JsonConvert.SerializeObject(Model)) }
+                </script>
+                <h2 class="h2">
+                    @Html.Resource("FilterProducts", "UcommerceResources")
+                </h2>
+                <a class="text-info" v-on:click="clearFilters">@Html.Resource("ClearFilter", "UcommerceResources")</a>
+
+                <ul class="list-group mt-4" v-cloak>
+                    <li class="list-group-item p-0 p-2" v-for="facet in facets" v-bind:key="facet.DisplayName">
+                        <h3 class="h5">by {{ facet.DisplayName }}</h3>
+                        <ul class="list-group mt-3">
+                            <li class="list-group-item p-0 p-2" v-for="filter in facet.FacetValues" v-bind:style="filter.FacetValueHits == 0 && {'opacity' : 0.5}">
+                                <label class="form-check-label" v-bind:class="filter.Checked && 'active'">
+                                    <input type="checkbox" class="form-check-input ml-1 mt-2" v-model="filter.Checked" v-on:change="filterProducts(filter)" v-bind:key="filter.FacetValueName" />
+                                    <span class="pl-4 small">{{ filter.FacetValueName }}</span>
+                                </label>
+                                <span class="pl-1 text-info small"> ({{ filter.FacetValueHits }})</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>

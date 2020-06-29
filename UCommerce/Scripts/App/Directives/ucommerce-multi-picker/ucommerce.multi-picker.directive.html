@@ -1,0 +1,18 @@
+﻿<div class="contentTree multiPicker">
+    <div class="multipicker__header">
+        <div class="multiPickerHeaderText treeHeaderText">{{treeHeaderText}}</div>
+        <div class="multiPickerHeaderText selectedItemsHeaderText" ng-show="showSelectedNodes">{{selectedItemsHeaderText}}</div>
+    </div>
+    <div class="multiPickerAction">
+        <div class="multiPickerTree {{multiSelect}}">
+            <ucommerce-catalog-search has-right-click-menu="false" pickertype="pickertype" multi-select="multiSelect" has-checkbox-for="hasCheckboxFor" pre-selected-values="preSelectedValues" selected-node-style="selectedNodeStyle" content-picker-type="contentPickerType" icon-folder="iconFolder"></ucommerce-catalog-search>
+            <div ng-show="treeDisplayed">
+                <ucommerce-tree tree="tree" has-right-click-menu="false" pickertype="pickertype" multi-select="multiSelect" has-checkbox-for="hasCheckboxFor" pre-selected-values="preSelectedValues" selected-node-style="selectedNodeStyle" content-picker-type="contentPickerType" icon-folder="iconFolder"></ucommerce-tree>
+            </div>
+        </div>
+        <div class="selectedNodes" ng-show="showSelectedNodes">
+            <ucommerce-preselected-values-list content-picker-type="hasCheckboxFor" icon-folder="iconFolder" pre-selected-values="preSelectedValues"></ucommerce-preselected-values-list>
+        </div>
+    </div>
+    <input type="hidden" name="{{formName}}" value="{{getPreSelectedValues()}}" />
+</div>

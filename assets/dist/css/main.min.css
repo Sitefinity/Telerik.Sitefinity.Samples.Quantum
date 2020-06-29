@@ -1,0 +1,7 @@
+﻿body {
+}
+#navbarNavDropdown ul .nav-item{
+	float: left;
+    list-style: none;
+    padding: 15px 25px 0 0;
+}

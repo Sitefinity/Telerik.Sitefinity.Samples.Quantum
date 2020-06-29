@@ -187,3 +187,7 @@ FakesAssemblies/
 SitefinityWebApp/packages/*
 SitefinityWebApp/.nuget/NuGet.exe
 /.vs
+
+/App_Data/RavenDatabases
+/Raven/CompiledIndexCache
+/App_Data/TEMP/uCommerceAppsAssemblyShadowCopy

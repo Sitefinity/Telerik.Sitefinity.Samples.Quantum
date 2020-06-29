@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CustomerIDParameter" xml:space="preserve">
+    <value>Kundnummer</value>
+  </data>
+  <data name="menu_orders_root" xml:space="preserve">
+    <value>Ordrar</value>
+  </data>
+  <data name="menu_productcatalog_root" xml:space="preserve">
+    <value>Butikker</value>
+  </data>
+  <data name="menu_settings_root" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="menu_settings_shippingmethods_root" xml:space="preserve">
+    <value>Fraktmetoder</value>
+  </data>
+  <data name="OrderIDParameter" xml:space="preserve">
+    <value>Ordernummer</value>
+  </data>
+  <data name="menu_settings_definition_datatypes" xml:space="preserve">
+    <value>Datatyper</value>
+  </data>
+  <data name="menu_settings_catalog_pricegroups" xml:space="preserve">
+    <value>Prisgrupper</value>
+  </data>
+  <data name="menu_settings_definition_definitions_products" xml:space="preserve">
+    <value>Produktdefinitioner</value>
+  </data>
+  <data name="menu_settings_catalog_root" xml:space="preserve">
+    <value>Katalog</value>
+  </data>
+  <data name="menu_settings_email_profiles" xml:space="preserve">
+    <value>Profiler</value>
+  </data>
+  <data name="menu_settings_email_root" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="menu_settings_email_types" xml:space="preserve">
+    <value>Typer</value>
+  </data>
+  <data name="menu_settings_orders_paymentmethods" xml:space="preserve">
+    <value>Betalningsmetoder</value>
+  </data>
+  <data name="menu_settings_orders_root" xml:space="preserve">
+    <value>Ordrar</value>
+  </data>
+  <data name="menu_settings_orders_shippingmethods" xml:space="preserve">
+    <value>Fraktmetoder</value>
+  </data>
+  <data name="menu_settings_orders_countries" xml:space="preserve">
+    <value>Länder</value>
+  </data>
+  <data name="menu_settings_orders_currencies" xml:space="preserve">
+    <value>Valutor</value>
+  </data>
+  <data name="menu_settings_orders_ordernumbers" xml:space="preserve">
+    <value>Ordernummer</value>
+  </data>
+  <data name="menu_order_search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="menu_analytics_orders_root" xml:space="preserve">
+    <value>Ordrar</value>
+  </data>
+  <data name="menu_analytics_orders_totalsales" xml:space="preserve">
+    <value>Total försäljning</value>
+  </data>
+  <data name="menu_analytics_products_root" xml:space="preserve">
+    <value>Produkter</value>
+  </data>
+  <data name="menu_analytics_root" xml:space="preserve">
+    <value>Rapporter</value>
+  </data>
+  <data name="menu_settings_catalog_productrelationtypes" xml:space="preserve">
+    <value>Produktrelationer</value>
+  </data>
+  <data name="menu_settings_definition_definitions" xml:space="preserve">
+    <value>Definitioner</value>
+  </data>
+  <data name="menu_settings_definition_definitions_categories" xml:space="preserve">
+    <value>Kategoridefinitioner</value>
+  </data>
+  <data name="menu_marketing_root" xml:space="preserve">
+    <value>Marknadsföring</value>
+  </data>
+  <data name="menu_settings_definition_root" xml:space="preserve">
+    <value>Definitioner</value>
+  </data>
+  <data name="Definitions" xml:space="preserve">
+    <value>definitioner</value>
+  </data>
+  <data name="menu_settings_catalog_productdefinitions" xml:space="preserve">
+    <value>Produkter</value>
+  </data>
+  <data name="LicenseMessage" xml:space="preserve">
+    <value>Din licens understödder inte flera.</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Är du säker på att du vill radera detta föremål?</value>
+  </data>
+  <data name="menu_settings_create" xml:space="preserve">
+    <value>Skapa</value>
+  </data>
+  <data name="menu_settings_delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="menu_settings_refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="menu_settings_sort" xml:space="preserve">
+    <value>Sortera</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>Skapa</value>
+  </data>
+  <data name="create_campaign" xml:space="preserve">
+    <value>Skapa kampanj</value>
+  </data>
+  <data name="create_campaign_item" xml:space="preserve">
+    <value>Skapa kampanj Produktfamilj</value>
+  </data>
+  <data name="create_campaign_item1" xml:space="preserve">
+    <value>Skapa kampanj Produktfamilj</value>
+  </data>
+  <data name="create_category" xml:space="preserve">
+    <value>Skapa kategori</value>
+  </data>
+  <data name="create_country" xml:space="preserve">
+    <value>Skapa Country</value>
+  </data>
+  <data name="create_currency" xml:space="preserve">
+    <value>Skapa Valuta</value>
+  </data>
+  <data name="create_datatype" xml:space="preserve">
+    <value>Skapa Datatyp</value>
+  </data>
+  <data name="create_datatypeenum" xml:space="preserve">
+    <value>Skapa Datatyp Enum</value>
+  </data>
+  <data name="create_definition" xml:space="preserve">
+    <value>Skapa Definition</value>
+  </data>
+  <data name="create_definitionfield" xml:space="preserve">
+    <value>Skapa Definition Field</value>
+  </data>
+  <data name="create_emailprofile" xml:space="preserve">
+    <value>Skapa Email Profile</value>
+  </data>
+  <data name="create_emailtype" xml:space="preserve">
+    <value>Skapa E Type</value>
+  </data>
+  <data name="create_ordernumber" xml:space="preserve">
+    <value>Skapa Beställ Numbers</value>
+  </data>
+  <data name="create_paymentmethod" xml:space="preserve">
+    <value>Skapa Betalningsmetod</value>
+  </data>
+  <data name="create_pricegroup" xml:space="preserve">
+    <value>Skapa prisgrupp</value>
+  </data>
+  <data name="create_productcataloggroup" xml:space="preserve">
+    <value>Skapa Group Product Catalog</value>
+  </data>
+  <data name="create_productdefinition" xml:space="preserve">
+    <value>Skapa Product Definition</value>
+  </data>
+  <data name="create_productdefinitionfield" xml:space="preserve">
+    <value>Skapa Field Product Definition</value>
+  </data>
+  <data name="create_productRelationType" xml:space="preserve">
+    <value>Skapa Typ Produkt Relation</value>
+  </data>
+  <data name="create_shippingmethod" xml:space="preserve">
+    <value>Skapa Fraktmetod</value>
+  </data>
+  <data name="delete_campaign" xml:space="preserve">
+    <value>radera kampanj</value>
+  </data>
+  <data name="delete_campaign_item" xml:space="preserve">
+    <value>Radera Kampanj Produktfamilj</value>
+  </data>
+  <data name="delete_category" xml:space="preserve">
+    <value>radera kategori</value>
+  </data>
+  <data name="delete_country" xml:space="preserve">
+    <value>Radera Land</value>
+  </data>
+  <data name="delete_currency" xml:space="preserve">
+    <value>Radera Currency</value>
+  </data>
+  <data name="delete_datatype" xml:space="preserve">
+    <value>Delete Data Type</value>
+  </data>
+  <data name="delete_datatypeenum" xml:space="preserve">
+    <value>Delete Data Typ Enum</value>
+  </data>
+  <data name="delete_definition" xml:space="preserve">
+    <value>Radera Definition</value>
+  </data>
+  <data name="delete_definitionfield" xml:space="preserve">
+    <value>Radera Defintion Field</value>
+  </data>
+  <data name="delete_emailprofile" xml:space="preserve">
+    <value>Radera e Profile</value>
+  </data>
+  <data name="delete_emailtype" xml:space="preserve">
+    <value>Radera E Type</value>
+  </data>
+  <data name="delete_ordernumber" xml:space="preserve">
+    <value>Radera serie Beställningsnummer</value>
+  </data>
+  <data name="delete_paymentmethod" xml:space="preserve">
+    <value>Radera Betalningsmetod</value>
+  </data>
+  <data name="delete_pricegroup" xml:space="preserve">
+    <value>Radera prisgrupp</value>
+  </data>
+  <data name="delete_productcatalog" xml:space="preserve">
+    <value>Radera Produktkatalog</value>
+  </data>
+  <data name="delete_productcataloggroup" xml:space="preserve">
+    <value>Delete Group Product Catalog</value>
+  </data>
+  <data name="delete_productdefinition" xml:space="preserve">
+    <value>Radera Produkt Definition</value>
+  </data>
+  <data name="delete_productdefinitionField" xml:space="preserve">
+    <value>Radera Field Product Definition</value>
+  </data>
+  <data name="delete_productrelationtype" xml:space="preserve">
+    <value>Radera Typ Produkt Relation</value>
+  </data>
+  <data name="delete_shippingmethod" xml:space="preserve">
+    <value>Radera Fraktmetod</value>
+  </data>
+  <data name="prioritize_campaigns" xml:space="preserve">
+    <value>prioritera kampanjer</value>
+  </data>
+  <data name="prioritize_campaign_items" xml:space="preserve">
+    <value>Prioritera kampanjvaror</value>
+  </data>
+  <data name="refresh_campaigns" xml:space="preserve">
+    <value>Uppdatera kampanjer</value>
+  </data>
+  <data name="refresh_campaign_items" xml:space="preserve">
+    <value>Uppdatera kampanjvaror</value>
+  </data>
+  <data name="refresh_catalog" xml:space="preserve">
+    <value>Refresh Catalog</value>
+  </data>
+  <data name="refresh_category" xml:space="preserve">
+    <value>Refresh Kategori</value>
+  </data>
+  <data name="refresh_countries" xml:space="preserve">
+    <value>Uppdatera Länder</value>
+  </data>
+  <data name="refresh_currencies" xml:space="preserve">
+    <value>Uppdatera Valutor</value>
+  </data>
+  <data name="refresh_datatypeenums" xml:space="preserve">
+    <value>Refresh Data Type Enums</value>
+  </data>
+  <data name="refresh_datatypes" xml:space="preserve">
+    <value>Uppdatera datatyper</value>
+  </data>
+  <data name="refresh_definitions" xml:space="preserve">
+    <value>Refresh Definitioner</value>
+  </data>
+  <data name="refresh_emailprofile" xml:space="preserve">
+    <value>Refresh Email Profile</value>
+  </data>
+  <data name="refresh_emailprofiles" xml:space="preserve">
+    <value>Uppdatera E Profiler</value>
+  </data>
+  <data name="refresh_emailtype" xml:space="preserve">
+    <value>Uppdatera E Typer</value>
+  </data>
+  <data name="refresh_menu_settings_catalog_root" xml:space="preserve">
+    <value>Uppdatera Kataloginställningar</value>
+  </data>
+  <data name="refresh_menu_settings_definition_root" xml:space="preserve">
+    <value>Refresh Definitioner</value>
+  </data>
+  <data name="refresh_menu_settings_email_root" xml:space="preserve">
+    <value>Refresh E-postinställningar</value>
+  </data>
+  <data name="refresh_menu_settings_orders_root" xml:space="preserve">
+    <value>Refresh Orders Inställningar</value>
+  </data>
+  <data name="refresh_menu_settings_root" xml:space="preserve">
+    <value>Refresh Inställningar</value>
+  </data>
+  <data name="refresh_menu_settings_security_root" xml:space="preserve">
+    <value>Refresh Säkerhet</value>
+  </data>
+  <data name="refresh_ordernumber" xml:space="preserve">
+    <value>Uppdatera Order Numbers</value>
+  </data>
+  <data name="refresh_orders" xml:space="preserve">
+    <value>Uppdatera Orders</value>
+  </data>
+  <data name="refresh_paymentmethods" xml:space="preserve">
+    <value>Uppdatera Betalning</value>
+  </data>
+  <data name="refresh_pricegroups" xml:space="preserve">
+    <value>Refresh Pricegroups</value>
+  </data>
+  <data name="refresh_productcataloggroup" xml:space="preserve">
+    <value>Refresh Produktkatalog Group</value>
+  </data>
+  <data name="refresh_productdefinitionfields" xml:space="preserve">
+    <value>Uppdatera Product Definition Fields</value>
+  </data>
+  <data name="refresh_productdefinitions" xml:space="preserve">
+    <value>Uppdatera Produkt Definitioner</value>
+  </data>
+  <data name="refresh_productRelationTypes" xml:space="preserve">
+    <value>Refresh Produkt samband Typer</value>
+  </data>
+  <data name="refresh_shippingmethods" xml:space="preserve">
+    <value>Refresh Leveransmetoder</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="search_orders" xml:space="preserve">
+    <value>Sök beställningar</value>
+  </data>
+  <data name="sort_categories" xml:space="preserve">
+    <value>Sortera Kategorier</value>
+  </data>
+  <data name="sort_definitions" xml:space="preserve">
+    <value>Sortera Definitioner</value>
+  </data>
+  <data name="sort_productdefinitionfields" xml:space="preserve">
+    <value>Sortera Product Definition Fields</value>
+  </data>
+  <data name="delete_product" xml:space="preserve">
+    <value>Radera Produkt</value>
+  </data>
+  <data name="refresh_product" xml:space="preserve">
+    <value>Refresh Produkt</value>
+  </data>
+  <data name="create_productcatalog" xml:space="preserve">
+    <value>Skapa Produktkatalog</value>
+  </data>
+  <data name="refresh_productcatalogs" xml:space="preserve">
+    <value>Uppdatera Produktkatalog</value>
+  </data>
+  <data name="create_product" xml:space="preserve">
+    <value>Skapa Produkt</value>
+  </data>
+  <data name="remove_content" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="select_content" xml:space="preserve">
+    <value>Välja...</value>
+  </data>
+  <data name="select_image_header" xml:space="preserve">
+    <value>Välj bild</value>
+  </data>
+  <data name="select_image_tiny_header" xml:space="preserve">
+    <value>Välj bild från trädet nedan</value>
+  </data>
+  <data name="select_content_header" xml:space="preserve">
+    <value>Välja innehåll</value>
+  </data>
+  <data name="select_content_tiny_header" xml:space="preserve">
+    <value>Välja innehåll från trädet nedan</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Avbryta</value>
+  </data>
+  <data name="select_item" xml:space="preserve">
+    <value>Välj</value>
+  </data>
+  <data name="select_or" xml:space="preserve">
+    <value>Eller</value>
+  </data>
+  <data name="sort_catalogs" xml:space="preserve">
+    <value>Sortera Produktkatalog</value>
+  </data>
+  <data name="nameValidator_error" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="isoCodeValidator_error" xml:space="preserve">
+    <value>ISO-kod</value>
+  </data>
+  <data name="EnterValue" xml:space="preserve">
+    <value>Ange värde ...</value>
+  </data>
+  <data name="cyclic_inheritance_error_message" xml:space="preserve">
+    <value>Den valda arv skulle orsaka en cyklisk definition: "{0}"</value>
+  </data>
+  <data name="duplicate_name_inheritance_error_message" xml:space="preserve">
+    <value>Den valda arv skulle orsaka en dubblett fält: "{0}".</value>
+  </data>
+  <data name="duplicate_name_on_child_error_message" xml:space="preserve">
+    <value>Namnet "{0}" existerar på denna definition, eller ett barn.</value>
+  </data>
+  <data name="duplicate_name_on_parent_error_message" xml:space="preserve">
+    <value>Namnet "{0}" existerar på denna definition, eller en förälder.</value>
+  </data>
+  <data name="sort_definition_relations" xml:space="preserve">
+    <value>Sortera Mutter definitionen</value>
+  </data>
+  <data name="numbersAndLettersOnlyInName" xml:space="preserve">
+    <value>Namn kan endast innehålla bokstäver och siffror.</value>
+  </data>
+  <data name="has_fields_from" xml:space="preserve">
+    <value>Har fält från</value>
+  </data>
+  <data name="and" xml:space="preserve">
+    <value>og</value>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>mere</value>
+  </data>
+  <data name="menu_settings_security_root" xml:space="preserve">
+    <value>Säkerhet</value>
+  </data>
+  <data name="menu_settings_usersecurity_root" xml:space="preserve">
+    <value>Användare</value>
+  </data>
+  <data name="refresh_menu_settings_usersecurity_root" xml:space="preserve">
+    <value>Refresh Användare</value>
+  </data>
+  <data name="menu_settings_groupsecurity_root" xml:space="preserve">
+    <value>Grupper</value>
+  </data>
+  <data name="refresh_menu_settings_groupsecurity_root" xml:space="preserve">
+    <value>Refresh Grupper</value>
+  </data>
+  <data name="install_app" xml:space="preserve">
+    <value>Installera app</value>
+  </data>
+  <data name="installed_apps" xml:space="preserve">
+    <value>Installerade Apps</value>
+  </data>
+  <data name="settings_apps" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="ChangeLog" xml:space="preserve">
+    <value>Ändra logg</value>
+  </data>
+  <data name="ChooseAFile" xml:space="preserve">
+    <value>Välj en fil</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="FileIsToLarge" xml:space="preserve">
+    <value>Filstorleken är begränsad till {0} KB. Justera gräns i web.config/maxRequestLength att undvika detta</value>
+  </data>
+  <data name="InstallAppButton" xml:space="preserve">
+    <value>Installera</value>
+  </data>
+  <data name="InstallAppHeader" xml:space="preserve">
+    <value>Installera appen</value>
+  </data>
+  <data name="InstallApp_tab" xml:space="preserve">
+    <value>Installera</value>
+  </data>
+  <data name="InstalledApps_tab" xml:space="preserve">
+    <value>Installerade Apps</value>
+  </data>
+  <data name="LoadingText" xml:space="preserve">
+    <value>Ladda sida</value>
+  </data>
+  <data name="LoadingText1" xml:space="preserve">
+    <value>Ladda sida</value>
+  </data>
+  <data name="NoInstalledApps" xml:space="preserve">
+    <value>Inga installerade appar</value>
+  </data>
+  <data name="NotSupportedFileType" xml:space="preserve">
+    <value>Filtypen måste vara</value>
+  </data>
+  <data name="RedirectToAppsStore" xml:space="preserve">
+    <value>Kolla in vår App Store på apps.ucommerce.net.</value>
+  </data>
+  <data name="UninstallButton" xml:space="preserve">
+    <value>Avinstallera</value>
+  </data>
+  <data name="UploadAppButton" xml:space="preserve">
+    <value>Ladda upp</value>
+  </data>
+  <data name="Apps" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="documentationText" xml:space="preserve">
+    <value>Stöd</value>
+  </data>
+  <data name="supportText" xml:space="preserve">
+    <value>Unterstützen</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tillbaka</value>
+  </data>
+  <data name="definition_type_product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="export_products_tooltip" xml:space="preserve">
+    <value>Exportera produkter</value>
+  </data>
+  <data name="export" xml:space="preserve">
+    <value>Exportera</value>
+  </data>
+  <data name="menu_productcatalog_dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="menu_dashboard_root" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="feed_campaignTriggered" xml:space="preserve">
+    <value>Den {0} kampanjen användes bara på order {1}.</value>
+  </data>
+  <data name="feed_customerIsCheckingOut" xml:space="preserve">
+    <value>Ring {0} på {1} för att få hjälp med att slutföra kassen.</value>
+  </data>
+  <data name="feed_newCustomer" xml:space="preserve">
+    <value>{0} har just lagt sin första order.</value>
+  </data>
+  <data name="feed_orderPlaced" xml:space="preserve">
+    <value>Order {0} placerades för {1}.</value>
+  </data>
+  <data name="feed_returningCustomer" xml:space="preserve">
+    <value>{0} har nu placerat {1} order.</value>
+  </data>
+  <data name="menu_catalogs_root" xml:space="preserve">
+    <value>Kataloger</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="menu_products_root" xml:space="preserve">
+    <value>Produkter</value>
+  </data>
+</root>

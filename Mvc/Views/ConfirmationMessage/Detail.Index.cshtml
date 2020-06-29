@@ -1,0 +1,23 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@model UCommerce.Sitefinity.UI.Mvc.ViewModels.ConfirmationMessageViewModel
+@{
+    Layout = null;
+}
+
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
+
+<div class="alert alert-success my-4 success-alert" role="alert">
+    @if (string.IsNullOrEmpty(Model.Headline))
+    {
+        Model.Headline = Html.Resource("ThankYou", "UcommerceResources");
+    }
+    <h1 class="alert-heading">@Model.Headline</h1>
+    <hr />
+    @if (string.IsNullOrEmpty(Model.Message))
+    {
+        Model.Message = Html.Resource("OrderConfirmation", "UcommerceResources");
+    }
+    <p>@Model.Message</p>
+</div>

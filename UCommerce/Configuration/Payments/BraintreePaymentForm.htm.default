@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Braintree</title>
+	</head>
+	<body>
+		<form id="paymentForm" method="post" action="##ACTIONURL##" autocomplete="off">
+			<input type="hidden" name="tr_data" value="##TRDATA##"/>
+            ##ERRORMESSAGES##
+			<table>
+				<tr>
+					<td>
+						<label id="cardNumberLabel" for="transaction[credit_card][number]">Card number:</label>
+					</td>
+					<td>
+						<input type="text" id="paymentFormCardNumberInput" name="transaction[credit_card][number]"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label id="expirationMonthLabel" for="transaction[credit_card][expiration_month]">Expiration month:</label>
+					</td>
+					<td>
+						<select id="paymentFormExpirationMonthSelect" name="transaction[credit_card][expiration_month]">##EXPMONTH##</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label id="expirationYearLabel" for="transaction[credit_card][expiration_year]">Expiration year:</label>
+					</td>
+					<td>
+						<select id="paymentFormExpirationYearSelect" name="transaction[credit_card][expiration_year]">##EXPYEAR##</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label id="cvvLabel" for="transaction[credit_card][cvv]">CVV:</label>
+					</td>
+					<td>
+						<input type="text" id="paymentFormCvvInput" name="transaction[credit_card][cvv]"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label id="cardholderNameLabel" for="transaction[credit_card][cardholder_name]">Cardholder name:</label>
+					</td>
+					<td>
+						<input type="text" id="paymentFormCardholderNameInput" name="transaction[credit_card][cardholder_name]"/>
+					</td>
+				</tr>
+			</table>
+			<input type="submit" name="submitForm" value="Post it"/>
+		</form>
+	</body>
+</html>

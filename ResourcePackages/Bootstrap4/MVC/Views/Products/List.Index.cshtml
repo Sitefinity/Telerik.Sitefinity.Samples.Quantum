@@ -1,0 +1,127 @@
+﻿@model UCommerce.Sitefinity.UI.Mvc.ViewModels.ProductListViewModel
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using Telerik.Sitefinity.Services
+@using UCommerce.Sitefinity.UI.Mvc.ViewModels
+
+@{
+    ViewBag.Title = "Products";
+}
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
+<div class="container my-5" data-component="products" id="@Html.UniqueId("product-list")" v-cloak>
+<input type="hidden" ref="addToBasket" value="@Html.Resource("AddToBasket", "UcommerceResources")"/>
+<input type="hidden" ref="notAddToBasket" value="@Html.Resource("NotAddToBasket", "UcommerceResources")"/>
+    <div class="row">
+        <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+            <em class="p-1">@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="p-1">
+                @if (Model.ShowPager)
+                {
+                    @Html.Action("Index", "ContentPager", new
+                    {
+                       currentPage = Model.CurrentPage,
+                       totalPagesCount = Model.TotalPagesCount.Value,
+                       redirectUrlTemplate = Model.PagingUrlTemplate
+                    })
+                }
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        @foreach (var route in Model.Routes)
+        {
+            <input type="hidden" class="@route.Key" value="@route.Value" />
+        }
+        <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="card-deck">
+                <div class="container">
+                    <div class="row">
+                        @foreach (var product in Model.Products)
+                        {
+                            <div class="col-sx-12 col-sm-6 col-md-4 col-lg-4 p-3">
+                                <div class="card h-100 w-100">
+                                    <div class="card-body p-0 p-2">
+
+                                        <a title="@product.DisplayName" href="@product.ProductUrl">
+                                            <img title="Top 100 Digital Agencies" class="card-img-top img-thumbnail" src="@product.ThumbnailImageMediaUrl" alt="@product.DisplayName">
+                                        </a>
+
+                                        <h5 class="card-title mt-2">
+                                            <a class="card-link text-info h5" href="@product.ProductUrl">@product.DisplayName</a>
+                                        </h5>
+                                    </div>
+                                    <div class="card-footer text-muted">
+                                        <div>
+                                            <div class="card-text"></div>
+                                            <div>
+                                                <span>@product.Price</span>
+                                            </div>
+
+                                            <add-to-basket :product-sku="'@product.Sku'" :root-id="$el.id">
+                                            </add-to-basket>
+                                            <div>
+                                                <a class="text-info" href="@product.ProductUrl">@Html.Resource("WriteReview", "UcommerceResources")</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+            <em class="p-1">@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="m-1">
+                @if (Model.ShowPager)
+                {
+                    @Html.Action("Index", "ContentPager", new
+                    {
+                        currentPage = Model.CurrentPage,
+                        totalPagesCount = Model.TotalPagesCount.Value,
+                        redirectUrlTemplate = Model.PagingUrlTemplate
+                    })
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/x-template" id="add-to-basket-template">
+    <div class="mt-2">
+        <span class="font-weight-bold">@Html.Resource("Quantity", "UcommerceResources"):</span>
+        <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityRequiredFieldValidator" style="display:none;">
+            <span class="text-danger">
+                @Html.Resource("SpecifyQuantity", "UcommerceResources")
+            </span>
+        </span>
+        <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityValidator" style="display:none;">
+            <span class="text-danger">
+                @Html.Resource("QuantityValidation", "UcommerceResources")
+            </span>
+        </span>
+        <input title="Product Quantity" id="productQuantityInput" v-model="quantity" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$quantity" type="text" class="form-control" />
+
+        <input type="button" title="Add to cart button" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$addToCartButton" value="@Html.Resource("AddToCart", "UcommerceResources")" v-on:click="addToBasket()" id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_addToCartButton" class="btn btn-info mt-2" />
+        <span class="text-success pl-2 pt-1 position-absolute" v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
+    </div>
+</script>

@@ -1,0 +1,55 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.UI.MVC;
+@using Telerik.Sitefinity.Services;
+@using Telerik.Sitefinity.Web;
+@using Newtonsoft.Json;
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
+@{
+    Layout = null;
+    string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
+    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
+}
+
+  @Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
+  
+<div data-component="shipping-widget" id="shipping-method" v-cloak>
+    <script type="application/json" purl="true">
+        { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
+    </script>
+    <template v-if="model">
+        <h3 class="heading-underline">@Html.Resource("ShippingMethod", "UcommerceResources")</h3>
+
+        <template v-if="model.AvailableShippingMethods.length">
+            <template v-for="method in model.AvailableShippingMethods" :model="model">
+                <div class="radio-btn-ml section-margin">
+                    <label class="radio">
+                        <input class="js-shipping-picker" id="SelectedShippingMethodId" name="SelectedShippingMethodId" type="radio" :value="method.Value" :checked="method.Value == model.SelectedShippingMethodId"> {{ method.Text }}
+                    </label>
+                </div>
+            </template>
+            <checkout-navigation v-bind:model="model"
+                                 continue-label="@Html.Resource("ContinueToNextStep", "UcommerceResources")"
+                                 back-label="@Html.Resource("BackButton", "UcommerceResources")"
+                                 mode="Bootstrap"
+                                 :continue-fn="submit"
+                                 back-link-classes="btn btn-back btn-transparent pull-left"
+                                 continue-btn-classes="btn btn-success btn-next btn-complete pull-right"
+                                 classes="row control-group multistep-btn-a section-margin">
+            </checkout-navigation>
+        </template>
+        <template v-else>
+            <p class="alert">
+                WARNING: No shipping methods have been configured for {{ model.ShippingCountry }} within <a href="http://ucommerce.dk">UCommerce</a> administration area.
+            </p>
+        </template>
+    </template>
+</div>

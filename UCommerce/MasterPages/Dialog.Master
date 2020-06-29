@@ -1,0 +1,48 @@
+﻿<%@ master language="C#" autoeventwireup="true" codebehind="Dialog.master.cs" inherits="UCommerce.Web.UI.UCommerce.MasterPages.Dialog" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>uCommerce</title>
+    <commerce:ClientDependency runat="server"/>
+    <asp:PlaceHolder runat="server" ID="JavaScriptPlaceHolder"></asp:PlaceHolder>
+    <asp:PlaceHolder runat="server" ID="CssPlaceHolder"></asp:PlaceHolder>
+	<asp:contentplaceholder id="head" runat="server">
+	</asp:contentplaceholder>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body style="height: auto;">
+	<script type="text/javascript">
+	    <%-- 
+            Allow the client to inject a stylesheet in to the header - the stylesheet can be defined in the iframe containing this page.
+            Needed to support Sitecore's SPEAK layout.
+         --%>
+	    var customStylesheet = $(window.frameElement).attr("ucommerce-stylesheet");
+	    if (customStylesheet)
+	        $("head").append('<link href="' +  customStylesheet + '" rel="stylesheet" type="text/css" />');
+	</script>
+	<form id="form1" runat="server">
+        <%-- -<a class="modal-close" onclick="UCommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>--%>
+        <div id="editor" class="panel product-relations">
+			<div class="boxhead" style="display:none;">
+				<h2>
+					<asp:contentplaceholder runat="server" id="HeaderLabel"/>
+				</h2>
+			</div>
+			<div class="boxbody">
+				<asp:contentplaceholder id="ContentArea" runat="server"/>
+			</div>
+			<div class="boxfooter">
+				<div class="statusBar">
+					<h5></h5>
+				</div>
+			</div>
+		</div>
+	</form>
+	<script type="text/javascript">
+		$(function () {
+			// window.setTimeout is required for Firefox to fire focus event properly
+			window.setTimeout(function () { $("input:text:visible:first[value='']").focus(); }, 0);
+		});	
+	</script>
+</body>
+</html>

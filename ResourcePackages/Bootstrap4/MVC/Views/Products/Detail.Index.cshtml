@@ -1,0 +1,153 @@
+﻿@model UCommerce.Sitefinity.UI.Mvc.ViewModels.ProductDetailViewModel
+
+@using Newtonsoft.Json;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using Telerik.Sitefinity.Services;
+
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
+
+@if (Model != null)
+{
+    if (!SystemManager.IsDesignMode)
+    {
+        @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+        @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+    }
+
+    <div class="container-fluid my-5" data-component="products" id="@Html.UniqueId("product-details")" v-cloak>
+    <input type="hidden" ref="addToBasket" value="@Html.Resource("AddToBasket", "UcommerceResources")"/>
+    <input type="hidden" ref="notAddToBasket" value="@Html.Resource("NotAddToBasket", "UcommerceResources")"/>
+        <div class="row">
+            <div class="col-sx-12 col-sm-5 col-md-5 col-lg-5 border-right">
+                <div class="img">
+                    <a href="@Model.PrimaryImageMediaUrl" rel="fancybox">
+                        <img class="mx-auto d-block" src="@Model.PrimaryImageMediaUrl" />
+                    </a>
+                </div>
+                <div>
+					@if (Model.VariantTypes.Any())
+					{
+						foreach (var variantType in Model.VariantTypes)
+						{
+							if (variantType.Values.Any())
+							{
+								<ul class="list-group">
+									@foreach (var variant in variantType.Values)
+									{
+										if (!string.IsNullOrEmpty(variant.PrimaryImageMediaUrl))
+										{
+											<li class="list-group-item">
+												<a href="@variant.PrimaryImageMediaUrl" rel="fancybox">
+													<img class="mx-auto d-block" src="@variant.PrimaryImageMediaUrl" />
+												</a>
+											</li>
+										}
+									}
+								</ul>
+							}
+						}
+					}
+                </div>
+            </div>
+            <div class="col-sx-12 offset-1 col-sm-6 col-md-6 col-lg-6">
+                <div class="row">
+                    <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1 class="h2">
+                            @Model.DisplayName
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12 mt-3">
+                        <span class="p-1">@Model.Price</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="mt-2">
+                            @Html.HtmlSanitize(Model.LongDescription)
+                       </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="mt-3">
+                            <strong>@Html.Resource("Availability", "UcommerceResources"):</strong>
+                            @if (Model.AllowOrdering)
+                            {
+                        <span class="pl-2 text-info">@Html.Resource("InStock", "UcommerceResources")</span>
+                            }
+                            else
+                            {
+                        <span class="pl-2 text-danger">@Html.Resource("OutOfStock", "UcommerceResources")</span>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="mt-3 w-75">
+							@{
+								if (Model.VariantTypes.Any())
+								{
+									<script type="application/json" data-variants="true">
+										{
+										"variants": @Html.Raw(JsonConvert.SerializeObject(Model.VariantTypes.ToList()))
+										}
+									</script>
+
+									<fieldset v-for="v in variants" class="options">
+										<div class="general">
+											<label>{{v.Item.DisplayName}}</label>
+											<span class="wrap">
+												<select v-model="v" v-on:change="onChange($event, v)" class="variant float-right">
+													<option>@Html.Resource("PleaseSelect", "UcommerceResources")</option>
+													<option v-for="val in v.Item.Values" v-bind:value="val">
+														{{val.Value}}
+													</option>
+												</select>
+											</span>
+										</div>
+									</fieldset>
+								}
+							}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sx-12 col-sm-6 col-md-6 col-lg-6">
+
+                        @foreach (var route in Model.Routes)
+                        {
+                            <input type="hidden" class="@route.Key" value="@route.Value" />
+                        }
+
+                        <add-to-basket :product-sku="'@Model.Sku'" :root-id="$el.id" :selected-variants="selectedVariants">
+                        </add-to-basket>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/x-template" id="add-to-basket-template">
+        <div class="mt-2">
+            <span class="font-weight-bold">@Html.Resource("Quantity", "UcommerceResources"):</span>
+            <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityRequiredFieldValidator" style="display:none;">
+                <span class="text-danger">
+                    @Html.Resource("SpecifyQuantity", "UcommerceResources")
+                </span>
+            </span>
+            <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityValidator" style="display:none;">
+                <span class="text-danger">
+                    @Html.Resource("QuantityValidation", "UcommerceResources")
+                </span>
+            </span>
+            <input title="@Html.Resource("ProductQuantity", "UcommerceResources")" id="productQuantityInput" v-model="quantity" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$quantity" type="text" class="form-control" />
+
+            <input type="button" title="@Html.Resource("AddToCart", "UcommerceResources")" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$addToCartButton" value="Add to cart" v-on:click="addToBasket" id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_addToCartButton" class="btn btn-info mt-2" />
+            <span class="text-success pl-2 pt-1 position-absolute" v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
+        </div>
+    </script>
+}

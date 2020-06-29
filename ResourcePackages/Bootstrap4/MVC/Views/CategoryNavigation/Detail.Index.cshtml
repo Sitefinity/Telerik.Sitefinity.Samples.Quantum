@@ -1,0 +1,205 @@
+﻿@model CategoryNavigationViewModel
+
+@using Newtonsoft.Json;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using Telerik.Sitefinity.Services;
+@using Telerik.Sitefinity.Web;
+@using UCommerce.Sitefinity.UI.Mvc.Model;
+@using UCommerce.Sitefinity.UI.Mvc.ViewModels;
+
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/b4-category-navigation.css"), "head")
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
+<div data-component="category-navigation" id="@Html.UniqueId("categories")" v-cloak>
+    <input type="hidden" value="@Model.Localizations"/>
+    <script type="application/json" data-items="true">
+        { "items" : @Html.Raw(JsonConvert.SerializeObject(Model.Categories)) }
+    </script>
+    <header class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg mb-0">
+					@if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
+					{
+						<a href="/" class="navbar-brand" alt="">
+							<img src="@Model.ImageUrl" class="d-inline-block align-top" alt="Category Navigation Logo">
+						</a>
+					}
+                    <div class="navbar-collapse" id="navbarNavDropdown">
+                        <dropdown-menu :nodes="items"></dropdown-menu>
+                    </div>
+                </nav>
+            </div>
+            @foreach (var route in Model.Routes)
+            {
+                <input type="hidden" class="@route.Key" value="@route.Value" />
+            }
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg mb-0">
+                    <div class="navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mr-4" v-on:click="toggleSearchBar()"><a class="nav-link" href="javascript:void(0)"><span>&#128269;</span></a></li>
+                            @if (Model.AllowChangingCurrency && Model.Currencies.Count > 0)
+                            {
+                                var currencies = JsonConvert.SerializeObject(Model.Currencies);
+                                var currentCurrency = JsonConvert.SerializeObject(Model.CurrentCurrency);
+                                <currency-selector :serialized-currencies="'@currencies'" :serialized-current-currency="'@currentCurrency'" :root-id="$el.id">
+                                </currency-selector>
+                            }
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            @foreach (var route in Model.Routes)
+            {
+                <input type="hidden" class="@route.Key" value="@route.Value" />
+            }
+
+
+            <search :search-page-url="'@UrlPath.ResolveAbsoluteUrl(Model.SearchPageUrl)'" :product-details-page-id="'@Model.ProductDetailsPageId'" :root-id="$el.id" ref="search">
+            </search>
+        </div>
+    </header>
+</div>
+
+<script type="text/x-template" id="dropdown-menu-template">
+    <ul class="navbar-nav flex-column mr-auto">
+        <li v-for="node in nodes"
+            v-bind:key="node.DisplayName"
+            class="nav-item"
+            v-bind:class="{'dropdown mr-4': node.Categories.length > 0}">
+            <a v-if="node.Categories.length > 0"
+               :href="node.Url"
+               :id="node.DisplayName"
+               class="nav-link float-left">
+                {{node.DisplayName}}
+                <span class="sr-only">(current)</span>
+            </a>
+            <a v-else
+               class="nav-link dropdown-item"
+               :href="node.Url">
+                {{node.DisplayName}}
+                <span v-if="node.IsOpen" class="sr-only">(current)</span>
+            </a>
+            <button v-if="node.Categories.length > 0"
+                    class="btn btn-outline-dark shadow-none dropdown-toggle position-absolute p-0 mt-2 float-left border-0"
+                    v-on:click.stop.prevent="nodeClicked(node)"
+                    style="width: 25px; height: auto;"></button>
+            <dropdown-submenu :parent-node="node"></dropdown-submenu>
+        </li>
+    </ul>
+</script>
+
+<script type="text/x-template" id="dropdown-submenu-template">
+    <ul class="dropdown-menu"
+        v-bind:class="{'show': isParentOpen}"
+        :aria-labelledby="parentNode.DisplayName">
+        <li v-for="node in parentNode.Categories"
+            v-bind:key="node.DisplayName"
+            v-bind:class="{'dropdown dropright': node.Categories.length > 0, 'dropdown-item': node.Categories === 0 }"
+            class="nav-item">
+            <a v-if="node.Categories.length > 0"
+               class="nav-link float-left ml-5"
+               :href="node.Url"
+               :id="node.DisplayName">
+                {{node.DisplayName}}
+                <span class="sr-only">(current)</span>
+                <dropdown-submenu :parent-node="node"></dropdown-submenu>
+            </a>
+            <a v-else
+               class="dropdown-item nav-link text-center"
+               :href="node.Url"
+               v-on:click.stop>
+                {{node.DisplayName}}
+                <span class="sr-only">(current)</span>
+            </a>
+            <button v-if="node.Categories.length > 0"
+                    class="btn btn-outline-dark shadow-none dropdown-toggle position-absolute p-0 mt-2 float-left border-0"
+                    v-on:click.stop.prevent="nodeClicked(node)"
+                    style="width: 25px; height: auto;"></button>
+        </li>
+    </ul>
+</script>
+
+<script type="text/x-template" id="currency-selector-template">
+    <li class="nav-item dropdown ml-4 mr-4">
+        <a class="nav-link float-left">
+            <span style="display: inline-block;">{{currentCurrency.DisplayName}}</span>
+        </a>
+        <button class="btn btn-outline-dark shadow-none dropdown-toggle position-absolute p-0 mt-2 float-left border-0"
+                style="width: 25px; height: auto;"
+                v-on:click="toggleCurrenciesVisibility"></button>
+        <ul :class="showCurrencies ? 'dropdown-menu show' : ''" v-show="showCurrencies">
+            <li class="nav-item" v-for="currency in currencies">
+                <a href="javascript:void(0)" class="dropdown-item nav-link text-center" v-on:click="setCurrency(currency.PriceGroupId)">
+                    <span>{{currency.DisplayName}}</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+</script>
+
+<script type="text/x-template" id="search-template">
+    <div class="container mb-5" v-show="showSearchBar">
+        <div class="row">
+            <div class="col-md-12">
+                <button class="close" aria-label="Close" v-on:click="closeSearch"><span class="m-1">&#215;</span></button>
+
+                <div class="bg-white shadow-lg p-3 rounded">
+
+                    <form v-if="searchPageUrl !== ''" v-bind:action="searchPageUrl" class="input-group" _lpchecked="1">
+                        <input type="text" autocomplete="off" v-model="searchQuery" focus v-on:input="search(searchQuery)" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control form-control-lg py-2 border-right-0 border" placeholder="Search for products">
+                        <span class="input-group-append">
+                            <button class="btn btn-outline-secondary border-left-0 border" type="submit" v-on:click="search(searchQuery)">
+                                <span>&#128269;</span>
+                            </button>
+                        </span>
+                    </form>
+
+                    <form v-if="searchPageUrl === ''" v-on:submit.prevent class="input-group" _lpchecked="1">
+                        <input type="text" autocomplete="off" v-model="searchQuery" autofocus v-on:input="search(searchQuery)" v-on:keyup.escape="closeSearch" required="" name="search" class="form-control form-control-lg py-2 border-right-0 border" placeholder="Search for products">
+                        <span class="input-group-append">
+                            <button class="btn btn-outline-secondary border-left-0 border" type="submit" v-on:click="search(searchQuery)">
+                                <span>&#128269;</span>
+                            </button>
+                        </span>
+                    </form>
+                    <div>
+                        <ul class="list-group" v-show="searchResult.length !== 0 || suggestions.length !== 0">
+                            <li v-for="suggestion in suggestions" class="list-group-item" v-on:click="searchQuery = suggestion;search()">
+                                <span class="img">
+                                </span>
+                                <span class="stext-info">
+                                    <span class="p-3 ng-binding">{{suggestion}}</span>
+                                </span>
+                            </li>
+                            <li v-for="product in searchResult" class="list-group-item">
+                                <a class="nav-link" v-bind:href="product.Url">
+                                    <span class="img">
+                                        <img height="50" width="50" v-bind:src="product.ThumbnailImageUrl" alt="">
+                                    </span>
+                                    <span class="text-info">
+                                        <span class="p-3">{{product.Name}}</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <a v-show="searchPageUrl !== ''" v-bind:href="searchPageHref()" class="btn btn-block">@Html.Resource("ShowAllResults", "UcommerceResources")</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</script>

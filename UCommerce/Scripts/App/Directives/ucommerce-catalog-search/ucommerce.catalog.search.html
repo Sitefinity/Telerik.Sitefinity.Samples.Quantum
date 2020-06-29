@@ -1,0 +1,16 @@
+﻿<div class="content-picker-search-component" ng-show="showSearch()">
+    <div class="content-picker-search-placeHolder">
+        <input class="contentPickerSearchInput" type="text" ng-model="searchTerm" ng-keydown="checkIfEscapeKeyWasPressed($event)" ng-change="initiateProductSearch(searchTerm)" placeholder="Start typing to filter" />
+        <span ng-click="clearTextBox()" ng-show="searchTerm != null && searchTerm != '' && showSpinner==false" class="clear-search">&times;</span>
+        <img ng-src="{{baseCommerceImagesUrl}}ajax-loader.gif" ng-show="showSpinner" class="clear-search clear-search-spinner"/>
+    </div>
+    <div class="content-picker-search-results" ng-hide="nrOfResults == 0 || nrOfResults == -1 || showSpinner">
+        <div ng-repeat="searchResult in result" data-ng-click="searchResultClick(searchResult)" data-ng-class="treeNodeLinkClasses(searchResult)" class="content-picker-search-result">
+            <input type="checkbox" ng-click="checkboxClicked(searchResult)" ng-show="showCheckBoxForNode(searchResult)" ng-checked="isSelectedCheckbox(searchResult)" id="{{searchResult.nodeType}}_{{searchResult.id}}" name="selected_tree_values" value="{{searchResult.nodeType}}_{{searchResult.id}}" class="content-picker-search-result-checkbox" />
+            <i ng-hide="searchResult.icon == null || searchResult.icon.indexOf('.') > -1 || showSpinner" class="{{searchResult.icon}}"></i>
+            <img ng-src="{{baseCommerceImagesUrl}}{{searchResult.icon}}" ng-hide="searchResult.icon == null || searchResult.icon.indexOf('.') == -1 || showSpinner" class="content-picker-search-result-icon" />
+            <span class="content-picker-search-result-text">{{searchResult.name}}</span>
+        </div>
+    </div>
+    <div class="contentPickerSearchNoResults" ng-show="nrOfResults == 0 && showSpinner==false">{{message}}</div>
+</div>

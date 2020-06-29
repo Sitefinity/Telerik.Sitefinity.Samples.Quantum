@@ -1,0 +1,268 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Lucida Grande;
+}
+
+.modal-header span {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px 0;
+ 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.columns {
+    height: 100%;
+   
+}
+.content-area, .article-tree, .ui-splitter{
+	display: inline-block;
+    height: 100%;
+}
+
+.ui-splitter {
+	width: 0%;
+	display: inline-block;
+	cursor: ew-resize;
+}
+
+.content-area {
+	width: 73%;
+}
+
+.article-tree {
+	width: 25%;
+}
+
+#mainframe {
+	border:none;
+	height:100%;
+	width:100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
+
+ul.ucommerce-navigation-tree {
+    margin-left: -5px;
+    padding-top: 5px;
+    list-style-type:none
+}
+
+.tree-wrapper {
+    height: 100%;
+    min-width: 250px;
+    background: url("../Images/panel_bg.gif") top repeat-x;
+}
+
+.tree-wrapper .tree-wrapper-content {
+    overflow: auto;
+    border: 1px solid #cac9c9;
+    -webkit-border-bottom-right-radius: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.ucommerce-tree-header {
+    background: url("../Images/panel_boxhead_bg.gif") top left no-repeat;
+}
+
+h2.ucommerce-tree-header-text {
+    background: url("../Images/panel_boxhead_h2_bg.gif") top right no-repeat;
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+    color: #378080;
+    text-align: left;
+    text-indent: 10px;
+    font-size: 10px;
+    height: 19px;
+    line-height: 20px;
+}
+
+a.treeItemExpand:hover {
+    text-decoration: none;
+}
+
+a.treeLink {
+    color: #2f2f2f;
+    font-size: 12px;
+	cursor: pointer;
+}
+
+.ucommerce-navigation-tree ul {
+  list-style-type: none;
+  margin: 0 0 0px 18px;
+}
+.tree-wrapper-content .treeItemExpandContainer {
+  display: inline-block;
+  position: relative;
+  width: 13px;
+}
+.tree-wrapper-content a {
+  color: black;
+}
+a.treeLink div {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+}
+
+a.treeItemExpand {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+a.treeItemExpand > span {
+  position: relative;
+  top: 1px;
+  left: -4px;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+}
+span.treeNodeIcon {
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  -moz-background-size: 16px 16px;
+  -o-background-size: 16px 16px;
+  -webkit-background-size: 16px 16px;
+  background-size: 16px 16px;
+}
+
+
+/* Umbraco Umbraco Umbraco Umbraco Umbraco */
+/*a.treeItemClosed > span {
+    text-decoration: none;
+    background: url("../Images/arrows.png") 0 -22px no-repeat;
+}
+a.treeItemClosed > span:hover {
+    background: url("../Images/arrows.png") 0 0 no-repeat;
+}
+a.treeItemOpen > span {
+    text-decoration: none;
+    background: url("../Images/arrows.png") -17px -43px no-repeat;
+}
+a.treeItemOpen > span:hover {
+    background: url("../Images/arrows.png") 0 -43px no-repeat;
+}*/
+
+
+/* Sitecore Sitecore Sitecore Sitecore Sitecore */
+a.treeItemClosed > span {
+    text-decoration: none;
+    background: url("../Images/sc-expand.gif") 0 0 no-repeat;
+}
+/*a.treeItemClosed > span:hover {
+    background: url("../Images/arrows.png") 0 0 no-repeat;
+}*/
+a.treeItemOpen > span {
+    text-decoration: none;
+    background: url("../Images/sc-collapse.gif") 0 0 no-repeat;
+}
+/*a.treeItemOpen > span:hover {
+    background: url("../Images/arrows.png") 0 -43px no-repeat;
+}*/
+
+
+a.treeItemHidden {
+    background: none;
+    visibility: hidden;
+}
+
+a.dimNode {
+    color:#c0c0c0;
+}
+
+.notifications {
+    position: fixed;
+    min-width: 200px;
+}
+
+.notifications.bottom-right {
+    right: 25px;
+    bottom: 25px;
+}
+
+a.nodeSelected span div span {
+    background-color: #D5EFFC;
+}
+
+div.treeContextMenu > ul {
+    z-index: 100;
+	background:#f0f0f0 url('../Images/contextMenuBg.gif') repeat-y left;
+	border: 1px solid #979797;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top:2px;
+	padding-bottom: 2px;
+	width: auto;
+	-moz-min-width: 180px;
+	-ms-min-width: 180px;
+	-o-min-width: 180px;
+	-webkit-min-width: 180px;
+	min-width: 180px;
+	margin: 0;
+	display: block;
+	list-style-type: none;
+	position: absolute;
+}
+
+div.treeContextMenu > ul > li {
+    margin: 0;
+    height: 26px;
+    font-size:11px;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+div.treeContextMenu > ul > li > a {
+    text-indent:26px;
+    padding-left: 5px;
+    color: black;
+    display:block;
+    height: 24px;
+    border: 1px solid #f0f0f0;
+}
+
+div.treeContextMenu > ul > li > a:hover {
+    text-decoration:none;
+    background-color: #DCECF3 !important;
+    border:1px solid #A8D8EB;
+}
+
+div.treeContextMenu > ul > li.separator {
+    font-size: 1px;
+    border-top: 1px solid #E0E0E0;
+    line-height: 1px;
+    height: 1px;
+    margin-top:2px;
+    margin-bottom:1px;
+    margin-left: 29px;
+    min-height: 1px;
+    display: block;
+}
+
+div.treeContextMenu > ul > li.separator > a {
+    height: 0;
+}
+
+div.treeContextMenu > ul > li.separator > a:hover {
+    border: none;
+}

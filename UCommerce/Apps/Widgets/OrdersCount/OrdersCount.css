@@ -1,0 +1,12 @@
+﻿.orderCount span {
+	display: inline-table;
+}
+
+.orderCount .oneLineText {
+	display: inline-block;
+    width: 70%;
+}
+
+.orderCount {
+	table-layout: fixed;
+}

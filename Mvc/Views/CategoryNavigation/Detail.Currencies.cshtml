@@ -1,0 +1,46 @@
+﻿@model dynamic
+
+@using Newtonsoft.Json;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using Telerik.Sitefinity.Services;
+@using Telerik.Sitefinity.Web;
+@using UCommerce.Sitefinity.UI.Mvc.Model;
+@using UCommerce.Sitefinity.UI.Mvc.ViewModels;
+
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/uc-quantum.css"), "head")
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
+<div data-component="currency-picker" id="@Html.UniqueId("currencies")" v-cloak>
+    <div>
+        @if (Model.AllowChangingCurrency && Model.Currencies.Count > 0)
+        {
+            var currencies = JsonConvert.SerializeObject(Model.Currencies);
+            var currentCurrency = JsonConvert.SerializeObject(Model.CurrentCurrency);
+            <currency-selector :serialized-currencies="'@currencies'" :serialized-current-currency="'@currentCurrency'" :root-id="$el.id">
+            </currency-selector>
+        }
+
+        @foreach (var route in Model.Routes)
+        {
+            <input type="hidden" class="@route.Key" value="@route.Value" />
+        }
+    </div>
+</div>
+
+<script type="text/x-template" id="currency-selector-template">
+
+    <ul class="sfcurrenciesHorizontalList">
+        <li class="sfcurrencyItem sfcurrencySelected">
+            <a class="sfcurrencyLnk" v-on:click="setCurrency(currentCurrency.PriceGroupId)" href="javascript:void(0)">{{currentCurrency.DisplayName}}</a>
+        </li>
+        <li class="sfcurrencyItem" v-for="currency in currencies">
+            <a class="sfcurrencyLnk" v-on:click="setCurrency(currency.PriceGroupId)" href="javascript:void(0)">{{currency.DisplayName}}</a>
+        </li>
+    </ul>
+</script>

@@ -1,0 +1,134 @@
+﻿.gridster span.gs-resize-handle.gs-resize-handle-both {
+    background-image: url('../common/arrow.png');
+}
+
+.ucommerce-dashboard {
+    padding: 0;
+    margin: 0 40px;
+    width: 1300px !important;
+    background-color: #F2F2F2
+}
+
+.searchInput i {
+    padding: 10px 0px 0px 7px;
+}
+
+.widget .propertyItem {
+    border-bottom: 1px solid #f8f8f8 !important;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 8px !important;
+    padding-bottom: 20px !important;
+}
+
+ul li.widget {
+    overflow: hidden
+}
+
+li.widget .widgetContent .widgetEditing .propertyPane .propertyItem .propertyItemHeader {
+    padding-top: 10px;
+}
+
+.propertyItemHeader:after {
+    content: "";
+}
+
+div.catalogSearch.catalogSearchResult {
+    margin-bottom: -70px !important;
+}
+
+.fixedHeader .fa-chevron-up {
+    margin-left: -12px;
+}
+
+.fixedHeader .fa-chevron-up {
+    margin-left: -15.8px\9;
+    margin-left: -15.8px\0/;
+}
+
+.OrderList-content .dataList {
+    margin: 0 -1px !important;
+}
+
+table.dataList th.rightAligned {
+    padding-right: 10px !important;
+}
+
+.ui-widget-content .scrollable {
+}
+
+.widgetHeader {
+    height: 25px;
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    border-bottom: none !important;
+    z-index: 20;
+    -webkit-transition: height 0.4s;
+    -moz-transition: height 0.4s;
+    transition: height 0.4s;
+}
+
+    .widgetHeader span {
+        font-size: 18px;
+        color: black;
+        font-weight: normal;
+        font-family: open_sansregular, sans-serif;
+    }
+
+.widget {
+    border: 1px solid #e4e4e4;
+    display: flex;
+    flex-flow: column;
+}
+
+.widgetHeader {
+    flex: 0 0 31px;
+}
+
+.widgetContent {
+    margin: 0 !important;
+    padding: 0 !important;
+    flex: 1 1 auto;
+}
+
+i.fa.fa-times.remove-widget {
+    font-weight: 100;
+    color: #666;
+    cursor: pointer;
+    font-size: 17px;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    line-height: 13px;
+    z-index: 50;
+    right: 27px;
+    top: 5px;
+    padding: 0;
+}
+
+    i.fa.fa-times.remove-widget:hover {
+        color: black;
+    }
+
+.ucommerce-dashboard .scrollable {
+    background-color: #F2F2F2;
+}
+
+.ucommerce-dashboard .menubar {
+    background-color: #F2F2F2;
+}
+
+body.ucommerce-dashboard div.menubar {
+    display: none;
+}
+
+body.ucommerce-dashboard ul#sectionGroupTabs {
+    display: none;
+}
+
+body.ucommerce-dashboard div#sectionGroup.ui-widget.ui-widget-content .sectionGroupHeader {
+    background-color: #F2F2F2;
+    margin-top: 10px;
+}

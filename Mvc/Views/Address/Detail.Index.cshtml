@@ -1,0 +1,177 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.UI.MVC;
+@using Telerik.Sitefinity.Services;
+@using Newtonsoft.Json;
+@using Telerik.Sitefinity.Web;
+
+@if (!SystemManager.IsDesignMode)
+{
+    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
+@{
+    Layout = null;
+    string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
+    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
+}
+
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
+
+<div data-component="address-widget" id="address-widget" v-cloak>
+    <script type="application/json" purl="true">
+        { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
+    </script>
+    <template v-if="model">
+        <div class="flex-contain">
+            <div class="js-address-billing section-margin">
+                <h3 class="heading-underline">@Html.Resource("BillingAddress", "UcommerceResources")</h3>
+                <div class="row">
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="FirstName" label="@Html.Resource("FirstName", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                    </div>
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="LastName" label="@Html.Resource("LastName", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="EmailAddress" label="@Html.Resource("Email", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                    </div>
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="Attention" label="@Html.Resource("Attention", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="MobilePhoneNumber" label="@Html.Resource("MobilePhone", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                    </div>
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="PhoneNumber" label="@Html.Resource("Phone", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="Line1" label="@Html.Resource("Street", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                    </div>
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="Line2" label="@Html.Resource("Street2", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="PostalCode" label="@Html.Resource("PostalCode", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                    </div>
+
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="City" label="@Html.Resource("City", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <label for="BillingAddress_CountryId">@Html.Resource("Country", "UcommerceResources")</label>
+                        <select id="BillingAddress_CountryId" name="BillingAddress.CountryId" class="countryDropdownCheckout margin-bottom form-control">
+                            <option v-for="(country, index) in model.AvailableCountries" :selected="country.Value == model.BillingAddress.CountryId" :value="country.Value">{{ country.Text }}</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6 no-vertical-margin control-group form-group">
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="CompanyName" label="@Html.Resource("Company", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div v-if="model.IsShippingAddressDifferent" class="js-address-shipping">
+            <h3 class="heading-underline">@Html.Resource("ShippingAddress", "UcommerceResources")</h3>
+
+            <div class="row">
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="FirstName" label="@Html.Resource("FirstName", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                </div>
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="LastName" label="@Html.Resource("LastName", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="EmailAddress" label="@Html.Resource("Email", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                </div>
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="Attention" label="@Html.Resource("Attention", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="MobilePhoneNumber" label="@Html.Resource("MobilePhone", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                </div>
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="PhoneNumber" label="@Html.Resource("Phone", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="Line1" label="@Html.Resource("Street", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                </div>
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="Line2" label="@Html.Resource("Street2", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="PostalCode" label="@Html.Resource("PostalCode", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                </div>
+
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="City" label="@Html.Resource("City", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <label for="ShippingAddress_CountryId">@Html.Resource("Country", "UcommerceResources")</label>
+                    <select id="ShippingAddress_CountryId" name="ShippingAddress.CountryId" class="countryDropdownCheckout margin-bottom form-control">
+                        <option v-for="(country, index) in model.AvailableCountries" :selected="country.Value == model.ShippingAddress.CountryId" :value="country.Value">{{ country.Text }}</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6 no-vertical-margin control-group form-group">
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="CompanyName" label="@Html.Resource("Company", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row section-margin">
+            <div class="col-md-12 padding-0">
+                <label for="IsShippingAddressDifferent" class="display-checkbox-inline">
+                    @Html.Resource("DifferentShippingAddress", "UcommerceResources")
+                    <input id="IsShippingAddressDifferent" name="IsShippingAddressDifferent" type="checkbox" class="js-address-checkbox" v-model="model.IsShippingAddressDifferent" v-on:change="handleIsShippingAddressDifferent">
+                </label>
+            </div>
+        </div>
+
+        <checkout-navigation v-bind:model="model" 
+                             continue-label="@Html.Resource("ContinueToNextStep", "UcommerceResources")"
+                             back-label="@Html.Resource("BackButton", "UcommerceResources")"
+                             mode="Bootstrap" 
+                             :continue-fn="continueFn" 
+                             back-link-classes="btn btn-back btn-transparent pull-left" 
+                             continue-btn-classes="btn btn-success btn-next btn-complete pull-right"
+                             classes="row control-group multistep-btn-a section-margin"></checkout-navigation>
+    </template>
+</div>

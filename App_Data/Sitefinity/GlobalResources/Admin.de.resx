@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CustomerIDParameter" xml:space="preserve">
+    <value>Kundennummer</value>
+  </data>
+  <data name="menu_orders_root" xml:space="preserve">
+    <value>Aufträge</value>
+  </data>
+  <data name="menu_productcatalog_root" xml:space="preserve">
+    <value>Geschäfte</value>
+  </data>
+  <data name="menu_settings_root" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="menu_settings_shippingmethods_root" xml:space="preserve">
+    <value>Lieferarten</value>
+  </data>
+  <data name="OrderIDParameter" xml:space="preserve">
+    <value>Auftragsnummer</value>
+  </data>
+  <data name="menu_settings_definition_datatypes" xml:space="preserve">
+    <value>Datentypen</value>
+  </data>
+  <data name="menu_settings_catalog_pricegroups" xml:space="preserve">
+    <value>Preisgruppen</value>
+  </data>
+  <data name="menu_settings_definition_definitions_products" xml:space="preserve">
+    <value>Produkten</value>
+  </data>
+  <data name="menu_settings_catalog_root" xml:space="preserve">
+    <value>Katalog</value>
+  </data>
+  <data name="menu_settings_email_profiles" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="menu_settings_email_root" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="menu_settings_email_types" xml:space="preserve">
+    <value>Typen</value>
+  </data>
+  <data name="menu_settings_orders_paymentmethods" xml:space="preserve">
+    <value>Zahlungsarten</value>
+  </data>
+  <data name="menu_settings_orders_root" xml:space="preserve">
+    <value>Aufträge</value>
+  </data>
+  <data name="menu_settings_orders_shippingmethods" xml:space="preserve">
+    <value>Lieferarten</value>
+  </data>
+  <data name="menu_settings_orders_countries" xml:space="preserve">
+    <value>Länder</value>
+  </data>
+  <data name="menu_settings_orders_currencies" xml:space="preserve">
+    <value>Währungen</value>
+  </data>
+  <data name="menu_settings_orders_ordernumbers" xml:space="preserve">
+    <value>Auftragsnummern</value>
+  </data>
+  <data name="menu_order_search" xml:space="preserve">
+    <value>Suche</value>
+  </data>
+  <data name="menu_analytics_orders_root" xml:space="preserve">
+    <value>Aufträge</value>
+  </data>
+  <data name="menu_analytics_orders_totalsales" xml:space="preserve">
+    <value>Gesamtumsatz</value>
+  </data>
+  <data name="menu_analytics_products_root" xml:space="preserve">
+    <value>Produkte</value>
+  </data>
+  <data name="menu_analytics_root" xml:space="preserve">
+    <value>Auswertungen</value>
+  </data>
+  <data name="menu_settings_catalog_productrelationtypes" xml:space="preserve">
+    <value>Produktverknüpfungen</value>
+  </data>
+  <data name="menu_settings_definition_definitions" xml:space="preserve">
+    <value>Definitionen</value>
+  </data>
+  <data name="menu_settings_definition_definitions_categories" xml:space="preserve">
+    <value>Kategoriendefinitionen</value>
+  </data>
+  <data name="menu_marketing_root" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="menu_settings_definition_root" xml:space="preserve">
+    <value>Definitionen</value>
+  </data>
+  <data name="Definitions" xml:space="preserve">
+    <value>Definitionen</value>
+  </data>
+  <data name="menu_settings_security_root" xml:space="preserve">
+    <value>Sicherheit</value>
+  </data>
+  <data name="delete_product_error_message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, um in diesem Katalog zu löschen</value>
+    <comment>google translate</comment>
+  </data>
+  <data name="LicenseMessage" xml:space="preserve">
+    <value>Ihre Lizenz unterstützt nicht mehr.</value>
+  </data>
+  <data name="AreYouSureDeleteAward.Text" xml:space="preserve">
+    <value>Prämie wirklich löschen?</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Bist du sicher, dass du diesen Inhalt löschen?</value>
+  </data>
+  <data name="menu_settings_create" xml:space="preserve">
+    <value>Schaffen</value>
+  </data>
+  <data name="menu_settings_delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="menu_settings_refresh" xml:space="preserve">
+    <value>Erfrishen</value>
+  </data>
+  <data name="menu_settings_sort" xml:space="preserve">
+    <value>Sortieren</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>Schaffen</value>
+  </data>
+  <data name="create_campaign" xml:space="preserve">
+    <value>Kampagne erstellen</value>
+  </data>
+  <data name="create_campaign_item" xml:space="preserve">
+    <value>Kampagne erstellen Artikel</value>
+  </data>
+  <data name="create_campaign_item1" xml:space="preserve">
+    <value>Kampagne erstellen Artikel</value>
+  </data>
+  <data name="create_category" xml:space="preserve">
+    <value>Kategorie erstellen</value>
+  </data>
+  <data name="create_country" xml:space="preserve">
+    <value>Neues Land</value>
+  </data>
+  <data name="create_currency" xml:space="preserve">
+    <value>Erstellen Währung</value>
+  </data>
+  <data name="create_datatype" xml:space="preserve">
+    <value>Erstellen Datentyp</value>
+  </data>
+  <data name="create_datatypeenum" xml:space="preserve">
+    <value>Erstellen Datentyp Enum</value>
+  </data>
+  <data name="create_definition" xml:space="preserve">
+    <value>Erstellen Definition</value>
+  </data>
+  <data name="create_definitionfield" xml:space="preserve">
+    <value>Erstellen Definition Feld</value>
+  </data>
+  <data name="create_emailprofile" xml:space="preserve">
+    <value>Neues E-Mail-Profil</value>
+  </data>
+  <data name="create_emailtype" xml:space="preserve">
+    <value>Neues E-Mail-Typ</value>
+  </data>
+  <data name="create_ordernumber" xml:space="preserve">
+    <value>Erstellen Bestellnummern</value>
+  </data>
+  <data name="create_paymentmethod" xml:space="preserve">
+    <value>Erstellen Payment Method</value>
+  </data>
+  <data name="create_pricegroup" xml:space="preserve">
+    <value>Erstellen Preisgruppe</value>
+  </data>
+  <data name="create_productcataloggroup" xml:space="preserve">
+    <value>Erstellen Produktkatalog Gruppe</value>
+  </data>
+  <data name="create_productdefinition" xml:space="preserve">
+    <value>Erstellen Product Definition</value>
+  </data>
+  <data name="create_productdefinitionfield" xml:space="preserve">
+    <value>Erstellen Product Definition Feld</value>
+  </data>
+  <data name="create_productRelationType" xml:space="preserve">
+    <value>Neues Produkt Relationstyp</value>
+  </data>
+  <data name="create_shippingmethod" xml:space="preserve">
+    <value>Erstellen Versandart</value>
+  </data>
+  <data name="delete_campaign" xml:space="preserve">
+    <value>löschen Kampagne</value>
+  </data>
+  <data name="delete_campaign_item" xml:space="preserve">
+    <value>Löschen Campaign Artikel</value>
+  </data>
+  <data name="delete_category" xml:space="preserve">
+    <value>Kategorie löschen</value>
+  </data>
+  <data name="delete_country" xml:space="preserve">
+    <value>Löschen Land</value>
+  </data>
+  <data name="delete_currency" xml:space="preserve">
+    <value>Löschen Währung</value>
+  </data>
+  <data name="delete_datatype" xml:space="preserve">
+    <value>Löschen Datentyp</value>
+  </data>
+  <data name="delete_datatypeenum" xml:space="preserve">
+    <value>Löschen Datentyp Enum</value>
+  </data>
+  <data name="delete_definition" xml:space="preserve">
+    <value>löschen Definition</value>
+  </data>
+  <data name="delete_definitionfield" xml:space="preserve">
+    <value>Löschen Defintion Feld</value>
+  </data>
+  <data name="delete_emailprofile" xml:space="preserve">
+    <value>Löschen von E-Profil</value>
+  </data>
+  <data name="delete_emailtype" xml:space="preserve">
+    <value>Löschen von E-Type</value>
+  </data>
+  <data name="delete_ordernumber" xml:space="preserve">
+    <value>Löschen Bestellnummer Series</value>
+  </data>
+  <data name="delete_paymentmethod" xml:space="preserve">
+    <value>Löschen Payment Method</value>
+  </data>
+  <data name="delete_pricegroup" xml:space="preserve">
+    <value>Löschen Preisgruppe</value>
+  </data>
+  <data name="delete_productcatalog" xml:space="preserve">
+    <value>Löschen Produktkatalog</value>
+  </data>
+  <data name="delete_productcataloggroup" xml:space="preserve">
+    <value>Löschen Produktkatalog Gruppe</value>
+  </data>
+  <data name="delete_productdefinition" xml:space="preserve">
+    <value>Löschen Product Definition</value>
+  </data>
+  <data name="delete_productdefinitionField" xml:space="preserve">
+    <value>Löschen Product Definition Feld</value>
+  </data>
+  <data name="delete_productrelationtype" xml:space="preserve">
+    <value>Löschen Produkt Relationstyp</value>
+  </data>
+  <data name="delete_shippingmethod" xml:space="preserve">
+    <value>Löschen Versandart</value>
+  </data>
+  <data name="prioritize_campaigns" xml:space="preserve">
+    <value>Priorisierung Kampagnen</value>
+  </data>
+  <data name="prioritize_campaign_items" xml:space="preserve">
+    <value>Priorisierung Kampagnen-Einzelteile</value>
+  </data>
+  <data name="refresh_campaigns" xml:space="preserve">
+    <value>Aktualisieren Kampagnen</value>
+  </data>
+  <data name="refresh_campaign_items" xml:space="preserve">
+    <value>Aktualisieren Kampagnen-Einzelteile</value>
+  </data>
+  <data name="refresh_catalog" xml:space="preserve">
+    <value>Aktualisieren Katalog</value>
+  </data>
+  <data name="refresh_category" xml:space="preserve">
+    <value>Aktualisieren Kategorie</value>
+  </data>
+  <data name="refresh_countries" xml:space="preserve">
+    <value>Aktualisieren Länder</value>
+  </data>
+  <data name="refresh_currencies" xml:space="preserve">
+    <value>Aktualisieren Währungen</value>
+  </data>
+  <data name="refresh_datatypeenums" xml:space="preserve">
+    <value>Aktualisieren Datentyp Enums</value>
+  </data>
+  <data name="refresh_datatypes" xml:space="preserve">
+    <value>Aktualisieren Datentypen</value>
+  </data>
+  <data name="refresh_definitions" xml:space="preserve">
+    <value>Aktualisieren Definitionen</value>
+  </data>
+  <data name="refresh_emailprofile" xml:space="preserve">
+    <value>Aktualisieren Email Profil</value>
+  </data>
+  <data name="refresh_emailprofiles" xml:space="preserve">
+    <value>Aktualisieren Email Profiles</value>
+  </data>
+  <data name="refresh_emailtype" xml:space="preserve">
+    <value>Aktualisieren Email Typen</value>
+  </data>
+  <data name="refresh_menu_settings_catalog_root" xml:space="preserve">
+    <value>Aktualisieren Katalog-Einstellungen</value>
+  </data>
+  <data name="refresh_menu_settings_definition_root" xml:space="preserve">
+    <value>Aktualisieren Definitionen</value>
+  </data>
+  <data name="refresh_menu_settings_email_root" xml:space="preserve">
+    <value>Aktualisieren Email Einstellungen</value>
+  </data>
+  <data name="refresh_menu_settings_orders_root" xml:space="preserve">
+    <value>Aktualisieren Bestellungen Einstellungen</value>
+  </data>
+  <data name="refresh_menu_settings_root" xml:space="preserve">
+    <value>Aktualisieren Einstellungen</value>
+  </data>
+  <data name="refresh_menu_settings_security_root" xml:space="preserve">
+    <value>Aktualisieren Sicherheit</value>
+  </data>
+  <data name="refresh_ordernumber" xml:space="preserve">
+    <value>Aktualisieren Bestellnummern</value>
+  </data>
+  <data name="refresh_orders" xml:space="preserve">
+    <value>Aktualisieren Bestellungen</value>
+  </data>
+  <data name="refresh_paymentmethods" xml:space="preserve">
+    <value>Aktualisieren Zahlungsmethoden</value>
+  </data>
+  <data name="refresh_pricegroups" xml:space="preserve">
+    <value>Aktualisieren Preisgruppen</value>
+  </data>
+  <data name="refresh_productcataloggroup" xml:space="preserve">
+    <value>Aktualisieren Produktkatalog Gruppe</value>
+  </data>
+  <data name="refresh_productdefinitionfields" xml:space="preserve">
+    <value>Aktualisieren Product Definition Felder</value>
+  </data>
+  <data name="refresh_productdefinitions" xml:space="preserve">
+    <value>Aktualisieren Produktdefinition</value>
+  </data>
+  <data name="refresh_productRelationTypes" xml:space="preserve">
+    <value>Aktualisieren Produkt Relationstypen</value>
+  </data>
+  <data name="refresh_shippingmethods" xml:space="preserve">
+    <value>Aktualisieren Verschiffen-Methoden</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="search_orders" xml:space="preserve">
+    <value>Suchaufträge</value>
+  </data>
+  <data name="sort_categories" xml:space="preserve">
+    <value>Kategorien sortieren</value>
+  </data>
+  <data name="sort_definitions" xml:space="preserve">
+    <value>Sortieren Definitionen</value>
+  </data>
+  <data name="sort_productdefinitionfields" xml:space="preserve">
+    <value>Sortieren Product Definition Felder</value>
+  </data>
+  <data name="delete_product" xml:space="preserve">
+    <value>Löschen Produkt</value>
+  </data>
+  <data name="refresh_product" xml:space="preserve">
+    <value>Aktualisieren Produkt</value>
+  </data>
+  <data name="create_productcatalog" xml:space="preserve">
+    <value>Erstellen Produktkatalog</value>
+  </data>
+  <data name="refresh_productcatalogs" xml:space="preserve">
+    <value>Aktualisieren Produktkatalog</value>
+  </data>
+  <data name="create_product" xml:space="preserve">
+    <value>Produkt Erstellen</value>
+  </data>
+  <data name="remove_content" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="select_content" xml:space="preserve">
+    <value>Wählen...</value>
+  </data>
+  <data name="select_image_header" xml:space="preserve">
+    <value>wählen Bild</value>
+  </data>
+  <data name="select_image_tiny_header" xml:space="preserve">
+    <value>wählen Sie das Bild aus dem Baum unten</value>
+  </data>
+  <data name="select_content_header" xml:space="preserve">
+    <value>Inhalte auswählen</value>
+  </data>
+  <data name="select_content_tiny_header" xml:space="preserve">
+    <value>Wählen Sie Inhalte aus dem Baum unten.</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Stornieren</value>
+  </data>
+  <data name="select_item" xml:space="preserve">
+    <value>Wählen</value>
+  </data>
+  <data name="select_or" xml:space="preserve">
+    <value>Oder</value>
+  </data>
+  <data name="sort_catalogs" xml:space="preserve">
+    <value>Sortieren ProduktKatalog</value>
+  </data>
+  <data name="nameValidator_error" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="isoCodeValidator_error" xml:space="preserve">
+    <value>ISO-Code</value>
+  </data>
+  <data name="EnterValue" xml:space="preserve">
+    <value>Wert eingeben ...</value>
+  </data>
+  <data name="cyclic_inheritance_error_message" xml:space="preserve">
+    <value>Die ausgewählte Erbe würde eine zyklische Definition verursachen: '{0}'</value>
+  </data>
+  <data name="duplicate_name_inheritance_error_message" xml:space="preserve">
+    <value>Die ausgewählte Erbe würde eine doppelte Feld verursachen: '{0}'.</value>
+  </data>
+  <data name="duplicate_name_on_child_error_message" xml:space="preserve">
+    <value>Der Name '{0}' existiert auf dieser Definition, oder ein Kind.</value>
+  </data>
+  <data name="duplicate_name_on_parent_error_message" xml:space="preserve">
+    <value>Der Name '{0}' existiert auf dieser Definition, oder ein Elternteil.</value>
+  </data>
+  <data name="sort_definition_relations" xml:space="preserve">
+    <value>Sortieren Mutter definitionen</value>
+  </data>
+  <data name="numbersAndLettersOnlyInName" xml:space="preserve">
+    <value>Der Name kann nur Buchstaben und Zahlen enthalten.</value>
+  </data>
+  <data name="has_fields_from" xml:space="preserve">
+    <value>Hat Felder aus</value>
+  </data>
+  <data name="and" xml:space="preserve">
+    <value>und</value>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>mere</value>
+  </data>
+  <data name="edit_product_error_message" xml:space="preserve">
+    <value>Sie haben keine Berechtigung, um in uitgeven Katalog zu löschen</value>
+    <comment>google translate</comment>
+  </data>
+  <data name="add_relations_from_product_to_other_products_message" xml:space="preserve">
+    <value>Du har inte tillräcklig behörighet att lägga relationer från produkt till andra produkter meddelande på nuvarande produktkatalog</value>
+  </data>
+  <data name="menu_settings_usersecurity_root" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="refresh_menu_settings_usersecurity_root" xml:space="preserve">
+    <value>Aktualisieren Benutzer</value>
+  </data>
+  <data name="menu_settings_groupsecurity_root" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="refresh_menu_settings_groupsecurity_root" xml:space="preserve">
+    <value>Aktualisieren Gruppen</value>
+  </data>
+  <data name="install_app" xml:space="preserve">
+    <value>App installieren</value>
+  </data>
+  <data name="installed_apps" xml:space="preserve">
+    <value>Installierte Apps</value>
+  </data>
+  <data name="settings_apps" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="ChangeLog" xml:space="preserve">
+    <value>Änderungsprotokoll</value>
+  </data>
+  <data name="ChooseAFile" xml:space="preserve">
+    <value>Datei auswählen</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Bezeichnung</value>
+  </data>
+  <data name="FileIsToLarge" xml:space="preserve">
+    <value>Dateigröße ist auf {0} KB begrenzt. Passen Grenze in web.config/maxRequestLength um dies zu vermeiden</value>
+  </data>
+  <data name="InstallAppButton" xml:space="preserve">
+    <value>Installieren</value>
+  </data>
+  <data name="InstallAppHeader" xml:space="preserve">
+    <value>Installieren Sie die App</value>
+  </data>
+  <data name="InstallApp_tab" xml:space="preserve">
+    <value>Installieren</value>
+  </data>
+  <data name="InstalledApps_tab" xml:space="preserve">
+    <value>Installierte Apps</value>
+  </data>
+  <data name="LoadingText" xml:space="preserve">
+    <value>Seite neu laden</value>
+  </data>
+  <data name="LoadingText1" xml:space="preserve">
+    <value>Seite neu laden</value>
+  </data>
+  <data name="NoInstalledApps" xml:space="preserve">
+    <value>Keine installierten Apps</value>
+  </data>
+  <data name="NotSupportedFileType" xml:space="preserve">
+    <value>Der Dateityp muss</value>
+  </data>
+  <data name="RedirectToAppsStore" xml:space="preserve">
+    <value>Schauen Sie sich unsere App Store auf apps.ucommerce.net.</value>
+  </data>
+  <data name="UninstallButton" xml:space="preserve">
+    <value>Deinstallieren</value>
+  </data>
+  <data name="UploadAppButton" xml:space="preserve">
+    <value>Hochladen</value>
+  </data>
+  <data name="Apps" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="documentationText" xml:space="preserve">
+    <value>Dokumentation</value>
+  </data>
+  <data name="supportText" xml:space="preserve">
+    <value>Unterstützen</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Abspeichern</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="definition_type_product" xml:space="preserve">
+    <value>Produkte</value>
+  </data>
+  <data name="export_products_tooltip" xml:space="preserve">
+    <value>Produkte exportieren</value>
+  </data>
+  <data name="export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="menu_productcatalog_dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="menu_dashboard_root" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="feed_newCustomer" xml:space="preserve">
+    <value>{0} hat gerade seine erste Bestellung aufgegeben.</value>
+  </data>
+  <data name="feed_campaignTriggered" xml:space="preserve">
+    <value>Die Kampagne "{0}" wurde gerade für die Bestellung {1} verwendet.</value>
+  </data>
+  <data name="feed_customerIsCheckingOut" xml:space="preserve">
+    <value>Rufen Sie {0} unter {1} an, um die Kaufabwicklung abzuschließen.</value>
+  </data>
+  <data name="feed_orderPlaced" xml:space="preserve">
+    <value>Bestellung {0} wurde für {1} platziert.</value>
+  </data>
+  <data name="feed_returningCustomer" xml:space="preserve">
+    <value>{0} hat jetzt {1} Bestellungen aufgegeben.</value>
+  </data>
+  <data name="menu_catalogs_root" xml:space="preserve">
+    <value>Kataloge</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="menu_products_root" xml:space="preserve">
+    <value>Produkten</value>
+  </data>
+</root>

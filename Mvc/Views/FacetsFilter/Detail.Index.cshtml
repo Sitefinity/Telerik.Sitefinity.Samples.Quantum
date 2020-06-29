@@ -1,0 +1,39 @@
+﻿@model  IList<UCommerce.Sitefinity.UI.Mvc.ViewModels.FacetViewModel>
+
+@using Newtonsoft.Json;
+@using Telerik.Sitefinity.Services
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
+@Html.StyleSheet(Url.WidgetContent("assets/dist/css/uc-quantum.css"), "head")
+
+@if (!SystemManager.IsDesignMode)
+{
+	@Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+	@Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+}
+
+<div data-component="facet-selector" id="@Html.UniqueId("facetFilter")">
+	<script type="application/json" data-facets="true">
+        { "facets" : @Html.Raw(JsonConvert.SerializeObject(Model)) }
+    </script>
+	<h2 class="sffilterTitle">
+		@Html.Resource("FilterProducts", "UcommerceResources")
+	</h2>
+	<a class="sffilterClearLnk" v-on:click="clearFilters">@Html.Resource("ClearFilter", "UcommerceResources")</a>
+
+	<ul class="sfShopByFilterGroupList sfVerticalList" v-cloak>
+		<li class="sfShopByFilterGroupListItem" v-for="facet in facets" v-bind:key="facet.DisplayName">
+			<h3 class="sfGroupTitle">by {{ facet.DisplayName }}</h3>
+			<ul class="sfShopByFilterList">
+				<li class="sfShopByFilterListItem" v-for="filter in facet.FacetValues">
+					<label class="cb-wrap" v-bind:class="filter.Checked && 'active'">
+						<input type="checkbox" class="js-facets sfFilterItem" v-model="filter.Checked" v-on:change="filterProducts(filter)" v-bind:key="filter.FacetValueName" />
+						<span class="checkmark"></span>
+						<span :inner-html.prop="filter.FacetValueName | starRating(facet.Name)"></span>
+					</label>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>

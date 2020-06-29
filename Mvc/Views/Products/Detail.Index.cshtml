@@ -1,0 +1,163 @@
+﻿@model UCommerce.Sitefinity.UI.Mvc.ViewModels.ProductDetailViewModel
+
+@using Newtonsoft.Json;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using Telerik.Sitefinity.Services;
+
+@Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
+
+@if (Model != null)
+{
+    if (!SystemManager.IsDesignMode)
+    {
+        @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+        @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+    }
+
+
+    <div class="sf_cols" data-component="products" id="@Html.UniqueId("products")" v-cloak>
+        <input type="hidden" ref="addToBasket" value="@Html.Resource("AddToBasket", "UcommerceResources")" />
+        <input type="hidden" ref="notAddToBasket" value="@Html.Resource("NotAddToBasket", "UcommerceResources")" />
+
+        <div class="sfproductDetailsWrp section-margin">
+            <div class="sfproductDetails sfClearfix">
+                <div>
+                    <div id="productImgsWrp" class="sfproductImgsWrp">
+                        <div>
+                            <div class="sfproductMainImgWrp">
+                                <a href="@Model.PrimaryImageMediaUrl" rel="fancybox" class="sfProductTmbWrplarge">
+                                    <img src="@Model.PrimaryImageMediaUrl" />
+                                </a>
+                            </div>
+                            <div class="sfproductImgsListWrp">
+                                @if (Model.VariantTypes.Any())
+                                {
+                                    foreach (var variantType in Model.VariantTypes)
+                                    {
+                                        if (variantType.Values.Any())
+                                        {
+                                            <ul class="sfproductImgsList">
+                                                @foreach (var variant in variantType.Values)
+                                                {
+                                                    if (!string.IsNullOrEmpty(variant.PrimaryImageMediaUrl))
+                                                    {
+                                                        <li class="sfproductImgWrp">
+                                                            <a href="@variant.PrimaryImageMediaUrl" rel="fancybox" class="sfproductImgLnk sfProductTmbWrpthumbnail">
+                                                                <img class="sfproductImg" src="@variant.PrimaryImageMediaUrl" />
+                                                            </a>
+                                                        </li>
+                                                    }
+                                                }
+                                            </ul>
+                                        }
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sfproductInfoWrp">
+                    <h1>
+                        @Html.HtmlSanitize((string)Model.DisplayName)
+                    </h1>
+                    <div class="sfproductPrice">
+                        <div>
+                            <span class="sfRegPrice">@Model.Price</span>
+                            @if (!string.IsNullOrWhiteSpace(@Model.Discount))
+                            {
+                                <p class="paragraph-top">@Html.Resource("Discount", "UcommerceResources"):</p>
+                                <span class="sfDiscPrice">@Model.Discount</span>
+                            }
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="sfproductDescription">
+                        @Html.HtmlSanitize(Model.LongDescription)
+                        <hr class="sfDescriptionDivider" />  
+                    </div>
+
+                    <div class="sfproductInventory">
+                        <div class="sfProductInventoryWrp">
+                            @Html.Resource("Availability", "UcommerceResources"):
+                            @if (Model.AllowOrdering)
+                            {
+                                <span class="sfProductInStock">@Html.Resource("InStock", "UcommerceResources")</span>
+                            }
+                            else
+                            {
+                                <span class="sfProductOutOfStock">@Html.Resource("OutOfStock", "UcommerceResources")</span>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="dropdown-section">
+                        @{
+                            if (Model.VariantTypes.Any())
+                            {
+                                <script type="application/json" data-variants="true">
+                                    {
+                                    "variants": @Html.Raw(JsonConvert.SerializeObject(Model.VariantTypes.ToList()))
+                                    }
+                                </script>
+
+                                <fieldset v-for="v in variants">
+                                    <div class="dropdown-wrp">
+                                        <label class="detail-label">{{v.Item.DisplayName}}:</label>
+                                        <span class="dorpdown-w">
+                                            <select v-model="v.Current" v-on:change="onChange($event, v.Current)">
+                                                <option v-for="val in v.Item.Values" v-bind:value="val" :selected="val === v.Current ? 'selected' : ''">
+                                                    {{val.Value}}
+                                                </option>
+                                            </select>
+                                        </span>
+                                    </div>
+                                </fieldset>
+                            }
+                        }
+                    </div>
+                    @*Beggining of Add to cart section*@
+                    <div class="sfAddToCartWidget">
+                        <div class="sfAddToCartWrp">
+                            <div>
+                                <div class="sfMessage sfTopMsg">
+
+                                </div>
+                                @foreach (var route in Model.Routes)
+                                {
+                                    <input type="hidden" class="@route.Key" value="@route.Value" />
+                                }
+
+                                <add-to-basket :product-sku="'@Model.Sku'" :root-id="$el.id" :selected-variants="selectedVariants">
+                                </add-to-basket>
+                            </div>
+                        </div>
+                    </div>
+                    @*End of Add to cart section *@
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+    <script type="text/x-template" id="add-to-basket-template">
+        <div>
+            <label class="detail-label"">@Html.Resource("Quantity", "UcommerceResources"):</label>
+            <span style="display:none;" class="sfErrorWrp">
+                <span class="sfError">
+                    @Html.Resource("SpecifyQuantity", "UcommerceResources")
+                </span>
+            </span>
+            <span style="display:none;" class="sfErrorWrp">
+                <span class="sfError">
+                    @Html.Resource("QuantityValidation", "UcommerceResources")
+                </span>
+            </span>
+            <input title="@Html.Resource("ProductQuantity", "UcommerceResources")" id="productQuantityInput" v-model="quantity" type="text" class="sfTxt sfQuantity" />
+
+            <input type="button" title="Add to cart button" value="@Html.Resource("AddToCart", "UcommerceResources")" v-on:click="addToBasket()" class="sfAddToCartBtn" />
+            <p v-show="showAddToBasketMessage">{{addToBasketMessage}}</p>
+        </div>
+    </script>
+
+}

@@ -1,0 +1,11 @@
+-- Set the Guid for build in data types. This is necessary for synchronizing data across installations.
+update uCommerce_DataType set Guid = '2D65650B-810A-47D3-8431-A0608A853FED' where TypeName = 'ShortText'
+update uCommerce_DataType set Guid = 'E0F29490-5C53-4204-9627-31C221AB10BD' where TypeName = 'LongText'
+update uCommerce_DataType set Guid = '6603151C-1F5F-4C9C-8583-91D294B01686' where TypeName = 'Number'
+update uCommerce_DataType set Guid = 'FF01B6ED-8F9A-416E-9DB5-C133512BB078' where TypeName = 'Boolean'
+update uCommerce_DataType set Guid = 'D0FFD591-84B1-4A6B-8068-63D86F48D44A' where TypeName = 'Image'
+update uCommerce_DataType set Guid = '7A72DE83-8681-4340-88A1-10E3AFA89116' where TypeName = 'DatePicker'
+update uCommerce_DataType set Guid = '1D6C127F-912F-4C71-92AC-B734C516FCF2' where TypeName = 'RichText'
+update uCommerce_DataType set Guid = '83EBE5B0-9370-4B17-9373-4B2C355AAEA0' where TypeName = 'Content'
+update uCommerce_DataType set Guid = 'C0603CEC-4AD0-4D0F-8DF6-93D4183B9C08' where TypeName = 'DateTimePicker'
+update uCommerce_DataType set Guid = 'BA5F52E4-2B9D-4BE5-82E8-345A68F1EEF9' where TypeName = 'SigningAlgorithm'

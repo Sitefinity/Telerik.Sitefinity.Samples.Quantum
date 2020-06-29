@@ -28,7 +28,8 @@ body.main-body {
     text-decoration: none;
 }
 
-.nav-header a{
+.
+a{
     display: block!important;
 }
 
@@ -271,7 +272,7 @@ input[type="submit"]
 .sfcurrenciesHorizontalList li{padding:0 15px;float:left;height:30px;line-height:30px}
 .sfcurrenciesHorizontalList li a{color:#00b4c9;font-weight:600}
 .sfcurrenciesHorizontalList li.sfcurrencySelected a{color:#666}
-.sfcartSummaryExpandableWrp{float:right;margin:8px 0;position:relative}
+.sfcartSummaryExpandableWrp{float:right;margin:1px 0;position:relative}
 .sfcartSummaryExpandableWrp .sflnkToggleCartWrp{float:right;transition:opacity .3s ease-out}
 .sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart{padding:0 25px 0 0;background:url(../Images/arrow_down.png) right center no-repeat;font-weight:600;display:block;color:#000;text-align:right}
 sfcartSummaryExpandableWrp .sflnkToggleCartWrp .sflnkToggleCartWrpIn a.sflnkToggleCart .sflnkToggleCartLbl{display:block}
