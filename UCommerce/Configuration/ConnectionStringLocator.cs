@@ -2,9 +2,9 @@
 using Telerik.Sitefinity.Configuration;
 using Telerik.Sitefinity.Data.Configuration;
 
-namespace UCommerce.Sitefinity.Configuration
+namespace Ucommerce.Sitefinity.Configuration
 {
-    public class ConnectionStringLocator : UCommerce.Infrastructure.Configuration.ConnectionStringLocator
+    public class ConnectionStringLocator : Ucommerce.Infrastructure.Configuration.ConnectionStringLocator
     {
         public override string LocateConnectionString()
         {
@@ -12,7 +12,7 @@ namespace UCommerce.Sitefinity.Configuration
             if (!string.IsNullOrWhiteSpace(connectionString))
                 return connectionString;
 
-            connectionString = TryGetNamedConnectionStringFromDataConfig("uCommerce");
+            connectionString = TryGetNamedConnectionStringFromDataConfig("Ucommerce");
             if (!string.IsNullOrWhiteSpace(connectionString))
                 return connectionString;
 
@@ -20,7 +20,7 @@ namespace UCommerce.Sitefinity.Configuration
             if (!string.IsNullOrWhiteSpace(connectionString))
                 return connectionString;
 
-            throw new NotSupportedException("Could not find a suitable connection string in either dataconfig configuration file nor a connection string named either: 'uCommerce' or 'sitefinity' in web.config connectionstrings element.");
+            throw new NotSupportedException("Could not find a suitable connection string in either dataconfig configuration file nor a connection string named either: 'Ucommerce' or 'sitefinity' in web.config connectionstrings element.");
         }
 
         protected virtual string TryGetNamedConnectionStringFromDataConfig(string connectionStringName)

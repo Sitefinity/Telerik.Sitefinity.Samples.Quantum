@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditPaymentMethodAvailability.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Orders.EditPaymentMethodAvailability" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditPaymentMethodAvailability.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Orders.EditPaymentMethodAvailability" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />

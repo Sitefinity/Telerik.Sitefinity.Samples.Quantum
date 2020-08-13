@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UCommerce/MasterPages/Dialog.Master" AutoEventWireup="true" CodeBehind="ExportCategoryProducts.aspx.cs" Inherits="UCommerce.Web.UI.UCommerce.Catalog.Dialogs.ExportCategoryProducts" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Ucommerce/MasterPages/Dialog.Master" AutoEventWireup="true" CodeBehind="ExportCategoryProducts.aspx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Catalog.Dialogs.ExportCategoryProducts" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

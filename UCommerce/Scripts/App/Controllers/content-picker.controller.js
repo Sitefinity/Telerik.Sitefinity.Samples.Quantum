@@ -183,7 +183,7 @@
 	    if (event.WasHandled) { return; }
 	    event.WasHandled = true;
 
-	    UCommerceClientMgr.closeModalWindow();
+	    UcommerceClientMgr.closeModalWindow();
 	}
 
 	function findRelevantFrame() {
@@ -234,7 +234,7 @@
 
 		launcherScope.saveContent(contentToSave);
 
-	    UCommerceClientMgr.closeModalWindow();
+	    UcommerceClientMgr.closeModalWindow();
 	    return;
 
 	}

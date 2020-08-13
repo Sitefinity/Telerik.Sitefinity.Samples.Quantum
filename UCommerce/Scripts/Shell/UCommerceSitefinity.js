@@ -35,7 +35,7 @@ function getVirtualAppPath() {
 // Using "parent" object to reference the main page, that hosts this iframe.
 var virtualAppPath = getVirtualAppPath();
 
-var UCommerceClientMgr = {
+var UcommerceClientMgr = {
     BaseServiceUrl: '/ucommerceapi/',
     BaseUCommerceUrl: virtualAppPath + '/',
     Shell: "Kentico",
@@ -112,9 +112,9 @@ var UCommerceClientMgr = {
 };
 
 function sortCategoryThis() {
-    UCommerceClientMgr.openModal('ucommerce/catalog/dialogs/SortCatalog.aspx?id=' + UCommerceClientMgr.getCurrentNodeId(), 'Sort', 600, 450);
+    UcommerceClientMgr.openModal('ucommerce/catalog/dialogs/SortCatalog.aspx?id=' + UcommerceClientMgr.getCurrentNodeId(), 'Sort', 600, 450);
 };
 
 function sortProductsThis() {
-    UCommerceClientMgr.openModal('ucommerce/catalog/dialogs/SortCatalog.aspx?id=' + UCommerceClientMgr.getCurrentNodeId() + '&products=1', 'Sort', 600, 450);
+    UcommerceClientMgr.openModal('ucommerce/catalog/dialogs/SortCatalog.aspx?id=' + UcommerceClientMgr.getCurrentNodeId() + '&products=1', 'Sort', 600, 450);
 };

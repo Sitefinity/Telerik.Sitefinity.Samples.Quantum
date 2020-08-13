@@ -1,5 +1,5 @@
 <%@ page language="C#" autoeventwireup="true" codebehind="AddProduct.aspx.cs"
-	inherits="UCommerce.Web.UI.Orders.AddProduct" MasterPageFile="../MasterPages/Dialog.Master" %>
+	inherits="Ucommerce.Web.UI.Orders.AddProduct" MasterPageFile="../MasterPages/Dialog.Master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -12,7 +12,7 @@
 	    <div>
 		    <p class="guiDialogTiny"><asp:Localize id="Localize3" runat="server" meta:resourcekey="SubHeader" /></p>
 	    </div>
-        <a class="modal-close" onclick="UCommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
+        <a class="modal-close" onclick="UcommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
    	</div>
 	<div class="contentPane propertyPane add-product-on-order dialog-content">
 		<div class="propertyContainer propertyItems">
@@ -34,7 +34,7 @@
     <div class="propertyPane dialog-actions">
 		<div class="footerOkCancel">
 			<asp:Button id="SaveButton" CssClass="dialog-saveButton" runat="server" meta:resourcekey="SaveButton" onclick="SaveButton_Clicked" />
-			<em>or </em><a href="#" class="dialog-cancelButton" onclick="UCommerceClientMgr.closeModalWindow()">
+			<em>or </em><a href="#" class="dialog-cancelButton" onclick="UcommerceClientMgr.closeModalWindow()">
 				<asp:Localize id="Localize1" runat="server" meta:resourcekey="CancelButton" />
 			</a>
 		</div>

@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderNumberSerieBaseProperties.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Orders.EditOrderNumberSerieBaseProperties" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderNumberSerieBaseProperties.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Orders.EditOrderNumberSerieBaseProperties" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />

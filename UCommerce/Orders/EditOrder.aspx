@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="../MasterPages/UCommerceAdmin.Master" AutoEventWireup="true" CodeBehind="EditOrder.aspx.cs" Inherits="UCommerce.Web.UI.Orders.EditOrder" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="../MasterPages/UcommerceAdmin.Master" AutoEventWireup="true" CodeBehind="EditOrder.aspx.cs" Inherits="Ucommerce.Web.UI.Orders.EditOrder" Title="Untitled Page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 	<style type="text/css">
 		.ui-state-highlight 

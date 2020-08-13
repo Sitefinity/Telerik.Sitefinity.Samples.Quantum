@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShippingMethodAvailability.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Orders.EditShippingMethodAvailability" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShippingMethodAvailability.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Orders.EditShippingMethodAvailability" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />

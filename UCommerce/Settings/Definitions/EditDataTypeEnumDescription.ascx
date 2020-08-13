@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDataTypeEnumDescription.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Definitions.EditDataTypeEnumDescription" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDataTypeEnumDescription.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Definitions.EditDataTypeEnumDescription" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />

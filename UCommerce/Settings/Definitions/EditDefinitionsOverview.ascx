@@ -1,3 +1,3 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDefinitionsOverview.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Settings.Definitions.EditDefinitionsOverview1" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDefinitionsOverview.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Settings.Definitions.EditDefinitionsOverview1" %>
 <script src="../../Scripts/visjs/vis.min.js"></script>
-<ucommerce-definitions-graph></ucommerce-definitions-graph>
+<Ucommerce-definitions-graph></Ucommerce-definitions-graph>

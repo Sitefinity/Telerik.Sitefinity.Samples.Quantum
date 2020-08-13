@@ -4,7 +4,7 @@
 
 	$scope.loadSummary = function () {
 
-	    $http.get(UCommerceClientMgr.BaseServiceUrl + '/Widgets/orders/CurrencySummaryToday/all').then(function (response) {
+	    $http.get(UcommerceClientMgr.BaseServiceUrl + '/Widgets/orders/CurrencySummaryToday/all').then(function (response) {
 
 			$scope.currencySummary = response.data;
 			

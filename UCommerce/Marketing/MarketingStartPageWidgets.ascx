@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MarketingStartPageWidgets.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Marketing.MarketingStartPageWidgets" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MarketingStartPageWidgets.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Marketing.MarketingStartPageWidgets" %>
 
-<ucommerce-widgets section="MarketingStartPage" columns="6" rows="6">
+<Ucommerce-widgets section="MarketingStartPage" columns="6" rows="6">
        
-</ucommerce-widgets>
+</Ucommerce-widgets>

@@ -3,40 +3,40 @@
 @using Newtonsoft.Json;
 @using Telerik.Sitefinity.Modules.Pages;
 @using Telerik.Sitefinity.Web;
-@using UCommerce.Runtime;
+@using Ucommerce.Api
+@using Ucommerce.Infrastructure
 
 @Html.StyleSheet(Url.WidgetContent("assets/dist/css/products-review.css"), "head")
-
 @if (!SystemManager.IsDesignMode)
 {
     @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
     @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
 }
-
 @{
-    Layout = null;
-    string pageNodeUrl = SiteMapBase.GetCurrentNode().Url.ToString();
-    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
-    string productId = string.Empty;
+	Layout = null;
+	var catalogContext = ObjectFactory.Instance.Resolve<ICatalogContext>();
+	string pageNodeUrl = SiteMapBase.GetCurrentNode().Url.ToString();
+	string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
+	string productId = string.Empty;
 
-    if (SiteContext.Current.CatalogContext.CurrentProduct != null)
-    {
-        productId = SiteContext.Current.CatalogContext.CurrentProduct.Id.ToString();
-    }
+	if (catalogContext.CurrentProduct != null)
+	{
+		productId = catalogContext.CurrentProduct.Guid.ToString();
+	}
 
-    string categoryId = string.Empty;
+	string categoryId = string.Empty;
 
-    if (SiteContext.Current.CatalogContext.CurrentCategory != null)
-    {
-        categoryId = SiteContext.Current.CatalogContext.CurrentCategory.Id.ToString();
-    }
+	if (catalogContext.CurrentCategory != null)
+	{
+		categoryId = catalogContext.CurrentCategory.Guid.ToString();
+	}
 
-    string catalogGroupId = string.Empty;
+	string catalogGroupId = string.Empty;
 
-    if (SiteContext.Current.CatalogContext.CurrentCatalogGroup != null)
-    {
-        catalogGroupId = SiteContext.Current.CatalogContext.CurrentCatalogGroup.Id.ToString();
-    }
+	if (catalogContext.CurrentCatalogGroup != null)
+	{
+		catalogGroupId = catalogContext.CurrentCatalogGroup.Guid.ToString();
+	}
 }
 
 <div data-component="review-form" id="review-form" class="review-form">

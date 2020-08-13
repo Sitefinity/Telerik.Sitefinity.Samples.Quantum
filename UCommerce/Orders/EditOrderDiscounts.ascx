@@ -1,5 +1,5 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderDiscounts.ascx.cs" Inherits="UCommerce.Web.UI.Orders.EditOrderDiscounts" %>
-<%@ Import Namespace="UCommerce.EntitiesV2"%>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderDiscounts.ascx.cs" Inherits="Ucommerce.Web.UI.Orders.EditOrderDiscounts" %>
+<%@ Import Namespace="Ucommerce.EntitiesV2"%>
 
 <div class="propertyPane leftAligned">
 	<h2 class="propertyPaneTitel orderDiscountsTitel"><asp:Literal runat="server" meta:resourcekey="OrderDiscounts"></asp:Literal></h2>

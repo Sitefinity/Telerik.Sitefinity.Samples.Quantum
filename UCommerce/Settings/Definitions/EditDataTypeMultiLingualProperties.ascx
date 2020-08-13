@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDataTypeMultiLingualProperties.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Settings.Definitions.EditDataTypeMultiLingualProperties" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDataTypeMultiLingualProperties.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Settings.Definitions.EditDataTypeMultiLingualProperties" %>
 <%@ Register TagPrefix="commerce" TagName="ValidationSummary" Src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:validationsummary runat="server" />

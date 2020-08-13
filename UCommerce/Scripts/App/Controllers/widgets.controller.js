@@ -268,10 +268,10 @@
 	};
 
 	$scope.decorateViewWithBaseUrl = function (widget) {
-		widget.view = UCommerceClientMgr.BaseUCommerceUrl + widget.view;
+		widget.view = UcommerceClientMgr.BaseUCommerceUrl + widget.view;
 
 		if (widget.editView != null && widget.editView != '') {
-			widget.editView = UCommerceClientMgr.BaseUCommerceUrl + widget.editView;
+			widget.editView = UcommerceClientMgr.BaseUCommerceUrl + widget.editView;
 		}
 		return widget;
 	}

@@ -5,7 +5,7 @@
 			actionText: '=actiontext',
 			actionListener: '=actionlistener'
 		},
-		templateUrl: UCommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-app-preview/PreviewApp.html',
+		templateUrl: UcommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-app-preview/PreviewApp.html',
 		controller: uc_appPreviewController
 	};
 }

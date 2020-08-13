@@ -60,7 +60,7 @@
 	};
 
 	var getMaxRequestLength = function() {
-	    return $http.get(UCommerceClientMgr.BaseServiceUrl + '/Apps/requestLength').then(function (response) {
+	    return $http.get(UcommerceClientMgr.BaseServiceUrl + '/Apps/requestLength').then(function (response) {
 			maxRequestLength = response.data;
 		});
 	}
@@ -99,7 +99,7 @@
 	}
 
 	$scope.$on("installApp", function (event, subject) {
-	    var serviceUrl = UCommerceClientMgr.BaseServiceUrl + '/Apps/installapp';
+	    var serviceUrl = UcommerceClientMgr.BaseServiceUrl + '/Apps/installapp';
 
 		$scope.installing = true;
 

@@ -1,6 +1,6 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductRelations.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditProductRelations" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductRelations.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.EditProductRelations" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../Controls/ValidationSummaryDisplay.ascx" %>
-<%@ Register TagPrefix="presentation" Assembly="UCommerce.Presentation" namespace="UCommerce.Presentation.Web.Controls" %>
+<%@ Register TagPrefix="presentation" Assembly="Ucommerce.Presentation" namespace="Ucommerce.Presentation.Web.Controls" %>
 
 <commerce:ValidationSummary runat="server" />
 <script type="text/javascript">
@@ -23,7 +23,7 @@
 					{ 'bSortable': false, 'aTargets': [0] }
                 ],
                 "fnInitComplete": function (oSettings, json) {
-                    if (UCommerceClientMgr.Shell === "Umbraco8") {
+                    if (UcommerceClientMgr.Shell === "Umbraco8") {
                         $('#product-relations_filter > label > input[type=text]').attr('placeholder', 'Type to search...');
                         $('#product-relations_filter > label').append('<i class="icon icon-search"></i>');
                         $('div[data-role="productRelations"]').parent().parent().addClass('position-relative');

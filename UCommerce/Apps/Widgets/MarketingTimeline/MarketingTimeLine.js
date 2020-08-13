@@ -6,7 +6,7 @@
         scope: {
 
         },
-        templateUrl: UCommerceClientMgr.BaseUCommerceUrl + 'Apps/Widgets/MarketingTimeLine/marketingView.html',
+        templateUrl: UcommerceClientMgr.BaseUCommerceUrl + 'Apps/Widgets/MarketingTimeLine/marketingView.html',
         controller: marketingTimelineController,
         link: function (scope, elm, attrs) {
         	scope.elm = elm;

@@ -48,7 +48,7 @@
         $scope.setPropertyValue('Interval', $scope.selectedInterval);
         $scope.setPropertyValue('OrderStatus', $scope.selectedOrderStatuses.toString());
 
-        var serviceUrl = UCommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/Search';
+        var serviceUrl = UcommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/Search';
 
         var result = $http.post(
 			serviceUrl,
@@ -79,7 +79,7 @@
 			'ThisYear'
         ];
 
-        $http.get(UCommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/OrderStatuses/all').then(function (response) {
+        $http.get(UcommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/OrderStatuses/all').then(function (response) {
             $scope.orderStatuses = response.data;
         });
     }
@@ -91,7 +91,7 @@
 
     var isLoading = false;
     $scope.loadMore = function () {
-        var serviceUrl = UCommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/Search';
+        var serviceUrl = UcommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/Search';
 
         if (!isLoading) {
             var result = $http.post(
@@ -120,8 +120,8 @@
     }
 
     $scope.redirectToOrder = function (order) {
-        var url = UCommerceClientMgr.BaseUCommerceUrl + 'orders/EditOrder.aspx?id=' + order.OrderId;
-        UCommerceClientMgr.contentFrame(url);
+        var url = UcommerceClientMgr.BaseUCommerceUrl + 'orders/EditOrder.aspx?id=' + order.OrderId;
+        UcommerceClientMgr.contentFrame(url);
     }
 
     ConvertDate = function (orders) {

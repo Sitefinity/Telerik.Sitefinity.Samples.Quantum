@@ -85,7 +85,7 @@
 		if (node.icon == null)
 			return false;
 
-		if (UCommerceClientMgr.Shell === 'Umbraco8' && node.icon.indexOf('icon-') > -1) {
+		if (UcommerceClientMgr.Shell === 'Umbraco8' && node.icon.indexOf('icon-') > -1) {
 			return true;
 		}
 		
@@ -107,7 +107,7 @@
 	}
 
 	$scope.nodeIconClasses = function (icon) {
-      if (UCommerceClientMgr.Shell === 'Umbraco7') {
+      if (UcommerceClientMgr.Shell === 'Umbraco7') {
 			if (icon === '.sprTreeFolder') {
 				icon = 'icon-folder';
 			}
@@ -283,7 +283,7 @@
 			if ($scope.iconIsIconFont({ icon: icon })) {
 				return {};
 			}
-			var backgroundImage = 'url("' + UCommerceClientMgr.BaseUCommerceUrl + 'Images/ui/' + icon + '")';
+			var backgroundImage = 'url("' + UcommerceClientMgr.BaseUCommerceUrl + 'Images/ui/' + icon + '")';
 			return {
 				'background-image': backgroundImage
 			};
@@ -361,16 +361,16 @@
 				};
 			}
 
-			if (UCommerceClientMgr.Shell == 'Sitefinity') {
+			if (UcommerceClientMgr.Shell == 'Sitefinity') {
 					if ($scope.iconFolder == 'uCommerce') {
 							if (icon.indexOf("/Apps/") > -1) {
 									var object = {
-											'background-image': 'url("' + UCommerceClientMgr.BaseUCommerceUrl + icon + '")'
+											'background-image': 'url("' + UcommerceClientMgr.BaseUCommerceUrl + icon + '")'
 									};
 									return object;
 							} else {
 									var object = {
-											'background-image': 'url("' + UCommerceClientMgr.BaseUCommerceUrl + 'shell/content/images/ui/' + icon + '")'
+											'background-image': 'url("' + UcommerceClientMgr.BaseUCommerceUrl + 'shell/content/images/ui/' + icon + '")'
 									};
 									return object;
 							}
@@ -381,16 +381,16 @@
 					}
 			}
 
-			if (UCommerceClientMgr.Shell === 'Sitecore' || UCommerceClientMgr.Shell === 'Kentico') {
+			if (UcommerceClientMgr.Shell === 'Sitecore' || UcommerceClientMgr.Shell === 'Kentico') {
 			    if ($scope.iconFolder === 'uCommerce') {
 					if (icon.indexOf("/Apps/") > -1) {
 						var object = {
-							'background-image': 'url("' + UCommerceClientMgr.BaseUCommerceUrl + icon + '")'
+							'background-image': 'url("' + UcommerceClientMgr.BaseUCommerceUrl + icon + '")'
 						};
 						return object;
 					} else {
 						var object = {
-						'background-image': 'url("' + UCommerceClientMgr.BaseUCommerceUrl + 'shell/content/images/ui/' + icon + '")'
+						'background-image': 'url("' + UcommerceClientMgr.BaseUCommerceUrl + 'shell/content/images/ui/' + icon + '")'
 						};
 						return object;
 					}
@@ -400,7 +400,7 @@
 					};
 				}
 			}
-			if (UCommerceClientMgr.Shell === 'Umbraco7') {
+			if (UcommerceClientMgr.Shell === 'Umbraco7') {
 				var lowerCaseIcon = icon.toLowerCase();
 				if ($scope.iconFolder === 'uCommerce') {
 					return {
@@ -419,11 +419,11 @@
 					};
 				}
 			}
-			if (UCommerceClientMgr.Shell == 'Umbraco8') {
+			if (UcommerceClientMgr.Shell == 'Umbraco8') {
 				return { 'display': "inline", "color": "#1b264f" }; 
 			}
 			
-			if (UCommerceClientMgr.Shell == 'Umbraco') {
+			if (UcommerceClientMgr.Shell == 'Umbraco') {
 				if ($scope.iconFolder == 'uCommerce') {
 					return {
 						'background-image': 'url("/umbraco/uCommerce/images/ui/' + icon + '")',
@@ -462,7 +462,7 @@
 		if (node) {
 			if (node.hasChildren) {
 				var toggleState = node.toggleState;
-        if (UCommerceClientMgr.Shell === 'Umbraco7') {
+        if (UcommerceClientMgr.Shell === 'Umbraco7') {
 					switch (toggleState) {
 						case 'treeItemClosed':
 							return ['icon-navigation-right'];
@@ -589,9 +589,9 @@
 
 	// Used in Tree to add placeholder with loading indicator while childnodes are loading.
 	function addSpinnerNode(node) {
-		var nodeSpinner = UCommerceClientMgr.BaseUCommerceUrl + 'Images/ui/ajax-loader.gif';
+		var nodeSpinner = UcommerceClientMgr.BaseUCommerceUrl + 'Images/ui/ajax-loader.gif';
 
-		if (UCommerceClientMgr.Shell === 'Umbraco7') {
+		if (UcommerceClientMgr.Shell === 'Umbraco7') {
 			if ($scope.iconFolder == 'uCommerce') {
 				nodeSpinner = "ajax-loader.gif";
 
@@ -600,7 +600,7 @@
 			}
 		}
 
-		if (UCommerceClientMgr.Shell === 'Umbraco8') {
+		if (UcommerceClientMgr.Shell === 'Umbraco8') {
 			if ($scope.iconFolder == 'uCommerce') {
 				nodeSpinner = "ajax-loader.gif";
 
@@ -609,23 +609,23 @@
 			}
 		}
 
-		if (UCommerceClientMgr.Shell === 'Umbraco') {
+		if (UcommerceClientMgr.Shell === 'Umbraco') {
 			nodeSpinner = "ajax-loader.gif";
 		}
 
-		if (UCommerceClientMgr.Shell === 'Sitecore') {
+		if (UcommerceClientMgr.Shell === 'Sitecore') {
 			if ($scope.iconFolder == 'uCommerce') {
 				nodeSpinner = "ajax-loader.gif";
 			}
         }
 
-	    if (UCommerceClientMgr.Shell === 'Kentico') {
+	    if (UcommerceClientMgr.Shell === 'Kentico') {
 	        if ($scope.iconFolder == 'uCommerce') {
 	            nodeSpinner = "ajax-loader.gif";
             }
         }
 
-        if (UCommerceClientMgr.Shell === "Sitefinity") {
+        if (UcommerceClientMgr.Shell === "Sitefinity") {
             if ($scope.iconFolder == 'uCommerce') {
                 nodeSpinner = "ajax-loader.gif";
             }

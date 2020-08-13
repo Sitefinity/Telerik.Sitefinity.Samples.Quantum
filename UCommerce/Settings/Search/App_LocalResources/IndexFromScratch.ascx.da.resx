@@ -126,4 +126,36 @@
   <data name="ScratchIndexer.Text" xml:space="preserve">
     <value>Indeksering fra bunden</value>
   </data>
+    
+  <data name="TaskStatus.Canceled" xml:space="preserve">
+    <value>Indeksering annulleres.</value>
+  </data>
+
+  <data name="TaskStatus.Created" xml:space="preserve">
+    <value>Indeksering er initialiseret, men er i kø.</value>
+  </data>
+
+  <data name="TaskStatus.Faulted" xml:space="preserve">
+    <value>Indeksering er afsluttet på grund af en uhåndteret fejl.</value>
+  </data>
+
+  <data name="TaskStatus.RanToCompletion" xml:space="preserve">
+    <value>Indeksering er afsluttet korrekt.</value>
+  </data>
+
+  <data name="TaskStatus.Running" xml:space="preserve">
+    <value>Indekseringen kører og er endnu ikke afsluttet.</value>
+  </data>
+
+  <data name="TaskStatus.WaitingForActivation" xml:space="preserve">
+    <value>Indeksering venter på at blive lagt i kø.</value>
+  </data>
+  
+  <data name="TaskStatus.WaitingForChildrenToComplete" xml:space="preserve">
+    <value>Indeksering er færdig med at udføre og venter på, at underopgaver skal afsluttes.</value>
+  </data>
+  
+  <data name="TaskStatus.WaitingToRun" xml:space="preserve">
+    <value>Indeksering er planlagt til udførelse, men er endnu ikke begyndt.</value>
+  </data>
 </root>

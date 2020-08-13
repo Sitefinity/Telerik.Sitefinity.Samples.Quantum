@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProductReviewsList.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.ProductReviewList" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProductReviewsList.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.ProductReviewList" %>
 
 <script type="text/javascript">
 

@@ -19,157 +19,148 @@
     string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
 }
 
-@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
-
-<div data-component="address-widget" id="address-widget" class="mb-5">
+<div data-component="address-widget" id="address-widget">
     <script type="application/json" purl="true">
         { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
     </script>
     <template v-if="model">
-        <div class="container mt-5">
+        <div>
             <div class="js-address-billing">
                 <h3>@Html.Resource("BillingAddress", "UcommerceResources")</h3>
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="FirstName" label="@Html.Resource("FirstName", "UcommerceResources") *" input-classes="form-control required"></input-field>
+                <div>
+                    <div>
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="FirstName" label="@Html.Resource("FirstName", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
                     </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="LastName" label="@Html.Resource("LastName", "UcommerceResources") *" input-classes="form-control required"></input-field>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="EmailAddress" label="@Html.Resource("Email", "UcommerceResources") *" input-classes="form-control required email"></input-field>
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="Attention" label="@Html.Resource("Attention", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                    <div>
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="LastName" label="@Html.Resource("LastName", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="MobilePhoneNumber" label="@Html.Resource("MobilePhone", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                <div>
+                    <div>
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="EmailAddress" label="@Html.Resource("Email", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
                     </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="PhoneNumber" label="@Html.Resource("Phone", "UcommerceResources")" input-classes="form-control"></input-field>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="Line1" label="@Html.Resource("Street", "UcommerceResources") *" input-classes="form-control required"></input-field>
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="Line2" label="@Html.Resource("Street2", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                    <div>
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="Attention" label="@Html.Resource("Attention", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="PostalCode" label="@Html.Resource("PostalCode", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                <div>
+                    <div>
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="MobilePhoneNumber" label="@Html.Resource("MobilePhone", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
                     </div>
-
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="City" label="@Html.Resource("City", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                    <div>
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="PhoneNumber" label="@Html.Resource("Phone", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <label for="BillingAddress_CountryId" class="font-weight-bold">@Html.Resource("Country", "UcommerceResources")</label>
+                <div>
+                    <div>
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="Line1" label="@Html.Resource("Street", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
+                    </div>
+                    <div>
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="Line2" label="@Html.Resource("Street2", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="PostalCode" label="@Html.Resource("PostalCode", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
+                    </div>
+
+                    <div>
+                        <input-field type="text" required=true :model="model" address-type="BillingAddress" field-name="City" label="@Html.Resource("City", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <label>@Html.Resource("Country", "UcommerceResources")</label>
                         <select id="BillingAddress_CountryId" name="BillingAddress.CountryId" class="countryDropdownCheckout margin-bottom form-control">
                             <option v-for="(country, index) in model.AvailableCountries" :selected="country.Value == model.BillingAddress.CountryId" :value="country.Value">{{ country.Text }}</option>
                         </select>
                     </div>
 
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="BillingAddress" field-name="CompanyName" label="@Html.Resource("Company", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                    <div>
+                        <input-field type="text" :model="model" address-type="BillingAddress" field-name="CompanyName" label="@Html.Resource("Company", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container mb-5">
-            <div v-if="model.IsShippingAddressDifferent" class="js-address-shipping">
-                <h3>@Html.Resource("ShippingAddress", "UcommerceResources")</h3>
+        <div class="js-address-shipping" v-if="model.IsShippingAddressDifferent">
+            <legend>@Html.Resource("ShippingAddress", "UcommerceResources")</legend>
 
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="FirstName" label="@Html.Resource("FirstName", "UcommerceResources") *" input-classes="col-md-12 form-control required"></input-field>
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="LastName" label="@Html.Resource("LastName", "UcommerceResources") *" input-classes="col-md-12 form-control required margin-bottom"></input-field>
-                    </div>
+            <div>
+                <div>
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="FirstName" label="@Html.Resource("FirstName", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="EmailAddress" label="@Html.Resource("Email", "UcommerceResources") *" input-classes="col-md-12 form-control email required margin-bottom"></input-field>
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="Attention" label="@Html.Resource("Attention", "UcommerceResources")" input-classes="col-md-12 form-control margin-bottom"></input-field>
-                    </div>
+                <div>
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="LastName" label="@Html.Resource("LastName", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
                 </div>
+            </div>
 
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="MobilePhoneNumber" label="@Html.Resource("MobilePhone", "UcommerceResources")" input-classes="col-md-12 form-control margin-bottom"></input-field>
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="PhoneNumber" label="@Html.Resource("Phone", "UcommerceResources")" input-classes="col-md-12 form-control margin-bottom"></input-field>
-                    </div>
+            <div>
+                <div>
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="EmailAddress" label="@Html.Resource("Email", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="Line1" label="@Html.Resource("Street", "UcommerceResources") *" input-classes="col-md-12 form-control required margin-bottom"></input-field>
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="Line2" label="@Html.Resource("Street2", "UcommerceResources")" input-classes="col-md-12 form-control margin-bottom"></input-field>
-                    </div>
+                <div>
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="Attention" label="@Html.Resource("Attention", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
                 </div>
+            </div>
 
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="PostalCode" label="@Html.Resource("PostalCode", "UcommerceResources") *" input-classes="col-md-12 form-control required margin-bottom"></input-field>
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" required=true :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="City" label="@Html.Resource("City", "UcommerceResources") *" input-classes="col-md-12 form-control required margin-bottom"></input-field>
-                    </div>
+            <div>
+                <div>
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="MobilePhoneNumber" label="@Html.Resource("MobilePhone", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
                 </div>
+                <div>
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="PhoneNumber" label="@Html.Resource("Phone", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                </div>
+            </div>
 
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <label for="ShippingAddress_CountryId" class="font-weight-bold">@Html.Resource("Country", "UcommerceResources")</label>
-                        <select id="ShippingAddress_CountryId" name="ShippingAddress.CountryId" class="countryDropdownCheckout margin-bottom form-control">
-                            <option v-for="(country, index) in model.AvailableCountries" :selected="country.Value == model.ShippingAddress.CountryId" :value="country.Value">{{ country.Text }}</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6 form-group">
-                        <input-field type="text" :model="model" label-classes="font-weight-bold" error-classes="error-custom" address-type="ShippingAddress" field-name="CompanyName" label="Company" input-classes="col-md-12 form-control margin-bottom"></input-field>
-                    </div>
+            <div>
+                <div>
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="Line1" label="@Html.Resource("Street", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
+                </div>
+                <div>
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="Line2" label="@Html.Resource("Street2", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="PostalCode" label="@Html.Resource("PostalCode", "UcommerceResources")" input-classes="form-control required margin-bottom"></input-field>
+                </div>
+                <div>
+                    <input-field type="text" required=true :model="model" address-type="ShippingAddress" field-name="City" label="@Html.Resource("City", "UcommerceResources") *" input-classes="form-control required margin-bottom"></input-field>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <label>@Html.Resource("Country", "UcommerceResources")</label>
+                    <select id="ShippingAddress_CountryId" name="ShippingAddress.CountryId" class="countryDropdownCheckout margin-bottom form-control">
+                        <option v-for="(country, index) in model.AvailableCountries" :selected="country.Value == model.ShippingAddress.CountryId" :value="country.Value">{{ country.Text }}</option>
+                    </select>
+                </div>
+                <div>
+                    <input-field type="text" :model="model" address-type="ShippingAddress" field-name="CompanyName" label="@Html.Resource("Company", "UcommerceResources")" input-classes="form-control margin-bottom"></input-field>
                 </div>
             </div>
         </div>
-        <div class="container my-4">
-            <div class="row">
-                <div class="col-md-12">
-                    <label for="IsShippingAddressDifferent" class="d-inline">
-                        @Html.Resource("DifferentShippingAddress", "UcommerceResources")
-                        <input id="IsShippingAddressDifferent" name="IsShippingAddressDifferent" type="checkbox" class="js-address-checkbox" v-model="model.IsShippingAddressDifferent" v-on:change="handleIsShippingAddressDifferent">
-                    </label>
-                </div>
-            </div>
-            <checkout-navigation v-bind:model="model"
-                                 continue-label="@Html.Resource("ContinueToNextStep", "UcommerceResources")"
-                                 back-label="@Html.Resource("BackButton", "UcommerceResources")"
-                                 mode="Bootstrap4"
-                                 :continue-fn="continueFn"
-                                 back-link-classes="btn btn-light btn-lg text-info float-right float-md-left"
-                                 continue-btn-classes="btn btn-info btn-lg mt-3 mt-md-0 float-right"
-                                 classes="row my-4">
-            </checkout-navigation>
+
+        <div>
+            <label for="toggleShippingView">
+
+                @Html.Resource("DifferentShippingAddress", "UcommerceResources")
+                <input id="IsShippingAddressDifferent" name="IsShippingAddressDifferent" type="checkbox" class="js-address-checkbox" v-model="model.IsShippingAddressDifferent" v-on:change="handleIsShippingAddressDifferent">
+            </label>
         </div>
+
+
+        <checkout-navigation v-bind:model="model"
+                             continue-label="@Html.Resource("ContinueToNextStep", "UcommerceResources")"
+                             back-label="@Html.Resource("BackButton", "UcommerceResources")"
+                             :continue-fn="continueFn"></checkout-navigation>
     </template>
 </div>
-

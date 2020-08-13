@@ -1,13 +1,13 @@
 ﻿function uc_catalogSearchController ($scope, $http, $rootScope, $timeout) {
   $scope.baseCommerceImagesUrl =
-    UCommerceClientMgr.BaseUCommerceUrl + 'images/ui/'
+    UcommerceClientMgr.BaseUCommerceUrl + 'images/ui/'
   $scope.searchTerm = ''
   $scope.nrOfResults = 0
   $scope.message = ''
   $scope.result = []
   $scope.showSpinner = false
   var serviceUrl =
-    UCommerceClientMgr.BaseServiceUrl + 'ProductCatalogSearch/ByName'
+    UcommerceClientMgr.BaseServiceUrl + 'ProductCatalogSearch/ByName'
   var _debounce
   $scope.initiateProductSearch = function () {
     if (!$scope.searchTerm.length) {

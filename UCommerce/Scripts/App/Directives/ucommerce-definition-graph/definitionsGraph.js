@@ -9,7 +9,7 @@
             close: '&',
             timeout: '@',
         },
-        templateUrl: UCommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-definition-graph/view.html',
+        templateUrl: UcommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-definition-graph/view.html',
         controller: uc_definitionsGraphController,
         link: function (scope, elm, attrs) {
         }

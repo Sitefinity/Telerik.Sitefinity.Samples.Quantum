@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreatePriceGroup.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Catalog.CreatePriceGroup" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreatePriceGroup.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Catalog.CreatePriceGroup" %>
 <table>
 	<tr>
 		<td>
@@ -40,5 +40,5 @@
 <div style="padding-top: 25px">
     <asp:Button runat="server" ID="CreateButton" Width="90px" Text="Create" OnClick="CreateButton_Clicked" meta:ResourceKey="CreateButton" />
     <em><asp:Localize meta:resourcekey="OrLabel" runat="server">or</asp:Localize></em>
-    <a href="#" onclick="UCommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand"><asp:Localize meta:resourcekey="CancelLabel" runat="server">Cancel</asp:Localize></a>    
+    <a href="#" onclick="UcommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand"><asp:Localize meta:resourcekey="CancelLabel" runat="server">Cancel</asp:Localize></a>    
 </div>

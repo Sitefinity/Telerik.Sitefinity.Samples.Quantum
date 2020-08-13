@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SalesTotals.ascx.cs" Inherits="UCommerce.Web.UI.Analytics.SalesTotals" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SalesTotals.ascx.cs" Inherits="Ucommerce.Web.UI.Analytics.SalesTotals" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../Controls/ValidationSummaryDisplay.ascx" %>
 <script type="text/javascript">
 	$(function () {

@@ -1,6 +1,6 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductPricing.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditProductPricing" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductPricing.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.EditProductPricing" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../Controls/ValidationSummaryDisplay.ascx" %>
-<%@ Import Namespace="UCommerce.EntitiesV2"%>
+<%@ Import Namespace="Ucommerce.EntitiesV2"%>
 
 <commerce:ValidationSummary runat="server" />
 

@@ -1,5 +1,5 @@
-<%@ control language="C#" autoeventwireup="True" codebehind="EditPaymentMethodPricing.ascx.cs" inherits="UCommerce.Web.UI.Settings.Orders.EditPaymentMethodPricing" %>
-<%@ Import Namespace="UCommerce.EntitiesV2" %>
+<%@ control language="C#" autoeventwireup="True" codebehind="EditPaymentMethodPricing.ascx.cs" inherits="Ucommerce.Web.UI.Settings.Orders.EditPaymentMethodPricing" %>
+<%@ Import Namespace="Ucommerce.EntitiesV2" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />

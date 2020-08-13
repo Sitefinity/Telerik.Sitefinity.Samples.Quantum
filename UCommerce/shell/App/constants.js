@@ -4,7 +4,7 @@
     serviceBaseUrl: '/ucommerceapi/'
 };
 
-var UCommerceClientMgr = {
+var UcommerceClientMgr = {
     BaseUCommerceUrl: constants.webPageBaseUrl,
     Shell: 'Sitefinity'
 }

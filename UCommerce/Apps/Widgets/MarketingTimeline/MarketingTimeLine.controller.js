@@ -2,7 +2,7 @@
 
     $scope.loadTimeLine = function () {
         var container = $scope.elm.find('#marketingTimeLineWidget')[0];
-        $http.get(UCommerceClientMgr.BaseServiceUrl + '/Widgets/Marketing/MarketingTimelineRequest/all').then(function (response) {
+        $http.get(UcommerceClientMgr.BaseServiceUrl + '/Widgets/Marketing/MarketingTimelineRequest/all').then(function (response) {
 
             var items = response.data;
 

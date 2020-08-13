@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDefinitionFieldDescription.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Definitions.EditDefinitionFieldDescription" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDefinitionFieldDescription.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Definitions.EditDefinitionFieldDescription" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 <commerce:ValidationSummary runat="server" />
 

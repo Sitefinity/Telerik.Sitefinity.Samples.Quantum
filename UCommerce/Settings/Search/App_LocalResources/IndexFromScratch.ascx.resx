@@ -126,4 +126,36 @@
   <data name="ScratchIndexer.Text" xml:space="preserve">
     <value>Scratch Indexer</value>
   </data>
+  
+  <data name="TaskStatus.Canceled" xml:space="preserve">
+    <value>Indexing is being cancelled.</value>
+  </data>
+
+  <data name="TaskStatus.Created" xml:space="preserve">
+    <value>Indexing has been initialized but has not yet been scheduled.</value>
+  </data>
+
+  <data name="TaskStatus.Faulted" xml:space="preserve">
+    <value>Indexing failed due to an unhandled error. See the logs for details.</value>
+  </data>
+
+  <data name="TaskStatus.RanToCompletion" xml:space="preserve">
+    <value>Indexing completed successfully.</value>
+  </data>
+
+  <data name="TaskStatus.Running" xml:space="preserve">
+    <value>Indexing is running and has not yet completed.</value>
+  </data>
+
+  <data name="TaskStatus.WaitingForActivation" xml:space="preserve">
+    <value>Indexing is waiting to be scheduled.</value>
+  </data>
+  
+  <data name="TaskStatus.WaitingForChildrenToComplete" xml:space="preserve">
+    <value>Indexing has finished executing and is waiting for child tasks to complete.</value>
+  </data>
+  
+  <data name="TaskStatus.WaitingToRun" xml:space="preserve">
+    <value>Indexing has been scheduled for execution but has not yet begun executing.</value>
+  </data>
 </root>

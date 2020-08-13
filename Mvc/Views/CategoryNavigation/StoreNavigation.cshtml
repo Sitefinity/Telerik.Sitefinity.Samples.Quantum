@@ -1,11 +1,14 @@
-﻿@using UCommerce.Extensions
+﻿@using Ucommerce.Api
+@using Ucommerce.Extensions
+@using Ucommerce.Infrastructure
 @model UCommerce.Sitefinity.UI.Mvc.ViewModels.CategoryNavigationViewModel
 @{
-	var currentCategory = UCommerce.Runtime.SiteContext.Current.CatalogContext.CurrentCategory;
+	var catalogLibrary = ObjectFactory.Instance.Resolve<ICatalogContext>();
+	var currentCategory = catalogLibrary.CurrentCategory;
 	var categoryName = string.Empty;
 	if (currentCategory != null)
 	{
-		categoryName = currentCategory.DisplayName();
+		categoryName = currentCategory.DisplayName;
 	}
 }
 @if (Model.Categories.Any())

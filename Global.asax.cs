@@ -19,7 +19,7 @@ namespace SitefinityWebApp
 
 			if (Directory.Exists(ravenDir) && Directory.GetFiles(ravenDir).Any()) return;
 
-			var scratchIndexer = UCommerce.Infrastructure.ObjectFactory.Instance.Resolve<UCommerce.Search.Indexers.IScratchIndexer>();
+			var scratchIndexer = Ucommerce.Infrastructure.ObjectFactory.Instance.Resolve<Ucommerce.Search.Indexers.IScratchIndexer>();
 			scratchIndexer.Index();
 		}
 	}

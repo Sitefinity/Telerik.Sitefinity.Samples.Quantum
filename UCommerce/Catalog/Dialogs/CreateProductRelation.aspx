@@ -1,5 +1,5 @@
 <%@ page language="C#" autoeventwireup="true" codebehind="CreateProductRelation.aspx.cs"
-	inherits="UCommerce.Web.UI.Catalog.Dialogs.CreateProductRelation" masterpagefile="../../MasterPages/Dialog.Master" %>
+	inherits="Ucommerce.Web.UI.Catalog.Dialogs.CreateProductRelation" masterpagefile="../../MasterPages/Dialog.Master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -12,7 +12,7 @@
 	    <div>
 		    <p class="guiDialogTiny"><asp:Localize id="Localize3" runat="server" meta:resourcekey="SubHeader" /></p>
 	    </div>
-      <a class="modal-close" onclick="UCommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
+      <a class="modal-close" onclick="UcommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
    	</div>
 	<div class="create-product-relation dialog-content">
 		
@@ -26,7 +26,7 @@
 			<div class="dialog-content__property">
 				<div class="propertyItemHeader" ><asp:Localize id="Localize6" runat="server" meta:resourcekey="TwoWayRelation" /></div>
 				<div class="propertyItemContent" >
-					<asp:CheckBox id="TwoWayRelationshipCheckBox" class="ucommerce-toggle-check-box" runat="server" />
+					<asp:CheckBox id="TwoWayRelationshipCheckBox" class="Ucommerce-toggle-check-box" runat="server" />
 				</div>
 			</div> 
 		
@@ -36,7 +36,7 @@
 	    <div class="footerOkCancel">
 			<asp:Button id="SaveButton" CssClass="dialog-saveButton" runat="server" meta:resourcekey="SaveButton" onclick="SaveButton_Clicked" />
 			<em>or&nbsp;</em>
-			<a href="#" Class="dialog-cancelButton" onclick="UCommerceClientMgr.closeModalWindow()"><asp:Localize id="Localize1" runat="server" meta:resourcekey="CancelButton" /></a>
+			<a href="#" Class="dialog-cancelButton" onclick="UcommerceClientMgr.closeModalWindow()"><asp:Localize id="Localize1" runat="server" meta:resourcekey="CancelButton" /></a>
 		</div>
 	</div>
 </asp:content>

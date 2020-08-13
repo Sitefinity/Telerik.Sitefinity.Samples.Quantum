@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderPayments.ascx.cs" Inherits="UCommerce.Web.UI.Orders.EditOrderPayments" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderPayments.ascx.cs" Inherits="Ucommerce.Web.UI.Orders.EditOrderPayments" %>
 
 <asp:Repeater runat="server" ID="PaymentRepeater" DataSource="<%# Payments %>">
 	<ItemTemplate>

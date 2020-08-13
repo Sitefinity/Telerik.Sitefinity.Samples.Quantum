@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderAddress.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Orders.EditOrderAddress" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderAddress.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Orders.EditOrderAddress" %>
 
 <asp:PlaceHolder runat="server" ID="EditableFields" Visible="False">
     <div><asp:TextBox CssClass="hintText smallWidthInput" data-placeholder="<%$ Resources:FirstName %>" runat="server" ID="BillingFirstName" Text='<%#OrderAddress.FirstName %>' /></div>

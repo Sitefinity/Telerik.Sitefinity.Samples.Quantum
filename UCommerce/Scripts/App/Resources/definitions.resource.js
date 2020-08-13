@@ -1,5 +1,5 @@
 ﻿var uc_definitions_Resource = function($http) {
-    var serviceUrl = UCommerceClientMgr.BaseServiceUrl;
+    var serviceUrl = UcommerceClientMgr.BaseServiceUrl;
 
     return {
          getDefinitionGraph: function (id) {

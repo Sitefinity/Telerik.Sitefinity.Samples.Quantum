@@ -10,7 +10,7 @@
 		$scope.redirectToAppsStoreText = uCommerceLocalizationService.getTranslatedStrings('Admin', 'RedirectToAppsStore');
 	});
 
-	$http.get(UCommerceClientMgr.BaseServiceUrl + '/Apps/installedapps').then(function (response) {
+	$http.get(UcommerceClientMgr.BaseServiceUrl + '/Apps/installedapps').then(function (response) {
 		$scope.manifests = response.data;
 	});
 
@@ -21,7 +21,7 @@
 	}
 
 	$scope.$on("uninstallApp", function(event, subject) {
-	    var serviceUrl = UCommerceClientMgr.BaseServiceUrl + '/Apps/uninstallapp';
+	    var serviceUrl = UcommerceClientMgr.BaseServiceUrl + '/Apps/uninstallapp';
 		$scope.uninstalling = true;
 
 		var result = $http.post(

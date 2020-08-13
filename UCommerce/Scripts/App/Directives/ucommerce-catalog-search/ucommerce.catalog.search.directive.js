@@ -12,7 +12,7 @@
             enforceCheckboxClick: '=',
             selectedNodeStyle: '=',
         },
-        templateUrl: UCommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-catalog-search/ucommerce.catalog.search.html',
+        templateUrl: UcommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-catalog-search/ucommerce.catalog.search.html',
         replace: true,
         controller: uc_catalogSearchController,
         compile: function (tElement, tAttr) {

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="../../masterpages/Dialog.master" CodeBehind="SetCategoryProducts.aspx.cs" Inherits="UCommerce.Web.UI.UCommerce.Catalog.Dialogs.SetCategoryProducts" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="../../masterpages/Dialog.master" CodeBehind="SetCategoryProducts.aspx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Catalog.Dialogs.SetCategoryProducts" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -16,9 +16,9 @@
 		    <p class="guiDialogTiny">
 			    <asp:Localize id="Localize3" runat="server" meta:resourcekey="SubHeader" />
 		    </p>
-            <a class="modal-close" onclick="UCommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
+            <a class="modal-close" onclick="UcommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
 	    </div>
-        <a class="modal-close" onclick="UCommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
+        <a class="modal-close" onclick="UcommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
    	</div>
     <commerce:ValidationSummary runat="server" />
     <div class="contentPane propertyPane set-category-products dialog-content">
@@ -33,7 +33,7 @@
 			<em>
 			    <asp:Localize id="Localize5" runat="server" meta:resourcekey="Or" />
 			</em>
-            <a href="#" Class="dialog-cancelButton" onclick="UCommerceClientMgr.closeModalWindow()">
+            <a href="#" Class="dialog-cancelButton" onclick="UcommerceClientMgr.closeModalWindow()">
 				<asp:Localize id="Localize1" runat="server" meta:resourcekey="CancelButton" />
 			</a>
 		</div>

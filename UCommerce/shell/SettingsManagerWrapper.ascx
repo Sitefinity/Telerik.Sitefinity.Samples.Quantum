@@ -1,4 +1,4 @@
-﻿<%@ control language="C#" autoeventwireup="true" codebehind="SettingsManagerWrapper.ascx.cs" inherits="UCommerce.Web.Shell.Sitefinity.SettingsManagerWrapper" %>
+﻿<%@ control language="C#" autoeventwireup="true" codebehind="SettingsManagerWrapper.ascx.cs" inherits="Ucommerce.Web.Shell.Sitefinity.SettingsManagerWrapper" %>
 <%@ Register Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI" TagPrefix="sf" %>
 
 <sf:ResourceLinks ID="ResourceLinks" runat="server">
@@ -11,7 +11,7 @@
     var delay = 250; // delay after event is "complete" to run callback
 
     function resizeIFrameToFitContent() {
-        var iFrame = document.getElementById('ucommerceIFrame');
+        var iFrame = document.getElementById('UcommerceIFrame');
         var footerHeight = document.getElementsByClassName("sfFooter")[0].offsetHeight;
         var headerHeight = document.getElementsByClassName("sfHeader")[0].offsetHeight;
         var paddingTop = 0;
@@ -39,4 +39,4 @@
 
 </script>
 
-<iframe id="ucommerceIFrame" src="/ucommerce/shell/Index.aspx" style="width: 100%; border: 0"></iframe>
+<iframe id="UcommerceIFrame" src="/Ucommerce/shell/Index.aspx" style="width: 100%; border: 0"></iframe>

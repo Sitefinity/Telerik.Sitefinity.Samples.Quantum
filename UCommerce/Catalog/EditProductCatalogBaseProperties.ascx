@@ -1,5 +1,5 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductCatalogBaseProperties.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditProductCatalogBaseProperties" %>
-<%@ Import Namespace="UCommerce.EntitiesV2" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductCatalogBaseProperties.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.EditProductCatalogBaseProperties" %>
+<%@ Import Namespace="Ucommerce.EntitiesV2" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../Controls/ValidationSummaryDisplay.ascx" %>
 <%@ Register tagPrefix="commerce" tagName="AuditInformation" src="../Controls/AuditInformation.ascx" %>
 
@@ -23,7 +23,7 @@
 	<div class="propertyItem">
 		<div class="propertyItemHeader"><asp:Localize ID="Localize3" runat="server" meta:resourceKey="ShowPricesWithVat" /></div>
 		<div class="propertyItemContent">
-			<asp:CheckBox runat="server" class="ucommerce-toggle-check-box" ID="ShowPriceInclVatCheckBox" Checked="<%# View.Catalog.ShowPricesIncludingVAT %>" />
+			<asp:CheckBox runat="server" class="Ucommerce-toggle-check-box" ID="ShowPriceInclVatCheckBox" Checked="<%# View.Catalog.ShowPricesIncludingVAT %>" />
 		</div>
 	</div>
 

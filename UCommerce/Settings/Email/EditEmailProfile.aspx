@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="../../MasterPages/UCommerceAdmin.Master" AutoEventWireup="true" CodeBehind="EditEmailProfile.aspx.cs" Inherits="UCommerce.Web.UI.Settings.Email.EditEmailProfile" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="../../MasterPages/UcommerceAdmin.Master" AutoEventWireup="true" CodeBehind="EditEmailProfile.aspx.cs" Inherits="Ucommerce.Web.UI.Settings.Email.EditEmailProfile" Title="Untitled Page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
 </asp:Content>

@@ -1,5 +1,5 @@
-<%@ Import Namespace="UCommerce.Presentation.Web" %>
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditPaymentMethodBaseProperties.ascx.cs" inherits="UCommerce.Web.UI.Settings.Orders.EditPaymentMethodBaseProperties" %>
+<%@ Import Namespace="Ucommerce.Presentation.Web" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditPaymentMethodBaseProperties.ascx.cs" inherits="Ucommerce.Web.UI.Settings.Orders.EditPaymentMethodBaseProperties" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />
@@ -26,7 +26,7 @@
 	<div class="propertyItem">
 		<div class="propertyItemHeader"><asp:Localize ID="Localize2" runat="server" meta:resourceKey="Enabled" /></div>
 		<div class="propertyItemContent">
-			<asp:CheckBox class="ucommerce-toggle-check-box" runat="server" ID="EnabledCheckBox" Checked="<%# View.PaymentMethod.Enabled %>" />
+			<asp:CheckBox class="Ucommerce-toggle-check-box" runat="server" ID="EnabledCheckBox" Checked="<%# View.PaymentMethod.Enabled %>" />
 		</div>
 	</div>
 	<div class="propertyPaneFooter">-</div>

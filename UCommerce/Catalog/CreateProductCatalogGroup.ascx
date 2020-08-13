@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateProductCatalogGroup.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.CreateProductCatalogGroup" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateProductCatalogGroup.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.CreateProductCatalogGroup" %>
 <div>
     <asp:Localize meta:resourcekey="NameLabel" runat="server">Name:</asp:Localize>
 </div>
@@ -33,6 +33,6 @@
 <div style="padding-top: 25px">
     <asp:Button runat="server" ID="CreateButton" Width="90px" Text="Create" meta:ResourceKey="CreateButton" OnClick="CreateButton_Clicked" />
     <em><asp:Localize meta:resourcekey="OrLabel" runat="server">or</asp:Localize></em>
-    <a href="#" onclick="UCommerceClientMgr.closeModalWindow();" style="color: blue;">
+    <a href="#" onclick="UcommerceClientMgr.closeModalWindow();" style="color: blue;">
         <asp:Localize meta:resourcekey="CancelLabel" runat="server">Cancel</asp:Localize></a>
 </div>

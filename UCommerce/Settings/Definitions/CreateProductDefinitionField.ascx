@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateProductDefinitionField.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Definitions.CreateProductDefinitionField" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateProductDefinitionField.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Definitions.CreateProductDefinitionField" %>
 <table>
 	<tr>
 		<td><asp:Localize ID="Localize2" runat="server" meta:ResourceKey="Name" /></td>
@@ -20,5 +20,5 @@
 <div style="padding-top: 25px">
     <asp:Button runat="server" ID="CreateButton" Width="90px" Text="Create" OnClick="CreateButton_Clicked" />
     <em>or</em>
-    <a href="#" onclick="UCommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">Cancel</a>    
+    <a href="#" onclick="UcommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">Cancel</a>    
 </div>

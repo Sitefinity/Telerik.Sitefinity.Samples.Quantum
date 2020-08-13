@@ -155,10 +155,10 @@
 			return $scope.iconFolderOverwrite + icon;
 		}
 		if (icon) {
-			if (UCommerceClientMgr.Shell == 'Sitecore') {
+			if (UcommerceClientMgr.Shell == 'Sitecore') {
 				if ($scope.iconFolder == 'uCommerce') {
 					var object = {
-						'background-image': 'url("' + UCommerceClientMgr.BaseUCommerceUrl + 'shell/content/images/ui/' + icon + '")'
+						'background-image': 'url("' + UcommerceClientMgr.BaseUCommerceUrl + 'shell/content/images/ui/' + icon + '")'
 					};
 					return object;
 				} else {
@@ -167,8 +167,8 @@
 					};
 				}
 			}
-			if (UCommerceClientMgr.Shell == 'Umbraco7' ||
-				UCommerceClientMgr.Shell == 'Umbraco8') {
+			if (UcommerceClientMgr.Shell == 'Umbraco7' ||
+				UcommerceClientMgr.Shell == 'Umbraco8') {
 				var lowerCaseIcon = icon.toLowerCase();
 				if ($scope.iconFolder == 'uCommerce') {
 					return {
@@ -186,7 +186,7 @@
 					};
 				}
 			}
-			if (UCommerceClientMgr.Shell == 'Umbraco') {
+			if (UcommerceClientMgr.Shell == 'Umbraco') {
 				if ($scope.iconFolder == 'uCommerce') {
 					return {
 						'background-image': 'url("/umbraco/uCommerce/images/ui/' + icon + '")',
@@ -195,10 +195,10 @@
 					};
 				}
             }
-		    if (UCommerceClientMgr.Shell == 'Sitefinity') {
+		    if (UcommerceClientMgr.Shell == 'Sitefinity') {
 		        if ($scope.iconFolder == 'uCommerce') {
 		            var object = {
-		                'background-image': 'url("' + UCommerceClientMgr.BaseUCommerceUrl + 'shell/content/images/ui/' + icon + '")'
+		                'background-image': 'url("' + UcommerceClientMgr.BaseUCommerceUrl + 'shell/content/images/ui/' + icon + '")'
 		            };
 		            return object;
 		        } else {

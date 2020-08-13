@@ -1,6 +1,6 @@
-<%@ page language="C#" autoeventwireup="true" masterpagefile="../../masterpages/Dialog.master" codebehind="GenerateVoucher.aspx.cs" inherits="UCommerce.Web.UI.Marketing.Dialogs.GenerateVoucher" %>
-<%@ Import Namespace="UCommerce.Web.UI.Marketing.Dialogs" %>
-<%@ Register TagPrefix="presentation" Assembly="UCommerce.Presentation" namespace="UCommerce.Presentation.Web.Controls" %>
+<%@ page language="C#" autoeventwireup="true" masterpagefile="../../masterpages/Dialog.master" codebehind="GenerateVoucher.aspx.cs" inherits="Ucommerce.Web.UI.Marketing.Dialogs.GenerateVoucher" %>
+<%@ Import Namespace="Ucommerce.Web.UI.Marketing.Dialogs" %>
+<%@ Register TagPrefix="presentation" Assembly="Ucommerce.Presentation" namespace="Ucommerce.Presentation.Web.Controls" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script type="text/javascript">
@@ -58,7 +58,7 @@
 			<p class="guiDialogTiny">
 				<%= GetLocalResourceObject("SubHeader.Text") %>
 			</p>
-            <a class="modal-close" onclick="UCommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
+            <a class="modal-close" onclick="UcommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
 		</div>
     </div>
     <div class="propertyPane contentPane dialog-content">
@@ -303,7 +303,7 @@
 		<div class="footerOkCancel">
 			<asp:Button cssClass="mediumButton" id="SaveButton" runat="server" onclick="SaveButton_Click" text="Save" />
 			<em> <%= GetLocalResourceObject("Or.Text") %> </em>
-			<a href="#" onclick="UCommerceClientMgr.closeModalWindow();" class="dialog-cancelButton">
+			<a href="#" onclick="UcommerceClientMgr.closeModalWindow();" class="dialog-cancelButton">
 				<%= GetLocalResourceObject("Cancel.Text") %>
 			</a>
 		</div>

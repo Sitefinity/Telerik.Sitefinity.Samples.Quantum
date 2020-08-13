@@ -1,1 +1,1 @@
-<%@ WebHandler Language="C#" CodeBehind="ProductReviewCommentHandler.ashx.cs" Class="UCommerce.Web.UI.Catalog.ProductReviewCommentHandler" %>
+<%@ WebHandler Language="C#" CodeBehind="ProductReviewCommentHandler.ashx.cs" Class="Ucommerce.Web.UI.Catalog.ProductReviewCommentHandler" %>

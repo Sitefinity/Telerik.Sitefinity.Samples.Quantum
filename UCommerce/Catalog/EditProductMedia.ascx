@@ -1,6 +1,6 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductMedia.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditProductMedia" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductMedia.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.EditProductMedia" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../Controls/ValidationSummaryDisplay.ascx" %>
-<%@ Register TagPrefix="asp" Namespace="UCommerce.Web.UI.Controls" Assembly="UCommerce.Admin" %>
+<%@ Register TagPrefix="asp" Namespace="Ucommerce.Web.UI.Controls" Assembly="Ucommerce.Admin" %>
 
 <commerce:ValidationSummary runat="server" />
 <div class="propertyPane leftAligned">

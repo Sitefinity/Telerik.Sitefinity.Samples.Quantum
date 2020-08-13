@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditUserGroupRoles.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Settings.Security.EditUserGroupRoles" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditUserGroupRoles.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Settings.Security.EditUserGroupRoles" %>
 <div class="propertyPane leftAligned securityEditor">
 	 <h2 class="propertyPaneTitel"><asp:Localize runat="server" meta:resourceKey="UserGroupAccess" /></h2>
 	<div class="propertyItem">

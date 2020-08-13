@@ -1,5 +1,5 @@
 <%@ control language="C#" autoeventwireup="true" codebehind="EditCampaignItemOverview.ascx.cs"
-	inherits="UCommerce.Web.UI.UCommerce.Marketing.EditCampaignItemOverview" %>
+	inherits="Ucommerce.Web.UI.Ucommerce.Marketing.EditCampaignItemOverview" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />
@@ -13,10 +13,10 @@
 		<asp:RequiredFieldValidator runat="server" ControlToValidate="CampaignItemDefinitionDropDown" Text="*" ErrorMessage='<%# GetLocalResourceObject("CampaignItemDefinition.Text") %>' CssClass="validator" ></asp:RequiredFieldValidator>
 	</commerce:PropertyPanel>
     <commerce:PropertyPanel runat="server" meta:resourcekey="AllowNextCampaignItems">
-        <asp:CheckBox runat="server" ID="AllowNextCampaignItemsCheckBox" class="ucommerce-toggle-check-box" Checked="<%# View.CampaignItem.AllowNextCampaignItems %>"/>
+        <asp:CheckBox runat="server" ID="AllowNextCampaignItemsCheckBox" class="Ucommerce-toggle-check-box" Checked="<%# View.CampaignItem.AllowNextCampaignItems %>"/>
     </commerce:PropertyPanel>
     <commerce:PropertyPanel runat="server" meta:resourcekey="Enabled">
-        <asp:CheckBox runat="server" ID="EnabledCheckBox" class="ucommerce-toggle-check-box" Checked="<%# View.CampaignItem.Enabled %>"/>
+        <asp:CheckBox runat="server" ID="EnabledCheckBox" class="Ucommerce-toggle-check-box" Checked="<%# View.CampaignItem.Enabled %>"/>
     </commerce:PropertyPanel>
 	<div class="propertyPaneFooter">-</div>
 </div>

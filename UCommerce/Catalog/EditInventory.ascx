@@ -1,1 +1,1 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditInventory.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditInventory" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditInventory.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.EditInventory" %>

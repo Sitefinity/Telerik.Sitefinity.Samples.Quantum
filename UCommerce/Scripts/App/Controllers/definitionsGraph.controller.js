@@ -239,13 +239,13 @@
                 },
                 onConnect: function (data, callback) {
                     if ($scope.isReferenceToSelf(data)) {
-                    	UCommerceClientMgr.showSpeechBubble('error', 'Illegal operation', 'You cannot add a reference to self');
+                    	UcommerceClientMgr.showSpeechBubble('error', 'Illegal operation', 'You cannot add a reference to self');
                     }
                     else if ($scope.causesCyclicReference(data)) {
-                    	UCommerceClientMgr.showSpeechBubble('error', 'Illegal operation', 'Adding a reference to : "' + $scope.getNodeFromId(data.to).label + '" would cause a cyclic reference.');
+                    	UcommerceClientMgr.showSpeechBubble('error', 'Illegal operation', 'Adding a reference to : "' + $scope.getNodeFromId(data.to).label + '" would cause a cyclic reference.');
                     }
                     else if ($scope.edgeAlreadyExists(data)) {
-                    	UCommerceClientMgr.showSpeechBubble('error', 'Illegal operation', 'Reference to : "' + $scope.getNodeFromId(data.to).label + '" from "' + $scope.getNodeFromId(data.from).label + '" already exists.');
+                    	UcommerceClientMgr.showSpeechBubble('error', 'Illegal operation', 'Reference to : "' + $scope.getNodeFromId(data.to).label + '" from "' + $scope.getNodeFromId(data.from).label + '" already exists.');
                     }
                     else {
                     	callback(data);

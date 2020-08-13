@@ -1,5 +1,5 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditCampaignOverview.ascx.cs" Inherits="UCommerce.Web.UI.Marketing.EditCampaignOverview" %>
-<%@ Register TagPrefix="commerce" Namespace="UCommerce.Presentation.UI" Assembly="UCommerce.Presentation" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditCampaignOverview.ascx.cs" Inherits="Ucommerce.Web.UI.Marketing.EditCampaignOverview" %>
+<%@ Register TagPrefix="commerce" Namespace="Ucommerce.Presentation.UI" Assembly="Ucommerce.Presentation" %>
 <%@ Register TagPrefix="commerce" TagName="ValidationSummary" Src="../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary ID="ValidationSummary1" runat="server" />
@@ -18,7 +18,7 @@
         <asp:DropDownList runat="server" ID="ProductCatalogGroupsDropDownList" CssClass="mediumWidth" DataTextField="Name" DataValueField="ProductCatalogGroupId"/>
     </commerce:PropertyPanel>
     <commerce:PropertyPanel runat="server" meta:resourcekey="Enabled">
-        <asp:CheckBox runat="server" ID="EnabledCheckBox" class="ucommerce-toggle-check-box" Checked="<%# View.Campaign.Enabled %>"/>
+        <asp:CheckBox runat="server" ID="EnabledCheckBox" class="Ucommerce-toggle-check-box" Checked="<%# View.Campaign.Enabled %>"/>
 		<asp:CustomValidator runat="server" CssClass="validator" id="LicenseValidator" OnServerValidate="LicenseValidator_ServerValidate" meta:ResourceKey="LicenseValidator" ErrorMessage="Marketing Foundation not available with current license.(*)"/>
     </commerce:PropertyPanel>
 	<div class="propertyPaneFooter">-</div>

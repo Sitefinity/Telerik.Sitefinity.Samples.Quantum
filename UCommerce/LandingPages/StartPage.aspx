@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="../MasterPages/UCommerceAdmin.Master" AutoEventWireup="true" CodeBehind="StartPage.aspx.cs" Inherits="UCommerce.Web.UI.UCommerce.LandingPages.StartPage" %>
+﻿<%@ Page Language="C#" MasterPageFile="../MasterPages/UcommerceAdmin.Master" AutoEventWireup="true" CodeBehind="StartPage.aspx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.LandingPages.StartPage" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="ContentArea">
 

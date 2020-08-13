@@ -19,10 +19,10 @@
         if ($scope.firstSelectedNode) {
             var nodeIconRequest = {
                 icon: $scope.firstSelectedNode.icon,
-                shell: UCommerceClientMgr.Shell,
+                shell: UcommerceClientMgr.Shell,
                 iconFolder: $scope.iconFolder,
                 iconFolderOverwrite: $scope.iconFolderOverwrite,
-                baseIconUrl: UCommerceClientMgr.BaseUCommerceUrl
+                baseIconUrl: UcommerceClientMgr.BaseUCommerceUrl
             }
 
             return uCommerceTreeNodeIconService.getNodeIconClasses(nodeIconRequest);
@@ -35,10 +35,10 @@
         if ($scope.firstSelectedNode) {
             var nodeIconRequest = {
                 icon: $scope.firstSelectedNode.icon,
-                shell: UCommerceClientMgr.Shell,
+                shell: UcommerceClientMgr.Shell,
                 iconFolder: $scope.iconFolder,
                 iconFolderOverwrite: $scope.iconFolderOverwrite,
-                baseIconUrl: UCommerceClientMgr.BaseUCommerceUrl
+                baseIconUrl: UcommerceClientMgr.BaseUCommerceUrl
             }
 
             return uCommerceTreeNodeIconService.getNodeIconStyle(nodeIconRequest);
@@ -97,7 +97,7 @@
 
     function launchTreePicker() {
         $scope.urlConfiguration['preSelectedValues'] = $scope.inputValue; //update preselectedvalues before launching to keep new selected values up-to-date. 
-        var contentPickerUrl = UCommerceClientMgr.BaseUCommerceUrl + "ContentTree.aspx?";
+        var contentPickerUrl = UcommerceClientMgr.BaseUCommerceUrl + "ContentTree.aspx?";
 
         for (name in $scope.urlConfiguration) {
             contentPickerUrl += name + '=' + $scope.urlConfiguration[name] + '&';
@@ -107,7 +107,7 @@
 
         var pickerWidth = ($scope.hasPreview == "true") ? 1024 : 700;
 
-        UCommerceClientMgr.openModal(contentPickerUrl, "ContentPicker", pickerWidth, 500);
+        UcommerceClientMgr.openModal(contentPickerUrl, "ContentPicker", pickerWidth, 500);
     };
 
     function removeContent() {

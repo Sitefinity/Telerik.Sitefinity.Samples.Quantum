@@ -23,7 +23,7 @@
     }
 
     $scope.getDeleteImageIcon = function () {
-        return UCommerceClientMgr.BaseUCommerceUrl + 'images/deleteCross.png';
+        return UcommerceClientMgr.BaseUCommerceUrl + 'images/deleteCross.png';
     }
 
     $scope.sortable = function (elm) {
@@ -44,9 +44,9 @@
     $scope.getNodeIconClasses = function(icon) {
         var nodeIconRequest = {
             icon: icon,
-            shell: UCommerceClientMgr.Shell,
+            shell: UcommerceClientMgr.Shell,
             iconFolder: $scope.iconFolder,
-            baseIconUrl: UCommerceClientMgr.BaseUCommerceUrl
+            baseIconUrl: UcommerceClientMgr.BaseUCommerceUrl
         }
 
         return uCommerceTreeNodeIconService.getNodeIconClasses(nodeIconRequest);
@@ -55,9 +55,9 @@
     $scope.getNodeIconStyle = function(icon) {
         var nodeIconRequest = {
             icon: icon,
-            shell: UCommerceClientMgr.Shell,
+            shell: UcommerceClientMgr.Shell,
             iconFolder: $scope.iconFolder,
-            baseIconUrl: UCommerceClientMgr.BaseUCommerceUrl
+            baseIconUrl: UcommerceClientMgr.BaseUCommerceUrl
         }
 
         return uCommerceTreeNodeIconService.getNodeIconStyle(nodeIconRequest);

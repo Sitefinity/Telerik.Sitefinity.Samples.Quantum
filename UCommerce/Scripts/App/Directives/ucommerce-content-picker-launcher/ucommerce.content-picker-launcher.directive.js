@@ -7,7 +7,7 @@ function ucommerceContentPickerLauncher() {
         scope: {
             id: "@"
         },
-        templateUrl: UCommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-content-picker-launcher/ucommerce.content-picker-launcher.html',
+        templateUrl: UcommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-content-picker-launcher/ucommerce.content-picker-launcher.html',
         controller: contentPickerLauncherController,
         link: function (scope, elm, attrs) {
             scope.dialogHeaderText = attrs["dialogHeaderText"];

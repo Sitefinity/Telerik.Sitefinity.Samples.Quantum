@@ -17,20 +17,23 @@
     string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
 }
 
-@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
-
 <div data-component="mini-basket" id="mini-basket">
     <script type="application/json" purl="true">
         { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
     </script>
-    <div v-if="model" class="navbar-collapse js-mini-basket">
-        <ul class="nav navbar-nav">
+    <div v-if="model" class="js-mini-basket">
+        <ul>
             <li>
-                <div class="m-3">
-                    <a class="text-black" :href="model.CartPageUrl">
-                        <span>&#128722;</span><span class="js-mini-basket-number-of-items">{{ model.NumberOfItems }}</span>
-                    </a>
-                </div>
+                <template v-if="model.IsEmpty">
+                    <div>@Html.Resource("EmptyBasket", "UcommerceResources")</div>
+                </template>
+                <template v-else>
+                    <div>
+                        <a :href="model.CartPageUrl">
+                            <span>&#128722;</span><span class="js-mini-basket-number-of-items">{{ model.NumberOfItems }}</span> item(s): <span class="js-mini-basket-total">{{ model.Total }}</span>
+                        </a>
+                    </div>
+                </template>
             </li>
         </ul>
     </div>
