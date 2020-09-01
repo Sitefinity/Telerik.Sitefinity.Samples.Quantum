@@ -967,7 +967,7 @@
       <HintPath>packages\Ucommerce.Sitefinity.9.2.0.20195\lib\Ucommerce.Sitefinity.Installer.dll</HintPath>
     </Reference>
     <Reference Include="UCommerce.Sitefinity.UI, Version=0.8.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.UI.3.0.0.20226\lib\net472\UCommerce.Sitefinity.UI.dll</HintPath>
+      <HintPath>packages\Ucommerce.Sitefinity.UI.3.0.1.20232\lib\net472\UCommerce.Sitefinity.UI.dll</HintPath>
     </Reference>
     <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.2.0.20195, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\uCommerce.Core.9.2.0.20195\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
