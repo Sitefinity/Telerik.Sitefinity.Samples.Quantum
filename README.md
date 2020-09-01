@@ -1,11 +1,3 @@
-### Ucommerce Integration Demo
-
-This branch version of Sitefinity Quantum demo website features fully functional integration with UCommerce.
-
-Complete feature overview: https://ucommerce.net/pricing/
-
-### Overview
-
 The Quantum sample project showcases all Sitefinity CMS features available out of the box in an aesthetically designed website. This starter kit is designed to help business users get up to speed quickly using Sitefinity CMS and gives developers a way to easily add custom features to it. The Quantum website is perfect for doing Sitefinity CMS demos to project stakeholders.
 
 The main purpose of the Quantum project is to provide a real life example of how users can practically utilize the core features of Sitefinity CMS thus bringing value to organizations by empowering non-technical employees to quickly and efficiently manage their content.
@@ -34,8 +26,8 @@ Some of the main highlights of the Quantum project include:
 
 - Sitefinity CMS license
 - .NET Framework 4.7.2
-- Visual Studio 2012
-- Microsoft SQL Server 2008R2 or later versions
+- Visual Studio 2015 or later
+- Microsoft SQL Server 2012R2 or later versions
 - Windows Identity Foundation NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
   - **Windows 7**  - download from  Windows Identity Foundation : http://www.microsoft.com/en-us/download/details.aspx?id=17331
   - **Windows 8**  - in the Control Panel, turn on the relevant Windows feature Windows Identity Foundation 3.5
@@ -46,20 +38,19 @@ See a complete list of the system requirements for the solution here: http://doc
 
 You need to attach the database backup files to your SQL Server. To do this:
 
-1. Download the database backup file from: [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/SitefinityUcommerceDB.zip)
+1. Download the database backup file from: [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_13073230.zip)
 2. Navigate to the _SitefinityWebApp_ -&gt; _App\_Data_ folder.
-3. Unzip the  **QuantumDB.zip**  file.
+3. Unzip the  **QuantumDB_version.zip**  file.
 4. In SQL Management Studio, open the context menu of _Databases_ and click _Attach..._
-5. Click the _Add..._ button and navigate to the folder where you unzipped the  **QuantumDB.zip**  file.
-6. Select the  **SitefinityQuantum.mdf**  file and click _OK_.
+5. Click the _Add..._ button and navigate to the folder where you unzipped the  **QuantumDB_version.zip**  file.
+6. Select the  **Sitefinity.mdf**  file and click _OK_.
 7. Click _OK_.
 
 ### **Nuget package restoration**
 
 The solution in this repository relies on NuGet packages with Nuget Package Restore enabled. Sitefinity&#39;s Nuget Repository and the instructions on how to add the Sitefinity NuGet server are available here : http://nuget.sitefinity.com/#/home.
 
-For a full list of the referenced packages and their versions see the packages.config: https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Quantum/
-/master/packages.config.
+For a full list of the referenced packages and their versions see the packages.config: https://github.com/Sitefinity/Telerik.Sitefinity.Samples.Quantum/blob/master/packages.config.
 
 ### **Installation instructions:**
 
@@ -76,8 +67,3 @@ To login to the Sitefinity CMS backend, use the following credentials:
 ### **Frontend Package**
 
 The design of the starter kit is based on the Bootstrap resource package(http://docs.sitefinity.com/feather-frontend-packages).
-
-### Troubleshooting
-Due to a known issue in UCommerce, the store filtering of products is not functioning out of the box. You have to reindex all products
-for the filtering to work correctly. To do that go to the backend of Sitefinity and navigate to Ucommerce -> Settings.
-Expand the 'Settings' tree on the left and select 'Search'. Select 'Index everything from scratch' and wait.
