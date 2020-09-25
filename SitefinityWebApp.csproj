@@ -1444,6 +1444,26 @@
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
+    <Content Include="Mvc\Views\Address\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\Address\Index.cshtml.orig" />
+    <Content Include="Mvc\Views\AddReview\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\BasketPreview\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\Cart\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\CategoryNavigation\Detail.Currencies.cshtml" />
+    <Content Include="Mvc\Views\CategoryNavigation\Detail.Filter.cshtml" />
+    <Content Include="Mvc\Views\CategoryNavigation\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\CategoryNavigation\StoreNavigation.cshtml" />
+    <Content Include="Mvc\Views\ConfirmationEmail\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\ConfirmationMessage\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\FacetsFilter\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\Layouts\Email.cshtml" />
+    <Content Include="Mvc\Views\MiniBasket\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\MiniBasket\Detail.Preview.cshtml" />
+    <Content Include="Mvc\Views\PaymentPicker\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\ProductReviews\List.Index.cshtml" />
+    <Content Include="Mvc\Views\Products\Detail.Index.cshtml" />
+    <Content Include="Mvc\Views\Products\List.Index.cshtml" />
+    <Content Include="Mvc\Views\ShippingPicker\Detail.Index.cshtml" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
