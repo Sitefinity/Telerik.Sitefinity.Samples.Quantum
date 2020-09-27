@@ -55,7 +55,8 @@
 			id: node.id,
 			name: node.name,
 			nodeType: node.nodeType,
-			icon: node.icon
+			icon: node.icon,
+			guid: node.guid
 		});
 
 		$scope.$broadcast('preSelectedValuesChanged', $scope.selectedNodes);
@@ -66,7 +67,7 @@
 
 		if ($scope.treeIndetionSize) {
 		    var multiplier = $scope.treeIndetionSize;
-			// Parent node is the title for speak apps. 
+			// Parent node is the title for speak apps.
 			// Therefore, is it the second node which should indent.
 		    // Remarks - padding can't be less than 0px
 		    var leftPadding = multiplier * ($scope.getNodeDepth(node) - 1);
@@ -187,7 +188,7 @@
 		}
 		return false;
 	};
-    
+ 
 	$scope.checkboxClicked = function (node) {
 		if ($scope.enforceCheckboxClick == 'true') {
 			$scope.toggleCheckBoxSelected(node);
@@ -238,6 +239,7 @@
 			if (!$scope.tree) {
 				uCommerceContentService.getRootNode($scope.contentPickerType).then(function (rootNode) {
 					$scope.tree = {
+						guid: rootNode.guid,
 						name: rootNode.name,
 						nodeType: rootNode.nodeType,
 						url: rootNode.url,
@@ -268,7 +270,7 @@
 				}
 			}
 			if (node.showOptions) {
-				classes.push('showingOptions');				
+				classes.push('showingOptions');
 			}
 
 			if (node.dimNode)
@@ -420,7 +422,7 @@
 				}
 			}
 			if (UcommerceClientMgr.Shell == 'Umbraco8') {
-				return { 'display': "inline", "color": "#1b264f" }; 
+				return { 'display': "inline", "color": "#1b264f" };
 			}
 			
 			if (UcommerceClientMgr.Shell == 'Umbraco') {
@@ -643,6 +645,7 @@
 
 	function addChildNode(childData, parentNode) {
 		var node = {
+			guid: childData.guid,
 			name: childData.name,
 			nodeType: childData.nodeType,
 			url: childData.url,

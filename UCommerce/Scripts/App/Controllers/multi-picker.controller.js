@@ -78,10 +78,10 @@
     };
 
 	$scope.$on('toggleSelectedNode', function (event, node) {
-        
+  
 		for (n in $scope.selectedNodes) {
 			var selectedNode = $scope.selectedNodes[n];
-			if (selectedNode.id == node.id && intersectNodeTypes(selectedNode.nodeType, node.nodeType)) {
+			if ((selectedNode.id == node.id || selectedNode.guid === node.guid ) && intersectNodeTypes(selectedNode.nodeType, node.nodeType)) {
 			    $scope.selectedNodes.splice(n, 1);
 			    $scope.updatePreselectedValues();
                 $scope.$broadcast('preSelectedValuesChanged', $scope.selectedNodes);
@@ -95,7 +95,8 @@
 			id: node.id,
 			name: node.name,
 			nodeType: node.nodeType,
-			icon: node.icon
+			icon: node.icon,
+			guid: node.guid
 		});
 
 		$scope.$broadcast('preSelectedValuesChanged', $scope.selectedNodes);
@@ -112,7 +113,8 @@
                         id: element.id,
                         name: element.name,
                         nodeType: element.nodeType,
-                        icon: element.icon
+                        icon: element.icon,
+												guid: element.guid
                     });
                 });
 
@@ -142,7 +144,8 @@
                     id: element.id,
                     name: element.name,
                     nodeType: element.nodeType,
-                    icon: element.icon
+                    icon: element.icon,
+										guid: element.guid
 		        });
             });
             
