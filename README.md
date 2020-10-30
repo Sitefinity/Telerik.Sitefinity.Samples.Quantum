@@ -67,3 +67,12 @@ To login to the Sitefinity CMS backend, use the following credentials:
 ### **Frontend Package**
 
 The design of the starter kit is based on the Bootstrap resource package(http://docs.sitefinity.com/feather-frontend-packages).
+
+
+
+If you hit this error on booting up Sitefinity
+```
+Could not convert string 'Ucommerce.Sanitization.TextSanitizer, Ucommerce.Sanitization' to a type. Assembly Ucommerce.Sanitization, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null was matched, but it doesn't contain the type. Make sure that the type name was not mistyped.
+```
+
+Then run `Update-Package 'Ucommerce.Sitefinity.UI' -reinstall` in the Package Manager to fix it.

@@ -5,7 +5,6 @@
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers
 
 @Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
-@Html.StyleSheet(Url.WidgetContent("assets/dist/css/uc-quantum.css"), "head")
 
 @if (!SystemManager.IsDesignMode)
 {
@@ -24,7 +23,7 @@
 
 	<ul class="sfShopByFilterGroupList sfVerticalList" v-cloak>
 		<li class="sfShopByFilterGroupListItem" v-for="facet in facets" v-bind:key="facet.DisplayName">
-			<h3 class="sfGroupTitle">by {{ facet.DisplayName }}</h3>
+			<h3 class="sfGroupTitle">by {{ facet.Name }}</h3>
 			<ul class="sfShopByFilterList">
 				<li class="sfShopByFilterListItem" v-for="filter in facet.FacetValues">
 					<label class="cb-wrap" v-bind:class="filter.Checked && 'active'">
