@@ -1,6 +1,6 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PriceGroupUi.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Marketing.Targets.PriceGroupUi" %>
-<%@ Register tagPrefix="uc" namespace="UCommerce.Presentation.Web.Controls" %>
-<%@ Register TagPrefix="presentation" Assembly="UCommerce.Presentation" namespace="UCommerce.Presentation.Web.Controls" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PriceGroupUi.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Marketing.Targets.PriceGroupUi" %>
+<%@ Register tagPrefix="uc" namespace="Ucommerce.Presentation.Web.Controls" %>
+<%@ Register TagPrefix="presentation" Assembly="Ucommerce.Presentation" namespace="Ucommerce.Presentation.Web.Controls" %>
 <table cellpadding="0" cellspacing="0" style="width:100%;">
     <tr>
         <td>

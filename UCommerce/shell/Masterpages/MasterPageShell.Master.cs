@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace UCommerce.Web.Shell.Masterpages
+namespace Ucommerce.Web.Shell.Masterpages
 {
 	public partial class MasterPageShell : System.Web.UI.MasterPage
 	{

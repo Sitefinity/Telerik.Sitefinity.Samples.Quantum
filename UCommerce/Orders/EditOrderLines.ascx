@@ -1,7 +1,7 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderLines.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Orders.EditOrderLines" %>
-<%@ Import Namespace="UCommerce.EntitiesV2" %>
-<%@ Import Namespace="UCommerce.Extensions" %>
-<%@ Import Namespace="UCommerce.Web.UI.UCommerce.Orders" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderLines.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Orders.EditOrderLines" %>
+<%@ Import Namespace="Ucommerce.EntitiesV2" %>
+<%@ Import Namespace="Ucommerce.Extensions" %>
+<%@ Import Namespace="Ucommerce.Web.UI.Ucommerce.Orders" %>
 
 <asp:PlaceHolder runat="server" ID="OrderListPlaceholder">
 <table class="dataList connectedSortable ui-sortable clickable ordersTable" id='<%# "ShipmentTable_" + ShipmentId  %>' cellspacing="0" cellpadding="0" width="100%">

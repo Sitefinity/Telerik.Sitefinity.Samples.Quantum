@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProductTop10.ascx.cs" Inherits="UCommerce.Web.UI.Analytics.ProductTop10" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProductTop10.ascx.cs" Inherits="Ucommerce.Web.UI.Analytics.ProductTop10" %>
 
 <script type="text/javascript">
 	$(function () {

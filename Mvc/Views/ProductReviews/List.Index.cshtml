@@ -6,7 +6,8 @@
 @using Telerik.Sitefinity.Services;
 @using Telerik.Sitefinity.Web;
 @using Newtonsoft.Json;
-@using UCommerce.Runtime;
+@using Ucommerce.Api
+@using Ucommerce.Infrastructure
 
 @if (!SystemManager.IsDesignMode)
 {
@@ -15,15 +16,16 @@
 }
 
 @{
-    Layout = null;
-    string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
-    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
-    int productId = -1;
+	Layout = null;
+	string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
+	string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
+	Guid productId = Guid.Empty;
 
-    if (SiteContext.Current.CatalogContext.CurrentProduct != null)
-    {
-        productId = SiteContext.Current.CatalogContext.CurrentProduct.Id;
-    }
+	var catalogContext = ObjectFactory.Instance.Resolve<ICatalogContext>();
+	if (catalogContext.CurrentProduct != null)
+	{
+		productId = catalogContext.CurrentProduct.Guid;
+	}
 }
 
 @Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")

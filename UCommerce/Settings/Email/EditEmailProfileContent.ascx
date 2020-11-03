@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditEmailProfileContent.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Email.EditEmailProfileContent" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditEmailProfileContent.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Email.EditEmailProfileContent" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:validationsummary runat="server" />

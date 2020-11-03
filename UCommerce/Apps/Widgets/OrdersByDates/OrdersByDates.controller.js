@@ -2,7 +2,7 @@
 	$scope.title = 'Orders placed per day';
 	$scope.loadTimeLine = function() {
 
-	    $http.get(UCommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/OrdersByDates/all').then(function (response) {
+	    $http.get(UcommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/OrdersByDates/all').then(function (response) {
 
 			var now = new Date();
 			var monthAgo = new Date();

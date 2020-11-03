@@ -1,5 +1,5 @@
-﻿<%@ control language="C#" autoeventwireup="true" codebehind="DiscountSpecificOrderLineUi.ascx.cs" inherits="UCommerce.Web.UI.UCommerce.Marketing.Awards.DiscountSpecificOrderLineUi" %>
-<%@ Register TagPrefix="presentation" Assembly="UCommerce.Presentation" namespace="UCommerce.Presentation.Web.Controls" %>
+﻿<%@ control language="C#" autoeventwireup="true" codebehind="DiscountSpecificOrderLineUi.ascx.cs" inherits="Ucommerce.Web.UI.Ucommerce.Marketing.Awards.DiscountSpecificOrderLineUi" %>
+<%@ Register TagPrefix="presentation" Assembly="Ucommerce.Presentation" namespace="Ucommerce.Presentation.Web.Controls" %>
 
 <table cellpadding="0" cellspacing="0" style="width: 100%;">
 	<tr>

@@ -7,7 +7,6 @@
     ViewBag.Title = "Products";
 }
 @Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
-@Html.StyleSheet(Url.WidgetContent("assets/dist/css/uc-quantum.css"), "head")
 @if (!SystemManager.IsDesignMode)
 {
     @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
@@ -74,8 +73,14 @@
                                 <span class="sfDiscPrice">@product.Discount</span>
                             }
                         </div>
-                        <add-to-basket :product-sku="'@product.Sku'" :root-id="$el.id">
-                        </add-to-basket>
+	                    @if (product.IsAddableToCart && product.IsSellableProduct)
+	                    {
+		                    <add-to-basket :product-sku="'@product.Sku'" :root-id="$el.id"></add-to-basket>
+	                    }
+	                    else
+	                    {
+		                    <a class="sfAddToCartBtn" href="@product.ProductUrl">@Html.Resource("ViewProduct", "UcommerceResources")</a>
+	                    }
                     </div>
                 </div>
                 <div class="sfReviewWrp">
@@ -103,20 +108,20 @@
 </div>
 <script type="text/x-template" id="add-to-basket-template">
     <div>
-        <p class="sfTxtLbl">@Html.Resource("Quantity", "UcommerceResources"):</p>
-        <p class="sfErrorWrp" style="display:none;">
+        <span class="sfTxtLbl">@Html.Resource("Quantity", "UcommerceResources"):</span>
+        <span class="sfErrorWrp" style="display:none;">
             <span class="sfError">
                 @Html.Resource("SpecifyQuantity", "UcommerceResources")
             </span>
-        </p>
-        <p class="sfErrorWrp" style="display:none;">
+        </span>
+        <span class="sfErrorWrp" style="display:none;">
             <span class="sfError">
                 @Html.Resource("QuantityValidation", "UcommerceResources")
             </span>
-        </p>
+        </span>
         <input title="Product Quantity" id="productQuantityInput" v-model="quantity" type="text" class="sfTxt sfQuantity" />
         <input type="button" title="Add to cart button" value="@Html.Resource("AddToCart", "UcommerceResources")" v-on:click="addToBasket()" class="sfAddToCartBtn" />
-        <p class="sfAddToCart" v-show="showAddToBasketMessage">{{addToBasketMessage}}</p>
+        <span class="sfAddToCart" v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
     </div>
 </script>
 <script type="text/javascript">

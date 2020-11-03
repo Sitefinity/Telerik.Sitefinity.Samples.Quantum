@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SettingsStartPageWidgets.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Settings.SettingsStartPageWidgets" %>
-<ucommerce-widgets section="SettingsStartPage" columns="6" rows="6">
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SettingsStartPageWidgets.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Settings.SettingsStartPageWidgets" %>
+<Ucommerce-widgets section="SettingsStartPage" columns="6" rows="6">
        
-</ucommerce-widgets>
+</Ucommerce-widgets>

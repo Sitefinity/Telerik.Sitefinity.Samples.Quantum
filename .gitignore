@@ -191,3 +191,4 @@ SitefinityWebApp/.nuget/NuGet.exe
 /App_Data/RavenDatabases
 /Raven/CompiledIndexCache
 /App_Data/TEMP/uCommerceAppsAssemblyShadowCopy
+/App_Data/Ucommerce/Indexes

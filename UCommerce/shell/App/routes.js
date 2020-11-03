@@ -13,12 +13,12 @@
 		//
         .when('/Vue/catalogs.html#/catalogs', {
             redirectTo: function () {
-                return buildUrl('/Vue/catalogs.html?unique=0#catalogs');
+                return buildUrl(`/Vue/catalogs.html?unique=${getRandom()}#catalogs`);
             }
         })
         .when('/Vue/catalogs.html#/products', {
             redirectTo: function () {
-                return buildUrl('/Vue/catalogs.html?unique=1#products');
+                return buildUrl(`/Vue/catalogs.html?unique=${getRandom()}#products`);
             }
         })
 		.when('/ucommerce/options/catalog/createproduct/:categoryId', {
@@ -430,6 +430,10 @@
         url = constants.webPageBaseUrl + url;
 
 	    return url;
+	}
+	
+	function getRandom() {
+		return Math.floor(Math.random() * 100);
 	}
 
 	function buildAppUrl(params) {

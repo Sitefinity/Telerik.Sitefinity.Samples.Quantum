@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Sorter.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Controls.Sorter" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Sorter.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Controls.Sorter" %>
 <div class="sorterContainer">
     <div id="sectionGroup">
         <div class="sectionGroupHeader">

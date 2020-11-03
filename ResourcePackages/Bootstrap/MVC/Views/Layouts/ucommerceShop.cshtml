@@ -51,7 +51,7 @@
     @if (!SystemManager.IsDesignMode)
     {
         @Html.Script(ScriptRef.JQuery, "vendors")
-        @Html.Script(Url.Content("/ResourcePackages/Bootstrap/assets/dist/js/bootstrap.min.js"), "vendors")
+        <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
         @Html.Script(Url.Content("/ResourcePackages/Bootstrap/assets/dist/js/quantum.js"), "vendors")
     }
 

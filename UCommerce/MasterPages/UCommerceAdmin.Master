@@ -1,11 +1,11 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UCommerceAdmin.master.cs" Inherits="UCommerce.Web.UI.UCommerce.MasterPages.UCommerceAdmin" %>
-<%@ Register TagPrefix="uc" Namespace="UCommerce.Presentation.Web.Controls" Assembly="UCommerce.Presentation" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UcommerceAdmin.master.cs" Inherits="Ucommerce.Web.UI.Ucommerce.MasterPages.UcommerceAdmin" %>
+<%@ Register TagPrefix="uc" Namespace="Ucommerce.Presentation.Web.Controls" Assembly="Ucommerce.Presentation" %>
 <%@ Register TagPrefix="uc" Namespace="ClientDependency.Core.Controls" Assembly="ClientDependency.Core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 	<head runat="server">
-		<title>uCommerce</title>
+		<title>Ucommerce</title>
 	    <uc:ClientDependency runat="server" id="ClientDependency"/>
         <asp:ContentPlaceHolder runat="server" id="Head"></asp:ContentPlaceHolder>
         <asp:PlaceHolder runat="server" ID="JavaScriptPlaceHolder"></asp:PlaceHolder>
@@ -18,12 +18,12 @@
 	        Allow the client to inject a stylesheet in to the header - the stylesheet can be defined in the iframe containing this page.
 	        Needed to support Sitecore's SPEAK layout.
 	     --%>
-		var customStylesheet = $(window.frameElement).attr("ucommerce-stylesheet");
+		var customStylesheet = $(window.frameElement).attr("Ucommerce-stylesheet");
 		if (customStylesheet)
 			$("head").append('<link href="' +  customStylesheet + '" rel="stylesheet" type="text/css" />');
 	</script>
 	<script type="text/javascript">
-		var customScript = $(window.frameElement).attr("ucommerce-script");
+		var customScript = $(window.frameElement).attr("Ucommerce-script");
 		if (customScript) {
 			var script = document.createElement("script");
 			script.type = "text/javascript";

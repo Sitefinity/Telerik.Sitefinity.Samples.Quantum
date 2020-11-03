@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="../MasterPages/Dialog.Master" AutoEventWireup="true" CodeBehind="CreateCategoryOrProduct.aspx.cs" Inherits="UCommerce.Web.UI.Catalog.CreateCategoryOrProductPage" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="../MasterPages/Dialog.Master" AutoEventWireup="true" CodeBehind="CreateCategoryOrProduct.aspx.cs" Inherits="Ucommerce.Web.UI.Catalog.CreateCategoryOrProductPage" %>
 <%@ Register Src="CreateCategoryOrProduct.ascx" TagName="CreateCategoryOrProduct" TagPrefix="commerce" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

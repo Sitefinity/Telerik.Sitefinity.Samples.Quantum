@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductCatalogDescription.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditProductCatalogDescription" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductCatalogDescription.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.EditProductCatalogDescription" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />

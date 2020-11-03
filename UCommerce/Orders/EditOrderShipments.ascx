@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderShipments.ascx.cs"Inherits="UCommerce.Web.UI.Orders.EditOrderShipments" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderShipments.ascx.cs"Inherits="Ucommerce.Web.UI.Orders.EditOrderShipments" %>
 <%@ Register tagPrefix="uc" tagName="EditShipment" src="EditShipment.ascx" %>
 
 <asp:Repeater runat="server" ID="ShipmentRepeater">

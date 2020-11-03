@@ -1,5 +1,5 @@
 ﻿function uc_widgetResource($http) {
-    var serviceUrl = UCommerceClientMgr.BaseServiceUrl + '/Widgets/';
+    var serviceUrl = UcommerceClientMgr.BaseServiceUrl + '/Widgets/';
 
     return {
 

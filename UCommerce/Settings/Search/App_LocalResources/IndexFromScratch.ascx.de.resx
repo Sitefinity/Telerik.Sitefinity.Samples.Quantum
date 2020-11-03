@@ -126,4 +126,36 @@
   <data name="ScratchIndexer.Text" xml:space="preserve">
     <value>Grund Indexer</value>
   </data>
+    
+  <data name="TaskStatus.Canceled" xml:space="preserve">
+    <value>Die Indizierung wird abgebrochen.</value>
+  </data>
+
+  <data name="TaskStatus.Created" xml:space="preserve">
+    <value>Die Indizierung wurde initialisiert, aber noch nicht geplant.</value>
+  </data>
+
+  <data name="TaskStatus.Faulted" xml:space="preserve">
+    <value>Indizierung aufgrund eines nicht behandelten Fehlers abgeschlossen.</value>
+  </data>
+
+  <data name="TaskStatus.RanToCompletion" xml:space="preserve">
+    <value>Indizierung ist erfolgreich.</value>
+  </data>
+
+  <data name="TaskStatus.Running" xml:space="preserve">
+    <value>Die Indizierung läuft und ist noch nicht abgeschlossen.</value>
+  </data>
+
+  <data name="TaskStatus.WaitingForActivation" xml:space="preserve">
+    <value>Die Indizierung wartet darauf, aktiviert und geplant zu werden.</value>
+  </data>
+  
+  <data name="TaskStatus.WaitingForChildrenToComplete" xml:space="preserve">
+    <value>Die Indizierung wurde ausgeführt und wartet implizit auf den Abschluss der angehängten untergeordneten Aufgaben.</value>
+  </data>
+  
+  <data name="TaskStatus.WaitingToRun" xml:space="preserve">
+    <value>Die Indizierung wurde für die Ausführung geplant, hat jedoch noch nicht mit der Ausführung begonnen.</value>
+  </data>
 </root>

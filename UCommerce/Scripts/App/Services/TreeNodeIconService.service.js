@@ -35,7 +35,7 @@
           if (nodeIconRequest.iconFolder == 'uCommerce') {
             var object = {
               'background-image': 'url("' +
-                UCommerceClientMgr.BaseUCommerceUrl +
+                UcommerceClientMgr.BaseUCommerceUrl +
                 'shell/content/images/ui/' +
                 nodeIconRequest.icon +
                 '")'

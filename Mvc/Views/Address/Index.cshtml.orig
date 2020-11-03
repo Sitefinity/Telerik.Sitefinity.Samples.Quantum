@@ -4,7 +4,7 @@
 @using Telerik.Sitefinity.Modules.Pages;
 @using Telerik.Sitefinity.UI.MVC;
 @using Telerik.Sitefinity.Services;
-@model Ucommerce.Sitefinity.UI.Mvc.ViewModels.AddressRenderingViewModel
+@model UCommerce.Sitefinity.UI.Mvc.ViewModels.AddressRenderingViewModel
 
 @Html.StyleSheet(Url.WidgetContent("assets/dist/css/checkout.css"), "head")
 

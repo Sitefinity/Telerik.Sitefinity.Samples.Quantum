@@ -1,5 +1,5 @@
-<%@ Import Namespace="UCommerce.Presentation.Web"%>
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDataTypeBaseProperties.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Definitions.EditDataTypeBaseProperties" %>
+<%@ Import Namespace="Ucommerce.Presentation.Web"%>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditDataTypeBaseProperties.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Definitions.EditDataTypeBaseProperties" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />

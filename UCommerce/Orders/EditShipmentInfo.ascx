@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShipmentInfo.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Orders.EditShipmentInfo" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShipmentInfo.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Orders.EditShipmentInfo" %>
 
 <asp:PlaceHolder runat="server" ID="ShowInfoPlaceHolder" Visible="True">
 		<table width="100%" class="editShipmentMethod">

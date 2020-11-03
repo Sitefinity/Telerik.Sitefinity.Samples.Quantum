@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DynamicOrderPropertyUi.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Marketing.Targets.DynamicOrderPropertyUi" %>
-<%@ Register TagPrefix="presentation" Assembly="UCommerce.Presentation" namespace="UCommerce.Presentation.Web.Controls" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DynamicOrderPropertyUi.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Marketing.Targets.DynamicOrderPropertyUi" %>
+<%@ Register TagPrefix="presentation" Assembly="Ucommerce.Presentation" namespace="Ucommerce.Presentation.Web.Controls" %>
 
 <% var containerId = Guid.NewGuid().ToString(); %>
 <table cellpadding="0" cellspacing="0" style="width: 100%;" id="<% =containerId %>">

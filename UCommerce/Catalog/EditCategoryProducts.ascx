@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditCategoryProducts.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditCategoryProducts" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditCategoryProducts.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.EditCategoryProducts" %>
 
 <div class="propertyPane leftAligned" data-role="productsInCategory">
     <h2 class="propertyPaneTitel"><asp:Localize runat="server" meta:resourcekey="ProductsspeeInCategory"></asp:Localize></h2>

@@ -1,5 +1,5 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShippingMethodBaseProperties.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Orders.EditShippingMethodBaseProperties" %>
-<%@ Import Namespace="UCommerce.Presentation.Web" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShippingMethodBaseProperties.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Orders.EditShippingMethodBaseProperties" %>
+<%@ Import Namespace="Ucommerce.Presentation.Web" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary  runat="server" />

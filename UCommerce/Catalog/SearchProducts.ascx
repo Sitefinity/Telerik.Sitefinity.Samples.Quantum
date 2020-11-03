@@ -1,4 +1,4 @@
-<%@ control language="C#" autoeventwireup="true" codebehind="SearchProducts.ascx.cs" inherits="UCommerce.Web.UI.Catalog.SearchProducts" %>
+<%@ control language="C#" autoeventwireup="true" codebehind="SearchProducts.ascx.cs" inherits="Ucommerce.Web.UI.Catalog.SearchProducts" %>
 
 <script type="text/javascript">
     function openProductView(url) {

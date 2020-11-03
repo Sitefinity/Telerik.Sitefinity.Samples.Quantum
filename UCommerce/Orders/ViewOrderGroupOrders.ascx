@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ViewOrderGroupOrders.ascx.cs" Inherits="UCommerce.Web.UI.Orders.ViewOrderGroupOrders" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ViewOrderGroupOrders.ascx.cs" Inherits="Ucommerce.Web.UI.Orders.ViewOrderGroupOrders" %>
 <style type="text/css">
 	.orderClickable
 	{
@@ -36,7 +36,7 @@
 	                { 'bVisible': false, 'aTargets': [5] }
                 ],
                 "fnInitComplete": function (oSettings, json) {
-                    if (UCommerceClientMgr.Shell === "Umbraco8") {
+                    if (UcommerceClientMgr.Shell === "Umbraco8") {
                         $('#orderTable_filter > label > input[type=text]').attr('placeholder', 'Type to search...');
                         $('#orderTable_filter > label').append('<i class="icon icon-search"></i>');
 

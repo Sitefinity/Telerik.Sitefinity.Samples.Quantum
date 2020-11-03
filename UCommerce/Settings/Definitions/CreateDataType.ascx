@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateDataType.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Definitions.CreateDataType" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateDataType.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Definitions.CreateDataType" %>
 <div>
     <asp:Localize meta:resourcekey="DataTypeNameLabel" runat="server">Name:</asp:Localize>
 </div>
@@ -27,5 +27,5 @@
 <div style="padding-top: 25px">
     <asp:Button runat="server" ID="CreateButton" Width="90px" Text="Create" OnClick="CreateButton_Clicked" />
     <em>or</em>
-    <a href="#" onclick="UCommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">Cancel</a>
+    <a href="#" onclick="UcommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">Cancel</a>
 </div>

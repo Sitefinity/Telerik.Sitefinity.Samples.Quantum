@@ -1,5 +1,5 @@
-<%@ Import Namespace="UCommerce.Presentation.Web"%>
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductCatalogGroup.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditProductCatalogGroup1" %>
+<%@ Import Namespace="Ucommerce.Presentation.Web"%>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditProductCatalogGroup.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.EditProductCatalogGroup1" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../Controls/ValidationSummaryDisplay.ascx" %>
     
 <%@ Register tagPrefix="commerce" tagName="AuditInformation" src="../Controls/AuditInformation.ascx" %>
@@ -33,7 +33,7 @@
 	</commerce:PropertyPanel>
 
 	<commerce:PropertyPanel runat="server" meta:resourceKey="ProductReviewsRequireApproval">
-		<asp:CheckBox runat="server" ID="ProductReviewsRequireApproval" class="ucommerce-toggle-check-box" Checked="<%# View.ProductCatalogGroup.ProductReviewsRequireApproval %>" />
+		<asp:CheckBox runat="server" ID="ProductReviewsRequireApproval" class="Ucommerce-toggle-check-box" Checked="<%# View.ProductCatalogGroup.ProductReviewsRequireApproval %>" />
 	</commerce:PropertyPanel>
     <div class="propertyPaneFooter">-</div>
 </div>
@@ -42,7 +42,7 @@
     <h2 class="propertyPaneTitel"><asp:Localize runat="server" meta:resourcekey="customersandmembers"></asp:Localize></h2>    
     
     <commerce:PropertyPanel runat="server" meta:resourceKey="CreateCustomersAsMembers">
-        <asp:CheckBox runat="server" ID="CreateCustomersAsMembers" class="ucommerce-toggle-check-box" Checked="<%# View.ProductCatalogGroup.CreateCustomersAsMembers %>" />
+        <asp:CheckBox runat="server" ID="CreateCustomersAsMembers" class="Ucommerce-toggle-check-box" Checked="<%# View.ProductCatalogGroup.CreateCustomersAsMembers %>" />
     </commerce:PropertyPanel>
             
     <commerce:PropertyPanel runat="server" meta:resourceKey="MemberGroup">

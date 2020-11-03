@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateCampaignItem.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Marketing.Dialogs.CreateCampaignItem" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateCampaignItem.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Marketing.Dialogs.CreateCampaignItem" %>
 
 <div>
     <div>
@@ -31,6 +31,6 @@
     <asp:Button runat="server" ID="CreateButton" Width="90px" Text="Create" meta:resourcekey="CreateButton" OnClick="CreateButton_Clicked" />
     <em>
         <asp:Localize meta:resourcekey="OrLabel" runat="server">or</asp:Localize></em>
-    <a href="#" onclick="UCommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">
+    <a href="#" onclick="UcommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">
         <asp:Localize meta:resourcekey="CancelLabel" runat="server">Cancel</asp:Localize></a>
 </div>

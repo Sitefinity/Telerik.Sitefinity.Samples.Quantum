@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="MasterPages/Dialog.Master" AutoEventWireup="true" CodeBehind="ContentTree.aspx.cs" Inherits="UCommerce.Web.UI.UCommerce.ContentTree" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="MasterPages/Dialog.Master" AutoEventWireup="true" CodeBehind="ContentTree.aspx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.ContentTree" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     

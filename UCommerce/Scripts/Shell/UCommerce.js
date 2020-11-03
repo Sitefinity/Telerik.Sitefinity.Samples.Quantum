@@ -28,7 +28,7 @@ function queryString() {
 
 // Using "parent" object to reference the main page, that hosts this iframe.
 
-var UCommerceClientMgr = {
+var UcommerceClientMgr = {
     BaseServiceUrl: '/ucommerceapi/',
     BaseUCommerceUrl: "/sitecore modules/Shell/ucommerce/",
     Shell: "Sitecore",
@@ -105,9 +105,9 @@ var UCommerceClientMgr = {
 };
 
 function sortCategoryThis() {
-    UCommerceClientMgr.openModal('ucommerce/catalog/dialogs/SortCatalog.aspx?id=' + UCommerceClientMgr.getCurrentNodeId(), 'Sort', 600, 450);
+    UcommerceClientMgr.openModal('ucommerce/catalog/dialogs/SortCatalog.aspx?id=' + UcommerceClientMgr.getCurrentNodeId(), 'Sort', 600, 450);
 };
 
 function sortProductsThis() {
-    UCommerceClientMgr.openModal('ucommerce/catalog/dialogs/SortCatalog.aspx?id=' + UCommerceClientMgr.getCurrentNodeId() + '&products=1', 'Sort', 600, 450);
+    UcommerceClientMgr.openModal('ucommerce/catalog/dialogs/SortCatalog.aspx?id=' + UcommerceClientMgr.getCurrentNodeId() + '&products=1', 'Sort', 600, 450);
 };

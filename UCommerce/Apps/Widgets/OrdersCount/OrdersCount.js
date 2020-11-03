@@ -4,7 +4,7 @@
 		transclude: true,
 		replace: true,
 		scope: true,
-		templateUrl: UCommerceClientMgr.BaseUCommerceUrl + 'Apps/Widgets/OrdersCount/OrdersCount.html',
+		templateUrl: UcommerceClientMgr.BaseUCommerceUrl + 'Apps/Widgets/OrdersCount/OrdersCount.html',
 		controller: ordersCountController,
 		link: function (scope, elm, attrs) {
 			scope.elm = elm;

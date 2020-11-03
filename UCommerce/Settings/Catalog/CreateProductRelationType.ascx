@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateProductRelationType.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Catalog.CreateProductRelationType" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CreateProductRelationType.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Catalog.CreateProductRelationType" %>
 Name:
 <asp:TextBox runat="server" ID="NameTextBox" CssClass="bigInput fontSize" Width="350px"/>
 <asp:RequiredFieldValidator ID="NameRequiredFieldValidator" runat="server" ControlToValidate="NameTextBox" CssClass="validationMessage validator" Display="Dynamic" meta:ResourceKey="NameRequiredFieldValidator" ErrorMessage="Please enter a name(*)" Width="100%" />
@@ -8,5 +8,5 @@ Name:
 <div style="padding-top: 25px">
     <asp:Button runat="server" ID="CreateButton" Width="90px" Text="Create" OnClick="CreateButton_Clicked" />
     <em>or</em>
-    <a href="#" onclick="UCommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">Cancel</a>
+    <a href="#" onclick="UcommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">Cancel</a>
 </div>

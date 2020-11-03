@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="../../masterpages/Dialog.master" CodeBehind="SelectProductCatalogTarget.aspx.cs" Inherits="UCommerce.Web.UI.Catalog.Dialogs.SelectProductCatalogTarget" %>
+<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="../../masterpages/Dialog.master" CodeBehind="SelectProductCatalogTarget.aspx.cs" Inherits="Ucommerce.Web.UI.Catalog.Dialogs.SelectProductCatalogTarget" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -15,7 +15,7 @@
         <p class="guiDialogTiny">
             <%= GetLocalResourceObject("SubHeader.Text") %>
         </p>
-        <a class="modal-close" onclick="UCommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
+        <a class="modal-close" onclick="UcommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
     </div>
     <div class="propertyPane contentCatalogItems dialog-content">
 	    <div class="propertyItems">
@@ -25,7 +25,7 @@
     <div class="propertyPane dialog-actions">
 	    <div class="footerOkCancel">
 			<asp:Button id="SaveButton" CssClass="dialog-saveButton" runat="server" onclick="SaveButton_Clicked" />
-			<em><%= GetLocalResourceObject("Or.Text") %> </em><a href="#" class="dialog-cancelButton" onclick="UCommerceClientMgr.closeModalWindow()">
+			<em><%= GetLocalResourceObject("Or.Text") %> </em><a href="#" class="dialog-cancelButton" onclick="UcommerceClientMgr.closeModalWindow()">
 				<%= GetLocalResourceObject("CancelButton.Text") %>
 			</a>	
 		</div>

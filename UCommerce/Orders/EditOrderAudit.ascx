@@ -1,5 +1,5 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderAudit.ascx.cs" Inherits="UCommerce.Web.UI.Orders.EditOrderAudit" %>
-<%@ Import Namespace="UCommerce.EntitiesV2"%>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderAudit.ascx.cs" Inherits="Ucommerce.Web.UI.Orders.EditOrderAudit" %>
+<%@ Import Namespace="Ucommerce.EntitiesV2"%>
 
 <script type="text/javascript">
     $(function () {
@@ -9,7 +9,7 @@
                 // disable initial sort
                 "aaSorting": [],
                 "fnInitComplete": function (oSettings, json) {
-                    if (UCommerceClientMgr.Shell === "Umbraco8") {
+                    if (UcommerceClientMgr.Shell === "Umbraco8") {
                         $('#order-audits_filter > label > input[type=text]').attr('placeholder', 'Type to search...');
                         $('#order-audits_filter > label').append('<i class="icon icon-search"></i>');
 

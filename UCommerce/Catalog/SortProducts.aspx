@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="../MasterPages/Dialog.Master" AutoEventWireup="true" CodeBehind="SortProducts.aspx.cs" Inherits="UCommerce.Web.UI.Catalog.SortProducts" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="../MasterPages/Dialog.Master" AutoEventWireup="true" CodeBehind="SortProducts.aspx.cs" Inherits="Ucommerce.Web.UI.Catalog.SortProducts" %>
 <%@ Register TagPrefix="commerce" TagName="Sorter" Src="../Controls/Sorter.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">

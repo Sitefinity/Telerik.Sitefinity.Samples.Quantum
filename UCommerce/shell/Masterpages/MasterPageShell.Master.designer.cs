@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UCommerce.Web.Shell.Masterpages {
+namespace Ucommerce.Web.Shell.Masterpages {
     
     
     public partial class MasterPageShell {
@@ -17,16 +17,16 @@ namespace UCommerce.Web.Shell.Masterpages {
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// To modify, move the field declaration from the designer file to a code-behind file.
         /// </remarks>
-        protected global::UCommerce.Web.Shell.Web.Controls.ClientDependencyShell ClientDependency;
+        protected global::Ucommerce.Web.Shell.Web.Controls.ClientDependencyShell ClientDependency;
         
         /// <summary>
         /// JavaScriptPlaceHolder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// To modify, move the field declaration from the designer file to a code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder JavaScriptPlaceHolder;
         
@@ -35,7 +35,7 @@ namespace UCommerce.Web.Shell.Masterpages {
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// To modify, move the field declaration from the designer file to a code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder CssPlaceHolder;
         
@@ -44,7 +44,7 @@ namespace UCommerce.Web.Shell.Masterpages {
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// To modify, move the field declaration from the designer file to a code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlacerHolder;
         
@@ -53,7 +53,7 @@ namespace UCommerce.Web.Shell.Masterpages {
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// To modify, move the field declaration from the designer file to a code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ShellJavscriptPlaceHolder;
     }

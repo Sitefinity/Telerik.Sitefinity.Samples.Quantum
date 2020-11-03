@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShipment.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Orders.EditShipment" %>
-<%@ Import Namespace="UCommerce.EntitiesV2" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShipment.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Orders.EditShipment" %>
+<%@ Import Namespace="Ucommerce.EntitiesV2" %>
 <%@ Register tagPrefix="uc" tagName="EditOrderAddress" src="EditOrderAddress.ascx" %>
 <%@ Register tagPrefix="uc" tagName="EditShipmentInfo" src="EditShipmentInfo.ascx" %>
 <%@ Register tagPrefix="uc" tagName="EditOrderLines" src="EditOrderLines.ascx" %>

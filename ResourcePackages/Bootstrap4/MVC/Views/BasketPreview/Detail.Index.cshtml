@@ -19,185 +19,123 @@
     string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
 }
 
-@Html.StyleSheet(Url.WidgetContent("assets/dist/css/main.min.css"), "head")
-
-<div data-component="checkout-overview" id="checkout-overview">
+<div class="section-margin " data-component="checkout-overview" id="checkout-overview">
     <script type="application/json" purl="true">
         { "purl" : @Html.Raw(JsonConvert.SerializeObject(currentPageUrl)) }
     </script>
     <template v-if="model">
-        <div class="container-fluid">
-            <div class="row overflow-hidden mt-5 bg-light rounded mb-3 p-4">
-                <div class="col-md-6">
-                    <h3>@Html.Resource("BillingAddress", "UcommerceResources")</h3>
-                    <hr />
-                    <br />
-                    <address>
-                        <span><strong>{{ model.BillingAddress.FirstName }} {{ model.BillingAddress.LastName }}</strong></span><br>
-                        <span>{{ model.BillingAddress.Line1 }}<br></span>
-                        <span>{{ model.BillingAddress.PostalCode }} {{ model.BillingAddress.City }}</span><br>
-                        <span>{{ model.BillingAddress.CountryName }}</span>
-                        <template v-if="model.BillingAddress.Attention">
-                            <span><text>att. </text> {{ model.BillingAddress.Attention }}</span>
-                        </template>
-                        <br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Phone", "UcommerceResources")">P:</abbr>{{ model.BillingAddress.PhoneNumber }}</span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Mobile", "UcommerceResources")">M:</abbr>{{ model.BillingAddress.MobilePhoneNumber }} </span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Email", "UcommerceResources")">E:</abbr><a :href="'mailto:' + model.BillingAddress.EmailAddress">{{ model.BillingAddress.EmailAddress }}</a></span>
-                    </address>
-                </div>
-                <div class="col-md-6">
-                    <h3>@Html.Resource("ShippingAddress", "UcommerceResources")</h3>
-                    <hr />
-                    <br />
-                    <address>
-                        <span><strong>{{ model.ShipmentAddress.FirstName }} {{ model.ShipmentAddress.LastName }}</strong></span><br>
-                        <span>{{ model.ShipmentAddress.CompanyName }}</span>
-                        <template v-if="model.ShipmentAddress.Attention">
-                            <span><text>att. </text> {{ model.ShipmentAddress.Attention }} </span>
-                        </template>
-                        <br />
-                        <span>{{ model.ShipmentAddress.Line1 }} </span><br>
-                        <span>{{ model.ShipmentAddress.PostalCode }} {{ model.ShipmentAddress.City }}</span><br>
-                        <span>{{ model.ShipmentAddress.CountryName }}</span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Phone", "UcommerceResources")">P:</abbr>{{ model.ShipmentAddress.PhoneNumber }}</span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Mobile", "UcommerceResources")">M:</abbr>{{ model.ShipmentAddress.MobilePhoneNumber }}</span><br>
-                        <span><abbr class="pr-2" title="@Html.Resource("Email", "UcommerceResources")">E:</abbr><a :href="'mailto:' + model.ShipmentAddress.EmailAddress">{{ model.ShipmentAddress.EmailAddress }}</a></span>
-                    </address>
-                </div>
+        <div>
+            <div>
+                <h3>@Html.Resource("BillingAddress", "UcommerceResources")</h3>
+                <br />
+                <address>
+                    <span><strong>{{ model.BillingAddress.FirstName }} {{ model.BillingAddress.LastName }}</strong></span><br>
+                    <span>{{ model.BillingAddress.Line1 }}<br></span>
+                    <span>{{ model.BillingAddress.PostalCode }} {{ model.BillingAddress.City }}</span><br>
+                    <span>{{ model.BillingAddress.CountryName }}</span>
+                    <span v-if="model.BillingAddress.Attention"><text>att. </text> {{ model.BillingAddress.Attention }}</span>
+                    <br>
+                    <span><abbr title="@Html.Resource("Phone", "UcommerceResources")">P:</abbr>{{ model.BillingAddress.PhoneNumber }}</span><br>
+                    <span><abbr title="@Html.Resource("Mobile", "UcommerceResources")">M:</abbr>{{ model.BillingAddress.MobilePhoneNumber }} </span><br>
+                    <span><abbr title="@Html.Resource("Email", "UcommerceResources")">E:</abbr><a :href="'mailto:' + model.BillingAddress.EmailAddress">{{ model.BillingAddress.EmailAddress }}</a></span>
+                </address>
             </div>
-
+            <div>
+                <h3>@Html.Resource("ShippingAddress", "UcommerceResources")</h3>
+                <br />
+                <address>
+                    <span><strong>{{ model.ShipmentAddress.FirstName }} {{ model.ShipmentAddress.LastName }}</strong></span><br>
+                    <span>{{ model.ShipmentAddress.CompanyName }}</span>
+                    <span v-if="model.ShipmentAddress.Attention"><text>att. </text> {{ model.ShipmentAddress.Attention }} </span>
+                    <br />
+                    <span>{{ model.ShipmentAddress.Line1 }}</span><br>
+                    <span>{{ model.ShipmentAddress.PostalCode }} {{ model.ShipmentAddress.City }}</span><br>
+                    <span>{{ model.ShipmentAddress.CountryName }}</span><br>
+                    <span><abbr title="@Html.Resource("Phone", "UcommerceResources")">P:</abbr>{{ model.ShipmentAddress.PhoneNumber }}</span><br>
+                    <span><abbr title="@Html.Resource("Mobile", "UcommerceResources")">M:</abbr>{{ model.ShipmentAddress.MobilePhoneNumber }}</span><br>
+                    <span><abbr title="@Html.Resource("Email", "UcommerceResources")">E:</abbr><a href="'mailto:' + model.ShipmentAddress.EmailAddress">{{ model.ShipmentAddress.EmailAddress }}</a></span>
+                </address>
+            </div>
         </div>
-        <div class="container-fluid mb-5">
-            <div class="row border-bottom py-2 d-none d-md-flex">
-                <div class="col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("ItemNo", "UcommerceResources")</span>
-                </div>
-                <div class="col-md-4">
-                    <span class="font-weight-bold">@Html.Resource("Description", "UcommerceResources")</span>
-                </div>
-                <div class="col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("Price", "UcommerceResources")</span>
-                </div>
-                <div class="col-md-1">
-                    <span class="font-weight-bold">
-                        @Html.Resource("VAT", "UcommerceResources")
-                    </span>
-                </div>
-                <div class="col-md-1">
-                    <span class="font-weight-bold">@Html.Resource("Quantity", "UcommerceResources")</span>
-                </div>
-                <div class="col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("Total", "UcommerceResources")</span>
-                </div>
-            </div>
-            <template v-for="lineItem in model.OrderLines">
-
-                <div class="row border-bottom py-3">
-                    <div class="col-md-2 mb-2 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("ItemNo", "UcommerceResources"): </span> <span class="text-info">{{ lineItem.Sku }}</span>
-                    </div>
-                    <div class="col-md-4 mb-2 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("Description", "UcommerceResources"): </span> <span class="text-info d-block d-md-inline-block">{{ lineItem.ProductName }}</span>
-                    </div>
-
-                    <div class="col-md-2 money mb-2 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("Price", "UcommerceResources"): </span>
-                        <template v-if="lineItem.Discount.HasValue && lineItem.Discount > 0">
-                            <span>
+        <table>
+            <thead>
+                <tr>
+                    <th>@Html.Resource("ItemNo", "UcommerceResources")</th>
+                    <th>@Html.Resource("Description", "UcommerceResources")</th>
+                    <th>@Html.Resource("Price", "UcommerceResources")</th>
+                    <th>@Html.Resource("VAT", "UcommerceResources")</th>
+                    <th>@Html.Resource("Quantity", "UcommerceResources")</th>
+                    <th>@Html.Resource("Total", "UcommerceResources")</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template v-for="lineItem in model.OrderLines">
+                    <tr>
+                        <td>{{ lineItem.Sku }}</td>
+                        <td>{{ lineItem.ProductName }}</td>
+                        <td>
+                            <template v-if="lineItem.Discount.HasValue && lineItem.Discount > 0">
+                                <span>
+                                    {{ lineItem.Price }}
+                                </span>
+                                {{ lineItem.PriceWithDiscount }}
+                            </template>
+                            <template v-else>
                                 {{ lineItem.Price }}
-                            </span>
-                            {{ lineItem.PriceWithDiscount }}
-                        </template>
-                        <template v-else>
-                            {{ lineItem.Price }}
-                        </template>
-                    </div>
-
-                    <div class="col-md-1 money mb-2 mb-md-0" data-tax>
-                        <span class="font-weight-bold d-md-none">@Html.Resource("VAT", "UcommerceResources")</span>
-                        {{ lineItem.Tax }}
-                    </div>
-                    <div class="col-md-1 mb-2 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("Quantity", "UcommerceResources"): </span>
-                        {{ lineItem.Quantity }}
-                    </div>
-                    <div class="col-md-2 money item-total mb-1 mb-md-0">
-                        <span class="font-weight-bold d-md-none">@Html.Resource("Total", "UcommerceResources"): </span>
-                        {{ lineItem.Total }}
-                    </div>
-                </div>
-            </template>
-            <div class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("SubTotal", "UcommerceResources"):</span>
-                </div>
-                <div class="col-md-2 money order-subtotal">
-                    {{ model.SubTotal }}
-                </div>
-            </div>
-            <div class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("VAT", "UcommerceResources"):</span>
-                </div>
-                <div class="col-md-2 money order-tax">
-                    {{ model.TaxTotal }}
-                </div>
-            </div>
-
-            <div v-if="model.DiscountAmount != 0" class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("OrderDiscounts", "UcommerceResources"):</span>
-                </div>
-                <div class="col-md-2 money order-discounts">
-                    -{{ model.DiscountTotal }}
-                </div>
-            </div>
-
-            <div v-if="model.ShipmentAmount != 0" class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">
-                        @Html.Resource("Shipping", "UcommerceResources")
-                        <text> (via {{ model.ShipmentName }})</text>:
-                    </span>
-                </div>
-                <div class="col-md-2 money order-discounts">
-                    {{ model.ShippingTotal }}
-                </div>
-            </div>
-
-
-            <div v-if="model.PaymentAmount != 0" class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">
-                        @Html.Resource("Payment", "UcommerceResources")
-                        <text> ({{ model.PaymentName }})</text>:
-                    </span>
-                </div>
-                <div class="col-md-2 money order-discounts">
-                    {{ model.PaymentTotal }}
-                </div>
-            </div>
-
-            <div class="row border-bottom py-2">
-                <div class="offset-md-8 col-md-2">
-                    <span class="font-weight-bold">@Html.Resource("OrderTotal", "UcommerceResources"):</span>
-                </div>
-                <div class="col-md-2 money order-total">
-                    {{ model.OrderTotal }}
-                </div>
-            </div>
-            <checkout-navigation v-bind:model="model"
-                                 continue-label="@Html.Resource("CompleteOrder", "UcommerceResources")"
-                                 back-label="@Html.Resource("BackButton", "UcommerceResources")"
-                                 :continue-fn="continueFn" 
-                                 mode="Bootstrap4"  
-                                 back-link-classes="btn btn-light btn-lg float-md-left"
-                                 continue-btn-classes="btn btn-info btn-lg w-100 mt-3 mt-md-0 float-md-right"
-                                 classes="row mt-4">
-            </checkout-navigation>
-        </div>
+                            </template>
+                        </td>
+                        <td>{{ lineItem.Tax }}</td>
+                        <td>{{ lineItem.Quantity }}</td>
+                        <td>{{ lineItem.Total }}</td>
+                    </tr>
+                </template>
+                <tr>
+                    <td rowspan="@ViewBag.RowSpan" colspan="2"></td>
+                    <td colspan="3">@Html.Resource("SubTotal", "UcommerceResources"): </td>
+                    <td>
+                        {{ model.SubTotal }}
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">@Html.Resource("VAT", "UcommerceResources"): </td>
+                    <td>
+                        {{ model.TaxTotal }}
+                    </td>
+                </tr>
+                <template v-if="model.DiscountAmount != 0">
+                    <tr>
+                        <td colspan="3">@Html.Resource("OrderDiscounts", "UcommerceResources"): </td>
+                        <td>-{{ model.DiscountTotal }}</td>
+                    </tr>
+                </template>
+                <template v-if="model.ShipmentAmount != 0">
+                    <tr>
+                        <td colspan="3">
+                            @Html.Resource("Shipping", "UcommerceResources")
+                            <text> (via {{ model.ShipmentName }})</text>
+                        </td>
+                        <td>{{ model.ShippingTotal }}</td>
+                    </tr>
+                </template>
+                <template v-if="model.PaymentAmount != 0">
+                    <tr>
+                        <td colspan="3">
+                            @Html.Resource("Payment", "UcommerceResources")
+                            <text> ({{ model.PaymentName }})</text>
+                        </td>
+                        <td>{{ model.PaymentTotal }}</td>
+                    </tr>
+                </template>
+                <tr>
+                    <td colspan="3">@Html.Resource("OrderTotal", "UcommerceResources"): </td>
+                    <td>{{ model.OrderTotal }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <checkout-navigation v-bind:model="model"
+                             continue-label="@Html.Resource("CompleteOrder", "UcommerceResources")"
+                             back-label="@Html.Resource("BackButton", "UcommerceResources")"
+                             :continue-fn="continueFn"
+                             classes=""></checkout-navigation>
     </template>
 </div>
-
-

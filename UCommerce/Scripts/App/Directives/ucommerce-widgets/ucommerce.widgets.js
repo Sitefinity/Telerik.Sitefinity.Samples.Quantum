@@ -9,7 +9,7 @@
 			close: '&',
 			timeout: '@'
 		},
-		templateUrl: UCommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-widgets/widgets.html',
+		templateUrl: UcommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-widgets/widgets.html',
 		controller: uc_widgetsController,
 		compile: function (tElement, tAttr) {
 		    var contents = tElement.contents().remove();

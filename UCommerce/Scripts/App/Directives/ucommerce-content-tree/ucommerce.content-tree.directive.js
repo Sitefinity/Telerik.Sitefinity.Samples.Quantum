@@ -2,7 +2,7 @@
 	return {
 		restrict: 'E',
 		scope: true,
-		templateUrl: UCommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-content-tree/ucommerce.content-tree.html',
+		templateUrl: UcommerceClientMgr.BaseUCommerceUrl + 'scripts/app/directives/ucommerce-content-tree/ucommerce.content-tree.html',
 		replace: false,
 		controller: contentTreeController,
 		compile: function (tElement, tAttr) {

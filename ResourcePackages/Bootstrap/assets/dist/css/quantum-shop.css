@@ -339,6 +339,10 @@ input[type="submit"] {
 .sfproductsList .sfproductListItem a {
     color: #00b4c9
 }
+.sfproductsList .sfproductListItem a.sfAddToCartBtn {
+    color: #fff;
+    cursor: pointer;
+}
 
 .sfproductsList .sfproductListItem .sfRegPrice {
     font-weight: 400;

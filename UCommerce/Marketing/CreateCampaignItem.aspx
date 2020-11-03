@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="../MasterPages/Dialog.Master" CodeBehind="CreateCampaignItem.aspx.cs" Inherits="UCommerce.Web.UI.UCommerce.Marketing.CreateCampaignItem" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="../MasterPages/Dialog.Master" CodeBehind="CreateCampaignItem.aspx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Marketing.CreateCampaignItem" %>
 <%@ Register TagPrefix="commerce" TagName="CreateCampaignItem" Src="Dialogs/CreateCampaignItem.ascx" %>
 
 <asp:content runat="server" contentplaceholderid="HeaderLabel">

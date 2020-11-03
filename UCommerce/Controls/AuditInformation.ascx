@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="AuditInformation.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Controls.AuditInformation" %>
-<%@ Import Namespace="UCommerce.EntitiesV2" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="AuditInformation.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Controls.AuditInformation" %>
+<%@ Import Namespace="Ucommerce.EntitiesV2" %>
 
 <div class="propertyPane">
     <h2 class="propertyPaneTitel"><asp:Localize ID="Localize1" runat="server" meta:resourceKey="Audit"></asp:Localize></h2>

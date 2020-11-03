@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SearchOrders.ascx.cs" Inherits="UCommerce.Web.UI.Orders.SearchOrders" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SearchOrders.ascx.cs" Inherits="Ucommerce.Web.UI.Orders.SearchOrders" %>
 
 <script type="text/javascript">
 	function openOrderView(id) {
@@ -12,7 +12,7 @@
 			// disable initial sort
             "aaSorting": [],
             "fnInitComplete": function (oSettings, json) {
-                if (UCommerceClientMgr.Shell === "Umbraco8") {
+                if (UcommerceClientMgr.Shell === "Umbraco8") {
                     $('#orderTable_filter > label > input[type=text]').attr('placeholder', 'Type to search...');
                     $('#orderTable_filter > label').append('<i class="icon icon-search"></i>');
 

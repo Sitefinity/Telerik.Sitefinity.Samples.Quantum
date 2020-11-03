@@ -2,7 +2,7 @@
   return {
     restrict: 'E',
     scope: true,
-    templateUrl: UCommerceClientMgr.BaseUCommerceUrl +
+    templateUrl: UcommerceClientMgr.BaseUCommerceUrl +
       'scripts/app/directives/ucommerce-multi-picker/ucommerce.multi-picker.directive.html',
     replace: false,
     controller: uc_multiPickerController,

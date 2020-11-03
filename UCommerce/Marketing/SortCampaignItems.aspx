@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SortCampaignItems.aspx.cs" Inherits="UCommerce.Web.UI.UCommerce.Marketing.SortCampaignItems" MasterPageFile="../MasterPages/Dialog.master" %>
-<%@ Import Namespace="UCommerce.EntitiesV2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SortCampaignItems.aspx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Marketing.SortCampaignItems" MasterPageFile="../MasterPages/Dialog.master" %>
+<%@ Import Namespace="Ucommerce.EntitiesV2" %>
 <%@ Register Src="../Controls/Sorter.ascx" TagName="Sorter" TagPrefix="commerce" %>
 
 <asp:content runat="server" contentplaceholderid="HeaderLabel">

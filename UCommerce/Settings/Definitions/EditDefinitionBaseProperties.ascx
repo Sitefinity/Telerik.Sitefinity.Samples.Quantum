@@ -1,4 +1,4 @@
-<%@ control language="C#" autoeventwireup="true" codebehind="EditDefinitionBaseProperties.ascx.cs" inherits="UCommerce.Web.UI.Settings.Definitions.EditDefinitionBaseProperties" %>
+<%@ control language="C#" autoeventwireup="true" codebehind="EditDefinitionBaseProperties.ascx.cs" inherits="Ucommerce.Web.UI.Settings.Definitions.EditDefinitionBaseProperties" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 
 <script type="text/javascript">

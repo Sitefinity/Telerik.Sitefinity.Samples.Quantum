@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
+using Ucommerce.Search.Models;
 
 namespace SitefinityWebApp.Mvc.Models
 {
 	public class StoreNavigationViewModel
 	{
-		public ICollection<UCommerce.EntitiesV2.Category> Categories { get; set; }
+		public ICollection<Category> Categories { get; set; }
 	}
 }

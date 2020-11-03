@@ -1,6 +1,6 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShippingMethodPrices.ascx.cs" Inherits="UCommerce.Web.UI.Settings.Orders.EditShippingMethodPrices" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditShippingMethodPrices.ascx.cs" Inherits="Ucommerce.Web.UI.Settings.Orders.EditShippingMethodPrices" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
-<%@ Import Namespace="UCommerce.EntitiesV2"%>
+<%@ Import Namespace="Ucommerce.EntitiesV2"%>
 <commerce:ValidationSummary runat="server" />
 <div class="propertyPane leftAligned tablePropertyPane">
     <h2 class="propertyPaneTitel"><asp:Localize runat="server" meta:resourceKey="ShippingMethodPricing" /></h2>

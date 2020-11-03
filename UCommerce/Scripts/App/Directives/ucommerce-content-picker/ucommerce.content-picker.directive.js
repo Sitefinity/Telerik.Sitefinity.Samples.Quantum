@@ -15,7 +15,7 @@ function ucommerceContentPicker($compile) {
 				    '<div class="sectionGroupHeader">' +
 					    '<input id="uc-headline" type=text disabled="disabled" class="entityName uc-headline readOnly" value="{{dialogHeaderText}}">' +
 					    '<p class="guiDialogTiny">{{dialogHeaderTinyText}}</p>' +
-						'<a class="modal-close" onclick="UCommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>' +
+						'<a class="modal-close" onclick="UcommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>' +
 				    '</div>' +
 				    '<div class="imagePickerContainer propertyPane">' +
 					    '<div class="imagePickerContainerBody propertyItem">' +

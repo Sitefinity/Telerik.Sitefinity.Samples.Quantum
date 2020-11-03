@@ -1,3 +1,3 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="InstallApp.ascx.cs" Inherits="UCommerce.Web.UI.UCommerce.Settings.Apps.InstallApp" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="InstallApp.ascx.cs" Inherits="Ucommerce.Web.UI.Ucommerce.Settings.Apps.InstallApp" %>
 
-<ucommerce-app-installer></ucommerce-app-installer>
+<Ucommerce-app-installer></Ucommerce-app-installer>

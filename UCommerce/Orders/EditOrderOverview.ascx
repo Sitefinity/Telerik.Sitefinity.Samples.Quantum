@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderOverview.ascx.cs" Inherits="UCommerce.Web.UI.Orders.EditOrderOverview" %>
-<%@ Import Namespace="UCommerce.EntitiesV2"%>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditOrderOverview.ascx.cs" Inherits="Ucommerce.Web.UI.Orders.EditOrderOverview" %>
+<%@ Import Namespace="Ucommerce.EntitiesV2"%>
 <%@ Register tagPrefix="uc" tagName="EditOrderAddress" src="EditOrderAddress.ascx" %>
 
 <script type="text/javascript">

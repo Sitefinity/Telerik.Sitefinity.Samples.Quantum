@@ -1,6 +1,6 @@
-﻿var UCommerceClientMgr = [];
+﻿var UcommerceClientMgr = [];
 
-UCommerceClientMgr.BaseUCommerceUrl = '/uCommerce/';
-UCommerceClientMgr.Shell = 'Sitefinity';
-UCommerceClientMgr.BaseServiceUrl = "/ucommerceapi/";
-UCommerceClientMgr.UseBaseServiceUrlExplicit = true;
+UcommerceClientMgr.BaseUCommerceUrl = '/uCommerce/';
+UcommerceClientMgr.Shell = 'Sitefinity';
+UcommerceClientMgr.BaseServiceUrl = "/ucommerceapi/";
+UcommerceClientMgr.UseBaseServiceUrlExplicit = true;

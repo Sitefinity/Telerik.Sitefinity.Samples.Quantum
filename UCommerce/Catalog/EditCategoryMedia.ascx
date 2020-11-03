@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditCategoryMedia.ascx.cs" Inherits="UCommerce.Web.UI.Catalog.EditCategoryMedia" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditCategoryMedia.ascx.cs" Inherits="Ucommerce.Web.UI.Catalog.EditCategoryMedia" %>
 <%@ Register tagPrefix="commerce" tagName="ValidationSummary" src="../Controls/ValidationSummaryDisplay.ascx" %>
 
 <commerce:ValidationSummary runat="server" />

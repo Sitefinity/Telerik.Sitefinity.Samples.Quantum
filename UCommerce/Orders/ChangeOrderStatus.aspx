@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="../MasterPages/Dialog.Master" CodeBehind="ChangeOrderStatus.aspx.cs" Inherits="UCommerce.Web.UI.Orders.ChangeOrderStatus" %>
+<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="../MasterPages/Dialog.Master" CodeBehind="ChangeOrderStatus.aspx.cs" Inherits="Ucommerce.Web.UI.Orders.ChangeOrderStatus" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -8,7 +8,7 @@
         <div class="dialog-header">
             <h3><asp:Localize id="Localize8" runat="server" meta:resourcekey="Header" /></h3>
             <p class="guiDialogTiny"><asp:Localize ID="Localize2" runat="server" meta:resourceKey="SubHeader" /></p>
-            <a class="modal-close" onclick="UCommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
+            <a class="modal-close" onclick="UcommerceClientMgr.closeModalWindow();" data-dismiss="modal" aria-hidden="true"></a>
         </div>
 
         <div class="dialog-content">
@@ -33,7 +33,7 @@
 	        <div class="footerOkCancel">
 				<asp:Button ID="SaveButton"  CssClass="dialog-saveButton" runat="server" meta:resourceKey="SaveButton" OnClick="SaveButton_Clicked" />
 				<em>or&nbsp;</em>
-				<a href="#" onclick="UCommerceClientMgr.closeModalWindow();" Class="dialog-cancelButton">Cancel</a>
+				<a href="#" onclick="UcommerceClientMgr.closeModalWindow();" Class="dialog-cancelButton">Cancel</a>
 		 </div>
 		</div>
     </asp:PlaceHolder>
@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="dialog-actions">
-            <a href="#" onclick="UCommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">Cancel</a>
+            <a href="#" onclick="UcommerceClientMgr.closeModalWindow();" style="color: blue; cursor: hand">Cancel</a>
         </div>
     </asp:PlaceHolder>
 

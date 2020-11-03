@@ -1,5 +1,5 @@
-<%@ control language="C#" autoeventwireup="true" codebehind="EditProductDefinitionBaseProperties.ascx.cs" inherits="UCommerce.Web.UI.Settings.Definitions.EditProductDefinitionBaseProperties" %>
-<%@ import namespace="UCommerce.EntitiesV2" %>
+<%@ control language="C#" autoeventwireup="true" codebehind="EditProductDefinitionBaseProperties.ascx.cs" inherits="Ucommerce.Web.UI.Settings.Definitions.EditProductDefinitionBaseProperties" %>
+<%@ import namespace="Ucommerce.EntitiesV2" %>
 
 <%@ register tagprefix="commerce" tagname="ValidationSummary" src="../../Controls/ValidationSummaryDisplay.ascx" %>
 

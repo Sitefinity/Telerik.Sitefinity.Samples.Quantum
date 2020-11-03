@@ -27,7 +27,7 @@
         $scope.selectedOrderStatuses = ['New order'];
 
     $scope.loadOrderCount = function () {
-        var serviceUrl = UCommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/Count';
+        var serviceUrl = UcommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/Count';
 
         $scope.setPropertyValue('Interval', $scope.selectedInterval);
         $scope.setPropertyValue('OrderStatus', $scope.selectedOrderStatuses.toString());
@@ -69,7 +69,7 @@
 			'ThisYear'
         ];
 
-        $http.get(UCommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/OrderStatuses/all').then(function (response) {
+        $http.get(UcommerceClientMgr.BaseServiceUrl + '/Widgets/Orders/OrderStatuses/all').then(function (response) {
             $scope.orderStatuses = response.data;
             $scope.loadOrderCount();
         });

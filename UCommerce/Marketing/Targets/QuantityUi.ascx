@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="QuantityUi.ascx.cs" Inherits="UCommerce.Web.UI.Umbraco.UCommerce.Marketing.Targets.QuantityUi" %>
-<%@ Register TagPrefix="presentation" Assembly="UCommerce.Presentation" namespace="UCommerce.Presentation.Web.Controls" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="QuantityUi.ascx.cs" Inherits="Ucommerce.Web.UI.Umbraco.Ucommerce.Marketing.Targets.QuantityUi" %>
+<%@ Register TagPrefix="presentation" Assembly="Ucommerce.Presentation" namespace="Ucommerce.Presentation.Web.Controls" %>
 <table cellpadding="0" cellspacing="0" style="width:100%;">
 	<tr>
 		<td>

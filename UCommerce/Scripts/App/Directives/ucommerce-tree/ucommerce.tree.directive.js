@@ -16,7 +16,7 @@
 			iconFolderOverwrite: '=',
 			treeIndetionSize: "="
 		},
-		templateUrl: UCommerceClientMgr.BaseUCommerceUrl+'scripts/app/directives/ucommerce-tree/ucommerce.tree.html',
+		templateUrl: UcommerceClientMgr.BaseUCommerceUrl+'scripts/app/directives/ucommerce-tree/ucommerce.tree.html',
 		replace: true,
 		controller: uc_treeController,
 		compile: function (tElement, tAttr) {
