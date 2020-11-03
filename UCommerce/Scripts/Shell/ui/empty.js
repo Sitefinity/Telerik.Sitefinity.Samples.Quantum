@@ -1,1 +1,0 @@
-﻿//This is added to avoid getting console errors when handling jquery injecting to our ScriptManager. 

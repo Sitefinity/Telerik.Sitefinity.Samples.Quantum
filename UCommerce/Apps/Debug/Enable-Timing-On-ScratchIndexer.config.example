@@ -1,9 +1,0 @@
-﻿<configuration>
-	<components>
-		<partial-component id="ScratchIndexer">
-			<interceptors>
-				<interceptor>${TimingInterceptor}</interceptor>
-			</interceptors>
-		</partial-component>
-	</components>
-</configuration>

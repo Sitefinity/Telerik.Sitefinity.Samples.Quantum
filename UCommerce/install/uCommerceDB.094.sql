@@ -1,1 +1,0 @@
-ALTER TABLE uCommerce_CategoryTarget ADD [CategoryGuid] uniqueidentifier null DEFAULT null

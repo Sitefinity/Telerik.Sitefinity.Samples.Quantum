@@ -1,1 +1,0 @@
-UPDATE uCommerce_ProductDefinitionField SET RenderInEditor = 1, DisplayOnSite = 1
