@@ -1,0 +1,1 @@
+ALTER TABLE uCommerce_ProductCatalog ADD SortOrder INT NOT NULL DEFAULT 0

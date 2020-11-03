@@ -1,0 +1,633 @@
+﻿ul li.widget {
+	list-style: none;
+	overflow: visible;
+}
+
+	ul li.widget:hover {
+		z-index: 6;
+	}
+
+.addWidgetToDashboard:hover {
+	z-index: 10;
+}
+
+.widget {
+	background: white;
+	border: 1px solid #CAC9C9;
+	overflow: hidden;
+	position: absolute;
+}
+
+.widgetContent .widgetViewContent {
+	width: 100%;
+	height: 100%;
+}
+
+.widgetContent .editMode {
+	display: none;
+}
+
+.widgetEditing {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.75);
+	cursor: move;
+	overflow-y: auto;
+}
+
+	.widgetEditing:active {
+		cursor: grabbing;
+		cursor: -moz-grabbing;
+		cursor: -webkit-grabbing;
+	}
+
+.widgetHeader {
+	height: 25px;
+	width: 100%;
+	background-color: rgba(244, 244, 244, 0.75);
+	overflow: hidden;
+	border-bottom: 1px solid rgb(202, 201, 201);
+	z-index: 20;
+	-webkit-transition: height 0.4s;
+	-moz-transition: height 0.4s;
+	transition: height 0.4s;
+}
+
+	.widgetHeader i {
+		float: right;
+		margin: 7px;
+		cursor: pointer;
+	}
+
+
+	.widgetHeader span {
+		display: inline-block;
+		margin: 5px 0 5px 5px;
+	}
+
+i.fa.fa-times.remove-widget {
+	font-weight: 100;
+	color: white;
+	cursor: pointer;
+	font-size: 17px;
+	padding: 8px;
+	border: 1px solid;
+	border-radius: 37px;
+	border-color: #CAC9C9;
+	background-color: red;
+	position: absolute;
+	right: -15px;
+	top: -16px;
+	line-height: 13px;
+	z-index: 5;
+}
+
+.widgetHeader img {
+	vertical-align: top;
+	height: 10px;
+	float: right;
+	margin-right: 3px;
+	margin-top: 2px;
+}
+
+
+.editDashBoard .editButton {
+	color: white;
+	background-color: #23bbad;
+	border-radius: 54px;
+	padding: 18px;
+	line-height: 26px;
+	margin-right: 15px;
+	float: right;
+	margin-top: -30px;
+	font-size: 30px;
+	position: relative;
+	z-index: 100000000;
+}
+
+.gridster .preview-holder {
+	background-color: rgb(240, 240, 240);
+	list-style: none;
+}
+
+.widgetContent {
+	height: 100%;
+	overflow: hidden;
+	margin-top: -26px;
+	padding-top: 26px;
+	box-sizing: border-box;
+}
+
+.widgetLoading {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	color: rgba(35, 34, 34, 0.29);
+	display: table;
+	position: absolute;
+	padding-top: 26px;
+}
+
+
+.widgetLoading i {
+	z-index: 38;
+	position: relative;
+	transform: translateY(-50%);
+}
+
+.widget .ui-resizable-se {
+	height: 14px;
+	width: 14px;
+	float: right;
+	display: inline-block;
+	cursor: nwse-resize;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	opacity: 0.4;
+	background-image: url("/orcinus/images/ui-icons.png");
+	background-position: -64px -224px;
+}
+
+.gridster {
+	width: 100%;
+	height: 100%;
+	margin-top: 5px;
+}
+
+	.gridster ul {
+		width: 100%;
+		height: 100%;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+.editDashBoard {
+	height: 40px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+	.editDashBoard i {
+		cursor: pointer;
+		color: white;
+		font-size: 50px;
+	}
+
+.ucommerce-dashboard {
+	padding: 0px 0px 0px 0px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-remove {
+	color: white;
+	background: red !important;
+}
+
+.gridster li.preview-holder {
+	background-color: rgb(240, 240, 240);
+	list-style: none;
+}
+
+.widgetEditing h1 {
+	background-color: white;
+}
+
+.addWidgetToDashboard {
+	display: inline-block;
+	width: 100%;
+	margin-left: 25px;
+	margin-right: -100px;
+}
+
+.gridsterPanel {
+	margin-top: -40px;
+	padding-top: 40px;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+.addWidgetToDashboard {
+	width: 260px;
+	float: right;
+	margin-right: -77px;
+	margin-top: 0px;
+	position: relative;
+	z-index: 4;
+}
+
+	.addWidgetToDashboard ul {
+		opacity: 0;
+		background: white;
+		max-height: 600px;
+		padding: 0;
+		overflow: auto;
+		background: rgba(255,255,255,0);
+		-webkit-transition: opacity 0.3s ease-in-out;
+		-moz-transition: opacity 0.3s ease-in-out;
+		-ms-transition: opacity 0.3s ease-in-out;
+		-o-transition: opacity 0.3s ease-in-out;
+		transition: opacity 0.3s ease-in-out;
+	}
+
+	.addWidgetToDashboard li {
+		width: 226px;
+		list-style: none;
+		cursor: pointer;
+		margin: 20px 0px 0px 3px;
+		display: inline-block;
+		padding: 5px;
+		background: white;
+		border-radius: 4px;
+		font-size: 19px;
+		-webkit-box-shadow: 0 1px 2px 1px rgba(0,5,1,0.3);
+		-moz-box-shadow: 0 1px 2px 1px rgba(0,5,1,0.3);
+		box-shadow: 0 1px 2px 1px rgba(0,5,1,0.3);
+	}
+
+		.addWidgetToDashboard li:first-child {
+			margin-top: 1px;
+		}
+
+		.addWidgetToDashboard li:last-child {
+			margin-bottom: 3px;
+		}
+
+.widgetName {
+	display: table-cell;
+	width: 200px;
+	word-break: break-all;
+	word-break: break-word;
+}
+
+i.checked.fa.fa-check {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 26px;
+	color: green;
+	line-height: 26px;
+	margin-left: 10px;
+	color: #E0E0E0;
+}
+
+.gridster span.gs-resize-handle.gs-resize-handle-both {
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	background: none;
+	right: 0px;
+	bottom: 0px;
+	background-image: url('../css/common/arrow.png');
+}
+
+.rotateY {
+	animation: rotateY 2.5s linear infinite;
+}
+
+@-webkit-keyframes rotateY {
+	0% {
+		transform: rotatey(0deg);
+		-moz-transform: rotatey(0deg);
+	}
+
+	100% {
+		transform: rotatey(360deg);
+		-moz-transform: rotatey(360deg);
+	}
+}
+
+@keyframes rotateY {
+	0% {
+		transform: rotatey(0deg);
+		-moz-transform: rotatey(0deg);
+	}
+
+	100% {
+		transform: rotatey(360deg);
+		-moz-transform: rotatey(360deg);
+	}
+}
+
+.widgetPropertiesEdititng {
+	padding: 0% 1%;
+}
+
+.widgetEditing .multiSelect label {
+	display: block;
+}
+
+
+.widgetProperty input[type=text] {
+	width: 100%;
+}
+
+.widgetProperty label {
+	display: block;
+}
+
+.widgetProperty select {
+	width: 100%;
+}
+
+.widgetLoaderIndication {
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.customEditView {
+}
+
+li.widget .widgetContent .widgetEditing .propertyPane {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+	li.widget .widgetContent .widgetEditing .propertyPane .propertyItem .propertyItemHeader {
+		width: 25%;
+		max-width: 20000px;
+		float: left;
+		clear: none;
+		padding-top: 2px;
+	}
+
+		li.widget .widgetContent .widgetEditing .propertyPane .propertyItem .propertyItemHeader span {
+			word-wrap: break-word;
+			word-break: break-all;
+		}
+
+	li.widget .widgetContent .widgetEditing .propertyPane .propertyItem .propertyItemContent {
+		width: 75%;
+		vertical-align: middle;
+		float: none;
+		clear: none;
+		line-height: normal;
+		display: inline-block;
+		margin-left: 0;
+	}
+
+li.widget .resizableArea {
+	height: 100%;
+}
+
+li.widget .textArea {
+	text-align: center;
+	display: inline-block;
+}
+
+ul.dataList {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+	ul.dataList li {
+		font-size: 14px;
+		border-top: 1px solid #dbdbdb;
+		padding: 8px;
+		line-height: 20px;
+	}
+
+		ul.dataList li:nth-child(even) {
+			background-color: white;
+		}
+
+		ul.dataList li:nth-child(odd) {
+			background-color: #F5F5F5;
+		}
+
+		ul.dataList li:last-child {
+			border-bottom: 1px solid #dbdbdb;
+		}
+
+ul.tags {
+	width: 100%;
+	height: auto;
+}
+
+	ul.tags li {
+		display: inline;
+		margin: 5px;
+		display: inline-block;
+		border: 1px solid #CAC9C9;
+		border-radius: 3px;
+		padding: 5px;
+		background-color: #F8F8F8;
+		cursor: pointer;
+	}
+
+		ul.tags li span {
+			line-height: 18px;
+			vertical-align: top;
+			margin: 0 5px;
+		}
+
+.searchInput {
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+	.searchInput i {
+		color: #d9d9d9;
+		font-size: 14px;
+		padding: 7px 0px 0px 7px;
+		position: absolute;
+	}
+
+	.searchInput input[type=text] {
+		border: none !important;
+		margin: 0;
+		width: 100%;
+		padding-left: 30px;
+	}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.height100 {
+	height: 100% !important;
+}
+
+.fixedHeader th span {
+	display: flex;
+	white-space: nowrap;
+}
+
+.fixedHeader tbody {
+	display: block;
+	overflow-x: hidden;
+}
+
+.fixedHeader tr {
+	display: table;
+	width: 100%;
+}
+
+.fixedHeader thead, .fixedHeader tbody {
+	display: block;
+	width: 100%;
+}
+
+.fixedHeader .fa-chevron-up {
+	line-height: 2px;
+	margin-left: -11px;
+}
+
+.fixedHeader .fa-chevron-down {
+	padding-top: 6px;
+	margin-left: 2px;
+}
+
+.fixedHeader i {
+	color: #CAC9C9;
+}
+
+	.fixedHeader i.checked {
+		color: black;
+	}
+
+.fixedHeader thead th span {
+	padding: 0;
+}
+
+
+li.widget .vis.timeline.root {
+	border: 0;
+}
+
+li.widget .propertyItem {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+li.widget .propertyItemContent input[type="text"] {
+	width: 100% !important;
+}
+
+.widgetEditing .propertyItemContent select {
+	width: 100%;
+}
+
+.fixedHeader thead tr {
+	cursor: pointer;
+}
+
+.fixedHeader .fa-chevron-up {
+	margin-left: -11px;
+	margin-left: -15.8px\9;
+	margin-left: -15.8px\0/;
+	line-height: 8px\0/;
+	line-height: 8px\9;
+	vertical-align: top\0/;
+	vertical-align: top\9;
+}
+
+.fixedHeader .fa-chevron-down {
+	vertical-align: middle\0/;
+	vertical-align: middle\9;
+}
+
+#orderTable {
+	min-width: 550px;
+	table-layout: fixed;
+}
+
+.oneLineText {
+	display: block;
+	white-space: nowrap;
+	width: inherit;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.OrderList-content .dataList {
+	margin: 0 !important;
+}
+
+.catalogSearch.catalogSearchResult li span.icon {
+    float: left;
+}
+
+.productName .oneLineText{
+	    padding-left: 5px;
+}
+
+div.dataList {
+	height: 100%;
+	width: 100%;
+	padding: 5px;
+    box-sizing: border-box;
+	overflow-y: auto;
+}
+
+div.dataList span {
+	font-size: 20px;
+}
+
+div.dataList > div > div {
+    display: inline-block;
+    overflow: hidden;
+    height: 30px;
+}
+
+div.dataList > div div:nth-child(1) {
+	width: 79%;
+}
+
+div.dataList > div div:nth-child(2) {
+	width: 20%;
+	text-align: right;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
+
+.vertical-centered {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+.vertical-centered > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.large-text {
+	font-size: 20px;
+}
+
+.sm-padding {
+	padding: 5px;
+}
+
+.widget .float-right {
+	float:right
+}
+
+.widgetHeader {
+	display: flex;
+	display: -ms-flexbox;
+}
+
+	.widgetHeader span {
+		width: 100%;
+		margin-right: -30px;
+		padding-right: 30px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+
+.widgetContent .widgetViewContent {
+        overflow: auto;
+}

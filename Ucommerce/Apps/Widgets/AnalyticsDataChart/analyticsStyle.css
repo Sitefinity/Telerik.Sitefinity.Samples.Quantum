@@ -1,0 +1,56 @@
+﻿.dcs-a-dcs-fb.dcs-a-dcs-fb-dcs-od {
+  z-index: 20;
+}
+
+.view-selector-container table {
+	display: inline-block;
+	width: 30% !important;
+	min-width: 200px;
+}
+
+.embed-api-auth-container {
+	position: absolute;
+	z-index: 20;
+}
+
+.errorLoading {
+	padding: 10px;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.errorLoading span {
+	display: block;
+}
+
+.embed-api-auth-container {
+	cursor: pointer;
+}
+
+.editMode .embed-api-auth-container {
+	visibility: hidden;
+}
+
+.googleAnalyticsContainer {
+	height: 100%;
+}
+
+.googleAnalyticsContainer .panel {
+	height: 100%;
+}
+.googleAnalyticsContainer .chart-container {
+    height: 100%;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.googleAnalyticsContainer .view-selector-container {
+	height: 50px;
+}
+
+ul li.error-description {
+	font-size: 13px;
+    margin-top: 5px;
+}

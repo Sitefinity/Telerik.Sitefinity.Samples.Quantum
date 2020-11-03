@@ -1,0 +1,3274 @@
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('/WebResource.axd?d=dxIkQ3djxtCO50Pr_rOzCkkuVtwlYtMMQo_AiZPRnj97WyXqOXSZcbw6pxbHBryLFNhq5qg79FIYhZHJhxaSeG9wZFgIiZCszssWB0bfoDpyVwPacZHPXhALZy3VWgjm-f6GukVmDJbHwGBhmWG_PuuTFKz7ogWiYou_gdCZAR77AkYIVt9IklzKkCjHMYP6kJzcRx117JUC-HXtlPhwOQ2&t=636373466580000000')
+      format('woff'),
+    url('/WebResource.axd?d=Na9hmmnlxE9TbCKKGYC2k8SleNDG1Hcy1J-PaxBeA10996oWh8A88FLZjJ6LwC9yhYGYAAwquX94NvFW5ihmf4bW8EmR2lVhzAwbHtB5u_eBfeglMF-w_Iaf1foSwZD-cBBh5BtjwVSR63ihLfjaqconw258d5j67s3_iR7rkOQJ89KB21qJANV7b4zsB5HV-a3UYs8s7v-zwBS8PbxBfA2&t=636373466580000000')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url('/WebResource.axd?d=frPOvxJddCLp7zLCUnEKTu9VICJMqAsASqxycRbYrxIViobVb2Y4EnZxAcw-NbR9JHq29AdGkPqS15PfBML6oLSiAHFlT--RqaWtkjQwBGyCnYOLQ5zIv0lG9ivruHMDt3PVDbB-EsroJWXOdhFjYz6zsJXB-xOuJ3qrtOqWsrphqyXMssC37MwwUlAKElXJf8wqBvm6nutTjjulJYCW1Q2&t=636373466580000000')
+      format('woff'),
+    url('/WebResource.axd?d=Crkky1UyMhMrkJJWHzM_fDnidoa0ETm_4W1Nz88Ha-VMIkI7HfKMOwoCmA25c5cMNzy3ulv-RIadEQrP-tf7ExA5aEOJZm4sc2t0vRgSkRiBWkNYy1pxN2aZyfObpZIYrbO4ACSxvFQp7YNwBCb1hf9tomML5rsIQySISJyORdS5rAXShx-wAAnX4L1W2VCIxt8n0VvklbEQ8QJjmf_CbQ2&t=636373466580000000')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: open_sansregular, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0px;
+  height: 100%;
+  background-color: white;
+}
+
+body * {
+  outline: none;
+}
+
+/* Content picker style including dialog and tree style. */
+
+.imagePicker {
+  background: #ddecf4;
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+.imagePicker span {
+  flex: 1 1 auto;
+  position: relative;
+  background: white;
+}
+
+.imagePicker .selectedNodeTitle {
+  display: block;
+  text-decoration: underline !important;
+  font-weight: normal !important;
+}
+
+.imagePicker .imagePickerContainer .imagePickerContainerBody div {
+  vertical-align: top;
+}
+
+.imagePicker .imagePickerContainer .imagePickerContainerRibbon {
+  background: #e0eced
+    url('/sitecore/shell/themes/standard/images/RibbonToolbarStrip.png')
+    repeat-x;
+  height: 33px;
+  border-bottom: 1px solid #bababa;
+}
+
+.imagePicker .imagePickerContainer .imagePickerContainerHeader {
+  padding: 1px;
+  height: 20px;
+  background: #4e4e4e url(/sitecore/shell/themes/standard/gradients/gray1.gif)
+    50% 0 repeat-y;
+}
+
+.imagePicker
+  .imagePickerContainer
+  .imagePickerContainerHeader
+  .imagePickerContainerClose {
+  float: right;
+  height: 13px;
+  width: 38px;
+  background: url(/sitecore/shell/themes/standard/Images/Window%20Management/Close_red.png);
+}
+
+.imagePicker
+  .imagePickerContainer
+  .imagePickerContainerRibbon
+  .imagePickerContainerSave {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background: url('/sitecore%20modules/Shell/ucommerce/images/save.gif');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.imagePicker span p {
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline;
+}
+
+.imagePicker span p.choosePicture {
+  color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+  max-width: 470px;
+  vertical-align: middle;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 24px;
+  line-height: 23px;
+  margin: 0;
+  display: inline-block;
+}
+
+.imagePicker span p.choosePicture:hover {
+  background-color: #f2f2f2;
+}
+
+.imagePicker span p.removePicture {
+  color: red;
+  padding-right: 10px;
+  padding-left: 10px;
+  max-width: 470px;
+  vertical-align: middle;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 24px;
+  line-height: 23px;
+  margin: 0;
+  display: inline-block;
+}
+
+.imagePicker span p.removePicture:hover {
+  color: red;
+}
+
+.imagePreview {
+  max-height: 325px;
+  max-width: 100%;
+}
+
+.imagePicker .imagePickerContainer .imagePickerContainerBody .imagePickerContainerTreeContainer {
+    overflow: auto;
+    display: inline-block;
+    width: 56%;
+    height: 100%;
+}
+
+.imagePicker img#selectedImage {
+  max-width: 350px;
+  max-height: 350px;
+  margin: 10px;
+}
+
+.imagePicker .imagePickerContainer .imagePickerContainerBody {
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+
+.imagePicker
+  .imagePickerContainer
+  .imagePickerContainerBody
+  .imagePickerContainerTreeContainer {
+  overflow: auto;
+  display: inline-block;
+  width: 56%;
+  height: 100%;
+}
+
+.imagePicker
+  .imagePickerContainer
+  .imagePickerContainerBody
+  .imagePickerContainerPreview {
+  display: inline-block;
+  width: 44%;
+  height: 100%;
+}
+
+.imagePicker .preselectedValues.multiPicker {
+  display: inline-block;
+  width: 39%;
+  height: 100%;
+}
+
+.imagePicker .preselectedValues.multiPicker .selectedNodes {
+  width: 100%;
+}
+
+/*CREATE DIALOG */
+.dialog-head {
+  background: url('../images/panel_boxhead_bg.gif') no-repeat scroll left top
+    transparent;
+  height: 19px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.createDescription {
+  padding: 25px 0 0 0;
+  height: 170px;
+}
+
+.createDescription img {
+  height: 128px;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.bigInput {
+  font-size: 1.8em;
+  width: 400px;
+}
+
+select.bigInput {
+  width: 404px;
+}
+
+.bigInput label {
+  font-size: 1.8em;
+}
+
+a {
+  color: #1541a9;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border: none;
+}
+
+div .sorterContainer #sectionGroup {
+  overflow-y: auto;
+}
+
+.feedbackCreate {
+  margin: 5px;
+  padding: 5px 5px 3px 36px;
+  background: url(../images/okLayerBackground.gif);
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  color: White;
+}
+
+.feedbackDelete {
+  margin: 5px;
+  padding: 5px 5px 3px 36px;
+  background: url(../images/errorLayerBackground.gif);
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  color: White;
+}
+
+.loginHeader {
+  width: 242px;
+  height: 24px;
+  background-image: url(../images/loginHeader.gif);
+  font-size: medium;
+  font-weight: bold;
+  color: #666;
+}
+
+.nolink {
+  text-decoration: none;
+  color: Black;
+}
+
+.clickImg {
+  border: none;
+}
+
+h3 {
+  padding: 0px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.propertyuicontrols .Pane,
+.propertyPane {
+  margin: 0 0 0 0;
+  display: block;
+}
+
+/** DIALOG HERE  **/
+.product-relations .boxbody,
+.product-relations .boxbody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+
+.dialog-header {
+  flex-basis: 40px;
+  padding: 20px 30px;
+}
+
+.dialog-header h3 {
+  font-size: 10px;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.dialog-header .modal-close {
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.dialog-header .modal-close:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  vertical-align: middle;
+  content: '\f00d';
+  font-size: 14px;
+  color: #666;
+}
+
+.dialog-content {
+  flex-grow: 1;
+}
+
+.dialog-content__property {
+  padding: 2px 30px;
+}
+
+.dialog-content__property .propertyItemHeader,
+.dialog-content__property .propertyItemContent {
+  display: inline-block;
+  width: auto;
+  min-width: 100px;
+}
+
+.dialog-content .multipicker-container {
+  padding: 0 30px 20px;
+}
+
+.dialog-actions {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  border-top: solid 1px rgba(0,0,0,0.15);
+}
+
+.dialog-actions .dialog-saveButton {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dialog-actions .dialog-cancelButton {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.boxbody .propertyPane {
+  background-color: #fff;
+  border: none;
+}
+
+.boxbody .propertyPane .propertyItem {
+  border-left: none;
+  background: inherit;
+  padding-left: 0;
+}
+
+.boxbody .sectionGroupHeader.sectionGroupHeader {
+  color: #fff;
+  background: white;
+  padding-left: 16px;
+  height: 60px;
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+  box-shadow: 0 0;
+}
+
+.boxbody #uc-headline {
+  line-height: 48px;
+  height: 45px;
+  font-family: open_sanssemibold, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 24px;
+  color: #666;
+}
+
+p.guiDialogTiny {
+  display: none;
+}
+
+tr.propertyHeader td,
+td.propertyHeader {
+  font-weight: bold;
+  vertical-align: top;
+  padding: 7px;
+}
+
+tr.propertyContent td,
+td.propertyContent {
+  vertical-align: top;
+  padding: 7px;
+}
+
+div.propertyDiv {
+  border: 1px solid #bababa;
+  background-image: url(../images/PropertyPane/propertyBackground.gif);
+  display: block;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.guiDialogHeader {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.guiDialogMedium {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+td,
+.guiDialogNormal {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #262524;
+}
+
+th {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+
+.guiDialogDisabled {
+  font-size: 12px;
+  font-weight: normal;
+  color: #cccccc;
+}
+
+.guiDialogForm {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.guiDialogTinyMark {
+  font-size: 10px !important;
+  color: #606057;
+}
+
+.guiDialogTinyTop {
+  font-size: 10px;
+  font-weight: bold;
+  color: #378080;
+}
+
+.guiInputCode,
+.codepress {
+  font-family: Consolas, courier;
+  line-height: 1.6em;
+  font-size: 1em;
+  background: #f6f6f9;
+  border: 1px solid #cccccc;
+  margin: 0px !important;
+}
+
+.umbEditorTextField {
+  width: 400px;
+  font-size: 12px;
+}
+
+.umbEditorTextFieldMultiple {
+  width: 400px;
+  height: 150px;
+  font-size: 12px;
+}
+
+.guiDialogBox {
+  background-color: #e0eced;
+  border: 1px dotted #3399cc;
+}
+
+.guiInputText {
+  font-size: 12px;
+  color: #333333;
+  padding: 2px 2px 2px 2px;
+}
+
+.guiInputTextStandard {
+  font-size: 12px;
+  width: 70%;
+  color: #333333;
+  padding: 2px 2px 2px 2px;
+}
+
+.guiInputMediumSize {
+  width: 70%;
+}
+
+.guiInputLargeSize {
+  width: 90%;
+}
+
+.guiInputStandardSize {
+  width: 250px;
+}
+
+.guiInputDisabled {
+  font-size: 12px;
+  color: #999999;
+  border: 0px solid;
+  padding: 4px 4px 4px 4px;
+}
+
+.guiInputTextTiny,
+input,
+select {
+  font-size: 11px;
+  color: #333333;
+  margin: 0;
+  margin-right: 8px;
+}
+
+.guiInputButton {
+  font-size: 10px;
+  color: #333333;
+  font-weight: bolder;
+}
+
+.umbracoEditorBagground {
+  background-color: white;
+}
+
+.editorArrowOver {
+  cursor: hand;
+  background-color: #dedffd;
+}
+
+.editorIconDisabled {
+  filter: Alpha(Opacity=30);
+}
+
+.editorDropDown {
+  font-family: verdana, arial;
+  font-size: 10px;
+  width: 80px;
+  color: #666699;
+}
+
+.mceToolbarExternal {
+  position: absolute;
+  z-index: 100;
+  top: -2px;
+  left: 90px;
+}
+
+.guiTab {
+  padding: 3px 0px 0px 0px;
+  font-size: 10px;
+}
+
+.guiLine {
+  background-color: #a2a2a0;
+}
+
+.guiLineSelected {
+  background-color: #f5f5f5;
+}
+
+guiEditor {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.datePicker {
+  border: 1px solid WindowText;
+  background: Window;
+  width: 170px;
+  padding: 0px;
+  cursor: default;
+  -moz-user-focus: normal;
+}
+
+.datePicker td {
+  font: smallcaption;
+  font: small-caption;
+  text-align: center;
+  color: WindowText;
+  cursor: default;
+  font-weight: normal !important;
+  -moz-user-select: none;
+  padding: 0;
+}
+
+.datePicker td.red {
+  color: red;
+}
+
+.datePicker .header {
+  background: ActiveCaption;
+  padding: 3px;
+  border-bottom: 1px solid WindowText;
+}
+
+.datePicker .headerTable {
+  width: 100%;
+}
+
+.datePicker .footer {
+  padding: 3px;
+}
+
+.datePicker .footerTable {
+  width: 100%;
+}
+
+.datePicker .grid {
+  padding: 3px;
+}
+
+.datePicker .gridTable {
+  width: 100%;
+}
+
+.datePicker .gridTable td {
+  width: 14.3%;
+}
+
+.datePicker .gridTable .daysRow td {
+  font-weight: bold !important;
+  border-bottom: 1px solid ThreeDDarkShadow;
+}
+
+.datePicker .grid .gridTable .upperLine {
+  width: 100%;
+  height: 2px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.datePicker td.today {
+  font-weight: bold !important;
+}
+
+.datePicker td.selected {
+  background: Highlight;
+  color: HighlightText !important;
+}
+
+.datePicker td.labelContainer {
+  width: 100%;
+}
+
+.datePicker td .topLabel {
+  color: CaptionText;
+  display: block;
+  font-weight: bold !important;
+  width: 100%;
+  text-decoration: none;
+}
+
+.datePicker td.filler {
+  width: 100%;
+}
+
+.datePicker button {
+  border-width: 1px;
+  font: Caption;
+  font-weight: normal !important;
+  display: block;
+}
+
+.datePicker .previousButton {
+  background: buttonface url('../images/arrow.left.png') no-repeat center center;
+}
+
+.datePicker .nextButton {
+  background: buttonface url('../images/arrow.right.png') no-repeat center
+    center;
+}
+
+.datePicker .previousButton,
+.datePicker .nextButton {
+  width: 14px;
+  height: 14px;
+}
+
+.datePicker .todayButton,
+.datePicker .noneButton {
+  width: 50px;
+}
+
+.datePicker .labelPopup {
+  position: absolute;
+  min-width: 130px;
+  background: Window;
+  border: 1px solid WindowText;
+  padding: 1px;
+}
+
+.datePicker .labelPopup a {
+  width: 100%;
+  display: block;
+  color: WindowText;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.datePicker .labelPopup a:hover {
+  background: Highlight;
+  color: HighlightText;
+}
+
+.datePicker .labelPopup a.selected {
+  font-weight: bold;
+}
+
+.umbMacroHolder {
+  margin: 5px;
+  padding: 5px;
+  border: 2px dotted orange;
+  display: inline;
+}
+
+.umbTagElement {
+  float: left;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.umbTagDelete {
+  color: Red;
+}
+
+.umbTagContainer {
+  width: 300px;
+  margin: 5px 0;
+  display: block;
+}
+
+.umbIconDropdownList option.spriteBackground {
+  background-repeat: no-repeat;
+  padding: 1px;
+  padding-left: 25px;
+  margin-left: 2px;
+  display: block !important;
+}
+
+.umbIconDropdownList option.deprecatedImage {
+  background-repeat: no-repeat;
+  background-position: 4px 1px;
+  padding: 1px;
+  padding-left: 25px;
+}
+
+#auditTrailList span {
+  margin-left: 22px;
+}
+
+.umbNitroList input {
+  float: left;
+  display: block;
+}
+
+.umbNitroList tr td {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.umbNitroList div {
+  float: left;
+  padding-left: 15px;
+  display: block;
+  width: 550px;
+}
+
+.umbNitroList div h3 {
+  margin: 0px;
+}
+
+/* Generel error / success / notice classes, as seen in the umbraco installer. */
+.error,
+.notice,
+.success {
+  padding: 0.8em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.5em;
+  border: 2px solid #ddd;
+}
+
+.error {
+  background: #fbe3e4;
+  color: #8a1f11;
+  border-color: #fbc2c4;
+}
+
+.notice {
+  background: #fff6bf;
+  color: #514721;
+  border-color: #ffd324;
+}
+
+.success {
+  background: #e6efc2;
+  color: #264409;
+  border-color: #c6d880;
+}
+
+.error a {
+  color: #8a1f11;
+}
+
+.notice a {
+  color: #514721;
+}
+
+.success a {
+  color: #264409;
+}
+
+.sprTree {
+  background-image: url(../../images/sprites.png);
+  display: inline;
+  padding-bottom: 2px;
+}
+
+.sprTree img {
+  width: 16px;
+  height: 18px;
+  padding-right: 7px;
+}
+
+.treeContainer {
+  padding: 5px;
+  background-color: White;
+}
+
+/* DASHBOARD */
+
+.dashboardWrapper {
+  padding: 5px 5px 5px 5px;
+  overflow: hidden;
+  color: #333;
+}
+
+.dashboardWrapper p {
+  font-size: 1.1em;
+  margin-top: 0;
+}
+
+.dashboardWrapper h2 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 37px;
+  line-height: 32px;
+}
+
+.dashboardWrapper h3 {
+  margin-bottom: 10px;
+}
+
+.dashboardIcon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.dashboardColWrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.dashboardColWrapper h3 {
+  margin-bottom: 0;
+}
+
+.dashboardColWrapper ul {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding: 0;
+  list-style-image: url(/umbraco/images/listitemorange.gif);
+}
+
+.dashboardColWrapper li {
+  line-height: 1.2em;
+  font-size: 1.1em;
+  padding-bottom: 0.5em;
+}
+
+.dashboardCol {
+  position: relative;
+  padding: 10px 1%;
+  background: url(../../images/PropertyPane/propertyBackground.gif) repeat-x
+    scroll center top #ffffff;
+}
+
+.third {
+  width: 30.33%;
+  float: left;
+  margin-right: 1%;
+}
+
+.dashboardCols .last {
+  margin-right: 0;
+}
+
+.dashboardCols h3 {
+  margin-top: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.dashboardHideLink {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-decoration: none;
+  color: #666;
+  border: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #ddd;
+  background: -moz-linear-gradient(100% 100% 90deg, #ddd, #fefefe);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#ddd));
+}
+
+.dashboardHideLink:hover {
+  text-decoration: none;
+  background-color: #fefefe;
+  background: -moz-linear-gradient(100% 100% 90deg, #fefefe, #ddd);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#fefefe));
+  cursor: pointer;
+}
+
+#tinymce ul {
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+  font-size: 14px;
+}
+
+.tinymceMenuBar table {
+  margin: 1px 0 0 6px;
+  _margin-top: 2px;
+}
+
+.editorIcon {
+  display: none;
+}
+
+.editorIconOver {
+  background-image: url('../../images/MenuIcon/buttonbg.gif');
+  border: 1px solid #cac9c9 !important;
+  cursor: hand;
+  height: 19px;
+  margin: 0px;
+  padding: 2px;
+  width: 18px;
+}
+
+.editorIconDown {
+  background-image: url('../../images/MenuIcon/buttonbg.gif');
+  border: 1px solid #cac9c9 !important;
+  cursor: hand;
+  height: 19px;
+  margin: 0px;
+  padding: 2px;
+  width: 18px;
+}
+
+.editorIconDisabled {
+  /*
+    IE ONLY !!!
+    */
+  filter: Alpha(Opacity=30);
+}
+
+.menubar .save-button-wrapper {
+  display: inline;
+}
+
+.menubar label.save-button-label {
+  display: inline-block;
+  padding: 0 16px;
+  font-size: 13px;
+  font-family: open_sansregular, sans-serif;
+  line-height: 31px;
+  width: auto;
+  height: 31px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #4cb861;
+  margin: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.menubar label.save-button-label:hover {
+  color: #fff;
+  background-color: rgb(66, 159, 85);
+}
+
+.editorDropDown {
+  font-family: verdana, arial;
+  font-size: 10px;
+  width: 80px;
+  color: #666699;
+}
+
+.TreeViewWrapper {
+  margin: 10px;
+}
+
+ul#sectionGroupTabs {
+  background-color: #d6d9d6;
+  padding: 16px 16px 0px 16px;
+}
+
+.sectionGroupHeader {
+  padding-top: 6px;
+  padding-left: 16px;
+  padding-bottom: 7px;
+  background-color: #f4f6f7;
+}
+
+.sorterContainer .sectionGroupHeader {
+  display: none !important;
+}
+
+.uc-headline {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#uc-headline {
+  font-family: open_sansregular, sans-serif !important;
+  font-size: 34px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  color: #333 !important;
+  max-width: 100%;
+  border: none;
+  height: 45px;
+  background: transparent;
+  padding: 0px;
+  box-shadow: none;
+  transition: none;
+}
+
+#uc-headline.editable {
+  color: black;
+}
+
+.CatalogItemsListBox,
+.SelectedCatalogItemListBox {
+  width: 250px;
+  height: 100%;
+  min-height: 230px;
+}
+
+table.CatalogItemSelectorTable {
+  width: 100%;
+  height: 100%;
+}
+
+.treeTop {
+  line-height: 18px;
+  display: table;
+}
+
+.contentTree ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.contentTree .treeItemExpandContainer {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.contentTree .treeItemExpandContainer .treeItemExpand {
+  cursor: pointer;
+}
+
+.contentTree .treeItemExpandContainer a span {
+  width: 15px;
+  height: 19px;
+  display: inline-block;
+}
+
+.contentTree .treeItemExpandContainer a.treeItemOpen span {
+  background-image: url('/ucommerce/css/images/treemenu_collapsed_down.png');
+}
+
+.contentTree .treeItemExpandContainer a.treeItemClosed span {
+  background-image: url('/ucommerce/css/images/treemenu_collapsed.png');
+}
+
+.contentTree .treeLink {
+  vertical-align: top;
+}
+
+.contentTree .treeNodeIcon {
+  width: auto;
+  display: inline-flex;
+  cursor: pointer;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  line-height: 16px;
+  margin-top: 3px;
+  background-image: none !important;
+}
+
+.contentTree .treeNodeIcon input[type='checkbox'] {
+  display: table-cell;
+}
+
+.contentTree .treeNodeIcon .nodeName {
+  width: auto;
+  display: inline-block;
+  font-size: 14px;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+  white-space: nowrap;
+  margin-left: 4px;
+  padding-right: 4px;
+  line-height: 18px;
+  color: #262524;
+  bottom: 3px;
+  position: relative;
+}
+
+.contentTree .treeNodeIcon span {
+  white-space: nowrap;
+  line-height: 17px;
+}
+
+.contentTree .nodeSelectedStyle .nodeName span {
+  background: rgb(228, 228, 228);
+}
+
+.contentTree div.treeContextMenu > ul {
+  z-index: 100;
+  background: white url('../../Images/contextMenuBg-sitecore.gif') repeat-y left;
+  border: 1px solid #868686;
+  padding-left: 3px;
+  padding-right: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: auto;
+  -moz-min-width: 200px;
+  -ms-min-width: 200px;
+  -o-min-width: 200px;
+  -webkit-min-width: 200px;
+  min-width: 140px;
+  margin: 0;
+  display: block;
+  list-style-type: none;
+  position: absolute;
+}
+
+.contentTree div.treeContextMenu > ul > li {
+  margin: 0;
+  height: 22px;
+  font-size: 11px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.contentTree div.treeContextMenu > ul > li > a {
+  background-size: 16px;
+  background-position: 2px 4px;
+  background-repeat: no-repeat;
+  text-indent: 30px;
+  color: #080864;
+  display: block;
+  height: 20px;
+  padding-top: 1px;
+  padding-left: 1px;
+  padding-right: 5px;
+  margin-right: 2px;
+  text-decoration: none;
+}
+
+.contentTree div.treeContextMenu > ul > li > a:hover {
+  text-decoration: none;
+  background-color: #dcecf3 !important;
+  border: 1px solid #a8d8eb;
+  margin-right: 2px;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 4px;
+  background-position: 1px 3px;
+}
+
+.contentTree div.treeContextMenu > ul > li.separator {
+  font-size: 1px;
+  border-top: 1px solid #868686;
+  line-height: 1px;
+  height: 1px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  margin-left: 29px;
+  margin-right: 0px;
+  min-height: 1px;
+  display: block;
+}
+
+.contentTree div.treeContextMenu > ul > li.separator > a {
+  height: 0;
+  text-decoration: none;
+}
+
+.contentTree div.treeContextMenu > ul > li.separator > a:hover {
+  border: none;
+}
+
+.selected-nodes-container .selectedNode {
+  display: flex;
+  align-items: center;
+}
+
+.selected-nodes-container .selectedNode .removeIcon {
+  flex: 0 0 30px;
+}
+
+.selected-nodes-container .selectedNode .node {
+  flex: 1 1 auto;
+}
+
+.product-price-list tr:first-child td:first-child {
+  padding-right: 18px;
+  width: 142px;
+}
+
+.maxWidth {
+  width: 100% !important;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.imagePicker .sectionGroupHeader {
+  background: white;
+}
+
+.shippingMethodPrices.dataList tbody tr:nth-child(odd),
+.paymentMethodPrices.dataList tbody tr:nth-child(odd) {
+  background: none;
+}
+
+.shippingMethodPrices.dataList tbody tr th,
+.paymentMethodPrices.dataList tbody tr th {
+  border: none;
+}
+
+.CatalogItemSelectorTreeView.TreeViewWrapper {
+  max-height: 240px;
+  max-width: 250px;
+  overflow: auto;
+  margin-left: 0;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='date'],
+input[type='month'],
+input[type='time'],
+input[type='week'],
+input[type='number'],
+input[type='email'],
+input[type='url'],
+input[type='search'],
+input[type='tel'],
+input[type='color'],
+textarea,
+.propertyPane select {
+  line-height: 20px;
+  color: #696663;
+  border-color: #ccc;
+  max-width: 320px;
+  margin-right: 8px;
+  width: 100%;
+  height: 35px;
+  padding: 4px 8px;
+  border: 1px solid #bdbbbb;
+  border-radius: 0px;
+  box-sizing: border-box;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+  font-size: 14px;
+}
+
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='time']:focus,
+input[type='week']:focus,
+input[type='number']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='search']:focus,
+input[type='tel']:focus,
+input[type='color']:focus,
+textarea:focus,
+.propertyPane select:focus {
+  outline: 0;
+}
+
+input[type='text']:disabled,
+input[type='password']:disabled,
+input[type='datetime']:disabled,
+input[type='datetime-local']:disabled,
+input[type='date']:disabled,
+input[type='month']:disabled,
+input[type='time']:disabled,
+input[type='week']:disabled,
+input[type='number']:disabled,
+input[type='email']:disabled,
+input[type='url']:disabled,
+input[type='search']:disabled,
+input[type='tel']:disabled,
+input[type='color']:disabled,
+input[type='checkbox']:disabled,
+textarea:disabled,
+.propertyPane select:disabled {
+  color: #696663;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+  cursor: not-allowed;
+}
+
+.mediumButton[disabled='disabled'] {
+  cursor: not-allowed;
+  font-size: 12px;
+}
+
+.ui-datepicker-trigger {
+  position: relative;
+  top: 3px;
+}
+
+.productTarget {
+  margin-bottom: 8px;
+}
+
+.create-product-relation .multipicker-container {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: solid 1px rgba(0, 0, 0, 0.09);
+}
+
+.multiPickerAction,
+.multipicker__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.multipicker__header {
+  font-weight: bold;
+  margin-bottom: 20px;
+  flex-basis: 20px;
+}
+
+.multiPickerAction {
+  flex-basis: auto;
+}
+
+.multiPickerAction > div,
+.multipicker__header > div {
+  width: 48%;
+}
+
+
+.multiPicker {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.multiPicker .multiPickerTree {
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.multiPicker .selectedNodes {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.05);
+  min-height: 400px;
+  padding: 10px 0;
+}
+
+.multiPicker .selectedNodes .selectedNode {
+  padding: 2px 5px 2px 15px;
+}
+
+.selectedNodes .selectedNode:hover {
+  background-color: #fff;
+}
+
+.selectedNode .removeIcon {
+  cursor: pointer;
+}
+
+.multiPicker .treeHeaderText {
+  width: 49%;
+  box-sizing: border-box;
+}
+
+.multiPicker .multiPickerHeaderText {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+  color: #666;
+  box-sizing: border-box;
+  margin: 0 0 5px 0;
+}
+
+/* Override width and height for multi picker tree on categories picker on product editor */
+.categoriesForProducts .multiPicker .multiPickerTree {
+  width: 49%;
+  height: 97% !important;
+  overflow: auto;
+
+}
+
+.categoriesForProducts .multiPicker .selectedNodes {
+  height: 97% !important;
+  overflow: auto;
+}
+
+.categoriesForProducts .multiPicker .treeHeaderText {
+  width: 49%;
+}
+
+.propertyPane.leftAligned.categoriesForProducts {
+  height: 97%;
+}
+
+.categoriesForProducts .propertyItem {
+  margin: 0px !important;
+  padding: 0px !important;
+  padding-left: 4px !important;
+}
+
+.categoriesForProducts .propertyItem .propertyItemContent {
+  height: 94%;
+  max-width: 100%;
+}
+
+.categoriesForProducts .contentTree.multiPicker {
+  height: 100%;
+}
+
+.categoriesForProducts .propertyItem .propertyItemContent > div > div {
+  height: 100%;
+}
+
+.categoriesForProducts .contentTree.multiPicker {
+  height: 100%;
+}
+
+.definitionsGraph {
+  height: 100%;
+}
+
+.definitionsGraph #container {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.definitionsGraph .selectedNodeInformation {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.definitionsGraph .network-manipulationDiv {
+  border: 1px solid rgb(184, 184, 184);
+}
+
+.definitionsGraph .selectedDefinitionLabel {
+  font-weight: bold;
+}
+
+.tableLayout {
+  display: table;
+  width: 100%;
+}
+
+.tableCellLayout {
+  display: table-cell;
+}
+
+.definitionsGraph .tableLayout .tableCellLayout {
+  padding: 10px;
+}
+
+.definitionsGraph .tableLayout .tableCellLayout:nth-child(1) {
+  width: 50%;
+  min-width: 166px;
+  display: table-cell;
+}
+
+.definitionsGraph .selectedNodeInformation .tableLayout:nth-child(odd) {
+  background: rgba(247, 247, 247, 0.56);
+}
+
+.definitionsGraph .network-manipulationUI.add {
+  display: none;
+}
+
+.definitionsGraph.nodeSelected .network-manipulationUI.delete {
+  display: none;
+}
+
+.network-manipulationDiv .network-manipulationUI.edit {
+  display: none;
+}
+
+.definitionsGraph .network-seperatorLine {
+  visibility: hidden;
+}
+
+.mce-statusbar {
+  display: none !important;
+}
+
+.propertyList .tab-section-header {
+  margin-top: 0px;
+}
+
+ul.multiselect-container {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  float: left;
+  background-clip: padding-box;
+  background-color: #fff;
+  display: none;
+  border-color: rgb(204, 204, 204);
+}
+
+.multiselect-container > li > a {
+  color: #333;
+  line-height: 1.485;
+  display: block;
+  white-space: nowrap;
+  clear: both;
+  background-clip: border-box;
+  background-size: auto;
+  background-repeat: repeat;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.multiselect-container > li.active {
+  color: #fff;
+  text-decoration: none;
+  outline-width: 0px;
+  outline-style: none;
+  outline-color: invert;
+  background-color: #2e8aea;
+}
+
+.multiselect-container > li > a > label.checkbox {
+  display: block;
+  position: relative;
+  min-height: 16px;
+  font-size: 12px;
+  padding: 0px 20px 0px 25px;
+}
+
+.multiselect-container > li > a > label > input[type='checkbox'] {
+  margin-top: 4px;
+  margin-left: -20px;
+  position: absolute;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 2px;
+}
+
+.btn-group {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+.multiselect:focus {
+  border: 1px solid #ccc;
+}
+
+button.multiselect.dropdown-toggle.btn.btn-default {
+  padding: 5px;
+  min-height: 18px;
+  line-height: 25px;
+  *line-height: 23px;
+  line-height: 23px\0/;
+  line-height: 23px\9 /;
+  font-size: 12px;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+  border-radius: 2px;
+  background-color: #fff;
+  border-color: rgb(204, 204, 204);
+}
+
+button.multiselect {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #555;
+  border-radius: 2px;
+  text-align: left;
+  width: 100%;
+  padding: 0px 12px 0 4px;
+}
+
+.open > .dropdown-menu {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: none;
+}
+
+.multiselect-container li.active {
+  background-color: #2e8aea;
+}
+
+.multiselect-container li.active a label {
+  color: #fff;
+}
+
+.multiselect-container li:hover {
+  background-color: #2e8aea;
+}
+
+@media all and (-ms-high-contrast: none) {
+  .multiselect-container > li.active {
+    background-color: rgb(38, 160, 218);
+  }
+
+  .multiselect-container > li:hover {
+    background-color: rgb(38, 160, 218);
+  }
+}
+
+.multiselect-container li:hover a label {
+  color: #fff;
+}
+
+ul.multiselect-container.dropdown-menu {
+  max-height: 340px;
+  overflow: auto;
+  z-index: 1;
+  font-size: 12px;
+  padding: 3px 0 3px 0;
+}
+
+#ui-datepicker-div .ui-datepicker-buttonpane button.ui-datepicker-close,
+#ui-datepicker-div .ui-datepicker-buttonpane button.ui-datepicker-current {
+  height: auto !important;
+}
+
+.editCampaignItemButton,
+.mediumButton,
+#ui-datepicker-div .ui-datepicker-buttonpane .ui-datepicker-close,
+.dialog-saveButton {
+  color: #fff;
+  background-color: #4cb861;
+  margin: 0;
+  display: inline-block;
+  padding: 0 16px;
+  font-size: 14px !important;
+  font-family: open_sanssemibold, Helvetica, Verdana, Arial, sans-serif !important;
+  font-weight: 600;
+  line-height: 32px;
+  width: auto;
+  height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 3px;
+  white-space: nowrap;
+  margin: 0 8px 8px 0;
+  border: 0;
+}
+
+.editCampaignItemButton:hover,
+.mediumButton:hover,
+.dialog-saveButton:hover,
+#ui-datepicker-div .ui-datepicker-buttonpane .ui-datepicker-close:hover {
+  background-color: #429f55;
+}
+
+.boxbody .propertyItem {
+  border: none;
+  padding: 0;
+}
+
+.caret {
+  overflow: hidden;
+  float: right;
+  margin: 0 !important;
+}
+
+.caret select:focus {
+  border: none;
+  box-shadow: inherit;
+}
+
+select::-ms-expand {
+  border: none;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.caret select {
+  height: 14px;
+  *height: 16px;
+  height: 16px\0/;
+  height: 16px\9 /;
+  border: none;
+  width: auto;
+}
+
+@-moz-document url-prefix() {
+  .caret {
+    margin-top: -5px !important;
+    margin-right: -5px !important;
+  }
+
+  .caret select {
+    text-indent: 0.01px;
+    background: url(../images/firefox_select_arrow.png) no-repeat 81% 55%;
+  }
+
+  .multiselect-container li.active {
+    background-color: rgb(51, 153, 255);
+  }
+
+  .multiselect-container li:hover {
+    background-color: rgb(51, 153, 255);
+  }
+}
+
+.btn-group.btn-group {
+  white-space: normal;
+}
+
+.scrollable .propertyPane .propertyItem {
+  padding: 0;
+}
+
+.scrollable .propertyPane .propertyItem .propertyItemContent {
+  width: 100%;
+}
+
+.modalTabView #sectionGroup .section .scrollable,
+.modalTabView #sectionGroup .section .scrollable .propertyPane {
+  background-color: #fff;
+}
+
+.modalTabView .sectionGroupHeader {
+  background-color: #f4f6f7 !important;
+  padding: 0 0 0 16px;
+  height: 48px;
+}
+
+.modalTabView #sectionGroup {
+  border-radius: 0;
+}
+
+.dialog-cancelButton,
+.mediumButton[disabled='disabled'],
+#ui-datepicker-div .ui-datepicker-buttonpane .ui-datepicker-current,
+.secondary-button-label {
+  background-color: #fff;
+  display: inline-block;
+  padding: 0 16px;
+  font-size: 13px;
+  font-family: open_sansregular, sans-serif;
+  line-height: 30px;
+  height: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+  vertical-align: middle;
+  border: 1px solid rgb(204, 204, 204);
+  margin: 0 0px 8px 0;
+}
+
+.dialog-cancelButton {
+  border: none;
+  color: red;
+  padding: 0;
+  padding-left: 0;
+  margin: 0 0 5px 0;
+}
+
+.dialog-cancelButton:hover {
+  color: #105cb6;
+  text-decoration: none;
+}
+
+.secondary-button-wrapper {
+  display: none;
+}
+
+.menubar .secondary-button-wrapper {
+  display: inline-block;
+}
+
+.menubar .secondary-button-wrapper .secondary-button-label {
+  word-spacing: initial;
+  vertical-align: inherit;
+  margin: 0 8px 8px 0;
+}
+
+.menubar .secondary-button-wrapper .secondary-button-label:hover {
+  color: #000;
+  background-color: #f2f2f2;
+}
+
+.footerOkCancel {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 150px;
+}
+
+.footerOkCancel > * {
+  margin-right: 15px;
+}
+
+
+.footerOkCancel em {
+  font-size: 12px;
+  font-style: normal;
+}
+
+.imagePicker .footerOkCancel {
+  margin-top: 0px;
+}
+
+.boxbody .contentPane {
+  height: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.boxbody .propertyPane.contentPane {
+  height: 100%;
+  overflow: auto;
+  box-sizing: inherit;
+  flex: 0 1 auto;
+}
+
+.panel,
+.panel .boxbody,
+.contentTree {
+  height: 100%;
+}
+
+form,
+body {
+  height: 100% !important;
+  overflow: hidden;
+}
+
+.panel .boxbody {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxbody .dialog-header,
+.boxbody .dialog-actions {
+  position: relative;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contentTree {
+  box-sizing: border-box;
+}
+
+.multipicker-container,
+.singlepicker-container {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.multiPickerTree.false {
+  width: 100% !important;
+}
+
+.contentTree .multiPickerAction {
+  height: 100%;
+  box-sizing: border-box;
+  margin-top: -20px;
+  padding-top: 20px;
+}
+
+.multiPickerContainer-CreateProductRelation {
+  padding: 0;
+}
+
+.modalTabView .contentPane .propertyItems,
+#editor .contentPane .propertyItems,
+.contentPaneZero .propertyItems,
+.contentPaneOne .propertyItems,
+.contentCatalogItems .propertyItems,
+.contentFreeGift .propertyItems {
+  padding: 16px;
+  overflow-y: auto;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.modalTabView .contentPane .propertyItems {
+  padding-top: 0;
+}
+
+.boxbody .contentPaneTwo {
+  height: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.boxbody .contentPaneZero {
+  height: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.boxbody .contentCatalogItems .propertyItem,
+.boxbody .contentFreeGift .propertyItem {
+  height: 100%;
+}
+
+.boxbody .contentCatalogItems,
+.boxbody .contentFreeGift {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.CatalogItemSelectorTable tbody tr {
+  line-height: 10px;
+  height: 0;
+}
+
+.CatalogItemsTd {
+  height: 100%;
+}
+/*For IE only*/
+@media all and (-ms-high-contrast: none) {
+  .propertyItem table.CatalogItemSelectorTable {
+    height: 90%;
+  }
+}
+
+.CatalogItemsTd select option {
+  font-size: 12px !important;
+}
+
+.propertyPane {
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif !important;
+  font-size: 14px;
+}
+
+.propertyItem .pricing {
+  padding-left: 0;
+}
+
+#sectionGroup .section {
+  border-left: none;
+}
+
+.variantContainer tbody tr td select {
+  width: auto;
+}
+
+.boxbody .contentPaneOne {
+  flex: 1 auto;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dataList tfoot tr td {
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+img.ui-datepicker-trigger {
+  display: none;
+}
+
+#ui-datepicker-div {
+  display: none;
+  border-radius: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px 20px 10px 8px;
+  width: 200px;
+  -moz-box-shadow: 2px 4px 5px rgba(153, 153, 153, 0.5),
+    -2px 4px 5px rgba(153, 153, 153, 0.5);
+  -o-box-shadow: 2px 4px 5px rgba(153, 153, 153, 0.5),
+    -2px 4px 5px rgba(153, 153, 153, 0.5);
+  -webkit-box-shadow: 2px 4px 5px rgba(153, 153, 153, 0.5),
+    -2px 4px 5px rgba(153, 153, 153, 0.5);
+  box-shadow: 2px 4px 5px rgba(153, 153, 153, 0.5),
+    -2px 4px 5px rgba(153, 153, 153, 0.5);
+}
+
+#ui-datepicker-div .ui-datepicker-header {
+  background: none;
+  font-weight: normal;
+  position: relative;
+  border: none;
+}
+
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-title {
+  line-height: 26px;
+  height: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  color: black;
+  font-family: open_sansregular 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+  font-size: 14px;
+}
+
+#ui-datepicker-div .ui-state-default.ui-state-default.ui-state-default {
+  border: none;
+  font-weight: normal;
+  color: #105cb6;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+  font-size: 13px;
+  background: none;
+}
+
+#ui-datepicker-div .ui-state-default.ui-state-hover {
+  background-color: #f1f1f1 !important;
+  cursor: pointer;
+}
+
+#ui-datepicker-div
+  .ui-datepicker-buttonpane
+  .ui-state-default.ui-state-default.ui-state-default {
+  color: #fff;
+  padding: 0 16px;
+  max-width: none;
+  font-weight: 600;
+  opacity: 1;
+  float: right;
+}
+
+#ui-datepicker-div
+  .ui-datepicker-buttonpane
+  .ui-state-default.ui-state-default.ui-state-default.ui-datepicker-close {
+  display: inline-block;
+  padding: 0 16px;
+  font-size: 13px !important;
+  font-family: open_sansregular, sans-serif;
+  line-height: 31px;
+  width: auto;
+  float: left;
+  height: 31px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #4cb861 !important;
+  margin: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+#ui-datepicker-div
+  .ui-datepicker-buttonpane
+  .ui-state-default.ui-state-default.ui-state-default.ui-datepicker-close:hover {
+  display: inline-block;
+  padding: 0 16px;
+  font-size: 13px;
+  font-family: open_sansregular, sans-serif;
+  line-height: 31px;
+  width: auto;
+  height: 31px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #3d934e !important;
+  margin: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+#ui-datepicker-div
+  .ui-datepicker-buttonpane
+  .ui-state-default.ui-state-default.ui-state-default.ui-priority-secondary {
+  display: none;
+}
+
+#ui-datepicker-div
+  .ui-datepicker-buttonpane
+  .ui-state-default.ui-state-default.ui-state-default.ui-priority-secondary:hover {
+  background-color: #a3a2a2;
+}
+
+#ui-datepicker-div.ui-datepicker td a.ui-state-active {
+  background: #105cb6 !important;
+  color: white !important;
+  padding-right: 2px !important;
+}
+
+.ui-datepicker td {
+  border: 0;
+  padding: 0;
+}
+
+.ui-timepicker-div dl dt {
+  font-size: 14px;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+}
+
+.ui-timepicker-div dl dd {
+  font-size: 14px;
+  margin: 0;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+}
+
+.ui-timepicker-div dl dd.ui_tpicker_time {
+  background: #105cb6;
+  display: inline;
+  color: white;
+  padding: 2px 7px;
+}
+
+.ui-timepicker-div .ui_tpicker_hour_slider a.ui-slider-handle {
+  border: 1px solid #cccccc !important;
+  background: #f6f6f6 50% 50% repeat-x !important;
+}
+
+.ui-timepicker-div .ui_tpicker_minute_slider a.ui-slider-handle {
+  border: 1px solid #cccccc !important;
+  background: #f6f6f6 50% 50% repeat-x !important;
+}
+
+#ui-datepicker-div .ui-widget-content.ui-slider-horizontal {
+  background-color: #dfdfdf;
+  border-top: 1px solid #999;
+  height: 1px;
+  border-left: 1px solid #999;
+  margin-left: 60px;
+  top: -9px;
+}
+
+#ui-datepicker-div .ui-widget-content.ui-slider-horizontal a.ui-slider-handle {
+  top: -10px;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a.ui-state-default.ui-state-active {
+  padding: 0;
+}
+
+.ui_tpicker_hour_label {
+  margin-top: 15px;
+}
+
+.evaluationRule select {
+  width: 100%;
+}
+
+.marketing-container {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.TreeViewWrapper table tbody tr td {
+  padding-left: 5px;
+}
+
+.TreeViewWrapper table tbody tr td input {
+  margin: 5px 5px 3px 0;
+}
+
+.TreeViewWrapper table tbody tr td a {
+  line-height: 18px;
+  vertical-align: bottom;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+}
+
+.ui-state-hover .ui-icon {
+  background-image: url(images/ui-icons_222222_256x240.png);
+}
+
+.contentCatalogItemSelector {
+  height: 73%;
+}
+/*For IE Only*/
+@media all and (-ms-high-contrast: none) {
+  .CatalogItemSelectorTable tbody tr td select {
+    height: 230px;
+  }
+
+  .targetAwardContainer table tbody tr td table tbody tr td label {
+    line-height: 22px !important;
+  }
+}
+
+.orderSelect {
+  width: 13px;
+}
+
+.orderSelect input {
+  margin-left: 4px;
+  margin-right: 0;
+}
+
+.dataList thead tr th input {
+  margin-left: 4px;
+}
+
+/*.edittCampaigneItemTable tbody tr td {
+    padding-right: 15px;
+}*/
+
+.sorterContainer .propertyPane {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.imagePickerContainerPreview img.imagePreview {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;
+}
+
+.propertyItemContent input[type='text'].propertyText {
+  width: 100%;
+}
+
+.paymentMethodPrices tbody tr td {
+  text-align: center;
+}
+
+.catalogItemSelector {
+  height: 100%;
+}
+
+.catalogItemSelector .propertyItem {
+  margin: 0;
+}
+
+.dataTables_filter input {
+  margin: 0;
+}
+
+.variantContainer tbody tr td {
+  padding: 0px;
+  padding: 3px 3px 3px;
+}
+
+.variantContainer tbody tr td input {
+  margin: 0;
+}
+
+.btn-group button {
+  height: 35px;
+  font-family: open_sansregular, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.product-price-list tbody tr td {
+  padding: 4px 0 4px;
+}
+
+.btn-group button b select {
+  padding: 0;
+  min-height: 0;
+  height: 26px;
+  border: none;
+}
+
+.imagePicker .imagePickerContainer {
+  padding: 15px;
+}
+
+.imagePicker .imagePickerContainer .imagePickerContainerBody {
+  margin: 0;
+}
+
+.propertyPaneUCommerce {
+  background: #fff;
+  padding: 0 !important;
+  margin: 10px;
+}
+
+.reviewList tbody tr:nth-child(odd) {
+  background-color: rgb(247, 247, 247);
+}
+
+.reviewList tbody tr:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+.sold-to td div {
+  line-height: 16px;
+  margin-top: 2px;
+  font-size: 14px;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+}
+
+.discountExpander a {
+  display: inline-block;
+  float: left;
+  padding-left: 5px;
+}
+
+.ordersTable tfoot tr td {
+  line-height: 16px;
+}
+
+.catalogItemSelector .propertyItem {
+  height: 100%;
+}
+
+.discountList tbody tr.listOdd {
+  background-color: #ffffff;
+}
+
+.discountList tbody tr.listEven {
+  background-color: rgb(247, 247, 247);
+}
+
+.shippingPane table tbody tr th {
+  vertical-align: inherit;
+}
+
+.editShipmentMethod tbody tr td input {
+  margin: 0;
+}
+
+#order-audits tbody tr td.auditCreatedOn {
+  width: 16%;
+}
+
+#order-audits tbody tr td.auditMessage {
+  width: 55%;
+}
+
+.ui-datepicker-current {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(221, 221, 221);
+  padding: 5px 10px 5px 10px;
+  margin-top: 15px;
+}
+
+.targetAwardContainer table tbody tr td {
+  padding-right: 0;
+}
+
+.targetAwardContainer fieldset {
+  border-radius: 2px !important;
+  border: 1px solid #ccc;
+}
+
+#ContentArea_catalogItemSelector_SelectorTreeView
+  table
+  tbody
+  tr
+  td:first-child {
+  display: none;
+}
+
+.CatalogItemsTd select {
+  height: 100% !important;
+  padding: 0;
+  margin: 0;
+}
+
+.CatalogItemSelectorTable tbody tr td .CatalogItemSelectorTreeView {
+  height: 100%;
+  max-height: none;
+  max-width: none;
+  box-sizing: border-box;
+  margin: 0;
+  border-width: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+}
+
+.contentCatalogItems table {
+  height: 100%;
+}
+
+.CatalogItemSelectorTable tbody tr td {
+  padding-top: 5px;
+  height: 100%;
+}
+
+#ContentArea_catalogItemSelector_SelectorTreeView table tbody tr td {
+  padding: 0 0 0 0px;
+}
+
+#ContentArea_catalogItemSelector_SelectorTreeView table tbody tr td:last-child {
+  padding: 0 5px 0 5px;
+}
+
+.targetAwardContainer table tbody tr td table tbody tr td label {
+  vertical-align: top;
+  line-height: 16px;
+}
+
+.editDiscountSpecificOrderline section input.AmountTextBox {
+  margin: 0;
+  text-align: right;
+}
+
+.propertyItemContent input.VatRateTextBox {
+  text-align: right;
+  width: 100%;
+}
+
+.shippingMethodPrices,
+.paymentMethodPrices {
+  width: 100%;
+}
+
+    .shippingMethodPrices tbody tr td:last-child,
+    .paymentMethodPrices tbody tr td:last-child{
+        width: 30%;
+    }
+
+    .shippingMethodPrices tbody tr td:first-child
+    .paymentMethodPrices tbody tr td:first-child {
+        width: 2%;
+    }
+
+.EnabledContent input,
+.CurrencyContent {
+  margin: 0px 13px 0 17px;
+}
+
+.shippingMethodPrices tbody tr td span.validator {
+  margin-left: -12px;
+}
+
+.shippingMethodPrices tbody tr td input.amountInput,
+.paymentMethodPrices tbody tr td input.amountInput {
+  float: right;
+  width: 90%;
+  margin: 0;
+}
+
+.propertyItemContent textarea {
+  resize: none;
+}
+
+.variantContainer tbody tr td .variantOptions {
+  width: 75px;
+  height: 35px;
+  display: inline-block;
+  padding: 5px;
+  box-sizing: border-box;
+  line-height: 33px;
+  text-align: center;
+}
+
+.variantContainer tbody tr td .inline .btn-group {
+  min-width: 200px;
+  width: 100%;
+}
+
+.hasDatepicker {
+  width: 254px;
+}
+
+.targetAwardContainer table tbody tr td input {
+  margin: 1px 0px 1px 0;
+}
+
+.CatalogItemSelectorTable tbody tr td select.CatalogItemsListBox {
+  margin-right: 0;
+}
+
+.AnalyticsProductCatalogGroupDropDownList {
+  width: 100%;
+}
+
+.ReportButton {
+  margin-top: 3px;
+}
+
+.SalesStrip input[type='text'],
+.SalesStrip select {
+  width: 100% !important;
+  margin: 0 0 15px 0 !important;
+}
+
+.propertyItemContent table tbody tr td input {
+  font-size: 14px;
+  font-family: sans_semibold, 'Segoe UI Semibold', Helvetica, Verdana, Arial,
+    sans-serif !important;
+  margin-top: 5px !important;
+}
+
+.NoReviewsLabel {
+  padding-left: 10px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.CatalogItemSelectorTable
+  tbody
+  tr
+  td
+  input#ContentArea_catalogItemSelector_AddRelationsButton,
+.CatalogItemSelectorTable
+  tbody
+  tr
+  td
+  input#ContentArea_catalogItemSelector_RemoveRelationsButton {
+  margin: 0;
+}
+
+table.dataList th.rightAligned {
+  padding-right: 20px !important;
+}
+
+#editor .product-price-list .amountInput {
+  width: 273px;
+}
+
+.sold-to td div input,
+.sold-to td div select {
+  margin-top: 0 !important;
+  margin-bottom: 4px;
+}
+
+.orderInfo th,
+.sold-to th,
+.note th {
+  width: 100px;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+}
+
+.orderInfo td {
+  font-size: 14px;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+}
+
+.CatalogItemSelectorTable tr th {
+  font-weight: normal;
+}
+
+.editDiscountSpecificOrderline select,
+.EditorPanel input,
+.EditorPanel select,
+.targetAwardContainer .targetOrderOrLine,
+.targetAwardContainer input[Type='Text'] {
+  margin-bottom: 5px;
+}
+
+.edittCampaigneItemTable th {
+  font-weight: normal;
+}
+
+.modalTabView #sectionGroup .scrollable {
+  padding-top: 7px !important;
+}
+
+#editor .contentPane {
+  background-color: #fff;
+}
+
+#editor.product-relations .contentPane.create-product-relation {
+  overflow: hidden;
+}
+
+.orderPayment-even,
+.orderShipment-even {
+  background-color: rgb(247, 247, 247);
+}
+
+.orderPayment-odd,
+.orderShipment-odd {
+  background-color: #ffffff;
+}
+
+.orderPayment-odd,
+.orderPayment-even,
+.orderShipment-odd,
+.orderShipment-even {
+  padding: 15px 0 15px 5px;
+}
+
+.orderPayment-odd h2,
+.orderPayment-even h2,
+.orderShipment-odd h2,
+.orderShipment-even h2 {
+  margin-top: 0;
+}
+
+.orderShipment-even table,
+.orderShipment-odd table {
+  margin-bottom: 0;
+}
+
+.orderShipment-even .shippingPane table tbody tr.ui-sortable-helper,
+.orderShipment-odd .shippingPane table tbody tr.ui-sortable-helper {
+  height: 45px !important;
+}
+
+.orderShipment-odd div,
+.orderShipment-even div,
+.orderShipment-odd th,
+.orderShipment-even th,
+.orderShipment-odd td,
+.orderShipment-even td {
+  font-size: 14px;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+}
+
+.boxbody .contentPane.noHeader {
+  margin: 0px 0 -56px;
+  padding: 0px 0 56px;
+  overflow: auto;
+}
+
+.contentPane .voucher.voucher.voucher {
+  padding: 15px;
+  margin: 0;
+}
+
+.generateVoucherTable tbody tr td .lblExample {
+  word-wrap: break-word;
+}
+
+.voucherFieldset {
+  height: 100%;
+}
+
+.voucherTopLeftCell {
+  vertical-align: top;
+  height: 100%;
+  display: inline-table;
+  width: 46%;
+}
+
+.customFilter {
+  margin: 20px 0 20px 0;
+  display: inline-block;
+}
+
+.customFilter .hasDatepicker {
+  vertical-align: bottom;
+  width: 230px;
+}
+
+.customFilter input[type='submit'] {
+  margin-left: 6px;
+  vertical-align: bottom;
+}
+
+.customFilter img.ui-datepicker-trigger {
+  margin-left: -45px;
+}
+
+.customFilterDivider {
+  margin-left: 6px;
+  margin-right: 6px;
+  vertical-align: -moz-middle-with-baseline;
+  line-height: 35px;
+}
+
+a.propertyLink {
+  margin-left: 3px;
+}
+
+.gridster li.preview-holder {
+  background-color: white !important;
+  list-style: none;
+}
+
+.multiProductPicker {
+  height: 100%;
+  padding-top: 84px;
+  margin-top: -84px;
+  box-sizing: border-box;
+}
+
+.multiProductPicker .multipicker-container,
+.multiProductPicker .contentTree {
+  padding: 0;
+}
+
+.app-preview .details-info {
+  background-color: transparent;
+  border-bottom: none;
+  position: relative;
+  white-space: nowrap;
+  min-height: 170px;
+  margin-left: 0;
+  margin-bottom: 15px;
+  box-shadow: none !important;
+}
+
+.app-preview .icon-container {
+  margin-right: 25px;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0;
+  border: 0;
+  padding-bottom: 25px;
+}
+
+.app-preview .img-container {
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #919890;
+  background-color: white;
+}
+
+.app-preview .appThumbInDetailedView {
+  width: 200px;
+  box-shadow: none;
+  vertical-align: middle;
+}
+
+.app-preview .info-box-top {
+  box-sizing: border-box;
+  min-height: 180px;
+  padding-bottom: 40px;
+  vertical-align: top;
+  display: inline-block;
+  white-space: normal;
+  position: relative;
+  width: 100%;
+  margin-left: -229px;
+  padding-left: 229px;
+}
+
+.app-preview .appTitleInDetailedView {
+  font-size: 30px;
+  margin: 15px 30px 10px 0;
+  font-weight: 300;
+  line-height: 29px;
+  white-space: normal;
+  display: block;
+  color: #777777;
+  overflow-wrap: break-word;
+}
+
+.app-preview .createdBy {
+  display: block;
+  overflow-wrap: break-word;
+}
+
+.app-preview .createdBy p {
+  margin: 0 0 15px 0;
+}
+
+.app-preview small,
+.small {
+  font-size: 13.8px;
+  padding: 0;
+}
+
+.app-preview .supportLink,
+.app-preview .documentationLink {
+  margin-left: -3px;
+  cursor: pointer;
+  overflow-x: hidden;
+}
+
+.app-preview .supportSpan,
+.app-preview .documentationSpan {
+  display: block;
+  color: #25bbad;
+  font-family: open_sansregular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13.8px;
+}
+
+.app-preview .supportImg,
+.app-preview .documentationImg {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.app-preview #installButton {
+  width: 150px;
+  margin: 42px 0 0 0;
+  position: relative;
+  display: block;
+  padding: 0;
+  margin-right: 0;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px #919890;
+  background-color: #25bbad;
+  color: #ffffff;
+  float: right;
+  transition: background-color 0.3s;
+  background-image: none;
+}
+
+.app-preview #installButton:hover,
+.app-preview #installButton:focus {
+  background-color: #14635c;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.app-preview #installButton span,
+.app-preview #succeedButton span {
+  text-align: center;
+  display: block;
+  padding: 9px 9px;
+  font-size: 13px;
+}
+
+.app-preview .descriptionHeader,
+.app-preview .changelogHeader {
+  color: #777777;
+  font-size: 22px;
+}
+
+.app-preview .appDescriptionInDetailedView {
+  color: #777777;
+  overflow-wrap: break-word;
+  white-space: pre;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  font-size: 15px;
+}
+
+.info-box-top a {
+  color: #34739b;
+  text-decoration: none;
+}
+
+.loading i {
+  font-size: 350px;
+  z-index: 38;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.loaderIndication {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.loading {
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  color: rgba(35, 34, 34, 0.29);
+  display: table;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.appInstall {
+  position: relative;
+  padding: 10px 0 0 10px;
+  height: 100%;
+  margin-top: -10px;
+}
+
+.installedPreview {
+  padding: 0 0 0 10px;
+}
+
+.appInstall .install {
+  margin-top: 10px;
+}
+
+.appError {
+  color: red;
+  height: 15px;
+  display: block;
+}
+
+.upload label {
+  margin-right: 20px;
+  display: inline-block;
+  float: left;
+}
+
+.upload .upload-container {
+  display: block;
+  margin-left: 130px;
+}
+
+.upload .upload-container,
+.upload button {
+  display: block;
+}
+
+.app-preview {
+  width: 70%;
+}
+
+.app-preview .changeLogHeader {
+  color: #777777;
+  font-size: 22px;
+}
+
+.app-preview .changeLogNotes {
+  font-size: 15px;
+  color: #777777;
+}
+
+.upload-container button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.masterCustomIcon {
+  display: block;
+  width: 90%;
+  min-height: 95px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.thumbnail .caption {
+  color: #777777;
+  width: 90%;
+  min-height: 95px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.appTitle {
+  margin-top: -5px;
+  margin-bottom: 0;
+  height: 1.2em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  font-size: 17px;
+  font-family: open_sanssemibold, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.1;
+  color: #444444;
+}
+
+.appAuthor {
+  font-size: 13px;
+  margin-bottom: 15px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-top: -5px;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+}
+
+.manifestContent a .thumbnail {
+  display: block;
+  padding: 0;
+  margin: 0 0 20px 0;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+  width: 150px;
+  width: 150px;
+  -webkit-box-shadow: 0 10px 6px -6px #919890;
+  -moz-box-shadow: 0 10px 6px -6px #919890;
+  box-shadow: 0 2px 4px #919890;
+  height: 210px;
+  cursor: pointer;
+}
+
+.manifestContent {
+  padding: 20px 0px 0px 20px;
+  height: 220px;
+  width: 160px;
+  float: left;
+}
+
+.manifestContent a {
+  text-decoration: none;
+}
+
+.noInstalledApps {
+  padding-left: 10px;
+}
+
+.shippingPane .propertyItemContent {
+  margin-top: 6px;
+}
+
+.ui-datepicker-calendar thead {
+  background: white;
+}
+
+.ui-datepicker-calendar thead th {
+  background: white;
+  font-size: 0.9em;
+  font-family: open_sansregular, sans-serif;
+  font-weight: normal;
+  color: #999;
+  text-align: right;
+  font-style: normal;
+}
+
+.ui-datepicker-calendar tbody tr {
+  background: #fff;
+}
+
+#ui-datepicker-div .ui-widget-content {
+  border: 0;
+  margin: 0;
+}
+
+#ui-datepicker-div .ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: none;
+  background: white;
+  font-weight: normal;
+  color: white;
+}
+
+#ui-datepicker-div .ui-timepicker-div {
+  margin-left: 13px;
+}
+
+.modalTabView #uc-headline {
+  font-size: 24px;
+  color: #fff;
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+  margin-top: 8px;
+}
+
+.modalTabView .menubar {
+  padding-bottom: 0;
+}
+
+.boxbody .imagePicker {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.boxbody .imagePicker .imagePickerContainer {
+  flex: 1 auto;
+  overflow: auto;
+}
+
+.imagePickerContainer .contentTree .treeNodeIcon span {
+  margin-top: 0 !important;
+}
+
+.imagePickerContainer .contentTree .treeTop:first-child {
+}
+
+.marketing-container legend,
+.marketing-container table tbody tr td,
+.marketing-container table tbody tr td div,
+.marketing-container table tbody tr td span {
+  font-family: open_sansregular, 'Segoe UI', Helvetica, Verdana, Arial,
+    sans-serif;
+  font-size: 14px;
+}
+
+input[type='text'].contentPickerSearchInput {
+  display: flex;
+  margin-bottom: 15px;
+  max-width: 99%;
+}
+
+.contentPickerSearchPlaceHolder {
+  position: relative;
+}
+
+.clear-search {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  cursor: pointer;
+  color: #a7a7a7;
+  font-size: 20px;
+  width: 16px;
+}
+
+.clear-search.clear-search-spinner {
+  margin-top: 5px;
+}
+
+.clear-search:hover {
+  color: black;
+}
+
+.content-picker-search-result {
+  padding: 3px 0 3px 0;
+}
+
+.content-picker-search-placeHolder {
+  position: relative;
+}
+
+.content-picker-search-result {
+  display: flex;
+  flex-flow: row;
+  min-width: 0;
+  cursor: pointer;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.content-picker-search-result:hover {
+  background-color: #f8f8f8;
+}
+
+.content-picker-search-result-checkbox {
+  flex: 0 0 16px;
+}
+
+.content-picker-search-result-icon {
+  flex: 0 0 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+.content-picker-search-result-text {
+  flex: 1 1 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-left: 5px;
+  font-family: open_sansregular, sans-serif;
+  font-size: 14px;
+}
+
+/* Override default Modal styling from shell.css so it's CMS specific */
+
+div#ModalControllerContainer div#ucommerceModal div.modal.ucommerce-modal {
+  left: 35% !important;
+}
+
+.variantContainer label.secondary-button-label {
+    display: none;
+}
+
+.sorter.save.button.wrapper {
+    margin: 10px; margin-left: -2px;
+}
+
+.variantOptions .secondary-button-wrapper {
+    display: inline;
+}
+
+.marketing-container .secondary-button-wrapper {
+    display: inline;
+}
+
+.edittCampaigneItemTable .secondary-button-wrapper .secondary-button-label{
+  display:none;
+}
+

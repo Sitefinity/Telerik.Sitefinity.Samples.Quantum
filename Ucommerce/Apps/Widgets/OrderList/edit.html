@@ -1,0 +1,25 @@
+﻿<div ng-controller="orderListController">
+    <div class="propertyItem" ng-repeat="property in widget.properties | filter:{ 'key':'Interval'}">
+        <div class="propertyItemHeader">
+			<span class="widgetPropertyLabel" title="{{property.key}}">{{property.key}}</span>
+        </div>
+        <div class="propertyItemContent">
+			<select name="singleSelect"
+					ng-options="interval as getTranslatedValue(interval) for interval in intervals track by interval"
+					ng-model="property.value"></select>
+		</div>
+    </div>
+    <div class="propertyItem" ng-repeat="property in widget.properties | filter:{ 'key':'OrderStatus'}">
+        <div class="propertyItemHeader">
+			<span class="widgetPropertyLabel" title="{{property.key}}">{{property.key}}</span>
+        </div>
+        <div class="propertyItemContent">
+            <div class="multiSelect">
+                <label ng-repeat="orderStatus in orderStatuses">
+                    <input type="checkbox" ng-checked="isSelectedOrderStatus(orderStatus)" ng-click="setSelectedOrderStatuses(orderStatus)">
+                    <span>{{orderStatus}}</span>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>

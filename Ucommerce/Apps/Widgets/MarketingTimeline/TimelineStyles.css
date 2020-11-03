@@ -1,0 +1,12 @@
+﻿.marketingTimeLineWidget {
+    height: 100%;
+    margin-top: -25px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+}
+
+.campagn0 {
+	background-color: green;
+}

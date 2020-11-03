@@ -1,0 +1,40 @@
+﻿<li class="widget" id="{{widget.userWidgetSettings.userWidgetSettingId}}" data-row="{{widget.userWidgetSettings.userPositionY}}" data-col="{{widget.userWidgetSettings.userPositionX}}" data-sizex="{{widget.userWidgetSettings.userWidth}}" data-sizey="{{widget.userWidgetSettings.userHeight}}">
+    <div class="widgetLoading" ng-style="setOverLayStyles()">
+        <div class="rotateY widgetLoaderIndication">
+            <i class="icon-ucommerce"></i>
+        </div>
+    </div>
+	<div class="widgetHeader {{getEditingStyles()}}" >
+        <span title="{{widget.userWidgetSettings.displayName}}">{{widget.userWidgetSettings.displayName}}</span>
+	    <i class="fa fa-refresh" ng-click="refreshWidget(widget)" ng-show="widget.enableReload"></i>
+	</div>
+    <div class="widgetContent">
+        <div class="widgetViewContent {{getEditingClasses()}}" ng-include="widget.view"></div>
+        <div class="widgetEditing" ng-hide="showEdit()">
+            <i class="fa fa-times remove-widget" value="Remove widget" ng-click="removeWidget(widget)" />
+            <div class="propertyPane">
+                <div class="propertyItem">
+                    <div class="propertyItemHeader">
+					    <span class="widgetPropertyLabel" title="DisplayName">DisplayName</span>
+                    </div>
+                    <div class="propertyItemContent">
+						<input type="text" class="no-margin" ng-model="widget.userWidgetSettings.displayName" />
+					</div>
+				</div>
+			</div>
+            <div class="propertyPane" ng-hide="customEditViewDefined(widget)">
+                <div class="propertyItem" ng-repeat="property in widget.properties">
+                    <div class="propertyItemHeader">
+                        <span title="{{property.key}}">{{property.key}}</span>
+                    </div>
+                    <div class="propertyItemContent">
+                        <input type="text" class="no-margin" ng-model="property.value" />
+                    </div>
+                </div>
+            </div>
+            <div class="propertyPane customEditView" ng-show="customEditViewDefined(widget)">
+                <div ng-include src="widget.editView" />
+            </div>
+        </div>
+    </div>
+</li>

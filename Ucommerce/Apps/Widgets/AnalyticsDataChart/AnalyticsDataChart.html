@@ -1,0 +1,11 @@
+﻿<div class="googleAnalyticsContainer">
+    <div class="errorLoading" ng-show="error">
+        <span>Error loading analytics view:</span>
+	    <ul><li class="error-description" ng-repeat="errorDescription in errorDescriptions">{{errorDescription}}</li></ul>
+    </div>
+    <div class="panel" ng-hide="error">
+        <div class="embed-api-auth-container" id="embed-api-auth-container-{{widget.userWidgetSettings.userWidgetSettingId}}"></div>
+        <div class="chart-container" id="chart-container-{{widget.userWidgetSettings.userWidgetSettingId}}"></div>
+        <div class="view-selector-container" id="view-selector-container-{{widget.userWidgetSettings.userWidgetSettingId}}"></div>
+    </div>
+</div>

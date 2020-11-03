@@ -1,0 +1,23 @@
+﻿<div id="" class="ucommerce-dashboard">
+    <div class="gridsterPanel">
+        <div class="gridster" ng-show="widgetsNotEmpty()">
+            <ul>
+                <ucommerce-widget data-ng-repeat="singleWidget in widgets" widget="singleWidget"></ucommerce-widget>
+            </ul>
+        </div>
+        <div class="emptyTemplate" ng-show="showEmpty()">
+
+        </div>
+    </div>
+    <div class="editDashBoard">
+        <i class="{{getClasses()}}" ng-click="toggleEditMode()"></i>
+        <div class="addWidgetToDashboard {{availableWidgetsClasses()}}" ng-hide="notEditMode()">
+            <ul>
+                <li data-ng-repeat="availableWidget in availableWidgets" ng-click="addWidget(availableWidget)">
+					<span class="widgetName">{{availableWidget.name}}</span>
+                    <i class="checked fa fa-check" ng-style="getVisibility(availableWidget)"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

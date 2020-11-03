@@ -1,0 +1,35 @@
+﻿<div class="definitionsGraph" ng-class="getSelectionClasses()">
+    <div id="container">
+        
+    </div>
+    <div class="selectedNodeInformation" ng-show="getVisibility()">
+        <div class="tableLayout">
+            <div class="tableCellLayout">
+                <span>Selected definition:</span>
+            </div>
+            <div class="tableCellLayout">
+                <span class="selectedDefinitionLabel">{{selectedNode.label}}</span>
+            </div>
+        </div>
+        <div class="tableLayout">
+            <div class="tableCellLayout">
+                <span>Own Fields:</span>
+            </div>
+            <div class="tableCellLayout">
+                <div ng-repeat="field in selectedNode.fields">
+                    <span class="selectedDefinitionLabel">{{field}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="tableLayout">
+            <div class="tableCellLayout">
+                <span>Inherited fields:</span>
+            </div>
+            <div class="tableCellLayout">
+                <div ng-repeat="field in selectedNodeInheritedFields">
+                    <span class="selectedDefinitionLabel">{{field}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+﻿<div class="wrapper">
+    <div id="MainControllerContainer" data-ng-controller="MainController" class="container-fluid">
+        <div class="columns content">
+            <div class="article-tree" ng-click="hideOptions()">
+                <div class="tree-wrapper">
+                    <div class="tree-wrapper-content contentTree" data-resize="">
+                        <ucommerce-navigation icon-folder="uCommerce" tree-indetion-size="tree-indetion-size" has-right-click-menu="True" content-picker-type="content-picker-type"></ucommerce-navigation>
+                    </div>
+                </div>
+            </div>
+            <ucommerce-splitter left=".article-tree" right=".content-area|.background" min-width-left="10" max-width-left="50">
+
+            </ucommerce-splitter>
+            <div class="background" click>
+                <div>
+
+                </div>
+            </div>
+            <div class="content-area">
+				<iframe id="mainframe" src="{{startPage}}" allowtransparency="true" ucommerce-iframe="" ucommerce-stylesheet="{{ stylesheet }}" ucommerce-script="{{ script }}"></iframe>
+                <div id="AlertControllerContainer" data-ng-controller="AlertController" class="notifications bottom-right" style="display: none;">
+                    <ucommerce-alert ng-repeat="alert in alerts" close="closeAlert($index)" type="alertType(alert.type)" header="alert.header" timeout="5000">
+                        {{alert.body}}
+                    </ucommerce-alert>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ModalControllerContainer" data-ng-controller="ModalController">
+        <div id="ucommerceModal">
+        </div>
+    </div>
+</div>

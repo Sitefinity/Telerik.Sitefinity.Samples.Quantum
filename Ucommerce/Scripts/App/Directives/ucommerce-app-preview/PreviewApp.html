@@ -1,0 +1,52 @@
+﻿<div class="app-preview">
+	<div class="details-info panel">
+		<div class="icon-container img-container detail">
+			<img class="appThumbInDetailedView" width="200" height="200" ng-src="{{manifest.iconUrl}}">
+		</div>
+
+		<!-- Eveything else in the info box-->
+		<div class="info-box-top">
+			<h2 class="appTitleInDetailedView ng-binding" ng-show="manifest.title">
+				{{manifest.title}}
+			</h2>
+			<h2 class="appTitleInDetailedView ng-binding" ng-hide="manifest.title">
+				{{manifest.id}}
+			</h2>
+			<div class="createdBy small">
+				<p class="ng-binding">
+					{{manifest.owners}}
+				</p>
+			</div>
+			<div class="version small">
+				<p class="ng-binding">
+					{{manifest.version}}
+				</p>
+			</div>
+			<a href="{{manifest.supportUrl}}" target="_blank">
+				<div class="supportLink">
+					<span class="supportSpan"><img class="supportImg" src="../../Images/ui/ic_person_black_48dp_2x.png">{{supportText}}</span>
+				</div>
+			</a>
+			<a href="{{manifest.documentationUrl}}" target="_blank" ng-show="manifest.documentationUrl">
+				<div class="documentationLink">
+					<span class="documentationSpan"><img class="documentationImg" src="../../Images/ui/layout.png">{{documentationText}}</span>
+				</div>
+			</a>
+			<a ng-click="action()">
+				<div class="installButtonContainer">
+					<div class="btn" id="installButton" type="button">
+						<span>{{actionText}}</span>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<h3 class="descriptionHeader" ng-show="manifest.description">{{descriptionHeader}}</h3>
+	<p class="appDescriptionInDetailedView ng-binding">{{manifest.description}}</p>
+
+	<h3 class="changeLogHeader" ng-hide="releaseNotes.length == 0">{{changeLogHeader}}</h3>
+	<ul>
+		<li ng-repeat="releaseNote in manifest.releaseNotes" class="changeLogNotes">{{releaseNote}}</li>
+	</ul>
+</div>

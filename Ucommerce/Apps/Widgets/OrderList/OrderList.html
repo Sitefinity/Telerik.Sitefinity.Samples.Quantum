@@ -1,0 +1,88 @@
+﻿<div class="OrderList" ng-controller="orderListController">
+	<div class="OrderList-content">
+		<table class="dataList fixedHeader no-border" id="orderTable" ng-show='orders.length > 0'>
+			<thead>
+				<tr>
+					<th class="no-border" data-width="17" ng-click="orderTable('OrderNumber')">
+						<span class="sortorder" ng-class="{reverse:reverse}">
+							ORDER NUMBER
+							<i ng-class="{checked : predicate === 'OrderNumber' && reverse }" class="fa fa-chevron-down"></i>
+							<i ng-class="{checked : predicate === 'OrderNumber' && !reverse }" class="fa fa-chevron-up"></i>
+						</span>
+					</th>
+					<th class="no-border" data-width="15" ng-click="orderTable('CustomerName')">
+						<span class="sortorder" ng-class="{reverse:reverse}">
+							CUSTOMER
+							<i ng-class="{checked : predicate === 'CustomerName' && reverse }" class="fa fa-chevron-down"></i>
+							<i ng-class="{checked : predicate === 'CustomerName' && !reverse }" class="fa fa-chevron-up"></i>
+						</span>
+					</th>
+					<th class="no-border" data-width="24" ng-click="orderTable('CompletedDate')">
+						<span class="sortorder" ng-class="{reverse:reverse}">
+							SUBMITTED
+							<i ng-class="{checked : predicate === 'CompletedDate' && reverse }" class="fa fa-chevron-down"></i>
+							<i ng-class="{checked : predicate === 'CompletedDate' && !reverse }" class="fa fa-chevron-up"></i>
+						</span>
+					</th>
+					<th class="no-border" data-width="25" ng-click="orderTable('ProductCatalogGroupName')">
+						<span class="sortorder" ng-class="{reverse:reverse}">
+							GROUP
+							<i ng-class="{checked : predicate === 'ProductCatalogGroupName' && reverse }" class="fa fa-chevron-down"></i>
+							<i ng-class="{checked : predicate === 'ProductCatalogGroupName' && !reverse }" class="fa fa-chevron-up"></i>
+						</span>
+					</th>
+					<th class="no-border rightAligned" data-width="19" ng-click="orderTable('OrderTotal')">
+
+
+						<span class="sortorder rightAligned" ng-class="{reverse:reverse}">
+							ORDER TOTAL
+							<i ng-class="{checked : predicate === 'OrderTotal' && reverse }" class="fa fa-chevron-down"></i>
+							<i ng-class="{checked : predicate === 'OrderTotal' && !reverse }" class="fa fa-chevron-up"></i>
+						</span>
+					</th>
+				</tr>
+			</thead>
+			<tbody scrol="loadMore()">
+				<tr class="clickable" ng-repeat="order in orders | orderBy:predicate:reverse" ng-click="redirectToOrder(order)">
+					<td>
+						<span class="oneLineText">
+							{{order.OrderNumber}}
+						</span>
+					</td>
+					<td>
+						<span class="oneLineText">
+							{{order.CustomerName}}
+						</span>
+					</td>
+					<td>
+						<span class="oneLineText">
+							{{order.CompletedDate}}
+						</span>
+					</td>
+					<td>
+						<span class="oneLineText">
+							{{order.ProductCatalogGroupName}}
+						</span>
+					</td>
+					<td>
+						<span class="oneLineText">
+							{{order.OrderTotal}}
+						</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="dataList" id="orderEmptyTable" ng-hide='orders.length > 0'>
+			<thead>
+				<tr>
+					<th><span>ORDER NUMBER</span></th>
+					<th><span>CUSTOMER</span></th>
+					<th><span>SUBMITTED</span></th>
+					<th><span>GROUP</span></th>
+					<th><span>ORDER TOTAL</span></th>
+				</tr>
+			</thead>
+		</table>
+		<span class="noOrders" ng-hide='orders.length > 0'>{{NoMatchingPurchaseOrders}}</span>
+	</div>
+</div>

@@ -1,0 +1,32 @@
+﻿<div class="loading" ng-style="uninstalling && {'display':'table'} || {'display':'none'}">
+	<div class="loaderIndication">
+		<div class="rotateY ">
+			<i class="icon-ucommerce"></i>
+		</div>
+		<h1>{{loadingText}}</h1>
+	</div>
+</div>
+<div class="appListWrapper" ng-hide="previewMode">
+	<div class="manifestContent" ng-repeat="manifest in manifests">
+		<a ng-click="previewManifest(manifest)">
+			<div class="thumbnail">
+				<div class="imageContainer">
+					<img class="masterCustomIcon" ng-src="{{manifest.iconUrl}}">
+				</div>
+
+				<div class="caption">
+					<h4 class="appTitle ng-binding" ng-show="manifest.title">{{manifest.title}}</h4>
+					<h4 class="appTitle ng-binding" ng-hide="manifest.title">{{manifest.id}}</h4>
+					<p class="appAuthor ng-binding">{{manifest.authors}}</p>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="propertyPane noInstalledApps" ng-show="manifests.length == 0">
+		<h2>{{noInstalledAppsText}}</h2> 
+		<span ng-hide="true"><a href="http://apps.ucommerce.net/" target="_blank">{{redirectToAppsStoreText}}</a></span>
+	</div>
+</div>
+<div class="propertyPane installedPreview" ng-show="previewMode">
+	<ucommerce-app-preview actionlistener="'uninstallApp'" actiontext="uninstallButtonText"></ucommerce-app-preview>
+</div>
