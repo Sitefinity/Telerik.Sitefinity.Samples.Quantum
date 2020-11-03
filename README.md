@@ -54,7 +54,8 @@ For a full list of the referenced packages and their versions see the packages.c
 
 ### **Installation instructions:**
 
-1. In Solution Explorer, navigate to _SitefinityWebApp_ -&gt; _App\_Data_ -&gt; _Sitefinity_ -&gt; _Configuration_ and select the  **DataConfig.config**  file.
+1. Open the Package Manager Console and run the following command: Update-Package Ucommerce.Sitefinity -Reinstall
+2. In Solution Explorer, navigate to _SitefinityWebApp_ -&gt; _App\_Data_ -&gt; _Sitefinity_ -&gt; _Configuration_ and select the  **DataConfig.config**  file.
 2. Modify the  **connectionString**  value to match your server address.
 3. Build the solution.
 
