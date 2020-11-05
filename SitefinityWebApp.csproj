@@ -1432,6 +1432,7 @@
   <ItemGroup>
     <Folder Include="App_Data\Sitefinity\WebsiteTemplates\Quantum\App_Themes\Quantum\Images\Images\" />
     <Folder Include="App_Data\Storage\FileSystem\" />
+    <Folder Include="App_Data\Ucommerce\Indexes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".nuget\NuGet.Config">
