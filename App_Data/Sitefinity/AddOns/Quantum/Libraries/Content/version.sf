@@ -1,0 +1,17 @@
+{
+  "Version": "679089f1-f18c-4b50-ae6c-cecdfe5ce7b5",
+  "FileVersions": [
+    {
+      "Name": "Telerik.Sitefinity.Libraries.Model.Album.sfpackage.xml",
+      "Version": "15d6a3fe-1e5b-417e-a474-0dbb25a89d10"
+    },
+    {
+      "Name": "Telerik.Sitefinity.Libraries.Model.VideoLibrary.sfpackage.xml",
+      "Version": "a125390e-c32b-49d4-8368-d01ee06d6cdd"
+    },
+    {
+      "Name": "Telerik.Sitefinity.Libraries.Model.DocumentLibrary.sfpackage.xml",
+      "Version": "9dc41db5-a8a8-40b4-9c50-a2370fcd8037"
+    }
+  ]
+}

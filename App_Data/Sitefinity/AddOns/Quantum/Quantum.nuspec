@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Quantum</id>
+    <version>1.0.0</version>
+    <title>Quantum</title>
+    <authors>system</authors>
+    <owners>system</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <description>Quantum</description>
+    <language>en-US</language>
+  </metadata>
+</package>

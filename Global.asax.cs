@@ -3,9 +3,7 @@ using System.Web;
 using System.Web.Helpers;
 using Telerik.Microsoft.Practices.Unity;
 using Telerik.Sitefinity.Abstractions;
-using Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing;
-using Telerik.Sitefinity.Mvc;
-using Telerik.Sitefinity.Services;
+using Telerik.Sitefinity.Web.Services.Contracts.Operations;
 
 namespace SitefinityWebApp
 {
@@ -19,6 +17,10 @@ namespace SitefinityWebApp
         protected void Application_Start()
         {
             AntiForgeryConfig.SuppressXFrameOptionsHeader = true;
+            Bootstrapper.Bootstrapped += (sender, args) =>
+            {
+                ObjectFactory.Container.RegisterType(typeof(IOperationProvider), typeof(FormsOperationProvider), typeof(FormsOperationProvider).Name);
+            };
         }
     }
 }

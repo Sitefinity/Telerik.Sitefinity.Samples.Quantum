@@ -909,6 +909,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="FormsOperationProvider.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1058,6 +1059,11 @@
     <Content Include="App_Data\RadCaptcha\X.wav" />
     <Content Include="App_Data\RadCaptcha\Y.wav" />
     <Content Include="App_Data\RadCaptcha\Z.wav" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Dynamic modules\Testimonials\Content\Telerik.Sitefinity.DynamicTypes.Model.Testimonials.Testimonial.sfpackage.xml" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Libraries\Content\Telerik.Sitefinity.Libraries.Model.Album.sfpackage.xml" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Libraries\Content\Telerik.Sitefinity.Libraries.Model.DocumentLibrary.sfpackage.xml" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Libraries\Content\Telerik.Sitefinity.Libraries.Model.VideoLibrary.sfpackage.xml" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Pages\Content\Telerik.Sitefinity.Pages.Model.PageNode.sfpackage.xml" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\MailTemplates\style.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\Quantum\App_Themes\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\Quantum\App_Themes\Quantum\cssLoadOrder.xml" />
@@ -1370,6 +1376,17 @@
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Pages\Content\version.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Libraries\Structure\version.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Libraries\Structure\Libraries.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Libraries\Structure\configs.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Libraries\Content\version.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Dynamic modules\Testimonials\Structure\widgetTemplates.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Dynamic modules\Testimonials\Structure\version.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Dynamic modules\Testimonials\Structure\Testimonials.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Dynamic modules\Testimonials\Structure\configs.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\Dynamic modules\Testimonials\Content\version.sf" />
+    <Content Include="App_Data\Sitefinity\AddOns\Quantum\addons-registry.psm1" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
