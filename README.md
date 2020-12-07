@@ -67,3 +67,21 @@ To login to the Sitefinity CMS backend, use the following credentials:
 ### **Frontend Package**
 
 The design of the starter kit is based on the Bootstrap resource package(http://docs.sitefinity.com/feather-frontend-packages).
+
+### **Net Core Renderer Setup**
+
+1. To setup the .Net Core Renderer with the Quantum project follow the [procedure for setup](https://www.progress.com/documentation/sitefinity-cms/setup-the-asp.net-core-renderer).
+
+2. Next activate and the addon(select import content as well) in the Administration dropdown (Addons page). As a result there should be a new page created called "Quantum Sample Page" with the label "new editor" in the pages menu dropdown.
+
+3. To enable form submission create an MVC Form called "Register" with the specified fields
+
+Name (TextBox),
+Company (TextBox)
+Email (TextBox)
+Comment (Paragraph)
+
+If needed sync the form 'field names' with the ones provided in the FormsOperationsProvider.cs class in the project.
+
+4. Run the renderer and navigate to /quantum-sample-page on the frontend or open it in the backend.
+
