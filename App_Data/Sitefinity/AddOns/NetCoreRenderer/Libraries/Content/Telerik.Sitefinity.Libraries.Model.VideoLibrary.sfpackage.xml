@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="http://localhost:5001/Sitefinity/CMIS/RestAtom/">
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyInteger propertyDefinitionId="sf:MaxSize">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:MaxItemSize">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:TotalSize">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Default Library</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>default-video-library</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
+        <cmis:value>Database</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:RunningTask">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:DownloadSecurityProviderName" />
+      <cmis:propertyString propertyDefinitionId="sf:OutputCacheProfile" />
+      <cmis:propertyString propertyDefinitionId="sf:ClientCacheProfile" />
+      <cmis:propertyInteger propertyDefinitionId="sf:OutputCacheDuration">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:ClientCacheDuration">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:OutputSlidingExpiration">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:OutputCacheMaxSize">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EnableOutputCache">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EnableClientCache">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:UseDefaultSettingsForOutputCaching">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:UseDefaultSettingsForClientCaching">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId" />
+      <cmis:propertyString propertyDefinitionId="sf:ThumbnailProfiles" sf:collectionType="IEnumerable">
+        <cmis:value>vthumbnail</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:CoverId" />
+      <sf:Telerik.Sitefinity.Libraries.Model.LibraryUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable">
+        <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.LibraryUrlData&gt;
+  &lt;Culture&gt;127&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;a97ef8d7-6434-49e0-97b4-46e5e77a57e3&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2021-01-20T10:16:45.23Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fdefault-video-library&lt;/Url&gt;
+&lt;/Telerik.Sitefinity.Libraries.Model.LibraryUrlData&gt;</cmis:value>
+      </sf:Telerik.Sitefinity.Libraries.Model.LibraryUrlData>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>8818c109-3515-4a74-bf3f-d5f1d5e201a3</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/CommentsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>8818c109-3515-4a74-bf3f-d5f1d5e201a3</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Libraries.Model.VideoLibrary</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value>en</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+</atom:entry>
