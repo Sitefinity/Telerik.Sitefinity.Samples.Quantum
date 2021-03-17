@@ -11,16 +11,16 @@ using Telerik.Sitefinity.Services;
 
 namespace SitefinityWebApp
 {
-	public class Global : System.Web.HttpApplication
-	{
+    public class Global : System.Web.HttpApplication
+    {
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
             HttpContext.Current.Response.AddHeader("X-Frame-Options", "SAMEORIGIN");
         }
 
-		protected void Application_Start(object sender, EventArgs e)
-		{
-        	AntiForgeryConfig.SuppressXFrameOptionsHeader = true;
+        protected void Application_Start()
+        {
+            AntiForgeryConfig.SuppressXFrameOptionsHeader = true;
 			Bootstrapper.Bootstrapped += Bootstrapper_Bootstrapped;
 		}
 
@@ -33,6 +33,6 @@ namespace SitefinityWebApp
 
 			var scratchIndexer = Ucommerce.Infrastructure.ObjectFactory.Instance.Resolve<Ucommerce.Search.Indexers.IScratchIndexer>();
 			scratchIndexer.Index();
-		}
-	}
+        }
+    }
 }

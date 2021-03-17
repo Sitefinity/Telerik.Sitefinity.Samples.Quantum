@@ -25,7 +25,7 @@ Some of the main highlights of the Quantum project include:
 ### **Requirements**
 
 - Sitefinity CMS license
-- .NET Framework 4.7.2
+- .NET Framework 4.8
 - Visual Studio 2015 or later
 - Microsoft SQL Server 2016 or later versions
 - Windows Identity Foundation NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
@@ -68,8 +68,6 @@ To login to the Sitefinity CMS backend, use the following credentials:
 ### **Frontend Package**
 
 The design of the starter kit is based on the Bootstrap resource package(http://docs.sitefinity.com/feather-frontend-packages).
-
-
 
 If you hit this error on booting up Sitefinity
 ```
