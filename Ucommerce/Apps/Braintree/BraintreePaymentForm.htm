@@ -1,55 +1,56 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>Braintree</title>
-	</head>
-	<body>
-		<form id="paymentForm" method="post" action="##ACTIONURL##" autocomplete="off">
-			<input type="hidden" name="tr_data" value="##TRDATA##"/>
-            ##ERRORMESSAGES##
-			<table>
-				<tr>
-					<td>
-						<label id="cardNumberLabel" for="transaction[credit_card][number]">Card number:</label>
-					</td>
-					<td>
-						<input type="text" id="paymentFormCardNumberInput" name="transaction[credit_card][number]"/>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label id="expirationMonthLabel" for="transaction[credit_card][expiration_month]">Expiration month:</label>
-					</td>
-					<td>
-						<select id="paymentFormExpirationMonthSelect" name="transaction[credit_card][expiration_month]">##EXPMONTH##</select>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label id="expirationYearLabel" for="transaction[credit_card][expiration_year]">Expiration year:</label>
-					</td>
-					<td>
-						<select id="paymentFormExpirationYearSelect" name="transaction[credit_card][expiration_year]">##EXPYEAR##</select>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label id="cvvLabel" for="transaction[credit_card][cvv]">CVV:</label>
-					</td>
-					<td>
-						<input type="text" id="paymentFormCvvInput" name="transaction[credit_card][cvv]"/>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label id="cardholderNameLabel" for="transaction[credit_card][cardholder_name]">Cardholder name:</label>
-					</td>
-					<td>
-						<input type="text" id="paymentFormCardholderNameInput" name="transaction[credit_card][cardholder_name]"/>
-					</td>
-				</tr>
-			</table>
-			<input type="submit" name="submitForm" value="Post it"/>
-		</form>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>Braintree</title>
+	<script src="https://js.braintreegateway.com/web/dropin/1.25.0/js/dropin.min.js"></script>
+</head>
+
+<body>
+	<form id="payment-form" method="post" action='##CALLBACK_URL##'>
+		<div id="dropin-container"></div>
+		<input type="hidden" id="nonce" name="payment_method_nonce"/>
+		<input type="submit" value="Confirm" />
+	</form>
+	<div id="payment-errors" style="color: red">##ERROR_MESSAGES##</div>
+</body>
+
+<script type="text/javascript">
+	const form = document.getElementById('payment-form');
+	const serverErrorsHTML = '##ERROR_MESSAGES##';
+	const threeDSecureParameters = JSON.parse('##THREE_D_SECURE_PARAMETERS##');
+
+	braintree.dropin.create({
+		authorization: '##CLIENT_TOKEN##',
+		container: '#dropin-container',
+		threeDSecure: true
+	}).then(dropinInstance => {
+		form.addEventListener('submit', event => {
+			event.preventDefault();
+
+			dropinInstance.requestPaymentMethod({
+				threeDSecure: threeDSecureParameters
+			}).then((payload) => {
+				document.getElementById('nonce').value = payload.nonce;
+				form.submit();
+			}).catch(error => {
+				showError(error);
+			});
+		});
+	}).catch(error => {
+		showError(error);
+	});
+
+	function showError(errorMsg) {
+		const paymentErrorsElement = document.getElementById('payment-errors');
+		paymentErrorsElement.innerHTML = serverErrorsHTML;
+
+		if (!paymentErrorsElement.firstChild)
+			paymentErrorsElement.innerHTML = '<ul></ul>';
+
+		const newErrorElement = document.createElement('li');
+		newErrorElement.textContent = errorMsg;
+		paymentErrorsElement.firstChild.appendChild(newErrorElement);
+	}
+</script>
 </html>

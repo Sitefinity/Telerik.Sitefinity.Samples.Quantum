@@ -657,4 +657,7 @@
   <data name="menu_products_root" xml:space="preserve">
     <value>Produkter</value>
   </data>
+  <data name="menu_stores_root" xml:space="preserve">
+    <value>Butiker</value>
+  </data>
 </root>
