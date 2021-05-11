@@ -13,20 +13,20 @@ namespace SitefinityWebApp
 {
 	public class Global : System.Web.HttpApplication
 	{
-        protected void Application_BeginRequest(object sender, EventArgs e)
-        {
-            HttpContext.Current.Response.AddHeader("X-Frame-Options", "SAMEORIGIN");
-        }
-
-		protected void Application_Start(object sender, EventArgs e)
+		protected void Application_BeginRequest(object sender, EventArgs e)
 		{
-        	AntiForgeryConfig.SuppressXFrameOptionsHeader = true;
+			HttpContext.Current.Response.AddHeader("X-Frame-Options", "SAMEORIGIN");
+		}
+
+		protected void Application_Start()
+		{
+			AntiForgeryConfig.SuppressXFrameOptionsHeader = true;
 			Bootstrapper.Bootstrapped += Bootstrapper_Bootstrapped;
 		}
 
 		private void Bootstrapper_Bootstrapped(object sender, EventArgs e)
 		{
-			// NOTE: It is not recommended you do this in production as it will block the website loading
+			//NOTE: It is not recommended you do this in production as it will block the website loading
 			var ravenDir = System.Web.Hosting.HostingEnvironment.MapPath("~/App_Data/RavenDatabases/uCommerce");
 
 			if (Directory.Exists(ravenDir) && Directory.GetFiles(ravenDir).Any()) return;

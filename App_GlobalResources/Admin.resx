@@ -663,4 +663,7 @@
   <data name="menu_products_root" xml:space="preserve">
     <value>Products</value>
   </data>
+  <data name="menu_stores_root" xml:space="preserve">
+    <value>Stores</value>
+  </data>
 </root>

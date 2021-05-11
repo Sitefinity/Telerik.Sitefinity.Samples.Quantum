@@ -8,6 +8,11 @@
                 return buildUrl('/Vue/dashboard.html');
             }
         })
+		.when('/Vue/catalogs.html#/stores', {
+			redirectTo: function () {
+				return buildUrl(`/Vue/catalogs.html?unique=${getRandom()}#stores`);
+			}
+		})
 		//
 		// Catalog
 		//
@@ -431,7 +436,7 @@
 
 	    return url;
 	}
-	
+
 	function getRandom() {
 		return Math.floor(Math.random() * 100);
 	}
