@@ -475,6 +475,7 @@
     </Reference>
     <Reference Include="RazorGenerator.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\RazorGenerator.Mvc.2.3.12\lib\net40\RazorGenerator.Mvc.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="RazorGenerator.Templating, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\RazorGenerator.Templating.2.1.1\lib\net40\RazorGenerator.Templating.dll</HintPath>
@@ -860,7 +861,7 @@
       <HintPath>packages\Telerik.Sitefinity.Packaging.13.3.7600\lib\net48\Telerik.Sitefinity.Packaging.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Personalization, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Personalization.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.Personalization.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Personalization.Impl, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Personalization.Impl.dll</HintPath>
@@ -877,47 +878,48 @@
     <Reference Include="Telerik.Sitefinity.RecycleBin, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.RecycleBin.13.3.7600\lib\net48\Telerik.Sitefinity.RecycleBin.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Resources">
+    <Reference Include="Telerik.Sitefinity.Resources, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.Resources.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SalesForceConnector, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.SalesForceConnector.13.3.7600\lib\net48\Telerik.Sitefinity.SalesForceConnector.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Search, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Search.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.Search.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Search.Impl, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Search.Impl.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Comments, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Comments.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Comments.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Comments.Impl, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Comments.Impl.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Documents, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Documents.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Documents.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Documents.Impl, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Documents.Impl.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Events, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Events.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Events.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Notifications, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Notifications.Impl, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Notifications.Impl.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.RecycleBin, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.RecycleBin.13.3.7600\lib\net48\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.RecycleBin.Impl, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.RecycleBin.13.3.7600\lib\net48\Telerik.Sitefinity.Services.RecycleBin.Impl.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Statistics, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Statistics.Impl, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.ServicesImpl.13.3.7600\lib\net48\Telerik.Sitefinity.Services.Statistics.Impl.dll</HintPath>
@@ -929,7 +931,7 @@
       <HintPath>packages\Telerik.Sitefinity.SitemapGenerator.13.3.7600\lib\net48\Telerik.Sitefinity.SitemapGenerator.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SiteSync, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.SiteSync.13.3.7600\lib\net48\Telerik.Sitefinity.SiteSync.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.13.3.7600\lib\net48\Telerik.Sitefinity.SiteSync.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SiteSync.Impl, Version=13.3.7600.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.SiteSync.13.3.7600\lib\net48\Telerik.Sitefinity.SiteSync.Impl.dll</HintPath>
