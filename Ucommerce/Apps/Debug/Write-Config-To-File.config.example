@@ -1,0 +1,5 @@
+﻿<configuration>
+	<components>
+		<write-configuration-to-file />
+	</components>
+</configuration>

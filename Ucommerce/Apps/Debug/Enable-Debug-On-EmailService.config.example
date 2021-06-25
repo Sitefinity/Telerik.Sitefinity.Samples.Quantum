@@ -1,0 +1,9 @@
+﻿<configuration>
+	<components>
+		<partial-component id="EmailService">
+			<parameters>
+				<Debug>True</Debug>
+			</parameters>
+		</partial-component>
+	</components>
+</configuration>
