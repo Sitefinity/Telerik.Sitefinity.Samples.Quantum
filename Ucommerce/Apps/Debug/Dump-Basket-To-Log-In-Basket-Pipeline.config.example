@@ -1,0 +1,19 @@
+﻿<configuration>
+	<components>
+		<component 
+			id="Basket.HumanReadableDebugStringTask"
+			service="Ucommerce.Pipelines.IPipelineTask`1[[Ucommerce.EntitiesV2.PurchaseOrder, Ucommerce]], Ucommerce"
+			type="Ucommerce.Pipelines.Common.HumanReadableDebugStringTask, Ucommerce.Pipelines"/>
+
+		<partial-component id="Basket">
+			<parameters>
+				<tasks>
+					<array>
+						<value insert="last">${Basket.HumanReadableDebugStringTask}</value>
+					</array>
+				</tasks>
+			</parameters>
+		</partial-component>
+		
+	</components>
+</configuration>
