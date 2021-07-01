@@ -20,7 +20,7 @@ Some of the main highlights of the Quantum project include:
 - Blogs
 - Forums
 - Usage of dynamic modules
-- Online shop
+- Ucommerce Online shop
 
 ### **Requirements**
 
@@ -36,15 +36,14 @@ See a complete list of the system requirements for the solution here: http://doc
 
 ### **Prerequisites**
 
-You need to attach the database backup files to your SQL Server. To do this:
+You need to restore the database backup files to your SQL Server. To do this:
 
 1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/SitefinityUcommerceDB.zip).
-2. Navigate to the _SitefinityWebApp_ -&gt; _App\_Data_ folder.
-3. Unzip the  **SitefinityUcommerceDB.zip**  file.
-4. In SQL Management Studio, open the context menu of _Databases_ and select _Restore Database_
-5. Select the _Device_ radio button and navigate to the folder where you unzipped the  **QuantumDB_version.zip**  file.
-6. Select the  **Sitefinity.bak**  file and click _OK_.
-7. Click _OK_.
+2. Unzip the  **SitefinityUcommerceDB.zip**  file.
+3. In SQL Management Studio, open the context menu of _Databases_ and select _Restore Database_
+4. Select the _Device_ radio button and navigate to the folder where you unzipped the  **QuantumDB_version.zip**  file.
+5. Select the  **Sitefinity.bak**  file and click _OK_.
+6. Click _OK_.
 
 ### **Nuget package restoration**
 
