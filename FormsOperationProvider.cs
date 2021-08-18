@@ -29,16 +29,8 @@ namespace SitefinityWebApp
         {
             var manager = FormsManager.GetManager();
 
-            var form = manager.GetForms().FirstOrDefault(x => x.Name == "sf_register");
-
-            var fieldMapping = new Dictionary<string, string>()
-            {
-                { "Name", "TextFieldController" },
-                { "Company", "TextFieldController_0" },
-                { "Email", "TextFieldController_1" },
-                { "Comment", "ParagraphTextFieldController" },
-                { "IsPrivacyPolicyAccepted", "CheckboxesFieldController" },
-            };
+            var form = manager.GetForms().FirstOrDefault(x => x.Name == formData.FormName);
+            Dictionary<string, string> fieldMapping = this.GetFormFieldMapping(formData.FormName);
 
             var formEntry = new FormEntryDTO(form);
             var formSubmition = new FormsSubmitionHelper();
@@ -60,6 +52,34 @@ namespace SitefinityWebApp
 
             return new SubmitResult();
         }
+
+        private Dictionary<string, string> GetFormFieldMapping(string formName)
+        {
+            switch (formName)
+            {
+                case "sf_contactus":
+                case "sf_requestaquote":
+                    return new Dictionary<string, string>()
+                    {
+                        { "FirstName", "TextFieldController" },
+                        { "LastName", "TextFieldController_0" },
+                        { "Email", "TextFieldController_1" },
+                        { "PhoneNumber", "TextFieldController_2" },
+                        { "YourMessage", "ParagraphTextFieldController" },
+                    };
+                case "sf_register":
+                    return new Dictionary<string, string>()
+                    {
+                        { "Name", "TextFieldController" },
+                        { "Company", "TextFieldController_0" },
+                        { "Email", "TextFieldController_1" },
+                        { "Comment", "ParagraphTextFieldController" },
+                        { "IsPrivacyPolicyAccepted", "CheckboxesFieldController" },
+                    };
+                default:
+                    return null;
+            }
+        }
     }
 
     [DataContract]
@@ -72,6 +92,9 @@ namespace SitefinityWebApp
     {
         [DataMember]
         public FormField[] Fields { get; set; }
+
+        [DataMember]
+        public string FormName { get; set; }
     }
 
     [DataContract]
