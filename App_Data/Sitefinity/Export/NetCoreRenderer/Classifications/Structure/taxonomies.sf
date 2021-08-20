@@ -1,0 +1,155 @@
+[
+  {
+    "Id": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
+    "Name": "Categories",
+    "Type": "Telerik.Sitefinity.Taxonomies.Model.HierarchicalTaxonomy",
+    "LastModified": "2018-06-12T07:16:57.203Z",
+    "Title": [
+      {
+        "Key": "",
+        "Value": "Categories"
+      },
+      {
+        "Key": "en",
+        "Value": "Categories"
+      }
+    ],
+    "Description": [],
+    "TaxonName": [
+      {
+        "Key": "",
+        "Value": "Category"
+      },
+      {
+        "Key": "en",
+        "Value": "Category"
+      }
+    ]
+  },
+  {
+    "Id": "cb0f3a19-a211-48a7-88ec-77495c0f5374",
+    "Name": "Tags",
+    "Type": "Telerik.Sitefinity.Taxonomies.Model.FlatTaxonomy",
+    "LastModified": "2018-06-12T07:16:56.733Z",
+    "Title": [
+      {
+        "Key": "",
+        "Value": "Tags"
+      },
+      {
+        "Key": "en",
+        "Value": "Tags"
+      }
+    ],
+    "Description": [],
+    "TaxonName": [
+      {
+        "Key": "",
+        "Value": "Tag"
+      },
+      {
+        "Key": "en",
+        "Value": "Tag"
+      }
+    ]
+  },
+  {
+    "Id": "d7831091-e7b1-41b8-9e75-dff32d6a7837",
+    "Name": "Departments",
+    "Type": "Telerik.Sitefinity.Taxonomies.Model.HierarchicalTaxonomy",
+    "LastModified": "2018-06-12T07:14:35.417Z",
+    "Title": [
+      {
+        "Key": "",
+        "Value": "Departments"
+      },
+      {
+        "Key": "en",
+        "Value": "Departments"
+      }
+    ],
+    "Description": [],
+    "TaxonName": [
+      {
+        "Key": "",
+        "Value": "Department"
+      },
+      {
+        "Key": "en",
+        "Value": "Department"
+      }
+    ]
+  },
+  {
+    "Id": "faf5f3a4-1d60-6822-81ac-ff0000da1875",
+    "Name": "services",
+    "Type": "Telerik.Sitefinity.Taxonomies.Model.FlatTaxonomy",
+    "LastModified": "2018-06-12T07:16:56.83Z",
+    "Title": [
+      {
+        "Key": "",
+        "Value": "Services"
+      },
+      {
+        "Key": "en",
+        "Value": "Services"
+      }
+    ],
+    "Description": [
+      {
+        "Key": "",
+        "Value": ""
+      },
+      {
+        "Key": "en",
+        "Value": ""
+      }
+    ],
+    "TaxonName": [
+      {
+        "Key": "",
+        "Value": "Service"
+      },
+      {
+        "Key": "en",
+        "Value": "Service"
+      }
+    ]
+  },
+  {
+    "Id": "ce38f6a4-1d60-6822-81ac-ff0000da1875",
+    "Name": "industries",
+    "Type": "Telerik.Sitefinity.Taxonomies.Model.FlatTaxonomy",
+    "LastModified": "2018-06-12T07:16:56.92Z",
+    "Title": [
+      {
+        "Key": "",
+        "Value": "Industries"
+      },
+      {
+        "Key": "en",
+        "Value": "Industries"
+      }
+    ],
+    "Description": [
+      {
+        "Key": "",
+        "Value": ""
+      },
+      {
+        "Key": "en",
+        "Value": ""
+      }
+    ],
+    "TaxonName": [
+      {
+        "Key": "",
+        "Value": "Industry"
+      },
+      {
+        "Key": "en",
+        "Value": "Industry"
+      }
+    ]
+  }
+]

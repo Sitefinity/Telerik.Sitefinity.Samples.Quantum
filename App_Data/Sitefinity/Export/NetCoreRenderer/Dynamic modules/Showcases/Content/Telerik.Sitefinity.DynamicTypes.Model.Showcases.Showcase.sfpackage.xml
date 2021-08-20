@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="http://localhost/Sitefinity/CMIS/RestAtom/">
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>8c31f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>7c31f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value sf:lang="en" sf:invariantValue="haworth-inc.-increases-visits-with-438-after-site-revamp">haworth-inc.-increases-visits-with-438-after-site-revamp</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable">
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;9&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;fff39211-207b-4851-9b82-16402955d653&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:10.83Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fhaworth-inc.-increases-visits-with-438-after-site-revamp&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;127&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;02effa26-ecdc-4906-912d-2dc8ac71d1f0&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:10.83Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fhaworth-inc.-increases-visits-with-438-after-site-revamp&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;10&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;cbbd864e-7d52-4958-9fa2-3638a45e46ab&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:10.83Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fhaworth-inc.-aumenta-las-visitas-con-un-438-despu%c3%a9s-de-renovaci%c3%b3n-sitio&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+      </sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value sf:lang="en" sf:invariantValue="Published">Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsViewable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsUnlockable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:HasLiveVersion">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value sf:lang="en" sf:invariantValue="Haworth, Inc. increases visits with 438% after site revamp">Haworth, Inc. increases visits with 438% after site revamp</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Thumbnail">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/whitepapers\/haworth4435f5a41d60682281acff0000da1875.tmb-.png?sfvrsn=1","ChildItemId":"3b35f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Thumbnail","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137534)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"7c31f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Client">
+        <cmis:value sf:lang="en" sf:invariantValue="Haworth, Inc.">Haworth, Inc.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Website">
+        <cmis:value sf:lang="en" sf:invariantValue="http://store.haworth.com/ ">http://store.haworth.com/ </cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Challenge">
+        <cmis:value sf:lang="en" sf:invariantValue="Haworth needed an ecommerce solution that could handle their complex SKU structure, but still offer mobile capabilities and system integrations with SAP, Cumulus, Avalara Tax, Adobe Scene 7 and more.">Haworth needed an ecommerce solution that could handle their complex SKU structure, but still offer mobile capabilities and system integrations with SAP, Cumulus, Avalara Tax, Adobe Scene 7 and more.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Solution">
+        <cmis:value sf:lang="en" sf:invariantValue="Our team customized Telerik Sitefinity to meet Haworth&amp;rsquo;s exacting ecommerce and integration needs, while retaining the usability Haworth marketing teams so badly needed.">Our team customized Telerik Sitefinity to meet Haworth&amp;rsquo;s exacting ecommerce and integration needs, while retaining the usability Haworth marketing teams so badly needed.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Results">
+        <cmis:value sf:lang="en" sf:invariantValue="&amp;nbsp;&amp;bull; Intricate tagging and taxonomies for images&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Customizable ecommerce that integrates with SAP, Cumulus and many other systems&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Easy user interface so marketing can maintain and update content">&amp;nbsp;&amp;bull; Intricate tagging and taxonomies for images&lt;br /&gt;
+&amp;nbsp;&amp;bull; Customizable ecommerce that integrates with SAP, Cumulus and many other systems&lt;br /&gt;
+&amp;nbsp;&amp;bull; Easy user interface so marketing can maintain and update content</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Download">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"haworth_sitefinity-final-2apr2014..pdf (428 KB )","ChildItemId":"5b31f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"Download","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137536)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"7c31f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>8c31f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value>en</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Showcases</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>8c31f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>7c31f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value sf:lang="es" sf:invariantValue="haworth-inc.-increases-visits-with-438-after-site-revamp">haworth-inc.-aumenta-las-visitas-con-un-438-después-de-renovación-sitio</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable">
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;9&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;fff39211-207b-4851-9b82-16402955d653&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:10.83Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fhaworth-inc.-increases-visits-with-438-after-site-revamp&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;127&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;02effa26-ecdc-4906-912d-2dc8ac71d1f0&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:10.83Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fhaworth-inc.-increases-visits-with-438-after-site-revamp&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;10&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;cbbd864e-7d52-4958-9fa2-3638a45e46ab&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:10.83Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fhaworth-inc.-aumenta-las-visitas-con-un-438-despu%c3%a9s-de-renovaci%c3%b3n-sitio&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+      </sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value sf:lang="es" sf:invariantValue="Published">Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsViewable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsUnlockable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:HasLiveVersion">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value sf:lang="es" sf:invariantValue="Haworth, Inc. increases visits with 438% after site revamp">Haworth, Inc. aumenta las visitas con un 438% después de renovación sitio</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Thumbnail">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/whitepapers\/haworth4435f5a41d60682281acff0000da1875.tmb-.png?sfvrsn=1","ChildItemId":"3b35f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Thumbnail","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137540)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"7c31f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Client">
+        <cmis:value sf:lang="es" sf:invariantValue="Haworth, Inc.">Haworth Inc.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Website">
+        <cmis:value sf:lang="es" sf:invariantValue="http://store.haworth.com/ ">http://store.haworth.com/ </cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Challenge">
+        <cmis:value sf:lang="es" sf:invariantValue="Haworth needed an ecommerce solution that could handle their complex SKU structure, but still offer mobile capabilities and system integrations with SAP, Cumulus, Avalara Tax, Adobe Scene 7 and more.">Haworth necesitaba una soluci&amp;oacute;n de comercio electr&amp;oacute;nico que pudiera manejar su estructura SKU complejo, pero todav&amp;iacute;a ofrecen capacidades m&amp;oacute;viles e integraciones de sistemas con SAP, c&amp;uacute;mulos, Avalara fiscal, Adobe Escena 7 y m&amp;aacute;s.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Solution">
+        <cmis:value sf:lang="es" sf:invariantValue="Our team customized Telerik Sitefinity to meet Haworth&amp;rsquo;s exacting ecommerce and integration needs, while retaining the usability Haworth marketing teams so badly needed.">Nuestro equipo de personalizaci&amp;oacute;n Telerik Sitefinity para satisfacer las necesidades exigentes de Haworth de comercio electr&amp;oacute;nico e integraci&amp;oacute;n, al tiempo que conserva la capacidad de uso los equipos de marketing Haworth tan necesarios.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Results">
+        <cmis:value sf:lang="es" sf:invariantValue="&amp;nbsp;&amp;bull; Intricate tagging and taxonomies for images&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Customizable ecommerce that integrates with SAP, Cumulus and many other systems&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Easy user interface so marketing can maintain and update content">&amp;bull; Un complejo entramado de etiquetado y taxonom&amp;iacute;as para las im&amp;aacute;genes&lt;br /&gt;
+&amp;nbsp; &lt;br /&gt;
+&amp;bull; comercio electr&amp;oacute;nico personalizable que se integra con SAP, c&amp;uacute;mulos y muchos otros sistemas&lt;br /&gt;
+&amp;nbsp; &lt;br /&gt;
+&amp;bull; Interfaz de usuario f&amp;aacute;cil as&amp;iacute; que el marketing puede mantener y actualizar el contenido</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Download">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"haworth_sitefinity-final-2apr2014..pdf (428 KB )","ChildItemId":"5b31f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"Download","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137545)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"7c31f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>8c31f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value>es</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Showcases</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>5536f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>4536f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value sf:lang="en" sf:invariantValue="mr-rental-increased-mobile-transactions-138-with-new-mobile-website">mr-rental-increased-mobile-transactions-138-with-new-mobile-website</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable">
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;10&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;cd6867a7-4b1e-4650-ac51-7098708e1258&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.08Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fmr-rental-aumento-de-las-transacciones-m%c3%b3viles-138-con-el-nuevo-sitio-web-para-m%c3%b3viles&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;127&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;02a1d2d1-3c98-42e0-87c3-acd9463a7cf4&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.08Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fmr-rental-increased-mobile-transactions-138-with-new-mobile-website&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;9&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;92c7084c-0b54-468a-a2a3-eae16270873e&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.08Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fmr-rental-increased-mobile-transactions-138-with-new-mobile-website&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+      </sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value sf:lang="en" sf:invariantValue="Published">Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsViewable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsUnlockable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:HasLiveVersion">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value sf:lang="en" sf:invariantValue="Mr Rental increased mobile transactions 138% with new mobile website">Mr Rental increased mobile transactions 138% with new mobile website</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Thumbnail">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/whitepapers\/mrrental.tmb-.png?sfvrsn=1","ChildItemId":"2436f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Thumbnail","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137550)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"4536f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Client">
+        <cmis:value sf:lang="en" sf:invariantValue="Mr Rental">Mr Rental</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Website">
+        <cmis:value sf:lang="en" sf:invariantValue="http://www.mrrental.com.au/">http://www.mrrental.com.au/</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Challenge">
+        <cmis:value sf:lang="en" sf:invariantValue="&lt;p&gt;With a demographic of heavy mobile users, Mr Rental, the home appliance rental center for Australia and New Zealand needed a snappy mobile presence that was easy-to-use, could represent its 70+ products adequately and could provide ecommerce capabilities for immediate purchasing.&lt;/p&gt;">&lt;p&gt;With a demographic of heavy mobile users, Mr Rental, the home appliance rental center for Australia and New Zealand needed a snappy mobile presence that was easy-to-use, could represent its 70+ products adequately and could provide ecommerce capabilities for immediate purchasing.&lt;/p&gt;</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Solution">
+        <cmis:value sf:lang="en" sf:invariantValue="&lt;p&gt;After weighing options such as mobile website versus mobile app, Sitefinity partner, UI Crew, decided to move forward with Telerik Sitefinity because of its open architecture, usability and adoptability for content contributors, and its ecommerce engine.&lt;/p&gt;">&lt;p&gt;After weighing options such as mobile website versus mobile app, Sitefinity partner, UI Crew, decided to move forward with Telerik Sitefinity because of its open architecture, usability and adoptability for content contributors, and its ecommerce engine.&lt;/p&gt;</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Results">
+        <cmis:value sf:lang="en" sf:invariantValue="Within the first two months of the Mr Rental mobile site going live, the company recorded:&amp;nbsp;&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Mobile conversion rate up 108%&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Mobile transactions up 138%&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Revenue increases of 89% from mobile devices">Within the first two months of the Mr Rental mobile site going live, the company recorded:&amp;nbsp;&lt;br /&gt;
+&amp;nbsp;&amp;bull; Mobile conversion rate up 108%&lt;br /&gt;
+&amp;nbsp;&amp;bull; Mobile transactions up 138%&lt;br /&gt;
+&amp;nbsp;&amp;bull; Revenue increases of 89% from mobile devices</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Download">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"mrrental_rebranded_a4..pdf (596 KB )","ChildItemId":"3536f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"Download","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137551)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"4536f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>5536f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value>en</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Showcases</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>5536f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>4536f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value sf:lang="es" sf:invariantValue="mr-rental-increased-mobile-transactions-138-with-new-mobile-website">mr-rental-aumento-de-las-transacciones-móviles-138-con-el-nuevo-sitio-web-para-móviles</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable">
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;10&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;cd6867a7-4b1e-4650-ac51-7098708e1258&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.08Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fmr-rental-aumento-de-las-transacciones-m%c3%b3viles-138-con-el-nuevo-sitio-web-para-m%c3%b3viles&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;127&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;02a1d2d1-3c98-42e0-87c3-acd9463a7cf4&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.08Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fmr-rental-increased-mobile-transactions-138-with-new-mobile-website&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;9&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;92c7084c-0b54-468a-a2a3-eae16270873e&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.08Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fmr-rental-increased-mobile-transactions-138-with-new-mobile-website&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+      </sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value sf:lang="es" sf:invariantValue="Published">Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsViewable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsUnlockable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:HasLiveVersion">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value sf:lang="es" sf:invariantValue="Mr Rental increased mobile transactions 138% with new mobile website">Mr Rental aumento de las transacciones móviles 138% con el nuevo sitio web para móviles</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Thumbnail">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/whitepapers\/mrrental.tmb-.png?sfvrsn=1","ChildItemId":"2436f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Thumbnail","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137554)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"4536f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Client">
+        <cmis:value sf:lang="es" sf:invariantValue="Mr Rental">Mr Rental</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Website">
+        <cmis:value sf:lang="es" sf:invariantValue="http://www.mrrental.com.au/">http://www.mrrental.com.au/</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Challenge">
+        <cmis:value sf:lang="es" sf:invariantValue="&lt;p&gt;With a demographic of heavy mobile users, Mr Rental, the home appliance rental center for Australia and New Zealand needed a snappy mobile presence that was easy-to-use, could represent its 70+ products adequately and could provide ecommerce capabilities for immediate purchasing.&lt;/p&gt;">Con un grupo demogr&amp;aacute;fico de los usuarios m&amp;oacute;viles pesados, Sr. Campo, el centro de alquiler de electrodom&amp;eacute;sticos para Australia y Nueva Zelanda necesitaban una presencia m&amp;oacute;vil &amp;aacute;gil que era f&amp;aacute;cil de usar, podr&amp;iacute;a representar a sus m&amp;aacute;s de 70 productos de manera adecuada y podr&amp;iacute;an proporcionar capacidades de comercio electr&amp;oacute;nico para la compra inmediata.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Solution">
+        <cmis:value sf:lang="es" sf:invariantValue="&lt;p&gt;After weighing options such as mobile website versus mobile app, Sitefinity partner, UI Crew, decided to move forward with Telerik Sitefinity because of its open architecture, usability and adoptability for content contributors, and its ecommerce engine.&lt;/p&gt;">Despu&amp;eacute;s de opciones tales como el sitio web m&amp;oacute;vil en comparaci&amp;oacute;n con la aplicaci&amp;oacute;n m&amp;oacute;vil, socio Sitefinity, la interfaz de usuario del equipo de pesaje, decidi&amp;oacute; seguir adelante con Telerik Sitefinity debido a su arquitectura abierta, facilidad de uso y la adoptabilidad de los contribuyentes de contenido, y su motor de comercio electr&amp;oacute;nico.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Results">
+        <cmis:value sf:lang="es" sf:invariantValue="Within the first two months of the Mr Rental mobile site going live, the company recorded:&amp;nbsp;&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Mobile conversion rate up 108%&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Mobile transactions up 138%&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Revenue increases of 89% from mobile devices">Dentro de los dos primeros meses del sitio m&amp;oacute;vil Alquiler Sr. ir en vivo, la compa&amp;ntilde;&amp;iacute;a registr&amp;oacute;:&lt;br /&gt;
+&amp;nbsp; &amp;bull; tasa de conversi&amp;oacute;n m&amp;oacute;vil hasta el 108%&lt;br /&gt;
+&amp;nbsp; &amp;bull; transacciones m&amp;oacute;viles de hasta 138%&lt;br /&gt;
+&amp;nbsp; &amp;bull; Los ingresos aumenta de 89% de los dispositivos m&amp;oacute;viles</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Download">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"mrrental_rebranded_a4..pdf (596 KB )","ChildItemId":"3536f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"Download","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137556)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"4536f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>5536f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value>es</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Showcases</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>db37f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>cb37f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value sf:lang="en" sf:invariantValue="quantum-delivers-sophisticated-cloud-connected-web-platform-for-iphone-startup">quantum-delivers-sophisticated-cloud-connected-web-platform-for-iphone-startup</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable">
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;9&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;728768fa-3bdf-4dcd-bbce-1e7ad0292e2e&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.307Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fquantum-delivers-sophisticated-cloud-connected-web-platform-for-iphone-startup&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;127&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;a2a53c78-d9f0-4c8b-b6fd-f2cb1e80815a&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.307Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fquantum-delivers-sophisticated-cloud-connected-web-platform-for-iphone-startup&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;10&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;9b9ef7ac-b5ad-4e2b-8ea9-ff9407a5086f&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.307Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fquantum-ofrece-una-sofisticada-plataforma-web-conectada-a-la-nube-para-el-iphone-compa%c3%b1%c3%ada-de-lanzamiento&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+      </sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value sf:lang="en" sf:invariantValue="Published">Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsViewable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsUnlockable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:HasLiveVersion">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value sf:lang="en" sf:invariantValue="Quantum delivers sophisticated cloud-connected web platform for iPhone startup">Quantum delivers sophisticated cloud-connected web platform for iPhone startup</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Thumbnail">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/whitepapers\/koketa.tmb-.png?sfvrsn=3","ChildItemId":"7637f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Thumbnail","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137558)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"cb37f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Client">
+        <cmis:value sf:lang="en" sf:invariantValue="Trendsta">Trendsta</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Website">
+        <cmis:value sf:lang="en" sf:invariantValue="http://www.lakoketa.com/">http://www.lakoketa.com/</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Challenge">
+        <cmis:value sf:lang="en" sf:invariantValue="&lt;p&gt;As a startup, Trendsta needed a technology platform which would enable it to achieve ambitious goals without over-burdening company resources.&lt;/p&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;&lt;p&gt;La Koketa is a fashion stylist app aimed at tech-savvy young women age 18-25. Developed by Trendsta, it has rapidly established an international following.&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;">&lt;p&gt;As a startup, Trendsta needed a technology platform which would enable it to achieve ambitious goals without over-burdening company resources.&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;La Koketa is a fashion stylist app aimed at tech-savvy young women age 18-25. Developed by Trendsta, it has rapidly established an international following.&lt;/p&gt;
+&lt;/div&gt;</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Solution">
+        <cmis:value sf:lang="en" sf:invariantValue="&lt;p&gt;Sitefinity saved time and developer resources by providing an extensible platform on which the team could quickly build sophisticated services to support the app&amp;rsquo;s functionality, while also meeting its web content management needs.&lt;/p&gt;">&lt;p&gt;Sitefinity saved time and developer resources by providing an extensible platform on which the team could quickly build sophisticated services to support the app&amp;rsquo;s functionality, while also meeting its web content management needs.&lt;/p&gt;</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Results">
+        <cmis:value sf:lang="en" sf:invariantValue="&amp;nbsp;&amp;bull; Rapid development of services to connect app with Amazon S3 and e-retailers&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Efficient management of user profiles through Sitefinity&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Empowerment of business users to manage marketing content quickly in a rapidly moving marketplace">&amp;nbsp;&amp;bull; Rapid development of services to connect app with Amazon S3 and e-retailers&lt;br /&gt;
+&amp;nbsp;&amp;bull; Efficient management of user profiles through Sitefinity&lt;br /&gt;
+&amp;nbsp;&amp;bull; Empowerment of business users to manage marketing content quickly in a rapidly moving marketplace</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Download">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"sitefinitylakoketa_telerik-pdf..pdf (260 KB )","ChildItemId":"bb37f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"Download","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137559)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"cb37f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>db37f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value>en</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Showcases</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>db37f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>cb37f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value sf:lang="es" sf:invariantValue="quantum-delivers-sophisticated-cloud-connected-web-platform-for-iphone-startup">quantum-ofrece-una-sofisticada-plataforma-web-conectada-a-la-nube-para-el-iphone-compañía-de-lanzamiento</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable">
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;9&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;728768fa-3bdf-4dcd-bbce-1e7ad0292e2e&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.307Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fquantum-delivers-sophisticated-cloud-connected-web-platform-for-iphone-startup&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;127&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;a2a53c78-d9f0-4c8b-b6fd-f2cb1e80815a&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.307Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fquantum-delivers-sophisticated-cloud-connected-web-platform-for-iphone-startup&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+        <cmis:value>&lt;Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;
+  &lt;Culture&gt;10&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;9b9ef7ac-b5ad-4e2b-8ea9-ff9407a5086f&lt;/Id&gt;
+  &lt;IsDefault&gt;true&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2018-06-12T07:19:11.307Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%2fquantum-ofrece-una-sofisticada-plataforma-web-conectada-a-la-nube-para-el-iphone-compa%c3%b1%c3%ada-de-lanzamiento&lt;/Url&gt;
+  &lt;ItemType&gt;Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase&lt;/ItemType&gt;
+&lt;/Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData&gt;</cmis:value>
+      </sf:Telerik.Sitefinity.DynamicModules.Model.DynamicContentUrlData>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value sf:lang="es" sf:invariantValue="Published">Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsViewable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsUnlockable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:HasLiveVersion">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value sf:lang="es" sf:invariantValue="Quantum delivers sophisticated cloud-connected web platform for iPhone startup">Quantum ofrece una sofisticada plataforma web conectada a la nube para el iPhone compañía de lanzamiento</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Thumbnail">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/whitepapers\/koketa.tmb-.png?sfvrsn=3","ChildItemId":"7637f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Thumbnail","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137561)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"cb37f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Client">
+        <cmis:value sf:lang="es" sf:invariantValue="Trendsta">Trendsta</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Website">
+        <cmis:value sf:lang="es" sf:invariantValue="http://www.lakoketa.com/">http://www.lakoketa.com/</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Challenge">
+        <cmis:value sf:lang="es" sf:invariantValue="&lt;p&gt;As a startup, Trendsta needed a technology platform which would enable it to achieve ambitious goals without over-burdening company resources.&lt;/p&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;&lt;p&gt;La Koketa is a fashion stylist app aimed at tech-savvy young women age 18-25. Developed by Trendsta, it has rapidly established an international following.&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;">Como inicio, Trendsta necesita una plataforma tecnol&amp;oacute;gica que le permita alcanzar objetivos ambiciosos y sin sobrecargar los recursos de la empresa.&lt;br /&gt;
+&lt;br /&gt;
+La koketa es una aplicaci&amp;oacute;n de estilista de moda dirigido a mujeres j&amp;oacute;venes conocedores de la tecnolog&amp;iacute;a 18-25 a&amp;ntilde;os de edad. Desarrollado por Trendsta, se ha establecido r&amp;aacute;pidamente un seguimiento internacional.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Solution">
+        <cmis:value sf:lang="es" sf:invariantValue="&lt;p&gt;Sitefinity saved time and developer resources by providing an extensible platform on which the team could quickly build sophisticated services to support the app&amp;rsquo;s functionality, while also meeting its web content management needs.&lt;/p&gt;">Sitefinity guarda tiempo y recursos para desarrolladores, proporcionando una plataforma extensible en el que el equipo podr&amp;iacute;a construir r&amp;aacute;pidamente servicios sofisticados para soportar la funcionalidad de la aplicaci&amp;oacute;n, al mismo tiempo cumplir sus necesidades de gesti&amp;oacute;n de contenidos web.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Results">
+        <cmis:value sf:lang="es" sf:invariantValue="&amp;nbsp;&amp;bull; Rapid development of services to connect app with Amazon S3 and e-retailers&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Efficient management of user profiles through Sitefinity&lt;br /&gt;&#xD;&#xA;&amp;nbsp;&amp;bull; Empowerment of business users to manage marketing content quickly in a rapidly moving marketplace">&amp;bull; El r&amp;aacute;pido desarrollo de los servicios de aplicaci&amp;oacute;n para conectar con Amazon S3 y e-minoristas&lt;br /&gt;
+&amp;nbsp; &amp;bull; Gesti&amp;oacute;n eficiente de los perfiles de usuario a trav&amp;eacute;s Sitefinity&lt;br /&gt;
+&amp;nbsp; &amp;bull; Potenciaci&amp;oacute;n de los usuarios de negocio para gestionar el contenido de marketing r&amp;aacute;pidamente en un mercado que se mueve r&amp;aacute;pidamente</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Download">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"sitefinitylakoketa_telerik-pdf..pdf (260 KB )","ChildItemId":"bb37f5a4-1d60-6822-81ac-ff0000da1875","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"Download","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1629460137564)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"cb37f5a4-1d60-6822-81ac-ff0000da1875","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>db37f5a4-1d60-6822-81ac-ff0000da1875</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Showcases.Showcase</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value>es</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Showcases</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+</atom:entry>
