@@ -1,0 +1,232 @@
+[
+  {
+    "Id": "aea51672-6f5b-46bf-81a5-1952b1539793",
+    "Namespace": "Telerik.Sitefinity.Libraries.Model",
+    "ClassName": "Image",
+    "Fields": [
+      {
+        "Id": "b4e9f0ab-2fd5-4860-94ce-9cf686e33716",
+        "FieldName": "Category",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "ebe0cf7c-ba08-4796-b68c-2ac2cd44c7e0",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          },
+          {
+            "Id": "4f4c88db-248e-4e26-aadf-bc287b1250a1",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "d4458c02-9c59-4c21-b369-c449e1b0cc63",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:HierarchicalTaxonField ID=\"HierarchicalFieldControl\" runat=\"server\" TaxonomyId=\"E5CD6D69-1543-427b-AD62-688A99F5E7D4\" DisplayMode=\"Read\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/HierarchicalTaxon.svc\" Expanded=\"false\" TaxonomyMetafieldName=\"Category\" ExpandText=\"ClickToAddCategories\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.HierarchicalTaxonFieldReadMode.ascx\"/>"
+          }
+        ],
+        "ApplicationName": "//",
+        "IsDynamic": true
+      },
+      {
+        "Id": "366004aa-37fb-412f-994e-b8743a247cc8",
+        "FieldName": "Tags",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "cb0f3a19-a211-48a7-88ec-77495c0f5374",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "b4619aef-56f7-4461-9fb2-0b7f4a2f192e",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:FlatTaxonField ID=\"FlatFieldControl\" DisplayMode=\"Read\" runat=\"server\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/FlatTaxon.svc\" AllowMultipleSelection=\"true\" TaxonomyId=\"CB0F3A19-A211-48a7-88EC-77495C0F5374\" TaxonomyMetafieldName=\"Tags\" Expanded=\"false\" ExpandText=\"ClickToAddTags\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.FlatTaxonFieldReadMode.ascx\" />"
+          },
+          {
+            "Id": "919b92fe-603b-485e-98a2-bfb35f4e684d",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "30e4bc5b-0581-45c4-b1e9-de320f1b6a3c",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "//",
+        "IsDynamic": true
+      }
+    ],
+    "ApplicationName": "//",
+    "Presentation": [],
+    "MetaAttributes": [],
+    "SectionNames": [],
+    "AssemblyName": "Telerik.Sitefinity.Model"
+  },
+  {
+    "Id": "2ce1328d-8371-4100-8319-aa546cfaf150",
+    "Namespace": "Telerik.Sitefinity.Libraries.Model",
+    "ClassName": "Video",
+    "Fields": [
+      {
+        "Id": "b05e4080-e761-430b-98a5-965296db6729",
+        "FieldName": "Category",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "e5b6134c-05f8-49df-9b8f-4710e78949cd",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          },
+          {
+            "Id": "c5b8993c-e85e-4825-a5ce-b75bbf46f559",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:HierarchicalTaxonField ID=\"HierarchicalFieldControl\" runat=\"server\" TaxonomyId=\"E5CD6D69-1543-427b-AD62-688A99F5E7D4\" DisplayMode=\"Read\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/HierarchicalTaxon.svc\" Expanded=\"false\" TaxonomyMetafieldName=\"Category\" ExpandText=\"ClickToAddCategories\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.HierarchicalTaxonFieldReadMode.ascx\"/>"
+          },
+          {
+            "Id": "fe4b0e81-64d9-4203-b91d-fecb5d8c1114",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "//",
+        "IsDynamic": true
+      },
+      {
+        "Id": "59999655-0e88-44ec-a631-fece7bf2ccbc",
+        "FieldName": "Tags",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "cb0f3a19-a211-48a7-88ec-77495c0f5374",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "e7085b76-0d27-4a5f-ac9c-921a1325b8e8",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:FlatTaxonField ID=\"FlatFieldControl\" DisplayMode=\"Read\" runat=\"server\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/FlatTaxon.svc\" AllowMultipleSelection=\"true\" TaxonomyId=\"CB0F3A19-A211-48a7-88EC-77495C0F5374\" TaxonomyMetafieldName=\"Tags\" Expanded=\"false\" ExpandText=\"ClickToAddTags\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.FlatTaxonFieldReadMode.ascx\" />"
+          },
+          {
+            "Id": "d3229eb3-7cfe-4616-a763-d7e27fb99638",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "08bedca3-37b1-4924-8f0b-e9ad587f1b76",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "//",
+        "IsDynamic": true
+      }
+    ],
+    "ApplicationName": "//",
+    "Presentation": [],
+    "MetaAttributes": [],
+    "SectionNames": [],
+    "AssemblyName": "Telerik.Sitefinity.Model"
+  },
+  {
+    "Id": "63b83fb8-7c74-4876-9433-fdda2a4a8dea",
+    "Namespace": "Telerik.Sitefinity.Libraries.Model",
+    "ClassName": "Document",
+    "Fields": [
+      {
+        "Id": "0f5c4b53-3b68-42e0-9097-24961d7ac1dd",
+        "FieldName": "Image",
+        "ClrType": "Telerik.Sitefinity.RelatedData.RelatedItems",
+        "DBType": "",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "897131f4-0dae-4ba4-82e4-1402d0837e98",
+            "Name": "UserFriendlyDataType",
+            "Value": "RelatedMedia"
+          },
+          {
+            "Id": "40445910-8e6c-4bf3-a9fc-5de496ff62ea",
+            "Name": "RelatedType",
+            "Value": "Telerik.Sitefinity.Libraries.Model.Image"
+          },
+          {
+            "Id": "20a67aa4-f862-4312-a566-8ba2554e7b71",
+            "Name": "RelatedProviders",
+            "Value": "sf-site-default-provider"
+          },
+          {
+            "Id": "e8638fbc-8dc6-4350-9d1b-ae00d6d21c7a",
+            "Name": "ControlTag",
+            "Value": "<div class=\"sfSnglRelatedItmWrp\">\r\n                <h2 class=\"sfrelatedItmTitle\"></h2>\r\n                <div class=\"sfrelatedItmWrp\">\r\n                    <img src='<%# Eval(\"Image.MediaUrl\")%>' alt='<%# Eval(\"Image.AlternativeText\")%>' title='<%# Eval(\"Image.Title\") %>' />\r\n                </div>\r\n            </div>"
+          },
+          {
+            "Id": "bb7d7a22-0d00-456e-b250-e57837caa368",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          }
+        ],
+        "IsInternal": true,
+        "IsProtectedRelation": true,
+        "ApplicationName": "//",
+        "IsDynamic": true
+      },
+      {
+        "Id": "88263364-bda6-4f16-bbf0-49b813e902cc",
+        "FieldName": "Category",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "e26d1a34-4296-4141-aeae-c2e72b1a49af",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          },
+          {
+            "Id": "00c41b90-dd76-4674-8fde-ec62725cf57a",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "c1bc70bc-97dd-435f-b31b-f45004ab3d12",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:HierarchicalTaxonField ID=\"HierarchicalFieldControl\" runat=\"server\" TaxonomyId=\"E5CD6D69-1543-427b-AD62-688A99F5E7D4\" DisplayMode=\"Read\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/HierarchicalTaxon.svc\" Expanded=\"false\" TaxonomyMetafieldName=\"Category\" ExpandText=\"ClickToAddCategories\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.HierarchicalTaxonFieldReadMode.ascx\"/>"
+          }
+        ],
+        "ApplicationName": "//",
+        "IsDynamic": true
+      },
+      {
+        "Id": "717bcba6-0aa8-4b62-9894-d39e94d4efad",
+        "FieldName": "Tags",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "cb0f3a19-a211-48a7-88ec-77495c0f5374",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "0d4fc771-fb4c-4fbe-a4a3-7ddc4c12a33c",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          },
+          {
+            "Id": "caea1fc8-ac7c-404e-b840-dbe1c950d18a",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:FlatTaxonField ID=\"FlatFieldControl\" DisplayMode=\"Read\" runat=\"server\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/FlatTaxon.svc\" AllowMultipleSelection=\"true\" TaxonomyId=\"CB0F3A19-A211-48a7-88EC-77495C0F5374\" TaxonomyMetafieldName=\"Tags\" Expanded=\"false\" ExpandText=\"ClickToAddTags\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.FlatTaxonFieldReadMode.ascx\" />"
+          },
+          {
+            "Id": "2dde1c61-bace-485b-aafa-e7b248488525",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "//",
+        "IsDynamic": true
+      }
+    ],
+    "ApplicationName": "//",
+    "Presentation": [],
+    "MetaAttributes": [],
+    "SectionNames": [],
+    "AssemblyName": "Telerik.Sitefinity.Model"
+  }
+]
