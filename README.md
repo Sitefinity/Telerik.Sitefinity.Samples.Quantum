@@ -72,7 +72,7 @@ The design of the starter kit is based on the Bootstrap resource package(http://
 
 1. To setup the .Net Core Renderer with the Quantum project follow the [procedure for setup](https://www.progress.com/documentation/sitefinity-cms/setup-the-asp.net-core-renderer).
 
-2. Next activate and the addon(select import content as well) in the Administration dropdown (Addons page). As a result there should be a new page created called "Quantum Sample Page" with the label "new editor" in the pages menu dropdown.
+2. Next activate and the addon - (NetCoreRendererV2) in the Administration dropdown (Addons page). As a result there should be a new page created called "Quantum Sample Page" and with the label "new editor" in the pages menu dropdown an a group page Net Core Renderer containing a copy of the pages rewritten with .NET Core
 
 3. To enable form submission create an MVC Form called "Register" with the specified fields
 
