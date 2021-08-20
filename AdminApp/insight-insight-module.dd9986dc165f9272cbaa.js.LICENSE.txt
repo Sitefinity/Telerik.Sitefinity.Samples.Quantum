@@ -1,0 +1,3591 @@
+/*! ../../../../common-constants */
+
+/*! ../../../common-constants */
+
+/*! ../../../shared/insight/insight.constants */
+
+/*! ../../../shared/insight/services/connector.service */
+
+/*! ../../../shared/insight/services/date-time-utils.service */
+
+/*! ../../../shared/insight/services/sitefinity-insight-touchpoints-requester.service */
+
+/*! ../../../shared/services/modal-window.service */
+
+/*! ../../common */
+
+/*! ../../common-constants */
+
+/*! ../../common/constants */
+
+/*! ../../core */
+
+/*! ../../create-content-touchpoint/create-content-touchpoint.component */
+
+/*! ../../date-utils */
+
+/*! ../../geometry/rect */
+
+/*! ../../services/goal-period-display.service */
+
+/*! ../../services/number-display-formatter.service */
+
+/*! ../../services/sitefinity-insight-conversions-requester.service */
+
+/*! ../../services/sitefinity-insight-datacenter-requester.service */
+
+/*! ../../shared/insight/interfaces/content-item-info */
+
+/*! ../../shared/insight/services/sitefinity-insight-http-requester */
+
+/*! ../../shared/insight/services/sitefinity-insight-touchpoints-requester.service */
+
+/*! ../../touchpoint-details/touchpoint-details.component */
+
+/*! ../../touchpoint-no-data-yet/touchpoint-no-data-yet.component */
+
+/*! ../../util */
+
+/*! ../aggregates/default-aggregates */
+
+/*! ../aggregates/series-aggregator */
+
+/*! ../alignment/align-start */
+
+/*! ../alignment/align-start-reverse */
+
+/*! ../alignment/translate-to-point */
+
+/*! ../animations/clip-animation */
+
+/*! ../arc/arc-gauge */
+
+/*! ../area-chart/area-chart */
+
+/*! ../area-chart/area-segment */
+
+/*! ../area-chart/spline-area-segment */
+
+/*! ../axis-group-range-tracker */
+
+/*! ../bar-chart/bar */
+
+/*! ../bar-chart/bar-chart */
+
+/*! ../bar-chart/bar-label */
+
+/*! ../box */
+
+/*! ../box-plot-chart/box-plot-chart */
+
+/*! ../bubble-chart/bubble-chart */
+
+/*! ../bullet-chart/bullet-chart */
+
+/*! ../candlestick-chart/candlestick */
+
+/*! ../candlestick-chart/candlestick-chart */
+
+/*! ../categorical-chart */
+
+/*! ../chart */
+
+/*! ../chart/constants */
+
+/*! ../class */
+
+/*! ../common */
+
+/*! ../common/constants */
+
+/*! ../components/general-sitefinity-insight-error/general-sitefinity-insight-error.component */
+
+/*! ../components/sitefinity-insight-analytics-redirect-button/sitefinity-insight-analytics-redirect-button.component */
+
+/*! ../components/touchpoint-chart/touchpoint-chart.component */
+
+/*! ../components/touchpoint-highest-attribution-table/touchpoint-hightest-attribution-table.component */
+
+/*! ../components/touchpoint-hits/touchpoint-hits.component */
+
+/*! ../constants */
+
+/*! ../core */
+
+/*! ../core/base-node */
+
+/*! ../core/constants */
+
+/*! ../core/has-observers */
+
+/*! ../core/options-store */
+
+/*! ../core/surface */
+
+/*! ../crosshair/crosshair */
+
+/*! ../date-utils */
+
+/*! ../date-utils/constants */
+
+/*! ../donut-chart/donut-chart */
+
+/*! ../donut-chart/donut-segment */
+
+/*! ../drawing */
+
+/*! ../drawing-utils */
+
+/*! ../error-bars/error-range-calculator */
+
+/*! ../error-bars/scatter-error-bar */
+
+/*! ../funnel-chart/funnel-chart */
+
+/*! ../gauge */
+
+/*! ../general-sitefinity-insight-error/general-sitefinity-insight-error.component */
+
+/*! ../geometry */
+
+/*! ../geometry/arc */
+
+/*! ../geometry/circle */
+
+/*! ../geometry/math/line-intersections-count */
+
+/*! ../geometry/matrix */
+
+/*! ../geometry/point */
+
+/*! ../geometry/rect */
+
+/*! ../geometry/segment */
+
+/*! ../geometry/size */
+
+/*! ../geometry/to-matrix */
+
+/*! ../geometry/transform */
+
+/*! ../gradients/linear-gradient */
+
+/*! ../gradients/radial-gradient */
+
+/*! ../layout/cluster-layout */
+
+/*! ../layout/radar-cluster-layout */
+
+/*! ../layout/radar-stack-layout */
+
+/*! ../layout/stack-wrap */
+
+/*! ../line-chart/line-chart */
+
+/*! ../line-chart/line-point */
+
+/*! ../line-chart/line-segment */
+
+/*! ../line-chart/spline-segment */
+
+/*! ../line-chart/step-line-mixin */
+
+/*! ../mixins/clip-animation-mixin */
+
+/*! ../mixins/line-chart-mixin */
+
+/*! ../mixins/measurable */
+
+/*! ../mixins/note-mixin */
+
+/*! ../mixins/paintable */
+
+/*! ../mixins/pie-chart-mixin */
+
+/*! ../mixins/plotarea-events-mixin */
+
+/*! ../mixins/point-events-mixin */
+
+/*! ../mixins/traversable */
+
+/*! ../mixins/with-accessors */
+
+/*! ../mixins/with-geometry */
+
+/*! ../mixins/with-options */
+
+/*! ../mixins/with-points */
+
+/*! ../ohlc-chart/ohlc-chart */
+
+/*! ../pane */
+
+/*! ../parsing/parse-path */
+
+/*! ../pdf */
+
+/*! ../pie-chart/pie-chart */
+
+/*! ../pie-chart/pie-segment */
+
+/*! ../point */
+
+/*! ../pointer */
+
+/*! ../polar-area-chart/polar-area-chart */
+
+/*! ../polar-line-chart/polar-line-chart */
+
+/*! ../polar-scatter-chart/polar-scatter-chart */
+
+/*! ../radar-area-chart/radar-area-chart */
+
+/*! ../radar-bar-chart/radar-bar-chart */
+
+/*! ../radar-line-chart/radar-line-chart */
+
+/*! ../radial/radial-gauge */
+
+/*! ../radial/radial-scale */
+
+/*! ../range-area-chart/range-area-chart */
+
+/*! ../range-bar-chart/range-bar-chart */
+
+/*! ../ring */
+
+/*! ../scatter-charts/scatter-chart */
+
+/*! ../scatter-charts/scatter-line-chart */
+
+/*! ../search/shapes-quad-tree */
+
+/*! ../series-binder */
+
+/*! ../services */
+
+/*! ../shape-builder */
+
+/*! ../shapes */
+
+/*! ../shapes/elements-array */
+
+/*! ../shapes/group */
+
+/*! ../shapes/path */
+
+/*! ../shared/insight/services/connector.service */
+
+/*! ../shared/insight/services/date-time-utils.service */
+
+/*! ../shared/insight/services/sitefinity-insight-http-requester */
+
+/*! ../shared/insight/services/sitefinity-insight-touchpoints-requester.service */
+
+/*! ../show-improvement/show-improvement.component */
+
+/*! ../sitefinity-components/sitefinity-components.module */
+
+/*! ../support */
+
+/*! ../text-metrics */
+
+/*! ../tooltip/base-tooltip */
+
+/*! ../transform */
+
+/*! ../util */
+
+/*! ../util/defined */
+
+/*! ../util/encode-utf */
+
+/*! ../util/now */
+
+/*! ../util/rad */
+
+/*! ../util/round */
+
+/*! ../utils */
+
+/*! ../utils/any-has-z-index */
+
+/*! ../utils/are-numbers */
+
+/*! ../utils/categories-count */
+
+/*! ../utils/count-numbers */
+
+/*! ../utils/equals-ignore-case */
+
+/*! ../utils/eval-options */
+
+/*! ../utils/filter-series-by-type */
+
+/*! ../utils/has-gradient-overlay */
+
+/*! ../utils/has-value */
+
+/*! ../utils/single-item-or-array */
+
+/*! ../waterfall-chart/waterfall-chart */
+
+/*! ./absolute-date-diff */
+
+/*! ./accept-key */
+
+/*! ./add-duration */
+
+/*! ./add-ticks */
+
+/*! ./aggregates */
+
+/*! ./aggregates/default-aggregates */
+
+/*! ./align-elements */
+
+/*! ./align-start */
+
+/*! ./alignment */
+
+/*! ./alignment/align */
+
+/*! ./alignment/fit */
+
+/*! ./alignment/stack */
+
+/*! ./alignment/v-align */
+
+/*! ./alignment/v-stack */
+
+/*! ./alignment/v-wrap */
+
+/*! ./alignment/wrap */
+
+/*! ./animation-factory */
+
+/*! ./animations */
+
+/*! ./animations/animation */
+
+/*! ./animations/animation-factory */
+
+/*! ./animations/bar-chart-animation */
+
+/*! ./animations/bubble-animation */
+
+/*! ./animations/clip-animation */
+
+/*! ./animations/fade-in-animation */
+
+/*! ./animations/pie-animation */
+
+/*! ./api-elements */
+
+/*! ./api-elements/chart-axis */
+
+/*! ./api-elements/chart-pane */
+
+/*! ./api-elements/chart-plotarea */
+
+/*! ./api-elements/find-axis-by-name */
+
+/*! ./arc-node */
+
+/*! ./arc-scale */
+
+/*! ./area-segment */
+
+/*! ./arrow-linear-pointer */
+
+/*! ./arrow-linear-pointer-animation */
+
+/*! ./axis */
+
+/*! ./axis-label */
+
+/*! ./bar */
+
+/*! ./bar-label */
+
+/*! ./bar-linear-pointer */
+
+/*! ./bar-linear-pointer-animation */
+
+/*! ./base-tooltip */
+
+/*! ./box */
+
+/*! ./box-element */
+
+/*! ./box-plot */
+
+/*! ./bubble */
+
+/*! ./bullet */
+
+/*! ./calculate-curve-at */
+
+/*! ./candlestick */
+
+/*! ./canvas */
+
+/*! ./canvas/arc-node */
+
+/*! ./canvas/circle-node */
+
+/*! ./canvas/export-image */
+
+/*! ./canvas/group-node */
+
+/*! ./canvas/image-node */
+
+/*! ./canvas/multi-path-node */
+
+/*! ./canvas/node */
+
+/*! ./canvas/path-node */
+
+/*! ./canvas/rect-node */
+
+/*! ./canvas/root-node */
+
+/*! ./canvas/surface */
+
+/*! ./canvas/text-node */
+
+/*! ./categorical-plotarea */
+
+/*! ./category-axis */
+
+/*! ./chart */
+
+/*! ./chart-axis */
+
+/*! ./chart-container */
+
+/*! ./chart-element */
+
+/*! ./chart/aggregates/aggregates */
+
+/*! ./chart/aggregates/default-aggregates */
+
+/*! ./chart/aggregates/series-aggregator */
+
+/*! ./chart/animations/clip-animation */
+
+/*! ./chart/animations/pie-animation */
+
+/*! ./chart/api-elements */
+
+/*! ./chart/area-chart/area-chart */
+
+/*! ./chart/area-chart/area-segment */
+
+/*! ./chart/area-chart/spline-area-segment */
+
+/*! ./chart/axis-group-range-tracker */
+
+/*! ./chart/bar-chart/bar */
+
+/*! ./chart/bar-chart/bar-chart */
+
+/*! ./chart/bar-chart/bar-label */
+
+/*! ./chart/base-theme */
+
+/*! ./chart/box-plot-chart/box-plot */
+
+/*! ./chart/box-plot-chart/box-plot-chart */
+
+/*! ./chart/bubble-chart/bubble-chart */
+
+/*! ./chart/bullet-chart/bullet */
+
+/*! ./chart/bullet-chart/bullet-chart */
+
+/*! ./chart/candlestick-chart/candlestick */
+
+/*! ./chart/candlestick-chart/candlestick-chart */
+
+/*! ./chart/categorical-chart */
+
+/*! ./chart/chart */
+
+/*! ./chart/chart-container */
+
+/*! ./chart/crosshair/crosshair */
+
+/*! ./chart/crosshair/crosshair-tooltip */
+
+/*! ./chart/donut-chart/donut-chart */
+
+/*! ./chart/donut-chart/donut-segment */
+
+/*! ./chart/error-bars/categorical-error-bar */
+
+/*! ./chart/error-bars/error-bar-base */
+
+/*! ./chart/error-bars/error-range-calculator */
+
+/*! ./chart/error-bars/scatter-error-bar */
+
+/*! ./chart/highlight */
+
+/*! ./chart/layout/cluster-layout */
+
+/*! ./chart/layout/stack-wrap */
+
+/*! ./chart/legend/legend */
+
+/*! ./chart/legend/legend-item */
+
+/*! ./chart/legend/legend-layout */
+
+/*! ./chart/line-chart/line-chart */
+
+/*! ./chart/line-chart/line-point */
+
+/*! ./chart/line-chart/line-segment */
+
+/*! ./chart/line-chart/spline-segment */
+
+/*! ./chart/mixins/pie-chart-mixin */
+
+/*! ./chart/mixins/plotarea-events-mixin */
+
+/*! ./chart/mixins/point-events-mixin */
+
+/*! ./chart/ohlc-chart/ohlc-chart */
+
+/*! ./chart/ohlc-chart/ohlc-point */
+
+/*! ./chart/pan-and-zoom/mousewheel-zoom */
+
+/*! ./chart/pan-and-zoom/pannable */
+
+/*! ./chart/pan-and-zoom/zoom-selection */
+
+/*! ./chart/pane */
+
+/*! ./chart/pie-chart/pie-chart */
+
+/*! ./chart/pie-chart/pie-segment */
+
+/*! ./chart/plotarea/categorical-plotarea */
+
+/*! ./chart/plotarea/donut-plotarea */
+
+/*! ./chart/plotarea/pie-plotarea */
+
+/*! ./chart/plotarea/plotarea-base */
+
+/*! ./chart/plotarea/plotarea-factory */
+
+/*! ./chart/plotarea/xy-plotarea */
+
+/*! ./chart/range-area-chart/range-area-chart */
+
+/*! ./chart/range-area-chart/range-area-point */
+
+/*! ./chart/range-bar-chart/range-bar */
+
+/*! ./chart/range-bar-chart/range-bar-chart */
+
+/*! ./chart/scatter-charts/scatter-chart */
+
+/*! ./chart/scatter-charts/scatter-line-chart */
+
+/*! ./chart/selection */
+
+/*! ./chart/series-binder */
+
+/*! ./chart/tooltip/shared-tooltip */
+
+/*! ./chart/tooltip/tooltip */
+
+/*! ./chart/utils */
+
+/*! ./chart/waterfall-chart/waterfall-chart */
+
+/*! ./chart/waterfall-chart/waterfall-segment */
+
+/*! ./circle-node */
+
+/*! ./class */
+
+/*! ./clip-node */
+
+/*! ./close */
+
+/*! ./color/color */
+
+/*! ./color/named-colors */
+
+/*! ./color/parse-color */
+
+/*! ./common */
+
+/*! ./common/add-class */
+
+/*! ./common/align-path-to-pixel */
+
+/*! ./common/animation-frame */
+
+/*! ./common/class */
+
+/*! ./common/clockwise */
+
+/*! ./common/color */
+
+/*! ./common/convertable-to-number */
+
+/*! ./common/deep-extend */
+
+/*! ./common/element-scale */
+
+/*! ./common/element-styles */
+
+/*! ./common/find */
+
+/*! ./common/font-loader */
+
+/*! ./common/get-spacing */
+
+/*! ./common/get-template */
+
+/*! ./common/getter */
+
+/*! ./common/grep */
+
+/*! ./common/has-classes */
+
+/*! ./common/hash-map */
+
+/*! ./common/html-encode */
+
+/*! ./common/in-array */
+
+/*! ./common/instance-observer */
+
+/*! ./common/interpolate-value */
+
+/*! ./common/is-array */
+
+/*! ./common/is-function */
+
+/*! ./common/is-number */
+
+/*! ./common/is-object */
+
+/*! ./common/is-string */
+
+/*! ./common/log-to-console */
+
+/*! ./common/map */
+
+/*! ./common/mousewheel-delta */
+
+/*! ./common/observable */
+
+/*! ./common/remove-class */
+
+/*! ./common/save-as */
+
+/*! ./common/set-default-options */
+
+/*! ./common/sparse-array-limits */
+
+/*! ./common/style-value */
+
+/*! ./common/support */
+
+/*! ./common/template */
+
+/*! ./common/throttle */
+
+/*! ./complex-number */
+
+/*! ./components/general-sitefinity-insight-error/general-sitefinity-insight-error.component */
+
+/*! ./components/insights-details/insights-details-view.component */
+
+/*! ./components/show-improvement/show-improvement.component */
+
+/*! ./components/sitefinity-insight-analytics-redirect-button/sitefinity-insight-analytics-redirect-button.component */
+
+/*! ./components/touchpoint-chart/kendo-chart-data-converter.service */
+
+/*! ./components/touchpoint-chart/touchpoint-chart.component */
+
+/*! ./components/touchpoint-highest-attribution-table/touchpoint-hightest-attribution-table.component */
+
+/*! ./components/touchpoint-hits/touchpoint-hits.component */
+
+/*! ./constants */
+
+/*! ./core */
+
+/*! ./core/axis */
+
+/*! ./core/axis-label */
+
+/*! ./core/base-node */
+
+/*! ./core/box */
+
+/*! ./core/box-element */
+
+/*! ./core/category-axis */
+
+/*! ./core/chart-element */
+
+/*! ./core/curve-processor */
+
+/*! ./core/date-category-axis */
+
+/*! ./core/date-value-axis */
+
+/*! ./core/float-element */
+
+/*! ./core/gradients */
+
+/*! ./core/has-observers */
+
+/*! ./core/logarithmic-axis */
+
+/*! ./core/note */
+
+/*! ./core/numeric-axis */
+
+/*! ./core/options-store */
+
+/*! ./core/point */
+
+/*! ./core/polar-axis */
+
+/*! ./core/radar-category-axis */
+
+/*! ./core/radar-logarithmic-axis */
+
+/*! ./core/radar-numeric-axis */
+
+/*! ./core/ring */
+
+/*! ./core/root-element */
+
+/*! ./core/sector */
+
+/*! ./core/shape-builder */
+
+/*! ./core/shape-element */
+
+/*! ./core/surface */
+
+/*! ./core/text */
+
+/*! ./core/text-box */
+
+/*! ./core/title */
+
+/*! ./core/utils/auto-major-unit */
+
+/*! ./core/utils/rect-to-box */
+
+/*! ./count-numbers */
+
+/*! ./create-content-touchpoint/create-content-touchpoint.component */
+
+/*! ./create-stack-elements */
+
+/*! ./create-touchpoint-view-state */
+
+/*! ./crosshair-tooltip */
+
+/*! ./date-diff */
+
+/*! ./date-equals */
+
+/*! ./date-utils/absolute-date-diff */
+
+/*! ./date-utils/add-duration */
+
+/*! ./date-utils/add-ticks */
+
+/*! ./date-utils/ceil-date */
+
+/*! ./date-utils/date-comparer */
+
+/*! ./date-utils/date-diff */
+
+/*! ./date-utils/date-equals */
+
+/*! ./date-utils/date-index */
+
+/*! ./date-utils/duration */
+
+/*! ./date-utils/first-day */
+
+/*! ./date-utils/floor-date */
+
+/*! ./date-utils/lte-date-index */
+
+/*! ./date-utils/parse-date */
+
+/*! ./date-utils/parse-dates */
+
+/*! ./date-utils/start-of-week */
+
+/*! ./date-utils/to-date */
+
+/*! ./date-utils/to-time */
+
+/*! ./deep-extend */
+
+/*! ./defined */
+
+/*! ./definition-node */
+
+/*! ./deflate */
+
+/*! ./details-view-state */
+
+/*! ./donut-segment */
+
+/*! ./drawing */
+
+/*! ./drawing-utils */
+
+/*! ./easing-functions */
+
+/*! ./element */
+
+/*! ./element-styles */
+
+/*! ./elements-array */
+
+/*! ./encode-utf */
+
+/*! ./equals-ignore-case */
+
+/*! ./error-bar-base */
+
+/*! ./error-bars/categorical-error-bar */
+
+/*! ./error-bars/error-range-calculator */
+
+/*! ./export-group */
+
+/*! ./fade-out-animation */
+
+/*! ./find-axis-by-name */
+
+/*! ./float-element */
+
+/*! ./floor-date */
+
+/*! ./format-service */
+
+/*! ./funnel-segment */
+
+/*! ./gauges */
+
+/*! ./gauges/arc/arc-gauge */
+
+/*! ./gauges/arc/arc-scale */
+
+/*! ./gauges/arc/range-pointer */
+
+/*! ./gauges/circular/circular-gauge */
+
+/*! ./gauges/gauge */
+
+/*! ./gauges/linear/arrow-linear-pointer */
+
+/*! ./gauges/linear/bar-linear-pointer */
+
+/*! ./gauges/linear/linear-gauge */
+
+/*! ./gauges/linear/linear-pointer */
+
+/*! ./gauges/linear/linear-scale */
+
+/*! ./gauges/radial/radial-gauge */
+
+/*! ./gauges/radial/radial-pointer */
+
+/*! ./gauges/radial/radial-scale */
+
+/*! ./geometry */
+
+/*! ./geometry-elements-array */
+
+/*! ./geometry/arc */
+
+/*! ./geometry/circle */
+
+/*! ./geometry/matrix */
+
+/*! ./geometry/point */
+
+/*! ./geometry/rect */
+
+/*! ./geometry/segment */
+
+/*! ./geometry/size */
+
+/*! ./geometry/to-matrix */
+
+/*! ./geometry/transform */
+
+/*! ./geometry/transformation */
+
+/*! ./gradient */
+
+/*! ./gradient-node */
+
+/*! ./gradient-stop */
+
+/*! ./gradient-stop-node */
+
+/*! ./gradients */
+
+/*! ./gradients/gradient */
+
+/*! ./gradients/gradient-stop */
+
+/*! ./gradients/linear-gradient */
+
+/*! ./gradients/radial-gradient */
+
+/*! ./group */
+
+/*! ./group-node */
+
+/*! ./has-observers */
+
+/*! ./highlight */
+
+/*! ./html */
+
+/*! ./html/core */
+
+/*! ./http-data-response-utils */
+
+/*! ./image-node */
+
+/*! ./intl-service */
+
+/*! ./is-array */
+
+/*! ./is-function */
+
+/*! ./is-number */
+
+/*! ./is-object */
+
+/*! ./is-string */
+
+/*! ./kendo-chart-data-converter.service */
+
+/*! ./legend-item */
+
+/*! ./legend-layout */
+
+/*! ./legend/legend */
+
+/*! ./line-point */
+
+/*! ./line-segment */
+
+/*! ./linear-gradient-node */
+
+/*! ./linear-pointer */
+
+/*! ./linear-scale */
+
+/*! ./logarithmic-axis */
+
+/*! ./lru-cache */
+
+/*! ./math/calculate-curve-at */
+
+/*! ./math/close-or-less */
+
+/*! ./math/curve-intersections-count */
+
+/*! ./math/ellipse-extreme-angles */
+
+/*! ./math/has-roots-in-range */
+
+/*! ./math/is-out-of-end-point */
+
+/*! ./math/line-intersection */
+
+/*! ./math/line-intersections-count */
+
+/*! ./matrix */
+
+/*! ./mixins/grid-lines-mixin */
+
+/*! ./mixins/radar-numeric-axis-mixin */
+
+/*! ./multi-path-node */
+
+/*! ./named-colors */
+
+/*! ./navigator */
+
+/*! ./navigator-hint */
+
+/*! ./node */
+
+/*! ./node-map */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/construct */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/createClass */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/get */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/inherits */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray */
+
+/*! ./note */
+
+/*! ./numeric-axis */
+
+/*! ./ohlc-point */
+
+/*! ./pad */
+
+/*! ./pan-and-zoom/mousewheel-zoom */
+
+/*! ./pan-and-zoom/pannable */
+
+/*! ./pan-and-zoom/zoom-selection */
+
+/*! ./parse-color */
+
+/*! ./parse-date */
+
+/*! ./parse-path */
+
+/*! ./parsing/parse-path */
+
+/*! ./parsing/path-parser */
+
+/*! ./path */
+
+/*! ./path-node */
+
+/*! ./pdf */
+
+/*! ./pdf/core */
+
+/*! ./pdf/drawing */
+
+/*! ./pie-plotarea */
+
+/*! ./pie-segment */
+
+/*! ./plotarea-base */
+
+/*! ./plotarea/categorical-plotarea */
+
+/*! ./plotarea/donut-plotarea */
+
+/*! ./plotarea/funnel-plotarea */
+
+/*! ./plotarea/pie-plotarea */
+
+/*! ./plotarea/plotarea-base */
+
+/*! ./plotarea/plotarea-factory */
+
+/*! ./plotarea/polar-plotarea */
+
+/*! ./plotarea/radar-plotarea */
+
+/*! ./plotarea/xy-plotarea */
+
+/*! ./point */
+
+/*! ./polar-area-segment */
+
+/*! ./polar-plotarea-base */
+
+/*! ./quad-node */
+
+/*! ./quad-root */
+
+/*! ./radar-area-segment */
+
+/*! ./radar-category-axis */
+
+/*! ./radar-segment */
+
+/*! ./radial-gradient-node */
+
+/*! ./radial-pointer */
+
+/*! ./radial-pointer-animation */
+
+/*! ./radial-scale */
+
+/*! ./range-area-point */
+
+/*! ./range-area-segment */
+
+/*! ./range-bar */
+
+/*! ./range-line-point */
+
+/*! ./range-pointer */
+
+/*! ./range-pointer-animation */
+
+/*! ./rect */
+
+/*! ./rect-node */
+
+/*! ./register-charts */
+
+/*! ./render-attribute */
+
+/*! ./ring */
+
+/*! ./root-node */
+
+/*! ./scatter-chart */
+
+/*! ./search/quad-node */
+
+/*! ./search/shapes-quad-tree */
+
+/*! ./segment-visible */
+
+/*! ./selection */
+
+/*! ./series-binder */
+
+/*! ./services */
+
+/*! ./services/chart-service */
+
+/*! ./services/dom-events-builder */
+
+/*! ./services/format-service */
+
+/*! ./services/intl-service */
+
+/*! ./services/number-display-formatter.service */
+
+/*! ./services/sitefinity-insight-conversions-requester.service */
+
+/*! ./services/sitefinity-insight-datacenter-requester.service */
+
+/*! ./services/template-service */
+
+/*! ./shape-builder */
+
+/*! ./shape-element */
+
+/*! ./shape-map */
+
+/*! ./shapes */
+
+/*! ./shapes/arc */
+
+/*! ./shapes/circle */
+
+/*! ./shapes/element */
+
+/*! ./shapes/group */
+
+/*! ./shapes/image */
+
+/*! ./shapes/layout */
+
+/*! ./shapes/path */
+
+/*! ./shapes/rect */
+
+/*! ./shapes/text */
+
+/*! ./shared-tooltip */
+
+/*! ./size */
+
+/*! ./solve-cubic-equation */
+
+/*! ./sparkline */
+
+/*! ./sparkline/sparkline */
+
+/*! ./spline-area-segment */
+
+/*! ./spline-polar-area-segment */
+
+/*! ./spline-radar-area-segment */
+
+/*! ./spline-range-area-segment */
+
+/*! ./spline-segment */
+
+/*! ./stack-elements */
+
+/*! ./start-of-week */
+
+/*! ./step-area-segment */
+
+/*! ./step-line-mixin */
+
+/*! ./step-line-segment */
+
+/*! ./step-range-area-segment */
+
+/*! ./stock */
+
+/*! ./stock/constants */
+
+/*! ./stock/navigator */
+
+/*! ./stock/navigator-hint */
+
+/*! ./stock/stock-chart */
+
+/*! ./stops-array */
+
+/*! ./style-value */
+
+/*! ./surface */
+
+/*! ./surface-cursor */
+
+/*! ./surface-factory */
+
+/*! ./svg */
+
+/*! ./svg/arc-node */
+
+/*! ./svg/circle-node */
+
+/*! ./svg/clip-node */
+
+/*! ./svg/definition-node */
+
+/*! ./svg/export-group */
+
+/*! ./svg/export-svg */
+
+/*! ./svg/gradient-stop-node */
+
+/*! ./svg/group-node */
+
+/*! ./svg/image-node */
+
+/*! ./svg/linear-gradient-node */
+
+/*! ./svg/multi-path-node */
+
+/*! ./svg/node */
+
+/*! ./svg/path-node */
+
+/*! ./svg/radial-gradient-node */
+
+/*! ./svg/rect-node */
+
+/*! ./svg/root-node */
+
+/*! ./svg/surface */
+
+/*! ./svg/text-node */
+
+/*! ./target */
+
+/*! ./text */
+
+/*! ./text-box */
+
+/*! ./text-metrics */
+
+/*! ./text-metrics/lru-cache */
+
+/*! ./text-metrics/measure-text */
+
+/*! ./text-metrics/text-metrics */
+
+/*! ./text-metrics/util */
+
+/*! ./text-node */
+
+/*! ./to-chart-axis-ranges */
+
+/*! ./to-cubic-polynomial */
+
+/*! ./to-date */
+
+/*! ./to-matrix */
+
+/*! ./to-time */
+
+/*! ./tooltip/shared-tooltip */
+
+/*! ./tooltip/tooltip */
+
+/*! ./touchpoint-details/touchpoint-details.component */
+
+/*! ./touchpoint-no-data-yet/touchpoint-no-data-yet.component */
+
+/*! ./touchpoint-statistics-chart-data-source */
+
+/*! ./transform */
+
+/*! ./transformation */
+
+/*! ./translate-to-point */
+
+/*! ./ttf */
+
+/*! ./util */
+
+/*! ./util/append */
+
+/*! ./util/arabic-to-roman */
+
+/*! ./util/bind-events */
+
+/*! ./util/constants */
+
+/*! ./util/create-promise */
+
+/*! ./util/defined */
+
+/*! ./util/definition-id */
+
+/*! ./util/deg */
+
+/*! ./util/element-offset */
+
+/*! ./util/element-padding */
+
+/*! ./util/element-scale */
+
+/*! ./util/element-size */
+
+/*! ./util/element-styles */
+
+/*! ./util/encode-base64 */
+
+/*! ./util/event-coordinates */
+
+/*! ./util/event-element */
+
+/*! ./util/is-transparent */
+
+/*! ./util/last */
+
+/*! ./util/limit-value */
+
+/*! ./util/merge-sort */
+
+/*! ./util/now */
+
+/*! ./util/promise-all */
+
+/*! ./util/rad */
+
+/*! ./util/round */
+
+/*! ./util/unbind-events */
+
+/*! ./util/value-or-default */
+
+/*! ./utils */
+
+/*! ./utils/any-has-z-index */
+
+/*! ./utils/append-if-not-null */
+
+/*! ./utils/are-numbers */
+
+/*! ./utils/auto-axis-max */
+
+/*! ./utils/auto-axis-min */
+
+/*! ./utils/auto-major-unit */
+
+/*! ./utils/bind-segments */
+
+/*! ./utils/box-diff */
+
+/*! ./utils/build-label-element */
+
+/*! ./utils/categories-count */
+
+/*! ./utils/ceil */
+
+/*! ./utils/count-numbers */
+
+/*! ./utils/create-axis-grid-line */
+
+/*! ./utils/create-axis-tick */
+
+/*! ./utils/create-out-of-range-points */
+
+/*! ./utils/elements-bounding-box */
+
+/*! ./utils/elements-clippend-bounding-box */
+
+/*! ./utils/equals-ignore-case */
+
+/*! ./utils/eval-options */
+
+/*! ./utils/filter-series-by-type */
+
+/*! ./utils/floor */
+
+/*! ./utils/get-date-field */
+
+/*! ./utils/get-field */
+
+/*! ./utils/get-range */
+
+/*! ./utils/has-gradient-overlay */
+
+/*! ./utils/has-value */
+
+/*! ./utils/is-date-axis */
+
+/*! ./utils/limit-coordinate */
+
+/*! ./utils/pad */
+
+/*! ./utils/rect-to-box */
+
+/*! ./utils/render-all-attributes */
+
+/*! ./utils/render-attribute */
+
+/*! ./utils/render-path */
+
+/*! ./utils/render-style */
+
+/*! ./utils/render-svg */
+
+/*! ./utils/segment-visible */
+
+/*! ./utils/single-item-or-array */
+
+/*! ./utils/unpad */
+
+/*! ./vertical-box-plot */
+
+/*! ./waterfall-segment */
+
+/*! ./wrap-elements */
+
+/*! @angular/common */
+
+/*! @angular/common/http */
+
+/*! @angular/core */
+
+/*! @angular/router */
+
+/*! @progress/kendo-angular-charts */
+
+/*! @progress/kendo-angular-common */
+
+/*! @progress/kendo-angular-intl */
+
+/*! @progress/kendo-angular-l10n */
+
+/*! @progress/kendo-angular-popup */
+
+/*! @progress/kendo-angular-tooltip */
+
+/*! @progress/kendo-charts */
+
+/*! @progress/kendo-drawing */
+
+/*! @progress/kendo-licensing */
+
+/*! @progress/pako-esm */
+
+/*! @progress/sitefinity-component-framework */
+
+/*! Hammer.JS - v2.0.7 - 2016-04-22
+ * http://hammerjs.github.io/
+ *
+ * Copyright (c) 2016 Jorik Tangelder;
+ * Licensed under the MIT license */
+
+/*! exports provided: ANGULAR_SPEED, LINEAR_SPEED, ARROW, ARROW_POINTER, BAR_POINTER, DEFAULT_HEIGHT, DEFAULT_LINE_WIDTH, DEFAULT_WIDTH, DEGREE, INSIDE, LINEAR, OUTSIDE, RADIAL_POINTER, RADIAL_RANGE_POINTER */
+
+/*! exports provided: ARC, AXIS_LABEL_CLICK, BLACK, BOTTOM, CENTER, CIRCLE, COORD_PRECISION, CROSS, DATE, DEFAULT_FONT, DEFAULT_HEIGHT, DEFAULT_PRECISION, DEFAULT_WIDTH, END, FORMAT_REGEX, HEIGHT, HIGHLIGHT_ZINDEX, INSIDE, LEFT, MAX_VALUE, MIN_VALUE, NONE, NOTE_CLICK, NOTE_HOVER, NOTE_LEAVE, OBJECT, OUTSIDE, RIGHT, START, STRING, TOP, TRIANGLE, VALUE, WHITE, WIDTH, X, Y, DEFAULT_SERIES_OPACITY */
+
+/*! exports provided: Animation, AnimationFactory */
+
+/*! exports provided: BOM, encodeUTF8, encodeUTF16BE */
+
+/*! exports provided: COORDINATE_LIMIT, DateLabelFormats, ZERO_THRESHOLD */
+
+/*! exports provided: ChartAxis, ChartPane, ChartPlotArea, findAxisByName */
+
+/*! exports provided: ChartAxis, ChartPane, ChartPlotArea, findAxisByName, Aggregates, AreaChart, AreaSegment, AxisGroupRangeTracker, Bar, BarChart, BarLabel, BoxPlotChart, BoxPlot, BubbleChart, Bullet, BulletChart, CandlestickChart, Candlestick, CategoricalChart, CategoricalErrorBar, CategoricalPlotArea, Chart, ChartContainer, ClipAnimation, ClusterLayout, Crosshair, CrosshairTooltip, DefaultAggregates, DonutChart, DonutPlotArea, DonutSegment, ErrorBarBase, ErrorRangeCalculator, Highlight, SharedTooltip, Legend, LegendItem, LegendLayout, LineChart, LinePoint, LineSegment, Pane, PieAnimation, PieChart, PieChartMixin, PiePlotArea, PieSegment, PlotAreaBase, PlotAreaEventsMixin, PlotAreaFactory, PointEventsMixin, RangeBar, RangeBarChart, RangeAreaPoint, RangeAreaChart, ScatterChart, ScatterErrorBar, ScatterLineChart, Selection, SeriesAggregator, SeriesBinder, SplineSegment, SplineAreaSegment, StackWrap, Tooltip, OHLCChart, OHLCPoint, WaterfallChart, WaterfallSegment, XYPlotArea, MousewheelZoom, ZoomSelection, Pannable, anyHasZIndex, appendIfNotNull, areNumbers, bindSegments, categoriesCount, countNumbers, equalsIgnoreCase, evalOptions, filterSeriesByType, getDateField, getField, hasGradientOverlay, hasValue, isDateAxis, segmentVisible, singleItemOrArray, createOutOfRangePoints */
+
+/*! exports provided: ChartService, DomEventsBuilder, FormatService, IntlService, TemplateService */
+
+/*! exports provided: Circle, Arc, Rect, Point, Segment, Matrix, Size, toMatrix, Transformation, transform */
+
+/*! exports provided: Class, Observable, animationFrame, htmlEncode, logToConsole, saveAs, support, template, throttle, parseColor, namedColors, Color */
+
+/*! exports provided: CreateContentTouchpointComponent */
+
+/*! exports provided: CreateTouchpointViewState */
+
+/*! exports provided: DASH_ARRAYS, SOLID, BUTT */
+
+/*! exports provided: DEG_TO_RAD, MAX_NUM, MIN_NUM */
+
+/*! exports provided: Deflate, Inflate, Z_BEST_COMPRESSION, Z_BEST_SPEED, Z_BINARY, Z_BLOCK, Z_BUF_ERROR, Z_DATA_ERROR, Z_DEFAULT_COMPRESSION, Z_DEFAULT_STRATEGY, Z_DEFLATED, Z_ERRNO, Z_FILTERED, Z_FINISH, Z_FIXED, Z_FULL_FLUSH, Z_HUFFMAN_ONLY, Z_NEED_DICT, Z_NO_COMPRESSION, Z_NO_FLUSH, Z_OK, Z_PARTIAL_FLUSH, Z_RLE, Z_STREAM_END, Z_STREAM_ERROR, Z_SYNC_FLUSH, Z_TEXT, Z_TREES, Z_UNKNOWN, deflate, deflateRaw, gzip, inflate, inflateRaw, ungzip */
+
+/*! exports provided: DetailsViewState */
+
+/*! exports provided: Document, BinaryStream, defineFont, parseFontDef, getFontURL, loadFonts, loadImages, getPaperOptions, clearImageCache, TEXT_RENDERING_MODE */
+
+/*! exports provided: Document, BinaryStream, defineFont, parseFontDef, getFontURL, loadFonts, loadImages, getPaperOptions, clearImageCache, TEXT_RENDERING_MODE, exportPDF, exportPDFToBlob, saveAs, toDataURL, toBlob, render */
+
+/*! exports provided: Element, Circle, Arc, Path, MultiPath, Text, Image, Group, Layout, Rect */
+
+/*! exports provided: Gauge, LinearGauge, LinearPointer, ArrowLinearPointer, BarLinearPointer, LinearScale, RadialGauge, RadialPointer, RadialScale, ArcGauge, RangePointer, ArcScale, CircularGauge */
+
+/*! exports provided: GeneralSitefinityInsightErrorComponent */
+
+/*! exports provided: GoalPeriodDisplayService */
+
+/*! exports provided: HAS_TYPED_ARRAYS, BASE64, BinaryStream, ucs2decode, ucs2encode, base64ToUint8Array */
+
+/*! exports provided: HasObservers, Element, Circle, Arc, Path, MultiPath, Text, Image, Group, Layout, Rect, align, vAlign, stack, vStack, wrap, vWrap, fit, LinearGradient, RadialGradient, GradientStop, Gradient, Animation, AnimationFactory, PathParser, parsePath, BaseNode, OptionsStore, Surface, SurfaceFactory, exportImage, exportSVG, QuadNode, ShapesQuadTree, svg, canvas, util */
+
+/*! exports provided: INITIAL_ANIMATION_DURATION, FADEIN, LEGEND_ITEM_CLICK, LEGEND_ITEM_HOVER, LEGEND_ITEM_LEAVE, SERIES_CLICK, SERIES_HOVER, SERIES_OVER, SERIES_LEAVE, GLASS, BORDER_BRIGHTNESS, TOOLTIP_OFFSET, START_SCALE, ERROR_LOW_FIELD, ERROR_HIGH_FIELD, X_ERROR_LOW_FIELD, X_ERROR_HIGH_FIELD, Y_ERROR_LOW_FIELD, Y_ERROR_HIGH_FIELD, LINE_MARKER_SIZE, INTERPOLATE, ZERO, SMOOTH, STEP, CATEGORY, FUNNEL, BAR, CANDLESTICK, PIE, COLUMN, AREA, VERTICAL_BULLET, BOX_PLOT, OHLC, WATERFALL, LINE, BULLET, VERTICAL_LINE, VERTICAL_AREA, RANGE_AREA, VERTICAL_RANGE_AREA, RANGE_COLUMN, VERTICAL_BOX_PLOT, RANGE_BAR, HORIZONTAL_WATERFALL, SCATTER, SCATTER_LINE, BUBBLE, RADAR_AREA, RADAR_LINE, RADAR_COLUMN, POLAR_LINE, POLAR_AREA, POLAR_SCATTER, RENDER, PLOT_AREA_CLICK, PLOT_AREA_HOVER, PLOT_AREA_LEAVE, LOGARITHMIC, DRAG, DRAG_START, DRAG_END, ZOOM_START, ZOOM, ZOOM_END, SELECT_START, SELECT, SELECT_END, PANE_RENDER, GAP, DONUT, INSIDE_END, INSIDE_BASE, OUTSIDE_END, MOUSEWHEEL, MOUSEWHEEL_DELAY, SHOW_TOOLTIP, HIDE_TOOLTIP, EQUALLY_SPACED_SERIES, ABOVE, BELOW */
+
+/*! exports provided: InsightModule */
+
+/*! exports provided: InsightsDetailsViewComponent */
+
+/*! exports provided: KendoChartDataConverterService */
+
+/*! exports provided: LRUCache, TextMetrics, measureText, objectKey, hashKey, normalizeText */
+
+/*! exports provided: LinearGradient, RadialGradient, GradientStop, Gradient */
+
+/*! exports provided: LocalizedMessagesDirective, TooltipContentComponent, TooltipDirective, TooltipModule, TooltipSettings, TOOLTIP_SETTINGS */
+
+/*! exports provided: MILLISECONDS, SECONDS, MINUTES, HOURS, DAYS, WEEKS, MONTHS, YEARS, TIME_PER_MILLISECOND, TIME_PER_SECOND, TIME_PER_MINUTE, TIME_PER_HOUR, TIME_PER_DAY, TIME_PER_WEEK, TIME_PER_MONTH, TIME_PER_YEAR, TIME_PER_UNIT */
+
+/*! exports provided: NAVIGATOR_AXIS, NAVIGATOR_PANE */
+
+/*! exports provided: Navigator, NavigatorHint, StockChart, constants */
+
+/*! exports provided: NumberDisplayFormatterService */
+
+/*! exports provided: PRECISION */
+
+/*! exports provided: Path, MultiPath */
+
+/*! exports provided: RGB, Bytes, HSV, HSL, default */
+
+/*! exports provided: ResizeSensorComponent, PopupComponent, ChartComponentGenerated, AxisDefaultsComponentGenerated, AxisDefaultsCrosshairComponentGenerated, AxisDefaultsCrosshairTooltipComponentGenerated, AxisDefaultsLabelsComponentGenerated, AxisDefaultsTitleComponentGenerated, CategoryAxisItemComponentGenerated, CategoryAxisCrosshairComponentGenerated, CategoryAxisCrosshairTooltipComponentGenerated, CategoryAxisNotesComponentGenerated, CategoryAxisNotesIconComponentGenerated, CategoryAxisNotesLabelComponentGenerated, CategoryAxisSelectComponentGenerated, CategoryAxisTitleComponentGenerated, CategoryAxisComponentGenerated, ChartAreaComponentGenerated, DonutCenterTemplateDirective, LegendComponentGenerated, LegendInactiveItemsComponentGenerated, LegendItemComponentGenerated, PaneComponentGenerated, PanesTitleComponentGenerated, PanesComponentGenerated, PlotAreaComponentGenerated, SeriesDefaultsComponentGenerated, SeriesDefaultsLabelsComponentGenerated, SeriesDefaultsLabelsFromComponentGenerated, SeriesDefaultsLabelsToComponentGenerated, SeriesDefaultsNotesComponentGenerated, SeriesDefaultsNotesIconComponentGenerated, SeriesDefaultsNotesLabelComponentGenerated, SeriesDefaultsTooltipComponentGenerated, SeriesItemComponentGenerated, SeriesErrorBarsComponentGenerated, SeriesExtremesComponentGenerated, SeriesHighlightComponentGenerated, SeriesLabelsComponentGenerated, SeriesLabelsFromComponentGenerated, SeriesLabelsToComponentGenerated, SeriesMarkersComponentGenerated, SeriesNotesComponentGenerated, SeriesNotesIconComponentGenerated, SeriesNotesLabelComponentGenerated, SeriesOutliersComponentGenerated, SeriesTooltipComponentGenerated, SeriesComponentGenerated, TitleComponentGenerated, TooltipComponentGenerated, BaseTooltip, bodyFactory, CrosshairTooltipComponent, SeriesTooltipTemplateDirective, SharedTooltipTemplateDirective, ValueAxisItemComponentGenerated, ValueAxisCrosshairComponentGenerated, ValueAxisCrosshairTooltipComponentGenerated, ValueAxisLabelsComponentGenerated, ValueAxisNotesComponentGenerated, ValueAxisNotesIconComponentGenerated, ValueAxisNotesLabelComponentGenerated, ValueAxisTitleComponentGenerated, ValueAxisComponentGenerated, XAxisItemComponentGenerated, XAxisCrosshairComponentGenerated, XAxisCrosshairTooltipComponentGenerated, XAxisLabelsComponentGenerated, XAxisNotesComponentGenerated, XAxisNotesIconComponentGenerated, XAxisNotesLabelComponentGenerated, XAxisTitleComponentGenerated, XAxisComponentGenerated, YAxisItemComponentGenerated, YAxisCrosshairComponentGenerated, YAxisCrosshairTooltipComponentGenerated, YAxisLabelsComponentGenerated, YAxisNotesComponentGenerated, YAxisNotesIconComponentGenerated, YAxisNotesLabelComponentGenerated, YAxisTitleComponentGenerated, YAxisComponentGenerated, ZoomableComponentGenerated, CollectionItemComponent, CollectionComponent, CollectionService, ConfigurationService, PREFIX, PrefixConfigurationService, RootConfigurationService, SettingsComponent, ThemeService, TooltipTemplateService, BaseEvent, InstanceEventService, LegendEvent, NoteEvent, PreventableEvent, SeriesEvent, StockInstanceEventService, NavigatorComponent, NavigatorCategoryAxisComponent, NavigatorCategoryAxisCrosshairComponent, NavigatorCategoryAxisCrosshairTooltipComponent, NavigatorCategoryAxisLabelsComponent, NavigatorCategoryAxisNotesComponent, NavigatorCategoryAxisNotesIconComponent, NavigatorCategoryAxisNotesLabelComponent, NavigatorCategoryAxisSelectComponent, NavigatorCategoryAxisTitleComponent, NavigatorHintComponent, NavigatorPaneComponent, NavigatorPaneTitleComponent, NavigatorSelectComponent, NavigatorSeriesItemComponent, NavigatorSeriesErrorBarsComponent, NavigatorSeriesExtremesComponent, NavigatorSeriesHighlightComponent, NavigatorSeriesLabelsComponent, NavigatorSeriesLabelsFromComponent, NavigatorSeriesLabelsToComponent, NavigatorSeriesMarkersComponent, NavigatorSeriesNotesComponent, NavigatorSeriesNotesIconComponent, NavigatorSeriesNotesLabelComponent, NavigatorSeriesOutliersComponent, NavigatorSeriesTooltipComponent, NavigatorSeriesComponent, ChartModule, StockChartModule, SparklineModule, ChartsModule, TooltipPopupComponent, CrosshairTooltipsContainerComponent, ChartComponent, AxisDefaultsComponent, AxisDefaultsCrosshairComponent, AxisDefaultsCrosshairTooltipComponent, AxisDefaultsLabelsComponent, AxisDefaultsTitleComponent, CategoryAxisComponent, CategoryAxisCrosshairComponent, CategoryAxisCrosshairTooltipComponent, CategoryAxisItemComponent, CategoryAxisLabelsComponent, CategoryAxisRangeLabelsComponent, CategoryAxisNotesComponent, CategoryAxisNotesIconComponent, CategoryAxisNotesLabelComponent, CategoryAxisSelectComponent, CategoryAxisTitleComponent, ChartAreaComponent, LegendComponent, LegendInactiveItemsComponent, LegendItemComponent, PaneComponent, PaneDefaultsComponent, PaneDefaultsTitleComponent, PanesComponent, PanesTitleComponent, PlotAreaComponent, SeriesComponent, SeriesDefaultsComponent, SeriesDefaultsLabelsComponent, SeriesDefaultsLabelsFromComponent, SeriesDefaultsLabelsToComponent, SeriesDefaultsNotesComponent, SeriesDefaultsNotesIconComponent, SeriesDefaultsNotesLabelComponent, SeriesDefaultsTooltipComponent, SeriesErrorBarsComponent, SeriesExtremesComponent, SeriesHighlightComponent, SeriesItemComponent, SeriesLabelsComponent, SeriesLabelsFromComponent, SeriesLabelsToComponent, SeriesMarkersComponent, SeriesNotesComponent, SeriesNotesIconComponent, SeriesNotesLabelComponent, SeriesOutliersComponent, SeriesTooltipComponent, TitleComponent, TooltipComponent, ValueAxisComponent, ValueAxisCrosshairComponent, ValueAxisCrosshairTooltipComponent, ValueAxisItemComponent, ValueAxisLabelsComponent, ValueAxisNotesComponent, ValueAxisNotesIconComponent, ValueAxisNotesLabelComponent, ValueAxisTitleComponent, XAxisComponent, XAxisCrosshairComponent, XAxisCrosshairTooltipComponent, XAxisItemComponent, XAxisLabelsComponent, XAxisNotesComponent, XAxisNotesIconComponent, XAxisNotesLabelComponent, XAxisTitleComponent, YAxisComponent, YAxisCrosshairComponent, YAxisCrosshairTooltipComponent, YAxisItemComponent, YAxisLabelsComponent, YAxisNotesComponent, YAxisNotesIconComponent, YAxisNotesLabelComponent, YAxisTitleComponent, ZoomableComponent, CHART_DIRECTIVES, AxisLabelClickEvent, DragEndEvent, DragEvent, DragStartEvent, LegendItemClickEvent, LegendItemHoverEvent, NoteClickEvent, NoteHoverEvent, PaneRenderEvent, PlotAreaClickEvent, PlotAreaHoverEvent, RenderEvent, SelectEndEvent, SelectEvent, SelectStartEvent, SeriesClickEvent, SeriesHoverEvent, ZoomEndEvent, ZoomEvent, ZoomStartEvent, WeekStartDay, NavigatorFilterEvent, StockChartComponent, STOCK_CHART_DIRECTIVES, SparklineComponent, SPARKLINE_DIRECTIVES */
+
+/*! exports provided: SVG_NS, NONE */
+
+/*! exports provided: ShowImprovementComponent */
+
+/*! exports provided: SitefinityInsightAnalyticsRedirectButtonComponent */
+
+/*! exports provided: SitefinityInsightConversionsRequesterService */
+
+/*! exports provided: SitefinityInsightDatacenterRequesterService */
+
+/*! exports provided: Sparkline */
+
+/*! exports provided: Surface, RootNode, Node, GroupNode, ArcNode, CircleNode, RectNode, ImageNode, TextNode, PathNode, MultiPathNode */
+
+/*! exports provided: Surface, RootNode, Node, GroupNode, ArcNode, CircleNode, RectNode, ImageNode, TextNode, PathNode, MultiPathNode, DefinitionNode, ClipNode, GradientStopNode, LinearGradientNode, RadialGradientNode, exportGroup */
+
+/*! exports provided: TTFFont */
+
+/*! exports provided: TouchpointChartComponent */
+
+/*! exports provided: TouchpointDetailsComponent */
+
+/*! exports provided: TouchpointHighestAttributionTableComponent */
+
+/*! exports provided: TouchpointHitsComponent */
+
+/*! exports provided: TouchpointNoDataYetComponent */
+
+/*! exports provided: TouchpointStatisticsChartDataSource */
+
+/*! exports provided: absoluteDateDiff, addDuration, addTicks, ceilDate, dateComparer, dateDiff, dateEquals, dateIndex, duration, floorDate, lteDateIndex, startOfWeek, toDate, parseDate, parseDates, toTime, firstDay */
+
+/*! exports provided: addClass, removeClass, alignPathToPixel, clockwise, convertableToNumber, deepExtend, elementStyles, getSpacing, getTemplate, getter, grep, hasClasses, HashMap, inArray, interpolateValue, InstanceObserver, isArray, isFunction, isNumber, isObject, isString, map, mousewheelDelta, FontLoader, setDefaultOptions, sparseArrayLimits, styleValue, find, elementScale, append, bindEvents, Class, defined, deg, elementOffset, elementSize, eventElement, eventCoordinates, last, limitValue, logToConsole, objectKey, rad, round, unbindEvents, valueOrDefault */
+
+/*! exports provided: align, vAlign, stack, vStack, wrap, vWrap, fit */
+
+/*! exports provided: anyHasZIndex, appendIfNotNull, areNumbers, bindSegments, categoriesCount, countNumbers, equalsIgnoreCase, evalOptions, filterSeriesByType, getDateField, getField, hasGradientOverlay, hasValue, isDateAxis, segmentVisible, singleItemOrArray, createOutOfRangePoints */
+
+/*! exports provided: append, arabicToRoman, createPromise, defined, definitionId, deg, encodeBase64, eventCoordinates, eventElement, isTransparent, last, limitValue, mergeSort, now, promiseAll, rad, round, valueOrDefault, bindEvents, elementOffset, elementSize, elementStyles, unbindEvents, elementPadding, elementScale, DEG_TO_RAD, MAX_NUM, MIN_NUM, LRUCache, TextMetrics, measureText, objectKey, hashKey, normalizeText */
+
+/*! exports provided: append, bindEvents, Class, defined, deg, elementOffset, elementSize, eventElement, eventCoordinates, last, limitValue, logToConsole, objectKey, rad, round, unbindEvents, valueOrDefault */
+
+/*! exports provided: autoMajorUnit, Point, Box, Ring, Sector, ShapeBuilder, ShapeElement, ChartElement, BoxElement, RootElement, FloatElement, Text, TextBox, Title, AxisLabel, Axis, Note, CategoryAxis, DateCategoryAxis, DateValueAxis, NumericAxis, LogarithmicAxis, PolarAxis, RadarCategoryAxis, RadarNumericAxis, RadarLogarithmicAxis, CurveProcessor, Gradients, rectToBox */
+
+/*! exports provided: autoMajorUnit, Point, Box, Ring, Sector, ShapeBuilder, ShapeElement, ChartElement, BoxElement, RootElement, FloatElement, Text, TextBox, Title, AxisLabel, Axis, Note, CategoryAxis, DateCategoryAxis, DateValueAxis, NumericAxis, LogarithmicAxis, PolarAxis, RadarCategoryAxis, RadarNumericAxis, RadarLogarithmicAxis, CurveProcessor, Gradients, rectToBox, ChartAxis, ChartPane, ChartPlotArea, findAxisByName, Aggregates, AreaChart, AreaSegment, AxisGroupRangeTracker, Bar, BarChart, BarLabel, BoxPlotChart, BoxPlot, BubbleChart, Bullet, BulletChart, CandlestickChart, Candlestick, CategoricalChart, CategoricalErrorBar, CategoricalPlotArea, Chart, ChartContainer, ClipAnimation, ClusterLayout, Crosshair, CrosshairTooltip, DefaultAggregates, DonutChart, DonutPlotArea, DonutSegment, ErrorBarBase, ErrorRangeCalculator, Highlight, SharedTooltip, Legend, LegendItem, LegendLayout, LineChart, LinePoint, LineSegment, Pane, PieAnimation, PieChart, PieChartMixin, PiePlotArea, PieSegment, PlotAreaBase, PlotAreaEventsMixin, PlotAreaFactory, PointEventsMixin, RangeBar, RangeBarChart, RangeAreaPoint, RangeAreaChart, ScatterChart, ScatterErrorBar, ScatterLineChart, Selection, SeriesAggregator, SeriesBinder, SplineSegment, SplineAreaSegment, StackWrap, Tooltip, OHLCChart, OHLCPoint, WaterfallChart, WaterfallSegment, XYPlotArea, MousewheelZoom, ZoomSelection, Pannable, anyHasZIndex, appendIfNotNull, areNumbers, bindSegments, categoriesCount, countNumbers, equalsIgnoreCase, evalOptions, filterSeriesByType, getDateField, getField, hasGradientOverlay, hasValue, isDateAxis, segmentVisible, singleItemOrArray, createOutOfRangePoints, ChartService, DomEventsBuilder, FormatService, IntlService, TemplateService, Sparkline, Navigator, NavigatorHint, StockChart, constants, Gauge, LinearGauge, LinearPointer, ArrowLinearPointer, BarLinearPointer, LinearScale, RadialGauge, RadialPointer, RadialScale, ArcGauge, RangePointer, ArcScale, CircularGauge, addClass, removeClass, alignPathToPixel, clockwise, convertableToNumber, deepExtend, elementStyles, getSpacing, getTemplate, getter, grep, hasClasses, HashMap, inArray, interpolateValue, InstanceObserver, isArray, isFunction, isNumber, isObject, isString, map, mousewheelDelta, FontLoader, setDefaultOptions, sparseArrayLimits, styleValue, find, elementScale, append, bindEvents, Class, defined, deg, elementOffset, elementSize, eventElement, eventCoordinates, last, limitValue, logToConsole, objectKey, rad, round, unbindEvents, valueOrDefault, chartBaseTheme */
+
+/*! exports provided: baseTheme */
+
+/*! exports provided: buildLabelElement, getRange, pad, unpad */
+
+/*! exports provided: default */
+
+/*! exports provided: deflate, supportsDeflate */
+
+/*! exports provided: drawDOM, drawText, getFontFaces */
+
+/*! exports provided: drawDOM, drawText, getFontFaces, exportPDF, exportImage, exportSVG, animationFrame, Class, Color, htmlEncode, logToConsole, Observable, saveAs, support, template, throttle, parseColor, namedColors, Animation, AnimationFactory, Arc, BaseNode, Circle, Element, Gradient, GradientStop, Group, Image, Layout, LinearGradient, MultiPath, HasObservers, OptionsStore, Path, PathParser, QuadNode, RadialGradient, Rect, ShapesQuadTree, Surface, SurfaceFactory, Text, align, fit, stack, vAlign, vStack, vWrap, wrap, drawing, geometry, pdf */
+
+/*! exports provided: exportPDF, exportPDFToBlob, saveAs, toDataURL, toBlob, render */
+
+/*! exports provided: forEach, forEachReverse */
+
+/*! exports provided: objectKey, hashKey, normalizeText */
+
+/*! exports provided: parseColor, namedColors, Color */
+
+/*! exports provided: swing, linear, easeOutElastic */
+
+/*! hammerjs */
+
+/*! no exports provided */
+
+/*! no static exports found */
+
+/*! rxjs */
+
+/*! rxjs/operators */
+
+/*! tslib */
+
+/*!*****************************************!*\
+  !*** ./node_modules/hammerjs/hammer.js ***!
+  \*****************************************/
+
+/*!***************************************************!*\
+  !*** ./src/app/modules/insight/insight.module.ts ***!
+  \***************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@progress/pako-esm/dist/pako-esm2015.js ***!
+  \**************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/main.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/pdf.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg.js ***!
+  \*****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/stock.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/html.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/main.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util.js ***!
+  \******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges.js ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes.js ***!
+  \********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/box.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/services.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/drawing.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/pdf/ttf.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/surface.js ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/axis.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/note.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/ring.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/text.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/sparkline.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/pdf/core.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/node.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/deg.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/now.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/rad.js ***!
+  \**********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/pane.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/map.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/point.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/title.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/gradients.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/html/core.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/pdf/utils.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/last.js ***!
+  \***********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/chart.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/find.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/grep.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/sector.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/animations.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/arc.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/round.js ***!
+  \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/gauge.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/utils.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/node.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/pdf/deflate.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/pdf/drawing.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/path.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/rect.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/text.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/surface.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/append.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./src/app/modules/insight/services/goal-period-display.service.ts ***!
+  \*************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/getter.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/text-box.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/drawing-utils.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/class.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/color.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/core/surface.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/arc.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/group.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/image.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/arc-node.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/node-map.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/text-metrics.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/defined.js ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/constants.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/gradients.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/pointer.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/fit.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/rect.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/size.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/circle.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/layout.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/clip-node.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/constants.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/path-node.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/rect-node.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/root-node.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/text-node.js ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/constants.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/highlight.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/selection.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/hash-map.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/in-array.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/is-array.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/axis-label.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/polar-axis.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/ceil.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/stock/constants.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/stock/navigator.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/wrap.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/surface.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/save-as.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/support.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/core/base-node.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/core/constants.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/point.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/element.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/export-svg.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/group-node.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/image-node.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/constants.js ***!
+  \****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/animations.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/base-theme.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/add-class.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/clockwise.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/constants.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/is-number.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/is-object.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/is-string.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/box-element.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/floor.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/constants.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/utils/pad.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/align.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/stack.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/arc-node.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/node-map.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/template.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/throttle.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/circle.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/matrix.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/surface-factory.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/circle-node.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/encode-utf.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/merge-sort.js ***!
+  \*****************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/numeric-axis.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/root-element.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/stock/stock-chart.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/v-wrap.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/path-node.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/rect-node.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/root-node.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/text-node.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/segment.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/mixins/paintable.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/search/quad-node.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/search/quad-root.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/export-group.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/bind-events.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/limit-value.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/promise-all.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./src/app/modules/insight/services/number-display-formatter.service.ts ***!
+  \******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/api-elements.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/layout/utils.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/deep-extend.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/font-loader.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/get-spacing.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/has-classes.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/is-function.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/style-value.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/category-axis.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/chart-element.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/float-element.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/shape-builder.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/shape-element.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/to-date.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/to-time.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/utils/unpad.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/v-align.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/v-stack.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/group-node.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/image-node.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/observable.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/mixins/measurable.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/parsing/shape-map.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/gradient-node.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/text-metrics/util.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/element-size.js ***!
+  \*******************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/bar-chart/bar.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/legend/legend.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/series-binder.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/get-template.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/remove-class.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/box-diff.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/duration.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/sparkline/sparkline.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/circle-node.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/color/color.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/html-encode.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/core/has-observers.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/core/options-store.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/constants.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/to-matrix.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/transform.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/gradients/gradient.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/mixins/traversable.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/mixins/with-points.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/parsing/parse-path.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/definition-id.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/element-scale.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/encode-base64.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/event-element.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/unbind-events.js ***!
+  \********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/element-scale.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/curve-processor.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/date-value-axis.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/add-ticks.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/ceil-date.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/constants.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/date-diff.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/first-day.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/arc/arc-gauge.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/arc/arc-scale.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/stock/navigator-hint.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/export-image.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/close.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/mixins/with-options.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/parsing/path-parser.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/definition-node.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/multi-path-node.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/create-promise.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/element-offset.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/element-styles.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/is-transparent.js ***!
+  \*********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/chart-container.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/register-charts.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/tooltip/tooltip.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/get-field.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/has-value.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/element-styles.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/logarithmic-axis.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/date-index.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/floor-date.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/parse-date.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/services/intl-service.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/animations/animation.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/mixins/with-geometry.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/utils/render-svg.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/arabic-to-roman.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/element-padding.js ***!
+  \**********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/rect-to-box.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/date-equals.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/parse-dates.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/utils/get-range.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/services/chart-service.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/align-start.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/surface-cursor.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/log-to-console.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/gradients/stops-array.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/mixins/with-accessors.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/elements-array.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/value-or-default.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./src/app/modules/insight/components/insights-details/details-view-state.ts ***!
+  \***********************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/categorical-chart.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/layout/stack-wrap.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/mixins/note-mixin.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/are-numbers.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/mousewheel-delta.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/date-category-axis.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/radar-numeric-axis.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/add-duration.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/services/format-service.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/multi-path-node.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/animation-frame.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/gradient-stop-node.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/utils/render-style.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/text-metrics/lru-cache.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/util/event-coordinates.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./src/app/modules/insight/touchpoint-details/touchpoint-details.component.ts ***!
+  \************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/legend/legend-item.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/eval-options.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/is-date-axis.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/instance-observer.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/interpolate-value.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/radar-category-axis.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/auto-axis-max.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/auto-axis-min.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/date-comparer.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/start-of-week.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/arc/range-pointer.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/sparkline/shared-tooltip.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/stock/fade-out-animation.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/wrap-elements.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/transformation.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/gradients/gradient-stop.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/search/shapes-quad-tree.js ***!
+  \*************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/bar-chart/bar-chart.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/bar-chart/bar-label.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/bubble-chart/bubble.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/bullet-chart/bullet.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/bullet-chart/target.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/crosshair/crosshair.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/pie-chart/pie-chart.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/bind-segments.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/count-numbers.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/lte-date-index.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/services/template-service.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/align-elements.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/stack-elements.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/canvas/utils/render-path.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/color/parse-color.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/linear-gradient-node.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/radial-gradient-node.js ***!
+  \**************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/legend/legend-layout.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/xy-plotarea.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/tooltip/base-tooltip.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/get-date-field.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/align-path-to-pixel.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/set-default-options.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/sparse-array-limits.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/auto-major-unit.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/linear/linear-gauge.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/linear/linear-scale.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/radial/radial-gauge.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/radial/radial-scale.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/common/color/named-colors.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/gradients/linear-gradient.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/gradients/radial-gradient.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/text-metrics/measure-text.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/text-metrics/text-metrics.js ***!
+  \***************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/aggregates/aggregates.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/area-chart/area-chart.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/layout/cluster-layout.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/line-chart/line-chart.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/line-chart/line-point.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/ohlc-chart/ohlc-chart.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/ohlc-chart/ohlc-point.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/pan-and-zoom/pannable.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/pie-chart/pie-segment.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/pie-plotarea.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/any-has-z-index.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/segment-visible.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/radar-logarithmic-axis.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/create-axis-tick.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/limit-coordinate.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/services/dom-events-builder.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/utils/render-attribute.js ***!
+  \****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-angular-charts/__ivy_ngcc__/dist/fesm2015/index.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/mixins/pie-chart-mixin.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/plotarea-base.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/tooltip/shared-tooltip.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/categories-count.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/common/convertable-to-number.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/mixins/grid-lines-mixin.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/linear/linear-pointer.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/radial/radial-pointer.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/animations/easing-functions.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/close-or-less.js ***!
+  \*****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./src/app/modules/insight/components/touchpoint-hits/touchpoint-hits.component.ts ***!
+  \*****************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-angular-tooltip/__ivy_ngcc__/dist/fesm2015/index.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/api-elements/chart-axis.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/api-elements/chart-pane.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/area-chart/area-segment.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/box-plot-chart/box-plot.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/donut-chart/donut-chart.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/line-chart/line-segment.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/mixins/line-chart-mixin.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/pan-and-zoom/accept-key.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/donut-plotarea.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/polar-plotarea.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/radar-plotarea.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/date-utils/absolute-date-diff.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/translate-to-point.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/animations/animation-factory.js ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/complex-number.js ***!
+  \******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/animations/pie-animation.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/axis-group-range-tracker.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/funnel-plotarea.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/append-if-not-null.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/equals-ignore-case.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/circular/circular-gauge.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/align-start-reverse.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./src/app/modules/insight/components/show-improvement/show-improvement.component.ts ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./src/app/modules/insight/components/touchpoint-chart/touchpoint-chart.component.ts ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./src/app/modules/insight/create-content-touchpoint/create-touchpoint-view-state.ts ***!
+  \*******************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/animations/clip-animation.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/bubble-chart/bubble-chart.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/bullet-chart/bullet-chart.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/donut-chart/donut-segment.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/error-bars/error-bar-base.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/funnel-chart/funnel-chart.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/layout/radar-stack-layout.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/line-chart/spline-segment.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/mixins/point-events-mixin.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/plotarea-factory.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/range-bar-chart/range-bar.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/geometry-elements-array.js ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./src/app/modules/insight/touchpoint-no-data-yet/touchpoint-no-data-yet.component.ts ***!
+  \********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/line-chart/step-line-mixin.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/has-gradient-overlay.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/single-item-or-array.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/utils/create-axis-grid-line.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/linear/bar-linear-pointer.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/utils/build-label-element.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/alignment/create-stack-elements.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/line-intersection.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/svg/utils/render-all-attributes.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./src/app/modules/insight/services/sitefinity-insight-datacenter-requester.service.ts ***!
+  \*********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/animations/bubble-animation.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/api-elements/chart-plotarea.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/crosshair/crosshair-tooltip.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/funnel-chart/funnel-segment.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/layout/radar-cluster-layout.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/mixins/clip-animation-mixin.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/pan-and-zoom/zoom-selection.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/filter-series-by-type.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/calculate-curve-at.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/has-roots-in-range.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./src/app/modules/insight/services/sitefinity-insight-conversions-requester.service.ts ***!
+  \**********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/aggregates/series-aggregator.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/animations/fade-in-animation.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/area-chart/step-area-segment.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/error-bars/scatter-error-bar.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/line-chart/step-line-segment.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/mixins/plotarea-events-mixin.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/pan-and-zoom/mousewheel-zoom.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/polar-plotarea-base.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/scatter-charts/scatter-chart.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/arc/range-pointer-animation.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/linear/arrow-linear-pointer.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/is-out-of-end-point.js ***!
+  \***********************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/to-cubic-polynomial.js ***!
+  \***********************************************************************************************/
+
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/aggregates/default-aggregates.js ***!
+  \************************************************************************************************/
+
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/box-plot-chart/box-plot-chart.js ***!
+  \************************************************************************************************/
+
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/candlestick-chart/candlestick.js ***!
+  \************************************************************************************************/
+
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/plotarea/categorical-plotarea.js ***!
+  \************************************************************************************************/
+
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/radar-bar-chart/radar-segment.js ***!
+  \************************************************************************************************/
+
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/solve-cubic-equation.js ***!
+  \************************************************************************************************/
+
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/utils/elements-bounding-box.js ***!
+  \************************************************************************************************/
+
+/*!************************************************************************************************!*\
+  !*** ./src/app/modules/insight/components/insights-details/insights-details-view.component.ts ***!
+  \************************************************************************************************/
+
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/animations/bar-chart-animation.js ***!
+  \*************************************************************************************************/
+
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/api-elements/find-axis-by-name.js ***!
+  \*************************************************************************************************/
+
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/area-chart/spline-area-segment.js ***!
+  \*************************************************************************************************/
+
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/core/mixins/radar-numeric-axis-mixin.js ***!
+  \*************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/radar-bar-chart/radar-bar-chart.js ***!
+  \**************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/range-bar-chart/range-bar-chart.js ***!
+  \**************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/waterfall-chart/waterfall-chart.js ***!
+  \**************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/ellipse-extreme-angles.js ***!
+  \**************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** ./src/app/modules/insight/create-content-touchpoint/create-content-touchpoint.component.ts ***!
+  \**************************************************************************************************/
+
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/box-plot-chart/vertical-box-plot.js ***!
+  \***************************************************************************************************/
+
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/error-bars/categorical-error-bar.js ***!
+  \***************************************************************************************************/
+
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/utils/create-out-of-range-points.js ***!
+  \***************************************************************************************************/
+
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/radial/radial-pointer-animation.js ***!
+  \***************************************************************************************************/
+
+/*!***************************************************************************************************!*\
+  !*** ./src/app/modules/insight/components/touchpoint-chart/kendo-chart-data-converter.service.ts ***!
+  \***************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/error-bars/error-range-calculator.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/pan-and-zoom/to-chart-axis-ranges.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/polar-area-chart/polar-area-chart.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/polar-line-chart/polar-line-chart.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/radar-area-chart/radar-area-chart.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/radar-line-chart/radar-line-chart.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/range-area-chart/range-area-chart.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/range-area-chart/range-area-point.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/range-area-chart/range-line-point.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/scatter-charts/scatter-line-chart.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/waterfall-chart/waterfall-segment.js ***!
+  \****************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/line-intersections-count.js ***!
+  \****************************************************************************************************/
+
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/geometry/math/curve-intersections-count.js ***!
+  \*****************************************************************************************************/
+
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/candlestick-chart/candlestick-chart.js ***!
+  \******************************************************************************************************/
+
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/polar-area-chart/polar-area-segment.js ***!
+  \******************************************************************************************************/
+
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/radar-area-chart/radar-area-segment.js ***!
+  \******************************************************************************************************/
+
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/range-area-chart/range-area-segment.js ***!
+  \******************************************************************************************************/
+
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/linear/bar-linear-pointer-animation.js ***!
+  \*******************************************************************************************************/
+
+/*!********************************************************************************************************!*\
+  !*** ./src/app/modules/insight/components/touchpoint-chart/touchpoint-statistics-chart-data-source.ts ***!
+  \********************************************************************************************************/
+
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/gauges/linear/arrow-linear-pointer-animation.js ***!
+  \*********************************************************************************************************/
+
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-drawing/dist/es2015/shapes/utils/elements-clippend-bounding-box.js ***!
+  \*********************************************************************************************************/
+
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/polar-scatter-chart/polar-scatter-chart.js ***!
+  \**********************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/range-area-chart/step-range-area-segment.js ***!
+  \***********************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/polar-area-chart/spline-polar-area-segment.js ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/radar-area-chart/spline-radar-area-segment.js ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/@progress/kendo-charts/dist/es2015/chart/range-area-chart/spline-range-area-segment.js ***!
+  \*************************************************************************************************************/
+
+/*!***************************************************************************************************************************!*\
+  !*** ./src/app/modules/insight/components/general-sitefinity-insight-error/general-sitefinity-insight-error.component.ts ***!
+  \***************************************************************************************************************************/
+
+/*!************************************************************************************************************************************!*\
+  !*** ./src/app/modules/insight/components/touchpoint-highest-attribution-table/touchpoint-hightest-attribution-table.component.ts ***!
+  \************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************!*\
+  !*** ./src/app/modules/insight/components/sitefinity-insight-analytics-redirect-button/sitefinity-insight-analytics-redirect-button.component.ts ***!
+  \***************************************************************************************************************************************************/

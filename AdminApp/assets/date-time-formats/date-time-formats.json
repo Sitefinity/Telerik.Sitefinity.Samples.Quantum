@@ -1,0 +1,5686 @@
+﻿[
+    {
+        "Culture": "aa",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "aa-DJ",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "aa-ER",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "aa-ET",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "af",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "af-NA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "af-ZA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "agq",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "agq-CM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ak",
+        "ShortDatePattern": "yyyy/MM/dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM dd",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ak-GH",
+        "ShortDatePattern": "yyyy/MM/dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM dd",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "am",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "am-ET",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-001",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-AE",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-BH",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-DJ",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-DZ",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-EG",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-ER",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-IL",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ar-IQ",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-JO",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-KM",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ar-KW",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-LB",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-LY",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-MA",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ar-MR",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-OM",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-PS",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-QA",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-SA",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy g",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy g",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-SD",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-SO",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-SS",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-SY",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-TD",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-TN",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ar-YE",
+        "ShortDatePattern": "d\u200F/M\u200F/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "arn",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "arn-CL",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "as",
+        "ShortDatePattern": "d-M-yyyy",
+        "ShortTimePattern": "aa h.mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "aa h.mm.ss"
+    },
+    {
+        "Culture": "as-IN",
+        "ShortDatePattern": "d-M-yyyy",
+        "ShortTimePattern": "aa h.mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "aa h.mm.ss"
+    },
+    {
+        "Culture": "asa",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "asa-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ast",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ast-ES",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "az",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "az-Cyrl",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "az-Cyrl-AZ",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "az-Latn",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "az-Latn-AZ",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ba",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ba-RU",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bas",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bas-CM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "be",
+        "ShortDatePattern": "d.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "be-BY",
+        "ShortDatePattern": "d.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bem",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "bem-ZM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "bez",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bez-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bg",
+        "ShortDatePattern": "d.MM.yyyy \u0027\u0433\u0027.",
+        "ShortTimePattern": "H:mm \u0027\u0447\u0027.",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "H:mm:ss \u0027\u0447\u0027."
+    },
+    {
+        "Culture": "bg-BG",
+        "ShortDatePattern": "d.MM.yyyy \u0027\u0433\u0027.",
+        "ShortTimePattern": "H:mm \u0027\u0447\u0027.",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "H:mm:ss \u0027\u0447\u0027."
+    },
+    {
+        "Culture": "bm",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bm-Latn-ML",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bn",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "bn-BD",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "bn-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "bo",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM\u0F60\u0F72\u0F0B\u0F5A\u0F7A\u0F66\u0F0Bd",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "bo-CN",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM\u0F60\u0F72\u0F0B\u0F5A\u0F7A\u0F66\u0F0Bd",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "bo-IN",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM\u0F60\u0F72\u0F0B\u0F5A\u0F7A\u0F66\u0F0Bd",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "br",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "br-FR",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "brx",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "brx-IN",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "bs",
+        "ShortDatePattern": "d. M. yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bs-Cyrl",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bs-Cyrl-BA",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bs-Latn",
+        "ShortDatePattern": "d. M. yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "bs-Latn-BA",
+        "ShortDatePattern": "d. M. yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "byn",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "byn-ER",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ca",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ca-AD",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ca-ES",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ca-ES-valencia",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ca-FR",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ca-IT",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ccp",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ccp-Cakm-BD",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ccp-Cakm-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ce",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ce-RU",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ceb",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ceb-Latn-PH",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "cgg",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "cgg-UG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "chr",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "chr-Cher-US",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ku",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ku-Arab-IQ",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ku-Arab-IR",
+        "ShortDatePattern": "g yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "g yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "co",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "co-FR",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "cs",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "cs-CZ",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "cu",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "cu-RU",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "cy",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "cy-GB",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "da",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "\u0027den\u0027 d. MMMM yyyy",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "da-DK",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "\u0027den\u0027 d. MMMM yyyy",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "da-GL",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "\u0027den\u0027 d. MMMM yyyy",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "dav",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dav-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "de",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "de-AT",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "de-BE",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "de-CH",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "de-DE",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "de-IT",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "de-LI",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "de-LU",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dje",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dje-NE",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dsb",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "dsb-DE",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "dua",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dua-CM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dv",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dv-MV",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dyo",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dyo-SN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "dz",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": " h  mm aa",
+        "LongDatePattern": "\u0F66\u0FA4\u0FB1\u0F72\u0F0B\u0F63\u0F7C\u0F0Byyyy MMMM \u0F5A\u0F7A\u0F66\u0F0Bdd",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "dz-BT",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": " h  mm aa",
+        "LongDatePattern": "\u0F66\u0FA4\u0FB1\u0F72\u0F0B\u0F63\u0F7C\u0F0Byyyy MMMM \u0F5A\u0F7A\u0F66\u0F0Bdd",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ebu",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ebu-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ee",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "aa \u0027ga\u0027 h:mm",
+        "LongDatePattern": "MMMM d \u0027lia\u0027 yyyy",
+        "LongTimePattern": "aa \u0027ga\u0027 h:mm:ss"
+    },
+    {
+        "Culture": "ee-GH",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "aa \u0027ga\u0027 h:mm",
+        "LongDatePattern": "MMMM d \u0027lia\u0027 yyyy",
+        "LongTimePattern": "aa \u0027ga\u0027 h:mm:ss"
+    },
+    {
+        "Culture": "ee-TG",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "MMMM d \u0027lia\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "el",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "el-CY",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "el-GR",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-001",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-150",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-AE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-AG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-AI",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-AS",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-AT",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-AU",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-BB",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-BE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-BI",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-BM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-BS",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-BW",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-BZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-CA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-CC",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-CH",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-CK",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-CM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-CX",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-CY",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-DE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-DK",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "en-DM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-ER",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-FI",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "H.mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "H.mm.ss"
+    },
+    {
+        "Culture": "en-FJ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-FK",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-FM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-GB",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-GD",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-GG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-GH",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-GI",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-GM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-GU",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-GY",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-HK",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-IE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-IL",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "en-IM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-IN",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-IO",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-JE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-JM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-KI",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-KN",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-KY",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-LC",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-LR",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-LS",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-MG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-MH",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-MO",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-MP",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-MS",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-MT",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-MU",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-MW",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-MY",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-NA",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-NF",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-NG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-NL",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-NR",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-NU",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-NZ",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-PG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-PH",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-PK",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-PN",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-PR",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-PW",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-RW",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-SB",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-SC",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-SD",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-SE",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-SG",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-SH",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-SI",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-SL",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-SS",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-SX",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-SZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-TC",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-TK",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-TO",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-TT",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-TV",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-UG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-UM",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-US",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-US-posix",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-VC",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-VG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-VI",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-VU",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-WS",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-ZA",
+        "ShortDatePattern": "yyyy/MM/dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "en-ZM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "en-ZW",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "eo",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d-\u0027a\u0027 \u0027de\u0027 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "eo-001",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d-\u0027a\u0027 \u0027de\u0027 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "es-419",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-AR",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-BO",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-BR",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-BZ",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-CL",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-CO",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "es-CR",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-CU",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-DO",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "es-EC",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-ES",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "es-GQ",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "es-GT",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-HN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-MX",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "es-NI",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-PA",
+        "ShortDatePattern": "MM/dd/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "es-PE",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-PH",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "es-PR",
+        "ShortDatePattern": "MM/dd/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "es-PY",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-SV",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-US",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "es-UY",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "es-VE",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "et",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "et-EE",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "eu",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy(\u0027e\u0027)\u0027ko\u0027 MMMM\u0027ren\u0027 d(\u0027a\u0027)",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "eu-ES",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy(\u0027e\u0027)\u0027ko\u0027 MMMM\u0027ren\u0027 d(\u0027a\u0027)",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ewo",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ewo-CM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fa",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "prs-AF",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "fa-IR",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ff",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ff-Latn",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ff-Latn-BF",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ff-Latn-CM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ff-Latn-GH",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ff-Latn-GM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ff-Latn-GN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ff-Latn-GW",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ff-Latn-LR",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ff-Latn-MR",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ff-Latn-NE",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ff-Latn-NG",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ff-Latn-SL",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ff-Latn-SN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fi",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H.mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H.mm.ss"
+    },
+    {
+        "Culture": "fi-FI",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H.mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H.mm.ss"
+    },
+    {
+        "Culture": "fil",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "fil-PH",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "fo",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fo-DK",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fo-FO",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-BE",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-BF",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-BI",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-BJ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-BL",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-CA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH \u0027h\u0027 mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH \u0027h\u0027 mm \u0027min\u0027 ss \u0027s\u0027"
+    },
+    {
+        "Culture": "fr-CD",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-CF",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-CG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-CH",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-CI",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-CM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-DJ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "fr-DZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "fr-FR",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-GA",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-GF",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-GN",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-GP",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-GQ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-HT",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-KM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-LU",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-MA",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-MC",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-MF",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-MG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-ML",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-MQ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-MR",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "fr-MU",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-NC",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-NE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-PF",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-PM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-RE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-RW",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-SC",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-SN",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-SY",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "fr-TD",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "fr-TG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-TN",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "fr-VU",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "fr-WF",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fr-YT",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fur",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027di\u0027 MMMM \u0027dal\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fur-IT",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027di\u0027 MMMM \u0027dal\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fy",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "fy-NL",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ga",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ga-IE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gd",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d\u0027mh\u0027 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gd-GB",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d\u0027mh\u0027 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gl",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gl-ES",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gn",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gn-PY",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gsw",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gsw-CH",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gsw-FR",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gsw-LI",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gu",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "hh:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "hh:mm:ss aa"
+    },
+    {
+        "Culture": "gu-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "hh:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "hh:mm:ss aa"
+    },
+    {
+        "Culture": "guz",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "guz-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gv",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "gv-IM",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ha",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ha-Latn-GH",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ha-Latn-NE",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ha-Latn-NG",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "haw",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "haw-US",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "he",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d \u05D1MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "he-IL",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d \u05D1MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "hi",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "hi-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "hr",
+        "ShortDatePattern": "dd. MM. yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "hr-BA",
+        "ShortDatePattern": "d. M. yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "hr-HR",
+        "ShortDatePattern": "dd. MM. yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "hsb",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H:mm \u0027hod\u017A\u0027.",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "hsb-DE",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H:mm \u0027hod\u017A\u0027.",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "hu",
+        "ShortDatePattern": "yyyy. MM. dd.",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "yyyy. MMMM d.",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "hu-HU",
+        "ShortDatePattern": "yyyy. MM. dd.",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "yyyy. MMMM d.",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "hy",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy \u0569. MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "hy-AM",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy \u0569. MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ia",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "\u0027le\u0027 d \u0027de\u0027 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ia-001",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "\u0027le\u0027 d \u0027de\u0027 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "id",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "id-ID",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "ig",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ig-NG",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ii",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ii-CN",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "is",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "is-IS",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "it",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "it-CH",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "it-IT",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "it-SM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "it-VA",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "iu",
+        "ShortDatePattern": "MM/dd/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "iu-CA",
+        "ShortDatePattern": "MM/dd/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "iu-Latn",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "iu-Latn-CA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ja",
+        "ShortDatePattern": "yyyy/MM/dd",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ja-JP",
+        "ShortDatePattern": "yyyy/MM/dd",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "jgo",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM dd",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "jgo-CM",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM dd",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "jmc",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "jmc-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "jv",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "jv-Latn-ID",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ka",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ka-GE",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kab",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "kab-DZ",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "kam",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kam-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kde",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kde-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kea",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027di\u0027 MMMM \u0027di\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kea-CV",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027di\u0027 MMMM \u0027di\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "khq",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "khq-ML",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ki",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ki-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kk",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy \u0027\u0436\u0027. d MMMM",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kk-KZ",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy \u0027\u0436\u0027. d MMMM",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kkj",
+        "ShortDatePattern": "dd/MM yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kkj-CM",
+        "ShortDatePattern": "dd/MM yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kl",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "kl-GL",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "kln",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kln-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "km",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "km-KH",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "kn",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "hh:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "hh:mm:ss aa"
+    },
+    {
+        "Culture": "kn-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "hh:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "hh:mm:ss aa"
+    },
+    {
+        "Culture": "ko",
+        "ShortDatePattern": "yyyy. M. d.",
+        "ShortTimePattern": "aa h:mm",
+        "LongDatePattern": "yyyy\uB144 M\uC6D4 d\uC77C",
+        "LongTimePattern": "aa h:mm:ss"
+    },
+    {
+        "Culture": "ko-KP",
+        "ShortDatePattern": "yyyy. M. d.",
+        "ShortTimePattern": "aa h:mm",
+        "LongDatePattern": "yyyy\uB144 M\uC6D4 d\uC77C",
+        "LongTimePattern": "aa h:mm:ss"
+    },
+    {
+        "Culture": "ko-KR",
+        "ShortDatePattern": "yyyy. M. d.",
+        "ShortTimePattern": "aa h:mm",
+        "LongDatePattern": "yyyy\uB144 M\uC6D4 d\uC77C",
+        "LongTimePattern": "aa h:mm:ss"
+    },
+    {
+        "Culture": "kok",
+        "ShortDatePattern": "d-M-yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "kok-IN",
+        "ShortDatePattern": "d-M-yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ks",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ks-Arab-IN",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ksb",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ksb-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ksf",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ksf-CM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ksh",
+        "ShortDatePattern": "d. M. yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "\u0027d\u00E4\u0027 d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ksh-DE",
+        "ShortDatePattern": "d. M. yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "\u0027d\u00E4\u0027 d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kw",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "kw-GB",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ky",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy-\u0027\u0436\u0027., d-MMMM",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ky-KG",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy-\u0027\u0436\u0027., d-MMMM",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lag",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lag-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lb",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lb-LU",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lg",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lg-UG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lkt",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "lkt-US",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ln",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ln-AO",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ln-CD",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ln-CF",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ln-CG",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lo",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "\u0E97\u0EB5 d MMMM g yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "lo-LA",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "\u0E97\u0EB5 d MMMM g yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "lrc",
+        "ShortDatePattern": "g yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "g yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lrc-IQ",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "lrc-IR",
+        "ShortDatePattern": "g yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "g yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lt",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy \u0027m\u0027. MMMM d \u0027d\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lt-LT",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy \u0027m\u0027. MMMM d \u0027d\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lu",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lu-CD",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "luo",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "luo-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "luy",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "luy-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lv",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy. \u0027gada\u0027 d. MMMM",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "lv-LV",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy. \u0027gada\u0027 d. MMMM",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mas",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mas-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mas-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mer",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mer-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mfe",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mfe-MU",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mg",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mg-MG",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mgh",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mgh-MZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mgo",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM dd",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mgo-CM",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM dd",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mi",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss"
+    },
+    {
+        "Culture": "mi-NZ",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss"
+    },
+    {
+        "Culture": "mk",
+        "ShortDatePattern": "dd.M.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mk-MK",
+        "ShortDatePattern": "dd.M.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ml",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy, MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ml-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy, MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "mn",
+        "ShortDatePattern": "yyyy.MM.dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy.MM.dd",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mn-MN",
+        "ShortDatePattern": "yyyy.MM.dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy.MM.dd",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mn-Mong",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mn-Mong-CN",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mn-Mong-MN",
+        "ShortDatePattern": "yyyy.MM.dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy \u1823\u1828 \u180E\u180E\u180E\u1824 MMMM\u180E\u180E\u1822\u1822\u1828d. \u180B\u182D\u1820\u1837\u1820\u182D",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "moh",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "moh-CA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mr",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "mr-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ms",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ms-BN",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ms-MY",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ms-SG",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "mt",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027ta\u0027\u2019 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mt-MT",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027ta\u0027\u2019 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mua",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mua-CM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "my",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": " H:mm",
+        "LongDatePattern": "yyyy\u104A MMMM d\u104A",
+        "LongTimePattern": " HH:mm:ss"
+    },
+    {
+        "Culture": "my-MM",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": " H:mm",
+        "LongDatePattern": "yyyy\u104A MMMM d\u104A",
+        "LongTimePattern": " HH:mm:ss"
+    },
+    {
+        "Culture": "mzn",
+        "ShortDatePattern": "g yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "g yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "mzn-IR",
+        "ShortDatePattern": "g yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "g yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "naq",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "naq-NA",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "nb",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nb-NO",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nb-SJ",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nd",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nd-ZW",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nds",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nds-DE",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nds-NL",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ne",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ne-IN",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ne-NP",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nl",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nl-AW",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nl-BE",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nl-BQ",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nl-CW",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nl-NL",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nl-SR",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nl-SX",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nmg",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nmg-CM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nn",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nn-NO",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nnh",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": ", \u0027ly\u025B\u0027\u030C\u02BC d \u0027na\u0027 MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nnh-CM",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": ", \u0027ly\u025B\u0027\u030C\u02BC d \u0027na\u0027 MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nqo",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nqo-GN",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nr",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nr-ZA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nso",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nso-ZA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nus",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "nus-SS",
+        "ShortDatePattern": "d/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "nyn",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "nyn-UG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "oc",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "oc-FR",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "om",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "om-ET",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "om-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "or",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "or-IN",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "os",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy \u0027\u0430\u0437\u0027",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "os-GE",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy \u0027\u0430\u0437\u0027",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "os-RU",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy \u0027\u0430\u0437\u0027",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pa",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "pa-Arab",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "pa-Arab-PK",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "pa-Guru",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "pa-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "pl",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pl-PL",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "prg",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "prg-001",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ps",
+        "ShortDatePattern": "g yyyy/M/d",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "\u062F g yyyy \u062F MMMM d",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ps-AF",
+        "ShortDatePattern": "g yyyy/M/d",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "\u062F g yyyy \u062F MMMM d",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "ps-PK",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "\u062F yyyy \u062F MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "pt",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-AO",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-BR",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-CH",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-CV",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-GQ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-GW",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-LU",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-MO",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "pt-MZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-PT",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-ST",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "pt-TL",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "quz",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "quz-BO",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "quz-EC",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "quz-PE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "quc",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "quc-GT",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rm",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "\u0027ils\u0027 d \u0027da\u0027 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rm-CH",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "\u0027ils\u0027 d \u0027da\u0027 MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rn",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rn-BI",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ro",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ro-MD",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ro-RO",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rof",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rof-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ru",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ru-BY",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ru-KG",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ru-KZ",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ru-MD",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ru-RU",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ru-UA",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0433\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rw",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rw-RW",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rwk",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "rwk-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sa",
+        "ShortDatePattern": "d-MM-yyyy",
+        "ShortTimePattern": "hh:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "hh:mm:ss aa"
+    },
+    {
+        "Culture": "sa-IN",
+        "ShortDatePattern": "d-MM-yyyy",
+        "ShortTimePattern": "hh:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "hh:mm:ss aa"
+    },
+    {
+        "Culture": "sah",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy \u0027\u0441\u044B\u043B\u0027 MMMM d \u0027\u043A\u04AF\u043D\u044D\u0027",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sah-RU",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy \u0027\u0441\u044B\u043B\u0027 MMMM d \u0027\u043A\u04AF\u043D\u044D\u0027",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "saq",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "saq-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sbp",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sbp-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sd",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "sd-Arab-PK",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "se",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "se-FI",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "se-NO",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "se-SE",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "seh",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "seh-MZ",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d \u0027de\u0027 MMMM \u0027de\u0027 yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ses",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ses-ML",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sg",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sg-CF",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "shi",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "shi-Latn",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "shi-Latn-MA",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "shi-Tfng",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "shi-Tfng-MA",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "si",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "si-LK",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH.mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH.mm.ss"
+    },
+    {
+        "Culture": "sk",
+        "ShortDatePattern": "d. M. yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "sk-SK",
+        "ShortDatePattern": "d. M. yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "sl",
+        "ShortDatePattern": "d. MM. yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sl-SI",
+        "ShortDatePattern": "d. MM. yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sma",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sma-NO",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sma-SE",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "smj",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "smj-NO",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "smj-SE",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "smn",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H.mm",
+        "LongDatePattern": "MMMM d. yyyy",
+        "LongTimePattern": "H.mm.ss"
+    },
+    {
+        "Culture": "smn-FI",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "H.mm",
+        "LongDatePattern": "MMMM d. yyyy",
+        "LongTimePattern": "H.mm.ss"
+    },
+    {
+        "Culture": "sms",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sms-FI",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sn",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sn-Latn-ZW",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "so",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM dd, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "so-DJ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM dd, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "so-ET",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM dd, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "so-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "MMMM dd, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "so-SO",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "MMMM dd, yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "sq",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "sq-AL",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "sq-MK",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sq-XK",
+        "ShortDatePattern": "d.M.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Cyrl",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Cyrl-BA",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Cyrl-ME",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Cyrl-RS",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Cyrl-XK",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Latn",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Latn-BA",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Latn-ME",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Latn-RS",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sr-Latn-XK",
+        "ShortDatePattern": "d.M.yyyy.",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd. MMMM yyyy.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ss",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ss-SZ",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ss-ZA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ssy",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ssy-ER",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "st",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "st-LS",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "st-ZA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sv",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sv-AX",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sv-FI",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sv-SE",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sw",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sw-CD",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sw-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sw-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "sw-UG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "syr",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "syr-SY",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ta",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "aa h:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "aa h:mm:ss"
+    },
+    {
+        "Culture": "ta-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "aa h:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "aa h:mm:ss"
+    },
+    {
+        "Culture": "ta-LK",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ta-MY",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "aa h:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "aa h:mm:ss"
+    },
+    {
+        "Culture": "ta-SG",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "aa h:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "aa h:mm:ss"
+    },
+    {
+        "Culture": "te",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d, MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "te-IN",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d, MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "teo",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "teo-KE",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "teo-UG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tg",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tg-Cyrl-TJ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "th",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM g yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "th-TH",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM g yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ti",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "dd MMMM \u1218\u12D3\u120D\u1272 yyyy g",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ti-ER",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "dd MMMM \u1218\u12D3\u120D\u1272 yyyy g",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ti-ET",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "dd MMMM \u1218\u12D3\u120D\u1272 yyyy g",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "tig",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tig-ER",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tk",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tk-TM",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tn",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tn-BW",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tn-ZA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "to",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "to-TO",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "tr",
+        "ShortDatePattern": "d.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tr-CY",
+        "ShortDatePattern": "d.MM.yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "tr-TR",
+        "ShortDatePattern": "d.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ts",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ts-ZA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "aa",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM, yyyy \u0027\u0435\u043B\u0027",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "aa-RU",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "H:mm",
+        "LongDatePattern": "d MMMM, yyyy \u0027\u0435\u043B\u0027",
+        "LongTimePattern": "H:mm:ss"
+    },
+    {
+        "Culture": "twq",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "twq-NE",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tzm",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "tzm-Latn-MA",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ug",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy d-MMMM\u060C",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ug-CN",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "yyyy d-MMMM\u060C",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "uk",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0440\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "uk-UA",
+        "ShortDatePattern": "dd.MM.yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy \u0027\u0440\u0027.",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ur",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM\u060C yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ur-IN",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM\u060C yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ur-PK",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM\u060C yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "uz",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d-MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "uz-Arab",
+        "ShortDatePattern": "g yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "g yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "uz-Arab-AF",
+        "ShortDatePattern": "g yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "g yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "uz-Cyrl",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "uz-Cyrl-UZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "dd MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "uz-Latn",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d-MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "uz-Latn-UZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d-MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "vai",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "vai-Latn",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "vai-Latn-LR",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "vai-Vaii",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "vai-Vaii-LR",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "h:mm aa",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "h:mm:ss aa"
+    },
+    {
+        "Culture": "ve",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "ve-ZA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "vi",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "vi-VN",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "vo",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "vo-001",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "vun",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "vun-TZ",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "wae",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "wae-CH",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d. MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "wal",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "wal-ET",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "wo",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "wo-SN",
+        "ShortDatePattern": "dd-MM-yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMM, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "xh",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "xh-ZA",
+        "ShortDatePattern": "yyyy-MM-dd",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "yyyy MMMM d",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "xog",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "xog-UG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "yav",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "yav-CM",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "yi",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d\u05D8\u05DF MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "yi-001",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d\u05D8\u05DF MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "yo",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:m",
+        "LongDatePattern": "d MMM yyyy",
+        "LongTimePattern": "H:m:s"
+    },
+    {
+        "Culture": "yo-BJ",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:m",
+        "LongDatePattern": "d MMM yyyy",
+        "LongTimePattern": "H:m:s"
+    },
+    {
+        "Culture": "yo-NG",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "H:m",
+        "LongDatePattern": "d MMM yyyy",
+        "LongTimePattern": "H:m:s"
+    },
+    {
+        "Culture": "zgh",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "zgh-Tfng-MA",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "d MMMM yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "zh",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zh-Hans",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zh-CN",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zh-Hans-HK",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zh-Hans-MO",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zh-SG",
+        "ShortDatePattern": "dd/MM/yyyy",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zh-Hant",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zh-HK",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zh-MO",
+        "ShortDatePattern": "d/M/yyyy",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zh-TW",
+        "ShortDatePattern": "yyyy/M/d",
+        "ShortTimePattern": "tth:mm",
+        "LongDatePattern": "yyyy\u5E74M\u6708d\u65E5",
+        "LongTimePattern": "tth:mm:ss"
+    },
+    {
+        "Culture": "zu",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    },
+    {
+        "Culture": "zu-ZA",
+        "ShortDatePattern": "M/d/yyyy",
+        "ShortTimePattern": "HH:mm",
+        "LongDatePattern": "MMMM d, yyyy",
+        "LongTimePattern": "HH:mm:ss"
+    }
+]
