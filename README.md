@@ -62,7 +62,7 @@ For a full list of the referenced packages and their versions see the packages.c
 
 To login to the Sitefinity CMS backend, use the following credentials:
 
-**Username:**  admin  **Password:**  admin@2
+**Username:**  admin@test.test  **Password:**  admin@2
 
 ### **Frontend Package**
 
