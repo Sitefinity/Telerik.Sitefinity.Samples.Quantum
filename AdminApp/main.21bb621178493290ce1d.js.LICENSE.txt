@@ -496,11 +496,8 @@
 
 /*! ../../../../api */
 
-<<<<<<< HEAD:AdminApp/main.eae64a5c422943c4bb34.js.LICENSE.txt
-=======
 /*! ../../../../app-config/reorder-module-children.provider */
 
->>>>>>> upgrade140:AdminApp/main.21bb621178493290ce1d.js.LICENSE.txt
 /*! ../../../../app/theme/theme-variables */
 
 /*! ../../../../auth/auth.service */
@@ -2851,11 +2848,8 @@
 
 /*! ./app-base-href.factory */
 
-<<<<<<< HEAD:AdminApp/main.eae64a5c422943c4bb34.js.LICENSE.txt
-=======
 /*! ./app-config/reorder-module-children.provider */
 
->>>>>>> upgrade140:AdminApp/main.21bb621178493290ce1d.js.LICENSE.txt
 /*! ./app-providers.module */
 
 /*! ./app-store */
@@ -3315,19 +3309,11 @@
 /*! ./components/sidebar/sorter/SortingStore */
 
 /*! ./components/site-and-language-selector/site-and-language-selector.component */
-<<<<<<< HEAD:AdminApp/main.eae64a5c422943c4bb34.js.LICENSE.txt
 
 /*! ./components/site-sync/site-sync-item-info.component */
 
 /*! ./components/site-sync/site-sync-notification.component */
 
-=======
-
-/*! ./components/site-sync/site-sync-item-info.component */
-
-/*! ./components/site-sync/site-sync-notification.component */
-
->>>>>>> upgrade140:AdminApp/main.21bb621178493290ce1d.js.LICENSE.txt
 /*! ./components/status/error-status.component */
 
 /*! ./components/status/heading-status.component */
