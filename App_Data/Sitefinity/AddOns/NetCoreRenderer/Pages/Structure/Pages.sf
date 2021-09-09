@@ -1,0 +1,51 @@
+[
+  {
+    "Id": "e9f8dfac-2721-40a9-bf2b-8f921bcb0809",
+    "Namespace": "Telerik.Sitefinity.Pages.Model",
+    "ClassName": "PageNode",
+    "Fields": [
+      {
+        "Id": "346086ce-0452-41e4-865a-4460d80b7c30",
+        "FieldName": "Image",
+        "ClrType": "Telerik.Sitefinity.RelatedData.RelatedItems",
+        "DBType": "",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "2c1e820f-d34d-41da-a824-6fcf01d09cf4",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "56432bdc-26fd-4d2c-8833-7725fc8b2917",
+            "Name": "UserFriendlyDataType",
+            "Value": "RelatedMedia"
+          },
+          {
+            "Id": "9ccbff5a-20b9-4f82-a00f-7b38aab58030",
+            "Name": "ControlTag",
+            "Value": "<div class=\"sfSnglRelatedItmWrp\">\r\n                <h2 class=\"sfrelatedItmTitle\"></h2>\r\n                <div class=\"sfrelatedItmWrp\">\r\n                    <img src='<%# Eval(\"Image.MediaUrl\")%>' alt='<%# Eval(\"Image.AlternativeText\")%>' title='<%# Eval(\"Image.Title\") %>' />\r\n                </div>\r\n            </div>"
+          },
+          {
+            "Id": "acce643a-c396-4ab1-92d9-8d15dacfec8e",
+            "Name": "RelatedType",
+            "Value": "Telerik.Sitefinity.Libraries.Model.Image"
+          },
+          {
+            "Id": "326ab534-b1dc-4c30-b602-a8326049babb",
+            "Name": "RelatedProviders",
+            "Value": "sf-site-default-provider"
+          }
+        ],
+        "IsInternal": true,
+        "ApplicationName": "//",
+        "IsDynamic": true
+      }
+    ],
+    "ApplicationName": "//",
+    "Presentation": [],
+    "MetaAttributes": [],
+    "SectionNames": [],
+    "AssemblyName": "Telerik.Sitefinity.Model"
+  }
+]

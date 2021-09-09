@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>NetCoreRenderer</id>
+    <version>1.0.0.0</version>
+    <title>NetCoreRenderer</title>
+    <authors>system</authors>
+    <owners>system</owners>
+    <language>en-US</language>
+    <icon>default-icon.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NetCoreRenderer</description>
+    <references></references>
+  </metadata>
+  <files>
+    <file src="D:\git\Telerik.Sitefinity.Samples.Quantum\App_Data\Sitefinity\Export\NetCoreRenderer\**\*.*" exclude="D:\git\Telerik.Sitefinity.Samples.Quantum\App_Data\Sitefinity\Export\NetCoreRenderer\**\*.ps1" target="content\App_Data\Sitefinity\AddOns\NetCoreRenderer" />
+    <file src="D:\git\Telerik.Sitefinity.Samples.Quantum\App_Data\Sitefinity\Export\NetCoreRenderer\**\*.ps1" target="tools" />
+    <file src="D:\git\Telerik.Sitefinity.Samples.Quantum\App_Data\Sitefinity\Export\NetCoreRenderer\**\*.psm1" target="tools" />
+    <file src="D:\git\Telerik.Sitefinity.Samples.Quantum\App_Data\Sitefinity\Export\NetCoreRenderer\**\*.png" target="" />
+  </files>
+</package>
