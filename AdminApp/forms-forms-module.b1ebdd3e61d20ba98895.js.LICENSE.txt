@@ -1,0 +1,229 @@
+/*! ../../../../../fields/choice/choice-dropdown.component */
+
+/*! ../../../../../fields/choice/choice.settings */
+
+/*! ../../../../../fields/common/components/sticky.component */
+
+/*! ../../../../../fields/common/directives/text-overflow.directive */
+
+/*! ../../../../../fields/common/validators */
+
+/*! ../../../../../fields/date-time/date-time-picker.component */
+
+/*! ../../../../../fields/date-time/date-time-picker.constants */
+
+/*! ../../../../../fields/date-time/date-time-settings */
+
+/*! ../../../../../fields/field-settings-base */
+
+/*! ../../../../../fields/fields-constants */
+
+/*! ../../../../../fields/hidden/hidden.component */
+
+/*! ../../../../../fields/loader-wrapper/loader-wrapper.component */
+
+/*! ../../../../../fields/related-data/related-data.component */
+
+/*! ../../../../../fields/related-data/related-data.settings */
+
+/*! ../../../../../fields/text-area/text-area-multiline-email-settings */
+
+/*! ../../../../../fields/text-area/text-area-settings */
+
+/*! ../../../../../fields/text-area/text-area.component */
+
+/*! ../../../../../fields/utilities/rx-base.component */
+
+/*! ../../../../fields/index */
+
+/*! ../../../common-constants */
+
+/*! ../../../constants/route-paths */
+
+/*! ../../../document.provider */
+
+/*! ../../../services/scroll.service */
+
+/*! ../../../utils */
+
+/*! ../../constants/route-paths */
+
+/*! ../../content/dynamic-modules/interfaces */
+
+/*! ../../content/dynamic-modules/services/dynamic-item-store-state */
+
+/*! ../../content/dynamic-modules/services/dynamic-item.service */
+
+/*! ../../shared/components/list/list-column.directive */
+
+/*! ../../shared/components/list/list.component */
+
+/*! ../../shared/components/navigation/navigation-menu/navigation-menu.component */
+
+/*! ../../shared/pipes/iso-week-dates.pipe */
+
+/*! ../../shared/pipes/relative-date.pipe */
+
+/*! ../../shared/pipes/trim-text.pipe */
+
+/*! ../../shared/rxjs-extensions */
+
+/*! ../../shared/services/metadata/meta-data-constants */
+
+/*! ../../shared/services/metadata/meta-data.store */
+
+/*! ../../shared/services/metadata/site-data.store */
+
+/*! ../../shared/services/modal-window.service */
+
+/*! ../common/validators */
+
+/*! ../forms.constants */
+
+/*! ../services/form-field-types-parser.service */
+
+/*! ../services/forms.service */
+
+/*! ../shared/components/modal-window/modal-window.component */
+
+/*! ../shared/pipes/trim-text.pipe */
+
+/*! ../shared/services/metadata/meta-data-store.resolver */
+
+/*! ../shared/shared.module */
+
+/*! ./action-column.component */
+
+/*! ./action-create-composite.component */
+
+/*! ./condition-column.component */
+
+/*! ./condition-create-composite.component */
+
+/*! ./form-action-column.directive */
+
+/*! ./form-rule-create.component */
+
+/*! ./form-rules/action-column.component */
+
+/*! ./form-rules/action-create-composite.component */
+
+/*! ./form-rules/condition-column.component */
+
+/*! ./form-rules/condition-create-composite.component */
+
+/*! ./form-rules/form-action-column.directive */
+
+/*! ./form-rules/form-rule-create.component */
+
+/*! ./form-rules/form-rules-list.component */
+
+/*! ./forms-edit-integrated.component */
+
+/*! ./forms.constants */
+
+/*! ./services/form-field-types-parser.service */
+
+/*! ./services/forms.service */
+
+/*! ./text-area-settings */
+
+/*! @angular/common */
+
+/*! @angular/core */
+
+/*! @angular/forms */
+
+/*! @angular/router */
+
+/*! @progress/sitefinity-component-framework */
+
+/*! exports provided: ActionColumnComponent */
+
+/*! exports provided: ActionCreateCompositeComponent */
+
+/*! exports provided: ConditionColumnComponent, GetConditionFieldTitlePipe, GetConditionOperatorLabelPipe, GetRuleOperatorLabelPipe, GetConditionFieldValuePipe */
+
+/*! exports provided: ConditionCreateCompositeComponent */
+
+/*! exports provided: FormActionColumnDirective */
+
+/*! exports provided: FormFieldTypesParserService */
+
+/*! exports provided: FormRuleCreateComponent */
+
+/*! exports provided: FormRuleOperatorList, FormRuleOperatorCRUD, FormsConstants */
+
+/*! exports provided: FormRulesListComponent */
+
+/*! exports provided: FormsEditIntegratedComponent */
+
+/*! exports provided: FormsService */
+
+/*! exports provided: SfFormsModule */
+
+/*! exports provided: TextAreaMultilineEmailSettings */
+
+/*! exports provided: TrimTextPipe */
+
+/*! rxjs */
+
+/*! rxjs/operators */
+
+/*! tslib */
+
+/*!***********************************************!*\
+  !*** ./src/app/modules/forms/forms.module.ts ***!
+  \***********************************************/
+
+/*!**************************************************!*\
+  !*** ./src/app/modules/forms/forms.constants.ts ***!
+  \**************************************************/
+
+/*!********************************************************!*\
+  !*** ./src/app/modules/shared/pipes/trim-text.pipe.ts ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/app/modules/forms/services/forms.service.ts ***!
+  \*********************************************************/
+
+/*!****************************************************************!*\
+  !*** ./fields/text-area/text-area-multiline-email-settings.ts ***!
+  \****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./src/app/modules/forms/forms-edit-integrated.component.ts ***!
+  \******************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./src/app/modules/forms/form-rules/action-column.component.ts ***!
+  \*********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./src/app/modules/forms/form-rules/form-rules-list.component.ts ***!
+  \***********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./src/app/modules/forms/form-rules/condition-column.component.ts ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./src/app/modules/forms/form-rules/form-rule-create.component.ts ***!
+  \************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./src/app/modules/forms/form-rules/form-action-column.directive.ts ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./src/app/modules/forms/services/form-field-types-parser.service.ts ***!
+  \***************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./src/app/modules/forms/form-rules/action-create-composite.component.ts ***!
+  \*******************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./src/app/modules/forms/form-rules/condition-create-composite.component.ts ***!
+  \**********************************************************************************/

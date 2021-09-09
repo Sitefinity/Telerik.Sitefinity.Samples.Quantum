@@ -38,7 +38,7 @@ See a complete list of the system requirements for the solution here: http://doc
 
 You need to attach the database backup files to your SQL Server. To do this:
 
-1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_133.zip).
+1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_140.zip).
 2. Navigate to the _SitefinityWebApp_ -&gt; _App\_Data_ folder.
 3. Unzip the  **QuantumDB_version.zip**  file.
 4. In SQL Management Studio, open the context menu of _Databases_ and click _Attach..._
@@ -62,7 +62,7 @@ For a full list of the referenced packages and their versions see the packages.c
 
 To login to the Sitefinity CMS backend, use the following credentials:
 
-**Username:**  admin  **Password:**  admin@2
+**Username:**  admin@test.test  **Password:**  admin@2
 
 ### **Frontend Package**
 
