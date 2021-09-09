@@ -418,17 +418,19 @@
     <Reference Include="PayPal, Version=1.9.1.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
       <HintPath>packages\PayPal.1.9.1\lib\net451\PayPal.dll</HintPath>
     </Reference>
-    <Reference Include="Progress.Sitefinity.Renderer, Version=14.0.7700.37545, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.Renderer.14.0.7700.37545\lib\netstandard2.0\Progress.Sitefinity.Renderer.dll</HintPath>
+    <Reference Include="Progress.Sitefinity.Renderer, Version=14.0.7700.38136, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.Renderer.14.0.7700.38136\lib\netstandard2.0\Progress.Sitefinity.Renderer.dll</HintPath>
     </Reference>
     <Reference Include="RazorEngine, Version=3.0.8.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
       <HintPath>packages\Sitefinity.RazorEngine.3.0.8.0\lib\net40\RazorEngine.dll</HintPath>
     </Reference>
     <Reference Include="RazorGenerator.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\RazorGenerator.Mvc.2.3.12\lib\net40\RazorGenerator.Mvc.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="RazorGenerator.Templating, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\RazorGenerator.Templating.2.1.1\lib\net40\RazorGenerator.Templating.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="ServiceStack, Version=5.0.0.0, Culture=neutral, PublicKeyToken=02c12cbda47e6587, processorArchitecture=MSIL">
       <HintPath>packages\ServiceStack.5.11.0\lib\net472\ServiceStack.dll</HintPath>
@@ -1069,25 +1071,42 @@
     <Content Include="AdminApp\assets\js\monaco-editor\vs\language\typescript\tsWorker.js" />
     <Content Include="AdminApp\assets\js\monaco-editor\vs\loader.js" />
     <Content Include="AdminApp\elements.c3780ef743d662668313.bundle.js" />
+    <Content Include="AdminApp\elements.e6f44761ba1d2550523a.bundle.js" />
     <Content Include="AdminApp\favicon.ico" />
     <Content Include="AdminApp\forms-forms-module.37e68d070798e3dc5fb7.js" />
     <Content Include="AdminApp\forms-forms-module.37e68d070798e3dc5fb7.js.LICENSE.txt" />
+    <Content Include="AdminApp\forms-forms-module.b1ebdd3e61d20ba98895.js" />
+    <Content Include="AdminApp\forms-forms-module.b1ebdd3e61d20ba98895.js.LICENSE.txt" />
     <Content Include="AdminApp\index.html" />
+    <Content Include="AdminApp\insight-insight-module.a8d3095adc97a9c59490.js" />
+    <Content Include="AdminApp\insight-insight-module.a8d3095adc97a9c59490.js.LICENSE.txt" />
     <Content Include="AdminApp\insight-insight-module.dd9986dc165f9272cbaa.js" />
     <Content Include="AdminApp\insight-insight-module.dd9986dc165f9272cbaa.js.LICENSE.txt" />
     <Content Include="AdminApp\InsightExtensions\insight-iris.extensions.bundle.js" />
+    <Content Include="AdminApp\main.21bb621178493290ce1d.js" />
+    <Content Include="AdminApp\main.21bb621178493290ce1d.js.LICENSE.txt" />
     <Content Include="AdminApp\main.5bf9e9d5d537428d5523.js" />
     <Content Include="AdminApp\main.5bf9e9d5d537428d5523.js.LICENSE.txt" />
     <Content Include="AdminApp\main.d68d3bfc769183ae869d.js" />
     <Content Include="AdminApp\main.d68d3bfc769183ae869d.js.LICENSE.txt" />
     <Content Include="AdminApp\modules-integrations-integrations-module.009fcdce1b99759d398c.js" />
     <Content Include="AdminApp\modules-integrations-integrations-module.009fcdce1b99759d398c.js.LICENSE.txt" />
+    <Content Include="AdminApp\modules-integrations-integrations-module.8a5c62ceca35b9634d68.js" />
+    <Content Include="AdminApp\modules-integrations-integrations-module.8a5c62ceca35b9634d68.js.LICENSE.txt" />
     <Content Include="AdminApp\polyfills-es5.1e26fb100ad64ce9ef31.js" />
     <Content Include="AdminApp\polyfills-es5.1e26fb100ad64ce9ef31.js.LICENSE.txt" />
+    <Content Include="AdminApp\polyfills-es5.c38d31c7fe9a245aeb79.js" />
+    <Content Include="AdminApp\polyfills-es5.c38d31c7fe9a245aeb79.js.LICENSE.txt" />
     <Content Include="AdminApp\polyfills.38736bcc18ee62bda9e2.js" />
     <Content Include="AdminApp\polyfills.38736bcc18ee62bda9e2.js.LICENSE.txt" />
+    <Content Include="AdminApp\polyfills.4f84d582704064e3db62.js" />
+    <Content Include="AdminApp\polyfills.4f84d582704064e3db62.js.LICENSE.txt" />
     <Content Include="AdminApp\runtime.5e056166d6005a2abcaa.js" />
+    <Content Include="AdminApp\runtime.73f9c874ce26e7ed18e1.js" />
+    <Content Include="AdminApp\styles.8c175240176e1e9b457b.css" />
     <Content Include="AdminApp\styles.d43aaff7916445b9c344.css" />
+    <Content Include="AdminApp\vendor.89014ce4b991c3a1c958.js" />
+    <Content Include="AdminApp\vendor.89014ce4b991c3a1c958.js.LICENSE.txt" />
     <Content Include="AdminApp\vendor.91c319c6ca17530954d8.js" />
     <Content Include="AdminApp\vendor.91c319c6ca17530954d8.js.LICENSE.txt" />
     <Content Include="App_Data\appStatusReport.html" />
@@ -1411,6 +1430,7 @@
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
+    <Content Include="AdminApp\elements.e6f44761ba1d2550523a.bundle.js.map" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
@@ -1730,15 +1750,15 @@
     <Content Include="ResourcePackages\Bootstrap\package.json" />
     <Content Include="ResourcePackages\Bootstrap\razorgenerator.directives" />
     <Content Include="ResourcePackages\Bootstrap\README.md" />
+    <Content Include="Sitefinity\ExternalLibraries\LibWebP\x86\libwebp.sflib" />
+    <Content Include="Sitefinity\ExternalLibraries\LibWebP\x64\libwebp.sflib" />
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>
     </Content>
-    <Content Include="ResourcePackages\Bootstrap4\package.json" />
-    <Content Include="ResourcePackages\Bootstrap4\package-lock.json" />
-    <Content Include="Sitefinity\ExternalLibraries\LibWebP\x86\libwebp.sflib" />
-    <Content Include="Sitefinity\ExternalLibraries\LibWebP\x64\libwebp.sflib" />
     <Content Include="ResourcePackages\Bootstrap4\README.md" />
     <Content Include="ResourcePackages\Bootstrap4\razorgenerator.directives" />
+    <Content Include="ResourcePackages\Bootstrap4\package.json" />
+    <Content Include="ResourcePackages\Bootstrap4\package-lock.json" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Video\Video.Default.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\VideoGallery\List.VideoGallery.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\VideoGallery\List.OverlayGallery.cshtml" />
