@@ -38,13 +38,10 @@ See a complete list of the system requirements for the solution here: http://doc
 
 You need to attach the database backup files to your SQL Server. To do this:
 
-1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_133.zip).
-2. Navigate to the _SitefinityWebApp_ -&gt; _App\_Data_ folder.
-3. Unzip the  **QuantumDB_version.zip**  file.
-4. In SQL Management Studio, open the context menu of _Databases_ and click _Attach..._
-5. Click the _Add..._ button and navigate to the folder where you unzipped the  **QuantumDB_version.zip**  file.
-6. Select the  **Sitefinity.mdf**  file and click _OK_.
-7. Click _OK_.
+1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Sitefinity.Quantum.bak).
+2. In SQL Management Studio, open the context menu of _Databases_ and click _Restore Database..._
+3. Select the  **Sitefinity.Quantum.bak**  file and click _OK_.
+4. Click _OK_.
 
 ### **Nuget package restoration**
 
@@ -67,21 +64,3 @@ To login to the Sitefinity CMS backend, use the following credentials:
 ### **Frontend Package**
 
 The design of the starter kit is based on the Bootstrap resource package(http://docs.sitefinity.com/feather-frontend-packages).
-
-### **Net Core Renderer Setup**
-
-1. To setup the .Net Core Renderer with the Quantum project follow the [procedure for setup](https://www.progress.com/documentation/sitefinity-cms/setup-the-asp.net-core-renderer).
-
-2. Next activate and the addon - (NetCoreRendererV2) in the Administration dropdown (Addons page). As a result there should be a new page created called "Quantum Sample Page" and with the label "new editor" in the pages menu dropdown an a group page Net Core Renderer containing a copy of the pages rewritten with .NET Core
-
-3. To enable form submission create an MVC Form called "Register" with the specified fields
-
-Name (TextBox),
-Company (TextBox)
-Email (TextBox)
-Comment (Paragraph)
-
-If needed sync the form 'field names' with the ones provided in the FormsOperationsProvider.cs class in the project.
-
-4. Run the renderer and navigate to /quantum-sample-page on the frontend or open it in the backend.
-
