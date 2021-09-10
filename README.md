@@ -78,4 +78,5 @@ Comment (Paragraph)
 
 If needed sync the form 'field names' with the ones provided in the FormsOperationsProvider.cs class in the project.
 
-3. Run the renderer and navigate to /quantum-sample-page on the frontend or open it in the backend.
+3. Run the renderer and navigate to /netcore-renderer/home for the full quantum makeover on the .Net Core Renderer
+
