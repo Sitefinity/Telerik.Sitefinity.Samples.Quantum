@@ -944,7 +944,6 @@
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="AzureWebRole.cs" />
-    <Compile Include="FormsOperationProvider.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
