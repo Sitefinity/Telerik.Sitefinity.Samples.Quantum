@@ -67,14 +67,13 @@ The design of the starter kit is based on the Bootstrap resource package(http://
 
 ### **Net Core Renderer Setup**
 
-1. To setup the .Net Core Renderer with the Quantum project follow the [procedure for setup](https://www.progress.com/documentation/sitefinity-cms/setup-the-asp.net-core-renderer).
+1. To setup the [.Net Core Renderer with the Quantum project](https://github.com/Sitefinity/sitefinity-aspnetcore-mvc-samples/tree/master/src/quantum-sample-page) follow the [procedure for setup](https://www.progress.com/documentation/sitefinity-cms/setup-the-asp.net-core-renderer).
 
 2. To enable form submission create an MVC Form called "Register" with the specified fields
-
-Name (TextBox),
-Company (TextBox)
-Email (TextBox)
-Comment (Paragraph)
+* Name (TextBox),
+* Company (TextBox)
+* Email (TextBox)
+* Comment (Paragraph)
 
 If needed sync the form 'field names' with the ones provided in the FormsOperationsProvider.cs class in the project.
 
