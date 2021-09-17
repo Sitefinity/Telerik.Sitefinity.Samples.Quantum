@@ -71,10 +71,10 @@ The design of the starter kit is based on the Bootstrap resource package(http://
 
 2. To enable form submission create an MVC Form called "Register" with the specified fields
 
-Name (TextBox),
-Company (TextBox)
-Email (TextBox)
-Comment (Paragraph)
+* Name (TextBox),
+* Company (TextBox)
+* Email (TextBox)
+* Comment (Paragraph)
 
 If needed sync the form 'field names' with the ones provided in the FormsOperationsProvider.cs class in the project.
 
