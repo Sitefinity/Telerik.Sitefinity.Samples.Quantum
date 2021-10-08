@@ -1,0 +1,49 @@
+/*! ../../common-constants */
+
+/*! ../content/constants */
+
+/*! ../content/content-type.guard */
+
+/*! ../content/dynamic-modules/components/router/dynamic-item-router.component */
+
+/*! ../content/dynamic-modules/components/strategies/dynamic-item.strategy */
+
+/*! ../content/dynamic-modules/services/backend-tweaks/entity-data.resolver */
+
+/*! ../shared/components/list/list-index.component */
+
+/*! ../shared/components/modal-window/modal-window.component */
+
+/*! ../shared/components/not-found/not-found.component */
+
+/*! ../shared/services/list/list-index-contract.provider */
+
+/*! ../shared/services/metadata/meta-data-store.resolver */
+
+/*! ../shared/services/metadata/meta-data.store */
+
+/*! ../shared/services/metadata/site-data-store.resolver */
+
+/*! ../shared/services/site-title.dynamic.resolver */
+
+/*! ./integrations.entity-data.resolver */
+
+/*! @angular/core */
+
+/*! @angular/router */
+
+/*! exports provided: IntegrationsModule */
+
+/*! exports provided: IntegrationsResolver */
+
+/*! rxjs/operators */
+
+/*! tslib */
+
+/*!*************************************************************!*\
+  !*** ./src/app/modules/integrations/integrations.module.ts ***!
+  \*************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./src/app/modules/integrations/integrations.entity-data.resolver.ts ***!
+  \***************************************************************************/

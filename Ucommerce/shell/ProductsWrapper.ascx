@@ -39,4 +39,4 @@
 
 </script>
 
-<iframe id="UcommerceIFrame" src="/Ucommerce/Vue/catalogs.html#/products" style="width: 100%; border: 0"></iframe>
+<iframe id="UcommerceIFrame" src="/Ucommerce/Vue/index.html#products" style="width: 100%; border: 0"></iframe>

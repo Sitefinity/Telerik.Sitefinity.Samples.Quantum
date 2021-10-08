@@ -1,6 +1,6 @@
 ﻿<configuration>
 	<components>
-		<partial-component id="ScratchIndexer">
+		<partial-component id="DefaultScratchIndexer">
 			<parameters>
 				<ShouldClearCacheAfterEachBatch>True</ShouldClearCacheAfterEachBatch>
 			</parameters>
