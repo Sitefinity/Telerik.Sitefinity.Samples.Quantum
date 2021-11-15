@@ -37,7 +37,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <TargetFrameworkProfile />
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <DisableOutOfProcTask>True</DisableOutOfProcTask>
     <VisualStudioVersion>11.0</VisualStudioVersion>
   </PropertyGroup>
@@ -199,10 +199,10 @@
       <HintPath>packages\Iesi.Collections.4.0.4\lib\net461\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Infralution.Licensing, Version=4.7.1.0, Culture=neutral, PublicKeyToken=3e7e8e3744a5c13f, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.9.5.1.21265\lib\net45\Infralution.Licensing.dll</HintPath>
+      <HintPath>packages\uCommerce.9.5.2.21284\lib\net45\Infralution.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="J2N, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f39447d697a969af, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.9.5.1.21265\lib\net45\J2N.dll</HintPath>
+      <HintPath>packages\uCommerce.9.5.2.21284\lib\net45\J2N.dll</HintPath>
     </Reference>
     <Reference Include="LinqToTwitter, Version=2.1.9.0, Culture=neutral, PublicKeyToken=957107be965c25d9, processorArchitecture=MSIL">
       <HintPath>packages\linqtotwitterNET40.2.1.9.0\lib\net40\LinqToTwitter.dll</HintPath>
@@ -415,7 +415,7 @@
       <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.XmlTransform, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.9.5.1.21265\lib\Microsoft.Web.XmlTransform.dll</HintPath>
+      <HintPath>packages\Ucommerce.Sitefinity.9.5.2.21284\lib\Microsoft.Web.XmlTransform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Sitefinity.Windows.Azure.2.0.0.4\lib\net40\Microsoft.WindowsAzure.Diagnostics.dll</HintPath>
@@ -1003,53 +1003,53 @@
     <Reference Include="Twitterizer2, Version=2.4.1.27318, Culture=neutral, PublicKeyToken=69d1469eac671567, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.Twitterizer.2.4.1\lib\net40\Twitterizer2.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.dll</HintPath>
+    <Reference Include="Ucommerce, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Admin, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Admin.dll</HintPath>
+    <Reference Include="Ucommerce.Admin, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.Admin.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Api, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Api.dll</HintPath>
+    <Reference Include="Ucommerce.Api, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.Api.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Infrastructure, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Infrastructure.dll</HintPath>
+    <Reference Include="Ucommerce.Infrastructure, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Installer, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Installer.dll</HintPath>
+    <Reference Include="Ucommerce.Installer, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.Installer.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.NHibernate, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.NHibernate.dll</HintPath>
+    <Reference Include="Ucommerce.NHibernate, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Pipelines, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Pipelines.dll</HintPath>
+    <Reference Include="Ucommerce.Pipelines, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.Pipelines.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Presentation, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Presentation.dll</HintPath>
+    <Reference Include="Ucommerce.Presentation, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.Presentation.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Search, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Search.dll</HintPath>
+    <Reference Include="Ucommerce.Search, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.Search.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Sitefinity, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.9.5.1.21265\lib\Ucommerce.Sitefinity.dll</HintPath>
+    <Reference Include="Ucommerce.Sitefinity, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.9.5.2.21284\lib\Ucommerce.Sitefinity.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Sitefinity.Installer, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.9.5.1.21265\lib\Ucommerce.Sitefinity.Installer.dll</HintPath>
+    <Reference Include="Ucommerce.Sitefinity.Installer, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.9.5.2.21284\lib\Ucommerce.Sitefinity.Installer.dll</HintPath>
     </Reference>
     <Reference Include="UCommerce.Sitefinity.UI, Version=0.8.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Ucommerce.Sitefinity.UI.3.5.1\lib\net48\UCommerce.Sitefinity.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
+    <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.SystemHttp, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.SystemHttp.dll</HintPath>
+    <Reference Include="Ucommerce.SystemHttp, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.SystemHttp.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.SystemWeb, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.SystemWeb.dll</HintPath>
+    <Reference Include="Ucommerce.SystemWeb, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.2.21284\lib\net45\Ucommerce.SystemWeb.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Web.Shell, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.9.5.1.21265\lib\Ucommerce.Web.Shell.dll</HintPath>
+    <Reference Include="Ucommerce.Web.Shell, Version=9.5.2.21284, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.9.5.2.21284\lib\Ucommerce.Web.Shell.dll</HintPath>
     </Reference>
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
