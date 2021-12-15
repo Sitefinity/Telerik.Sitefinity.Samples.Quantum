@@ -32,8 +32,6 @@
 
 /*! ../../../../../fields/text-area/text-area.component */
 
-/*! ../../../../../fields/utilities/rx-base.component */
-
 /*! ../../../../fields/index */
 
 /*! ../../../common-constants */

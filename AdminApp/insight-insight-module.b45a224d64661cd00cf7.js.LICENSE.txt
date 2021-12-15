@@ -1530,12 +1530,6 @@
 
 /*! @progress/sitefinity-component-framework */
 
-/*! Hammer.JS - v2.0.7 - 2016-04-22
- * http://hammerjs.github.io/
- *
- * Copyright (c) 2016 Jorik Tangelder;
- * Licensed under the MIT license */
-
 /*! exports provided: ANGULAR_SPEED, LINEAR_SPEED, ARROW, ARROW_POINTER, BAR_POINTER, DEFAULT_HEIGHT, DEFAULT_LINE_WIDTH, DEFAULT_WIDTH, DEGREE, INSIDE, LINEAR, OUTSIDE, RADIAL_POINTER, RADIAL_RANGE_POINTER */
 
 /*! exports provided: ARC, AXIS_LABEL_CLICK, BLACK, BOTTOM, CENTER, CIRCLE, COORD_PRECISION, CROSS, DATE, DEFAULT_FONT, DEFAULT_HEIGHT, DEFAULT_PRECISION, DEFAULT_WIDTH, END, FORMAT_REGEX, HEIGHT, HIGHLIGHT_ZINDEX, INSIDE, LEFT, MAX_VALUE, MIN_VALUE, NONE, NOTE_CLICK, NOTE_HOVER, NOTE_LEAVE, OBJECT, OUTSIDE, RIGHT, START, STRING, TOP, TRIANGLE, VALUE, WHITE, WIDTH, X, Y, DEFAULT_SERIES_OPACITY */
@@ -1682,21 +1676,13 @@
 
 /*! exports provided: swing, linear, easeOutElastic */
 
-/*! hammerjs */
-
 /*! no exports provided */
-
-/*! no static exports found */
 
 /*! rxjs */
 
 /*! rxjs/operators */
 
 /*! tslib */
-
-/*!*****************************************!*\
-  !*** ./node_modules/hammerjs/hammer.js ***!
-  \*****************************************/
 
 /*!***************************************************!*\
   !*** ./src/app/modules/insight/insight.module.ts ***!
