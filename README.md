@@ -20,7 +20,7 @@ Some of the main highlights of the Quantum project include:
 - Blogs
 - Forums
 - Usage of dynamic modules
-- Online shop
+- Native Chat
 
 ### **Requirements**
 
