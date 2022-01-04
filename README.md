@@ -4,14 +4,16 @@ The main purpose of the Quantum project is to provide a real life example of how
 
 The Quantum project is based on few principles:
 
-• It involves minimum customization done by developers, so that the focus lies on the core features of the CMS 
-• Pages are built and assembled with the goal to give maximum power to non-technical content editors 
-• It provides styling best practices, so that designers can use it as a reference and styling example
+- It involves minimum customization done by developers, so that the focus lies on the core features of the CMS 
+- Pages are built and assembled with the goal to give maximum power to non-technical content editors 
+- It provides styling best practices, so that designers can use it as a reference and styling example
 
 Some of the main highlights of the Quantum project include:
 
 - Responsive design
 - Multilingual environment
+- Usage of dynamic modules
+- Native Chat https://www.progress.com/nativechat (Self-service. Smart Automation. Multichannel)
 - Social media features
 - Personalization
 - Workflows
@@ -19,8 +21,8 @@ Some of the main highlights of the Quantum project include:
 - Google maps usage
 - Blogs
 - Forums
-- Usage of dynamic modules
-- Native Chat
+- News
+
 
 ### **Requirements**
 
