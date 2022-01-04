@@ -13,7 +13,7 @@ Some of the main highlights of the Quantum project include:
 - Responsive design
 - Multilingual environment
 - Usage of dynamic modules
-- Native Chat https://www.progress.com/nativechat (Self-service. Smart Automation. Multichannel)
+- Native Chat https://www.progress.com/nativechat (Self-service, Smart Automation, Multichannel chat bot)
 - Social media features
 - Personalization
 - Workflows
