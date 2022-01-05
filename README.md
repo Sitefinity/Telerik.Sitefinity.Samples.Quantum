@@ -4,8 +4,8 @@ The main purpose of the Quantum project is to provide a real life example of how
 
 The Quantum project is based on few principles:
 
-• It involves minimum customization done by developers, so that the focus lies on the core features of the CMS 
-• Pages are built and assembled with the goal to give maximum power to non-technical content editors 
+• It involves minimum customization done by developers, so that the focus lies on the core features of the CMS
+• Pages are built and assembled with the goal to give maximum power to non-technical content editors
 • It provides styling best practices, so that designers can use it as a reference and styling example
 
 Some of the main highlights of the Quantum project include:
@@ -30,7 +30,7 @@ Some of the main highlights of the Quantum project include:
 - Microsoft SQL Server 2012R2 or later versions
 - Windows Identity Foundation NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
   - **Windows 7**  - download from  Windows Identity Foundation : http://www.microsoft.com/en-us/download/details.aspx?id=17331
-  - **Windows 8** and **Windows 10** - in the Control Panel, turn on the *Windows Identity Foundation 3.5* feature 
+  - **Windows 8** and **Windows 10** - in the Control Panel, turn on the *Windows Identity Foundation 3.5* feature
 
 See a complete list of the system requirements for the solution here: http://docs.sitefinity.com/system-requirements.
 
