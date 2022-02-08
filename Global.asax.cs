@@ -17,10 +17,6 @@ namespace SitefinityWebApp
         protected void Application_Start()
         {
             AntiForgeryConfig.SuppressXFrameOptionsHeader = true;
-            Bootstrapper.Bootstrapped += (sender, args) =>
-            {
-                ObjectFactory.Container.RegisterType(typeof(IOperationProvider), typeof(FormsOperationProvider), typeof(FormsOperationProvider).Name);
-            };
         }
     }
 }
