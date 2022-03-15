@@ -40,7 +40,7 @@ See a complete list of the system requirements for the solution here: http://doc
 
 You need to attach the database backup files to your SQL Server. To do this:
 
-1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_1407725.zip).
+1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_1407725.zip). **If using the .NET Renderer, download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_1407725.zip)**
 2. Unzip the  **QuantumDB_version.zip**  file.
 3. In SQL Management Studio, open the context menu of _Databases_ and click _Restore database..._
 4. Locate the database backup file that was extracted in step 3 and proceed with the restoration of the database.
@@ -67,3 +67,9 @@ To login to the Sitefinity CMS backend, use the following credentials:
 ### **Frontend Package**
 
 The design of the starter kit is based on the Bootstrap resource package(http://docs.sitefinity.com/feather-frontend-packages).
+
+### **.NET Renderer Setup**
+
+1. To setup [the .NET Renderer with the Quantum project](https://github.com/Sitefinity/sitefinity-aspnetcore-mvc-samples/tree/master/src/quantum-sample-page) follow the [procedure for setup](https://www.progress.com/documentation/sitefinity-cms/setup-the-asp.net-core-renderer).
+2. Download and setup the database as described in the section above(Prerequisites)
+3. Run the renderer and navigate to /quantum-sample-page on the frontend or open it in the backend.
