@@ -26,8 +26,8 @@ Some of the main highlights of the Quantum project include:
 
 - Sitefinity CMS license
 - .NET Framework 4.8
-- Visual Studio 2015 or later
-- Microsoft SQL Server 2016 or later versions
+- Visual Studio 2019 or later
+- Microsoft SQL Server 2019 or later versions
 - Windows Identity Foundation NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
   - **Windows 7**  - download from  Windows Identity Foundation : http://www.microsoft.com/en-us/download/details.aspx?id=17331
   - **Windows 8** and **Windows 10** - in the Control Panel, turn on the *Windows Identity Foundation 3.5* feature 
@@ -41,7 +41,7 @@ You need to restore the database backup files to your SQL Server. To do this:
 1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/SitefinityUcommerceDB.zip).
 2. Unzip the  **SitefinityUcommerceDB.zip**  file.
 3. In SQL Management Studio, open the context menu of _Databases_ and select _Restore Database_
-4. Select the _Device_ radio button and navigate to the folder where you unzipped the  **QuantumDB_version.zip**  file.
+4. Select the _Device_ radio button and navigate to the folder where you unzipped the  **SitefinityUcommerceDB.zip**  file.
 5. Select the  **Sitefinity.bak**  file and click _OK_.
 6. Click _OK_.
 
