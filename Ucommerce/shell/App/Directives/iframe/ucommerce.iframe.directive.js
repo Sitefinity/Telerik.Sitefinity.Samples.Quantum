@@ -7,9 +7,8 @@
 	    if (currentSource.indexOf("detectIEDuplicateRequest=") >= 0 && currentSource === frameUrl) {
 	        return;
 	    }
-		angular.element("#mainframe").contents().find("html").hide();
 
-	    frame.attr('src', frameUrl);
+	    frame.attr('src', frameUrl.replaceAll('%2F', '/'));
 	};
 
 	return {

@@ -28,7 +28,7 @@
     return {
         getImageUrl: function (id) {
             return $http.get(serviceUrl + 'Content/ImageUrl/' + id + top.location.search).then(function (response) {
-                return response.data.ImageUrl;
+                return response.data.imageUrl;
             });
         },
 

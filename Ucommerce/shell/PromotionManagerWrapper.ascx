@@ -39,5 +39,5 @@
 
 </script>
 
-<iframe id="UcommerceIFrame" src="/Ucommerce/shell/PromotionManager.aspx" style="width: 100%; border: 0"></iframe>
+<iframe id="UcommerceIFrame" src="/Ucommerce/Vue/index.html#campaigns" style="width: 100%; border: 0"></iframe>
 

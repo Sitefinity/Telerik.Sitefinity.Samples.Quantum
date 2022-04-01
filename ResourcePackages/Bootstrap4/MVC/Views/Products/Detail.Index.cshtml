@@ -71,14 +71,7 @@
 
 			<div>
 				@Html.Resource("Availability", "UcommerceResources"):
-				@if (Model.AllowOrdering)
-				{
-					<span>@Html.Resource("InStock", "UcommerceResources")</span>
-				}
-				else
-				{
-					<span>@Html.Resource("OutOfStock", "UcommerceResources")</span>
-				}
+				<span>@Html.Resource("InStock", "UcommerceResources")</span>
 			</div>
 
 			<div>

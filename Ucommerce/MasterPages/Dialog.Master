@@ -14,7 +14,6 @@
 	<script type="text/javascript">
 	    <%-- 
             Allow the client to inject a stylesheet in to the header - the stylesheet can be defined in the iframe containing this page.
-            Needed to support Sitecore's SPEAK layout.
          --%>
 	    var customStylesheet = $(window.frameElement).attr("Ucommerce-stylesheet");
 	    if (customStylesheet)
