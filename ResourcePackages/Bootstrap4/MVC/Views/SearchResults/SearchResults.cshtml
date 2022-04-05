@@ -32,13 +32,13 @@
             {
                 <label>
                     @Html.Resource("SortBy")
-                <select class="userSortDropdown" title="@Html.Resource("SortDropdown")">
-                    <option value="@OrderByOptions.Relevance" @(Model.OrderBy == OrderByOptions.Relevance ? "selected=selected" : "")>@Html.Resource("Relevance")</option>
-                    <option value="@OrderByOptions.Newest" @(Model.OrderBy == OrderByOptions.Newest ? "selected=selected" : "")>@Html.Resource("NewestFirst")</option>
-                    <option value="@OrderByOptions.Oldest" @(Model.OrderBy == OrderByOptions.Oldest ? "selected=selected" : "")>@Html.Resource("OldestFirst")</option>
-                </select>
-            </label>
-        }
+                    <select class="userSortDropdown" title="@Html.Resource("SortDropdown")">
+                        <option value="@OrderByOptions.Relevance" @(Model.OrderBy == OrderByOptions.Relevance ? "selected=selected" : "")>@Html.Resource("Relevance")</option>
+                        <option value="@OrderByOptions.Newest" @(Model.OrderBy == OrderByOptions.Newest ? "selected=selected" : "")>@Html.Resource("NewestFirst")</option>
+                        <option value="@OrderByOptions.Oldest" @(Model.OrderBy == OrderByOptions.Oldest ? "selected=selected" : "")>@Html.Resource("OldestFirst")</option>
+                    </select>
+                </label>
+            }
         </div>
     </div>
 
@@ -177,6 +177,7 @@
     <input type="hidden" data-sf-role="searchResIndexCatalogue" value='@Request.QueryStringGet("indexCatalogue")' />
     <input type="hidden" data-sf-role="searchResQuery" value='@Request.QueryStringGet("searchQuery")' />
     <input type="hidden" data-sf-role="searchResWordsMode" value='@Request.QueryStringGet("wordsMode")' />
+    <input type="hidden" data-sf-role="scoringInfo" value='@Request.QueryStringGet("scoringInfo")' />
 
 </div>
 
