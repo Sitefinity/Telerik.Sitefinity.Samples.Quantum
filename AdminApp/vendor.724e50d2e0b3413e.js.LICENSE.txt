@@ -1,0 +1,271 @@
+/*!
+       * The buffer module from node.js, for the browser.
+       *
+       * @author   Feross Aboukhadijeh <http://feross.org>
+       * @license  MIT
+       */
+
+/*!
+      Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+      Code licensed under the BSD License:
+      http://developer.yahoo.com/yui/license.html
+      version: 2.9.0
+      */
+
+/*!
+ * Copyright 2019 SmugMug, Inc.
+ * Licensed under the terms of the MIT license. Please see LICENSE file in the project root for terms.
+ * @license
+ */
+
+/*!
+ * Cropper.js v1.5.12
+ * https://fengyuanchen.github.io/cropperjs
+ *
+ * Copyright 2015-present Chen Fengyuan
+ * Released under the MIT license
+ *
+ * Date: 2021-06-12T08:00:17.411Z
+ */
+
+/*!
+ * XRegExp 3.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2007-2016 MIT License
+ */
+
+/*!
+ * XRegExp Unicode Base 3.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2008-2016 MIT License
+ */
+
+/*!
+ * XRegExp Unicode Blocks 3.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2010-2016 MIT License
+ * Unicode data by Mathias Bynens <mathiasbynens.be>
+ */
+
+/*!
+ * XRegExp Unicode Categories 3.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2010-2016 MIT License
+ * Unicode data by Mathias Bynens <mathiasbynens.be>
+ */
+
+/*!
+ * XRegExp Unicode Properties 3.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2012-2016 MIT License
+ * Unicode data by Mathias Bynens <mathiasbynens.be>
+ */
+
+/*!
+ * XRegExp Unicode Scripts 3.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2010-2016 MIT License
+ * Unicode data by Mathias Bynens <mathiasbynens.be>
+ */
+
+/*!
+ * XRegExp.build 3.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2012-2016 MIT License
+ * Inspired by Lea Verou's RegExp.create <lea.verou.me>
+ */
+
+/*!
+ * XRegExp.matchRecursive 3.1.1
+ * <xregexp.com>
+ * Steven Levithan (c) 2009-2016 MIT License
+ */
+
+/*! (c) Stefan Thomas | https://github.com/bitcoinjs/bitcoinjs-lib
+       */
+
+/*! (c) Tom Wu | http://www-cs-students.stanford.edu/~tjw/jsbn/
+       */
+
+/*! *****************************************************************************
+          Copyright (c) Microsoft Corporation.
+          
+          Permission to use, copy, modify, and/or distribute this software for any
+          purpose with or without fee is hereby granted.
+          
+          THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+          REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+          AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+          INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+          LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+          OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+          PERFORMANCE OF THIS SOFTWARE.
+          ***************************************************************************** */
+
+/*! ../BlobBuilder */
+
+/*! ../constants */
+
+/*! ../utils */
+
+/*! ./BatchRequest */
+
+/*! ./Data */
+
+/*! ./ExecutableRequest */
+
+/*! ./Expression */
+
+/*! ./OrderProperty */
+
+/*! ./Query */
+
+/*! ./QueryBase */
+
+/*! ./QueryBuilder */
+
+/*! ./Request */
+
+/*! ./RequestBase */
+
+/*! ./Requests/RequestFactory */
+
+/*! ./WhereQuery */
+
+/*! ./constants */
+
+/*! ./src/BlobBuilder */
+
+/*! ./src/Data */
+
+/*! ./src/Expression */
+
+/*! ./src/OrderProperty */
+
+/*! ./src/Query */
+
+/*! ./src/QueryBase */
+
+/*! ./src/QueryBuilder */
+
+/*! ./src/Requests/BatchRequest */
+
+/*! ./src/Requests/ExecutableRequest */
+
+/*! ./src/Requests/Request */
+
+/*! ./src/Requests/RequestBase */
+
+/*! ./src/Requests/RequestFactory */
+
+/*! ./src/Sitefinity */
+
+/*! ./src/WhereQuery */
+
+/*! ./src/constants */
+
+/*! ./src/utils */
+
+/*! ./utils */
+
+/*! CryptoJS v3.1.2 core-fix.js
+       * code.google.com/p/crypto-js
+       * (c) 2009-2013 by Jeff Mott. All rights reserved.
+       * code.google.com/p/crypto-js/wiki/License
+       * THIS IS FIX of 'core.js' to fix Hmac issue.
+       * https://code.google.com/p/crypto-js/issues/detail?id=84
+       * https://crypto-js.googlecode.com/svn-history/r667/branches/3.x/src/core.js
+       */
+
+/*! Mike Samuel (c) 2009 | code.google.com/p/json-sans-eval
+       */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! tslib */
+
+/*!*********************!*\
+          !*** ./src/Data.ts ***!
+          \*********************/
+
+/*!**********************!*\
+          !*** ./src/Query.ts ***!
+          \**********************/
+
+/*!**********************!*\
+          !*** ./src/utils.ts ***!
+          \**********************/
+
+/*!**************************!*\
+          !*** ./src/QueryBase.ts ***!
+          \**************************/
+
+/*!**************************!*\
+          !*** ./src/constants.ts ***!
+          \**************************/
+
+/*!***************************!*\
+          !*** ./src/Expression.ts ***!
+          \***************************/
+
+/*!***************************!*\
+          !*** ./src/Sitefinity.ts ***!
+          \***************************/
+
+/*!***************************!*\
+          !*** ./src/WhereQuery.ts ***!
+          \***************************/
+
+/*!****************************!*\
+          !*** ./src/BlobBuilder.ts ***!
+          \****************************/
+
+/*!*****************************!*\
+          !*** ./src/QueryBuilder.ts ***!
+          \*****************************/
+
+/*!******************************!*\
+          !*** ./src/OrderProperty.ts ***!
+          \******************************/
+
+/*!*********************************!*\
+          !*** ./src/Requests/Request.ts ***!
+          \*********************************/
+
+/*!*************************************!*\
+          !*** ./src/Requests/RequestBase.ts ***!
+          \*************************************/
+
+/*!**************************************!*\
+          !*** ./src/Requests/BatchRequest.ts ***!
+          \**************************************/
+
+/*!***************************************!*\
+          !*** ./sitefinity-webservices-sdk.ts ***!
+          \***************************************/
+
+/*!****************************************!*\
+          !*** ./src/Requests/RequestFactory.ts ***!
+          \****************************************/
+
+/*!*****************************************!*\
+          !*** ./node_modules/tslib/tslib.es6.js ***!
+          \*****************************************/
+
+/*!*******************************************!*\
+          !*** ./src/Requests/ExecutableRequest.ts ***!
+          \*******************************************/
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+/**
+ * @license Angular v13.3.3
+ * (c) 2010-2022 Google LLC. https://angular.io/
+ * License: MIT
+ */
