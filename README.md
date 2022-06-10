@@ -40,7 +40,7 @@ See a complete list of the system requirements for the solution here: http://doc
 
 You need to attach the database backup files to your SQL Server. To do this:
 
-1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_1417800.zip). **If using the .NET Renderer, download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDb_V141_NetRenderer.zip)**
+1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_1427900.zip). **If using the .NET Renderer, download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDb_V141_NetRenderer.zip)**
 2. Unzip the  **QuantumDB_version.zip**  file.
 3. In SQL Management Studio, open the context menu of _Databases_ and click _Restore database..._
 4. Locate the database backup file that was extracted in step 3 and proceed with the restoration of the database.
