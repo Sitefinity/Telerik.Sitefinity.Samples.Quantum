@@ -47,22 +47,30 @@ namespace SitefinityWebApp
             if (!response.ContentType.StartsWith("text/html"))
                 return;
 
-            var watermarkFileLocation = SystemManager.CurrentHttpContext.Server.MapPath(WatermarkFileName);
-            if (File.Exists(watermarkFileLocation))
-            {
-                ServiceUtility.DisableCache();
-
-                string watermarkHtml = null;
-                using (var stream = File.OpenRead(watermarkFileLocation))
-                {
-                    using (StreamReader reader = new StreamReader(stream, true))
-                        watermarkHtml = reader.ReadToEnd();
-                }
-
-                response.Write(watermarkHtml);
-            }
+            response.Write(watermarkHtml);
         }
 
-        private readonly string WatermarkFileName = "~/App_Data/Sitefinity/WebsiteTemplates/Widgets/Watermark.sfhtml";
+        private readonly string watermarkHtml =
+@"<style>
+    .sfWatermark {
+        font-family: 'Open Sans Regular';
+        font-size: 16px;
+        color: #000000;
+        text-align: center;
+        border: #FFD000;
+        background-color: #FFD000;
+        height: 45px;
+		line-height: 45px;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    } 
+    header {
+        margin-top:45px;
+    }
+</style>
+<div class='sfWatermark'>
+    This is a demo site. All content and functionalities are for demo purposes only. Do not trust your personal data.
+</div>";
     }
 }
