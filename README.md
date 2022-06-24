@@ -74,3 +74,41 @@ Could not convert string 'Ucommerce.Sanitization.TextSanitizer, Ucommerce.Saniti
 ```
 
 Then run `Update-Package 'Ucommerce.Sitefinity.UI' -reinstall` in the Package Manager to fix it.
+
+### **Sitefinity Insight Integration**
+
+
+
+Once you [establish a successful connection to Sitefinity Insight](https://www.progress.com/documentation/sitefinity-cms/connect-to-sitefinity-insight), the following Ucommerce related actions report the following interactions:
+
+
+
+| Predicate | Object (example) | Notes |
+| :--- | :---- | ---: |
+| View product list | Books | product catalog type |
+| Filter product list | Books | product catalog type |
+| View product | Fancy t-shirt (CL-0005) | product name and SKU |
+| Add to shopping cart | Fancy t-shirt (CL-0005) | product name and SKU |
+| Checkout > View shopping cart | - | - |
+| Remove product from cart | Fancy t-shirt (CL-0005) | product name and SKU |
+| Change quantity of product in cart | Fancy t-shirt (CL-0005)* x3 | product name, SKU and new quantity |
+| Add voucher to cart | summer_sale_25_off | promo code name |
+| Remove voucher from cart X | summer_sale_25_off | promo code name |
+| Checkout > Set address | billing & shipping | 2 separate interactions if addresses differ |
+| Checkout > Select payment method | Credit card | name of payment method |
+| Checkout > Select shipping method | Express | name of shipping method |
+| Checkout > Preview order | - | - |
+| Checkout > Complete order | STORE-42 | order number |
+
+
+
+**Additional notes**
+
+
+
+In addition, any *facets* like color, size, brand, etc. for product related actions are included as *Hierarchies* (or Sitefinity classifications) within the interactions’ object metadata. This allows you to [define rules](https://www.progress.com/documentation/sitefinity-cms/insight/define-condition-dialog#view-content-with-tag-or-category-rule) in personas that could produce audience that likes the brand *Progress* for example. Such personas could be then used for personalization segments in Sitefinity.
+With Sitefinity 14.1 you can also personalize by conversions or touchpoints which might help to cover various scenarios based on above reported data as well.
+
+
+
+On the checkout phase for setting address(es) – Email, FirstName, LastName, Country and CountryISO are reported as [contact related metadata](https://www.progress.com/documentation/sitefinity-cms/insight/contact-profiles#contact-info).
