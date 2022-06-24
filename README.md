@@ -66,7 +66,7 @@ To login to the Sitefinity CMS backend, use the following credentials:
 
 ### **Frontend Package**
 
-The design of the starter kit is based on the Bootstrap resource package(https://www.progress.com/documentation/sitefinity-cms/overview-resource-packages-mvc).
+The design of the starter kit is based on the [Bootstrap resource package](https://www.progress.com/documentation/sitefinity-cms/overview-resource-packages-mvc).
 
 ### **.NET Renderer Setup**
 
