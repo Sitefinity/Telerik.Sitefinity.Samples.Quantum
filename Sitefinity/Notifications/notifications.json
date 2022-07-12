@@ -1,0 +1,96 @@
+{
+	"Id": "notifications",
+	"Notifications": [
+		{
+			"Index": "1",
+			"Message": "<strong>Create Pages: </strong>Learn how to create, edit and manage pages and set page properties. <strong> Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-create-pages",
+			"Category": "GETTING STARTED",
+			"StartDateOffsetInDays": "0"
+		},
+		{
+			"Index": "2",
+			"Message": "<strong>Create Content: </strong>Create engaging content and learn how to add it to your pages. <strong>Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-create-content",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "1"
+		},
+		{
+			"Index": "3",
+			"Message": "<strong>Manage Media Files: </strong>Add and manage various media content items into your site. <strong>Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-manage-media-files",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "2"
+		},
+		{
+			"Index": "4",
+			"Message": "<strong>Classify Content: </strong>Check out how to organize and classify your website content using tags and taxonomies. <strong>Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-classify-content",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "3"
+		},
+		{
+			"Index": "5",
+			"Message": "<strong>Create Custom Content Types: </strong>Customize and manage your content to fit your unique use case/industry. <strong>Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-create-custom-content-types",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "4"
+		},
+		{
+			"Index": "6",
+			"Message": "<strong>Manage Templates: </strong>Learn how to use templates to define the appearance and style of your entire website, individual pages or specific page elements. <strong>Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-using-templates",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "5"
+		},
+		{
+			"Index": "7",
+			"Message": "<strong>Create Forms: </strong>Learn how to create simple, multipage and conditional forms,  validate user input and collect form submissions. <strong>Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-forms",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "6"
+		},
+		{
+			"Index": "8",
+			"Message": "<strong>Track User Behavior with Sitefinity Insight: </strong>Utilize Sitefinity Insight to track user behavior, segment audience and report on key web metrics. <strong>Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-user-behavior-tracking",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "7"
+		},
+		{
+			"Index": "9",
+			"Message": "<strong>Personalize Content and User Journey: </strong>Create personalized pages to deliver tailored content to your site visitors. <strong>Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-personalization",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "8"
+		},
+		{
+			"Index": "10",
+			"Message": "<strong>A/B Testing: </strong>Learn how to validate content or design changes using built-in A/B testing capabilities in Sitefinity CMS. <strong>Learn more</strong>",
+			"URL": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-cro",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "9"
+		},
+		{
+			"Index": "11",
+			"Message": "<strong>Manage Users, Roles and Permissions: </strong>Find out how to create user accounts, define roles and permissions and enable workflows in Sitefinity CMS. <strong>Learn more</strong>",
+			"URL": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-user-management",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "10"
+		},
+		{
+			"Index": "12",
+			"Message": "<strong>Add and Configure an AI Chatbot (NativeChat): </strong>Personalize and interact with the NativeChat AI chatbot we have included with your trial. <strong>Learn more</strong>",
+			"Url": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-web-chatbot",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "11"
+		},
+		{
+			"Index": "13",
+			"Message": "<strong>Low-code Integration: </strong>Learn how to integrate external systems using Sitefinity’s Low-code Integration capabilities. <strong>Learn more</strong>",
+			"URL": "https://www.progress.com/sitefinity-cms/resources/trial-guide/basics?utm_source=Sitefinity-trial&utm_medium=notifications&utm_campaign=trial#sitefinity-trial-guide-low-code-integration",
+			"Category": "Getting started",
+			"StartDateOffsetInDays": "12"
+		}
+	]
+}
