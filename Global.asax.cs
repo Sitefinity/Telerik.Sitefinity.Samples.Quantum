@@ -3,12 +3,17 @@ using System.IO;
 using System.Net;
 using System.Web;
 using System.Web.Helpers;
+using System.Linq;
 using Telerik.Microsoft.Practices.Unity;
 using Telerik.Sitefinity.Abstractions;
 using Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing;
+using Telerik.Sitefinity.Modules.Pages;
 using Telerik.Sitefinity.Mvc;
 using Telerik.Sitefinity.Services;
 using Telerik.Sitefinity.Web.Services;
+using System.Threading.Tasks;
+using Telerik.Sitefinity.Data;
+using Telerik.Sitefinity.Web;
 
 namespace SitefinityWebApp
 {
@@ -29,6 +34,23 @@ namespace SitefinityWebApp
         private void Bootstrapper_Bootstrapped(object sender, EventArgs e)
         {
             EventHub.Subscribe<RequestEndEvent>(this.RequestEnd);
+
+            Task.Run(() =>
+            {
+                SystemManager.RunWithElevatedPrivilege(x =>
+                {
+                    var pageManager = PageManager.GetManager();
+
+                    var pageNode = pageManager.GetPageNode(SiteInitializer.BackendRootNodeId);
+
+                    if (pageNode != null && pageNode.DateCreated.Year < DateTime.UtcNow.Year)
+                    {
+                        pageNode.DateCreated = DateTime.UtcNow;
+
+                        pageManager.SaveChanges();
+                    }
+                });
+            });
         }
 
         private void RequestEnd(RequestEndEvent @event)
