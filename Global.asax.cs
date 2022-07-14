@@ -1,19 +1,11 @@
 ﻿using System;
-using System.IO;
 using System.Net;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Helpers;
-using System.Linq;
-using Telerik.Microsoft.Practices.Unity;
 using Telerik.Sitefinity.Abstractions;
-using Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing;
 using Telerik.Sitefinity.Modules.Pages;
-using Telerik.Sitefinity.Mvc;
 using Telerik.Sitefinity.Services;
-using Telerik.Sitefinity.Web.Services;
-using System.Threading.Tasks;
-using Telerik.Sitefinity.Data;
-using Telerik.Sitefinity.Web;
 
 namespace SitefinityWebApp
 {
