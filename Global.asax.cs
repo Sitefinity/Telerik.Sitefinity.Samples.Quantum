@@ -58,7 +58,7 @@ namespace SitefinityWebApp
             if (bool.Parse(SystemManager.CurrentHttpContext.Items[SystemManager.IsBackendRequestKey].ToString()))
                 return;
 
-            if (!response.ContentType.StartsWith("text/html"))
+            if (response.Headers["Content-Type"] == null || !response.Headers["Content-Type"].StartsWith("text/html"))
                 return;
 
             response.Write(watermarkHtml);
