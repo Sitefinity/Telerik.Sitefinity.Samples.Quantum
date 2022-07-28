@@ -1411,7 +1411,6 @@
     <Content Include="Mvc\Views\Card\Card.Splash.cshtml" />
     <Content Include="Mvc\Views\Card\Card.Whitepaper.cshtml" />
     <Content Include="Mvc\Views\SearchBox\SearchBox_Q.cshtml" />
-    <Content Include="App_Data\Sitefinity\Configuration\DigitalExperienceCloudConnectorConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\ResponsiveDesignConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\AnalyticsConfig.config">
       <SubType>Designer</SubType>
