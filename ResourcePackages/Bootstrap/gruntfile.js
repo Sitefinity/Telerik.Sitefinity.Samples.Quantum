@@ -110,7 +110,6 @@ module.exports = function(grunt) {
                     dest: '<%= dist.path %>/css/',
                     ext: '.css',
                     rename: function (dest, matchedSrcPath, options) {
-                        grunt.log.write("Test: " + matchedSrcPath);
                         return path.join(dest, matchedSrcPath === "style.css" ? "quantum-style.css" : matchedSrcPath);
                     }
                 }]
