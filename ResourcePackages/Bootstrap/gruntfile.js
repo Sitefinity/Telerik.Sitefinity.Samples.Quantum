@@ -102,6 +102,17 @@ module.exports = function(grunt) {
                     src: ['*.scss'],
                     dest: '<%= dist.path %>/css/',
                     ext: '.css'
+                },
+                {
+                    expand: true,
+                    cwd: '<%= src.path %>/quantum-sass',
+                    src: ['style.scss'],
+                    dest: '<%= dist.path %>/css/',
+                    ext: '.css',
+                    rename: function (dest, matchedSrcPath, options) {
+                        grunt.log.write("Test: " + matchedSrcPath);
+                        return path.join(dest, matchedSrcPath === "style.css" ? "quantum-style.css" : matchedSrcPath);
+                    }
                 }]
             }
         },
@@ -245,6 +256,14 @@ module.exports = function(grunt) {
         grunt.task.run('cssmin');
         grunt.task.run('newer:imagemin');
         grunt.task.run('concurrent');
+
+    });
+
+    // SCSS task
+    grunt.registerTask('styles', ' ', function () {
+        grunt.task.run('clean:css');
+        grunt.task.run('sass');
+        grunt.task.run('cssmin');
 
     });
 };
