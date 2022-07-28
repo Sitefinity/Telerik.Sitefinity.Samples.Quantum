@@ -1661,4 +1661,7 @@ a {
   color: white;
   opacity: 0.8; }
 
+.sfWatermark {
+  z-index: 2; }
+
 /*OTHER PAGES STYLES END*/
