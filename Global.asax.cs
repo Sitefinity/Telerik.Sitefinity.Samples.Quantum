@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
+using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using System.Web;
@@ -26,20 +28,19 @@ namespace SitefinityWebApp
         private void Bootstrapper_Bootstrapped(object sender, EventArgs e)
         {
             EventHub.Subscribe<RequestEndEvent>(this.RequestEnd);
-
             Task.Run(() =>
             {
                 SystemManager.RunWithElevatedPrivilege(x =>
                 {
-                    var pageManager = PageManager.GetManager();
+                    var notificationConfigPath = SystemManager.CurrentHttpContext.Server.MapPath(NotificationConfigLocation);
 
-                    var pageNode = pageManager.GetPageNode(SiteInitializer.BackendRootNodeId);
-
-                    if (pageNode != null && pageNode.DateCreated.Year < DateTime.UtcNow.Year)
+                    var jsonString = File.ReadAllText(notificationConfigPath);
+                    var jObject = Newtonsoft.Json.JsonConvert.DeserializeObject(jsonString) as JObject;
+                    if (jObject["StartDate"] == null)
                     {
-                        pageNode.DateCreated = DateTime.UtcNow;
-
-                        pageManager.SaveChanges();
+                        jObject["StartDate"] = DateTime.UtcNow;
+                        var updatedJsonString = jObject.ToString();
+                        File.WriteAllText(notificationConfigPath, updatedJsonString);
                     }
                 });
             });
@@ -63,6 +64,8 @@ namespace SitefinityWebApp
 
             response.Write(watermarkHtml);
         }
+
+        private readonly string NotificationConfigLocation = "~/Sitefinity/Notifications/notifications.json";
 
         private readonly string watermarkHtml =
 @"<style>
