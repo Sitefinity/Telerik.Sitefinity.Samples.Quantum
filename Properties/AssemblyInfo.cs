@@ -8,7 +8,7 @@ using System.Web.UI;
 // associated with an assembly.
 [assembly: AssemblyCompany("Progress")]
 [assembly: AssemblyProduct("Progress Sitefinity CMS")]
-[assembly: AssemblyCopyright("Copyright © 2005-2022 Progress Software Corporation and/or one of its subsidiaries or affiliates. All rights reserved.")]
+[assembly: AssemblyCopyright("Copyright ï¿½ 2005-2022 Progress Software Corporation and/or one of its subsidiaries or affiliates. All rights reserved.")]
 [assembly: AssemblyTrademark("Sitefinity")]
 [assembly: AssemblyTitle("Sitefinity Web Application")]
 [assembly: AssemblyDescription("")]
@@ -30,8 +30,8 @@ using System.Web.UI;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("14.1.7800.0")]
-[assembly: AssemblyFileVersion("14.1.7800.0")]
+[assembly: AssemblyVersion("14.2.7900.0")]
+[assembly: AssemblyFileVersion("14.2.7900.0")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
 [assembly: WebResource("SitefinityWebApp.App_Data.Sitefinity.WebsiteTemplates.Quantum.App_Themes.Quantum.Scripts.quantum.js", "application/x-javascript")]
 
