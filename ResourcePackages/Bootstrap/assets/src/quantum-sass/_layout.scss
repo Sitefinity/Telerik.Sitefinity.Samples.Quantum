@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+    font-size: $font-size-base;
+}
+
 body.main-body {
   font-family: $font-family-body;
   font-size: 18px;

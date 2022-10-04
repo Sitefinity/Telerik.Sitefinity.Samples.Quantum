@@ -23,37 +23,39 @@
     @Html.StyleSheet(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/css/quantum-style.css"), "head")
 </head>
 
-<body class="container-fluid main-body">
-    @Html.Section("top")
-    <div class="sfPublicWrapper" id="PublicWrapper">
-        <header>
-            @Html.SfPlaceHolder("header")
-        </header>
-        <main>
-            @Html.SfPlaceHolder("content")
-        </main>
-        <footer>
-            @Html.SfPlaceHolder("footer")
-        </footer>
+<body>
+    <div class="container-fluid main-body">
+        @Html.Section("top")
+        <div class="sfPublicWrapper" id="PublicWrapper">
+            <header>
+                @Html.SfPlaceHolder("header")
+            </header>
+            <main>
+                @Html.SfPlaceHolder("content")
+            </main>
+            <footer>
+                @Html.SfPlaceHolder("footer")
+            </footer>
+        </div>
+        @Html.Section("bottom")
+
+        @* Inline editing scripts and helpers. They should be available only when inline editing is possible. *@
+        @if (Html.ShouldRenderInlineEditing())
+        {
+            @Html.Script(ScriptRef.MicrosoftAjax, "top")
+            @Html.Script(ScriptRef.MicrosoftAjaxCore, "top")
+            @Html.Script(ScriptRef.JQuery, "top")
+
+            @Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.jquery.ba-outside-events.min.js"), "top")
+            @Html.Script(ScriptRef.KendoAll, "top")
+            @Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.RequireJS.require.min.js"), "top")
+            @Html.InlineEditingManager(false)
+        }
+
+        @if (!SystemManager.IsDesignMode || SystemManager.IsPreviewMode)
+        {
+            @Html.Script(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/js/quantum.js"), "bottom")
+        }
     </div>
-    @Html.Section("bottom")
-
-    @* Inline editing scripts and helpers. They should be available only when inline editing is possible. *@
-    @if (Html.ShouldRenderInlineEditing())
-    {
-        @Html.Script(ScriptRef.MicrosoftAjax, "top")
-        @Html.Script(ScriptRef.MicrosoftAjaxCore, "top")
-        @Html.Script(ScriptRef.JQuery, "top")
-
-        @Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.jquery.ba-outside-events.min.js"), "top")
-        @Html.Script(ScriptRef.KendoAll, "top")
-        @Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.RequireJS.require.min.js"), "top")
-        @Html.InlineEditingManager(false)
-    }
-
-    @if (!SystemManager.IsDesignMode || SystemManager.IsPreviewMode)
-    {
-        @Html.Script(Url.Content("~/ResourcePackages/Bootstrap/assets/dist/js/quantum.js"), "bottom")
-    }
 </body>
 </html>

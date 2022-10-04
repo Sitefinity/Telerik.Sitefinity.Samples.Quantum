@@ -60,6 +60,9 @@ Inherit values from above if necessary.
 * {
   box-sizing: border-box; }
 
+html {
+  font-size: 14px; }
+
 body.main-body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -495,7 +498,7 @@ video {
   padding: 0; }
 
 .mega-menu li {
-  padding: 0.9rem; }
+  padding: 9px; }
 
 .mega-menu a {
   font-size: 16px;
@@ -1658,6 +1661,7 @@ a {
   color: white;
   opacity: 0.8; }
 
-/*OTHER PAGES STYLES END*/
+.sfWatermark {
+  z-index: 2; }
 
-/*# sourceMappingURL=quantum-style.css.map */
+/*OTHER PAGES STYLES END*/
