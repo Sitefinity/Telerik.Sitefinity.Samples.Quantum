@@ -555,9 +555,6 @@
   <data name="refresh_menu_settings_groupsecurity_root" xml:space="preserve">
     <value>Refresh Groups</value>
   </data>
-  <data name="menu_settings_apiaccess_root" xml:space="preserve">
-    <value>Api Access</value>
-  </data>
   <data name="install_app" xml:space="preserve">
     <value>Install App</value>
   </data>
@@ -669,5 +666,4 @@
   <data name="menu_stores_root" xml:space="preserve">
     <value>Stores</value>
   </data>
-  
 </root>

@@ -39,4 +39,4 @@
 
 </script>
 
-<iframe id="UcommerceIFrame" src="/Ucommerce/Vue/index.html#orders" style="width: 100%; border: 0"></iframe>
+<iframe id="UcommerceIFrame" src="/Ucommerce/shell/OrderManager.aspx" style="width: 100%; border: 0"></iframe>

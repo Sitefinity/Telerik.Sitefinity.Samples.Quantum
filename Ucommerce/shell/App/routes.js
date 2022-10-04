@@ -124,11 +124,6 @@
 		//
 		// Orders
 		//
-		.when('/Vue/index.html#orders', {
-                redirectTo: function () {
-				return buildUrl(`Vue/index.html#/orders`);
-                }
-            })
 		.when('/ucommerce/orders/viewordergroup.aspx/:id', {
 			redirectTo: function(routeParameters) {
 				return buildUrl('orders/viewordergroup.aspx?id=' + routeParameters.id);
@@ -352,11 +347,6 @@
 		.when('/ucommerce/information/Error.html/:id', {
 			redirectTo: function (routeParameters) {
 				return constants.webPageBaseUrl + 'information/Error.aspx?#' + routeParameters.id;
-			}
-		})
-		.when('/Vue/index.html#settings/security/api', {
-			redirectTo: function (){
-				return buildUrl('/Vue/index.html#/settings/security/api')
 			}
 		})
 		//Settings search

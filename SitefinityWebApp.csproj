@@ -123,8 +123,26 @@
     <Reference Include="AWSSDK.SQS, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
       <HintPath>packages\AWSSDK.SQS.3.7.1.36\lib\net45\AWSSDK.SQS.dll</HintPath>
     </Reference>
+    <Reference Include="Braintree-2.22.0, Version=2.22.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Braintree.2.22.0\lib\Braintree-2.22.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>packages\Castle.Core.4.4.0\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.AspNet.SystemWeb, Version=5.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>packages\Castle.Facilities.AspNet.SystemWeb.5.0.0\lib\net45\Castle.Facilities.AspNet.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=5.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>packages\Castle.Windsor.5.0.0\lib\net45\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientDependency.Core, Version=1.9.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ClientDependency.1.9.9\lib\net45\ClientDependency.Core.dll</HintPath>
+    </Reference>
     <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
       <HintPath>packages\CsvHelper.2.2.2\lib\net40-client\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Dapper.2.0.30\lib\net461\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="DDay.Collections, Version=1.0.2.25679, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.DDay.iCal.Signed.1.0.2.2\lib\DDay.Collections.dll</HintPath>
@@ -143,6 +161,15 @@
     </Reference>
     <Reference Include="Enyim.Caching, Version=2.16.0.0, Culture=neutral, PublicKeyToken=cec98615db04012e, processorArchitecture=MSIL">
       <HintPath>packages\EnyimMemcached.2.16.0\lib\net35\Enyim.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.1.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>packages\EPPlus.4.1.1\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\FluentNHibernate.2.1.2\lib\net461\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>packages\FluentValidation.8.4.0\lib\net45\FluentValidation.dll</HintPath>
     </Reference>
     <Reference Include="Html2Amp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Progress.Sitefinity.HtmlToAmp.2.0.2\lib\net48\Html2Amp.dll</HintPath>
@@ -167,6 +194,15 @@
     </Reference>
     <Reference Include="IdentityServer3.AccessTokenValidation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Progress.Sitefinity.IdentityServer3.AccessTokenValidation.1.3.1\lib\net45\IdentityServer3.AccessTokenValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>packages\Iesi.Collections.4.0.4\lib\net461\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Licensing, Version=4.7.1.0, Culture=neutral, PublicKeyToken=3e7e8e3744a5c13f, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.9.5.1.21265\lib\net45\Infralution.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="J2N, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f39447d697a969af, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.9.5.1.21265\lib\net45\J2N.dll</HintPath>
     </Reference>
     <Reference Include="LinqToTwitter, Version=2.1.9.0, Culture=neutral, PublicKeyToken=957107be965c25d9, processorArchitecture=MSIL">
       <HintPath>packages\linqtotwitterNET40.2.1.9.0\lib\net40\LinqToTwitter.dll</HintPath>
@@ -374,6 +410,9 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Web.XmlTransform, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.9.5.1.21265\lib\Microsoft.Web.XmlTransform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Sitefinity.Windows.Azure.2.0.0.4\lib\net40\Microsoft.WindowsAzure.Diagnostics.dll</HintPath>
     </Reference>
@@ -401,6 +440,12 @@
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate, Version=5.2.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>packages\NHibernate.5.2.5\lib\net461\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Caches.SysCache, Version=5.5.0.0, Culture=neutral, PublicKeyToken=6876f2ea66c9f443, processorArchitecture=MSIL">
+      <HintPath>packages\NHibernate.Caches.SysCache.5.5.1\lib\net461\NHibernate.Caches.SysCache.dll</HintPath>
+    </Reference>
     <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <HintPath>packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
     </Reference>
@@ -422,8 +467,8 @@
     <Reference Include="PayPal, Version=1.9.1.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
       <HintPath>packages\PayPal.1.9.1\lib\net451\PayPal.dll</HintPath>
     </Reference>
-    <Reference Include="Progress.Sitefinity.Renderer, Version=14.1.7800.48306, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.Renderer.14.1.7800.48306\lib\netstandard2.0\Progress.Sitefinity.Renderer.dll</HintPath>
+    <Reference Include="Progress.Sitefinity.Renderer, Version=14.2.7900.145, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.Renderer.14.2.7900.145\lib\netstandard2.0\Progress.Sitefinity.Renderer.dll</HintPath>
     </Reference>
     <Reference Include="RazorEngine, Version=3.0.8.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
       <HintPath>packages\Sitefinity.RazorEngine.3.0.8.0\lib\net40\RazorEngine.dll</HintPath>
@@ -435,6 +480,12 @@
     <Reference Include="RazorGenerator.Templating, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\RazorGenerator.Templating.2.1.1\lib\net40\RazorGenerator.Templating.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq.EagerFetching, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>packages\Remotion.Linq.EagerFetching.2.2.0\lib\net45\Remotion.Linq.EagerFetching.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack, Version=6.0.0.0, Culture=neutral, PublicKeyToken=02c12cbda47e6587, processorArchitecture=MSIL">
       <HintPath>packages\ServiceStack.6.0.2\lib\net472\ServiceStack.dll</HintPath>
@@ -498,6 +549,9 @@
     <Reference Include="System.Linq.Async, Version=5.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
       <HintPath>packages\System.Linq.Async.5.0.0\lib\net461\System.Linq.Async.dll</HintPath>
     </Reference>
+    <Reference Include="System.Linq.Dynamic, Version=1.0.6132.35681, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\System.Linq.Dynamic.1.0.7\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
     <Reference Include="System.Linq.Expressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Linq.Expressions.4.1.0\lib\net463\System.Linq.Expressions.dll</HintPath>
       <Private>True</Private>
@@ -531,6 +585,7 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Runtime.Remoting" />
     <Reference Include="System.Runtime.Serialization">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
@@ -549,6 +604,7 @@
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="System.Transactions" />
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
@@ -582,6 +638,9 @@
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
@@ -941,8 +1000,59 @@
     <Reference Include="Twitterizer2, Version=2.4.1.27318, Culture=neutral, PublicKeyToken=69d1469eac671567, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.Twitterizer.2.4.1\lib\net40\Twitterizer2.dll</HintPath>
     </Reference>
+    <Reference Include="Ucommerce, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Admin, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Admin.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Api, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Infrastructure, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Installer, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Installer.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.NHibernate, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Pipelines, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Presentation, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Search, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Sitefinity, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.9.5.1.21265\lib\Ucommerce.Sitefinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Sitefinity.Installer, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.9.5.1.21265\lib\Ucommerce.Sitefinity.Installer.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.Sitefinity.UI, Version=0.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.UI.4.0.0.22272\lib\net48\UCommerce.Sitefinity.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.SystemHttp, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.SystemHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.SystemWeb, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.9.5.1.21265\lib\net45\Ucommerce.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Ucommerce.Web.Shell, Version=9.5.1.21265, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.9.5.1.21265\lib\Ucommerce.Web.Shell.dll</HintPath>
+    </Reference>
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
