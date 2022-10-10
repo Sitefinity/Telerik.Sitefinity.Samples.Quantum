@@ -4,14 +4,16 @@ The main purpose of the Quantum project is to provide a real life example of how
 
 The Quantum project is based on few principles:
 
-â€¢ It involves minimum customization done by developers, so that the focus lies on the core features of the CMS 
-â€¢ Pages are built and assembled with the goal to give maximum power to non-technical content editors 
-â€¢ It provides styling best practices, so that designers can use it as a reference and styling example
+• It involves minimum customization done by developers, so that the focus lies on the core features of the CMS 
+• Pages are built and assembled with the goal to give maximum power to non-technical content editors 
+• It provides styling best practices, so that designers can use it as a reference and styling example
 
 Some of the main highlights of the Quantum project include:
 
 - Responsive design
 - Multilingual environment
+- Usage of dynamic modules
+- Native Chat https://www.progress.com/nativechat (Self-service, Smart Automation, Multichannel chat bot)
 - Social media features
 - Personalization
 - Workflows
@@ -21,6 +23,7 @@ Some of the main highlights of the Quantum project include:
 - Forums
 - Usage of dynamic modules
 - Ucommerce Online shop
+- News
 
 ### **Requirements**
 
@@ -68,6 +71,13 @@ To login to the Sitefinity CMS backend, use the following credentials:
 
 The design of the starter kit is based on the Bootstrap resource package(http://docs.sitefinity.com/feather-frontend-packages).
 
+### **.NET Renderer Setup**
+
+1. To setup [the .NET Renderer with the Quantum project](https://github.com/Sitefinity/sitefinity-aspnetcore-mvc-samples/tree/master/src/quantum) follow the [procedure for setup](https://www.progress.com/documentation/sitefinity-cms/setup-the-asp.net-core-renderer).
+2. Download and restore the database as described in the section above(Prerequisites)
+3. Change the name of the database in the connection string to SitefinityQuantumNetCore141.
+4. Run the renderer and navigate to /quantum on the frontend or open it in the backend.
+
 If you hit this error on booting up Sitefinity
 ```
 Could not convert string 'Ucommerce.Sanitization.TextSanitizer, Ucommerce.Sanitization' to a type. Assembly Ucommerce.Sanitization, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null was matched, but it doesn't contain the type. Make sure that the type name was not mistyped.
@@ -106,9 +116,9 @@ Once you [establish a successful connection to Sitefinity Insight](https://www.p
 
 
 
-In addition, any *facets* like color, size, brand, etc. for product related actions are included as *Hierarchies* (or Sitefinity classifications) within the interactionsâ€™ object metadata. This allows you to [define rules](https://www.progress.com/documentation/sitefinity-cms/insight/define-condition-dialog#view-content-with-tag-or-category-rule) in personas that could produce audience that likes the brand *Progress* for example. Such personas could be then used for personalization segments in Sitefinity.
+In addition, any *facets* like color, size, brand, etc. for product related actions are included as *Hierarchies* (or Sitefinity classifications) within the interactions’ object metadata. This allows you to [define rules](https://www.progress.com/documentation/sitefinity-cms/insight/define-condition-dialog#view-content-with-tag-or-category-rule) in personas that could produce audience that likes the brand *Progress* for example. Such personas could be then used for personalization segments in Sitefinity.
 With Sitefinity 14.1 you can also personalize by conversions or touchpoints which might help to cover various scenarios based on above reported data as well.
 
 
 
-On the checkout phase for setting address(es) â€“ Email, FirstName, LastName, Country and CountryISO are reported as [contact related metadata](https://www.progress.com/documentation/sitefinity-cms/insight/contact-profiles#contact-info).
+On the checkout phase for setting address(es) – Email, FirstName, LastName, Country and CountryISO are reported as [contact related metadata](https://www.progress.com/documentation/sitefinity-cms/insight/contact-profiles#contact-info).
