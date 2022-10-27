@@ -1,10 +1,11 @@
 ﻿using System;
+using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Helpers;
+using Newtonsoft.Json.Linq;
 using Telerik.Sitefinity.Abstractions;
-using Telerik.Sitefinity.Modules.Pages;
 using Telerik.Sitefinity.Services;
 
 namespace SitefinityWebApp
@@ -26,20 +27,19 @@ namespace SitefinityWebApp
         private void Bootstrapper_Bootstrapped(object sender, EventArgs e)
         {
             EventHub.Subscribe<RequestEndEvent>(this.RequestEnd);
-
             Task.Run(() =>
             {
                 SystemManager.RunWithElevatedPrivilege(x =>
                 {
-                    var pageManager = PageManager.GetManager();
+                    var notificationConfigPath = SystemManager.CurrentHttpContext.Server.MapPath(NotificationConfigLocation);
 
-                    var pageNode = pageManager.GetPageNode(SiteInitializer.BackendRootNodeId);
-
-                    if (pageNode != null && pageNode.DateCreated.Year < DateTime.UtcNow.Year)
+                    var jsonString = File.ReadAllText(notificationConfigPath);
+                    var jObject = Newtonsoft.Json.JsonConvert.DeserializeObject(jsonString) as JObject;
+                    if (jObject["StartDate"] == null)
                     {
-                        pageNode.DateCreated = DateTime.UtcNow;
-
-                        pageManager.SaveChanges();
+                        jObject["StartDate"] = DateTime.UtcNow;
+                        var updatedJsonString = jObject.ToString();
+                        File.WriteAllText(notificationConfigPath, updatedJsonString);
                     }
                 });
             });
@@ -55,14 +55,22 @@ namespace SitefinityWebApp
             if (response.StatusCode != (int)HttpStatusCode.OK)
                 return;
 
-            if (bool.Parse(SystemManager.CurrentHttpContext.Items[SystemManager.IsBackendRequestKey].ToString()))
+            var contextItems = SystemManager.CurrentHttpContext.Items;
+
+            if (bool.Parse(contextItems[SystemManager.IsBackendRequestKey].ToString()))
                 return;
 
             if (response.Headers["Content-Type"] == null || !response.Headers["Content-Type"].StartsWith("text/html"))
                 return;
 
+            if (contextItems["sf_request_event_operation_Key"].ToString().Contains("/RestApi/Sitefinity/inlineediting") ||
+                contextItems["sf_request_event_operation_Key"].ToString().Contains("/Res/Telerik.Sitefinity.Web.UI.PublicControls.InlineEditing"))
+                return;
+
             response.Write(watermarkHtml);
         }
+
+        private readonly string NotificationConfigLocation = "~/Sitefinity/Notifications/notifications.json";
 
         private readonly string watermarkHtml =
 @"<style>
