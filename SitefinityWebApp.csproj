@@ -135,13 +135,13 @@
     <Reference Include="Castle.Windsor, Version=5.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <HintPath>packages\Castle.Windsor.5.0.0\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
-    <Reference Include="ClientDependency.Core, Version=1.9.9.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL">
+    <Reference Include="ClientDependency.Core, Version=1.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\ClientDependency.1.9.9\lib\net45\ClientDependency.Core.dll</HintPath>
     </Reference>
     <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
       <HintPath>packages\CsvHelper.2.2.2\lib\net40-client\CsvHelper.dll</HintPath>
     </Reference>
-    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL">
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Dapper.2.0.30\lib\net461\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="DDay.Collections, Version=1.0.2.25679, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
@@ -165,7 +165,7 @@
     <Reference Include="EPPlus, Version=4.1.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
       <HintPath>packages\EPPlus.4.1.1\lib\net40\EPPlus.dll</HintPath>
     </Reference>
-    <Reference Include="FluentNHibernate, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL">
+    <Reference Include="FluentNHibernate, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\FluentNHibernate.2.1.2\lib\net461\FluentNHibernate.dll</HintPath>
     </Reference>
     <Reference Include="FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
@@ -439,7 +439,7 @@
       <HintPath>packages\Microsoft.SharePointOnline.CSOM.16.1.20211.12000\lib\net45\Microsoft.SharePoint.Client.WorkflowServices.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Spatial, Version=7.6.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Spatial.7.6.1\lib\netstandard1.1\Microsoft.Spatial.dll</HintPath>
+      <HintPath>packages\Microsoft.Spatial.7.6.1\lib\portable-net45+win8+wpa81\Microsoft.Spatial.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.SqlServer.Types.10.50.1600.1\lib\Net20\Microsoft.SqlServer.Types.dll</HintPath>
@@ -529,7 +529,7 @@
     <Reference Include="ServiceStack.Aws, Version=6.0.0.0, Culture=neutral, PublicKeyToken=02c12cbda47e6587, processorArchitecture=MSIL">
       <HintPath>packages\ServiceStack.Aws.6.1.0\lib\net472\ServiceStack.Aws.dll</HintPath>
     </Reference>
-    <Reference Include="ServiceStack.Caching.Memcached, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL">
+    <Reference Include="ServiceStack.Caching.Memcached, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\ServiceStack.Caching.Memcached.6.1.0\lib\net472\ServiceStack.Caching.Memcached.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Client, Version=6.0.0.0, Culture=neutral, PublicKeyToken=02c12cbda47e6587, processorArchitecture=MSIL">
@@ -588,7 +588,7 @@
     <Reference Include="System.Linq.Async, Version=5.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
       <HintPath>packages\System.Linq.Async.5.0.0\lib\net461\System.Linq.Async.dll</HintPath>
     </Reference>
-    <Reference Include="System.Linq.Dynamic, Version=1.0.6132.35681, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL">
+    <Reference Include="System.Linq.Dynamic, Version=1.0.6132.35681, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\System.Linq.Dynamic.1.0.7\lib\net40\System.Linq.Dynamic.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq.Expressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -966,7 +966,7 @@
       <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Notifications.Impl.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.RecycleBin, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.RecycleBin.14.3.8000\lib\net48\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.RecycleBin.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.RecycleBin.14.3.8000\lib\net48\Telerik.Sitefinity.Services.RecycleBin.Impl.dll</HintPath>
@@ -984,7 +984,7 @@
       <HintPath>packages\Telerik.Sitefinity.SitemapGenerator.14.3.8000\lib\net48\Telerik.Sitefinity.SitemapGenerator.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SiteSync, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.SiteSync.14.3.8000\lib\net48\Telerik.Sitefinity.SiteSync.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.SiteSync.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SiteSync.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.SiteSync.14.3.8000\lib\net48\Telerik.Sitefinity.SiteSync.Impl.dll</HintPath>
@@ -2367,6 +2367,9 @@
   <ItemGroup>
     <Analyzer Include="packages\AWSSDK.CloudSearch.3.7.0\analyzers\dotnet\cs\AWSSDK.CloudSearch.CodeAnalysis.dll" />
     <Analyzer Include="packages\AWSSDK.CloudSearchDomain.3.7.0\analyzers\dotnet\cs\AWSSDK.CloudSearchDomain.CodeAnalysis.dll" />
+    <Analyzer Include="packages\AWSSDK.DynamoDBv2.3.7.3.34\analyzers\dotnet\cs\AWSSDK.DynamoDBv2.CodeAnalysis.dll" />
+    <Analyzer Include="packages\AWSSDK.S3.3.7.9.2\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
+    <Analyzer Include="packages\AWSSDK.SQS.3.7.2.55\analyzers\dotnet\cs\AWSSDK.SQS.CodeAnalysis.dll" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
