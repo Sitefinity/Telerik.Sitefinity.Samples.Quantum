@@ -1079,8 +1079,8 @@
     <Reference Include="Ucommerce.Sitefinity.Installer, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Ucommerce.Sitefinity.9.6.3.22094\lib\Ucommerce.Sitefinity.Installer.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.Sitefinity.UI, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.UI.3.6.1.22103\lib\net48\UCommerce.Sitefinity.UI.dll</HintPath>
+    <Reference Include="UCommerce.Sitefinity.UI, Version=4.0.3.23013, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.UI.4.0.3.23012\lib\net48\UCommerce.Sitefinity.UI.dll</HintPath>
     </Reference>
     <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.6.3.22094, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL">
       <HintPath>packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
@@ -2367,6 +2367,9 @@
   <ItemGroup>
     <Analyzer Include="packages\AWSSDK.CloudSearch.3.7.0\analyzers\dotnet\cs\AWSSDK.CloudSearch.CodeAnalysis.dll" />
     <Analyzer Include="packages\AWSSDK.CloudSearchDomain.3.7.0\analyzers\dotnet\cs\AWSSDK.CloudSearchDomain.CodeAnalysis.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="OpenAccessNuget.targets" />
