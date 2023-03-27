@@ -8,9 +8,11 @@
 @using Telerik.Sitefinity.UI.MVC;
 @using Telerik.Sitefinity.Utilities;
 @using Telerik.Sitefinity.Services;
+@using Telerik.Sitefinity.Web.Utilities;
+
 @Html.Script(ScriptRef.JQuery, "top", true)
-@Html.Script("//ajax.aspnetcdn.com/ajax/jquery.validate/1.19.3/jquery.validate.js", "top", true)
-@Html.Script("//ajax.aspnetcdn.com/ajax/mvc/4.0/jquery.validate.unobtrusive.min.js", "top", true)
+@Html.Script("//ajax.aspnetcdn.com/ajax/jquery.validate/1.19.3/jquery.validate.js", "top", true, new List<KeyValuePair<string, string>>() { HtmlConstants.CrossOriginHtmlAttribute })
+@Html.Script("//ajax.aspnetcdn.com/ajax/mvc/4.0/jquery.validate.unobtrusive.min.js", "top", true, new List<KeyValuePair<string, string>>() { HtmlConstants.CrossOriginHtmlAttribute })
 <div class="@Model.CssClass">
     <h3>@Html.Resource("EditProfileLink")</h3>
     @if (Model.ShowProfileChangedMsg)
@@ -119,7 +121,7 @@
                 {
                     <button data-sf-role="profile-submit" type="submit" class="btn btn-primary">@Html.Resource("EditProfileSave")</button>
                 }
-
+                @Html.AddSitefinityAntiforgeryToken()
                 @if (SystemManager.IsPreviewMode)
                 {
                     <div class="text-danger" role="alert" aria-live="assertive" data-sf-role="profile-submit-preview-message" style="display:none">
