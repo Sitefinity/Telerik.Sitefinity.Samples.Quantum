@@ -1,0 +1,284 @@
+/*! ./arrayLikeToArray.js */
+
+/*! ./arrayWithHoles.js */
+
+/*! ./arrayWithoutHoles.js */
+
+/*! ./assertThisInitialized.js */
+
+/*! ./construct.js */
+
+/*! ./getPrototypeOf.js */
+
+/*! ./isNativeFunction.js */
+
+/*! ./isNativeReflectConstruct.js */
+
+/*! ./iterableToArray.js */
+
+/*! ./iterableToArrayLimit.js */
+
+/*! ./node_modules/@babel/runtime/helpers/classCallCheck.js */
+
+/*! ./node_modules/@babel/runtime/helpers/createClass.js */
+
+/*! ./node_modules/@babel/runtime/helpers/createForOfIteratorHelper.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/construct.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/createSuper.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/get.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/inherits.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/toArray.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js */
+
+/*! ./node_modules/@babel/runtime/helpers/esm/wrapNativeSuper.js */
+
+/*! ./nonIterableRest.js */
+
+/*! ./nonIterableSpread.js */
+
+/*! ./possibleConstructorReturn.js */
+
+/*! ./setPrototypeOf.js */
+
+/*! ./superPropBase.js */
+
+/*! ./typeof.js */
+
+/*! ./unsupportedIterableToArray.js */
+
+/*! @angular/compiler */
+
+/*! @angular/localize */
+
+/*! @angular/localize/init */
+
+/*! @webcomponents/custom-elements/custom-elements.min */
+
+/*! @webcomponents/custom-elements/src/native-shim */
+
+/*! @webcomponents/webcomponents-platform/webcomponents-platform.js */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/*! zone.js */
+
+/*!**************************!*\
+  !*** ./src/polyfills.ts ***!
+  \**************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/zone.js/fesm2015/zone.js ***!
+  \***********************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/get.js ***!
+  \********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/@angular/localize/fesm2015/init.mjs ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/typeof.js ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/createClass.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/toArray.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/inherits.js ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/compiler/fesm2015/compiler.mjs ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/localize/fesm2015/localize.mjs ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/construct.js ***!
+  \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/classCallCheck.js ***!
+  \***************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/createClass.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/createSuper.js ***!
+  \****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
+  \*****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/superPropBase.js ***!
+  \******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/wrapNativeSuper.js ***!
+  \********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/isNativeFunction.js ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js ***!
+  \**********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@webcomponents/custom-elements/src/native-shim.js ***!
+  \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js ***!
+  \*************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/createForOfIteratorHelper.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/@webcomponents/custom-elements/custom-elements.min.js ***!
+  \****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/isNativeReflectConstruct.js ***!
+  \*****************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js ***!
+  \******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js ***!
+  \*******************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@webcomponents/webcomponents-platform/webcomponents-platform.js ***!
+  \**************************************************************************************/
+
+/**
+ * @license
+ * Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+ * This code may only be used under the BSD style license found at
+ * http://polymer.github.io/LICENSE.txt The complete set of authors may be found
+ * at http://polymer.github.io/AUTHORS.txt The complete set of contributors may
+ * be found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by
+ * Google as part of the polymer project is also subject to an additional IP
+ * rights grant found at http://polymer.github.io/PATENTS.txt
+ */
+
+/**
+ * @license
+ * Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+ * This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+ * The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+ * The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+ * Code distributed by Google as part of the polymer project is also
+ * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+ */
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+/**
+ * @license Angular v14.0.5
+ * (c) 2010-2022 Google LLC. https://angular.io/
+ * License: MIT
+ */
+
+/**
+ * @license Angular v14.2.0-next.0
+ * (c) 2010-2022 Google LLC. https://angular.io/
+ * License: MIT
+ */

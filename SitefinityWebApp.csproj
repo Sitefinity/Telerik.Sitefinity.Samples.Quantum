@@ -82,8 +82,8 @@
     <Reference Include="AngleSharp, Version=0.17.1.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
       <HintPath>packages\AngleSharp.0.17.1\lib\net472\AngleSharp.dll</HintPath>
     </Reference>
-    <Reference Include="AngleSharp.Css, Version=0.16.4.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
-      <HintPath>packages\AngleSharp.Css.0.16.4\lib\net472\AngleSharp.Css.dll</HintPath>
+    <Reference Include="AngleSharp.Css, Version=0.17.0.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
+      <HintPath>packages\AngleSharp.Css.0.17.0\lib\net472\AngleSharp.Css.dll</HintPath>
     </Reference>
     <Reference Include="AntiXssLibrary, Version=4.3.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
       <HintPath>packages\AntiXSS.4.3.0\lib\net40\AntiXssLibrary.dll</HintPath>
@@ -115,6 +115,12 @@
     <Reference Include="AWSSDK.SQS, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
       <HintPath>packages\AWSSDK.SQS.3.7.2.55\lib\net45\AWSSDK.SQS.dll</HintPath>
     </Reference>
+    <Reference Include="Azure.Core, Version=1.25.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
+      <HintPath>packages\Azure.Core.1.25.0\lib\net461\Azure.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Search.Documents, Version=11.4.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
+      <HintPath>packages\Azure.Search.Documents.11.4.0\lib\netstandard2.0\Azure.Search.Documents.dll</HintPath>
+    </Reference>
     <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
       <HintPath>packages\CsvHelper.2.2.2\lib\net40-client\CsvHelper.dll</HintPath>
     </Reference>
@@ -137,16 +143,16 @@
       <HintPath>packages\EnyimMemcached.2.16.0\lib\net35\Enyim.Caching.dll</HintPath>
     </Reference>
     <Reference Include="GraphQL, Version=5.1.1.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.GraphQL.14.3.8000\lib\net48\GraphQL.dll</HintPath>
+      <HintPath>packages\Progress.Sitefinity.GraphQL.14.4.8100\lib\net48\GraphQL.dll</HintPath>
     </Reference>
     <Reference Include="GraphQL.DataLoader, Version=5.1.1.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.GraphQL.14.3.8000\lib\net48\GraphQL.DataLoader.dll</HintPath>
+      <HintPath>packages\Progress.Sitefinity.GraphQL.14.4.8100\lib\net48\GraphQL.DataLoader.dll</HintPath>
     </Reference>
     <Reference Include="GraphQL.NewtonsoftJson, Version=5.1.1.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.GraphQL.14.3.8000\lib\net48\GraphQL.NewtonsoftJson.dll</HintPath>
+      <HintPath>packages\Progress.Sitefinity.GraphQL.14.4.8100\lib\net48\GraphQL.NewtonsoftJson.dll</HintPath>
     </Reference>
     <Reference Include="GraphQLParser, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.GraphQL.14.3.8000\lib\net48\GraphQLParser.dll</HintPath>
+      <HintPath>packages\Progress.Sitefinity.GraphQL.14.4.8100\lib\net48\GraphQLParser.dll</HintPath>
     </Reference>
     <Reference Include="Html2Amp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>packages\Progress.Sitefinity.HtmlToAmp.2.0.2\lib\net48\Html2Amp.dll</HintPath>
@@ -157,8 +163,8 @@
     <Reference Include="HtmlSanitizationLibrary, Version=4.3.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
       <HintPath>packages\AntiXSS.4.3.0\lib\net40\HtmlSanitizationLibrary.dll</HintPath>
     </Reference>
-    <Reference Include="HtmlSanitizer, Version=7.0.0.0, Culture=neutral, PublicKeyToken=61c49a1a9e79cc28, processorArchitecture=MSIL">
-      <HintPath>packages\HtmlSanitizer.7.1.542\lib\net461\HtmlSanitizer.dll</HintPath>
+    <Reference Include="HtmlSanitizer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=61c49a1a9e79cc28, processorArchitecture=MSIL">
+      <HintPath>packages\HtmlSanitizer.8.0.645\lib\net461\HtmlSanitizer.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=1.3.3.11, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>packages\SharpZipLib.1.3.3\lib\net45\ICSharpCode.SharpZipLib.dll</HintPath>
@@ -219,18 +225,6 @@
     </Reference>
     <Reference Include="Microsoft.Azure.KeyVault.Core, Version=3.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Azure.KeyVault.Core.3.0.5\lib\net461\Microsoft.Azure.KeyVault.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Search, Version=10.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Azure.Search.10.1.0\lib\net461\Microsoft.Azure.Search.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Search.Common, Version=10.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Azure.Search.Common.10.1.0\lib\net461\Microsoft.Azure.Search.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Search.Data, Version=10.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Azure.Search.Data.10.1.0\lib\net461\Microsoft.Azure.Search.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.Search.Service, Version=10.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Azure.Search.Service.10.1.0\lib\net461\Microsoft.Azure.Search.Service.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
@@ -450,8 +444,8 @@
     <Reference Include="PayPal, Version=1.9.1.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
       <HintPath>packages\PayPal.1.9.1\lib\net451\PayPal.dll</HintPath>
     </Reference>
-    <Reference Include="Progress.Sitefinity.Renderer, Version=14.3.8000.269, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.Renderer.14.3.8000.269\lib\netstandard2.0\Progress.Sitefinity.Renderer.dll</HintPath>
+    <Reference Include="Progress.Sitefinity.Renderer, Version=14.4.8100.439, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.Renderer.14.4.8100.439\lib\netstandard2.0\Progress.Sitefinity.Renderer.dll</HintPath>
     </Reference>
     <Reference Include="RazorEngine, Version=3.0.8.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
       <HintPath>packages\Sitefinity.RazorEngine.3.0.8.0\lib\net40\RazorEngine.dll</HintPath>
@@ -502,9 +496,13 @@
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
+    <Reference Include="System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Collections.Immutable.7.0.0\lib\net462\System.Collections.Immutable.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
     </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -531,19 +529,24 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory.Data, Version=1.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.Data.1.0.2\lib\net461\System.Memory.Data.dll</HintPath>
     </Reference>
     <Reference Include="System.Net" />
-    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Numerics.Vectors" />
     <Reference Include="System.Reflection, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Reflection.4.1.0\lib\net462\System.Reflection.dll</HintPath>
       <Private>True</Private>
@@ -559,10 +562,35 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Runtime.Serialization">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Activities" />
     <Reference Include="System.ServiceModel.Channels" />
@@ -573,7 +601,16 @@
     <Reference Include="System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
     </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.4.7.2\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Threading" />
+    <Reference Include="System.Threading.Channels, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Channels.4.7.1\lib\net461\System.Threading.Channels.dll</HintPath>
+    </Reference>
     <Reference Include="System.Threading.Tasks" />
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
@@ -708,270 +745,267 @@
     <Reference Include="Telerik.ReportViewer.WebForms, Version=7.1.13.612, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.Reporting.Controls.7.1.13.612\lib\net40\Telerik.ReportViewer.WebForms.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.ABTesting, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.ABTesting.14.3.8000\lib\net48\Telerik.Sitefinity.ABTesting.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.ABTesting, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.ABTesting.14.4.8100\lib\net48\Telerik.Sitefinity.ABTesting.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.AdminBridge, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.AdminBridge.14.3.8000\lib\net48\Telerik.Sitefinity.AdminBridge.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.AdminBridge, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.AdminBridge.14.4.8100\lib\net48\Telerik.Sitefinity.AdminBridge.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Amazon, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Amazon.14.3.8000\lib\net48\Telerik.Sitefinity.Amazon.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Amazon, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Amazon.14.4.8100\lib\net48\Telerik.Sitefinity.Amazon.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Analytics.Server.Infrastructure, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Analytics.14.3.8000\lib\net48\Telerik.Sitefinity.Analytics.Server.Infrastructure.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Audit.Elasticsearch, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Audit.Elasticsearch.14.4.8100\lib\net48\Telerik.Sitefinity.Audit.Elasticsearch.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Audit.Elasticsearch, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Audit.Elasticsearch.14.3.8000\lib\net48\Telerik.Sitefinity.Audit.Elasticsearch.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.AuditTrail, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.AuditTrail.14.4.8100\lib\net48\Telerik.Sitefinity.AuditTrail.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.AuditTrail, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.AuditTrail.14.3.8000\lib\net48\Telerik.Sitefinity.AuditTrail.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Authentication, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.Authentication.14.4.8100\lib\net48\Telerik.Sitefinity.Authentication.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Authentication, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.Authentication.14.3.8000\lib\net48\Telerik.Sitefinity.Authentication.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Azure, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Azure.14.4.8100\lib\net48\Telerik.Sitefinity.Azure.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Azure, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Azure.14.3.8000\lib\net48\Telerik.Sitefinity.Azure.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Connectivity, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Connectivity.14.4.8100\lib\net48\Telerik.Sitefinity.Connectivity.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Connectivity, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Connectivity.14.3.8000\lib\net48\Telerik.Sitefinity.Connectivity.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.ContentModules, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Content.14.4.8100\lib\net48\Telerik.Sitefinity.ContentModules.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.ContentModules, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Content.14.3.8000\lib\net48\Telerik.Sitefinity.ContentModules.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Dashboard, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Dashboard.14.4.8100\lib\net48\Telerik.Sitefinity.Dashboard.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Dashboard, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Dashboard.14.3.8000\lib\net48\Telerik.Sitefinity.Dashboard.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.DataIntelligenceConnector, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.DigitalExperienceCloudConnector.14.4.8100\lib\net48\Telerik.Sitefinity.DataIntelligenceConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.DataIntelligenceConnector, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.DigitalExperienceCloudConnector.14.3.8000\lib\net48\Telerik.Sitefinity.DataIntelligenceConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Diagnostics, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Diagnostics.14.4.8100\lib\net48\Telerik.Sitefinity.Diagnostics.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Diagnostics, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Diagnostics.14.3.8000\lib\net48\Telerik.Sitefinity.Diagnostics.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.EloquaConnector, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.EloquaConnector.14.4.8100\lib\net48\Telerik.Sitefinity.EloquaConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.EloquaConnector, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.EloquaConnector.14.3.8000\lib\net48\Telerik.Sitefinity.EloquaConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Forums, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.Forums.14.4.8100\lib\net48\Telerik.Sitefinity.Forums.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Forums, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.Forums.14.3.8000\lib\net48\Telerik.Sitefinity.Forums.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Blogs, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Blogs.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Blogs, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Blogs.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Card, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Card.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Card, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Card.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Comments, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Comments.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Comments, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Comments.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.ContentBlock, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.ContentBlock.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.ContentBlock, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.ContentBlock.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Data, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Data, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Data.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.DynamicContent, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.DynamicContent.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.DynamicContent, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.DynamicContent.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.EmailCampaigns, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.EmailCampaigns.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.EmailCampaigns, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.EmailCampaigns.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Events, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Events.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Events, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Events.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Forms, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Forms, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Forms.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Identity, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Identity.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Identity, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Identity.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.InlineClientAssets, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.InlineClientAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.InlineClientAssets, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.InlineClientAssets.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Lists, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Lists.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Lists, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Lists.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Media, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Media.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Media, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Media.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Navigation, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Navigation.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Navigation, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Navigation.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.News, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.News.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.News, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.News.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Publishing, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Publishing.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Publishing, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Publishing.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Recommendations, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Recommendations.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Recommendations, Version=14.3.8000.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Recommendations.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Search, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Search.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Search, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Search.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Frontend.Taxonomies, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Feather.14.4.8100\lib\net48\Telerik.Sitefinity.Frontend.Taxonomies.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Frontend.Taxonomies, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Feather.14.3.8000\lib\net48\Telerik.Sitefinity.Frontend.Taxonomies.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.GraphQL, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.GraphQL.14.4.8100\lib\net48\Telerik.Sitefinity.GraphQL.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.GraphQL, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.GraphQL.14.3.8000\lib\net48\Telerik.Sitefinity.GraphQL.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.HubSpotConnector, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.HubSpotConnector.14.4.8100\lib\net48\Telerik.Sitefinity.HubSpotConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.HubSpotConnector, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.HubSpotConnector.14.3.8000\lib\net48\Telerik.Sitefinity.HubSpotConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Libraries.WebP, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.Libraries.WebP.14.4.8100\lib\net48\Telerik.Sitefinity.Libraries.WebP.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Libraries.WebP, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.Libraries.WebP.14.3.8000\lib\net48\Telerik.Sitefinity.Libraries.WebP.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.MarketoConnector, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.MarketoConnector.14.4.8100\lib\net48\Telerik.Sitefinity.MarketoConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.MarketoConnector, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.MarketoConnector.14.3.8000\lib\net48\Telerik.Sitefinity.MarketoConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.MobileFormats, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.MobileFormats.14.4.8100\lib\net48\Telerik.Sitefinity.MobileFormats.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.MobileFormats, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.MobileFormats.14.3.8000\lib\net48\Telerik.Sitefinity.MobileFormats.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Model, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Model.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Model, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Model.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Mvc, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Mvc.14.4.8100\lib\net48\Telerik.Sitefinity.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Mvc, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Mvc.14.3.8000\lib\net48\Telerik.Sitefinity.Mvc.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.NativeChatConnector, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.NativeChatConnector.14.4.8100\lib\net48\Telerik.Sitefinity.NativeChatConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.NativeChatConnector, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.NativeChatConnector.14.3.8000\lib\net48\Telerik.Sitefinity.NativeChatConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Packaging, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Packaging.14.4.8100\lib\net48\Telerik.Sitefinity.Packaging.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Packaging, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Packaging.14.3.8000\lib\net48\Telerik.Sitefinity.Packaging.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Personalization, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Personalization.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Personalization, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Personalization.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Personalization.Impl, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.4.8100\lib\net48\Telerik.Sitefinity.Personalization.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Personalization.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.3.8000\lib\net48\Telerik.Sitefinity.Personalization.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.PrecompiledPages.Backend.0, Version=14.4.8100.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.PrecompiledPages.Backend.14.4.8100\lib\net48\Telerik.Sitefinity.PrecompiledPages.Backend.0.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.PrecompiledPages.Backend.0, Version=14.3.8000.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.PrecompiledPages.Backend.14.3.8000\lib\net48\Telerik.Sitefinity.PrecompiledPages.Backend.0.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.PrecompiledTemplates, Version=14.4.8100.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.PrecompiledTemplates.14.4.8100\lib\net48\Telerik.Sitefinity.PrecompiledTemplates.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.PrecompiledTemplates, Version=14.3.8000.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.PrecompiledTemplates.14.3.8000\lib\net48\Telerik.Sitefinity.PrecompiledTemplates.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.RecurrentRules, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Content.14.4.8100\lib\net48\Telerik.Sitefinity.RecurrentRules.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.RecurrentRules, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Content.14.3.8000\lib\net48\Telerik.Sitefinity.RecurrentRules.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.RecycleBin, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.RecycleBin.14.4.8100\lib\net48\Telerik.Sitefinity.RecycleBin.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.RecycleBin, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.RecycleBin.14.3.8000\lib\net48\Telerik.Sitefinity.RecycleBin.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.Sitefinity.Resources, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+    <Reference Include="Telerik.Sitefinity.Resources, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Resources.dll</HintPath>
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Resources.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.SalesForceConnector, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.SalesForceConnector.14.3.8000\lib\net48\Telerik.Sitefinity.SalesForceConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.SalesForceConnector, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.SalesForceConnector.14.4.8100\lib\net48\Telerik.Sitefinity.SalesForceConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Search, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Search.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Search, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Search.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Search.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.3.8000\lib\net48\Telerik.Sitefinity.Search.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Search.Impl, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.4.8100\lib\net48\Telerik.Sitefinity.Search.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.Comments, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Comments.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.Comments, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Services.Comments.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.Comments.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Comments.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.Comments.Impl, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.4.8100\lib\net48\Telerik.Sitefinity.Services.Comments.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.Documents, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Documents.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.Documents, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Services.Documents.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.Documents.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Documents.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.Documents.Impl, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.4.8100\lib\net48\Telerik.Sitefinity.Services.Documents.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.Events, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Events.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.Events, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Services.Events.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.Notifications, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.Notifications, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.Notifications.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Notifications.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.Notifications.Impl, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.4.8100\lib\net48\Telerik.Sitefinity.Services.Notifications.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.RecycleBin, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.RecycleBin.14.3.8000\lib\net48\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.RecycleBin, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.RecycleBin.14.4.8100\lib\net48\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.RecycleBin.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.RecycleBin.14.3.8000\lib\net48\Telerik.Sitefinity.Services.RecycleBin.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.RecycleBin.Impl, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.RecycleBin.14.4.8100\lib\net48\Telerik.Sitefinity.Services.RecycleBin.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.Statistics, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.Statistics, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.Statistics.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.3.8000\lib\net48\Telerik.Sitefinity.Services.Statistics.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.Statistics.Impl, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.ServicesImpl.14.4.8100\lib\net48\Telerik.Sitefinity.Services.Statistics.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.SharepointConnector, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.SharepointConnector.14.3.8000\lib\net48\Telerik.Sitefinity.SharepointConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.SharepointConnector, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.SharepointConnector.14.4.8100\lib\net48\Telerik.Sitefinity.SharepointConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.SitemapGenerator, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.SitemapGenerator.14.3.8000\lib\net48\Telerik.Sitefinity.SitemapGenerator.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.SitemapGenerator, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.SitemapGenerator.14.4.8100\lib\net48\Telerik.Sitefinity.SitemapGenerator.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.SiteSync, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.SiteSync.14.3.8000\lib\net48\Telerik.Sitefinity.SiteSync.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.SiteSync, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.SiteSync.14.4.8100\lib\net48\Telerik.Sitefinity.SiteSync.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.SiteSync.Impl, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.SiteSync.14.3.8000\lib\net48\Telerik.Sitefinity.SiteSync.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.SiteSync.Impl, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.SiteSync.14.4.8100\lib\net48\Telerik.Sitefinity.SiteSync.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Translations, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Translations.14.3.8000\lib\net48\Telerik.Sitefinity.Translations.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Translations, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Translations.14.4.8100\lib\net48\Telerik.Sitefinity.Translations.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Utilities, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Core.14.3.8000\lib\net48\Telerik.Sitefinity.Utilities.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Utilities, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Core.14.4.8100\lib\net48\Telerik.Sitefinity.Utilities.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Web.Api, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Sitefinity.Web.Services.14.3.8000\lib\net48\Telerik.Sitefinity.Web.Api.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Web.Api, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Sitefinity.Web.Services.14.4.8100\lib\net48\Telerik.Sitefinity.Web.Api.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.WebSecurity, Version=14.3.8000.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>packages\Progress.Sitefinity.WebSecurity.14.3.8000\lib\net48\Telerik.Sitefinity.WebSecurity.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.WebSecurity, Version=14.4.8100.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>packages\Progress.Sitefinity.WebSecurity.14.4.8100\lib\net48\Telerik.Sitefinity.WebSecurity.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.Design, Version=2022.2.622.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Web.UI.2022.2.622.45\lib\net45\Telerik.Web.Design.dll</HintPath>
+    <Reference Include="Telerik.Web.Design, Version=2023.1.117.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Web.UI.2023.1.117.45\lib\net45\Telerik.Web.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.Spreadsheet, Version=2022.2.621.0, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Web.UI.2022.2.622.45\lib\net45\Telerik.Web.Spreadsheet.dll</HintPath>
+    <Reference Include="Telerik.Web.Spreadsheet, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Web.UI.2023.1.117.45\lib\net45\Telerik.Web.Spreadsheet.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.UI, Version=2022.2.622.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Web.UI.2022.2.622.45\lib\net45\Telerik.Web.UI.dll</HintPath>
+    <Reference Include="Telerik.Web.UI, Version=2023.1.117.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Web.UI.2023.1.117.45\lib\net45\Telerik.Web.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.UI.Skins, Version=2022.2.622.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Web.UI.2022.2.622.45\lib\net45\Telerik.Web.UI.Skins.dll</HintPath>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2023.1.117.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Web.UI.2023.1.117.45\lib\net45\Telerik.Web.UI.Skins.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Controls, Version=2022.2.621.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Controls.2022.2.621.45\lib\net45\Telerik.Windows.Controls.dll</HintPath>
+    <Reference Include="Telerik.Windows.Controls, Version=2023.1.123.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Controls.2023.1.123.45\lib\net45\Telerik.Windows.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Data, Version=2022.2.621.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Data.2022.2.621.45\lib\net45\Telerik.Windows.Data.dll</HintPath>
+    <Reference Include="Telerik.Windows.Data, Version=2023.1.123.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Data.2023.1.123.45\lib\net45\Telerik.Windows.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Documents, Version=2022.2.621.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Documents.2022.2.621.45\lib\net45\Telerik.Windows.Documents.dll</HintPath>
+    <Reference Include="Telerik.Windows.Documents, Version=2023.1.123.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Documents.2023.1.123.45\lib\net45\Telerik.Windows.Documents.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Documents.Core, Version=2022.2.613.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Documents.Core.2022.2.613.40\lib\net45\Telerik.Windows.Documents.Core.dll</HintPath>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2023.1.123.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Documents.Core.2023.1.123.40\lib\net45\Telerik.Windows.Documents.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Documents.Fixed, Version=2022.2.613.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Documents.Fixed.2022.2.613.40\lib\net45\Telerik.Windows.Documents.Fixed.dll</HintPath>
+    <Reference Include="Telerik.Windows.Documents.Fixed, Version=2023.1.123.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Documents.Fixed.2023.1.123.40\lib\net45\Telerik.Windows.Documents.Fixed.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Documents.Flow, Version=2022.2.613.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Documents.Flow.2022.2.613.40\lib\net45\Telerik.Windows.Documents.Flow.dll</HintPath>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2023.1.123.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Documents.Flow.2023.1.123.40\lib\net45\Telerik.Windows.Documents.Flow.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Documents.FormatProviders.Html, Version=2022.2.621.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Documents.FormatProviders.Html.2022.2.621.45\lib\net45\Telerik.Windows.Documents.FormatProviders.Html.dll</HintPath>
+    <Reference Include="Telerik.Windows.Documents.FormatProviders.Html, Version=2023.1.123.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Documents.FormatProviders.Html.2023.1.123.45\lib\net45\Telerik.Windows.Documents.FormatProviders.Html.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Documents.FormatProviders.OpenXml, Version=2022.2.621.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Documents.FormatProviders.OpenXml.2022.2.621.45\lib\net45\Telerik.Windows.Documents.FormatProviders.OpenXml.dll</HintPath>
+    <Reference Include="Telerik.Windows.Documents.FormatProviders.OpenXml, Version=2023.1.123.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Documents.FormatProviders.OpenXml.2023.1.123.45\lib\net45\Telerik.Windows.Documents.FormatProviders.OpenXml.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Documents.FormatProviders.Rtf, Version=2022.2.621.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Documents.FormatProviders.Rtf.2022.2.621.45\lib\net45\Telerik.Windows.Documents.FormatProviders.Rtf.dll</HintPath>
+    <Reference Include="Telerik.Windows.Documents.FormatProviders.Rtf, Version=2023.1.123.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Documents.FormatProviders.Rtf.2023.1.123.45\lib\net45\Telerik.Windows.Documents.FormatProviders.Rtf.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Windows.Zip, Version=2022.2.613.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
-      <HintPath>packages\Telerik.Windows.Zip.2022.2.613.40\lib\net45\Telerik.Windows.Zip.dll</HintPath>
+    <Reference Include="Telerik.Windows.Zip, Version=2023.1.123.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>packages\Telerik.Windows.Zip.2023.1.123.40\lib\net45\Telerik.Windows.Zip.dll</HintPath>
     </Reference>
     <Reference Include="Twitterizer2, Version=2.4.1.27318, Culture=neutral, PublicKeyToken=69d1469eac671567, processorArchitecture=MSIL">
       <HintPath>packages\Telerik.Sitefinity.Twitterizer.2.4.1\lib\net40\Twitterizer2.dll</HintPath>
@@ -993,9 +1027,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".nuget\nuget.exe" />
-    <Content Include="AdminApp\assets\auth\oidc-client.min.js" />
-    <Content Include="AdminApp\assets\auth\silent-renew.html" />
-    <Content Include="AdminApp\assets\auth\silent-renew.js" />
     <Content Include="AdminApp\assets\fonts\font-awesome\fontawesome-webfont.svg" />
     <Content Include="AdminApp\assets\icons\apple-touch-icon-114x114.png" />
     <Content Include="AdminApp\assets\icons\apple-touch-icon-120x120.png" />
@@ -1023,10 +1054,9 @@
     <Content Include="AdminApp\assets\images\selectors-sprite.svg" />
     <Content Include="AdminApp\assets\images\sfLoadingData.gif" />
     <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js" />
-    <Content Include="AdminApp\common.5e4c29a799264e72.js" />
-    <Content Include="AdminApp\common.5e4c29a799264e72.js.LICENSE.txt" />
+    <Content Include="AdminApp\common.eef3335ecc583a6b.js" />
+    <Content Include="AdminApp\common.eef3335ecc583a6b.js.LICENSE.txt" />
     <Content Include="AdminApp\elements.3064df6786e9bade0507.bundle.js" />
-    <Content Include="AdminApp\elements.a85711ea11856d993dd8.bundle.js" />
     <Content Include="AdminApp\elements.c3780ef743d662668313.bundle.js" />
     <Content Include="AdminApp\favicon.ico" />
     <Content Include="AdminApp\forms-forms-module.37e68d070798e3dc5fb7.js" />
@@ -1038,12 +1068,12 @@
     <Content Include="AdminApp\main.06e08b6aa62883de.js" />
     <Content Include="AdminApp\main.21bb621178493290ce1d.js" />
     <Content Include="AdminApp\main.21bb621178493290ce1d.js.LICENSE.txt" />
+    <Content Include="AdminApp\main.4feaf9cab55e51a2.js" />
+    <Content Include="AdminApp\main.4feaf9cab55e51a2.js.LICENSE.txt" />
     <Content Include="AdminApp\main.5bf9e9d5d537428d5523.js" />
     <Content Include="AdminApp\main.5bf9e9d5d537428d5523.js.LICENSE.txt" />
     <Content Include="AdminApp\main.d68d3bfc769183ae869d.js" />
     <Content Include="AdminApp\main.d68d3bfc769183ae869d.js.LICENSE.txt" />
-    <Content Include="AdminApp\main.e71eed41c146e3d5.js" />
-    <Content Include="AdminApp\main.e71eed41c146e3d5.js.LICENSE.txt" />
     <Content Include="AdminApp\modules-integrations-integrations-module.009fcdce1b99759d398c.js" />
     <Content Include="AdminApp\modules-integrations-integrations-module.009fcdce1b99759d398c.js.LICENSE.txt" />
     <Content Include="AdminApp\monaco\css.worker.b88e577de9b5353e33b3224ca8091a02.js" />
@@ -1054,192 +1084,192 @@
     <Content Include="AdminApp\monaco\html.worker.c89a6fc8bfef83c467ee5478f74c1074.js.LICENSE.txt" />
     <Content Include="AdminApp\monaco\json.worker.45f3c3adcdc8d6af58f790cbcba161f6.js" />
     <Content Include="AdminApp\monaco\json.worker.45f3c3adcdc8d6af58f790cbcba161f6.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_abap_abap_js.aca5cea6d73209af.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_abap_abap_js.aca5cea6d73209af.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_apex_apex_js.837a722e47783ed1.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_apex_apex_js.837a722e47783ed1.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_azcli_azcli_js.492753451bfc6907.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_azcli_azcli_js.492753451bfc6907.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bat_bat_js.6be5945d53058928.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bat_bat_js.6be5945d53058928.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bicep_bicep_js.5d8d9070bbb12ed0.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bicep_bicep_js.5d8d9070bbb12ed0.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cameligo_cameligo_js.c5dae3d630757024.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cameligo_cameligo_js.c5dae3d630757024.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_clojure_clojure_js.6e8928ad14ba3d04.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_clojure_clojure_js.6e8928ad14ba3d04.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_coffee_coffee_js.09ef267450831074.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_coffee_coffee_js.09ef267450831074.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cpp_cpp_js.ab10449e018d7ecb.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cpp_cpp_js.ab10449e018d7ecb.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csharp_csharp_js.2a3c79ba4a9c44cb.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csharp_csharp_js.2a3c79ba4a9c44cb.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csp_csp_js.adceefa3ffa39111.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csp_csp_js.adceefa3ffa39111.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_css_css_js.caf2a8e5f7d52d9f.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_css_css_js.caf2a8e5f7d52d9f.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dart_dart_js.586771fc1fb0b6a7.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dart_dart_js.586771fc1fb0b6a7.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dockerfile_dockerfile_js.370d943f1ca0bda4.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dockerfile_dockerfile_js.370d943f1ca0bda4.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ecl_ecl_js.62576bae4572138b.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ecl_ecl_js.62576bae4572138b.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_elixir_elixir_js.5da83fe933dc1d43.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_elixir_elixir_js.5da83fe933dc1d43.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_flow9_flow9_js.c15892f8e4bbaa44.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_flow9_flow9_js.c15892f8e4bbaa44.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_freemarker2_freemarker2_js.46ed3a54f559c862.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_freemarker2_freemarker2_js.46ed3a54f559c862.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_fsharp_fsharp_js.d2dbd0a905af7924.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_fsharp_fsharp_js.d2dbd0a905af7924.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_go_go_js.57d3c3e3d025fa2e.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_go_go_js.57d3c3e3d025fa2e.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_graphql_graphql_js.9395e8c7cf8157ed.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_graphql_graphql_js.9395e8c7cf8157ed.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_handlebars_handlebars_js.58cc71dfd16883d4.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_handlebars_handlebars_js.58cc71dfd16883d4.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_hcl_hcl_js.62ef8b37b88369fb.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_hcl_hcl_js.62ef8b37b88369fb.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_html_html_js.6ba38b00b3679818.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_html_html_js.6ba38b00b3679818.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ini_ini_js.a30e59f4c3f48955.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ini_ini_js.a30e59f4c3f48955.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_javascript_javascript_js.4e4303655248df9a.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_javascript_javascript_js.4e4303655248df9a.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_java_java_js.f9ef82bb8afe71c0.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_java_java_js.f9ef82bb8afe71c0.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_julia_julia_js.5640f6efab868844.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_julia_julia_js.5640f6efab868844.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_kotlin_kotlin_js.58cb61d6fa50d506.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_kotlin_kotlin_js.58cb61d6fa50d506.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_less_less_js.46b375444f8fd1b2.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_less_less_js.46b375444f8fd1b2.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lexon_lexon_js.391f8c9c64fc150e.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lexon_lexon_js.391f8c9c64fc150e.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_liquid_liquid_js.80764e61e9fd6b98.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_liquid_liquid_js.80764e61e9fd6b98.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lua_lua_js.58dd1f0b1573499f.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lua_lua_js.58dd1f0b1573499f.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_m3_m3_js.816c2b77a489a7c9.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_m3_m3_js.816c2b77a489a7c9.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_markdown_markdown_js.32df6e69041c7531.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_markdown_markdown_js.32df6e69041c7531.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mips_mips_js.479f8b3bf5105bcf.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mips_mips_js.479f8b3bf5105bcf.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_msdax_msdax_js.812b1db2bf1aceae.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_msdax_msdax_js.812b1db2bf1aceae.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mysql_mysql_js.6831df54f2a9a22e.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mysql_mysql_js.6831df54f2a9a22e.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_objective-c_objective-c_js.a186baa8625af144.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_objective-c_objective-c_js.a186baa8625af144.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascaligo_pascaligo_js.bbaab5857433df7a.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascaligo_pascaligo_js.bbaab5857433df7a.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascal_pascal_js.e6a73a3b0fc07bab.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascal_pascal_js.e6a73a3b0fc07bab.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_perl_perl_js.4a918afc22c20b98.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_perl_perl_js.4a918afc22c20b98.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pgsql_pgsql_js.4890f0b7b3e6a607.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pgsql_pgsql_js.4890f0b7b3e6a607.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_php_php_js.79d06c3b4267f186.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_php_php_js.79d06c3b4267f186.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pla_pla_js.8a1f498006c193e0.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pla_pla_js.8a1f498006c193e0.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_postiats_postiats_js.ba2b98a2ae71bb1d.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_postiats_postiats_js.ba2b98a2ae71bb1d.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powerquery_powerquery_js.6c48bfb553cdce1d.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powerquery_powerquery_js.6c48bfb553cdce1d.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powershell_powershell_js.6465bf4929b14f92.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powershell_powershell_js.6465bf4929b14f92.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_protobuf_protobuf_js.9492fb00ecc6e611.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_protobuf_protobuf_js.9492fb00ecc6e611.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pug_pug_js.85c3cf968719696c.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pug_pug_js.85c3cf968719696c.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_python_python_js.1fc7c7e51e4dfd46.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_python_python_js.1fc7c7e51e4dfd46.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_qsharp_qsharp_js.a553d7285bd438ee.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_qsharp_qsharp_js.a553d7285bd438ee.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_razor_razor_js.6b51cdeee896d6b7.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_razor_razor_js.6b51cdeee896d6b7.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redis_redis_js.5859341ed2c8606a.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redis_redis_js.5859341ed2c8606a.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redshift_redshift_js.b2e31866887f2133.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redshift_redshift_js.b2e31866887f2133.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_restructuredtext_restructuredtext_js.17383414c2ef6b5e.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_restructuredtext_restructuredtext_js.17383414c2ef6b5e.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ruby_ruby_js.ae89bfa8c8f78873.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ruby_ruby_js.ae89bfa8c8f78873.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_rust_rust_js.f379c1d431c81caa.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_rust_rust_js.f379c1d431c81caa.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_r_r_js.c04f2c339f2273ba.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_r_r_js.c04f2c339f2273ba.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sb_sb_js.1198eecf0bb19f84.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sb_sb_js.1198eecf0bb19f84.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scala_scala_js.b4fc75f792382396.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scala_scala_js.b4fc75f792382396.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scheme_scheme_js.c5ee1320fc8b2df4.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scheme_scheme_js.c5ee1320fc8b2df4.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scss_scss_js.a8174c7b545fe960.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scss_scss_js.a8174c7b545fe960.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_shell_shell_js.46bde182b0fc900b.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_shell_shell_js.46bde182b0fc900b.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_solidity_solidity_js.9416bd0ea46a6036.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_solidity_solidity_js.9416bd0ea46a6036.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sophia_sophia_js.05f7620a05aa34b4.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sophia_sophia_js.05f7620a05aa34b4.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sparql_sparql_js.ab9c315533a7f2af.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sparql_sparql_js.ab9c315533a7f2af.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sql_sql_js.f8175eadca117712.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sql_sql_js.f8175eadca117712.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_st_st_js.c76e20b5f17f83f6.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_st_st_js.c76e20b5f17f83f6.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_swift_swift_js.a6d8336dce702ebc.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_swift_swift_js.a6d8336dce702ebc.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_systemverilog_systemverilog_js.0b33828be792000f.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_systemverilog_systemverilog_js.0b33828be792000f.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_tcl_tcl_js.ea16047f71e5866e.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_tcl_tcl_js.ea16047f71e5866e.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_twig_twig_js.1b1b4744f2d62585.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_twig_twig_js.1b1b4744f2d62585.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_vb_vb_js.a9bca4240de1147b.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_vb_vb_js.a9bca4240de1147b.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_xml_xml_js.fb18a6257517c1e6.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_xml_xml_js.fb18a6257517c1e6.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_yaml_yaml_js.0531a8be51e3342a.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_yaml_yaml_js.0531a8be51e3342a.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_css_cssMode_js.abedbfd3c7ea0e8b.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_css_cssMode_js.abedbfd3c7ea0e8b.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_html_htmlMode_js.404eae216f5a2108.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_html_htmlMode_js.404eae216f5a2108.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_json_jsonMode_js.2134351ed936ec4f.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_json_jsonMode_js.2134351ed936ec4f.js.LICENSE.txt" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_typescript_tsMode_js.8486615231b88dc8.js" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_typescript_tsMode_js.8486615231b88dc8.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_abap_abap_js.a4f1189cee5cd89a.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_abap_abap_js.a4f1189cee5cd89a.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_apex_apex_js.28bbcf43dbba19e5.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_apex_apex_js.28bbcf43dbba19e5.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_azcli_azcli_js.e386bbe11d653907.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_azcli_azcli_js.e386bbe11d653907.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bat_bat_js.d60b63fefb7e7810.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bat_bat_js.d60b63fefb7e7810.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bicep_bicep_js.2f97327906445d96.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bicep_bicep_js.2f97327906445d96.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cameligo_cameligo_js.42bf017f21ca9415.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cameligo_cameligo_js.42bf017f21ca9415.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_clojure_clojure_js.44e8f7415c93af30.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_clojure_clojure_js.44e8f7415c93af30.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_coffee_coffee_js.e07f3456dcdaa055.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_coffee_coffee_js.e07f3456dcdaa055.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cpp_cpp_js.4d0df80a4a2f88b4.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cpp_cpp_js.4d0df80a4a2f88b4.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csharp_csharp_js.84ca027fcd86d7aa.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csharp_csharp_js.84ca027fcd86d7aa.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csp_csp_js.d2a556dd347fc8d3.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csp_csp_js.d2a556dd347fc8d3.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_css_css_js.815cef74e88dafb8.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_css_css_js.815cef74e88dafb8.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dart_dart_js.97eee09e03fe1d65.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dart_dart_js.97eee09e03fe1d65.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dockerfile_dockerfile_js.17df1d3493073d51.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dockerfile_dockerfile_js.17df1d3493073d51.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ecl_ecl_js.842b772c7f747360.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ecl_ecl_js.842b772c7f747360.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_elixir_elixir_js.b57d7d77f9873052.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_elixir_elixir_js.b57d7d77f9873052.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_flow9_flow9_js.ad9fd41da0b8304f.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_flow9_flow9_js.ad9fd41da0b8304f.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_freemarker2_freemarker2_js.10862708327b2832.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_freemarker2_freemarker2_js.10862708327b2832.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_fsharp_fsharp_js.832a79fcd7e26e31.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_fsharp_fsharp_js.832a79fcd7e26e31.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_go_go_js.642821248cacb528.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_go_go_js.642821248cacb528.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_graphql_graphql_js.d28d81f0c46e3e3a.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_graphql_graphql_js.d28d81f0c46e3e3a.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_handlebars_handlebars_js.411b380d173f92ea.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_handlebars_handlebars_js.411b380d173f92ea.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_hcl_hcl_js.330bd47c66335832.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_hcl_hcl_js.330bd47c66335832.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_html_html_js.80eb315346c0162d.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_html_html_js.80eb315346c0162d.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ini_ini_js.6920de72c27c1910.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ini_ini_js.6920de72c27c1910.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_javascript_javascript_js.baa83021a01aa4b8.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_javascript_javascript_js.baa83021a01aa4b8.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_java_java_js.c6fe53c4b11b17fd.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_java_java_js.c6fe53c4b11b17fd.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_julia_julia_js.e7abf7a33020b4b4.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_julia_julia_js.e7abf7a33020b4b4.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_kotlin_kotlin_js.2e362bb1a6ecc9ac.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_kotlin_kotlin_js.2e362bb1a6ecc9ac.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_less_less_js.8abcae426e02555b.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_less_less_js.8abcae426e02555b.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lexon_lexon_js.921ca34abb364058.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lexon_lexon_js.921ca34abb364058.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_liquid_liquid_js.a1fe03e42a9d875a.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_liquid_liquid_js.a1fe03e42a9d875a.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lua_lua_js.fc4925f20a8d4230.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lua_lua_js.fc4925f20a8d4230.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_m3_m3_js.2c7bc204b60cd18a.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_m3_m3_js.2c7bc204b60cd18a.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_markdown_markdown_js.69658bbe28157d60.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_markdown_markdown_js.69658bbe28157d60.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mips_mips_js.46b9895aa44ef9c5.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mips_mips_js.46b9895aa44ef9c5.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_msdax_msdax_js.6eef13899e8930e2.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_msdax_msdax_js.6eef13899e8930e2.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mysql_mysql_js.5e7bef73d3c3ef1c.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mysql_mysql_js.5e7bef73d3c3ef1c.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_objective-c_objective-c_js.eddcdff6c69f90c7.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_objective-c_objective-c_js.eddcdff6c69f90c7.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascaligo_pascaligo_js.f7de826dc3f35481.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascaligo_pascaligo_js.f7de826dc3f35481.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascal_pascal_js.5b849226d025808a.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascal_pascal_js.5b849226d025808a.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_perl_perl_js.2dd919bbf3f20be1.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_perl_perl_js.2dd919bbf3f20be1.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pgsql_pgsql_js.7f2b1c483bc98d4f.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pgsql_pgsql_js.7f2b1c483bc98d4f.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_php_php_js.eaeed38506481433.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_php_php_js.eaeed38506481433.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pla_pla_js.c9604f36c47d005d.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pla_pla_js.c9604f36c47d005d.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_postiats_postiats_js.f379de3de411003a.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_postiats_postiats_js.f379de3de411003a.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powerquery_powerquery_js.db6b0fb8bd6bd4ed.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powerquery_powerquery_js.db6b0fb8bd6bd4ed.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powershell_powershell_js.f0918ff1670a835f.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powershell_powershell_js.f0918ff1670a835f.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_protobuf_protobuf_js.8b8a1dcf5ba9c3fa.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_protobuf_protobuf_js.8b8a1dcf5ba9c3fa.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pug_pug_js.aa21cd65334d5948.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pug_pug_js.aa21cd65334d5948.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_python_python_js.bf68cac7fb524502.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_python_python_js.bf68cac7fb524502.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_qsharp_qsharp_js.d1d686cc2a7f7403.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_qsharp_qsharp_js.d1d686cc2a7f7403.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_razor_razor_js.e13bba7b93790919.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_razor_razor_js.e13bba7b93790919.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redis_redis_js.b43e96483b6ae128.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redis_redis_js.b43e96483b6ae128.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redshift_redshift_js.026d255400fc5d9b.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redshift_redshift_js.026d255400fc5d9b.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_restructuredtext_restructuredtext_js.843f4c28080a48a6.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_restructuredtext_restructuredtext_js.843f4c28080a48a6.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ruby_ruby_js.e04ac8320207ab6a.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ruby_ruby_js.e04ac8320207ab6a.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_rust_rust_js.cd1d4f549bb17755.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_rust_rust_js.cd1d4f549bb17755.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_r_r_js.3aa96cea54fd669a.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_r_r_js.3aa96cea54fd669a.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sb_sb_js.635115394bcb34e7.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sb_sb_js.635115394bcb34e7.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scala_scala_js.86af36aabc19cece.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scala_scala_js.86af36aabc19cece.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scheme_scheme_js.4fc66bda5c87afb4.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scheme_scheme_js.4fc66bda5c87afb4.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scss_scss_js.f13d69530029fa03.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scss_scss_js.f13d69530029fa03.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_shell_shell_js.254469a5ffa7f895.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_shell_shell_js.254469a5ffa7f895.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_solidity_solidity_js.8e6b9e329d33c8d8.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_solidity_solidity_js.8e6b9e329d33c8d8.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sophia_sophia_js.f49a84bc6bb85090.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sophia_sophia_js.f49a84bc6bb85090.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sparql_sparql_js.be41c039bfa3f594.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sparql_sparql_js.be41c039bfa3f594.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sql_sql_js.8e26379a16ec5437.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sql_sql_js.8e26379a16ec5437.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_st_st_js.9cf91579d1e2f685.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_st_st_js.9cf91579d1e2f685.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_swift_swift_js.928512aeb3669781.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_swift_swift_js.928512aeb3669781.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_systemverilog_systemverilog_js.6f31217228325fd6.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_systemverilog_systemverilog_js.6f31217228325fd6.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_tcl_tcl_js.7fb431083fb21285.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_tcl_tcl_js.7fb431083fb21285.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_twig_twig_js.7d603338778de4ce.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_twig_twig_js.7d603338778de4ce.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_vb_vb_js.4e203963d3c4c8a9.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_vb_vb_js.4e203963d3c4c8a9.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_xml_xml_js.9d3866379b89cfd6.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_xml_xml_js.9d3866379b89cfd6.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_yaml_yaml_js.f89c34cc8556e590.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_yaml_yaml_js.f89c34cc8556e590.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_css_cssMode_js.c88755962aa67adc.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_css_cssMode_js.c88755962aa67adc.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_html_htmlMode_js.df1c6175ae2923a2.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_html_htmlMode_js.df1c6175ae2923a2.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_json_jsonMode_js.fbd55c112d11f79f.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_json_jsonMode_js.fbd55c112d11f79f.js.LICENSE.txt" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_typescript_tsMode_js.6eeb0e22c36503bd.js" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_typescript_tsMode_js.6eeb0e22c36503bd.js.LICENSE.txt" />
     <Content Include="AdminApp\monaco\ts.worker.bcc30825073324ff21427de62e631c80.js" />
     <Content Include="AdminApp\monaco\ts.worker.bcc30825073324ff21427de62e631c80.js.LICENSE.txt" />
     <Content Include="AdminApp\polyfills-es5.1e26fb100ad64ce9ef31.js" />
     <Content Include="AdminApp\polyfills-es5.1e26fb100ad64ce9ef31.js.LICENSE.txt" />
     <Content Include="AdminApp\polyfills.38736bcc18ee62bda9e2.js" />
     <Content Include="AdminApp\polyfills.38736bcc18ee62bda9e2.js.LICENSE.txt" />
-    <Content Include="AdminApp\polyfills.469d3fa0385fa97b.js" />
-    <Content Include="AdminApp\polyfills.469d3fa0385fa97b.js.LICENSE.txt" />
+    <Content Include="AdminApp\polyfills.a705c0134098d1b4.js" />
+    <Content Include="AdminApp\polyfills.a705c0134098d1b4.js.LICENSE.txt" />
     <Content Include="AdminApp\polyfills.bfd87c450ebcc0df.js" />
     <Content Include="AdminApp\polyfills.bfd87c450ebcc0df.js.LICENSE.txt" />
     <Content Include="AdminApp\runtime.5e056166d6005a2abcaa.js" />
     <Content Include="AdminApp\runtime.66e84937a7e0a5df.js" />
-    <Content Include="AdminApp\runtime.9db85a3b13afd6a5.js" />
-    <Content Include="AdminApp\src_app_modules_insight_insight_module_ts.cae00e99227467e0.js" />
-    <Content Include="AdminApp\src_app_modules_insight_insight_module_ts.cae00e99227467e0.js.LICENSE.txt" />
+    <Content Include="AdminApp\runtime.71ef6be455639bca.js" />
+    <Content Include="AdminApp\src_app_modules_insight_insight_module_ts.434e3bcef923e159.js" />
+    <Content Include="AdminApp\src_app_modules_insight_insight_module_ts.434e3bcef923e159.js.LICENSE.txt" />
     <Content Include="AdminApp\src_app_modules_insight_insight_module_ts.f0d388c8b11431bc.js" />
     <Content Include="AdminApp\styles.4aff82e575962c04.css" />
     <Content Include="AdminApp\styles.8c175240176e1e9b457b.css" />
-    <Content Include="AdminApp\styles.ca36a1c0a05b0145.css" />
+    <Content Include="AdminApp\styles.bf479c9f0d9e2f46.css" />
     <Content Include="AdminApp\styles.d43aaff7916445b9c344.css" />
-    <Content Include="AdminApp\vendor.124c00ab4e753774.js" />
-    <Content Include="AdminApp\vendor.124c00ab4e753774.js.LICENSE.txt" />
     <Content Include="AdminApp\vendor.724e50d2e0b3413e.js" />
     <Content Include="AdminApp\vendor.724e50d2e0b3413e.js.LICENSE.txt" />
     <Content Include="AdminApp\vendor.91c319c6ca17530954d8.js" />
     <Content Include="AdminApp\vendor.91c319c6ca17530954d8.js.LICENSE.txt" />
+    <Content Include="AdminApp\vendor.958dded24f6fc5c4.js" />
+    <Content Include="AdminApp\vendor.958dded24f6fc5c4.js.LICENSE.txt" />
     <Content Include="App_Data\appStatusReport.html" />
     <Content Include="App_Data\RadCaptcha\0.wav" />
     <Content Include="App_Data\RadCaptcha\1.wav" />
@@ -1318,7 +1348,6 @@
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\Quantum\App_Themes\Quantum\Styles\_nav.widget.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\Quantum\App_Themes\Quantum\_styles.min.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\Widgets\DashboardNotificationsWidget.ascx" />
-    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Mvc\Controllers\readme.txt" />
     <Content Include="Mvc\Models\readme.txt" />
@@ -1415,83 +1444,6 @@
     <Content Include="ResourcePackages\Bootstrap\GridSystem\Templates\grid-9+3.html" />
     <Content Include="ResourcePackages\Bootstrap\gruntfile.js" />
     <Content Include="ResourcePackages\Bootstrap\MVC\Scripts\Navigation\pills.js" />
-    <Content Include="Sitefinity\Default.aspx" />
-    <Content Include="Sitefinity\Public\Services\LoadBalancing\AzureSystemWebService.svc" />
-    <Content Include="Sitefinity\Services\Analytics\AnalyticsPermissionsService.svc" />
-    <Content Include="Sitefinity\Services\Analytics\DashboardData.svc" />
-    <Content Include="Sitefinity\Services\Analytics\GoogleAnalytics.svc" />
-    <Content Include="Sitefinity\Services\Analytics\MapDataService.svc" />
-    <Content Include="Sitefinity\Services\BlobStorage\BlobStorage.svc" />
-    <Content Include="Sitefinity\Services\Common\Comments.svc" />
-    <Content Include="Sitefinity\Services\Common\Content.svc" />
-    <Content Include="Sitefinity\Services\Common\GenericItemsService.svc" />
-    <Content Include="Sitefinity\Services\Common\QueryBuilderService.svc" />
-    <Content Include="Sitefinity\Services\Configuration\ConfigSectionItems.svc" />
-    <Content Include="Sitefinity\Services\Configuration\ConfigSections.svc" />
-    <Content Include="Sitefinity\Services\Configuration\LocalizationCultures.svc" />
-    <Content Include="Sitefinity\Services\Content\AlbumService.svc" />
-    <Content Include="Sitefinity\Services\Content\BlogPostService.svc" />
-    <Content Include="Sitefinity\Services\Content\BlogService.svc" />
-    <Content Include="Sitefinity\Services\Content\CommentsGenericService.svc" />
-    <Content Include="Sitefinity\Services\Content\ContentBlockPage.svc" />
-    <Content Include="Sitefinity\Services\Content\ContentItemService.svc" />
-    <Content Include="Sitefinity\Services\Content\ContentService.svc" />
-    <Content Include="Sitefinity\Services\Content\DocumentLibraryService.svc" />
-    <Content Include="Sitefinity\Services\Content\DocumentService.svc" />
-    <Content Include="Sitefinity\Services\Content\EventService.svc" />
-    <Content Include="Sitefinity\Services\Content\Generic.svc" />
-    <Content Include="Sitefinity\Services\Content\ImageService.svc" />
-    <Content Include="Sitefinity\Services\Content\NewsItemService.svc" />
-    <Content Include="Sitefinity\Services\Content\VideoLibraryService.svc" />
-    <Content Include="Sitefinity\Services\Content\VideoService.svc" />
-    <Content Include="Sitefinity\Services\ControlTemplates\ControlTemplateService.svc" />
-    <Content Include="Sitefinity\Services\DynamicModules\BackendFormService.svc" />
-    <Content Include="Sitefinity\Services\DynamicModules\BackendGridStructureService.svc" />
-    <Content Include="Sitefinity\Services\DynamicModules\ContentTypeService.svc" />
-    <Content Include="Sitefinity\Services\DynamicModules\Data.svc" />
-    <Content Include="Sitefinity\Services\Folders\FoldersService.svc" />
-    <Content Include="Sitefinity\Services\Forms\FormsService.svc" />
-    <Content Include="Sitefinity\Services\Lists\ListItemService.svc" />
-    <Content Include="Sitefinity\Services\Lists\ListService.svc" />
-    <Content Include="Sitefinity\Services\Lists\ListsModuleService.svc" />
-    <Content Include="Sitefinity\Services\LoadBalancing\SystemWebService.svc" />
-    <Content Include="Sitefinity\Services\Localization\AllCulturesResource.svc" />
-    <Content Include="Sitefinity\Services\Localization\DualLocalizationResources.svc" />
-    <Content Include="Sitefinity\Services\Localization\LocalizationClasses.svc" />
-    <Content Include="Sitefinity\Services\Localization\LocalizationResources.svc" />
-    <Content Include="Sitefinity\Services\MetaData\MetaData.svc" />
-    <Content Include="Sitefinity\Services\MetaData\ModuleEditor.svc" />
-    <Content Include="Sitefinity\Services\Newsletters\ABCampaign.svc" />
-    <Content Include="Sitefinity\Services\Newsletters\Campaign.svc" />
-    <Content Include="Sitefinity\Services\Newsletters\DynamicList.svc" />
-    <Content Include="Sitefinity\Services\Newsletters\IssueReport.svc" />
-    <Content Include="Sitefinity\Services\Newsletters\MailingList.svc" />
-    <Content Include="Sitefinity\Services\Newsletters\MessageTemplate.svc" />
-    <Content Include="Sitefinity\Services\Newsletters\Settings.svc" />
-    <Content Include="Sitefinity\Services\Newsletters\Subscriber.svc" />
-    <Content Include="Sitefinity\Services\Newsletters\SystemStats.svc" />
-    <Content Include="Sitefinity\Services\Pages\ControlPropertyService.svc" />
-    <Content Include="Sitefinity\Services\Pages\PagesService.svc" />
-    <Content Include="Sitefinity\Services\Pages\PageTemplatesService.svc" />
-    <Content Include="Sitefinity\Services\Pages\ZoneEditorService.svc" />
-    <Content Include="Sitefinity\Services\Publishing\PublishingService.svc" />
-    <Content Include="Sitefinity\Services\ResponsiveDesign\MediaQuery.svc" />
-    <Content Include="Sitefinity\Services\Security\MembershipSettings.svc" />
-    <Content Include="Sitefinity\Services\Security\Permissions.svc" />
-    <Content Include="Sitefinity\Services\Security\Roles.svc" />
-    <Content Include="Sitefinity\Services\Security\Users.svc" />
-    <Content Include="Sitefinity\Services\SitefinityProject.svc" />
-    <Content Include="Sitefinity\Services\SiteSync\SiteSyncService.svc" />
-    <Content Include="Sitefinity\Services\Taxonomies\FlatTaxon.svc" />
-    <Content Include="Sitefinity\Services\Taxonomies\HierarchicalTaxon.svc" />
-    <Content Include="Sitefinity\Services\Taxonomies\MarkedItems.svc" />
-    <Content Include="Sitefinity\Services\Taxonomies\Taxonomy.svc" />
-    <Content Include="Sitefinity\Services\Twitter\TwitterCredentialsService.svc" />
-    <Content Include="Sitefinity\Services\Twitter\TwitterUrlShortConfigService.svc" />
-    <Content Include="Sitefinity\Services\UserProfiles\UserProfileTypesService.svc" />
-    <Content Include="Sitefinity\Services\Versioning\HistoryService.svc" />
-    <Content Include="Sitefinity\Services\Workflow\WorkflowDefinitionService.svc" />
-    <Content Include="Sitefinity\Services\Workflow\WorkflowService.svc" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -1559,98 +1511,98 @@
     <Content Include="App_Data\Sitefinity\Configuration\PagesConfig.config" />
     <Content Include="OpenAccessNuGet.targets" />
     <Content Include="AdminApp\elements.c3780ef743d662668313.bundle.js.map" />
-    <Content Include="AdminApp\vendor.124c00ab4e753774.js.map" />
-    <Content Include="AdminApp\styles.ca36a1c0a05b0145.css.map" />
-    <Content Include="AdminApp\src_app_modules_insight_insight_module_ts.cae00e99227467e0.js.map" />
-    <Content Include="AdminApp\runtime.9db85a3b13afd6a5.js.map" />
-    <Content Include="AdminApp\polyfills.469d3fa0385fa97b.js.map" />
+    <Content Include="AdminApp\vendor.958dded24f6fc5c4.js.map" />
+    <Content Include="AdminApp\styles.bf479c9f0d9e2f46.css.map" />
+    <Content Include="AdminApp\src_app_modules_insight_insight_module_ts.434e3bcef923e159.js.map" />
+    <Content Include="AdminApp\runtime.71ef6be455639bca.js.map" />
+    <Content Include="AdminApp\polyfills.a705c0134098d1b4.js.map" />
     <Content Include="AdminApp\monaco\ts.worker.bcc30825073324ff21427de62e631c80.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_typescript_tsMode_js.8486615231b88dc8.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_json_jsonMode_js.2134351ed936ec4f.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_html_htmlMode_js.404eae216f5a2108.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_css_cssMode_js.abedbfd3c7ea0e8b.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_yaml_yaml_js.0531a8be51e3342a.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_xml_xml_js.fb18a6257517c1e6.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_vb_vb_js.a9bca4240de1147b.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_twig_twig_js.1b1b4744f2d62585.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_tcl_tcl_js.ea16047f71e5866e.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_systemverilog_systemverilog_js.0b33828be792000f.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_swift_swift_js.a6d8336dce702ebc.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_st_st_js.c76e20b5f17f83f6.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sql_sql_js.f8175eadca117712.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sparql_sparql_js.ab9c315533a7f2af.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sophia_sophia_js.05f7620a05aa34b4.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_solidity_solidity_js.9416bd0ea46a6036.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_shell_shell_js.46bde182b0fc900b.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scss_scss_js.a8174c7b545fe960.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scheme_scheme_js.c5ee1320fc8b2df4.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scala_scala_js.b4fc75f792382396.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sb_sb_js.1198eecf0bb19f84.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_r_r_js.c04f2c339f2273ba.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_rust_rust_js.f379c1d431c81caa.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ruby_ruby_js.ae89bfa8c8f78873.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_restructuredtext_restructuredtext_js.17383414c2ef6b5e.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redshift_redshift_js.b2e31866887f2133.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redis_redis_js.5859341ed2c8606a.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_razor_razor_js.6b51cdeee896d6b7.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_qsharp_qsharp_js.a553d7285bd438ee.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_python_python_js.1fc7c7e51e4dfd46.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pug_pug_js.85c3cf968719696c.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_protobuf_protobuf_js.9492fb00ecc6e611.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powershell_powershell_js.6465bf4929b14f92.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powerquery_powerquery_js.6c48bfb553cdce1d.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_postiats_postiats_js.ba2b98a2ae71bb1d.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pla_pla_js.8a1f498006c193e0.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_php_php_js.79d06c3b4267f186.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pgsql_pgsql_js.4890f0b7b3e6a607.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_perl_perl_js.4a918afc22c20b98.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascal_pascal_js.e6a73a3b0fc07bab.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascaligo_pascaligo_js.bbaab5857433df7a.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_objective-c_objective-c_js.a186baa8625af144.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mysql_mysql_js.6831df54f2a9a22e.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_msdax_msdax_js.812b1db2bf1aceae.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mips_mips_js.479f8b3bf5105bcf.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_markdown_markdown_js.32df6e69041c7531.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_m3_m3_js.816c2b77a489a7c9.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lua_lua_js.58dd1f0b1573499f.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_liquid_liquid_js.80764e61e9fd6b98.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lexon_lexon_js.391f8c9c64fc150e.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_less_less_js.46b375444f8fd1b2.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_kotlin_kotlin_js.58cb61d6fa50d506.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_julia_julia_js.5640f6efab868844.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_java_java_js.f9ef82bb8afe71c0.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_javascript_javascript_js.4e4303655248df9a.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ini_ini_js.a30e59f4c3f48955.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_html_html_js.6ba38b00b3679818.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_hcl_hcl_js.62ef8b37b88369fb.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_handlebars_handlebars_js.58cc71dfd16883d4.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_graphql_graphql_js.9395e8c7cf8157ed.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_go_go_js.57d3c3e3d025fa2e.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_fsharp_fsharp_js.d2dbd0a905af7924.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_freemarker2_freemarker2_js.46ed3a54f559c862.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_flow9_flow9_js.c15892f8e4bbaa44.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_elixir_elixir_js.5da83fe933dc1d43.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ecl_ecl_js.62576bae4572138b.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dockerfile_dockerfile_js.370d943f1ca0bda4.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dart_dart_js.586771fc1fb0b6a7.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_css_css_js.caf2a8e5f7d52d9f.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csp_csp_js.adceefa3ffa39111.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csharp_csharp_js.2a3c79ba4a9c44cb.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cpp_cpp_js.ab10449e018d7ecb.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_coffee_coffee_js.09ef267450831074.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_clojure_clojure_js.6e8928ad14ba3d04.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cameligo_cameligo_js.c5dae3d630757024.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bicep_bicep_js.5d8d9070bbb12ed0.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bat_bat_js.6be5945d53058928.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_azcli_azcli_js.492753451bfc6907.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_apex_apex_js.837a722e47783ed1.js.map" />
-    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_abap_abap_js.aca5cea6d73209af.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_typescript_tsMode_js.6eeb0e22c36503bd.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_json_jsonMode_js.fbd55c112d11f79f.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_html_htmlMode_js.df1c6175ae2923a2.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_language_css_cssMode_js.c88755962aa67adc.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_yaml_yaml_js.f89c34cc8556e590.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_xml_xml_js.9d3866379b89cfd6.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_vb_vb_js.4e203963d3c4c8a9.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_twig_twig_js.7d603338778de4ce.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_tcl_tcl_js.7fb431083fb21285.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_systemverilog_systemverilog_js.6f31217228325fd6.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_swift_swift_js.928512aeb3669781.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_st_st_js.9cf91579d1e2f685.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sql_sql_js.8e26379a16ec5437.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sparql_sparql_js.be41c039bfa3f594.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sophia_sophia_js.f49a84bc6bb85090.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_solidity_solidity_js.8e6b9e329d33c8d8.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_shell_shell_js.254469a5ffa7f895.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scss_scss_js.f13d69530029fa03.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scheme_scheme_js.4fc66bda5c87afb4.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_scala_scala_js.86af36aabc19cece.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_sb_sb_js.635115394bcb34e7.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_r_r_js.3aa96cea54fd669a.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_rust_rust_js.cd1d4f549bb17755.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ruby_ruby_js.e04ac8320207ab6a.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_restructuredtext_restructuredtext_js.843f4c28080a48a6.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redshift_redshift_js.026d255400fc5d9b.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_redis_redis_js.b43e96483b6ae128.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_razor_razor_js.e13bba7b93790919.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_qsharp_qsharp_js.d1d686cc2a7f7403.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_python_python_js.bf68cac7fb524502.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pug_pug_js.aa21cd65334d5948.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_protobuf_protobuf_js.8b8a1dcf5ba9c3fa.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powershell_powershell_js.f0918ff1670a835f.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_powerquery_powerquery_js.db6b0fb8bd6bd4ed.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_postiats_postiats_js.f379de3de411003a.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pla_pla_js.c9604f36c47d005d.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_php_php_js.eaeed38506481433.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pgsql_pgsql_js.7f2b1c483bc98d4f.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_perl_perl_js.2dd919bbf3f20be1.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascal_pascal_js.5b849226d025808a.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_pascaligo_pascaligo_js.f7de826dc3f35481.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_objective-c_objective-c_js.eddcdff6c69f90c7.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mysql_mysql_js.5e7bef73d3c3ef1c.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_msdax_msdax_js.6eef13899e8930e2.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_mips_mips_js.46b9895aa44ef9c5.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_markdown_markdown_js.69658bbe28157d60.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_m3_m3_js.2c7bc204b60cd18a.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lua_lua_js.fc4925f20a8d4230.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_liquid_liquid_js.a1fe03e42a9d875a.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_lexon_lexon_js.921ca34abb364058.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_less_less_js.8abcae426e02555b.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_kotlin_kotlin_js.2e362bb1a6ecc9ac.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_julia_julia_js.e7abf7a33020b4b4.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_java_java_js.c6fe53c4b11b17fd.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_javascript_javascript_js.baa83021a01aa4b8.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ini_ini_js.6920de72c27c1910.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_html_html_js.80eb315346c0162d.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_hcl_hcl_js.330bd47c66335832.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_handlebars_handlebars_js.411b380d173f92ea.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_graphql_graphql_js.d28d81f0c46e3e3a.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_go_go_js.642821248cacb528.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_fsharp_fsharp_js.832a79fcd7e26e31.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_freemarker2_freemarker2_js.10862708327b2832.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_flow9_flow9_js.ad9fd41da0b8304f.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_elixir_elixir_js.b57d7d77f9873052.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_ecl_ecl_js.842b772c7f747360.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dockerfile_dockerfile_js.17df1d3493073d51.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_dart_dart_js.97eee09e03fe1d65.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_css_css_js.815cef74e88dafb8.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csp_csp_js.d2a556dd347fc8d3.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_csharp_csharp_js.84ca027fcd86d7aa.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cpp_cpp_js.4d0df80a4a2f88b4.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_coffee_coffee_js.e07f3456dcdaa055.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_clojure_clojure_js.44e8f7415c93af30.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_cameligo_cameligo_js.42bf017f21ca9415.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bicep_bicep_js.2f97327906445d96.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_bat_bat_js.d60b63fefb7e7810.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_azcli_azcli_js.e386bbe11d653907.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_apex_apex_js.28bbcf43dbba19e5.js.map" />
+    <Content Include="AdminApp\monaco\node_modules_monaco-editor_esm_vs_basic-languages_abap_abap_js.a4f1189cee5cd89a.js.map" />
     <Content Include="AdminApp\monaco\json.worker.45f3c3adcdc8d6af58f790cbcba161f6.js.map" />
     <Content Include="AdminApp\monaco\html.worker.c89a6fc8bfef83c467ee5478f74c1074.js.map" />
     <Content Include="AdminApp\monaco\editor.worker.a85ce25ec6767b7d9d2d3d88291dd6eb.js.map" />
     <Content Include="AdminApp\monaco\css.worker.b88e577de9b5353e33b3224ca8091a02.js.map" />
-    <Content Include="AdminApp\main.e71eed41c146e3d5.js.map" />
-    <Content Include="AdminApp\common.5e4c29a799264e72.js.map" />
+    <Content Include="AdminApp\main.4feaf9cab55e51a2.js.map" />
+    <Content Include="AdminApp\common.eef3335ecc583a6b.js.map" />
     <Content Include="AdminApp\assets\js\kendo-editor\kendo.custom.min.js.map" />
     <Content Include="AdminApp\assets\fonts\open-sans\OpenSansCondensed-Bold.ttf" />
     <Content Include="AdminApp\assets\fonts\open-sans\OpenSans-Regular.ttf" />
@@ -1991,9 +1943,6 @@
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>
     </Content>
-    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\VideoGallery\Detail.Default.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\SearchResults\SearchResults.cshtml" />
-    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x86.sflib" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x64.sflib" />
     <Content Include="ResourcePackages\Bootstrap5\README.md" />
@@ -2003,6 +1952,7 @@
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\Video\Video.Default.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\VideoGallery\List.VideoGallery.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\VideoGallery\List.OverlayGallery.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\VideoGallery\Detail.Default.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\UsersList\List.UsersList.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\UsersList\Detail.UserDetails.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\UnsubscribeForm\UnsubscribeFormByLink.UnsubscribeMessage.cshtml" />
@@ -2015,6 +1965,7 @@
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\SiteSelector\SiteSelector.SiteLinks.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\SiteSelector\SiteSelector.DropDownMenu.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\SectionHeader\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\SearchResults\SearchResults.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\SearchResults\InputValidationError.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\SearchBox\SearchBox.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\MVC\Views\Reviews\ReviewsCount.Default.cshtml" />
@@ -2137,6 +2088,7 @@
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\SiteSelector\SiteSelector.SiteLinks.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\SiteSelector\SiteSelector.DropDownMenu.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\SectionHeader\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\SearchResults\SearchResults.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\SearchResults\InputValidationError.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\SearchBox\SearchBox.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Reviews\ReviewsCount.Default.cshtml" />
@@ -2319,9 +2271,9 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
     <Error Condition="!Exists('packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets'))" />
-    <Error Condition="!Exists('packages\Telerik.Sitefinity.Feather.14.3.8000\build\Telerik.Sitefinity.Feather.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Telerik.Sitefinity.Feather.14.3.8000\build\Telerik.Sitefinity.Feather.targets'))" />
+    <Error Condition="!Exists('packages\Telerik.Sitefinity.Feather.14.4.8100\build\Telerik.Sitefinity.Feather.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Telerik.Sitefinity.Feather.14.4.8100\build\Telerik.Sitefinity.Feather.targets'))" />
   </Target>
   <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
   <Import Project="packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets" Condition="Exists('packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets')" />
-  <Import Project="packages\Telerik.Sitefinity.Feather.14.3.8000\build\Telerik.Sitefinity.Feather.targets" Condition="Exists('packages\Telerik.Sitefinity.Feather.14.3.8000\build\Telerik.Sitefinity.Feather.targets')" />
+  <Import Project="packages\Telerik.Sitefinity.Feather.14.4.8100\build\Telerik.Sitefinity.Feather.targets" Condition="Exists('packages\Telerik.Sitefinity.Feather.14.4.8100\build\Telerik.Sitefinity.Feather.targets')" />
 </Project>
