@@ -1032,7 +1032,6 @@
     <Compile Include="Tasks\FeatherActionInvokerCustom.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".nuget\nuget.exe" />
     <Content Include="AdminApp\assets\fonts\font-awesome\fontawesome-webfont.svg" />
     <Content Include="AdminApp\assets\icons\apple-touch-icon-114x114.png" />
     <Content Include="AdminApp\assets\icons\apple-touch-icon-120x120.png" />
