@@ -74,21 +74,11 @@
 
 /*! ../types.js */
 
-/*! ./arrayLikeToArray.js */
-
-/*! ./arrayWithHoles.js */
-
-/*! ./arrayWithoutHoles.js */
-
-/*! ./assertThisInitialized.js */
-
 /*! ./cache.js */
 
 /*! ./characterClassifier.js */
 
 /*! ./common/services/editorSimpleWorker.js */
-
-/*! ./construct.js */
 
 /*! ./core/range.js */
 
@@ -102,16 +92,6 @@
 
 /*! ./functional.js */
 
-/*! ./getPrototypeOf.js */
-
-/*! ./isNativeFunction.js */
-
-/*! ./isNativeReflectConstruct.js */
-
-/*! ./iterableToArray.js */
-
-/*! ./iterableToArrayLimit.js */
-
 /*! ./iterator.js */
 
 /*! ./lazy.js */
@@ -120,39 +100,11 @@
 
 /*! ./linkedList.js */
 
-/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/createSuper.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/get.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/inherits.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js */
-
-/*! ./node_modules/@babel/runtime/helpers/esm/wrapNativeSuper.js */
-
-/*! ./nonIterableRest.js */
-
-/*! ./nonIterableSpread.js */
-
 /*! ./path.js */
 
 /*! ./platform.js */
 
 /*! ./position.js */
-
-/*! ./possibleConstructorReturn.js */
 
 /*! ./prefixSumComputer.js */
 
@@ -160,41 +112,15 @@
 
 /*! ./range.js */
 
-/*! ./setPrototypeOf.js */
-
 /*! ./stopwatch.js */
 
 /*! ./strings.js */
 
-/*! ./superPropBase.js */
-
 /*! ./tokenizationRegistry.js */
-
-/*! ./typeof.js */
 
 /*! ./types.js */
 
 /*! ./unicodeTextModelHighlighter.js */
-
-/*! ./unsupportedIterableToArray.js */
-
-/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
-
-/*!********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/get.js ***!
-  \********************************************************/
-
-/*!***********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/typeof.js ***!
-  \***********************************************************/
-
-/*!*************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/inherits.js ***!
-  \*************************************************************/
-
-/*!**************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/construct.js ***!
-  \**************************************************************/
 
 /*!**************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/base/common/uri.js ***!
@@ -217,14 +143,6 @@
   \***************************************************************/
 
 /*!****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/createClass.js ***!
-  \****************************************************************/
-
-/*!****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/createSuper.js ***!
-  \****************************************************************/
-
-/*!****************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/base/common/cache.js ***!
   \****************************************************************/
 
@@ -245,14 +163,6 @@
   \*****************************************************************/
 
 /*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js ***!
-  \******************************************************************/
-
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/superPropBase.js ***!
-  \******************************************************************/
-
-/*!******************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/base/common/objects.js ***!
   \******************************************************************/
 
@@ -267,26 +177,6 @@
 /*!******************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/editor/common/model.js ***!
   \******************************************************************/
-
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
-  \*******************************************************************/
-
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
-  \*******************************************************************/
-
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
-  \*******************************************************************/
-
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js ***!
-  \*******************************************************************/
-
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js ***!
-  \*******************************************************************/
 
 /*!*******************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/base/common/codicons.js ***!
@@ -309,18 +199,6 @@
   \*******************************************************************/
 
 /*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js ***!
-  \********************************************************************/
-
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
-  \********************************************************************/
-
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/wrapNativeSuper.js ***!
-  \********************************************************************/
-
-/*!********************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/base/common/diff/diff.js ***!
   \********************************************************************/
 
@@ -333,32 +211,12 @@
   \********************************************************************/
 
 /*!*********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js ***!
-  \*********************************************************************/
-
-/*!*********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/isNativeFunction.js ***!
-  \*********************************************************************/
-
-/*!*********************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/base/common/functional.js ***!
   \*********************************************************************/
 
 /*!*********************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/base/common/linkedList.js ***!
   \*********************************************************************/
-
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js ***!
-  \**********************************************************************/
-
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js ***!
-  \**********************************************************************/
-
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js ***!
-  \**********************************************************************/
 
 /*!**********************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/editor/common/languages.js ***!
@@ -371,14 +229,6 @@
 /*!***********************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/editor/common/core/range.js ***!
   \***********************************************************************/
-
-/*!*************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js ***!
-  \*************************************************************************/
-
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
-  \**************************************************************************/
 
 /*!**************************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/base/common/diff/diffChange.js ***!
@@ -396,18 +246,6 @@
   !*** ./node_modules/monaco-editor/esm/vs/editor/common/core/wordHelper.js ***!
   \****************************************************************************/
 
-/*!*****************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/isNativeReflectConstruct.js ***!
-  \*****************************************************************************/
-
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js ***!
-  \******************************************************************************/
-
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js ***!
-  \******************************************************************************/
-
 /*!******************************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/base/common/worker/simpleWorker.js ***!
   \******************************************************************************/
@@ -415,10 +253,6 @@
 /*!******************************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/editor/common/diff/diffComputer.js ***!
   \******************************************************************************/
-
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js ***!
-  \*******************************************************************************/
 
 /*!*********************************************************************************!*\
   !*** ./node_modules/monaco-editor/esm/vs/editor/common/tokenizationRegistry.js ***!
