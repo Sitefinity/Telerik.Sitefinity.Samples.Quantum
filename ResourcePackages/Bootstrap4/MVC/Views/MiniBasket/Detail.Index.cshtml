@@ -1,7 +1,5 @@
 ﻿@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
 @using Telerik.Sitefinity.Services;
-@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
-@using Telerik.Sitefinity.Modules.Pages;
 @using Telerik.Sitefinity.Web;
 @using Newtonsoft.Json;
 
@@ -13,8 +11,8 @@
 
 @{
     Layout = null;
-    string pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
-    string currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
+    var pageNodeUrl = SiteMapBase.GetActualCurrentNode().Url.ToString();
+    var currentPageUrl = UrlPath.ResolveUrl(pageNodeUrl, true, true);
 }
 
 <div data-component="mini-basket" id="mini-basket">

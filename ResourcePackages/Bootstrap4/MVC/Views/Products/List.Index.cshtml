@@ -2,101 +2,103 @@
 @using System.Web.Mvc.Html
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers
 @using Telerik.Sitefinity.Services
-@using UCommerce.Sitefinity.UI.Mvc.ViewModels
 
 @{
-    ViewBag.Title = "Products";
+	ViewBag.Title = "Products";
 }
 
 @Html.StyleSheet(Url.WidgetContent("assets/src/css/uc-vue-styles.css"), "head")
 
 @if (!SystemManager.IsDesignMode)
 {
-    @Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
-    @Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
+	@Html.Script(Url.WidgetContent("assets/build/js/vendor.bundle.js"), "bottom", false)
+	@Html.Script(Url.WidgetContent("assets/build/js/main.js"), "bottom", false)
 }
 <div data-component="products" id="@Html.UniqueId("product-list")" v-cloak>
-    <input type="hidden" ref="addToBasket" value="@Html.Resource("AddToBasket", "UcommerceResources")"/>
-    <input type="hidden" ref="notAddToBasket" value="@Html.Resource("NotAddToBasket", "UcommerceResources")"/>
-    <div>
-        <em>@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
-    </div>
+	<input type="hidden" ref="addToBasket" value="@Html.Resource("AddToBasket", "UcommerceResources")" />
+	<input type="hidden" ref="notAddToBasket" value="@Html.Resource("NotAddToBasket", "UcommerceResources")" />
+	<div>
+		<em>@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
+	</div>
 
-    @if (Model.ShowPager)
-    {
-        @Html.Action("Index", "ContentPager", new
-        {
-            currentPage = Model.CurrentPage,
-            totalPagesCount = Model.TotalPagesCount.Value,
-            redirectUrlTemplate = Model.PagingUrlTemplate
-        })
-    }
+	@if (Model.ShowPager)
+	{
+		@Html.Action("Index", "ContentPager", new
+		{
+			currentPage = Model.CurrentPage,
+			totalPagesCount = Model.TotalPagesCount.Value,
+			redirectUrlTemplate = Model.PagingUrlTemplate
+		})
+	}
 
-    @foreach (var route in Model.Routes)
-    {
-        <input type="hidden" class="@route.Key" value="@route.Value"/>
-    }
-    <ul>
-        @foreach (var product in Model.Products)
-        {
-            <li>
-                <a title="@Html.HtmlSanitize((string) product.DisplayName)" href="@product.ProductUrl">
-                    <img title="Top 100 Digital Agencies" src="@product.ThumbnailImageMediaUrl" alt="@Html.HtmlSanitize((string) product.DisplayName)">
-                </a>
+	@foreach (var route in Model.Routes)
+	{
+		<input type="hidden" class="@route.Key" value="@route.Value" />
+	}
+	<ul>
+		@foreach (var product in Model.Products)
+		{
+		<li>
+			<a title="@Html.HtmlSanitize((string) product.DisplayName)" href="@product.ProductUrl">
+				<img title="Top 100 Digital Agencies" src="@product.ThumbnailImageMediaUrl" alt="@Html.HtmlSanitize((string) product.DisplayName)">
+			</a>
 
-                <a href="@product.ProductUrl">@Html.HtmlSanitize((string) product.DisplayName)</a>
+			<a href="@product.ProductUrl">@Html.HtmlSanitize((string)product.DisplayName)</a>
 
-                <div>
-                    <span>@product.Price</span>
-                    @if (!string.IsNullOrWhiteSpace(product.Discount))
-                    {
-                        <p>@Html.Resource("Discount", "UcommerceResources"):</p>
-                        <span>@product.Discount</span>
-                    }
-                </div>
-                
-                @if (product.IsSellableProduct)
-                {
-                    <add-to-basket :product-sku="'@product.Sku'" :root-id="$el.id">
-                </add-to-basket>
-                <div>
-                    <a class="text-info" href="@product.ProductUrl">@Html.Resource("WriteReview", "UcommerceResources")</a>
-                </div>
-                }
-            </li>           
-        }
-    </ul>
+			<div>
+				<span>@product.Price</span>
+				@if (!string.IsNullOrWhiteSpace(product.Discount))
+				{
+					<p>@Html.Resource("Discount", "UcommerceResources"):</p>
+					<span>@product.Discount</span>
+				}
+			</div>
 
-    <div>
-        <em>@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
-    </div>
-    @if (Model.ShowPager)
-    {
-        @Html.Action("Index", "ContentPager", new
-        {
-            currentPage = Model.CurrentPage,
-            totalPagesCount = Model.TotalPagesCount.Value,
-            redirectUrlTemplate = Model.PagingUrlTemplate
-        })
-    }
+			@if (product.IsAddableToCart && product.IsSellableProduct)
+			{
+				<add-to-basket :product-sku="'@product.Sku'" :root-id="$el.id"></add-to-basket>
+				<div>
+					<a class="text-info" href="@product.ProductUrl">@Html.Resource("WriteReview", "UcommerceResources")</a>
+				</div>
+			}
+			else
+			{
+				@Html.Resource("ViewProduct", "UcommerceResources")
+			}
+		</li>
+		}
+	</ul>
+
+	<div>
+		<em>@Model.TotalCount @Html.Resource("Products", "UcommerceResources")</em>
+	</div>
+	@if (Model.ShowPager)
+	{
+		@Html.Action("Index", "ContentPager", new
+		{
+			currentPage = Model.CurrentPage,
+			totalPagesCount = Model.TotalPagesCount.Value,
+			redirectUrlTemplate = Model.PagingUrlTemplate
+		})
+	}
 </div>
 
 <script type="text/x-template" id="add-to-basket-template">
-    <div>
-        <span>@Html.Resource("Quantity", "UcommerceResources"):</span>
-        <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityRequiredFieldValidator" style="display:none;">
-            <span>
-                @Html.Resource("SpecifyQuantity", "UcommerceResources")
-            </span>
-        </span>
-        <span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityValidator" style="display:none;">
-            <span>
-                @Html.Resource("QuantityValidation", "UcommerceResources")
-            </span>
-        </span>
-        <input title="@Html.Resource("ProductQuantity", "UcommerceResources")" id="productQuantityInput" v-model="quantity" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$quantity" type="text" />
+	<div>
+		<span>@Html.Resource("Quantity", "UcommerceResources"):</span>
+		<span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityRequiredFieldValidator" style="display:none;">
+			<span>
+				@Html.Resource("SpecifyQuantity", "UcommerceResources")
+			</span>
+		</span>
+		<span id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_quantityValidator" style="display:none;">
+			<span>
+				@Html.Resource("QuantityValidation", "UcommerceResources")
+			</span>
+		</span>
+		<input title="@Html.Resource("ProductQuantity", "UcommerceResources")" id="productQuantityInput" v-model="quantity" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$quantity" type="text" />
 
-        <input type="button" title="Add to cart button" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$addToCartButton" value="@Html.Resource("AddToCart", "UcommerceResources")" v-on:click="addToBasket()" id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_addToCartButton" />
-        <span v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
-    </div>
+		<input type="button" title="Add to cart button" name="ctl00$contentPlaceholder$C020$productsFrontendDetail$ctl00$ctl00$SingleItemContainer$ctrl0$addToCartWidget$ctl00$ctl00$addToCartButton" value="@Html.Resource("AddToCart", "UcommerceResources")" v-on:click="addToBasket()" id="ctl00_contentPlaceholder_C020_productsFrontendDetail_ctl00_ctl00_SingleItemContainer_ctrl0_addToCartWidget_ctl00_ctl00_addToCartButton" />
+		<span v-show="showAddToBasketMessage">{{addToBasketMessage}}</span>
+	</div>
 </script>

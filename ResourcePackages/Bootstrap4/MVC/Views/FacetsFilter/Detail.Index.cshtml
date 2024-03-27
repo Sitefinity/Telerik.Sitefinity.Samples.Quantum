@@ -23,7 +23,7 @@
 
         <ul v-cloak>
             <li v-for="facet in facets" v-bind:key="facet.DisplayName">
-                <h3>by {{ facet.DisplayName }}</h3>
+                <h3>by {{ facet.Name }}</h3>
                 <ul>
                     <li v-for="filter in facet.FacetValues" v-bind:style="filter.FacetValueHits == 0 && {'opacity' : 0.5}">
                         <label v-bind:class="filter.Checked && 'active'">
