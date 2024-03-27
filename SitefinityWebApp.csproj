@@ -1107,8 +1107,8 @@
     <Reference Include="Ucommerce.Sitefinity.Installer, Version=9.7.0.23075, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Ucommerce.Sitefinity.9.7.0.23075\lib\Ucommerce.Sitefinity.Installer.dll</HintPath>
     </Reference>
-    <Reference Include="UCommerce.Sitefinity.UI, Version=4.0.3.23013, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Ucommerce.Sitefinity.UI.4.0.4.23061\lib\net48\UCommerce.Sitefinity.UI.dll</HintPath>
+    <Reference Include="UCommerce.Sitefinity.UI, Version=4.0.5.24066, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Ucommerce.Sitefinity.UI.4.0.7.24087\lib\net48\UCommerce.Sitefinity.UI.dll</HintPath>
     </Reference>
     <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.7.0.23075, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\uCommerce.Core.9.7.0.23075\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
@@ -1460,6 +1460,20 @@
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-8+4.html" />
     <Content Include="ResourcePackages\Bootstrap4\GridSystem\Templates\grid-9+3.html" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Scripts\Navigation\pills.js" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Address\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\BasketPreview\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Cart\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\CategoryNavigation\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ConfirmationEmail\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ConfirmationMessage\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\FacetsFilter\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\MiniBasket\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\PaymentPicker\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Products\Detail.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Products\List.Index.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Shared\readme.txt" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Shared\_Warning.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\ShippingPicker\Detail.Index.cshtml" />
     <Content Include="ResourcePackages\Bootstrap5\assets\dist\css\main.css" />
     <Content Include="ResourcePackages\Bootstrap5\assets\dist\css\main.min.css" />
     <Content Include="ResourcePackages\Bootstrap5\assets\dist\css\main.min.rtl.css" />
