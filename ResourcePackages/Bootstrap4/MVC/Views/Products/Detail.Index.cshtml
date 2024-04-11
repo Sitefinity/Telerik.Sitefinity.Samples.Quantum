@@ -69,12 +69,7 @@
 				@Html.HtmlSanitize(Model.LongDescription)
 			</div>
 
-			<div>
-				@Html.Resource("Availability", "UcommerceResources"):
-				<span>@Html.Resource("InStock", "UcommerceResources")</span>
-			</div>
-
-			<div>
+            <div>
 				@{
 					if (Model.VariantTypes.Any())
 					{
