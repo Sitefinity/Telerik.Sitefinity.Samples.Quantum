@@ -20,7 +20,7 @@ licensed Progress Products only. This Agreement does not grant You a
 license or any rights to use or distribute Progress Products. To obtain
 more information about Progress Products and/or to obtain a license for
 one or more Progress Products please
-visit [[www.progress.com]{.underline}](http://www.progress.com/).
+visit [www.progress.com](http://www.progress.com/).
 
 You are granted the following limited license rights while You maintain,
 and are in compliance with the terms of, a valid license to one or more
@@ -89,7 +89,7 @@ identify trends and bugs, collect activation information, usage
 statistics and track other data related to Your use of the Software as
 further described in the most current version of Progress Privacy Policy
 (located
-at: [[https://www.progress.com/legal/privacy-policy]{.underline}](https://www.progress.com/legal/privacy-policy)).
+at: [https://www.progress.com/legal/privacy-policy](https://www.progress.com/legal/privacy-policy)).
 By Your acceptance of the terms of this Agreement and/or use of the
 Software, You authorize the collection, use and disclosure of this data
 for the purposes provided for in this Agreement and/or the Privacy
