@@ -50,12 +50,12 @@
     },
     {
         name: "htmlView",
-        template: "<button class=\"custom-tool btn btn-default btn-xs js-htmlview js-custom-tool\" ng-click=\"toggleHtmlView()\">\{\{htmlViewLabel\}\}</button>"
+        template: "<button class=\"custom-tool btn btn-default btn-xs js-htmlview js-custom-tool\" ng-click=\"toggleHtmlView()\">HTML</button>"
     }
     ]'>
 </textarea>
 
-<sf-link-selector-modal id="linkSelectorModal"></sf-link-selector-modal>
+<sf-link-selector-modal class="linkSelectorModal"></sf-link-selector-modal>
 
 <div class="mediaPropertiesModal"
      template-url="{{mediaPropertiesDialog}}"
