@@ -60,6 +60,7 @@ For a full list of the referenced packages and their versions see the packages.c
 1. In Solution Explorer, navigate to _SitefinityWebApp_ -&gt; _App\_Data_ -&gt; _Sitefinity_ -&gt; _Configuration_ and select the  **DataConfig.config**  file.
 2. Modify the  **connectionString**  value to match your server address.
 3. Build the solution.
+4. Get the ASP.NET Core renderer project: [ASP.NET Core Samples](https://github.com/Sitefinity/sitefinity-aspnetcore-mvc-samples/tree/master/src/quantum)
 
 ### **Login**
 
