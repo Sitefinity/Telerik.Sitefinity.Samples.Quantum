@@ -28,6 +28,7 @@ Some of the main highlights of the Quantum project include:
 
 - Sitefinity CMS license
 - .NET Framework 4.8
+- .NET 9.0 SDK or later
 - Visual Studio 2015 or later
 - Microsoft SQL Server 2012R2 or later versions
 - Windows Identity Foundation NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
@@ -40,7 +41,9 @@ See a complete list of the system requirements for the solution here: http://doc
 
 You need to attach the database backup files to your SQL Server. To do this:
 
-1. Download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_1508200.zip). **If using the .NET Renderer, download the database backup file from [here](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDb_V141_NetRenderer.zip)**
+1. Download the database backup file
+	- To use ASP.NET Core renderer (recommended) download the [**QuantumDb_V154_NetRenderer.zip**](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDb_V154_NetRenderer.zip)  file.
+	- For legacy ASP.NET Framework MVC/WebForms download the [**QuantumDB_v_1548623.zip**](https://sitefinitystore.blob.core.windows.net/files/Telerik.Sitefinity.Samples.Quantum/QuantumDB_v_1548623.zip) file.
 2. Unzip the  **QuantumDB_version.zip**  file.
 3. In SQL Management Studio, open the context menu of _Databases_ and click _Restore database..._
 4. Locate the database backup file that was extracted in step 3 and proceed with the restoration of the database.
